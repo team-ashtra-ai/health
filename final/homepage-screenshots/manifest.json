@@ -1,8 +1,17 @@
 {
   "baseUrl": "http://127.0.0.1:8000",
+  "fullPage": true,
   "viewports": {
-    "desktop": "1440,1100",
-    "mobile": "390,844"
+    "desktop": {
+      "width": 1440,
+      "height": 1100,
+      "mobile": false
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "mobile": true
+    }
   },
   "count": 102,
   "screenshots": [

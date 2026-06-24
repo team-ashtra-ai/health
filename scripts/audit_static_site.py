@@ -37,7 +37,14 @@ PAGE_FILES = [
     "privacy.html", "cookies.html", "accessibility.html", "404.html",
 ]
 
-PARTIALS = ["status-banner.html", "header.html", "footer.html", "mobile-menu.html", "concept-switcher.html"]
+PARTIALS = [
+    "head.html", "header.html", "navigation.html", "mobile-menu.html", "footer.html",
+    "floating-widgets.html", "floating-whatsapp.html", "back-to-top.html", "schema.html",
+    "cookie-banner.html", "accessibility.html", "consultation-form.html", "contact-card.html",
+    "status-banner.html", "concept-switcher.html",
+]
+
+FORM_ENDPOINT = "https://formspree.io/f/xzdldkjy"
 
 SERVICE_TERMS = [
     "Advanced aesthetic biomedicine",
@@ -180,6 +187,8 @@ def check_structure(errors: list[str]) -> list[Path]:
             errors.append(f"Missing CSS: concepts/{name}/css/style.css")
         if not (concept / "js" / "main.js").exists():
             errors.append(f"Missing JS: concepts/{name}/js/main.js")
+        if not (concept / "js" / "partials.js").exists():
+            errors.append(f"Missing partial loader JS: concepts/{name}/js/partials.js")
         if not (concept / "assets").is_dir():
             errors.append(f"Missing assets folder: concepts/{name}/assets")
         notes = concept / "design-notes.md"
@@ -210,17 +219,37 @@ def check_files(errors: list[str]) -> dict[str, object]:
         if css.exists():
             css_hashes.setdefault(digest(css), []).append(name)
             css_text = css.read_text(encoding="utf-8")
-            for needle in ("site-header", "mobile-menu", "hero", "site-footer", "@media"):
+            for needle in ("site-header", "mobile-menu", "hero", "site-footer", "floating-tools", "@media"):
                 if needle not in css_text:
                     errors.append(f"CSS missing {needle}: concepts/{name}/css/style.css")
         if js.exists():
             js_hashes.setdefault(digest(js), []).append(name)
             js_text = js.read_text(encoding="utf-8")
-            for needle in ("data-menu-toggle", "IntersectionObserver", "data-consultation-form", "sofiati-language", "applyLanguage", "pt-BR"):
+            for needle in ("data-menu-toggle", "IntersectionObserver", "data-consultation-form", "sofiati-language", "applyLanguage", "pt-BR", "data-back-to-top"):
                 if needle not in js_text:
                     errors.append(f"JS missing {needle}: concepts/{name}/js/main.js")
+        partials_js = concept / "js" / "partials.js"
+        if partials_js.exists():
+            partials_text = partials_js.read_text(encoding="utf-8")
+            for needle in ("fetch(partialPath", "data-navigation-slot", "buildSchema", "ProfessionalService", "FAQPage", "data-partial-mount"):
+                if needle not in partials_text:
+                    errors.append(f"Partials JS missing {needle}: concepts/{name}/js/partials.js")
 
         combined_text_parts: list[str] = []
+        partial_text_parts: list[str] = []
+        for partial in PARTIALS:
+            partial_path = concept / "partials" / partial
+            if partial_path.exists():
+                partial_raw = partial_path.read_text(encoding="utf-8")
+                partial_text_parts.append(text_for(partial_path))
+                if partial == "header.html" and ("WhatsApp" in BeautifulSoup(partial_raw, "html.parser").get_text(" ", strip=True) or "wa.me" in partial_raw):
+                    errors.append(f"WhatsApp present in header partial: concepts/{name}/partials/header.html")
+                if partial == "consultation-form.html":
+                    for needle in (FORM_ENDPOINT, 'name="_gotcha"', "privacy_acknowledgement", "data-consultation-form"):
+                        if needle not in partial_raw:
+                            errors.append(f"Consultation form partial missing {needle}: concepts/{name}/partials/consultation-form.html")
+                if partial == "schema.html" and "SCHEMA_JSON" not in partial_raw:
+                    errors.append(f"Schema partial missing schema placeholder: concepts/{name}/partials/schema.html")
         for filename in PAGE_FILES:
             page = concept / filename
             if not page.exists():
@@ -232,32 +261,58 @@ def check_files(errors: list[str]) -> dict[str, object]:
                 errors.append(f"Root/shared runtime dependency in concepts/{name}/{filename}")
             if '<html lang="pt-BR" data-source-lang="en" data-default-lang="pt">' not in raw:
                 errors.append(f"Page is not PT-default with English source marker: concepts/{name}/{filename}")
-            for needle in ("data-status-banner", "data-lang-switch", "data-default-lang=\"pt\""):
+            for needle in ('data-default-lang="pt"', 'data-partial-mount="status-banner"', 'data-partial-mount="header"', 'data-partial-mount="mobile-menu"', 'data-partial-mount="footer"', 'data-partial-mount="floating-widgets"', 'data-partial-mount="consultation-form"', 'data-partial-mount="contact-card"', 'js/partials.js'):
                 if needle not in raw:
-                    errors.append(f"Missing PT/banner marker {needle}: concepts/{name}/{filename}")
+                    errors.append(f"Missing shell/partial marker {needle}: concepts/{name}/{filename}")
+            for comment in ("<!-- Hero Section -->", "<!-- Header Partial Mount -->", "<!-- Footer Partial Mount -->", "<!-- Consultation Form Section -->", "<!-- Schema Partial Mount -->"):
+                if comment not in raw:
+                    errors.append(f"Missing section/mount comment {comment}: concepts/{name}/{filename}")
+            for forbidden in ("<header", "<footer", 'id="mobile-menu"', "floating-whatsapp", "data-back-to-top", "application/ld+json"):
+                if forbidden in raw:
+                    errors.append(f"Inline chrome/schema found in page shell: concepts/{name}/{filename} contains {forbidden}")
+            for needle in ("data-floating-tools", "floating-whatsapp", "data-back-to-top"):
+                partial_blob = "\n".join((concept / "partials" / partial).read_text(encoding="utf-8") for partial in PARTIALS if (concept / "partials" / partial).exists())
+                if needle not in partial_blob:
+                    errors.append(f"Missing floating widget marker {needle}: concepts/{name}/partials")
+                    break
+            if filename == "index.html":
+                soup_for_sections = BeautifulSoup(raw, "html.parser")
+                section_count = len(soup_for_sections.find_all("section"))
+                if section_count < 10:
+                    errors.append(f"Homepage has fewer than 10 sections: concepts/{name}/index.html ({section_count})")
+            for needle in ("data-page-title", "data-page-description", "data-canonical"):
+                if needle not in raw:
+                    errors.append(f"Missing page metadata data attribute {needle}: concepts/{name}/{filename}")
             for label, pattern in FORBIDDEN_PATTERNS.items():
                 if pattern.search(raw) or pattern.search(text):
                     errors.append(f"Forbidden {label}: concepts/{name}/{filename}")
             soup = BeautifulSoup(raw, "html.parser")
+            header = soup.find("header")
+            if header and ("WhatsApp" in header.get_text(" ", strip=True) or "wa.me" in str(header)):
+                errors.append(f"WhatsApp present in header: concepts/{name}/{filename}")
             for tag in soup.find_all(["a", "link", "script", "img"]):
                 attr = "href" if tag.name in {"a", "link"} else "src"
                 value = tag.get(attr)
                 if value and not local_target_exists(page, value, concept):
                     errors.append(f"Broken local {attr}: concepts/{name}/{filename} -> {value}")
             if filename == "index.html":
-                for key, store in (
-                    ("header", header_markers),
-                    ("footer", footer_markers),
-                    ("menu", menu_markers),
-                    ("section-order", section_orders),
-                ):
-                    found = marker(raw, key)
+                header_raw = (concept / "partials" / "header.html").read_text(encoding="utf-8") if (concept / "partials" / "header.html").exists() else ""
+                footer_raw = (concept / "partials" / "footer.html").read_text(encoding="utf-8") if (concept / "partials" / "footer.html").exists() else ""
+                menu_raw = (concept / "partials" / "mobile-menu.html").read_text(encoding="utf-8") if (concept / "partials" / "mobile-menu.html").exists() else ""
+                marker_sources = {
+                    "header": (header_raw, header_markers),
+                    "footer": (footer_raw, footer_markers),
+                    "menu": (menu_raw, menu_markers),
+                    "section-order": (raw, section_orders),
+                }
+                for key, (source, store) in marker_sources.items():
+                    found = marker(source, key)
                     if found:
                         store[name] = found
                     else:
-                        errors.append(f"Missing data-{key} marker in concepts/{name}/index.html")
+                        errors.append(f"Missing data-{key} marker in concept {name}")
 
-        combined_text = " ".join(combined_text_parts)
+        combined_text = " ".join(combined_text_parts + partial_text_parts)
         lowered = combined_text.lower()
         for term in SERVICE_TERMS:
             if term.lower() not in lowered:
@@ -305,6 +360,8 @@ def check_screenshots(errors: list[str]) -> int:
         return 0
     data = json.loads(manifest.read_text(encoding="utf-8"))
     count = int(data.get("count", 0))
+    if data.get("fullPage") is not True:
+        errors.append("Homepage screenshot manifest is not marked full-page")
     if count < 100:
         errors.append(f"Expected at least 100 concept homepage screenshots, found {count}")
     for entry in data.get("screenshots", []):

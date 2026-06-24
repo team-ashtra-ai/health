@@ -36,6 +36,8 @@ BRAND = {
     "domain_url": "https://www.sofiati.com",
 }
 
+FORMSPREE_ENDPOINT = "https://formspree.io/f/xzdldkjy"
+
 CONCEPTS = [
     ("01", "inspire", "Inspire", "https://joaodermatologista.com.br/", "editorial diagnosis journey", "split masthead with clinical proof rail", "chaptered fullscreen drawer", "business-card editorial footer", "soft reveal with line drawing"),
     ("02", "empower", "Empower", "https://www.clinicadravanessavanzo.com.br/", "boutique contact architecture", "card-like sticky header", "ivory contact-sheet menu", "oversized logo footer", "contact card parallax"),
@@ -412,6 +414,11 @@ PT_PHRASES = {
     "Book consultation": "Agendar consulta",
     "Schedule evaluation": "Agendar avaliação",
     "Start with WhatsApp": "Começar no WhatsApp",
+    "Back to top": "Voltar ao topo",
+    "Image-led care": "Cuidado guiado por imagem",
+    "A soft visual pause keeps the experience calm and easy to scan.": "Uma pausa visual suave mantém a experiência calma e fácil de ler.",
+    "Botanical clinical calm": "Calma clínica botânica",
+    "A visual rhythm for laser, skin and consultation decisions.": "Um ritmo visual para decisões sobre laser, pele e consulta.",
     "View laser care": "Ver laser",
     "Explore care": "Ver cuidados",
     "Learn about skin": "Ver pele",
@@ -453,6 +460,7 @@ PT_PHRASES = {
     "Message": "Mensagem",
     "Send request": "Enviar",
     "Professional evaluation before protocol selection.": "Avaliação profissional antes da escolha do protocolo.",
+    "Continue to contact": "Ir para contato",
     "Responsible aesthetic information": "Informação estética responsável",
     "Results may vary according to individual characteristics, professional evaluation, treatment indication, protocol, number of sessions and aftercare. Information on this website is educational and does not replace an individual professional evaluation.": "Os resultados podem variar conforme características individuais, avaliação profissional, indicação, protocolo, número de sessões e cuidados posteriores. As informações deste site são educativas e não substituem uma avaliação profissional individual.",
     "Skip to main content": "Ir para o conteúdo principal",
@@ -610,6 +618,53 @@ def translation_dictionary() -> dict[str, str]:
         translations.setdefault(motion, motion)
         translations.setdefault(f"Concept {number} / 50", f"Conceito {number} / 50")
         translations.setdefault(f"Concept {number} · {name}", f"Conceito {number} · {name}")
+    translations.update({
+        "Cookie preferences": "Preferencias de cookies",
+        "Only essential preferences are active in this static concept.": "Apenas preferencias essenciais estao ativas neste conceito estatico.",
+        "OK": "OK",
+        "Text": "Texto",
+        "Motion": "Movimento",
+        "Name": "Nome",
+        "WhatsApp": "WhatsApp",
+        "Email": "E-mail",
+        "Treatment interest": "Interesse de tratamento",
+        "Select one": "Selecione uma opcao",
+        "Message": "Mensagem",
+        "I understand this request does not replace individual professional evaluation.": "Entendo que esta solicitacao nao substitui a avaliacao profissional individual.",
+        "Send request": "Enviar solicitacao",
+        "Sending your request...": "Enviando sua solicitacao...",
+        "Thank you. Your request was sent.": "Obrigada. Sua solicitacao foi enviada.",
+        "The form could not be sent. Please use WhatsApp or email.": "Nao foi possivel enviar o formulario. Use WhatsApp ou e-mail.",
+        "Please complete the required fields.": "Preencha os campos obrigatorios.",
+        "Your message is sent through Formspree and should not include sensitive medical details.": "Sua mensagem e enviada pelo Formspree e nao deve incluir detalhes medicos sensiveis.",
+        "Begin with evaluation": "Comece pela avaliacao",
+        "Share goals, contact details and treatment interest so the next step can be guided responsibly.": "Compartilhe objetivos, contatos e interesse de tratamento para orientar o proximo passo com responsabilidade.",
+        "A short consultation route keeps decisions calm, private and evaluation-led.": "Uma rota breve de consulta mantem as decisoes calmas, privadas e guiadas por avaliacao.",
+        "Credentials": "Credenciais",
+        "Biomedical foundation": "Base biomedica",
+        "CRBM 6277, clinical pathology background, aesthetics, cosmetology and laser specialism guide the care path.": "CRBM 6277, base em patologia clinica, estetica, cosmetologia e especialidade em laser orientam o cuidado.",
+        "Care philosophy": "Filosofia de cuidado",
+        "Precision with warmth": "Precisao com acolhimento",
+        "Treatment decisions begin with listening, suitability and natural-looking expectations.": "As decisoes de tratamento comecam com escuta, indicacao e expectativas naturais.",
+        "Laser guided by evaluation": "Laser guiado por avaliacao",
+        "Laser hair removal and rejuvenation topics are framed through preparation, indication and aftercare.": "Depilacao a laser e rejuvenescimento sao tratados com preparo, indicacao e cuidados posteriores.",
+        "Skin quality first": "Qualidade da pele primeiro",
+        "Skin cleansing, sensitivity, spots, melasma and texture education stay clear and careful.": "Limpeza de pele, sensibilidade, manchas, melasma e textura sao apresentados com clareza e cuidado.",
+        "No invented outcomes. Expectations stay linked to protocol, sessions, characteristics and aftercare.": "Sem resultados inventados. Expectativas seguem ligadas a protocolo, sessoes, caracteristicas e cuidados posteriores.",
+        "Care with restraint": "Cuidado com contencao",
+        "The mission is to make advanced aesthetic biomedicine feel precise, human and ethically clear.": "A missao e tornar a biomedicina estetica avancada precisa, humana e eticamente clara.",
+        "Safety, clarity, naturalness": "Seguranca, clareza, naturalidade",
+        "The values page turns the Sofiati tone into practical decisions before, during and after care.": "A pagina de valores transforma o tom Sofiati em decisoes praticas antes, durante e depois do cuidado.",
+        "Short education notes": "Notas educativas breves",
+        "Laser, skin and aftercare topics help visitors arrive with better consultation questions.": "Temas de laser, pele e cuidados posteriores ajudam visitantes a chegar com melhores perguntas.",
+        "Client experience": "Experiencia da cliente",
+        "Approval-first stories": "Historias somente com aprovacao",
+        "Testimonials and patient media are only used when reviewed and approved.": "Depoimentos e midias de pacientes so sao usados quando revisados e aprovados.",
+        "Questions before protocols": "Perguntas antes dos protocolos",
+        "Brief answers support clarity while returning treatment decisions to individual evaluation.": "Respostas breves apoiam clareza e mantem as decisoes na avaliacao individual.",
+        "Contact Franciele Sofiati": "Contato com Franciele Sofiati",
+        "Use public contact routes for consultation requests and approved communication.": "Use rotas publicas de contato para solicitacoes de consulta e comunicacao aprovada.",
+    })
     return translations
 
 
@@ -650,6 +705,11 @@ def page_href(page_key: str) -> str:
     return f"{page_key}.html"
 
 
+PRIMARY_NAV_KEYS = ["index", "about", "care", "laser", "skin", "results", "journal", "consultation", "contact"]
+COMPACT_NAV_KEYS = ["index", "care", "laser", "skin", "consultation", "contact"]
+SECONDARY_NAV_KEYS = ["mission", "values", "testimonials", "blog", "faq", "legal", "privacy", "cookies", "accessibility"]
+
+
 def nav_links_for(keys: list[str], current: str) -> str:
     items = []
     for key in keys:
@@ -660,10 +720,41 @@ def nav_links_for(keys: list[str], current: str) -> str:
 
 
 def nav_links(current: str, compact: bool = False) -> str:
-    keys = ["index", "about", "care", "laser", "skin", "results", "blog", "faq", "consultation", "contact"]
-    if compact:
-        keys = ["index", "care", "laser", "skin", "consultation", "contact"]
-    return nav_links_for(keys, current)
+    return nav_links_for(COMPACT_NAV_KEYS if compact else PRIMARY_NAV_KEYS, current)
+
+
+def mobile_menu_links(current: str, variant: str) -> str:
+    primary = nav_links_for(PRIMARY_NAV_KEYS, current)
+    secondary = nav_links_for(SECONDARY_NAV_KEYS, current)
+    return dedent(
+        f"""
+        <div class="mobile-menu-links mobile-menu-links-{variant}">
+          <nav class="mobile-menu-primary" aria-label="Mobile primary navigation">{primary}</nav>
+          <nav class="mobile-menu-secondary" aria-label="Mobile secondary navigation">{secondary}</nav>
+        </div>
+        """
+    ).strip()
+
+
+def nav_slot(mode: str) -> str:
+    return f'<div class="navigation-slot" data-navigation-slot="{esc(mode)}"></div>'
+
+
+def navigation_markup(concept: Concept) -> str:
+    templates = {
+        "primary": nav_links_for(PRIMARY_NAV_KEYS, ""),
+        "compact": nav_links_for(COMPACT_NAV_KEYS, ""),
+        "split-left": nav_links_for(["index", "about", "care", "laser"], ""),
+        "split-right": nav_links_for(["skin", "results", "journal", "consultation", "contact"], ""),
+        "editorial": nav_links_for(["care", "laser", "skin", "journal", "consultation"], ""),
+        "proof": nav_links_for(["index", "laser", "skin", "results", "faq"], ""),
+    }
+    rendered = []
+    for mode, links in templates.items():
+        rendered.append(
+            f'<template data-navigation-template="{mode}"><nav class="desktop-nav desktop-nav-{mode}" aria-label="Primary navigation">{links}</nav></template>'
+        )
+    return "\n".join(rendered)
 
 
 def rotated_sections(concept: Concept, page_key: str) -> list[tuple[str, str]]:
@@ -737,14 +828,14 @@ def header_markup(concept: Concept, current: str) -> str:
     marker = f"header-{concept.number}-{concept.slug}-{layout}"
     brand = brand_markup()
     menu_button = '<button class="menu-button" type="button" data-menu-toggle aria-controls="mobile-menu" aria-expanded="false">Menu</button>'
-    whatsapp = f'<a class="mini-contact" href="{BRAND["whatsapp_url"]}" rel="noopener" target="_blank">WhatsApp</a>'
+    consult = '<a class="mini-contact" href="consultation.html">Consultation</a>'
     if n % 8 == 1:
         return dedent(
             f"""
             <header class="site-header header-{layout} header-classic" data-header="{marker}">
               {brand}
-              <nav class="desktop-nav" aria-label="Primary navigation">{nav_links(current)}</nav>
-              <div class="header-actions">{whatsapp}{menu_button}</div>
+              {nav_slot("primary")}
+              <div class="header-actions">{menu_button}</div>
             </header>
             """
         ).strip()
@@ -753,7 +844,7 @@ def header_markup(concept: Concept, current: str) -> str:
             f"""
             <header class="site-header header-{layout} header-card-stack" data-header="{marker}">
               <div class="header-meta"><span>{esc(BRAND['credential'])}</span><span>{esc(BRAND['location'])}</span></div>
-              <div class="header-main">{brand}<nav class="desktop-nav" aria-label="Primary navigation">{nav_links(current, compact=True)}</nav><div class="header-actions">{whatsapp}{menu_button}</div></div>
+              <div class="header-main">{brand}{nav_slot("compact")}<div class="header-actions">{menu_button}</div></div>
             </header>
             """
         ).strip()
@@ -761,10 +852,10 @@ def header_markup(concept: Concept, current: str) -> str:
         return dedent(
             f"""
             <header class="site-header header-{layout} header-split-nav" data-header="{marker}">
-              <nav class="desktop-nav nav-left" aria-label="Primary navigation left">{nav_links_for(["index", "about", "care", "laser"], current)}</nav>
+              <div class="nav-left">{nav_slot("split-left")}</div>
               {brand}
-              <nav class="desktop-nav nav-right" aria-label="Primary navigation right">{nav_links_for(["skin", "results", "blog", "consultation", "contact"], current)}</nav>
-              <div class="header-actions">{whatsapp}{menu_button}</div>
+              <div class="nav-right">{nav_slot("split-right")}</div>
+              <div class="header-actions">{menu_button}</div>
             </header>
             """
         ).strip()
@@ -774,8 +865,8 @@ def header_markup(concept: Concept, current: str) -> str:
             <header class="site-header header-{layout} header-command" data-header="{marker}">
               <div class="header-actions header-actions-left">{menu_button}<span>{esc(concept.name)}</span></div>
               {brand}
-              <nav class="desktop-nav" aria-label="Primary navigation">{nav_links(current, compact=True)}</nav>
-              <a class="mini-contact" href="consultation.html">Book consultation</a>
+              {nav_slot("compact")}
+              {consult}
             </header>
             """
         ).strip()
@@ -785,8 +876,8 @@ def header_markup(concept: Concept, current: str) -> str:
             <header class="site-header header-{layout} header-editorial" data-header="{marker}">
               <div class="header-kicker">{esc(concept.number)} / 50</div>
               {brand}
-              <nav class="desktop-nav" aria-label="Primary navigation">{nav_links_for(["care", "laser", "skin", "journal", "consultation"], current)}</nav>
-              <div class="header-actions">{menu_button}{whatsapp}</div>
+              {nav_slot("editorial")}
+              <div class="header-actions">{menu_button}</div>
             </header>
             """
         ).strip()
@@ -796,10 +887,10 @@ def header_markup(concept: Concept, current: str) -> str:
             <header class="site-header header-{layout} header-rail" data-header="{marker}">
               {brand}
               <div class="header-rail-links">
-                <nav class="desktop-nav" aria-label="Primary navigation">{nav_links(current, compact=True)}</nav>
+                {nav_slot("compact")}
                 <span>{esc(concept.header)}</span>
               </div>
-              <div class="header-actions">{menu_button}{whatsapp}</div>
+              <div class="header-actions">{menu_button}</div>
             </header>
             """
         ).strip()
@@ -809,7 +900,7 @@ def header_markup(concept: Concept, current: str) -> str:
             <header class="site-header header-{layout} header-proof" data-header="{marker}">
               <button class="menu-button menu-button-visible" type="button" data-menu-toggle aria-controls="mobile-menu" aria-expanded="false">Menu</button>
               {brand}
-              <nav class="desktop-nav" aria-label="Primary navigation">{nav_links_for(["index", "laser", "skin", "results", "faq"], current)}</nav>
+              {nav_slot("proof")}
               <a class="mini-contact" href="consultation.html">Evaluation</a>
             </header>
             """
@@ -819,8 +910,8 @@ def header_markup(concept: Concept, current: str) -> str:
         <header class="site-header header-{layout} header-monogram" data-header="{marker}">
           <img class="header-symbol" src="assets/brand/sofiati-monogram-bronze.png" alt="">
           {brand}
-          <nav class="desktop-nav" aria-label="Primary navigation">{nav_links(current, compact=(n % 3 == 0))}</nav>
-          <div class="header-actions">{whatsapp}{menu_button}</div>
+          {nav_slot("compact" if n % 3 == 0 else "primary")}
+          <div class="header-actions">{menu_button}</div>
         </header>
         """
     ).strip()
@@ -829,18 +920,19 @@ def header_markup(concept: Concept, current: str) -> str:
 def mobile_menu_markup(concept: Concept, current: str) -> str:
     n = int(concept.number)
     variant = ["chapter", "sheet", "index", "botanical", "concierge", "apothecary"][(n - 1) % 6]
+    links = mobile_menu_links(current, variant)
     if variant == "chapter":
-        body = f'<nav class="mobile-menu-chapters" aria-label="Mobile navigation">{nav_links(current)}</nav>'
+        body = links
     elif variant == "sheet":
-        body = f'<div class="mobile-sheet-grid"><nav aria-label="Mobile navigation">{nav_links(current, compact=True)}</nav><p>{esc(concept.archetype)}</p></div>'
+        body = f'<div class="mobile-sheet-grid">{links}<p>{esc(concept.archetype)}</p></div>'
     elif variant == "index":
-        body = f'<ol class="mobile-index-list">{nav_links(current).replace("<a ", "<a data-index-link ")}</ol>'
+        body = links.replace("mobile-menu-links", "mobile-menu-links mobile-index-list", 1)
     elif variant == "botanical":
-        body = f'<img class="mobile-menu-bloom" src="assets/brand/sofiati-botanical-line-mark.svg" alt=""><nav aria-label="Mobile navigation">{nav_links(current)}</nav>'
+        body = f'<img class="mobile-menu-bloom" src="assets/brand/sofiati-botanical-line-mark.svg" alt="">{links}'
     elif variant == "concierge":
-        body = f'<nav class="mobile-menu-concierge" aria-label="Mobile navigation">{nav_links_for(["consultation", "contact", "laser", "skin", "care", "faq"], current)}</nav><a class="mobile-whatsapp" href="{BRAND["whatsapp_url"]}">Start with WhatsApp</a>'
+        body = f'<div class="mobile-menu-concierge">{links}<a class="mobile-consult" href="consultation.html">Book consultation</a></div>'
     else:
-        body = f'<nav class="mobile-menu-text" aria-label="Mobile navigation">{nav_links(current)}</nav>'
+        body = links
     return dedent(
         f"""
         <aside class="mobile-menu mobile-menu-{variant}" id="mobile-menu" data-menu="{concept.number}-{concept.slug}-{concept.menu.replace(' ', '-')}" aria-hidden="true">
@@ -897,6 +989,126 @@ def footer_markup(concept: Concept, current: str) -> str:
         <footer class="site-footer footer-{cols}" data-footer="footer-{concept.number}-{concept.slug}-{cols}">
           {inner}
         </footer>
+        """
+    ).strip()
+
+
+def floating_widgets_markup(concept: Concept) -> str:
+    return dedent(
+        f"""
+        <div class="floating-tools floating-tools-{concept.number}" data-floating-tools>
+          <div data-partial-mount="floating-whatsapp"></div>
+          <div data-partial-mount="back-to-top"></div>
+        </div>
+        """
+    ).strip()
+
+
+def floating_whatsapp_markup(concept: Concept) -> str:
+    return dedent(
+        f"""
+        <a class="floating-whatsapp floating-whatsapp-{concept.number}" href="{BRAND['whatsapp_url']}" rel="noopener" target="_blank" aria-label="Start with WhatsApp">
+          <span aria-hidden="true">WA</span>
+          <b>Start with WhatsApp</b>
+        </a>
+        """
+    ).strip()
+
+
+def back_to_top_markup(concept: Concept) -> str:
+    return dedent(
+        f"""
+        <button class="back-to-top back-to-top-{concept.number}" type="button" data-back-to-top aria-label="Back to top">
+          <span aria-hidden="true">↑</span>
+        </button>
+        """
+    ).strip()
+
+
+def head_partial_markup(concept: Concept) -> str:
+    return dedent(
+        f"""
+        <template data-head-template>
+          <title>{{{{TITLE}}}}</title>
+          <meta name="description" content="{{{{DESCRIPTION}}}}">
+          <link rel="canonical" href="{{{{CANONICAL}}}}">
+          <meta property="og:title" content="{{{{TITLE}}}}">
+          <meta property="og:description" content="{{{{DESCRIPTION}}}}">
+          <meta property="og:image" content="assets/images/home/sofiati-home-hero-botanical-clinical-luxury.webp">
+          <meta name="theme-color" content="{color_mix(concept.accent_index)['deep']}">
+          <link rel="icon" href="assets/brand/sofiati-favicon.svg" type="image/svg+xml">
+          <link rel="apple-touch-icon" href="assets/brand/sofiati-logo-primary-sage.png">
+        </template>
+        """
+    ).strip()
+
+
+def schema_partial_markup(concept: Concept) -> str:
+    return dedent(
+        """
+        <template data-schema-template>
+          <script type="application/ld+json" data-schema-partial>{{SCHEMA_JSON}}</script>
+        </template>
+        """
+    ).strip()
+
+
+def cookie_banner_markup(concept: Concept) -> str:
+    return dedent(
+        f"""
+        <div class="cookie-banner cookie-banner-{concept.number}" data-cookie-banner hidden>
+          <p><strong>Cookie preferences</strong><span>Only essential preferences are active in this static concept.</span></p>
+          <button type="button" data-cookie-accept>OK</button>
+        </div>
+        """
+    ).strip()
+
+
+def accessibility_controls_markup(concept: Concept) -> str:
+    return dedent(
+        f"""
+        <div class="accessibility-tools accessibility-tools-{concept.number}" data-accessibility-tools aria-label="Accessibility controls">
+          <button type="button" data-text-size>Text</button>
+          <button type="button" data-motion-toggle>Motion</button>
+        </div>
+        """
+    ).strip()
+
+
+def consultation_form_markup(concept: Concept) -> str:
+    return dedent(
+        f"""
+        <form class="consultation-form consultation-form-{concept.number}" data-consultation-form action="{FORMSPREE_ENDPOINT}" method="POST" novalidate>
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="honeypot" aria-hidden="true">
+          <label>Name<input name="name" autocomplete="name" required></label>
+          <label>WhatsApp<input name="whatsapp" autocomplete="tel" inputmode="tel" required></label>
+          <label>Email<input name="email" type="email" autocomplete="email" required></label>
+          <label>Treatment interest<select name="interest" required><option value="">Select one</option><option>Professional evaluation</option><option>Laser care</option><option>Skin care</option><option>Results with responsibility</option></select></label>
+          <label class="message-field">Message<textarea name="message" required></textarea></label>
+          <label class="consent-field"><input type="checkbox" name="privacy_acknowledgement" required> I understand this request does not replace individual professional evaluation.</label>
+          <input type="hidden" name="concept" value="{esc(concept.number)} — {esc(concept.name)}">
+          <input type="hidden" name="_subject" value="Sofiati website consultation request">
+          <button class="button button-primary" type="submit" data-submit-label="Send request">Send request</button>
+          <p class="privacy-note">Your message is sent through Formspree and should not include sensitive medical details.</p>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+        """
+    ).strip()
+
+
+def contact_card_markup(concept: Concept) -> str:
+    return dedent(
+        f"""
+        <article class="contact-card contact-card-{concept.number}" data-contact-card>
+          <p class="eyebrow">Londrina, PR</p>
+          <h2>Contact Franciele Sofiati</h2>
+          <p>Use public contact routes for consultation requests and approved communication.</p>
+          <div>
+            <a href="{BRAND['whatsapp_url']}" rel="noopener" target="_blank">WhatsApp: {esc(BRAND['whatsapp'])}</a>
+            <a href="mailto:{BRAND['email']}">{esc(BRAND['email'])}</a>
+            <a href="{BRAND['instagram_url']}" rel="noopener" target="_blank">{esc(BRAND['instagram'])}</a>
+          </div>
+        </article>
         """
     ).strip()
 
@@ -985,6 +1197,94 @@ def page_component(concept: Concept, page_key: str, index: int, title: str, copy
     return f'<article class="panel panel-note"><h3>{esc(title)}</h3><p>{esc(copy)}</p><em>{esc(concept.archetype)}</em></article>'
 
 
+def visual_moment(concept: Concept, page_key: str, images: list[str]) -> str:
+    n = int(concept.number)
+    primary = images[(n + len(page_key)) % len(images)]
+    secondary = images[(n + 3) % len(images)]
+    return dedent(
+        f"""
+        <section class="visual-moment visual-moment-{(n - 1) % 8:02d}">
+          <figure>
+            <img src="assets/images/{esc(primary)}" alt="Sofiati botanical clinical visual pause">
+          </figure>
+          <div>
+            <p class="eyebrow">Image-led care</p>
+            <h2>Botanical clinical calm</h2>
+            <p>A soft visual pause keeps the experience calm and easy to scan.</p>
+          </div>
+          <img class="visual-detail" src="assets/images/{esc(secondary)}" alt="">
+        </section>
+        """
+    ).strip()
+
+
+def consultation_form_section(page_key: str) -> str:
+    context = "complete" if page_key in {"contact", "consultation"} else "compact"
+    heading = "Consultation request" if context == "complete" else "Begin with evaluation"
+    copy = "Share goals, contact details and treatment interest so the next step can be guided responsibly."
+    if context == "compact":
+        copy = "A short consultation route keeps decisions calm, private and evaluation-led."
+    return dedent(
+        f"""
+        <!-- Consultation Form Section -->
+        <section class="form-section form-section-{context}" data-form-context="{context}">
+          <div class="section-heading">
+            <p class="eyebrow">Consultation</p>
+            <h2>{heading}</h2>
+            <p>{copy}</p>
+          </div>
+          <!-- Consultation Form Partial Mount -->
+          <div data-partial-mount="consultation-form"></div>
+        </section>
+        """
+    ).strip()
+
+
+def contact_card_section() -> str:
+    return dedent(
+        """
+        <!-- Contact Card Section -->
+        <section class="contact-card-section">
+          <!-- Contact Card Partial Mount -->
+          <div data-partial-mount="contact-card"></div>
+        </section>
+        """
+    ).strip()
+
+
+def home_index_section(concept: Concept, key: str, image: str, index: int) -> str:
+    sections = {
+        "credentials": ("Professional Credentials Section", "Credentials", "Biomedical foundation", "CRBM 6277, clinical pathology background, aesthetics, cosmetology and laser specialism guide the care path.", "about.html", "About"),
+        "philosophy": ("Care Philosophy Section", "Care philosophy", "Precision with warmth", "Treatment decisions begin with listening, suitability and natural-looking expectations.", "care.html", "Explore care"),
+        "laser": ("Laser Care Preview Section", "Laser care", "Laser guided by evaluation", "Laser hair removal and rejuvenation topics are framed through preparation, indication and aftercare.", "laser.html", "View laser"),
+        "skin": ("Skin Care Preview Section", "Skin care", "Skin quality first", "Skin cleansing, sensitivity, spots, melasma and texture education stay clear and careful.", "skin.html", "View skin"),
+        "results": ("Responsible Results Section", "Responsible results", "Results with responsibility", "No invented outcomes. Expectations stay linked to protocol, sessions, characteristics and aftercare.", "results.html", "Results"),
+        "mission": ("Mission Preview Section", "Mission", "Care with restraint", "The mission is to make advanced aesthetic biomedicine feel precise, human and ethically clear.", "mission.html", "Mission"),
+        "values": ("Values Preview Section", "Values", "Safety, clarity, naturalness", "The values page turns the Sofiati tone into practical decisions before, during and after care.", "values.html", "Values"),
+        "journal": ("Journal Preview Section", "Journal", "Short education notes", "Laser, skin and aftercare topics help visitors arrive with better consultation questions.", "journal.html", "Journal"),
+        "experience": ("Client Experience Section", "Client experience", "Approval-first stories", "Testimonials and patient media are only used when reviewed and approved.", "testimonials.html", "Testimonials"),
+        "faq": ("FAQ Preview Section", "FAQ", "Questions before protocols", "Brief answers support clarity while returning treatment decisions to individual evaluation.", "faq.html", "FAQ"),
+    }
+    comment, eyebrow, title, copy, href, button = sections[key]
+    media = ""
+    if index % 3 != 1:
+        media = f'<figure><img src="assets/images/{esc(image)}" alt="Sofiati {esc(eyebrow)} visual"></figure>'
+    return dedent(
+        f"""
+        <!-- {comment} -->
+        <section class="home-index-section home-index-{key} home-index-style-{index % 6}">
+          {media}
+          <div>
+            <p class="eyebrow">{eyebrow}</p>
+            <h2>{title}</h2>
+            <p>{copy}</p>
+            <a class="button button-soft" href="{href}">{button}</a>
+          </div>
+        </section>
+        """
+    ).strip()
+
+
 def page_body(concept: Concept, page_key: str, label: str, headline: str, intro: str) -> str:
     n = int(concept.number)
     order_name = [
@@ -1007,40 +1307,28 @@ def page_body(concept: Concept, page_key: str, label: str, headline: str, intro:
         for offset in (2, 5, 8)
     ]
     hero_mode = (n - 1) % 12
-    sections = rotated_sections(concept, page_key)
+    section_limit = 3 if page_key == "index" else 4
+    sections = rotated_sections(concept, page_key)[:section_limit]
     section_html = "\n".join(page_component(concept, page_key, idx, title, copy) for idx, (title, copy) in enumerate(sections, start=1))
     home_headline = HOME_HEADLINES[(n - 1) % len(HOME_HEADLINES)]
     cta = dedent(
         f"""
+        <!-- Footer CTA Section -->
         <section class="consultation-band">
           <p>{esc(BRAND['credential'])} · {esc(BRAND['location'])}</p>
           <h2>Professional evaluation before protocol selection.</h2>
           <a class="button button-primary" href="consultation.html">Book consultation</a>
-          <a class="button button-soft" href="{BRAND['whatsapp_url']}" rel="noopener" target="_blank">WhatsApp</a>
+          <a class="button button-soft" href="contact.html">Continue to contact</a>
         </section>
         """
     ).strip()
-    form = ""
-    if page_key in {"contact", "consultation"}:
-        form = dedent(
-            f"""
-            <section class="form-section">
-              <h2>Consultation request</h2>
-              <form data-consultation-form>
-                <label>Name<input name="name" autocomplete="name" required></label>
-                <label>Email<input name="email" type="email" autocomplete="email" required></label>
-                <label>Treatment interest<select name="interest"><option>Professional evaluation</option><option>Laser care</option><option>Skin care</option><option>Results with responsibility</option></select></label>
-                <label>Message<textarea name="message" required></textarea></label>
-                <button class="button button-primary" type="submit">Send request</button>
-                <p class="form-status" role="status"></p>
-              </form>
-            </section>
-            """
-        ).strip()
+    form = consultation_form_section(page_key)
+    contact_card = contact_card_section()
     faq = ""
     if page_key == "faq":
         faq = dedent(
             """
+            <!-- FAQ Detail Section -->
             <section class="faq-cluster">
               <h2>Common questions</h2>
               <details open><summary>Do results vary?</summary><p>Yes. Results vary according to individual characteristics, indication, protocol, sessions and aftercare.</p></details>
@@ -1052,13 +1340,44 @@ def page_body(concept: Concept, page_key: str, label: str, headline: str, intro:
     responsible_note = ""
     if page_key in {"laser", "skin", "results", "consultation"}:
         responsible_note = (
+            "<!-- Responsible Information Section -->"
             '<section class="responsible-note" aria-label="Responsible results note">'
             f"<h2>Responsible aesthetic information</h2><p>{esc(SAFE_DISCLAIMER)}</p>"
             "</section>"
         )
+    home_block = ("<!-- Care Pathways Section -->\n" + home_panel(concept)) if page_key == "index" else ""
+    service_block = ("<!-- Service Architecture Section -->\n" + service_panel(concept)) if page_key == "care" else ""
+    visual_block = ("<!-- Image-Led Visual Pause Section -->\n" + visual_moment(concept, page_key, [img, *mosaic_images])) if page_key == "index" else ""
+    content_block = dedent(
+        f"""
+        <!-- Page Content System Section -->
+        <section class="content-system content-system-{(n + len(page_key)) % 11:02d}">
+          <div class="section-heading">
+            <p class="eyebrow">{esc(concept.archetype)}</p>
+            <h2>{esc(PAGE_SECTION_HEADINGS[page_key])}</h2>
+            <p>{esc(PAGE_SECTION_INTROS[page_key])}</p>
+          </div>
+          <div class="component-grid component-grid-{(n - 1) % 9:02d}">
+            {section_html}
+          </div>
+        </section>
+        """
+    ).strip()
+    if page_key == "index":
+        home_keys = ["credentials", "philosophy", "laser", "skin", "results", "mission", "values", "journal", "experience", "faq"]
+        rotated_keys = home_keys[(n - 1) % len(home_keys):] + home_keys[:(n - 1) % len(home_keys)]
+        home_index_blocks = [
+            home_index_section(concept, key, HOME_HERO_IMAGES[(n + idx) % len(HOME_HERO_IMAGES)], idx)
+            for idx, key in enumerate(rotated_keys, start=1)
+        ]
+        homepage_blocks = [home_block, *home_index_blocks[:4], visual_block, *home_index_blocks[4:7], content_block, *home_index_blocks[7:], form, cta, contact_card]
+        page_sections = "\n".join(block for block in homepage_blocks if block)
+    else:
+        page_sections = "\n".join(block for block in [service_block, content_block, faq, responsible_note, form, cta, contact_card] if block)
     return dedent(
         f"""
         <main id="main" class="page-layout layout-{(n - 1) % 50:02d}" data-section-order="{order_name}">
+          <!-- Hero Section -->
           <section class="hero hero-{(n + len(label)) % 13:02d} hero-mode-{hero_mode:02d}" data-hero="hero-{concept.number}-{concept.slug}">
             <span class="hero-index" aria-hidden="true">{concept.number}</span>
             <img class="hero-monogram" src="assets/brand/sofiati-monogram-bronze.png" alt="">
@@ -1081,22 +1400,7 @@ def page_body(concept: Concept, page_key: str, label: str, headline: str, intro:
               <img src="assets/images/{esc(mosaic_images[2])}" alt="">
             </div>
           </section>
-          {home_panel(concept) if page_key == "index" else ""}
-          {service_panel(concept) if page_key == "care" else ""}
-          <section class="content-system content-system-{(n + len(page_key)) % 11:02d}">
-            <div class="section-heading">
-              <p class="eyebrow">{esc(concept.archetype)}</p>
-              <h2>{esc(PAGE_SECTION_HEADINGS[page_key])}</h2>
-              <p>{esc(PAGE_SECTION_INTROS[page_key])}</p>
-            </div>
-            <div class="component-grid component-grid-{(n - 1) % 9:02d}">
-              {section_html}
-            </div>
-          </section>
-          {faq}
-          {form}
-          {responsible_note}
-          {cta}
+          {page_sections}
         </main>
         """
     ).strip()
@@ -1106,25 +1410,8 @@ def html_page(concept: Concept, page_spec: tuple[str, str, str, str, str]) -> st
     page_key, label, filename, headline, intro = page_spec
     title = f"{label} | {concept.number} {concept.name} | Franciele Sofiati"
     description = f"{label} page for {concept.name}, a standalone Sofiati concept for laser, skin and advanced aesthetic care in Londrina, PR."
-    banner = status_banner_markup(concept)
-    header = header_markup(concept, page_key)
-    menu = mobile_menu_markup(concept, page_key)
-    footer = footer_markup(concept, page_key)
     body = page_body(concept, page_key, label, headline, intro)
-    json_ld = {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": title,
-        "description": description,
-        "url": f"{BRAND['domain_url']}/concepts/{concept.folder}/{filename}",
-        "inLanguage": "pt-BR",
-        "about": {
-            "@type": "Person",
-            "name": BRAND["name"],
-            "jobTitle": BRAND["descriptor"],
-            "identifier": BRAND["credential"],
-        },
-    }
+    canonical = f"{BRAND['domain_url']}/concepts/{concept.folder}/{filename}"
     return dedent(
         f"""\
         <!doctype html>
@@ -1133,22 +1420,28 @@ def html_page(concept: Concept, page_spec: tuple[str, str, str, str, str]) -> st
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1">
           <title>{esc(title)}</title>
-          <meta name="description" content="{esc(description)}">
-          <link rel="canonical" href="{BRAND['domain_url']}/concepts/{concept.folder}/{filename}">
-          <meta property="og:title" content="{esc(title)}">
-          <meta property="og:description" content="{esc(description)}">
-          <meta property="og:image" content="assets/images/home/sofiati-home-hero-botanical-clinical-luxury.webp">
-          <link rel="icon" href="assets/brand/sofiati-favicon.svg" type="image/svg+xml">
+          <!-- Head Metadata Partial Mount -->
           <link rel="stylesheet" href="css/style.css">
-          <script type="application/ld+json">{json.dumps(json_ld, ensure_ascii=False, separators=(",", ":"))}</script>
         </head>
-        <body class="concept concept-{concept.slug} page-{page_key}" data-concept="{concept.folder}" data-layout="{concept.archetype}" data-header="{concept.header}" data-footer="{concept.footer}" data-menu="{concept.menu}" data-default-lang="pt">
+        <body class="concept concept-{concept.slug} page-{page_key}" data-concept="{concept.folder}" data-concept-number="{concept.number}" data-concept-name="{esc(concept.name)}" data-page="{page_key}" data-page-label="{esc(label)}" data-page-title="{esc(title)}" data-page-description="{esc(description)}" data-canonical="{esc(canonical)}" data-layout="{concept.archetype}" data-header="{concept.header}" data-footer="{concept.footer}" data-menu="{concept.menu}" data-default-lang="pt">
           <a class="skip-link" href="#main">Skip to main content</a>
-          {banner}
-          {header}
-          {menu}
+          <!-- Status Banner Partial Mount -->
+          <div data-partial-mount="status-banner"></div>
+          <!-- Accessibility Controls Partial Mount -->
+          <div data-partial-mount="accessibility"></div>
+          <!-- Header Partial Mount -->
+          <div data-partial-mount="header"></div>
+          <!-- Mobile Menu Partial Mount -->
+          <div data-partial-mount="mobile-menu"></div>
           {body}
-          {footer}
+          <!-- Cookie Banner Partial Mount -->
+          <div data-partial-mount="cookie-banner"></div>
+          <!-- Footer Partial Mount -->
+          <div data-partial-mount="footer"></div>
+          <!-- Floating Widgets Partial Mount -->
+          <div data-partial-mount="floating-widgets"></div>
+          <!-- Schema Partial Mount -->
+          <script src="js/partials.js" defer></script>
           <script src="js/main.js" defer></script>
         </body>
         </html>
@@ -1241,6 +1534,70 @@ def css_for(concept: Concept) -> str:
         "border-radius:999px 999px 12px 12px;", "border-radius:50%;aspect-ratio:1;", "clip-path:polygon(0 0,100% 7%,92% 100%,0 92%);",
         "border-radius:8px 80px 8px 80px;", "border-radius:8px;", "border-radius:120px;",
     ][idx % 10]
+    body_texture = [
+        "body{background:linear-gradient(180deg,var(--surface),var(--soft-white) 42%,var(--surface))}",
+        "body{background:linear-gradient(90deg,color-mix(in srgb,var(--sage) 7%,var(--surface)),var(--surface) 34%,var(--soft-white))}",
+        "body{background:radial-gradient(circle at 12% 18%,color-mix(in srgb,var(--accent) 10%,transparent),transparent 25%),var(--surface)}",
+        "body{background:linear-gradient(180deg,var(--soft-white),color-mix(in srgb,var(--sage) 12%,var(--surface)))}",
+        "body{background:linear-gradient(135deg,var(--surface),var(--cream) 54%,var(--soft-white))}",
+        "body{background:repeating-linear-gradient(90deg,rgba(37,35,33,.035) 0 1px,transparent 1px 118px),var(--surface)}",
+        "body{background:linear-gradient(180deg,color-mix(in srgb,var(--ink) 6%,var(--surface)),var(--surface) 35%)}",
+        "body{background:radial-gradient(circle at 85% 12%,color-mix(in srgb,var(--sage) 18%,transparent),transparent 24%),var(--soft-white)}",
+        "body{background:linear-gradient(90deg,var(--soft-white),var(--surface) 50%,color-mix(in srgb,var(--accent) 5%,var(--surface)))}",
+        "body{background:var(--surface)}",
+    ][idx % 10]
+    home_layout = [
+        ".home-pathways{display:grid;grid-template-columns:.55fr 1fr;gap:clamp(22px,5vw,74px)}.home-pathways .section-heading{grid-template-columns:1fr;margin-bottom:0;align-content:start}.home-route-grid{grid-template-columns:1fr 1fr;gap:0;border-top:1px solid var(--line);border-left:1px solid var(--line)}.home-route{border:0;border-right:1px solid var(--line);border-bottom:1px solid var(--line);border-radius:0;background:transparent;box-shadow:none}",
+        ".home-pathways{width:100%;padding-left:max(18px,calc((100vw - 1320px)/2));padding-right:max(18px,calc((100vw - 1320px)/2));background:var(--ink);color:white}.home-pathways .section-heading p,.home-pathways .eyebrow,.home-route p{color:rgba(255,255,255,.74)}.home-route-grid{grid-template-columns:repeat(6,minmax(150px,1fr));gap:10px}.home-route{background:rgba(255,255,255,.075);border-color:rgba(255,255,255,.16);color:white;min-height:230px}.home-route span{color:var(--champagne)}",
+        ".home-pathways{width:min(920px,calc(100% - 32px))}.home-route-grid{grid-template-columns:1fr;gap:0;border-top:1px solid var(--line)}.home-route{grid-template-columns:88px 1fr;align-items:center;min-height:0;border:0;border-bottom:1px solid var(--line);border-radius:0;background:transparent;padding:22px 0;box-shadow:none}.home-route span{font-size:1rem;letter-spacing:.16em}",
+        ".home-route-grid{grid-template-columns:1.16fr .84fr .84fr;grid-auto-rows:minmax(150px,auto)}.home-route:first-child{grid-row:span 2;background:var(--ink);color:white;border-color:var(--ink)}.home-route:first-child p{color:rgba(255,255,255,.74)}.home-route:first-child span{color:var(--champagne)}",
+        ".home-pathways{width:min(1180px,calc(100% - 32px))}.home-route-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.home-route{aspect-ratio:1;border-radius:999px;text-align:center;place-items:center;align-content:center;padding:26px}.home-route span{font-size:2rem}.home-route p{max-width:22ch}",
+        ".home-pathways{border-left:1px solid var(--line);padding-left:clamp(18px,4vw,56px)}.home-route-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.home-route:nth-child(even){transform:translateY(24px)}.home-route{background:color-mix(in srgb,var(--surface) 64%,white);box-shadow:0 18px 54px rgba(37,35,33,.055)}",
+        ".home-pathways{width:min(1040px,calc(100% - 32px))}.home-route-grid{grid-template-columns:1fr;gap:8px}.home-route{grid-template-columns:70px 1fr auto;align-items:center;min-height:84px;border-width:0 0 1px;border-radius:0;background:transparent;padding:18px 0}.home-route:after{content:\"→\";font-size:1.4rem;color:var(--accent)}.home-route span{font-size:1rem}",
+        ".home-pathways{background:color-mix(in srgb,var(--sage) 13%,var(--surface));padding-left:clamp(20px,4vw,54px);padding-right:clamp(20px,4vw,54px);border-radius:32px}.home-route-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.home-route{border:0;box-shadow:var(--shadow)}.home-route:nth-child(3n){background:var(--ink);color:white}.home-route:nth-child(3n) p{color:rgba(255,255,255,.74)}",
+        ".home-pathways{display:grid;grid-template-columns:1fr .76fr;gap:clamp(20px,5vw,72px);align-items:start}.home-pathways .section-heading{grid-template-columns:1fr;position:sticky;top:110px}.home-route-grid{grid-template-columns:1fr;gap:10px}.home-route{min-height:104px;grid-template-columns:auto 1fr;align-items:center;border-radius:999px;background:color-mix(in srgb,var(--accent) 8%,white)}.home-route p{display:none}",
+        ".home-route-grid{grid-template-columns:repeat(12,minmax(0,1fr));gap:12px}.home-route{grid-column:span 4}.home-route:nth-child(1),.home-route:nth-child(6){grid-column:span 6}.home-route:nth-child(2){grid-column:span 3}.home-route:nth-child(3){grid-column:span 3}.home-route{background:linear-gradient(180deg,white,color-mix(in srgb,var(--surface) 72%,white))}",
+    ][idx % 10]
+    content_layout = [
+        ".content-system{display:grid;grid-template-columns:.7fr 1.3fr;gap:clamp(22px,5vw,76px)}.content-system .section-heading{grid-template-columns:1fr;margin-bottom:0}.component-grid{align-self:start}.panel:first-child{background:var(--ink);color:white}.panel:first-child p{color:rgba(255,255,255,.72)}",
+        ".content-system{width:100%;padding-left:max(18px,calc((100vw - 1220px)/2));padding-right:max(18px,calc((100vw - 1220px)/2));background:color-mix(in srgb,var(--accent) 9%,var(--surface))}.component-grid{grid-template-columns:1fr}.panel{grid-template-columns:120px 1fr;align-items:center;min-height:0}.panel h3{margin:0}",
+        ".content-system{width:min(960px,calc(100% - 32px));text-align:center}.content-system .section-heading{justify-items:center}.component-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.panel{border-radius:999px;aspect-ratio:1;place-items:center;text-align:center}",
+        ".content-system{border-top:0}.component-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border-left:1px solid var(--line);border-top:1px solid var(--line)}.panel{border:0;border-right:1px solid var(--line);border-bottom:1px solid var(--line);border-radius:0;background:transparent;box-shadow:none}",
+        ".content-system{display:grid;grid-template-columns:1fr .9fr;gap:clamp(24px,6vw,90px);align-items:center}.content-system .section-heading{grid-template-columns:1fr;margin-bottom:0}.component-grid{grid-template-columns:1fr}.panel{min-height:0;border-radius:8px;background:white}",
+        ".content-system{background:var(--ink);color:white;width:100%;padding-left:max(18px,calc((100vw - 1320px)/2));padding-right:max(18px,calc((100vw - 1320px)/2))}.content-system .section-heading p,.content-system .eyebrow,.content-system .panel p{color:rgba(255,255,255,.74)}.panel{background:rgba(255,255,255,.075);border-color:rgba(255,255,255,.16);color:white}",
+        ".component-grid{grid-template-columns:minmax(280px,.8fr) minmax(0,1.2fr)}.panel:first-child{grid-row:span 2;min-height:320px}.panel{box-shadow:0 18px 60px rgba(37,35,33,.07)}",
+        ".content-system{width:min(1120px,calc(100% - 32px))}.component-grid{display:block;columns:2 260px;column-gap:18px}.panel{break-inside:avoid;margin-bottom:18px}",
+        ".content-system{border-top:4px double var(--line)}.component-grid{grid-template-columns:1fr}.panel{display:grid;grid-template-columns:64px 1fr;align-items:start;border-width:0 0 1px;border-radius:0;background:transparent;box-shadow:none}.panel:before{content:\"\";width:12px;height:12px;border-radius:50%;background:var(--accent);margin-top:8px}",
+        ".content-system{background:linear-gradient(90deg,color-mix(in srgb,var(--sage) 12%,transparent),transparent 44%)}.component-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.panel:nth-child(2){transform:translateY(32px)}.panel:nth-child(3){transform:translateY(64px)}",
+    ][idx % 10]
+    visual_layout = [
+        ".visual-moment{width:100%;padding-left:max(18px,calc((100vw - 1360px)/2));padding-right:max(18px,calc((100vw - 1360px)/2));grid-template-columns:1.3fr .7fr}.visual-detail{display:none}.visual-moment figure{min-height:clamp(320px,40vw,620px);border-radius:0}",
+        ".visual-moment{grid-template-columns:.8fr 1fr;align-items:end}.visual-detail{display:none}.visual-moment figure{border-radius:999px 999px 16px 16px}",
+        ".visual-moment{background:var(--ink);color:white;width:100%;padding-left:max(18px,calc((100vw - 1180px)/2));padding-right:max(18px,calc((100vw - 1180px)/2))}.visual-moment p,.visual-moment .eyebrow{color:rgba(255,255,255,.72)}.visual-moment figure{box-shadow:none}.visual-detail{border:1px solid rgba(255,255,255,.18)}",
+        ".visual-moment{grid-template-columns:.48fr .62fr .9fr}.visual-moment figure{order:3}.visual-moment>div{order:2}.visual-detail{order:1;min-height:360px}",
+        ".visual-moment{width:min(980px,calc(100% - 32px));grid-template-columns:1fr;text-align:center;justify-items:center}.visual-moment figure{width:min(620px,100%);border-radius:50%;aspect-ratio:1;min-height:auto}.visual-detail{display:none}",
+        ".visual-moment{border-top:0;border-bottom:1px solid var(--line);grid-template-columns:1fr 1fr}.visual-moment figure{clip-path:polygon(6% 0,100% 0,94% 100%,0 100%);border-radius:0}.visual-detail{display:none}",
+        ".visual-moment{display:block;position:relative}.visual-moment figure{min-height:clamp(260px,34vw,460px);opacity:.42}.visual-moment>div{position:absolute;inset:auto auto 12% 8%;max-width:520px;background:rgba(248,247,242,.86);padding:clamp(20px,4vw,44px);border:1px solid var(--line);backdrop-filter:blur(14px)}.visual-detail{display:none}",
+        ".visual-moment{grid-template-columns:.7fr .9fr .7fr}.visual-moment figure,.visual-detail{border-radius:8px}.visual-moment>div{border-left:1px solid var(--line);padding-left:clamp(18px,3vw,38px)}",
+    ][idx % 8]
+    cta_layout = [
+        ".consultation-band{border:1px solid var(--line);padding:clamp(22px,4vw,44px);border-radius:28px;background:white}",
+        ".consultation-band{width:100%;padding-left:max(18px,calc((100vw - 1180px)/2));padding-right:max(18px,calc((100vw - 1180px)/2));background:var(--ink);color:white}.consultation-band p{color:rgba(255,255,255,.74)}.consultation-band .button-soft{background:rgba(255,255,255,.12);color:white;border-color:rgba(255,255,255,.26)}",
+        ".consultation-band{display:grid;grid-template-columns:1fr auto;align-items:end}.consultation-band p{grid-column:1/-1}",
+        ".consultation-band{justify-content:center;text-align:center}.consultation-band h2{max-width:760px}.consultation-band .button{border-radius:999px}",
+        ".consultation-band{border-top:4px double var(--line);border-bottom:4px double var(--line)}",
+    ][idx % 5]
+    footer_layout = [
+        ".site-footer.site-footer{background:var(--ink);color:white}",
+        ".site-footer.site-footer{background:linear-gradient(135deg,var(--deep-sage),var(--ink));color:white}",
+        ".site-footer.site-footer{background:#3A3128;color:white}",
+        ".site-footer.site-footer{background:color-mix(in srgb,var(--accent) 48%,var(--ink));color:white}",
+        ".site-footer.site-footer{background:var(--surface);color:var(--ink);border-top:1px solid var(--line)}.site-footer.site-footer a,.site-footer.site-footer address{color:var(--muted)}.site-footer.site-footer img{filter:brightness(0) saturate(100%)}",
+        ".site-footer.site-footer{background:linear-gradient(90deg,var(--ink),color-mix(in srgb,var(--deep-sage) 72%,black));color:white}",
+        ".site-footer.site-footer{background:#1F2825;color:white;border-radius:34px 34px 0 0;width:min(1380px,calc(100% - 24px));margin-left:auto;margin-right:auto}",
+        ".site-footer.site-footer{background:var(--deep-sage);color:white}",
+    ][idx % 8]
+    section_variation = "\n".join([body_texture, home_layout, content_layout, visual_layout, cta_layout, footer_layout])
     return dedent(
         f"""\
         /* {concept.number} {concept.name}: standalone Sofiati design system */
@@ -1266,16 +1623,214 @@ def css_for(concept: Concept) -> str:
         .site-header{{position:{nav_position};top:0;z-index:30;width:{'min(1180px,calc(100% - 24px))' if idx % 5 == 4 else '100%'};margin:auto;display:grid;grid-template-columns:{'auto 1fr auto' if idx % 4 else '1fr auto 1fr'};align-items:center;gap:18px;padding:{'14px 18px' if idx % 3 else '8px 28px'};background:{'rgba(248,247,242,.88)' if idx % 2 else 'color-mix(in srgb,var(--surface) 86%,white)'};border-bottom:1px solid var(--line);backdrop-filter:blur(18px);{'border-radius:999px;margin-top:10px;' if idx % 5 == 4 else ''}}}
         .brand-mark{{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:0;{'justify-self:center;flex-direction:column;text-align:center;' if idx % 4 == 0 else ''}}}.brand-mark img{{width:clamp(120px,14vw,210px);max-height:52px;object-fit:contain}}.brand-mark strong{{font-family:Georgia,serif;font-size:1rem;font-weight:400}}.brand-mark small{{display:block;text-transform:uppercase;font-size:.58rem;letter-spacing:.16em;color:var(--muted)}}.desktop-nav{{display:flex;justify-content:center;gap:{'4px' if idx % 2 else '14px'};flex-wrap:wrap}}.desktop-nav a{{text-decoration:none;min-height:34px;display:inline-flex;align-items:center;padding:7px 9px;border-radius:{radius if radius < 40 else 999}px;font-size:.78rem;{'text-transform:uppercase;letter-spacing:.1em;' if idx % 3 == 0 else ''}}}.desktop-nav a[aria-current=page],.desktop-nav a:hover{{background:white;box-shadow:inset 0 0 0 1px var(--line)}}.header-actions{{display:flex;align-items:center;justify-content:end;gap:8px}}.mini-contact,.menu-button,.button{{border:1px solid var(--line);border-radius:{radius if radius < 40 else 999}px;min-height:42px;padding:10px 14px;background:white;text-decoration:none;font-weight:700;color:var(--ink)}}.menu-button{{display:none}}.button-primary{{background:var(--ink);color:white;border-color:var(--ink)}}.button-soft{{background:color-mix(in srgb,var(--accent) 22%,white);color:var(--ink)}}
         .header-card-stack{{grid-template-columns:1fr;padding:0}}.header-card-stack .header-meta{{display:flex;justify-content:space-between;width:100%;padding:7px 18px;border-bottom:1px solid var(--line);font-size:.68rem;text-transform:uppercase;letter-spacing:.14em;color:var(--muted)}}.header-card-stack .header-main{{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:18px;width:100%;padding:12px 18px}}.header-split-nav{{grid-template-columns:1fr auto 1fr auto}}.header-split-nav .brand-mark{{justify-self:center;text-align:center;flex-direction:column}}.header-command{{grid-template-columns:auto auto 1fr auto}}.header-actions-left{{justify-content:start}}.header-actions-left span,.header-kicker,.header-rail-links span{{font-size:.72rem;text-transform:uppercase;letter-spacing:.14em;color:var(--muted)}}.header-editorial{{grid-template-columns:auto auto 1fr auto;border-top:1px solid var(--line)}}.header-rail{{grid-template-columns:auto 1fr auto;align-items:stretch}}.header-rail-links{{display:grid;align-content:center;gap:4px;border-left:1px solid var(--line);padding-left:18px}}.header-proof{{grid-template-columns:auto 1fr auto auto;background:transparent;border-bottom:0}}.header-proof .brand-mark{{justify-self:center}}.header-proof .menu-button-visible{{display:inline-flex}}.header-monogram{{grid-template-columns:auto auto 1fr auto}}.header-symbol{{width:34px;opacity:.8}}
-        .mobile-menu{{position:fixed;inset:{'0 0 auto 0' if idx % 4 == 1 else '0'};z-index:60;min-height:{'72vh' if idx % 4 == 1 else '100vh'};display:grid;grid-template-rows:auto 1fr auto;gap:24px;padding:24px;background:linear-gradient({120 + idx * 11}deg,var(--deep-sage),color-mix(in srgb,var(--accent) 62%,var(--ink)));color:white;transform:{'translateY(-104%)' if idx % 4 == 1 else 'translateX(104%)' if idx % 4 == 2 else 'scale(.94)' if idx % 4 == 3 else 'translateY(104%)'};opacity:0;pointer-events:none;transition:transform .44s ease,opacity .44s ease}}.mobile-menu.is-open{{transform:none;opacity:1;pointer-events:auto}}.mobile-menu-top{{display:flex;align-items:center;justify-content:space-between;gap:18px}}.mobile-menu-top img{{width:210px}}.mobile-menu button{{background:transparent;color:white;border:1px solid rgba(255,255,255,.4);border-radius:999px;padding:10px 16px}}.mobile-menu nav{{display:grid;align-content:center;gap:8px;{'grid-template-columns:repeat(2,minmax(0,1fr));' if idx % 5 == 0 else ''}}}.mobile-menu nav a{{font-family:Georgia,serif;font-size:clamp(2rem,8vw,5rem);line-height:1;text-decoration:none}}.mobile-menu-note{{max-width:420px;color:rgba(255,255,255,.82)}}.mobile-sheet-grid{{display:grid;grid-template-columns:1fr .6fr;align-items:center;gap:24px}}.mobile-index-list{{display:grid;gap:8px;list-style:none;margin:0;padding:0}}.mobile-index-list a:before{{content:counter(item,decimal-leading-zero);counter-increment:item;margin-right:14px;font-size:.78rem;opacity:.6}}.mobile-index-list{{counter-reset:item}}.mobile-menu-bloom{{width:min(280px,70vw);opacity:.2;position:absolute;right:8%;bottom:12%}}.mobile-menu-concierge{{align-content:end}}.mobile-whatsapp{{align-self:start;justify-self:start;border:1px solid rgba(255,255,255,.45);border-radius:999px;padding:11px 16px;text-decoration:none}}
+        .mobile-menu{{position:fixed;inset:{'0 0 auto 0' if idx % 4 == 1 else '0'};z-index:60;min-height:{'76vh' if idx % 4 == 1 else '100vh'};display:grid;grid-template-rows:auto 1fr auto;gap:clamp(18px,4vw,34px);padding:clamp(18px,5vw,42px);background:linear-gradient({120 + idx * 11}deg,var(--deep-sage),color-mix(in srgb,var(--accent) 62%,var(--ink)));color:white;transform:{'translateY(-104%)' if idx % 4 == 1 else 'translateX(104%)' if idx % 4 == 2 else 'scale(.94)' if idx % 4 == 3 else 'translateY(104%)'};opacity:0;pointer-events:none;transition:transform .44s ease,opacity .44s ease;overflow:auto}}.mobile-menu.is-open{{transform:none;opacity:1;pointer-events:auto}}.mobile-menu-top{{display:flex;align-items:center;justify-content:space-between;gap:18px}}.mobile-menu-top img{{width:min(190px,54vw)}}.mobile-menu button{{background:transparent;color:white;border:1px solid rgba(255,255,255,.4);border-radius:999px;padding:10px 16px}}.mobile-menu-links{{display:grid;align-content:center;gap:clamp(18px,4vw,34px);max-width:980px}}.mobile-menu-primary{{display:grid;gap:6px;grid-template-columns:{'repeat(2,minmax(0,1fr))' if idx % 5 == 0 else '1fr'}}}.mobile-menu-primary a{{font-family:Georgia,serif;font-size:clamp(1.45rem,5.6vw,3.6rem);line-height:1.02;text-decoration:none;padding:.12em 0}}.mobile-menu-secondary{{display:flex;flex-wrap:wrap;gap:8px;max-width:720px}}.mobile-menu-secondary a{{font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;text-decoration:none;border:1px solid rgba(255,255,255,.28);border-radius:999px;padding:8px 10px;color:rgba(255,255,255,.82)}}.mobile-menu-note{{max-width:420px;color:rgba(255,255,255,.82)}}.mobile-sheet-grid{{display:grid;grid-template-columns:1fr .52fr;align-items:center;gap:24px}}.mobile-index-list .mobile-menu-primary a:before{{content:counter(item,decimal-leading-zero);counter-increment:item;margin-right:14px;font-size:.72rem;opacity:.62}}.mobile-index-list .mobile-menu-primary{{counter-reset:item}}.mobile-menu-bloom{{width:min(280px,70vw);opacity:.16;position:absolute;right:8%;bottom:12%;pointer-events:none}}.mobile-menu-concierge{{display:grid;gap:18px;align-content:end}}.mobile-consult{{align-self:start;justify-self:start;border:1px solid rgba(255,255,255,.45);border-radius:999px;padding:11px 16px;text-decoration:none}}
         .page-layout{{overflow:hidden}}.hero{{position:relative;min-height:calc(100vh - 84px);display:grid;grid-template-columns:{hero_grid};align-items:center;gap:clamp(24px,5vw,80px);width:var(--page);margin:auto;padding:clamp(42px,8vw,112px) 0}}.hero-copy{{display:grid;gap:20px;{'order:2;' if idx % 6 == 2 else ''}}}.eyebrow{{text-transform:uppercase;font-size:.72rem;letter-spacing:.14em;color:var(--muted);font-weight:800}}.hero-copy>p:not(.eyebrow){{max-width:64ch;color:var(--muted)}}.hero-actions{{display:flex;flex-wrap:wrap;gap:10px}}.hero-visual{{position:relative;margin:0;min-height:clamp(280px,46vw,680px);overflow:hidden;background:color-mix(in srgb,var(--sage) 42%,white);box-shadow:var(--shadow);{hero_shape}}}.hero-visual:before{{content:"";position:absolute;inset:18%;z-index:2;background:url("../assets/brand/sofiati-monogram-white.png") center/contain no-repeat;opacity:.16;pointer-events:none}}.hero-visual img{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;{'filter:saturate(.82) contrast(.96);' if idx % 2 else 'mix-blend-mode:multiply;opacity:.88;'}}}.hero-visual figcaption{{position:absolute;left:16px;right:16px;bottom:16px;z-index:3;padding:10px 13px;border-radius:{radius if radius < 30 else 999}px;background:rgba(248,247,242,.86);font-size:.78rem;color:var(--ink)}}
         {hero_css}
         {hero_variation}
-        .home-pathways,.service-architecture,.content-system,.faq-cluster,.form-section,.responsible-note,.consultation-band{{width:var(--page);margin:auto;padding:clamp(48px,8vw,108px) 0;border-top:1px solid var(--line)}}.home-route-grid{{display:grid;grid-template-columns:{'repeat(3,minmax(0,1fr))' if idx % 2 else 'repeat(auto-fit,minmax(210px,1fr))'};gap:12px}}.home-route{{min-height:{170 + (idx % 4) * 24}px;text-decoration:none;color:inherit;border:1px solid var(--line);border-radius:{radius if radius < 30 else 24}px;background:white;padding:clamp(16px,2vw,26px);display:grid;align-content:space-between;box-shadow:{'var(--shadow)' if idx % 6 == 2 else 'none'}}}.home-route span{{font-family:Georgia,serif;font-size:2.6rem;color:var(--accent);opacity:.72}}.home-route p{{color:var(--muted)}}.service-architecture{{display:grid;grid-template-columns:1fr;gap:22px}}.service-architecture-grid{{display:grid;grid-template-columns:{'repeat(4,minmax(0,1fr))' if idx % 3 else 'repeat(2,minmax(0,1fr))'};gap:12px}}.service-architecture article{{border:1px solid var(--line);background:white;border-radius:{radius if radius < 24 else 24}px;padding:clamp(16px,2vw,28px)}}.service-architecture ul{{display:grid;gap:8px;list-style:none;margin:14px 0 0;padding:0}}.service-architecture li{{border-top:1px solid var(--line);padding-top:8px;font-weight:700}}.service-architecture p,.section-heading p,.panel p{{color:var(--muted);max-width:64ch}}.disclaimer{{grid-column:1/-1;color:var(--muted);max-width:80ch}}.section-heading{{display:grid;grid-template-columns:{'.75fr 1.25fr' if idx % 3 else '1fr'};gap:16px;margin-bottom:24px}}.component-grid{{display:grid;grid-template-columns:{component_cols};gap:clamp(10px,2vw,22px)}}.panel{{min-height:{130 + (idx % 5) * 18}px;border:1px solid var(--line);background:{'white' if idx % 4 else 'color-mix(in srgb,var(--accent) 8%,white)'};border-radius:{radius if radius < 32 else 26}px;padding:clamp(16px,2.5vw,30px);box-shadow:{'0 12px 40px rgba(37,35,33,.06)' if idx % 2 else 'none'};display:grid;align-content:start;gap:10px}}.panel-editorial{{border-left:4px solid var(--accent)}}.panel-card{{transform:translateY(var(--lift,0))}}.panel-card:hover{{--lift:-4px}}.panel-spec{{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}}.panel-horizontal{{grid-template-columns:{'1fr 1fr' if idx % 2 else '1fr'};align-items:end}}.panel-numbered{{grid-template-columns:48px 1fr}}.panel-numbered b{{font-family:Georgia,serif;font-size:2.4rem;color:var(--accent)}}.panel-note em{{color:var(--muted)}}details.panel summary{{cursor:pointer;font-weight:800}}.faq-cluster{{display:grid;gap:12px}}.form-section form{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;max-width:860px}}.form-section label{{display:grid;gap:6px;font-weight:800}}.form-section input,.form-section select,.form-section textarea{{width:100%;border:1px solid var(--line);border-radius:{radius if radius < 20 else 20}px;padding:12px;background:white}}.form-section textarea{{min-height:140px;grid-column:1/-1}}.form-section label:has(textarea),.form-section button,.form-status{{grid-column:1/-1}}.responsible-note{{display:grid;grid-template-columns:{'0.7fr 1.3fr' if idx % 2 else '1fr'};gap:16px;color:var(--muted);background:{'color-mix(in srgb,var(--sage) 12%,white)' if idx % 4 == 1 else 'transparent'};padding-left:{'20px' if idx % 4 == 1 else '0'};padding-right:{'20px' if idx % 4 == 1 else '0'}}}.responsible-note h2{{color:var(--ink)}}.consultation-band{{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;background:{'color-mix(in srgb,var(--accent) 10%,var(--surface))' if idx % 2 else 'transparent'};padding-left:{'24px' if idx % 2 else '0'};padding-right:{'24px' if idx % 2 else '0'}}}.consultation-band h2{{max-width:680px}}
-        .site-footer{{margin-top:clamp(42px,6vw,90px);background:var(--ink);color:white;padding:clamp(44px,8vw,100px) max(18px,calc((100vw - {page_max}px)/2));display:grid;grid-template-columns:{'.9fr 1fr .7fr' if idx % 3 else '1fr'};gap:clamp(22px,5vw,70px)}}.site-footer img{{width:min(280px,80vw);margin-bottom:18px}}.site-footer nav{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 20px}}.site-footer a{{color:rgba(255,255,255,.82);text-decoration:none}}.site-footer address{{font-style:normal;display:grid;gap:8px;color:rgba(255,255,255,.78)}}.concept-marker{{position:fixed;right:12px;bottom:12px;z-index:20;display:flex;gap:8px;align-items:center;border:1px solid var(--line);background:rgba(248,247,242,.86);backdrop-filter:blur(14px);border-radius:999px;padding:8px 12px;font-size:.76rem}}
+        .home-pathways,.service-architecture,.content-system,.visual-moment,.faq-cluster,.form-section,.responsible-note,.consultation-band{{width:var(--page);margin:auto;padding:clamp(48px,8vw,108px) 0;border-top:1px solid var(--line)}}.home-route-grid{{display:grid;grid-template-columns:{'repeat(3,minmax(0,1fr))' if idx % 2 else 'repeat(auto-fit,minmax(210px,1fr))'};gap:12px}}.home-route{{min-height:{170 + (idx % 4) * 24}px;text-decoration:none;color:inherit;border:1px solid var(--line);border-radius:{radius if radius < 30 else 24}px;background:white;padding:clamp(16px,2vw,26px);display:grid;align-content:space-between;box-shadow:{'var(--shadow)' if idx % 6 == 2 else 'none'}}}.home-route span{{font-family:Georgia,serif;font-size:2.6rem;color:var(--accent);opacity:.72}}.home-route p{{color:var(--muted)}}.visual-moment{{display:grid;grid-template-columns:{'1.1fr .8fr .42fr' if idx % 2 else '.62fr 1fr .5fr'};align-items:center;gap:clamp(16px,4vw,54px)}}.visual-moment figure{{margin:0;min-height:clamp(220px,32vw,420px);overflow:hidden;border-radius:{radius if radius < 28 else 28}px;background:var(--sage);box-shadow:{'var(--shadow)' if idx % 4 == 2 else 'none'}}}.visual-moment figure img,.visual-detail{{width:100%;height:100%;object-fit:cover;mix-blend-mode:{'multiply' if idx % 2 else 'normal'};opacity:{'.88' if idx % 2 else '1'}}}.visual-moment>div{{display:grid;gap:14px;max-width:520px}}.visual-detail{{min-height:clamp(130px,20vw,280px);border-radius:{'999px 999px 18px 18px' if idx % 3 else '18px'};box-shadow:0 14px 44px rgba(37,35,33,.08)}}.service-architecture{{display:grid;grid-template-columns:1fr;gap:22px}}.service-architecture-grid{{display:grid;grid-template-columns:{'repeat(4,minmax(0,1fr))' if idx % 3 else 'repeat(2,minmax(0,1fr))'};gap:12px}}.service-architecture article{{border:1px solid var(--line);background:white;border-radius:{radius if radius < 24 else 24}px;padding:clamp(16px,2vw,28px)}}.service-architecture ul{{display:grid;gap:8px;list-style:none;margin:14px 0 0;padding:0}}.service-architecture li{{border-top:1px solid var(--line);padding-top:8px;font-weight:700}}.service-architecture p,.section-heading p,.panel p,.visual-moment p{{color:var(--muted);max-width:64ch}}.disclaimer{{grid-column:1/-1;color:var(--muted);max-width:80ch}}.section-heading{{display:grid;grid-template-columns:{'.75fr 1.25fr' if idx % 3 else '1fr'};gap:16px;margin-bottom:24px}}.component-grid{{display:grid;grid-template-columns:{component_cols};gap:clamp(10px,2vw,22px)}}.panel{{min-height:{130 + (idx % 5) * 18}px;border:1px solid var(--line);background:{'white' if idx % 4 else 'color-mix(in srgb,var(--accent) 8%,white)'};border-radius:{radius if radius < 32 else 26}px;padding:clamp(16px,2.5vw,30px);box-shadow:{'0 12px 40px rgba(37,35,33,.06)' if idx % 2 else 'none'};display:grid;align-content:start;gap:10px}}.panel-editorial{{border-left:4px solid var(--accent)}}.panel-card{{transform:translateY(var(--lift,0))}}.panel-card:hover{{--lift:-4px}}.panel-spec{{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}}.panel-horizontal{{grid-template-columns:{'1fr 1fr' if idx % 2 else '1fr'};align-items:end}}.panel-numbered{{grid-template-columns:48px 1fr}}.panel-numbered b{{font-family:Georgia,serif;font-size:2.4rem;color:var(--accent)}}.panel-note em{{color:var(--muted)}}details.panel summary{{cursor:pointer;font-weight:800}}.faq-cluster{{display:grid;gap:12px}}.form-section form{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;max-width:860px}}.form-section label{{display:grid;gap:6px;font-weight:800}}.form-section input,.form-section select,.form-section textarea{{width:100%;border:1px solid var(--line);border-radius:{radius if radius < 20 else 20}px;padding:12px;background:white}}.form-section textarea{{min-height:140px;grid-column:1/-1}}.form-section label:has(textarea),.form-section button,.form-status{{grid-column:1/-1}}.responsible-note{{display:grid;grid-template-columns:{'0.7fr 1.3fr' if idx % 2 else '1fr'};gap:16px;color:var(--muted);background:{'color-mix(in srgb,var(--sage) 12%,white)' if idx % 4 == 1 else 'transparent'};padding-left:{'20px' if idx % 4 == 1 else '0'};padding-right:{'20px' if idx % 4 == 1 else '0'}}}.responsible-note h2{{color:var(--ink)}}.consultation-band{{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;background:{'color-mix(in srgb,var(--accent) 10%,var(--surface))' if idx % 2 else 'transparent'};padding-left:{'24px' if idx % 2 else '0'};padding-right:{'24px' if idx % 2 else '0'}}}.consultation-band h2{{max-width:680px}}
+        {section_variation}
+        .home-index-section,.contact-card-section{{width:var(--page);margin:auto;padding:clamp(46px,7vw,96px) 0;border-top:1px solid var(--line)}}.home-index-section{{display:grid;grid-template-columns:{'.7fr 1fr' if idx % 2 else '1fr .82fr'};align-items:center;gap:clamp(18px,5vw,72px)}}.home-index-section figure{{margin:0;min-height:clamp(190px,28vw,420px);overflow:hidden;border-radius:{radius if radius < 30 else 30}px;background:var(--sage);box-shadow:{'var(--shadow)' if idx % 4 in (1,2) else 'none'}}}.home-index-section figure img{{width:100%;height:100%;object-fit:cover;mix-blend-mode:{'multiply' if idx % 2 else 'normal'};opacity:{'.82' if idx % 2 else '1'}}}.home-index-section>div{{display:grid;gap:14px;max-width:560px}}.home-index-section .button{{justify-self:start}}.home-index-style-1{{grid-template-columns:1fr}}.home-index-style-1>div{{max-width:760px}}.home-index-style-2{{background:var(--ink);color:white;width:100%;padding-left:max(18px,calc((100vw - {page_max}px)/2));padding-right:max(18px,calc((100vw - {page_max}px)/2))}}.home-index-style-2 p,.home-index-style-2 .eyebrow{{color:rgba(255,255,255,.74)}}.home-index-style-2 .button-soft{{background:rgba(255,255,255,.12);color:white;border-color:rgba(255,255,255,.26)}}.home-index-style-3 figure{{border-radius:999px;aspect-ratio:1;min-height:auto}}.home-index-style-4{{grid-template-columns:1fr 1fr;border-top:4px double var(--line)}}.home-index-style-5{{width:min(980px,calc(100% - 32px));text-align:center;justify-items:center}}.home-index-style-5 .button{{justify-self:center}}.contact-card{{display:grid;grid-template-columns:1fr auto;gap:clamp(18px,4vw,56px);align-items:end;border:1px solid var(--line);border-radius:{radius if radius < 30 else 30}px;padding:clamp(20px,4vw,48px);background:{'white' if idx % 2 else 'color-mix(in srgb,var(--sage) 10%,white)'};box-shadow:{'var(--shadow)' if idx % 5 == 1 else 'none'}}}.contact-card div{{display:grid;gap:8px}}.contact-card a{{text-decoration:none;color:var(--muted)}}.consultation-form{{position:relative}}.consultation-form .honeypot{{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}}.consultation-form .message-field,.consultation-form .consent-field,.consultation-form .privacy-note,.consultation-form .form-status{{grid-column:1/-1}}.consultation-form .consent-field{{display:flex;align-items:flex-start;gap:10px;font-weight:600;color:var(--muted)}}.consultation-form .consent-field input{{width:auto;margin-top:4px}}.privacy-note,.form-status{{color:var(--muted);font-size:.9rem}}.consultation-form.is-loading{{opacity:.74}}.consultation-form.is-success .form-status{{color:var(--deep-sage);font-weight:800}}.consultation-form.is-error .form-status{{color:#7c332b;font-weight:800}}.form-section-compact form{{max-width:980px;background:{'white' if idx % 3 else 'transparent'};border:{'1px solid var(--line)' if idx % 3 else '0'};border-radius:{radius if radius < 30 else 30}px;padding:{'clamp(18px,3vw,34px)' if idx % 3 else '0'}}}.cookie-banner{{position:fixed;left:clamp(14px,2vw,28px);bottom:clamp(14px,2vw,28px);z-index:56;max-width:360px;display:flex;align-items:center;gap:12px;border:1px solid var(--line);border-radius:{radius if radius < 30 else 24}px;background:rgba(248,247,242,.94);box-shadow:var(--shadow);padding:12px 14px;backdrop-filter:blur(14px)}}.cookie-banner[hidden]{{display:none}}.cookie-banner p{{display:grid;gap:2px;color:var(--muted);font-size:.82rem}}.cookie-banner strong{{color:var(--ink)}}.cookie-banner button,.accessibility-tools button{{border:1px solid var(--line);border-radius:999px;background:white;color:var(--ink);padding:8px 10px;font-weight:800}}.accessibility-tools{{position:fixed;left:12px;top:72px;z-index:34;display:flex;gap:6px;opacity:.32;transition:opacity .2s ease}}.accessibility-tools:hover,.accessibility-tools:focus-within{{opacity:1}}body.large-text{{font-size:1.08rem}}body.reduce-motion *,body.reduce-motion *:before,body.reduce-motion *:after{{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+        .site-footer{{margin-top:clamp(42px,6vw,90px);background:var(--ink);color:white;padding:clamp(44px,8vw,100px) max(18px,calc((100vw - {page_max}px)/2)) clamp(88px,10vw,132px);display:grid;grid-template-columns:{'.9fr 1fr .7fr' if idx % 3 else '1fr'};gap:clamp(22px,5vw,70px)}}.site-footer img{{width:min(240px,72vw);margin-bottom:18px}}.site-footer nav{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 20px}}.site-footer a{{color:rgba(255,255,255,.82);text-decoration:none}}.site-footer address{{font-style:normal;display:grid;gap:8px;color:rgba(255,255,255,.78);max-width:360px}}.concept-marker{{position:fixed;right:12px;bottom:12px;z-index:20;display:flex;gap:8px;align-items:center;border:1px solid var(--line);background:rgba(248,247,242,.86);backdrop-filter:blur(14px);border-radius:999px;padding:8px 12px;font-size:.76rem}}
+        .floating-tools{{position:fixed;right:clamp(14px,2.4vw,28px);bottom:clamp(14px,2.4vw,28px);z-index:55;display:grid;gap:10px;justify-items:end;pointer-events:none}}.floating-tools a,.floating-tools button{{pointer-events:auto}}.floating-whatsapp,.back-to-top{{border:1px solid var(--line);border-radius:{radius if radius > 8 else 999}px;background:{'var(--ink)' if idx % 4 in (0,3) else 'color-mix(in srgb,var(--accent) 20%,white)'};color:{'white' if idx % 4 in (0,3) else 'var(--ink)'};box-shadow:{'var(--shadow)' if idx % 3 else '0 12px 36px rgba(37,35,33,.12)'};text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px;width:{'54px' if idx % 5 else '58px'};height:{'54px' if idx % 5 else '58px'};padding:0;font-weight:800;transition:transform .28s ease,opacity .28s ease,background .28s ease}}.floating-whatsapp span{{font-size:.72rem;letter-spacing:.08em}}.floating-whatsapp b{{position:absolute;right:calc(100% + 10px);bottom:6px;width:max-content;max-width:150px;padding:8px 10px;border-radius:999px;background:rgba(248,247,242,.94);color:var(--ink);box-shadow:0 12px 34px rgba(37,35,33,.12);font-size:.72rem;line-height:1.1;opacity:0;transform:translateX(8px);transition:opacity .2s ease,transform .2s ease;pointer-events:none}}.floating-whatsapp:hover b,.floating-whatsapp:focus-visible b{{opacity:1;transform:none}}.back-to-top{{width:46px;height:46px;padding:0;opacity:0;transform:translateY(12px) scale(.94);cursor:pointer}}.back-to-top.is-visible{{opacity:1;transform:none}}.floating-whatsapp:hover,.back-to-top:hover{{transform:translateY(-3px)}}.floating-tools-{concept.number}{{{'grid-auto-flow:column;align-items:end;' if idx % 9 == 6 else ''}{'gap:6px;' if idx % 7 == 3 else ''}{'bottom:clamp(18px,3vw,36px);' if idx % 8 == 5 else ''}}}
         .is-visible{{animation:reveal-{concept.slug} .72s ease both}}@keyframes reveal-{concept.slug}{{from{{opacity:0;transform:translateY({12 + idx % 20}px) scale({'.98' if idx % 2 else '1'});}}to{{opacity:1;transform:none;}}}}
-        body[data-js-ready="true"] .sticky-contact{{transform:translate(-50%,0)}}.sticky-contact{{position:fixed;left:50%;bottom:12px;z-index:25;transform:translate(-50%,120%);transition:transform .4s ease;background:var(--ink);color:white;border-radius:999px;padding:10px 14px;text-decoration:none;box-shadow:var(--shadow)}}
-        @media(max-width:980px){{.status-banner{{padding-left:14px;padding-right:10px;gap:8px}}.status-banner p{{gap:6px}}.site-header,.header-card-stack .header-main,.header-split-nav,.header-command,.header-editorial,.header-rail,.header-proof,.header-monogram{{grid-template-columns:auto auto;position:sticky;top:0;width:100%;border-radius:0;margin-top:0}}.header-meta,.header-kicker,.header-rail-links span,.header-symbol,.desktop-nav,.mini-contact{{display:none}}.menu-button,.menu-button-visible{{display:inline-flex}}.brand-mark img{{width:150px}}.hero,.home-pathways,.service-architecture,.section-heading,.responsible-note,.site-footer{{grid-template-columns:1fr}}.hero{{min-height:auto;padding-top:34px}}.hero-index{{display:none}}.hero-mosaic{{grid-template-columns:1fr 1fr;min-height:auto}}.home-route-grid,.service-architecture-grid,.component-grid{{grid-template-columns:repeat(2,minmax(0,1fr))}}.form-section form{{grid-template-columns:1fr}}}}
-        @media(max-width:620px){{h1{{font-size:clamp(2.25rem,13vw,4.1rem)}}.status-banner{{font-size:.56rem;letter-spacing:.08em}}.status-banner p{{display:grid;gap:0}}.language-switcher button{{padding:3px 6px}}.hero{{grid-template-columns:1fr;gap:18px;width:var(--page);padding-left:0;padding-right:0}}.hero-visual{{min-height:{220 + (idx % 7) * 14}px;{'order:-1;' if idx % 3 == 0 else ''}}}.hero-mosaic{{display:none}}.hero-monogram{{max-width:120px}}.sticky-contact{{display:none}}.home-route-grid,.service-architecture-grid,.component-grid,.service-architecture ul{{grid-template-columns:1fr}}.panel-horizontal,.panel-numbered{{grid-template-columns:1fr}}.site-footer nav{{grid-template-columns:1fr}}.consultation-band{{align-items:stretch;flex-direction:column}}}}
+        @media(max-width:980px){{.status-banner{{padding-left:14px;padding-right:10px;gap:8px}}.status-banner p{{gap:6px}}.site-header,.header-card-stack .header-main,.header-split-nav,.header-command,.header-editorial,.header-rail,.header-proof,.header-monogram{{grid-template-columns:auto auto;position:sticky;top:0;width:100%;border-radius:0;margin-top:0;padding:10px 14px;min-height:64px}}.header-meta,.header-kicker,.header-rail-links span,.header-symbol,.desktop-nav,.mini-contact{{display:none}}.menu-button,.menu-button-visible{{display:inline-flex;justify-self:end}}.brand-mark img{{width:130px}}.hero,.home-pathways,.service-architecture,.section-heading,.responsible-note,.site-footer,.home-index-section,.contact-card{{grid-template-columns:1fr}}.hero{{min-height:auto;padding-top:34px}}.hero-index{{display:none}}.hero-mosaic{{grid-template-columns:1fr 1fr;min-height:auto}}.home-route-grid,.service-architecture-grid,.component-grid{{grid-template-columns:repeat(2,minmax(0,1fr))}}.form-section form{{grid-template-columns:1fr}}.site-footer{{gap:26px}}}}
+        @media(max-width:620px){{h1{{font-size:clamp(2.1rem,11.6vw,3.75rem)}}h2{{font-size:clamp(1.85rem,9vw,3rem)}}.status-banner{{font-size:.54rem;letter-spacing:.07em;min-height:30px}}.status-banner p{{display:grid;gap:0}}.language-switcher button{{padding:3px 6px}}.brand-mark span{{display:none}}.brand-mark img{{width:108px}}.menu-button{{min-height:40px;padding:9px 13px}}.hero{{grid-template-columns:1fr;gap:22px;width:var(--page);padding:clamp(30px,10vw,54px) 0}}.hero-copy{{gap:15px;text-align:left;justify-items:start;padding-left:0!important;padding-right:0!important;border-left:0!important}}.hero-actions{{gap:8px}}.button{{min-height:40px;padding:9px 12px}}.hero-visual{{min-height:{220 + (idx % 7) * 14}px;{'order:-1;' if idx % 3 == 0 else ''}}}.hero-mosaic{{display:none}}.hero-monogram{{max-width:120px}}.home-pathways,.service-architecture,.content-system,.visual-moment,.faq-cluster,.form-section,.responsible-note,.consultation-band,.home-index-section,.contact-card-section{{padding:clamp(40px,12vw,64px) 0}}.home-pathways,.content-system{{display:block!important}}.home-pathways .section-heading{{position:static!important}}.home-route-grid,.service-architecture-grid,.component-grid,.service-architecture ul,.visual-moment,.home-index-section{{display:grid!important;grid-template-columns:1fr!important;columns:auto!important}}.visual-moment>div{{position:relative!important;inset:auto!important;max-width:none!important;background:transparent!important;padding:0!important;border:0!important;backdrop-filter:none!important}}.visual-moment figure,.home-index-section figure{{width:100%!important;aspect-ratio:auto!important;min-height:220px!important}}.visual-detail{{display:none!important}}.home-route,.panel{{min-height:auto;aspect-ratio:auto!important;transform:none!important}}.home-route:nth-child(even),.panel:nth-child(2),.panel:nth-child(3){{transform:none!important}}.panel-horizontal,.panel-numbered{{grid-template-columns:1fr}}.mobile-menu{{padding:18px;gap:18px}}.mobile-menu-primary{{grid-template-columns:1fr}}.mobile-menu-primary a{{font-size:clamp(1.45rem,8vw,2.35rem)}}.mobile-menu-secondary a{{font-size:.68rem;padding:7px 9px}}.mobile-sheet-grid{{grid-template-columns:1fr}}.site-footer{{width:auto!important;border-radius:0!important;padding-bottom:112px}}.site-footer nav{{grid-template-columns:1fr 1fr;font-size:.9rem}}.site-footer address{{font-size:.92rem}}.consultation-band{{display:flex!important;align-items:stretch;flex-direction:column}}.contact-card{{grid-template-columns:1fr;padding:18px}}.cookie-banner{{left:12px;right:12px;bottom:72px;max-width:none}}.accessibility-tools{{display:none}}.floating-tools{{right:12px;bottom:12px;gap:8px}}.floating-whatsapp{{width:52px;height:52px;padding:0;border-radius:999px}}.floating-whatsapp b{{display:none}}.back-to-top{{width:44px;height:44px}}}}
+        """
+    )
+
+
+def partials_js_for(concept: Concept) -> str:
+    concept_payload = {
+        "folder": concept.folder,
+        "number": concept.number,
+        "name": concept.name,
+        "archetype": concept.archetype,
+        "positioning": BRAND["positioning"],
+        "credential": BRAND["credential"],
+        "location": BRAND["location"],
+        "domain": BRAND["domain_url"],
+        "email": BRAND["email"],
+        "whatsapp": BRAND["whatsapp"],
+        "whatsappUrl": BRAND["whatsapp_url"],
+        "instagram": BRAND["instagram"],
+        "instagramUrl": BRAND["instagram_url"],
+    }
+    return dedent(
+        f"""\
+        (() => {{
+          const concept = {json.dumps(concept_payload, ensure_ascii=False)};
+          const cache = new Map();
+          const partialPath = (name) => `partials/${{name}}.html`;
+          const pageFile = () => {{
+            const key = document.body.dataset.page || "index";
+            return key === "index" ? "index.html" : `${{key}}.html`;
+          }};
+          const pageMeta = () => ({{
+            page: document.body.dataset.page || "index",
+            label: document.body.dataset.pageLabel || "Home",
+            title: document.body.dataset.pageTitle || "Franciele Sofiati",
+            description: document.body.dataset.pageDescription || concept.positioning,
+            canonical: document.body.dataset.canonical || `${{concept.domain}}/concepts/${{concept.folder}}/${{pageFile()}}`,
+          }});
+          const getPartial = async (name) => {{
+            if (!cache.has(name)) {{
+              cache.set(name, fetch(partialPath(name), {{ cache: "no-store" }}).then((response) => {{
+                if (!response.ok) throw new Error(`Missing partial: ${{name}}`);
+                return response.text();
+              }}));
+            }}
+            return cache.get(name);
+          }};
+          const interpolate = (html) => {{
+            const meta = pageMeta();
+            return html
+              .replaceAll("{{{{TITLE}}}}", meta.title)
+              .replaceAll("{{{{DESCRIPTION}}}}", meta.description)
+              .replaceAll("{{{{CANONICAL}}}}", meta.canonical)
+              .replaceAll("{{{{SCHEMA_JSON}}}}", JSON.stringify(buildSchema(meta), null, 2));
+          }};
+          const fragmentFrom = (html) => {{
+            const template = document.createElement("template");
+            template.innerHTML = interpolate(html).trim();
+            const innerTemplate = template.content.querySelector("template");
+            if (innerTemplate) {{
+              const inner = document.createElement("template");
+              inner.innerHTML = innerTemplate.innerHTML.trim();
+              return inner.content;
+            }}
+            return template.content;
+          }};
+          const injectHeadPartial = async (name) => {{
+            const html = await getPartial(name);
+            const fragment = fragmentFrom(html);
+            [...document.head.querySelectorAll(`[data-dynamic-partial="${{name}}"]`)].forEach((node) => node.remove());
+            if (name === "head") {{
+              document.head.querySelectorAll('title,meta[name="description"],link[rel="canonical"],meta[property^="og:"],meta[name="theme-color"],link[rel="icon"],link[rel="apple-touch-icon"]').forEach((node) => node.remove());
+            }}
+            [...fragment.children].forEach((node) => {{
+              node.dataset.dynamicPartial = name;
+              document.head.appendChild(node);
+            }});
+          }};
+          const injectMounts = async (name) => {{
+            const html = await getPartial(name);
+            document.querySelectorAll(`[data-partial-mount="${{name}}"]`).forEach((mount) => {{
+              mount.innerHTML = interpolate(html);
+              mount.dataset.partialLoaded = "true";
+            }});
+          }};
+          const applyNavigation = async () => {{
+            const html = await getPartial("navigation");
+            const source = document.createElement("template");
+            source.innerHTML = html;
+            document.querySelectorAll("[data-navigation-slot]").forEach((slot) => {{
+              const mode = slot.dataset.navigationSlot || "primary";
+              const template = source.content.querySelector(`[data-navigation-template="${{mode}}"]`) || source.content.querySelector('[data-navigation-template="primary"]');
+              slot.innerHTML = template ? template.innerHTML : "";
+            }});
+            const current = pageFile();
+            document.querySelectorAll("nav a").forEach((link) => {{
+              const href = link.getAttribute("href") || "";
+              link.removeAttribute("aria-current");
+              if (href === current) link.setAttribute("aria-current", "page");
+            }});
+          }};
+          const buildSchema = (meta) => {{
+            const url = meta.canonical;
+            const base = [
+              {{
+                "@type": "WebSite",
+                "@id": `${{concept.domain}}/#website`,
+                "url": concept.domain,
+                "name": "Sofiati",
+                "inLanguage": "pt-BR"
+              }},
+              {{
+                "@type": "Person",
+                "@id": `${{concept.domain}}/#franciele-sofiati`,
+                "name": "Franciele Sofiati",
+                "jobTitle": "Advanced Aesthetic Biomedicine",
+                "identifier": concept.credential,
+                "email": concept.email,
+                "sameAs": [concept.instagramUrl],
+                "address": {{"@type": "PostalAddress", "addressLocality": "Londrina", "addressRegion": "PR", "addressCountry": "BR"}}
+              }},
+              {{
+                "@type": "ProfessionalService",
+                "@id": `${{concept.domain}}/#professional-service`,
+                "name": "Franciele Sofiati Advanced Aesthetic Biomedicine",
+                "description": "Laser, skin and advanced aesthetic care in Londrina, PR",
+                "areaServed": "Londrina, PR",
+                "url": concept.domain,
+                "telephone": "+5543991043536",
+                "email": concept.email,
+                "address": {{"@type": "PostalAddress", "addressLocality": "Londrina", "addressRegion": "PR", "addressCountry": "BR"}}
+              }},
+              {{
+                "@type": "WebPage",
+                "@id": `${{url}}#webpage`,
+                "url": url,
+                "name": meta.title,
+                "description": meta.description,
+                "isPartOf": {{"@id": `${{concept.domain}}/#website`}},
+                "about": {{"@id": `${{concept.domain}}/#professional-service`}},
+                "inLanguage": "pt-BR"
+              }},
+              {{
+                "@type": "BreadcrumbList",
+                "@id": `${{url}}#breadcrumb`,
+                "itemListElement": [
+                  {{"@type": "ListItem", "position": 1, "name": "Home", "item": `${{concept.domain}}/concepts/${{concept.folder}}/index.html`}},
+                  {{"@type": "ListItem", "position": 2, "name": meta.label, "item": url}}
+                ]
+              }}
+            ];
+            if (meta.page === "faq") {{
+              base.push({{
+                "@type": "FAQPage",
+                "@id": `${{url}}#faq`,
+                "mainEntity": [
+                  {{"@type": "Question", "name": "Do results vary?", "acceptedAnswer": {{"@type": "Answer", "text": "Results vary according to individual characteristics, evaluation, indication, protocol, sessions and aftercare."}}}},
+                  {{"@type": "Question", "name": "Can I choose a laser directly?", "acceptedAnswer": {{"@type": "Answer", "text": "Laser suitability should be discussed through professional evaluation before treatment selection."}}}}
+                ]
+              }});
+            }}
+            if (["journal", "blog"].includes(meta.page)) {{
+              base.push({{
+                "@type": meta.page === "blog" ? "BlogPosting" : "Article",
+                "@id": `${{url}}#article`,
+                "headline": meta.title,
+                "description": meta.description,
+                "author": {{"@id": `${{concept.domain}}/#franciele-sofiati`}},
+                "publisher": {{"@id": `${{concept.domain}}/#professional-service`}},
+                "mainEntityOfPage": {{"@id": `${{url}}#webpage`}}
+              }});
+            }}
+            return {{"@context": "https://schema.org", "@graph": base}};
+          }};
+          const load = async () => {{
+            await Promise.all([injectHeadPartial("head"), injectHeadPartial("schema")]);
+            await Promise.all([
+              injectMounts("status-banner"),
+              injectMounts("accessibility"),
+              injectMounts("header"),
+              injectMounts("mobile-menu"),
+              injectMounts("cookie-banner"),
+              injectMounts("footer"),
+              injectMounts("floating-widgets"),
+              injectMounts("consultation-form"),
+              injectMounts("contact-card")
+            ]);
+            await Promise.all([injectMounts("floating-whatsapp"), injectMounts("back-to-top")]);
+            await applyNavigation();
+            document.body.dataset.partialsReady = "true";
+            document.dispatchEvent(new CustomEvent("sofiati:partials-ready", {{ detail: {{ concept: concept.folder }} }}));
+          }};
+          window.SofiatiPartialsReady = load().catch((error) => {{
+            console.error(error);
+            document.body.dataset.partialsReady = "error";
+          }});
+        }})();
         """
     )
 
@@ -1288,6 +1843,7 @@ def js_for(concept: Concept) -> str:
     return dedent(
         f"""\
         (() => {{
+          const bootSofiatiConcept = () => {{
           const concept = {json.dumps(concept.folder)};
           const menuMode = {json.dumps(menu_mode)};
           const observerMode = {json.dumps(observer_mode)};
@@ -1371,7 +1927,35 @@ def js_for(concept: Concept) -> str:
             link.addEventListener("click", () => setMenu(false));
           }});
 
-          const panels = [...document.querySelectorAll(".panel, .service-architecture, .responsible-note, .consultation-band")];
+          const topButton = document.querySelector("[data-back-to-top]");
+          const updateTopButton = () => {{
+            const visible = window.scrollY > Math.min(720, window.innerHeight * 0.9);
+            topButton?.classList.toggle("is-visible", visible);
+            topButton?.setAttribute("tabindex", visible ? "0" : "-1");
+          }};
+          topButton?.addEventListener("click", () => window.scrollTo({{ top: 0, behavior: "smooth" }}));
+          updateTopButton();
+          window.addEventListener("scroll", updateTopButton, {{ passive: true }});
+
+          const cookieBanner = document.querySelector("[data-cookie-banner]");
+          const cookieAccept = document.querySelector("[data-cookie-accept]");
+          try {{
+            if (cookieBanner && localStorage.getItem("sofiati-cookie-ok") !== "true") cookieBanner.hidden = false;
+          }} catch (error) {{
+            if (cookieBanner) cookieBanner.hidden = false;
+          }}
+          cookieAccept?.addEventListener("click", () => {{
+            if (cookieBanner) cookieBanner.hidden = true;
+            try {{ localStorage.setItem("sofiati-cookie-ok", "true"); }} catch (error) {{}}
+          }});
+          document.querySelector("[data-text-size]")?.addEventListener("click", () => {{
+            document.body.classList.toggle("large-text");
+          }});
+          document.querySelector("[data-motion-toggle]")?.addEventListener("click", () => {{
+            document.body.classList.toggle("reduce-motion");
+          }});
+
+          const panels = [...document.querySelectorAll(".panel, .home-route, .home-index-section, .service-architecture, .responsible-note, .consultation-band, .form-section, .contact-card-section")];
           if ("IntersectionObserver" in window) {{
             const io = new IntersectionObserver((entries) => {{
               entries.forEach((entry) => {{
@@ -1396,15 +1980,51 @@ def js_for(concept: Concept) -> str:
           }});
 
           document.querySelectorAll("[data-consultation-form]").forEach((form) => {{
-            form.addEventListener("submit", (event) => {{
+            form.addEventListener("submit", async (event) => {{
               event.preventDefault();
               const status = form.querySelector(".form-status");
-              if (status) status.textContent = "Thank you. This static concept keeps requests local; WhatsApp is available for a direct consultation request.";
-              applyLanguage(currentLanguage);
+              const button = form.querySelector("[type=submit]");
+              form.classList.remove("is-success", "is-error");
+              if (!form.checkValidity()) {{
+                form.classList.add("is-error");
+                if (status) status.textContent = "Please complete the required fields.";
+                form.reportValidity();
+                applyLanguage(currentLanguage);
+                return;
+              }}
+              form.classList.add("is-loading");
+              if (button) button.disabled = true;
+              if (status) status.textContent = "Sending your request...";
+              try {{
+                const response = await fetch(form.action, {{
+                  method: "POST",
+                  body: new FormData(form),
+                  headers: {{ "Accept": "application/json" }}
+                }});
+                if (!response.ok) throw new Error("Formspree submission failed");
+                form.classList.add("is-success");
+                form.reset();
+                if (status) status.textContent = "Thank you. Your request was sent.";
+              }} catch (error) {{
+                form.classList.add("is-error");
+                if (status) status.textContent = "The form could not be sent. Please use WhatsApp or email.";
+              }} finally {{
+                form.classList.remove("is-loading");
+                if (button) button.disabled = false;
+                applyLanguage(currentLanguage);
+              }}
             }});
           }});
 
           applyLanguage(currentLanguage);
+          }};
+          if (window.SofiatiPartialsReady) {{
+            window.SofiatiPartialsReady.then(bootSofiatiConcept);
+          }} else if (document.readyState === "loading") {{
+            document.addEventListener("DOMContentLoaded", bootSofiatiConcept, {{ once: true }});
+          }} else {{
+            bootSofiatiConcept();
+          }}
         }})();
         """
     )
@@ -1429,22 +2049,22 @@ def design_notes(concept: Concept) -> str:
         The hero is shaped around {concept.archetype}, with concept-specific grid, image treatment, radius, motion timing and headline structure.
 
         How the page layout differs from the other concepts:
-        Page sections use a unique section order marker, component grid rhythm and panel mix generated for {concept.name}. The flat pages are not routed through shared root templates.
+        Page sections use a unique section order marker, homepage index rhythm and panel mix generated for {concept.name}. The HTML pages are slim shells with comments and local partial mounts; they are not routed through shared root templates.
 
         How the mobile menu differs from the other concepts:
-        The mobile menu uses a {concept.menu} with local JavaScript in `js/main.js` and local markup in `partials/mobile-menu.html`.
+        The mobile menu uses a {concept.menu} with local JavaScript in `js/main.js`, local partial loading in `js/partials.js` and local markup in `partials/mobile-menu.html`.
 
         How the footer differs from the other concepts:
         The footer uses a {concept.footer}, local contact hierarchy and concept-specific footer marker `footer-{concept.number}-{concept.slug}`.
 
         How the motion differs from the other concepts:
-        Motion is based on {concept.motion}. The local `main.js` sets unique menu and reveal behaviour for this concept.
+        Motion is based on {concept.motion}. The local `main.js` waits for `js/partials.js`, then sets unique menu, reveal, form, floating WhatsApp and back-to-top behaviour for this concept.
 
         How Sofiati’s brand identity was applied:
         Sage green, ivory, cream, bronze/champagne accents, the Sofiati logo system, FS monogram assets, botanical imagery, clinical calm and responsible advanced aesthetic biomedicine language are applied throughout. English remains the source copy in the files, while the local concept JavaScript loads the public pages in Portuguese by default.
 
         Why this concept is not a clone of the others:
-        It has its own folder, flat HTML pages, `css/style.css`, `js/main.js`, partials, copied assets, design notes, header marker, footer marker, status banner partial, mobile menu marker, hero structure, section order, language switcher and interaction mode. It does not depend on root `/css`, `/js`, `/partials` or `/assets` at runtime.
+        It has its own folder, flat HTML page shells, `css/style.css`, `js/main.js`, `js/partials.js`, head/schema/header/navigation/mobile-menu/footer/form/widget partials, copied assets, design notes, unique markers, expanded homepage sections, language switcher and interaction mode. It does not depend on root `/css`, `/js`, `/partials` or `/assets` at runtime.
         """
     )
 
@@ -1452,10 +2072,20 @@ def design_notes(concept: Concept) -> str:
 def write_partials(concept: Concept, concept_dir: Path) -> None:
     partial_dir = concept_dir / "partials"
     partial_dir.mkdir(parents=True, exist_ok=True)
+    (partial_dir / "head.html").write_text(head_partial_markup(concept) + "\n", encoding="utf-8")
     (partial_dir / "header.html").write_text(header_markup(concept, "index") + "\n", encoding="utf-8")
+    (partial_dir / "navigation.html").write_text(navigation_markup(concept) + "\n", encoding="utf-8")
     (partial_dir / "status-banner.html").write_text(status_banner_markup(concept) + "\n", encoding="utf-8")
     (partial_dir / "footer.html").write_text(footer_markup(concept, "index") + "\n", encoding="utf-8")
     (partial_dir / "mobile-menu.html").write_text(mobile_menu_markup(concept, "index") + "\n", encoding="utf-8")
+    (partial_dir / "floating-widgets.html").write_text(floating_widgets_markup(concept) + "\n", encoding="utf-8")
+    (partial_dir / "floating-whatsapp.html").write_text(floating_whatsapp_markup(concept) + "\n", encoding="utf-8")
+    (partial_dir / "back-to-top.html").write_text(back_to_top_markup(concept) + "\n", encoding="utf-8")
+    (partial_dir / "schema.html").write_text(schema_partial_markup(concept) + "\n", encoding="utf-8")
+    (partial_dir / "cookie-banner.html").write_text(cookie_banner_markup(concept) + "\n", encoding="utf-8")
+    (partial_dir / "accessibility.html").write_text(accessibility_controls_markup(concept) + "\n", encoding="utf-8")
+    (partial_dir / "consultation-form.html").write_text(consultation_form_markup(concept) + "\n", encoding="utf-8")
+    (partial_dir / "contact-card.html").write_text(contact_card_markup(concept) + "\n", encoding="utf-8")
     (partial_dir / "concept-switcher.html").write_text(concept_switcher_partial(concept) + "\n", encoding="utf-8")
 
 
@@ -1466,6 +2096,7 @@ def write_concept(concept: Concept) -> None:
     (concept_dir / "css").mkdir(exist_ok=True)
     (concept_dir / "js").mkdir(exist_ok=True)
     (concept_dir / "css" / "style.css").write_text(css_for(concept), encoding="utf-8")
+    (concept_dir / "js" / "partials.js").write_text(partials_js_for(concept), encoding="utf-8")
     (concept_dir / "js" / "main.js").write_text(js_for(concept), encoding="utf-8")
     write_partials(concept, concept_dir)
     (concept_dir / "design-notes.md").write_text(design_notes(concept), encoding="utf-8")

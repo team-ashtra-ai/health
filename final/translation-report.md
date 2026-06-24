@@ -3,8 +3,8 @@
 - Mode: pt-default-runtime
 - Concept count: 50
 - HTML file count: 950
-- Unique source strings: 4288
-- Covered by exact or phrase translations: 3367
+- Unique source strings: 3514
+- Covered by exact or phrase translations: 2788
 - Runtime errors: 0
 - HTML rewrite: no
 

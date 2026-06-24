@@ -78,6 +78,7 @@ def runtime_errors() -> list[str]:
     for folder in required_concepts():
         concept = CONCEPTS_DIR / folder
         js = concept / "js" / "main.js"
+        partials_js = concept / "js" / "partials.js"
         if not js.exists():
             errors.append(f"Missing runtime: concepts/{folder}/js/main.js")
         else:
@@ -85,13 +86,28 @@ def runtime_errors() -> list[str]:
             for needle in ("sofiati-language", "data-lang-switch", "pt-BR", "applyLanguage", "translations"):
                 if needle not in js_text:
                     errors.append(f"Translation runtime missing {needle}: concepts/{folder}/js/main.js")
+        if not partials_js.exists():
+            errors.append(f"Missing partial loader runtime: concepts/{folder}/js/partials.js")
+        else:
+            partials_text = partials_js.read_text(encoding="utf-8")
+            for needle in ("data-partial-mount", "partials/", "head", "schema"):
+                if needle not in partials_text:
+                    errors.append(f"Partial loader missing {needle}: concepts/{folder}/js/partials.js")
+        status_partial = concept / "partials" / "status-banner.html"
+        if not status_partial.exists():
+            errors.append(f"Missing status banner partial: concepts/{folder}/partials/status-banner.html")
+        else:
+            status_raw = status_partial.read_text(encoding="utf-8")
+            for needle in ("data-status-banner", "data-lang-switch"):
+                if needle not in status_raw:
+                    errors.append(f"Status/language marker missing {needle}: concepts/{folder}/partials/status-banner.html")
         for filename in page_files:
             path = concept / filename
             if not path.exists():
                 errors.append(f"Missing page for translation check: concepts/{folder}/{filename}")
                 continue
             raw = path.read_text(encoding="utf-8")
-            for needle in ('lang="pt-BR"', 'data-source-lang="en"', 'data-default-lang="pt"', "data-status-banner", "data-lang-switch"):
+            for needle in ('lang="pt-BR"', 'data-source-lang="en"', 'data-default-lang="pt"', 'data-partial-mount="status-banner"', 'js/partials.js'):
                 if needle not in raw:
                     errors.append(f"PT-default marker missing {needle}: concepts/{folder}/{filename}")
     return errors
@@ -103,7 +119,8 @@ def build_inventory() -> dict[str, object]:
     by_page: dict[str, list[str]] = {}
     for folder in required_concepts():
         concept = CONCEPTS_DIR / folder
-        for page in sorted(concept.glob("*.html")):
+        inventory_paths = list(sorted(concept.glob("*.html"))) + list(sorted((concept / "partials").glob("*.html")))
+        for page in inventory_paths:
             strings = visible_strings(page)
             rel = page.relative_to(ROOT).as_posix()
             by_page[rel] = sorted(set(strings))
