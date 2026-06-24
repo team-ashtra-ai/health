@@ -20,603 +20,607 @@
     },
     {
       "viewport": "desktop",
-      "page": "concept-01-home",
-      "url": "/concepts/01/home/",
-      "file": "final/homepage-screenshots/desktop/concept-01-home-desktop.png"
+      "page": "concept-01-inspire-home",
+      "url": "/concepts/01-inspire/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-01-inspire-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-01-home",
-      "url": "/concepts/01/home/",
-      "file": "final/homepage-screenshots/mobile/concept-01-home-mobile.png"
+      "page": "concept-01-inspire-home",
+      "url": "/concepts/01-inspire/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-01-inspire-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-02-home",
-      "url": "/concepts/02/home/",
-      "file": "final/homepage-screenshots/desktop/concept-02-home-desktop.png"
+      "page": "concept-02-empower-home",
+      "url": "/concepts/02-empower/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-02-empower-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-02-home",
-      "url": "/concepts/02/home/",
-      "file": "final/homepage-screenshots/mobile/concept-02-home-mobile.png"
+      "page": "concept-02-empower-home",
+      "url": "/concepts/02-empower/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-02-empower-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-03-home",
-      "url": "/concepts/03/home/",
-      "file": "final/homepage-screenshots/desktop/concept-03-home-desktop.png"
+      "page": "concept-03-enhance-home",
+      "url": "/concepts/03-enhance/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-03-enhance-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-03-home",
-      "url": "/concepts/03/home/",
-      "file": "final/homepage-screenshots/mobile/concept-03-home-mobile.png"
+      "page": "concept-03-enhance-home",
+      "url": "/concepts/03-enhance/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-03-enhance-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-04-home",
-      "url": "/concepts/04/home/",
-      "file": "final/homepage-screenshots/desktop/concept-04-home-desktop.png"
+      "page": "concept-04-renew-home",
+      "url": "/concepts/04-renew/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-04-renew-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-04-home",
-      "url": "/concepts/04/home/",
-      "file": "final/homepage-screenshots/mobile/concept-04-home-mobile.png"
+      "page": "concept-04-renew-home",
+      "url": "/concepts/04-renew/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-04-renew-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-05-home",
-      "url": "/concepts/05/home/",
-      "file": "final/homepage-screenshots/desktop/concept-05-home-desktop.png"
+      "page": "concept-05-elevate-home",
+      "url": "/concepts/05-elevate/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-05-elevate-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-05-home",
-      "url": "/concepts/05/home/",
-      "file": "final/homepage-screenshots/mobile/concept-05-home-mobile.png"
+      "page": "concept-05-elevate-home",
+      "url": "/concepts/05-elevate/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-05-elevate-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-06-home",
-      "url": "/concepts/06/home/",
-      "file": "final/homepage-screenshots/desktop/concept-06-home-desktop.png"
+      "page": "concept-06-refine-home",
+      "url": "/concepts/06-refine/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-06-refine-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-06-home",
-      "url": "/concepts/06/home/",
-      "file": "final/homepage-screenshots/mobile/concept-06-home-mobile.png"
+      "page": "concept-06-refine-home",
+      "url": "/concepts/06-refine/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-06-refine-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-07-home",
-      "url": "/concepts/07/home/",
-      "file": "final/homepage-screenshots/desktop/concept-07-home-desktop.png"
+      "page": "concept-07-glow-home",
+      "url": "/concepts/07-glow/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-07-glow-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-07-home",
-      "url": "/concepts/07/home/",
-      "file": "final/homepage-screenshots/mobile/concept-07-home-mobile.png"
+      "page": "concept-07-glow-home",
+      "url": "/concepts/07-glow/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-07-glow-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-08-home",
-      "url": "/concepts/08/home/",
-      "file": "final/homepage-screenshots/desktop/concept-08-home-desktop.png"
+      "page": "concept-08-balance-home",
+      "url": "/concepts/08-balance/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-08-balance-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-08-home",
-      "url": "/concepts/08/home/",
-      "file": "final/homepage-screenshots/mobile/concept-08-home-mobile.png"
+      "page": "concept-08-balance-home",
+      "url": "/concepts/08-balance/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-08-balance-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-09-home",
-      "url": "/concepts/09/home/",
-      "file": "final/homepage-screenshots/desktop/concept-09-home-desktop.png"
+      "page": "concept-09-radiance-home",
+      "url": "/concepts/09-radiance/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-09-radiance-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-09-home",
-      "url": "/concepts/09/home/",
-      "file": "final/homepage-screenshots/mobile/concept-09-home-mobile.png"
+      "page": "concept-09-radiance-home",
+      "url": "/concepts/09-radiance/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-09-radiance-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-10-home",
-      "url": "/concepts/10/home/",
-      "file": "final/homepage-screenshots/desktop/concept-10-home-desktop.png"
+      "page": "concept-10-essence-home",
+      "url": "/concepts/10-essence/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-10-essence-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-10-home",
-      "url": "/concepts/10/home/",
-      "file": "final/homepage-screenshots/mobile/concept-10-home-mobile.png"
+      "page": "concept-10-essence-home",
+      "url": "/concepts/10-essence/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-10-essence-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-11-home",
-      "url": "/concepts/11/home/",
-      "file": "final/homepage-screenshots/desktop/concept-11-home-desktop.png"
+      "page": "concept-11-bloom-home",
+      "url": "/concepts/11-bloom/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-11-bloom-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-11-home",
-      "url": "/concepts/11/home/",
-      "file": "final/homepage-screenshots/mobile/concept-11-home-mobile.png"
+      "page": "concept-11-bloom-home",
+      "url": "/concepts/11-bloom/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-11-bloom-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-12-home",
-      "url": "/concepts/12/home/",
-      "file": "final/homepage-screenshots/desktop/concept-12-home-desktop.png"
+      "page": "concept-12-vital-home",
+      "url": "/concepts/12-vital/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-12-vital-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-12-home",
-      "url": "/concepts/12/home/",
-      "file": "final/homepage-screenshots/mobile/concept-12-home-mobile.png"
+      "page": "concept-12-vital-home",
+      "url": "/concepts/12-vital/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-12-vital-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-13-home",
-      "url": "/concepts/13/home/",
-      "file": "final/homepage-screenshots/desktop/concept-13-home-desktop.png"
+      "page": "concept-13-poise-home",
+      "url": "/concepts/13-poise/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-13-poise-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-13-home",
-      "url": "/concepts/13/home/",
-      "file": "final/homepage-screenshots/mobile/concept-13-home-mobile.png"
+      "page": "concept-13-poise-home",
+      "url": "/concepts/13-poise/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-13-poise-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-14-home",
-      "url": "/concepts/14/home/",
-      "file": "final/homepage-screenshots/desktop/concept-14-home-desktop.png"
+      "page": "concept-14-aura-home",
+      "url": "/concepts/14-aura/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-14-aura-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-14-home",
-      "url": "/concepts/14/home/",
-      "file": "final/homepage-screenshots/mobile/concept-14-home-mobile.png"
+      "page": "concept-14-aura-home",
+      "url": "/concepts/14-aura/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-14-aura-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-15-home",
-      "url": "/concepts/15/home/",
-      "file": "final/homepage-screenshots/desktop/concept-15-home-desktop.png"
+      "page": "concept-15-clarity-home",
+      "url": "/concepts/15-clarity/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-15-clarity-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-15-home",
-      "url": "/concepts/15/home/",
-      "file": "final/homepage-screenshots/mobile/concept-15-home-mobile.png"
+      "page": "concept-15-clarity-home",
+      "url": "/concepts/15-clarity/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-15-clarity-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-16-home",
-      "url": "/concepts/16/home/",
-      "file": "final/homepage-screenshots/desktop/concept-16-home-desktop.png"
+      "page": "concept-16-grace-home",
+      "url": "/concepts/16-grace/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-16-grace-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-16-home",
-      "url": "/concepts/16/home/",
-      "file": "final/homepage-screenshots/mobile/concept-16-home-mobile.png"
+      "page": "concept-16-grace-home",
+      "url": "/concepts/16-grace/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-16-grace-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-17-home",
-      "url": "/concepts/17/home/",
-      "file": "final/homepage-screenshots/desktop/concept-17-home-desktop.png"
+      "page": "concept-17-sculpt-home",
+      "url": "/concepts/17-sculpt/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-17-sculpt-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-17-home",
-      "url": "/concepts/17/home/",
-      "file": "final/homepage-screenshots/mobile/concept-17-home-mobile.png"
+      "page": "concept-17-sculpt-home",
+      "url": "/concepts/17-sculpt/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-17-sculpt-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-18-home",
-      "url": "/concepts/18/home/",
-      "file": "final/homepage-screenshots/desktop/concept-18-home-desktop.png"
+      "page": "concept-18-lumin-home",
+      "url": "/concepts/18-lumin/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-18-lumin-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-18-home",
-      "url": "/concepts/18/home/",
-      "file": "final/homepage-screenshots/mobile/concept-18-home-mobile.png"
+      "page": "concept-18-lumin-home",
+      "url": "/concepts/18-lumin/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-18-lumin-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-19-home",
-      "url": "/concepts/19/home/",
-      "file": "final/homepage-screenshots/desktop/concept-19-home-desktop.png"
+      "page": "concept-19-verda-home",
+      "url": "/concepts/19-verda/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-19-verda-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-19-home",
-      "url": "/concepts/19/home/",
-      "file": "final/homepage-screenshots/mobile/concept-19-home-mobile.png"
+      "page": "concept-19-verda-home",
+      "url": "/concepts/19-verda/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-19-verda-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-20-home",
-      "url": "/concepts/20/home/",
-      "file": "final/homepage-screenshots/desktop/concept-20-home-desktop.png"
+      "page": "concept-20-halo-home",
+      "url": "/concepts/20-halo/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-20-halo-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-20-home",
-      "url": "/concepts/20/home/",
-      "file": "final/homepage-screenshots/mobile/concept-20-home-mobile.png"
+      "page": "concept-20-halo-home",
+      "url": "/concepts/20-halo/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-20-halo-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-21-home",
-      "url": "/concepts/21/home/",
-      "file": "final/homepage-screenshots/desktop/concept-21-home-desktop.png"
+      "page": "concept-21-calm-home",
+      "url": "/concepts/21-calm/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-21-calm-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-21-home",
-      "url": "/concepts/21/home/",
-      "file": "final/homepage-screenshots/mobile/concept-21-home-mobile.png"
+      "page": "concept-21-calm-home",
+      "url": "/concepts/21-calm/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-21-calm-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-22-home",
-      "url": "/concepts/22/home/",
-      "file": "final/homepage-screenshots/desktop/concept-22-home-desktop.png"
+      "page": "concept-22-precision-home",
+      "url": "/concepts/22-precision/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-22-precision-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-22-home",
-      "url": "/concepts/22/home/",
-      "file": "final/homepage-screenshots/mobile/concept-22-home-mobile.png"
+      "page": "concept-22-precision-home",
+      "url": "/concepts/22-precision/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-22-precision-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-23-home",
-      "url": "/concepts/23/home/",
-      "file": "final/homepage-screenshots/desktop/concept-23-home-desktop.png"
+      "page": "concept-23-ritual-home",
+      "url": "/concepts/23-ritual/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-23-ritual-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-23-home",
-      "url": "/concepts/23/home/",
-      "file": "final/homepage-screenshots/mobile/concept-23-home-mobile.png"
+      "page": "concept-23-ritual-home",
+      "url": "/concepts/23-ritual/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-23-ritual-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-24-home",
-      "url": "/concepts/24/home/",
-      "file": "final/homepage-screenshots/desktop/concept-24-home-desktop.png"
+      "page": "concept-24-signal-home",
+      "url": "/concepts/24-signal/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-24-signal-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-24-home",
-      "url": "/concepts/24/home/",
-      "file": "final/homepage-screenshots/mobile/concept-24-home-mobile.png"
+      "page": "concept-24-signal-home",
+      "url": "/concepts/24-signal/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-24-signal-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-25-home",
-      "url": "/concepts/25/home/",
-      "file": "final/homepage-screenshots/desktop/concept-25-home-desktop.png"
+      "page": "concept-25-align-home",
+      "url": "/concepts/25-align/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-25-align-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-25-home",
-      "url": "/concepts/25/home/",
-      "file": "final/homepage-screenshots/mobile/concept-25-home-mobile.png"
+      "page": "concept-25-align-home",
+      "url": "/concepts/25-align/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-25-align-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-26-home",
-      "url": "/concepts/26/home/",
-      "file": "final/homepage-screenshots/desktop/concept-26-home-desktop.png"
+      "page": "concept-26-vivant-home",
+      "url": "/concepts/26-vivant/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-26-vivant-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-26-home",
-      "url": "/concepts/26/home/",
-      "file": "final/homepage-screenshots/mobile/concept-26-home-mobile.png"
+      "page": "concept-26-vivant-home",
+      "url": "/concepts/26-vivant/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-26-vivant-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-27-home",
-      "url": "/concepts/27/home/",
-      "file": "final/homepage-screenshots/desktop/concept-27-home-desktop.png"
+      "page": "concept-27-form-home",
+      "url": "/concepts/27-form/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-27-form-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-27-home",
-      "url": "/concepts/27/home/",
-      "file": "final/homepage-screenshots/mobile/concept-27-home-mobile.png"
+      "page": "concept-27-form-home",
+      "url": "/concepts/27-form/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-27-form-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-28-home",
-      "url": "/concepts/28/home/",
-      "file": "final/homepage-screenshots/desktop/concept-28-home-desktop.png"
+      "page": "concept-28-pure-home",
+      "url": "/concepts/28-pure/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-28-pure-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-28-home",
-      "url": "/concepts/28/home/",
-      "file": "final/homepage-screenshots/mobile/concept-28-home-mobile.png"
+      "page": "concept-28-pure-home",
+      "url": "/concepts/28-pure/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-28-pure-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-29-home",
-      "url": "/concepts/29/home/",
-      "file": "final/homepage-screenshots/desktop/concept-29-home-desktop.png"
+      "page": "concept-29-solace-home",
+      "url": "/concepts/29-solace/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-29-solace-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-29-home",
-      "url": "/concepts/29/home/",
-      "file": "final/homepage-screenshots/mobile/concept-29-home-mobile.png"
+      "page": "concept-29-solace-home",
+      "url": "/concepts/29-solace/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-29-solace-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-30-home",
-      "url": "/concepts/30/home/",
-      "file": "final/homepage-screenshots/desktop/concept-30-home-desktop.png"
+      "page": "concept-30-method-home",
+      "url": "/concepts/30-method/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-30-method-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-30-home",
-      "url": "/concepts/30/home/",
-      "file": "final/homepage-screenshots/mobile/concept-30-home-mobile.png"
+      "page": "concept-30-method-home",
+      "url": "/concepts/30-method/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-30-method-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-31-home",
-      "url": "/concepts/31/home/",
-      "file": "final/homepage-screenshots/desktop/concept-31-home-desktop.png"
+      "page": "concept-31-evolve-home",
+      "url": "/concepts/31-evolve/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-31-evolve-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-31-home",
-      "url": "/concepts/31/home/",
-      "file": "final/homepage-screenshots/mobile/concept-31-home-mobile.png"
+      "page": "concept-31-evolve-home",
+      "url": "/concepts/31-evolve/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-31-evolve-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-32-home",
-      "url": "/concepts/32/home/",
-      "file": "final/homepage-screenshots/desktop/concept-32-home-desktop.png"
+      "page": "concept-32-serene-home",
+      "url": "/concepts/32-serene/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-32-serene-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-32-home",
-      "url": "/concepts/32/home/",
-      "file": "final/homepage-screenshots/mobile/concept-32-home-mobile.png"
+      "page": "concept-32-serene-home",
+      "url": "/concepts/32-serene/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-32-serene-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-33-home",
-      "url": "/concepts/33/home/",
-      "file": "final/homepage-screenshots/desktop/concept-33-home-desktop.png"
+      "page": "concept-33-elan-home",
+      "url": "/concepts/33-elan/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-33-elan-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-33-home",
-      "url": "/concepts/33/home/",
-      "file": "final/homepage-screenshots/mobile/concept-33-home-mobile.png"
+      "page": "concept-33-elan-home",
+      "url": "/concepts/33-elan/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-33-elan-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-34-home",
-      "url": "/concepts/34/home/",
-      "file": "final/homepage-screenshots/desktop/concept-34-home-desktop.png"
+      "page": "concept-34-flora-home",
+      "url": "/concepts/34-flora/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-34-flora-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-34-home",
-      "url": "/concepts/34/home/",
-      "file": "final/homepage-screenshots/mobile/concept-34-home-mobile.png"
+      "page": "concept-34-flora-home",
+      "url": "/concepts/34-flora/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-34-flora-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-35-home",
-      "url": "/concepts/35/home/",
-      "file": "final/homepage-screenshots/desktop/concept-35-home-desktop.png"
+      "page": "concept-35-atelier-home",
+      "url": "/concepts/35-atelier/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-35-atelier-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-35-home",
-      "url": "/concepts/35/home/",
-      "file": "final/homepage-screenshots/mobile/concept-35-home-mobile.png"
+      "page": "concept-35-atelier-home",
+      "url": "/concepts/35-atelier/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-35-atelier-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-36-home",
-      "url": "/concepts/36/home/",
-      "file": "final/homepage-screenshots/desktop/concept-36-home-desktop.png"
+      "page": "concept-36-lumina-home",
+      "url": "/concepts/36-lumina/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-36-lumina-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-36-home",
-      "url": "/concepts/36/home/",
-      "file": "final/homepage-screenshots/mobile/concept-36-home-mobile.png"
+      "page": "concept-36-lumina-home",
+      "url": "/concepts/36-lumina/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-36-lumina-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-37-home",
-      "url": "/concepts/37/home/",
-      "file": "final/homepage-screenshots/desktop/concept-37-home-desktop.png"
+      "page": "concept-37-vellum-home",
+      "url": "/concepts/37-vellum/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-37-vellum-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-37-home",
-      "url": "/concepts/37/home/",
-      "file": "final/homepage-screenshots/mobile/concept-37-home-mobile.png"
+      "page": "concept-37-vellum-home",
+      "url": "/concepts/37-vellum/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-37-vellum-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-38-home",
-      "url": "/concepts/38/home/",
-      "file": "final/homepage-screenshots/desktop/concept-38-home-desktop.png"
+      "page": "concept-38-origin-home",
+      "url": "/concepts/38-origin/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-38-origin-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-38-home",
-      "url": "/concepts/38/home/",
-      "file": "final/homepage-screenshots/mobile/concept-38-home-mobile.png"
+      "page": "concept-38-origin-home",
+      "url": "/concepts/38-origin/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-38-origin-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-39-home",
-      "url": "/concepts/39/home/",
-      "file": "final/homepage-screenshots/desktop/concept-39-home-desktop.png"
+      "page": "concept-39-kindred-home",
+      "url": "/concepts/39-kindred/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-39-kindred-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-39-home",
-      "url": "/concepts/39/home/",
-      "file": "final/homepage-screenshots/mobile/concept-39-home-mobile.png"
+      "page": "concept-39-kindred-home",
+      "url": "/concepts/39-kindred/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-39-kindred-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-40-home",
-      "url": "/concepts/40/home/",
-      "file": "final/homepage-screenshots/desktop/concept-40-home-desktop.png"
+      "page": "concept-40-noble-home",
+      "url": "/concepts/40-noble/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-40-noble-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-40-home",
-      "url": "/concepts/40/home/",
-      "file": "final/homepage-screenshots/mobile/concept-40-home-mobile.png"
+      "page": "concept-40-noble-home",
+      "url": "/concepts/40-noble/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-40-noble-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-41-home",
-      "url": "/concepts/41/home/",
-      "file": "final/homepage-screenshots/desktop/concept-41-home-desktop.png"
+      "page": "concept-41-vista-home",
+      "url": "/concepts/41-vista/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-41-vista-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-41-home",
-      "url": "/concepts/41/home/",
-      "file": "final/homepage-screenshots/mobile/concept-41-home-mobile.png"
+      "page": "concept-41-vista-home",
+      "url": "/concepts/41-vista/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-41-vista-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-42-home",
-      "url": "/concepts/42/home/",
-      "file": "final/homepage-screenshots/desktop/concept-42-home-desktop.png"
+      "page": "concept-42-softline-home",
+      "url": "/concepts/42-softline/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-42-softline-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-42-home",
-      "url": "/concepts/42/home/",
-      "file": "final/homepage-screenshots/mobile/concept-42-home-mobile.png"
+      "page": "concept-42-softline-home",
+      "url": "/concepts/42-softline/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-42-softline-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-43-home",
-      "url": "/concepts/43/home/",
-      "file": "final/homepage-screenshots/desktop/concept-43-home-desktop.png"
+      "page": "concept-43-meridian-home",
+      "url": "/concepts/43-meridian/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-43-meridian-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-43-home",
-      "url": "/concepts/43/home/",
-      "file": "final/homepage-screenshots/mobile/concept-43-home-mobile.png"
+      "page": "concept-43-meridian-home",
+      "url": "/concepts/43-meridian/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-43-meridian-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-44-home",
-      "url": "/concepts/44/home/",
-      "file": "final/homepage-screenshots/desktop/concept-44-home-desktop.png"
+      "page": "concept-44-safeguard-home",
+      "url": "/concepts/44-safeguard/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-44-safeguard-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-44-home",
-      "url": "/concepts/44/home/",
-      "file": "final/homepage-screenshots/mobile/concept-44-home-mobile.png"
+      "page": "concept-44-safeguard-home",
+      "url": "/concepts/44-safeguard/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-44-safeguard-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-45-home",
-      "url": "/concepts/45/home/",
-      "file": "final/homepage-screenshots/desktop/concept-45-home-desktop.png"
+      "page": "concept-45-silhouette-home",
+      "url": "/concepts/45-silhouette/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-45-silhouette-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-45-home",
-      "url": "/concepts/45/home/",
-      "file": "final/homepage-screenshots/mobile/concept-45-home-mobile.png"
+      "page": "concept-45-silhouette-home",
+      "url": "/concepts/45-silhouette/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-45-silhouette-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-46-home",
-      "url": "/concepts/46/home/",
-      "file": "final/homepage-screenshots/desktop/concept-46-home-desktop.png"
+      "page": "concept-46-curate-home",
+      "url": "/concepts/46-curate/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-46-curate-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-46-home",
-      "url": "/concepts/46/home/",
-      "file": "final/homepage-screenshots/mobile/concept-46-home-mobile.png"
+      "page": "concept-46-curate-home",
+      "url": "/concepts/46-curate/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-46-curate-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-47-home",
-      "url": "/concepts/47/home/",
-      "file": "final/homepage-screenshots/desktop/concept-47-home-desktop.png"
+      "page": "concept-47-proof-home",
+      "url": "/concepts/47-proof/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-47-proof-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-47-home",
-      "url": "/concepts/47/home/",
-      "file": "final/homepage-screenshots/mobile/concept-47-home-mobile.png"
+      "page": "concept-47-proof-home",
+      "url": "/concepts/47-proof/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-47-proof-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-48-home",
-      "url": "/concepts/48/home/",
-      "file": "final/homepage-screenshots/desktop/concept-48-home-desktop.png"
+      "page": "concept-48-signature-home",
+      "url": "/concepts/48-signature/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-48-signature-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-48-home",
-      "url": "/concepts/48/home/",
-      "file": "final/homepage-screenshots/mobile/concept-48-home-mobile.png"
+      "page": "concept-48-signature-home",
+      "url": "/concepts/48-signature/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-48-signature-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-49-home",
-      "url": "/concepts/49/home/",
-      "file": "final/homepage-screenshots/desktop/concept-49-home-desktop.png"
+      "page": "concept-49-wisdom-home",
+      "url": "/concepts/49-wisdom/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-49-wisdom-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-49-home",
-      "url": "/concepts/49/home/",
-      "file": "final/homepage-screenshots/mobile/concept-49-home-mobile.png"
+      "page": "concept-49-wisdom-home",
+      "url": "/concepts/49-wisdom/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-49-wisdom-home-mobile.png"
     },
     {
       "viewport": "desktop",
-      "page": "concept-50-home",
-      "url": "/concepts/50/home/",
-      "file": "final/homepage-screenshots/desktop/concept-50-home-desktop.png"
+      "page": "concept-50-sovereign-home",
+      "url": "/concepts/50-sovereign/index.html",
+      "file": "final/homepage-screenshots/desktop/concept-50-sovereign-home-desktop.png"
     },
     {
       "viewport": "mobile",
-      "page": "concept-50-home",
-      "url": "/concepts/50/home/",
-      "file": "final/homepage-screenshots/mobile/concept-50-home-mobile.png"
+      "page": "concept-50-sovereign-home",
+      "url": "/concepts/50-sovereign/index.html",
+      "file": "final/homepage-screenshots/mobile/concept-50-sovereign-home-mobile.png"
     }
+  ],
+  "contactSheets": [
+    "final/homepage-screenshots/desktop-contact-sheet.jpg",
+    "final/homepage-screenshots/mobile-contact-sheet.jpg"
   ]
 }

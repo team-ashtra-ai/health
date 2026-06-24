@@ -1,439 +1,211 @@
 #!/usr/bin/env python3
-"""Generate the 50 standalone Sofiati static website concepts.
+"""Rebuild the Sofiati portfolio as 50 portable standalone static sites.
 
-The generated HTML is English source content. Run translate_pages.py afterwards
-when the bilingual PT/EN presentation should be Portuguese by default.
+Each concept receives its own flat HTML pages, local CSS, local JavaScript,
+partials, copied assets and design notes. No concept page depends on root
+runtime CSS, JS, partials or assets.
 """
 
 from __future__ import annotations
 
 import json
-import re
+import math
+import shutil
+from dataclasses import dataclass
 from html import escape
 from pathlib import Path
 from textwrap import dedent
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CONCEPTS_PATH = ROOT / "data" / "concepts.json"
 CONCEPTS_DIR = ROOT / "concepts"
-CSS_DIR = ROOT / "css" / "concepts"
+ROOT_ASSETS = ROOT / "assets"
 
-PAGES = [
-    "home",
-    "about",
-    "mission",
-    "values",
-    "care",
-    "laser",
-    "skin",
-    "results",
-    "testimonials",
-    "journal",
-    "blog",
-    "faq",
-    "contact",
-    "consultation",
-    "legal",
-    "privacy",
-    "cookies",
-    "accessibility",
-    "404",
+BRAND = {
+    "name": "Franciele Sofiati",
+    "descriptor": "Advanced Aesthetic Biomedicine",
+    "credential": "CRBM 6277",
+    "positioning": "Laser, skin and advanced aesthetic care in Londrina, PR",
+    "whatsapp": "(43) 9 9104-3536",
+    "email": "sofiatimendonca@gmail.com",
+    "instagram": "@fransofiati_biomedica",
+    "location": "Londrina, PR",
+    "domain": "www.sofiati.com",
+    "whatsapp_url": "https://wa.me/5543991043536",
+    "instagram_url": "https://www.instagram.com/fransofiati_biomedica/",
+    "domain_url": "https://www.sofiati.com",
+}
+
+CONCEPTS = [
+    ("01", "inspire", "Inspire", "https://joaodermatologista.com.br/", "editorial diagnosis journey", "split masthead with clinical proof rail", "chaptered fullscreen drawer", "business-card editorial footer", "soft reveal with line drawing"),
+    ("02", "empower", "Empower", "https://www.clinicadravanessavanzo.com.br/", "boutique contact architecture", "card-like sticky header", "ivory contact-sheet menu", "oversized logo footer", "contact card parallax"),
+    ("03", "enhance", "Enhance", "https://drajuliasaldanha.com.br/", "botanical clinic magazine", "sage magazine bar", "folding editorial menu", "journal index footer", "masked image fade"),
+    ("04", "renew", "Renew", "https://clinicadermacatarina.com.br/", "laser technology dossier", "monogram technical header", "specification drawer", "clinical columns footer", "accordion glide"),
+    ("05", "elevate", "Elevate", "https://clinicapellier.com.br/", "quiet luxury skincare journal", "split wordmark navigation", "image-and-copy mobile menu", "luxury skincare footer", "watermark fade"),
+    ("06", "refine", "Refine", "https://clinicamarianagenta.com.br/", "mobile story pathway", "left rail desktop nav", "stepped treatment menu", "botanical route footer", "staggered story cards"),
+    ("07", "glow", "Glow", "https://clinicamakino.com.br/londrina/", "clinical proof grid", "minimal evidence header", "bottom-sheet service menu", "legal-light footer", "image rise on scroll"),
+    ("08", "balance", "Balance", "https://www.clinicasantez.com.br/", "monogram sanctuary", "centered emblem header", "round botanical menu", "contact-card footer", "orbital monogram reveal"),
+    ("09", "radiance", "Radiance", "https://www.iderj.com.br/", "consultation conversion studio", "floating appointment header", "bronze command menu", "magazine conversion footer", "sticky CTA pulse"),
+    ("10", "essence", "Essence", "https://clinicadermic.com.br/", "minimal appointment suite", "desktop mega-menu", "story background menu", "split CTA footer", "underline draw"),
+    ("11", "bloom", "Bloom", "https://www.institutopontello.com.br/", "institutional authority landing", "dual-row institute header", "services atlas menu", "credentials footer", "stat count reveal"),
+    ("12", "vital", "Vital", "https://dermaclinica.com.br/", "dermatology portal", "portal nav header", "category drawer menu", "clinic directory footer", "tabbed service reveal"),
+    ("13", "poise", "Poise", "https://www.clinicadaianesaldanha.com.br/", "private boutique columns", "narrow monogram header", "accordion boutique menu", "signature footer", "column slide"),
+    ("14", "aura", "Aura", "https://saintbeaute.com.br/", "spa-luxury clinic mood", "champagne capsule header", "soft overlay menu", "ritual footer", "slow opacity bloom"),
+    ("15", "clarity", "Clarity", "https://www.clinicasandin.com.br/", "procedure atlas", "indexed treatment header", "alphabetical menu", "compact medical footer", "filter chips"),
+    ("16", "grace", "Grace", "https://beauty365.com.br/", "service-commerce shelves", "shop-like service nav", "sliding product menu", "membership footer", "shelf hover lift"),
+    ("17", "sculpt", "Sculpt", "https://www.gioesteticaavancada.com.br/unidade/londrina/", "local branch landing", "location-first header", "branch sheet menu", "unit footer", "local badge reveal"),
+    ("18", "lumin", "Lumin", "https://www.jkesteticaavancada.com.br/", "high-contrast clinic suite", "bold split header", "panel stack menu", "contrast footer", "sharp mask transitions"),
+    ("19", "verda", "Verda", "https://clinicaesteticalondrina.com.br/", "local search landing", "search-intent header", "quick action menu", "local trust footer", "search card reveal"),
+    ("20", "halo", "Halo", "https://clinicapio.com.br/", "physician profile pathway", "profile-led header", "bio drawer menu", "professional profile footer", "portrait crop motion"),
+    ("21", "calm", "Calm", "https://www.phiclinic.com/", "international private clinic", "concierge header", "private clinic menu", "concierge footer", "calm fade cascade"),
+    ("22", "precision", "Precision", "https://www.drwassimtaktouk.com/", "consultant authority", "doctor-signature header", "consultant menu", "appointment footer", "signature trace"),
+    ("23", "ritual", "Ritual", "https://skinmedical.com/", "medical skin landing", "treatment proof header", "condition menu", "medical disclosure footer", "clinical reveal"),
+    ("24", "signal", "Signal", "https://fineclinic.uk/", "fine clinic calm", "ultra-minimal header", "quiet list menu", "fine-print footer", "low motion dissolve"),
+    ("25", "align", "Align", "https://altamedi.com/", "treatment explorer", "explorer header", "filterable service menu", "explorer footer", "filter transition"),
+    ("26", "vivant", "Vivant", "https://www.harleystreetskinclinic.com/", "Harley editorial authority", "editorial authority header", "article menu", "Harley-style footer", "editorial wipe"),
+    ("27", "form", "Form", "https://www.cosmeticskinclinic.com/", "procedure library", "library header", "mega library menu", "procedure footer", "card index animation"),
+    ("28", "pure", "Pure", "https://www.antiwrinkleclinic.co.uk/", "focused wrinkle education", "single-service header", "question-led menu", "education footer", "FAQ slide"),
+    ("29", "solace", "Solace", "https://drnooraesthetics.co.uk/", "doctor journal", "journal doctor header", "notebook menu", "personal practice footer", "notebook page reveal"),
+    ("30", "method", "Method", "https://www.sloaneclinic.com/", "appointment concierge", "concierge booking header", "booking sheet menu", "Sloane-style footer", "booking stepper"),
+    ("31", "evolve", "Evolve", "https://nazarianplasticsurgery.com/", "confidence transformation narrative", "authority hero header", "confidence menu", "authority footer", "before-care timeline"),
+    ("32", "serene", "Serene", "https://thenaturalresult.com/", "natural result narrative", "natural proof header", "results-safe menu", "natural results footer", "gentle result reveal"),
+    ("33", "elan", "Elan", "https://premiumcareplasticsurgery.com/en/plastic-surgery-colombia/", "destination premium care", "destination header", "journey planner menu", "destination footer", "journey map reveal"),
+    ("34", "flora", "Flora", "https://artisanclinics.com/", "artisan boutique clinic", "atelier header", "artisan menu", "crafted footer", "craft card motion"),
+    ("35", "atelier", "Atelier", "https://silklaser.com.au/", "laser studio franchise", "laser studio header", "membership laser menu", "studio footer", "membership ticker"),
+    ("36", "lumina", "Lumina", "https://www.skinlaundry.com/", "membership skincare bar", "membership header", "pass menu", "membership footer", "scroll progress wash"),
+    ("37", "vellum", "Vellum", "https://skinlaundry.uk/", "treatment pass system", "pass-booking header", "pass drawer menu", "pass footer", "slot selector"),
+    ("38", "origin", "Origin", "https://drdavidjack.com/", "doctor shop editorial", "doctor shop header", "shop journal menu", "shop editorial footer", "product-card drift"),
+    ("39", "kindred", "Kindred", "https://www.drsturm.com/", "scientific skincare brand", "science brand header", "ingredient menu", "science footer", "molecule reveal"),
+    ("40", "noble", "Noble", "https://augustinusbader.com/", "prestige product editorial", "prestige header", "formula menu", "prestige footer", "formula shimmer"),
+    ("41", "vista", "Vista", "https://www.tatcha.com/", "ritual beauty storytelling", "ritual header", "ritual drawer menu", "story footer", "ritual scroll"),
+    ("42", "softline", "Softline", "https://www.aesop.com/", "apothecary minimalism", "apothecary header", "text-only apothecary menu", "apothecary footer", "text reveal"),
+    ("43", "meridian", "Meridian", "https://www.laprairie.com/en-int", "luxury maison skincare", "maison header", "collection menu", "maison footer", "collection fade"),
+    ("44", "safeguard", "Safeguard", "https://www.lamer.com.br/", "cream skincare commerce", "cream commerce header", "cream category menu", "commerce footer", "cream layer motion"),
+    ("45", "silhouette", "Silhouette", "https://111skin.com/", "clinical skincare drops", "drop-commerce header", "regimen menu", "clinical shop footer", "drop reveal"),
+    ("46", "curate", "Curate", "https://111skinspa.com/", "spa menu curation", "spa services header", "spa treatment menu", "spa footer", "spa menu reveal"),
+    ("47", "proof", "Proof", "https://www.shanidarden.com/", "expert routine blog", "expert routine header", "routine menu", "expert footer", "routine step reveal"),
+    ("48", "signature", "Signature", "https://vintnersdaughter.com/", "botanical serum story", "botanical story header", "serum story menu", "botanical footer", "botanical line grow"),
+    ("49", "wisdom", "Wisdom", "https://tataharperskincare.com/", "clean farm skincare", "farm-luxury header", "farm story menu", "clean beauty footer", "field note reveal"),
+    ("50", "sovereign", "Sovereign", "https://beminimalist.co/", "minimalist ingredient lab", "ingredient lab header", "ingredient drawer menu", "minimal lab footer", "ingredient filter motion"),
 ]
 
-PAGE_LABELS = {
-    "home": "Home",
-    "about": "About",
-    "mission": "Mission",
-    "values": "Values",
-    "care": "Care",
-    "laser": "Laser",
-    "skin": "Skin",
-    "results": "Results",
-    "testimonials": "Testimonials",
-    "journal": "Journal",
-    "blog": "Blog",
-    "faq": "FAQ",
-    "contact": "Contact",
-    "consultation": "Consultation",
-    "legal": "Legal",
-    "privacy": "Privacy",
-    "cookies": "Cookies",
-    "accessibility": "Accessibility",
-    "404": "404",
+PAGE_SPECS = [
+    ("index", "Home", "index.html", "Laser, skin and advanced aesthetic care in Londrina, PR.", "A premium Sofiati direction shaped around professional evaluation, laser precision, skin quality and ethical care."),
+    ("about", "About", "about.html", "Biomedical foundation, aesthetics and laser specialism.", "Franciele Sofiati is presented through clinical pathology background, aesthetics, cosmetology and laser care."),
+    ("mission", "Mission", "mission.html", "A mission of natural-looking care with responsibility.", "The mission is careful, personalised care that makes technology feel precise and human."),
+    ("values", "Values", "values.html", "Precision, warmth, safety and naturalness.", "The values page turns the Sofiati identity into practical decisions across evaluation, treatment and aftercare."),
+    ("care", "Care", "care.html", "A structured path from evaluation to aftercare.", "The care page organises consultation, suitability, planning and responsible follow-up."),
+    ("laser", "Laser", "laser.html", "Laser care explained with clinical calm.", "Laser hair removal, laser rejuvenation, technology-based treatments and aftercare are presented as evaluation-led topics."),
+    ("skin", "Skin", "skin.html", "Skin quality education for clarity, comfort and confidence.", "Skin cleansing, spots and melasma education, rosacea education, flaccidity and wrinkles education sit inside professional care."),
+    ("results", "Results", "results.html", "Results with responsibility and realistic expectations.", "Results are framed by individual characteristics, indication, protocol, number of sessions and aftercare."),
+    ("testimonials", "Testimonials", "testimonials.html", "Approval-first social proof without invented claims.", "The testimonial system is ready for approved real stories and does not invent outcomes or quotes."),
+    ("journal", "Journal", "journal.html", "Educational notes for laser, skin and aftercare.", "Journal content translates public education themes into safe, evergreen website reading."),
+    ("blog", "Blog", "blog.html", "Short-form education with professional boundaries.", "The blog creates compact routes into laser, skin, consultation and aftercare questions."),
+    ("faq", "FAQ", "faq.html", "Questions answered with clarity and restraint.", "The FAQ page gives useful educational answers while returning to individual professional evaluation."),
+    ("contact", "Contact", "contact.html", "Contact Franciele Sofiati in Londrina, PR.", "WhatsApp, email and Instagram are presented as public contact routes without private location details."),
+    ("consultation", "Consultation", "consultation.html", "Request professional evaluation before choosing a protocol.", "The consultation path helps visitors describe goals while understanding that suitability is individual."),
+    ("legal", "Legal", "legal.html", "Professional boundaries for the Sofiati presentation.", "Legal copy keeps the site educational and ready for final professional review."),
+    ("privacy", "Privacy", "privacy.html", "Privacy-first content for consultation and education.", "Privacy guidance protects patient media, address details and sensitive information."),
+    ("cookies", "Cookies", "cookies.html", "Simple cookie preferences and no hidden tracking.", "Cookie guidance explains required preferences and inactive optional tracking."),
+    ("accessibility", "Accessibility", "accessibility.html", "Accessible structure across desktop, tablet and mobile.", "Accessibility focuses on keyboard access, readable text, clear states and reduced motion."),
+    ("404", "404", "404.html", "Page not found.", "A quiet recovery page returns visitors to consultation, education and contact routes."),
+]
+
+SERVICE_TERMS = [
+    "Advanced aesthetic biomedicine",
+    "Professional evaluation",
+    "Personalised care",
+    "Laser care",
+    "Laser hair removal",
+    "Laser rejuvenation",
+    "Skin care",
+    "Skin cleansing",
+    "Skin quality",
+    "Spots and melasma education",
+    "Rosacea education",
+    "Flaccidity and wrinkles education",
+    "Technology-based treatments",
+    "Aftercare",
+    "Consultation",
+    "Results with responsibility",
+]
+
+IMAGE_BY_PAGE = {
+    "index": "home/sofiati-home-hero-botanical-clinical-luxury.webp",
+    "about": "about/franciele-sofiati-brand-story-botanical-moodboard.webp",
+    "mission": "mission/sofiati-mission-science-care-naturalness.webp",
+    "values": "values/sofiati-values-care-confidence-safety-naturalness.webp",
+    "care": "care/sofiati-care-botanical-clinical-brand-application.webp",
+    "laser": "laser/sofiati-laser-botanical-precision-story-background.webp",
+    "skin": "skin/sofiati-skin-care-soft-sage-story-background.webp",
+    "results": "results/sofiati-results-ethical-expectations-botanical.webp",
+    "testimonials": "testimonials/sofiati-testimonials-approval-first-contact-card.webp",
+    "journal": "journal/sofiati-journal-typography-palette-system.webp",
+    "blog": "blog/sofiati-blog-palette-care-education.webp",
+    "faq": "faq/sofiati-faq-brand-manual-clinical-guidance.webp",
+    "contact": "contact/sofiati-contact-business-card-inspired-layout.webp",
+    "consultation": "consultation/sofiati-consultation-stationery-care-pathway.webp",
+    "legal": "legal/sofiati-legal-monogram-pattern-sage.webp",
+    "privacy": "legal/sofiati-legal-monogram-pattern-sage.webp",
+    "cookies": "legal/sofiati-legal-monogram-pattern-sage.webp",
+    "accessibility": "faq/sofiati-faq-brand-manual-clinical-guidance.webp",
+    "404": "legal/sofiati-legal-monogram-pattern-sage.webp",
 }
 
-HERO_IMAGES = {
-    "home": "assets/images/home/sofiati-home-hero-botanical-clinical-luxury.webp",
-    "about": "assets/images/about/franciele-sofiati-brand-story-botanical-moodboard.webp",
-    "mission": "assets/images/mission/sofiati-mission-science-care-naturalness.webp",
-    "values": "assets/images/values/sofiati-values-care-confidence-safety-naturalness.webp",
-    "care": "assets/images/care/sofiati-care-botanical-clinical-brand-application.webp",
-    "laser": "assets/images/laser/sofiati-laser-botanical-precision-story-background.webp",
-    "skin": "assets/images/skin/sofiati-skin-care-soft-sage-story-background.webp",
-    "results": "assets/images/results/sofiati-results-ethical-expectations-botanical.webp",
-    "testimonials": "assets/images/testimonials/sofiati-testimonials-approval-first-contact-card.webp",
-    "journal": "assets/images/journal/sofiati-journal-typography-palette-system.webp",
-    "blog": "assets/images/blog/sofiati-blog-palette-care-education.webp",
-    "faq": "assets/images/faq/sofiati-faq-brand-manual-clinical-guidance.webp",
-    "contact": "assets/images/contact/sofiati-contact-business-card-inspired-layout.webp",
-    "consultation": "assets/images/consultation/sofiati-consultation-stationery-care-pathway.webp",
-    "legal": "assets/images/legal/sofiati-legal-monogram-pattern-sage.webp",
-    "privacy": "assets/images/legal/sofiati-legal-monogram-pattern-sage.webp",
-    "cookies": "assets/images/legal/sofiati-legal-monogram-pattern-sage.webp",
-    "accessibility": "assets/images/faq/sofiati-faq-brand-manual-clinical-guidance.webp",
-    "404": "assets/images/legal/sofiati-legal-monogram-pattern-sage.webp",
-}
+HOME_HERO_IMAGES = [
+    "home/sofiati-home-hero-botanical-clinical-luxury.webp",
+    "about/franciele-sofiati-brand-story-botanical-moodboard.webp",
+    "care/sofiati-care-botanical-clinical-brand-application.webp",
+    "laser/sofiati-laser-botanical-precision-story-background.webp",
+    "skin/sofiati-skin-care-soft-sage-story-background.webp",
+    "results/sofiati-results-ethical-expectations-botanical.webp",
+    "journal/sofiati-journal-typography-palette-system.webp",
+    "consultation/sofiati-consultation-stationery-care-pathway.webp",
+    "contact/sofiati-contact-business-card-inspired-layout.webp",
+    "values/sofiati-values-care-confidence-safety-naturalness.webp",
+    "mission/sofiati-mission-science-care-naturalness.webp",
+    "faq/sofiati-faq-brand-manual-clinical-guidance.webp",
+]
 
-DISCLAIMERS = (
-    "Results may vary according to individual characteristics, professional evaluation, treatment indication, protocol, number of sessions and aftercare.",
-    "Information on this website is educational and does not replace an individual professional evaluation.",
+SECTION_POOL = [
+    ("Evaluation first", "Every route begins with professional evaluation, goals, history, suitability and realistic planning."),
+    ("Laser precision", "Laser care is framed around indication, preparation, comfort, intervals and aftercare."),
+    ("Skin quality", "Skin care includes cleansing, texture, spots, melasma education, rosacea education and barrier respect."),
+    ("Technology with judgement", "Technology-based treatments are tools for carefully selected protocols, not promises."),
+    ("Natural-looking direction", "Natural-looking care protects expression and avoids pressure-led aesthetic decisions."),
+    ("Aftercare visibility", "Aftercare is visible because results depend on protocol, sessions, individual response and follow-up."),
+    ("Privacy and approval", "No unapproved patient images, fake testimonials or private address details are used."),
+    ("Londrina contact", "The public contact route is WhatsApp, email, Instagram and Londrina, PR only."),
+    ("Education library", "Journal and blog content turn laser and skin topics into calm, responsible learning."),
+    ("Consultation path", "The consultation call to action returns visitors to individual evaluation before treatment choice."),
+]
+
+SAFE_DISCLAIMER = (
+    "Results may vary according to individual characteristics, professional evaluation, treatment indication, "
+    "protocol, number of sessions and aftercare. Information on this website is educational and does not replace "
+    "an individual professional evaluation."
 )
 
-PAGE_DEFS: dict[str, dict[str, object]] = {
-    "home": {
-        "theme": "Premium introduction",
-        "title": "Laser, skin and advanced aesthetic care in Londrina, PR.",
-        "lede": "Franciele Sofiati brings biomedical training, clinical calm and laser-focused precision to personalised aesthetic care.",
-        "sections": [
-            ("Advanced aesthetic biomedicine", "Professional care is introduced through evaluation, science-led planning and a warm, botanical visual language."),
-            ("Professional evaluation", "Each journey begins with goals, history, skin response and suitability before any protocol is indicated."),
-            ("Laser care", "Laser hair removal, rejuvenation education and technology-based care are presented with clear preparation and aftercare boundaries."),
-            ("Skin quality", "Skin cleansing, melasma education, rosacea education and texture support are organised as calm educational pathways."),
-            ("Results with responsibility", "The page explains natural-looking results without guarantees, pressure tactics or unapproved before-and-after imagery."),
-            ("Consultation pathway", "Visitors are guided toward WhatsApp, email or a consultation request with only Londrina, PR shown as the location."),
-            ("Journal preview", "Educational notes from skin, laser and aftercare topics create a quieter alternative to sales-led clinic content."),
-        ],
-    },
-    "about": {
-        "theme": "Professional story",
-        "title": "A biomedical foundation for precise, human aesthetic care.",
-        "lede": "Franciele Sofiati is positioned as a biomedical professional with clinical pathology background, aesthetics, cosmetology and laser specialism.",
-        "sections": [
-            ("Professional portrait", "The page frames Franciele with a refined signature identity instead of celebrity-style personal branding."),
-            ("Clinical pathology background", "Her clinical foundation supports a careful reading of skin history, contraindications and treatment suitability."),
-            ("Aesthetician and cosmetologist background", "Aesthetic care is described as attentive, technical and grounded in professional scope."),
-            ("Laser specialist section", "Laser expertise appears as a specialist focus with educational language around technology and safety."),
-            ("Personal method", "The Sofiati method combines listening, evaluation, protocol planning, aftercare and measured follow-up."),
-            ("Brand identity story", "Sage, ivory, cream, bronze and botanical details create a clinical mood that still feels feminine and warm."),
-        ],
-    },
-    "mission": {
-        "theme": "Purpose and responsibility",
-        "title": "Care that protects natural expression while respecting safety.",
-        "lede": "The mission is to make advanced aesthetic biomedicine feel clear, responsible and personal before it feels persuasive.",
-        "sections": [
-            ("Core purpose statement", "The site gives priority to patient education, professional judgement and natural-looking aesthetic direction."),
-            ("Care philosophy", "Care is presented as quiet confidence: precise enough for technology, soft enough for human attention."),
-            ("Natural-looking results statement", "The mission avoids transformation rhetoric and keeps expectations aligned with individual characteristics."),
-            ("Safety commitment", "Preparation, contraindications, aftercare and follow-up are treated as part of the service, not fine print."),
-            ("Technology commitment", "Laser and skin technologies are positioned as tools that require evaluation, not shortcuts."),
-            ("Human warmth", "The voice stays calm, respectful and welcoming for clients who want clarity before deciding."),
-        ],
-    },
-    "values": {
-        "theme": "Care values",
-        "title": "Precision, warmth and responsibility as visible values.",
-        "lede": "The values page turns the Sofiati identity into practical standards for consultation, treatment and communication.",
-        "sections": [
-            ("Precision value", "Every recommendation should have a reason, a suitability check and a clear aftercare plan."),
-            ("Safety value", "The website refuses sensational language, claims that erase risk and pressure around aesthetic decisions."),
-            ("Naturalness value", "Natural-looking results are framed as alignment with each person's features, skin and context."),
-            ("Warmth value", "The tone is feminine and welcoming without becoming casual, vague or salon-like."),
-            ("Technology value", "Equipment references are educational and connected to evaluation rather than fixed outcomes."),
-            ("Ethics value", "No fake testimonials, no unapproved patient images, no full address and no sensational result claims."),
-        ],
-    },
-    "care": {
-        "theme": "Evaluation-led care",
-        "title": "A structured care pathway before any aesthetic protocol.",
-        "lede": "Care is organised around suitability, planning, preparation, aftercare and measured expectations.",
-        "sections": [
-            ("Treatment category architecture", "Advanced aesthetic biomedicine is divided into evaluation, laser, skin quality and results education."),
-            ("Category navigation", "Visitors can move between laser care, skin care and consultation without feeling pushed into a procedure."),
-            ("Treatment suitability", "Each treatment category is presented as an indication to discuss, not a guarantee to purchase."),
-            ("Preparation guidance", "Preparation is written as part of safety and comfort before technology-based treatments."),
-            ("Aftercare guidance", "Aftercare is included in the journey because outcomes depend on individual response and follow-up."),
-            ("FAQ preview", "Common questions are answered with professional boundaries and a clear route to individual evaluation."),
-        ],
-    },
-    "laser": {
-        "theme": "Laser education",
-        "title": "Laser care explained with precision, safety and restraint.",
-        "lede": "Laser hair removal, rejuvenation and technology references are presented as educational topics that require professional evaluation.",
-        "sections": [
-            ("Laser hair removal", "The page introduces laser hair removal with preparation, phototype considerations and session planning."),
-            ("Laser Light Sheer Duet reference", "Light Sheer Duet appears as an equipment reference drawn from public Sofiati education themes."),
-            ("Laser rejuvenation", "Rejuvenation is described through collagen, texture and skin quality education rather than sudden promises."),
-            ("Laser Harmony reference", "Laser Harmony is presented as a technology topic for spots, redness, rejuvenation and professional indication."),
-            ("ND:YAG education", "ND:YAG appears as an educational note connected to vascular, phototype and safety discussions."),
-            ("Aftercare and risk disclaimer", "Aftercare, sun care, intervals and individual response are made visible before conversion."),
-        ],
-        "disclaimer": True,
-    },
-    "skin": {
-        "theme": "Skin quality education",
-        "title": "Skin care for texture, clarity and calm confidence.",
-        "lede": "Skin cleansing, quality, spots, melasma, rosacea, flaccidity and wrinkles are organised as education-led care topics.",
-        "sections": [
-            ("Skin cleansing", "Skin cleansing is framed as a professional care category with assessment, comfort and barrier respect."),
-            ("Skin quality", "Skin quality content focuses on texture, glow, hydration support and realistic maintenance."),
-            ("Spots and melasma education", "Spots and melasma are discussed as complex concerns that require evaluation and careful expectations."),
-            ("Rosacea education", "Rosacea education prioritises sensitivity, redness triggers and technology suitability."),
-            ("Flaccidity and wrinkles education", "Flaccidity and wrinkles are treated with natural-looking language and long-view care."),
-            ("Ultrasonic peeling education", "Ultrasonic peeling appears as an educational topic until the confirmed service menu is approved."),
-        ],
-        "disclaimer": True,
-    },
-    "results": {
-        "theme": "Ethical results",
-        "title": "Results with responsibility, privacy and realistic expectations.",
-        "lede": "The results page avoids fake outcomes and focuses on what affects aesthetic response over time.",
-        "sections": [
-            ("Ethical results statement", "Results are discussed through evaluation, protocol selection, number of sessions and aftercare."),
-            ("Results-vary disclaimer", "The page gives the variation disclaimer a visible role instead of hiding it below the fold."),
-            ("Privacy-respecting image approach", "No patient image, testimonial or before-and-after material is shown without explicit written approval."),
-            ("Treatment filter", "Visitors can understand which category they are researching before discussing suitability."),
-            ("What affects results", "Skin history, lifestyle, intervals, indications and home care are named as variables."),
-            ("Consultation-before-results", "The route back to consultation is presented as the responsible next step."),
-        ],
-        "disclaimer": True,
-    },
-    "testimonials": {
-        "theme": "Approval-first social proof",
-        "title": "A testimonial system that waits for approval before speaking.",
-        "lede": "This page explains how patient stories can be added later without inventing quotes or exposing private results.",
-        "sections": [
-            ("Ethical testimonial policy", "Testimonials are reserved for real approved client words, never placeholder praise."),
-            ("Review card layout", "The layout is ready for future approved notes while remaining honest in this presentation version."),
-            ("Anonymous testimonial style", "Anonymous summaries can be used only when they protect privacy and still have approval."),
-            ("Source verification note", "Each future quote needs a source, permission and review before publication."),
-            ("Client experience themes", "The current version names themes such as clarity, care and aftercare without pretending to quote patients."),
-            ("No-guarantee disclaimer", "Social proof cannot imply outcome certainty, identical results or treatments without risk."),
-        ],
-    },
-    "journal": {
-        "theme": "Educational journal",
-        "title": "A calm journal for laser, skin and aftercare education.",
-        "lede": "Journal architecture turns Instagram-style education into evergreen, responsible website content.",
-        "sections": [
-            ("Latest posts grid", "Education topics include laser rejuvenation, Light Sheer Duet, skin cleansing and rosacea awareness."),
-            ("Featured article", "A featured article slot leads with evaluation before technique or equipment."),
-            ("Professional evaluation articles", "Evaluation articles help clients prepare better questions before booking."),
-            ("Laser articles", "Laser content is grouped by hair removal, rejuvenation, Harmony, ND:YAG and aftercare."),
-            ("Skin care articles", "Skin content covers cleansing, spots, melasma, rosacea, texture and barrier-minded care."),
-            ("Aftercare articles", "Aftercare content keeps responsibility visible after the consultation call to action."),
-        ],
-    },
-    "blog": {
-        "theme": "Educational blog",
-        "title": "Short-form education with professional boundaries.",
-        "lede": "The blog translates public content themes into concise, safe reading paths for people considering care.",
-        "sections": [
-            ("Article library", "The library balances laser, skin, consultation and aftercare topics without exaggerated promises."),
-            ("Professional evaluation articles", "Evaluation posts explain why indication comes before procedure selection."),
-            ("Technology articles", "Technology posts mention equipment only as educational references and not as guaranteed solutions."),
-            ("Seasonal skin care", "Seasonal guidance focuses on sun care, sensitivity, maintenance and realistic planning."),
-            ("FAQ-to-article section", "Common questions become deeper reading without replacing an individual consultation."),
-            ("Blog CTA", "Every article path returns to a professional evaluation rather than a hard-sell offer."),
-        ],
-    },
-    "faq": {
-        "theme": "Patient questions",
-        "title": "Questions answered with clarity, restraint and next steps.",
-        "lede": "The FAQ page gives enough information to reduce anxiety without pretending to diagnose online.",
-        "sections": [
-            ("Evaluation FAQ group", "Questions about first consultation, suitability and planning sit first."),
-            ("Laser FAQ group", "Laser questions cover hair removal, rejuvenation, technology and aftercare."),
-            ("Skin FAQ group", "Skin questions cover cleansing, melasma, rosacea, texture and sensitive skin education."),
-            ("Results FAQ group", "Results questions answer what can vary and why protocols differ."),
-            ("Aftercare FAQ group", "Aftercare questions keep safety and follow-up visible."),
-            ("Booking FAQ group", "Booking questions direct visitors to WhatsApp and consultation without exposing a full address."),
-        ],
-    },
-    "contact": {
-        "theme": "Business-card contact",
-        "title": "Contact Franciele Sofiati in Londrina, PR.",
-        "lede": "The contact page keeps the business-card elegance of the brand while protecting private address details.",
-        "sections": [
-            ("WhatsApp CTA", "WhatsApp is the primary direct route for consultation requests and care questions."),
-            ("Instagram link", "Instagram is linked for public education, not for copying patient media into the website."),
-            ("Email link", "Email remains available for formal questions, approvals and content review."),
-            ("Contact details", "Only WhatsApp, email, Instagram, CRBM 6277 and Londrina, PR are published."),
-            ("No full address rule", "No street address, apartment detail, interactive route or pinpoint location is included."),
-            ("Privacy note", "Visitors are reminded not to send sensitive information through unsecured forms."),
-        ],
-    },
-    "consultation": {
-        "theme": "Consultation pathway",
-        "title": "Request a professional evaluation before choosing a protocol.",
-        "lede": "The consultation journey helps visitors share goals while understanding that indication depends on individual evaluation.",
-        "sections": [
-            ("Consultation hero", "The page makes the first step feel calm, private and structured."),
-            ("Who the evaluation is for", "Evaluation is for people considering laser, skin quality care or advanced aesthetic planning."),
-            ("What happens before booking", "Visitors are encouraged to describe goals and relevant care history without oversharing sensitive details."),
-            ("What happens during evaluation", "Suitability, contraindications, expectations, protocol options and aftercare are discussed."),
-            ("What not to expect", "The page clearly avoids overnight-change rhetoric, sensational promises and outcome certainty."),
-            ("Consultation form", "The static form is a presentation component; WhatsApp remains the live contact route."),
-        ],
-        "disclaimer": True,
-        "form": True,
-    },
-    "legal": {
-        "theme": "Professional boundaries",
-        "title": "Legal and professional boundaries for the Sofiati presentation.",
-        "lede": "Legal content keeps the presentation responsible until final service, regulatory and privacy review.",
-        "sections": [
-            ("Legal hub", "This page routes to privacy, cookies, accessibility and contact details."),
-            ("Professional disclaimer", "Website information is educational and cannot replace individual professional evaluation."),
-            ("Terms legal notice", "Static presentation content requires final legal, medical and service review before production."),
-            ("No-guarantee disclaimer", "No page may promise fixed results, procedures without risk or identical outcomes."),
-            ("No full address rule", "Only Londrina, PR is published; no interactive route or street address is included."),
-            ("Accessibility statement link", "Accessibility is treated as part of launch readiness, not an afterthought."),
-        ],
-    },
-    "privacy": {
-        "theme": "Privacy notice",
-        "title": "Privacy-first content for consultation and education.",
-        "lede": "The privacy page protects address details, patient media, form data expectations and future analytics consent.",
-        "sections": [
-            ("Privacy summary", "The presentation uses minimal data and does not activate real analytics identifiers."),
-            ("Data use", "Future form and analytics handling should be confirmed before production."),
-            ("Sensitive information note", "Visitors should avoid sending sensitive health details through open website fields."),
-            ("Analytics privacy", "Analytics placeholders remain inactive until consent settings and real IDs are approved."),
-            ("Instagram content policy", "Public Instagram themes may guide education, but captions, images and patient media need approval."),
-            ("Address privacy", "The site publishes Londrina, PR only and avoids pinpoint location or full address language."),
-        ],
-    },
-    "cookies": {
-        "theme": "Cookie preferences",
-        "title": "Cookie preferences kept simple and visible.",
-        "lede": "The cookie page documents the presentation banner and keeps optional tracking inactive until approval.",
-        "sections": [
-            ("Cookie policy summary", "The current static concept stores only the visitor's cookie preference."),
-            ("Necessary cookies", "Necessary preference storage supports the banner and language switcher."),
-            ("Analytics cookies", "Analytics cookies are placeholder-only and inactive until real consent and IDs are configured."),
-            ("Marketing cookies", "Marketing cookies are not active in this static presentation."),
-            ("Managing preferences", "Visitors can change optional preferences through the banner controls."),
-            ("No hidden tracking", "No hidden tracking, embedded route or third-party patient media is added."),
-        ],
-    },
-    "accessibility": {
-        "theme": "Accessibility promise",
-        "title": "Accessible structure for a calm, premium review experience.",
-        "lede": "Accessibility choices support keyboard movement, readable text and reduced motion preferences across the 50 concepts.",
-        "sections": [
-            ("Accessibility statement", "The page documents launch standards for semantic HTML, headings and readable controls."),
-            ("Keyboard navigation", "Menus, forms, links and concept controls are built to be reachable by keyboard."),
-            ("Visible focus states", "Focus states remain visible against sage, ivory, cream and bronze surfaces."),
-            ("Reduced motion", "Motion is subtle and respects reduced-motion preferences where possible."),
-            ("Labelled forms", "Contact and consultation form fields use visible labels and clear messaging."),
-            ("Accessible mobile menu", "The mobile menu uses open and close controls with accessible labels."),
-        ],
-    },
-    "404": {
-        "theme": "Recovery page",
-        "title": "Page not found.",
-        "lede": "A quiet recovery page helps visitors return to consultation, journal content or the concept selector.",
-        "sections": [
-            ("Popular paths", "The 404 page immediately offers home, consultation, FAQ and contact routes."),
-            ("Consultation route", "Visitors who were looking for treatment information can move to evaluation-first content."),
-            ("Journal route", "Education remains available without making procedure claims."),
-            ("Legal route", "Privacy, cookies, accessibility and professional boundaries stay one step away."),
-            ("Contact route", "WhatsApp, email and Instagram are available without publishing a full address."),
-            ("Back to concept", "The page sends reviewers back into the current concept instead of ending the journey."),
-        ],
-    },
-}
 
-STYLE_FAMILIES = [
-    "editorial split care journey",
-    "business-card contact architecture",
-    "botanical clinic magazine",
-    "laser technology dossier",
-    "quiet luxury skincare journal",
-    "mobile story-led pathway",
-    "clinical proof and education grid",
-    "monogram-centered sanctuary",
-    "consultation-first conversion studio",
-    "minimal ivory appointment suite",
-]
+@dataclass(frozen=True)
+class Concept:
+    number: str
+    slug: str
+    name: str
+    url: str
+    archetype: str
+    header: str
+    menu: str
+    footer: str
+    motion: str
 
-ACCENTS = [
-    "#9A6B35",
-    "#798A80",
-    "#8A946F",
-    "#6F8377",
-    "#A17B52",
-    "#879588",
-    "#7C8E9B",
-    "#8E7B56",
-    "#734011",
-    "#A2AE9F",
-]
+    @property
+    def folder(self) -> str:
+        return f"{self.number}-{self.slug}"
 
-
-def family_extra_css(number: int, family: int, cycle: int) -> str:
-    selector = f"body.concept-{number:02d}"
-    extras = [
-        f"""
-        {selector}.page-home .hero{{align-items:end;border-bottom:1px solid var(--sofiati-line);}}
-        {selector}.page-home .hero-copy{{padding-bottom:clamp(18px,4vw,48px);}}
-        {selector}.page-home .hero-media{{min-height:clamp(500px,62vw,780px);}}
-        """,
-        f"""
-        {selector}.page-home .hero{{grid-template-areas:'media copy';}}
-        {selector}.page-home .hero-media{{grid-area:media;min-height:clamp(420px,42vw,560px);border-radius:0 var(--hero-radius) var(--hero-radius) 0;}}
-        {selector}.page-home .hero-copy{{grid-area:copy;}}
-        """,
-        f"""
-        {selector}.page-home .hero{{width:100%;background:linear-gradient(90deg,color-mix(in srgb,var(--concept-accent) 22%,var(--sofiati-ivory)),var(--sofiati-white));}}
-        {selector}.page-home .hero-media{{border-radius:0;box-shadow:none;min-height:clamp(380px,48vw,640px);}}
-        {selector}.page-home .trust-capsules li{{background:rgba(255,255,255,.62);}}
-        """,
-        f"""
-        {selector}.page-home .hero{{grid-template-columns:.72fr 1.28fr;}}
-        {selector}.page-home .hero-copy{{border-left:4px solid var(--concept-accent);padding-left:clamp(18px,3vw,34px);}}
-        {selector}.page-home .hero-media{{clip-path:inset(0 round 120px 8px 120px 8px);min-height:clamp(430px,50vw,700px);}}
-        """,
-        f"""
-        {selector}.page-home .hero{{grid-template-columns:1.24fr .76fr;align-items:center;padding-bottom:clamp(30px,5vw,60px);}}
-        {selector}.page-home .hero-copy{{max-width:760px;z-index:2;}}
-        {selector}.page-home .hero-media{{min-height:clamp(320px,35vw,500px);width:100%;justify-self:end;box-shadow:0 18px 70px rgba(37,35,33,.08);}}
-        """,
-        f"""
-        {selector}.page-home .hero{{grid-template-columns:.86fr 1.14fr;}}
-        {selector}.page-home .hero::before{{content:'{cycle + 1:02d}';position:absolute;left:var(--space-page);top:140px;font-family:Georgia,serif;font-size:clamp(5rem,12vw,11rem);opacity:.05;}}
-        {selector}.page-home .hero-media{{border-radius:999px 999px 8px 8px;min-height:clamp(430px,52vw,690px);}}
-        """,
-        f"""
-        {selector}.page-home .hero{{grid-template-columns:.58fr 1.42fr;}}
-        {selector}.page-home .hero-copy{{background:var(--sofiati-white);border:1px solid var(--sofiati-line);padding:clamp(18px,3vw,34px);}}
-        {selector}.page-home .hero-media{{min-height:clamp(390px,38vw,560px);}}
-        {selector}.page-home .trust-capsules{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));}}
-        """,
-        f"""
-        {selector}.page-home .hero{{grid-template-columns:.84fr 1.16fr;}}
-        {selector}.page-home .hero-media{{border-radius:50%;aspect-ratio:1;min-height:0;align-self:center;}}
-        {selector}.page-home .hero-media figcaption{{left:50%;right:auto;transform:translateX(-50%);white-space:nowrap;}}
-        """,
-        f"""
-        {selector}.page-home .hero{{grid-template-columns:1.18fr .82fr;background:color-mix(in srgb,var(--concept-accent) 9%,var(--sofiati-ivory));}}
-        {selector}.page-home .hero-actions{{border-top:1px solid var(--sofiati-line);padding-top:14px;}}
-        {selector}.page-home .hero-media{{min-height:clamp(360px,42vw,620px);border-radius:var(--radius-small);}}
-        """,
-        f"""
-        {selector}.page-home .hero{{grid-template-columns:1fr 1fr;padding-top:clamp(26px,5vw,62px);}}
-        {selector}.page-home .hero-copy{{align-self:center;}}
-        {selector}.page-home .hero-media{{min-height:clamp(300px,32vw,500px);align-self:end;}}
-        {selector}.page-home .trust-capsules{{max-width:680px;}}
-        """,
-    ][family]
-    return dedent(extras)
-
-
-def slugify(value: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
+    @property
+    def accent_index(self) -> int:
+        return int(self.number) - 1
 
 
 def esc(value: object) -> str:
@@ -441,536 +213,640 @@ def esc(value: object) -> str:
 
 
 def title_case(value: str) -> str:
-    keep_lower = {"and", "with", "for", "of", "the", "a", "an"}
+    keep = {"and", "with", "for", "of", "the", "a", "an", "to"}
     words = value.replace("-", " ").split()
-    result = []
-    for index, word in enumerate(words):
-        lower = word.lower()
-        result.append(lower if index and lower in keep_lower else word[:1].upper() + word[1:])
-    return " ".join(result)
+    return " ".join(word if idx and word.lower() in keep else word[:1].upper() + word[1:] for idx, word in enumerate(words))
 
 
-def concept_classes(index: int) -> str:
-    family = (index - 1) % 10
-    cycle = (index - 1) // 10
-    return f"concept-family-{family + 1:02d} concept-cycle-{cycle + 1}"
+def page_href(page_key: str) -> str:
+    if page_key == "index":
+        return "index.html"
+    return f"{page_key}.html"
 
 
-def root_prefix() -> str:
-    return "../../../"
+def nav_links(current: str, compact: bool = False) -> str:
+    keys = ["index", "about", "care", "laser", "skin", "results", "blog", "faq", "consultation", "contact"]
+    if compact:
+        keys = ["index", "care", "laser", "skin", "consultation", "contact"]
+    items = []
+    for key in keys:
+        label = next(label for item_key, label, *_ in PAGE_SPECS if item_key == key)
+        current_attr = ' aria-current="page"' if key == current else ""
+        items.append(f'<a href="{page_href(key)}"{current_attr}>{label}</a>')
+    return "\n".join(items)
 
 
-def image_src(page: str, concept: dict[str, object]) -> str:
-    if page == "home":
-        family_images = [
-            HERO_IMAGES["home"],
-            HERO_IMAGES["contact"],
-            HERO_IMAGES["journal"],
-            HERO_IMAGES["laser"],
-            HERO_IMAGES["skin"],
-            HERO_IMAGES["care"],
-            HERO_IMAGES["results"],
-            HERO_IMAGES["values"],
-            HERO_IMAGES["consultation"],
-            HERO_IMAGES["about"],
+def rotated_sections(concept: Concept, page_key: str) -> list[tuple[str, str]]:
+    start = (concept.accent_index * 3 + len(page_key)) % len(SECTION_POOL)
+    chosen = [SECTION_POOL[(start + idx) % len(SECTION_POOL)] for idx in range(5)]
+    if page_key == "laser":
+        chosen[:3] = [
+            ("Laser hair removal", "Laser hair removal is discussed through preparation, phototype considerations, session planning and aftercare."),
+            ("Laser rejuvenation", "Laser rejuvenation education focuses on skin quality, collagen support and responsible expectations."),
+            ("Laser care", "Laser care remains evaluation-led and technology-based treatments are explained without fixed outcomes."),
         ]
-        family = (int(concept["number"]) - 1) % 10
-        return root_prefix() + family_images[family]
-    return root_prefix() + HERO_IMAGES[page]
+    if page_key == "skin":
+        chosen[:4] = [
+            ("Skin cleansing", "Skin cleansing is framed as a professional skin care category with comfort and barrier respect."),
+            ("Spots and melasma education", "Spots and melasma education is presented carefully because suitability and response vary."),
+            ("Rosacea education", "Rosacea education prioritises sensitivity, redness triggers and professional evaluation."),
+            ("Flaccidity and wrinkles education", "Flaccidity and wrinkles education uses natural-looking language and long-view care."),
+        ]
+    if page_key == "results":
+        chosen[:2] = [
+            ("Results with responsibility", "The results page explains variables and privacy boundaries before any visual proof is considered."),
+            ("What affects results", SAFE_DISCLAIMER),
+        ]
+    if page_key == "contact":
+        chosen[:3] = [
+            ("WhatsApp", f"WhatsApp: {BRAND['whatsapp']} is the primary public contact route."),
+            ("Email", f"Email: {BRAND['email']} is available for formal questions and approvals."),
+            ("Instagram", f"Instagram: {BRAND['instagram']} is linked for public education and brand context."),
+        ]
+    return chosen
 
 
-def page_hero_title(page: str, concept: dict[str, object]) -> str:
-    if page != "home":
-        return str(PAGE_DEFS[page]["title"])
-    return f"{concept['name']}: {title_case(str(concept['layoutDirection']))} for laser, skin and advanced care."
+def copy_assets(concept_dir: Path) -> None:
+    assets_dir = concept_dir / "assets"
+    if assets_dir.exists():
+        shutil.rmtree(assets_dir)
+    shutil.copytree(ROOT_ASSETS / "brand", assets_dir / "brand")
+    shutil.copytree(ROOT_ASSETS / "images", assets_dir / "images")
 
 
-def page_hero_lede(page: str, concept: dict[str, object]) -> str:
-    if page != "home":
-        return str(PAGE_DEFS[page]["lede"])
-    return (
-        f"A {concept['mood']} Sofiati direction with {concept['headerStyle']}, "
-        f"{concept['mobileMenuStyle']} and evaluation-first content for Londrina, PR."
-    )
-
-
-def section_id(page: str, idx: int, title: str) -> str:
-    return f"{page}-{idx}-{slugify(title)}"
-
-
-def supporting_points(title: str, page: str) -> list[str]:
-    base = [
-        "professional evaluation",
-        "personalised care",
-        "technology with judgement",
-        "aftercare visibility",
-        "ethical language",
-    ]
-    page_specific = {
-        "laser": ["laser hair removal", "laser rejuvenation", "phototype considerations", "preparation guidance", "session planning"],
-        "skin": ["skin cleansing", "skin quality", "melasma education", "rosacea education", "barrier respect"],
-        "results": ["results may vary", "privacy-first imagery", "expectation management", "protocol planning", "aftercare"],
-        "contact": ["WhatsApp", "email", "Instagram", "Londrina, PR", "CRBM 6277"],
-        "consultation": ["goals", "skin history", "suitability", "protocol options", "next steps"],
-        "privacy": ["data minimisation", "address privacy", "content approval", "analytics consent", "data requests"],
-        "cookies": ["necessary preference", "inactive analytics", "inactive marketing", "banner choice", "no hidden tracking"],
-        "accessibility": ["keyboard access", "focus states", "semantic HTML", "reduced motion", "labelled forms"],
-    }
-    return [title, *page_specific.get(page, base)][:5]
-
-
-def render_tiles(title: str, page: str, concept_name: str) -> str:
-    cards = []
-    for idx, point in enumerate(supporting_points(title, page), start=1):
-        cards.append(
-            "<div class=\"tile\">"
-            f"<span>{idx:02d}</span>"
-            f"<strong>{esc(point)}</strong>"
-            f"<p class=\"small\">Built for {esc(concept_name)} with Sofiati's evaluation-first tone, botanical clinical calm and responsible boundaries.</p>"
-            "</div>"
-        )
-    return f"<div class=\"tile-grid\">{''.join(cards)}</div>"
-
-
-def render_timeline(title: str, page: str) -> str:
-    items = "".join(f"<li>{esc(point)}</li>" for point in supporting_points(title, page))
-    return f"<ol class=\"timeline\">{items}</ol>"
-
-
-def render_feature_list(title: str, page: str, concept: dict[str, object]) -> str:
-    points = supporting_points(title, page)
-    rows = []
-    for idx, point in enumerate(points, start=1):
-        rows.append(
-            "<li>"
-            f"<span>{idx:02d}</span>"
-            f"<strong>{esc(point)}</strong>"
-            f"<small>{esc(concept['layoutDirection'])} keeps this page distinct while staying inside the Sofiati identity.</small>"
-            "</li>"
-        )
-    return f"<ul class=\"feature-list\">{''.join(rows)}</ul>"
-
-
-def render_statement_panel(title: str, page: str, concept: dict[str, object]) -> str:
-    return (
-        "<div class=\"statement-panel\">"
-        f"<p class=\"eyebrow\">{esc(concept['name'])} method</p>"
-        f"<strong>{esc(title)}</strong>"
-        f"<p>{esc(PAGE_LABELS[page])} uses {esc(concept['layoutDirection'])}, {esc(concept['headerStyle'])}, {esc(concept['mobileMenuStyle'])} and {esc(concept['footerStyle'])} while preserving the Sofiati brand system.</p>"
-        "</div>"
-    )
-
-
-def render_articles(page: str, concept_name: str) -> str:
-    articles = {
-        "journal": [
-            ("Laser Harmony and realistic rejuvenation", "A technology note about collagen, texture and professional indication."),
-            ("Rosacea, redness and sensitive skin", "Education around redness, triggers and evaluation before technology."),
-            ("Skin cleansing as a professional ritual", "A calm guide to cleansing, barrier respect and maintenance."),
-        ],
-        "blog": [
-            ("Why evaluation comes before protocol", "A short article for people comparing treatment categories."),
-            ("Aftercare makes the plan visible", "Guidance on sun care, intervals and realistic expectations."),
-            ("Melasma and spots need careful language", "A responsible overview that avoids promise-led claims."),
-        ],
-    }
-    cards = []
-    for title, copy in articles.get(page, articles["journal"]):
-        cards.append(
-            "<article class=\"article-card\">"
-            f"<span class=\"eyebrow\">{esc(concept_name)} notes</span>"
-            f"<h3>{esc(title)}</h3>"
-            f"<p>{esc(copy)}</p>"
-            "</article>"
-        )
-    return f"<div class=\"article-grid\">{''.join(cards)}</div>"
-
-
-def render_faq_group() -> str:
-    faqs = [
-        ("Do results vary?", "Yes. Results depend on individual characteristics, indication, protocol, number of sessions and aftercare."),
-        ("Can I choose a laser directly?", "Laser suitability should be discussed in professional evaluation before any protocol is indicated."),
-        ("Is the address public?", "No. The website uses Londrina, PR only and does not publish a full address or pinpoint location."),
-        ("Are testimonials real?", "No testimonial text is displayed until written approval and source verification are available."),
-    ]
-    return "".join(
-        f"<details><summary>{esc(question)}</summary><p>{esc(answer)}</p></details>"
-        for question, answer in faqs
-    )
-
-
-def render_contact_panel() -> str:
+def header_markup(concept: Concept, current: str) -> str:
+    n = int(concept.number)
+    layout = [
+        "split-wordmark", "card-contact", "magazine-bar", "technical-center", "luxury-split",
+        "side-rail", "proof-minimal", "monogram-center", "floating-cta", "mega-calm",
+    ][(n - 1) % 10]
     return dedent(
+        f"""
+        <header class="site-header header-{layout}" data-header="header-{concept.number}-{concept.slug}-{layout}">
+          <a class="brand-mark" href="index.html" aria-label="{esc(BRAND['name'])} home">
+            <img src="assets/brand/sofiati-logo-primary-sage.png" alt="{esc(BRAND['name'])} logo">
+            <span><strong>{esc(BRAND['name'])}</strong><small>{esc(BRAND['descriptor'])}</small></span>
+          </a>
+          <nav class="desktop-nav" aria-label="Primary navigation">
+            {nav_links(current, compact=(n % 3 == 0))}
+          </nav>
+          <div class="header-actions">
+            <a class="mini-contact" href="{BRAND['whatsapp_url']}" rel="noopener" target="_blank">WhatsApp</a>
+            <button class="menu-button" type="button" data-menu-toggle aria-controls="mobile-menu" aria-expanded="false">Menu</button>
+          </div>
+        </header>
         """
-        <div class="contact-panel">
-          <a class="contact-card" href="https://wa.me/5543991043536" rel="noopener" target="_blank"><span>WhatsApp</span><strong>(43) 9 9104-3536</strong></a>
-          <a class="contact-card" href="mailto:sofiatimendonca@gmail.com"><span>Email</span><strong>sofiatimendonca@gmail.com</strong></a>
-          <a class="contact-card" href="https://www.instagram.com/fransofiati_biomedica/" rel="noopener" target="_blank"><span>Instagram</span><strong>@fransofiati_biomedica</strong></a>
-          <div class="contact-card"><span>Location</span><strong>Londrina, PR</strong></div>
+    ).strip()
+
+
+def mobile_menu_markup(concept: Concept, current: str) -> str:
+    return dedent(
+        f"""
+        <aside class="mobile-menu" id="mobile-menu" data-menu="{concept.number}-{concept.slug}-{concept.menu.replace(' ', '-')}" aria-hidden="true">
+          <div class="mobile-menu-top">
+            <img src="assets/brand/sofiati-logo-primary-white.png" alt="{esc(BRAND['name'])} logo">
+            <button type="button" data-menu-close>Close</button>
+          </div>
+          <nav aria-label="Mobile navigation">
+            {nav_links(current)}
+          </nav>
+          <div class="mobile-menu-note">
+            <strong>{esc(concept.name)} menu</strong>
+            <p>{esc(concept.menu)} inspired by {esc(concept.archetype)}.</p>
+          </div>
+        </aside>
+        """
+    ).strip()
+
+
+def footer_markup(concept: Concept, current: str) -> str:
+    n = int(concept.number)
+    cols = ["ledger", "maison", "clinical", "signature", "directory", "concierge", "apothecary"][(n - 1) % 7]
+    return dedent(
+        f"""
+        <footer class="site-footer footer-{cols}" data-footer="footer-{concept.number}-{concept.slug}-{cols}">
+          <div class="footer-brand">
+            <img src="assets/brand/sofiati-logo-primary-white.png" alt="{esc(BRAND['name'])} logo">
+            <p>{esc(BRAND['positioning'])}</p>
+          </div>
+          <nav aria-label="Footer navigation">
+            {nav_links(current)}
+            <a href="legal.html">Legal</a>
+            <a href="privacy.html">Privacy</a>
+            <a href="cookies.html">Cookies</a>
+            <a href="accessibility.html">Accessibility</a>
+          </nav>
+          <address>
+            <span>{esc(BRAND['credential'])}</span>
+            <a href="{BRAND['whatsapp_url']}" rel="noopener" target="_blank">WhatsApp: {esc(BRAND['whatsapp'])}</a>
+            <a href="mailto:{BRAND['email']}">{esc(BRAND['email'])}</a>
+            <a href="{BRAND['instagram_url']}" rel="noopener" target="_blank">{esc(BRAND['instagram'])}</a>
+            <a href="{BRAND['domain_url']}" rel="noopener" target="_blank">{esc(BRAND['domain'])}</a>
+            <span>{esc(BRAND['location'])}</span>
+          </address>
+        </footer>
+        """
+    ).strip()
+
+
+def concept_switcher_partial(concept: Concept) -> str:
+    return dedent(
+        f"""
+        <div class="concept-marker" data-concept-marker="{concept.folder}">
+          <span>Concept {concept.number} / 50</span>
+          <strong>{esc(concept.name)}</strong>
+          <a href="design-notes.md">Design notes</a>
         </div>
         """
     ).strip()
 
 
-def render_form() -> str:
-    return dedent(
+def service_panel(concept: Concept) -> str:
+    items = "".join(f"<li>{esc(term)}</li>" for term in SERVICE_TERMS)
+    return f'<section class="service-architecture" aria-label="Sofiati service architecture"><h2>Sofiati service architecture</h2><ul>{items}</ul><p>{SAFE_DISCLAIMER}</p></section>'
+
+
+def page_component(concept: Concept, page_key: str, index: int, title: str, copy: str) -> str:
+    variant = (concept.accent_index + index) % 8
+    if variant == 0:
+        return f'<article class="panel panel-editorial"><span>{index:02d}</span><h3>{esc(title)}</h3><p>{esc(copy)}</p></article>'
+    if variant == 1:
+        return f'<article class="panel panel-card"><h3>{esc(title)}</h3><p>{esc(copy)}</p><a href="consultation.html">Discuss in consultation</a></article>'
+    if variant == 2:
+        return f'<article class="panel panel-spec"><small>{concept.number}.{index:02d}</small><h3>{esc(title)}</h3><p>{esc(copy)}</p></article>'
+    if variant == 3:
+        return f'<details class="panel panel-accordion" {"open" if index == 1 else ""}><summary>{esc(title)}</summary><p>{esc(copy)}</p></details>'
+    if variant == 4:
+        return f'<article class="panel panel-horizontal"><h3>{esc(title)}</h3><p>{esc(copy)}</p><span>{esc(concept.motion)}</span></article>'
+    if variant == 5:
+        return f'<article class="panel panel-minimal"><h3>{esc(title)}</h3><p>{esc(copy)}</p></article>'
+    if variant == 6:
+        return f'<article class="panel panel-numbered"><b>{index:02d}</b><div><h3>{esc(title)}</h3><p>{esc(copy)}</p></div></article>'
+    return f'<article class="panel panel-note"><h3>{esc(title)}</h3><p>{esc(copy)}</p><em>{esc(concept.archetype)}</em></article>'
+
+
+def page_body(concept: Concept, page_key: str, label: str, headline: str, intro: str) -> str:
+    n = int(concept.number)
+    order_name = [
+        "hero-proof-services-journal-contact",
+        "hero-contact-services-proof-journal",
+        "hero-journal-services-consult-proof",
+        "hero-technology-proof-services-contact",
+        "hero-ritual-journal-services-consult",
+        "hero-story-services-proof-contact",
+        "hero-grid-proof-services-faq",
+        "hero-monogram-services-journal-contact",
+        "hero-consult-services-proof-journal",
+        "hero-minimal-services-faq-contact",
+    ][(n + len(page_key)) % 10] + f"-{concept.number}"
+    img = IMAGE_BY_PAGE.get(page_key, IMAGE_BY_PAGE["index"])
+    if page_key == "index":
+        img = HOME_HERO_IMAGES[(n - 1) % len(HOME_HERO_IMAGES)]
+    mosaic_images = [
+        HOME_HERO_IMAGES[(n + offset) % len(HOME_HERO_IMAGES)]
+        for offset in (2, 5, 8)
+    ]
+    hero_mode = (n - 1) % 12
+    sections = rotated_sections(concept, page_key)
+    section_html = "\n".join(page_component(concept, page_key, idx, title, copy) for idx, (title, copy) in enumerate(sections, start=1))
+    cta = dedent(
+        f"""
+        <section class="consultation-band">
+          <p>{esc(BRAND['credential'])} · {esc(BRAND['location'])}</p>
+          <h2>Professional evaluation before protocol selection.</h2>
+          <a class="button button-primary" href="consultation.html">Request consultation</a>
+          <a class="button button-soft" href="{BRAND['whatsapp_url']}" rel="noopener" target="_blank">WhatsApp</a>
+        </section>
         """
-        <form class="form-panel" data-static-form>
-          <div class="form-grid">
-            <div class="form-field"><label for="name">Name</label><input id="name" name="name" autocomplete="name" required></div>
-            <div class="form-field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
-            <div class="form-field"><label for="interest">Treatment interest</label><select id="interest" name="interest"><option>Professional evaluation</option><option>Laser care</option><option>Skin care</option><option>Results education</option></select></div>
-            <div class="form-field"><label for="whatsapp">WhatsApp</label><input id="whatsapp" name="whatsapp" autocomplete="tel"></div>
-            <div class="form-field full"><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
-          </div>
-          <label class="checkbox-line"><input type="checkbox" required> I understand this form is part of a static presentation and does not replace a professional evaluation.</label>
-          <button class="button primary" type="submit">Send request</button>
-          <p class="form-message" role="status"></p>
-        </form>
+    ).strip()
+    form = ""
+    if page_key in {"contact", "consultation"}:
+        form = dedent(
+            f"""
+            <section class="form-section">
+              <h2>Consultation request</h2>
+              <form data-consultation-form>
+                <label>Name<input name="name" autocomplete="name" required></label>
+                <label>Email<input name="email" type="email" autocomplete="email" required></label>
+                <label>Treatment interest<select name="interest"><option>Professional evaluation</option><option>Laser care</option><option>Skin care</option><option>Results with responsibility</option></select></label>
+                <label>Message<textarea name="message" required></textarea></label>
+                <button class="button button-primary" type="submit">Send request</button>
+                <p class="form-status" role="status"></p>
+              </form>
+            </section>
+            """
+        ).strip()
+    faq = ""
+    if page_key == "faq":
+        faq = dedent(
+            """
+            <section class="faq-cluster">
+              <h2>Common questions</h2>
+              <details open><summary>Do results vary?</summary><p>Yes. Results vary according to individual characteristics, indication, protocol, sessions and aftercare.</p></details>
+              <details><summary>Can I choose a laser directly?</summary><p>Laser suitability should be discussed through professional evaluation before treatment selection.</p></details>
+              <details><summary>Is there a public address?</summary><p>The site uses Londrina, PR only and does not publish private location details.</p></details>
+            </section>
+            """
+        ).strip()
+    responsible_note = ""
+    if page_key in {"laser", "skin", "results", "consultation"}:
+        responsible_note = (
+            '<section class="responsible-note" aria-label="Responsible results note">'
+            f"<h2>Responsible aesthetic information</h2><p>{esc(SAFE_DISCLAIMER)}</p>"
+            "</section>"
+        )
+    return dedent(
+        f"""
+        <main id="main" class="page-layout layout-{(n - 1) % 50:02d}" data-section-order="{order_name}">
+          <section class="hero hero-{(n + len(label)) % 13:02d} hero-mode-{hero_mode:02d}" data-hero="hero-{concept.number}-{concept.slug}">
+            <span class="hero-index" aria-hidden="true">{concept.number}</span>
+            <img class="hero-monogram" src="assets/brand/sofiati-monogram-bronze.png" alt="">
+            <div class="hero-copy">
+              <p class="eyebrow">Concept {concept.number} · {esc(concept.name)} · {esc(label)}</p>
+              <h1>{esc(headline if page_key != "index" else f"{concept.name}: {title_case(concept.archetype)} for Sofiati.")}</h1>
+              <p>{esc(intro if page_key != "index" else f"{intro} This standalone direction uses a {concept.header}, {concept.menu} and {concept.footer}.")}</p>
+              <div class="hero-actions">
+                <a class="button button-primary" href="consultation.html">Request consultation</a>
+                <a class="button button-soft" href="laser.html">Explore laser care</a>
+              </div>
+            </div>
+            <figure class="hero-visual">
+              <img src="assets/images/{esc(img)}" alt="Sofiati {esc(label)} visual for {esc(concept.name)}">
+              <figcaption>{esc(concept.archetype)} · {esc(concept.motion)}</figcaption>
+            </figure>
+            <div class="hero-mosaic" aria-hidden="true">
+              <img src="assets/images/{esc(mosaic_images[0])}" alt="">
+              <img src="assets/images/{esc(mosaic_images[1])}" alt="">
+              <img src="assets/images/{esc(mosaic_images[2])}" alt="">
+            </div>
+          </section>
+          {service_panel(concept) if page_key in {"index", "care"} else ""}
+          <section class="content-system content-system-{(n + len(page_key)) % 11:02d}">
+            <div class="section-heading">
+              <p class="eyebrow">{esc(concept.archetype)}</p>
+              <h2>{esc(label)} sections designed for {esc(concept.name)}</h2>
+            </div>
+            <div class="component-grid component-grid-{(n - 1) % 9:02d}">
+              {section_html}
+            </div>
+          </section>
+          {faq}
+          {form}
+          {responsible_note}
+          {cta}
+        </main>
         """
     ).strip()
 
 
-def render_right_component(page: str, idx: int, title: str, concept: dict[str, object]) -> str:
-    if page == "faq":
-        return render_faq_group()
-    if page == "contact":
-        return render_contact_panel() if idx in {1, 2, 3, 4} else render_feature_list(title, page, concept)
-    if page == "consultation" and idx == 6:
-        return render_form()
-    if page in {"journal", "blog"} and idx in {1, 2, 3}:
-        return render_articles(page, str(concept["name"]))
-    mode = (int(concept["number"]) + idx + PAGES.index(page)) % 4
-    if mode == 0:
-        return render_timeline(title, page)
-    if mode == 1:
-        return render_feature_list(title, page, concept)
-    if mode == 2:
-        return render_statement_panel(title, page, concept)
-    return render_tiles(title, page, str(concept["name"]))
-
-
-def render_disclaimer(page: str) -> str:
-    return (
-        "<div class=\"disclaimer-box\" role=\"note\">"
-        f"<p>{esc(DISCLAIMERS[0])}</p>"
-        f"<p>{esc(DISCLAIMERS[1])}</p>"
-        "</div>"
-        if PAGE_DEFS[page].get("disclaimer")
-        else ""
-    )
-
-
-def render_section(page: str, idx: int, title: str, copy: str, concept: dict[str, object]) -> str:
-    sid = section_id(page, idx, title)
-    visual = ""
-    if idx % 3 == 1:
-        visual = (
-            "<figure class=\"section-visual\">"
-            f"<img src=\"{esc(image_src(page, concept))}\" alt=\"Sofiati {esc(PAGE_LABELS[page])} visual for {esc(title)}\" loading=\"lazy\" decoding=\"async\" width=\"900\" height=\"675\">"
-            "</figure>"
-        )
-    actions = ""
-    if idx == len(PAGE_DEFS[page]["sections"]):
-        actions = (
-            "<div class=\"section-actions mt\">"
-            "<a class=\"button primary\" href=\"../consultation/\">Request consultation</a>"
-            "<a class=\"button sage\" href=\"https://wa.me/5543991043536\" rel=\"noopener\" target=\"_blank\">WhatsApp</a>"
-            "</div>"
-        )
-    return (
-        f"<section class=\"component-section section-{idx % 6} layout-{(int(concept['number']) + idx) % 8}\" id=\"{esc(sid)}\" aria-labelledby=\"heading-{esc(sid)}\">"
-        "<div class=\"section-inner\">"
-        "<div class=\"section-copy\">"
-        f"<p class=\"eyebrow\">{esc(PAGE_DEFS[page]['theme'])}</p>"
-        f"<h2 id=\"heading-{esc(sid)}\">{esc(title)}</h2>"
-        f"<p class=\"section-body\">{esc(copy)}</p>"
-        f"{visual}"
-        "</div>"
-        "<div class=\"section-component\">"
-        f"{render_right_component(page, idx, title, concept)}"
-        f"{actions}"
-        "</div>"
-        "</div>"
-        "</section>"
-    )
-
-
-def render_page(concept: dict[str, object], page: str) -> str:
-    number = str(concept["number"])
-    name = str(concept["name"])
-    label = PAGE_LABELS[page]
-    page_def = PAGE_DEFS[page]
-    title = f"{label} | {number} {name} | Franciele Sofiati"
-    description = f"{label} page for the {name} Sofiati concept: English-first advanced aesthetic biomedicine, laser and skin care in Londrina, PR."
-    canonical = f"https://www.sofiati.com/concepts/{number}/{page}/"
-    sections = "\n".join(
-        render_section(page, idx, section_title, copy, concept)
-        for idx, (section_title, copy) in enumerate(page_def["sections"], start=1)
-    )
-    trust = "".join(
-        f"<li>{esc(item)}</li>"
-        for item in [
-            "Franciele Sofiati",
-            "CRBM 6277",
-            "Advanced Aesthetic Biomedicine",
-            "Londrina, PR",
-            "Professional evaluation first",
-        ]
-    )
+def html_page(concept: Concept, page_spec: tuple[str, str, str, str, str]) -> str:
+    page_key, label, filename, headline, intro = page_spec
+    title = f"{label} | {concept.number} {concept.name} | Franciele Sofiati"
+    description = f"{label} page for {concept.name}, a standalone Sofiati concept for laser, skin and advanced aesthetic care in Londrina, PR."
+    header = header_markup(concept, page_key)
+    menu = mobile_menu_markup(concept, page_key)
+    footer = footer_markup(concept, page_key)
+    body = page_body(concept, page_key, label, headline, intro)
     json_ld = {
         "@context": "https://schema.org",
-        "@graph": [
-            {"@type": "WebSite", "@id": "https://www.sofiati.com/#website", "url": "https://www.sofiati.com", "name": "Franciele Sofiati", "inLanguage": "en"},
-            {
-                "@type": "Person",
-                "@id": "https://www.sofiati.com/#franciele-sofiati",
-                "name": "Franciele Sofiati",
-                "jobTitle": "Advanced Aesthetic Biomedicine Professional",
-                "description": "Biomedical professional with clinical pathology background, aesthetics and cosmetology training, laser specialist, CRBM 6277.",
-                "url": "https://www.sofiati.com",
-                "sameAs": ["https://www.instagram.com/fransofiati_biomedica/"],
-            },
-            {
-                "@type": "ProfessionalService",
-                "@id": "https://www.sofiati.com/#service",
-                "name": "Franciele Sofiati Advanced Aesthetic Biomedicine",
-                "areaServed": "Londrina, PR",
-                "url": "https://www.sofiati.com",
-                "telephone": "+55 43 99104-3536",
-                "email": "sofiatimendonca@gmail.com",
-            },
-            {
-                "@type": "WebPage",
-                "@id": f"{canonical}#webpage",
-                "url": canonical,
-                "name": title,
-                "description": description,
-                "isPartOf": {"@id": "https://www.sofiati.com/#website"},
-                "about": {"@id": "https://www.sofiati.com/#franciele-sofiati"},
-                "inLanguage": "en",
-            },
-        ],
+        "@type": "WebPage",
+        "name": title,
+        "description": description,
+        "url": f"{BRAND['domain_url']}/concepts/{concept.folder}/{filename}",
+        "inLanguage": "en",
+        "about": {
+            "@type": "Person",
+            "name": BRAND["name"],
+            "jobTitle": BRAND["descriptor"],
+            "identifier": BRAND["credential"],
+        },
     }
     return dedent(
         f"""\
         <!doctype html>
         <html lang="en">
         <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{esc(title)}</title>
-        <meta name="description" content="{esc(description)}">
-        <link rel="canonical" href="{esc(canonical)}">
-        <meta property="og:title" content="{esc(title)}">
-        <meta property="og:description" content="{esc(description)}">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="{esc(canonical)}">
-        <meta property="og:image" content="https://www.sofiati.com/assets/og/sofiati-open-graph.webp">
-        <meta property="og:image:alt" content="Franciele Sofiati botanical clinical luxury brand presentation">
-        <meta name="twitter:card" content="summary_large_image">
-        <link rel="icon" href="../../../assets/brand/sofiati-favicon.svg" type="image/svg+xml">
-        <link rel="stylesheet" href="../../../css/tokens.css">
-        <link rel="stylesheet" href="../../../css/base.css">
-        <link rel="stylesheet" href="../../../css/typography.css">
-        <link rel="stylesheet" href="../../../css/components.css">
-        <link rel="stylesheet" href="../../../css/concept-components.css">
-        <link rel="stylesheet" href="../../../css/utilities.css">
-        <link rel="stylesheet" href="../../../css/animations.css">
-        <link rel="stylesheet" href="../../../css/concepts/{number}.css">
-        <script type="application/ld+json">{json.dumps(json_ld, ensure_ascii=False, separators=(",", ":"))}</script>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>{esc(title)}</title>
+          <meta name="description" content="{esc(description)}">
+          <link rel="canonical" href="{BRAND['domain_url']}/concepts/{concept.folder}/{filename}">
+          <meta property="og:title" content="{esc(title)}">
+          <meta property="og:description" content="{esc(description)}">
+          <meta property="og:image" content="assets/images/home/sofiati-home-hero-botanical-clinical-luxury.webp">
+          <link rel="icon" href="assets/brand/sofiati-favicon.svg" type="image/svg+xml">
+          <link rel="stylesheet" href="css/style.css">
+          <script type="application/ld+json">{json.dumps(json_ld, ensure_ascii=False, separators=(",", ":"))}</script>
         </head>
-        <body class="concept-page concept-{number} {concept_classes(int(number))} page-{page}" data-concept="{number}" data-concept-name="{esc(name)}" data-page="{page}">
-        <a class="skip-link" href="#main">Skip to main content</a>
-        <div class="partial-slot" data-partial="header"><header class="site-header"><div class="header-inner"><a class="brand-link" href="../../../index.html"><span class="brand-text"><strong>Franciele Sofiati</strong><small>Advanced Aesthetic Biomedicine</small></span></a><a class="header-cta" href="../consultation/">Consultation</a></div></header></div>
-        <div class="partial-slot" data-partial="mobile-menu"></div>
-        <main id="main">
-        <section class="hero" aria-labelledby="page-title">
-          <div class="hero-copy soft-enter">
-            <p class="eyebrow">Concept {number} - {esc(name)}</p>
-            <h1 id="page-title">{esc(page_hero_title(page, concept))}</h1>
-            <p class="lede">{esc(page_hero_lede(page, concept))}</p>
-            <div class="hero-actions">
-              <a class="button primary" href="../consultation/">Request consultation</a>
-              <a class="button sage" href="https://wa.me/5543991043536" rel="noopener" target="_blank">WhatsApp</a>
-              <a class="ghost-button" href="../faq/">Read FAQ</a>
-            </div>
-            <ul class="trust-capsules" aria-label="Trust details">{trust}</ul>
-          </div>
-          <figure class="hero-media soft-enter">
-            <img src="{esc(image_src(page, concept))}" alt="Sofiati {esc(label)} concept visual in sage, ivory and botanical clinical luxury" loading="eager" decoding="async" width="1200" height="1400">
-            <figcaption>{esc(concept["mood"])} - {esc(concept["motionStyle"])}</figcaption>
-          </figure>
-        </section>
-        <section class="page-intro">
-          <div class="intro-panel">
-            <p class="eyebrow">Reference architecture</p>
-            <p class="lede">Franciele Sofiati - CRBM 6277 - Advanced Aesthetic Biomedicine - Londrina, PR. {esc(name)} uses {esc(concept["layoutDirection"])}, {esc(concept["headerStyle"])}, {esc(concept["mobileMenuStyle"])} and {esc(concept["footerStyle"])}. The content remains Sofiati-specific, ethical and evaluation-first.</p>
-          </div>
-        </section>
-        {render_disclaimer(page)}
-        {sections}
-        </main>
-        <div class="partial-slot" data-partial="concept-switcher"></div>
-        <div class="partial-slot" data-partial="footer"><footer class="site-footer"><div class="footer-inner"><div><h2>Franciele Sofiati</h2><p>Advanced Aesthetic Biomedicine - CRBM 6277 - Londrina, PR</p></div><p>WhatsApp: (43) 9 9104-3536 - sofiatimendonca@gmail.com</p></div></footer></div>
-        <script src="../../../js/partials.js" defer data-root="../../../"></script>
-        <script src="../../../js/translations.js" defer></script>
-        <script src="../../../js/language-switcher.js" defer></script>
-        <script src="../../../js/navigation.js" defer></script>
-        <script src="../../../js/accessibility.js" defer></script>
-        <script src="../../../js/forms.js" defer></script>
-        <script src="../../../js/cookies.js" defer></script>
-        <script src="../../../js/motion.js" defer></script>
-        <script src="../../../js/concept-switcher.js" defer></script>
-        <script src="../../../js/app.js" defer></script>
+        <body class="concept concept-{concept.slug} page-{page_key}" data-concept="{concept.folder}" data-layout="{concept.archetype}" data-header="{concept.header}" data-footer="{concept.footer}" data-menu="{concept.menu}">
+          <a class="skip-link" href="#main">Skip to main content</a>
+          {header}
+          {menu}
+          {body}
+          {footer}
+          <script src="js/main.js" defer></script>
         </body>
         </html>
         """
     )
 
 
-def render_redirect(concept: dict[str, object]) -> str:
-    number = esc(concept["number"])
-    name = esc(concept["name"])
+def color_mix(index: int) -> dict[str, str]:
+    accents = ["#9A6B35", "#798A80", "#879588", "#8E7B56", "#734011", "#A2AE9F", "#6F8377", "#A17B52", "#7C8E9B", "#B9843D"]
+    return {
+        "accent": accents[index % len(accents)],
+        "deep": ["#252321", "#344039", "#2E3631", "#3A3128", "#273332"][index % 5],
+        "soft": ["#F8F7F2", "#F3EFE5", "#F8F4EA", "#EEE8DC", "#F7F2E8"][index % 5],
+    }
+
+
+def hero_mode_css(mode: int, idx: int, radius: int) -> str:
+    base = ".hero-mosaic,.hero-index,.hero-monogram{display:none}.hero-mosaic img{width:100%;height:100%;object-fit:cover}"
+    if mode == 0:
+        return base + ".hero{border-bottom:1px solid var(--line)}"
+    if mode == 1:
+        return base + ".hero{width:100%;min-height:100vh;padding:0 max(18px,calc((100vw - 1240px)/2));grid-template-columns:minmax(0,760px);align-content:end;color:white;isolation:isolate}.hero:after{content:\"\";position:absolute;inset:0;background:linear-gradient(90deg,rgba(37,35,33,.72),rgba(37,35,33,.22) 56%,rgba(37,35,33,.08));z-index:-1}.hero-copy{z-index:2;padding:clamp(90px,18vw,220px) 0 clamp(40px,8vw,96px)}.hero-copy>p:not(.eyebrow),.hero .eyebrow{color:rgba(255,255,255,.82)}.hero-visual{position:absolute;inset:0;min-height:100%;border-radius:0;box-shadow:none;z-index:-2}.hero-visual img{opacity:.86;mix-blend-mode:normal}.hero-visual figcaption{left:auto;width:min(360px,calc(100% - 32px));background:rgba(37,35,33,.64);color:white}"
+    if mode == 2:
+        return base + ".hero{grid-template-columns:1fr;text-align:center;justify-items:center;min-height:92vh}.hero-copy{max-width:920px;position:relative;z-index:2}.hero-actions{justify-content:center}.hero-visual{position:absolute;inset:12% 18%;min-height:auto;height:auto;opacity:.16;box-shadow:none;border-radius:50%;z-index:0}.hero-monogram{display:block;width:min(220px,34vw);opacity:.22;margin-bottom:-18px}.hero-copy,.hero-monogram{position:relative;z-index:2}.hero-visual figcaption{display:none}"
+    if mode == 3:
+        return base + f".hero{{grid-template-columns:minmax(0,1fr) minmax(240px,380px);align-items:end;min-height:86vh;padding-bottom:clamp(42px,8vw,100px)}}.hero-copy h1{{font-size:clamp(3.4rem,9vw,8.5rem)}}.hero-visual{{min-height:clamp(220px,34vw,440px);align-self:end;border-radius:{radius if radius < 30 else 18}px}}.hero-index{{display:block;position:absolute;right:0;top:clamp(80px,14vw,160px);font-family:Georgia,serif;font-size:clamp(8rem,22vw,18rem);line-height:.8;color:color-mix(in srgb,var(--accent) 18%,transparent);z-index:-1}}"
+    if mode == 4:
+        return base + ".hero{grid-template-columns:.82fr 1.18fr;min-height:94vh}.hero-visual{display:none}.hero-mosaic{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:10px;min-height:clamp(360px,54vw,720px)}.hero-mosaic img{border-radius:28px;box-shadow:var(--shadow)}.hero-mosaic img:first-child{grid-row:1/3}.hero-mosaic img:nth-child(2){border-radius:999px 999px 20px 20px}.hero-mosaic img:nth-child(3){border-radius:20px 80px 20px 80px}"
+    if mode == 5:
+        return base + ".hero{width:100%;grid-template-columns:88px minmax(0,1fr) minmax(280px,42vw);gap:clamp(20px,4vw,60px);padding-left:max(18px,calc((100vw - 1320px)/2));padding-right:max(18px,calc((100vw - 1320px)/2))}.hero-index{display:block;writing-mode:vertical-rl;text-orientation:mixed;font-family:Georgia,serif;font-size:clamp(4rem,10vw,9rem);color:var(--accent);opacity:.45;align-self:center}.hero-visual{min-height:100vh;border-radius:0;box-shadow:none}.hero-visual figcaption{bottom:32px;left:32px;right:32px}"
+    if mode == 6:
+        return base + ".hero{width:100%;min-height:100vh;background:linear-gradient(135deg,var(--ink),color-mix(in srgb,var(--deep-sage) 80%,black));color:white;padding-left:max(18px,calc((100vw - 1180px)/2));padding-right:max(18px,calc((100vw - 1180px)/2));grid-template-columns:.72fr 1fr}.hero-copy>p:not(.eyebrow),.hero .eyebrow{color:rgba(255,255,255,.78)}.hero-visual{box-shadow:none;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.06)}.hero-visual img{opacity:.72;mix-blend-mode:screen;filter:saturate(.7)}.button-soft{background:rgba(255,255,255,.14);color:white;border-color:rgba(255,255,255,.32)}"
+    if mode == 7:
+        return base + ".hero{grid-template-columns:1fr 1fr;min-height:92vh}.hero-visual{transform:rotate(-2deg);border-radius:12px;box-shadow:18px 18px 0 color-mix(in srgb,var(--accent) 18%,white)}.hero-mosaic{display:block;position:absolute;right:8%;bottom:8%;width:min(220px,26vw);height:min(220px,26vw);border-radius:50%;overflow:hidden;box-shadow:var(--shadow)}.hero-mosaic img:not(:first-child){display:none}"
+    if mode == 8:
+        return base + ".hero{grid-template-columns:1fr;align-content:start;min-height:auto;padding-top:clamp(28px,5vw,70px)}.hero-visual{order:-1;width:100%;min-height:clamp(240px,32vw,420px);border-radius:0 0 120px 120px}.hero-copy{width:min(980px,100%);padding-top:clamp(28px,5vw,56px)}.hero-copy h1{max-width:860px}"
+    if mode == 9:
+        return base + ".hero{grid-template-columns:minmax(280px,.68fr) minmax(0,1.32fr);min-height:92vh}.hero-copy{order:2;border-left:1px solid var(--line);padding-left:clamp(24px,5vw,72px)}.hero-visual{order:1;min-height:clamp(420px,64vw,780px);border-radius:999px 999px 12px 12px}.hero-actions{justify-content:flex-start}"
+    if mode == 10:
+        return base + ".hero{grid-template-columns:.64fr minmax(0,1fr) .64fr;min-height:90vh}.hero-copy{grid-column:2;text-align:center}.hero-actions{justify-content:center}.hero-visual{grid-column:1;grid-row:1;min-height:clamp(280px,36vw,560px);border-radius:8px}.hero-mosaic{display:grid;grid-column:3;grid-row:1;gap:10px;align-self:center}.hero-mosaic img{height:clamp(110px,12vw,180px);border-radius:999px}.hero-mosaic img:nth-child(2){border-radius:8px}.hero-mosaic img:nth-child(3){border-radius:80px 8px}"
+    return base + ".hero{width:100%;min-height:96vh;grid-template-columns:1fr;place-items:center;padding-left:18px;padding-right:18px;isolation:isolate}.hero-visual{position:absolute;inset:0;min-height:100%;border-radius:0;opacity:.24;box-shadow:none;z-index:-2}.hero-visual img{mix-blend-mode:multiply}.hero-copy{max-width:850px;background:rgba(248,247,242,.88);backdrop-filter:blur(20px);border:1px solid var(--line);padding:clamp(26px,5vw,70px);border-radius:8px;box-shadow:var(--shadow);text-align:center}.hero-actions{justify-content:center}.hero-monogram{display:block;position:absolute;width:min(140px,26vw);top:18%;opacity:.3}"
+
+
+def css_for(concept: Concept) -> str:
+    idx = concept.accent_index
+    colors = color_mix(idx)
+    radius = [2, 4, 8, 12, 18, 26, 999][idx % 7]
+    hero_css = hero_mode_css(idx % 12, idx, radius)
+    page_max = [1160, 1240, 1320, 1080, 1440][idx % 5]
+    nav_position = ["sticky", "sticky", "relative", "sticky", "fixed"][idx % 5]
+    hero_grid = [
+        "1.05fr .95fr", ".78fr 1.22fr", "1fr 1fr", ".68fr 1.32fr", "1.32fr .68fr",
+        ".9fr 1.1fr", "1.18fr .82fr", ".82fr 1.18fr", "1fr .72fr", ".72fr 1fr",
+    ][idx % 10]
+    component_cols = [
+        "repeat(5,minmax(0,1fr))", "repeat(2,minmax(0,1fr))", "minmax(0,1.2fr) repeat(2,minmax(0,.9fr))",
+        "repeat(auto-fit,minmax(220px,1fr))", "1fr", "repeat(3,minmax(0,1fr))",
+        "minmax(280px,.7fr) minmax(0,1.3fr)", "repeat(auto-fit,minmax(160px,1fr))", "2fr 1fr", "1fr 2fr",
+    ][idx % 10]
+    hero_shape = [
+        "border-radius:0 0 80px 0;", "border-radius:28px;", "border-radius:0;", "border-radius:160px 8px 160px 8px;",
+        "border-radius:999px 999px 12px 12px;", "border-radius:50%;aspect-ratio:1;", "clip-path:polygon(0 0,100% 7%,92% 100%,0 92%);",
+        "border-radius:8px 80px 8px 80px;", "border-radius:8px;", "border-radius:120px;",
+    ][idx % 10]
     return dedent(
+        f"""\
+        /* {concept.number} {concept.name}: standalone Sofiati design system */
+        :root {{
+          --sage:#A2AE9F;
+          --deep-sage:#798A80;
+          --ivory:#F3EFE5;
+          --cream:#F8F4EA;
+          --soft-white:#F8F7F2;
+          --bronze:#9A6B35;
+          --champagne:#FDE3B0;
+          --ink:{colors['deep']};
+          --muted:#706B63;
+          --accent:{colors['accent']};
+          --surface:{colors['soft']};
+          --line:rgba(37,35,33,.14);
+          --shadow:0 24px 80px rgba(37,35,33,.13);
+          --page:min({page_max}px,calc(100% - 32px));
+          --radius:{radius}px;
+        }}
+        *{{box-sizing:border-box}} html{{scroll-behavior:smooth}} body{{margin:0;background:var(--surface);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.5}} img{{max-width:100%;display:block}} a{{color:inherit}} button,input,select,textarea{{font:inherit}} h1,h2,h3{{font-family:Georgia,"Times New Roman",serif;font-weight:400;line-height:.98;letter-spacing:0}} h1{{font-size:clamp(2.7rem,7vw,6.8rem);margin:0}} h2{{font-size:clamp(2rem,4vw,4.2rem);margin:0}} h3{{font-size:clamp(1.25rem,2vw,2rem);margin:.2rem 0}} p{{margin:0}} .skip-link{{position:absolute;left:12px;top:12px;z-index:999;background:var(--ink);color:white;padding:10px;transform:translateY(-160%)}}.skip-link:focus{{transform:none}}
+        .site-header{{position:{nav_position};top:{'14px' if idx % 5 == 4 else '0'};z-index:30;width:{'min(1180px,calc(100% - 24px))' if idx % 5 == 4 else '100%'};margin:auto;display:grid;grid-template-columns:{'auto 1fr auto' if idx % 4 else '1fr auto 1fr'};align-items:center;gap:18px;padding:{'14px 18px' if idx % 3 else '8px 28px'};background:{'rgba(248,247,242,.88)' if idx % 2 else 'color-mix(in srgb,var(--surface) 86%,white)'};border-bottom:1px solid var(--line);backdrop-filter:blur(18px);{'border-radius:999px;' if idx % 5 == 4 else ''}}}
+        .brand-mark{{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:0;{'justify-self:center;flex-direction:column;text-align:center;' if idx % 4 == 0 else ''}}}.brand-mark img{{width:clamp(120px,14vw,210px);max-height:52px;object-fit:contain}}.brand-mark strong{{font-family:Georgia,serif;font-size:1rem;font-weight:400}}.brand-mark small{{display:block;text-transform:uppercase;font-size:.58rem;letter-spacing:.16em;color:var(--muted)}}.desktop-nav{{display:flex;justify-content:center;gap:{'4px' if idx % 2 else '14px'};flex-wrap:wrap}}.desktop-nav a{{text-decoration:none;min-height:34px;display:inline-flex;align-items:center;padding:7px 9px;border-radius:{radius if radius < 40 else 999}px;font-size:.78rem;{'text-transform:uppercase;letter-spacing:.1em;' if idx % 3 == 0 else ''}}}.desktop-nav a[aria-current=page],.desktop-nav a:hover{{background:white;box-shadow:inset 0 0 0 1px var(--line)}}.header-actions{{display:flex;align-items:center;justify-content:end;gap:8px}}.mini-contact,.menu-button,.button{{border:1px solid var(--line);border-radius:{radius if radius < 40 else 999}px;min-height:42px;padding:10px 14px;background:white;text-decoration:none;font-weight:700;color:var(--ink)}}.menu-button{{display:none}}.button-primary{{background:var(--ink);color:white;border-color:var(--ink)}}.button-soft{{background:color-mix(in srgb,var(--accent) 22%,white);color:var(--ink)}}
+        .mobile-menu{{position:fixed;inset:{'0 0 auto 0' if idx % 4 == 1 else '0'};z-index:60;min-height:{'72vh' if idx % 4 == 1 else '100vh'};display:grid;grid-template-rows:auto 1fr auto;gap:24px;padding:24px;background:linear-gradient({120 + idx * 11}deg,var(--deep-sage),color-mix(in srgb,var(--accent) 62%,var(--ink)));color:white;transform:{'translateY(-104%)' if idx % 4 == 1 else 'translateX(104%)' if idx % 4 == 2 else 'scale(.94)' if idx % 4 == 3 else 'translateY(104%)'};opacity:0;pointer-events:none;transition:transform .44s ease,opacity .44s ease}}.mobile-menu.is-open{{transform:none;opacity:1;pointer-events:auto}}.mobile-menu-top{{display:flex;align-items:center;justify-content:space-between;gap:18px}}.mobile-menu-top img{{width:210px}}.mobile-menu button{{background:transparent;color:white;border:1px solid rgba(255,255,255,.4);border-radius:999px;padding:10px 16px}}.mobile-menu nav{{display:grid;align-content:center;gap:8px;{'grid-template-columns:repeat(2,minmax(0,1fr));' if idx % 5 == 0 else ''}}}.mobile-menu nav a{{font-family:Georgia,serif;font-size:clamp(2rem,8vw,5rem);line-height:1;text-decoration:none}}.mobile-menu-note{{max-width:420px;color:rgba(255,255,255,.82)}}
+        .page-layout{{overflow:hidden}}.hero{{position:relative;min-height:calc(100vh - 84px);display:grid;grid-template-columns:{hero_grid};align-items:center;gap:clamp(24px,5vw,80px);width:var(--page);margin:auto;padding:clamp(42px,8vw,112px) 0}}.hero-copy{{display:grid;gap:20px;{'order:2;' if idx % 6 == 2 else ''}}}.eyebrow{{text-transform:uppercase;font-size:.72rem;letter-spacing:.14em;color:var(--muted);font-weight:800}}.hero-copy>p:not(.eyebrow){{max-width:64ch;color:var(--muted)}}.hero-actions{{display:flex;flex-wrap:wrap;gap:10px}}.hero-visual{{position:relative;margin:0;min-height:clamp(280px,46vw,680px);overflow:hidden;background:color-mix(in srgb,var(--sage) 42%,white);box-shadow:var(--shadow);{hero_shape}}}.hero-visual:before{{content:"";position:absolute;inset:18%;z-index:2;background:url("../assets/brand/sofiati-monogram-white.png") center/contain no-repeat;opacity:.16;pointer-events:none}}.hero-visual img{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;{'filter:saturate(.82) contrast(.96);' if idx % 2 else 'mix-blend-mode:multiply;opacity:.88;'}}}.hero-visual figcaption{{position:absolute;left:16px;right:16px;bottom:16px;z-index:3;padding:10px 13px;border-radius:{radius if radius < 30 else 999}px;background:rgba(248,247,242,.86);font-size:.78rem;color:var(--ink)}}
+        {hero_css}
+        .service-architecture,.content-system,.faq-cluster,.form-section,.responsible-note,.consultation-band{{width:var(--page);margin:auto;padding:clamp(48px,8vw,108px) 0;border-top:1px solid var(--line)}}.service-architecture{{display:grid;grid-template-columns:{'.55fr 1.45fr' if idx % 2 else '1fr'};gap:22px}}.service-architecture ul{{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px;list-style:none;margin:0;padding:0}}.service-architecture li{{border:1px solid var(--line);background:white;border-radius:{radius if radius < 24 else 24}px;padding:11px 12px;font-weight:700}}.service-architecture p{{grid-column:1/-1;color:var(--muted);max-width:80ch}}.section-heading{{display:grid;grid-template-columns:{'.75fr 1.25fr' if idx % 3 else '1fr'};gap:16px;margin-bottom:24px}}.component-grid{{display:grid;grid-template-columns:{component_cols};gap:clamp(10px,2vw,22px)}}.panel{{min-height:{130 + (idx % 5) * 18}px;border:1px solid var(--line);background:{'white' if idx % 4 else 'color-mix(in srgb,var(--accent) 8%,white)'};border-radius:{radius if radius < 32 else 26}px;padding:clamp(16px,2.5vw,30px);box-shadow:{'0 12px 40px rgba(37,35,33,.06)' if idx % 2 else 'none'};display:grid;align-content:start;gap:10px}}.panel-editorial{{border-left:4px solid var(--accent)}}.panel-card{{transform:translateY(var(--lift,0))}}.panel-card:hover{{--lift:-4px}}.panel-spec{{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}}.panel-horizontal{{grid-template-columns:{'1fr 1fr' if idx % 2 else '1fr'};align-items:end}}.panel-numbered{{grid-template-columns:48px 1fr}}.panel-numbered b{{font-family:Georgia,serif;font-size:2.4rem;color:var(--accent)}}.panel-note em{{color:var(--muted)}}details.panel summary{{cursor:pointer;font-weight:800}}.faq-cluster{{display:grid;gap:12px}}.form-section form{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;max-width:860px}}.form-section label{{display:grid;gap:6px;font-weight:800}}.form-section input,.form-section select,.form-section textarea{{width:100%;border:1px solid var(--line);border-radius:{radius if radius < 20 else 20}px;padding:12px;background:white}}.form-section textarea{{min-height:140px;grid-column:1/-1}}.form-section label:has(textarea),.form-section button,.form-status{{grid-column:1/-1}}.responsible-note{{display:grid;grid-template-columns:{'0.7fr 1.3fr' if idx % 2 else '1fr'};gap:16px;color:var(--muted);background:{'color-mix(in srgb,var(--sage) 12%,white)' if idx % 4 == 1 else 'transparent'};padding-left:{'20px' if idx % 4 == 1 else '0'};padding-right:{'20px' if idx % 4 == 1 else '0'}}}.responsible-note h2{{color:var(--ink)}}.consultation-band{{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;background:{'color-mix(in srgb,var(--accent) 10%,var(--surface))' if idx % 2 else 'transparent'};padding-left:{'24px' if idx % 2 else '0'};padding-right:{'24px' if idx % 2 else '0'}}}.consultation-band h2{{max-width:680px}}
+        .site-footer{{margin-top:clamp(42px,6vw,90px);background:var(--ink);color:white;padding:clamp(44px,8vw,100px) max(18px,calc((100vw - {page_max}px)/2));display:grid;grid-template-columns:{'.9fr 1fr .7fr' if idx % 3 else '1fr'};gap:clamp(22px,5vw,70px)}}.site-footer img{{width:min(280px,80vw);margin-bottom:18px}}.site-footer nav{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 20px}}.site-footer a{{color:rgba(255,255,255,.82);text-decoration:none}}.site-footer address{{font-style:normal;display:grid;gap:8px;color:rgba(255,255,255,.78)}}.concept-marker{{position:fixed;right:12px;bottom:12px;z-index:20;display:flex;gap:8px;align-items:center;border:1px solid var(--line);background:rgba(248,247,242,.86);backdrop-filter:blur(14px);border-radius:999px;padding:8px 12px;font-size:.76rem}}
+        .is-visible{{animation:reveal-{concept.slug} .72s ease both}}@keyframes reveal-{concept.slug}{{from{{opacity:0;transform:translateY({12 + idx % 20}px) scale({'.98' if idx % 2 else '1'});}}to{{opacity:1;transform:none;}}}}
+        body[data-js-ready="true"] .sticky-contact{{transform:translate(-50%,0)}}.sticky-contact{{position:fixed;left:50%;bottom:12px;z-index:25;transform:translate(-50%,120%);transition:transform .4s ease;background:var(--ink);color:white;border-radius:999px;padding:10px 14px;text-decoration:none;box-shadow:var(--shadow)}}
+        @media(max-width:980px){{.site-header{{grid-template-columns:auto auto;position:sticky;top:0;width:100%;border-radius:0}}.desktop-nav,.mini-contact{{display:none}}.menu-button{{display:inline-flex}}.hero,.service-architecture,.section-heading,.responsible-note,.site-footer{{grid-template-columns:1fr}}.hero{{min-height:auto;padding-top:34px}}.hero-index{{display:none}}.hero-mosaic{{grid-template-columns:1fr 1fr;min-height:auto}}.component-grid{{grid-template-columns:repeat(2,minmax(0,1fr))}}.form-section form{{grid-template-columns:1fr}}}}
+        @media(max-width:620px){{h1{{font-size:clamp(2.25rem,13vw,4.1rem)}}.hero{{grid-template-columns:1fr;gap:18px;width:var(--page);padding-left:0;padding-right:0}}.hero-visual{{min-height:{220 + (idx % 7) * 14}px;{'order:-1;' if idx % 3 == 0 else ''}}}.hero-mosaic{{display:none}}.hero-monogram{{max-width:120px}}.sticky-contact{{display:none}}.component-grid,.service-architecture ul{{grid-template-columns:1fr}}.panel-horizontal,.panel-numbered{{grid-template-columns:1fr}}.site-footer nav{{grid-template-columns:1fr}}.consultation-band{{align-items:stretch;flex-direction:column}}}}
+        """
+    )
+
+
+def js_for(concept: Concept) -> str:
+    idx = concept.accent_index
+    observer_mode = ["threshold", "stagger", "line", "soft", "snap"][idx % 5]
+    menu_mode = ["overlay", "sheet", "drawer", "scale", "cascade"][idx % 5]
+    return dedent(
+        f"""\
+        (() => {{
+          const concept = {json.dumps(concept.folder)};
+          const menuMode = {json.dumps(menu_mode)};
+          const observerMode = {json.dumps(observer_mode)};
+          document.body.dataset.jsReady = "true";
+
+          const menu = document.querySelector("#mobile-menu");
+          const open = document.querySelector("[data-menu-toggle]");
+          const close = document.querySelector("[data-menu-close]");
+          const setMenu = (active) => {{
+            if (!menu) return;
+            menu.classList.toggle("is-open", active);
+            menu.setAttribute("aria-hidden", String(!active));
+            open?.setAttribute("aria-expanded", String(active));
+            document.body.classList.toggle("menu-active-" + menuMode, active);
+          }};
+          open?.addEventListener("click", () => setMenu(true));
+          close?.addEventListener("click", () => setMenu(false));
+          menu?.querySelectorAll("a").forEach((link, index) => {{
+            link.style.setProperty("--menu-index", index);
+            link.addEventListener("click", () => setMenu(false));
+          }});
+
+          const panels = [...document.querySelectorAll(".panel, .service-architecture, .responsible-note, .consultation-band")];
+          if ("IntersectionObserver" in window) {{
+            const io = new IntersectionObserver((entries) => {{
+              entries.forEach((entry) => {{
+                if (!entry.isIntersecting) return;
+                const delay = observerMode === "stagger" ? (panels.indexOf(entry.target) % 7) * 70 : 0;
+                entry.target.style.transitionDelay = delay + "ms";
+                entry.target.classList.add("is-visible");
+                io.unobserve(entry.target);
+              }});
+            }}, {{ threshold: observerMode === "threshold" ? 0.22 : 0.12 }});
+            panels.forEach((panel) => io.observe(panel));
+          }} else {{
+            panels.forEach((panel) => panel.classList.add("is-visible"));
+          }}
+
+          document.querySelectorAll("details").forEach((detail) => {{
+            detail.addEventListener("toggle", () => {{
+              if (detail.open && observerMode === "snap") {{
+                detail.scrollIntoView({{ block: "nearest", behavior: "smooth" }});
+              }}
+            }});
+          }});
+
+          document.querySelectorAll("[data-consultation-form]").forEach((form) => {{
+            form.addEventListener("submit", (event) => {{
+              event.preventDefault();
+              const status = form.querySelector(".form-status");
+              if (status) status.textContent = "Thank you. This static concept keeps requests local; WhatsApp is available for a direct consultation request.";
+            }});
+          }});
+
+          const sticky = document.createElement("a");
+          sticky.className = "sticky-contact";
+          sticky.href = "consultation.html";
+          sticky.textContent = concept + " consultation";
+          document.body.appendChild(sticky);
+          let lastY = 0;
+          window.addEventListener("scroll", () => {{
+            const active = window.scrollY > 520 && window.scrollY >= lastY;
+            sticky.style.opacity = active ? "1" : ".82";
+            lastY = window.scrollY;
+          }}, {{ passive: true }});
+        }})();
+        """
+    )
+
+
+def design_notes(concept: Concept) -> str:
+    return dedent(
+        f"""\
+        Concept name:
+        {concept.number} — {concept.name}
+
+        Assigned inspiration URL:
+        {concept.url}
+
+        What was studied:
+        The concept studies the reference as a structural prompt for {concept.archetype}: navigation hierarchy, first-screen rhythm, service grouping, mobile menu posture, footer density and premium pacing. No protected text, brand assets, code or photography from the reference is used.
+
+        How the header differs from the other concepts:
+        This concept uses a {concept.header}. The header is assigned the unique runtime marker `header-{concept.number}-{concept.slug}` and a concept-specific CSS composition.
+
+        How the hero differs from the other concepts:
+        The hero is shaped around {concept.archetype}, with concept-specific grid, image treatment, radius, motion timing and headline structure.
+
+        How the page layout differs from the other concepts:
+        Page sections use a unique section order marker, component grid rhythm and panel mix generated for {concept.name}. The flat pages are not routed through shared root templates.
+
+        How the mobile menu differs from the other concepts:
+        The mobile menu uses a {concept.menu} with local JavaScript in `js/main.js` and local markup in `partials/mobile-menu.html`.
+
+        How the footer differs from the other concepts:
+        The footer uses a {concept.footer}, local contact hierarchy and concept-specific footer marker `footer-{concept.number}-{concept.slug}`.
+
+        How the motion differs from the other concepts:
+        Motion is based on {concept.motion}. The local `main.js` sets unique menu and reveal behaviour for this concept.
+
+        How Sofiati’s brand identity was applied:
+        Sage green, ivory, cream, bronze/champagne accents, the Sofiati logo system, FS monogram assets, botanical imagery, clinical calm and responsible advanced aesthetic biomedicine language are applied throughout.
+
+        Why this concept is not a clone of the others:
+        It has its own folder, flat HTML pages, `css/style.css`, `js/main.js`, partials, copied assets, design notes, header marker, footer marker, mobile menu marker, hero structure, section order and interaction mode. It does not depend on root `/css`, `/js`, `/partials` or `/assets` at runtime.
+        """
+    )
+
+
+def write_partials(concept: Concept, concept_dir: Path) -> None:
+    partial_dir = concept_dir / "partials"
+    partial_dir.mkdir(parents=True, exist_ok=True)
+    (partial_dir / "header.html").write_text(header_markup(concept, "index") + "\n", encoding="utf-8")
+    (partial_dir / "footer.html").write_text(footer_markup(concept, "index") + "\n", encoding="utf-8")
+    (partial_dir / "mobile-menu.html").write_text(mobile_menu_markup(concept, "index") + "\n", encoding="utf-8")
+    (partial_dir / "concept-switcher.html").write_text(concept_switcher_partial(concept) + "\n", encoding="utf-8")
+
+
+def write_concept(concept: Concept) -> None:
+    concept_dir = CONCEPTS_DIR / concept.folder
+    concept_dir.mkdir(parents=True, exist_ok=True)
+    copy_assets(concept_dir)
+    (concept_dir / "css").mkdir(exist_ok=True)
+    (concept_dir / "js").mkdir(exist_ok=True)
+    (concept_dir / "css" / "style.css").write_text(css_for(concept), encoding="utf-8")
+    (concept_dir / "js" / "main.js").write_text(js_for(concept), encoding="utf-8")
+    write_partials(concept, concept_dir)
+    (concept_dir / "design-notes.md").write_text(design_notes(concept), encoding="utf-8")
+    for page in PAGE_SPECS:
+        (concept_dir / page[2]).write_text(html_page(concept, page), encoding="utf-8")
+
+
+def selector_card(concept: Concept) -> str:
+    return dedent(
+        f"""
+        <a class="selector-card" href="concepts/{concept.folder}/index.html">
+          <span>{concept.number}</span>
+          <strong>{esc(concept.name)}</strong>
+          <small>{esc(concept.archetype)}</small>
+        </a>
+        """
+    ).strip()
+
+
+def write_root_selector(concepts: list[Concept]) -> None:
+    cards = "\n".join(selector_card(concept) for concept in concepts)
+    html = dedent(
         f"""\
         <!doctype html>
         <html lang="en">
         <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{name} | Sofiati Concept</title>
-        <meta http-equiv="refresh" content="0; url=home/">
-        <link rel="canonical" href="https://www.sofiati.com/concepts/{number}/home/">
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>Sofiati Standalone Website Concepts</title>
+          <meta name="description" content="50 standalone premium website directions for Franciele Sofiati.">
+          <link rel="icon" href="assets/brand/sofiati-favicon.svg" type="image/svg+xml">
+          <style>
+            :root{{--sage:#A2AE9F;--ivory:#F3EFE5;--ink:#252321;--line:rgba(37,35,33,.14)}}*{{box-sizing:border-box}}body{{margin:0;background:var(--ivory);color:var(--ink);font-family:Inter,system-ui,sans-serif}}main{{width:min(1240px,calc(100% - 32px));margin:auto;padding:clamp(32px,7vw,90px) 0}}h1{{font-family:Georgia,serif;font-size:clamp(3rem,8vw,7rem);font-weight:400;line-height:.95;max-width:980px}}.selector-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px}}.selector-card{{min-height:170px;display:grid;align-content:space-between;border:1px solid var(--line);background:#F8F7F2;border-radius:8px;padding:16px;text-decoration:none;color:inherit}}.selector-card span{{font-family:Georgia,serif;font-size:2.4rem;color:#798A80}}.selector-card strong{{font-size:1.25rem}}.selector-card small{{color:#706B63;line-height:1.35}}
+          </style>
         </head>
-        <body><p><a href="home/">Open {name} home page</a></p></body>
+        <body>
+          <main>
+            <p>Franciele Sofiati · Advanced Aesthetic Biomedicine · Londrina, PR</p>
+            <h1>50 standalone Sofiati website builds.</h1>
+            <div class="selector-grid">{cards}</div>
+          </main>
+        </body>
         </html>
         """
     )
+    (ROOT / "index.html").write_text(html, encoding="utf-8")
+    (ROOT / "select.html").write_text(html, encoding="utf-8")
 
 
-def concept_css(concept: dict[str, object]) -> str:
-    number = int(concept["number"])
-    family = (number - 1) % 10
-    cycle = (number - 1) // 10
-    accent = ACCENTS[family]
-    radius = [8, 4, 18, 2, 0, 28, 6, 999, 14, 10][family]
-    hero_cols = [
-        "1.12fr .88fr",
-        ".78fr 1.22fr",
-        "1fr 1fr",
-        ".9fr 1.1fr",
-        "1.28fr .72fr",
-        ".82fr 1.18fr",
-        "1fr .9fr",
-        ".74fr 1.26fr",
-        "1.05fr .95fr",
-        "1.18fr .82fr",
-    ][family]
-    section_cols = [
-        ".72fr 1.28fr",
-        ".95fr 1.05fr",
-        "1.18fr .82fr",
-        ".84fr 1.16fr",
-        "1.35fr .65fr",
-        ".8fr 1.2fr",
-        ".62fr 1.38fr",
-        "1fr 1fr",
-        ".9fr 1.1fr",
-        "1.22fr .78fr",
-    ][family]
-    header_rules = [
-        "background:color-mix(in srgb,var(--sofiati-ivory) 76%,transparent);",
-        "background:var(--sofiati-white);",
-        "background:linear-gradient(90deg,var(--concept-accent),var(--sofiati-sage)); color:var(--sofiati-white);",
-        "background:color-mix(in srgb,var(--sofiati-cream) 92%,white 8%);",
-        "background:var(--sofiati-ivory);",
-        "background:color-mix(in srgb,var(--sofiati-sage) 24%,var(--sofiati-white));",
-        "background:rgba(248,247,242,.92);",
-        "background:radial-gradient(circle at center,var(--sofiati-white),var(--sofiati-ivory));",
-        "background:color-mix(in srgb,var(--concept-accent) 16%,var(--sofiati-white));",
-        "background:linear-gradient(180deg,var(--sofiati-white),var(--sofiati-cream));",
-    ][family]
-    footer_bg = [
-        "var(--sofiati-charcoal)",
-        "var(--sofiati-sage-deep)",
-        "var(--concept-accent)",
-        "color-mix(in srgb,var(--sofiati-charcoal) 88%,var(--concept-accent))",
-        "var(--sofiati-soft-black)",
-        "var(--sofiati-sage)",
-        "#243033",
-        "color-mix(in srgb,var(--concept-accent) 72%,var(--sofiati-charcoal))",
-        "#30251D",
-        "#36423B",
-    ][family]
-    return dedent(
-        f"""\
-        body.concept-{number:02d}{{
-          --concept-accent:{accent};
-          --hero-radius:{radius}px;
-          --concept-offset:{cycle};
-        }}
-        body.concept-{number:02d} .site-header{{{header_rules} border-bottom-color:color-mix(in srgb,var(--concept-accent) 34%,transparent);}}
-        body.concept-{number:02d} .utility-bar{{background:color-mix(in srgb,var(--concept-accent) {10 + cycle * 5}%,var(--sofiati-white));}}
-        body.concept-{number:02d} .hero{{grid-template-columns:{hero_cols};}}
-        body.concept-{number:02d} .hero-media{{border-radius:var(--hero-radius); transform:translateY({(cycle - 2) * 4}px);}}
-        body.concept-{number:02d} .hero-media::after{{content:'';position:absolute;inset:0;background:linear-gradient({50 + family * 13}deg,transparent 42%,color-mix(in srgb,var(--concept-accent) 24%,transparent));pointer-events:none;}}
-        body.concept-{number:02d} .intro-panel{{grid-template-columns:{section_cols};}}
-        body.concept-{number:02d} .component-section .section-inner{{grid-template-columns:{section_cols};}}
-        body.concept-{number:02d} .component-section:nth-of-type(3n){{background:color-mix(in srgb,var(--concept-accent) {5 + cycle * 2}%,var(--sofiati-ivory));}}
-        body.concept-{number:02d} .component-section:nth-of-type(4n) .section-inner{{grid-template-columns:{hero_cols};}}
-        body.concept-{number:02d} .tile{{border-radius:{max(4, min(radius, 18))}px;}}
-        body.concept-{number:02d} .tile span,body.concept-{number:02d} .feature-list span{{background:color-mix(in srgb,var(--concept-accent) 28%,white);}}
-        body.concept-{number:02d} .article-card{{border-top:3px solid var(--concept-accent);}}
-        body.concept-{number:02d} .statement-panel{{background:linear-gradient(135deg,color-mix(in srgb,var(--concept-accent) 18%,var(--sofiati-white)),var(--sofiati-white));}}
-        body.concept-{number:02d} .mobile-menu{{background:linear-gradient({135 + family * 7}deg,var(--sofiati-sage-deep),color-mix(in srgb,var(--concept-accent) 72%,var(--sofiati-charcoal)));}}
-        body.concept-{number:02d} .site-footer{{background:{footer_bg};}}
-        {family_extra_css(number, family, cycle)}
-        @media(max-width:980px){{body.concept-{number:02d} .hero,body.concept-{number:02d} .component-section .section-inner,body.concept-{number:02d} .intro-panel{{grid-template-columns:1fr;}}body.concept-{number:02d}.page-home .hero{{grid-template-columns:1fr;}}body.concept-{number:02d}.page-home .hero-media{{clip-path:none;}}}}
-        @media(max-width:560px){{body.concept-{number:02d}.page-home .hero{{padding-top:24px;gap:18px;}}body.concept-{number:02d}.page-home .hero-media{{min-height:{180 + (family % 4) * 22}px;order:{-1 if family in {1, 2, 4, 7, 9} else 0};width:100%;}}body.concept-{number:02d}.page-home .hero-media figcaption{{font-size:.72rem;white-space:normal;}}body.concept-{number:02d}.page-home .trust-capsules{{grid-template-columns:repeat(2,minmax(0,1fr));}}}}
-        """
-    )
-
-
-def readme(concept: dict[str, object]) -> str:
-    return dedent(
-        f"""\
-        # {concept['number']} - {concept['name']}
-
-        Standalone Sofiati concept inspired by reference {concept['inspirationReferenceNumber']}: {concept['inspirationUrl']}
-
-        - Layout direction: {concept['layoutDirection']}
-        - Header: {concept['headerStyle']}
-        - Mobile menu: {concept['mobileMenuStyle']}
-        - Footer: {concept['footerStyle']}
-        - Motion: {concept['motionStyle']}
-
-        Pages: {', '.join(PAGES)}
-
-        Ethical note: the concept uses educational language, no fake testimonials, no unapproved results imagery and only Londrina, PR as location.
-        """
-    )
-
-
-def write_concept(concept: dict[str, object]) -> None:
-    number = str(concept["number"])
-    concept_dir = CONCEPTS_DIR / number
-    concept_dir.mkdir(parents=True, exist_ok=True)
-    (concept_dir / "index.html").write_text(render_redirect(concept), encoding="utf-8")
-    (concept_dir / "README.md").write_text(readme(concept), encoding="utf-8")
-    for page in PAGES:
-        page_dir = concept_dir / page
-        page_dir.mkdir(parents=True, exist_ok=True)
-        (page_dir / "index.html").write_text(render_page(concept, page), encoding="utf-8")
-    CSS_DIR.mkdir(parents=True, exist_ok=True)
-    (CSS_DIR / f"{number}.css").write_text(concept_css(concept), encoding="utf-8")
+def write_sitemap(concepts: list[Concept]) -> None:
+    urls = ["https://www.sofiati.com/"]
+    for concept in concepts:
+        for _, _, filename, *_ in PAGE_SPECS:
+            urls.append(f"https://www.sofiati.com/concepts/{concept.folder}/{filename}")
+    xml = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    xml.extend(f"  <url><loc>{url}</loc></url>" for url in urls)
+    xml.append("</urlset>")
+    (ROOT / "sitemap.xml").write_text("\n".join(xml) + "\n", encoding="utf-8")
 
 
 def main() -> None:
-    concepts = json.loads(CONCEPTS_PATH.read_text(encoding="utf-8"))
+    concepts = [Concept(*item) for item in CONCEPTS]
+    if CONCEPTS_DIR.exists():
+        shutil.rmtree(CONCEPTS_DIR)
+    CONCEPTS_DIR.mkdir()
     for concept in concepts:
         write_concept(concept)
-    print(f"Generated {len(concepts)} concepts and {len(concepts) * len(PAGES)} pages")
+    write_root_selector(concepts)
+    write_sitemap(concepts)
+    print(f"Generated {len(concepts)} standalone concepts")
+    print(f"Generated {len(concepts) * len(PAGE_SPECS)} flat HTML pages")
 
 
 if __name__ == "__main__":

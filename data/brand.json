@@ -10,7 +10,7 @@
   "instagramUrl": "https://www.instagram.com/fransofiati_biomedica/",
   "location": "Londrina, PR",
   "domain": "https://www.sofiati.com",
-  "addressPolicy": "Use Londrina, PR only. Do not publish a full street address or map.",
+  "addressPolicy": "Use Londrina, PR only. Do not publish private location details or maps.",
   "colours": {
     "sage": "#A2AE9F",
     "deepSage": "#798A80",
