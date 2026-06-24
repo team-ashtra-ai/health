@@ -37,7 +37,7 @@ PAGE_FILES = [
     "privacy.html", "cookies.html", "accessibility.html", "404.html",
 ]
 
-PARTIALS = ["header.html", "footer.html", "mobile-menu.html", "concept-switcher.html"]
+PARTIALS = ["status-banner.html", "header.html", "footer.html", "mobile-menu.html", "concept-switcher.html"]
 
 SERVICE_TERMS = [
     "Advanced aesthetic biomedicine",
@@ -94,12 +94,6 @@ FORBIDDEN_PATTERNS = {
     ),
     "template residue": re.compile(r"lorem ipsum|old portfolio|placeholder brand|generic template", re.I),
 }
-
-PORTUGUESE_UI = re.compile(
-    r"\b(Início|Sobre|Missão|Valores|Cuidados|Pele|Resultados|Depoimentos|"
-    r"Perguntas frequentes|Contato|Consulta|Privacidade|Acessibilidade|Enviar|Solicitar)\b",
-    re.I,
-)
 
 ROOT_RUNTIME_RE = re.compile(r"""(?:href|src)=["'](?:/css/|/js/|/partials/|/assets/|../../|../../../)""", re.I)
 
@@ -222,7 +216,7 @@ def check_files(errors: list[str]) -> dict[str, object]:
         if js.exists():
             js_hashes.setdefault(digest(js), []).append(name)
             js_text = js.read_text(encoding="utf-8")
-            for needle in ("data-menu-toggle", "IntersectionObserver", "data-consultation-form"):
+            for needle in ("data-menu-toggle", "IntersectionObserver", "data-consultation-form", "sofiati-language", "applyLanguage", "pt-BR"):
                 if needle not in js_text:
                     errors.append(f"JS missing {needle}: concepts/{name}/js/main.js")
 
@@ -236,10 +230,11 @@ def check_files(errors: list[str]) -> dict[str, object]:
             combined_text_parts.append(text)
             if ROOT_RUNTIME_RE.search(raw):
                 errors.append(f"Root/shared runtime dependency in concepts/{name}/{filename}")
-            if '<html lang="en"' not in raw:
-                errors.append(f"Page is not English-marked: concepts/{name}/{filename}")
-            if PORTUGUESE_UI.search(text):
-                errors.append(f"Portuguese UI text found in concepts/{name}/{filename}")
+            if '<html lang="pt-BR" data-source-lang="en" data-default-lang="pt">' not in raw:
+                errors.append(f"Page is not PT-default with English source marker: concepts/{name}/{filename}")
+            for needle in ("data-status-banner", "data-lang-switch", "data-default-lang=\"pt\""):
+                if needle not in raw:
+                    errors.append(f"Missing PT/banner marker {needle}: concepts/{name}/{filename}")
             for label, pattern in FORBIDDEN_PATTERNS.items():
                 if pattern.search(raw) or pattern.search(text):
                     errors.append(f"Forbidden {label}: concepts/{name}/{filename}")

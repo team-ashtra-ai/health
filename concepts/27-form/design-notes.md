@@ -26,7 +26,7 @@ How the motion differs from the other concepts:
 Motion is based on card index animation. The local `main.js` sets unique menu and reveal behaviour for this concept.
 
 How Sofiati’s brand identity was applied:
-Sage green, ivory, cream, bronze/champagne accents, the Sofiati logo system, FS monogram assets, botanical imagery, clinical calm and responsible advanced aesthetic biomedicine language are applied throughout.
+Sage green, ivory, cream, bronze/champagne accents, the Sofiati logo system, FS monogram assets, botanical imagery, clinical calm and responsible advanced aesthetic biomedicine language are applied throughout. English remains the source copy in the files, while the local concept JavaScript loads the public pages in Portuguese by default.
 
 Why this concept is not a clone of the others:
-It has its own folder, flat HTML pages, `css/style.css`, `js/main.js`, partials, copied assets, design notes, header marker, footer marker, mobile menu marker, hero structure, section order and interaction mode. It does not depend on root `/css`, `/js`, `/partials` or `/assets` at runtime.
+It has its own folder, flat HTML pages, `css/style.css`, `js/main.js`, partials, copied assets, design notes, header marker, footer marker, status banner partial, mobile menu marker, hero structure, section order, language switcher and interaction mode. It does not depend on root `/css`, `/js`, `/partials` or `/assets` at runtime.
