@@ -1,6 +1,6 @@
 # Header, Menu and Footer Screenshot Audit
 
-Concepts passed: 50/50
+Concepts passed: 36/50
 
 This audit checks the JS-loaded public partials, required footer content, mobile menu cleanliness, unique header/menu/footer combinations and screenshot evidence.
 
@@ -64,13 +64,13 @@ Combination: `public-header-layout-clinical|public-menu-layout-clinical-drawer|p
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
 
-## 04-renew - PASS
+## 04-renew - FAIL
 
 Combination: `public-header-layout-transparent|public-menu-layout-botanical-fade|public-footer-layout-flowing-botanical`
 
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
-- [x] Sofiati logo visible and elegant
+- [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
@@ -164,13 +164,13 @@ Combination: `public-header-layout-balanced|public-menu-layout-two-column|public
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
 
-## 09-radiance - PASS
+## 09-radiance - FAIL
 
 Combination: `public-header-layout-editorial|public-menu-layout-soft-gradient|public-footer-layout-airy-editorial`
 
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
-- [x] Sofiati logo visible and elegant
+- [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
@@ -264,13 +264,13 @@ Combination: `public-header-layout-poised|public-menu-layout-quiet-editorial|pub
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
 
-## 14-aura - PASS
+## 14-aura - FAIL
 
 Combination: `public-header-layout-aura|public-menu-layout-soft-overlay|public-footer-layout-aura-gradient`
 
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
-- [x] Sofiati logo visible and elegant
+- [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
@@ -364,13 +364,13 @@ Combination: `public-header-layout-glass|public-menu-layout-frosted-glass|public
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
 
-## 19-verda - PASS
+## 19-verda - FAIL
 
 Combination: `public-header-layout-verdant|public-menu-layout-deep-botanical|public-footer-layout-verdant`
 
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
-- [x] Sofiati logo visible and elegant
+- [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
@@ -464,13 +464,13 @@ Combination: `public-header-layout-ritual|public-menu-layout-ritual-full|public-
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
 
-## 24-signal - PASS
+## 24-signal - FAIL
 
 Combination: `public-header-layout-signal|public-menu-layout-signal-drawer|public-footer-layout-signal`
 
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
-- [x] Sofiati logo visible and elegant
+- [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
@@ -564,13 +564,13 @@ Combination: `public-header-layout-pure|public-menu-layout-pure-ivory|public-foo
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
 
-## 29-solace - PASS
+## 29-solace - FAIL
 
 Combination: `public-header-layout-solace|public-menu-layout-warm-full|public-footer-layout-solace`
 
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
-- [x] Sofiati logo visible and elegant
+- [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
@@ -664,13 +664,13 @@ Combination: `public-header-layout-elan|public-menu-layout-bold-editorial|public
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
 
-## 34-flora - PASS
+## 34-flora - FAIL
 
 Combination: `public-header-layout-flora|public-menu-layout-floral-full|public-footer-layout-flora`
 
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
-- [x] Sofiati logo visible and elegant
+- [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
@@ -744,13 +744,13 @@ Combination: `public-header-layout-vellum|public-menu-layout-paper-menu|public-f
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
 
-## 38-origin - PASS
+## 38-origin - FAIL
 
 Combination: `public-header-layout-origin|public-menu-layout-grounded-sage|public-footer-layout-origin`
 
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
-- [x] Sofiati logo visible and elegant
+- [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
@@ -764,13 +764,13 @@ Combination: `public-header-layout-origin|public-menu-layout-grounded-sage|publi
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
 
-## 39-kindred - PASS
+## 39-kindred - FAIL
 
 Combination: `public-header-layout-kindred|public-menu-layout-warm-card|public-footer-layout-kindred`
 
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
-- [x] Sofiati logo visible and elegant
+- [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
@@ -784,13 +784,13 @@ Combination: `public-header-layout-kindred|public-menu-layout-warm-card|public-f
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
 
-## 40-noble - PASS
+## 40-noble - FAIL
 
 Combination: `public-header-layout-noble|public-menu-layout-dark-elegant|public-footer-layout-noble`
 
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
-- [x] Sofiati logo visible and elegant
+- [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
@@ -864,13 +864,13 @@ Combination: `public-header-layout-meridian|public-menu-layout-meridian-drawer|p
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
 
-## 44-safeguard - PASS
+## 44-safeguard - FAIL
 
 Combination: `public-header-layout-safeguard|public-menu-layout-secure-clean|public-footer-layout-safeguard`
 
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
-- [x] Sofiati logo visible and elegant
+- [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
@@ -884,13 +884,13 @@ Combination: `public-header-layout-safeguard|public-menu-layout-secure-clean|pub
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
 
-## 45-silhouette - PASS
+## 45-silhouette - FAIL
 
 Combination: `public-header-layout-silhouette|public-menu-layout-silhouette-overlay|public-footer-layout-silhouette`
 
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
-- [x] Sofiati logo visible and elegant
+- [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
@@ -964,13 +964,13 @@ Combination: `public-header-layout-signature|public-menu-layout-signature-full|p
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
 
-## 49-wisdom - PASS
+## 49-wisdom - FAIL
 
 Combination: `public-header-layout-wisdom|public-menu-layout-wisdom-editorial|public-footer-layout-wisdom`
 
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
-- [x] Sofiati logo visible and elegant
+- [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
@@ -984,13 +984,13 @@ Combination: `public-header-layout-wisdom|public-menu-layout-wisdom-editorial|pu
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
 
-## 50-sovereign - PASS
+## 50-sovereign - FAIL
 
 Combination: `public-header-layout-sovereign|public-menu-layout-premium-brand|public-footer-layout-sovereign`
 
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
-- [x] Sofiati logo visible and elegant
+- [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only

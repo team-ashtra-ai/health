@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" fill="none" role="img" aria-label="Sofiati back to top icon"><path d="M120 30 L198 84 L168 190 L72 190 L42 84 Z" fill="#F8F4EA" stroke="#344039" stroke-width="3"/><g stroke="#D2C5A7" fill="#F2EEE3" stroke-width="2" opacity=".9"><g transform="translate(142.00 52.00) rotate(440.00) scale(0.27)"><path d="M0 0 C18 -18 42 -18 58 0 C42 14 18 14 0 0Z" /><path d="M4 0 C22 -3 38 -2 55 0" /></g><g transform="translate(82.00 186.00) rotate(-224.00) scale(0.22)"><path d="M0 0 C18 -18 42 -18 58 0 C42 14 18 14 0 0Z" /><path d="M4 0 C22 -3 38 -2 55 0" /></g></g><g stroke="#344039" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M120 174 V72 M82 110 L120 72 L158 110"/></g><circle cx="178" cy="64" r="14" fill="#9DA799" opacity=".28"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" fill="none" role="img" aria-label="Back to top">
+  <rect x="34" y="34" width="172" height="172" rx="44" fill="#f8f4ea" stroke="#6f8277" stroke-width="4"/>
+  <path d="M52 188C86 164 103 154 120 154s34 10 68 34" stroke="#6f8277" stroke-width="3" stroke-linecap="round" opacity=".18"/>
+  <circle cx="71" cy="145" r="5" fill="#6f8277" opacity="0.185"/>
+  <path d="M54 150c24 16 46 24 66 24s42-8 66-24" stroke="#6f8277" stroke-width="3" stroke-linecap="round" opacity=".32"/>
+  <path d="M76 132l44-48 44 48M120 88v86" stroke="#53645c" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

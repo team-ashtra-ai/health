@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Capture desktop and mobile screenshots for the public partial audit."""
+"""Capture combined header and footer screenshots for the public partial audit."""
 
 from __future__ import annotations
 
@@ -8,6 +8,7 @@ import json
 import shutil
 import tempfile
 import time
+from io import BytesIO
 from pathlib import Path
 
 from capture_homepage_screenshots import (
@@ -27,7 +28,201 @@ AUDIT_DIR = ROOT / "audit"
 SCREENSHOT_DIR = AUDIT_DIR / "screenshots"
 
 
-def capture(client: DevToolsClient, folder: str, viewport: str, config: dict[str, object]) -> Path:
+def top_clip(client: DevToolsClient, width: int) -> dict[str, float]:
+    expression = """
+(() => {
+  const selectors = [
+    '.public-utility.status-banner',
+    '.public-utility',
+    '.public-utility-rule',
+    '.public-header.site-header',
+    '.public-header',
+    '.site-header'
+  ];
+  let bottom = 0;
+  let found = false;
+  const scrollY = window.scrollY || document.documentElement.scrollTop || 0;
+  for (const selector of selectors) {
+    document.querySelectorAll(selector).forEach((node) => {
+      const rect = node.getBoundingClientRect();
+      const style = window.getComputedStyle(node);
+      if (style.display === 'none' || style.visibility === 'hidden' || rect.height <= 0) return;
+      found = true;
+      bottom = Math.max(bottom, rect.bottom + scrollY);
+    });
+  }
+  if (!found) bottom = Math.min(window.innerHeight, 160);
+  return {
+    x: 0,
+    y: 0,
+    width: __WIDTH__,
+    height: Math.ceil(Math.min(bottom + 24, document.documentElement.scrollHeight)),
+    scale: 1,
+    topHeight: Math.ceil(bottom)
+  };
+})()
+""".replace("__WIDTH__", str(width))
+    result = client.command("Runtime.evaluate", {"expression": expression, "returnByValue": True}, timeout=30)
+    value = result.get("result", {}).get("result", {}).get("value")
+    if not isinstance(value, dict):
+        raise RuntimeError("Could not evaluate top-system clip")
+    return {
+        "x": float(value["x"]),
+        "y": float(value["y"]),
+        "width": float(value["width"]),
+        "height": float(value["height"]),
+        "scale": float(value["scale"]),
+        "topHeight": float(value["topHeight"]),
+    }
+
+
+def footer_clip(client: DevToolsClient, width: int) -> dict[str, float]:
+    expression = """
+(() => {
+  const footer = document.querySelector('.public-footer');
+  if (!footer) throw new Error('Missing .public-footer');
+  const rect = footer.getBoundingClientRect();
+  const scrollY = window.scrollY || document.documentElement.scrollTop || 0;
+  return {
+    x: 0,
+    y: Math.max(0, Math.floor(rect.top + scrollY - 24)),
+    width: __WIDTH__,
+    height: Math.ceil(rect.height + 48),
+    scale: 1,
+    footerHeight: Math.ceil(rect.height)
+  };
+})()
+""".replace("__WIDTH__", str(width))
+    result = client.command("Runtime.evaluate", {"expression": expression, "returnByValue": True}, timeout=30)
+    value = result.get("result", {}).get("result", {}).get("value")
+    if not isinstance(value, dict):
+        raise RuntimeError("Could not evaluate footer clip")
+    return {
+        "x": float(value["x"]),
+        "y": float(value["y"]),
+        "width": float(value["width"]),
+        "height": float(value["height"]),
+        "scale": float(value["scale"]),
+        "footerHeight": float(value["footerHeight"]),
+    }
+
+
+def widget_clip(client: DevToolsClient, width: int, height: int) -> dict[str, float]:
+    scroll_expression = """
+(() => {
+  const maxScroll = Math.max(0, document.documentElement.scrollHeight - window.innerHeight - 2);
+  window.scrollTo(0, Math.min(560, maxScroll));
+})()
+"""
+    client.command("Runtime.evaluate", {"expression": scroll_expression}, timeout=30)
+    time.sleep(1.4)
+    expression = """
+(() => {
+  const dock = document.querySelector('[data-floating-tools]');
+  if (!dock) throw new Error('Missing floating widgets');
+  dock.classList.add('is-loaded');
+  const topButton = document.querySelector('[data-back-to-top]');
+  if (topButton) {
+    topButton.classList.add('is-visible');
+    topButton.setAttribute('aria-hidden', 'false');
+    topButton.setAttribute('tabindex', '0');
+  }
+  const rect = dock.getBoundingClientRect();
+  const pad = 22;
+  return {
+    x: Math.max(0, Math.floor(rect.left - pad)),
+    y: Math.max(0, Math.floor(rect.top - pad)),
+    width: Math.min(__WIDTH__, Math.ceil(rect.width + pad * 2)),
+    height: Math.min(__HEIGHT__, Math.ceil(rect.height + pad * 2)),
+    scale: 1,
+    widgetHeight: Math.ceil(rect.height)
+  };
+})()
+""".replace("__WIDTH__", str(width)).replace("__HEIGHT__", str(height))
+    result = client.command("Runtime.evaluate", {"expression": expression, "returnByValue": True}, timeout=30)
+    value = result.get("result", {}).get("result", {}).get("value")
+    if not isinstance(value, dict):
+        raise RuntimeError("Could not evaluate widget clip")
+    return {
+        "x": float(value["x"]),
+        "y": float(value["y"]),
+        "width": float(value["width"]),
+        "height": float(value["height"]),
+        "scale": float(value["scale"]),
+        "widgetHeight": float(value["widgetHeight"]),
+    }
+
+
+def capture_clip(client: DevToolsClient, clip: dict[str, float], capture_beyond_viewport: bool = True) -> bytes:
+    screenshot = client.command(
+        "Page.captureScreenshot",
+        {
+            "format": "png",
+            "fromSurface": True,
+            "captureBeyondViewport": capture_beyond_viewport,
+            "clip": clip,
+        },
+        timeout=60,
+    )
+    data = screenshot.get("result", {}).get("data")
+    if not isinstance(data, str):
+        raise RuntimeError("No screenshot data returned")
+    return base64.b64decode(data)
+
+
+def capture_viewport_crop(client: DevToolsClient, clip: dict[str, float]) -> bytes:
+    try:
+        from PIL import Image
+    except Exception as exc:
+        raise RuntimeError("Pillow is required to crop widget viewport screenshots") from exc
+
+    screenshot = client.command(
+        "Page.captureScreenshot",
+        {
+            "format": "png",
+            "fromSurface": True,
+            "captureBeyondViewport": False,
+        },
+        timeout=60,
+    )
+    data = screenshot.get("result", {}).get("data")
+    if not isinstance(data, str):
+        raise RuntimeError("No viewport screenshot data returned")
+    with Image.open(BytesIO(base64.b64decode(data))) as image:
+        x = max(0, int(clip["x"]))
+        y = max(0, int(clip["y"]))
+        right = min(image.width, int(clip["x"] + clip["width"]))
+        bottom = min(image.height, int(clip["y"] + clip["height"]))
+        cropped = image.crop((x, y, right, bottom)).convert("RGB")
+        output = BytesIO()
+        cropped.save(output, format="PNG")
+        return output.getvalue()
+
+
+def write_combined_image(top_png: bytes, widget_png: bytes, footer_png: bytes, output: Path, viewport: str) -> int:
+    try:
+        from PIL import Image
+    except Exception as exc:
+        raise RuntimeError("Pillow is required to compose header/footer audit screenshots") from exc
+
+    with Image.open(BytesIO(top_png)) as top_image, Image.open(BytesIO(widget_png)) as widget_image, Image.open(BytesIO(footer_png)) as footer_image:
+        top_rgb = top_image.convert("RGB")
+        widget_rgb = widget_image.convert("RGB")
+        footer_rgb = footer_image.convert("RGB")
+        gutter = 18 if viewport == "desktop" else 14
+        width = max(top_rgb.width, footer_rgb.width)
+        widget_band_h = widget_rgb.height + gutter
+        height = top_rgb.height + gutter + widget_band_h + footer_rgb.height
+        canvas = Image.new("RGB", (width, height), "#F3EFE5")
+        canvas.paste(top_rgb, ((width - top_rgb.width) // 2, 0))
+        widget_x = max(0, width - widget_rgb.width - (18 if viewport == "desktop" else 10))
+        canvas.paste(widget_rgb, (widget_x, top_rgb.height + gutter))
+        canvas.paste(footer_rgb, ((width - footer_rgb.width) // 2, top_rgb.height + gutter + widget_band_h))
+        canvas.save(output)
+        return height
+
+
+def capture(client: DevToolsClient, folder: str, viewport: str, config: dict[str, object]) -> tuple[Path, int, int, int, int]:
     out_dir = SCREENSHOT_DIR / viewport
     out_dir.mkdir(parents=True, exist_ok=True)
     output = out_dir / f"{folder}-{viewport}.png"
@@ -46,20 +241,17 @@ def capture(client: DevToolsClient, folder: str, viewport: str, config: dict[str
     client.command("Page.navigate", {"url": f"{BASE_URL}/concepts/{folder}/index.html"})
     client.wait_for_event("Page.loadEventFired", timeout=30)
     time.sleep(2.2)
-    screenshot = client.command(
-        "Page.captureScreenshot",
-        {
-            "format": "png",
-            "fromSurface": True,
-            "captureBeyondViewport": True,
-        },
-        timeout=60,
-    )
-    data = screenshot.get("result", {}).get("data")
-    if not isinstance(data, str):
-        raise RuntimeError(f"No screenshot data for {folder} {viewport}")
-    output.write_bytes(base64.b64decode(data))
-    return output
+    header_clip = top_clip(client, width)
+    top_height = int(header_clip.pop("topHeight"))
+    footer = footer_clip(client, width)
+    footer_height = int(footer.pop("footerHeight"))
+    widgets = widget_clip(client, width, height)
+    widget_height = int(widgets.pop("widgetHeight"))
+    top_png = capture_clip(client, header_clip)
+    widget_png = capture_viewport_crop(client, widgets)
+    footer_png = capture_clip(client, footer)
+    image_height = write_combined_image(top_png, widget_png, footer_png, output, viewport)
+    return output, top_height, widget_height, footer_height, image_height
 
 
 def maybe_contact_sheets(captured: list[dict[str, str]]) -> list[str]:
@@ -130,7 +322,7 @@ def main() -> None:
             done = 0
             for folder in CONCEPTS:
                 for viewport, config in VIEWPORTS.items():
-                    output = capture(client, folder, viewport, config)
+                    output, top_height, widget_height, footer_height, image_height = capture(client, folder, viewport, config)
                     done += 1
                     rel = output.relative_to(ROOT).as_posix()
                     captured.append(
@@ -139,6 +331,10 @@ def main() -> None:
                             "concept": folder,
                             "url": f"/concepts/{folder}/index.html",
                             "file": rel,
+                            "topHeight": str(top_height),
+                            "widgetHeight": str(widget_height),
+                            "footerHeight": str(footer_height),
+                            "imageHeight": str(image_height),
                         }
                     )
                     print(f"[{done:03d}/{total:03d}] {rel}")

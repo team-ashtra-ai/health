@@ -294,12 +294,54 @@
       }
     });
   };
-  if (window.SofiatiPartialsReady) {
-    window.SofiatiPartialsReady.then(enhancePublicMenu);
-  } else if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", enhancePublicMenu, { once: true });
-  } else {
+  const enhanceFloatingWidgets = () => {
+    const dock = document.querySelector("[data-floating-tools]");
+    const topButton = document.querySelector("[data-back-to-top]");
+    if (!dock || dock.dataset.enhancedFloatingWidgets === "true") return;
+    dock.dataset.enhancedFloatingWidgets = "true";
+    const footer = document.querySelector(".public-footer");
+    const baseOffset = () => {
+      const mobile = window.matchMedia("(max-width: 620px)").matches;
+      return mobile ? 12 : 20;
+    };
+    const update = () => {
+      const scrolled = window.scrollY > 24;
+      document.body.classList.toggle("public-page-scrolled", scrolled);
+      if (topButton) {
+        topButton.classList.toggle("is-visible", scrolled);
+        topButton.setAttribute("aria-hidden", String(!scrolled));
+        topButton.setAttribute("tabindex", scrolled ? "0" : "-1");
+      }
+      let bottom = baseOffset();
+      if (footer) {
+        const rect = footer.getBoundingClientRect();
+        if (rect.top < window.innerHeight - bottom) {
+          const dockHeight = dock.getBoundingClientRect().height || 128;
+          const lifted = window.innerHeight - rect.top + bottom + 12;
+          const maxLift = Math.max(bottom, window.innerHeight - dockHeight - 14);
+          bottom = Math.min(lifted, maxLift);
+        }
+      }
+      dock.style.setProperty("--floating-bottom", `${Math.max(bottom, baseOffset())}px`);
+    };
+    topButton?.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+    requestAnimationFrame(() => {
+      dock.classList.add("is-loaded");
+      update();
+    });
+    window.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+  };
+  const bootPublicLayer = () => {
     enhancePublicMenu();
+    enhanceFloatingWidgets();
+  };
+  if (window.SofiatiPartialsReady) {
+    window.SofiatiPartialsReady.then(bootPublicLayer);
+  } else if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", bootPublicLayer, { once: true });
+  } else {
+    bootPublicLayer();
   }
 })();
 /* SOFIATI PUBLIC MENU ACCESSIBILITY END */

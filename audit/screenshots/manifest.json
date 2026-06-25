@@ -19,601 +19,1001 @@
       "viewport": "desktop",
       "concept": "01-inspire",
       "url": "/concepts/01-inspire/index.html",
-      "file": "audit/screenshots/desktop/01-inspire-desktop.png"
+      "file": "audit/screenshots/desktop/01-inspire-desktop.png",
+      "topHeight": "142",
+      "widgetHeight": "127",
+      "footerHeight": "615",
+      "imageHeight": "1034"
     },
     {
       "viewport": "mobile",
       "concept": "01-inspire",
       "url": "/concepts/01-inspire/index.html",
-      "file": "audit/screenshots/mobile/01-inspire-mobile.png"
+      "file": "audit/screenshots/mobile/01-inspire-mobile.png",
+      "topHeight": "73",
+      "widgetHeight": "116",
+      "footerHeight": "1317",
+      "imageHeight": "1640"
     },
     {
       "viewport": "desktop",
       "concept": "02-empower",
       "url": "/concepts/02-empower/index.html",
-      "file": "audit/screenshots/desktop/02-empower-desktop.png"
+      "file": "audit/screenshots/desktop/02-empower-desktop.png",
+      "topHeight": "147",
+      "widgetHeight": "128",
+      "footerHeight": "630",
+      "imageHeight": "1055"
     },
     {
       "viewport": "mobile",
       "concept": "02-empower",
       "url": "/concepts/02-empower/index.html",
-      "file": "audit/screenshots/mobile/02-empower-mobile.png"
+      "file": "audit/screenshots/mobile/02-empower-mobile.png",
+      "topHeight": "79",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1650"
     },
     {
       "viewport": "desktop",
       "concept": "03-enhance",
       "url": "/concepts/03-enhance/index.html",
-      "file": "audit/screenshots/desktop/03-enhance-desktop.png"
+      "file": "audit/screenshots/desktop/03-enhance-desktop.png",
+      "topHeight": "140",
+      "widgetHeight": "126",
+      "footerHeight": "643",
+      "imageHeight": "1059"
     },
     {
       "viewport": "mobile",
       "concept": "03-enhance",
       "url": "/concepts/03-enhance/index.html",
-      "file": "audit/screenshots/mobile/03-enhance-mobile.png"
+      "file": "audit/screenshots/mobile/03-enhance-mobile.png",
+      "topHeight": "83",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1654"
     },
     {
       "viewport": "desktop",
       "concept": "04-renew",
       "url": "/concepts/04-renew/index.html",
-      "file": "audit/screenshots/desktop/04-renew-desktop.png"
+      "file": "audit/screenshots/desktop/04-renew-desktop.png",
+      "topHeight": "141",
+      "widgetHeight": "123",
+      "footerHeight": "647",
+      "imageHeight": "1061"
     },
     {
       "viewport": "mobile",
       "concept": "04-renew",
       "url": "/concepts/04-renew/index.html",
-      "file": "audit/screenshots/mobile/04-renew-mobile.png"
+      "file": "audit/screenshots/mobile/04-renew-mobile.png",
+      "topHeight": "83",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1654"
     },
     {
       "viewport": "desktop",
       "concept": "05-elevate",
       "url": "/concepts/05-elevate/index.html",
-      "file": "audit/screenshots/desktop/05-elevate-desktop.png"
+      "file": "audit/screenshots/desktop/05-elevate-desktop.png",
+      "topHeight": "190",
+      "widgetHeight": "128",
+      "footerHeight": "650",
+      "imageHeight": "1118"
     },
     {
       "viewport": "mobile",
       "concept": "05-elevate",
       "url": "/concepts/05-elevate/index.html",
-      "file": "audit/screenshots/mobile/05-elevate-mobile.png"
+      "file": "audit/screenshots/mobile/05-elevate-mobile.png",
+      "topHeight": "73",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1644"
     },
     {
       "viewport": "desktop",
       "concept": "06-refine",
       "url": "/concepts/06-refine/index.html",
-      "file": "audit/screenshots/desktop/06-refine-desktop.png"
+      "file": "audit/screenshots/desktop/06-refine-desktop.png",
+      "topHeight": "154",
+      "widgetHeight": "126",
+      "footerHeight": "662",
+      "imageHeight": "1092"
     },
     {
       "viewport": "mobile",
       "concept": "06-refine",
       "url": "/concepts/06-refine/index.html",
-      "file": "audit/screenshots/mobile/06-refine-mobile.png"
+      "file": "audit/screenshots/mobile/06-refine-mobile.png",
+      "topHeight": "79",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1650"
     },
     {
       "viewport": "desktop",
       "concept": "07-glow",
       "url": "/concepts/07-glow/index.html",
-      "file": "audit/screenshots/desktop/07-glow-desktop.png"
+      "file": "audit/screenshots/desktop/07-glow-desktop.png",
+      "topHeight": "151",
+      "widgetHeight": "58",
+      "footerHeight": "610",
+      "imageHeight": "969"
     },
     {
       "viewport": "mobile",
       "concept": "07-glow",
       "url": "/concepts/07-glow/index.html",
-      "file": "audit/screenshots/mobile/07-glow-mobile.png"
+      "file": "audit/screenshots/mobile/07-glow-mobile.png",
+      "topHeight": "83",
+      "widgetHeight": "54",
+      "footerHeight": "1307",
+      "imageHeight": "1578"
     },
     {
       "viewport": "desktop",
       "concept": "08-balance",
       "url": "/concepts/08-balance/index.html",
-      "file": "audit/screenshots/desktop/08-balance-desktop.png"
+      "file": "audit/screenshots/desktop/08-balance-desktop.png",
+      "topHeight": "127",
+      "widgetHeight": "124",
+      "footerHeight": "617",
+      "imageHeight": "1018"
     },
     {
       "viewport": "mobile",
       "concept": "08-balance",
       "url": "/concepts/08-balance/index.html",
-      "file": "audit/screenshots/mobile/08-balance-mobile.png"
+      "file": "audit/screenshots/mobile/08-balance-mobile.png",
+      "topHeight": "73",
+      "widgetHeight": "116",
+      "footerHeight": "1317",
+      "imageHeight": "1640"
     },
     {
       "viewport": "desktop",
       "concept": "09-radiance",
       "url": "/concepts/09-radiance/index.html",
-      "file": "audit/screenshots/desktop/09-radiance-desktop.png"
+      "file": "audit/screenshots/desktop/09-radiance-desktop.png",
+      "topHeight": "143",
+      "widgetHeight": "126",
+      "footerHeight": "633",
+      "imageHeight": "1052"
     },
     {
       "viewport": "mobile",
       "concept": "09-radiance",
       "url": "/concepts/09-radiance/index.html",
-      "file": "audit/screenshots/mobile/09-radiance-mobile.png"
+      "file": "audit/screenshots/mobile/09-radiance-mobile.png",
+      "topHeight": "83",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1654"
     },
     {
       "viewport": "desktop",
       "concept": "10-essence",
       "url": "/concepts/10-essence/index.html",
-      "file": "audit/screenshots/desktop/10-essence-desktop.png"
+      "file": "audit/screenshots/desktop/10-essence-desktop.png",
+      "topHeight": "147",
+      "widgetHeight": "127",
+      "footerHeight": "630",
+      "imageHeight": "1054"
     },
     {
       "viewport": "mobile",
       "concept": "10-essence",
       "url": "/concepts/10-essence/index.html",
-      "file": "audit/screenshots/mobile/10-essence-mobile.png"
+      "file": "audit/screenshots/mobile/10-essence-mobile.png",
+      "topHeight": "79",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1650"
     },
     {
       "viewport": "desktop",
       "concept": "11-bloom",
       "url": "/concepts/11-bloom/index.html",
-      "file": "audit/screenshots/desktop/11-bloom-desktop.png"
+      "file": "audit/screenshots/desktop/11-bloom-desktop.png",
+      "topHeight": "151",
+      "widgetHeight": "128",
+      "footerHeight": "645",
+      "imageHeight": "1074"
     },
     {
       "viewport": "mobile",
       "concept": "11-bloom",
       "url": "/concepts/11-bloom/index.html",
-      "file": "audit/screenshots/mobile/11-bloom-mobile.png"
+      "file": "audit/screenshots/mobile/11-bloom-mobile.png",
+      "topHeight": "83",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1654"
     },
     {
       "viewport": "desktop",
       "concept": "12-vital",
       "url": "/concepts/12-vital/index.html",
-      "file": "audit/screenshots/desktop/12-vital-desktop.png"
+      "file": "audit/screenshots/desktop/12-vital-desktop.png",
+      "topHeight": "142",
+      "widgetHeight": "122",
+      "footerHeight": "651",
+      "imageHeight": "1065"
     },
     {
       "viewport": "mobile",
       "concept": "12-vital",
       "url": "/concepts/12-vital/index.html",
-      "file": "audit/screenshots/mobile/12-vital-mobile.png"
+      "file": "audit/screenshots/mobile/12-vital-mobile.png",
+      "topHeight": "75",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1646"
     },
     {
       "viewport": "desktop",
       "concept": "13-poise",
       "url": "/concepts/13-poise/index.html",
-      "file": "audit/screenshots/desktop/13-poise-desktop.png"
+      "file": "audit/screenshots/desktop/13-poise-desktop.png",
+      "topHeight": "132",
+      "widgetHeight": "127",
+      "footerHeight": "673",
+      "imageHeight": "1082"
     },
     {
       "viewport": "mobile",
       "concept": "13-poise",
       "url": "/concepts/13-poise/index.html",
-      "file": "audit/screenshots/mobile/13-poise-mobile.png"
+      "file": "audit/screenshots/mobile/13-poise-mobile.png",
+      "topHeight": "79",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1650"
     },
     {
       "viewport": "desktop",
       "concept": "14-aura",
       "url": "/concepts/14-aura/index.html",
-      "file": "audit/screenshots/desktop/14-aura-desktop.png"
+      "file": "audit/screenshots/desktop/14-aura-desktop.png",
+      "topHeight": "147",
+      "widgetHeight": "128",
+      "footerHeight": "613",
+      "imageHeight": "1038"
     },
     {
       "viewport": "mobile",
       "concept": "14-aura",
       "url": "/concepts/14-aura/index.html",
-      "file": "audit/screenshots/mobile/14-aura-mobile.png"
+      "file": "audit/screenshots/mobile/14-aura-mobile.png",
+      "topHeight": "83",
+      "widgetHeight": "116",
+      "footerHeight": "1307",
+      "imageHeight": "1640"
     },
     {
       "viewport": "desktop",
       "concept": "15-clarity",
       "url": "/concepts/15-clarity/index.html",
-      "file": "audit/screenshots/desktop/15-clarity-desktop.png"
+      "file": "audit/screenshots/desktop/15-clarity-desktop.png",
+      "topHeight": "151",
+      "widgetHeight": "126",
+      "footerHeight": "610",
+      "imageHeight": "1037"
     },
     {
       "viewport": "mobile",
       "concept": "15-clarity",
       "url": "/concepts/15-clarity/index.html",
-      "file": "audit/screenshots/mobile/15-clarity-mobile.png"
+      "file": "audit/screenshots/mobile/15-clarity-mobile.png",
+      "topHeight": "83",
+      "widgetHeight": "116",
+      "footerHeight": "1317",
+      "imageHeight": "1650"
     },
     {
       "viewport": "desktop",
       "concept": "16-grace",
       "url": "/concepts/16-grace/index.html",
-      "file": "audit/screenshots/desktop/16-grace-desktop.png"
+      "file": "audit/screenshots/desktop/16-grace-desktop.png",
+      "topHeight": "164",
+      "widgetHeight": "56",
+      "footerHeight": "619",
+      "imageHeight": "989"
     },
     {
       "viewport": "mobile",
       "concept": "16-grace",
       "url": "/concepts/16-grace/index.html",
-      "file": "audit/screenshots/mobile/16-grace-mobile.png"
+      "file": "audit/screenshots/mobile/16-grace-mobile.png",
+      "topHeight": "71",
+      "widgetHeight": "54",
+      "footerHeight": "1321",
+      "imageHeight": "1580"
     },
     {
       "viewport": "desktop",
       "concept": "17-sculpt",
       "url": "/concepts/17-sculpt/index.html",
-      "file": "audit/screenshots/desktop/17-sculpt-desktop.png"
+      "file": "audit/screenshots/desktop/17-sculpt-desktop.png",
+      "topHeight": "161",
+      "widgetHeight": "128",
+      "footerHeight": "640",
+      "imageHeight": "1079"
     },
     {
       "viewport": "mobile",
       "concept": "17-sculpt",
       "url": "/concepts/17-sculpt/index.html",
-      "file": "audit/screenshots/mobile/17-sculpt-mobile.png"
+      "file": "audit/screenshots/mobile/17-sculpt-mobile.png",
+      "topHeight": "93",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1664"
     },
     {
       "viewport": "desktop",
       "concept": "18-lumin",
       "url": "/concepts/18-lumin/index.html",
-      "file": "audit/screenshots/desktop/18-lumin-desktop.png"
+      "file": "audit/screenshots/desktop/18-lumin-desktop.png",
+      "topHeight": "136",
+      "widgetHeight": "126",
+      "footerHeight": "650",
+      "imageHeight": "1062"
     },
     {
       "viewport": "mobile",
       "concept": "18-lumin",
       "url": "/concepts/18-lumin/index.html",
-      "file": "audit/screenshots/mobile/18-lumin-mobile.png"
+      "file": "audit/screenshots/mobile/18-lumin-mobile.png",
+      "topHeight": "79",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1650"
     },
     {
       "viewport": "desktop",
       "concept": "19-verda",
       "url": "/concepts/19-verda/index.html",
-      "file": "audit/screenshots/desktop/19-verda-desktop.png"
+      "file": "audit/screenshots/desktop/19-verda-desktop.png",
+      "topHeight": "151",
+      "widgetHeight": "127",
+      "footerHeight": "663",
+      "imageHeight": "1091"
     },
     {
       "viewport": "mobile",
       "concept": "19-verda",
       "url": "/concepts/19-verda/index.html",
-      "file": "audit/screenshots/mobile/19-verda-mobile.png"
+      "file": "audit/screenshots/mobile/19-verda-mobile.png",
+      "topHeight": "83",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1654"
     },
     {
       "viewport": "desktop",
       "concept": "20-halo",
       "url": "/concepts/20-halo/index.html",
-      "file": "audit/screenshots/desktop/20-halo-desktop.png"
+      "file": "audit/screenshots/desktop/20-halo-desktop.png",
+      "topHeight": "183",
+      "widgetHeight": "124",
+      "footerHeight": "654",
+      "imageHeight": "1111"
     },
     {
       "viewport": "mobile",
       "concept": "20-halo",
       "url": "/concepts/20-halo/index.html",
-      "file": "audit/screenshots/mobile/20-halo-mobile.png"
+      "file": "audit/screenshots/mobile/20-halo-mobile.png",
+      "topHeight": "71",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1642"
     },
     {
       "viewport": "desktop",
       "concept": "21-calm",
       "url": "/concepts/21-calm/index.html",
-      "file": "audit/screenshots/desktop/21-calm-desktop.png"
+      "file": "audit/screenshots/desktop/21-calm-desktop.png",
+      "topHeight": "143",
+      "widgetHeight": "126",
+      "footerHeight": "605",
+      "imageHeight": "1024"
     },
     {
       "viewport": "mobile",
       "concept": "21-calm",
       "url": "/concepts/21-calm/index.html",
-      "file": "audit/screenshots/mobile/21-calm-mobile.png"
+      "file": "audit/screenshots/mobile/21-calm-mobile.png",
+      "topHeight": "75",
+      "widgetHeight": "116",
+      "footerHeight": "1307",
+      "imageHeight": "1632"
     },
     {
       "viewport": "desktop",
       "concept": "22-precision",
       "url": "/concepts/22-precision/index.html",
-      "file": "audit/screenshots/desktop/22-precision-desktop.png"
+      "file": "audit/screenshots/desktop/22-precision-desktop.png",
+      "topHeight": "147",
+      "widgetHeight": "127",
+      "footerHeight": "620",
+      "imageHeight": "1044"
     },
     {
       "viewport": "mobile",
       "concept": "22-precision",
       "url": "/concepts/22-precision/index.html",
-      "file": "audit/screenshots/mobile/22-precision-mobile.png"
+      "file": "audit/screenshots/mobile/22-precision-mobile.png",
+      "topHeight": "79",
+      "widgetHeight": "116",
+      "footerHeight": "1317",
+      "imageHeight": "1646"
     },
     {
       "viewport": "desktop",
       "concept": "23-ritual",
       "url": "/concepts/23-ritual/index.html",
-      "file": "audit/screenshots/desktop/23-ritual-desktop.png"
+      "file": "audit/screenshots/desktop/23-ritual-desktop.png",
+      "topHeight": "187",
+      "widgetHeight": "128",
+      "footerHeight": "633",
+      "imageHeight": "1098"
     },
     {
       "viewport": "mobile",
       "concept": "23-ritual",
       "url": "/concepts/23-ritual/index.html",
-      "file": "audit/screenshots/mobile/23-ritual-mobile.png"
+      "file": "audit/screenshots/mobile/23-ritual-mobile.png",
+      "topHeight": "73",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1644"
     },
     {
       "viewport": "desktop",
       "concept": "24-signal",
       "url": "/concepts/24-signal/index.html",
-      "file": "audit/screenshots/desktop/24-signal-desktop.png"
+      "file": "audit/screenshots/desktop/24-signal-desktop.png",
+      "topHeight": "141",
+      "widgetHeight": "122",
+      "footerHeight": "634",
+      "imageHeight": "1047"
     },
     {
       "viewport": "mobile",
       "concept": "24-signal",
       "url": "/concepts/24-signal/index.html",
-      "file": "audit/screenshots/mobile/24-signal-mobile.png"
+      "file": "audit/screenshots/mobile/24-signal-mobile.png",
+      "topHeight": "83",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1654"
     },
     {
       "viewport": "desktop",
       "concept": "25-align",
       "url": "/concepts/25-align/index.html",
-      "file": "audit/screenshots/desktop/25-align-desktop.png"
+      "file": "audit/screenshots/desktop/25-align-desktop.png",
+      "topHeight": "143",
+      "widgetHeight": "58",
+      "footerHeight": "640",
+      "imageHeight": "991"
     },
     {
       "viewport": "mobile",
       "concept": "25-align",
       "url": "/concepts/25-align/index.html",
-      "file": "audit/screenshots/mobile/25-align-mobile.png"
+      "file": "audit/screenshots/mobile/25-align-mobile.png",
+      "topHeight": "75",
+      "widgetHeight": "54",
+      "footerHeight": "1321",
+      "imageHeight": "1584"
     },
     {
       "viewport": "desktop",
       "concept": "26-vivant",
       "url": "/concepts/26-vivant/index.html",
-      "file": "audit/screenshots/desktop/26-vivant-desktop.png"
+      "file": "audit/screenshots/desktop/26-vivant-desktop.png",
+      "topHeight": "147",
+      "widgetHeight": "128",
+      "footerHeight": "655",
+      "imageHeight": "1080"
     },
     {
       "viewport": "mobile",
       "concept": "26-vivant",
       "url": "/concepts/26-vivant/index.html",
-      "file": "audit/screenshots/mobile/26-vivant-mobile.png"
+      "file": "audit/screenshots/mobile/26-vivant-mobile.png",
+      "topHeight": "79",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1650"
     },
     {
       "viewport": "desktop",
       "concept": "27-form",
       "url": "/concepts/27-form/index.html",
-      "file": "audit/screenshots/desktop/27-form-desktop.png"
+      "file": "audit/screenshots/desktop/27-form-desktop.png",
+      "topHeight": "169",
+      "widgetHeight": "126",
+      "footerHeight": "670",
+      "imageHeight": "1115"
     },
     {
       "viewport": "mobile",
       "concept": "27-form",
       "url": "/concepts/27-form/index.html",
-      "file": "audit/screenshots/mobile/27-form-mobile.png"
+      "file": "audit/screenshots/mobile/27-form-mobile.png",
+      "topHeight": "101",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1672"
     },
     {
       "viewport": "desktop",
       "concept": "28-pure",
       "url": "/concepts/28-pure/index.html",
-      "file": "audit/screenshots/desktop/28-pure-desktop.png"
+      "file": "audit/screenshots/desktop/28-pure-desktop.png",
+      "topHeight": "110",
+      "widgetHeight": "123",
+      "footerHeight": "607",
+      "imageHeight": "990"
     },
     {
       "viewport": "mobile",
       "concept": "28-pure",
       "url": "/concepts/28-pure/index.html",
-      "file": "audit/screenshots/mobile/28-pure-mobile.png"
+      "file": "audit/screenshots/mobile/28-pure-mobile.png",
+      "topHeight": "79",
+      "widgetHeight": "116",
+      "footerHeight": "1307",
+      "imageHeight": "1636"
     },
     {
       "viewport": "desktop",
       "concept": "29-solace",
       "url": "/concepts/29-solace/index.html",
-      "file": "audit/screenshots/desktop/29-solace-desktop.png"
+      "file": "audit/screenshots/desktop/29-solace-desktop.png",
+      "topHeight": "143",
+      "widgetHeight": "128",
+      "footerHeight": "623",
+      "imageHeight": "1044"
     },
     {
       "viewport": "mobile",
       "concept": "29-solace",
       "url": "/concepts/29-solace/index.html",
-      "file": "audit/screenshots/mobile/29-solace-mobile.png"
+      "file": "audit/screenshots/mobile/29-solace-mobile.png",
+      "topHeight": "83",
+      "widgetHeight": "116",
+      "footerHeight": "1317",
+      "imageHeight": "1650"
     },
     {
       "viewport": "desktop",
       "concept": "30-method",
       "url": "/concepts/30-method/index.html",
-      "file": "audit/screenshots/desktop/30-method-desktop.png"
+      "file": "audit/screenshots/desktop/30-method-desktop.png",
+      "topHeight": "172",
+      "widgetHeight": "126",
+      "footerHeight": "617",
+      "imageHeight": "1065"
     },
     {
       "viewport": "mobile",
       "concept": "30-method",
       "url": "/concepts/30-method/index.html",
-      "file": "audit/screenshots/mobile/30-method-mobile.png"
+      "file": "audit/screenshots/mobile/30-method-mobile.png",
+      "topHeight": "79",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1650"
     },
     {
       "viewport": "desktop",
       "concept": "31-evolve",
       "url": "/concepts/31-evolve/index.html",
-      "file": "audit/screenshots/desktop/31-evolve-desktop.png"
+      "file": "audit/screenshots/desktop/31-evolve-desktop.png",
+      "topHeight": "154",
+      "widgetHeight": "127",
+      "footerHeight": "635",
+      "imageHeight": "1066"
     },
     {
       "viewport": "mobile",
       "concept": "31-evolve",
       "url": "/concepts/31-evolve/index.html",
-      "file": "audit/screenshots/mobile/31-evolve-mobile.png"
+      "file": "audit/screenshots/mobile/31-evolve-mobile.png",
+      "topHeight": "83",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1654"
     },
     {
       "viewport": "desktop",
       "concept": "32-serene",
       "url": "/concepts/32-serene/index.html",
-      "file": "audit/screenshots/desktop/32-serene-desktop.png"
+      "file": "audit/screenshots/desktop/32-serene-desktop.png",
+      "topHeight": "139",
+      "widgetHeight": "124",
+      "footerHeight": "644",
+      "imageHeight": "1057"
     },
     {
       "viewport": "mobile",
       "concept": "32-serene",
       "url": "/concepts/32-serene/index.html",
-      "file": "audit/screenshots/mobile/32-serene-mobile.png"
+      "file": "audit/screenshots/mobile/32-serene-mobile.png",
+      "topHeight": "75",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1646"
     },
     {
       "viewport": "desktop",
       "concept": "33-elan",
       "url": "/concepts/33-elan/index.html",
-      "file": "audit/screenshots/desktop/33-elan-desktop.png"
+      "file": "audit/screenshots/desktop/33-elan-desktop.png",
+      "topHeight": "132",
+      "widgetHeight": "126",
+      "footerHeight": "663",
+      "imageHeight": "1071"
     },
     {
       "viewport": "mobile",
       "concept": "33-elan",
       "url": "/concepts/33-elan/index.html",
-      "file": "audit/screenshots/mobile/33-elan-mobile.png"
+      "file": "audit/screenshots/mobile/33-elan-mobile.png",
+      "topHeight": "79",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1650"
     },
     {
       "viewport": "desktop",
       "concept": "34-flora",
       "url": "/concepts/34-flora/index.html",
-      "file": "audit/screenshots/desktop/34-flora-desktop.png"
+      "file": "audit/screenshots/desktop/34-flora-desktop.png",
+      "topHeight": "147",
+      "widgetHeight": "58",
+      "footerHeight": "673",
+      "imageHeight": "1028"
     },
     {
       "viewport": "mobile",
       "concept": "34-flora",
       "url": "/concepts/34-flora/index.html",
-      "file": "audit/screenshots/mobile/34-flora-mobile.png"
+      "file": "audit/screenshots/mobile/34-flora-mobile.png",
+      "topHeight": "83",
+      "widgetHeight": "54",
+      "footerHeight": "1321",
+      "imageHeight": "1592"
     },
     {
       "viewport": "desktop",
       "concept": "35-atelier",
       "url": "/concepts/35-atelier/index.html",
-      "file": "audit/screenshots/desktop/35-atelier-desktop.png"
+      "file": "audit/screenshots/desktop/35-atelier-desktop.png",
+      "topHeight": "198",
+      "widgetHeight": "128",
+      "footerHeight": "600",
+      "imageHeight": "1076"
     },
     {
       "viewport": "mobile",
       "concept": "35-atelier",
       "url": "/concepts/35-atelier/index.html",
-      "file": "audit/screenshots/mobile/35-atelier-mobile.png"
+      "file": "audit/screenshots/mobile/35-atelier-mobile.png",
+      "topHeight": "73",
+      "widgetHeight": "116",
+      "footerHeight": "1307",
+      "imageHeight": "1630"
     },
     {
       "viewport": "desktop",
       "concept": "36-lumina",
       "url": "/concepts/36-lumina/index.html",
-      "file": "audit/screenshots/desktop/36-lumina-desktop.png"
+      "file": "audit/screenshots/desktop/36-lumina-desktop.png",
+      "topHeight": "139",
+      "widgetHeight": "122",
+      "footerHeight": "606",
+      "imageHeight": "1017"
     },
     {
       "viewport": "mobile",
       "concept": "36-lumina",
       "url": "/concepts/36-lumina/index.html",
-      "file": "audit/screenshots/mobile/36-lumina-mobile.png"
+      "file": "audit/screenshots/mobile/36-lumina-mobile.png",
+      "topHeight": "71",
+      "widgetHeight": "116",
+      "footerHeight": "1317",
+      "imageHeight": "1638"
     },
     {
       "viewport": "desktop",
       "concept": "37-vellum",
       "url": "/concepts/37-vellum/index.html",
-      "file": "audit/screenshots/desktop/37-vellum-desktop.png"
+      "file": "audit/screenshots/desktop/37-vellum-desktop.png",
+      "topHeight": "143",
+      "widgetHeight": "127",
+      "footerHeight": "630",
+      "imageHeight": "1050"
     },
     {
       "viewport": "mobile",
       "concept": "37-vellum",
       "url": "/concepts/37-vellum/index.html",
-      "file": "audit/screenshots/mobile/37-vellum-mobile.png"
+      "file": "audit/screenshots/mobile/37-vellum-mobile.png",
+      "topHeight": "75",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1646"
     },
     {
       "viewport": "desktop",
       "concept": "38-origin",
       "url": "/concepts/38-origin/index.html",
-      "file": "audit/screenshots/desktop/38-origin-desktop.png"
+      "file": "audit/screenshots/desktop/38-origin-desktop.png",
+      "topHeight": "136",
+      "widgetHeight": "128",
+      "footerHeight": "643",
+      "imageHeight": "1057"
     },
     {
       "viewport": "mobile",
       "concept": "38-origin",
       "url": "/concepts/38-origin/index.html",
-      "file": "audit/screenshots/mobile/38-origin-mobile.png"
+      "file": "audit/screenshots/mobile/38-origin-mobile.png",
+      "topHeight": "79",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1650"
     },
     {
       "viewport": "desktop",
       "concept": "39-kindred",
       "url": "/concepts/39-kindred/index.html",
-      "file": "audit/screenshots/desktop/39-kindred-desktop.png"
+      "file": "audit/screenshots/desktop/39-kindred-desktop.png",
+      "topHeight": "151",
+      "widgetHeight": "126",
+      "footerHeight": "653",
+      "imageHeight": "1080"
     },
     {
       "viewport": "mobile",
       "concept": "39-kindred",
       "url": "/concepts/39-kindred/index.html",
-      "file": "audit/screenshots/mobile/39-kindred-mobile.png"
+      "file": "audit/screenshots/mobile/39-kindred-mobile.png",
+      "topHeight": "83",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1654"
     },
     {
       "viewport": "desktop",
       "concept": "40-noble",
       "url": "/concepts/40-noble/index.html",
-      "file": "audit/screenshots/desktop/40-noble-desktop.png"
+      "file": "audit/screenshots/desktop/40-noble-desktop.png",
+      "topHeight": "186",
+      "widgetHeight": "123",
+      "footerHeight": "644",
+      "imageHeight": "1103"
     },
     {
       "viewport": "mobile",
       "concept": "40-noble",
       "url": "/concepts/40-noble/index.html",
-      "file": "audit/screenshots/mobile/40-noble-mobile.png"
+      "file": "audit/screenshots/mobile/40-noble-mobile.png",
+      "topHeight": "73",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1644"
     },
     {
       "viewport": "desktop",
       "concept": "41-vista",
       "url": "/concepts/41-vista/index.html",
-      "file": "audit/screenshots/desktop/41-vista-desktop.png"
+      "file": "audit/screenshots/desktop/41-vista-desktop.png",
+      "topHeight": "125",
+      "widgetHeight": "128",
+      "footerHeight": "665",
+      "imageHeight": "1068"
     },
     {
       "viewport": "mobile",
       "concept": "41-vista",
       "url": "/concepts/41-vista/index.html",
-      "file": "audit/screenshots/mobile/41-vista-mobile.png"
+      "file": "audit/screenshots/mobile/41-vista-mobile.png",
+      "topHeight": "75",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1646"
     },
     {
       "viewport": "desktop",
       "concept": "42-softline",
       "url": "/concepts/42-softline/index.html",
-      "file": "audit/screenshots/desktop/42-softline-desktop.png"
+      "file": "audit/screenshots/desktop/42-softline-desktop.png",
+      "topHeight": "147",
+      "widgetHeight": "126",
+      "footerHeight": "607",
+      "imageHeight": "1030"
     },
     {
       "viewport": "mobile",
       "concept": "42-softline",
       "url": "/concepts/42-softline/index.html",
-      "file": "audit/screenshots/mobile/42-softline-mobile.png"
+      "file": "audit/screenshots/mobile/42-softline-mobile.png",
+      "topHeight": "79",
+      "widgetHeight": "116",
+      "footerHeight": "1307",
+      "imageHeight": "1636"
     },
     {
       "viewport": "desktop",
       "concept": "43-meridian",
       "url": "/concepts/43-meridian/index.html",
-      "file": "audit/screenshots/desktop/43-meridian-desktop.png"
+      "file": "audit/screenshots/desktop/43-meridian-desktop.png",
+      "topHeight": "140",
+      "widgetHeight": "58",
+      "footerHeight": "623",
+      "imageHeight": "971"
     },
     {
       "viewport": "mobile",
       "concept": "43-meridian",
       "url": "/concepts/43-meridian/index.html",
-      "file": "audit/screenshots/mobile/43-meridian-mobile.png"
+      "file": "audit/screenshots/mobile/43-meridian-mobile.png",
+      "topHeight": "83",
+      "widgetHeight": "54",
+      "footerHeight": "1317",
+      "imageHeight": "1588"
     },
     {
       "viewport": "desktop",
       "concept": "44-safeguard",
       "url": "/concepts/44-safeguard/index.html",
-      "file": "audit/screenshots/desktop/44-safeguard-desktop.png"
+      "file": "audit/screenshots/desktop/44-safeguard-desktop.png",
+      "topHeight": "123",
+      "widgetHeight": "124",
+      "footerHeight": "627",
+      "imageHeight": "1024"
     },
     {
       "viewport": "mobile",
       "concept": "44-safeguard",
       "url": "/concepts/44-safeguard/index.html",
-      "file": "audit/screenshots/mobile/44-safeguard-mobile.png"
+      "file": "audit/screenshots/mobile/44-safeguard-mobile.png",
+      "topHeight": "83",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1654"
     },
     {
       "viewport": "desktop",
       "concept": "45-silhouette",
       "url": "/concepts/45-silhouette/index.html",
-      "file": "audit/screenshots/desktop/45-silhouette-desktop.png"
+      "file": "audit/screenshots/desktop/45-silhouette-desktop.png",
+      "topHeight": "143",
+      "widgetHeight": "126",
+      "footerHeight": "630",
+      "imageHeight": "1049"
     },
     {
       "viewport": "mobile",
       "concept": "45-silhouette",
       "url": "/concepts/45-silhouette/index.html",
-      "file": "audit/screenshots/mobile/45-silhouette-mobile.png"
+      "file": "audit/screenshots/mobile/45-silhouette-mobile.png",
+      "topHeight": "75",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1646"
     },
     {
       "viewport": "desktop",
       "concept": "46-curate",
       "url": "/concepts/46-curate/index.html",
-      "file": "audit/screenshots/desktop/46-curate-desktop.png"
+      "file": "audit/screenshots/desktop/46-curate-desktop.png",
+      "topHeight": "172",
+      "widgetHeight": "127",
+      "footerHeight": "645",
+      "imageHeight": "1094"
     },
     {
       "viewport": "mobile",
       "concept": "46-curate",
       "url": "/concepts/46-curate/index.html",
-      "file": "audit/screenshots/mobile/46-curate-mobile.png"
+      "file": "audit/screenshots/mobile/46-curate-mobile.png",
+      "topHeight": "79",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1650"
     },
     {
       "viewport": "desktop",
       "concept": "47-proof",
       "url": "/concepts/47-proof/index.html",
-      "file": "audit/screenshots/desktop/47-proof-desktop.png"
+      "file": "audit/screenshots/desktop/47-proof-desktop.png",
+      "topHeight": "133",
+      "widgetHeight": "128",
+      "footerHeight": "660",
+      "imageHeight": "1071"
     },
     {
       "viewport": "mobile",
       "concept": "47-proof",
       "url": "/concepts/47-proof/index.html",
-      "file": "audit/screenshots/mobile/47-proof-mobile.png"
+      "file": "audit/screenshots/mobile/47-proof-mobile.png",
+      "topHeight": "83",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1654"
     },
     {
       "viewport": "desktop",
       "concept": "48-signature",
       "url": "/concepts/48-signature/index.html",
-      "file": "audit/screenshots/desktop/48-signature-desktop.png"
+      "file": "audit/screenshots/desktop/48-signature-desktop.png",
+      "topHeight": "175",
+      "widgetHeight": "122",
+      "footerHeight": "664",
+      "imageHeight": "1111"
     },
     {
       "viewport": "mobile",
       "concept": "48-signature",
       "url": "/concepts/48-signature/index.html",
-      "file": "audit/screenshots/mobile/48-signature-mobile.png"
+      "file": "audit/screenshots/mobile/48-signature-mobile.png",
+      "topHeight": "79",
+      "widgetHeight": "116",
+      "footerHeight": "1321",
+      "imageHeight": "1650"
     },
     {
       "viewport": "desktop",
       "concept": "49-wisdom",
       "url": "/concepts/49-wisdom/index.html",
-      "file": "audit/screenshots/desktop/49-wisdom-desktop.png"
+      "file": "audit/screenshots/desktop/49-wisdom-desktop.png",
+      "topHeight": "143",
+      "widgetHeight": "127",
+      "footerHeight": "613",
+      "imageHeight": "1033"
     },
     {
       "viewport": "mobile",
       "concept": "49-wisdom",
       "url": "/concepts/49-wisdom/index.html",
-      "file": "audit/screenshots/mobile/49-wisdom-mobile.png"
+      "file": "audit/screenshots/mobile/49-wisdom-mobile.png",
+      "topHeight": "83",
+      "widgetHeight": "116",
+      "footerHeight": "1307",
+      "imageHeight": "1640"
     },
     {
       "viewport": "desktop",
       "concept": "50-sovereign",
       "url": "/concepts/50-sovereign/index.html",
-      "file": "audit/screenshots/desktop/50-sovereign-desktop.png"
+      "file": "audit/screenshots/desktop/50-sovereign-desktop.png",
+      "topHeight": "194",
+      "widgetHeight": "128",
+      "footerHeight": "610",
+      "imageHeight": "1082"
     },
     {
       "viewport": "mobile",
       "concept": "50-sovereign",
       "url": "/concepts/50-sovereign/index.html",
-      "file": "audit/screenshots/mobile/50-sovereign-mobile.png"
+      "file": "audit/screenshots/mobile/50-sovereign-mobile.png",
+      "topHeight": "73",
+      "widgetHeight": "116",
+      "footerHeight": "1317",
+      "imageHeight": "1640"
     }
   ],
   "contactSheets": [
