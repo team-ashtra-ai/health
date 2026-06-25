@@ -107,50 +107,81 @@ def footer_clip(client: DevToolsClient, width: int) -> dict[str, float]:
     }
 
 
-def widget_clip(client: DevToolsClient, width: int, height: int) -> dict[str, float]:
-    scroll_expression = """
-(() => {
-  const maxScroll = Math.max(0, document.documentElement.scrollHeight - window.innerHeight - 2);
-  window.scrollTo(0, Math.min(560, maxScroll));
-})()
-"""
-    client.command("Runtime.evaluate", {"expression": scroll_expression}, timeout=30)
-    time.sleep(1.4)
+def prepare_footer_for_capture(client: DevToolsClient) -> None:
     expression = """
 (() => {
+  const footer = document.querySelector('.public-footer');
   const dock = document.querySelector('[data-floating-tools]');
-  if (!dock) throw new Error('Missing floating widgets');
-  dock.classList.add('is-loaded');
+  if (!footer) throw new Error('Missing .public-footer');
+  const scrollY = window.scrollY || document.documentElement.scrollTop || 0;
+  const rect = footer.getBoundingClientRect();
+  const target = Math.max(0, rect.top + scrollY + rect.height - window.innerHeight + 20);
+  window.scrollTo(0, target);
+  if (dock) {
+    footer.style.position = 'relative';
+    dock.classList.add('is-loaded', 'public-audit-footer-dock');
+    dock.style.setProperty('position', 'absolute', 'important');
+    dock.style.setProperty('right', '18px', 'important');
+    dock.style.setProperty('bottom', '18px', 'important');
+    dock.style.setProperty('top', 'auto', 'important');
+    dock.style.setProperty('left', 'auto', 'important');
+    dock.style.setProperty('opacity', '1', 'important');
+    dock.style.setProperty('transform', 'none', 'important');
+    dock.style.setProperty('pointer-events', 'auto', 'important');
+    footer.appendChild(dock);
+  }
   const topButton = document.querySelector('[data-back-to-top]');
   if (topButton) {
     topButton.classList.add('is-visible');
     topButton.setAttribute('aria-hidden', 'false');
     topButton.setAttribute('tabindex', '0');
   }
-  const rect = dock.getBoundingClientRect();
-  const pad = 22;
-  return {
-    x: Math.max(0, Math.floor(rect.left - pad)),
-    y: Math.max(0, Math.floor(rect.top - pad)),
-    width: Math.min(__WIDTH__, Math.ceil(rect.width + pad * 2)),
-    height: Math.min(__HEIGHT__, Math.ceil(rect.height + pad * 2)),
-    scale: 1,
-    widgetHeight: Math.ceil(rect.height)
-  };
 })()
-""".replace("__WIDTH__", str(width)).replace("__HEIGHT__", str(height))
+"""
+    client.command("Runtime.evaluate", {"expression": expression}, timeout=30)
+    time.sleep(1.4)
+
+
+def capture_mobile_menu(client: DevToolsClient, width: int, height: int) -> tuple[bytes | None, int]:
+    expression = """
+(() => {
+  const menu = document.querySelector('#mobile-menu');
+  const openButton = document.querySelector('[data-menu-toggle]');
+  if (!menu) return false;
+  window.scrollTo(0, 0);
+  menu.classList.add('is-open');
+  menu.setAttribute('aria-hidden', 'false');
+  openButton?.setAttribute('aria-expanded', 'true');
+  document.body.classList.add('public-menu-locked');
+  return true;
+})()
+"""
     result = client.command("Runtime.evaluate", {"expression": expression, "returnByValue": True}, timeout=30)
     value = result.get("result", {}).get("result", {}).get("value")
-    if not isinstance(value, dict):
-        raise RuntimeError("Could not evaluate widget clip")
-    return {
-        "x": float(value["x"]),
-        "y": float(value["y"]),
-        "width": float(value["width"]),
-        "height": float(value["height"]),
-        "scale": float(value["scale"]),
-        "widgetHeight": float(value["widgetHeight"]),
-    }
+    if value is not True:
+        return None, 0
+    time.sleep(0.5)
+    png = capture_clip(
+        client,
+        {"x": 0, "y": 0, "width": float(width), "height": float(height), "scale": 1},
+        capture_beyond_viewport=False,
+    )
+    close_expression = """
+(() => {
+  const menu = document.querySelector('#mobile-menu');
+  const openButton = document.querySelector('[data-menu-toggle]');
+  if (menu) {
+    menu.classList.remove('is-open');
+    menu.setAttribute('aria-hidden', 'true');
+  }
+  openButton?.setAttribute('aria-expanded', 'false');
+  document.body.classList.remove('public-menu-locked');
+  window.scrollTo(0, 0);
+})()
+"""
+    client.command("Runtime.evaluate", {"expression": close_expression}, timeout=30)
+    time.sleep(0.3)
+    return png, height
 
 
 def capture_clip(client: DevToolsClient, clip: dict[str, float], capture_beyond_viewport: bool = True) -> bytes:
@@ -170,59 +201,39 @@ def capture_clip(client: DevToolsClient, clip: dict[str, float], capture_beyond_
     return base64.b64decode(data)
 
 
-def capture_viewport_crop(client: DevToolsClient, clip: dict[str, float]) -> bytes:
-    try:
-        from PIL import Image
-    except Exception as exc:
-        raise RuntimeError("Pillow is required to crop widget viewport screenshots") from exc
-
-    screenshot = client.command(
-        "Page.captureScreenshot",
-        {
-            "format": "png",
-            "fromSurface": True,
-            "captureBeyondViewport": False,
-        },
-        timeout=60,
-    )
-    data = screenshot.get("result", {}).get("data")
-    if not isinstance(data, str):
-        raise RuntimeError("No viewport screenshot data returned")
-    with Image.open(BytesIO(base64.b64decode(data))) as image:
-        x = max(0, int(clip["x"]))
-        y = max(0, int(clip["y"]))
-        right = min(image.width, int(clip["x"] + clip["width"]))
-        bottom = min(image.height, int(clip["y"] + clip["height"]))
-        cropped = image.crop((x, y, right, bottom)).convert("RGB")
-        output = BytesIO()
-        cropped.save(output, format="PNG")
-        return output.getvalue()
-
-
-def write_combined_image(top_png: bytes, widget_png: bytes, footer_png: bytes, output: Path, viewport: str) -> int:
+def write_combined_image(top_png: bytes, menu_png: bytes | None, footer_png: bytes, output: Path, viewport: str) -> int:
     try:
         from PIL import Image
     except Exception as exc:
         raise RuntimeError("Pillow is required to compose header/footer audit screenshots") from exc
 
-    with Image.open(BytesIO(top_png)) as top_image, Image.open(BytesIO(widget_png)) as widget_image, Image.open(BytesIO(footer_png)) as footer_image:
+    with Image.open(BytesIO(top_png)) as top_image, Image.open(BytesIO(footer_png)) as footer_image:
         top_rgb = top_image.convert("RGB")
-        widget_rgb = widget_image.convert("RGB")
         footer_rgb = footer_image.convert("RGB")
+        menu_rgb = None
+        if menu_png:
+            with Image.open(BytesIO(menu_png)) as menu_image:
+                menu_rgb = menu_image.convert("RGB")
         gutter = 18 if viewport == "desktop" else 14
         width = max(top_rgb.width, footer_rgb.width)
-        widget_band_h = widget_rgb.height + gutter
-        height = top_rgb.height + gutter + widget_band_h + footer_rgb.height
+        if menu_rgb:
+            width = max(width, menu_rgb.width)
+        height = top_rgb.height + gutter + footer_rgb.height
+        if menu_rgb:
+            height += menu_rgb.height + gutter
         canvas = Image.new("RGB", (width, height), "#F3EFE5")
-        canvas.paste(top_rgb, ((width - top_rgb.width) // 2, 0))
-        widget_x = max(0, width - widget_rgb.width - (18 if viewport == "desktop" else 10))
-        canvas.paste(widget_rgb, (widget_x, top_rgb.height + gutter))
-        canvas.paste(footer_rgb, ((width - footer_rgb.width) // 2, top_rgb.height + gutter + widget_band_h))
+        y = 0
+        canvas.paste(top_rgb, ((width - top_rgb.width) // 2, y))
+        y += top_rgb.height + gutter
+        if menu_rgb:
+            canvas.paste(menu_rgb, ((width - menu_rgb.width) // 2, y))
+            y += menu_rgb.height + gutter
+        canvas.paste(footer_rgb, ((width - footer_rgb.width) // 2, y))
         canvas.save(output)
         return height
 
 
-def capture(client: DevToolsClient, folder: str, viewport: str, config: dict[str, object]) -> tuple[Path, int, int, int, int]:
+def capture(client: DevToolsClient, folder: str, viewport: str, config: dict[str, object]) -> tuple[Path, int, int, int]:
     out_dir = SCREENSHOT_DIR / viewport
     out_dir.mkdir(parents=True, exist_ok=True)
     output = out_dir / f"{folder}-{viewport}.png"
@@ -243,15 +254,14 @@ def capture(client: DevToolsClient, folder: str, viewport: str, config: dict[str
     time.sleep(2.2)
     header_clip = top_clip(client, width)
     top_height = int(header_clip.pop("topHeight"))
+    top_png = capture_clip(client, header_clip)
+    menu_png, menu_height = capture_mobile_menu(client, width, height) if mobile else (None, 0)
+    prepare_footer_for_capture(client)
     footer = footer_clip(client, width)
     footer_height = int(footer.pop("footerHeight"))
-    widgets = widget_clip(client, width, height)
-    widget_height = int(widgets.pop("widgetHeight"))
-    top_png = capture_clip(client, header_clip)
-    widget_png = capture_viewport_crop(client, widgets)
     footer_png = capture_clip(client, footer)
-    image_height = write_combined_image(top_png, widget_png, footer_png, output, viewport)
-    return output, top_height, widget_height, footer_height, image_height
+    image_height = write_combined_image(top_png, menu_png, footer_png, output, viewport)
+    return output, top_height, menu_height, footer_height, image_height
 
 
 def maybe_contact_sheets(captured: list[dict[str, str]]) -> list[str]:
@@ -322,7 +332,7 @@ def main() -> None:
             done = 0
             for folder in CONCEPTS:
                 for viewport, config in VIEWPORTS.items():
-                    output, top_height, widget_height, footer_height, image_height = capture(client, folder, viewport, config)
+                    output, top_height, menu_height, footer_height, image_height = capture(client, folder, viewport, config)
                     done += 1
                     rel = output.relative_to(ROOT).as_posix()
                     captured.append(
@@ -332,7 +342,7 @@ def main() -> None:
                             "url": f"/concepts/{folder}/index.html",
                             "file": rel,
                             "topHeight": str(top_height),
-                            "widgetHeight": str(widget_height),
+                            "menuHeight": str(menu_height),
                             "footerHeight": str(footer_height),
                             "imageHeight": str(image_height),
                         }

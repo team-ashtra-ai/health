@@ -1310,13 +1310,15 @@ def public_css(number: int, code: str) -> str:
     menu_layout = MENU_LAYOUTS[number - 1]
     footer_layout = FOOTER_LAYOUTS[number - 1]
     colors = color_plan(number)
+    system = refresh_palette(number)
     radius = [0, 3, 6, 10, 18, 28, 999][number % 7]
     logo_width = 144 + (number % 8) * 10
     utility_mix = 5 + (number % 8) * 3
     header_offset = (number % 5) * 2
     footer_stamp_x = 8 + (number % 7) * 11
     footer_stamp_y = 10 + (number % 5) * 12
-    is_dark_header = dark_header(number, header_layout)
+    header_style = (number * 9 + number // 4) % 12
+    is_dark_header = header_style in {3, 8, 11}
     header_widths = [
         "var(--page)",
         "min(1180px,calc(100% - 30px))",
@@ -1330,32 +1332,53 @@ def public_css(number: int, code: str) -> str:
         "min(900px,calc(100% - 38px))",
     ]
     header_bgs = [
-        "color-mix(in srgb,var(--soft-white) 92%,white)",
-        "linear-gradient(90deg,rgba(255,255,255,.96),color-mix(in srgb,var(--sage) 16%,var(--soft-white)))",
-        "color-mix(in srgb,var(--cream) 86%,white)",
-        "linear-gradient(135deg,color-mix(in srgb,var(--deep-sage) 82%,var(--ink)),var(--ink))",
-        "rgba(248,247,242,.74)",
-        "linear-gradient(90deg,color-mix(in srgb,var(--champagne) 20%,white),var(--soft-white))",
-        "linear-gradient(135deg,color-mix(in srgb,var(--sage) 22%,white),rgba(255,255,255,.86))",
-        "color-mix(in srgb,var(--soft-white) 72%,var(--sage))",
-        "linear-gradient(135deg,var(--ink),color-mix(in srgb,var(--deep-sage) 70%,var(--ink)))",
-        "rgba(255,255,255,.82)",
+        f"linear-gradient(90deg,rgba(255,255,255,.96),color-mix(in srgb,{system['accent']} 10%,var(--soft-white)))",
+        f"color-mix(in srgb,var(--soft-white) 88%,{system['soft']})",
+        f"linear-gradient(135deg,color-mix(in srgb,#fff 92%,{system['accent']}),color-mix(in srgb,var(--cream) 86%,white))",
+        f"linear-gradient(135deg,color-mix(in srgb,{system['arrow_bg']} 78%,var(--ink)),color-mix(in srgb,{system['accent']} 22%,var(--ink)))",
+        f"rgba(248,247,242,.78)",
+        f"linear-gradient(90deg,color-mix(in srgb,{system['soft']} 24%,white),var(--soft-white))",
+        f"linear-gradient(135deg,color-mix(in srgb,{system['accent']} 16%,white),rgba(255,255,255,.88))",
+        f"color-mix(in srgb,var(--soft-white) 76%,{system['accent']})",
+        f"linear-gradient(135deg,color-mix(in srgb,{system['arrow_bg']} 84%,var(--ink)),color-mix(in srgb,{system['accent']} 30%,var(--deep-sage)))",
+        f"rgba(255,255,255,.84)",
+        f"linear-gradient(90deg,#fff 0 42%,color-mix(in srgb,{system['accent']} 13%,var(--soft-white)) 42% 100%)",
+        f"linear-gradient(90deg,color-mix(in srgb,var(--ink) 86%,{system['accent']}),color-mix(in srgb,var(--deep-sage) 74%,var(--ink)))",
     ]
-    header_bg = header_bgs[(number - 1) % len(header_bgs)]
+    header_bg = header_bgs[header_style]
     header_width = header_widths[(number - 1) % len(header_widths)]
     header_fg = "white" if is_dark_header else "var(--ink)"
     header_link = "rgba(255,255,255,.84)" if is_dark_header else "color-mix(in srgb,var(--ink) 88%,var(--muted))"
-    header_active_bg = "rgba(255,255,255,.12)" if is_dark_header else "rgba(255,255,255,.78)"
+    header_active_bg = f"color-mix(in srgb,{system['accent']} 20%,rgba(255,255,255,.14))" if is_dark_header else f"color-mix(in srgb,{system['accent']} 12%,rgba(255,255,255,.86))"
     header_cta_bg = "white" if is_dark_header else "var(--ink)"
     header_cta_fg = "var(--ink)" if is_dark_header else "white"
     header_button_bg = "rgba(255,255,255,.08)" if is_dark_header else "white"
     header_button_fg = "white" if is_dark_header else "var(--ink)"
     utility_fg = "white" if is_dark_header else "var(--ink)"
     utility_bg = (
-        "linear-gradient(90deg,var(--ink),color-mix(in srgb,var(--deep-sage) 76%,var(--ink)))"
+        f"linear-gradient(90deg,var(--ink),color-mix(in srgb,{system['accent']} 22%,var(--deep-sage)))"
         if is_dark_header
-        else f"color-mix(in srgb,var(--soft-white) calc(100% - {utility_mix}%),var(--sage))"
+        else f"color-mix(in srgb,var(--soft-white) calc(100% - {utility_mix}%),{system['accent']})"
     )
+    menu_bg = [
+        f"linear-gradient(135deg,rgba(37,35,33,.78),rgba(52,64,57,.66)),radial-gradient(circle at 82% 24%,color-mix(in srgb,{system['accent']} 24%,transparent),transparent 28%),url(\"../assets/backgrounds/mobile-menu-background.svg\") right bottom/360px 360px no-repeat,var(--deep-sage)",
+        f"linear-gradient(180deg,#fff,color-mix(in srgb,{system['accent']} 15%,var(--soft-white)))",
+        f"linear-gradient(135deg,color-mix(in srgb,{system['arrow_bg']} 86%,var(--ink)),color-mix(in srgb,{system['accent']} 26%,var(--deep-sage)))",
+        f"linear-gradient(120deg,color-mix(in srgb,{system['soft']} 24%,white),var(--soft-white) 54%,color-mix(in srgb,{system['accent']} 18%,white))",
+        f"radial-gradient(circle at 74% 26%,color-mix(in srgb,{system['soft']} 30%,transparent),transparent 28%),linear-gradient(135deg,var(--ink),color-mix(in srgb,{system['accent']} 30%,var(--deep-sage)))",
+        f"linear-gradient(90deg,color-mix(in srgb,{system['accent']} 22%,var(--deep-sage)) 0 36%,#fffaf2 36% 100%)",
+    ][(number * 7 + number // 5) % 6]
+    menu_bg = (
+        f"radial-gradient(circle at {18 + (number * 19) % 64}% {16 + (number * 31) % 72}%,"
+        f"color-mix(in srgb,{system['soft']} {9 + (number * 7) % 18}%,transparent),transparent {26 + (number * 5) % 24}%),"
+        f"linear-gradient({35 + (number * 13) % 120}deg,transparent,"
+        f"color-mix(in srgb,{system['accent']} {5 + (number * 3) % 12}%,transparent),transparent),"
+        f"{menu_bg}"
+    )
+    menu_dark = (number * 7 + number // 5) % 6 in {0, 2, 4}
+    menu_fg = "#fffaf2" if menu_dark else "#252321"
+    menu_line = "rgba(255,255,255,.18)" if menu_dark else "rgba(37,35,33,.15)"
+    menu_font = 'Georgia,"Times New Roman",serif' if number % 3 else "Inter,ui-sans-serif,system-ui,sans-serif"
     shell_padding_y = 8 + (number % 4) * 2
     shell_padding_x = 14 + (number % 6) * 4
     deco_positions = [
@@ -1583,6 +1606,31 @@ body.page-consultation .public-secondary-bar:not(.public-secondary-none){{displa
 .public-menu-layout-dark-elegant,
 .public-menu-layout-premium-brand,
 .public-menu-layout-signature-full{{background:linear-gradient(135deg,var(--ink),color-mix(in srgb,var(--bronze) 22%,var(--deep-sage)))}}
+.public-menu-{code}.public-mobile-menu{{
+  color:{menu_fg}!important;
+  background:{menu_bg}!important;
+  border-color:{menu_line}!important;
+  box-shadow:0 0 0 1px {menu_line},0 26px 80px rgba(37,35,33,.22);
+}}
+.public-menu-{code} .public-mobile-primary a{{
+  border-color:{menu_line}!important;
+  color:inherit!important;
+  font-family:{menu_font};
+  font-weight:{620 + (number % 4) * 45};
+  letter-spacing:0;
+  transition:transform .2s ease,color .2s ease,background .2s ease;
+}}
+.public-menu-{code} .public-mobile-primary a:hover,
+.public-menu-{code} .public-mobile-primary a:focus-visible{{
+  transform:translateX(4px);
+  background:color-mix(in srgb,{system['accent']} 16%,transparent);
+  outline:2px solid color-mix(in srgb,{system['accent']} 70%,transparent);
+  outline-offset:3px;
+}}
+.public-menu-{code} .public-mobile-cta,
+.public-menu-{code} .public-menu-close{{
+  border-color:color-mix(in srgb,{system['accent']} 44%,{menu_line})!important;
+}}
 body.public-menu-locked{{overflow:hidden}}
 .public-accessibility{{opacity:.22}}
 .public-accessibility:hover,
@@ -1773,22 +1821,20 @@ def footer_partial(number: int, code: str) -> str:
     return f'''<footer class="site-footer public-footer public-footer-{code} public-footer-layout-{layout}" data-public-footer="{layout}">
   <div class="public-footer-shell">
     <section class="footer-brand-panel" aria-label="Brand identity">
-      <h3>Brand</h3>
       <a class="brand-mark public-brand-mark footer-signature-mark" href="index.html" aria-label="Sofiati home">
         <img src="assets/brand/assinatura-1.jpg" alt="Franciele Sofiati signature logo" width="500" height="500">
       </a>
+      <h3>Brand</h3>
       <h2>Franciele Sofiati</h2>
       <p class="footer-role">Advanced Aesthetic Biomedicine</p>
       <p class="footer-credential">CRBM 6277</p>
-      <p class="footer-slogan"><em>Take care of yourself with sophistication.</em></p>
+      <p class="footer-slogan">Laser and skin care guided by professional evaluation in Londrina, PR.</p>
       <div class="footer-actions" aria-label="Footer actions">
         <a class="footer-button footer-button-primary" href="consultation.html">Consultation</a>
-        <a class="footer-button footer-button-secondary" href="care.html">Care</a>
-        <a class="footer-button footer-button-tertiary" href="contact.html">Contact</a>
       </div>
     </section>
-    {footer_group("Pages", PRIMARY, "footer-main-links")}
-    {footer_group("Trust", FOOTER_TRUST, "footer-trust-links")}
+    {footer_group("Main Pages", PRIMARY, "footer-main-links")}
+    {footer_group("Brand and Trust", FOOTER_TRUST, "footer-trust-links")}
     {footer_group("Legal", FOOTER_LEGAL, "footer-legal-links")}
     <address class="footer-contact" aria-label="Contact">
       <h3>Contact</h3>
@@ -1992,6 +2038,87 @@ def footer_css(number: int, code: str) -> str:
     signature_size = 104 + (number % 7) * 10
     watermark_width = 290 + (number % 8) * 22
     divider_alpha = 13 + (number % 5) * 3
+    style_index = (number * 11 + number // 3) % 20
+    shape_index = (number * 7 + number // 5) % 12
+    type_index = (number * 5 + number // 4) % 6
+    footer_columns = [
+        "minmax(250px,1.42fr) minmax(118px,.7fr) minmax(158px,.86fr) minmax(118px,.66fr) minmax(230px,1.05fr)",
+        "minmax(230px,1.16fr) minmax(142px,.82fr) minmax(180px,.98fr) minmax(126px,.72fr) minmax(250px,1.22fr)",
+        "minmax(270px,1.5fr) minmax(120px,.66fr) minmax(170px,.9fr) minmax(118px,.62fr) minmax(220px,1fr)",
+        "minmax(240px,1.24fr) minmax(132px,.78fr) minmax(164px,.9fr) minmax(128px,.74fr) minmax(240px,1.14fr)",
+        "minmax(260px,1.34fr) minmax(126px,.72fr) minmax(184px,1fr) minmax(120px,.66fr) minmax(224px,1.02fr)",
+    ][style_index % 5]
+    shell_treatments = [
+        "background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;",
+        "background:color-mix(in srgb,var(--footer-fg) 7%,transparent)!important;border:1px solid var(--footer-line)!important;border-radius:28px!important;box-shadow:0 24px 80px rgba(37,35,33,.12)!important;padding-left:clamp(18px,2.4vw,34px)!important;padding-right:clamp(18px,2.4vw,34px)!important;",
+        "background:linear-gradient(135deg,color-mix(in srgb,var(--footer-fg) 9%,transparent),transparent 68%)!important;border-top:3px double var(--footer-line)!important;border-bottom:1px solid var(--footer-line)!important;",
+        "background:color-mix(in srgb,var(--footer-button) 84%,transparent)!important;border:1px solid color-mix(in srgb,var(--footer-accent) 32%,var(--footer-line))!important;border-radius:0 42px 0 42px!important;box-shadow:inset 0 0 0 8px color-mix(in srgb,var(--footer-fg) 4%,transparent)!important;padding-left:clamp(18px,2vw,30px)!important;padding-right:clamp(18px,2vw,30px)!important;",
+        "background:linear-gradient(90deg,color-mix(in srgb,var(--footer-accent) 18%,transparent),transparent 36%)!important;border-left:1px solid var(--footer-line)!important;border-right:1px solid var(--footer-line)!important;",
+        "background:color-mix(in srgb,var(--footer-soft) 13%,transparent)!important;border:1px dashed color-mix(in srgb,var(--footer-accent) 46%,var(--footer-line))!important;border-radius:18px!important;padding-left:clamp(16px,2vw,28px)!important;padding-right:clamp(16px,2vw,28px)!important;",
+        "background:linear-gradient(180deg,color-mix(in srgb,var(--footer-fg) 8%,transparent),color-mix(in srgb,var(--footer-accent) 9%,transparent))!important;border-radius:999px 999px 0 0!important;padding-left:clamp(28px,4vw,60px)!important;padding-right:clamp(28px,4vw,60px)!important;",
+        "background:repeating-linear-gradient(90deg,color-mix(in srgb,var(--footer-line) 48%,transparent) 0 1px,transparent 1px 92px)!important;border-top:1px solid var(--footer-line)!important;border-bottom:1px solid var(--footer-line)!important;",
+        "background:color-mix(in srgb,var(--footer-accent) 10%,transparent)!important;border:1px solid var(--footer-line)!important;border-radius:8px!important;box-shadow:0 18px 48px rgba(37,35,33,.09)!important;padding-left:clamp(14px,1.8vw,24px)!important;padding-right:clamp(14px,1.8vw,24px)!important;",
+        "background:linear-gradient(120deg,transparent 0 18%,color-mix(in srgb,var(--footer-fg) 8%,transparent) 18% 82%,transparent 82%)!important;border-top:1px solid color-mix(in srgb,var(--footer-accent) 58%,var(--footer-line))!important;",
+        "background:color-mix(in srgb,var(--footer-fg) 5%,transparent)!important;border-radius:44px 8px 44px 8px!important;border:1px solid var(--footer-line)!important;",
+        "background:linear-gradient(135deg,color-mix(in srgb,var(--footer-soft) 18%,transparent),color-mix(in srgb,var(--footer-accent) 9%,transparent))!important;border:0!important;border-radius:0!important;clip-path:polygon(0 4%,100% 0,100% 96%,0 100%);padding-left:clamp(22px,3vw,42px)!important;padding-right:clamp(22px,3vw,42px)!important;",
+    ]
+    brand_treatments = [
+        "padding:18px!important;background:color-mix(in srgb,var(--footer-fg) 7%,transparent)!important;border:1px solid var(--footer-line)!important;",
+        "padding-left:18px!important;border-left:4px solid var(--footer-accent)!important;",
+        "justify-items:center!important;text-align:center!important;padding:18px!important;border-radius:999px!important;border:1px solid var(--footer-line)!important;",
+        "padding:18px!important;background:linear-gradient(180deg,color-mix(in srgb,var(--footer-soft) 16%,transparent),transparent)!important;border-top:3px double var(--footer-line)!important;",
+        "padding:16px 18px!important;box-shadow:inset 0 0 0 1px var(--footer-line),inset 0 0 0 8px color-mix(in srgb,var(--footer-fg) 4%,transparent)!important;",
+        "padding:0 0 0 22px!important;border-left:1px solid var(--footer-line)!important;",
+        "padding:18px!important;border-radius:0 28px 0 28px!important;background:color-mix(in srgb,var(--footer-accent) 10%,transparent)!important;",
+        "padding:18px!important;border-bottom:1px solid var(--footer-line)!important;",
+    ]
+    group_treatments = [
+        "padding-left:clamp(14px,1.8vw,24px)!important;border-left:1px solid var(--footer-line)!important;",
+        "padding:14px!important;border:1px solid var(--footer-line)!important;background:color-mix(in srgb,var(--footer-fg) 5%,transparent)!important;",
+        "padding-top:12px!important;border-top:1px solid var(--footer-line)!important;",
+        "padding:12px 0!important;border-top:1px dotted color-mix(in srgb,var(--footer-accent) 55%,var(--footer-line))!important;border-bottom:1px dotted color-mix(in srgb,var(--footer-accent) 28%,transparent)!important;",
+        "padding:14px!important;background:linear-gradient(90deg,color-mix(in srgb,var(--footer-soft) 11%,transparent),transparent)!important;border-radius:16px!important;",
+        "padding-left:16px!important;border-left:3px double var(--footer-line)!important;",
+    ]
+    contact_treatments = [
+        "padding:18px!important;background:var(--footer-button)!important;color:var(--footer-button-fg)!important;border-radius:18px!important;border:1px solid color-mix(in srgb,var(--footer-accent) 38%,var(--footer-line))!important;--footer-contact-color:var(--footer-button-fg);",
+        "padding:18px!important;border:1px solid var(--footer-line)!important;background:color-mix(in srgb,var(--footer-fg) 7%,transparent)!important;--footer-contact-color:var(--footer-fg);",
+        "padding-left:18px!important;border-left:4px solid var(--footer-accent)!important;--footer-contact-color:var(--footer-fg);",
+        "padding:18px!important;border-radius:999px!important;background:color-mix(in srgb,var(--footer-accent) 14%,transparent)!important;--footer-contact-color:var(--footer-fg);",
+        "padding:18px!important;background:linear-gradient(135deg,color-mix(in srgb,var(--footer-soft) 18%,transparent),color-mix(in srgb,var(--footer-fg) 6%,transparent))!important;border-bottom:3px solid var(--footer-accent)!important;--footer-contact-color:var(--footer-fg);",
+        "padding:16px 18px!important;border:1px dashed color-mix(in srgb,var(--footer-accent) 48%,var(--footer-line))!important;--footer-contact-color:var(--footer-fg);",
+    ]
+    heading_fonts = [
+        'Inter,ui-sans-serif,system-ui,sans-serif',
+        'Georgia,"Times New Roman",serif',
+        'Inter,ui-sans-serif,system-ui,sans-serif',
+        'Georgia,"Times New Roman",serif',
+        'Inter,ui-sans-serif,system-ui,sans-serif',
+        'Inter,ui-sans-serif,system-ui,sans-serif',
+    ]
+    link_weight = [540, 620, 500, 680, 560, 720][type_index]
+    footer_bg = (
+        f"radial-gradient(circle at {12 + (number * 17) % 76}% {14 + (number * 29) % 68}%,"
+        f"color-mix(in srgb,var(--footer-soft) {8 + (number * 5) % 16}%,transparent),"
+        f"transparent {30 + (number * 7) % 22}%),"
+        f"linear-gradient({82 + (number * 11) % 88}deg,transparent,"
+        f"color-mix(in srgb,var(--footer-accent) {4 + (number * 3) % 9}%,transparent),transparent),"
+        f"{palette['bg']}"
+    )
+    shell_treatment = shell_treatments[shape_index % len(shell_treatments)]
+    brand_treatment = brand_treatments[(number * 3 + number // 4) % len(brand_treatments)]
+    group_treatment = group_treatments[(number * 5 + number // 6) % len(group_treatments)]
+    contact_treatment = contact_treatments[(number * 7 + number // 5) % len(contact_treatments)]
+    heading_font = heading_fonts[type_index]
+    mobile_contact_treatments = [
+        "padding:16px!important;border:1px solid var(--footer-line)!important;border-radius:18px!important;background:color-mix(in srgb,var(--footer-fg) 6%,transparent)!important;",
+        "padding:16px!important;border-left:4px solid var(--footer-accent)!important;background:transparent!important;",
+        "padding:16px!important;border:1px dashed color-mix(in srgb,var(--footer-accent) 46%,var(--footer-line))!important;border-radius:0!important;",
+        "padding:16px!important;border-radius:24px 4px 24px 4px!important;background:color-mix(in srgb,var(--footer-soft) 15%,transparent)!important;",
+        "padding:16px!important;border-top:3px double var(--footer-line)!important;border-bottom:1px solid var(--footer-line)!important;",
+        "padding:16px!important;border-radius:999px!important;background:color-mix(in srgb,var(--footer-accent) 13%,transparent)!important;",
+    ]
+    mobile_contact_treatment = mobile_contact_treatments[(number * 13 + number // 4) % len(mobile_contact_treatments)]
     return f'''
 .public-accessibility.accessibility-tools{{
   position:absolute!important;
@@ -2037,7 +2164,7 @@ def footer_css(number: int, code: str) -> str:
   outline-offset:3px;
 }}
 .site-footer.public-footer-{code}{{
-  --footer-bg:{palette["bg"]};
+  --footer-bg:{footer_bg};
   --footer-fg:{palette["fg"]};
   --footer-muted:{palette["muted"]};
   --footer-line:{palette["line"]};
@@ -2086,7 +2213,7 @@ def footer_css(number: int, code: str) -> str:
   width:{shell_widths[(number - 1) % len(shell_widths)]};
   margin:auto;
   display:grid!important;
-  grid-template-columns:minmax(230px,1.34fr) minmax(118px,.7fr) minmax(154px,.86fr) minmax(118px,.66fr) minmax(220px,1.05fr);
+  grid-template-columns:{footer_columns};
   grid-template-areas:"brand main trust legal contact" "bottom bottom bottom bottom bottom";
   gap:clamp({gap}px,3vw,{gap + 18}px);
   align-items:start;
@@ -2116,8 +2243,19 @@ def footer_css(number: int, code: str) -> str:
   box-shadow:none!important;
   transform:none!important;
 }}
-.public-footer-{code} .footer-link-group,
+.public-footer-{code} .public-footer-shell{{
+  {shell_treatment}
+}}
+.public-footer-{code} .footer-brand-panel{{
+  {brand_treatment}
+}}
+.public-footer-{code} .footer-link-group{{
+  {group_treatment}
+}}
 .public-footer-{code} .footer-contact{{
+  {contact_treatment}
+}}
+.public-footer-{code} .footer-link-group{{
   padding-left:clamp(14px,1.8vw,24px)!important;
   border-left:1px solid var(--footer-line)!important;
 }}
@@ -2144,7 +2282,7 @@ def footer_css(number: int, code: str) -> str:
 .public-footer-{code} h3{{
   margin:0 0 6px;
   color:color-mix(in srgb,var(--footer-fg) 82%,var(--footer-accent));
-  font-family:Inter,ui-sans-serif,system-ui,sans-serif;
+  font-family:{heading_font};
   font-size:clamp(.76rem,.72vw,.88rem);
   line-height:1.2;
   font-weight:900;
@@ -2166,7 +2304,6 @@ def footer_css(number: int, code: str) -> str:
 .public-footer-{code} .footer-slogan{{
   max-width:24ch;
   color:var(--footer-muted);
-  font-family:Georgia,"Times New Roman",serif;
   font-size:clamp(1rem,1.1vw,1.22rem);
   line-height:1.42;
 }}
@@ -2224,6 +2361,7 @@ def footer_css(number: int, code: str) -> str:
   max-width:100%;
   color:var(--footer-muted);
   font-size:clamp(.92rem,.84vw,1rem);
+  font-weight:{link_weight};
   line-height:1.25;
   text-decoration:none;
   font-style:normal;
@@ -2231,9 +2369,17 @@ def footer_css(number: int, code: str) -> str:
 }}
 .public-footer-{code} .footer-contact{{
   font-style:normal;
+  color:var(--footer-contact-color,var(--footer-fg));
+}}
+.public-footer-{code} .footer-contact h3{{
+  color:color-mix(in srgb,var(--footer-contact-color,var(--footer-fg)) 86%,var(--footer-accent));
+}}
+.public-footer-{code} .footer-contact a,
+.public-footer-{code} .footer-contact span{{
+  color:color-mix(in srgb,var(--footer-contact-color,var(--footer-fg)) 82%,transparent);
 }}
 .public-footer-{code} .footer-contact a[href*="wa.me"]{{
-  color:color-mix(in srgb,var(--footer-fg) 88%,var(--footer-accent));
+  color:var(--footer-contact-color,var(--footer-fg));
   font-weight:860;
 }}
 .public-footer-{code} a:hover,
@@ -2254,12 +2400,12 @@ def footer_css(number: int, code: str) -> str:
   border-radius:4px;
 }}
 .public-footer-{code} .footer-bottom-row{{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:space-between;
-  gap:10px 22px;
+  display:grid;
+  justify-items:center;
+  gap:8px;
   padding-top:clamp(18px,2.2vw,28px);
   border-top:1px solid var(--footer-line);
+  text-align:center;
 }}
 .public-footer-{code} .footer-bottom-row p{{
   max-width:72ch;
@@ -2274,12 +2420,8 @@ def footer_css(number: int, code: str) -> str:
   .public-footer-{code} .public-footer-shell{{
     width:min(760px,calc(100% - 30px));
     grid-template-columns:1fr 1fr;
-    grid-template-areas:"brand contact" "main trust" "legal legal" "bottom bottom";
+    grid-template-areas:"brand brand" "main trust" "legal contact" "bottom bottom";
     gap:24px 18px;
-  }}
-  .public-footer-{code} .footer-contact{{
-    padding-left:0!important;
-    border-left:0!important;
   }}
 }}
 @media(max-width:620px){{
@@ -2299,12 +2441,14 @@ def footer_css(number: int, code: str) -> str:
     gap:18px;
     padding:34px 0 126px;
   }}
-  .public-footer-{code} .footer-link-group,
-  .public-footer-{code} .footer-contact{{
+  .public-footer-{code} .footer-link-group{{
     padding-left:0!important;
     padding-top:14px!important;
     border-left:0!important;
     border-top:1px solid var(--footer-line)!important;
+  }}
+  .public-footer-{code} .footer-contact{{
+    {mobile_contact_treatment}
   }}
   .public-footer-{code} .footer-main-links,
   .public-footer-{code} .footer-trust-links,
