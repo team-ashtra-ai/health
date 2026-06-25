@@ -259,9 +259,9 @@ def check_files(errors: list[str]) -> dict[str, object]:
             combined_text_parts.append(text)
             if ROOT_RUNTIME_RE.search(raw):
                 errors.append(f"Root/shared runtime dependency in concepts/{name}/{filename}")
-            if '<html lang="pt-BR" data-source-lang="en" data-default-lang="pt">' not in raw:
-                errors.append(f"Page is not PT-default with English source marker: concepts/{name}/{filename}")
-            for needle in ('data-default-lang="pt"', 'data-partial-mount="status-banner"', 'data-partial-mount="header"', 'data-partial-mount="mobile-menu"', 'data-partial-mount="footer"', 'data-partial-mount="floating-widgets"', 'data-partial-mount="consultation-form"', 'data-partial-mount="contact-card"', 'js/partials.js'):
+            if '<html lang="en" data-source-lang="en" data-default-lang="en">' not in raw:
+                errors.append(f"Page is not English-default with source marker: concepts/{name}/{filename}")
+            for needle in ('data-default-lang="en"', 'data-partial-mount="status-banner"', 'data-partial-mount="header"', 'data-partial-mount="mobile-menu"', 'data-partial-mount="footer"', 'data-partial-mount="floating-widgets"', 'data-partial-mount="consultation-form"', 'data-partial-mount="contact-card"', 'js/partials.js'):
                 if needle not in raw:
                     errors.append(f"Missing shell/partial marker {needle}: concepts/{name}/{filename}")
             for comment in ("<!-- Hero Section -->", "<!-- Header Partial Mount -->", "<!-- Footer Partial Mount -->", "<!-- Consultation Form Section -->", "<!-- Schema Partial Mount -->"):

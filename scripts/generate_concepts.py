@@ -39,26 +39,26 @@ BRAND = {
 FORMSPREE_ENDPOINT = "https://formspree.io/f/xzdldkjy"
 
 CONCEPTS = [
-    ("01", "inspire", "Inspire", "https://joaodermatologista.com.br/", "editorial diagnosis journey", "split masthead with clinical proof rail", "chaptered fullscreen drawer", "business-card editorial footer", "soft reveal with line drawing"),
-    ("02", "empower", "Empower", "https://www.clinicadravanessavanzo.com.br/", "boutique contact architecture", "card-like sticky header", "ivory contact-sheet menu", "oversized logo footer", "contact card parallax"),
-    ("03", "enhance", "Enhance", "https://drajuliasaldanha.com.br/", "botanical clinic magazine", "sage magazine bar", "folding editorial menu", "journal index footer", "masked image fade"),
-    ("04", "renew", "Renew", "https://clinicadermacatarina.com.br/", "laser technology dossier", "monogram technical header", "specification drawer", "clinical columns footer", "accordion glide"),
-    ("05", "elevate", "Elevate", "https://clinicapellier.com.br/", "quiet luxury skincare journal", "split wordmark navigation", "image-and-copy mobile menu", "luxury skincare footer", "watermark fade"),
-    ("06", "refine", "Refine", "https://clinicamarianagenta.com.br/", "mobile story pathway", "left rail desktop nav", "stepped treatment menu", "botanical route footer", "staggered story cards"),
-    ("07", "glow", "Glow", "https://clinicamakino.com.br/londrina/", "clinical proof grid", "minimal evidence header", "bottom-sheet service menu", "legal-light footer", "image rise on scroll"),
-    ("08", "balance", "Balance", "https://www.clinicasantez.com.br/", "monogram sanctuary", "centered emblem header", "round botanical menu", "contact-card footer", "orbital monogram reveal"),
-    ("09", "radiance", "Radiance", "https://www.iderj.com.br/", "consultation conversion studio", "floating appointment header", "bronze command menu", "magazine conversion footer", "sticky CTA pulse"),
-    ("10", "essence", "Essence", "https://clinicadermic.com.br/", "minimal appointment suite", "desktop mega-menu", "story background menu", "split CTA footer", "underline draw"),
-    ("11", "bloom", "Bloom", "https://www.institutopontello.com.br/", "institutional authority landing", "dual-row institute header", "services atlas menu", "credentials footer", "stat count reveal"),
-    ("12", "vital", "Vital", "https://dermaclinica.com.br/", "dermatology portal", "portal nav header", "category drawer menu", "clinic directory footer", "tabbed service reveal"),
-    ("13", "poise", "Poise", "https://www.clinicadaianesaldanha.com.br/", "private boutique columns", "narrow monogram header", "accordion boutique menu", "signature footer", "column slide"),
-    ("14", "aura", "Aura", "https://saintbeaute.com.br/", "spa-luxury clinic mood", "champagne capsule header", "soft overlay menu", "ritual footer", "slow opacity bloom"),
-    ("15", "clarity", "Clarity", "https://www.clinicasandin.com.br/", "procedure atlas", "indexed treatment header", "alphabetical menu", "compact medical footer", "filter chips"),
-    ("16", "grace", "Grace", "https://beauty365.com.br/", "service-commerce shelves", "shop-like service nav", "sliding product menu", "membership footer", "shelf hover lift"),
-    ("17", "sculpt", "Sculpt", "https://www.gioesteticaavancada.com.br/unidade/londrina/", "local branch landing", "location-first header", "branch sheet menu", "unit footer", "local badge reveal"),
-    ("18", "lumin", "Lumin", "https://www.jkesteticaavancada.com.br/", "high-contrast clinic suite", "bold split header", "panel stack menu", "contrast footer", "sharp mask transitions"),
-    ("19", "verda", "Verda", "https://clinicaesteticalondrina.com.br/", "local search landing", "search-intent header", "quick action menu", "local trust footer", "search card reveal"),
-    ("20", "halo", "Halo", "https://clinicapio.com.br/", "physician profile pathway", "profile-led header", "bio drawer menu", "professional profile footer", "portrait crop motion"),
+    ("01", "inspire", "Inspire", "https://joaodermatologista.com.br/", "clean signature editorial", "quiet split masthead with centered brand", "chaptered signature drawer", "business-card signature footer", "soft line reveal"),
+    ("02", "empower", "Empower", "https://www.clinicadravanessavanzo.com.br/", "decision-led consultation studio", "sticky appointment decision bar", "authority contact-sheet menu", "professional authority footer", "consultation card parallax"),
+    ("03", "enhance", "Enhance", "https://drajuliasaldanha.com.br/", "laser precision interface", "technical sage command header", "laser specification drawer", "clinical technology footer", "precision line scan"),
+    ("04", "renew", "Renew", "https://clinicadermacatarina.com.br/", "soft renewal journey", "flowing botanical header", "organic transformation menu", "soft botanical footer", "organic mask reveal"),
+    ("05", "elevate", "Elevate", "https://clinicapellier.com.br/", "high luxury editorial maison", "split luxury wordmark navigation", "image-led maison menu", "large signature luxury footer", "editorial image drift"),
+    ("06", "refine", "Refine", "https://clinicamarianagenta.com.br/", "ultra-minimal clinical edit", "fine-line side navigation", "minimal line drawer", "quiet legal-minimal footer", "fine underline draw"),
+    ("07", "glow", "Glow", "https://clinicamakino.com.br/londrina/", "luminous skin-quality story", "light-filled evidence header", "luminous bottom-sheet menu", "bright skin-quality footer", "image glow reveal"),
+    ("08", "balance", "Balance", "https://www.clinicasantez.com.br/", "symmetrical calm grid", "centered emblem balanced header", "measured grid menu", "balanced contact-card footer", "measured grid reveal"),
+    ("09", "radiance", "Radiance", "https://www.iderj.com.br/", "airy radiant light landing", "floating light appointment header", "bronze light menu", "radiant magazine footer", "light sweep reveal"),
+    ("10", "essence", "Essence", "https://clinicadermic.com.br/", "distilled minimal appointment suite", "bare editorial mega-menu header", "reduced story menu", "split minimal CTA footer", "reduced underline draw"),
+    ("11", "bloom", "Bloom", "https://www.institutopontello.com.br/", "immersive botanical clinic", "dual-row botanical institute header", "leaf atlas menu", "botanical credential footer", "leaf divider grow"),
+    ("12", "vital", "Vital", "https://dermaclinica.com.br/", "dynamic care journey portal", "journey portal navigation", "dynamic category drawer", "journey directory footer", "care-step reveal"),
+    ("13", "poise", "Poise", "https://www.clinicadaianesaldanha.com.br/", "composed editorial authority", "disciplined monogram header", "composed accordion menu", "editorial signature footer", "column slide"),
+    ("14", "aura", "Aura", "https://saintbeaute.com.br/", "atmospheric sensory flow", "soft overlay capsule header", "atmospheric full-screen menu", "ritual atmosphere footer", "slow opacity bloom"),
+    ("15", "clarity", "Clarity", "https://www.clinicasandin.com.br/", "clinical technology atlas", "indexed precision header", "diagram-style treatment menu", "compact clinical-tech footer", "filter line motion"),
+    ("16", "grace", "Grace", "https://beauty365.com.br/", "graceful portrait-led care", "portrait-led service navigation", "flowing portrait menu", "graceful profile footer", "portrait veil reveal"),
+    ("17", "sculpt", "Sculpt", "https://www.gioesteticaavancada.com.br/unidade/londrina/", "shape-led contour composition", "contour location header", "layered contour menu", "dimensional unit footer", "contour card lift"),
+    ("18", "lumin", "Lumin", "https://www.jkesteticaavancada.com.br/", "translucent light clinic suite", "luminous split header", "translucent panel menu", "light-panel footer", "luminous mask transition"),
+    ("19", "verda", "Verda", "https://clinicaesteticalondrina.com.br/", "verdant botanical architecture", "organic green navigation", "verdant quick-action menu", "strong botanical trust footer", "botanical search reveal"),
+    ("20", "halo", "Halo", "https://clinicapio.com.br/", "circular radial profile pathway", "halo profile header", "radial bio drawer", "circular profile footer", "halo orbit motion"),
     ("21", "calm", "Calm", "https://www.phiclinic.com/", "international private clinic", "concierge header", "private clinic menu", "concierge footer", "calm fade cascade"),
     ("22", "precision", "Precision", "https://www.drwassimtaktouk.com/", "consultant authority", "doctor-signature header", "consultant menu", "appointment footer", "signature trace"),
     ("23", "ritual", "Ritual", "https://skinmedical.com/", "medical skin landing", "treatment proof header", "condition menu", "medical disclosure footer", "clinical reveal"),
@@ -274,6 +274,29 @@ HOME_HEADLINE_PAIRS = [
 HOME_HEADLINES = [source for source, _target in HOME_HEADLINE_PAIRS]
 PT_HOME_HEADLINES = dict(HOME_HEADLINE_PAIRS)
 
+HOME_INTROS = [
+    "A clean Sofiati signature for professional evaluation, laser precision and natural-looking skin care.",
+    "A consultation-first experience for visitors who want clear next steps before choosing a protocol.",
+    "A laser-led interface where technology is explained through suitability, safety and aftercare.",
+    "A softer care journey built around renewal, botanical calm and responsible transformation.",
+    "A high-luxury editorial direction with fewer, stronger moments and a strong portrait presence.",
+    "An ultra-minimal clinical edit where fine lines, restraint and clarity carry the brand.",
+    "A luminous skin-quality direction for texture, clarity, comfort and responsible glow.",
+    "A measured grid that keeps evaluation, services and results in calm balance.",
+    "An airy light-led homepage with radiant imagery and concise care pathways.",
+    "A distilled appointment suite that removes noise and keeps evaluation central.",
+    "An immersive botanical direction where leaf detail, portrait and form become the structure.",
+    "A dynamic journey that turns care planning into a clearer sequence of steps.",
+    "A composed editorial authority concept with disciplined spacing and clinical warmth.",
+    "An atmospheric Sofiati flow with soft overlays, sensory pacing and calm contrast.",
+    "A clinical-tech atlas for visitors comparing laser, skin quality and suitability.",
+    "A graceful portrait-led direction that makes Franciele central from the first viewport.",
+    "A shape-led composition using contours, layered cards and dimensional service cues.",
+    "A translucent light concept with ivory panels, luminous image reveals and soft focus.",
+    "A verdant botanical architecture with stronger green structure and organic navigation.",
+    "A radial Sofiati concept shaped around halo frames, circular cues and profile authority.",
+]
+
 PAGE_SECTION_HEADINGS = {
     "index": "Professional evaluation",
     "about": "Professional story",
@@ -410,7 +433,6 @@ PT_LABELS = {
 PT_PHRASES = {
     "Advanced Aesthetic Biomedicine": "Biomedicina Estética Avançada",
     "Laser, skin and advanced aesthetic care in Londrina, PR": "Laser, pele e cuidados estéticos avançados em Londrina, PR",
-    "Site under refinement. Care and services continue as normal.": "Site em refinamento. Atendimentos e serviços seguem normalmente.",
     "Book consultation": "Agendar consulta",
     "Schedule evaluation": "Agendar avaliação",
     "Start with WhatsApp": "Começar no WhatsApp",
@@ -482,7 +504,6 @@ PT_PHRASES = {
     "Open menu": "Abrir menu",
     "Close menu": "Fechar menu",
     "Site language": "Idioma do site",
-    "Under refinement": "Em refinamento",
     "Services operate normally": "Atendimentos seguem normalmente",
     "Request consultation": "Solicitar consulta",
     "Explore laser care": "Ver cuidados com laser",
@@ -549,7 +570,7 @@ PT_ARCHETYPES = {
         "botanical serum story": "história botânica de sérum",
         "clean farm skincare": "skincare limpo de origem",
         "minimalist ingredient lab": "laboratório minimalista de ingredientes",
-    }[concept[4]]
+    }.get(concept[4], concept[4])
     for concept in CONCEPTS
 }
 
@@ -616,8 +637,6 @@ def translation_dictionary() -> dict[str, str]:
         translations.setdefault(menu, menu)
         translations.setdefault(footer, footer)
         translations.setdefault(motion, motion)
-        translations.setdefault(f"Concept {number} / 50", f"Conceito {number} / 50")
-        translations.setdefault(f"Concept {number} · {name}", f"Conceito {number} · {name}")
     translations.update({
         "Cookie preferences": "Preferencias de cookies",
         "Only essential preferences are active in this static concept.": "Apenas preferencias essenciais estao ativas neste conceito estatico.",
@@ -791,18 +810,36 @@ def copy_assets(concept_dir: Path) -> None:
     assets_dir = concept_dir / "assets"
     if assets_dir.exists():
         shutil.rmtree(assets_dir)
-    shutil.copytree(ROOT_ASSETS / "brand", assets_dir / "brand")
+    shutil.copytree(ROOT_ASSETS / "brand", assets_dir / "brand", ignore=shutil.ignore_patterns("botanical"))
     shutil.copytree(ROOT_ASSETS / "images", assets_dir / "images")
+
+
+def ensure_root_asset_sources() -> None:
+    """Recreate missing root asset sources from local concept packs."""
+    ROOT_ASSETS.mkdir(exist_ok=True)
+    brand_dir = ROOT_ASSETS / "brand"
+    images_dir = ROOT_ASSETS / "images"
+    if not brand_dir.exists():
+        for source in sorted(CONCEPTS_DIR.glob("*/assets/brand")):
+            shutil.copytree(source, brand_dir)
+            break
+    if not images_dir.exists():
+        for source in sorted(CONCEPTS_DIR.glob("*/assets/images")):
+            shutil.copytree(source, images_dir)
+            break
+    missing = [str(path.relative_to(ROOT)) for path in (brand_dir, images_dir) if not path.exists()]
+    if missing:
+        raise FileNotFoundError(f"Missing required source assets: {', '.join(missing)}")
 
 
 def status_banner_markup(concept: Concept) -> str:
     return dedent(
         f"""
         <div class="status-banner status-banner-{concept.number}" data-status-banner>
-          <p><span>Under refinement</span><strong>Services operate normally</strong></p>
+          <p><span>{esc(BRAND['descriptor'])}</span><strong>{esc(BRAND['location'])}</strong></p>
           <div class="language-switcher" aria-label="Site language">
-            <button type="button" data-lang-switch="pt" aria-pressed="true">PT</button>
-            <button type="button" data-lang-switch="en" aria-pressed="false">EN</button>
+            <button type="button" data-lang-switch="en" aria-pressed="true">EN</button>
+            <button type="button" data-lang-switch="pt" aria-pressed="false">PT</button>
           </div>
         </div>
         """
@@ -942,7 +979,7 @@ def mobile_menu_markup(concept: Concept, current: str) -> str:
           </div>
           {body}
           <div class="mobile-menu-note">
-            <strong>{esc(concept.name)} menu</strong>
+            <strong>Professional evaluation first</strong>
             <p>{esc(concept.menu)} · {esc(BRAND['location'])}</p>
           </div>
         </aside>
@@ -1008,7 +1045,7 @@ def floating_whatsapp_markup(concept: Concept) -> str:
     return dedent(
         f"""
         <a class="floating-whatsapp floating-whatsapp-{concept.number}" href="{BRAND['whatsapp_url']}" rel="noopener" target="_blank" aria-label="Start with WhatsApp">
-          <span aria-hidden="true">WA</span>
+          <img src="assets/icons/whatsapp.svg" alt="" aria-hidden="true">
           <b>Start with WhatsApp</b>
         </a>
         """
@@ -1019,7 +1056,7 @@ def back_to_top_markup(concept: Concept) -> str:
     return dedent(
         f"""
         <button class="back-to-top back-to-top-{concept.number}" type="button" data-back-to-top aria-label="Back to top">
-          <span aria-hidden="true">↑</span>
+          <img src="assets/icons/back-to-top.svg" alt="" aria-hidden="true">
         </button>
         """
     ).strip()
@@ -1086,7 +1123,7 @@ def consultation_form_markup(concept: Concept) -> str:
           <label>Treatment interest<select name="interest" required><option value="">Select one</option><option>Professional evaluation</option><option>Laser care</option><option>Skin care</option><option>Results with responsibility</option></select></label>
           <label class="message-field">Message<textarea name="message" required></textarea></label>
           <label class="consent-field"><input type="checkbox" name="privacy_acknowledgement" required> I understand this request does not replace individual professional evaluation.</label>
-          <input type="hidden" name="concept" value="{esc(concept.number)} — {esc(concept.name)}">
+          <input type="hidden" name="concept" value="{esc(concept.number)} - {esc(concept.name)}">
           <input type="hidden" name="_subject" value="Sofiati website consultation request">
           <button class="button button-primary" type="submit" data-submit-label="Send request">Send request</button>
           <p class="privacy-note">Your message is sent through Formspree and should not include sensitive medical details.</p>
@@ -1117,7 +1154,7 @@ def concept_switcher_partial(concept: Concept) -> str:
     return dedent(
         f"""
         <div class="concept-marker" data-concept-marker="{concept.folder}">
-          <span>Concept {concept.number} / 50</span>
+          <span>Sofiati direction</span>
           <strong>{esc(concept.name)}</strong>
           <a href="design-notes.md">Design notes</a>
         </div>
@@ -1126,25 +1163,67 @@ def concept_switcher_partial(concept: Concept) -> str:
 
 
 def home_panel(concept: Concept) -> str:
-    items = [
-        ("Who Franciele is", "Biomedical background with aesthetics, cosmetology and laser focus.", "about.html"),
-        ("Care offered", "Advanced aesthetic biomedicine shaped by individual evaluation.", "care.html"),
-        ("Laser care", "Laser hair removal and rejuvenation topics with aftercare.", "laser.html"),
-        ("Skin quality", "Skin cleansing, sensitivity, spots, melasma and texture education.", "skin.html"),
-        ("Responsible results", "Natural-looking expectations without invented outcomes.", "results.html"),
-        ("Journal notes", "Short education for better consultation questions.", "journal.html"),
+    n = int(concept.number)
+    route_sets = [
+        [
+            ("Who Franciele is", "Biomedical background with aesthetics, cosmetology and laser focus.", "about.html"),
+            ("Care offered", "Advanced aesthetic biomedicine shaped by individual evaluation.", "care.html"),
+            ("Laser care", "Laser hair removal and rejuvenation topics with aftercare.", "laser.html"),
+            ("Skin quality", "Skin cleansing, sensitivity, spots, melasma and texture education.", "skin.html"),
+            ("Responsible results", "Natural-looking expectations without invented outcomes.", "results.html"),
+            ("Journal notes", "Short education for better consultation questions.", "journal.html"),
+        ],
+        [
+            ("Start with evaluation", "Clarify goals, timing and suitability before choosing a protocol.", "consultation.html"),
+            ("Professional authority", "CRBM 6277, clinical pathology background and laser specialism.", "about.html"),
+            ("Laser decisions", "Preparation, indication, comfort and aftercare guide the plan.", "laser.html"),
+            ("Skin quality", "Texture, clarity and sensitivity stay central to care.", "skin.html"),
+            ("Responsible results", "Expectations stay realistic, private and individual.", "results.html"),
+            ("Contact routes", "WhatsApp, email and Instagram stay clear and public.", "contact.html"),
+        ],
+        [
+            ("Laser interface", "A technical route into laser hair removal and rejuvenation education.", "laser.html"),
+            ("Skin reading", "A calm route into skin quality, sensitivity and barrier respect.", "skin.html"),
+            ("Evaluation logic", "Professional evaluation connects technology to individual indication.", "care.html"),
+            ("Safety notes", "Aftercare and expectations are part of the protocol, not an add-on.", "results.html"),
+            ("Journal", "Short notes make technical topics easier to discuss.", "journal.html"),
+            ("Consultation", "Begin with questions before selecting a treatment.", "consultation.html"),
+        ],
+        [
+            ("Biography", "Meet Franciele through professional background and care philosophy.", "about.html"),
+            ("Values", "Safety, clarity, naturalness and warmth guide the experience.", "values.html"),
+            ("Care rhythm", "Evaluation, protocol planning, treatment and aftercare.", "care.html"),
+            ("Laser", "Technology-based care explained with restraint.", "laser.html"),
+            ("Skin", "Skin quality education without exaggerated promises.", "skin.html"),
+            ("FAQ", "Concise answers for common first questions.", "faq.html"),
+        ],
     ]
+    titles = [
+        ("Care Index", "A clean first view of Franciele, services and next steps."),
+        ("Decision Guide", "A consultation-led route for visitors comparing care options."),
+        ("Treatment Map", "Laser, skin, care and results arranged as a compact explorer."),
+        ("Editorial Contents", "A homepage index with biography, values and education up front."),
+        ("Clinical Compass", "A calmer route through evaluation, technology and aftercare."),
+        ("Sofiati Directory", "The core pages organised for fast scanning on mobile and desktop."),
+    ]
+    variant = (n - 1) % len(titles)
+    items = route_sets[(n - 1) % len(route_sets)]
+    if variant % 2:
+        items = items[1:] + items[:1]
+    if variant in {2, 5}:
+        items = [items[0], items[2], items[4], items[1], items[3], items[5]]
+    title, copy = titles[variant]
     cards = "\n".join(
         f'<a class="home-route" href="{href}"><span>{idx:02d}</span><h3>{esc(title)}</h3><p>{esc(copy)}</p></a>'
         for idx, (title, copy, href) in enumerate(items, start=1)
     )
     return dedent(
         f"""
-        <section class="home-pathways" aria-label="Homepage care pathways">
+        <section class="home-pathways home-pathways-{variant:02d}" aria-label="Homepage care index">
           <div class="section-heading">
             <p class="eyebrow">{esc(concept.archetype)}</p>
-            <h2>Care pathways</h2>
-            <p>A simple first view of who Franciele is, what she offers and where to begin.</p>
+            <h2>{esc(title)}</h2>
+            <p>{esc(copy)}</p>
           </div>
           <div class="home-route-grid">{cards}</div>
         </section>
@@ -1266,13 +1345,12 @@ def home_index_section(concept: Concept, key: str, image: str, index: int) -> st
         "faq": ("FAQ Preview Section", "FAQ", "Questions before protocols", "Brief answers support clarity while returning treatment decisions to individual evaluation.", "faq.html", "FAQ"),
     }
     comment, eyebrow, title, copy, href, button = sections[key]
-    media = ""
-    if index % 3 != 1:
-        media = f'<figure><img src="assets/images/{esc(image)}" alt="Sofiati {esc(eyebrow)} visual"></figure>'
+    style = (concept.accent_index + index) % 12
+    media = f'<figure><img src="assets/images/{esc(image)}" alt="Sofiati {esc(eyebrow)} visual"></figure>'
     return dedent(
         f"""
         <!-- {comment} -->
-        <section class="home-index-section home-index-{key} home-index-style-{index % 6}">
+        <section class="home-index-section home-index-{key} home-index-style-{style:02d}" data-home-index="{key}">
           {media}
           <div>
             <p class="eyebrow">{eyebrow}</p>
@@ -1311,6 +1389,7 @@ def page_body(concept: Concept, page_key: str, label: str, headline: str, intro:
     sections = rotated_sections(concept, page_key)[:section_limit]
     section_html = "\n".join(page_component(concept, page_key, idx, title, copy) for idx, (title, copy) in enumerate(sections, start=1))
     home_headline = HOME_HEADLINES[(n - 1) % len(HOME_HEADLINES)]
+    home_intro = HOME_INTROS[(n - 1) % len(HOME_INTROS)]
     cta = dedent(
         f"""
         <!-- Footer CTA Section -->
@@ -1366,11 +1445,32 @@ def page_body(concept: Concept, page_key: str, label: str, headline: str, intro:
     if page_key == "index":
         home_keys = ["credentials", "philosophy", "laser", "skin", "results", "mission", "values", "journal", "experience", "faq"]
         rotated_keys = home_keys[(n - 1) % len(home_keys):] + home_keys[:(n - 1) % len(home_keys)]
-        home_index_blocks = [
-            home_index_section(concept, key, HOME_HERO_IMAGES[(n + idx) % len(HOME_HERO_IMAGES)], idx)
+        home_index_blocks = {
+            key: home_index_section(concept, key, HOME_HERO_IMAGES[(n + idx) % len(HOME_HERO_IMAGES)], idx)
             for idx, key in enumerate(rotated_keys, start=1)
+        }
+        order_patterns = [
+            ["home", "credentials", "philosophy", "visual", "laser", "skin", "results", "journal", "mission", "values", "faq", "form", "cta", "contact"],
+            ["form", "home", "credentials", "laser", "visual", "skin", "results", "experience", "journal", "faq", "mission", "values", "cta", "contact"],
+            ["visual", "laser", "skin", "home", "credentials", "content", "results", "journal", "experience", "form", "faq", "cta", "contact"],
+            ["credentials", "home", "philosophy", "values", "mission", "visual", "care", "laser", "skin", "results", "journal", "form", "contact"],
+            ["journal", "visual", "credentials", "home", "laser", "skin", "faq", "results", "philosophy", "values", "form", "cta", "contact"],
+            ["home", "visual", "results", "credentials", "experience", "philosophy", "laser", "skin", "journal", "faq", "form", "contact"],
+            ["credentials", "visual", "form", "home", "laser", "skin", "results", "journal", "mission", "values", "faq", "cta", "contact"],
+            ["laser", "skin", "visual", "home", "content", "results", "credentials", "philosophy", "journal", "experience", "form", "contact"],
+            ["values", "mission", "credentials", "home", "visual", "philosophy", "laser", "skin", "results", "journal", "faq", "form", "contact"],
+            ["visual", "home", "credentials", "results", "journal", "laser", "skin", "philosophy", "experience", "faq", "form", "cta", "contact"],
         ]
-        homepage_blocks = [home_block, *home_index_blocks[:4], visual_block, *home_index_blocks[4:7], content_block, *home_index_blocks[7:], form, cta, contact_card]
+        named_blocks = {
+            "home": home_block,
+            "visual": visual_block,
+            "content": content_block,
+            "form": form,
+            "cta": cta,
+            "contact": contact_card,
+            **home_index_blocks,
+        }
+        homepage_blocks = [named_blocks.get(key, "") for key in order_patterns[(n - 1) % len(order_patterns)]]
         page_sections = "\n".join(block for block in homepage_blocks if block)
     else:
         page_sections = "\n".join(block for block in [service_block, content_block, faq, responsible_note, form, cta, contact_card] if block)
@@ -1382,9 +1482,9 @@ def page_body(concept: Concept, page_key: str, label: str, headline: str, intro:
             <span class="hero-index" aria-hidden="true">{concept.number}</span>
             <img class="hero-monogram" src="assets/brand/sofiati-monogram-bronze.png" alt="">
             <div class="hero-copy">
-              <p class="eyebrow">Concept {concept.number} · {esc(concept.name)} · {esc(label)}</p>
+              <p class="eyebrow">{esc(BRAND['descriptor'])} · {esc(BRAND['location'])}</p>
               <h1>{esc(headline if page_key != "index" else home_headline)}</h1>
-              <p>{esc(intro)}</p>
+              <p>{esc(intro if page_key != "index" else home_intro)}</p>
               <div class="hero-actions">
                 <a class="button button-primary" href="consultation.html">Book consultation</a>
                 <a class="button button-soft" href="laser.html">View laser care</a>
@@ -1392,7 +1492,7 @@ def page_body(concept: Concept, page_key: str, label: str, headline: str, intro:
             </div>
             <figure class="hero-visual">
               <img src="assets/images/{esc(img)}" alt="Sofiati {esc(label)} visual for {esc(concept.name)}">
-              <figcaption>{esc(concept.archetype)} · {esc(concept.motion)}</figcaption>
+              <figcaption>Personalised care, laser precision and skin quality.</figcaption>
             </figure>
             <div class="hero-mosaic" aria-hidden="true">
               <img src="assets/images/{esc(mosaic_images[0])}" alt="">
@@ -1415,7 +1515,7 @@ def html_page(concept: Concept, page_spec: tuple[str, str, str, str, str]) -> st
     return dedent(
         f"""\
         <!doctype html>
-        <html lang="pt-BR" data-source-lang="en" data-default-lang="pt">
+        <html lang="en" data-source-lang="en" data-default-lang="en">
         <head>
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -1423,7 +1523,7 @@ def html_page(concept: Concept, page_spec: tuple[str, str, str, str, str]) -> st
           <!-- Head Metadata Partial Mount -->
           <link rel="stylesheet" href="css/style.css">
         </head>
-        <body class="concept concept-{concept.slug} page-{page_key}" data-concept="{concept.folder}" data-concept-number="{concept.number}" data-concept-name="{esc(concept.name)}" data-page="{page_key}" data-page-label="{esc(label)}" data-page-title="{esc(title)}" data-page-description="{esc(description)}" data-canonical="{esc(canonical)}" data-layout="{concept.archetype}" data-header="{concept.header}" data-footer="{concept.footer}" data-menu="{concept.menu}" data-default-lang="pt">
+        <body class="concept concept-{concept.slug} page-{page_key}" data-concept="{concept.folder}" data-concept-number="{concept.number}" data-concept-name="{esc(concept.name)}" data-page="{page_key}" data-page-label="{esc(label)}" data-page-title="{esc(title)}" data-page-description="{esc(description)}" data-canonical="{esc(canonical)}" data-layout="{concept.archetype}" data-header="{concept.header}" data-footer="{concept.footer}" data-menu="{concept.menu}" data-default-lang="en">
           <a class="skip-link" href="#main">Skip to main content</a>
           <!-- Status Banner Partial Mount -->
           <div data-partial-mount="status-banner"></div>
@@ -1597,7 +1697,22 @@ def css_for(concept: Concept) -> str:
         ".site-footer.site-footer{background:#1F2825;color:white;border-radius:34px 34px 0 0;width:min(1380px,calc(100% - 24px));margin-left:auto;margin-right:auto}",
         ".site-footer.site-footer{background:var(--deep-sage);color:white}",
     ][idx % 8]
-    section_variation = "\n".join([body_texture, home_layout, content_layout, visual_layout, cta_layout, footer_layout])
+    home_index_variants = "\n".join([
+        ".home-index-style-00{grid-template-columns:1.2fr .8fr}.home-index-style-00 figure{min-height:clamp(260px,34vw,520px)}",
+        ".home-index-style-01{grid-template-columns:.7fr 1fr;background:var(--ink);color:white;width:100%;padding-left:max(18px,calc((100vw - 1240px)/2));padding-right:max(18px,calc((100vw - 1240px)/2))}.home-index-style-01 p,.home-index-style-01 .eyebrow{color:rgba(255,255,255,.74)}.home-index-style-01 .button-soft{background:rgba(255,255,255,.12);color:white;border-color:rgba(255,255,255,.24)}",
+        ".home-index-style-02{grid-template-columns:1fr 1fr}.home-index-style-02 figure{border-radius:999px;aspect-ratio:1;min-height:auto}.home-index-style-02>div{justify-self:center}",
+        ".home-index-style-03{width:min(980px,calc(100% - 32px));grid-template-columns:1fr;text-align:center;justify-items:center}.home-index-style-03 figure{width:min(720px,100%)}.home-index-style-03 .button{justify-self:center}",
+        ".home-index-style-04{grid-template-columns:.9fr 1.1fr;border-top:4px double var(--line)}.home-index-style-04 figure{clip-path:polygon(0 0,100% 8%,92% 100%,0 92%);border-radius:0}",
+        ".home-index-style-05{grid-template-columns:1fr .72fr}.home-index-style-05 figure{order:2;border-radius:999px 999px 16px 16px}.home-index-style-05>div{order:1}",
+        ".home-index-style-06{width:100%;padding-left:max(18px,calc((100vw - 1320px)/2));padding-right:max(18px,calc((100vw - 1320px)/2));grid-template-columns:1.35fr .65fr}.home-index-style-06 figure{border-radius:0;min-height:clamp(300px,42vw,620px)}",
+        ".home-index-style-07{grid-template-columns:.62fr 1fr}.home-index-style-07 figure{box-shadow:18px 18px 0 color-mix(in srgb,var(--accent) 16%,white);transform:rotate(-1deg)}",
+        ".home-index-style-08{grid-template-columns:1fr 1fr;background:color-mix(in srgb,var(--sage) 12%,var(--surface));padding-left:clamp(20px,4vw,56px);padding-right:clamp(20px,4vw,56px);border-radius:32px}.home-index-style-08 figure{border-radius:24px}",
+        ".home-index-style-09{grid-template-columns:.8fr .8fr;justify-content:center}.home-index-style-09 figure{border-radius:8px 90px 8px 90px}.home-index-style-09>div{border-left:1px solid var(--line);padding-left:clamp(18px,4vw,48px)}",
+        ".home-index-style-10{grid-template-columns:1fr .9fr}.home-index-style-10 figure{order:2;filter:saturate(.82);border:14px solid color-mix(in srgb,var(--surface) 80%,white)}.home-index-style-10>div{order:1}",
+        ".home-index-style-11{grid-template-columns:1fr;text-align:left}.home-index-style-11 figure{width:100%;min-height:clamp(240px,26vw,360px);border-radius:0}.home-index-style-11>div{max-width:760px}",
+        ".floating-whatsapp{background:#25D366!important;border-color:#1DA851!important;color:white!important;animation:whatsapp-pulse 2.8s ease-in-out infinite}.floating-whatsapp img{width:30px;height:30px;filter:none}.back-to-top img{width:26px;height:26px}@keyframes whatsapp-pulse{0%,100%{box-shadow:0 12px 36px rgba(37,35,33,.12),0 0 0 0 rgba(37,211,102,.35)}50%{box-shadow:0 12px 36px rgba(37,35,33,.12),0 0 0 12px rgba(37,211,102,0)}}",
+    ])
+    section_variation = "\n".join([body_texture, home_layout, content_layout, visual_layout, cta_layout, footer_layout, home_index_variants])
     return dedent(
         f"""\
         /* {concept.number} {concept.name}: standalone Sofiati design system */
@@ -1743,7 +1858,7 @@ def partials_js_for(concept: Concept) -> str:
                 "@id": `${{concept.domain}}/#website`,
                 "url": concept.domain,
                 "name": "Sofiati",
-                "inLanguage": "pt-BR"
+                "inLanguage": "en"
               }},
               {{
                 "@type": "Person",
@@ -1774,7 +1889,7 @@ def partials_js_for(concept: Concept) -> str:
                 "description": meta.description,
                 "isPartOf": {{"@id": `${{concept.domain}}/#website`}},
                 "about": {{"@id": `${{concept.domain}}/#professional-service`}},
-                "inLanguage": "pt-BR"
+                "inLanguage": "en"
               }},
               {{
                 "@type": "BreadcrumbList",
@@ -1852,7 +1967,7 @@ def js_for(concept: Concept) -> str:
           const textOriginals = new WeakMap();
           const attrOriginals = new WeakMap();
           const attributeNames = ["alt", "aria-label", "title", "placeholder", "content"];
-          let currentLanguage = "pt";
+          let currentLanguage = "en";
           document.body.dataset.jsReady = "true";
 
           const shouldSkip = (node) => {{
@@ -1906,8 +2021,8 @@ def js_for(concept: Concept) -> str:
           document.querySelectorAll("[data-lang-switch]").forEach((button) => {{
             button.addEventListener("click", () => applyLanguage(button.dataset.langSwitch));
           }});
-          let savedLanguage = "pt";
-          try {{ savedLanguage = localStorage.getItem("sofiati-language") || document.body.dataset.defaultLang || "pt"; }} catch (error) {{}}
+          let savedLanguage = "en";
+          try {{ savedLanguage = localStorage.getItem("sofiati-language") || document.body.dataset.defaultLang || "en"; }} catch (error) {{}}
           applyLanguage(savedLanguage === "en" ? "en" : "pt");
 
           const menu = document.querySelector("#mobile-menu");
@@ -2159,6 +2274,7 @@ def write_sitemap(concepts: list[Concept]) -> None:
 
 
 def main() -> None:
+    ensure_root_asset_sources()
     concepts = [Concept(*item) for item in CONCEPTS]
     if CONCEPTS_DIR.exists():
         shutil.rmtree(CONCEPTS_DIR)

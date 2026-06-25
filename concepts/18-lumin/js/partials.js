@@ -1,5 +1,5 @@
 (() => {
-  const concept = {"folder": "18-lumin", "number": "18", "name": "Lumin", "archetype": "high-contrast clinic suite", "positioning": "Laser, skin and advanced aesthetic care in Londrina, PR", "credential": "CRBM 6277", "location": "Londrina, PR", "domain": "https://www.sofiati.com", "email": "sofiatimendonca@gmail.com", "whatsapp": "(43) 9 9104-3536", "whatsappUrl": "https://wa.me/5543991043536", "instagram": "@fransofiati_biomedica", "instagramUrl": "https://www.instagram.com/fransofiati_biomedica/"};
+  const concept = {"folder": "18-lumin", "number": "18", "name": "Lumin", "archetype": "translucent light clinic suite", "positioning": "Laser, skin and advanced aesthetic care in Londrina, PR", "credential": "CRBM 6277", "location": "Londrina, PR", "domain": "https://www.sofiati.com", "email": "sofiatimendonca@gmail.com", "whatsapp": "(43) 9 9104-3536", "whatsappUrl": "https://wa.me/5543991043536", "instagram": "@fransofiati_biomedica", "instagramUrl": "https://www.instagram.com/fransofiati_biomedica/"};
   const cache = new Map();
   const partialPath = (name) => `partials/${name}.html`;
   const pageFile = () => {
@@ -84,7 +84,7 @@
         "@id": `${concept.domain}/#website`,
         "url": concept.domain,
         "name": "Sofiati",
-        "inLanguage": "pt-BR"
+        "inLanguage": "en"
       },
       {
         "@type": "Person",
@@ -115,7 +115,7 @@
         "description": meta.description,
         "isPartOf": {"@id": `${concept.domain}/#website`},
         "about": {"@id": `${concept.domain}/#professional-service`},
-        "inLanguage": "pt-BR"
+        "inLanguage": "en"
       },
       {
         "@type": "BreadcrumbList",

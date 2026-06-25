@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the asset-led Sofiati visual system across all 50 concepts.
+"""Build the asset-led Sofiati layer across all 50 concepts.
 
 The base concepts are static HTML/CSS/JS builds. This script adds the
 brand-audited asset layer: shared brand assets, per-concept icon and
@@ -624,7 +624,7 @@ def asset_strip(concept: Concept, page_key: str, label: str) -> str:
           <img class="asset-strip-divider" src="assets/botanical/gold-leaf-divider.svg" alt="" aria-hidden="true">
           <div class="asset-strip-copy">
             <p class="eyebrow">{esc(ASSET_ARCHETYPES[n])}</p>
-            <h2>{esc(label)} visual system</h2>
+            <h2>{esc(label)} asset language</h2>
             <p>Logo, FS monogram, portrait treatment, botanical detail and custom icons are built as a local Sofiati asset pack for this page.</p>
           </div>
           <div class="asset-icon-ribbon" aria-label="Custom Sofiati icon group">
@@ -655,6 +655,12 @@ def patch_page(concept: Concept, page_key: str, label: str, filename: str) -> No
     if not path.exists():
         return
     raw = path.read_text(encoding="utf-8")
+    while "Sofiati Asset System Strip" in raw:
+        strip_start = raw.find("<!-- Sofiati Asset System Strip -->")
+        strip_end = raw.find("</section>", strip_start)
+        if strip_start == -1 or strip_end == -1:
+            break
+        raw = raw[:strip_start] + raw[strip_end + len("</section>"):]
     hero_start = raw.find('<section class="hero')
     if hero_start == -1:
         return
@@ -664,11 +670,6 @@ def patch_page(concept: Concept, page_key: str, label: str, filename: str) -> No
 
     if "data-doctor-presence" not in raw:
         raw = raw[:hero_end] + doctor_presence(concept) + "\n" + raw[hero_end:]
-        hero_end = raw.find("          </section>", hero_start)
-
-    if "Sofiati Asset System Strip" not in raw:
-        insert_at = hero_end + len("          </section>")
-        raw = raw[:insert_at] + "\n" + asset_strip(concept, page_key, label) + raw[insert_at:]
 
     path.write_text(raw, encoding="utf-8")
 
@@ -838,9 +839,11 @@ body::before{{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;b
 .contact-card-portrait{{width:min(132px,36vw);aspect-ratio:1;object-fit:cover;border-radius:{[999, 16, 64, 8, 28][idx % 5]}px;box-shadow:0 14px 34px rgba(37,35,33,.1)}}
 .contact-card-botanical{{position:absolute;right:18px;top:18px;width:120px;opacity:.16;pointer-events:none}}
 .contact-card-routes a{{display:inline-flex;align-items:center;gap:8px}}
-.floating-whatsapp,.back-to-top{{{widget_shape}background:color-mix(in srgb,var(--asset-gold) {18 + idx % 24}%,white);border-color:color-mix(in srgb,var(--asset-bronze) 42%,var(--line))}}
+.floating-whatsapp{{{widget_shape}background:#25D366;color:white;border-color:#1DA851;animation:asset-whatsapp-pulse-{concept.number} {2.6 + (idx % 4) * .2:.1f}s ease-in-out infinite}}
+.back-to-top{{{widget_shape}background:color-mix(in srgb,var(--asset-gold) {18 + idx % 24}%,white);border-color:color-mix(in srgb,var(--asset-bronze) 42%,var(--line))}}
 .floating-whatsapp img,.back-to-top img{{width:30px;height:30px;object-fit:contain}}
 .asset-ready .hero-botanical-accent{{animation:asset-sway-{concept.number} {5 + idx % 5}s ease-in-out infinite alternate}}
+@keyframes asset-whatsapp-pulse-{concept.number}{{0%,100%{{box-shadow:0 12px 36px rgba(37,35,33,.12),0 0 0 0 rgba(37,211,102,.35)}}50%{{box-shadow:0 12px 36px rgba(37,35,33,.12),0 0 0 {10 + idx % 8}px rgba(37,211,102,0)}}}}
 @keyframes asset-sway-{concept.number}{{from{{transform:translateY(0) rotate({-(idx % 4)}deg)}}to{{transform:translateY({8 + idx % 10}px) rotate({2 + idx % 5}deg)}}}}
 @media(max-width:780px){{
   .doctor-presence{{position:relative;inset:auto!important;right:auto!important;left:auto!important;top:auto!important;bottom:auto!important;transform:none!important;width:min(220px,72vw);margin:12px 0 0;grid-template-columns:72px 1fr;align-items:center;border-radius:18px}}
@@ -1107,8 +1110,8 @@ def write_project_audits(matrix: list[dict[str, object]]) -> None:
         - 1 generated homepage composition.
 
         Integration checks:
-        - Every page includes the hero doctor presence and an asset system strip.
-        - Every homepage visibly includes logo, FS monogram, portrait, botanical detail, icon group, image-led services, consultation form, contact card and premium footer.
+        - Every page includes hero doctor presence and integrated botanical, icon, form, menu and footer assets.
+        - Every homepage visibly includes logo, FS monogram, portrait, botanical detail, image-led services, consultation form, contact card and premium footer without a repeated asset-strip section.
         - Every inner page includes page-specific iconography, botanical/gold detail, form/contact prompt and footer identity.
         - CSS references local backgrounds, textures, forms, journal, service, generated, botanical and icon assets.
         - JavaScript adds concept-specific asset motion, scroll variables, icon hover movement and portrait interaction.

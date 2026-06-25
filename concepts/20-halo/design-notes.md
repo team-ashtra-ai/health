@@ -5,25 +5,25 @@ Assigned inspiration URL:
 https://clinicapio.com.br/
 
 What was studied:
-The concept studies the reference as a structural prompt for physician profile pathway: navigation hierarchy, first-screen rhythm, service grouping, mobile menu posture, footer density and premium pacing. No protected text, brand assets, code or photography from the reference is used.
+The concept studies the reference as a structural prompt for circular radial profile pathway: navigation hierarchy, first-screen rhythm, service grouping, mobile menu posture, footer density and premium pacing. No protected text, brand assets, code or photography from the reference is used.
 
 How the header differs from the other concepts:
-This concept uses a profile-led header. The header is assigned the unique runtime marker `header-20-halo` and a concept-specific CSS composition.
+This concept uses a halo profile header. The header is assigned the unique runtime marker `header-20-halo` and a concept-specific CSS composition.
 
 How the hero differs from the other concepts:
-The hero is shaped around physician profile pathway, with concept-specific grid, image treatment, radius, motion timing and headline structure.
+The hero is shaped around circular radial profile pathway, with concept-specific grid, image treatment, radius, motion timing and headline structure.
 
 How the page layout differs from the other concepts:
 Page sections use a unique section order marker, homepage index rhythm and panel mix generated for Halo. The HTML pages are slim shells with comments and local partial mounts; they are not routed through shared root templates.
 
 How the mobile menu differs from the other concepts:
-The mobile menu uses a bio drawer menu with local JavaScript in `js/main.js`, local partial loading in `js/partials.js` and local markup in `partials/mobile-menu.html`.
+The mobile menu uses a radial bio drawer with local JavaScript in `js/main.js`, local partial loading in `js/partials.js` and local markup in `partials/mobile-menu.html`.
 
 How the footer differs from the other concepts:
-The footer uses a professional profile footer, local contact hierarchy and concept-specific footer marker `footer-20-halo`.
+The footer uses a circular profile footer, local contact hierarchy and concept-specific footer marker `footer-20-halo`.
 
 How the motion differs from the other concepts:
-Motion is based on portrait crop motion. The local `main.js` waits for `js/partials.js`, then sets unique menu, reveal, form, floating WhatsApp and back-to-top behaviour for this concept.
+Motion is based on halo orbit motion. The local `main.js` waits for `js/partials.js`, then sets unique menu, reveal, form, floating WhatsApp and back-to-top behaviour for this concept.
 
 How Sofiati’s brand identity was applied:
 Sage green, ivory, cream, bronze/champagne accents, the Sofiati logo system, FS monogram assets, botanical imagery, clinical calm and responsible advanced aesthetic biomedicine language are applied throughout. English remains the source copy in the files, while the local concept JavaScript loads the public pages in Portuguese by default.

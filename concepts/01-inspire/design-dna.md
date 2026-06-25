@@ -2,7 +2,7 @@
 
 Concept name: Inspire
 
-Visual idea: editorial diagnosis journey translated into a Sofiati visual world, using pressed botanical editorial as the governing asset language.
+Visual idea: clean signature editorial translated into a Sofiati visual world, using pressed botanical editorial as the governing asset language.
 
 Asset idea: Local assets combine the approved logo, FS monogram, signature mark, a custom Franciele portrait treatment, botanical dividers, service visuals, form framing and an icon pack.
 
@@ -10,7 +10,7 @@ Colour usage idea: Sage and ivory hold the quiet clinical base, bronze and champ
 
 Typography idea: Elegant serif display rhythm for trust and editorial calm, paired with restrained sans-serif labels for clinical clarity.
 
-Navigation idea: split masthead with clinical proof rail on desktop and chaptered fullscreen drawer on mobile, with botanical background assets and a small portrait cue in the menu.
+Navigation idea: quiet split masthead with centered brand on desktop and chaptered signature drawer on mobile, with botanical background assets and a small portrait cue in the menu.
 
 Hero idea: The first viewport mixes the existing image-led Sofiati composition with the FS monogram, a custom botanical accent and a concept-specific portrait module for Franciele.
 

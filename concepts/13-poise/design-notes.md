@@ -5,22 +5,22 @@ Assigned inspiration URL:
 https://www.clinicadaianesaldanha.com.br/
 
 What was studied:
-The concept studies the reference as a structural prompt for private boutique columns: navigation hierarchy, first-screen rhythm, service grouping, mobile menu posture, footer density and premium pacing. No protected text, brand assets, code or photography from the reference is used.
+The concept studies the reference as a structural prompt for composed editorial authority: navigation hierarchy, first-screen rhythm, service grouping, mobile menu posture, footer density and premium pacing. No protected text, brand assets, code or photography from the reference is used.
 
 How the header differs from the other concepts:
-This concept uses a narrow monogram header. The header is assigned the unique runtime marker `header-13-poise` and a concept-specific CSS composition.
+This concept uses a disciplined monogram header. The header is assigned the unique runtime marker `header-13-poise` and a concept-specific CSS composition.
 
 How the hero differs from the other concepts:
-The hero is shaped around private boutique columns, with concept-specific grid, image treatment, radius, motion timing and headline structure.
+The hero is shaped around composed editorial authority, with concept-specific grid, image treatment, radius, motion timing and headline structure.
 
 How the page layout differs from the other concepts:
 Page sections use a unique section order marker, homepage index rhythm and panel mix generated for Poise. The HTML pages are slim shells with comments and local partial mounts; they are not routed through shared root templates.
 
 How the mobile menu differs from the other concepts:
-The mobile menu uses a accordion boutique menu with local JavaScript in `js/main.js`, local partial loading in `js/partials.js` and local markup in `partials/mobile-menu.html`.
+The mobile menu uses a composed accordion menu with local JavaScript in `js/main.js`, local partial loading in `js/partials.js` and local markup in `partials/mobile-menu.html`.
 
 How the footer differs from the other concepts:
-The footer uses a signature footer, local contact hierarchy and concept-specific footer marker `footer-13-poise`.
+The footer uses a editorial signature footer, local contact hierarchy and concept-specific footer marker `footer-13-poise`.
 
 How the motion differs from the other concepts:
 Motion is based on column slide. The local `main.js` waits for `js/partials.js`, then sets unique menu, reveal, form, floating WhatsApp and back-to-top behaviour for this concept.

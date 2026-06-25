@@ -5,25 +5,25 @@ Assigned inspiration URL:
 https://www.clinicadravanessavanzo.com.br/
 
 What was studied:
-The concept studies the reference as a structural prompt for boutique contact architecture: navigation hierarchy, first-screen rhythm, service grouping, mobile menu posture, footer density and premium pacing. No protected text, brand assets, code or photography from the reference is used.
+The concept studies the reference as a structural prompt for decision-led consultation studio: navigation hierarchy, first-screen rhythm, service grouping, mobile menu posture, footer density and premium pacing. No protected text, brand assets, code or photography from the reference is used.
 
 How the header differs from the other concepts:
-This concept uses a card-like sticky header. The header is assigned the unique runtime marker `header-02-empower` and a concept-specific CSS composition.
+This concept uses a sticky appointment decision bar. The header is assigned the unique runtime marker `header-02-empower` and a concept-specific CSS composition.
 
 How the hero differs from the other concepts:
-The hero is shaped around boutique contact architecture, with concept-specific grid, image treatment, radius, motion timing and headline structure.
+The hero is shaped around decision-led consultation studio, with concept-specific grid, image treatment, radius, motion timing and headline structure.
 
 How the page layout differs from the other concepts:
 Page sections use a unique section order marker, homepage index rhythm and panel mix generated for Empower. The HTML pages are slim shells with comments and local partial mounts; they are not routed through shared root templates.
 
 How the mobile menu differs from the other concepts:
-The mobile menu uses a ivory contact-sheet menu with local JavaScript in `js/main.js`, local partial loading in `js/partials.js` and local markup in `partials/mobile-menu.html`.
+The mobile menu uses a authority contact-sheet menu with local JavaScript in `js/main.js`, local partial loading in `js/partials.js` and local markup in `partials/mobile-menu.html`.
 
 How the footer differs from the other concepts:
-The footer uses a oversized logo footer, local contact hierarchy and concept-specific footer marker `footer-02-empower`.
+The footer uses a professional authority footer, local contact hierarchy and concept-specific footer marker `footer-02-empower`.
 
 How the motion differs from the other concepts:
-Motion is based on contact card parallax. The local `main.js` waits for `js/partials.js`, then sets unique menu, reveal, form, floating WhatsApp and back-to-top behaviour for this concept.
+Motion is based on consultation card parallax. The local `main.js` waits for `js/partials.js`, then sets unique menu, reveal, form, floating WhatsApp and back-to-top behaviour for this concept.
 
 How Sofiati’s brand identity was applied:
 Sage green, ivory, cream, bronze/champagne accents, the Sofiati logo system, FS monogram assets, botanical imagery, clinical calm and responsible advanced aesthetic biomedicine language are applied throughout. English remains the source copy in the files, while the local concept JavaScript loads the public pages in Portuguese by default.

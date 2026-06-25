@@ -2,7 +2,7 @@
 
 Concept name: Poise
 
-Visual idea: private boutique columns translated into a Sofiati visual world, using private column frames as the governing asset language.
+Visual idea: composed editorial authority translated into a Sofiati visual world, using private column frames as the governing asset language.
 
 Asset idea: Local assets combine the approved logo, FS monogram, signature mark, a custom Franciele portrait treatment, botanical dividers, service visuals, form framing and an icon pack.
 
@@ -10,7 +10,7 @@ Colour usage idea: Sage and ivory hold the quiet clinical base, bronze and champ
 
 Typography idea: Elegant serif display rhythm for trust and editorial calm, paired with restrained sans-serif labels for clinical clarity.
 
-Navigation idea: narrow monogram header on desktop and accordion boutique menu on mobile, with botanical background assets and a small portrait cue in the menu.
+Navigation idea: disciplined monogram header on desktop and composed accordion menu on mobile, with botanical background assets and a small portrait cue in the menu.
 
 Hero idea: The first viewport mixes the existing image-led Sofiati composition with the FS monogram, a custom botanical accent and a concept-specific portrait module for Franciele.
 

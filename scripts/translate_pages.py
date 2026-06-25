@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Verify the Portuguese-default runtime and write a translation report.
+"""Verify the optional Portuguese runtime and write a translation report.
 
 The concept HTML stays English-authored as the source of truth. Each standalone
-site owns a local `js/main.js` runtime that renders Portuguese by default and
-offers a minimal EN/PT switcher.
+site owns a local `js/main.js` runtime that offers a minimal EN/PT switcher.
 """
 
 from __future__ import annotations
@@ -107,9 +106,9 @@ def runtime_errors() -> list[str]:
                 errors.append(f"Missing page for translation check: concepts/{folder}/{filename}")
                 continue
             raw = path.read_text(encoding="utf-8")
-            for needle in ('lang="pt-BR"', 'data-source-lang="en"', 'data-default-lang="pt"', 'data-partial-mount="status-banner"', 'js/partials.js'):
+            for needle in ('lang="en"', 'data-source-lang="en"', 'data-default-lang="en"', 'data-partial-mount="status-banner"', 'js/partials.js'):
                 if needle not in raw:
-                    errors.append(f"PT-default marker missing {needle}: concepts/{folder}/{filename}")
+                    errors.append(f"English-default marker missing {needle}: concepts/{folder}/{filename}")
     return errors
 
 
@@ -134,8 +133,8 @@ def build_inventory() -> dict[str, object]:
         rows.append({"source": text, "occurrences": count, "pt_BR": pt})
     errors = runtime_errors()
     return {
-        "mode": "pt-default-runtime",
-        "note": "HTML is English-authored; local concept JavaScript renders Portuguese by default with EN/PT switching.",
+        "mode": "english-default-with-optional-pt-runtime",
+        "note": "HTML is English-authored by default; local concept JavaScript offers optional EN/PT switching.",
         "conceptCount": len(required_concepts()),
         "htmlFileCount": sum(1 for folder in required_concepts() for _ in (CONCEPTS_DIR / folder).glob("*.html")),
         "uniqueStringCount": len(rows),
@@ -154,7 +153,7 @@ def write_reports(inventory: dict[str, object]) -> None:
     lines = [
         "# Translation Runtime Report",
         "",
-        "- Mode: pt-default-runtime",
+        "- Mode: english-default-with-optional-pt-runtime",
         f"- Concept count: {inventory['conceptCount']}",
         f"- HTML file count: {inventory['htmlFileCount']}",
         f"- Unique source strings: {inventory['uniqueStringCount']}",
@@ -162,7 +161,7 @@ def write_reports(inventory: dict[str, object]) -> None:
         f"- Runtime errors: {len(inventory['runtimeErrors'])}",
         "- HTML rewrite: no",
         "",
-        "The standalone sites keep English source copy in the files and render Portuguese by default through each concept's own `js/main.js`.",
+        "The standalone sites keep English source copy in the files and offer optional Portuguese switching through each concept's own `js/main.js`.",
     ]
     if inventory["runtimeErrors"]:
         lines.append("")

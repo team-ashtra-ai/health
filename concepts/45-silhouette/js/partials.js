@@ -84,7 +84,7 @@
         "@id": `${concept.domain}/#website`,
         "url": concept.domain,
         "name": "Sofiati",
-        "inLanguage": "pt-BR"
+        "inLanguage": "en"
       },
       {
         "@type": "Person",
@@ -115,7 +115,7 @@
         "description": meta.description,
         "isPartOf": {"@id": `${concept.domain}/#website`},
         "about": {"@id": `${concept.domain}/#professional-service`},
-        "inLanguage": "pt-BR"
+        "inLanguage": "en"
       },
       {
         "@type": "BreadcrumbList",
