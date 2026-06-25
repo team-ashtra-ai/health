@@ -182,3 +182,68 @@
     bootSofiatiConcept();
   }
 })();
+
+/* Sofiati AI asset motion overlay - 24 Signal */
+(() => {
+  const motion = "icon-tilt";
+  const concept = "24-signal";
+  const boot = () => {
+    document.body.classList.add("asset-ready", "asset-motion-" + motion);
+    document.body.dataset.assetSystem = concept;
+    const root = document.documentElement;
+    const onScroll = () => {
+      const max = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
+      root.style.setProperty("--asset-scroll", (window.scrollY / max).toFixed(4));
+    };
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    document.querySelectorAll(".asset-icon-ribbon span").forEach((item, index) => {
+      item.style.setProperty("--asset-index", index);
+      item.addEventListener("pointerenter", () => {
+        item.animate([
+          { transform: "translateY(0) rotate(0deg)" },
+          { transform: "translateY(-11px) rotate(-1deg)" }
+        ], { duration: 375, easing: "ease-out", fill: "forwards" });
+      });
+      item.addEventListener("pointerleave", () => {
+        item.animate([
+          { transform: "translateY(-11px) rotate(-1deg)" },
+          { transform: "translateY(0) rotate(0deg)" }
+        ], { duration: 289, easing: "ease-out", fill: "forwards" });
+      });
+    });
+    document.querySelectorAll("[data-asset-motion]").forEach((strip) => {
+      const divider = strip.querySelector(".asset-strip-divider");
+      if (!divider || !("IntersectionObserver" in window)) return;
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          divider.animate([
+            { opacity: .18, transform: "scaleX(.72) translateY(10px)" },
+            { opacity: .92, transform: "scaleX(1) translateY(0)" }
+          ], { duration: 973, easing: "cubic-bezier(.22,.61,.36,1)", fill: "forwards" });
+          io.unobserve(strip);
+        });
+      }, { threshold: .22 });
+      io.observe(strip);
+    });
+    const portrait = document.querySelector("[data-doctor-presence]");
+    if (portrait) {
+      portrait.addEventListener("pointermove", (event) => {
+        const rect = portrait.getBoundingClientRect();
+        const dx = ((event.clientX - rect.left) / rect.width - .5) * 11;
+        const dy = ((event.clientY - rect.top) / rect.height - .5) * 11;
+        portrait.style.transform = `translate3d(${dx}px, ${dy}px, 0)`;
+      });
+      portrait.addEventListener("pointerleave", () => portrait.style.transform = "");
+    }
+  };
+  if (window.SofiatiPartialsReady) {
+    window.SofiatiPartialsReady.then(boot);
+  } else if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", boot, { once: true });
+  } else {
+    boot();
+  }
+})();
+

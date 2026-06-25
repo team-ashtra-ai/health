@@ -1,0 +1,27 @@
+{
+  "concept": "06-refine",
+  "assetArchetype": "mobile story botanical path",
+  "palette": {
+    "sage": "#A2AEA0",
+    "deep": "#485041",
+    "ivory": "#F3EFE4",
+    "cream": "#F8F7F2",
+    "bronze": "#9A6B35",
+    "gold": "#CDAA78"
+  },
+  "portrait": "assets/portrait/franciele-portrait-refine.webp",
+  "iconCount": 16,
+  "botanicalCount": 7,
+  "folders": [
+    "icons",
+    "botanical",
+    "portrait",
+    "backgrounds",
+    "textures",
+    "forms",
+    "animations",
+    "journal",
+    "service",
+    "generated"
+  ]
+}
