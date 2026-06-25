@@ -1,1005 +1,1055 @@
 # Header, Menu and Footer Screenshot Audit
 
-Concepts passed: 36/50
+Concepts passed: 0/50
 
 This audit checks the JS-loaded public partials, required footer content, mobile menu cleanliness, unique header/menu/footer combinations and screenshot evidence.
 
-## 01-inspire - PASS
+## 01-inspire - FAIL
 
-Combination: `public-header-layout-split|public-menu-layout-editorial-full|public-footer-layout-business-card`
+Combination: `public-header-layout-split|public-menu-layout-editorial-full|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Inspire`
 
-## 02-empower - PASS
+## 02-empower - FAIL
 
-Combination: `public-header-layout-capsule|public-menu-layout-bottom-sheet|public-footer-layout-split-cta`
+Combination: `public-header-layout-capsule|public-menu-layout-bottom-sheet|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Empower`
 
-## 03-enhance - PASS
+## 03-enhance - FAIL
 
-Combination: `public-header-layout-clinical|public-menu-layout-clinical-drawer|public-footer-layout-technical-ledger`
+Combination: `public-header-layout-clinical|public-menu-layout-clinical-drawer|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Enhance`
 
 ## 04-renew - FAIL
 
-Combination: `public-header-layout-transparent|public-menu-layout-botanical-fade|public-footer-layout-flowing-botanical`
+Combination: `public-header-layout-transparent|public-menu-layout-botanical-fade|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Renew`
 
-## 05-elevate - PASS
+## 05-elevate - FAIL
 
-Combination: `public-header-layout-stacked|public-menu-layout-ivory-editorial|public-footer-layout-luxury-skin`
+Combination: `public-header-layout-stacked|public-menu-layout-ivory-editorial|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Elevate`
 
-## 06-refine - PASS
+## 06-refine - FAIL
 
-Combination: `public-header-layout-minimal|public-menu-layout-minimal-drawer|public-footer-layout-minimal-legal`
+Combination: `public-header-layout-minimal|public-menu-layout-minimal-drawer|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Refine`
 
-## 07-glow - PASS
+## 07-glow - FAIL
 
-Combination: `public-header-layout-luminous|public-menu-layout-luminous-overlay|public-footer-layout-radiant-ivory`
+Combination: `public-header-layout-luminous|public-menu-layout-luminous-overlay|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Glow`
 
-## 08-balance - PASS
+## 08-balance - FAIL
 
-Combination: `public-header-layout-balanced|public-menu-layout-two-column|public-footer-layout-symmetrical`
+Combination: `public-header-layout-balanced|public-menu-layout-two-column|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Balance`
 
 ## 09-radiance - FAIL
 
-Combination: `public-header-layout-editorial|public-menu-layout-soft-gradient|public-footer-layout-airy-editorial`
+Combination: `public-header-layout-editorial|public-menu-layout-soft-gradient|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Radiance`
 
-## 10-essence - PASS
+## 10-essence - FAIL
 
-Combination: `public-header-layout-menu-only|public-menu-layout-typographic-full|public-footer-layout-distilled`
+Combination: `public-header-layout-menu-only|public-menu-layout-typographic-full|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Essence`
 
-## 11-bloom - PASS
+## 11-bloom - FAIL
 
-Combination: `public-header-layout-botanical|public-menu-layout-botanical-panel|public-footer-layout-immersive-botanical`
+Combination: `public-header-layout-botanical|public-menu-layout-botanical-panel|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Bloom`
 
-## 12-vital - PASS
+## 12-vital - FAIL
 
-Combination: `public-header-layout-dynamic|public-menu-layout-energetic-drawer|public-footer-layout-staggered-motion`
+Combination: `public-header-layout-dynamic|public-menu-layout-energetic-drawer|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Vital`
 
-## 13-poise - PASS
+## 13-poise - FAIL
 
-Combination: `public-header-layout-poised|public-menu-layout-quiet-editorial|public-footer-layout-poised-editorial`
+Combination: `public-header-layout-poised|public-menu-layout-quiet-editorial|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Poise`
 
 ## 14-aura - FAIL
 
-Combination: `public-header-layout-aura|public-menu-layout-soft-overlay|public-footer-layout-aura-gradient`
+Combination: `public-header-layout-aura|public-menu-layout-soft-overlay|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Aura`
 
-## 15-clarity - PASS
+## 15-clarity - FAIL
 
-Combination: `public-header-layout-grid|public-menu-layout-clinical-grid|public-footer-layout-clarity-grid`
+Combination: `public-header-layout-grid|public-menu-layout-clinical-grid|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Clarity`
 
-## 16-grace - PASS
+## 16-grace - FAIL
 
-Combination: `public-header-layout-curved|public-menu-layout-curved-panel|public-footer-layout-signature-curve`
+Combination: `public-header-layout-curved|public-menu-layout-curved-panel|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Grace`
 
-## 17-sculpt - PASS
+## 17-sculpt - FAIL
 
-Combination: `public-header-layout-sculptural|public-menu-layout-geometric-layer|public-footer-layout-sculptural`
+Combination: `public-header-layout-sculptural|public-menu-layout-geometric-layer|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Sculpt`
 
-## 18-lumin - PASS
+## 18-lumin - FAIL
 
-Combination: `public-header-layout-glass|public-menu-layout-frosted-glass|public-footer-layout-luminous`
+Combination: `public-header-layout-glass|public-menu-layout-frosted-glass|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Lumin`
 
 ## 19-verda - FAIL
 
-Combination: `public-header-layout-verdant|public-menu-layout-deep-botanical|public-footer-layout-verdant`
+Combination: `public-header-layout-verdant|public-menu-layout-deep-botanical|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Verda`
 
-## 20-halo - PASS
+## 20-halo - FAIL
 
-Combination: `public-header-layout-halo|public-menu-layout-radial|public-footer-layout-halo`
+Combination: `public-header-layout-halo|public-menu-layout-radial|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Halo`
 
-## 21-calm - PASS
+## 21-calm - FAIL
 
-Combination: `public-header-layout-calm|public-menu-layout-calm-cream|public-footer-layout-calm`
+Combination: `public-header-layout-calm|public-menu-layout-calm-cream|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Calm`
 
-## 22-precision - PASS
+## 22-precision - FAIL
 
-Combination: `public-header-layout-precision|public-menu-layout-precise-drawer|public-footer-layout-precision`
+Combination: `public-header-layout-precision|public-menu-layout-precise-drawer|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Precision`
 
-## 23-ritual - PASS
+## 23-ritual - FAIL
 
-Combination: `public-header-layout-ritual|public-menu-layout-ritual-full|public-footer-layout-ritual`
+Combination: `public-header-layout-ritual|public-menu-layout-ritual-full|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Ritual`
 
 ## 24-signal - FAIL
 
-Combination: `public-header-layout-signal|public-menu-layout-signal-drawer|public-footer-layout-signal`
+Combination: `public-header-layout-signal|public-menu-layout-signal-drawer|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Signal`
 
-## 25-align - PASS
+## 25-align - FAIL
 
-Combination: `public-header-layout-align|public-menu-layout-card-stack|public-footer-layout-aligned`
+Combination: `public-header-layout-align|public-menu-layout-card-stack|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Align`
 
-## 26-vivant - PASS
+## 26-vivant - FAIL
 
-Combination: `public-header-layout-vivant|public-menu-layout-animated-full|public-footer-layout-vivant`
+Combination: `public-header-layout-vivant|public-menu-layout-animated-full|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Vivant`
 
-## 27-form - PASS
+## 27-form - FAIL
 
-Combination: `public-header-layout-form|public-menu-layout-shape-panels|public-footer-layout-form`
+Combination: `public-header-layout-form|public-menu-layout-shape-panels|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Form`
 
-## 28-pure - PASS
+## 28-pure - FAIL
 
-Combination: `public-header-layout-pure|public-menu-layout-pure-ivory|public-footer-layout-pure`
+Combination: `public-header-layout-pure|public-menu-layout-pure-ivory|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
+- [ ] Header/menu/footer combination is unique
 - [x] Desktop screenshot exists
 - [x] Mobile screenshot exists
+- Forbidden hits: `Pure`
 
 ## 29-solace - FAIL
 
-Combination: `public-header-layout-solace|public-menu-layout-warm-full|public-footer-layout-solace`
+Combination: `public-header-layout-solace|public-menu-layout-warm-full|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
-- [x] Desktop screenshot exists
-- [x] Mobile screenshot exists
+- [ ] Header/menu/footer combination is unique
+- [ ] Desktop screenshot exists
+- [ ] Mobile screenshot exists
+- Forbidden hits: `Solace`
 
-## 30-method - PASS
+## 30-method - FAIL
 
-Combination: `public-header-layout-method|public-menu-layout-process-step|public-footer-layout-method`
+Combination: `public-header-layout-method|public-menu-layout-process-step|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
-- [x] Desktop screenshot exists
-- [x] Mobile screenshot exists
+- [ ] Header/menu/footer combination is unique
+- [ ] Desktop screenshot exists
+- [ ] Mobile screenshot exists
+- Forbidden hits: `Method`
 
-## 31-evolve - PASS
+## 31-evolve - FAIL
 
-Combination: `public-header-layout-evolve|public-menu-layout-animated-reveal|public-footer-layout-evolve`
+Combination: `public-header-layout-evolve|public-menu-layout-animated-reveal|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
-- [x] Desktop screenshot exists
-- [x] Mobile screenshot exists
+- [ ] Header/menu/footer combination is unique
+- [ ] Desktop screenshot exists
+- [ ] Mobile screenshot exists
+- Forbidden hits: `Evolve`
 
-## 32-serene - PASS
+## 32-serene - FAIL
 
-Combination: `public-header-layout-serene|public-menu-layout-serene-ivory|public-footer-layout-serene`
+Combination: `public-header-layout-serene|public-menu-layout-serene-ivory|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
-- [x] Desktop screenshot exists
-- [x] Mobile screenshot exists
+- [ ] Header/menu/footer combination is unique
+- [ ] Desktop screenshot exists
+- [ ] Mobile screenshot exists
+- Forbidden hits: `Serene`
 
-## 33-elan - PASS
+## 33-elan - FAIL
 
-Combination: `public-header-layout-elan|public-menu-layout-bold-editorial|public-footer-layout-elan`
+Combination: `public-header-layout-elan|public-menu-layout-bold-editorial|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
-- [x] Desktop screenshot exists
-- [x] Mobile screenshot exists
+- [ ] Header/menu/footer combination is unique
+- [ ] Desktop screenshot exists
+- [ ] Mobile screenshot exists
+- Forbidden hits: `Elan`
 
 ## 34-flora - FAIL
 
-Combination: `public-header-layout-flora|public-menu-layout-floral-full|public-footer-layout-flora`
+Combination: `public-header-layout-flora|public-menu-layout-floral-full|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
-- [x] Desktop screenshot exists
-- [x] Mobile screenshot exists
+- [ ] Header/menu/footer combination is unique
+- [ ] Desktop screenshot exists
+- [ ] Mobile screenshot exists
+- Forbidden hits: `Flora`
 
-## 35-atelier - PASS
+## 35-atelier - FAIL
 
-Combination: `public-header-layout-atelier|public-menu-layout-atelier-type|public-footer-layout-atelier`
+Combination: `public-header-layout-atelier|public-menu-layout-atelier-type|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
-- [x] Desktop screenshot exists
-- [x] Mobile screenshot exists
+- [ ] Header/menu/footer combination is unique
+- [ ] Desktop screenshot exists
+- [ ] Mobile screenshot exists
+- Forbidden hits: `Atelier`
 
-## 36-lumina - PASS
+## 36-lumina - FAIL
 
-Combination: `public-header-layout-lumina|public-menu-layout-luminous-panel|public-footer-layout-lumina`
+Combination: `public-header-layout-lumina|public-menu-layout-luminous-panel|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
-- [x] Desktop screenshot exists
-- [x] Mobile screenshot exists
+- [ ] Header/menu/footer combination is unique
+- [ ] Desktop screenshot exists
+- [ ] Mobile screenshot exists
+- Forbidden hits: `Lumina`
 
-## 37-vellum - PASS
+## 37-vellum - FAIL
 
-Combination: `public-header-layout-vellum|public-menu-layout-paper-menu|public-footer-layout-vellum`
+Combination: `public-header-layout-vellum|public-menu-layout-paper-menu|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
-- [x] Desktop screenshot exists
-- [x] Mobile screenshot exists
+- [ ] Header/menu/footer combination is unique
+- [ ] Desktop screenshot exists
+- [ ] Mobile screenshot exists
+- Forbidden hits: `Vellum`
 
 ## 38-origin - FAIL
 
-Combination: `public-header-layout-origin|public-menu-layout-grounded-sage|public-footer-layout-origin`
+Combination: `public-header-layout-origin|public-menu-layout-grounded-sage|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
-- [x] Desktop screenshot exists
-- [x] Mobile screenshot exists
+- [ ] Header/menu/footer combination is unique
+- [ ] Desktop screenshot exists
+- [ ] Mobile screenshot exists
+- Forbidden hits: `Origin`
 
 ## 39-kindred - FAIL
 
-Combination: `public-header-layout-kindred|public-menu-layout-warm-card|public-footer-layout-kindred`
+Combination: `public-header-layout-kindred|public-menu-layout-warm-card|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
-- [x] Desktop screenshot exists
-- [x] Mobile screenshot exists
+- [ ] Header/menu/footer combination is unique
+- [ ] Desktop screenshot exists
+- [ ] Mobile screenshot exists
+- Forbidden hits: `Kindred`
 
 ## 40-noble - FAIL
 
-Combination: `public-header-layout-noble|public-menu-layout-dark-elegant|public-footer-layout-noble`
+Combination: `public-header-layout-noble|public-menu-layout-dark-elegant|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
-- [x] Desktop screenshot exists
-- [x] Mobile screenshot exists
+- [ ] Header/menu/footer combination is unique
+- [ ] Desktop screenshot exists
+- [ ] Mobile screenshot exists
+- Forbidden hits: `Noble`
 
-## 41-vista - PASS
+## 41-vista - FAIL
 
-Combination: `public-header-layout-vista|public-menu-layout-wide-panel|public-footer-layout-vista`
+Combination: `public-header-layout-vista|public-menu-layout-wide-panel|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
-- [x] Desktop screenshot exists
-- [x] Mobile screenshot exists
+- [ ] Header/menu/footer combination is unique
+- [ ] Desktop screenshot exists
+- [ ] Mobile screenshot exists
+- Forbidden hits: `Vista`
 
-## 42-softline - PASS
+## 42-softline - FAIL
 
-Combination: `public-header-layout-softline|public-menu-layout-curved-line|public-footer-layout-softline`
+Combination: `public-header-layout-softline|public-menu-layout-curved-line|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
-- [x] Desktop screenshot exists
-- [x] Mobile screenshot exists
+- [ ] Header/menu/footer combination is unique
+- [ ] Desktop screenshot exists
+- [ ] Mobile screenshot exists
+- Forbidden hits: `Softline`
 
-## 43-meridian - PASS
+## 43-meridian - FAIL
 
-Combination: `public-header-layout-meridian|public-menu-layout-meridian-drawer|public-footer-layout-meridian`
+Combination: `public-header-layout-meridian|public-menu-layout-meridian-drawer|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
-- [x] Desktop screenshot exists
-- [x] Mobile screenshot exists
+- [ ] Header/menu/footer combination is unique
+- [ ] Desktop screenshot exists
+- [ ] Mobile screenshot exists
+- Forbidden hits: `Meridian`
 
 ## 44-safeguard - FAIL
 
-Combination: `public-header-layout-safeguard|public-menu-layout-secure-clean|public-footer-layout-safeguard`
+Combination: `public-header-layout-safeguard|public-menu-layout-secure-clean|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
-- [x] Desktop screenshot exists
-- [x] Mobile screenshot exists
+- [ ] Header/menu/footer combination is unique
+- [ ] Desktop screenshot exists
+- [ ] Mobile screenshot exists
+- Forbidden hits: `Safeguard`
 
 ## 45-silhouette - FAIL
 
-Combination: `public-header-layout-silhouette|public-menu-layout-silhouette-overlay|public-footer-layout-silhouette`
+Combination: `public-header-layout-silhouette|public-menu-layout-silhouette-overlay|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
-- [x] Desktop screenshot exists
-- [x] Mobile screenshot exists
+- [ ] Header/menu/footer combination is unique
+- [ ] Desktop screenshot exists
+- [ ] Mobile screenshot exists
+- Forbidden hits: `Silhouette`
 
-## 46-curate - PASS
+## 46-curate - FAIL
 
-Combination: `public-header-layout-curate|public-menu-layout-boutique-selection|public-footer-layout-curate`
+Combination: `public-header-layout-curate|public-menu-layout-boutique-selection|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
-- [x] Desktop screenshot exists
-- [x] Mobile screenshot exists
+- [ ] Header/menu/footer combination is unique
+- [ ] Desktop screenshot exists
+- [ ] Mobile screenshot exists
+- Forbidden hits: `Curate`
 
-## 47-proof - PASS
+## 47-proof - FAIL
 
-Combination: `public-header-layout-proof|public-menu-layout-structured-proof|public-footer-layout-proof`
+Combination: `public-header-layout-proof|public-menu-layout-structured-proof|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
-- [x] Desktop screenshot exists
-- [x] Mobile screenshot exists
+- [ ] Header/menu/footer combination is unique
+- [ ] Desktop screenshot exists
+- [ ] Mobile screenshot exists
+- Forbidden hits: `Proof`
 
-## 48-signature - PASS
+## 48-signature - FAIL
 
-Combination: `public-header-layout-signature|public-menu-layout-signature-full|public-footer-layout-signature`
+Combination: `public-header-layout-signature|public-menu-layout-signature-full|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
-- [x] Desktop screenshot exists
-- [x] Mobile screenshot exists
+- [ ] Header/menu/footer combination is unique
+- [ ] Desktop screenshot exists
+- [ ] Mobile screenshot exists
+- Forbidden hits: `Signature`
 
 ## 49-wisdom - FAIL
 
-Combination: `public-header-layout-wisdom|public-menu-layout-wisdom-editorial|public-footer-layout-wisdom`
+Combination: `public-header-layout-wisdom|public-menu-layout-wisdom-editorial|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
-- [x] Desktop screenshot exists
-- [x] Mobile screenshot exists
+- [ ] Header/menu/footer combination is unique
+- [ ] Desktop screenshot exists
+- [ ] Mobile screenshot exists
+- Forbidden hits: `Wisdom`
 
 ## 50-sovereign - FAIL
 
-Combination: `public-header-layout-sovereign|public-menu-layout-premium-brand|public-footer-layout-sovereign`
+Combination: `public-header-layout-sovereign|public-menu-layout-premium-brand|`
 
-- [x] Public header removes debug/development/contact text
-- [x] Concept name absent from public header/menu
+- [ ] Public header removes debug/development/contact text
+- [ ] Concept name absent from public header/menu
 - [ ] Sofiati logo visible and elegant
 - [x] Language switcher present and refined
 - [x] Primary links consistent
 - [x] Secondary and legal links stay footer-only
-- [x] WhatsApp, email, Instagram, CRBM and location removed from menu
+- [ ] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the correct columns
 - [x] Footer content matches the brief
 - [x] Footer includes professional details
 - [x] Footer includes contact details
 - [x] Footer includes bottom disclaimer and copyright
-- [x] Header/menu/footer combination is unique
-- [x] Desktop screenshot exists
-- [x] Mobile screenshot exists
+- [ ] Header/menu/footer combination is unique
+- [ ] Desktop screenshot exists
+- [ ] Mobile screenshot exists
+- Forbidden hits: `Sovereign`

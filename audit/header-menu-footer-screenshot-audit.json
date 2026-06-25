@@ -1,116 +1,124 @@
 [
   {
     "concept": "01-inspire",
-    "combo": "public-header-layout-split|public-menu-layout-editorial-full|public-footer-layout-business-card",
+    "combo": "public-header-layout-split|public-menu-layout-editorial-full|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Inspire"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "02-empower",
-    "combo": "public-header-layout-capsule|public-menu-layout-bottom-sheet|public-footer-layout-split-cta",
+    "combo": "public-header-layout-capsule|public-menu-layout-bottom-sheet|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Empower"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "03-enhance",
-    "combo": "public-header-layout-clinical|public-menu-layout-clinical-drawer|public-footer-layout-technical-ledger",
+    "combo": "public-header-layout-clinical|public-menu-layout-clinical-drawer|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Enhance"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "04-renew",
-    "combo": "public-header-layout-transparent|public-menu-layout-botanical-fade|public-footer-layout-flowing-botanical",
+    "combo": "public-header-layout-transparent|public-menu-layout-botanical-fade|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": false,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Renew"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
@@ -121,146 +129,156 @@
   },
   {
     "concept": "05-elevate",
-    "combo": "public-header-layout-stacked|public-menu-layout-ivory-editorial|public-footer-layout-luxury-skin",
+    "combo": "public-header-layout-stacked|public-menu-layout-ivory-editorial|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Elevate"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "06-refine",
-    "combo": "public-header-layout-minimal|public-menu-layout-minimal-drawer|public-footer-layout-minimal-legal",
+    "combo": "public-header-layout-minimal|public-menu-layout-minimal-drawer|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Refine"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "07-glow",
-    "combo": "public-header-layout-luminous|public-menu-layout-luminous-overlay|public-footer-layout-radiant-ivory",
+    "combo": "public-header-layout-luminous|public-menu-layout-luminous-overlay|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Glow"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "08-balance",
-    "combo": "public-header-layout-balanced|public-menu-layout-two-column|public-footer-layout-symmetrical",
+    "combo": "public-header-layout-balanced|public-menu-layout-two-column|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Balance"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "09-radiance",
-    "combo": "public-header-layout-editorial|public-menu-layout-soft-gradient|public-footer-layout-airy-editorial",
+    "combo": "public-header-layout-editorial|public-menu-layout-soft-gradient|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": false,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Radiance"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
@@ -271,146 +289,156 @@
   },
   {
     "concept": "10-essence",
-    "combo": "public-header-layout-menu-only|public-menu-layout-typographic-full|public-footer-layout-distilled",
+    "combo": "public-header-layout-menu-only|public-menu-layout-typographic-full|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Essence"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "11-bloom",
-    "combo": "public-header-layout-botanical|public-menu-layout-botanical-panel|public-footer-layout-immersive-botanical",
+    "combo": "public-header-layout-botanical|public-menu-layout-botanical-panel|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Bloom"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "12-vital",
-    "combo": "public-header-layout-dynamic|public-menu-layout-energetic-drawer|public-footer-layout-staggered-motion",
+    "combo": "public-header-layout-dynamic|public-menu-layout-energetic-drawer|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Vital"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "13-poise",
-    "combo": "public-header-layout-poised|public-menu-layout-quiet-editorial|public-footer-layout-poised-editorial",
+    "combo": "public-header-layout-poised|public-menu-layout-quiet-editorial|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Poise"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "14-aura",
-    "combo": "public-header-layout-aura|public-menu-layout-soft-overlay|public-footer-layout-aura-gradient",
+    "combo": "public-header-layout-aura|public-menu-layout-soft-overlay|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": false,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Aura"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
@@ -421,146 +449,156 @@
   },
   {
     "concept": "15-clarity",
-    "combo": "public-header-layout-grid|public-menu-layout-clinical-grid|public-footer-layout-clarity-grid",
+    "combo": "public-header-layout-grid|public-menu-layout-clinical-grid|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Clarity"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "16-grace",
-    "combo": "public-header-layout-curved|public-menu-layout-curved-panel|public-footer-layout-signature-curve",
+    "combo": "public-header-layout-curved|public-menu-layout-curved-panel|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Grace"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "17-sculpt",
-    "combo": "public-header-layout-sculptural|public-menu-layout-geometric-layer|public-footer-layout-sculptural",
+    "combo": "public-header-layout-sculptural|public-menu-layout-geometric-layer|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Sculpt"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "18-lumin",
-    "combo": "public-header-layout-glass|public-menu-layout-frosted-glass|public-footer-layout-luminous",
+    "combo": "public-header-layout-glass|public-menu-layout-frosted-glass|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Lumin"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "19-verda",
-    "combo": "public-header-layout-verdant|public-menu-layout-deep-botanical|public-footer-layout-verdant",
+    "combo": "public-header-layout-verdant|public-menu-layout-deep-botanical|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": false,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Verda"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
@@ -571,146 +609,156 @@
   },
   {
     "concept": "20-halo",
-    "combo": "public-header-layout-halo|public-menu-layout-radial|public-footer-layout-halo",
+    "combo": "public-header-layout-halo|public-menu-layout-radial|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Halo"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "21-calm",
-    "combo": "public-header-layout-calm|public-menu-layout-calm-cream|public-footer-layout-calm",
+    "combo": "public-header-layout-calm|public-menu-layout-calm-cream|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Calm"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "22-precision",
-    "combo": "public-header-layout-precision|public-menu-layout-precise-drawer|public-footer-layout-precision",
+    "combo": "public-header-layout-precision|public-menu-layout-precise-drawer|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Precision"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "23-ritual",
-    "combo": "public-header-layout-ritual|public-menu-layout-ritual-full|public-footer-layout-ritual",
+    "combo": "public-header-layout-ritual|public-menu-layout-ritual-full|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Ritual"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "24-signal",
-    "combo": "public-header-layout-signal|public-menu-layout-signal-drawer|public-footer-layout-signal",
+    "combo": "public-header-layout-signal|public-menu-layout-signal-drawer|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": false,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Signal"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
@@ -721,781 +769,833 @@
   },
   {
     "concept": "25-align",
-    "combo": "public-header-layout-align|public-menu-layout-card-stack|public-footer-layout-aligned",
+    "combo": "public-header-layout-align|public-menu-layout-card-stack|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Align"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "26-vivant",
-    "combo": "public-header-layout-vivant|public-menu-layout-animated-full|public-footer-layout-vivant",
+    "combo": "public-header-layout-vivant|public-menu-layout-animated-full|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Vivant"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "27-form",
-    "combo": "public-header-layout-form|public-menu-layout-shape-panels|public-footer-layout-form",
+    "combo": "public-header-layout-form|public-menu-layout-shape-panels|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Form"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "28-pure",
-    "combo": "public-header-layout-pure|public-menu-layout-pure-ivory|public-footer-layout-pure",
+    "combo": "public-header-layout-pure|public-menu-layout-pure-ivory|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
+      "unique_header_menu_footer_combo": false,
       "desktop_screenshot": true,
       "mobile_screenshot": true
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Pure"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
       "desktop": true,
       "mobile": true
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "29-solace",
-    "combo": "public-header-layout-solace|public-menu-layout-warm-full|public-footer-layout-solace",
+    "combo": "public-header-layout-solace|public-menu-layout-warm-full|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": false,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
-      "desktop_screenshot": true,
-      "mobile_screenshot": true
+      "unique_header_menu_footer_combo": false,
+      "desktop_screenshot": false,
+      "mobile_screenshot": false
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Solace"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
-      "desktop": true,
-      "mobile": true
+      "desktop": false,
+      "mobile": false
     },
     "pass": false
   },
   {
     "concept": "30-method",
-    "combo": "public-header-layout-method|public-menu-layout-process-step|public-footer-layout-method",
+    "combo": "public-header-layout-method|public-menu-layout-process-step|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
-      "desktop_screenshot": true,
-      "mobile_screenshot": true
+      "unique_header_menu_footer_combo": false,
+      "desktop_screenshot": false,
+      "mobile_screenshot": false
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Method"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
-      "desktop": true,
-      "mobile": true
+      "desktop": false,
+      "mobile": false
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "31-evolve",
-    "combo": "public-header-layout-evolve|public-menu-layout-animated-reveal|public-footer-layout-evolve",
+    "combo": "public-header-layout-evolve|public-menu-layout-animated-reveal|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
-      "desktop_screenshot": true,
-      "mobile_screenshot": true
+      "unique_header_menu_footer_combo": false,
+      "desktop_screenshot": false,
+      "mobile_screenshot": false
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Evolve"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
-      "desktop": true,
-      "mobile": true
+      "desktop": false,
+      "mobile": false
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "32-serene",
-    "combo": "public-header-layout-serene|public-menu-layout-serene-ivory|public-footer-layout-serene",
+    "combo": "public-header-layout-serene|public-menu-layout-serene-ivory|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
-      "desktop_screenshot": true,
-      "mobile_screenshot": true
+      "unique_header_menu_footer_combo": false,
+      "desktop_screenshot": false,
+      "mobile_screenshot": false
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Serene"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
-      "desktop": true,
-      "mobile": true
+      "desktop": false,
+      "mobile": false
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "33-elan",
-    "combo": "public-header-layout-elan|public-menu-layout-bold-editorial|public-footer-layout-elan",
+    "combo": "public-header-layout-elan|public-menu-layout-bold-editorial|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
-      "desktop_screenshot": true,
-      "mobile_screenshot": true
+      "unique_header_menu_footer_combo": false,
+      "desktop_screenshot": false,
+      "mobile_screenshot": false
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Elan"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
-      "desktop": true,
-      "mobile": true
+      "desktop": false,
+      "mobile": false
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "34-flora",
-    "combo": "public-header-layout-flora|public-menu-layout-floral-full|public-footer-layout-flora",
+    "combo": "public-header-layout-flora|public-menu-layout-floral-full|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": false,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
-      "desktop_screenshot": true,
-      "mobile_screenshot": true
+      "unique_header_menu_footer_combo": false,
+      "desktop_screenshot": false,
+      "mobile_screenshot": false
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Flora"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
-      "desktop": true,
-      "mobile": true
+      "desktop": false,
+      "mobile": false
     },
     "pass": false
   },
   {
     "concept": "35-atelier",
-    "combo": "public-header-layout-atelier|public-menu-layout-atelier-type|public-footer-layout-atelier",
+    "combo": "public-header-layout-atelier|public-menu-layout-atelier-type|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
-      "desktop_screenshot": true,
-      "mobile_screenshot": true
+      "unique_header_menu_footer_combo": false,
+      "desktop_screenshot": false,
+      "mobile_screenshot": false
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Atelier"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
-      "desktop": true,
-      "mobile": true
+      "desktop": false,
+      "mobile": false
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "36-lumina",
-    "combo": "public-header-layout-lumina|public-menu-layout-luminous-panel|public-footer-layout-lumina",
+    "combo": "public-header-layout-lumina|public-menu-layout-luminous-panel|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
-      "desktop_screenshot": true,
-      "mobile_screenshot": true
+      "unique_header_menu_footer_combo": false,
+      "desktop_screenshot": false,
+      "mobile_screenshot": false
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Lumina"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
-      "desktop": true,
-      "mobile": true
+      "desktop": false,
+      "mobile": false
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "37-vellum",
-    "combo": "public-header-layout-vellum|public-menu-layout-paper-menu|public-footer-layout-vellum",
+    "combo": "public-header-layout-vellum|public-menu-layout-paper-menu|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
-      "desktop_screenshot": true,
-      "mobile_screenshot": true
+      "unique_header_menu_footer_combo": false,
+      "desktop_screenshot": false,
+      "mobile_screenshot": false
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Vellum"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
-      "desktop": true,
-      "mobile": true
+      "desktop": false,
+      "mobile": false
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "38-origin",
-    "combo": "public-header-layout-origin|public-menu-layout-grounded-sage|public-footer-layout-origin",
+    "combo": "public-header-layout-origin|public-menu-layout-grounded-sage|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": false,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
-      "desktop_screenshot": true,
-      "mobile_screenshot": true
+      "unique_header_menu_footer_combo": false,
+      "desktop_screenshot": false,
+      "mobile_screenshot": false
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Origin"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
-      "desktop": true,
-      "mobile": true
+      "desktop": false,
+      "mobile": false
     },
     "pass": false
   },
   {
     "concept": "39-kindred",
-    "combo": "public-header-layout-kindred|public-menu-layout-warm-card|public-footer-layout-kindred",
+    "combo": "public-header-layout-kindred|public-menu-layout-warm-card|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": false,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
-      "desktop_screenshot": true,
-      "mobile_screenshot": true
+      "unique_header_menu_footer_combo": false,
+      "desktop_screenshot": false,
+      "mobile_screenshot": false
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Kindred"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
-      "desktop": true,
-      "mobile": true
+      "desktop": false,
+      "mobile": false
     },
     "pass": false
   },
   {
     "concept": "40-noble",
-    "combo": "public-header-layout-noble|public-menu-layout-dark-elegant|public-footer-layout-noble",
+    "combo": "public-header-layout-noble|public-menu-layout-dark-elegant|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": false,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
-      "desktop_screenshot": true,
-      "mobile_screenshot": true
+      "unique_header_menu_footer_combo": false,
+      "desktop_screenshot": false,
+      "mobile_screenshot": false
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Noble"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
-      "desktop": true,
-      "mobile": true
+      "desktop": false,
+      "mobile": false
     },
     "pass": false
   },
   {
     "concept": "41-vista",
-    "combo": "public-header-layout-vista|public-menu-layout-wide-panel|public-footer-layout-vista",
+    "combo": "public-header-layout-vista|public-menu-layout-wide-panel|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
-      "desktop_screenshot": true,
-      "mobile_screenshot": true
+      "unique_header_menu_footer_combo": false,
+      "desktop_screenshot": false,
+      "mobile_screenshot": false
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Vista"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
-      "desktop": true,
-      "mobile": true
+      "desktop": false,
+      "mobile": false
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "42-softline",
-    "combo": "public-header-layout-softline|public-menu-layout-curved-line|public-footer-layout-softline",
+    "combo": "public-header-layout-softline|public-menu-layout-curved-line|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
-      "desktop_screenshot": true,
-      "mobile_screenshot": true
+      "unique_header_menu_footer_combo": false,
+      "desktop_screenshot": false,
+      "mobile_screenshot": false
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Softline"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
-      "desktop": true,
-      "mobile": true
+      "desktop": false,
+      "mobile": false
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "43-meridian",
-    "combo": "public-header-layout-meridian|public-menu-layout-meridian-drawer|public-footer-layout-meridian",
+    "combo": "public-header-layout-meridian|public-menu-layout-meridian-drawer|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
-      "desktop_screenshot": true,
-      "mobile_screenshot": true
+      "unique_header_menu_footer_combo": false,
+      "desktop_screenshot": false,
+      "mobile_screenshot": false
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Meridian"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
-      "desktop": true,
-      "mobile": true
+      "desktop": false,
+      "mobile": false
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "44-safeguard",
-    "combo": "public-header-layout-safeguard|public-menu-layout-secure-clean|public-footer-layout-safeguard",
+    "combo": "public-header-layout-safeguard|public-menu-layout-secure-clean|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": false,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
-      "desktop_screenshot": true,
-      "mobile_screenshot": true
+      "unique_header_menu_footer_combo": false,
+      "desktop_screenshot": false,
+      "mobile_screenshot": false
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Safeguard"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
-      "desktop": true,
-      "mobile": true
+      "desktop": false,
+      "mobile": false
     },
     "pass": false
   },
   {
     "concept": "45-silhouette",
-    "combo": "public-header-layout-silhouette|public-menu-layout-silhouette-overlay|public-footer-layout-silhouette",
+    "combo": "public-header-layout-silhouette|public-menu-layout-silhouette-overlay|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": false,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
-      "desktop_screenshot": true,
-      "mobile_screenshot": true
+      "unique_header_menu_footer_combo": false,
+      "desktop_screenshot": false,
+      "mobile_screenshot": false
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Silhouette"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
-      "desktop": true,
-      "mobile": true
+      "desktop": false,
+      "mobile": false
     },
     "pass": false
   },
   {
     "concept": "46-curate",
-    "combo": "public-header-layout-curate|public-menu-layout-boutique-selection|public-footer-layout-curate",
+    "combo": "public-header-layout-curate|public-menu-layout-boutique-selection|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
-      "desktop_screenshot": true,
-      "mobile_screenshot": true
+      "unique_header_menu_footer_combo": false,
+      "desktop_screenshot": false,
+      "mobile_screenshot": false
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Curate"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
-      "desktop": true,
-      "mobile": true
+      "desktop": false,
+      "mobile": false
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "47-proof",
-    "combo": "public-header-layout-proof|public-menu-layout-structured-proof|public-footer-layout-proof",
+    "combo": "public-header-layout-proof|public-menu-layout-structured-proof|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
-      "desktop_screenshot": true,
-      "mobile_screenshot": true
+      "unique_header_menu_footer_combo": false,
+      "desktop_screenshot": false,
+      "mobile_screenshot": false
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Proof"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
-      "desktop": true,
-      "mobile": true
+      "desktop": false,
+      "mobile": false
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "48-signature",
-    "combo": "public-header-layout-signature|public-menu-layout-signature-full|public-footer-layout-signature",
+    "combo": "public-header-layout-signature|public-menu-layout-signature-full|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": true,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
-      "desktop_screenshot": true,
-      "mobile_screenshot": true
+      "unique_header_menu_footer_combo": false,
+      "desktop_screenshot": false,
+      "mobile_screenshot": false
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Signature"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
-      "desktop": true,
-      "mobile": true
+      "desktop": false,
+      "mobile": false
     },
-    "pass": true
+    "pass": false
   },
   {
     "concept": "49-wisdom",
-    "combo": "public-header-layout-wisdom|public-menu-layout-wisdom-editorial|public-footer-layout-wisdom",
+    "combo": "public-header-layout-wisdom|public-menu-layout-wisdom-editorial|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": false,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
-      "desktop_screenshot": true,
-      "mobile_screenshot": true
+      "unique_header_menu_footer_combo": false,
+      "desktop_screenshot": false,
+      "mobile_screenshot": false
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Wisdom"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
-      "desktop": true,
-      "mobile": true
+      "desktop": false,
+      "mobile": false
     },
     "pass": false
   },
   {
     "concept": "50-sovereign",
-    "combo": "public-header-layout-sovereign|public-menu-layout-premium-brand|public-footer-layout-sovereign",
+    "combo": "public-header-layout-sovereign|public-menu-layout-premium-brand|",
     "checks": {
       "js_loaded_partials": true,
-      "header_no_debug_or_contact": true,
-      "concept_name_absent_from_header_menu": true,
+      "header_no_debug_or_contact": false,
+      "concept_name_absent_from_header_menu": false,
       "logo_visible": false,
       "language_switcher": true,
       "primary_links_consistent": true,
       "secondary_links_footer_only": true,
-      "mobile_menu_clean": true,
+      "mobile_menu_clean": false,
       "footer_columns": true,
       "footer_content_consistent": true,
       "footer_professional_details": true,
       "footer_contact_details": true,
       "footer_bottom_row": true,
-      "unique_header_menu_footer_combo": true,
-      "desktop_screenshot": true,
-      "mobile_screenshot": true
+      "unique_header_menu_footer_combo": false,
+      "desktop_screenshot": false,
+      "mobile_screenshot": false
     },
-    "forbiddenHits": [],
+    "forbiddenHits": [
+      "Sovereign"
+    ],
     "footerOnlyInMenu": [],
     "footerMissing": [],
     "screenshots": {
-      "desktop": true,
-      "mobile": true
+      "desktop": false,
+      "mobile": false
     },
     "pass": false
   }

@@ -3,14 +3,14 @@
   "use strict";
 
   const CONFIG = {"code": "40", "slug": "noble", "bg": "#201F1E", "fg": "#F8F7F2", "muted": "rgba(248,247,242,.72)", "accent": "#DAB26F", "border": "1px solid rgba(218,178,111,.24)", "width": "min(1180px,calc(100% - 38px))", "padding": "10px 0", "fontSize": ".81rem", "align": "center", "layout": "editorial", "separator": "champagne", "marker": "diamond", "buttonStyle": "text", "radius": "4px", "autoDelayMs": 13800};
-  const STORAGE_KEY = "sofiatiFooterCookie:" + CONFIG.code;
+  const STORAGE_KEY = "sofiatiFooterCookie:v2:" + CONFIG.code;
 
   if (localStorage.getItem(STORAGE_KEY)) return;
 
   function saveConsent(mode) {
     const payload = {
       essential: true,
-      analytics: mode === "all",
+      analytics: false,
       experience: mode === "all",
       mode,
       updatedAt: new Date().toISOString()
@@ -300,7 +300,7 @@
       <div class="sf-footer-cookie-inner">
         <span class="sf-footer-cookie-mark" aria-hidden="true"></span>
         <p class="sf-footer-cookie-text">
-          <strong>Cookies:</strong> essential cookies keep this site working. Optional cookies help improve the experience.
+          <strong>Cookies:</strong> essential storage keeps this site working. Optional preferences are only used if enabled.
         </p>
         <div class="sf-footer-cookie-actions">
           <button type="button" data-cookie-choice="all">Accept</button>
@@ -328,12 +328,6 @@
       document.body.appendChild(bar);
     }
 
-    window.setTimeout(() => {
-      if (!localStorage.getItem(STORAGE_KEY) && document.body.contains(bar)) {
-        saveConsent("essential");
-        bar.remove();
-      }
-    }, CONFIG.autoDelayMs);
   }
 
   if (document.readyState === "loading") {
