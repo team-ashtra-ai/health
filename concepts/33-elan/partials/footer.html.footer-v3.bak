@@ -1,0 +1,56 @@
+<footer class="site-footer public-footer public-footer-33 public-footer-layout-elan" data-public-footer="elan">
+  <div class="public-footer-shell">
+    <section class="footer-brand-panel" aria-label="Brand identity">
+      <a class="brand-mark public-brand-mark footer-signature-mark" href="index.html" aria-label="Sofiati home">
+        <img src="assets/brand/assinatura-1.jpg" alt="Franciele Sofiati signature logo" width="500" height="500">
+      </a>
+      <h3>Brand</h3>
+      <h2>Franciele Sofiati</h2>
+      <p class="footer-role">Advanced Aesthetic Biomedicine</p>
+      <p class="footer-credential">CRBM 6277</p>
+      <p class="footer-slogan">Laser and skin care guided by professional evaluation in Londrina, PR.</p>
+      <div class="footer-actions" aria-label="Footer actions">
+        <a class="footer-button footer-button-primary" href="consultation.html">Consultation</a>
+      </div>
+    </section>
+    <nav class="footer-link-group footer-main-links" aria-label="Main Pages">
+      <h3>Main Pages</h3>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="care.html">Care</a>
+    <a href="laser.html">Laser</a>
+    <a href="skin.html">Skin</a>
+    <a href="results.html">Results</a>
+    <a href="consultation.html">Consultation</a>
+    <a href="contact.html">Contact</a>
+    </nav>
+    <nav class="footer-link-group footer-trust-links" aria-label="Brand and Trust">
+      <h3>Brand and Trust</h3>
+    <a href="mission.html">Mission</a>
+    <a href="values.html">Values</a>
+    <a href="testimonials.html">Testimonials</a>
+    <a href="faq.html">FAQ</a>
+    <a href="journal.html">Journal</a>
+    <a href="blog.html">Blog</a>
+    </nav>
+    <nav class="footer-link-group footer-legal-links" aria-label="Legal">
+      <h3>Legal</h3>
+    <a href="legal.html">Legal</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="cookies.html">Cookies</a>
+    <a href="accessibility.html">Accessibility</a>
+    <a href="../../sitemap.xml">Sitemap</a>
+    </nav>
+    <address class="footer-contact" aria-label="Contact">
+      <h3>Contact</h3>
+      <a href="https://wa.me/5543991043536" rel="noopener" target="_blank">WhatsApp: (43) 9 9104-3536</a>
+      <a href="mailto:sofiatimendonca@gmail.com">sofiatimendonca@gmail.com</a>
+      <a href="https://www.instagram.com/fransofiati_biomedica/" rel="noopener" target="_blank">@fransofiati_biomedica</a>
+      <span>Londrina, PR</span>
+    </address>
+    <div class="footer-bottom-row">
+      <p>Information on this website is educational and does not replace an individual professional evaluation.</p>
+      <p>© 2026 Franciele Sofiati. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
