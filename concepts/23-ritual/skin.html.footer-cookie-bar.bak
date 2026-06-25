@@ -1,0 +1,170 @@
+        <!doctype html>
+        <html lang="en" data-source-lang="en" data-default-lang="en">
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>Skin | Franciele Sofiati</title>
+          <!-- Head Metadata Partial Mount -->
+          <link rel="stylesheet" href="css/style.css">
+        </head>
+        <body class="concept concept-ritual page-skin" data-concept="23-ritual" data-page="skin" data-page-label="Skin" data-page-title="Skin | Franciele Sofiati" data-page-description="Skin quality care focused on clarity, texture, sensitivity and barrier respect." data-canonical="https://www.sofiati.com/concepts/23-ritual/skin.html" data-default-lang="en">
+          <a class="skip-link" href="#main">Skip to main content</a>
+          <!-- Status Banner Partial Mount -->
+          <div data-partial-mount="status-banner"></div>
+          <!-- Accessibility Controls Partial Mount -->
+          <div data-partial-mount="accessibility"></div>
+          <!-- Header Partial Mount -->
+          <div data-partial-mount="header"></div>
+          <!-- Mobile Menu Partial Mount -->
+          <div data-partial-mount="mobile-menu"></div>
+          <main id="main" class="page-layout layout-22" data-section-order="hero-monogram-services-journal-contact-23">
+          <!-- Hero Section -->
+          <section class="hero hero-01 hero-mode-10" data-hero="hero-23-ritual">
+            <span class="hero-index" aria-hidden="true">23</span>
+            <img class="hero-monogram" src="assets/brand/sofiati-monogram-bronze.png" alt="">
+            <div class="hero-copy">
+              <p class="eyebrow">Advanced Aesthetic Biomedicine · Londrina, PR</p>
+              <h1>Skin quality education for clarity, comfort and confidence.</h1>
+              <p>Skin cleansing, spots and melasma education, rosacea education, flaccidity and wrinkles education sit inside professional care.</p>
+              <div class="hero-actions">
+                <a class="button button-primary" href="consultation.html">Book consultation</a>
+                <a class="button button-soft" href="laser.html">View laser care</a>
+              </div>
+            </div>
+            <figure class="hero-visual">
+              <img src="assets/images/skin/sofiati-skin-care-soft-sage-story-background.webp" alt="Sofiati Skin visual">
+              <figcaption>Personalised care, laser precision and skin quality.</figcaption>
+            </figure>
+            <div class="hero-mosaic" aria-hidden="true">
+              <img src="assets/images/about/franciele-sofiati-brand-story-botanical-moodboard.webp" alt="">
+              <img src="assets/images/skin/sofiati-skin-care-soft-sage-story-background.webp" alt="">
+              <img src="assets/images/consultation/sofiati-consultation-stationery-care-pathway.webp" alt="">
+            </div>
+
+<aside class="doctor-presence doctor-presence-23" data-doctor-presence>
+  <img src="assets/portrait/franciele-portrait-ritual.webp" alt="Franciele Sofiati, CRBM 6277, advanced aesthetic biomedicine specialist in Londrina, PR">
+  <div>
+    <p>Franciele Sofiati</p>
+    <span>CRBM 6277 · Londrina, PR</span>
+  </div>
+</aside>
+<img class="hero-botanical-accent" src="assets/botanical/sage-botanical-corner.svg" alt="" aria-hidden="true">
+          </section>
+          <!-- Page Content System Section -->
+        <section class="content-system content-system-05">
+          <div class="section-heading">
+            <p class="eyebrow">Care pathways</p>
+            <h2>Skin quality</h2>
+            <p>Skin care is organised around comfort, quality and individual needs.</p>
+          </div>
+          <div class="component-grid component-grid-04">
+            <article class="panel panel-note"><h3>Skin cleansing</h3><p>Skin cleansing is framed with comfort and barrier respect.</p><em>medical skin landing</em></article>
+<article class="panel panel-editorial"><span>02</span><h3>Spots and melasma education</h3><p>Spots and melasma education stays careful because response varies.</p></article>
+<article class="panel panel-card"><h3>Rosacea education</h3><p>Rosacea education prioritises sensitivity, redness and professional evaluation.</p><a href="consultation.html">Discuss in consultation</a></article>
+<article class="panel panel-spec"><small>23.04</small><h3>Flaccidity and wrinkles education</h3><p>Flaccidity and wrinkles education keeps a natural-looking long view.</p></article>
+          </div>
+        </section>
+<!-- Responsible Information Section --><section class="responsible-note" aria-label="Responsible results note"><h2>Responsible aesthetic information</h2><p>Results may vary according to individual characteristics, professional evaluation, treatment indication, protocol, number of sessions and aftercare. Information on this website is educational and does not replace an individual professional evaluation.</p></section>
+<!-- Consultation Form Section -->
+<section class="form-section form-section-compact" data-form-context="compact">
+  <div class="section-heading">
+    <p class="eyebrow">Consultation</p>
+    <h2>Begin with evaluation</h2>
+    <p>A short consultation route keeps decisions calm, private and evaluation-led.</p>
+  </div>
+  <!-- Consultation Form Partial Mount -->
+  <div data-partial-mount="consultation-form"></div>
+</section>
+<!-- Footer CTA Section -->
+<section class="consultation-band">
+  <p>CRBM 6277 · Londrina, PR</p>
+  <h2>Professional evaluation before protocol selection.</h2>
+  <a class="button button-primary" href="consultation.html">Book consultation</a>
+  <a class="button button-soft" href="contact.html">Continue to contact</a>
+</section>
+<!-- Contact Card Section -->
+<section class="contact-card-section">
+  <!-- Contact Card Partial Mount -->
+  <div data-partial-mount="contact-card"></div>
+</section>
+        </main>
+          <!-- Cookie Banner Partial Mount -->
+          <div data-partial-mount="cookie-banner"></div>
+          <!-- Footer Partial Mount -->
+          <div data-partial-mount="footer"></div>
+          <!-- Floating Widgets Partial Mount -->
+          <div data-partial-mount="floating-widgets"></div>
+          <!-- Schema Partial Mount -->
+          <script src="js/partials.js" defer></script>
+          <script src="js/main.js" defer></script>
+        <!-- SOFIATI COOKIE NOTICE V1 START -->
+<section
+  class="sofiati-cookie-notice sofiati-cookie-23 sofiati-cookie-layout-step-card sofiati-cookie-motion-rise"
+  data-cookie-notice
+  data-cookie-key="sofiatiCookieConsent:23"
+  data-cookie-visible="false"
+  role="region"
+  aria-label="Cookie preferences"
+>
+  <div class="sofiati-cookie-shell">
+    <div class="sofiati-cookie-icon" aria-hidden="true"></div>
+
+    <div class="sofiati-cookie-copy">
+      <p class="sofiati-cookie-kicker">Cookie preferences</p>
+      <h2>Choose how this site may use cookies</h2>
+      <p>
+        We use essential cookies to keep the website working. With your permission,
+        optional cookies may help improve the experience and understand general site use.
+      </p>
+    </div>
+
+    <div class="sofiati-cookie-actions" aria-label="Cookie actions">
+      <button type="button" class="sofiati-cookie-btn sofiati-cookie-btn-primary" data-cookie-action="accept">
+        Accept all
+      </button>
+      <button type="button" class="sofiati-cookie-btn sofiati-cookie-btn-secondary" data-cookie-action="reject">
+        Reject optional
+      </button>
+      <button type="button" class="sofiati-cookie-btn sofiati-cookie-btn-ghost" data-cookie-action="manage" aria-expanded="false">
+        Manage choices
+      </button>
+    </div>
+
+    <div class="sofiati-cookie-panel" data-cookie-panel hidden>
+      <div class="sofiati-cookie-choice">
+        <div>
+          <strong>Essential cookies</strong>
+          <span>Required for the website to work.</span>
+        </div>
+        <span class="sofiati-cookie-always">Always on</span>
+      </div>
+
+      <label class="sofiati-cookie-choice">
+        <span>
+          <strong>Analytics cookies</strong>
+          <span>Help understand general site use if analytics are enabled.</span>
+        </span>
+        <input type="checkbox" data-cookie-toggle="analytics">
+      </label>
+
+      <label class="sofiati-cookie-choice">
+        <span>
+          <strong>Experience cookies</strong>
+          <span>Help remember simple preferences where available.</span>
+        </span>
+        <input type="checkbox" data-cookie-toggle="experience">
+      </label>
+
+      <div class="sofiati-cookie-panel-actions">
+        <button type="button" class="sofiati-cookie-btn sofiati-cookie-btn-primary" data-cookie-action="save">
+          Save choices
+        </button>
+        <a href="cookies.html">Cookies policy</a>
+        <a href="privacy.html">Privacy information</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- SOFIATI COOKIE NOTICE V1 END -->
+</body>
+        </html>
