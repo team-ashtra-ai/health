@@ -1,0 +1,623 @@
+{
+  "baseUrl": "http://127.0.0.1:8000",
+  "fullPage": true,
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "height": 1100,
+      "mobile": false
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "mobile": true
+    }
+  },
+  "count": 100,
+  "screenshots": [
+    {
+      "viewport": "desktop",
+      "concept": "01-inspire",
+      "url": "/concepts/01-inspire/index.html",
+      "file": "audit/screenshots/desktop/01-inspire-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "01-inspire",
+      "url": "/concepts/01-inspire/index.html",
+      "file": "audit/screenshots/mobile/01-inspire-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "02-empower",
+      "url": "/concepts/02-empower/index.html",
+      "file": "audit/screenshots/desktop/02-empower-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "02-empower",
+      "url": "/concepts/02-empower/index.html",
+      "file": "audit/screenshots/mobile/02-empower-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "03-enhance",
+      "url": "/concepts/03-enhance/index.html",
+      "file": "audit/screenshots/desktop/03-enhance-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "03-enhance",
+      "url": "/concepts/03-enhance/index.html",
+      "file": "audit/screenshots/mobile/03-enhance-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "04-renew",
+      "url": "/concepts/04-renew/index.html",
+      "file": "audit/screenshots/desktop/04-renew-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "04-renew",
+      "url": "/concepts/04-renew/index.html",
+      "file": "audit/screenshots/mobile/04-renew-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "05-elevate",
+      "url": "/concepts/05-elevate/index.html",
+      "file": "audit/screenshots/desktop/05-elevate-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "05-elevate",
+      "url": "/concepts/05-elevate/index.html",
+      "file": "audit/screenshots/mobile/05-elevate-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "06-refine",
+      "url": "/concepts/06-refine/index.html",
+      "file": "audit/screenshots/desktop/06-refine-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "06-refine",
+      "url": "/concepts/06-refine/index.html",
+      "file": "audit/screenshots/mobile/06-refine-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "07-glow",
+      "url": "/concepts/07-glow/index.html",
+      "file": "audit/screenshots/desktop/07-glow-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "07-glow",
+      "url": "/concepts/07-glow/index.html",
+      "file": "audit/screenshots/mobile/07-glow-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "08-balance",
+      "url": "/concepts/08-balance/index.html",
+      "file": "audit/screenshots/desktop/08-balance-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "08-balance",
+      "url": "/concepts/08-balance/index.html",
+      "file": "audit/screenshots/mobile/08-balance-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "09-radiance",
+      "url": "/concepts/09-radiance/index.html",
+      "file": "audit/screenshots/desktop/09-radiance-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "09-radiance",
+      "url": "/concepts/09-radiance/index.html",
+      "file": "audit/screenshots/mobile/09-radiance-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "10-essence",
+      "url": "/concepts/10-essence/index.html",
+      "file": "audit/screenshots/desktop/10-essence-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "10-essence",
+      "url": "/concepts/10-essence/index.html",
+      "file": "audit/screenshots/mobile/10-essence-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "11-bloom",
+      "url": "/concepts/11-bloom/index.html",
+      "file": "audit/screenshots/desktop/11-bloom-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "11-bloom",
+      "url": "/concepts/11-bloom/index.html",
+      "file": "audit/screenshots/mobile/11-bloom-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "12-vital",
+      "url": "/concepts/12-vital/index.html",
+      "file": "audit/screenshots/desktop/12-vital-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "12-vital",
+      "url": "/concepts/12-vital/index.html",
+      "file": "audit/screenshots/mobile/12-vital-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "13-poise",
+      "url": "/concepts/13-poise/index.html",
+      "file": "audit/screenshots/desktop/13-poise-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "13-poise",
+      "url": "/concepts/13-poise/index.html",
+      "file": "audit/screenshots/mobile/13-poise-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "14-aura",
+      "url": "/concepts/14-aura/index.html",
+      "file": "audit/screenshots/desktop/14-aura-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "14-aura",
+      "url": "/concepts/14-aura/index.html",
+      "file": "audit/screenshots/mobile/14-aura-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "15-clarity",
+      "url": "/concepts/15-clarity/index.html",
+      "file": "audit/screenshots/desktop/15-clarity-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "15-clarity",
+      "url": "/concepts/15-clarity/index.html",
+      "file": "audit/screenshots/mobile/15-clarity-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "16-grace",
+      "url": "/concepts/16-grace/index.html",
+      "file": "audit/screenshots/desktop/16-grace-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "16-grace",
+      "url": "/concepts/16-grace/index.html",
+      "file": "audit/screenshots/mobile/16-grace-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "17-sculpt",
+      "url": "/concepts/17-sculpt/index.html",
+      "file": "audit/screenshots/desktop/17-sculpt-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "17-sculpt",
+      "url": "/concepts/17-sculpt/index.html",
+      "file": "audit/screenshots/mobile/17-sculpt-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "18-lumin",
+      "url": "/concepts/18-lumin/index.html",
+      "file": "audit/screenshots/desktop/18-lumin-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "18-lumin",
+      "url": "/concepts/18-lumin/index.html",
+      "file": "audit/screenshots/mobile/18-lumin-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "19-verda",
+      "url": "/concepts/19-verda/index.html",
+      "file": "audit/screenshots/desktop/19-verda-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "19-verda",
+      "url": "/concepts/19-verda/index.html",
+      "file": "audit/screenshots/mobile/19-verda-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "20-halo",
+      "url": "/concepts/20-halo/index.html",
+      "file": "audit/screenshots/desktop/20-halo-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "20-halo",
+      "url": "/concepts/20-halo/index.html",
+      "file": "audit/screenshots/mobile/20-halo-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "21-calm",
+      "url": "/concepts/21-calm/index.html",
+      "file": "audit/screenshots/desktop/21-calm-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "21-calm",
+      "url": "/concepts/21-calm/index.html",
+      "file": "audit/screenshots/mobile/21-calm-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "22-precision",
+      "url": "/concepts/22-precision/index.html",
+      "file": "audit/screenshots/desktop/22-precision-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "22-precision",
+      "url": "/concepts/22-precision/index.html",
+      "file": "audit/screenshots/mobile/22-precision-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "23-ritual",
+      "url": "/concepts/23-ritual/index.html",
+      "file": "audit/screenshots/desktop/23-ritual-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "23-ritual",
+      "url": "/concepts/23-ritual/index.html",
+      "file": "audit/screenshots/mobile/23-ritual-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "24-signal",
+      "url": "/concepts/24-signal/index.html",
+      "file": "audit/screenshots/desktop/24-signal-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "24-signal",
+      "url": "/concepts/24-signal/index.html",
+      "file": "audit/screenshots/mobile/24-signal-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "25-align",
+      "url": "/concepts/25-align/index.html",
+      "file": "audit/screenshots/desktop/25-align-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "25-align",
+      "url": "/concepts/25-align/index.html",
+      "file": "audit/screenshots/mobile/25-align-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "26-vivant",
+      "url": "/concepts/26-vivant/index.html",
+      "file": "audit/screenshots/desktop/26-vivant-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "26-vivant",
+      "url": "/concepts/26-vivant/index.html",
+      "file": "audit/screenshots/mobile/26-vivant-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "27-form",
+      "url": "/concepts/27-form/index.html",
+      "file": "audit/screenshots/desktop/27-form-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "27-form",
+      "url": "/concepts/27-form/index.html",
+      "file": "audit/screenshots/mobile/27-form-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "28-pure",
+      "url": "/concepts/28-pure/index.html",
+      "file": "audit/screenshots/desktop/28-pure-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "28-pure",
+      "url": "/concepts/28-pure/index.html",
+      "file": "audit/screenshots/mobile/28-pure-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "29-solace",
+      "url": "/concepts/29-solace/index.html",
+      "file": "audit/screenshots/desktop/29-solace-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "29-solace",
+      "url": "/concepts/29-solace/index.html",
+      "file": "audit/screenshots/mobile/29-solace-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "30-method",
+      "url": "/concepts/30-method/index.html",
+      "file": "audit/screenshots/desktop/30-method-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "30-method",
+      "url": "/concepts/30-method/index.html",
+      "file": "audit/screenshots/mobile/30-method-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "31-evolve",
+      "url": "/concepts/31-evolve/index.html",
+      "file": "audit/screenshots/desktop/31-evolve-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "31-evolve",
+      "url": "/concepts/31-evolve/index.html",
+      "file": "audit/screenshots/mobile/31-evolve-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "32-serene",
+      "url": "/concepts/32-serene/index.html",
+      "file": "audit/screenshots/desktop/32-serene-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "32-serene",
+      "url": "/concepts/32-serene/index.html",
+      "file": "audit/screenshots/mobile/32-serene-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "33-elan",
+      "url": "/concepts/33-elan/index.html",
+      "file": "audit/screenshots/desktop/33-elan-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "33-elan",
+      "url": "/concepts/33-elan/index.html",
+      "file": "audit/screenshots/mobile/33-elan-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "34-flora",
+      "url": "/concepts/34-flora/index.html",
+      "file": "audit/screenshots/desktop/34-flora-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "34-flora",
+      "url": "/concepts/34-flora/index.html",
+      "file": "audit/screenshots/mobile/34-flora-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "35-atelier",
+      "url": "/concepts/35-atelier/index.html",
+      "file": "audit/screenshots/desktop/35-atelier-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "35-atelier",
+      "url": "/concepts/35-atelier/index.html",
+      "file": "audit/screenshots/mobile/35-atelier-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "36-lumina",
+      "url": "/concepts/36-lumina/index.html",
+      "file": "audit/screenshots/desktop/36-lumina-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "36-lumina",
+      "url": "/concepts/36-lumina/index.html",
+      "file": "audit/screenshots/mobile/36-lumina-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "37-vellum",
+      "url": "/concepts/37-vellum/index.html",
+      "file": "audit/screenshots/desktop/37-vellum-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "37-vellum",
+      "url": "/concepts/37-vellum/index.html",
+      "file": "audit/screenshots/mobile/37-vellum-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "38-origin",
+      "url": "/concepts/38-origin/index.html",
+      "file": "audit/screenshots/desktop/38-origin-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "38-origin",
+      "url": "/concepts/38-origin/index.html",
+      "file": "audit/screenshots/mobile/38-origin-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "39-kindred",
+      "url": "/concepts/39-kindred/index.html",
+      "file": "audit/screenshots/desktop/39-kindred-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "39-kindred",
+      "url": "/concepts/39-kindred/index.html",
+      "file": "audit/screenshots/mobile/39-kindred-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "40-noble",
+      "url": "/concepts/40-noble/index.html",
+      "file": "audit/screenshots/desktop/40-noble-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "40-noble",
+      "url": "/concepts/40-noble/index.html",
+      "file": "audit/screenshots/mobile/40-noble-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "41-vista",
+      "url": "/concepts/41-vista/index.html",
+      "file": "audit/screenshots/desktop/41-vista-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "41-vista",
+      "url": "/concepts/41-vista/index.html",
+      "file": "audit/screenshots/mobile/41-vista-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "42-softline",
+      "url": "/concepts/42-softline/index.html",
+      "file": "audit/screenshots/desktop/42-softline-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "42-softline",
+      "url": "/concepts/42-softline/index.html",
+      "file": "audit/screenshots/mobile/42-softline-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "43-meridian",
+      "url": "/concepts/43-meridian/index.html",
+      "file": "audit/screenshots/desktop/43-meridian-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "43-meridian",
+      "url": "/concepts/43-meridian/index.html",
+      "file": "audit/screenshots/mobile/43-meridian-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "44-safeguard",
+      "url": "/concepts/44-safeguard/index.html",
+      "file": "audit/screenshots/desktop/44-safeguard-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "44-safeguard",
+      "url": "/concepts/44-safeguard/index.html",
+      "file": "audit/screenshots/mobile/44-safeguard-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "45-silhouette",
+      "url": "/concepts/45-silhouette/index.html",
+      "file": "audit/screenshots/desktop/45-silhouette-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "45-silhouette",
+      "url": "/concepts/45-silhouette/index.html",
+      "file": "audit/screenshots/mobile/45-silhouette-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "46-curate",
+      "url": "/concepts/46-curate/index.html",
+      "file": "audit/screenshots/desktop/46-curate-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "46-curate",
+      "url": "/concepts/46-curate/index.html",
+      "file": "audit/screenshots/mobile/46-curate-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "47-proof",
+      "url": "/concepts/47-proof/index.html",
+      "file": "audit/screenshots/desktop/47-proof-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "47-proof",
+      "url": "/concepts/47-proof/index.html",
+      "file": "audit/screenshots/mobile/47-proof-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "48-signature",
+      "url": "/concepts/48-signature/index.html",
+      "file": "audit/screenshots/desktop/48-signature-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "48-signature",
+      "url": "/concepts/48-signature/index.html",
+      "file": "audit/screenshots/mobile/48-signature-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "49-wisdom",
+      "url": "/concepts/49-wisdom/index.html",
+      "file": "audit/screenshots/desktop/49-wisdom-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "49-wisdom",
+      "url": "/concepts/49-wisdom/index.html",
+      "file": "audit/screenshots/mobile/49-wisdom-mobile.png"
+    },
+    {
+      "viewport": "desktop",
+      "concept": "50-sovereign",
+      "url": "/concepts/50-sovereign/index.html",
+      "file": "audit/screenshots/desktop/50-sovereign-desktop.png"
+    },
+    {
+      "viewport": "mobile",
+      "concept": "50-sovereign",
+      "url": "/concepts/50-sovereign/index.html",
+      "file": "audit/screenshots/mobile/50-sovereign-mobile.png"
+    }
+  ],
+  "contactSheets": [
+    "audit/screenshots/desktop-contact-sheet.jpg",
+    "audit/screenshots/mobile-contact-sheet.jpg"
+  ]
+}

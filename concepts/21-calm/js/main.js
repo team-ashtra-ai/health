@@ -247,3 +247,59 @@
   }
 })();
 
+/* SOFIATI PUBLIC MENU ACCESSIBILITY START */
+(() => {
+  const enhancePublicMenu = () => {
+    const menu = document.querySelector("#mobile-menu");
+    const openButton = document.querySelector("[data-menu-toggle]");
+    const closeButton = document.querySelector("[data-menu-close]");
+    if (!menu || !openButton || menu.dataset.enhancedPublicMenu === "true") return;
+    menu.dataset.enhancedPublicMenu = "true";
+    const focusableSelector = 'a[href],button:not([disabled]),input:not([disabled]),select:not([disabled]),textarea:not([disabled]),[tabindex]:not([tabindex="-1"])';
+    let lastTrigger = null;
+    const focusables = () => Array.from(menu.querySelectorAll(focusableSelector)).filter((item) => item.offsetParent !== null || item === closeButton);
+    const setOpen = (active) => {
+      menu.classList.toggle("is-open", active);
+      menu.setAttribute("aria-hidden", String(!active));
+      openButton.setAttribute("aria-expanded", String(active));
+      document.body.classList.toggle("public-menu-locked", active);
+      if (active) {
+        lastTrigger = document.activeElement === openButton ? openButton : lastTrigger || openButton;
+        window.setTimeout(() => (closeButton || focusables()[0] || menu).focus(), 40);
+      } else if (lastTrigger && typeof lastTrigger.focus === "function") {
+        window.setTimeout(() => lastTrigger.focus(), 20);
+      }
+    };
+    openButton.addEventListener("click", () => setOpen(true));
+    closeButton?.addEventListener("click", () => setOpen(false));
+    menu.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => setOpen(false)));
+    document.addEventListener("keydown", (event) => {
+      if (!menu.classList.contains("is-open")) return;
+      if (event.key === "Escape") {
+        event.preventDefault();
+        setOpen(false);
+        return;
+      }
+      if (event.key !== "Tab") return;
+      const items = focusables();
+      if (!items.length) return;
+      const first = items[0];
+      const last = items[items.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    });
+  };
+  if (window.SofiatiPartialsReady) {
+    window.SofiatiPartialsReady.then(enhancePublicMenu);
+  } else if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", enhancePublicMenu, { once: true });
+  } else {
+    enhancePublicMenu();
+  }
+})();
+/* SOFIATI PUBLIC MENU ACCESSIBILITY END */

@@ -1,0 +1,1502 @@
+[
+  {
+    "concept": "01-inspire",
+    "combo": "public-header-layout-split|public-menu-layout-editorial-full|public-footer-layout-business-card",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "02-empower",
+    "combo": "public-header-layout-capsule|public-menu-layout-bottom-sheet|public-footer-layout-split-cta",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "03-enhance",
+    "combo": "public-header-layout-clinical|public-menu-layout-clinical-drawer|public-footer-layout-technical-ledger",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "04-renew",
+    "combo": "public-header-layout-transparent|public-menu-layout-botanical-fade|public-footer-layout-flowing-botanical",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "05-elevate",
+    "combo": "public-header-layout-stacked|public-menu-layout-ivory-editorial|public-footer-layout-luxury-skin",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "06-refine",
+    "combo": "public-header-layout-minimal|public-menu-layout-minimal-drawer|public-footer-layout-minimal-legal",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "07-glow",
+    "combo": "public-header-layout-luminous|public-menu-layout-luminous-overlay|public-footer-layout-radiant-ivory",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "08-balance",
+    "combo": "public-header-layout-balanced|public-menu-layout-two-column|public-footer-layout-symmetrical",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "09-radiance",
+    "combo": "public-header-layout-editorial|public-menu-layout-soft-gradient|public-footer-layout-airy-editorial",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "10-essence",
+    "combo": "public-header-layout-menu-only|public-menu-layout-typographic-full|public-footer-layout-distilled",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "11-bloom",
+    "combo": "public-header-layout-botanical|public-menu-layout-botanical-panel|public-footer-layout-immersive-botanical",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "12-vital",
+    "combo": "public-header-layout-dynamic|public-menu-layout-energetic-drawer|public-footer-layout-staggered-motion",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "13-poise",
+    "combo": "public-header-layout-poised|public-menu-layout-quiet-editorial|public-footer-layout-poised-editorial",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "14-aura",
+    "combo": "public-header-layout-aura|public-menu-layout-soft-overlay|public-footer-layout-aura-gradient",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "15-clarity",
+    "combo": "public-header-layout-grid|public-menu-layout-clinical-grid|public-footer-layout-clarity-grid",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "16-grace",
+    "combo": "public-header-layout-curved|public-menu-layout-curved-panel|public-footer-layout-signature-curve",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "17-sculpt",
+    "combo": "public-header-layout-sculptural|public-menu-layout-geometric-layer|public-footer-layout-sculptural",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "18-lumin",
+    "combo": "public-header-layout-glass|public-menu-layout-frosted-glass|public-footer-layout-luminous",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "19-verda",
+    "combo": "public-header-layout-verdant|public-menu-layout-deep-botanical|public-footer-layout-verdant",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "20-halo",
+    "combo": "public-header-layout-halo|public-menu-layout-radial|public-footer-layout-halo",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "21-calm",
+    "combo": "public-header-layout-calm|public-menu-layout-calm-cream|public-footer-layout-calm",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "22-precision",
+    "combo": "public-header-layout-precision|public-menu-layout-precise-drawer|public-footer-layout-precision",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "23-ritual",
+    "combo": "public-header-layout-ritual|public-menu-layout-ritual-full|public-footer-layout-ritual",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "24-signal",
+    "combo": "public-header-layout-signal|public-menu-layout-signal-drawer|public-footer-layout-signal",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "25-align",
+    "combo": "public-header-layout-align|public-menu-layout-card-stack|public-footer-layout-aligned",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "26-vivant",
+    "combo": "public-header-layout-vivant|public-menu-layout-animated-full|public-footer-layout-vivant",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "27-form",
+    "combo": "public-header-layout-form|public-menu-layout-shape-panels|public-footer-layout-form",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "28-pure",
+    "combo": "public-header-layout-pure|public-menu-layout-pure-ivory|public-footer-layout-pure",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "29-solace",
+    "combo": "public-header-layout-solace|public-menu-layout-warm-full|public-footer-layout-solace",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "30-method",
+    "combo": "public-header-layout-method|public-menu-layout-process-step|public-footer-layout-method",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "31-evolve",
+    "combo": "public-header-layout-evolve|public-menu-layout-animated-reveal|public-footer-layout-evolve",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "32-serene",
+    "combo": "public-header-layout-serene|public-menu-layout-serene-ivory|public-footer-layout-serene",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "33-elan",
+    "combo": "public-header-layout-elan|public-menu-layout-bold-editorial|public-footer-layout-elan",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "34-flora",
+    "combo": "public-header-layout-flora|public-menu-layout-floral-full|public-footer-layout-flora",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "35-atelier",
+    "combo": "public-header-layout-atelier|public-menu-layout-atelier-type|public-footer-layout-atelier",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "36-lumina",
+    "combo": "public-header-layout-lumina|public-menu-layout-luminous-panel|public-footer-layout-lumina",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "37-vellum",
+    "combo": "public-header-layout-vellum|public-menu-layout-paper-menu|public-footer-layout-vellum",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "38-origin",
+    "combo": "public-header-layout-origin|public-menu-layout-grounded-sage|public-footer-layout-origin",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "39-kindred",
+    "combo": "public-header-layout-kindred|public-menu-layout-warm-card|public-footer-layout-kindred",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "40-noble",
+    "combo": "public-header-layout-noble|public-menu-layout-dark-elegant|public-footer-layout-noble",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "41-vista",
+    "combo": "public-header-layout-vista|public-menu-layout-wide-panel|public-footer-layout-vista",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "42-softline",
+    "combo": "public-header-layout-softline|public-menu-layout-curved-line|public-footer-layout-softline",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "43-meridian",
+    "combo": "public-header-layout-meridian|public-menu-layout-meridian-drawer|public-footer-layout-meridian",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "44-safeguard",
+    "combo": "public-header-layout-safeguard|public-menu-layout-secure-clean|public-footer-layout-safeguard",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "45-silhouette",
+    "combo": "public-header-layout-silhouette|public-menu-layout-silhouette-overlay|public-footer-layout-silhouette",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "46-curate",
+    "combo": "public-header-layout-curate|public-menu-layout-boutique-selection|public-footer-layout-curate",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "47-proof",
+    "combo": "public-header-layout-proof|public-menu-layout-structured-proof|public-footer-layout-proof",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "48-signature",
+    "combo": "public-header-layout-signature|public-menu-layout-signature-full|public-footer-layout-signature",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "49-wisdom",
+    "combo": "public-header-layout-wisdom|public-menu-layout-wisdom-editorial|public-footer-layout-wisdom",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  },
+  {
+    "concept": "50-sovereign",
+    "combo": "public-header-layout-sovereign|public-menu-layout-premium-brand|public-footer-layout-sovereign",
+    "checks": {
+      "js_loaded_partials": true,
+      "header_no_debug_or_contact": true,
+      "concept_name_absent_from_header_menu": true,
+      "logo_visible": true,
+      "language_switcher": true,
+      "primary_links_consistent": true,
+      "secondary_links_footer_only": true,
+      "mobile_menu_clean": true,
+      "footer_columns": true,
+      "footer_content_consistent": true,
+      "footer_professional_details": true,
+      "footer_contact_details": true,
+      "footer_bottom_row": true,
+      "unique_header_menu_footer_combo": true,
+      "desktop_screenshot": true,
+      "mobile_screenshot": true
+    },
+    "forbiddenHits": [],
+    "footerOnlyInMenu": [],
+    "footerMissing": [],
+    "screenshots": {
+      "desktop": true,
+      "mobile": true
+    },
+    "pass": true
+  }
+]
