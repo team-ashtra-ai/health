@@ -1148,7 +1148,11 @@ def ethics_report() -> str:
         r"fake rating",
         r"full street address",
     ]
-    findings = find_terms(terms, all_html_files())
+    findings = [
+        finding
+        for finding in find_terms(terms, all_html_files())
+        if not is_allowed_ethics_disclaimer(finding)
+    ]
     return f"""# Ethical Copy Audit
 
 ## Status
@@ -1160,6 +1164,25 @@ def ethics_report() -> str:
 ## Findings
 {lines_or_none(findings[:200])}
 """
+
+
+def is_allowed_ethics_disclaimer(finding: str) -> bool:
+    line = finding.lower()
+    allowed = [
+        "no fake testimonial",
+        "no fake testimonials",
+        "without fake testimonial",
+        "without fake testimonials",
+        "no fake review",
+        "no fake reviews",
+        "without fake review",
+        "without fake reviews",
+        "no fake rating",
+        "no fake ratings",
+        "without fake rating",
+        "without fake ratings",
+    ]
+    return any(phrase in line for phrase in allowed)
 
 
 def seo_report() -> str:

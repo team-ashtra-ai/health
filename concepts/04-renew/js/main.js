@@ -145,3 +145,241 @@
   document.addEventListener("sofiati:partials-ready", init);
   window.setTimeout(init, 900);
 })();
+
+/* SOFIATI 04 RENEW MENU RUNTIME START */
+(() => {
+  "use strict";
+
+  const menuSelector = "#mobile-menu";
+  let lastTrigger = null;
+
+  const menu = () => document.querySelector(menuSelector);
+  const triggers = () => document.querySelectorAll("[data-menu-toggle]");
+
+  const setExpanded = (expanded) => {
+    triggers().forEach((button) => {
+      button.setAttribute("aria-expanded", expanded ? "true" : "false");
+      button.setAttribute("aria-label", expanded ? "Close menu" : "Open menu");
+    });
+  };
+
+  const openMenu = (trigger) => {
+    const panel = menu();
+    if (!panel) return;
+    lastTrigger = trigger || document.activeElement;
+    panel.classList.add("is-open");
+    panel.setAttribute("aria-hidden", "false");
+    document.body.classList.add("public-menu-locked");
+    setExpanded(true);
+    window.requestAnimationFrame(() => {
+      panel.focus({ preventScroll: true });
+    });
+  };
+
+  const closeMenu = () => {
+    const panel = menu();
+    if (!panel) return;
+    panel.classList.remove("is-open");
+    panel.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("public-menu-locked");
+    setExpanded(false);
+    if (lastTrigger && typeof lastTrigger.focus === "function") {
+      lastTrigger.focus({ preventScroll: true });
+    }
+  };
+
+  document.addEventListener("click", (event) => {
+    const openButton = event.target.closest("[data-menu-toggle]");
+    if (openButton) {
+      event.preventDefault();
+      const panel = menu();
+      if (panel?.classList.contains("is-open")) closeMenu();
+      else openMenu(openButton);
+      return;
+    }
+
+    if (event.target.closest("[data-menu-close]")) {
+      event.preventDefault();
+      closeMenu();
+      return;
+    }
+
+    if (event.target.closest("#mobile-menu a")) {
+      closeMenu();
+    }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && menu()?.classList.contains("is-open")) {
+      closeMenu();
+    }
+  });
+
+  document.addEventListener("sofiati:partials-ready", () => {
+    const panel = menu();
+    if (!panel) return;
+    panel.setAttribute("aria-hidden", panel.classList.contains("is-open") ? "false" : "true");
+    setExpanded(panel.classList.contains("is-open"));
+  });
+})();
+/* SOFIATI 04 RENEW MENU RUNTIME END */
+
+/* SOFIATI LANGUAGE RUNTIME START */
+(() => {
+  "use strict";
+
+  const STORAGE_KEY = "sofiati-language";
+  const DATA_URL = "../../data/translation-strings.json";
+  const ATTRS = ["alt", "aria-label", "content", "placeholder", "title"];
+  const SKIP_TAGS = new Set(["SCRIPT", "STYLE", "NOSCRIPT", "TEMPLATE"]);
+  let translations = new Map();
+  let activeLanguage = "en";
+  let observerReady = false;
+  let applyScheduled = false;
+  const originalText = new WeakMap();
+  const originalAttrs = new WeakMap();
+
+  const normalize = (value) => String(value || "").replace(/\s+/g, " ").trim();
+  const isPortuguese = (language) => language === "pt" || language === "pt-BR";
+  const preferredLanguage = () => (isPortuguese(window.localStorage.getItem(STORAGE_KEY)) ? "pt" : "en");
+
+  const translatedValue = (value) => {
+    const source = normalize(value);
+    if (!source || activeLanguage !== "pt") return source;
+    return translations.get(source) || source;
+  };
+
+  const shouldSkipTextNode = (node) => {
+    if (!node.parentElement || !normalize(node.textContent)) return true;
+    return Boolean(node.parentElement.closest("script,style,noscript,template"));
+  };
+
+  const preserveWhitespace = (original, translated) => {
+    const leading = original.match(/^\s*/)?.[0] || "";
+    const trailing = original.match(/\s*$/)?.[0] || "";
+    return `${leading}${translated}${trailing}`;
+  };
+
+  const applyTextNodes = () => {
+    const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+      acceptNode(node) {
+        return shouldSkipTextNode(node) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT;
+      },
+    });
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach((node) => {
+      if (!originalText.has(node)) originalText.set(node, node.textContent);
+      const source = originalText.get(node);
+      const translated = translatedValue(source);
+      node.textContent = preserveWhitespace(source, translated);
+    });
+  };
+
+  const originalAttributeValue = (element, attr) => {
+    let store = originalAttrs.get(element);
+    if (!store) {
+      store = {};
+      originalAttrs.set(element, store);
+    }
+    if (!(attr in store)) store[attr] = element.getAttribute(attr) || "";
+    return store[attr];
+  };
+
+  const applyAttributes = () => {
+    document.querySelectorAll("*").forEach((element) => {
+      if (SKIP_TAGS.has(element.tagName)) return;
+      ATTRS.forEach((attr) => {
+        if (!element.hasAttribute(attr)) return;
+        const source = originalAttributeValue(element, attr);
+        const translated = translatedValue(source);
+        if (translated) element.setAttribute(attr, translated);
+      });
+    });
+  };
+
+  const updateControls = () => {
+    document.querySelectorAll("[data-lang-switch]").forEach((button) => {
+      const selected = button.dataset.langSwitch === activeLanguage;
+      button.setAttribute("aria-pressed", selected ? "true" : "false");
+    });
+  };
+
+  const applyLanguage = (language = activeLanguage) => {
+    activeLanguage = isPortuguese(language) ? "pt" : "en";
+    document.documentElement.lang = activeLanguage === "pt" ? "pt-BR" : "en";
+    document.body.dataset.currentLang = activeLanguage;
+    applyTextNodes();
+    applyAttributes();
+    updateControls();
+  };
+
+  const setLanguage = (language) => {
+    activeLanguage = isPortuguese(language) ? "pt" : "en";
+    window.localStorage.setItem(STORAGE_KEY, activeLanguage);
+    applyLanguage(activeLanguage);
+  };
+
+  const wireControls = () => {
+    document.querySelectorAll("[data-lang-switch]").forEach((button) => {
+      if (button.dataset.sofiatiLanguageReady === "true") return;
+      button.dataset.sofiatiLanguageReady = "true";
+      button.addEventListener("click", () => setLanguage(button.dataset.langSwitch));
+    });
+    updateControls();
+  };
+
+  const loadTranslations = async () => {
+    try {
+      const response = await fetch(DATA_URL, { cache: "no-store" });
+      if (!response.ok) throw new Error(`Translation data unavailable: ${response.status}`);
+      const data = await response.json();
+      translations = new Map(
+        (data.strings || [])
+          .filter((row) => row.source && row.pt_BR && row.pt_BR !== row.source)
+          .map((row) => [normalize(row.source), row.pt_BR])
+      );
+    } catch (error) {
+      console.warn("Sofiati language runtime kept English source copy.", error);
+      translations = new Map();
+    }
+  };
+
+  const scheduleApply = () => {
+    if (applyScheduled) return;
+    applyScheduled = true;
+    window.requestAnimationFrame(() => {
+      applyScheduled = false;
+      wireControls();
+      applyLanguage(activeLanguage);
+    });
+  };
+
+  const observePartials = () => {
+    if (observerReady || !document.body) return;
+    observerReady = true;
+    const observer = new MutationObserver(scheduleApply);
+    observer.observe(document.body, { childList: true, subtree: true });
+  };
+
+  const initLanguage = async () => {
+    activeLanguage = preferredLanguage();
+    await loadTranslations();
+    wireControls();
+    applyLanguage(activeLanguage);
+    observePartials();
+  };
+
+  window.SofiatiLanguage = { applyLanguage, setLanguage };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initLanguage, { once: true });
+  } else {
+    initLanguage();
+  }
+
+  document.addEventListener("sofiati:partials-ready", () => {
+    window.requestAnimationFrame(scheduleApply);
+  });
+})();
+/* SOFIATI LANGUAGE RUNTIME END */

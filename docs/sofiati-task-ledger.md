@@ -3,7 +3,7 @@
 Last updated: 2026-06-26
 
 ## Overall Status
-COMPLETE FOR STATIC VALIDATION, AGENT DOCUMENTATION AND FIRST SAFE LABEL FIX — docs, planning, pages, metadata, attributes, links, audit scripts and reports are in place. Global WhatsApp, back-to-top and themed cookie footer bars have been restored across concept pages. Agent documentation now includes both the original audit system and a deeper concept-brief system. The only implementation fix in the latest batch was deterministic public-label cleanup; visual/layout issues remain pending for controlled future batches.
+COMPLETE FOR STATIC VALIDATION, AGENT DOCUMENTATION, SAFE CLEANUP PLANNING AND FIRST 04-RENEW POC REFACTOR - docs, planning, pages, metadata, attributes, links, audit scripts and reports are in place. Global WhatsApp, back-to-top and themed cookie footer bars have been restored across concept pages. Agent documentation now includes both the original audit system and a deeper concept-brief system. A new `docs/refactor-system/` planning set documents safe cleanup, dependency mapping, a 50-concept diversity strategy, POC sequencing and script risk. The first scoped proof-of-concept refactor has been completed for `concepts/04-renew` only; no file cleanup/deletion and no all-concept redesign has been performed.
 
 ## Phase Status
 - PHASE 1 — Existing project audit: COMPLETE for current inventory.
@@ -13,6 +13,31 @@ COMPLETE FOR STATIC VALIDATION, AGENT DOCUMENTATION AND FIRST SAFE LABEL FIX —
 - PHASE 5 — SEO validation: COMPLETE for static metadata/schema/H1 checks.
 - PHASE 6 — Ethical validation: COMPLETE for static prohibited-language/contact checks.
 - PHASE 7 — Global duplicate layout audit: COMPLETE for layout-signature sequence checks.
+
+## Latest Batch Completed - 04 Renew Proof-of-Concept Refactor - 2026-06-26
+- Refactored only `concepts/04-renew` as the first POC, preserving required pages and evaluation-first copy. No other concept folder was source-edited.
+- Strengthened Renew as a laser technology dossier concept with a dossier header tag, non-wrapping desktop nav, dossier-panel mobile menu, rewritten home section rhythm, upgraded `laser.html`, consultation/contact path copy polish and footer/mobile footer CSS polish.
+- Removed duplicate `data-visual-qa-repair` attributes in `04-renew` care, skin and results pages as a target-concept HTML cleanup.
+- Added `04-renew`-only mobile menu behavior in `concepts/04-renew/js/main.js` for drawer toggle, Escape close, focus return and body scroll locking.
+- Repaired `scripts/translate_pages.py` into a standalone report-first translation inventory/runtime installer. English remains the source of truth; `--apply-runtime` requires an explicit concept or `--all-concepts`.
+- Installed the optional EN/PT runtime only into `concepts/04-renew/js/main.js`; the other 49 concepts remain pending explicit rollout approval.
+- Generated translation outputs at `data/translation-strings.json`, `final/translation-report.json` and `final/translation-report.md`.
+- Fixed a false-positive ethics audit rule in `scripts/sofiati_complete_system.py` so explicit "no fake testimonial/review/rating" disclaimers are not treated as prohibited fake-claim usage.
+- Ran and passed: `python3 scripts/audit_static_site.py`, `python3 scripts/audit_internal_links.py`, `python3 scripts/audit_layout_signatures.py`, `python3 scripts/audit_ethics.py` and `python3 scripts/audit_public_partials.py`.
+- Ran targeted rendered smoke for `04-renew`; report: `audit/reports/04-renew-poc-rendered-smoke.md`. Screenshots: `audit/screenshots/poc-04-renew/04-renew-home-desktop.png`, `04-renew-home-mobile.png`, `04-renew-laser-desktop.png`, `04-renew-laser-mobile.png`.
+- Browser checks confirmed partials ready, no horizontal overflow, desktop nav not wrapped, cookie bar present, WhatsApp present, back-to-top visible after scroll, EN/PT switch sets `pt-BR`, menu opens/closes, consultation form remains wired to Formspree and contact path remains intact.
+- Visual screenshot review caught and fixed hero credential-card overlap on desktop home/laser. The rerun passed with `heroOverlap: false`.
+- Rollback method: revert the commit from this batch or revert only `concepts/04-renew/**`, `scripts/translate_pages.py`, `scripts/sofiati_complete_system.py`, `data/translation-strings.json`, `final/translation-report.*`, `audit/reports/04-renew-poc-rendered-smoke.*` and `audit/screenshots/poc-04-renew/**`.
+- Next decision: approve whether to keep this POC direction, then either polish `04-renew` further from screenshot review or proceed to the next POC concept from `docs/refactor-system/09-proof-of-concept-plan.md`.
+
+## Latest Batch Completed - Deep Refactor Planning and Safe Cleanup System - 2026-06-26
+- Created `docs/refactor-system/00-safety-log.md` with branch/status notes, divergence risk, no-delete rules and script safety boundaries.
+- Created `docs/refactor-system/01-repository-inventory.md` and `02-usage-dependency-map.md` documenting root files, 50 concept folders, active rendering chains, partial systems, data/docs/assets/screenshots and development-only outputs.
+- Created `docs/refactor-system/03-cleanup-manifest.md` and `04-archive-plan.md` with archive/delete/unknown classifications. No files were deleted or moved.
+- Created `docs/refactor-system/05-new-layout-strategy.md` and `06-50-concept-layout-matrix.md` to guide diverse concept-specific refactors without turning the sites into one template.
+- Created `docs/refactor-system/07-partials-refactor-plan.md`, `08-page-section-refactor-plan.md`, `09-proof-of-concept-plan.md`, `10-safe-implementation-prompts.md` and `11-script-inventory.md`.
+- Recommended first proof-of-concept sequence: `04-renew` as low-risk, `03-enhance` as medium-risk and `46-curate` as high-risk.
+- Confirmed no source-modifying scripts were run, no concepts were visually refactored, and no cleanup/deletion was performed in this batch.
 
 ## Latest Batch Completed - Concept Brief System, Diagnostic Audit and Safe Label Cleanup - 2026-06-26
 - Created `docs/agent-brief-system/15-concept-by-concept-briefs/` with one evidence-based brief for every concept folder.
@@ -136,4 +161,3 @@ Use `docs/agent-system/20-implementation-task-ledger.md` for the first implement
 - Repaired all 50 concepts for Care, Laser, Skin and Results with varied hero copy, secondary CTAs, image rhythm and visitor-facing section language.
 - Updated `audit/reports/screenshot-design-qa.md` and `audit/reports/ux-storytelling-audit.md`.
 - Next task: regenerate screenshots after repair, visually re-check the four repaired page types, then decide whether Home mobile needs a second visual polish pass.
-

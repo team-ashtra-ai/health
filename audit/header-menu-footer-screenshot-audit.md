@@ -69,7 +69,7 @@ Combination: `public-header-layout-clinical|public-menu-layout-clinical-drawer|p
 
 ## 04-renew - PASS
 
-Combination: `public-header-layout-transparent|public-menu-layout-botanical-fade|public-footer-recipe-renew`
+Combination: `public-header-layout-dossier|public-menu-layout-dossier-panel|public-footer-recipe-renew`
 
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu

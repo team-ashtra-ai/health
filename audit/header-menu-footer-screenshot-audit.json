@@ -97,7 +97,7 @@
   },
   {
     "concept": "04-renew",
-    "combo": "public-header-layout-transparent|public-menu-layout-botanical-fade|public-footer-recipe-renew",
+    "combo": "public-header-layout-dossier|public-menu-layout-dossier-panel|public-footer-recipe-renew",
     "checks": {
       "js_loaded_partials": true,
       "header_no_debug_or_contact": true,
