@@ -1,8 +1,19 @@
+# Raw / heavy media files
 brand identity/*.mov
-__pycache__/
-*.pyc
 *.mov
 *.mp4
 *.webm
 *.avi
 *.mkv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Node dependencies
+node_modules/
+
+# Local logs / temporary files
+*.log
+.DS_Store
+Thumbs.db

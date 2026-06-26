@@ -1892,3 +1892,48 @@ body.concept {
   }
 }
 /* SOFIATI HEADER REFINEMENT END */
+
+/* SOFIATI QA BASELINE FIXES START */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img, svg, video, canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+:where(a, button, input, textarea, select, summary):focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+.public-menu-locked {
+  overflow: hidden;
+}
+
+#mobile-menu[aria-hidden="true"]:not(.is-open) {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+#mobile-menu.is-open,
+#mobile-menu[aria-hidden="false"] {
+  visibility: visible;
+  pointer-events: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+ /* SOFIATI QA BASELINE FIXES END */

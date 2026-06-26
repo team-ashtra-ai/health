@@ -145,3 +145,143 @@
   document.addEventListener("sofiati:partials-ready", init);
   window.setTimeout(init, 900);
 })();
+
+/* SOFIATI LANGUAGE TOGGLE RUNTIME START */
+(function () {
+  function normalizeLang(value) {
+    return value === "pt" || value === "pt-BR" || value === "pt-br" ? "pt-BR" : "en";
+  }
+
+  function shortLang(value) {
+    return normalizeLang(value) === "pt-BR" ? "pt" : "en";
+  }
+
+  function setLanguage(nextLang) {
+    const normalized = normalizeLang(nextLang);
+    const short = shortLang(normalized);
+
+    document.documentElement.lang = normalized;
+    document.documentElement.setAttribute("data-active-lang", short);
+
+    document.querySelectorAll("[data-lang-switch]").forEach((control) => {
+      const controlShort = shortLang(control.getAttribute("data-lang-switch"));
+      const active = controlShort === short;
+      control.setAttribute("aria-pressed", active ? "true" : "false");
+      control.setAttribute("data-active", active ? "true" : "false");
+      control.classList.toggle("is-active", active);
+      control.classList.toggle("active", active);
+    });
+  }
+
+  document.addEventListener("click", function (event) {
+    const control = event.target.closest("[data-lang-switch]");
+    if (!control) return;
+    event.preventDefault();
+    setLanguage(control.getAttribute("data-lang-switch"));
+  });
+
+  function initialiseLanguageState() {
+    setLanguage(
+      document.documentElement.getAttribute("lang") ||
+      document.body?.getAttribute("data-default-lang") ||
+      document.documentElement.getAttribute("data-default-lang") ||
+      "en"
+    );
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initialiseLanguageState);
+  } else {
+    initialiseLanguageState();
+  }
+
+  window.SofiatiSetLanguage = setLanguage;
+})();
+ /* SOFIATI LANGUAGE TOGGLE RUNTIME END */
+
+/* SOFIATI MOBILE MENU RUNTIME START */
+(function () {
+  const MENU_SELECTOR = "#mobile-menu";
+  const LOCK_CLASS = "public-menu-locked";
+  let lastTrigger = null;
+
+  function getMenu() {
+    return document.querySelector(MENU_SELECTOR);
+  }
+
+  function openMenu(trigger) {
+    const menu = getMenu();
+    if (!menu) return;
+
+    lastTrigger = trigger || document.activeElement;
+    menu.classList.add("is-open");
+    menu.setAttribute("aria-hidden", "false");
+    document.body.classList.add(LOCK_CLASS);
+
+    document.querySelectorAll("[data-menu-toggle]").forEach((button) => {
+      button.setAttribute("aria-expanded", "true");
+      button.setAttribute("aria-controls", "mobile-menu");
+    });
+
+    const firstFocusable = menu.querySelector("a[href], button:not([disabled]), [tabindex]:not([tabindex='-1'])");
+    if (firstFocusable) firstFocusable.focus({ preventScroll: true });
+  }
+
+  function closeMenu() {
+    const menu = getMenu();
+    if (!menu) return;
+
+    menu.classList.remove("is-open");
+    menu.setAttribute("aria-hidden", "true");
+    document.body.classList.remove(LOCK_CLASS);
+
+    document.querySelectorAll("[data-menu-toggle]").forEach((button) => {
+      button.setAttribute("aria-expanded", "false");
+      button.setAttribute("aria-controls", "mobile-menu");
+    });
+
+    if (lastTrigger && typeof lastTrigger.focus === "function") {
+      lastTrigger.focus({ preventScroll: true });
+    }
+  }
+
+  document.addEventListener("click", function (event) {
+    const toggle = event.target.closest("[data-menu-toggle]");
+    const close = event.target.closest("[data-menu-close]");
+    const menu = getMenu();
+
+    if (toggle) {
+      event.preventDefault();
+      if (menu?.classList.contains("is-open")) closeMenu();
+      else openMenu(toggle);
+      return;
+    }
+
+    if (close) {
+      event.preventDefault();
+      closeMenu();
+      return;
+    }
+
+    if (menu?.classList.contains("is-open") && event.target === menu) {
+      closeMenu();
+    }
+  });
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") closeMenu();
+  });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const menu = getMenu();
+    if (menu && !menu.hasAttribute("aria-hidden")) {
+      menu.setAttribute("aria-hidden", "true");
+    }
+
+    document.querySelectorAll("[data-menu-toggle]").forEach((button) => {
+      if (!button.hasAttribute("aria-expanded")) button.setAttribute("aria-expanded", "false");
+      if (!button.hasAttribute("aria-controls")) button.setAttribute("aria-controls", "mobile-menu");
+    });
+  });
+})();
+ /* SOFIATI MOBILE MENU RUNTIME END */
