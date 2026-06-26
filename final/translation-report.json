@@ -1,30 +1,30 @@
 {
   "mode": "english-source-with-optional-pt-runtime",
-  "generatedAt": "2026-06-26T18:48:32.883614+00:00",
+  "generatedAt": "2026-06-26T19:53:52.473222+00:00",
   "note": "HTML files remain English-authored. Portuguese is applied at runtime from exact translation strings; untranslated source text stays English until human-reviewed.",
   "conceptCount": 50,
   "htmlFileCount": 1000,
-  "uniqueStringCount": 5045,
+  "uniqueStringCount": 5044,
   "translatedOrPhraseCovered": 261,
   "runtimeStatus": [
     {
       "concept": "01-inspire",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "02-empower",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "03-enhance",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
@@ -38,583 +38,533 @@
     {
       "concept": "05-elevate",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "06-refine",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "07-glow",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "08-balance",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "09-radiance",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "10-essence",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "11-bloom",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "12-vital",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "13-poise",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "14-aura",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "15-clarity",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "16-grace",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "17-sculpt",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "18-lumin",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "19-verda",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "20-halo",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "21-calm",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "22-precision",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "23-ritual",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "24-signal",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "25-align",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "26-vivant",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "27-form",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "28-pure",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "29-solace",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "30-method",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "31-evolve",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "32-serene",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "33-elan",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "34-flora",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "35-atelier",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "36-lumina",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "37-vellum",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "38-origin",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "39-kindred",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "40-noble",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "41-vista",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "42-softline",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "43-meridian",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "44-safeguard",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "45-silhouette",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "46-curate",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "47-proof",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "48-signature",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "49-wisdom",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     },
     {
       "concept": "50-sovereign",
       "mainJsExists": true,
-      "languageRuntimeInstalled": false,
+      "languageRuntimeInstalled": true,
       "languageControls": 4,
       "englishDefaultPages": 20
     }
   ],
-  "runtimeWarnings": [
-    "01-inspire has language controls but no runtime",
-    "02-empower has language controls but no runtime",
-    "03-enhance has language controls but no runtime",
-    "05-elevate has language controls but no runtime",
-    "06-refine has language controls but no runtime",
-    "07-glow has language controls but no runtime",
-    "08-balance has language controls but no runtime",
-    "09-radiance has language controls but no runtime",
-    "10-essence has language controls but no runtime",
-    "11-bloom has language controls but no runtime",
-    "12-vital has language controls but no runtime",
-    "13-poise has language controls but no runtime",
-    "14-aura has language controls but no runtime",
-    "15-clarity has language controls but no runtime",
-    "16-grace has language controls but no runtime",
-    "17-sculpt has language controls but no runtime",
-    "18-lumin has language controls but no runtime",
-    "19-verda has language controls but no runtime",
-    "20-halo has language controls but no runtime",
-    "21-calm has language controls but no runtime",
-    "22-precision has language controls but no runtime",
-    "23-ritual has language controls but no runtime",
-    "24-signal has language controls but no runtime",
-    "25-align has language controls but no runtime",
-    "26-vivant has language controls but no runtime",
-    "27-form has language controls but no runtime",
-    "28-pure has language controls but no runtime",
-    "29-solace has language controls but no runtime",
-    "30-method has language controls but no runtime",
-    "31-evolve has language controls but no runtime",
-    "32-serene has language controls but no runtime",
-    "33-elan has language controls but no runtime",
-    "34-flora has language controls but no runtime",
-    "35-atelier has language controls but no runtime",
-    "36-lumina has language controls but no runtime",
-    "37-vellum has language controls but no runtime",
-    "38-origin has language controls but no runtime",
-    "39-kindred has language controls but no runtime",
-    "40-noble has language controls but no runtime",
-    "41-vista has language controls but no runtime",
-    "42-softline has language controls but no runtime",
-    "43-meridian has language controls but no runtime",
-    "44-safeguard has language controls but no runtime",
-    "45-silhouette has language controls but no runtime",
-    "46-curate has language controls but no runtime",
-    "47-proof has language controls but no runtime",
-    "48-signature has language controls but no runtime",
-    "49-wisdom has language controls but no runtime",
-    "50-sovereign has language controls but no runtime"
-  ],
+  "runtimeWarnings": [],
   "byConcept": {
     "01-inspire": {
-      "uniqueStringCount": 442,
+      "uniqueStringCount": 441,
       "translatedOrPhraseCovered": 186
     },
     "02-empower": {
-      "uniqueStringCount": 440,
+      "uniqueStringCount": 439,
       "translatedOrPhraseCovered": 175
     },
     "03-enhance": {
-      "uniqueStringCount": 439,
+      "uniqueStringCount": 438,
       "translatedOrPhraseCovered": 175
     },
     "04-renew": {
-      "uniqueStringCount": 457,
+      "uniqueStringCount": 456,
       "translatedOrPhraseCovered": 159
     },
     "05-elevate": {
-      "uniqueStringCount": 439,
+      "uniqueStringCount": 438,
       "translatedOrPhraseCovered": 182
     },
     "06-refine": {
-      "uniqueStringCount": 443,
+      "uniqueStringCount": 442,
       "translatedOrPhraseCovered": 176
     },
     "07-glow": {
-      "uniqueStringCount": 438,
+      "uniqueStringCount": 437,
       "translatedOrPhraseCovered": 177
     },
     "08-balance": {
-      "uniqueStringCount": 440,
+      "uniqueStringCount": 439,
       "translatedOrPhraseCovered": 177
     },
     "09-radiance": {
-      "uniqueStringCount": 442,
+      "uniqueStringCount": 441,
       "translatedOrPhraseCovered": 185
     },
     "10-essence": {
-      "uniqueStringCount": 442,
+      "uniqueStringCount": 441,
       "translatedOrPhraseCovered": 175
     },
     "11-bloom": {
-      "uniqueStringCount": 443,
+      "uniqueStringCount": 442,
       "translatedOrPhraseCovered": 179
     },
     "12-vital": {
-      "uniqueStringCount": 439,
+      "uniqueStringCount": 438,
       "translatedOrPhraseCovered": 176
     },
     "13-poise": {
-      "uniqueStringCount": 437,
-      "translatedOrPhraseCovered": 181
-    },
-    "14-aura": {
-      "uniqueStringCount": 441,
-      "translatedOrPhraseCovered": 176
-    },
-    "15-clarity": {
-      "uniqueStringCount": 442,
-      "translatedOrPhraseCovered": 178
-    },
-    "16-grace": {
-      "uniqueStringCount": 440,
-      "translatedOrPhraseCovered": 177
-    },
-    "17-sculpt": {
       "uniqueStringCount": 436,
       "translatedOrPhraseCovered": 181
     },
+    "14-aura": {
+      "uniqueStringCount": 440,
+      "translatedOrPhraseCovered": 176
+    },
+    "15-clarity": {
+      "uniqueStringCount": 441,
+      "translatedOrPhraseCovered": 178
+    },
+    "16-grace": {
+      "uniqueStringCount": 439,
+      "translatedOrPhraseCovered": 177
+    },
+    "17-sculpt": {
+      "uniqueStringCount": 435,
+      "translatedOrPhraseCovered": 181
+    },
     "18-lumin": {
-      "uniqueStringCount": 442,
+      "uniqueStringCount": 441,
       "translatedOrPhraseCovered": 175
     },
     "19-verda": {
-      "uniqueStringCount": 443,
+      "uniqueStringCount": 442,
       "translatedOrPhraseCovered": 180
     },
     "20-halo": {
-      "uniqueStringCount": 441,
+      "uniqueStringCount": 440,
       "translatedOrPhraseCovered": 176
     },
     "21-calm": {
-      "uniqueStringCount": 441,
+      "uniqueStringCount": 440,
       "translatedOrPhraseCovered": 185
     },
     "22-precision": {
-      "uniqueStringCount": 441,
+      "uniqueStringCount": 440,
       "translatedOrPhraseCovered": 177
     },
     "23-ritual": {
-      "uniqueStringCount": 440,
+      "uniqueStringCount": 439,
       "translatedOrPhraseCovered": 177
     },
     "24-signal": {
-      "uniqueStringCount": 439,
+      "uniqueStringCount": 438,
       "translatedOrPhraseCovered": 177
     },
     "25-align": {
-      "uniqueStringCount": 440,
+      "uniqueStringCount": 439,
       "translatedOrPhraseCovered": 184
     },
     "26-vivant": {
-      "uniqueStringCount": 442,
+      "uniqueStringCount": 441,
       "translatedOrPhraseCovered": 175
     },
     "27-form": {
-      "uniqueStringCount": 437,
+      "uniqueStringCount": 436,
       "translatedOrPhraseCovered": 175
     },
     "28-pure": {
-      "uniqueStringCount": 441,
+      "uniqueStringCount": 440,
       "translatedOrPhraseCovered": 177
     },
     "29-solace": {
-      "uniqueStringCount": 441,
+      "uniqueStringCount": 440,
       "translatedOrPhraseCovered": 185
     },
     "30-method": {
-      "uniqueStringCount": 443,
+      "uniqueStringCount": 442,
       "translatedOrPhraseCovered": 177
     },
     "31-evolve": {
-      "uniqueStringCount": 444,
+      "uniqueStringCount": 443,
       "translatedOrPhraseCovered": 182
     },
     "32-serene": {
-      "uniqueStringCount": 438,
+      "uniqueStringCount": 437,
       "translatedOrPhraseCovered": 177
     },
     "33-elan": {
-      "uniqueStringCount": 438,
+      "uniqueStringCount": 437,
       "translatedOrPhraseCovered": 181
     },
     "34-flora": {
-      "uniqueStringCount": 440,
+      "uniqueStringCount": 439,
       "translatedOrPhraseCovered": 175
     },
     "35-atelier": {
-      "uniqueStringCount": 441,
+      "uniqueStringCount": 440,
       "translatedOrPhraseCovered": 177
     },
     "36-lumina": {
-      "uniqueStringCount": 441,
+      "uniqueStringCount": 440,
       "translatedOrPhraseCovered": 177
     },
     "37-vellum": {
-      "uniqueStringCount": 435,
+      "uniqueStringCount": 434,
       "translatedOrPhraseCovered": 182
     },
     "38-origin": {
-      "uniqueStringCount": 443,
+      "uniqueStringCount": 442,
       "translatedOrPhraseCovered": 177
     },
     "39-kindred": {
-      "uniqueStringCount": 444,
+      "uniqueStringCount": 443,
       "translatedOrPhraseCovered": 181
     },
     "40-noble": {
-      "uniqueStringCount": 440,
+      "uniqueStringCount": 439,
       "translatedOrPhraseCovered": 177
     },
     "41-vista": {
-      "uniqueStringCount": 442,
+      "uniqueStringCount": 441,
       "translatedOrPhraseCovered": 185
     },
     "42-softline": {
-      "uniqueStringCount": 440,
+      "uniqueStringCount": 439,
       "translatedOrPhraseCovered": 175
     },
     "43-meridian": {
-      "uniqueStringCount": 439,
+      "uniqueStringCount": 438,
       "translatedOrPhraseCovered": 176
     },
     "44-safeguard": {
-      "uniqueStringCount": 440,
+      "uniqueStringCount": 439,
       "translatedOrPhraseCovered": 177
     },
     "45-silhouette": {
-      "uniqueStringCount": 439,
+      "uniqueStringCount": 438,
       "translatedOrPhraseCovered": 183
     },
     "46-curate": {
-      "uniqueStringCount": 443,
+      "uniqueStringCount": 442,
       "translatedOrPhraseCovered": 177
     },
     "47-proof": {
-      "uniqueStringCount": 438,
+      "uniqueStringCount": 437,
       "translatedOrPhraseCovered": 177
     },
     "48-signature": {
-      "uniqueStringCount": 440,
+      "uniqueStringCount": 439,
       "translatedOrPhraseCovered": 177
     },
     "49-wisdom": {
-      "uniqueStringCount": 442,
+      "uniqueStringCount": 441,
       "translatedOrPhraseCovered": 186
     },
     "50-sovereign": {
-      "uniqueStringCount": 442,
+      "uniqueStringCount": 441,
       "translatedOrPhraseCovered": 175
     }
   },
   "strings": [
     {
       "source": "Consultation",
-      "occurrences": 1149,
+      "occurrences": 1150,
       "pt_BR": "Consulta",
       "needsHumanTranslation": false
     },
@@ -2116,12 +2066,6 @@
       "source": "Skip to content",
       "occurrences": 50,
       "pt_BR": "Skip to content",
-      "needsHumanTranslation": true
-    },
-    {
-      "source": "Sofiati",
-      "occurrences": 50,
-      "pt_BR": "Sofiati",
       "needsHumanTranslation": true
     },
     {
@@ -31959,8 +31903,7 @@
     ],
     "concepts/01-inspire/partials/schema.html": [],
     "concepts/01-inspire/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/02-empower/404.html": [
       "404 decorative visual in the Empower concept",
@@ -33018,8 +32961,7 @@
     ],
     "concepts/02-empower/partials/schema.html": [],
     "concepts/02-empower/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/03-enhance/404.html": [
       "404 decorative visual in the Enhance concept",
@@ -33281,8 +33223,8 @@
       "Laser precision",
       "Personalised care, laser precision and skin quality.",
       "precision line scan",
-      "Professional Evaluation",
       "Professional evaluation",
+      "Professional Evaluation",
       "Professional evaluation before protocol selection.",
       "Professional Evaluation for Franciele Sofiati in Londrina, PR, guided by evaluation-first care, ethical expectations and the Enhance concept.",
       "Professional Evaluation | Enhance | Franciele Sofiati",
@@ -34077,8 +34019,7 @@
     ],
     "concepts/03-enhance/partials/schema.html": [],
     "concepts/03-enhance/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/04-renew/404.html": [
       "404 decorative visual in the Renew concept",
@@ -35153,8 +35094,7 @@
     ],
     "concepts/04-renew/partials/schema.html": [],
     "concepts/04-renew/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/05-elevate/404.html": [
       "404 decorative visual in the Elevate concept",
@@ -36209,8 +36149,7 @@
     ],
     "concepts/05-elevate/partials/schema.html": [],
     "concepts/05-elevate/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/06-refine/404.html": [
       "404 decorative visual in the Refine concept",
@@ -36476,8 +36415,8 @@
       "Franciele Sofiati, CRBM 6277, advanced aesthetic biomedicine specialist in Londrina, PR",
       "Londrina contact",
       "Personalised care, laser precision and skin quality.",
-      "Professional Evaluation",
       "Professional evaluation",
+      "Professional Evaluation",
       "Professional evaluation before protocol selection.",
       "Professional Evaluation for Franciele Sofiati in Londrina, PR, guided by evaluation-first care, ethical expectations and the Refine concept.",
       "Professional Evaluation | Refine | Franciele Sofiati",
@@ -37281,8 +37220,7 @@
     ],
     "concepts/06-refine/partials/schema.html": [],
     "concepts/06-refine/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/07-glow/404.html": [
       "404 decorative visual in the Glow concept",
@@ -37547,8 +37485,8 @@
       "Laser precision",
       "luminous skin-quality story",
       "Personalised care, laser precision and skin quality.",
-      "Professional Evaluation",
       "Professional evaluation",
+      "Professional Evaluation",
       "Professional evaluation before protocol selection.",
       "Professional Evaluation for Franciele Sofiati in Londrina, PR, guided by evaluation-first care, ethical expectations and the Glow concept.",
       "Professional Evaluation | Glow | Franciele Sofiati",
@@ -38352,8 +38290,7 @@
     ],
     "concepts/07-glow/partials/schema.html": [],
     "concepts/07-glow/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/08-balance/404.html": [
       "404 decorative visual in the Balance concept",
@@ -39414,8 +39351,7 @@
     ],
     "concepts/08-balance/partials/schema.html": [],
     "concepts/08-balance/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/09-radiance/404.html": [
       "404 decorative visual in the Radiance concept",
@@ -40489,8 +40425,7 @@
     ],
     "concepts/09-radiance/partials/schema.html": [],
     "concepts/09-radiance/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/10-essence/404.html": [
       "404 decorative visual in the Essence concept",
@@ -40751,8 +40686,8 @@
       "Laser care is planned around indication, comfort, intervals and aftercare.",
       "Laser precision",
       "Personalised care, laser precision and skin quality.",
-      "Professional Evaluation",
       "Professional evaluation",
+      "Professional Evaluation",
       "Professional evaluation before protocol selection.",
       "Professional Evaluation for Franciele Sofiati in Londrina, PR, guided by evaluation-first care, ethical expectations and the Essence concept.",
       "Professional Evaluation | Essence | Franciele Sofiati",
@@ -41515,6 +41450,7 @@
     ],
     "concepts/10-essence/partials/head.html": [],
     "concepts/10-essence/partials/header.html": [
+      "Consultation",
       "Menu",
       "Open menu",
       "Sofiati home",
@@ -41545,8 +41481,7 @@
     ],
     "concepts/10-essence/partials/schema.html": [],
     "concepts/10-essence/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/11-bloom/404.html": [
       "404 decorative visual in the Bloom concept",
@@ -42605,8 +42540,7 @@
     ],
     "concepts/11-bloom/partials/schema.html": [],
     "concepts/11-bloom/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/12-vital/404.html": [
       "404 decorative visual in the Vital concept",
@@ -43681,8 +43615,7 @@
     ],
     "concepts/12-vital/partials/schema.html": [],
     "concepts/12-vital/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/13-poise/404.html": [
       "404 decorative visual in the Poise concept",
@@ -43944,8 +43877,8 @@
       "Laser care is planned around indication, comfort, intervals and aftercare.",
       "Laser precision",
       "Personalised care, laser precision and skin quality.",
-      "Professional Evaluation",
       "Professional evaluation",
+      "Professional Evaluation",
       "Professional evaluation before protocol selection.",
       "Professional Evaluation for Franciele Sofiati in Londrina, PR, guided by evaluation-first care, ethical expectations and the Poise concept.",
       "Professional Evaluation | Poise | Franciele Sofiati",
@@ -44739,8 +44672,7 @@
     ],
     "concepts/13-poise/partials/schema.html": [],
     "concepts/13-poise/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/14-aura/404.html": [
       "404 decorative visual in the Aura concept",
@@ -45812,8 +45744,7 @@
     ],
     "concepts/14-aura/partials/schema.html": [],
     "concepts/14-aura/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/15-clarity/404.html": [
       "404 decorative visual in the Clarity concept",
@@ -46886,8 +46817,7 @@
     ],
     "concepts/15-clarity/partials/schema.html": [],
     "concepts/15-clarity/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/16-grace/404.html": [
       "404 decorative visual in the Grace concept",
@@ -47148,8 +47078,8 @@
       "Franciele Sofiati, CRBM 6277, advanced aesthetic biomedicine specialist in Londrina, PR",
       "Londrina contact",
       "Personalised care, laser precision and skin quality.",
-      "Professional Evaluation",
       "Professional evaluation",
+      "Professional Evaluation",
       "Professional evaluation before protocol selection.",
       "Professional Evaluation for Franciele Sofiati in Londrina, PR, guided by evaluation-first care, ethical expectations and the Grace concept.",
       "Professional Evaluation | Grace | Franciele Sofiati",
@@ -47940,8 +47870,7 @@
     ],
     "concepts/16-grace/partials/schema.html": [],
     "concepts/16-grace/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/17-sculpt/404.html": [
       "404 decorative visual in the Sculpt concept",
@@ -48206,8 +48135,8 @@
       "Laser care is planned around indication, comfort, intervals and aftercare.",
       "Laser precision",
       "Personalised care, laser precision and skin quality.",
-      "Professional Evaluation",
       "Professional evaluation",
+      "Professional Evaluation",
       "Professional evaluation before protocol selection.",
       "Professional Evaluation for Franciele Sofiati in Londrina, PR, guided by evaluation-first care, ethical expectations and the Sculpt concept.",
       "Professional Evaluation | Sculpt | Franciele Sofiati",
@@ -49011,8 +48940,7 @@
     ],
     "concepts/17-sculpt/partials/schema.html": [],
     "concepts/17-sculpt/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/18-lumin/404.html": [
       "404 decorative visual in the Lumin concept",
@@ -50072,8 +50000,7 @@
     ],
     "concepts/18-lumin/partials/schema.html": [],
     "concepts/18-lumin/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/19-verda/404.html": [
       "404 decorative visual in the Verda concept",
@@ -51129,8 +51056,7 @@
     ],
     "concepts/19-verda/partials/schema.html": [],
     "concepts/19-verda/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/20-halo/404.html": [
       "404 decorative visual in the Halo concept",
@@ -51398,8 +51324,8 @@
       "Laser care is planned around indication, comfort, intervals and aftercare.",
       "Laser precision",
       "Personalised care, laser precision and skin quality.",
-      "Professional Evaluation",
       "Professional evaluation",
+      "Professional Evaluation",
       "Professional evaluation before protocol selection.",
       "Professional Evaluation for Franciele Sofiati in Londrina, PR, guided by evaluation-first care, ethical expectations and the Halo concept.",
       "Professional Evaluation | Halo | Franciele Sofiati",
@@ -52204,8 +52130,7 @@
     ],
     "concepts/20-halo/partials/schema.html": [],
     "concepts/20-halo/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/21-calm/404.html": [
       "404 decorative visual in the Calm concept",
@@ -53264,8 +53189,7 @@
     ],
     "concepts/21-calm/partials/schema.html": [],
     "concepts/21-calm/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/22-precision/404.html": [
       "404 decorative visual in the Precision concept",
@@ -54341,8 +54265,7 @@
     ],
     "concepts/22-precision/partials/schema.html": [],
     "concepts/22-precision/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/23-ritual/404.html": [
       "404 decorative visual in the Ritual concept",
@@ -54610,8 +54533,8 @@
       "Laser precision",
       "medical skin landing",
       "Personalised care, laser precision and skin quality.",
-      "Professional Evaluation",
       "Professional evaluation",
+      "Professional Evaluation",
       "Professional evaluation before protocol selection.",
       "Professional Evaluation for Franciele Sofiati in Londrina, PR, guided by evaluation-first care, ethical expectations and the Ritual concept.",
       "Professional Evaluation | Ritual | Franciele Sofiati",
@@ -55419,8 +55342,7 @@
     ],
     "concepts/23-ritual/partials/schema.html": [],
     "concepts/23-ritual/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/24-signal/404.html": [
       "404 decorative visual in the Signal concept",
@@ -56474,8 +56396,7 @@
     ],
     "concepts/24-signal/partials/schema.html": [],
     "concepts/24-signal/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/25-align/404.html": [
       "404 decorative visual in the Align concept",
@@ -57548,8 +57469,7 @@
     ],
     "concepts/25-align/partials/schema.html": [],
     "concepts/25-align/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/26-vivant/404.html": [
       "404 decorative visual in the Vivant concept",
@@ -57810,8 +57730,8 @@
       "Franciele Sofiati, CRBM 6277, advanced aesthetic biomedicine specialist in Londrina, PR",
       "Londrina contact",
       "Personalised care, laser precision and skin quality.",
-      "Professional Evaluation",
       "Professional evaluation",
+      "Professional Evaluation",
       "Professional evaluation before protocol selection.",
       "Professional Evaluation for Franciele Sofiati in Londrina, PR, guided by evaluation-first care, ethical expectations and the Vivant concept.",
       "Professional Evaluation | Vivant | Franciele Sofiati",
@@ -58602,8 +58522,7 @@
     ],
     "concepts/26-vivant/partials/schema.html": [],
     "concepts/26-vivant/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/27-form/404.html": [
       "404 decorative visual in the Form concept",
@@ -58862,8 +58781,8 @@
       "Laser care is planned around indication, comfort, intervals and aftercare.",
       "Laser precision",
       "Personalised care, laser precision and skin quality.",
-      "Professional Evaluation",
       "Professional evaluation",
+      "Professional Evaluation",
       "Professional evaluation before protocol selection.",
       "Professional Evaluation for Franciele Sofiati in Londrina, PR, guided by evaluation-first care, ethical expectations and the Form concept.",
       "Professional Evaluation | Form | Franciele Sofiati",
@@ -59655,8 +59574,7 @@
     ],
     "concepts/27-form/partials/schema.html": [],
     "concepts/27-form/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/28-pure/404.html": [
       "404 decorative visual in the Pure concept",
@@ -60735,8 +60653,7 @@
     ],
     "concepts/28-pure/partials/schema.html": [],
     "concepts/28-pure/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/29-solace/404.html": [
       "404 decorative visual in the Solace concept",
@@ -61792,8 +61709,7 @@
     ],
     "concepts/29-solace/partials/schema.html": [],
     "concepts/29-solace/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/30-method/404.html": [
       "404 decorative visual in the Method concept",
@@ -62061,8 +61977,8 @@
       "Laser care is planned around indication, comfort, intervals and aftercare.",
       "Laser precision",
       "Personalised care, laser precision and skin quality.",
-      "Professional Evaluation",
       "Professional evaluation",
+      "Professional Evaluation",
       "Professional evaluation before protocol selection.",
       "Professional Evaluation for Franciele Sofiati in Londrina, PR, guided by evaluation-first care, ethical expectations and the Method concept.",
       "Professional Evaluation | Method | Franciele Sofiati",
@@ -62867,8 +62783,7 @@
     ],
     "concepts/30-method/partials/schema.html": [],
     "concepts/30-method/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/31-evolve/404.html": [
       "404 decorative visual in the Evolve concept",
@@ -63945,8 +63860,7 @@
     ],
     "concepts/31-evolve/partials/schema.html": [],
     "concepts/31-evolve/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/32-serene/404.html": [
       "404 decorative visual in the Serene concept",
@@ -65003,8 +64917,7 @@
     ],
     "concepts/32-serene/partials/schema.html": [],
     "concepts/32-serene/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/33-elan/404.html": [
       "404 decorative visual in the Elan concept",
@@ -65272,8 +65185,8 @@
       "Laser care is planned around indication, comfort, intervals and aftercare.",
       "Laser precision",
       "Personalised care, laser precision and skin quality.",
-      "Professional Evaluation",
       "Professional evaluation",
+      "Professional Evaluation",
       "Professional evaluation before protocol selection.",
       "Professional Evaluation for Franciele Sofiati in Londrina, PR, guided by evaluation-first care, ethical expectations and the Elan concept.",
       "Professional Evaluation | Elan | Franciele Sofiati",
@@ -66079,8 +65992,7 @@
     ],
     "concepts/33-elan/partials/schema.html": [],
     "concepts/33-elan/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/34-flora/404.html": [
       "404 decorative visual in the Flora concept",
@@ -67134,8 +67046,7 @@
     ],
     "concepts/34-flora/partials/schema.html": [],
     "concepts/34-flora/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/35-atelier/404.html": [
       "404 decorative visual in the Atelier concept",
@@ -68190,8 +68101,7 @@
     ],
     "concepts/35-atelier/partials/schema.html": [],
     "concepts/35-atelier/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/36-lumina/404.html": [
       "404 decorative visual in the Lumina concept",
@@ -68457,8 +68367,8 @@
       "Londrina contact",
       "membership skincare bar",
       "Personalised care, laser precision and skin quality.",
-      "Professional Evaluation",
       "Professional evaluation",
+      "Professional Evaluation",
       "Professional evaluation before protocol selection.",
       "Professional Evaluation for Franciele Sofiati in Londrina, PR, guided by evaluation-first care, ethical expectations and the Lumina concept.",
       "Professional Evaluation | Lumina | Franciele Sofiati",
@@ -69262,8 +69172,7 @@
     ],
     "concepts/36-lumina/partials/schema.html": [],
     "concepts/36-lumina/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/37-vellum/404.html": [
       "404 decorative visual in the Vellum concept",
@@ -69521,8 +69430,8 @@
       "Laser care is planned around indication, comfort, intervals and aftercare.",
       "Laser precision",
       "Personalised care, laser precision and skin quality.",
-      "Professional Evaluation",
       "Professional evaluation",
+      "Professional Evaluation",
       "Professional evaluation before protocol selection.",
       "Professional Evaluation for Franciele Sofiati in Londrina, PR, guided by evaluation-first care, ethical expectations and the Vellum concept.",
       "Professional Evaluation | Vellum | Franciele Sofiati",
@@ -70315,8 +70224,7 @@
     ],
     "concepts/37-vellum/partials/schema.html": [],
     "concepts/37-vellum/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/38-origin/404.html": [
       "404 decorative visual in the Origin concept",
@@ -71394,8 +71302,7 @@
     ],
     "concepts/38-origin/partials/schema.html": [],
     "concepts/38-origin/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/39-kindred/404.html": [
       "404 decorative visual in the Kindred concept",
@@ -72469,8 +72376,7 @@
     ],
     "concepts/39-kindred/partials/schema.html": [],
     "concepts/39-kindred/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/40-noble/404.html": [
       "404 decorative visual in the Noble concept",
@@ -72732,8 +72638,8 @@
       "Laser care is planned around indication, comfort, intervals and aftercare.",
       "Laser precision",
       "Personalised care, laser precision and skin quality.",
-      "Professional Evaluation",
       "Professional evaluation",
+      "Professional Evaluation",
       "Professional evaluation before protocol selection.",
       "Professional Evaluation for Franciele Sofiati in Londrina, PR, guided by evaluation-first care, ethical expectations and the Noble concept.",
       "Professional Evaluation | Noble | Franciele Sofiati",
@@ -73526,8 +73432,7 @@
     ],
     "concepts/40-noble/partials/schema.html": [],
     "concepts/40-noble/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/41-vista/404.html": [
       "404 decorative visual in the Vista concept",
@@ -74604,8 +74509,7 @@
     ],
     "concepts/41-vista/partials/schema.html": [],
     "concepts/41-vista/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/42-softline/404.html": [
       "404 decorative visual in the Softline concept",
@@ -75663,8 +75567,7 @@
     ],
     "concepts/42-softline/partials/schema.html": [],
     "concepts/42-softline/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/43-meridian/404.html": [
       "404 decorative visual in the Meridian concept",
@@ -75926,8 +75829,8 @@
       "Laser care is planned around indication, comfort, intervals and aftercare.",
       "Laser precision",
       "Personalised care, laser precision and skin quality.",
-      "Professional Evaluation",
       "Professional evaluation",
+      "Professional Evaluation",
       "Professional evaluation before protocol selection.",
       "Professional Evaluation for Franciele Sofiati in Londrina, PR, guided by evaluation-first care, ethical expectations and the Meridian concept.",
       "Professional Evaluation | Meridian | Franciele Sofiati",
@@ -76722,8 +76625,7 @@
     ],
     "concepts/43-meridian/partials/schema.html": [],
     "concepts/43-meridian/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/44-safeguard/404.html": [
       "404 decorative visual in the Safeguard concept",
@@ -77795,8 +77697,7 @@
     ],
     "concepts/44-safeguard/partials/schema.html": [],
     "concepts/44-safeguard/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/45-silhouette/404.html": [
       "404 decorative visual in the Silhouette concept",
@@ -78851,8 +78752,7 @@
     ],
     "concepts/45-silhouette/partials/schema.html": [],
     "concepts/45-silhouette/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/46-curate/404.html": [
       "404 decorative visual in the Curate concept",
@@ -79118,8 +79018,8 @@
       "Franciele Sofiati, CRBM 6277, advanced aesthetic biomedicine specialist in Londrina, PR",
       "Londrina contact",
       "Personalised care, laser precision and skin quality.",
-      "Professional Evaluation",
       "Professional evaluation",
+      "Professional Evaluation",
       "Professional evaluation before protocol selection.",
       "Professional Evaluation for Franciele Sofiati in Londrina, PR, guided by evaluation-first care, ethical expectations and the Curate concept.",
       "Professional Evaluation | Curate | Franciele Sofiati",
@@ -79923,8 +79823,7 @@
     ],
     "concepts/46-curate/partials/schema.html": [],
     "concepts/46-curate/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/47-proof/404.html": [
       "404 decorative visual in the Proof concept",
@@ -80189,8 +80088,8 @@
       "Laser care is planned around indication, comfort, intervals and aftercare.",
       "Laser precision",
       "Personalised care, laser precision and skin quality.",
-      "Professional Evaluation",
       "Professional evaluation",
+      "Professional Evaluation",
       "Professional evaluation before protocol selection.",
       "Professional Evaluation for Franciele Sofiati in Londrina, PR, guided by evaluation-first care, ethical expectations and the Proof concept.",
       "Professional Evaluation | Proof | Franciele Sofiati",
@@ -80994,8 +80893,7 @@
     ],
     "concepts/47-proof/partials/schema.html": [],
     "concepts/47-proof/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/48-signature/404.html": [
       "404 decorative visual in the Signature concept",
@@ -82056,8 +81954,7 @@
     ],
     "concepts/48-signature/partials/schema.html": [],
     "concepts/48-signature/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/49-wisdom/404.html": [
       "404 decorative visual in the Wisdom concept",
@@ -83131,8 +83028,7 @@
     ],
     "concepts/49-wisdom/partials/schema.html": [],
     "concepts/49-wisdom/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ],
     "concepts/50-sovereign/404.html": [
       "404 decorative visual in the Sovereign concept",
@@ -83394,8 +83290,8 @@
       "Laser care is planned around indication, comfort, intervals and aftercare.",
       "Laser precision",
       "Personalised care, laser precision and skin quality.",
-      "Professional Evaluation",
       "Professional evaluation",
+      "Professional Evaluation",
       "Professional evaluation before protocol selection.",
       "Professional Evaluation for Franciele Sofiati in Londrina, PR, guided by evaluation-first care, ethical expectations and the Sovereign concept.",
       "Professional Evaluation | Sovereign | Franciele Sofiati",
@@ -84188,8 +84084,7 @@
     ],
     "concepts/50-sovereign/partials/schema.html": [],
     "concepts/50-sovereign/partials/status-banner.html": [
-      "Site language",
-      "Sofiati"
+      "Site language"
     ]
   }
 }

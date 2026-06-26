@@ -19,6 +19,7 @@ TRUST = ["Mission", "Values", "Testimonials", "FAQ", "Journal", "Blog"]
 LEGAL = ["Legal", "Privacy", "Cookies", "Accessibility", "Sitemap"]
 CONTACT = ["WhatsApp: (43) 9 9104-3536", "sofiatimendonca@gmail.com", "@fransofiati_biomedica", "Londrina, PR"]
 FOOTER_REQUIRED_HEADINGS = ["About", "Main Pages", "Legal", "Contact"]
+UTILITY_NAME = "Franciele Sofiati"
 FOOTER_FORBIDDEN_LABEL_PATTERNS = [
     r'aria-label="Brand"',
     r">Brand<",
@@ -110,8 +111,10 @@ def check_concept(concept: Path, combos: set[str]) -> dict[str, object]:
         "header_no_debug_or_contact": not forbidden_hits,
         "concept_name_absent_from_header_menu": True,
         "logo_visible": "sofiati-logo-primary" in header and "Sofiati logo" in header,
+        "utility_name_visible": UTILITY_NAME in status and 'aria-hidden="true">Franciele Sofiati' not in status,
         "language_switcher": 'data-lang-switch="en"' in header_surface and 'data-lang-switch="pt"' in header_surface,
         "primary_links_consistent": primary_nav_labels == PRIMARY and menu_labels == PRIMARY,
+        "mobile_consultation_cta": 'public-mobile-cta' in menu and ">Consultation</a>" in menu,
         "secondary_links_footer_only": not footer_only_in_menu,
         "mobile_menu_clean": not forbidden_hits and menu_labels == PRIMARY,
         "footer_columns": all(heading in footer for heading in FOOTER_REQUIRED_HEADINGS),
@@ -156,8 +159,10 @@ def write_markdown(results: list[dict[str, object]]) -> None:
             ("Public header removes debug/development/contact text", "header_no_debug_or_contact"),
             ("Concept name absent from public header/menu", "concept_name_absent_from_header_menu"),
             ("Sofiati logo visible and elegant", "logo_visible"),
+            ("Utility bar shows Franciele Sofiati", "utility_name_visible"),
             ("Language switcher present and refined", "language_switcher"),
             ("Primary links consistent", "primary_links_consistent"),
+            ("Mobile menu includes Consultation CTA", "mobile_consultation_cta"),
             ("Secondary and legal links stay footer-only", "secondary_links_footer_only"),
             ("WhatsApp, email, Instagram, CRBM and location removed from menu", "mobile_menu_clean"),
             ("Footer contains the current required columns", "footer_columns"),

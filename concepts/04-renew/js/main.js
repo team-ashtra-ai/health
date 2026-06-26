@@ -145,85 +145,6 @@
   document.addEventListener("sofiati:partials-ready", init);
   window.setTimeout(init, 900);
 })();
-
-/* SOFIATI 04 RENEW MENU RUNTIME START */
-(() => {
-  "use strict";
-
-  const menuSelector = "#mobile-menu";
-  let lastTrigger = null;
-
-  const menu = () => document.querySelector(menuSelector);
-  const triggers = () => document.querySelectorAll("[data-menu-toggle]");
-
-  const setExpanded = (expanded) => {
-    triggers().forEach((button) => {
-      button.setAttribute("aria-expanded", expanded ? "true" : "false");
-      button.setAttribute("aria-label", expanded ? "Close menu" : "Open menu");
-    });
-  };
-
-  const openMenu = (trigger) => {
-    const panel = menu();
-    if (!panel) return;
-    lastTrigger = trigger || document.activeElement;
-    panel.classList.add("is-open");
-    panel.setAttribute("aria-hidden", "false");
-    document.body.classList.add("public-menu-locked");
-    setExpanded(true);
-    window.requestAnimationFrame(() => {
-      panel.focus({ preventScroll: true });
-    });
-  };
-
-  const closeMenu = () => {
-    const panel = menu();
-    if (!panel) return;
-    panel.classList.remove("is-open");
-    panel.setAttribute("aria-hidden", "true");
-    document.body.classList.remove("public-menu-locked");
-    setExpanded(false);
-    if (lastTrigger && typeof lastTrigger.focus === "function") {
-      lastTrigger.focus({ preventScroll: true });
-    }
-  };
-
-  document.addEventListener("click", (event) => {
-    const openButton = event.target.closest("[data-menu-toggle]");
-    if (openButton) {
-      event.preventDefault();
-      const panel = menu();
-      if (panel?.classList.contains("is-open")) closeMenu();
-      else openMenu(openButton);
-      return;
-    }
-
-    if (event.target.closest("[data-menu-close]")) {
-      event.preventDefault();
-      closeMenu();
-      return;
-    }
-
-    if (event.target.closest("#mobile-menu a")) {
-      closeMenu();
-    }
-  });
-
-  document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && menu()?.classList.contains("is-open")) {
-      closeMenu();
-    }
-  });
-
-  document.addEventListener("sofiati:partials-ready", () => {
-    const panel = menu();
-    if (!panel) return;
-    panel.setAttribute("aria-hidden", panel.classList.contains("is-open") ? "false" : "true");
-    setExpanded(panel.classList.contains("is-open"));
-  });
-})();
-/* SOFIATI 04 RENEW MENU RUNTIME END */
-
 /* SOFIATI LANGUAGE RUNTIME START */
 (() => {
   "use strict";
@@ -383,3 +304,88 @@
   });
 })();
 /* SOFIATI LANGUAGE RUNTIME END */
+
+/* SOFIATI HEADER RUNTIME START */
+(() => {
+  "use strict";
+
+  const MENU_SELECTOR = "#mobile-menu";
+  let lastTrigger = null;
+
+  const menu = () => document.querySelector(MENU_SELECTOR);
+  const triggers = () => document.querySelectorAll("[data-menu-toggle]");
+
+  const setExpanded = (expanded) => {
+    triggers().forEach((button) => {
+      button.setAttribute("aria-expanded", expanded ? "true" : "false");
+      button.setAttribute("aria-label", expanded ? "Close menu" : "Open menu");
+    });
+  };
+
+  const syncMenu = () => {
+    const panel = menu();
+    if (!panel) return;
+    const open = panel.classList.contains("is-open");
+    panel.setAttribute("aria-hidden", open ? "false" : "true");
+    document.body.classList.toggle("public-menu-locked", open);
+    setExpanded(open);
+  };
+
+  const openMenu = (trigger) => {
+    const panel = menu();
+    if (!panel) return;
+    lastTrigger = trigger || document.activeElement;
+    panel.classList.add("is-open");
+    syncMenu();
+    window.requestAnimationFrame(() => panel.focus({ preventScroll: true }));
+  };
+
+  const closeMenu = ({ restoreFocus = true } = {}) => {
+    const panel = menu();
+    if (!panel) return;
+    panel.classList.remove("is-open");
+    syncMenu();
+    if (restoreFocus && lastTrigger && typeof lastTrigger.focus === "function") {
+      lastTrigger.focus({ preventScroll: true });
+    }
+  };
+
+  const toggleMenu = (trigger) => {
+    if (menu()?.classList.contains("is-open")) closeMenu();
+    else openMenu(trigger);
+  };
+
+  document.addEventListener("click", (event) => {
+    const toggle = event.target.closest("[data-menu-toggle]");
+    if (toggle) {
+      event.preventDefault();
+      toggleMenu(toggle);
+      return;
+    }
+
+    if (event.target.closest("[data-menu-close]")) {
+      event.preventDefault();
+      closeMenu();
+      return;
+    }
+
+    if (event.target.closest("#mobile-menu a")) {
+      closeMenu({ restoreFocus: false });
+    }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && menu()?.classList.contains("is-open")) {
+      closeMenu();
+    }
+  });
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", syncMenu, { once: true });
+  } else {
+    syncMenu();
+  }
+
+  document.addEventListener("sofiati:partials-ready", syncMenu);
+})();
+/* SOFIATI HEADER RUNTIME END */
