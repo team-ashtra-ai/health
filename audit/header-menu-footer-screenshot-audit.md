@@ -11,8 +11,10 @@ Combination: `public-header-layout-split|public-menu-layout-editorial-full|publi
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -32,8 +34,10 @@ Combination: `public-header-layout-capsule|public-menu-layout-bottom-sheet|publi
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -53,8 +57,10 @@ Combination: `public-header-layout-clinical|public-menu-layout-clinical-drawer|p
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -74,8 +80,10 @@ Combination: `public-header-layout-dossier|public-menu-layout-dossier-panel|publ
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -95,8 +103,10 @@ Combination: `public-header-layout-stacked|public-menu-layout-ivory-editorial|pu
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -116,8 +126,10 @@ Combination: `public-header-layout-minimal|public-menu-layout-minimal-drawer|pub
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -137,8 +149,10 @@ Combination: `public-header-layout-luminous|public-menu-layout-luminous-overlay|
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -158,8 +172,10 @@ Combination: `public-header-layout-balanced|public-menu-layout-two-column|public
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -179,8 +195,10 @@ Combination: `public-header-layout-editorial|public-menu-layout-soft-gradient|pu
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -195,13 +213,15 @@ Combination: `public-header-layout-editorial|public-menu-layout-soft-gradient|pu
 
 ## 10-essence - PASS
 
-Combination: `public-header-layout-menu-only|public-menu-layout-typographic-full|public-footer-recipe-essence`
+Combination: `public-header-layout-essence|public-menu-layout-typographic-full|public-footer-recipe-essence`
 
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -221,8 +241,10 @@ Combination: `public-header-layout-botanical|public-menu-layout-botanical-panel|
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -242,8 +264,10 @@ Combination: `public-header-layout-dynamic|public-menu-layout-energetic-drawer|p
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -263,8 +287,10 @@ Combination: `public-header-layout-poised|public-menu-layout-quiet-editorial|pub
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -284,8 +310,10 @@ Combination: `public-header-layout-aura|public-menu-layout-soft-overlay|public-f
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -305,8 +333,10 @@ Combination: `public-header-layout-grid|public-menu-layout-clinical-grid|public-
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -326,8 +356,10 @@ Combination: `public-header-layout-curved|public-menu-layout-curved-panel|public
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -347,8 +379,10 @@ Combination: `public-header-layout-sculptural|public-menu-layout-geometric-layer
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -368,8 +402,10 @@ Combination: `public-header-layout-glass|public-menu-layout-frosted-glass|public
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -389,8 +425,10 @@ Combination: `public-header-layout-verdant|public-menu-layout-deep-botanical|pub
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -410,8 +448,10 @@ Combination: `public-header-layout-halo|public-menu-layout-radial|public-footer-
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -431,8 +471,10 @@ Combination: `public-header-layout-calm|public-menu-layout-calm-cream|public-foo
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -452,8 +494,10 @@ Combination: `public-header-layout-precision|public-menu-layout-precise-drawer|p
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -473,8 +517,10 @@ Combination: `public-header-layout-ritual|public-menu-layout-ritual-full|public-
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -494,8 +540,10 @@ Combination: `public-header-layout-signal|public-menu-layout-signal-drawer|publi
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -515,8 +563,10 @@ Combination: `public-header-layout-align|public-menu-layout-card-stack|public-fo
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -536,8 +586,10 @@ Combination: `public-header-layout-vivant|public-menu-layout-animated-full|publi
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -557,8 +609,10 @@ Combination: `public-header-layout-form|public-menu-layout-shape-panels|public-f
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -578,8 +632,10 @@ Combination: `public-header-layout-pure|public-menu-layout-pure-ivory|public-foo
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -599,8 +655,10 @@ Combination: `public-header-layout-solace|public-menu-layout-warm-full|public-fo
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -620,8 +678,10 @@ Combination: `public-header-layout-method|public-menu-layout-process-step|public
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -641,8 +701,10 @@ Combination: `public-header-layout-evolve|public-menu-layout-animated-reveal|pub
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -662,8 +724,10 @@ Combination: `public-header-layout-serene|public-menu-layout-serene-ivory|public
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -683,8 +747,10 @@ Combination: `public-header-layout-elan|public-menu-layout-bold-editorial|public
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -704,8 +770,10 @@ Combination: `public-header-layout-flora|public-menu-layout-floral-full|public-f
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -725,8 +793,10 @@ Combination: `public-header-layout-atelier|public-menu-layout-atelier-type|publi
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -746,8 +816,10 @@ Combination: `public-header-layout-lumina|public-menu-layout-luminous-panel|publ
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -767,8 +839,10 @@ Combination: `public-header-layout-vellum|public-menu-layout-paper-menu|public-f
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -788,8 +862,10 @@ Combination: `public-header-layout-origin|public-menu-layout-grounded-sage|publi
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -809,8 +885,10 @@ Combination: `public-header-layout-kindred|public-menu-layout-warm-card|public-f
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -830,8 +908,10 @@ Combination: `public-header-layout-noble|public-menu-layout-dark-elegant|public-
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -851,8 +931,10 @@ Combination: `public-header-layout-vista|public-menu-layout-wide-panel|public-fo
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -872,8 +954,10 @@ Combination: `public-header-layout-softline|public-menu-layout-curved-line|publi
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -893,8 +977,10 @@ Combination: `public-header-layout-meridian|public-menu-layout-meridian-drawer|p
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -914,8 +1000,10 @@ Combination: `public-header-layout-safeguard|public-menu-layout-secure-clean|pub
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -935,8 +1023,10 @@ Combination: `public-header-layout-silhouette|public-menu-layout-silhouette-over
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -956,8 +1046,10 @@ Combination: `public-header-layout-curate|public-menu-layout-boutique-selection|
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -977,8 +1069,10 @@ Combination: `public-header-layout-proof|public-menu-layout-structured-proof|pub
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -998,8 +1092,10 @@ Combination: `public-header-layout-signature|public-menu-layout-signature-full|p
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -1019,8 +1115,10 @@ Combination: `public-header-layout-wisdom|public-menu-layout-wisdom-editorial|pu
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns
@@ -1040,8 +1138,10 @@ Combination: `public-header-layout-sovereign|public-menu-layout-premium-brand|pu
 - [x] Public header removes debug/development/contact text
 - [x] Concept name absent from public header/menu
 - [x] Sofiati logo visible and elegant
+- [x] Utility bar shows Franciele Sofiati
 - [x] Language switcher present and refined
 - [x] Primary links consistent
+- [x] Mobile menu includes Consultation CTA
 - [x] Secondary and legal links stay footer-only
 - [x] WhatsApp, email, Instagram, CRBM and location removed from menu
 - [x] Footer contains the current required columns

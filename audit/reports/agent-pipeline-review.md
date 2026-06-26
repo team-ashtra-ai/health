@@ -1,7 +1,7 @@
 # Agent Audit Pipeline Review
 
 Status: FAIL
-Generated: 2026-06-26T14:56:23
+Generated: 2026-06-26T17:16:19
 
 ## Scope
 - Runs static audits, public-partial checks and screenshot capture scripts.
@@ -21,16 +21,19 @@ Generated: 2026-06-26T14:56:23
 | Static site audit | PASS | `/usr/bin/python3 scripts/audit_static_site.py` |
 | Internal link audit | PASS | `/usr/bin/python3 scripts/audit_internal_links.py` |
 | Layout signature audit | PASS | `/usr/bin/python3 scripts/audit_layout_signatures.py` |
-| Ethics/contact audit | FAIL 1 | `/usr/bin/python3 scripts/audit_ethics.py` |
+| Ethics/contact audit | FAIL 2 | `/usr/bin/python3 scripts/audit_ethics.py` |
+| Header/footer/mobile-menu screenshots | PASS | `/usr/bin/python3 scripts/capture_header_footer_screenshots.py` |
+| Design QA screenshots | PASS | `/usr/bin/python3 scripts/run_screenshot_design_qa.py` |
+| Homepage screenshots | PASS | `/usr/bin/python3 scripts/capture_homepage_screenshots.py` |
 | Public partial audit | PASS | `/usr/bin/python3 scripts/audit_public_partials.py` |
 
 ## Screenshot Manifests
 
 | Set | Status | Count | Expected |
 | --- | --- | --- | --- |
-| Header/footer screenshots | skipped | n/a | 100 |
-| Design QA screenshots | skipped | n/a | 500 |
-| Homepage screenshots | skipped | n/a | 102 |
+| Header/footer screenshots | present | 100 | 100 |
+| Design QA screenshots | present | 500 | 500 |
+| Homepage screenshots | present | 102 | 102 |
 
 ## Automated Issue Scan
 - Footer Brand-label hits: 0

@@ -161,3 +161,12 @@ Use `docs/agent-system/20-implementation-task-ledger.md` for the first implement
 - Repaired all 50 concepts for Care, Laser, Skin and Results with varied hero copy, secondary CTAs, image rhythm and visitor-facing section language.
 - Updated `audit/reports/screenshot-design-qa.md` and `audit/reports/ux-storytelling-audit.md`.
 - Next task: regenerate screenshots after repair, visually re-check the four repaired page types, then decide whether Home mobile needs a second visual polish pass.
+
+## Screenshot / Design QA Batch - 2026-06-26 16:57
+
+- Captured desktop and mobile screenshot sheets for Home, Care, Laser, Skin and Results.
+- Identified repeated first-viewport build risk on Care, Laser, Skin and Results pages.
+- Repaired all 50 concepts for Care, Laser, Skin and Results with varied hero copy, secondary CTAs, image rhythm and visitor-facing section language.
+- Updated `audit/reports/screenshot-design-qa.md` and `audit/reports/ux-storytelling-audit.md`.
+- Next task: regenerate screenshots after repair, visually re-check the four repaired page types, then decide whether Home mobile needs a second visual polish pass.
+

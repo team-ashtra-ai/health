@@ -1,0 +1,7402 @@
+[
+  {
+    "concept": "01-inspire",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "01-inspire",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "01-inspire",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "02-empower",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "02-empower",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "02-empower",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "03-enhance",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "03-enhance",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "03-enhance",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "04-renew",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "04-renew",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "04-renew",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "05-elevate",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "05-elevate",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "05-elevate",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "06-refine",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "06-refine",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "06-refine",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "07-glow",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "07-glow",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "07-glow",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "08-balance",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "08-balance",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "08-balance",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "09-radiance",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "09-radiance",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "09-radiance",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "10-essence",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "10-essence",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "10-essence",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "11-bloom",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "11-bloom",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "11-bloom",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "12-vital",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "12-vital",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "12-vital",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "13-poise",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "13-poise",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "13-poise",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "14-aura",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "14-aura",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "14-aura",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "15-clarity",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "15-clarity",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "15-clarity",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "16-grace",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "16-grace",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "16-grace",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "17-sculpt",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "17-sculpt",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "17-sculpt",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "18-lumin",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "18-lumin",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "18-lumin",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "19-verda",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "19-verda",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "19-verda",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "20-halo",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "20-halo",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "20-halo",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "21-calm",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "21-calm",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "21-calm",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "22-precision",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "22-precision",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "22-precision",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "23-ritual",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "23-ritual",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "23-ritual",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "24-signal",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "24-signal",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "24-signal",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "25-align",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "25-align",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "25-align",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "26-vivant",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "26-vivant",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "26-vivant",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "27-form",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "27-form",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "27-form",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "28-pure",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "28-pure",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "28-pure",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "29-solace",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "29-solace",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "29-solace",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "30-method",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "30-method",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "30-method",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "31-evolve",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "31-evolve",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "31-evolve",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "32-serene",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "32-serene",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "32-serene",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "33-elan",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "33-elan",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "33-elan",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "34-flora",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "34-flora",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "34-flora",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "35-atelier",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "35-atelier",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "35-atelier",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "36-lumina",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "36-lumina",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "36-lumina",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "37-vellum",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "37-vellum",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "37-vellum",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "38-origin",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "38-origin",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "38-origin",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "39-kindred",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "39-kindred",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "39-kindred",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "40-noble",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "40-noble",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "40-noble",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "41-vista",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "41-vista",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "41-vista",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "42-softline",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "42-softline",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "42-softline",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "43-meridian",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "43-meridian",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "43-meridian",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "44-safeguard",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "44-safeguard",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "44-safeguard",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "45-silhouette",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "45-silhouette",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "45-silhouette",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "46-curate",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "46-curate",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "46-curate",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "47-proof",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "47-proof",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "47-proof",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "48-signature",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "48-signature",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "48-signature",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "49-wisdom",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "49-wisdom",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "49-wisdom",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "50-sovereign",
+    "viewport": "mobile-390",
+    "metrics": {
+      "viewport": "mobile-390",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": true,
+      "navLabels": [],
+      "navRows": 0,
+      "contactVisible": false,
+      "menu": {
+        "triggerVisible": true,
+        "open": false,
+        "closeVisible": true,
+        "ctaVisible": true,
+        "languageInBounds": true,
+        "linkCount": 8,
+        "closed": true
+      },
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        },
+        {
+          "severity": "critical",
+          "kind": "mobile-menu-open",
+          "detail": "Menu did not open"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "50-sovereign",
+    "viewport": "desktop-1024",
+    "metrics": {
+      "viewport": "desktop-1024",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  },
+  {
+    "concept": "50-sovereign",
+    "viewport": "desktop-1366",
+    "metrics": {
+      "viewport": "desktop-1366",
+      "pageOverflow": 0,
+      "utilityVisible": true,
+      "utilityName": "Franciele Sofiati",
+      "utilityNameVisible": true,
+      "utilityLanguageVisible": true,
+      "utilityLanguageInBounds": true,
+      "languageToggleWorks": false,
+      "headerVisible": true,
+      "ctaVisible": true,
+      "menuButtonVisible": false,
+      "navLabels": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "navRows": 1,
+      "contactVisible": true,
+      "menu": null,
+      "errors": [],
+      "required": [
+        "Home",
+        "About",
+        "Care",
+        "Laser",
+        "Skin",
+        "Results",
+        "Consultation",
+        "Contact"
+      ],
+      "issues": [
+        {
+          "severity": "high",
+          "kind": "language-toggle",
+          "detail": "EN/PT controls did not update active language state"
+        }
+      ]
+    }
+  }
+]
