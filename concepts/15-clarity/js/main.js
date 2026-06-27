@@ -53,7 +53,9 @@
     let tools = document.querySelector("[data-floating-tools]");
 
     if (!tools) {
-      const mount = document.querySelector('[data-partial-mount="floating-widgets"]');
+      const mount = document.querySelector(
+        '[data-partial-mount="floating-widgets"]',
+      );
       tools = document.createElement("div");
       if (mount) {
         mount.innerHTML = "";
@@ -96,7 +98,9 @@
       button.dataset.sofiatiBackTopReady = "true";
 
       button.addEventListener("click", () => {
-        const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        const reduceMotion = window.matchMedia(
+          "(prefers-reduced-motion: reduce)",
+        ).matches;
         window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" });
       });
     });
@@ -149,7 +153,9 @@
 /* SOFIATI LANGUAGE TOGGLE RUNTIME START */
 (function () {
   function normalizeLang(value) {
-    return value === "pt" || value === "pt-BR" || value === "pt-br" ? "pt-BR" : "en";
+    return value === "pt" || value === "pt-BR" || value === "pt-br"
+      ? "pt-BR"
+      : "en";
   }
 
   function shortLang(value) {
@@ -183,9 +189,9 @@
   function initialiseLanguageState() {
     setLanguage(
       document.documentElement.getAttribute("lang") ||
-      document.body?.getAttribute("data-default-lang") ||
-      document.documentElement.getAttribute("data-default-lang") ||
-      "en"
+        document.body?.getAttribute("data-default-lang") ||
+        document.documentElement.getAttribute("data-default-lang") ||
+        "en",
     );
   }
 
@@ -197,7 +203,7 @@
 
   window.SofiatiSetLanguage = setLanguage;
 })();
- /* SOFIATI LANGUAGE TOGGLE RUNTIME END */
+/* SOFIATI LANGUAGE TOGGLE RUNTIME END */
 
 /* SOFIATI MOBILE MENU RUNTIME START */
 (function () {
@@ -223,7 +229,9 @@
       button.setAttribute("aria-controls", "mobile-menu");
     });
 
-    const firstFocusable = menu.querySelector("a[href], button:not([disabled]), [tabindex]:not([tabindex='-1'])");
+    const firstFocusable = menu.querySelector(
+      "a[href], button:not([disabled]), [tabindex]:not([tabindex='-1'])",
+    );
     if (firstFocusable) firstFocusable.focus({ preventScroll: true });
   }
 
@@ -279,9 +287,11 @@
     }
 
     document.querySelectorAll("[data-menu-toggle]").forEach((button) => {
-      if (!button.hasAttribute("aria-expanded")) button.setAttribute("aria-expanded", "false");
-      if (!button.hasAttribute("aria-controls")) button.setAttribute("aria-controls", "mobile-menu");
+      if (!button.hasAttribute("aria-expanded"))
+        button.setAttribute("aria-expanded", "false");
+      if (!button.hasAttribute("aria-controls"))
+        button.setAttribute("aria-controls", "mobile-menu");
     });
   });
 })();
- /* SOFIATI MOBILE MENU RUNTIME END */
+/* SOFIATI MOBILE MENU RUNTIME END */

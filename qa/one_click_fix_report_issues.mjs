@@ -14,10 +14,26 @@ fs.mkdirSync(LOGS, { recursive: true });
 fs.mkdirSync(BACKUPS, { recursive: true });
 
 const PAGES = [
-  "index.html","about.html","care.html","laser.html","skin.html","results.html",
-  "consultation.html","contact.html","faq.html","testimonials.html","mission.html",
-  "values.html","privacy.html","cookies.html","accessibility.html","legal.html",
-  "sitemap.html","404.html","blog.html","journal.html"
+  "index.html",
+  "about.html",
+  "care.html",
+  "laser.html",
+  "skin.html",
+  "results.html",
+  "consultation.html",
+  "contact.html",
+  "faq.html",
+  "testimonials.html",
+  "mission.html",
+  "values.html",
+  "privacy.html",
+  "cookies.html",
+  "accessibility.html",
+  "legal.html",
+  "sitemap.html",
+  "404.html",
+  "blog.html",
+  "journal.html",
 ];
 
 const CSS_BLOCK_START = "/* SOFIATI ONE CLICK REPORT FIXES START */";
@@ -216,14 +232,18 @@ function writeChanged(file, text, changed) {
 
 function concepts() {
   if (!fs.existsSync(CONCEPTS)) return [];
-  return fs.readdirSync(CONCEPTS)
-    .map(name => path.join(CONCEPTS, name))
-    .filter(file => fs.statSync(file).isDirectory())
+  return fs
+    .readdirSync(CONCEPTS)
+    .map((name) => path.join(CONCEPTS, name))
+    .filter((file) => fs.statSync(file).isDirectory())
     .sort();
 }
 
 function backup(files) {
-  const stamp = new Date().toISOString().replaceAll(":", "-").replace(/\..+$/, "");
+  const stamp = new Date()
+    .toISOString()
+    .replaceAll(":", "-")
+    .replace(/\..+$/, "");
   const dir = path.join(BACKUPS, `one-click-fix-${stamp}`);
   fs.mkdirSync(dir, { recursive: true });
 
@@ -248,11 +268,16 @@ function esc(value) {
 function pageLabel(page) {
   if (page === "index.html") return "Evaluation-Led Aesthetic Care";
   if (page === "404.html") return "Page Not Found";
-  return page.replace(".html", "").replaceAll("-", " ").replace(/\b\w/g, m => m.toUpperCase());
+  return page
+    .replace(".html", "")
+    .replaceAll("-", " ")
+    .replace(/\b\w/g, (m) => m.toUpperCase());
 }
 
 function bodyData(text, attr) {
-  return text.match(new RegExp(`${attr}=["']([^"']+)["']`, "i"))?.[1]?.trim() || "";
+  return (
+    text.match(new RegExp(`${attr}=["']([^"']+)["']`, "i"))?.[1]?.trim() || ""
+  );
 }
 
 function ensureSeo(text, concept, page) {
@@ -260,31 +285,49 @@ function ensureSeo(text, concept, page) {
 
   const title =
     bodyData(text, "data-page-title") ||
-    text.match(/<title>([\s\S]*?)<\/title>/i)?.[1]?.replace(/\s+/g, " ").trim() ||
+    text
+      .match(/<title>([\s\S]*?)<\/title>/i)?.[1]
+      ?.replace(/\s+/g, " ")
+      .trim() ||
     `${pageLabel(page)} | ${concept} | Franciele Sofiati`;
 
   const desc =
     bodyData(text, "data-page-description") ||
-    text.match(/<meta\s+name=["']description["']\s+content=["']([^"']+)["']/i)?.[1]?.trim() ||
+    text
+      .match(
+        /<meta\s+name=["']description["']\s+content=["']([^"']+)["']/i,
+      )?.[1]
+      ?.trim() ||
     `${pageLabel(page)} information for Franciele Sofiati, with evaluation-led guidance, responsible expectations and a clear path toward consultation.`;
 
   const canonical =
     bodyData(text, "data-canonical") ||
-    text.match(/<link\s+rel=["']canonical["']\s+href=["']([^"']+)["']/i)?.[1]?.trim() ||
+    text
+      .match(/<link\s+rel=["']canonical["']\s+href=["']([^"']+)["']/i)?.[1]
+      ?.trim() ||
     `https://www.sofiati.com/concepts/${concept}/${page}`;
 
   let out = text;
 
   if (!/<title>[\s\S]*?<\/title>/i.test(out)) {
-    out = out.replace(/<head([^>]*)>/i, `<head$1>\n  <title>${esc(title)}</title>`);
+    out = out.replace(
+      /<head([^>]*)>/i,
+      `<head$1>\n  <title>${esc(title)}</title>`,
+    );
   }
 
   if (!/<meta\s+name=["']description["']/i.test(out)) {
-    out = out.replace(/<\/head>/i, `  <meta name="description" content="${esc(desc)}">\n</head>`);
+    out = out.replace(
+      /<\/head>/i,
+      `  <meta name="description" content="${esc(desc)}">\n</head>`,
+    );
   }
 
   if (!/<link\s+rel=["']canonical["']/i.test(out)) {
-    out = out.replace(/<\/head>/i, `  <link rel="canonical" href="${esc(canonical)}">\n</head>`);
+    out = out.replace(
+      /<\/head>/i,
+      `  <link rel="canonical" href="${esc(canonical)}">\n</head>`,
+    );
   }
 
   if (!/property=["']og:title["']/i.test(out)) {
@@ -295,7 +338,7 @@ function ensureSeo(text, concept, page) {
       `  <meta property="og:url" content="${esc(canonical)}">`,
       `  <meta name="twitter:card" content="summary_large_image">`,
       `  <meta name="twitter:title" content="${esc(title)}">`,
-      `  <meta name="twitter:description" content="${esc(desc)}">`
+      `  <meta name="twitter:description" content="${esc(desc)}">`,
     ].join("\n");
 
     out = out.replace(/<\/head>/i, `${og}\n</head>`);
@@ -307,7 +350,7 @@ function ensureSeo(text, concept, page) {
 function ensureSectionHeadings(text, concept, page) {
   let count = 0;
 
-  return text.replace(/<section\b[^>]*>[\s\S]*?<\/section>/gi, section => {
+  return text.replace(/<section\b[^>]*>[\s\S]*?<\/section>/gi, (section) => {
     count++;
     if (/<h[2-6]\b/i.test(section)) return section;
 
@@ -315,7 +358,10 @@ function ensureSectionHeadings(text, concept, page) {
     if (!tag) return section;
 
     const heading = `${pageLabel(page)} Section ${count}`;
-    return section.replace(tag, `${tag}\n  <h2 class="sr-only qa-section-heading">${esc(heading)}</h2>`);
+    return section.replace(
+      tag,
+      `${tag}\n  <h2 class="sr-only qa-section-heading">${esc(heading)}</h2>`,
+    );
   });
 }
 
@@ -345,14 +391,21 @@ function rerunQa() {
   const qa = path.join(ROOT, "qa", "sofiati_full_quality_system.mjs");
   if (!fs.existsSync(qa)) return "QA runner not found.";
 
-  const result = spawnSync("node", ["qa/sofiati_full_quality_system.mjs", "--all"], {
-    cwd: ROOT,
-    encoding: "utf8",
-    timeout: 1000 * 60 * 25
-  });
+  const result = spawnSync(
+    "node",
+    ["qa/sofiati_full_quality_system.mjs", "--all"],
+    {
+      cwd: ROOT,
+      encoding: "utf8",
+      timeout: 1000 * 60 * 25,
+    },
+  );
 
   const output = `${result.stdout || ""}\n${result.stderr || ""}`.trim();
-  fs.writeFileSync(path.join(LOGS, "one-click-fix-report-qa-rerun.txt"), output + "\n");
+  fs.writeFileSync(
+    path.join(LOGS, "one-click-fix-report-qa-rerun.txt"),
+    output + "\n",
+  );
   return output;
 }
 
@@ -368,10 +421,12 @@ function remainingSummary() {
     counts[key] = (counts[key] || 0) + 1;
   }
 
-  return Object.entries(counts)
-    .sort((a,b) => b[1] - a[1])
-    .map(([key,count]) => `${String(count).padStart(5)}  ${key}`)
-    .join("\n") || "No remaining issues.";
+  return (
+    Object.entries(counts)
+      .sort((a, b) => b[1] - a[1])
+      .map(([key, count]) => `${String(count).padStart(5)}  ${key}`)
+      .join("\n") || "No remaining issues."
+  );
 }
 
 function main() {
@@ -395,7 +450,8 @@ function main() {
 
     for (const page of PAGES) {
       const file = path.join(dir, page);
-      if (fs.existsSync(file)) writeChanged(file, fixHtml(file, concept), changed);
+      if (fs.existsSync(file))
+        writeChanged(file, fixHtml(file, concept), changed);
     }
 
     const css = path.join(dir, "css", "style.css");
@@ -425,7 +481,7 @@ function main() {
     "",
     "## Changed Files",
     "",
-    ...[...changed].sort().map(file => `- \`${file}\``),
+    ...[...changed].sort().map((file) => `- \`${file}\``),
     "",
     "## Remaining Issue Summary After QA Rerun",
     "",
@@ -437,7 +493,7 @@ function main() {
     "",
     "```text",
     qaOutput,
-    "```"
+    "```",
   ].join("\n");
 
   fs.writeFileSync(path.join(REPORTS, "ONE-CLICK-FIX-REPORT.md"), report);

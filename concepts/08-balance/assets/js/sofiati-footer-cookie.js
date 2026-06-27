@@ -2,7 +2,25 @@
 (() => {
   "use strict";
 
-  const CONFIG = {"code": "08", "slug": "balance", "bg": "#F8F7F2", "fg": "#252321", "muted": "rgba(37,35,33,.62)", "accent": "#879588", "border": "1px solid rgba(127,141,130,.18)", "width": "min(1180px,calc(100% - 38px))", "padding": "10px 0", "fontSize": ".81rem", "align": "left", "layout": "two-part", "separator": "soft-top", "marker": "bracket", "buttonStyle": "soft", "radius": "999px", "autoDelayMs": 9960};
+  const CONFIG = {
+    code: "08",
+    slug: "balance",
+    bg: "#F8F7F2",
+    fg: "#252321",
+    muted: "rgba(37,35,33,.62)",
+    accent: "#879588",
+    border: "1px solid rgba(127,141,130,.18)",
+    width: "min(1180px,calc(100% - 38px))",
+    padding: "10px 0",
+    fontSize: ".81rem",
+    align: "left",
+    layout: "two-part",
+    separator: "soft-top",
+    marker: "bracket",
+    buttonStyle: "soft",
+    radius: "999px",
+    autoDelayMs: 9960,
+  };
   const STORAGE_KEY = "sofiatiFooterCookie:v2:" + CONFIG.code;
 
   if (localStorage.getItem(STORAGE_KEY)) return;
@@ -13,11 +31,13 @@
       analytics: false,
       experience: mode === "all",
       mode,
-      updatedAt: new Date().toISOString()
+      updatedAt: new Date().toISOString(),
     };
 
     localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
-    window.dispatchEvent(new CustomEvent("sofiati:cookie-consent", { detail: payload }));
+    window.dispatchEvent(
+      new CustomEvent("sofiati:cookie-consent", { detail: payload }),
+    );
   }
 
   function injectStyle() {
@@ -314,7 +334,10 @@
       const choice = event.target.closest("[data-cookie-choice]");
       if (!choice) return;
 
-      const mode = choice.getAttribute("data-cookie-choice") === "all" ? "all" : "essential";
+      const mode =
+        choice.getAttribute("data-cookie-choice") === "all"
+          ? "all"
+          : "essential";
       saveConsent(mode);
       bar.remove();
     });
@@ -327,7 +350,6 @@
     } else {
       document.body.appendChild(bar);
     }
-
   }
 
   if (document.readyState === "loading") {

@@ -13405,9 +13405,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/01-inspire/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/01-inspire/partials/back-to-top.html": ["Back to top"],
     "concepts/01-inspire/partials/concept-switcher.html": [
       "Design notes",
       "Inspire",
@@ -14537,9 +14535,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/02-empower/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/02-empower/partials/back-to-top.html": ["Back to top"],
     "concepts/02-empower/partials/concept-switcher.html": [
       "Design notes",
       "Empower",
@@ -15665,9 +15661,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/03-enhance/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/03-enhance/partials/back-to-top.html": ["Back to top"],
     "concepts/03-enhance/partials/concept-switcher.html": [
       "Design notes",
       "Enhance",
@@ -16786,9 +16780,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/04-renew/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/04-renew/partials/back-to-top.html": ["Back to top"],
     "concepts/04-renew/partials/concept-switcher.html": [
       "Design notes",
       "Renew",
@@ -17893,9 +17885,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/05-elevate/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/05-elevate/partials/back-to-top.html": ["Back to top"],
     "concepts/05-elevate/partials/concept-switcher.html": [
       "Design notes",
       "Elevate",
@@ -19018,9 +19008,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/06-refine/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/06-refine/partials/back-to-top.html": ["Back to top"],
     "concepts/06-refine/partials/concept-switcher.html": [
       "Design notes",
       "Refine",
@@ -20140,9 +20128,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/07-glow/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/07-glow/partials/back-to-top.html": ["Back to top"],
     "concepts/07-glow/partials/concept-switcher.html": [
       "Design notes",
       "Glow",
@@ -20174,9 +20160,7 @@
       "OK",
       "Only essential preferences are active in this static concept."
     ],
-    "concepts/07-glow/partials/floating-whatsapp.html": [
-      "Start with WhatsApp"
-    ],
+    "concepts/07-glow/partials/floating-whatsapp.html": ["Start with WhatsApp"],
     "concepts/07-glow/partials/floating-widgets.html": [],
     "concepts/07-glow/partials/footer.html": [
       "Accessibility",
@@ -21267,9 +21251,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/08-balance/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/08-balance/partials/back-to-top.html": ["Back to top"],
     "concepts/08-balance/partials/concept-switcher.html": [
       "Balance",
       "Design notes",
@@ -22415,9 +22397,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/09-radiance/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/09-radiance/partials/back-to-top.html": ["Back to top"],
     "concepts/09-radiance/partials/concept-switcher.html": [
       "Design notes",
       "Radiance",
@@ -23541,9 +23521,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/10-essence/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/10-essence/partials/back-to-top.html": ["Back to top"],
     "concepts/10-essence/partials/concept-switcher.html": [
       "Design notes",
       "Essence",
@@ -24668,9 +24646,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/11-bloom/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/11-bloom/partials/back-to-top.html": ["Back to top"],
     "concepts/11-bloom/partials/concept-switcher.html": [
       "Bloom",
       "Design notes",
@@ -25795,9 +25771,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/12-vital/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/12-vital/partials/back-to-top.html": ["Back to top"],
     "concepts/12-vital/partials/concept-switcher.html": [
       "Design notes",
       "Sofiati direction",
@@ -26907,9 +26881,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/13-poise/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/13-poise/partials/back-to-top.html": ["Back to top"],
     "concepts/13-poise/partials/concept-switcher.html": [
       "Design notes",
       "Poise",
@@ -28029,9 +28001,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/14-aura/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/14-aura/partials/back-to-top.html": ["Back to top"],
     "concepts/14-aura/partials/concept-switcher.html": [
       "Aura",
       "Design notes",
@@ -28063,9 +28033,7 @@
       "OK",
       "Only essential preferences are active in this static concept."
     ],
-    "concepts/14-aura/partials/floating-whatsapp.html": [
-      "Start with WhatsApp"
-    ],
+    "concepts/14-aura/partials/floating-whatsapp.html": ["Start with WhatsApp"],
     "concepts/14-aura/partials/floating-widgets.html": [],
     "concepts/14-aura/partials/footer.html": [
       "Accessibility",
@@ -29153,9 +29121,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/15-clarity/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/15-clarity/partials/back-to-top.html": ["Back to top"],
     "concepts/15-clarity/partials/concept-switcher.html": [
       "Clarity",
       "Design notes",
@@ -30278,9 +30244,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/16-grace/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/16-grace/partials/back-to-top.html": ["Back to top"],
     "concepts/16-grace/partials/concept-switcher.html": [
       "Design notes",
       "Grace",
@@ -31418,9 +31382,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/17-sculpt/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/17-sculpt/partials/back-to-top.html": ["Back to top"],
     "concepts/17-sculpt/partials/concept-switcher.html": [
       "Design notes",
       "Sculpt",
@@ -32545,9 +32507,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/18-lumin/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/18-lumin/partials/back-to-top.html": ["Back to top"],
     "concepts/18-lumin/partials/concept-switcher.html": [
       "Design notes",
       "Lumin",
@@ -33669,9 +33629,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/19-verda/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/19-verda/partials/back-to-top.html": ["Back to top"],
     "concepts/19-verda/partials/concept-switcher.html": [
       "Design notes",
       "Sofiati direction",
@@ -34798,9 +34756,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/20-halo/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/20-halo/partials/back-to-top.html": ["Back to top"],
     "concepts/20-halo/partials/concept-switcher.html": [
       "Design notes",
       "Halo",
@@ -34832,9 +34788,7 @@
       "OK",
       "Only essential preferences are active in this static concept."
     ],
-    "concepts/20-halo/partials/floating-whatsapp.html": [
-      "Start with WhatsApp"
-    ],
+    "concepts/20-halo/partials/floating-whatsapp.html": ["Start with WhatsApp"],
     "concepts/20-halo/partials/floating-widgets.html": [],
     "concepts/20-halo/partials/footer.html": [
       "Accessibility",
@@ -35911,9 +35865,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/21-calm/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/21-calm/partials/back-to-top.html": ["Back to top"],
     "concepts/21-calm/partials/concept-switcher.html": [
       "Calm",
       "Design notes",
@@ -35945,9 +35897,7 @@
       "OK",
       "Only essential preferences are active in this static concept."
     ],
-    "concepts/21-calm/partials/floating-whatsapp.html": [
-      "Start with WhatsApp"
-    ],
+    "concepts/21-calm/partials/floating-whatsapp.html": ["Start with WhatsApp"],
     "concepts/21-calm/partials/floating-widgets.html": [],
     "concepts/21-calm/partials/footer.html": [
       "Accessibility",
@@ -37037,9 +36987,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/22-precision/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/22-precision/partials/back-to-top.html": ["Back to top"],
     "concepts/22-precision/partials/concept-switcher.html": [
       "Design notes",
       "Precision",
@@ -38168,9 +38116,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/23-ritual/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/23-ritual/partials/back-to-top.html": ["Back to top"],
     "concepts/23-ritual/partials/concept-switcher.html": [
       "Design notes",
       "Ritual",
@@ -39293,9 +39239,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/24-signal/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/24-signal/partials/back-to-top.html": ["Back to top"],
     "concepts/24-signal/partials/concept-switcher.html": [
       "Design notes",
       "Signal",
@@ -40434,9 +40378,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/25-align/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/25-align/partials/back-to-top.html": ["Back to top"],
     "concepts/25-align/partials/concept-switcher.html": [
       "Align",
       "Design notes",
@@ -41553,9 +41495,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/26-vivant/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/26-vivant/partials/back-to-top.html": ["Back to top"],
     "concepts/26-vivant/partials/concept-switcher.html": [
       "Design notes",
       "Sofiati direction",
@@ -42679,9 +42619,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/27-form/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/27-form/partials/back-to-top.html": ["Back to top"],
     "concepts/27-form/partials/concept-switcher.html": [
       "Design notes",
       "Form",
@@ -42713,9 +42651,7 @@
       "OK",
       "Only essential preferences are active in this static concept."
     ],
-    "concepts/27-form/partials/floating-whatsapp.html": [
-      "Start with WhatsApp"
-    ],
+    "concepts/27-form/partials/floating-whatsapp.html": ["Start with WhatsApp"],
     "concepts/27-form/partials/floating-widgets.html": [],
     "concepts/27-form/partials/footer.html": [
       "Accessibility",
@@ -43807,9 +43743,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/28-pure/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/28-pure/partials/back-to-top.html": ["Back to top"],
     "concepts/28-pure/partials/concept-switcher.html": [
       "Design notes",
       "Pure",
@@ -43841,9 +43775,7 @@
       "OK",
       "Only essential preferences are active in this static concept."
     ],
-    "concepts/28-pure/partials/floating-whatsapp.html": [
-      "Start with WhatsApp"
-    ],
+    "concepts/28-pure/partials/floating-whatsapp.html": ["Start with WhatsApp"],
     "concepts/28-pure/partials/floating-widgets.html": [],
     "concepts/28-pure/partials/footer.html": [
       "Accessibility",
@@ -44914,9 +44846,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/29-solace/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/29-solace/partials/back-to-top.html": ["Back to top"],
     "concepts/29-solace/partials/concept-switcher.html": [
       "Design notes",
       "Sofiati direction",
@@ -46044,9 +45974,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/30-method/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/30-method/partials/back-to-top.html": ["Back to top"],
     "concepts/30-method/partials/concept-switcher.html": [
       "Design notes",
       "Method",
@@ -47174,9 +47102,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/31-evolve/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/31-evolve/partials/back-to-top.html": ["Back to top"],
     "concepts/31-evolve/partials/concept-switcher.html": [
       "Design notes",
       "Evolve",
@@ -48301,9 +48227,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/32-serene/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/32-serene/partials/back-to-top.html": ["Back to top"],
     "concepts/32-serene/partials/concept-switcher.html": [
       "Design notes",
       "Serene",
@@ -49444,9 +49368,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/33-elan/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/33-elan/partials/back-to-top.html": ["Back to top"],
     "concepts/33-elan/partials/concept-switcher.html": [
       "Design notes",
       "Elan",
@@ -49478,9 +49400,7 @@
       "OK",
       "Only essential preferences are active in this static concept."
     ],
-    "concepts/33-elan/partials/floating-whatsapp.html": [
-      "Start with WhatsApp"
-    ],
+    "concepts/33-elan/partials/floating-whatsapp.html": ["Start with WhatsApp"],
     "concepts/33-elan/partials/floating-widgets.html": [],
     "concepts/33-elan/partials/footer.html": [
       "About",
@@ -50570,9 +50490,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/34-flora/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/34-flora/partials/back-to-top.html": ["Back to top"],
     "concepts/34-flora/partials/concept-switcher.html": [
       "Design notes",
       "Flora",
@@ -51694,9 +51612,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/35-atelier/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/35-atelier/partials/back-to-top.html": ["Back to top"],
     "concepts/35-atelier/partials/concept-switcher.html": [
       "Atelier",
       "Design notes",
@@ -52813,9 +52729,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/36-lumina/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/36-lumina/partials/back-to-top.html": ["Back to top"],
     "concepts/36-lumina/partials/concept-switcher.html": [
       "Design notes",
       "Lumina",
@@ -53922,9 +53836,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/37-vellum/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/37-vellum/partials/back-to-top.html": ["Back to top"],
     "concepts/37-vellum/partials/concept-switcher.html": [
       "Design notes",
       "Sofiati direction",
@@ -55049,9 +54961,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/38-origin/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/38-origin/partials/back-to-top.html": ["Back to top"],
     "concepts/38-origin/partials/concept-switcher.html": [
       "Design notes",
       "Origin",
@@ -56175,9 +56085,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/39-kindred/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/39-kindred/partials/back-to-top.html": ["Back to top"],
     "concepts/39-kindred/partials/concept-switcher.html": [
       "Design notes",
       "Kindred",
@@ -57300,9 +57208,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/40-noble/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/40-noble/partials/back-to-top.html": ["Back to top"],
     "concepts/40-noble/partials/concept-switcher.html": [
       "Design notes",
       "Noble",
@@ -58450,9 +58356,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/41-vista/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/41-vista/partials/back-to-top.html": ["Back to top"],
     "concepts/41-vista/partials/concept-switcher.html": [
       "Design notes",
       "Sofiati direction",
@@ -59579,9 +59483,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/42-softline/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/42-softline/partials/back-to-top.html": ["Back to top"],
     "concepts/42-softline/partials/concept-switcher.html": [
       "Design notes",
       "Sofiati direction",
@@ -60703,9 +60605,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/43-meridian/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/43-meridian/partials/back-to-top.html": ["Back to top"],
     "concepts/43-meridian/partials/concept-switcher.html": [
       "Design notes",
       "Meridian",
@@ -61829,9 +61729,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/44-safeguard/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/44-safeguard/partials/back-to-top.html": ["Back to top"],
     "concepts/44-safeguard/partials/concept-switcher.html": [
       "Design notes",
       "Safeguard",
@@ -62939,9 +62837,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/45-silhouette/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/45-silhouette/partials/back-to-top.html": ["Back to top"],
     "concepts/45-silhouette/partials/concept-switcher.html": [
       "Design notes",
       "Silhouette",
@@ -64058,9 +63954,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/46-curate/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/46-curate/partials/back-to-top.html": ["Back to top"],
     "concepts/46-curate/partials/concept-switcher.html": [
       "Curate",
       "Design notes",
@@ -65179,9 +65073,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/47-proof/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/47-proof/partials/back-to-top.html": ["Back to top"],
     "concepts/47-proof/partials/concept-switcher.html": [
       "Design notes",
       "Proof",
@@ -66313,9 +66205,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/48-signature/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/48-signature/partials/back-to-top.html": ["Back to top"],
     "concepts/48-signature/partials/concept-switcher.html": [
       "Design notes",
       "Signature",
@@ -67456,9 +67346,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/49-wisdom/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/49-wisdom/partials/back-to-top.html": ["Back to top"],
     "concepts/49-wisdom/partials/concept-switcher.html": [
       "Design notes",
       "Sofiati direction",
@@ -68579,9 +68467,7 @@
       "Motion",
       "Text"
     ],
-    "concepts/50-sovereign/partials/back-to-top.html": [
-      "Back to top"
-    ],
+    "concepts/50-sovereign/partials/back-to-top.html": ["Back to top"],
     "concepts/50-sovereign/partials/concept-switcher.html": [
       "Design notes",
       "Sofiati direction",

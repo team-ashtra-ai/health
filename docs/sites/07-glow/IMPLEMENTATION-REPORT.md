@@ -5,6 +5,7 @@ Command: node scripts/continue-sofiati-atlas.mjs --site=07-glow
 Status: complete
 
 ## Pages checked
+
 - index.html: 10 sections, 10 comments, max 2 visible links/buttons
 - about.html: 10 sections, 10 comments, max 2 visible links/buttons
 - care.html: 10 sections, 10 comments, max 2 visible links/buttons
@@ -28,35 +29,44 @@ Status: complete
 - thank-you.html: 10 sections, 10 comments, max 2 visible links/buttons
 
 ## Pages updated
+
 - None during this run
 
 ## Assets checked
+
 - Assets mapped in master brief: yes
 - Missing assets: none
 
 ## Internal links checked
+
 - Maximum two visible links/buttons per section: passed
 - Pages missing form or WhatsApp route: none
 
 ## CTAs checked
+
 - Pages missing final CTA: none
 - Pages missing reassurance section: none
 
 ## Partials checked
+
 - Strategy mapped: yes
 - Site-specific partial strategy: glowHero, lightboxCard, educationArc, contactGlow, footerHalo
 
 ## Cleanup performed
+
 - Old planning files are handled by the global cleanup command.
 - This site report supersedes scattered concept planning docs.
 
 ## Unused files removed
+
 - See docs/sites/ATLAS-CONTINUATION-REPORT.md after cleanup.
 
 ## Issues needing human confirmation
+
 - Medical/legal compliance, photography approval, and production contact routing before launch.
 
 ## Manual design review notes
+
 - Confirm Glow Soft Light Story reads differently from adjacent concepts.
 - Confirm portrait crops are visible on mobile.
 - Confirm the page feels premium, botanical, calm, and not text-heavy.

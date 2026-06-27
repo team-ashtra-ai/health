@@ -1,6 +1,7 @@
 # 37-vellum Vellum MASTER-BRIEF
 
 ## 1. Site identity
+
 - Site ID: 37-vellum
 - Site name: Vellum
 - Canonical concept number: 37
@@ -9,12 +10,15 @@
 - Core promise: calm aesthetic guidance, evaluation first, realistic expectations, and natural-looking confidence.
 
 ## 2. Canonical source statement
+
 This master brief is the canonical source of truth for this site. Older page-flow, internal-link, design-DNA, design-note, asset-plan, audit, and report files are historical only and must not be used as active planning sources.
 
 ## 3. Design DNA
+
 Vellum uses Vellum Paper Layer: lightbox portrait glow with low-pressure CTAs. The site rhythm is soft glow blocks with generous negative space. It must feel premium, botanical, calm, personal, and distinctly different from the other 49 concepts.
 
 ## 4. Design notes
+
 - Hero strategy: lightbox portrait glow with low-pressure CTAs.
 - Section silhouettes: soft glow blocks with generous negative space.
 - Image rhythm: wide image, portrait, compact icon, journal.
@@ -22,29 +26,36 @@ Vellum uses Vellum Paper Layer: lightbox portrait glow with low-pressure CTAs. T
 - Must not look like: purple-blue gradients, dramatic promises, blurred backgrounds.
 
 ## 5. Brand foundation
+
 Sofiati shares one ethical brand foundation: cuidado, confianca, seguranca, naturalidade, premium calm, real-photo-led storytelling, and professional guidance without pressure.
 
 ## 6. Shared colour and typography rules
+
 ```css
 :root {
-  --sofiati-sage: #A2AEA0;
+  --sofiati-sage: #a2aea0;
   --sofiati-sage-deep: #485041;
-  --sofiati-ivory: #F2EEE3;
-  --sofiati-cream: #F8F7F2;
-  --sofiati-bronze: #9A6B35;
-  --sofiati-gold: #CDAA78;
+  --sofiati-ivory: #f2eee3;
+  --sofiati-cream: #f8f7f2;
+  --sofiati-bronze: #9a6b35;
+  --sofiati-gold: #cdaa78;
   --sofiati-ink: #252321;
   --sofiati-serif: Georgia, "Times New Roman", serif;
-  --sofiati-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --sofiati-sans:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
   --sofiati-label-spacing: 0.12em;
 }
 ```
+
 Site-specific layer: primary #735C62, accent #CDAA78, surface #F7EFE8, radius 48px.
 
 ## 7. Site-specific visual rhythm
+
 soft glow blocks with generous negative space. Page sections keep one opening promise, varied middle routes, one reassurance beat, and a final CTA.
 
 ## 8. Page list
+
 - Home: concepts/37-vellum/index.html
 - About: concepts/37-vellum/about.html
 - Care: concepts/37-vellum/care.html
@@ -68,6 +79,7 @@ soft glow blocks with generous negative space. Page sections keep one opening pr
 - Thank You: concepts/37-vellum/thank-you.html
 
 ## 9. Page flow map
+
 - Home: Hero Promise -> Editorial Break -> Responsible Results -> Journal Preview -> Contact CTA -> Brand Values -> Meet Franciele -> Care Routes -> Consultation Approach -> Footer Bridge
 - About: Portrait Hero -> Editorial Pause -> Client Guidance -> Responsible Boundaries -> Related Routes -> Professional Presence -> Care Philosophy -> Values in Practice -> Human Trust -> Consultation CTA
 - Care: Care Hero -> Statement Break -> Safety Comfort -> Education Preview -> Prepare Consultation -> Care Meaning -> Listening First -> Care Steps -> Related Services -> Final CTA
@@ -91,9 +103,11 @@ soft glow blocks with generous negative space. Page sections keep one opening pr
 - Thank You: Thank You Hero -> Journal Preview -> Privacy Reassurance -> Contact Again -> Brand Reassurance -> What Happens Next -> While You Wait -> Prepare Consultation -> Care Education -> Final Route
 
 ## 10. Section storytelling map
+
 Every page tells a short journey: opening promise, context, human trust, service or support guidance, reassurance, education route, contact route, and final CTA. Vellum expresses that journey through Vellum Paper Layer.
 
 ## 11. Internal linking map
+
 - Home
   - Section 01: Request evaluation / Message WhatsApp -> consultation.html, https://wa.me/5543991043536. SEO: Supports topical depth without bottom-only link dumps. Trust: Places guidance near the visitor question being answered. Conversion: Keeps consultation or contact routes near decision intent.
   - Section 03: Understand results / Request evaluation -> results.html, consultation.html. SEO: Supports topical depth without bottom-only link dumps. Trust: Places guidance near the visitor question being answered. Conversion: Keeps consultation or contact routes near decision intent.
@@ -298,6 +312,7 @@ Every page tells a short journey: opening promise, context, human trust, service
   - Section 10: Home / Journal -> index.html, journal.html. SEO: Supports topical depth without bottom-only link dumps. Trust: Places guidance near the visitor question being answered. Conversion: Keeps consultation or contact routes near decision intent.
 
 ## 12. Asset inventory
+
 - Icons: assets/icons/care.svg, assets/icons/credentials.svg, assets/icons/safety.svg, assets/icons/values.svg, assets/icons/consultation.svg, assets/icons/contact.svg, assets/icons/journal.svg, assets/icons/laser.svg, assets/icons/skin.svg, assets/icons/results.svg, assets/icons/mission.svg, assets/icons/whatsapp.svg
 - Botanical/decorative assets: assets/botanical/gold-leaf-divider.svg, assets/botanical/section-separator.svg, assets/botanical/monogram-wreath.svg
 - Portrait assets: assets/portrait/franciele-portrait-vellum.webp
@@ -310,352 +325,392 @@ Every page tells a short journey: opening promise, context, human trust, service
 - Generated assets: assets/generated/homepage-asset-composition.svg
 
 ## 13. Asset notes
+
 All assets are local to concepts/37-vellum/assets unless listed as shared brand tokens. Meaningful photos need descriptive alt text. Decorative icons may use empty alt text. Keep images light, crop faces safely on mobile, and replace assets only with equal-quality Sofiati brand material.
 
 ## 14. Asset plan
+
 Hero and human-trust sections use the local Franciele portrait. Service pages use service SVGs. Education sections use journal thumbnails. Support pages use legal or generated assets. Decorative breaks use botanical dividers and textures to prevent a cloned page rhythm.
 
 ## 15. Portrait/photo usage plan
+
 Use assets/portrait/franciele-portrait-vellum.webp on opening, human-trust, contact, and consultation moments. Keep her face visible on mobile and never darken or blur the portrait beyond recognition.
 
 ## 16. Botanical/decorative asset usage plan
+
 Use botanical SVGs as dividers, stamps, and section accents. They support rhythm only; they must not cover text, buttons, or faces.
 
 ## 17. Background/texture usage plan
+
 Use soft texture backgrounds behind statement and support sections. Texture opacity must stay low enough for WCAG-friendly contrast.
 
 ## 18. Form asset usage plan
+
 Use assets/forms/consultation-form-frame.svg in consultation and contact CTA sections to frame the action without creating pressure.
 
 ## 19. Animation/motion plan
+
 lightbox glow transition under 300ms. All motion must respect reduced-motion preferences.
 
 ## 20. Journal asset plan
+
 Journal and blog sections use three thumbnail assets and present education as a premium magazine preview, not a link dump.
 
 ## 21. Service asset plan
+
 Care, Skin, Laser, and Results use distinct service SVGs with short explanatory copy. No equipment claims are invented.
 
 ## 22. Content direction
+
 Copy stays short, ethical, image-led, premium, feminine, calm, and conversion-focused without pressure.
 
 ## 23. Same-content rules
+
 The meaning may match the Sofiati foundation, but Vellum must vary layout signatures, section order, asset rhythm, CTA rhythm, partial strategy, and mobile presentation.
 
 ## 24. Page-by-page 10-section structure
+
 ### Home (index.html)
-| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
-|---|---|---|---|---|---|---|---|
-| 01 | Hero Promise | opening-promise | Personalized care | A calm, attentive approach shaped around your goals, comfort, and realistic expectations. | Request evaluation | Message WhatsApp | 37-vellum-vellum-paper-layer-home-hero-promise-01 |
-| 02 | Editorial Break | reassurance-statement | Care with clarity | A refined experience should feel calm, considered, and easy to understand. | None | None | 37-vellum-vellum-paper-layer-home-editorial-break-02 |
-| 03 | Responsible Results | reassurance-expectations | Realistic expectations | Results should be discussed responsibly, with attention to individual needs and natural-looking confidence. | Understand results | Request evaluation | 37-vellum-vellum-paper-layer-home-responsible-results-03 |
-| 04 | Journal Preview | education-route | Learn first | Read calm, practical guidance before choosing your next step. | Read journal | View articles | 37-vellum-vellum-paper-layer-home-journal-preview-04 |
-| 05 | Contact CTA | conversion-contact | Begin calmly | Send your question or request an evaluation when you feel ready. | Request evaluation | Message WhatsApp | 37-vellum-vellum-paper-layer-home-contact-cta-05 |
-| 06 | Brand Values | trust-values | Care principles | Every decision begins with listening, clarity, safety, and natural-looking confidence. | View values | Read mission | 37-vellum-vellum-paper-layer-home-brand-values-06 |
-| 07 | Meet Franciele | human-trust | Meet Franciele | Franciele brings a careful presence to each consultation, shaped by conversation and observation. | Meet Franciele | Begin consultation | 37-vellum-vellum-paper-layer-home-meet-franciele-07 |
-| 08 | Care Routes | service-route | Care routes | Explore focused guidance for skin, laser, care planning, and responsible expectations. | Explore care | View skin | 37-vellum-vellum-paper-layer-home-care-routes-08 |
-| 09 | Consultation Approach | explanation-process | How it begins | The first step is a calm conversation about your skin, routine, goals, and comfort level. | Book consultation | Read FAQ | 37-vellum-vellum-paper-layer-home-consultation-approach-09 |
-| 10 | Footer Bridge | conversion-final | Your next route | Continue through the site or reach out directly for guidance. | Contact Franciele | Open sitemap | 37-vellum-vellum-paper-layer-home-footer-bridge-10 |
+
+| #   | Section               | Role                     | Heading                | Short text                                                                                                  | Primary CTA        | Secondary CTA      | Layout signature                                           |
+| --- | --------------------- | ------------------------ | ---------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------ | ------------------ | ---------------------------------------------------------- |
+| 01  | Hero Promise          | opening-promise          | Personalized care      | A calm, attentive approach shaped around your goals, comfort, and realistic expectations.                   | Request evaluation | Message WhatsApp   | 37-vellum-vellum-paper-layer-home-hero-promise-01          |
+| 02  | Editorial Break       | reassurance-statement    | Care with clarity      | A refined experience should feel calm, considered, and easy to understand.                                  | None               | None               | 37-vellum-vellum-paper-layer-home-editorial-break-02       |
+| 03  | Responsible Results   | reassurance-expectations | Realistic expectations | Results should be discussed responsibly, with attention to individual needs and natural-looking confidence. | Understand results | Request evaluation | 37-vellum-vellum-paper-layer-home-responsible-results-03   |
+| 04  | Journal Preview       | education-route          | Learn first            | Read calm, practical guidance before choosing your next step.                                               | Read journal       | View articles      | 37-vellum-vellum-paper-layer-home-journal-preview-04       |
+| 05  | Contact CTA           | conversion-contact       | Begin calmly           | Send your question or request an evaluation when you feel ready.                                            | Request evaluation | Message WhatsApp   | 37-vellum-vellum-paper-layer-home-contact-cta-05           |
+| 06  | Brand Values          | trust-values             | Care principles        | Every decision begins with listening, clarity, safety, and natural-looking confidence.                      | View values        | Read mission       | 37-vellum-vellum-paper-layer-home-brand-values-06          |
+| 07  | Meet Franciele        | human-trust              | Meet Franciele         | Franciele brings a careful presence to each consultation, shaped by conversation and observation.           | Meet Franciele     | Begin consultation | 37-vellum-vellum-paper-layer-home-meet-franciele-07        |
+| 08  | Care Routes           | service-route            | Care routes            | Explore focused guidance for skin, laser, care planning, and responsible expectations.                      | Explore care       | View skin          | 37-vellum-vellum-paper-layer-home-care-routes-08           |
+| 09  | Consultation Approach | explanation-process      | How it begins          | The first step is a calm conversation about your skin, routine, goals, and comfort level.                   | Book consultation  | Read FAQ           | 37-vellum-vellum-paper-layer-home-consultation-approach-09 |
+| 10  | Footer Bridge         | conversion-final         | Your next route        | Continue through the site or reach out directly for guidance.                                               | Contact Franciele  | Open sitemap       | 37-vellum-vellum-paper-layer-home-footer-bridge-10         |
 
 ### About (about.html)
-| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
-|---|---|---|---|---|---|---|---|
-| 01 | Portrait Hero | opening-portrait | About Franciele | A calm professional presence for aesthetic guidance, consultation, and realistic planning. | Begin consultation | Message WhatsApp | 37-vellum-vellum-paper-layer-about-portrait-hero-01 |
-| 02 | Editorial Pause | reassurance-statement | Clarity feels calm | The best decisions are made with time, attention, and honest guidance. | None | None | 37-vellum-vellum-paper-layer-about-editorial-pause-02 |
-| 03 | Client Guidance | explanation-process | How clients start | The journey begins with conversation, then moves into careful evaluation and planning. | Book consultation | Read FAQ | 37-vellum-vellum-paper-layer-about-client-guidance-03 |
-| 04 | Responsible Boundaries | reassurance-boundary | Responsible guidance | Recommendations depend on individual assessment and should be discussed with realistic expectations. | Understand results | Privacy | 37-vellum-vellum-paper-layer-about-responsible-boundaries-04 |
-| 05 | Related Routes | internal-route | Continue exploring | Learn more about the approach and the care journey. | Explore care | Read mission | 37-vellum-vellum-paper-layer-about-related-routes-05 |
-| 06 | Professional Presence | trust-explanation | Careful guidance | Her approach is attentive, clear, and guided by the person in front of her. | View care | None | 37-vellum-vellum-paper-layer-about-professional-presence-06 |
-| 07 | Care Philosophy | brand-philosophy | Care philosophy | Good care begins with understanding your goals, routine, and comfort before planning next steps. | Read mission | View values | 37-vellum-vellum-paper-layer-about-care-philosophy-07 |
-| 08 | Values in Practice | trust-values | Values in practice | Care, trust, safety, and naturality shape the client experience. | View values | Request evaluation | 37-vellum-vellum-paper-layer-about-values-in-practice-08 |
-| 09 | Human Trust | human-trust | A human approach | Consultation should feel clear, respectful, and personal from the first conversation. | Contact Franciele | None | 37-vellum-vellum-paper-layer-about-human-trust-09 |
-| 10 | Consultation CTA | conversion-final | Start with clarity | Request an evaluation or send a private message when you are ready. | Request evaluation | Message WhatsApp | 37-vellum-vellum-paper-layer-about-consultation-cta-10 |
+
+| #   | Section                | Role                  | Heading              | Short text                                                                                           | Primary CTA        | Secondary CTA      | Layout signature                                             |
+| --- | ---------------------- | --------------------- | -------------------- | ---------------------------------------------------------------------------------------------------- | ------------------ | ------------------ | ------------------------------------------------------------ |
+| 01  | Portrait Hero          | opening-portrait      | About Franciele      | A calm professional presence for aesthetic guidance, consultation, and realistic planning.           | Begin consultation | Message WhatsApp   | 37-vellum-vellum-paper-layer-about-portrait-hero-01          |
+| 02  | Editorial Pause        | reassurance-statement | Clarity feels calm   | The best decisions are made with time, attention, and honest guidance.                               | None               | None               | 37-vellum-vellum-paper-layer-about-editorial-pause-02        |
+| 03  | Client Guidance        | explanation-process   | How clients start    | The journey begins with conversation, then moves into careful evaluation and planning.               | Book consultation  | Read FAQ           | 37-vellum-vellum-paper-layer-about-client-guidance-03        |
+| 04  | Responsible Boundaries | reassurance-boundary  | Responsible guidance | Recommendations depend on individual assessment and should be discussed with realistic expectations. | Understand results | Privacy            | 37-vellum-vellum-paper-layer-about-responsible-boundaries-04 |
+| 05  | Related Routes         | internal-route        | Continue exploring   | Learn more about the approach and the care journey.                                                  | Explore care       | Read mission       | 37-vellum-vellum-paper-layer-about-related-routes-05         |
+| 06  | Professional Presence  | trust-explanation     | Careful guidance     | Her approach is attentive, clear, and guided by the person in front of her.                          | View care          | None               | 37-vellum-vellum-paper-layer-about-professional-presence-06  |
+| 07  | Care Philosophy        | brand-philosophy      | Care philosophy      | Good care begins with understanding your goals, routine, and comfort before planning next steps.     | Read mission       | View values        | 37-vellum-vellum-paper-layer-about-care-philosophy-07        |
+| 08  | Values in Practice     | trust-values          | Values in practice   | Care, trust, safety, and naturality shape the client experience.                                     | View values        | Request evaluation | 37-vellum-vellum-paper-layer-about-values-in-practice-08     |
+| 09  | Human Trust            | human-trust           | A human approach     | Consultation should feel clear, respectful, and personal from the first conversation.                | Contact Franciele  | None               | 37-vellum-vellum-paper-layer-about-human-trust-09            |
+| 10  | Consultation CTA       | conversion-final      | Start with clarity   | Request an evaluation or send a private message when you are ready.                                  | Request evaluation | Message WhatsApp   | 37-vellum-vellum-paper-layer-about-consultation-cta-10       |
 
 ### Care (care.html)
-| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
-|---|---|---|---|---|---|---|---|
-| 01 | Care Hero | opening-care | Personalized care | Care begins with listening, then moves toward thoughtful planning and clear next steps. | Request evaluation | Message WhatsApp | 37-vellum-vellum-paper-layer-care-care-hero-01 |
-| 02 | Statement Break | reassurance-statement | Care needs calm | The right pace helps decisions feel clearer. | None | None | 37-vellum-vellum-paper-layer-care-statement-break-02 |
-| 03 | Safety Comfort | reassurance-safety | Feel comfortable | Questions, limits, and expectations can all be discussed before any decision is made. | Read FAQ | Privacy | 37-vellum-vellum-paper-layer-care-safety-comfort-03 |
-| 04 | Education Preview | education-route | Learn before care | Read practical guidance before choosing your next step. | Read journal | View blog | 37-vellum-vellum-paper-layer-care-education-preview-04 |
-| 05 | Prepare Consultation | conversion-prep | Before you start | Bring your goals, routine, questions, and comfort level into the conversation. | Begin consultation | Message WhatsApp | 37-vellum-vellum-paper-layer-care-prepare-consultation-05 |
-| 06 | Care Meaning | explanation-care | What care means | Your goals, comfort, routine, and expectations all matter. | Begin consultation | None | 37-vellum-vellum-paper-layer-care-care-meaning-06 |
-| 07 | Listening First | human-trust | Listening first | A good plan starts with understanding what feels right, realistic, and comfortable for you. | Book consultation | Read FAQ | 37-vellum-vellum-paper-layer-care-listening-first-07 |
-| 08 | Care Steps | explanation-process | Care steps | A simple process makes each next step easier to understand. | Request evaluation | None | 37-vellum-vellum-paper-layer-care-care-steps-08 |
-| 09 | Related Services | service-route | Related care | Explore skin guidance or laser suitability next. | View skin | Explore laser | 37-vellum-vellum-paper-layer-care-related-services-09 |
-| 10 | Final CTA | conversion-final | Begin with care | Start with a conversation and choose the next step with clarity. | Request evaluation | Message WhatsApp | 37-vellum-vellum-paper-layer-care-final-cta-10 |
+
+| #   | Section              | Role                  | Heading           | Short text                                                                                  | Primary CTA        | Secondary CTA    | Layout signature                                          |
+| --- | -------------------- | --------------------- | ----------------- | ------------------------------------------------------------------------------------------- | ------------------ | ---------------- | --------------------------------------------------------- |
+| 01  | Care Hero            | opening-care          | Personalized care | Care begins with listening, then moves toward thoughtful planning and clear next steps.     | Request evaluation | Message WhatsApp | 37-vellum-vellum-paper-layer-care-care-hero-01            |
+| 02  | Statement Break      | reassurance-statement | Care needs calm   | The right pace helps decisions feel clearer.                                                | None               | None             | 37-vellum-vellum-paper-layer-care-statement-break-02      |
+| 03  | Safety Comfort       | reassurance-safety    | Feel comfortable  | Questions, limits, and expectations can all be discussed before any decision is made.       | Read FAQ           | Privacy          | 37-vellum-vellum-paper-layer-care-safety-comfort-03       |
+| 04  | Education Preview    | education-route       | Learn before care | Read practical guidance before choosing your next step.                                     | Read journal       | View blog        | 37-vellum-vellum-paper-layer-care-education-preview-04    |
+| 05  | Prepare Consultation | conversion-prep       | Before you start  | Bring your goals, routine, questions, and comfort level into the conversation.              | Begin consultation | Message WhatsApp | 37-vellum-vellum-paper-layer-care-prepare-consultation-05 |
+| 06  | Care Meaning         | explanation-care      | What care means   | Your goals, comfort, routine, and expectations all matter.                                  | Begin consultation | None             | 37-vellum-vellum-paper-layer-care-care-meaning-06         |
+| 07  | Listening First      | human-trust           | Listening first   | A good plan starts with understanding what feels right, realistic, and comfortable for you. | Book consultation  | Read FAQ         | 37-vellum-vellum-paper-layer-care-listening-first-07      |
+| 08  | Care Steps           | explanation-process   | Care steps        | A simple process makes each next step easier to understand.                                 | Request evaluation | None             | 37-vellum-vellum-paper-layer-care-care-steps-08           |
+| 09  | Related Services     | service-route         | Related care      | Explore skin guidance or laser suitability next.                                            | View skin          | Explore laser    | 37-vellum-vellum-paper-layer-care-related-services-09     |
+| 10  | Final CTA            | conversion-final      | Begin with care   | Start with a conversation and choose the next step with clarity.                            | Request evaluation | Message WhatsApp | 37-vellum-vellum-paper-layer-care-final-cta-10            |
 
 ### Laser (laser.html)
-| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
-|---|---|---|---|---|---|---|---|
-| 01 | Laser Hero | opening-laser | Laser guidance | A suitability-led approach to laser care, expectations, and professional evaluation. | Request evaluation | Message WhatsApp | 37-vellum-vellum-paper-layer-laser-laser-hero-01 |
-| 02 | Editorial Break | reassurance-statement | Precision needs care | A careful process helps keep decisions clear and personal. | None | None | 37-vellum-vellum-paper-layer-laser-editorial-break-02 |
-| 03 | Related Routes | service-route | Related guidance | Explore skin context or responsible results next. | View skin | View results | 37-vellum-vellum-paper-layer-laser-related-routes-03 |
-| 04 | FAQ Bridge | education-route | Common questions | Find short answers before your consultation. | Read FAQ | Ask a question | 37-vellum-vellum-paper-layer-laser-faq-bridge-04 |
-| 05 | Consultation CTA | conversion-contact | Check suitability | Request an evaluation to discuss your goals and next steps. | Request evaluation | Message WhatsApp | 37-vellum-vellum-paper-layer-laser-consultation-cta-05 |
-| 06 | Suitability First | reassurance-suitability | Suitability first | Laser decisions depend on skin context, goals, comfort, and professional assessment. | Begin consultation | None | 37-vellum-vellum-paper-layer-laser-suitability-first-06 |
-| 07 | Guidance | trust-guidance | Clear guidance | The right next step should be discussed carefully, without pressure or unrealistic promises. | Read FAQ | View results | 37-vellum-vellum-paper-layer-laser-guidance-07 |
-| 08 | Process | explanation-process | Care process | Evaluation, preparation, guidance, and review keep the process understandable. | Book consultation | None | 37-vellum-vellum-paper-layer-laser-process-08 |
-| 09 | Safety | reassurance-safety | Safe expectations | Comfort, timing, and suitability should be clarified before moving forward. | Read FAQ | Understand results | 37-vellum-vellum-paper-layer-laser-safety-09 |
-| 10 | Trust Route | conversion-final | Need clarity | Use the contact route or read privacy guidance before sending details. | Contact Franciele | Privacy | 37-vellum-vellum-paper-layer-laser-trust-route-10 |
+
+| #   | Section           | Role                    | Heading              | Short text                                                                                   | Primary CTA        | Secondary CTA      | Layout signature                                        |
+| --- | ----------------- | ----------------------- | -------------------- | -------------------------------------------------------------------------------------------- | ------------------ | ------------------ | ------------------------------------------------------- |
+| 01  | Laser Hero        | opening-laser           | Laser guidance       | A suitability-led approach to laser care, expectations, and professional evaluation.         | Request evaluation | Message WhatsApp   | 37-vellum-vellum-paper-layer-laser-laser-hero-01        |
+| 02  | Editorial Break   | reassurance-statement   | Precision needs care | A careful process helps keep decisions clear and personal.                                   | None               | None               | 37-vellum-vellum-paper-layer-laser-editorial-break-02   |
+| 03  | Related Routes    | service-route           | Related guidance     | Explore skin context or responsible results next.                                            | View skin          | View results       | 37-vellum-vellum-paper-layer-laser-related-routes-03    |
+| 04  | FAQ Bridge        | education-route         | Common questions     | Find short answers before your consultation.                                                 | Read FAQ           | Ask a question     | 37-vellum-vellum-paper-layer-laser-faq-bridge-04        |
+| 05  | Consultation CTA  | conversion-contact      | Check suitability    | Request an evaluation to discuss your goals and next steps.                                  | Request evaluation | Message WhatsApp   | 37-vellum-vellum-paper-layer-laser-consultation-cta-05  |
+| 06  | Suitability First | reassurance-suitability | Suitability first    | Laser decisions depend on skin context, goals, comfort, and professional assessment.         | Begin consultation | None               | 37-vellum-vellum-paper-layer-laser-suitability-first-06 |
+| 07  | Guidance          | trust-guidance          | Clear guidance       | The right next step should be discussed carefully, without pressure or unrealistic promises. | Read FAQ           | View results       | 37-vellum-vellum-paper-layer-laser-guidance-07          |
+| 08  | Process           | explanation-process     | Care process         | Evaluation, preparation, guidance, and review keep the process understandable.               | Book consultation  | None               | 37-vellum-vellum-paper-layer-laser-process-08           |
+| 09  | Safety            | reassurance-safety      | Safe expectations    | Comfort, timing, and suitability should be clarified before moving forward.                  | Read FAQ           | Understand results | 37-vellum-vellum-paper-layer-laser-safety-09            |
+| 10  | Trust Route       | conversion-final        | Need clarity         | Use the contact route or read privacy guidance before sending details.                       | Contact Franciele  | Privacy            | 37-vellum-vellum-paper-layer-laser-trust-route-10       |
 
 ### Skin (skin.html)
-| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
-|---|---|---|---|---|---|---|---|
-| 01 | Skin Hero | opening-skin | Skin guidance | A refined approach to understanding skin, routine, comfort, and realistic goals. | Request evaluation | Message WhatsApp | 37-vellum-vellum-paper-layer-skin-skin-hero-01 |
-| 02 | Natural Confidence | reassurance-expectations | Natural confidence | The goal is thoughtful guidance that respects your features and comfort. | Understand results | Request evaluation | 37-vellum-vellum-paper-layer-skin-natural-confidence-02 |
-| 03 | Related Guidance | internal-route | Next guidance | Continue with broader care planning or laser suitability. | Explore care | Explore laser | 37-vellum-vellum-paper-layer-skin-related-guidance-03 |
-| 04 | Journal Preview | education-route | Skin education | Read simple guidance before deciding what to ask next. | Read journal | View blog | 37-vellum-vellum-paper-layer-skin-journal-preview-04 |
-| 05 | Consultation Path | conversion-contact | Clarify your goals | A consultation helps connect your skin context with realistic next steps. | Begin consultation | Message WhatsApp | 37-vellum-vellum-paper-layer-skin-consultation-path-05 |
-| 06 | Skin Context | explanation-context | Skin context | Routine, texture, sensitivity, and goals help shape better questions. | Begin consultation | None | 37-vellum-vellum-paper-layer-skin-skin-context-06 |
-| 07 | Assessment | trust-assessment | Assessment first | Skin guidance works best when it begins with observation, questions, and individual context. | Book consultation | Read FAQ | 37-vellum-vellum-paper-layer-skin-assessment-07 |
-| 08 | Planning Cards | service-route | Planning focus | Texture, luminosity, comfort, and routine can be discussed with care. | View care | None | 37-vellum-vellum-paper-layer-skin-planning-cards-08 |
-| 09 | Texture Break | reassurance-statement | Less pressure | Skin confidence should feel natural, realistic, and personal. | None | None | 37-vellum-vellum-paper-layer-skin-texture-break-09 |
-| 10 | Final CTA | conversion-final | Start with clarity | Send your question or request an evaluation when you feel ready. | Request evaluation | Contact Franciele | 37-vellum-vellum-paper-layer-skin-final-cta-10 |
+
+| #   | Section            | Role                     | Heading            | Short text                                                                                   | Primary CTA        | Secondary CTA      | Layout signature                                        |
+| --- | ------------------ | ------------------------ | ------------------ | -------------------------------------------------------------------------------------------- | ------------------ | ------------------ | ------------------------------------------------------- |
+| 01  | Skin Hero          | opening-skin             | Skin guidance      | A refined approach to understanding skin, routine, comfort, and realistic goals.             | Request evaluation | Message WhatsApp   | 37-vellum-vellum-paper-layer-skin-skin-hero-01          |
+| 02  | Natural Confidence | reassurance-expectations | Natural confidence | The goal is thoughtful guidance that respects your features and comfort.                     | Understand results | Request evaluation | 37-vellum-vellum-paper-layer-skin-natural-confidence-02 |
+| 03  | Related Guidance   | internal-route           | Next guidance      | Continue with broader care planning or laser suitability.                                    | Explore care       | Explore laser      | 37-vellum-vellum-paper-layer-skin-related-guidance-03   |
+| 04  | Journal Preview    | education-route          | Skin education     | Read simple guidance before deciding what to ask next.                                       | Read journal       | View blog          | 37-vellum-vellum-paper-layer-skin-journal-preview-04    |
+| 05  | Consultation Path  | conversion-contact       | Clarify your goals | A consultation helps connect your skin context with realistic next steps.                    | Begin consultation | Message WhatsApp   | 37-vellum-vellum-paper-layer-skin-consultation-path-05  |
+| 06  | Skin Context       | explanation-context      | Skin context       | Routine, texture, sensitivity, and goals help shape better questions.                        | Begin consultation | None               | 37-vellum-vellum-paper-layer-skin-skin-context-06       |
+| 07  | Assessment         | trust-assessment         | Assessment first   | Skin guidance works best when it begins with observation, questions, and individual context. | Book consultation  | Read FAQ           | 37-vellum-vellum-paper-layer-skin-assessment-07         |
+| 08  | Planning Cards     | service-route            | Planning focus     | Texture, luminosity, comfort, and routine can be discussed with care.                        | View care          | None               | 37-vellum-vellum-paper-layer-skin-planning-cards-08     |
+| 09  | Texture Break      | reassurance-statement    | Less pressure      | Skin confidence should feel natural, realistic, and personal.                                | None               | None               | 37-vellum-vellum-paper-layer-skin-texture-break-09      |
+| 10  | Final CTA          | conversion-final         | Start with clarity | Send your question or request an evaluation when you feel ready.                             | Request evaluation | Contact Franciele  | 37-vellum-vellum-paper-layer-skin-final-cta-10          |
 
 ### Results (results.html)
-| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
-|---|---|---|---|---|---|---|---|
-| 01 | Results Hero | opening-results | Responsible results | A calm approach to expectations, planning, and natural-looking confidence. | Request evaluation | Message WhatsApp | 37-vellum-vellum-paper-layer-results-results-hero-01 |
-| 02 | Statement Break | reassurance-statement | Clarity over pressure | The best decisions leave space for questions. | None | None | 37-vellum-vellum-paper-layer-results-statement-break-02 |
-| 03 | Related Care | internal-route | Explore context | Read more about care planning and skin guidance. | Explore care | View skin | 37-vellum-vellum-paper-layer-results-related-care-03 |
-| 04 | Consent Feedback | reassurance-privacy | Feedback matters | Client feedback should be used with consent, privacy, and responsible context. | Feedback guidance | Privacy | 37-vellum-vellum-paper-layer-results-consent-feedback-04 |
-| 05 | Consultation Path | conversion-contact | Discuss expectations | A consultation helps clarify what may be realistic for your individual context. | Request evaluation | Message WhatsApp | 37-vellum-vellum-paper-layer-results-consultation-path-05 |
-| 06 | Planning | explanation-planning | Results need planning | Care outcomes depend on assessment, consistency, individual context, and realistic expectations. | Begin consultation | None | 37-vellum-vellum-paper-layer-results-planning-06 |
-| 07 | Not Guarantees | reassurance-boundary | No guarantees | This site does not promise identical results or create pressure-based expectations. | Read FAQ | Privacy | 37-vellum-vellum-paper-layer-results-not-guarantees-07 |
-| 08 | Naturality | trust-naturality | Natural confidence | Guidance should support confidence without forcing a single idea of beauty. | View care | Request evaluation | 37-vellum-vellum-paper-layer-results-naturality-08 |
-| 09 | Process | explanation-process | Expectation process | Listening, assessment, planning, and review help keep expectations responsible. | Book consultation | None | 37-vellum-vellum-paper-layer-results-process-09 |
-| 10 | Final CTA | conversion-final | Ask first | Send your question or begin with a calm evaluation. | Contact Franciele | Read FAQ | 37-vellum-vellum-paper-layer-results-final-cta-10 |
+
+| #   | Section           | Role                  | Heading               | Short text                                                                                       | Primary CTA        | Secondary CTA      | Layout signature                                          |
+| --- | ----------------- | --------------------- | --------------------- | ------------------------------------------------------------------------------------------------ | ------------------ | ------------------ | --------------------------------------------------------- |
+| 01  | Results Hero      | opening-results       | Responsible results   | A calm approach to expectations, planning, and natural-looking confidence.                       | Request evaluation | Message WhatsApp   | 37-vellum-vellum-paper-layer-results-results-hero-01      |
+| 02  | Statement Break   | reassurance-statement | Clarity over pressure | The best decisions leave space for questions.                                                    | None               | None               | 37-vellum-vellum-paper-layer-results-statement-break-02   |
+| 03  | Related Care      | internal-route        | Explore context       | Read more about care planning and skin guidance.                                                 | Explore care       | View skin          | 37-vellum-vellum-paper-layer-results-related-care-03      |
+| 04  | Consent Feedback  | reassurance-privacy   | Feedback matters      | Client feedback should be used with consent, privacy, and responsible context.                   | Feedback guidance  | Privacy            | 37-vellum-vellum-paper-layer-results-consent-feedback-04  |
+| 05  | Consultation Path | conversion-contact    | Discuss expectations  | A consultation helps clarify what may be realistic for your individual context.                  | Request evaluation | Message WhatsApp   | 37-vellum-vellum-paper-layer-results-consultation-path-05 |
+| 06  | Planning          | explanation-planning  | Results need planning | Care outcomes depend on assessment, consistency, individual context, and realistic expectations. | Begin consultation | None               | 37-vellum-vellum-paper-layer-results-planning-06          |
+| 07  | Not Guarantees    | reassurance-boundary  | No guarantees         | This site does not promise identical results or create pressure-based expectations.              | Read FAQ           | Privacy            | 37-vellum-vellum-paper-layer-results-not-guarantees-07    |
+| 08  | Naturality        | trust-naturality      | Natural confidence    | Guidance should support confidence without forcing a single idea of beauty.                      | View care          | Request evaluation | 37-vellum-vellum-paper-layer-results-naturality-08        |
+| 09  | Process           | explanation-process   | Expectation process   | Listening, assessment, planning, and review help keep expectations responsible.                  | Book consultation  | None               | 37-vellum-vellum-paper-layer-results-process-09           |
+| 10  | Final CTA         | conversion-final      | Ask first             | Send your question or begin with a calm evaluation.                                              | Contact Franciele  | Read FAQ           | 37-vellum-vellum-paper-layer-results-final-cta-10         |
 
 ### Consultation (consultation.html)
-| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
-|---|---|---|---|---|---|---|---|
-| 01 | Consultation Hero | opening-consultation | Begin consultation | Start with a calm conversation about your goals, questions, comfort, and expectations. | Fill form | Message WhatsApp | 37-vellum-vellum-paper-layer-consultation-consultation-hero-01 |
-| 02 | Form Break | conversion-form | Send your request | Use the form or WhatsApp to begin privately. | Submit request | Message WhatsApp | 37-vellum-vellum-paper-layer-consultation-form-break-02 |
-| 03 | Privacy Comfort | reassurance-privacy | Privacy matters | Your message should feel safe, clear, and handled with care. | Privacy | None | 37-vellum-vellum-paper-layer-consultation-privacy-comfort-03 |
-| 04 | Related Guidance | internal-route | Helpful routes | Explore care guidance or practical questions before sending your request. | Explore care | View FAQ | 37-vellum-vellum-paper-layer-consultation-related-guidance-04 |
-| 05 | Contact Options | conversion-contact | Prefer messaging | Use WhatsApp or the contact page if you have a quick question. | Message WhatsApp | Contact Franciele | 37-vellum-vellum-paper-layer-consultation-contact-options-05 |
-| 06 | What It Clarifies | explanation-cards | What it clarifies | A consultation can clarify goals, questions, comfort, and expectations. | Start form | None | 37-vellum-vellum-paper-layer-consultation-what-it-clarifies-06 |
-| 07 | Before Consultation | education-prep | Before you start | Bring simple notes about your goals, routine, questions, and comfort level. | Read FAQ | None | 37-vellum-vellum-paper-layer-consultation-before-consultation-07 |
-| 08 | During Conversation | human-trust | During consultation | The conversation focuses on listening, understanding, and guiding your next step clearly. | Ask a question | None | 37-vellum-vellum-paper-layer-consultation-during-conversation-08 |
-| 09 | After Consultation | explanation-after | Afterwards | You should leave with clearer options, realistic expectations, and a better sense of direction. | View care | View results | 37-vellum-vellum-paper-layer-consultation-after-consultation-09 |
-| 10 | Final CTA | conversion-final | Start simply | A clear first step can make the whole process easier. | Fill form | Message WhatsApp | 37-vellum-vellum-paper-layer-consultation-final-cta-10 |
+
+| #   | Section             | Role                 | Heading             | Short text                                                                                      | Primary CTA      | Secondary CTA     | Layout signature                                                 |
+| --- | ------------------- | -------------------- | ------------------- | ----------------------------------------------------------------------------------------------- | ---------------- | ----------------- | ---------------------------------------------------------------- |
+| 01  | Consultation Hero   | opening-consultation | Begin consultation  | Start with a calm conversation about your goals, questions, comfort, and expectations.          | Fill form        | Message WhatsApp  | 37-vellum-vellum-paper-layer-consultation-consultation-hero-01   |
+| 02  | Form Break          | conversion-form      | Send your request   | Use the form or WhatsApp to begin privately.                                                    | Submit request   | Message WhatsApp  | 37-vellum-vellum-paper-layer-consultation-form-break-02          |
+| 03  | Privacy Comfort     | reassurance-privacy  | Privacy matters     | Your message should feel safe, clear, and handled with care.                                    | Privacy          | None              | 37-vellum-vellum-paper-layer-consultation-privacy-comfort-03     |
+| 04  | Related Guidance    | internal-route       | Helpful routes      | Explore care guidance or practical questions before sending your request.                       | Explore care     | View FAQ          | 37-vellum-vellum-paper-layer-consultation-related-guidance-04    |
+| 05  | Contact Options     | conversion-contact   | Prefer messaging    | Use WhatsApp or the contact page if you have a quick question.                                  | Message WhatsApp | Contact Franciele | 37-vellum-vellum-paper-layer-consultation-contact-options-05     |
+| 06  | What It Clarifies   | explanation-cards    | What it clarifies   | A consultation can clarify goals, questions, comfort, and expectations.                         | Start form       | None              | 37-vellum-vellum-paper-layer-consultation-what-it-clarifies-06   |
+| 07  | Before Consultation | education-prep       | Before you start    | Bring simple notes about your goals, routine, questions, and comfort level.                     | Read FAQ         | None              | 37-vellum-vellum-paper-layer-consultation-before-consultation-07 |
+| 08  | During Conversation | human-trust          | During consultation | The conversation focuses on listening, understanding, and guiding your next step clearly.       | Ask a question   | None              | 37-vellum-vellum-paper-layer-consultation-during-conversation-08 |
+| 09  | After Consultation  | explanation-after    | Afterwards          | You should leave with clearer options, realistic expectations, and a better sense of direction. | View care        | View results      | 37-vellum-vellum-paper-layer-consultation-after-consultation-09  |
+| 10  | Final CTA           | conversion-final     | Start simply        | A clear first step can make the whole process easier.                                           | Fill form        | Message WhatsApp  | 37-vellum-vellum-paper-layer-consultation-final-cta-10           |
 
 ### Contact (contact.html)
-| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
-|---|---|---|---|---|---|---|---|
-| 01 | Contact Hero | opening-contact | Contact Franciele | Send a private message or request an evaluation when you feel ready. | Message WhatsApp | Fill form | 37-vellum-vellum-paper-layer-contact-contact-hero-01 |
-| 02 | Reassurance Break | reassurance-statement | No pressure | You can begin with a question before deciding anything. | None | None | 37-vellum-vellum-paper-layer-contact-reassurance-break-02 |
-| 03 | FAQ Bridge | education-route | Have doubts | Read common questions before sending your message. | Read FAQ | Begin consultation | 37-vellum-vellum-paper-layer-contact-faq-bridge-03 |
-| 04 | Trust Links | reassurance-privacy | Before sending | Review privacy or accessibility information if helpful. | Privacy | Accessibility | 37-vellum-vellum-paper-layer-contact-trust-links-04 |
-| 05 | Consultation Reminder | conversion-contact | Evaluation helps | A consultation gives your questions more context and direction. | Request evaluation | Message WhatsApp | 37-vellum-vellum-paper-layer-contact-consultation-reminder-05 |
-| 06 | Best Next Step | guidance-route | Best next step | For care decisions, begin with evaluation. For questions, send a short message. | Begin consultation | Ask a question | 37-vellum-vellum-paper-layer-contact-best-next-step-06 |
-| 07 | Contact Options | conversion-contact | Contact options | Choose WhatsApp, email, or the form route. | Message WhatsApp | Send form | 37-vellum-vellum-paper-layer-contact-contact-options-07 |
-| 08 | Message Tips | education-prep | What to include | A short note can make the first response more useful. | Ask a question | None | 37-vellum-vellum-paper-layer-contact-message-tips-08 |
-| 09 | Form Section | conversion-form | Send a message | Share your question and preferred contact route. | Send message | Privacy | 37-vellum-vellum-paper-layer-contact-form-section-09 |
-| 10 | Final Route | conversion-final | Keep exploring | Return home or open the sitemap for all routes. | Home | Sitemap | 37-vellum-vellum-paper-layer-contact-final-route-10 |
+
+| #   | Section               | Role                  | Heading           | Short text                                                                      | Primary CTA        | Secondary CTA      | Layout signature                                              |
+| --- | --------------------- | --------------------- | ----------------- | ------------------------------------------------------------------------------- | ------------------ | ------------------ | ------------------------------------------------------------- |
+| 01  | Contact Hero          | opening-contact       | Contact Franciele | Send a private message or request an evaluation when you feel ready.            | Message WhatsApp   | Fill form          | 37-vellum-vellum-paper-layer-contact-contact-hero-01          |
+| 02  | Reassurance Break     | reassurance-statement | No pressure       | You can begin with a question before deciding anything.                         | None               | None               | 37-vellum-vellum-paper-layer-contact-reassurance-break-02     |
+| 03  | FAQ Bridge            | education-route       | Have doubts       | Read common questions before sending your message.                              | Read FAQ           | Begin consultation | 37-vellum-vellum-paper-layer-contact-faq-bridge-03            |
+| 04  | Trust Links           | reassurance-privacy   | Before sending    | Review privacy or accessibility information if helpful.                         | Privacy            | Accessibility      | 37-vellum-vellum-paper-layer-contact-trust-links-04           |
+| 05  | Consultation Reminder | conversion-contact    | Evaluation helps  | A consultation gives your questions more context and direction.                 | Request evaluation | Message WhatsApp   | 37-vellum-vellum-paper-layer-contact-consultation-reminder-05 |
+| 06  | Best Next Step        | guidance-route        | Best next step    | For care decisions, begin with evaluation. For questions, send a short message. | Begin consultation | Ask a question     | 37-vellum-vellum-paper-layer-contact-best-next-step-06        |
+| 07  | Contact Options       | conversion-contact    | Contact options   | Choose WhatsApp, email, or the form route.                                      | Message WhatsApp   | Send form          | 37-vellum-vellum-paper-layer-contact-contact-options-07       |
+| 08  | Message Tips          | education-prep        | What to include   | A short note can make the first response more useful.                           | Ask a question     | None               | 37-vellum-vellum-paper-layer-contact-message-tips-08          |
+| 09  | Form Section          | conversion-form       | Send a message    | Share your question and preferred contact route.                                | Send message       | Privacy            | 37-vellum-vellum-paper-layer-contact-form-section-09          |
+| 10  | Final Route           | conversion-final      | Keep exploring    | Return home or open the sitemap for all routes.                                 | Home               | Sitemap            | 37-vellum-vellum-paper-layer-contact-final-route-10           |
 
 ### Mission (mission.html)
-| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
-|---|---|---|---|---|---|---|---|
-| 01 | Mission Hero | opening-mission | Our mission | To make aesthetic guidance feel careful, clear, and responsible. | Request evaluation | Message WhatsApp | 37-vellum-vellum-paper-layer-mission-mission-hero-01 |
-| 02 | Statement Break | reassurance-statement | Clarity is care | A calm process helps better choices. | None | None | 37-vellum-vellum-paper-layer-mission-statement-break-02 |
-| 03 | Responsible Practice | reassurance-boundary | No pressure | This site avoids exaggerated promises and unsupported proof. | Understand results | None | 37-vellum-vellum-paper-layer-mission-responsible-practice-03 |
-| 04 | Related Pages | internal-route | Learn more | Explore the values behind the experience. | About | Values | 37-vellum-vellum-paper-layer-mission-related-pages-04 |
-| 05 | Consultation Path | conversion-contact | Start with questions | A consultation can help clarify your next step. | Request evaluation | Read FAQ | 37-vellum-vellum-paper-layer-mission-consultation-path-05 |
-| 06 | Evaluation Leads | trust-evaluation | Evaluation first | Good decisions begin with understanding the person, not rushing the answer. | Begin consultation | None | 37-vellum-vellum-paper-layer-mission-evaluation-leads-06 |
-| 07 | Care Philosophy | brand-philosophy | Careful planning | Each step should feel considered, personal, and realistic. | Explore care | None | 37-vellum-vellum-paper-layer-mission-care-philosophy-07 |
-| 08 | Brand Values | trust-values | Guiding values | Care, trust, safety, and naturality guide the experience. | View values | About Franciele | 37-vellum-vellum-paper-layer-mission-brand-values-08 |
-| 09 | Human Trust | human-trust | Human guidance | The experience should feel personal, respectful, and clear. | Meet Franciele | None | 37-vellum-vellum-paper-layer-mission-human-trust-09 |
-| 10 | Final CTA | conversion-final | Reach out | Send a message when you are ready. | Contact | WhatsApp | 37-vellum-vellum-paper-layer-mission-final-cta-10 |
+
+| #   | Section              | Role                  | Heading              | Short text                                                                  | Primary CTA        | Secondary CTA    | Layout signature                                             |
+| --- | -------------------- | --------------------- | -------------------- | --------------------------------------------------------------------------- | ------------------ | ---------------- | ------------------------------------------------------------ |
+| 01  | Mission Hero         | opening-mission       | Our mission          | To make aesthetic guidance feel careful, clear, and responsible.            | Request evaluation | Message WhatsApp | 37-vellum-vellum-paper-layer-mission-mission-hero-01         |
+| 02  | Statement Break      | reassurance-statement | Clarity is care      | A calm process helps better choices.                                        | None               | None             | 37-vellum-vellum-paper-layer-mission-statement-break-02      |
+| 03  | Responsible Practice | reassurance-boundary  | No pressure          | This site avoids exaggerated promises and unsupported proof.                | Understand results | None             | 37-vellum-vellum-paper-layer-mission-responsible-practice-03 |
+| 04  | Related Pages        | internal-route        | Learn more           | Explore the values behind the experience.                                   | About              | Values           | 37-vellum-vellum-paper-layer-mission-related-pages-04        |
+| 05  | Consultation Path    | conversion-contact    | Start with questions | A consultation can help clarify your next step.                             | Request evaluation | Read FAQ         | 37-vellum-vellum-paper-layer-mission-consultation-path-05    |
+| 06  | Evaluation Leads     | trust-evaluation      | Evaluation first     | Good decisions begin with understanding the person, not rushing the answer. | Begin consultation | None             | 37-vellum-vellum-paper-layer-mission-evaluation-leads-06     |
+| 07  | Care Philosophy      | brand-philosophy      | Careful planning     | Each step should feel considered, personal, and realistic.                  | Explore care       | None             | 37-vellum-vellum-paper-layer-mission-care-philosophy-07      |
+| 08  | Brand Values         | trust-values          | Guiding values       | Care, trust, safety, and naturality guide the experience.                   | View values        | About Franciele  | 37-vellum-vellum-paper-layer-mission-brand-values-08         |
+| 09  | Human Trust          | human-trust           | Human guidance       | The experience should feel personal, respectful, and clear.                 | Meet Franciele     | None             | 37-vellum-vellum-paper-layer-mission-human-trust-09          |
+| 10  | Final CTA            | conversion-final      | Reach out            | Send a message when you are ready.                                          | Contact            | WhatsApp         | 37-vellum-vellum-paper-layer-mission-final-cta-10            |
 
 ### Values (values.html)
-| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
-|---|---|---|---|---|---|---|---|
-| 01 | Values Hero | opening-values | Care values | Four principles shape the Sofiati experience. | Request evaluation | Message WhatsApp | 37-vellum-vellum-paper-layer-values-values-hero-01 |
-| 02 | Visual Break | reassurance-statement | Values guide choices | The experience should feel thoughtful from start to finish. | None | None | 37-vellum-vellum-paper-layer-values-visual-break-02 |
-| 03 | Values in Consultation | conversion-prep | In consultation | These values shape how questions, goals, and next steps are discussed. | Begin consultation | None | 37-vellum-vellum-paper-layer-values-values-in-consultation-03 |
-| 04 | Related Guidance | internal-route | Related guidance | Continue with care or results guidance. | Explore care | Results | 37-vellum-vellum-paper-layer-values-related-guidance-04 |
-| 05 | About Mission Bridge | brand-route | Brand story | Read more about the purpose behind the experience. | About | Mission | 37-vellum-vellum-paper-layer-values-about-mission-bridge-05 |
-| 06 | Cuidado | trust-care | Care | Care begins with listening closely and respecting individual context. | Explore care | None | 37-vellum-vellum-paper-layer-values-cuidado-06 |
-| 07 | Confianca | trust-confidence | Trust | Trust grows through clear explanations and calm guidance. | Meet Franciele | None | 37-vellum-vellum-paper-layer-values-confianca-07 |
-| 08 | Seguranca | reassurance-safety | Safety | Safety means boundaries, evaluation, and realistic expectations. | Read FAQ | None | 37-vellum-vellum-paper-layer-values-seguranca-08 |
-| 09 | Naturalidade | trust-naturality | Naturality | Naturality means planning that respects your features and comfort. | Understand results | None | 37-vellum-vellum-paper-layer-values-naturalidade-09 |
-| 10 | Final CTA | conversion-final | Begin with care | Send a question or request an evaluation. | Request evaluation | WhatsApp | 37-vellum-vellum-paper-layer-values-final-cta-10 |
+
+| #   | Section                | Role                  | Heading              | Short text                                                             | Primary CTA        | Secondary CTA    | Layout signature                                              |
+| --- | ---------------------- | --------------------- | -------------------- | ---------------------------------------------------------------------- | ------------------ | ---------------- | ------------------------------------------------------------- |
+| 01  | Values Hero            | opening-values        | Care values          | Four principles shape the Sofiati experience.                          | Request evaluation | Message WhatsApp | 37-vellum-vellum-paper-layer-values-values-hero-01            |
+| 02  | Visual Break           | reassurance-statement | Values guide choices | The experience should feel thoughtful from start to finish.            | None               | None             | 37-vellum-vellum-paper-layer-values-visual-break-02           |
+| 03  | Values in Consultation | conversion-prep       | In consultation      | These values shape how questions, goals, and next steps are discussed. | Begin consultation | None             | 37-vellum-vellum-paper-layer-values-values-in-consultation-03 |
+| 04  | Related Guidance       | internal-route        | Related guidance     | Continue with care or results guidance.                                | Explore care       | Results          | 37-vellum-vellum-paper-layer-values-related-guidance-04       |
+| 05  | About Mission Bridge   | brand-route           | Brand story          | Read more about the purpose behind the experience.                     | About              | Mission          | 37-vellum-vellum-paper-layer-values-about-mission-bridge-05   |
+| 06  | Cuidado                | trust-care            | Care                 | Care begins with listening closely and respecting individual context.  | Explore care       | None             | 37-vellum-vellum-paper-layer-values-cuidado-06                |
+| 07  | Confianca              | trust-confidence      | Trust                | Trust grows through clear explanations and calm guidance.              | Meet Franciele     | None             | 37-vellum-vellum-paper-layer-values-confianca-07              |
+| 08  | Seguranca              | reassurance-safety    | Safety               | Safety means boundaries, evaluation, and realistic expectations.       | Read FAQ           | None             | 37-vellum-vellum-paper-layer-values-seguranca-08              |
+| 09  | Naturalidade           | trust-naturality      | Naturality           | Naturality means planning that respects your features and comfort.     | Understand results | None             | 37-vellum-vellum-paper-layer-values-naturalidade-09           |
+| 10  | Final CTA              | conversion-final      | Begin with care      | Send a question or request an evaluation.                              | Request evaluation | WhatsApp         | 37-vellum-vellum-paper-layer-values-final-cta-10              |
 
 ### Testimonials (testimonials.html)
-| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
-|---|---|---|---|---|---|---|---|
-| 01 | Feedback Hero | opening-feedback | Client feedback | Feedback should be treated with consent, privacy, and realistic context. | Request evaluation | Message WhatsApp | 37-vellum-vellum-paper-layer-testimonials-feedback-hero-01 |
-| 02 | Trust Break | reassurance-statement | Trust needs care | Responsibility matters in every part of the experience. | None | None | 37-vellum-vellum-paper-layer-testimonials-trust-break-02 |
-| 03 | Results Guidance | education-route | Read expectations | Understand results responsibly before making decisions. | Results | None | 37-vellum-vellum-paper-layer-testimonials-results-guidance-03 |
-| 04 | FAQ Bridge | education-route | Have questions | Read common questions before contacting. | FAQ | None | 37-vellum-vellum-paper-layer-testimonials-faq-bridge-04 |
-| 05 | Consultation CTA | conversion-contact | Discuss your goals | A consultation gives your questions context. | Request evaluation | WhatsApp | 37-vellum-vellum-paper-layer-testimonials-consultation-cta-05 |
-| 06 | Consent First | reassurance-privacy | Consent first | Feedback should only be shared with appropriate permission. | Privacy | None | 37-vellum-vellum-paper-layer-testimonials-consent-first-06 |
-| 07 | No Guarantees | reassurance-boundary | Not a promise | Feedback does not guarantee the same experience or outcome. | Results | None | 37-vellum-vellum-paper-layer-testimonials-no-guarantees-07 |
-| 08 | Experience Themes | trust-themes | Experience themes | Useful feedback themes include clarity, comfort, guidance, and trust. | Read FAQ | None | 37-vellum-vellum-paper-layer-testimonials-experience-themes-08 |
-| 09 | Privacy Note | reassurance-privacy | Privacy matters | Personal details and feedback must be handled carefully. | Privacy | None | 37-vellum-vellum-paper-layer-testimonials-privacy-note-09 |
-| 10 | Contact Path | conversion-final | Contact directly | Send a message if you need guidance. | Contact | WhatsApp | 37-vellum-vellum-paper-layer-testimonials-contact-path-10 |
+
+| #   | Section           | Role                  | Heading            | Short text                                                               | Primary CTA        | Secondary CTA    | Layout signature                                               |
+| --- | ----------------- | --------------------- | ------------------ | ------------------------------------------------------------------------ | ------------------ | ---------------- | -------------------------------------------------------------- |
+| 01  | Feedback Hero     | opening-feedback      | Client feedback    | Feedback should be treated with consent, privacy, and realistic context. | Request evaluation | Message WhatsApp | 37-vellum-vellum-paper-layer-testimonials-feedback-hero-01     |
+| 02  | Trust Break       | reassurance-statement | Trust needs care   | Responsibility matters in every part of the experience.                  | None               | None             | 37-vellum-vellum-paper-layer-testimonials-trust-break-02       |
+| 03  | Results Guidance  | education-route       | Read expectations  | Understand results responsibly before making decisions.                  | Results            | None             | 37-vellum-vellum-paper-layer-testimonials-results-guidance-03  |
+| 04  | FAQ Bridge        | education-route       | Have questions     | Read common questions before contacting.                                 | FAQ                | None             | 37-vellum-vellum-paper-layer-testimonials-faq-bridge-04        |
+| 05  | Consultation CTA  | conversion-contact    | Discuss your goals | A consultation gives your questions context.                             | Request evaluation | WhatsApp         | 37-vellum-vellum-paper-layer-testimonials-consultation-cta-05  |
+| 06  | Consent First     | reassurance-privacy   | Consent first      | Feedback should only be shared with appropriate permission.              | Privacy            | None             | 37-vellum-vellum-paper-layer-testimonials-consent-first-06     |
+| 07  | No Guarantees     | reassurance-boundary  | Not a promise      | Feedback does not guarantee the same experience or outcome.              | Results            | None             | 37-vellum-vellum-paper-layer-testimonials-no-guarantees-07     |
+| 08  | Experience Themes | trust-themes          | Experience themes  | Useful feedback themes include clarity, comfort, guidance, and trust.    | Read FAQ           | None             | 37-vellum-vellum-paper-layer-testimonials-experience-themes-08 |
+| 09  | Privacy Note      | reassurance-privacy   | Privacy matters    | Personal details and feedback must be handled carefully.                 | Privacy            | None             | 37-vellum-vellum-paper-layer-testimonials-privacy-note-09      |
+| 10  | Contact Path      | conversion-final      | Contact directly   | Send a message if you need guidance.                                     | Contact            | WhatsApp         | 37-vellum-vellum-paper-layer-testimonials-contact-path-10      |
 
 ### FAQ (faq.html)
-| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
-|---|---|---|---|---|---|---|---|
-| 01 | FAQ Hero | opening-faq | Common questions | Short answers help you choose your next step calmly. | Ask a question | Request evaluation | 37-vellum-vellum-paper-layer-faq-faq-hero-01 |
-| 02 | Results Questions | reassurance-expectations | Results | Results vary and should be discussed with realistic expectations. | Understand results | Request evaluation | 37-vellum-vellum-paper-layer-faq-results-questions-02 |
-| 03 | Privacy Contact | reassurance-privacy | Privacy questions | You can review privacy details before sending a message. | Privacy | Contact | 37-vellum-vellum-paper-layer-faq-privacy-contact-03 |
-| 04 | Reassurance Break | reassurance-statement | Questions are welcome | You do not need to know everything before asking. | None | None | 37-vellum-vellum-paper-layer-faq-reassurance-break-04 |
-| 05 | Journal Route | education-route | Read more | Explore educational notes before your consultation. | Read journal | View blog | 37-vellum-vellum-paper-layer-faq-journal-route-05 |
-| 06 | Consultation Questions | education-faq | Consultation | Bring your goals, routine, comfort level, and main questions. | Begin consultation | Contact Franciele | 37-vellum-vellum-paper-layer-faq-consultation-questions-06 |
-| 07 | Care Questions | education-care | Care | Care depends on your goals, comfort, and evaluation. | Explore care | Request evaluation | 37-vellum-vellum-paper-layer-faq-care-questions-07 |
-| 08 | Skin Questions | education-skin | Skin | Skin guidance should consider routine, sensitivity, and realistic goals. | View skin | Read journal | 37-vellum-vellum-paper-layer-faq-skin-questions-08 |
-| 09 | Laser Questions | education-laser | Laser | Suitability should be discussed before decisions are made. | Explore laser | Begin consultation | 37-vellum-vellum-paper-layer-faq-laser-questions-09 |
-| 10 | Consultation CTA | conversion-final | Still unsure | Send your question or request an evaluation. | Request evaluation | Message WhatsApp | 37-vellum-vellum-paper-layer-faq-consultation-cta-10 |
+
+| #   | Section                | Role                     | Heading               | Short text                                                               | Primary CTA        | Secondary CTA      | Layout signature                                           |
+| --- | ---------------------- | ------------------------ | --------------------- | ------------------------------------------------------------------------ | ------------------ | ------------------ | ---------------------------------------------------------- |
+| 01  | FAQ Hero               | opening-faq              | Common questions      | Short answers help you choose your next step calmly.                     | Ask a question     | Request evaluation | 37-vellum-vellum-paper-layer-faq-faq-hero-01               |
+| 02  | Results Questions      | reassurance-expectations | Results               | Results vary and should be discussed with realistic expectations.        | Understand results | Request evaluation | 37-vellum-vellum-paper-layer-faq-results-questions-02      |
+| 03  | Privacy Contact        | reassurance-privacy      | Privacy questions     | You can review privacy details before sending a message.                 | Privacy            | Contact            | 37-vellum-vellum-paper-layer-faq-privacy-contact-03        |
+| 04  | Reassurance Break      | reassurance-statement    | Questions are welcome | You do not need to know everything before asking.                        | None               | None               | 37-vellum-vellum-paper-layer-faq-reassurance-break-04      |
+| 05  | Journal Route          | education-route          | Read more             | Explore educational notes before your consultation.                      | Read journal       | View blog          | 37-vellum-vellum-paper-layer-faq-journal-route-05          |
+| 06  | Consultation Questions | education-faq            | Consultation          | Bring your goals, routine, comfort level, and main questions.            | Begin consultation | Contact Franciele  | 37-vellum-vellum-paper-layer-faq-consultation-questions-06 |
+| 07  | Care Questions         | education-care           | Care                  | Care depends on your goals, comfort, and evaluation.                     | Explore care       | Request evaluation | 37-vellum-vellum-paper-layer-faq-care-questions-07         |
+| 08  | Skin Questions         | education-skin           | Skin                  | Skin guidance should consider routine, sensitivity, and realistic goals. | View skin          | Read journal       | 37-vellum-vellum-paper-layer-faq-skin-questions-08         |
+| 09  | Laser Questions        | education-laser          | Laser                 | Suitability should be discussed before decisions are made.               | Explore laser      | Begin consultation | 37-vellum-vellum-paper-layer-faq-laser-questions-09        |
+| 10  | Consultation CTA       | conversion-final         | Still unsure          | Send your question or request an evaluation.                             | Request evaluation | Message WhatsApp   | 37-vellum-vellum-paper-layer-faq-consultation-cta-10       |
 
 ### Journal (journal.html)
-| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
-|---|---|---|---|---|---|---|---|
-| 01 | Journal Hero | opening-journal | Care journal | Short guidance for better questions, calmer decisions, and clearer expectations. | Read articles | Request evaluation | 37-vellum-vellum-paper-layer-journal-journal-hero-01 |
-| 02 | Results Category | reassurance-expectations | Result expectations | Read responsible guidance before forming expectations. | Understand results | Request evaluation | 37-vellum-vellum-paper-layer-journal-results-category-02 |
-| 03 | Editorial Break | reassurance-statement | Learn before deciding | Good questions make the consultation more useful. | None | None | 37-vellum-vellum-paper-layer-journal-editorial-break-03 |
-| 04 | Article Grid | education-route | Latest notes | Browse short educational pieces by topic. | View blog | Read FAQ | 37-vellum-vellum-paper-layer-journal-article-grid-04 |
-| 05 | Consultation Bridge | conversion-contact | Ready to ask | Bring your questions into a private consultation or message. | Request evaluation | Message WhatsApp | 37-vellum-vellum-paper-layer-journal-consultation-bridge-05 |
-| 06 | Featured Article | education-feature | Featured guide | Start with the most useful topic for your current questions. | Read guide | None | 37-vellum-vellum-paper-layer-journal-featured-article-06 |
-| 07 | Skin Category | education-skin | Skin guidance | Read about routine, texture, sensitivity, and planning. | View skin | Read blog | 37-vellum-vellum-paper-layer-journal-skin-category-07 |
-| 08 | Laser Category | education-laser | Laser questions | Learn what to discuss before choosing laser care. | Explore laser | Read FAQ | 37-vellum-vellum-paper-layer-journal-laser-category-08 |
-| 09 | Care Category | education-care | Care planning | Understand how consultation supports personal decisions. | Explore care | Begin consultation | 37-vellum-vellum-paper-layer-journal-care-category-09 |
-| 10 | Blog Contact CTA | conversion-final | Continue reading | Explore more articles or contact Franciele directly. | View blog | Contact Franciele | 37-vellum-vellum-paper-layer-journal-blog-contact-cta-10 |
+
+| #   | Section             | Role                     | Heading               | Short text                                                                       | Primary CTA        | Secondary CTA      | Layout signature                                            |
+| --- | ------------------- | ------------------------ | --------------------- | -------------------------------------------------------------------------------- | ------------------ | ------------------ | ----------------------------------------------------------- |
+| 01  | Journal Hero        | opening-journal          | Care journal          | Short guidance for better questions, calmer decisions, and clearer expectations. | Read articles      | Request evaluation | 37-vellum-vellum-paper-layer-journal-journal-hero-01        |
+| 02  | Results Category    | reassurance-expectations | Result expectations   | Read responsible guidance before forming expectations.                           | Understand results | Request evaluation | 37-vellum-vellum-paper-layer-journal-results-category-02    |
+| 03  | Editorial Break     | reassurance-statement    | Learn before deciding | Good questions make the consultation more useful.                                | None               | None               | 37-vellum-vellum-paper-layer-journal-editorial-break-03     |
+| 04  | Article Grid        | education-route          | Latest notes          | Browse short educational pieces by topic.                                        | View blog          | Read FAQ           | 37-vellum-vellum-paper-layer-journal-article-grid-04        |
+| 05  | Consultation Bridge | conversion-contact       | Ready to ask          | Bring your questions into a private consultation or message.                     | Request evaluation | Message WhatsApp   | 37-vellum-vellum-paper-layer-journal-consultation-bridge-05 |
+| 06  | Featured Article    | education-feature        | Featured guide        | Start with the most useful topic for your current questions.                     | Read guide         | None               | 37-vellum-vellum-paper-layer-journal-featured-article-06    |
+| 07  | Skin Category       | education-skin           | Skin guidance         | Read about routine, texture, sensitivity, and planning.                          | View skin          | Read blog          | 37-vellum-vellum-paper-layer-journal-skin-category-07       |
+| 08  | Laser Category      | education-laser          | Laser questions       | Learn what to discuss before choosing laser care.                                | Explore laser      | Read FAQ           | 37-vellum-vellum-paper-layer-journal-laser-category-08      |
+| 09  | Care Category       | education-care           | Care planning         | Understand how consultation supports personal decisions.                         | Explore care       | Begin consultation | 37-vellum-vellum-paper-layer-journal-care-category-09       |
+| 10  | Blog Contact CTA    | conversion-final         | Continue reading      | Explore more articles or contact Franciele directly.                             | View blog          | Contact Franciele  | 37-vellum-vellum-paper-layer-journal-blog-contact-cta-10    |
 
 ### Blog (blog.html)
-| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
-|---|---|---|---|---|---|---|---|
-| 01 | Blog Hero | opening-blog | Care articles | Deeper educational notes for skin, laser, care, and expectations. | Read articles | Request evaluation | 37-vellum-vellum-paper-layer-blog-blog-hero-01 |
-| 02 | Education Break | reassurance-statement | Better questions | Useful reading makes consultation clearer. | None | None | 37-vellum-vellum-paper-layer-blog-education-break-02 |
-| 03 | Popular Questions | education-faq | Popular doubts | Find practical answers before your next step. | FAQ | None | 37-vellum-vellum-paper-layer-blog-popular-questions-03 |
-| 04 | Related Services | service-route | Related pages | Connect articles to service guidance. | Care | Skin | 37-vellum-vellum-paper-layer-blog-related-services-04 |
-| 05 | Consultation CTA | conversion-contact | Need guidance | Bring your questions into a consultation. | Request evaluation | WhatsApp | 37-vellum-vellum-paper-layer-blog-consultation-cta-05 |
-| 06 | Featured Guide | education-feature | Featured guide | Start with the guide most relevant to your questions. | Read guide | None | 37-vellum-vellum-paper-layer-blog-featured-guide-06 |
-| 07 | Article Categories | education-route | Browse topics | Choose skin, laser, care, or results guidance. | Journal | None | 37-vellum-vellum-paper-layer-blog-article-categories-07 |
-| 08 | Article Grid | education-route | Latest articles | Read short educational pieces by topic. | Read more | None | 37-vellum-vellum-paper-layer-blog-article-grid-08 |
-| 09 | Reading Path | education-route | Choose a path | Follow the topic that matches your current question. | View FAQ | None | 37-vellum-vellum-paper-layer-blog-reading-path-09 |
-| 10 | Journal Bridge | conversion-final | Back to journal | Return to the editorial guide library. | Journal | Contact | 37-vellum-vellum-paper-layer-blog-journal-bridge-10 |
+
+| #   | Section            | Role                  | Heading          | Short text                                                        | Primary CTA        | Secondary CTA      | Layout signature                                        |
+| --- | ------------------ | --------------------- | ---------------- | ----------------------------------------------------------------- | ------------------ | ------------------ | ------------------------------------------------------- |
+| 01  | Blog Hero          | opening-blog          | Care articles    | Deeper educational notes for skin, laser, care, and expectations. | Read articles      | Request evaluation | 37-vellum-vellum-paper-layer-blog-blog-hero-01          |
+| 02  | Education Break    | reassurance-statement | Better questions | Useful reading makes consultation clearer.                        | None               | None               | 37-vellum-vellum-paper-layer-blog-education-break-02    |
+| 03  | Popular Questions  | education-faq         | Popular doubts   | Find practical answers before your next step.                     | FAQ                | None               | 37-vellum-vellum-paper-layer-blog-popular-questions-03  |
+| 04  | Related Services   | service-route         | Related pages    | Connect articles to service guidance.                             | Care               | Skin               | 37-vellum-vellum-paper-layer-blog-related-services-04   |
+| 05  | Consultation CTA   | conversion-contact    | Need guidance    | Bring your questions into a consultation.                         | Request evaluation | WhatsApp           | 37-vellum-vellum-paper-layer-blog-consultation-cta-05   |
+| 06  | Featured Guide     | education-feature     | Featured guide   | Start with the guide most relevant to your questions.             | Read guide         | None               | 37-vellum-vellum-paper-layer-blog-featured-guide-06     |
+| 07  | Article Categories | education-route       | Browse topics    | Choose skin, laser, care, or results guidance.                    | Journal            | None               | 37-vellum-vellum-paper-layer-blog-article-categories-07 |
+| 08  | Article Grid       | education-route       | Latest articles  | Read short educational pieces by topic.                           | Read more          | None               | 37-vellum-vellum-paper-layer-blog-article-grid-08       |
+| 09  | Reading Path       | education-route       | Choose a path    | Follow the topic that matches your current question.              | View FAQ           | None               | 37-vellum-vellum-paper-layer-blog-reading-path-09       |
+| 10  | Journal Bridge     | conversion-final      | Back to journal  | Return to the editorial guide library.                            | Journal            | Contact            | 37-vellum-vellum-paper-layer-blog-journal-bridge-10     |
 
 ### Legal (legal.html)
-| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
-|---|---|---|---|---|---|---|---|
-| 01 | Page Hero | opening-legal | Legal | Clear information helps visitors use this site with confidence. | Contact | Sitemap | 37-vellum-vellum-paper-layer-legal-page-hero-01 |
-| 02 | Trust Break | reassurance-statement | Trust through clarity | Clear information supports a better experience. | None | None | 37-vellum-vellum-paper-layer-legal-trust-break-02 |
-| 03 | Contact Route | conversion-contact | Need help | Send a message if something is unclear. | Contact | WhatsApp | 37-vellum-vellum-paper-layer-legal-contact-route-03 |
-| 04 | Legal Bridge | support-route | More information | Review related site guidance. | Privacy | Legal | 37-vellum-vellum-paper-layer-legal-legal-bridge-04 |
-| 05 | Sitemap Route | internal-route | Find pages | Use the sitemap to find any route. | Sitemap | Home | 37-vellum-vellum-paper-layer-legal-sitemap-route-05 |
-| 06 | Main Explanation | support-explanation | Plain language | This page explains the main information simply and clearly. | None | None | 37-vellum-vellum-paper-layer-legal-main-explanation-06 |
-| 07 | Key Topic | support-details | Key details | Important details should be easy to read and understand. | None | None | 37-vellum-vellum-paper-layer-legal-key-topic-07 |
-| 08 | User Choice | support-choice | Your choices | Visitors should understand their options and contact routes. | Contact | None | 37-vellum-vellum-paper-layer-legal-user-choice-08 |
-| 09 | Related Route | support-route | Related page | Continue to the most relevant support page. | Related page | None | 37-vellum-vellum-paper-layer-legal-related-route-09 |
-| 10 | Final CTA | conversion-final | Contact support | Reach out if you need help using the site. | Contact | Home | 37-vellum-vellum-paper-layer-legal-final-cta-10 |
+
+| #   | Section          | Role                  | Heading               | Short text                                                      | Primary CTA  | Secondary CTA | Layout signature                                       |
+| --- | ---------------- | --------------------- | --------------------- | --------------------------------------------------------------- | ------------ | ------------- | ------------------------------------------------------ |
+| 01  | Page Hero        | opening-legal         | Legal                 | Clear information helps visitors use this site with confidence. | Contact      | Sitemap       | 37-vellum-vellum-paper-layer-legal-page-hero-01        |
+| 02  | Trust Break      | reassurance-statement | Trust through clarity | Clear information supports a better experience.                 | None         | None          | 37-vellum-vellum-paper-layer-legal-trust-break-02      |
+| 03  | Contact Route    | conversion-contact    | Need help             | Send a message if something is unclear.                         | Contact      | WhatsApp      | 37-vellum-vellum-paper-layer-legal-contact-route-03    |
+| 04  | Legal Bridge     | support-route         | More information      | Review related site guidance.                                   | Privacy      | Legal         | 37-vellum-vellum-paper-layer-legal-legal-bridge-04     |
+| 05  | Sitemap Route    | internal-route        | Find pages            | Use the sitemap to find any route.                              | Sitemap      | Home          | 37-vellum-vellum-paper-layer-legal-sitemap-route-05    |
+| 06  | Main Explanation | support-explanation   | Plain language        | This page explains the main information simply and clearly.     | None         | None          | 37-vellum-vellum-paper-layer-legal-main-explanation-06 |
+| 07  | Key Topic        | support-details       | Key details           | Important details should be easy to read and understand.        | None         | None          | 37-vellum-vellum-paper-layer-legal-key-topic-07        |
+| 08  | User Choice      | support-choice        | Your choices          | Visitors should understand their options and contact routes.    | Contact      | None          | 37-vellum-vellum-paper-layer-legal-user-choice-08      |
+| 09  | Related Route    | support-route         | Related page          | Continue to the most relevant support page.                     | Related page | None          | 37-vellum-vellum-paper-layer-legal-related-route-09    |
+| 10  | Final CTA        | conversion-final      | Contact support       | Reach out if you need help using the site.                      | Contact      | Home          | 37-vellum-vellum-paper-layer-legal-final-cta-10        |
 
 ### Privacy (privacy.html)
-| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
-|---|---|---|---|---|---|---|---|
-| 01 | Page Hero | opening-privacy | Privacy | Clear information helps visitors use this site with confidence. | Contact | Sitemap | 37-vellum-vellum-paper-layer-privacy-page-hero-01 |
-| 02 | Trust Break | reassurance-statement | Trust through clarity | Clear information supports a better experience. | None | None | 37-vellum-vellum-paper-layer-privacy-trust-break-02 |
-| 03 | Contact Route | conversion-contact | Need help | Send a message if something is unclear. | Contact | WhatsApp | 37-vellum-vellum-paper-layer-privacy-contact-route-03 |
-| 04 | Legal Bridge | support-route | More information | Review related site guidance. | Privacy | Legal | 37-vellum-vellum-paper-layer-privacy-legal-bridge-04 |
-| 05 | Sitemap Route | internal-route | Find pages | Use the sitemap to find any route. | Sitemap | Home | 37-vellum-vellum-paper-layer-privacy-sitemap-route-05 |
-| 06 | Main Explanation | support-explanation | Plain language | This page explains the main information simply and clearly. | None | None | 37-vellum-vellum-paper-layer-privacy-main-explanation-06 |
-| 07 | Key Topic | support-details | Key details | Important details should be easy to read and understand. | None | None | 37-vellum-vellum-paper-layer-privacy-key-topic-07 |
-| 08 | User Choice | support-choice | Your choices | Visitors should understand their options and contact routes. | Contact | None | 37-vellum-vellum-paper-layer-privacy-user-choice-08 |
-| 09 | Related Route | support-route | Related page | Continue to the most relevant support page. | Related page | None | 37-vellum-vellum-paper-layer-privacy-related-route-09 |
-| 10 | Final CTA | conversion-final | Contact support | Reach out if you need help using the site. | Contact | Home | 37-vellum-vellum-paper-layer-privacy-final-cta-10 |
+
+| #   | Section          | Role                  | Heading               | Short text                                                      | Primary CTA  | Secondary CTA | Layout signature                                         |
+| --- | ---------------- | --------------------- | --------------------- | --------------------------------------------------------------- | ------------ | ------------- | -------------------------------------------------------- |
+| 01  | Page Hero        | opening-privacy       | Privacy               | Clear information helps visitors use this site with confidence. | Contact      | Sitemap       | 37-vellum-vellum-paper-layer-privacy-page-hero-01        |
+| 02  | Trust Break      | reassurance-statement | Trust through clarity | Clear information supports a better experience.                 | None         | None          | 37-vellum-vellum-paper-layer-privacy-trust-break-02      |
+| 03  | Contact Route    | conversion-contact    | Need help             | Send a message if something is unclear.                         | Contact      | WhatsApp      | 37-vellum-vellum-paper-layer-privacy-contact-route-03    |
+| 04  | Legal Bridge     | support-route         | More information      | Review related site guidance.                                   | Privacy      | Legal         | 37-vellum-vellum-paper-layer-privacy-legal-bridge-04     |
+| 05  | Sitemap Route    | internal-route        | Find pages            | Use the sitemap to find any route.                              | Sitemap      | Home          | 37-vellum-vellum-paper-layer-privacy-sitemap-route-05    |
+| 06  | Main Explanation | support-explanation   | Plain language        | This page explains the main information simply and clearly.     | None         | None          | 37-vellum-vellum-paper-layer-privacy-main-explanation-06 |
+| 07  | Key Topic        | support-details       | Key details           | Important details should be easy to read and understand.        | None         | None          | 37-vellum-vellum-paper-layer-privacy-key-topic-07        |
+| 08  | User Choice      | support-choice        | Your choices          | Visitors should understand their options and contact routes.    | Contact      | None          | 37-vellum-vellum-paper-layer-privacy-user-choice-08      |
+| 09  | Related Route    | support-route         | Related page          | Continue to the most relevant support page.                     | Related page | None          | 37-vellum-vellum-paper-layer-privacy-related-route-09    |
+| 10  | Final CTA        | conversion-final      | Contact support       | Reach out if you need help using the site.                      | Contact      | Home          | 37-vellum-vellum-paper-layer-privacy-final-cta-10        |
 
 ### Cookies (cookies.html)
-| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
-|---|---|---|---|---|---|---|---|
-| 01 | Page Hero | opening-cookies | Cookies | Clear information helps visitors use this site with confidence. | Contact | Sitemap | 37-vellum-vellum-paper-layer-cookies-page-hero-01 |
-| 02 | Trust Break | reassurance-statement | Trust through clarity | Clear information supports a better experience. | None | None | 37-vellum-vellum-paper-layer-cookies-trust-break-02 |
-| 03 | Contact Route | conversion-contact | Need help | Send a message if something is unclear. | Contact | WhatsApp | 37-vellum-vellum-paper-layer-cookies-contact-route-03 |
-| 04 | Legal Bridge | support-route | More information | Review related site guidance. | Privacy | Legal | 37-vellum-vellum-paper-layer-cookies-legal-bridge-04 |
-| 05 | Sitemap Route | internal-route | Find pages | Use the sitemap to find any route. | Sitemap | Home | 37-vellum-vellum-paper-layer-cookies-sitemap-route-05 |
-| 06 | Main Explanation | support-explanation | Plain language | This page explains the main information simply and clearly. | None | None | 37-vellum-vellum-paper-layer-cookies-main-explanation-06 |
-| 07 | Key Topic | support-details | Key details | Important details should be easy to read and understand. | None | None | 37-vellum-vellum-paper-layer-cookies-key-topic-07 |
-| 08 | User Choice | support-choice | Your choices | Visitors should understand their options and contact routes. | Contact | None | 37-vellum-vellum-paper-layer-cookies-user-choice-08 |
-| 09 | Related Route | support-route | Related page | Continue to the most relevant support page. | Related page | None | 37-vellum-vellum-paper-layer-cookies-related-route-09 |
-| 10 | Final CTA | conversion-final | Contact support | Reach out if you need help using the site. | Contact | Home | 37-vellum-vellum-paper-layer-cookies-final-cta-10 |
+
+| #   | Section          | Role                  | Heading               | Short text                                                      | Primary CTA  | Secondary CTA | Layout signature                                         |
+| --- | ---------------- | --------------------- | --------------------- | --------------------------------------------------------------- | ------------ | ------------- | -------------------------------------------------------- |
+| 01  | Page Hero        | opening-cookies       | Cookies               | Clear information helps visitors use this site with confidence. | Contact      | Sitemap       | 37-vellum-vellum-paper-layer-cookies-page-hero-01        |
+| 02  | Trust Break      | reassurance-statement | Trust through clarity | Clear information supports a better experience.                 | None         | None          | 37-vellum-vellum-paper-layer-cookies-trust-break-02      |
+| 03  | Contact Route    | conversion-contact    | Need help             | Send a message if something is unclear.                         | Contact      | WhatsApp      | 37-vellum-vellum-paper-layer-cookies-contact-route-03    |
+| 04  | Legal Bridge     | support-route         | More information      | Review related site guidance.                                   | Privacy      | Legal         | 37-vellum-vellum-paper-layer-cookies-legal-bridge-04     |
+| 05  | Sitemap Route    | internal-route        | Find pages            | Use the sitemap to find any route.                              | Sitemap      | Home          | 37-vellum-vellum-paper-layer-cookies-sitemap-route-05    |
+| 06  | Main Explanation | support-explanation   | Plain language        | This page explains the main information simply and clearly.     | None         | None          | 37-vellum-vellum-paper-layer-cookies-main-explanation-06 |
+| 07  | Key Topic        | support-details       | Key details           | Important details should be easy to read and understand.        | None         | None          | 37-vellum-vellum-paper-layer-cookies-key-topic-07        |
+| 08  | User Choice      | support-choice        | Your choices          | Visitors should understand their options and contact routes.    | Contact      | None          | 37-vellum-vellum-paper-layer-cookies-user-choice-08      |
+| 09  | Related Route    | support-route         | Related page          | Continue to the most relevant support page.                     | Related page | None          | 37-vellum-vellum-paper-layer-cookies-related-route-09    |
+| 10  | Final CTA        | conversion-final      | Contact support       | Reach out if you need help using the site.                      | Contact      | Home          | 37-vellum-vellum-paper-layer-cookies-final-cta-10        |
 
 ### Accessibility (accessibility.html)
-| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
-|---|---|---|---|---|---|---|---|
-| 01 | Page Hero | opening-accessibility | Accessibility | Clear information helps visitors use this site with confidence. | Contact | Sitemap | 37-vellum-vellum-paper-layer-accessibility-page-hero-01 |
-| 02 | Trust Break | reassurance-statement | Trust through clarity | Clear information supports a better experience. | None | None | 37-vellum-vellum-paper-layer-accessibility-trust-break-02 |
-| 03 | Contact Route | conversion-contact | Need help | Send a message if something is unclear. | Contact | WhatsApp | 37-vellum-vellum-paper-layer-accessibility-contact-route-03 |
-| 04 | Legal Bridge | support-route | More information | Review related site guidance. | Privacy | Legal | 37-vellum-vellum-paper-layer-accessibility-legal-bridge-04 |
-| 05 | Sitemap Route | internal-route | Find pages | Use the sitemap to find any route. | Sitemap | Home | 37-vellum-vellum-paper-layer-accessibility-sitemap-route-05 |
-| 06 | Main Explanation | support-explanation | Plain language | This page explains the main information simply and clearly. | None | None | 37-vellum-vellum-paper-layer-accessibility-main-explanation-06 |
-| 07 | Key Topic | support-details | Key details | Important details should be easy to read and understand. | None | None | 37-vellum-vellum-paper-layer-accessibility-key-topic-07 |
-| 08 | User Choice | support-choice | Your choices | Visitors should understand their options and contact routes. | Contact | None | 37-vellum-vellum-paper-layer-accessibility-user-choice-08 |
-| 09 | Related Route | support-route | Related page | Continue to the most relevant support page. | Related page | None | 37-vellum-vellum-paper-layer-accessibility-related-route-09 |
-| 10 | Final CTA | conversion-final | Contact support | Reach out if you need help using the site. | Contact | Home | 37-vellum-vellum-paper-layer-accessibility-final-cta-10 |
+
+| #   | Section          | Role                  | Heading               | Short text                                                      | Primary CTA  | Secondary CTA | Layout signature                                               |
+| --- | ---------------- | --------------------- | --------------------- | --------------------------------------------------------------- | ------------ | ------------- | -------------------------------------------------------------- |
+| 01  | Page Hero        | opening-accessibility | Accessibility         | Clear information helps visitors use this site with confidence. | Contact      | Sitemap       | 37-vellum-vellum-paper-layer-accessibility-page-hero-01        |
+| 02  | Trust Break      | reassurance-statement | Trust through clarity | Clear information supports a better experience.                 | None         | None          | 37-vellum-vellum-paper-layer-accessibility-trust-break-02      |
+| 03  | Contact Route    | conversion-contact    | Need help             | Send a message if something is unclear.                         | Contact      | WhatsApp      | 37-vellum-vellum-paper-layer-accessibility-contact-route-03    |
+| 04  | Legal Bridge     | support-route         | More information      | Review related site guidance.                                   | Privacy      | Legal         | 37-vellum-vellum-paper-layer-accessibility-legal-bridge-04     |
+| 05  | Sitemap Route    | internal-route        | Find pages            | Use the sitemap to find any route.                              | Sitemap      | Home          | 37-vellum-vellum-paper-layer-accessibility-sitemap-route-05    |
+| 06  | Main Explanation | support-explanation   | Plain language        | This page explains the main information simply and clearly.     | None         | None          | 37-vellum-vellum-paper-layer-accessibility-main-explanation-06 |
+| 07  | Key Topic        | support-details       | Key details           | Important details should be easy to read and understand.        | None         | None          | 37-vellum-vellum-paper-layer-accessibility-key-topic-07        |
+| 08  | User Choice      | support-choice        | Your choices          | Visitors should understand their options and contact routes.    | Contact      | None          | 37-vellum-vellum-paper-layer-accessibility-user-choice-08      |
+| 09  | Related Route    | support-route         | Related page          | Continue to the most relevant support page.                     | Related page | None          | 37-vellum-vellum-paper-layer-accessibility-related-route-09    |
+| 10  | Final CTA        | conversion-final      | Contact support       | Reach out if you need help using the site.                      | Contact      | Home          | 37-vellum-vellum-paper-layer-accessibility-final-cta-10        |
 
 ### Sitemap (sitemap.html)
-| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
-|---|---|---|---|---|---|---|---|
-| 01 | Sitemap Hero | opening-sitemap | Site map | Find every important page quickly. | Home | Consultation | 37-vellum-vellum-paper-layer-sitemap-sitemap-hero-01 |
-| 02 | Trust Pages | reassurance-route | Trust pages | Review results, feedback, and privacy. | Results | Privacy | 37-vellum-vellum-paper-layer-sitemap-trust-pages-02 |
-| 03 | Legal Pages | support-route | Legal pages | Open policy and accessibility routes. | Legal | Accessibility | 37-vellum-vellum-paper-layer-sitemap-legal-pages-03 |
-| 04 | Consultation Path | conversion-contact | Start here | Request evaluation or send a message. | Consultation | Contact | 37-vellum-vellum-paper-layer-sitemap-consultation-path-04 |
-| 05 | Route Break | reassurance-statement | Clear routes | A simple map helps every visitor move confidently. | None | None | 37-vellum-vellum-paper-layer-sitemap-route-break-05 |
-| 06 | Core Pages | internal-route | Core pages | Start with the main routes. | Home | About | 37-vellum-vellum-paper-layer-sitemap-core-pages-06 |
-| 07 | Service Pages | service-route | Care pages | Explore care, skin, laser, and results. | Care | Skin | 37-vellum-vellum-paper-layer-sitemap-service-pages-07 |
-| 08 | Brand Pages | brand-route | Brand pages | Learn about the mission and values. | Mission | Values | 37-vellum-vellum-paper-layer-sitemap-brand-pages-08 |
-| 09 | Education Pages | education-route | Education | Read journal notes and articles. | Journal | Blog | 37-vellum-vellum-paper-layer-sitemap-education-pages-09 |
-| 10 | Final CTA | conversion-final | Return home | Go back to the beginning or start consultation. | Home | Consultation | 37-vellum-vellum-paper-layer-sitemap-final-cta-10 |
+
+| #   | Section           | Role                  | Heading      | Short text                                         | Primary CTA  | Secondary CTA | Layout signature                                          |
+| --- | ----------------- | --------------------- | ------------ | -------------------------------------------------- | ------------ | ------------- | --------------------------------------------------------- |
+| 01  | Sitemap Hero      | opening-sitemap       | Site map     | Find every important page quickly.                 | Home         | Consultation  | 37-vellum-vellum-paper-layer-sitemap-sitemap-hero-01      |
+| 02  | Trust Pages       | reassurance-route     | Trust pages  | Review results, feedback, and privacy.             | Results      | Privacy       | 37-vellum-vellum-paper-layer-sitemap-trust-pages-02       |
+| 03  | Legal Pages       | support-route         | Legal pages  | Open policy and accessibility routes.              | Legal        | Accessibility | 37-vellum-vellum-paper-layer-sitemap-legal-pages-03       |
+| 04  | Consultation Path | conversion-contact    | Start here   | Request evaluation or send a message.              | Consultation | Contact       | 37-vellum-vellum-paper-layer-sitemap-consultation-path-04 |
+| 05  | Route Break       | reassurance-statement | Clear routes | A simple map helps every visitor move confidently. | None         | None          | 37-vellum-vellum-paper-layer-sitemap-route-break-05       |
+| 06  | Core Pages        | internal-route        | Core pages   | Start with the main routes.                        | Home         | About         | 37-vellum-vellum-paper-layer-sitemap-core-pages-06        |
+| 07  | Service Pages     | service-route         | Care pages   | Explore care, skin, laser, and results.            | Care         | Skin          | 37-vellum-vellum-paper-layer-sitemap-service-pages-07     |
+| 08  | Brand Pages       | brand-route           | Brand pages  | Learn about the mission and values.                | Mission      | Values        | 37-vellum-vellum-paper-layer-sitemap-brand-pages-08       |
+| 09  | Education Pages   | education-route       | Education    | Read journal notes and articles.                   | Journal      | Blog          | 37-vellum-vellum-paper-layer-sitemap-education-pages-09   |
+| 10  | Final CTA         | conversion-final      | Return home  | Go back to the beginning or start consultation.    | Home         | Consultation  | 37-vellum-vellum-paper-layer-sitemap-final-cta-10         |
 
 ### 404 (404.html)
-| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
-|---|---|---|---|---|---|---|---|
-| 01 | Error Hero | opening-error | Page missing | This page could not be found, but you can continue calmly. | Home | Contact | 37-vellum-vellum-paper-layer-404-error-hero-01 |
-| 02 | Journal Route | education-route | Read guidance | Browse education while you search. | Journal | Blog | 37-vellum-vellum-paper-layer-404-journal-route-02 |
-| 03 | FAQ Route | education-faq | Common questions | Find short answers quickly. | FAQ | None | 37-vellum-vellum-paper-layer-404-faq-route-03 |
-| 04 | Contact Route | conversion-contact | Contact us | Send a message if you need help. | Contact | WhatsApp | 37-vellum-vellum-paper-layer-404-contact-route-04 |
-| 05 | Sitemap Route | internal-route | Find everything | Open the full site map. | Sitemap | None | 37-vellum-vellum-paper-layer-404-sitemap-route-05 |
-| 06 | Reassurance | reassurance-statement | No problem | Use one of the routes below to keep moving. | None | None | 37-vellum-vellum-paper-layer-404-reassurance-06 |
-| 07 | Return Home | internal-route | Start again | Return to the main page. | Home | None | 37-vellum-vellum-paper-layer-404-return-home-07 |
-| 08 | Consultation Path | conversion-contact | Need guidance | You can still request an evaluation. | Consultation | None | 37-vellum-vellum-paper-layer-404-consultation-path-08 |
-| 09 | Service Routes | service-route | Care routes | Explore care or skin guidance. | Care | Skin | 37-vellum-vellum-paper-layer-404-service-routes-09 |
-| 10 | Final CTA | conversion-final | Continue calmly | Choose a route and keep exploring. | Home | Contact | 37-vellum-vellum-paper-layer-404-final-cta-10 |
+
+| #   | Section           | Role                  | Heading          | Short text                                                 | Primary CTA  | Secondary CTA | Layout signature                                      |
+| --- | ----------------- | --------------------- | ---------------- | ---------------------------------------------------------- | ------------ | ------------- | ----------------------------------------------------- |
+| 01  | Error Hero        | opening-error         | Page missing     | This page could not be found, but you can continue calmly. | Home         | Contact       | 37-vellum-vellum-paper-layer-404-error-hero-01        |
+| 02  | Journal Route     | education-route       | Read guidance    | Browse education while you search.                         | Journal      | Blog          | 37-vellum-vellum-paper-layer-404-journal-route-02     |
+| 03  | FAQ Route         | education-faq         | Common questions | Find short answers quickly.                                | FAQ          | None          | 37-vellum-vellum-paper-layer-404-faq-route-03         |
+| 04  | Contact Route     | conversion-contact    | Contact us       | Send a message if you need help.                           | Contact      | WhatsApp      | 37-vellum-vellum-paper-layer-404-contact-route-04     |
+| 05  | Sitemap Route     | internal-route        | Find everything  | Open the full site map.                                    | Sitemap      | None          | 37-vellum-vellum-paper-layer-404-sitemap-route-05     |
+| 06  | Reassurance       | reassurance-statement | No problem       | Use one of the routes below to keep moving.                | None         | None          | 37-vellum-vellum-paper-layer-404-reassurance-06       |
+| 07  | Return Home       | internal-route        | Start again      | Return to the main page.                                   | Home         | None          | 37-vellum-vellum-paper-layer-404-return-home-07       |
+| 08  | Consultation Path | conversion-contact    | Need guidance    | You can still request an evaluation.                       | Consultation | None          | 37-vellum-vellum-paper-layer-404-consultation-path-08 |
+| 09  | Service Routes    | service-route         | Care routes      | Explore care or skin guidance.                             | Care         | Skin          | 37-vellum-vellum-paper-layer-404-service-routes-09    |
+| 10  | Final CTA         | conversion-final      | Continue calmly  | Choose a route and keep exploring.                         | Home         | Contact       | 37-vellum-vellum-paper-layer-404-final-cta-10         |
 
 ### Thank You (thank-you.html)
-| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
-|---|---|---|---|---|---|---|---|
-| 01 | Thank You Hero | opening-thanks | Message received | Thank you. Your message has been sent. | Home | WhatsApp | 37-vellum-vellum-paper-layer-thank-you-thank-you-hero-01 |
-| 02 | Journal Preview | education-route | Read more | Browse articles for practical education. | Journal | Blog | 37-vellum-vellum-paper-layer-thank-you-journal-preview-02 |
-| 03 | Privacy Reassurance | reassurance-privacy | Privacy note | Review how contact information is handled. | Privacy | None | 37-vellum-vellum-paper-layer-thank-you-privacy-reassurance-03 |
-| 04 | Contact Again | conversion-contact | Need to add | Send another message if needed. | Contact | WhatsApp | 37-vellum-vellum-paper-layer-thank-you-contact-again-04 |
-| 05 | Brand Reassurance | reassurance-statement | Calm guidance | Every next step should feel clear and considered. | None | None | 37-vellum-vellum-paper-layer-thank-you-brand-reassurance-05 |
-| 06 | What Happens Next | explanation-next | Next step | Your message can now be reviewed and answered through the chosen route. | None | None | 37-vellum-vellum-paper-layer-thank-you-what-happens-next-06 |
-| 07 | While You Wait | education-route | While you wait | Read useful guidance before the next step. | Journal | None | 37-vellum-vellum-paper-layer-thank-you-while-you-wait-07 |
-| 08 | Prepare Consultation | education-prep | Prepare questions | Think about goals, routine, comfort, and expectations. | Consultation | FAQ | 37-vellum-vellum-paper-layer-thank-you-prepare-consultation-08 |
-| 09 | Care Education | service-route | Explore care | Learn more about care and skin guidance. | Care | Skin | 37-vellum-vellum-paper-layer-thank-you-care-education-09 |
-| 10 | Final Route | conversion-final | Return home | Go back to the site or continue reading. | Home | Journal | 37-vellum-vellum-paper-layer-thank-you-final-route-10 |
+
+| #   | Section              | Role                  | Heading           | Short text                                                              | Primary CTA  | Secondary CTA | Layout signature                                               |
+| --- | -------------------- | --------------------- | ----------------- | ----------------------------------------------------------------------- | ------------ | ------------- | -------------------------------------------------------------- |
+| 01  | Thank You Hero       | opening-thanks        | Message received  | Thank you. Your message has been sent.                                  | Home         | WhatsApp      | 37-vellum-vellum-paper-layer-thank-you-thank-you-hero-01       |
+| 02  | Journal Preview      | education-route       | Read more         | Browse articles for practical education.                                | Journal      | Blog          | 37-vellum-vellum-paper-layer-thank-you-journal-preview-02      |
+| 03  | Privacy Reassurance  | reassurance-privacy   | Privacy note      | Review how contact information is handled.                              | Privacy      | None          | 37-vellum-vellum-paper-layer-thank-you-privacy-reassurance-03  |
+| 04  | Contact Again        | conversion-contact    | Need to add       | Send another message if needed.                                         | Contact      | WhatsApp      | 37-vellum-vellum-paper-layer-thank-you-contact-again-04        |
+| 05  | Brand Reassurance    | reassurance-statement | Calm guidance     | Every next step should feel clear and considered.                       | None         | None          | 37-vellum-vellum-paper-layer-thank-you-brand-reassurance-05    |
+| 06  | What Happens Next    | explanation-next      | Next step         | Your message can now be reviewed and answered through the chosen route. | None         | None          | 37-vellum-vellum-paper-layer-thank-you-what-happens-next-06    |
+| 07  | While You Wait       | education-route       | While you wait    | Read useful guidance before the next step.                              | Journal      | None          | 37-vellum-vellum-paper-layer-thank-you-while-you-wait-07       |
+| 08  | Prepare Consultation | education-prep        | Prepare questions | Think about goals, routine, comfort, and expectations.                  | Consultation | FAQ           | 37-vellum-vellum-paper-layer-thank-you-prepare-consultation-08 |
+| 09  | Care Education       | service-route         | Explore care      | Learn more about care and skin guidance.                                | Care         | Skin          | 37-vellum-vellum-paper-layer-thank-you-care-education-09       |
+| 10  | Final Route          | conversion-final      | Return home       | Go back to the site or continue reading.                                | Home         | Journal       | 37-vellum-vellum-paper-layer-thank-you-final-route-10          |
 
 ## 25. Actual short text for every page section
+
 The table above is the approved short copy. Each section has one heading, one concise paragraph, optional short bullets or cards, and at most two visible links or buttons.
 
 ## 26. CTA strategy
+
 Primary conversion language: Request evaluation, Begin consultation, Fill form, Contact Franciele. Secondary routes: Message WhatsApp, Read FAQ, View care, Open sitemap.
 
 ## 27. SEO rules
+
 Use concise titles, unique page descriptions, canonical URLs, internal education links, short headings, and no keyword stuffing.
 
 ## 28. Accessibility rules
+
 Use a single H1 per page, clear focus states, meaningful alt text, readable contrast, skip link, semantic sections, and no text hidden inside images.
 
 ## 29. Mobile rules
+
 lightbox media moves below copy and keeps buttons visible. Buttons stack, media crops safely, no text overlaps, and final CTA remains easy to reach.
 
 ## 30. Screenshot QA rules
+
 Check desktop, tablet, and mobile for premium spacing, visible portrait, no overlapping partials, no oversized cards, and no cloned rhythm against adjacent concepts.
 
 ## 31. Implementation checklist
+
 - MASTER-BRIEF.md exists and ends with JSON.
 - scripts/sites/37-vellum/implement.mjs reads this brief.
 - All 21 pages exist in concepts/37-vellum.
@@ -663,11 +718,13 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
 - Each section has the required comment and data attributes.
 
 ## 32. Cleanup checklist
+
 - Remove old concept-level planning markdown after this brief is active.
 - Remove obsolete audit/report/doc clutter from active folders.
 - Keep production partials, source photos, brand identity, package files, and imported helpers.
 
 ## 33. Final QA checklist
+
 - Link count: maximum two visible links/buttons per section.
 - Copy length: short headings and paragraphs.
 - Safety: no guarantees, fake awards, fake testimonials, or unsupported claims.
@@ -675,11 +732,13 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
 - Differentiation: Vellum Paper Layer remains visible in screenshots.
 
 ## 34. Human confirmation needed
+
 - Confirm medical/legal compliance before launch.
 - Confirm final photography choices.
 - Confirm production contact routing and WhatsApp destination.
 
 ## 35. Machine-readable JSON summary
+
 ```json
 {
   "siteId": "37-vellum",
@@ -4007,10 +4066,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "home",
           "section": "01",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": [
-            "consultation.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["consultation.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4019,10 +4075,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "home",
           "section": "03",
           "anchorText": "Understand results / Request evaluation",
-          "targets": [
-            "results.html",
-            "consultation.html"
-          ],
+          "targets": ["results.html", "consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4031,10 +4084,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "home",
           "section": "04",
           "anchorText": "Read journal / View articles",
-          "targets": [
-            "journal.html",
-            "blog.html"
-          ],
+          "targets": ["journal.html", "blog.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4043,10 +4093,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "home",
           "section": "05",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": [
-            "consultation.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["consultation.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4055,10 +4102,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "home",
           "section": "06",
           "anchorText": "View values / Read mission",
-          "targets": [
-            "values.html",
-            "mission.html"
-          ],
+          "targets": ["values.html", "mission.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4067,10 +4111,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "home",
           "section": "07",
           "anchorText": "Meet Franciele / Begin consultation",
-          "targets": [
-            "about.html",
-            "consultation.html"
-          ],
+          "targets": ["about.html", "consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4079,10 +4120,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "home",
           "section": "08",
           "anchorText": "Explore care / View skin",
-          "targets": [
-            "care.html",
-            "skin.html"
-          ],
+          "targets": ["care.html", "skin.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4091,10 +4129,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "home",
           "section": "09",
           "anchorText": "Book consultation / Read FAQ",
-          "targets": [
-            "consultation.html",
-            "faq.html"
-          ],
+          "targets": ["consultation.html", "faq.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4103,10 +4138,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "home",
           "section": "10",
           "anchorText": "Contact Franciele / Open sitemap",
-          "targets": [
-            "contact.html",
-            "sitemap.html"
-          ],
+          "targets": ["contact.html", "sitemap.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4120,10 +4152,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "about",
           "section": "01",
           "anchorText": "Begin consultation / Message WhatsApp",
-          "targets": [
-            "consultation.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["consultation.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4132,10 +4161,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "about",
           "section": "03",
           "anchorText": "Book consultation / Read FAQ",
-          "targets": [
-            "consultation.html",
-            "faq.html"
-          ],
+          "targets": ["consultation.html", "faq.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4144,10 +4170,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "about",
           "section": "04",
           "anchorText": "Understand results / Privacy",
-          "targets": [
-            "results.html",
-            "privacy.html"
-          ],
+          "targets": ["results.html", "privacy.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4156,10 +4179,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "about",
           "section": "05",
           "anchorText": "Explore care / Read mission",
-          "targets": [
-            "care.html",
-            "mission.html"
-          ],
+          "targets": ["care.html", "mission.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4168,9 +4188,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "about",
           "section": "06",
           "anchorText": "View care",
-          "targets": [
-            "care.html"
-          ],
+          "targets": ["care.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4179,10 +4197,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "about",
           "section": "07",
           "anchorText": "Read mission / View values",
-          "targets": [
-            "mission.html",
-            "values.html"
-          ],
+          "targets": ["mission.html", "values.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4191,10 +4206,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "about",
           "section": "08",
           "anchorText": "View values / Request evaluation",
-          "targets": [
-            "values.html",
-            "consultation.html"
-          ],
+          "targets": ["values.html", "consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4203,9 +4215,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "about",
           "section": "09",
           "anchorText": "Contact Franciele",
-          "targets": [
-            "contact.html"
-          ],
+          "targets": ["contact.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4214,10 +4224,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "about",
           "section": "10",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": [
-            "consultation.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["consultation.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4231,10 +4238,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "care",
           "section": "01",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": [
-            "consultation.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["consultation.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4243,10 +4247,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "care",
           "section": "03",
           "anchorText": "Read FAQ / Privacy",
-          "targets": [
-            "faq.html",
-            "privacy.html"
-          ],
+          "targets": ["faq.html", "privacy.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4255,10 +4256,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "care",
           "section": "04",
           "anchorText": "Read journal / View blog",
-          "targets": [
-            "journal.html",
-            "blog.html"
-          ],
+          "targets": ["journal.html", "blog.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4267,10 +4265,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "care",
           "section": "05",
           "anchorText": "Begin consultation / Message WhatsApp",
-          "targets": [
-            "consultation.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["consultation.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4279,9 +4274,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "care",
           "section": "06",
           "anchorText": "Begin consultation",
-          "targets": [
-            "consultation.html"
-          ],
+          "targets": ["consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4290,10 +4283,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "care",
           "section": "07",
           "anchorText": "Book consultation / Read FAQ",
-          "targets": [
-            "consultation.html",
-            "faq.html"
-          ],
+          "targets": ["consultation.html", "faq.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4302,9 +4292,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "care",
           "section": "08",
           "anchorText": "Request evaluation",
-          "targets": [
-            "consultation.html"
-          ],
+          "targets": ["consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4313,10 +4301,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "care",
           "section": "09",
           "anchorText": "View skin / Explore laser",
-          "targets": [
-            "skin.html",
-            "laser.html"
-          ],
+          "targets": ["skin.html", "laser.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4325,10 +4310,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "care",
           "section": "10",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": [
-            "consultation.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["consultation.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4342,10 +4324,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "laser",
           "section": "01",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": [
-            "consultation.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["consultation.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4354,10 +4333,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "laser",
           "section": "03",
           "anchorText": "View skin / View results",
-          "targets": [
-            "skin.html",
-            "results.html"
-          ],
+          "targets": ["skin.html", "results.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4366,10 +4342,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "laser",
           "section": "04",
           "anchorText": "Read FAQ / Ask a question",
-          "targets": [
-            "faq.html",
-            "contact.html"
-          ],
+          "targets": ["faq.html", "contact.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4378,10 +4351,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "laser",
           "section": "05",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": [
-            "consultation.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["consultation.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4390,9 +4360,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "laser",
           "section": "06",
           "anchorText": "Begin consultation",
-          "targets": [
-            "consultation.html"
-          ],
+          "targets": ["consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4401,10 +4369,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "laser",
           "section": "07",
           "anchorText": "Read FAQ / View results",
-          "targets": [
-            "faq.html",
-            "results.html"
-          ],
+          "targets": ["faq.html", "results.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4413,9 +4378,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "laser",
           "section": "08",
           "anchorText": "Book consultation",
-          "targets": [
-            "consultation.html"
-          ],
+          "targets": ["consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4424,10 +4387,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "laser",
           "section": "09",
           "anchorText": "Read FAQ / Understand results",
-          "targets": [
-            "faq.html",
-            "results.html"
-          ],
+          "targets": ["faq.html", "results.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4436,10 +4396,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "laser",
           "section": "10",
           "anchorText": "Contact Franciele / Privacy",
-          "targets": [
-            "contact.html",
-            "privacy.html"
-          ],
+          "targets": ["contact.html", "privacy.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4453,10 +4410,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "skin",
           "section": "01",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": [
-            "consultation.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["consultation.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4465,10 +4419,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "skin",
           "section": "02",
           "anchorText": "Understand results / Request evaluation",
-          "targets": [
-            "results.html",
-            "consultation.html"
-          ],
+          "targets": ["results.html", "consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4477,10 +4428,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "skin",
           "section": "03",
           "anchorText": "Explore care / Explore laser",
-          "targets": [
-            "care.html",
-            "laser.html"
-          ],
+          "targets": ["care.html", "laser.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4489,10 +4437,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "skin",
           "section": "04",
           "anchorText": "Read journal / View blog",
-          "targets": [
-            "journal.html",
-            "blog.html"
-          ],
+          "targets": ["journal.html", "blog.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4501,10 +4446,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "skin",
           "section": "05",
           "anchorText": "Begin consultation / Message WhatsApp",
-          "targets": [
-            "consultation.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["consultation.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4513,9 +4455,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "skin",
           "section": "06",
           "anchorText": "Begin consultation",
-          "targets": [
-            "consultation.html"
-          ],
+          "targets": ["consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4524,10 +4464,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "skin",
           "section": "07",
           "anchorText": "Book consultation / Read FAQ",
-          "targets": [
-            "consultation.html",
-            "faq.html"
-          ],
+          "targets": ["consultation.html", "faq.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4536,9 +4473,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "skin",
           "section": "08",
           "anchorText": "View care",
-          "targets": [
-            "care.html"
-          ],
+          "targets": ["care.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4547,10 +4482,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "skin",
           "section": "10",
           "anchorText": "Request evaluation / Contact Franciele",
-          "targets": [
-            "consultation.html",
-            "contact.html"
-          ],
+          "targets": ["consultation.html", "contact.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4564,10 +4496,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "results",
           "section": "01",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": [
-            "consultation.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["consultation.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4576,10 +4505,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "results",
           "section": "03",
           "anchorText": "Explore care / View skin",
-          "targets": [
-            "care.html",
-            "skin.html"
-          ],
+          "targets": ["care.html", "skin.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4588,10 +4514,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "results",
           "section": "04",
           "anchorText": "Feedback guidance / Privacy",
-          "targets": [
-            "testimonials.html",
-            "privacy.html"
-          ],
+          "targets": ["testimonials.html", "privacy.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4600,10 +4523,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "results",
           "section": "05",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": [
-            "consultation.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["consultation.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4612,9 +4532,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "results",
           "section": "06",
           "anchorText": "Begin consultation",
-          "targets": [
-            "consultation.html"
-          ],
+          "targets": ["consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4623,10 +4541,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "results",
           "section": "07",
           "anchorText": "Read FAQ / Privacy",
-          "targets": [
-            "faq.html",
-            "privacy.html"
-          ],
+          "targets": ["faq.html", "privacy.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4635,10 +4550,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "results",
           "section": "08",
           "anchorText": "View care / Request evaluation",
-          "targets": [
-            "care.html",
-            "consultation.html"
-          ],
+          "targets": ["care.html", "consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4647,9 +4559,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "results",
           "section": "09",
           "anchorText": "Book consultation",
-          "targets": [
-            "consultation.html"
-          ],
+          "targets": ["consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4658,10 +4568,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "results",
           "section": "10",
           "anchorText": "Contact Franciele / Read FAQ",
-          "targets": [
-            "contact.html",
-            "faq.html"
-          ],
+          "targets": ["contact.html", "faq.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4675,10 +4582,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "consultation",
           "section": "01",
           "anchorText": "Fill form / Message WhatsApp",
-          "targets": [
-            "contact.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["contact.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4687,10 +4591,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "consultation",
           "section": "02",
           "anchorText": "Submit request / Message WhatsApp",
-          "targets": [
-            "contact.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["contact.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4699,9 +4600,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "consultation",
           "section": "03",
           "anchorText": "Privacy",
-          "targets": [
-            "privacy.html"
-          ],
+          "targets": ["privacy.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4710,10 +4609,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "consultation",
           "section": "04",
           "anchorText": "Explore care / View FAQ",
-          "targets": [
-            "care.html",
-            "faq.html"
-          ],
+          "targets": ["care.html", "faq.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4722,10 +4618,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "consultation",
           "section": "05",
           "anchorText": "Message WhatsApp / Contact Franciele",
-          "targets": [
-            "https://wa.me/5543991043536",
-            "contact.html"
-          ],
+          "targets": ["https://wa.me/5543991043536", "contact.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4734,9 +4627,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "consultation",
           "section": "06",
           "anchorText": "Start form",
-          "targets": [
-            "contact.html"
-          ],
+          "targets": ["contact.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4745,9 +4636,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "consultation",
           "section": "07",
           "anchorText": "Read FAQ",
-          "targets": [
-            "faq.html"
-          ],
+          "targets": ["faq.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4756,9 +4645,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "consultation",
           "section": "08",
           "anchorText": "Ask a question",
-          "targets": [
-            "contact.html"
-          ],
+          "targets": ["contact.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4767,10 +4654,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "consultation",
           "section": "09",
           "anchorText": "View care / View results",
-          "targets": [
-            "care.html",
-            "results.html"
-          ],
+          "targets": ["care.html", "results.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4779,10 +4663,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "consultation",
           "section": "10",
           "anchorText": "Fill form / Message WhatsApp",
-          "targets": [
-            "contact.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["contact.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4796,10 +4677,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "contact",
           "section": "01",
           "anchorText": "Message WhatsApp / Fill form",
-          "targets": [
-            "https://wa.me/5543991043536",
-            "contact.html"
-          ],
+          "targets": ["https://wa.me/5543991043536", "contact.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4808,10 +4686,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "contact",
           "section": "03",
           "anchorText": "Read FAQ / Begin consultation",
-          "targets": [
-            "faq.html",
-            "consultation.html"
-          ],
+          "targets": ["faq.html", "consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4820,10 +4695,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "contact",
           "section": "04",
           "anchorText": "Privacy / Accessibility",
-          "targets": [
-            "privacy.html",
-            "accessibility.html"
-          ],
+          "targets": ["privacy.html", "accessibility.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4832,10 +4704,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "contact",
           "section": "05",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": [
-            "consultation.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["consultation.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4844,10 +4713,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "contact",
           "section": "06",
           "anchorText": "Begin consultation / Ask a question",
-          "targets": [
-            "consultation.html",
-            "contact.html"
-          ],
+          "targets": ["consultation.html", "contact.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4856,10 +4722,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "contact",
           "section": "07",
           "anchorText": "Message WhatsApp / Send form",
-          "targets": [
-            "https://wa.me/5543991043536",
-            "contact.html"
-          ],
+          "targets": ["https://wa.me/5543991043536", "contact.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4868,9 +4731,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "contact",
           "section": "08",
           "anchorText": "Ask a question",
-          "targets": [
-            "contact.html"
-          ],
+          "targets": ["contact.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4879,10 +4740,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "contact",
           "section": "09",
           "anchorText": "Send message / Privacy",
-          "targets": [
-            "contact.html",
-            "privacy.html"
-          ],
+          "targets": ["contact.html", "privacy.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4891,10 +4749,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "contact",
           "section": "10",
           "anchorText": "Home / Sitemap",
-          "targets": [
-            "index.html",
-            "sitemap.html"
-          ],
+          "targets": ["index.html", "sitemap.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4908,10 +4763,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "mission",
           "section": "01",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": [
-            "consultation.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["consultation.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4920,9 +4772,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "mission",
           "section": "03",
           "anchorText": "Understand results",
-          "targets": [
-            "results.html"
-          ],
+          "targets": ["results.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4931,10 +4781,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "mission",
           "section": "04",
           "anchorText": "About / Values",
-          "targets": [
-            "about.html",
-            "values.html"
-          ],
+          "targets": ["about.html", "values.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4943,10 +4790,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "mission",
           "section": "05",
           "anchorText": "Request evaluation / Read FAQ",
-          "targets": [
-            "consultation.html",
-            "faq.html"
-          ],
+          "targets": ["consultation.html", "faq.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4955,9 +4799,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "mission",
           "section": "06",
           "anchorText": "Begin consultation",
-          "targets": [
-            "consultation.html"
-          ],
+          "targets": ["consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4966,9 +4808,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "mission",
           "section": "07",
           "anchorText": "Explore care",
-          "targets": [
-            "care.html"
-          ],
+          "targets": ["care.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4977,10 +4817,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "mission",
           "section": "08",
           "anchorText": "View values / About Franciele",
-          "targets": [
-            "values.html",
-            "about.html"
-          ],
+          "targets": ["values.html", "about.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4989,9 +4826,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "mission",
           "section": "09",
           "anchorText": "Meet Franciele",
-          "targets": [
-            "about.html"
-          ],
+          "targets": ["about.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5000,10 +4835,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "mission",
           "section": "10",
           "anchorText": "Contact / WhatsApp",
-          "targets": [
-            "contact.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["contact.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5017,10 +4849,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "values",
           "section": "01",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": [
-            "consultation.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["consultation.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5029,9 +4858,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "values",
           "section": "03",
           "anchorText": "Begin consultation",
-          "targets": [
-            "consultation.html"
-          ],
+          "targets": ["consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5040,10 +4867,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "values",
           "section": "04",
           "anchorText": "Explore care / Results",
-          "targets": [
-            "care.html",
-            "results.html"
-          ],
+          "targets": ["care.html", "results.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5052,10 +4876,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "values",
           "section": "05",
           "anchorText": "About / Mission",
-          "targets": [
-            "about.html",
-            "mission.html"
-          ],
+          "targets": ["about.html", "mission.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5064,9 +4885,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "values",
           "section": "06",
           "anchorText": "Explore care",
-          "targets": [
-            "care.html"
-          ],
+          "targets": ["care.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5075,9 +4894,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "values",
           "section": "07",
           "anchorText": "Meet Franciele",
-          "targets": [
-            "about.html"
-          ],
+          "targets": ["about.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5086,9 +4903,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "values",
           "section": "08",
           "anchorText": "Read FAQ",
-          "targets": [
-            "faq.html"
-          ],
+          "targets": ["faq.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5097,9 +4912,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "values",
           "section": "09",
           "anchorText": "Understand results",
-          "targets": [
-            "results.html"
-          ],
+          "targets": ["results.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5108,10 +4921,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "values",
           "section": "10",
           "anchorText": "Request evaluation / WhatsApp",
-          "targets": [
-            "consultation.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["consultation.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5125,10 +4935,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "testimonials",
           "section": "01",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": [
-            "consultation.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["consultation.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5137,9 +4944,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "testimonials",
           "section": "03",
           "anchorText": "Results",
-          "targets": [
-            "results.html"
-          ],
+          "targets": ["results.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5148,9 +4953,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "testimonials",
           "section": "04",
           "anchorText": "FAQ",
-          "targets": [
-            "faq.html"
-          ],
+          "targets": ["faq.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5159,10 +4962,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "testimonials",
           "section": "05",
           "anchorText": "Request evaluation / WhatsApp",
-          "targets": [
-            "consultation.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["consultation.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5171,9 +4971,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "testimonials",
           "section": "06",
           "anchorText": "Privacy",
-          "targets": [
-            "privacy.html"
-          ],
+          "targets": ["privacy.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5182,9 +4980,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "testimonials",
           "section": "07",
           "anchorText": "Results",
-          "targets": [
-            "results.html"
-          ],
+          "targets": ["results.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5193,9 +4989,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "testimonials",
           "section": "08",
           "anchorText": "Read FAQ",
-          "targets": [
-            "faq.html"
-          ],
+          "targets": ["faq.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5204,9 +4998,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "testimonials",
           "section": "09",
           "anchorText": "Privacy",
-          "targets": [
-            "privacy.html"
-          ],
+          "targets": ["privacy.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5215,10 +5007,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "testimonials",
           "section": "10",
           "anchorText": "Contact / WhatsApp",
-          "targets": [
-            "contact.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["contact.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5232,10 +5021,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "faq",
           "section": "01",
           "anchorText": "Ask a question / Request evaluation",
-          "targets": [
-            "contact.html",
-            "consultation.html"
-          ],
+          "targets": ["contact.html", "consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5244,10 +5030,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "faq",
           "section": "02",
           "anchorText": "Understand results / Request evaluation",
-          "targets": [
-            "results.html",
-            "consultation.html"
-          ],
+          "targets": ["results.html", "consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5256,10 +5039,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "faq",
           "section": "03",
           "anchorText": "Privacy / Contact",
-          "targets": [
-            "privacy.html",
-            "contact.html"
-          ],
+          "targets": ["privacy.html", "contact.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5268,10 +5048,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "faq",
           "section": "05",
           "anchorText": "Read journal / View blog",
-          "targets": [
-            "journal.html",
-            "blog.html"
-          ],
+          "targets": ["journal.html", "blog.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5280,10 +5057,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "faq",
           "section": "06",
           "anchorText": "Begin consultation / Contact Franciele",
-          "targets": [
-            "consultation.html",
-            "contact.html"
-          ],
+          "targets": ["consultation.html", "contact.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5292,10 +5066,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "faq",
           "section": "07",
           "anchorText": "Explore care / Request evaluation",
-          "targets": [
-            "care.html",
-            "consultation.html"
-          ],
+          "targets": ["care.html", "consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5304,10 +5075,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "faq",
           "section": "08",
           "anchorText": "View skin / Read journal",
-          "targets": [
-            "skin.html",
-            "journal.html"
-          ],
+          "targets": ["skin.html", "journal.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5316,10 +5084,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "faq",
           "section": "09",
           "anchorText": "Explore laser / Begin consultation",
-          "targets": [
-            "laser.html",
-            "consultation.html"
-          ],
+          "targets": ["laser.html", "consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5328,10 +5093,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "faq",
           "section": "10",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": [
-            "consultation.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["consultation.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5345,10 +5107,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "journal",
           "section": "01",
           "anchorText": "Read articles / Request evaluation",
-          "targets": [
-            "blog.html",
-            "consultation.html"
-          ],
+          "targets": ["blog.html", "consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5357,10 +5116,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "journal",
           "section": "02",
           "anchorText": "Understand results / Request evaluation",
-          "targets": [
-            "results.html",
-            "consultation.html"
-          ],
+          "targets": ["results.html", "consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5369,10 +5125,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "journal",
           "section": "04",
           "anchorText": "View blog / Read FAQ",
-          "targets": [
-            "blog.html",
-            "faq.html"
-          ],
+          "targets": ["blog.html", "faq.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5381,10 +5134,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "journal",
           "section": "05",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": [
-            "consultation.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["consultation.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5393,9 +5143,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "journal",
           "section": "06",
           "anchorText": "Read guide",
-          "targets": [
-            "blog.html"
-          ],
+          "targets": ["blog.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5404,10 +5152,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "journal",
           "section": "07",
           "anchorText": "View skin / Read blog",
-          "targets": [
-            "skin.html",
-            "blog.html"
-          ],
+          "targets": ["skin.html", "blog.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5416,10 +5161,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "journal",
           "section": "08",
           "anchorText": "Explore laser / Read FAQ",
-          "targets": [
-            "laser.html",
-            "faq.html"
-          ],
+          "targets": ["laser.html", "faq.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5428,10 +5170,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "journal",
           "section": "09",
           "anchorText": "Explore care / Begin consultation",
-          "targets": [
-            "care.html",
-            "consultation.html"
-          ],
+          "targets": ["care.html", "consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5440,10 +5179,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "journal",
           "section": "10",
           "anchorText": "View blog / Contact Franciele",
-          "targets": [
-            "blog.html",
-            "contact.html"
-          ],
+          "targets": ["blog.html", "contact.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5457,10 +5193,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "blog",
           "section": "01",
           "anchorText": "Read articles / Request evaluation",
-          "targets": [
-            "journal.html",
-            "consultation.html"
-          ],
+          "targets": ["journal.html", "consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5469,9 +5202,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "blog",
           "section": "03",
           "anchorText": "FAQ",
-          "targets": [
-            "faq.html"
-          ],
+          "targets": ["faq.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5480,10 +5211,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "blog",
           "section": "04",
           "anchorText": "Care / Skin",
-          "targets": [
-            "care.html",
-            "skin.html"
-          ],
+          "targets": ["care.html", "skin.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5492,10 +5220,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "blog",
           "section": "05",
           "anchorText": "Request evaluation / WhatsApp",
-          "targets": [
-            "consultation.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["consultation.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5504,9 +5229,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "blog",
           "section": "06",
           "anchorText": "Read guide",
-          "targets": [
-            "journal.html"
-          ],
+          "targets": ["journal.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5515,9 +5238,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "blog",
           "section": "07",
           "anchorText": "Journal",
-          "targets": [
-            "journal.html"
-          ],
+          "targets": ["journal.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5526,9 +5247,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "blog",
           "section": "08",
           "anchorText": "Read more",
-          "targets": [
-            "journal.html"
-          ],
+          "targets": ["journal.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5537,9 +5256,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "blog",
           "section": "09",
           "anchorText": "View FAQ",
-          "targets": [
-            "faq.html"
-          ],
+          "targets": ["faq.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5548,10 +5265,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "blog",
           "section": "10",
           "anchorText": "Journal / Contact",
-          "targets": [
-            "journal.html",
-            "contact.html"
-          ],
+          "targets": ["journal.html", "contact.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5565,10 +5279,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "legal",
           "section": "01",
           "anchorText": "Contact / Sitemap",
-          "targets": [
-            "contact.html",
-            "sitemap.html"
-          ],
+          "targets": ["contact.html", "sitemap.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5577,10 +5288,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "legal",
           "section": "03",
           "anchorText": "Contact / WhatsApp",
-          "targets": [
-            "contact.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["contact.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5589,10 +5297,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "legal",
           "section": "04",
           "anchorText": "Privacy / Legal",
-          "targets": [
-            "privacy.html",
-            "legal.html"
-          ],
+          "targets": ["privacy.html", "legal.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5601,10 +5306,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "legal",
           "section": "05",
           "anchorText": "Sitemap / Home",
-          "targets": [
-            "sitemap.html",
-            "index.html"
-          ],
+          "targets": ["sitemap.html", "index.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5613,9 +5315,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "legal",
           "section": "08",
           "anchorText": "Contact",
-          "targets": [
-            "contact.html"
-          ],
+          "targets": ["contact.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5624,9 +5324,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "legal",
           "section": "09",
           "anchorText": "Related page",
-          "targets": [
-            "privacy.html"
-          ],
+          "targets": ["privacy.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5635,10 +5333,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "legal",
           "section": "10",
           "anchorText": "Contact / Home",
-          "targets": [
-            "contact.html",
-            "index.html"
-          ],
+          "targets": ["contact.html", "index.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5652,10 +5347,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "privacy",
           "section": "01",
           "anchorText": "Contact / Sitemap",
-          "targets": [
-            "contact.html",
-            "sitemap.html"
-          ],
+          "targets": ["contact.html", "sitemap.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5664,10 +5356,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "privacy",
           "section": "03",
           "anchorText": "Contact / WhatsApp",
-          "targets": [
-            "contact.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["contact.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5676,10 +5365,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "privacy",
           "section": "04",
           "anchorText": "Privacy / Legal",
-          "targets": [
-            "privacy.html",
-            "legal.html"
-          ],
+          "targets": ["privacy.html", "legal.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5688,10 +5374,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "privacy",
           "section": "05",
           "anchorText": "Sitemap / Home",
-          "targets": [
-            "sitemap.html",
-            "index.html"
-          ],
+          "targets": ["sitemap.html", "index.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5700,9 +5383,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "privacy",
           "section": "08",
           "anchorText": "Contact",
-          "targets": [
-            "contact.html"
-          ],
+          "targets": ["contact.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5711,9 +5392,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "privacy",
           "section": "09",
           "anchorText": "Related page",
-          "targets": [
-            "cookies.html"
-          ],
+          "targets": ["cookies.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5722,10 +5401,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "privacy",
           "section": "10",
           "anchorText": "Contact / Home",
-          "targets": [
-            "contact.html",
-            "index.html"
-          ],
+          "targets": ["contact.html", "index.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5739,10 +5415,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "cookies",
           "section": "01",
           "anchorText": "Contact / Sitemap",
-          "targets": [
-            "contact.html",
-            "sitemap.html"
-          ],
+          "targets": ["contact.html", "sitemap.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5751,10 +5424,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "cookies",
           "section": "03",
           "anchorText": "Contact / WhatsApp",
-          "targets": [
-            "contact.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["contact.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5763,10 +5433,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "cookies",
           "section": "04",
           "anchorText": "Privacy / Legal",
-          "targets": [
-            "privacy.html",
-            "legal.html"
-          ],
+          "targets": ["privacy.html", "legal.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5775,10 +5442,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "cookies",
           "section": "05",
           "anchorText": "Sitemap / Home",
-          "targets": [
-            "sitemap.html",
-            "index.html"
-          ],
+          "targets": ["sitemap.html", "index.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5787,9 +5451,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "cookies",
           "section": "08",
           "anchorText": "Contact",
-          "targets": [
-            "contact.html"
-          ],
+          "targets": ["contact.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5798,9 +5460,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "cookies",
           "section": "09",
           "anchorText": "Related page",
-          "targets": [
-            "privacy.html"
-          ],
+          "targets": ["privacy.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5809,10 +5469,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "cookies",
           "section": "10",
           "anchorText": "Contact / Home",
-          "targets": [
-            "contact.html",
-            "index.html"
-          ],
+          "targets": ["contact.html", "index.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5826,10 +5483,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "accessibility",
           "section": "01",
           "anchorText": "Contact / Sitemap",
-          "targets": [
-            "contact.html",
-            "sitemap.html"
-          ],
+          "targets": ["contact.html", "sitemap.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5838,10 +5492,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "accessibility",
           "section": "03",
           "anchorText": "Contact / WhatsApp",
-          "targets": [
-            "contact.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["contact.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5850,10 +5501,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "accessibility",
           "section": "04",
           "anchorText": "Privacy / Legal",
-          "targets": [
-            "privacy.html",
-            "legal.html"
-          ],
+          "targets": ["privacy.html", "legal.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5862,10 +5510,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "accessibility",
           "section": "05",
           "anchorText": "Sitemap / Home",
-          "targets": [
-            "sitemap.html",
-            "index.html"
-          ],
+          "targets": ["sitemap.html", "index.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5874,9 +5519,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "accessibility",
           "section": "08",
           "anchorText": "Contact",
-          "targets": [
-            "contact.html"
-          ],
+          "targets": ["contact.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5885,9 +5528,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "accessibility",
           "section": "09",
           "anchorText": "Related page",
-          "targets": [
-            "legal.html"
-          ],
+          "targets": ["legal.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5896,10 +5537,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "accessibility",
           "section": "10",
           "anchorText": "Contact / Home",
-          "targets": [
-            "contact.html",
-            "index.html"
-          ],
+          "targets": ["contact.html", "index.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5913,10 +5551,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "sitemap",
           "section": "01",
           "anchorText": "Home / Consultation",
-          "targets": [
-            "index.html",
-            "consultation.html"
-          ],
+          "targets": ["index.html", "consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5925,10 +5560,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "sitemap",
           "section": "02",
           "anchorText": "Results / Privacy",
-          "targets": [
-            "results.html",
-            "privacy.html"
-          ],
+          "targets": ["results.html", "privacy.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5937,10 +5569,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "sitemap",
           "section": "03",
           "anchorText": "Legal / Accessibility",
-          "targets": [
-            "legal.html",
-            "accessibility.html"
-          ],
+          "targets": ["legal.html", "accessibility.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5949,10 +5578,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "sitemap",
           "section": "04",
           "anchorText": "Consultation / Contact",
-          "targets": [
-            "consultation.html",
-            "contact.html"
-          ],
+          "targets": ["consultation.html", "contact.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5961,10 +5587,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "sitemap",
           "section": "06",
           "anchorText": "Home / About",
-          "targets": [
-            "index.html",
-            "about.html"
-          ],
+          "targets": ["index.html", "about.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5973,10 +5596,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "sitemap",
           "section": "07",
           "anchorText": "Care / Skin",
-          "targets": [
-            "care.html",
-            "skin.html"
-          ],
+          "targets": ["care.html", "skin.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5985,10 +5605,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "sitemap",
           "section": "08",
           "anchorText": "Mission / Values",
-          "targets": [
-            "mission.html",
-            "values.html"
-          ],
+          "targets": ["mission.html", "values.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5997,10 +5614,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "sitemap",
           "section": "09",
           "anchorText": "Journal / Blog",
-          "targets": [
-            "journal.html",
-            "blog.html"
-          ],
+          "targets": ["journal.html", "blog.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -6009,10 +5623,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "sitemap",
           "section": "10",
           "anchorText": "Home / Consultation",
-          "targets": [
-            "index.html",
-            "consultation.html"
-          ],
+          "targets": ["index.html", "consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -6026,10 +5637,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "404",
           "section": "01",
           "anchorText": "Home / Contact",
-          "targets": [
-            "index.html",
-            "contact.html"
-          ],
+          "targets": ["index.html", "contact.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -6038,10 +5646,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "404",
           "section": "02",
           "anchorText": "Journal / Blog",
-          "targets": [
-            "journal.html",
-            "blog.html"
-          ],
+          "targets": ["journal.html", "blog.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -6050,9 +5655,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "404",
           "section": "03",
           "anchorText": "FAQ",
-          "targets": [
-            "faq.html"
-          ],
+          "targets": ["faq.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -6061,10 +5664,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "404",
           "section": "04",
           "anchorText": "Contact / WhatsApp",
-          "targets": [
-            "contact.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["contact.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -6073,9 +5673,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "404",
           "section": "05",
           "anchorText": "Sitemap",
-          "targets": [
-            "sitemap.html"
-          ],
+          "targets": ["sitemap.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -6084,9 +5682,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "404",
           "section": "07",
           "anchorText": "Home",
-          "targets": [
-            "index.html"
-          ],
+          "targets": ["index.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -6095,9 +5691,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "404",
           "section": "08",
           "anchorText": "Consultation",
-          "targets": [
-            "consultation.html"
-          ],
+          "targets": ["consultation.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -6106,10 +5700,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "404",
           "section": "09",
           "anchorText": "Care / Skin",
-          "targets": [
-            "care.html",
-            "skin.html"
-          ],
+          "targets": ["care.html", "skin.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -6118,10 +5709,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "404",
           "section": "10",
           "anchorText": "Home / Contact",
-          "targets": [
-            "index.html",
-            "contact.html"
-          ],
+          "targets": ["index.html", "contact.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -6135,10 +5723,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "thank-you",
           "section": "01",
           "anchorText": "Home / WhatsApp",
-          "targets": [
-            "index.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["index.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -6147,10 +5732,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "thank-you",
           "section": "02",
           "anchorText": "Journal / Blog",
-          "targets": [
-            "journal.html",
-            "blog.html"
-          ],
+          "targets": ["journal.html", "blog.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -6159,9 +5741,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "thank-you",
           "section": "03",
           "anchorText": "Privacy",
-          "targets": [
-            "privacy.html"
-          ],
+          "targets": ["privacy.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -6170,10 +5750,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "thank-you",
           "section": "04",
           "anchorText": "Contact / WhatsApp",
-          "targets": [
-            "contact.html",
-            "https://wa.me/5543991043536"
-          ],
+          "targets": ["contact.html", "https://wa.me/5543991043536"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -6182,9 +5759,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "thank-you",
           "section": "07",
           "anchorText": "Journal",
-          "targets": [
-            "journal.html"
-          ],
+          "targets": ["journal.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -6193,10 +5768,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "thank-you",
           "section": "08",
           "anchorText": "Consultation / FAQ",
-          "targets": [
-            "consultation.html",
-            "faq.html"
-          ],
+          "targets": ["consultation.html", "faq.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -6205,10 +5777,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "thank-you",
           "section": "09",
           "anchorText": "Care / Skin",
-          "targets": [
-            "care.html",
-            "skin.html"
-          ],
+          "targets": ["care.html", "skin.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -6217,10 +5786,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "thank-you",
           "section": "10",
           "anchorText": "Home / Journal",
-          "targets": [
-            "index.html",
-            "journal.html"
-          ],
+          "targets": ["index.html", "journal.html"],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -6248,9 +5814,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
       "assets/botanical/section-separator.svg",
       "assets/botanical/monogram-wreath.svg"
     ],
-    "portrait": [
-      "assets/portrait/franciele-portrait-vellum.webp"
-    ],
+    "portrait": ["assets/portrait/franciele-portrait-vellum.webp"],
     "backgrounds": [
       "assets/backgrounds/botanical-background.svg",
       "assets/backgrounds/mobile-menu-background.svg"
@@ -6259,12 +5823,8 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
       "assets/textures/soft-skin-texture.svg",
       "assets/textures/clinical-paper-texture.svg"
     ],
-    "forms": [
-      "assets/forms/consultation-form-frame.svg"
-    ],
-    "animations": [
-      "assets/animations/motion-path.svg"
-    ],
+    "forms": ["assets/forms/consultation-form-frame.svg"],
+    "animations": ["assets/animations/motion-path.svg"],
     "journal": [
       "assets/journal/journal-thumbnail-1.svg",
       "assets/journal/journal-thumbnail-2.svg",
@@ -6276,9 +5836,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
       "assets/service/skin-service-visual.svg",
       "assets/service/results-service-visual.svg"
     ],
-    "generated": [
-      "assets/generated/homepage-asset-composition.svg"
-    ],
+    "generated": ["assets/generated/homepage-asset-composition.svg"],
     "treatment": "wide image, portrait, compact icon, journal"
   },
   "partials": {
@@ -6296,11 +5854,7 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
   "ctas": {
     "primary": "Request evaluation",
     "secondary": "Message WhatsApp",
-    "support": [
-      "Contact Franciele",
-      "Read FAQ",
-      "Open sitemap"
-    ]
+    "support": ["Contact Franciele", "Read FAQ", "Open sitemap"]
   },
   "seo": {
     "titlePattern": "[Page] | [Site] | Franciele Sofiati",

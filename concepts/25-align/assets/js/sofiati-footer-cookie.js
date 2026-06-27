@@ -2,7 +2,25 @@
 (() => {
   "use strict";
 
-  const CONFIG = {"code": "25", "slug": "align", "bg": "transparent", "fg": "#252321", "muted": "rgba(37,35,33,.55)", "accent": "#7F8D82", "border": "0", "width": "min(1180px,calc(100% - 38px))", "padding": "10px 0", "fontSize": ".81rem", "align": "left", "layout": "two-part", "separator": "center-line", "marker": "line", "buttonStyle": "soft", "radius": "999px", "autoDelayMs": 12000};
+  const CONFIG = {
+    code: "25",
+    slug: "align",
+    bg: "transparent",
+    fg: "#252321",
+    muted: "rgba(37,35,33,.55)",
+    accent: "#7F8D82",
+    border: "0",
+    width: "min(1180px,calc(100% - 38px))",
+    padding: "10px 0",
+    fontSize: ".81rem",
+    align: "left",
+    layout: "two-part",
+    separator: "center-line",
+    marker: "line",
+    buttonStyle: "soft",
+    radius: "999px",
+    autoDelayMs: 12000,
+  };
   const STORAGE_KEY = "sofiatiFooterCookie:v2:" + CONFIG.code;
 
   if (localStorage.getItem(STORAGE_KEY)) return;
@@ -13,11 +31,13 @@
       analytics: false,
       experience: mode === "all",
       mode,
-      updatedAt: new Date().toISOString()
+      updatedAt: new Date().toISOString(),
     };
 
     localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
-    window.dispatchEvent(new CustomEvent("sofiati:cookie-consent", { detail: payload }));
+    window.dispatchEvent(
+      new CustomEvent("sofiati:cookie-consent", { detail: payload }),
+    );
   }
 
   function injectStyle() {
@@ -314,7 +334,10 @@
       const choice = event.target.closest("[data-cookie-choice]");
       if (!choice) return;
 
-      const mode = choice.getAttribute("data-cookie-choice") === "all" ? "all" : "essential";
+      const mode =
+        choice.getAttribute("data-cookie-choice") === "all"
+          ? "all"
+          : "essential";
       saveConsent(mode);
       bar.remove();
     });
@@ -327,7 +350,6 @@
     } else {
       document.body.appendChild(bar);
     }
-
   }
 
   if (document.readyState === "loading") {

@@ -1,25 +1,31 @@
 /* Canonical Sofiati atlas story layer for 07-glow Glow. */
 :root {
-  --sofiati-sage: #A2AEA0;
+  --sofiati-sage: #a2aea0;
   --sofiati-sage-deep: #485041;
-  --sofiati-ivory: #F2EEE3;
-  --sofiati-cream: #F8F7F2;
-  --sofiati-bronze: #9A6B35;
-  --sofiati-gold: #CDAA78;
+  --sofiati-ivory: #f2eee3;
+  --sofiati-cream: #f8f7f2;
+  --sofiati-bronze: #9a6b35;
+  --sofiati-gold: #cdaa78;
   --sofiati-ink: #252321;
   --sofiati-serif: Georgia, "Times New Roman", serif;
-  --sofiati-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --sofiati-sans:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
   --sofiati-label-spacing: 0.12em;
 }
 body.atlas-site {
-  --atlas-primary: #735C62;
-  --atlas-accent: #CDAA78;
-  --atlas-surface: #F7EFE8;
+  --atlas-primary: #735c62;
+  --atlas-accent: #cdaa78;
+  --atlas-surface: #f7efe8;
   --atlas-radius: 48px;
   --atlas-gap: 28px;
   --atlas-media: 38%;
   background:
-    linear-gradient(72deg, color-mix(in srgb, var(--atlas-primary) 8%, transparent), transparent 38%),
+    linear-gradient(
+      72deg,
+      color-mix(in srgb, var(--atlas-primary) 8%, transparent),
+      transparent 38%
+    ),
     linear-gradient(180deg, var(--atlas-surface), var(--sofiati-cream));
   color: var(--sofiati-ink);
 }
@@ -37,7 +43,8 @@ body.atlas-site {
   align-items: center;
   gap: var(--atlas-gap);
   padding: clamp(28px, 5vw, 76px) 0;
-  border-top: 1px solid color-mix(in srgb, var(--atlas-primary) 18%, transparent);
+  border-top: 1px solid
+    color-mix(in srgb, var(--atlas-primary) 18%, transparent);
 }
 .atlas-section:first-child {
   border-top: 0;
@@ -65,12 +72,12 @@ body.atlas-site {
 .atlas-section h1 {
   max-width: min(100%, 12ch);
   font-size: clamp(3rem, 8vw, 7.4rem);
-  line-height: .92;
+  line-height: 0.92;
 }
 .atlas-section h2 {
   max-width: min(100%, 14ch);
   font-size: clamp(2rem, 5vw, 5.1rem);
-  line-height: .96;
+  line-height: 0.96;
 }
 .atlas-section p {
   max-width: 58ch;
@@ -85,10 +92,14 @@ body.atlas-site {
   overflow: hidden;
   border-radius: var(--atlas-radius);
   background:
-    radial-gradient(circle at 20% 18%, color-mix(in srgb, var(--atlas-accent) 26%, transparent), transparent 36%),
+    radial-gradient(
+      circle at 20% 18%,
+      color-mix(in srgb, var(--atlas-accent) 26%, transparent),
+      transparent 36%
+    ),
     color-mix(in srgb, var(--atlas-primary) 12%, white);
   border: 1px solid color-mix(in srgb, var(--atlas-accent) 28%, transparent);
-  box-shadow: 0 22px 70px rgba(37, 35, 33, .10);
+  box-shadow: 0 22px 70px rgba(37, 35, 33, 0.1);
 }
 .atlas-section__media img {
   width: 100%;
@@ -106,8 +117,8 @@ body.atlas-site {
   border-radius: max(3px, calc(var(--atlas-radius) / 3));
   background: color-mix(in srgb, var(--sofiati-cream) 88%, white);
   color: color-mix(in srgb, var(--sofiati-ink) 70%, var(--atlas-primary));
-  font-size: .72rem;
-  letter-spacing: .06em;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .atlas-actions {
@@ -161,7 +172,7 @@ body.atlas-site {
 }
 .atlas-card-row p {
   margin: 0;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 .atlas-bullets {
   display: flex;
@@ -195,7 +206,7 @@ body.atlas-site {
   width: min(760px, 100%);
 }
 .atlas-layout-ledger {
-  grid-template-columns: .78fr 1fr;
+  grid-template-columns: 0.78fr 1fr;
   border-top-style: double;
 }
 .atlas-layout-ledger .atlas-section__media {
@@ -218,7 +229,7 @@ body.atlas-site {
 .atlas-page-home .atlas-section:first-child,
 .atlas-page-consultation .atlas-section:first-child,
 .atlas-page-contact .atlas-section:first-child {
-  grid-template-columns: minmax(0, .9fr) minmax(320px, 1.1fr);
+  grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1.1fr);
 }
 .atlas-section:nth-child(3) {
   width: min(1040px, 100%);

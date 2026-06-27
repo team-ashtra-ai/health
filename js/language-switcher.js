@@ -3,7 +3,14 @@
   const defaultLanguage = "pt";
   const maps = window.SofiatiTranslations || { enToPt: {}, ptToEn: {} };
   const blockedParents = new Set(["SCRIPT", "STYLE", "NOSCRIPT", "TEMPLATE"]);
-  const attributes = ["alt", "aria-label", "content", "placeholder", "title", "value"];
+  const attributes = [
+    "alt",
+    "aria-label",
+    "content",
+    "placeholder",
+    "title",
+    "value",
+  ];
 
   function preferredLanguage() {
     const stored = localStorage.getItem(storageKey);
@@ -29,7 +36,8 @@
     if (element.closest("[data-no-translate]")) return false;
     if (attribute !== "content") return true;
     if (element.tagName !== "META") return false;
-    const key = element.getAttribute("name") || element.getAttribute("property") || "";
+    const key =
+      element.getAttribute("name") || element.getAttribute("property") || "";
     return /description|title|image:alt|twitter/.test(key);
   }
 
@@ -37,10 +45,16 @@
     const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
       acceptNode(node) {
         const parent = node.parentElement;
-        if (!parent || blockedParents.has(parent.tagName) || parent.closest("[data-no-translate]")) {
+        if (
+          !parent ||
+          blockedParents.has(parent.tagName) ||
+          parent.closest("[data-no-translate]")
+        ) {
           return NodeFilter.FILTER_REJECT;
         }
-        return node.nodeValue.trim() ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_SKIP;
+        return node.nodeValue.trim()
+          ? NodeFilter.FILTER_ACCEPT
+          : NodeFilter.FILTER_SKIP;
       },
     });
     const nodes = [];
@@ -53,8 +67,15 @@
   function translateAttributes(root, language) {
     root.querySelectorAll("*").forEach((element) => {
       attributes.forEach((attribute) => {
-        if (!element.hasAttribute(attribute) || !shouldTranslateAttribute(element, attribute)) return;
-        element.setAttribute(attribute, translateValue(element.getAttribute(attribute), language));
+        if (
+          !element.hasAttribute(attribute) ||
+          !shouldTranslateAttribute(element, attribute)
+        )
+          return;
+        element.setAttribute(
+          attribute,
+          translateValue(element.getAttribute(attribute), language),
+        );
       });
     });
   }
@@ -73,7 +94,9 @@
     translateTextNodes(document.body, language);
     translateAttributes(document, language);
     updateControls(language);
-    document.dispatchEvent(new CustomEvent("sofiati:language-ready", { detail: { language } }));
+    document.dispatchEvent(
+      new CustomEvent("sofiati:language-ready", { detail: { language } }),
+    );
   }
 
   function setLanguage(language) {
@@ -86,7 +109,9 @@
     document.querySelectorAll("[data-language-option]").forEach((button) => {
       if (button.dataset.languageBound === "true") return;
       button.dataset.languageBound = "true";
-      button.addEventListener("click", () => setLanguage(button.dataset.languageOption));
+      button.addEventListener("click", () =>
+        setLanguage(button.dataset.languageOption),
+      );
     });
     updateControls(preferredLanguage());
   }

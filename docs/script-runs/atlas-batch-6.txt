@@ -1,0 +1,15 @@
+
+===== RUNNING 01-inspire =====
+01-inspire Inspire: complete
+file:///run/media/code/Storage/GitHub/ashtra/health/scripts/continue-sofiati-atlas.mjs:186
+    lines.push(`- ${s.siteId}: brief=${s.masterBrief}, script=${s.implementationScript}, report=${s.implementationReport}, blockers=${s.blockers.length}`);
+                                                                                                                                                 ^
+
+TypeError: Cannot read properties of undefined (reading 'length')
+    at writeReport (file:///run/media/code/Storage/GitHub/ashtra/health/scripts/continue-sofiati-atlas.mjs:186:146)
+    at file:///run/media/code/Storage/GitHub/ashtra/health/scripts/continue-sofiati-atlas.mjs:256:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+
+Node.js v22.22.1

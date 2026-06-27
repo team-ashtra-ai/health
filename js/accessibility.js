@@ -1,1 +1,1 @@
-document.documentElement.classList.add('js-enabled');
+document.documentElement.classList.add("js-enabled");

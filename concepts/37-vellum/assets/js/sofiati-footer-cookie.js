@@ -2,7 +2,25 @@
 (() => {
   "use strict";
 
-  const CONFIG = {"code": "37", "slug": "vellum", "bg": "#FBFAF6", "fg": "#252321", "muted": "rgba(37,35,33,.64)", "accent": "#9A6B35", "border": "1px dashed rgba(154,107,53,.22)", "width": "min(940px,calc(100% - 30px))", "padding": "10px 0", "fontSize": ".77rem", "align": "left", "layout": "fine-print", "separator": "dashed", "marker": "line", "buttonStyle": "text", "radius": "4px", "autoDelayMs": 13440};
+  const CONFIG = {
+    code: "37",
+    slug: "vellum",
+    bg: "#FBFAF6",
+    fg: "#252321",
+    muted: "rgba(37,35,33,.64)",
+    accent: "#9A6B35",
+    border: "1px dashed rgba(154,107,53,.22)",
+    width: "min(940px,calc(100% - 30px))",
+    padding: "10px 0",
+    fontSize: ".77rem",
+    align: "left",
+    layout: "fine-print",
+    separator: "dashed",
+    marker: "line",
+    buttonStyle: "text",
+    radius: "4px",
+    autoDelayMs: 13440,
+  };
   const STORAGE_KEY = "sofiatiFooterCookie:v2:" + CONFIG.code;
 
   if (localStorage.getItem(STORAGE_KEY)) return;
@@ -13,11 +31,13 @@
       analytics: false,
       experience: mode === "all",
       mode,
-      updatedAt: new Date().toISOString()
+      updatedAt: new Date().toISOString(),
     };
 
     localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
-    window.dispatchEvent(new CustomEvent("sofiati:cookie-consent", { detail: payload }));
+    window.dispatchEvent(
+      new CustomEvent("sofiati:cookie-consent", { detail: payload }),
+    );
   }
 
   function injectStyle() {
@@ -314,7 +334,10 @@
       const choice = event.target.closest("[data-cookie-choice]");
       if (!choice) return;
 
-      const mode = choice.getAttribute("data-cookie-choice") === "all" ? "all" : "essential";
+      const mode =
+        choice.getAttribute("data-cookie-choice") === "all"
+          ? "all"
+          : "essential";
       saveConsent(mode);
       bar.remove();
     });
@@ -327,7 +350,6 @@
     } else {
       document.body.appendChild(bar);
     }
-
   }
 
   if (document.readyState === "loading") {
