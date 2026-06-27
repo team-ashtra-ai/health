@@ -1,0 +1,15 @@
+{
+  "name": "Franciele Sofiati",
+  "short_name": "Sofiati",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F3EFE5",
+  "theme_color": "#A2AE9F",
+  "icons": [
+    {
+      "src": "/assets/brand/sofiati-favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

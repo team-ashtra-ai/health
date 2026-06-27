@@ -1,0 +1,54 @@
+# Sofiati 50-Site Atlas Index
+
+| Site ID | Site | Master brief | Implement script | Report |
+|---|---|---|---|---|
+| 01-inspire | Inspire | [MASTER-BRIEF.md](01-inspire/MASTER-BRIEF.md) | ../../scripts/sites/01-inspire/implement.mjs | [IMPLEMENTATION-REPORT.md](01-inspire/IMPLEMENTATION-REPORT.md) |
+| 02-empower | Empower | [MASTER-BRIEF.md](02-empower/MASTER-BRIEF.md) | ../../scripts/sites/02-empower/implement.mjs | [IMPLEMENTATION-REPORT.md](02-empower/IMPLEMENTATION-REPORT.md) |
+| 03-enhance | Enhance | [MASTER-BRIEF.md](03-enhance/MASTER-BRIEF.md) | ../../scripts/sites/03-enhance/implement.mjs | [IMPLEMENTATION-REPORT.md](03-enhance/IMPLEMENTATION-REPORT.md) |
+| 04-renew | Renew | [MASTER-BRIEF.md](04-renew/MASTER-BRIEF.md) | ../../scripts/sites/04-renew/implement.mjs | [IMPLEMENTATION-REPORT.md](04-renew/IMPLEMENTATION-REPORT.md) |
+| 05-elevate | Elevate | [MASTER-BRIEF.md](05-elevate/MASTER-BRIEF.md) | ../../scripts/sites/05-elevate/implement.mjs | [IMPLEMENTATION-REPORT.md](05-elevate/IMPLEMENTATION-REPORT.md) |
+| 06-refine | Refine | [MASTER-BRIEF.md](06-refine/MASTER-BRIEF.md) | ../../scripts/sites/06-refine/implement.mjs | [IMPLEMENTATION-REPORT.md](06-refine/IMPLEMENTATION-REPORT.md) |
+| 07-glow | Glow | [MASTER-BRIEF.md](07-glow/MASTER-BRIEF.md) | ../../scripts/sites/07-glow/implement.mjs | [IMPLEMENTATION-REPORT.md](07-glow/IMPLEMENTATION-REPORT.md) |
+| 08-balance | Balance | [MASTER-BRIEF.md](08-balance/MASTER-BRIEF.md) | ../../scripts/sites/08-balance/implement.mjs | [IMPLEMENTATION-REPORT.md](08-balance/IMPLEMENTATION-REPORT.md) |
+| 09-radiance | Radiance | [MASTER-BRIEF.md](09-radiance/MASTER-BRIEF.md) | ../../scripts/sites/09-radiance/implement.mjs | [IMPLEMENTATION-REPORT.md](09-radiance/IMPLEMENTATION-REPORT.md) |
+| 10-essence | Essence | [MASTER-BRIEF.md](10-essence/MASTER-BRIEF.md) | ../../scripts/sites/10-essence/implement.mjs | [IMPLEMENTATION-REPORT.md](10-essence/IMPLEMENTATION-REPORT.md) |
+| 11-bloom | Bloom | [MASTER-BRIEF.md](11-bloom/MASTER-BRIEF.md) | ../../scripts/sites/11-bloom/implement.mjs | [IMPLEMENTATION-REPORT.md](11-bloom/IMPLEMENTATION-REPORT.md) |
+| 12-vital | Vital | [MASTER-BRIEF.md](12-vital/MASTER-BRIEF.md) | ../../scripts/sites/12-vital/implement.mjs | [IMPLEMENTATION-REPORT.md](12-vital/IMPLEMENTATION-REPORT.md) |
+| 13-poise | Poise | [MASTER-BRIEF.md](13-poise/MASTER-BRIEF.md) | ../../scripts/sites/13-poise/implement.mjs | [IMPLEMENTATION-REPORT.md](13-poise/IMPLEMENTATION-REPORT.md) |
+| 14-aura | Aura | [MASTER-BRIEF.md](14-aura/MASTER-BRIEF.md) | ../../scripts/sites/14-aura/implement.mjs | [IMPLEMENTATION-REPORT.md](14-aura/IMPLEMENTATION-REPORT.md) |
+| 15-clarity | Clarity | [MASTER-BRIEF.md](15-clarity/MASTER-BRIEF.md) | ../../scripts/sites/15-clarity/implement.mjs | [IMPLEMENTATION-REPORT.md](15-clarity/IMPLEMENTATION-REPORT.md) |
+| 16-grace | Grace | [MASTER-BRIEF.md](16-grace/MASTER-BRIEF.md) | ../../scripts/sites/16-grace/implement.mjs | [IMPLEMENTATION-REPORT.md](16-grace/IMPLEMENTATION-REPORT.md) |
+| 17-sculpt | Sculpt | [MASTER-BRIEF.md](17-sculpt/MASTER-BRIEF.md) | ../../scripts/sites/17-sculpt/implement.mjs | [IMPLEMENTATION-REPORT.md](17-sculpt/IMPLEMENTATION-REPORT.md) |
+| 18-lumin | Lumin | [MASTER-BRIEF.md](18-lumin/MASTER-BRIEF.md) | ../../scripts/sites/18-lumin/implement.mjs | [IMPLEMENTATION-REPORT.md](18-lumin/IMPLEMENTATION-REPORT.md) |
+| 19-verda | Verda | [MASTER-BRIEF.md](19-verda/MASTER-BRIEF.md) | ../../scripts/sites/19-verda/implement.mjs | [IMPLEMENTATION-REPORT.md](19-verda/IMPLEMENTATION-REPORT.md) |
+| 20-halo | Halo | [MASTER-BRIEF.md](20-halo/MASTER-BRIEF.md) | ../../scripts/sites/20-halo/implement.mjs | [IMPLEMENTATION-REPORT.md](20-halo/IMPLEMENTATION-REPORT.md) |
+| 21-calm | Calm | [MASTER-BRIEF.md](21-calm/MASTER-BRIEF.md) | ../../scripts/sites/21-calm/implement.mjs | [IMPLEMENTATION-REPORT.md](21-calm/IMPLEMENTATION-REPORT.md) |
+| 22-precision | Precision | [MASTER-BRIEF.md](22-precision/MASTER-BRIEF.md) | ../../scripts/sites/22-precision/implement.mjs | [IMPLEMENTATION-REPORT.md](22-precision/IMPLEMENTATION-REPORT.md) |
+| 23-ritual | Ritual | [MASTER-BRIEF.md](23-ritual/MASTER-BRIEF.md) | ../../scripts/sites/23-ritual/implement.mjs | [IMPLEMENTATION-REPORT.md](23-ritual/IMPLEMENTATION-REPORT.md) |
+| 24-signal | Signal | [MASTER-BRIEF.md](24-signal/MASTER-BRIEF.md) | ../../scripts/sites/24-signal/implement.mjs | [IMPLEMENTATION-REPORT.md](24-signal/IMPLEMENTATION-REPORT.md) |
+| 25-align | Align | [MASTER-BRIEF.md](25-align/MASTER-BRIEF.md) | ../../scripts/sites/25-align/implement.mjs | [IMPLEMENTATION-REPORT.md](25-align/IMPLEMENTATION-REPORT.md) |
+| 26-vivant | Vivant | [MASTER-BRIEF.md](26-vivant/MASTER-BRIEF.md) | ../../scripts/sites/26-vivant/implement.mjs | [IMPLEMENTATION-REPORT.md](26-vivant/IMPLEMENTATION-REPORT.md) |
+| 27-form | Form | [MASTER-BRIEF.md](27-form/MASTER-BRIEF.md) | ../../scripts/sites/27-form/implement.mjs | [IMPLEMENTATION-REPORT.md](27-form/IMPLEMENTATION-REPORT.md) |
+| 28-pure | Pure | [MASTER-BRIEF.md](28-pure/MASTER-BRIEF.md) | ../../scripts/sites/28-pure/implement.mjs | [IMPLEMENTATION-REPORT.md](28-pure/IMPLEMENTATION-REPORT.md) |
+| 29-solace | Solace | [MASTER-BRIEF.md](29-solace/MASTER-BRIEF.md) | ../../scripts/sites/29-solace/implement.mjs | [IMPLEMENTATION-REPORT.md](29-solace/IMPLEMENTATION-REPORT.md) |
+| 30-method | Method | [MASTER-BRIEF.md](30-method/MASTER-BRIEF.md) | ../../scripts/sites/30-method/implement.mjs | [IMPLEMENTATION-REPORT.md](30-method/IMPLEMENTATION-REPORT.md) |
+| 31-evolve | Evolve | [MASTER-BRIEF.md](31-evolve/MASTER-BRIEF.md) | ../../scripts/sites/31-evolve/implement.mjs | [IMPLEMENTATION-REPORT.md](31-evolve/IMPLEMENTATION-REPORT.md) |
+| 32-serene | Serene | [MASTER-BRIEF.md](32-serene/MASTER-BRIEF.md) | ../../scripts/sites/32-serene/implement.mjs | [IMPLEMENTATION-REPORT.md](32-serene/IMPLEMENTATION-REPORT.md) |
+| 33-elan | Elan | [MASTER-BRIEF.md](33-elan/MASTER-BRIEF.md) | ../../scripts/sites/33-elan/implement.mjs | [IMPLEMENTATION-REPORT.md](33-elan/IMPLEMENTATION-REPORT.md) |
+| 34-flora | Flora | [MASTER-BRIEF.md](34-flora/MASTER-BRIEF.md) | ../../scripts/sites/34-flora/implement.mjs | [IMPLEMENTATION-REPORT.md](34-flora/IMPLEMENTATION-REPORT.md) |
+| 35-atelier | Atelier | [MASTER-BRIEF.md](35-atelier/MASTER-BRIEF.md) | ../../scripts/sites/35-atelier/implement.mjs | [IMPLEMENTATION-REPORT.md](35-atelier/IMPLEMENTATION-REPORT.md) |
+| 36-lumina | Lumina | [MASTER-BRIEF.md](36-lumina/MASTER-BRIEF.md) | ../../scripts/sites/36-lumina/implement.mjs | [IMPLEMENTATION-REPORT.md](36-lumina/IMPLEMENTATION-REPORT.md) |
+| 37-vellum | Vellum | [MASTER-BRIEF.md](37-vellum/MASTER-BRIEF.md) | ../../scripts/sites/37-vellum/implement.mjs | [IMPLEMENTATION-REPORT.md](37-vellum/IMPLEMENTATION-REPORT.md) |
+| 38-origin | Origin | [MASTER-BRIEF.md](38-origin/MASTER-BRIEF.md) | ../../scripts/sites/38-origin/implement.mjs | [IMPLEMENTATION-REPORT.md](38-origin/IMPLEMENTATION-REPORT.md) |
+| 39-kindred | Kindred | [MASTER-BRIEF.md](39-kindred/MASTER-BRIEF.md) | ../../scripts/sites/39-kindred/implement.mjs | [IMPLEMENTATION-REPORT.md](39-kindred/IMPLEMENTATION-REPORT.md) |
+| 40-noble | Noble | [MASTER-BRIEF.md](40-noble/MASTER-BRIEF.md) | ../../scripts/sites/40-noble/implement.mjs | [IMPLEMENTATION-REPORT.md](40-noble/IMPLEMENTATION-REPORT.md) |
+| 41-vista | Vista | [MASTER-BRIEF.md](41-vista/MASTER-BRIEF.md) | ../../scripts/sites/41-vista/implement.mjs | [IMPLEMENTATION-REPORT.md](41-vista/IMPLEMENTATION-REPORT.md) |
+| 42-softline | Softline | [MASTER-BRIEF.md](42-softline/MASTER-BRIEF.md) | ../../scripts/sites/42-softline/implement.mjs | [IMPLEMENTATION-REPORT.md](42-softline/IMPLEMENTATION-REPORT.md) |
+| 43-meridian | Meridian | [MASTER-BRIEF.md](43-meridian/MASTER-BRIEF.md) | ../../scripts/sites/43-meridian/implement.mjs | [IMPLEMENTATION-REPORT.md](43-meridian/IMPLEMENTATION-REPORT.md) |
+| 44-safeguard | Safeguard | [MASTER-BRIEF.md](44-safeguard/MASTER-BRIEF.md) | ../../scripts/sites/44-safeguard/implement.mjs | [IMPLEMENTATION-REPORT.md](44-safeguard/IMPLEMENTATION-REPORT.md) |
+| 45-silhouette | Silhouette | [MASTER-BRIEF.md](45-silhouette/MASTER-BRIEF.md) | ../../scripts/sites/45-silhouette/implement.mjs | [IMPLEMENTATION-REPORT.md](45-silhouette/IMPLEMENTATION-REPORT.md) |
+| 46-curate | Curate | [MASTER-BRIEF.md](46-curate/MASTER-BRIEF.md) | ../../scripts/sites/46-curate/implement.mjs | [IMPLEMENTATION-REPORT.md](46-curate/IMPLEMENTATION-REPORT.md) |
+| 47-proof | Proof | [MASTER-BRIEF.md](47-proof/MASTER-BRIEF.md) | ../../scripts/sites/47-proof/implement.mjs | [IMPLEMENTATION-REPORT.md](47-proof/IMPLEMENTATION-REPORT.md) |
+| 48-signature | Signature | [MASTER-BRIEF.md](48-signature/MASTER-BRIEF.md) | ../../scripts/sites/48-signature/implement.mjs | [IMPLEMENTATION-REPORT.md](48-signature/IMPLEMENTATION-REPORT.md) |
+| 49-wisdom | Wisdom | [MASTER-BRIEF.md](49-wisdom/MASTER-BRIEF.md) | ../../scripts/sites/49-wisdom/implement.mjs | [IMPLEMENTATION-REPORT.md](49-wisdom/IMPLEMENTATION-REPORT.md) |
+| 50-sovereign | Sovereign | [MASTER-BRIEF.md](50-sovereign/MASTER-BRIEF.md) | ../../scripts/sites/50-sovereign/implement.mjs | [IMPLEMENTATION-REPORT.md](50-sovereign/IMPLEMENTATION-REPORT.md) |

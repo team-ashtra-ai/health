@@ -1,0 +1,54 @@
+# Sofiati Asset Usage Matrix
+
+| Concept | Asset strategy | Portrait | Icon style | Botanical/gold | Motion | Form | Footer |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 01-inspire | pressed botanical editorial | arched ivory portrait with bronze pressed-leaf edge | pressed botanical editorial icon pack | gold leaf divider | line reveal | minimal ivory form | business-card footer |
+| 02-empower | business-card seal system | round monogram-backed portrait stamp | business-card seal system icon pack | sage line-art branch | leaf orbit | sage panel form | large monogram ledger |
+| 03-enhance | clinical magazine linework | sage duotone editorial profile tile | clinical magazine linework icon pack | bronze corner frame | portrait lift | botanical framed form | signature seal footer |
+| 04-renew | laser dossier geometry | business-card portrait with signature line | laser dossier geometry icon pack | monogram wreath | icon tilt | gold line form | clinical column footer |
+| 05-elevate | quiet luxury watermark | full-height consultation portrait badge | quiet luxury watermark icon pack | botanical section separator | gold shimmer | step-style consultation form | botanical map footer |
+| 06-refine | mobile story botanical path | soft oval botanical frame | mobile story botanical path icon pack | soft leaf watermark | menu bloom | sidebar form | concierge contact footer |
+| 07-glow | proof-grid bronze markers | clinical credential portrait card | proof-grid bronze markers icon pack | animated leaf path | divider trace | floating editorial form | apothecary fine-print footer |
+| 08-balance | round monogram sanctuary | champagne line portrait seal | round monogram sanctuary icon pack | quote-mark branch | form focus glow | business-card form | bronze strip footer |
+| 09-radiance | consultation studio badges | mobile avatar with FS watermark | consultation studio badges icon pack | mobile-menu botanical field | journal card rise | mobile-first bottom form | story-background footer |
+| 10-essence | minimal appointment stationery | journal-side portrait notecard | minimal appointment stationery icon pack | footer botanical stamp | service badge pulse | portrait-led consultation form | credential stamp footer |
+| 11-bloom | institutional credential atlas | arched ivory portrait with bronze pressed-leaf edge | institutional credential atlas icon pack | gold leaf divider | line reveal | minimal ivory form | business-card footer |
+| 12-vital | dermatology portal pictograms | round monogram-backed portrait stamp | dermatology portal pictograms icon pack | sage line-art branch | leaf orbit | sage panel form | large monogram ledger |
+| 13-poise | private column frames | sage duotone editorial profile tile | private column frames icon pack | bronze corner frame | portrait lift | botanical framed form | signature seal footer |
+| 14-aura | champagne ritual overlays | business-card portrait with signature line | champagne ritual overlays icon pack | monogram wreath | icon tilt | gold line form | clinical column footer |
+| 15-clarity | procedure atlas symbols | full-height consultation portrait badge | procedure atlas symbols icon pack | botanical section separator | gold shimmer | step-style consultation form | botanical map footer |
+| 16-grace | service shelf labels | soft oval botanical frame | service shelf labels icon pack | soft leaf watermark | menu bloom | sidebar form | concierge contact footer |
+| 17-sculpt | local branch contact marks | clinical credential portrait card | local branch contact marks icon pack | animated leaf path | divider trace | floating editorial form | apothecary fine-print footer |
+| 18-lumin | high-contrast clinic strokes | champagne line portrait seal | high-contrast clinic strokes icon pack | quote-mark branch | form focus glow | business-card form | bronze strip footer |
+| 19-verda | local search direction tags | mobile avatar with FS watermark | local search direction tags icon pack | mobile-menu botanical field | journal card rise | mobile-first bottom form | story-background footer |
+| 20-halo | physician profile stamp | journal-side portrait notecard | physician profile stamp icon pack | footer botanical stamp | service badge pulse | portrait-led consultation form | credential stamp footer |
+| 21-calm | concierge clinic panels | arched ivory portrait with bronze pressed-leaf edge | concierge clinic panels icon pack | gold leaf divider | line reveal | minimal ivory form | business-card footer |
+| 22-precision | signature consultant trace | round monogram-backed portrait stamp | signature consultant trace icon pack | sage line-art branch | leaf orbit | sage panel form | large monogram ledger |
+| 23-ritual | medical skin disclosure set | sage duotone editorial profile tile | medical skin disclosure set icon pack | bronze corner frame | portrait lift | botanical framed form | signature seal footer |
+| 24-signal | fine-list micro glyphs | business-card portrait with signature line | fine-list micro glyphs icon pack | monogram wreath | icon tilt | gold line form | clinical column footer |
+| 25-align | treatment explorer chips | full-height consultation portrait badge | treatment explorer chips icon pack | botanical section separator | gold shimmer | step-style consultation form | botanical map footer |
+| 26-vivant | editorial authority plaques | soft oval botanical frame | editorial authority plaques icon pack | soft leaf watermark | menu bloom | sidebar form | concierge contact footer |
+| 27-form | procedure library tabs | clinical credential portrait card | procedure library tabs icon pack | animated leaf path | divider trace | floating editorial form | apothecary fine-print footer |
+| 28-pure | single-service education marks | champagne line portrait seal | single-service education marks icon pack | quote-mark branch | form focus glow | business-card form | bronze strip footer |
+| 29-solace | doctor journal notecards | mobile avatar with FS watermark | doctor journal notecards icon pack | mobile-menu botanical field | journal card rise | mobile-first bottom form | story-background footer |
+| 30-method | booking concierge steps | journal-side portrait notecard | booking concierge steps icon pack | footer botanical stamp | service badge pulse | portrait-led consultation form | credential stamp footer |
+| 31-evolve | confidence timeline leaves | arched ivory portrait with bronze pressed-leaf edge | confidence timeline leaves icon pack | gold leaf divider | line reveal | minimal ivory form | business-card footer |
+| 32-serene | natural result privacy frames | round monogram-backed portrait stamp | natural result privacy frames icon pack | sage line-art branch | leaf orbit | sage panel form | large monogram ledger |
+| 33-elan | destination journey pins | sage duotone editorial profile tile | destination journey pins icon pack | bronze corner frame | portrait lift | botanical framed form | signature seal footer |
+| 34-flora | artisan botanical craft | business-card portrait with signature line | artisan botanical craft icon pack | monogram wreath | icon tilt | gold line form | clinical column footer |
+| 35-atelier | laser studio membership passes | full-height consultation portrait badge | laser studio membership passes icon pack | botanical section separator | gold shimmer | step-style consultation form | botanical map footer |
+| 36-lumina | skincare bar progress marks | soft oval botanical frame | skincare bar progress marks icon pack | soft leaf watermark | menu bloom | sidebar form | concierge contact footer |
+| 37-vellum | treatment pass slots | clinical credential portrait card | treatment pass slots icon pack | animated leaf path | divider trace | floating editorial form | apothecary fine-print footer |
+| 38-origin | doctor shop editorial labels | champagne line portrait seal | doctor shop editorial labels icon pack | quote-mark branch | form focus glow | business-card form | bronze strip footer |
+| 39-kindred | science ingredient diagrams | mobile avatar with FS watermark | science ingredient diagrams icon pack | mobile-menu botanical field | journal card rise | mobile-first bottom form | story-background footer |
+| 40-noble | prestige formula shimmer | journal-side portrait notecard | prestige formula shimmer icon pack | footer botanical stamp | service badge pulse | portrait-led consultation form | credential stamp footer |
+| 41-vista | ritual story seals | arched ivory portrait with bronze pressed-leaf edge | ritual story seals icon pack | gold leaf divider | line reveal | minimal ivory form | business-card footer |
+| 42-softline | apothecary text stamps | round monogram-backed portrait stamp | apothecary text stamps icon pack | sage line-art branch | leaf orbit | sage panel form | large monogram ledger |
+| 43-meridian | maison collection crests | sage duotone editorial profile tile | maison collection crests icon pack | bronze corner frame | portrait lift | botanical framed form | signature seal footer |
+| 44-safeguard | cream commerce labels | business-card portrait with signature line | cream commerce labels icon pack | monogram wreath | icon tilt | gold line form | clinical column footer |
+| 45-silhouette | clinical drop capsules | full-height consultation portrait badge | clinical drop capsules icon pack | botanical section separator | gold shimmer | step-style consultation form | botanical map footer |
+| 46-curate | spa menu botanical tabs | soft oval botanical frame | spa menu botanical tabs icon pack | soft leaf watermark | menu bloom | sidebar form | concierge contact footer |
+| 47-proof | expert routine sequence | clinical credential portrait card | expert routine sequence icon pack | animated leaf path | divider trace | floating editorial form | apothecary fine-print footer |
+| 48-signature | botanical serum line growth | champagne line portrait seal | botanical serum line growth icon pack | quote-mark branch | form focus glow | business-card form | bronze strip footer |
+| 49-wisdom | farm-clean field notes | mobile avatar with FS watermark | farm-clean field notes icon pack | mobile-menu botanical field | journal card rise | mobile-first bottom form | story-background footer |
+| 50-sovereign | ingredient lab minimal grid | journal-side portrait notecard | ingredient lab minimal grid icon pack | footer botanical stamp | service badge pulse | portrait-led consultation form | credential stamp footer |

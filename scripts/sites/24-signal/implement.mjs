@@ -1,0 +1,31 @@
+#!/usr/bin/env node
+import { runSingleSiteImplementation } from "../../lib/sofiati-atlas-core.mjs";
+
+const siteProfile = {
+  "siteId": "24-signal",
+  "siteName": "Signal",
+  "number": "24",
+  "slug": "signal",
+  "index": 23,
+  "dnaName": "Signal Clear Route",
+  "heroStrategy": "stacked editorial masthead with floating cutout",
+  "sectionRhythm": "gallery cards that break into statement bands",
+  "partialStrategy": "galleryHero, imagePause, cardSequence, trustBand, footerGallery",
+  "mobileStrategy": "gallery cards stack with one visual anchor per viewport",
+  "motionStrategy": "section rule draw-ins and calm focus states",
+  "avoidNote": "stock-like image darkness, oversized hero-only layout",
+  "primaryColor": "#586D73",
+  "accentColor": "#9A6B35",
+  "surfaceColor": "#F6F0E5",
+  "radius": 14,
+  "rhythmOffset": 7,
+  "imageRhythm": "botanical divider, portrait, route card, footer mark",
+  "footerStrategy": "minimal legal route footer with botanical stamp",
+  "mobileMenuStrategy": "minimal menu with strong consultation action"
+};
+
+await runSingleSiteImplementation(siteProfile, {
+  command: process.argv.join(" "),
+  repair: !process.argv.includes("--validate-only"),
+  validateOnly: process.argv.includes("--validate-only")
+});
