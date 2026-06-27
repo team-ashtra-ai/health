@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-label="care section for Verda">
+  <defs>
+    <pattern id="p19caresection" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M4 22 C16 4 22 30 34 8" fill="none" stroke="#9A6B35" stroke-width="1" opacity=".22"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="640" rx="72" fill="#F6F4EA"/>
+  <rect width="960" height="640" fill="url(#p19caresection)" opacity=".72"/>
+  <rect x="34" y="34" width="892" height="572" rx="58" fill="none" stroke="#9A6B35" stroke-width="4" opacity=".74"/>
+  <circle cx="365" cy="218" r="102" fill="#9A6B35" opacity=".16"/>
+  <path d="M173 461 C326 346 461 563 614 397 S787 333 864 230" fill="none" stroke="#9A6B35" stroke-width="4" stroke-linecap="round" opacity=".62"/>
+  <text x="115" y="154" font-family="Inter, Arial, sans-serif" font-size="22" letter-spacing="5" fill="#586D73" opacity=".72">19 / SECTION ASSET</text>
+  <text x="115" y="243" font-family="Georgia, serif" font-size="64" fill="#586D73">care section</text>
+  <text x="115" y="320" font-family="Inter, Arial, sans-serif" font-size="24" fill="#586D73" opacity=".74">Verda / calm-medical-spa</text>
+</svg>

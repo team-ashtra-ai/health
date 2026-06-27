@@ -473,7 +473,7 @@ p {
   position: absolute;
   inset: 18%;
   z-index: 2;
-  background: url("../assets/brand/sofiati-monogram-white.png") center/contain
+  background: url("../../../assets/generated/concept-15/logos/sofiati-concept-15-logo-watermark.svg") center/contain
     no-repeat;
   opacity: 0.16;
   pointer-events: none;
@@ -1580,11 +1580,11 @@ body.reduce-motion *:after {
   --asset-cream: #faf8f2;
   --asset-bronze: #734011;
   --asset-gold: #c7a56d;
-  --asset-divider: url("../assets/botanical/gold-leaf-divider.svg");
-  --asset-bg: url("../assets/backgrounds/botanical-background.svg");
-  --asset-texture: url("../assets/textures/soft-skin-texture.svg");
-  --asset-form: url("../assets/forms/consultation-form-frame.svg");
-  --asset-generated: url("../assets/generated/homepage-asset-composition.svg");
+  --asset-divider: url("../../../assets/generated/concept-15/decorative/sofiati-concept-15-gold-divider.svg");
+  --asset-bg: url("../../../assets/generated/concept-15/backgrounds/sofiati-concept-15-home-section-background.svg");
+  --asset-texture: url("../../../assets/generated/concept-15/decorative/sofiati-concept-15-texture-asset.svg");
+  --asset-form: url("../../../assets/generated/concept-15/forms/sofiati-concept-15-consultation-form-asset.svg");
+  --asset-generated: url("../../../assets/generated/concept-15/section-assets/sofiati-concept-15-homepage-asset-composition.svg");
 }
 body::before {
   content: "";
@@ -1760,7 +1760,7 @@ body::before {
 .home-index-journal,
 .page-journal .content-system,
 .page-blog .content-system {
-  background-image: url("../assets/journal/journal-thumbnail-3.svg");
+  background-image: url("../../../assets/generated/concept-15/journal/sofiati-concept-15-article-header-image.webp");
   background-repeat: no-repeat;
   background-position: right clamp(16px, 5vw, 80px) top clamp(16px, 5vw, 70px);
   background-size: min(180px, 32vw);
@@ -1775,7 +1775,7 @@ body::before {
   bottom: clamp(24px, 6vw, 80px);
   width: min(220px, 36vw);
   aspect-ratio: 1;
-  background: url("../assets/service/care-service-visual.svg") center/contain
+  background: url("../../../assets/generated/concept-15/icons/sofiati-concept-15-care-icon-set.svg") center/contain
     no-repeat;
   opacity: 0.32;
   pointer-events: none;
@@ -1788,7 +1788,7 @@ body::before {
       color-mix(in srgb, var(--asset-sage) 14%, transparent),
       transparent 56%
     ),
-    url("../assets/textures/clinical-paper-texture.svg");
+    url("../../../assets/generated/concept-15/brand-backgrounds/sofiati-concept-15-brand-mark-textured-background.svg");
   background-size:
     auto,
     268px 268px;
@@ -1815,7 +1815,7 @@ body::before {
 .mobile-menu {
   background-image:
     linear-gradient(246deg, rgba(37, 35, 33, 0.54), rgba(37, 35, 33, 0.1)),
-    url("../assets/backgrounds/mobile-menu-background.svg"),
+    url("../../../assets/generated/concept-15/navigation/sofiati-concept-15-mobile-menu-background.svg"),
     linear-gradient(135deg, var(--deep-sage), var(--ink));
   background-size:
     auto,
@@ -2360,7 +2360,7 @@ body.page-consultation .public-secondary-bar:not(.public-secondary-none) {
   color: white;
   background:
     linear-gradient(135deg, rgba(37, 35, 33, 0.74), rgba(52, 64, 57, 0.64)),
-    url("../assets/backgrounds/mobile-menu-background.svg") right bottom/360px
+    url("../../../assets/generated/concept-15/navigation/sofiati-concept-15-mobile-menu-background.svg") right bottom/360px
       360px no-repeat,
     var(--deep-sage);
   transform: translate3d(0, -104%, 0);
@@ -2489,7 +2489,7 @@ body.page-consultation .public-secondary-bar:not(.public-secondary-none) {
   transform: translate3d(-104%, 0, 0);
   background:
     linear-gradient(90deg, rgba(37, 35, 33, 0.86), rgba(52, 64, 57, 0.72)),
-    url("../assets/textures/clinical-paper-texture.svg") center/260px 260px,
+    url("../../../assets/generated/concept-15/brand-backgrounds/sofiati-concept-15-brand-mark-textured-background.svg") center/260px 260px,
     var(--ink);
 }
 .public-menu-layout-botanical-fade,
@@ -2548,7 +2548,7 @@ body.page-consultation .public-secondary-bar:not(.public-secondary-none) {
       color-mix(in srgb, #9a6b35 24%, transparent),
       transparent 28%
     ),
-    url("../assets/backgrounds/mobile-menu-background.svg") right bottom/360px
+    url("../../../assets/generated/concept-15/navigation/sofiati-concept-15-mobile-menu-background.svg") right bottom/360px
       360px no-repeat,
     var(--deep-sage);
   border-color: rgba(255, 255, 255, 0.18);
@@ -2704,7 +2704,7 @@ body.public-menu-locked {
   bottom: clamp(12px, 3vw, 34px);
   width: min(444px, 42vw);
   aspect-ratio: 1;
-  background: url("../assets/brand/footer-signature-watermark.png")
+  background: url("../../../assets/generated/concept-15/footer/sofiati-concept-15-footer-watermark-version.svg")
     center/contain no-repeat;
   opacity: 0.075;
   transform: rotate(7deg);
@@ -5672,3 +5672,23 @@ body.page-sitemap .hero-visual.photo-frame--hero {
   }
 }
 /* SOFIATI EDITORIAL POLISH END */
+
+/* Generated asset bridge for 15-clarity. */
+.public-footer-15 {
+  background-image: url("../../../assets/generated/concept-15/footer/sofiati-concept-15-footer-background.svg");
+  background-size: cover;
+  background-position: center;
+}
+.public-footer-15 .public-footer-watermark {
+  position: absolute;
+  inset: auto 5% 10% auto;
+  width: min(260px, 34vw);
+  opacity: .16;
+  pointer-events: none;
+}
+.public-header-15 .public-brand-mark img,
+.public-menu-15 .public-brand-mark img,
+.public-footer-15 .footer-signature-logo img {
+  max-width: min(220px, 50vw);
+  height: auto;
+}

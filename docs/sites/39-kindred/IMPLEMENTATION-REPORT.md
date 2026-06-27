@@ -1,11 +1,10 @@
 # 39-kindred Kindred IMPLEMENTATION-REPORT
 
-Run date/time: 2026-06-27T18:52:24.781Z
-Command: node scripts/continue-sofiati-atlas.mjs --site=39-kindred
+Run date/time: 2026-06-27T21:26:33.189Z
+Command: /usr/bin/node /run/media/code/Storage/GitHub/ashtra/health/scripts/sites/39-kindred/implement.mjs
 Status: complete
 
 ## Pages checked
-
 - index.html: 10 sections, 10 comments, max 2 visible links/buttons
 - about.html: 10 sections, 10 comments, max 2 visible links/buttons
 - care.html: 10 sections, 10 comments, max 2 visible links/buttons
@@ -29,44 +28,55 @@ Status: complete
 - thank-you.html: 10 sections, 10 comments, max 2 visible links/buttons
 
 ## Pages updated
-
 - None during this run
 
 ## Assets checked
-
 - Assets mapped in master brief: yes
 - Missing assets: none
 
 ## Internal links checked
-
 - Maximum two visible links/buttons per section: passed
 - Pages missing form or WhatsApp route: none
 
 ## CTAs checked
-
 - Pages missing final CTA: none
 - Pages missing reassurance section: none
 
 ## Partials checked
-
 - Strategy mapped: yes
 - Site-specific partial strategy: magazineHero, articleFeature, serviceChapter, ctaSpread, footerMagazine
 
-## Cleanup performed
+## Required asset and visual differentiation audit notes
+- 1. Images from assets/photos: assets/photos source index 10; assets/photos alternate crop index 17 are cropped into hero, CTA, journal, social, form, and responsive WebP assets.
+- 2. Images from assets/brand-photos: folder is absent in this branch; no external replacement was invented.
+- 3. Transparent assets from assets/brand: assets/brand transparent portrait index 14; assets/brand migrated Sofiati logo and monogram sources are used for portrait, logo, seal, watermark, and brand-background treatments.
+- 4. Generated assets created: 144 named assets for Kindred, covering logo, hero, portrait, icon, section, card, CTA, navigation, footer, form, journal, social, and responsive categories.
+- 5. Generated assets saved: assets/generated/concept-39.
+- 6. Logo treatment difference: Kindred uses Kindred Personal Route with 96px radius, #694B43 primary, #D1A771 accent, and a concept-39 frame/badge/seal set.
+- 7. Hero layout difference: magazine cover crop with service route tabs; hero imagery uses generated desktop, mobile, overlay, portrait, and brand-composition assets.
+- 8. Section order difference: middle sections rotate by offset 6, changing the page rhythm against adjacent concepts.
+- 9. Service section difference: service visuals use the concept-39 service/care/laser/skin/safety icon set and editorial chapter cards and magazine previews.
+- 10. Consultation CTA difference: CTA uses ../../assets/generated/concept-39/cta/sofiati-concept-39-final-cta-background.webp, ../../assets/generated/concept-39/cta/sofiati-concept-39-consultation-cta-panel.svg, and ../../assets/generated/concept-39/cta/sofiati-concept-39-cta-image-panel.webp with editorial card reveal by section order.
+- 11. Footer difference: minimal legal route footer with botanical stamp with concept-39 footer background, logo, brand mark, divider, CTA badge, contact icons, and watermark.
+- 12. Form layout difference: generated form background, side image, header image, privacy icon, success graphic, contact panel, and consultation form assets are specific to concept-39.
+- 13. Unique layout signatures: 39-kindred-kindred-personal-route-home-hero-promise-01; 39-kindred-kindred-personal-route-home-journal-preview-02; 39-kindred-kindred-personal-route-about-portrait-hero-01; 39-kindred-kindred-personal-route-about-responsible-boundaries-02; 39-kindred-kindred-personal-route-care-care-hero-01; 39-kindred-kindred-personal-route-care-education-preview-02; all pages continue the same descriptive signature pattern.
+- 14. Sections changed to avoid repetition: hero, service route, reassurance, education/journal, contact CTA, and final bridge use generated per-concept art and extra layout families.
+- 15. Mobile-specific assets: ../../assets/generated/concept-39/heroes/sofiati-concept-39-mobile-hero-portrait-crop.webp, ../../assets/generated/concept-39/responsive/sofiati-concept-39-mobile-crop.webp, ../../assets/generated/concept-39/logos/sofiati-concept-39-mobile-logo-version.svg, and ../../assets/generated/concept-39/navigation/sofiati-concept-39-mobile-menu-background.svg.
+- 16. Social/SEO preview assets: ../../assets/generated/concept-39/social/sofiati-concept-39-open-graph-premium-care.webp, ../../assets/generated/concept-39/social/sofiati-concept-39-whatsapp-preview-image.webp, ../../assets/generated/concept-39/social/sofiati-concept-39-social-share-image.webp, ../../assets/generated/concept-39/social/sofiati-concept-39-favicon-set.svg, ../../assets/generated/concept-39/social/sofiati-concept-39-apple-touch-icon.png, ../../assets/generated/concept-39/social/sofiati-concept-39-android-icon.png, ../../assets/generated/concept-39/social/sofiati-concept-39-service-page-preview-image.webp, ../../assets/generated/concept-39/social/sofiati-concept-39-consultation-page-preview-image.webp.
+- 17. Asset restrictions: no remote URLs, stock images, downloaded assets, or unrelated AI photography are used by the generated concept assets.
+- 18. No-text visual difference test: Kindred passes at generation level through unique asset set, family 8, section rotation 6, botanical divider, portrait, route card, footer mark, and no missing section assets.
 
+## Cleanup performed
 - Old planning files are handled by the global cleanup command.
 - This site report supersedes scattered concept planning docs.
 
 ## Unused files removed
-
 - See docs/sites/ATLAS-CONTINUATION-REPORT.md after cleanup.
 
 ## Issues needing human confirmation
-
 - Medical/legal compliance, photography approval, and production contact routing before launch.
 
 ## Manual design review notes
-
 - Confirm Kindred Personal Route reads differently from adjacent concepts.
 - Confirm portrait crops are visible on mobile.
 - Confirm the page feels premium, botanical, calm, and not text-heavy.

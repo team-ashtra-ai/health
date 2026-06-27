@@ -78,7 +78,11 @@ function walkHtml(dir) {
   if (!exists(dir)) return [];
   const out = [];
   for (const item of fs.readdirSync(dir, { withFileTypes: true })) {
-    if (["node_modules", ".git", "docs/script-runs"].includes(item.name))
+    if (
+      ["node_modules", ".git", "docs/script-runs", "partials"].includes(
+        item.name,
+      )
+    )
       continue;
     const full = path.join(dir, item.name);
     if (item.isDirectory()) out.push(...walkHtml(full));
@@ -206,7 +210,19 @@ function evaluate(siteId, siteName) {
 function loadProgress() {
   if (exists(progressPath)) {
     try {
-      return JSON.parse(read(progressPath));
+      const parsed = JSON.parse(read(progressPath));
+      if (Array.isArray(parsed?.sites)) {
+        return Object.fromEntries(
+          parsed.sites
+            .filter((site) => site?.siteId)
+            .map((site) => [site.siteId, site]),
+        );
+      }
+      return Object.fromEntries(
+        Object.entries(parsed).filter(
+          ([key, value]) => /^\d{2}-/.test(key) && value?.siteId,
+        ),
+      );
     } catch {
       return {};
     }
@@ -216,11 +232,18 @@ function loadProgress() {
 
 function saveProgress(progress) {
   ensureDir(docsRoot);
-  fs.writeFileSync(progressPath, JSON.stringify(progress, null, 2) + "\n");
+  const rows = sites.map(([siteId]) => progress[siteId]).filter(Boolean);
+  const payload = {
+    generatedAt: new Date().toISOString(),
+    totalSites: sites.length,
+    completeSites: rows.filter((entry) => entry.status === "complete").length,
+    sites: rows,
+  };
+  fs.writeFileSync(progressPath, JSON.stringify(payload, null, 2) + "\n");
 }
 
 function writeReport(progress, command, completedThisRun = []) {
-  const rows = Object.values(progress);
+  const rows = sites.map(([siteId]) => progress[siteId]).filter(Boolean);
   const complete = rows.filter((x) => x.status === "complete");
   const incomplete = rows.filter((x) => x.status !== "complete");
 
@@ -299,7 +322,7 @@ if (arg === "--next") {
     .filter(([id]) => progress[id]?.status !== "complete")
     .slice(0, n);
 } else if (arg === "--all") {
-  targets = sites.filter(([id]) => progress[id]?.status !== "complete");
+  targets = sites;
 } else if (arg.startsWith("--site=")) {
   const id = arg.split("=")[1];
   const found = sites.find(([siteId]) => siteId === id);

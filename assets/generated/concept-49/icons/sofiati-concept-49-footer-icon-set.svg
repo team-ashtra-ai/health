@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-label="Wisdom footer icon set for Wisdom">
+  <rect width="960" height="640" rx="96" fill="#20282B"/>
+  <rect x="40" y="40" width="880" height="560" rx="90" fill="none" stroke="#9A6B35" stroke-width="2" opacity=".5"/>
+  <circle cx="480" cy="310" r="150" fill="none" stroke="#9A6B35" stroke-width="24"/><path d="M410 330 C460 250 506 380 560 288" fill="none" stroke="#9A6B35" stroke-width="22" stroke-linecap="round"/>
+  <text x="480" y="470" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" letter-spacing="5" fill="#F6F4EA" opacity=".82">WISDOM FOOTER</text>
+</svg>

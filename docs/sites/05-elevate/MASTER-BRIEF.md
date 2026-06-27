@@ -1,7 +1,6 @@
 # 05-elevate Elevate MASTER-BRIEF
 
 ## 1. Site identity
-
 - Site ID: 05-elevate
 - Site name: Elevate
 - Canonical concept number: 05
@@ -10,15 +9,12 @@
 - Core promise: calm aesthetic guidance, evaluation first, realistic expectations, and natural-looking confidence.
 
 ## 2. Canonical source statement
-
 This master brief is the canonical source of truth for this site. Older page-flow, internal-link, design-DNA, design-note, asset-plan, audit, and report files are historical only and must not be used as active planning sources.
 
 ## 3. Design DNA
-
 Elevate uses Elevated Botanical Salon: salon-style portrait panel with bronze rule. The site rhythm is botanical dividers and salon-style quote frames. It must feel premium, botanical, calm, personal, and distinctly different from the other 49 concepts.
 
 ## 4. Design notes
-
 - Hero strategy: salon-style portrait panel with bronze rule.
 - Section silhouettes: botanical dividers and salon-style quote frames.
 - Image rhythm: journal thumbnail, portrait, service icon, texture.
@@ -26,36 +22,29 @@ Elevate uses Elevated Botanical Salon: salon-style portrait panel with bronze ru
 - Must not look like: rustic beige sameness, ornamental clutter, badge overload.
 
 ## 5. Brand foundation
-
 Sofiati shares one ethical brand foundation: cuidado, confianca, seguranca, naturalidade, premium calm, real-photo-led storytelling, and professional guidance without pressure.
 
 ## 6. Shared colour and typography rules
-
 ```css
 :root {
-  --sofiati-sage: #a2aea0;
+  --sofiati-sage: #A2AEA0;
   --sofiati-sage-deep: #485041;
-  --sofiati-ivory: #f2eee3;
-  --sofiati-cream: #f8f7f2;
-  --sofiati-bronze: #9a6b35;
-  --sofiati-gold: #cdaa78;
+  --sofiati-ivory: #F2EEE3;
+  --sofiati-cream: #F8F7F2;
+  --sofiati-bronze: #9A6B35;
+  --sofiati-gold: #CDAA78;
   --sofiati-ink: #252321;
   --sofiati-serif: Georgia, "Times New Roman", serif;
-  --sofiati-sans:
-    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", sans-serif;
+  --sofiati-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --sofiati-label-spacing: 0.12em;
 }
 ```
-
 Site-specific layer: primary #403F36, accent #B88352, surface #F2EEE3, radius 22px.
 
 ## 7. Site-specific visual rhythm
-
 botanical dividers and salon-style quote frames. Page sections keep one opening promise, varied middle routes, one reassurance beat, and a final CTA.
 
 ## 8. Page list
-
 - Home: concepts/05-elevate/index.html
 - About: concepts/05-elevate/about.html
 - Care: concepts/05-elevate/care.html
@@ -79,7 +68,6 @@ botanical dividers and salon-style quote frames. Page sections keep one opening 
 - Thank You: concepts/05-elevate/thank-you.html
 
 ## 9. Page flow map
-
 - Home: Hero Promise -> Editorial Break -> Responsible Results -> Journal Preview -> Contact CTA -> Brand Values -> Meet Franciele -> Care Routes -> Consultation Approach -> Footer Bridge
 - About: Portrait Hero -> Editorial Pause -> Client Guidance -> Responsible Boundaries -> Related Routes -> Professional Presence -> Care Philosophy -> Values in Practice -> Human Trust -> Consultation CTA
 - Care: Care Hero -> Statement Break -> Safety Comfort -> Education Preview -> Prepare Consultation -> Care Meaning -> Listening First -> Care Steps -> Related Services -> Final CTA
@@ -103,11 +91,9 @@ botanical dividers and salon-style quote frames. Page sections keep one opening 
 - Thank You: Thank You Hero -> Journal Preview -> Privacy Reassurance -> Contact Again -> Brand Reassurance -> What Happens Next -> While You Wait -> Prepare Consultation -> Care Education -> Final Route
 
 ## 10. Section storytelling map
-
 Every page tells a short journey: opening promise, context, human trust, service or support guidance, reassurance, education route, contact route, and final CTA. Elevate expresses that journey through Elevated Botanical Salon.
 
 ## 11. Internal linking map
-
 - Home
   - Section 01: Request evaluation / Message WhatsApp -> consultation.html, https://wa.me/5543991043536. SEO: Supports topical depth without bottom-only link dumps. Trust: Places guidance near the visitor question being answered. Conversion: Keeps consultation or contact routes near decision intent.
   - Section 03: Understand results / Request evaluation -> results.html, consultation.html. SEO: Supports topical depth without bottom-only link dumps. Trust: Places guidance near the visitor question being answered. Conversion: Keeps consultation or contact routes near decision intent.
@@ -312,405 +298,371 @@ Every page tells a short journey: opening promise, context, human trust, service
   - Section 10: Home / Journal -> index.html, journal.html. SEO: Supports topical depth without bottom-only link dumps. Trust: Places guidance near the visitor question being answered. Conversion: Keeps consultation or contact routes near decision intent.
 
 ## 12. Asset inventory
-
-- Icons: assets/icons/care.svg, assets/icons/credentials.svg, assets/icons/safety.svg, assets/icons/values.svg, assets/icons/consultation.svg, assets/icons/contact.svg, assets/icons/journal.svg, assets/icons/laser.svg, assets/icons/skin.svg, assets/icons/results.svg, assets/icons/mission.svg, assets/icons/whatsapp.svg
-- Botanical/decorative assets: assets/botanical/gold-leaf-divider.svg, assets/botanical/section-separator.svg, assets/botanical/monogram-wreath.svg
-- Portrait assets: assets/portrait/franciele-portrait-elevate.webp
-- Backgrounds: assets/backgrounds/botanical-background.svg, assets/backgrounds/mobile-menu-background.svg
-- Textures: assets/textures/soft-skin-texture.svg, assets/textures/clinical-paper-texture.svg
-- Forms: assets/forms/consultation-form-frame.svg
-- Animations: assets/animations/motion-path.svg
-- Journal assets: assets/journal/journal-thumbnail-1.svg, assets/journal/journal-thumbnail-2.svg, assets/journal/journal-thumbnail-3.svg
-- Service assets: assets/service/care-service-visual.svg, assets/service/laser-service-visual.svg, assets/service/skin-service-visual.svg, assets/service/results-service-visual.svg
-- Generated assets: assets/generated/homepage-asset-composition.svg
+- Source folders used: assets/photos, assets/brand
+- Source folders absent in this branch: assets/brand-photos
+- Logos: ../../assets/generated/concept-05/logos/sofiati-concept-05-logo-lockup-cream-gold-badge.svg, ../../assets/generated/concept-05/logos/sofiati-concept-05-logo-badge-botanical-frame.svg, ../../assets/generated/concept-05/logos/sofiati-concept-05-logo-mark-soft-seal.svg, ../../assets/generated/concept-05/logos/sofiati-concept-05-logo-seal-editorial.svg, ../../assets/generated/concept-05/logos/sofiati-concept-05-logo-on-background.webp, ../../assets/generated/concept-05/logos/sofiati-concept-05-header-logo-version.svg, ../../assets/generated/concept-05/logos/sofiati-concept-05-footer-logo-version.svg, ../../assets/generated/concept-05/logos/sofiati-concept-05-mobile-logo-version.svg, ../../assets/generated/concept-05/logos/sofiati-concept-05-favicon-logo-icon.svg, ../../assets/generated/concept-05/logos/sofiati-concept-05-favicon-logo-icon.ico, ../../assets/generated/concept-05/logos/sofiati-concept-05-social-preview-logo.svg, ../../assets/generated/concept-05/logos/sofiati-concept-05-logo-watermark.svg
+- Icons: ../../assets/generated/concept-05/icons/sofiati-concept-05-service-icon-set.svg, ../../assets/generated/concept-05/icons/sofiati-concept-05-care-icon-set.svg, ../../assets/generated/concept-05/icons/sofiati-concept-05-laser-icon-set.svg, ../../assets/generated/concept-05/icons/sofiati-concept-05-skin-icon-set.svg, ../../assets/generated/concept-05/icons/sofiati-concept-05-consultation-icon-set.svg, ../../assets/generated/concept-05/icons/sofiati-concept-05-safety-reassurance-icon-set.svg, ../../assets/generated/concept-05/icons/sofiati-concept-05-faq-icon-set.svg, ../../assets/generated/concept-05/icons/sofiati-concept-05-contact-icon-set.svg, ../../assets/generated/concept-05/icons/sofiati-concept-05-navigation-icon-set.svg, ../../assets/generated/concept-05/icons/sofiati-concept-05-footer-icon-set.svg, ../../assets/generated/concept-05/icons/sofiati-concept-05-whatsapp-cta-icon.svg, ../../assets/generated/concept-05/icons/sofiati-concept-05-back-to-top-icon.svg
+- Botanical/decorative assets: ../../assets/generated/concept-05/decorative/sofiati-concept-05-botanical-accent.svg, ../../assets/generated/concept-05/decorative/sofiati-concept-05-gold-divider.svg, ../../assets/generated/concept-05/decorative/sofiati-concept-05-section-divider.svg, ../../assets/generated/concept-05/decorative/sofiati-concept-05-corner-decoration.svg, ../../assets/generated/concept-05/decorative/sofiati-concept-05-frame-asset.svg, ../../assets/generated/concept-05/decorative/sofiati-concept-05-watermark-asset.svg, ../../assets/generated/concept-05/decorative/sofiati-concept-05-pattern-asset.svg, ../../assets/generated/concept-05/decorative/sofiati-concept-05-texture-asset.svg, ../../assets/generated/concept-05/decorative/sofiati-concept-05-quote-mark-asset.svg, ../../assets/generated/concept-05/decorative/sofiati-concept-05-line-art-asset.svg
+- Portrait assets: ../../assets/generated/concept-05/portraits/sofiati-concept-05-portrait-crop.webp, ../../assets/generated/concept-05/portraits/sofiati-concept-05-circular-portrait.svg, ../../assets/generated/concept-05/portraits/sofiati-concept-05-editorial-portrait.webp, ../../assets/generated/concept-05/portraits/sofiati-concept-05-vertical-portrait.webp, ../../assets/generated/concept-05/portraits/sofiati-concept-05-square-portrait.webp, ../../assets/generated/concept-05/portraits/sofiati-concept-05-portrait-card.webp, ../../assets/generated/concept-05/portraits/sofiati-concept-05-portrait-background-version.webp, ../../assets/generated/concept-05/portraits/sofiati-concept-05-portrait-overlay-version.svg
+- Backgrounds: ../../assets/generated/concept-05/backgrounds/sofiati-concept-05-home-section-background.svg, ../../assets/generated/concept-05/backgrounds/sofiati-concept-05-about-section-background.svg, ../../assets/generated/concept-05/backgrounds/sofiati-concept-05-care-section-background.svg, ../../assets/generated/concept-05/backgrounds/sofiati-concept-05-laser-section-background.svg, ../../assets/generated/concept-05/backgrounds/sofiati-concept-05-skin-section-background.svg, ../../assets/generated/concept-05/backgrounds/sofiati-concept-05-results-section-background.svg, ../../assets/generated/concept-05/backgrounds/sofiati-concept-05-consultation-section-background.svg, ../../assets/generated/concept-05/backgrounds/sofiati-concept-05-contact-section-background.svg, ../../assets/generated/concept-05/backgrounds/sofiati-concept-05-faq-section-background.svg, ../../assets/generated/concept-05/backgrounds/sofiati-concept-05-footer-background.svg, ../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-cream-background.svg, ../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-beige-background.svg, ../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-botanical-green-background.svg, ../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-gold-background.svg, ../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-dark-editorial-background.svg, ../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-gradient-background.svg, ../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-textured-background.svg, ../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-framed-background.svg
+- Textures: ../../assets/generated/concept-05/decorative/sofiati-concept-05-texture-asset.svg, ../../assets/generated/concept-05/decorative/sofiati-concept-05-pattern-asset.svg
+- Forms: ../../assets/generated/concept-05/forms/sofiati-concept-05-form-background.webp, ../../assets/generated/concept-05/forms/sofiati-concept-05-form-side-image.webp, ../../assets/generated/concept-05/forms/sofiati-concept-05-form-header-image.webp, ../../assets/generated/concept-05/forms/sofiati-concept-05-form-icon-set.svg, ../../assets/generated/concept-05/forms/sofiati-concept-05-form-privacy-icon.svg, ../../assets/generated/concept-05/forms/sofiati-concept-05-success-message-graphic.svg, ../../assets/generated/concept-05/forms/sofiati-concept-05-contact-panel-asset.svg, ../../assets/generated/concept-05/forms/sofiati-concept-05-consultation-form-asset.svg
+- Journal assets: ../../assets/generated/concept-05/journal/sofiati-concept-05-blog-hero-image.webp, ../../assets/generated/concept-05/journal/sofiati-concept-05-blog-card-image.webp, ../../assets/generated/concept-05/journal/sofiati-concept-05-featured-article-image.webp, ../../assets/generated/concept-05/journal/sofiati-concept-05-article-header-image.webp, ../../assets/generated/concept-05/journal/sofiati-concept-05-author-portrait-treatment.svg, ../../assets/generated/concept-05/journal/sofiati-concept-05-category-icon-set.svg, ../../assets/generated/concept-05/journal/sofiati-concept-05-related-post-card-asset.svg, ../../assets/generated/concept-05/journal/sofiati-concept-05-journal-background-asset.svg
+- Service assets: ../../assets/generated/concept-05/icons/sofiati-concept-05-service-icon-set.svg, ../../assets/generated/concept-05/icons/sofiati-concept-05-care-icon-set.svg, ../../assets/generated/concept-05/icons/sofiati-concept-05-laser-icon-set.svg, ../../assets/generated/concept-05/icons/sofiati-concept-05-skin-icon-set.svg, ../../assets/generated/concept-05/icons/sofiati-concept-05-safety-reassurance-icon-set.svg, ../../assets/generated/concept-05/cards/sofiati-concept-05-service-card-gold-edge.svg, ../../assets/generated/concept-05/cards/sofiati-concept-05-result-card.svg
+- CTA assets: ../../assets/generated/concept-05/cta/sofiati-concept-05-final-cta-background.webp, ../../assets/generated/concept-05/cta/sofiati-concept-05-consultation-cta-panel.svg, ../../assets/generated/concept-05/cta/sofiati-concept-05-whatsapp-cta-treatment.svg, ../../assets/generated/concept-05/cta/sofiati-concept-05-cta-badge.svg, ../../assets/generated/concept-05/cta/sofiati-concept-05-cta-seal.svg, ../../assets/generated/concept-05/cta/sofiati-concept-05-cta-button-icon-version.svg, ../../assets/generated/concept-05/cta/sofiati-concept-05-cta-image-panel.webp, ../../assets/generated/concept-05/cta/sofiati-concept-05-cta-section-divider.svg
+- Navigation assets: ../../assets/generated/concept-05/navigation/sofiati-concept-05-header-logo-version.svg, ../../assets/generated/concept-05/navigation/sofiati-concept-05-sticky-header-logo-version.svg, ../../assets/generated/concept-05/navigation/sofiati-concept-05-mobile-menu-background.svg, ../../assets/generated/concept-05/navigation/sofiati-concept-05-mobile-menu-icon.svg, ../../assets/generated/concept-05/navigation/sofiati-concept-05-navigation-divider.svg, ../../assets/generated/concept-05/navigation/sofiati-concept-05-navigation-hover-accent.svg, ../../assets/generated/concept-05/navigation/sofiati-concept-05-menu-close-icon.svg, ../../assets/generated/concept-05/navigation/sofiati-concept-05-menu-badge-asset.svg
+- Footer assets: ../../assets/generated/concept-05/footer/sofiati-concept-05-footer-background.svg, ../../assets/generated/concept-05/footer/sofiati-concept-05-footer-logo-version.svg, ../../assets/generated/concept-05/footer/sofiati-concept-05-footer-brand-mark.svg, ../../assets/generated/concept-05/footer/sofiati-concept-05-footer-botanical-accent.svg, ../../assets/generated/concept-05/footer/sofiati-concept-05-footer-gold-divider.svg, ../../assets/generated/concept-05/footer/sofiati-concept-05-footer-cta-badge.svg, ../../assets/generated/concept-05/footer/sofiati-concept-05-footer-contact-icon-set.svg, ../../assets/generated/concept-05/footer/sofiati-concept-05-footer-watermark-version.svg
+- Social/SEO assets: ../../assets/generated/concept-05/social/sofiati-concept-05-open-graph-premium-care.webp, ../../assets/generated/concept-05/social/sofiati-concept-05-whatsapp-preview-image.webp, ../../assets/generated/concept-05/social/sofiati-concept-05-social-share-image.webp, ../../assets/generated/concept-05/social/sofiati-concept-05-favicon-set.svg, ../../assets/generated/concept-05/social/sofiati-concept-05-apple-touch-icon.png, ../../assets/generated/concept-05/social/sofiati-concept-05-android-icon.png, ../../assets/generated/concept-05/social/sofiati-concept-05-service-page-preview-image.webp, ../../assets/generated/concept-05/social/sofiati-concept-05-consultation-page-preview-image.webp
+- Responsive assets: ../../assets/generated/concept-05/responsive/sofiati-concept-05-desktop-crop.webp, ../../assets/generated/concept-05/responsive/sofiati-concept-05-tablet-crop.webp, ../../assets/generated/concept-05/responsive/sofiati-concept-05-mobile-crop.webp, ../../assets/generated/concept-05/responsive/sofiati-concept-05-square-crop.webp, ../../assets/generated/concept-05/responsive/sofiati-concept-05-vertical-crop.webp, ../../assets/generated/concept-05/responsive/sofiati-concept-05-wide-crop.webp, ../../assets/generated/concept-05/responsive/sofiati-concept-05-thumbnail.webp, ../../assets/generated/concept-05/responsive/sofiati-concept-05-low-quality-placeholder.webp, ../../assets/generated/concept-05/responsive/sofiati-concept-05-compressed-webp-version.webp
+- Section assets: ../../assets/generated/concept-05/section-assets/sofiati-concept-05-home-section-asset.svg, ../../assets/generated/concept-05/section-assets/sofiati-concept-05-about-section-asset.svg, ../../assets/generated/concept-05/section-assets/sofiati-concept-05-care-section-asset.svg, ../../assets/generated/concept-05/section-assets/sofiati-concept-05-laser-section-asset.svg, ../../assets/generated/concept-05/section-assets/sofiati-concept-05-skin-section-asset.svg, ../../assets/generated/concept-05/section-assets/sofiati-concept-05-results-section-asset.svg, ../../assets/generated/concept-05/section-assets/sofiati-concept-05-consultation-section-asset.svg, ../../assets/generated/concept-05/section-assets/sofiati-concept-05-contact-section-asset.svg, ../../assets/generated/concept-05/section-assets/sofiati-concept-05-faq-section-asset.svg, ../../assets/generated/concept-05/section-assets/sofiati-concept-05-legal-support-section-asset.svg, ../../assets/generated/concept-05/section-assets/sofiati-concept-05-homepage-asset-composition.svg
 
 ## 13. Asset notes
-
-All assets are local to concepts/05-elevate/assets unless listed as shared brand tokens. Meaningful photos need descriptive alt text. Decorative icons may use empty alt text. Keep images light, crop faces safely on mobile, and replace assets only with equal-quality Sofiati brand material.
+All production media for Elevate is local to assets/generated/concept-05 and is derived from assets/photos and assets/brand. assets/brand-photos is not present in this branch, so transparent portrait/brand sources in assets/brand are used for portrait treatments. Meaningful photos need descriptive alt text. Decorative icons may use empty alt text. Keep images light, crop faces safely on mobile, and replace assets only with equal-quality Sofiati brand material.
 
 ## 14. Asset plan
-
-Hero and human-trust sections use the local Franciele portrait. Service pages use service SVGs. Education sections use journal thumbnails. Support pages use legal or generated assets. Decorative breaks use botanical dividers and textures to prevent a cloned page rhythm.
+Hero, human-trust, service, education, support, navigation, footer, form, responsive, and social preview moments use the generated concept-05 asset set. The same Sofiati source material may repeat, but crop, frame, colour treatment, section role, and mobile presentation must change for Elevate.
 
 ## 15. Portrait/photo usage plan
-
-Use assets/portrait/franciele-portrait-elevate.webp on opening, human-trust, contact, and consultation moments. Keep her face visible on mobile and never darken or blur the portrait beyond recognition.
+Use generated portrait crops from assets/generated/concept-05/portraits and generated hero crops from assets/generated/concept-05/heroes. Keep Franciele visible on mobile and never darken or blur the portrait beyond recognition.
 
 ## 16. Botanical/decorative asset usage plan
-
-Use botanical SVGs as dividers, stamps, and section accents. They support rhythm only; they must not cover text, buttons, or faces.
+Use concept-05 botanical SVGs as dividers, stamps, corner details, and section accents. They support rhythm only; they must not cover text, buttons, or faces.
 
 ## 17. Background/texture usage plan
-
-Use soft texture backgrounds behind statement and support sections. Texture opacity must stay low enough for WCAG-friendly contrast.
+Use concept-05 generated backgrounds behind statement and support sections. Texture opacity must stay low enough for WCAG-friendly contrast.
 
 ## 18. Form asset usage plan
-
-Use assets/forms/consultation-form-frame.svg in consultation and contact CTA sections to frame the action without creating pressure.
+Use assets/generated/concept-05/forms assets in consultation and contact CTA sections to frame the action without creating pressure.
 
 ## 19. Animation/motion plan
-
 botanical accent sway disabled for reduced motion. All motion must respect reduced-motion preferences.
 
 ## 20. Journal asset plan
-
 Journal and blog sections use three thumbnail assets and present education as a premium magazine preview, not a link dump.
 
 ## 21. Service asset plan
-
 Care, Skin, Laser, and Results use distinct service SVGs with short explanatory copy. No equipment claims are invented.
 
 ## 22. Content direction
-
 Copy stays short, ethical, image-led, premium, feminine, calm, and conversion-focused without pressure.
 
 ## 23. Same-content rules
-
 The meaning may match the Sofiati foundation, but Elevate must vary layout signatures, section order, asset rhythm, CTA rhythm, partial strategy, and mobile presentation.
 
 ## 24. Page-by-page 10-section structure
-
 ### Home (index.html)
-
-| #   | Section               | Role                     | Heading                | Short text                                                                                                  | Primary CTA        | Secondary CTA      | Layout signature                                                  |
-| --- | --------------------- | ------------------------ | ---------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------ | ------------------ | ----------------------------------------------------------------- |
-| 01  | Hero Promise          | opening-promise          | Personalized care      | A calm, attentive approach shaped around your goals, comfort, and realistic expectations.                   | Request evaluation | Message WhatsApp   | 05-elevate-elevated-botanical-salon-home-hero-promise-01          |
-| 02  | Editorial Break       | reassurance-statement    | Care with clarity      | A refined experience should feel calm, considered, and easy to understand.                                  | None               | None               | 05-elevate-elevated-botanical-salon-home-editorial-break-02       |
-| 03  | Responsible Results   | reassurance-expectations | Realistic expectations | Results should be discussed responsibly, with attention to individual needs and natural-looking confidence. | Understand results | Request evaluation | 05-elevate-elevated-botanical-salon-home-responsible-results-03   |
-| 04  | Journal Preview       | education-route          | Learn first            | Read calm, practical guidance before choosing your next step.                                               | Read journal       | View articles      | 05-elevate-elevated-botanical-salon-home-journal-preview-04       |
-| 05  | Contact CTA           | conversion-contact       | Begin calmly           | Send your question or request an evaluation when you feel ready.                                            | Request evaluation | Message WhatsApp   | 05-elevate-elevated-botanical-salon-home-contact-cta-05           |
-| 06  | Brand Values          | trust-values             | Care principles        | Every decision begins with listening, clarity, safety, and natural-looking confidence.                      | View values        | Read mission       | 05-elevate-elevated-botanical-salon-home-brand-values-06          |
-| 07  | Meet Franciele        | human-trust              | Meet Franciele         | Franciele brings a careful presence to each consultation, shaped by conversation and observation.           | Meet Franciele     | Begin consultation | 05-elevate-elevated-botanical-salon-home-meet-franciele-07        |
-| 08  | Care Routes           | service-route            | Care routes            | Explore focused guidance for skin, laser, care planning, and responsible expectations.                      | Explore care       | View skin          | 05-elevate-elevated-botanical-salon-home-care-routes-08           |
-| 09  | Consultation Approach | explanation-process      | How it begins          | The first step is a calm conversation about your skin, routine, goals, and comfort level.                   | Book consultation  | Read FAQ           | 05-elevate-elevated-botanical-salon-home-consultation-approach-09 |
-| 10  | Footer Bridge         | conversion-final         | Your next route        | Continue through the site or reach out directly for guidance.                                               | Contact Franciele  | Open sitemap       | 05-elevate-elevated-botanical-salon-home-footer-bridge-10         |
+| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
+|---|---|---|---|---|---|---|---|
+| 01 | Hero Promise | opening-promise | Personalized care | A calm, attentive approach shaped around your goals, comfort, and realistic expectations. | Request evaluation | Message WhatsApp | 05-elevate-elevated-botanical-salon-home-hero-promise-01 |
+| 02 | Editorial Break | reassurance-statement | Care with clarity | A refined experience should feel calm, considered, and easy to understand. | None | None | 05-elevate-elevated-botanical-salon-home-editorial-break-02 |
+| 03 | Responsible Results | reassurance-expectations | Realistic expectations | Results should be discussed responsibly, with attention to individual needs and natural-looking confidence. | Understand results | Request evaluation | 05-elevate-elevated-botanical-salon-home-responsible-results-03 |
+| 04 | Journal Preview | education-route | Learn first | Read calm, practical guidance before choosing your next step. | Read journal | View articles | 05-elevate-elevated-botanical-salon-home-journal-preview-04 |
+| 05 | Contact CTA | conversion-contact | Begin calmly | Send your question or request an evaluation when you feel ready. | Request evaluation | Message WhatsApp | 05-elevate-elevated-botanical-salon-home-contact-cta-05 |
+| 06 | Brand Values | trust-values | Care principles | Every decision begins with listening, clarity, safety, and natural-looking confidence. | View values | Read mission | 05-elevate-elevated-botanical-salon-home-brand-values-06 |
+| 07 | Meet Franciele | human-trust | Meet Franciele | Franciele brings a careful presence to each consultation, shaped by conversation and observation. | Meet Franciele | Begin consultation | 05-elevate-elevated-botanical-salon-home-meet-franciele-07 |
+| 08 | Care Routes | service-route | Care routes | Explore focused guidance for skin, laser, care planning, and responsible expectations. | Explore care | View skin | 05-elevate-elevated-botanical-salon-home-care-routes-08 |
+| 09 | Consultation Approach | explanation-process | How it begins | The first step is a calm conversation about your skin, routine, goals, and comfort level. | Book consultation | Read FAQ | 05-elevate-elevated-botanical-salon-home-consultation-approach-09 |
+| 10 | Footer Bridge | conversion-final | Your next route | Continue through the site or reach out directly for guidance. | Contact Franciele | Open sitemap | 05-elevate-elevated-botanical-salon-home-footer-bridge-10 |
 
 ### About (about.html)
-
-| #   | Section                | Role                  | Heading              | Short text                                                                                           | Primary CTA        | Secondary CTA      | Layout signature                                                    |
-| --- | ---------------------- | --------------------- | -------------------- | ---------------------------------------------------------------------------------------------------- | ------------------ | ------------------ | ------------------------------------------------------------------- |
-| 01  | Portrait Hero          | opening-portrait      | About Franciele      | A calm professional presence for aesthetic guidance, consultation, and realistic planning.           | Begin consultation | Message WhatsApp   | 05-elevate-elevated-botanical-salon-about-portrait-hero-01          |
-| 02  | Editorial Pause        | reassurance-statement | Clarity feels calm   | The best decisions are made with time, attention, and honest guidance.                               | None               | None               | 05-elevate-elevated-botanical-salon-about-editorial-pause-02        |
-| 03  | Client Guidance        | explanation-process   | How clients start    | The journey begins with conversation, then moves into careful evaluation and planning.               | Book consultation  | Read FAQ           | 05-elevate-elevated-botanical-salon-about-client-guidance-03        |
-| 04  | Responsible Boundaries | reassurance-boundary  | Responsible guidance | Recommendations depend on individual assessment and should be discussed with realistic expectations. | Understand results | Privacy            | 05-elevate-elevated-botanical-salon-about-responsible-boundaries-04 |
-| 05  | Related Routes         | internal-route        | Continue exploring   | Learn more about the approach and the care journey.                                                  | Explore care       | Read mission       | 05-elevate-elevated-botanical-salon-about-related-routes-05         |
-| 06  | Professional Presence  | trust-explanation     | Careful guidance     | Her approach is attentive, clear, and guided by the person in front of her.                          | View care          | None               | 05-elevate-elevated-botanical-salon-about-professional-presence-06  |
-| 07  | Care Philosophy        | brand-philosophy      | Care philosophy      | Good care begins with understanding your goals, routine, and comfort before planning next steps.     | Read mission       | View values        | 05-elevate-elevated-botanical-salon-about-care-philosophy-07        |
-| 08  | Values in Practice     | trust-values          | Values in practice   | Care, trust, safety, and naturality shape the client experience.                                     | View values        | Request evaluation | 05-elevate-elevated-botanical-salon-about-values-in-practice-08     |
-| 09  | Human Trust            | human-trust           | A human approach     | Consultation should feel clear, respectful, and personal from the first conversation.                | Contact Franciele  | None               | 05-elevate-elevated-botanical-salon-about-human-trust-09            |
-| 10  | Consultation CTA       | conversion-final      | Start with clarity   | Request an evaluation or send a private message when you are ready.                                  | Request evaluation | Message WhatsApp   | 05-elevate-elevated-botanical-salon-about-consultation-cta-10       |
+| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
+|---|---|---|---|---|---|---|---|
+| 01 | Portrait Hero | opening-portrait | About Franciele | A calm professional presence for aesthetic guidance, consultation, and realistic planning. | Begin consultation | Message WhatsApp | 05-elevate-elevated-botanical-salon-about-portrait-hero-01 |
+| 02 | Editorial Pause | reassurance-statement | Clarity feels calm | The best decisions are made with time, attention, and honest guidance. | None | None | 05-elevate-elevated-botanical-salon-about-editorial-pause-02 |
+| 03 | Client Guidance | explanation-process | How clients start | The journey begins with conversation, then moves into careful evaluation and planning. | Book consultation | Read FAQ | 05-elevate-elevated-botanical-salon-about-client-guidance-03 |
+| 04 | Responsible Boundaries | reassurance-boundary | Responsible guidance | Recommendations depend on individual assessment and should be discussed with realistic expectations. | Understand results | Privacy | 05-elevate-elevated-botanical-salon-about-responsible-boundaries-04 |
+| 05 | Related Routes | internal-route | Continue exploring | Learn more about the approach and the care journey. | Explore care | Read mission | 05-elevate-elevated-botanical-salon-about-related-routes-05 |
+| 06 | Professional Presence | trust-explanation | Careful guidance | Her approach is attentive, clear, and guided by the person in front of her. | View care | None | 05-elevate-elevated-botanical-salon-about-professional-presence-06 |
+| 07 | Care Philosophy | brand-philosophy | Care philosophy | Good care begins with understanding your goals, routine, and comfort before planning next steps. | Read mission | View values | 05-elevate-elevated-botanical-salon-about-care-philosophy-07 |
+| 08 | Values in Practice | trust-values | Values in practice | Care, trust, safety, and naturality shape the client experience. | View values | Request evaluation | 05-elevate-elevated-botanical-salon-about-values-in-practice-08 |
+| 09 | Human Trust | human-trust | A human approach | Consultation should feel clear, respectful, and personal from the first conversation. | Contact Franciele | None | 05-elevate-elevated-botanical-salon-about-human-trust-09 |
+| 10 | Consultation CTA | conversion-final | Start with clarity | Request an evaluation or send a private message when you are ready. | Request evaluation | Message WhatsApp | 05-elevate-elevated-botanical-salon-about-consultation-cta-10 |
 
 ### Care (care.html)
-
-| #   | Section              | Role                  | Heading           | Short text                                                                                  | Primary CTA        | Secondary CTA    | Layout signature                                                 |
-| --- | -------------------- | --------------------- | ----------------- | ------------------------------------------------------------------------------------------- | ------------------ | ---------------- | ---------------------------------------------------------------- |
-| 01  | Care Hero            | opening-care          | Personalized care | Care begins with listening, then moves toward thoughtful planning and clear next steps.     | Request evaluation | Message WhatsApp | 05-elevate-elevated-botanical-salon-care-care-hero-01            |
-| 02  | Statement Break      | reassurance-statement | Care needs calm   | The right pace helps decisions feel clearer.                                                | None               | None             | 05-elevate-elevated-botanical-salon-care-statement-break-02      |
-| 03  | Safety Comfort       | reassurance-safety    | Feel comfortable  | Questions, limits, and expectations can all be discussed before any decision is made.       | Read FAQ           | Privacy          | 05-elevate-elevated-botanical-salon-care-safety-comfort-03       |
-| 04  | Education Preview    | education-route       | Learn before care | Read practical guidance before choosing your next step.                                     | Read journal       | View blog        | 05-elevate-elevated-botanical-salon-care-education-preview-04    |
-| 05  | Prepare Consultation | conversion-prep       | Before you start  | Bring your goals, routine, questions, and comfort level into the conversation.              | Begin consultation | Message WhatsApp | 05-elevate-elevated-botanical-salon-care-prepare-consultation-05 |
-| 06  | Care Meaning         | explanation-care      | What care means   | Your goals, comfort, routine, and expectations all matter.                                  | Begin consultation | None             | 05-elevate-elevated-botanical-salon-care-care-meaning-06         |
-| 07  | Listening First      | human-trust           | Listening first   | A good plan starts with understanding what feels right, realistic, and comfortable for you. | Book consultation  | Read FAQ         | 05-elevate-elevated-botanical-salon-care-listening-first-07      |
-| 08  | Care Steps           | explanation-process   | Care steps        | A simple process makes each next step easier to understand.                                 | Request evaluation | None             | 05-elevate-elevated-botanical-salon-care-care-steps-08           |
-| 09  | Related Services     | service-route         | Related care      | Explore skin guidance or laser suitability next.                                            | View skin          | Explore laser    | 05-elevate-elevated-botanical-salon-care-related-services-09     |
-| 10  | Final CTA            | conversion-final      | Begin with care   | Start with a conversation and choose the next step with clarity.                            | Request evaluation | Message WhatsApp | 05-elevate-elevated-botanical-salon-care-final-cta-10            |
+| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
+|---|---|---|---|---|---|---|---|
+| 01 | Care Hero | opening-care | Personalized care | Care begins with listening, then moves toward thoughtful planning and clear next steps. | Request evaluation | Message WhatsApp | 05-elevate-elevated-botanical-salon-care-care-hero-01 |
+| 02 | Statement Break | reassurance-statement | Care needs calm | The right pace helps decisions feel clearer. | None | None | 05-elevate-elevated-botanical-salon-care-statement-break-02 |
+| 03 | Safety Comfort | reassurance-safety | Feel comfortable | Questions, limits, and expectations can all be discussed before any decision is made. | Read FAQ | Privacy | 05-elevate-elevated-botanical-salon-care-safety-comfort-03 |
+| 04 | Education Preview | education-route | Learn before care | Read practical guidance before choosing your next step. | Read journal | View blog | 05-elevate-elevated-botanical-salon-care-education-preview-04 |
+| 05 | Prepare Consultation | conversion-prep | Before you start | Bring your goals, routine, questions, and comfort level into the conversation. | Begin consultation | Message WhatsApp | 05-elevate-elevated-botanical-salon-care-prepare-consultation-05 |
+| 06 | Care Meaning | explanation-care | What care means | Your goals, comfort, routine, and expectations all matter. | Begin consultation | None | 05-elevate-elevated-botanical-salon-care-care-meaning-06 |
+| 07 | Listening First | human-trust | Listening first | A good plan starts with understanding what feels right, realistic, and comfortable for you. | Book consultation | Read FAQ | 05-elevate-elevated-botanical-salon-care-listening-first-07 |
+| 08 | Care Steps | explanation-process | Care steps | A simple process makes each next step easier to understand. | Request evaluation | None | 05-elevate-elevated-botanical-salon-care-care-steps-08 |
+| 09 | Related Services | service-route | Related care | Explore skin guidance or laser suitability next. | View skin | Explore laser | 05-elevate-elevated-botanical-salon-care-related-services-09 |
+| 10 | Final CTA | conversion-final | Begin with care | Start with a conversation and choose the next step with clarity. | Request evaluation | Message WhatsApp | 05-elevate-elevated-botanical-salon-care-final-cta-10 |
 
 ### Laser (laser.html)
-
-| #   | Section           | Role                    | Heading              | Short text                                                                                   | Primary CTA        | Secondary CTA      | Layout signature                                               |
-| --- | ----------------- | ----------------------- | -------------------- | -------------------------------------------------------------------------------------------- | ------------------ | ------------------ | -------------------------------------------------------------- |
-| 01  | Laser Hero        | opening-laser           | Laser guidance       | A suitability-led approach to laser care, expectations, and professional evaluation.         | Request evaluation | Message WhatsApp   | 05-elevate-elevated-botanical-salon-laser-laser-hero-01        |
-| 02  | Editorial Break   | reassurance-statement   | Precision needs care | A careful process helps keep decisions clear and personal.                                   | None               | None               | 05-elevate-elevated-botanical-salon-laser-editorial-break-02   |
-| 03  | Related Routes    | service-route           | Related guidance     | Explore skin context or responsible results next.                                            | View skin          | View results       | 05-elevate-elevated-botanical-salon-laser-related-routes-03    |
-| 04  | FAQ Bridge        | education-route         | Common questions     | Find short answers before your consultation.                                                 | Read FAQ           | Ask a question     | 05-elevate-elevated-botanical-salon-laser-faq-bridge-04        |
-| 05  | Consultation CTA  | conversion-contact      | Check suitability    | Request an evaluation to discuss your goals and next steps.                                  | Request evaluation | Message WhatsApp   | 05-elevate-elevated-botanical-salon-laser-consultation-cta-05  |
-| 06  | Suitability First | reassurance-suitability | Suitability first    | Laser decisions depend on skin context, goals, comfort, and professional assessment.         | Begin consultation | None               | 05-elevate-elevated-botanical-salon-laser-suitability-first-06 |
-| 07  | Guidance          | trust-guidance          | Clear guidance       | The right next step should be discussed carefully, without pressure or unrealistic promises. | Read FAQ           | View results       | 05-elevate-elevated-botanical-salon-laser-guidance-07          |
-| 08  | Process           | explanation-process     | Care process         | Evaluation, preparation, guidance, and review keep the process understandable.               | Book consultation  | None               | 05-elevate-elevated-botanical-salon-laser-process-08           |
-| 09  | Safety            | reassurance-safety      | Safe expectations    | Comfort, timing, and suitability should be clarified before moving forward.                  | Read FAQ           | Understand results | 05-elevate-elevated-botanical-salon-laser-safety-09            |
-| 10  | Trust Route       | conversion-final        | Need clarity         | Use the contact route or read privacy guidance before sending details.                       | Contact Franciele  | Privacy            | 05-elevate-elevated-botanical-salon-laser-trust-route-10       |
+| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
+|---|---|---|---|---|---|---|---|
+| 01 | Laser Hero | opening-laser | Laser guidance | A suitability-led approach to laser care, expectations, and professional evaluation. | Request evaluation | Message WhatsApp | 05-elevate-elevated-botanical-salon-laser-laser-hero-01 |
+| 02 | Editorial Break | reassurance-statement | Precision needs care | A careful process helps keep decisions clear and personal. | None | None | 05-elevate-elevated-botanical-salon-laser-editorial-break-02 |
+| 03 | Related Routes | service-route | Related guidance | Explore skin context or responsible results next. | View skin | View results | 05-elevate-elevated-botanical-salon-laser-related-routes-03 |
+| 04 | FAQ Bridge | education-route | Common questions | Find short answers before your consultation. | Read FAQ | Ask a question | 05-elevate-elevated-botanical-salon-laser-faq-bridge-04 |
+| 05 | Consultation CTA | conversion-contact | Check suitability | Request an evaluation to discuss your goals and next steps. | Request evaluation | Message WhatsApp | 05-elevate-elevated-botanical-salon-laser-consultation-cta-05 |
+| 06 | Suitability First | reassurance-suitability | Suitability first | Laser decisions depend on skin context, goals, comfort, and professional assessment. | Begin consultation | None | 05-elevate-elevated-botanical-salon-laser-suitability-first-06 |
+| 07 | Guidance | trust-guidance | Clear guidance | The right next step should be discussed carefully, without pressure or unrealistic promises. | Read FAQ | View results | 05-elevate-elevated-botanical-salon-laser-guidance-07 |
+| 08 | Process | explanation-process | Care process | Evaluation, preparation, guidance, and review keep the process understandable. | Book consultation | None | 05-elevate-elevated-botanical-salon-laser-process-08 |
+| 09 | Safety | reassurance-safety | Safe expectations | Comfort, timing, and suitability should be clarified before moving forward. | Read FAQ | Understand results | 05-elevate-elevated-botanical-salon-laser-safety-09 |
+| 10 | Trust Route | conversion-final | Need clarity | Use the contact route or read privacy guidance before sending details. | Contact Franciele | Privacy | 05-elevate-elevated-botanical-salon-laser-trust-route-10 |
 
 ### Skin (skin.html)
-
-| #   | Section            | Role                     | Heading            | Short text                                                                                   | Primary CTA        | Secondary CTA      | Layout signature                                               |
-| --- | ------------------ | ------------------------ | ------------------ | -------------------------------------------------------------------------------------------- | ------------------ | ------------------ | -------------------------------------------------------------- |
-| 01  | Skin Hero          | opening-skin             | Skin guidance      | A refined approach to understanding skin, routine, comfort, and realistic goals.             | Request evaluation | Message WhatsApp   | 05-elevate-elevated-botanical-salon-skin-skin-hero-01          |
-| 02  | Natural Confidence | reassurance-expectations | Natural confidence | The goal is thoughtful guidance that respects your features and comfort.                     | Understand results | Request evaluation | 05-elevate-elevated-botanical-salon-skin-natural-confidence-02 |
-| 03  | Related Guidance   | internal-route           | Next guidance      | Continue with broader care planning or laser suitability.                                    | Explore care       | Explore laser      | 05-elevate-elevated-botanical-salon-skin-related-guidance-03   |
-| 04  | Journal Preview    | education-route          | Skin education     | Read simple guidance before deciding what to ask next.                                       | Read journal       | View blog          | 05-elevate-elevated-botanical-salon-skin-journal-preview-04    |
-| 05  | Consultation Path  | conversion-contact       | Clarify your goals | A consultation helps connect your skin context with realistic next steps.                    | Begin consultation | Message WhatsApp   | 05-elevate-elevated-botanical-salon-skin-consultation-path-05  |
-| 06  | Skin Context       | explanation-context      | Skin context       | Routine, texture, sensitivity, and goals help shape better questions.                        | Begin consultation | None               | 05-elevate-elevated-botanical-salon-skin-skin-context-06       |
-| 07  | Assessment         | trust-assessment         | Assessment first   | Skin guidance works best when it begins with observation, questions, and individual context. | Book consultation  | Read FAQ           | 05-elevate-elevated-botanical-salon-skin-assessment-07         |
-| 08  | Planning Cards     | service-route            | Planning focus     | Texture, luminosity, comfort, and routine can be discussed with care.                        | View care          | None               | 05-elevate-elevated-botanical-salon-skin-planning-cards-08     |
-| 09  | Texture Break      | reassurance-statement    | Less pressure      | Skin confidence should feel natural, realistic, and personal.                                | None               | None               | 05-elevate-elevated-botanical-salon-skin-texture-break-09      |
-| 10  | Final CTA          | conversion-final         | Start with clarity | Send your question or request an evaluation when you feel ready.                             | Request evaluation | Contact Franciele  | 05-elevate-elevated-botanical-salon-skin-final-cta-10          |
+| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
+|---|---|---|---|---|---|---|---|
+| 01 | Skin Hero | opening-skin | Skin guidance | A refined approach to understanding skin, routine, comfort, and realistic goals. | Request evaluation | Message WhatsApp | 05-elevate-elevated-botanical-salon-skin-skin-hero-01 |
+| 02 | Natural Confidence | reassurance-expectations | Natural confidence | The goal is thoughtful guidance that respects your features and comfort. | Understand results | Request evaluation | 05-elevate-elevated-botanical-salon-skin-natural-confidence-02 |
+| 03 | Related Guidance | internal-route | Next guidance | Continue with broader care planning or laser suitability. | Explore care | Explore laser | 05-elevate-elevated-botanical-salon-skin-related-guidance-03 |
+| 04 | Journal Preview | education-route | Skin education | Read simple guidance before deciding what to ask next. | Read journal | View blog | 05-elevate-elevated-botanical-salon-skin-journal-preview-04 |
+| 05 | Consultation Path | conversion-contact | Clarify your goals | A consultation helps connect your skin context with realistic next steps. | Begin consultation | Message WhatsApp | 05-elevate-elevated-botanical-salon-skin-consultation-path-05 |
+| 06 | Skin Context | explanation-context | Skin context | Routine, texture, sensitivity, and goals help shape better questions. | Begin consultation | None | 05-elevate-elevated-botanical-salon-skin-skin-context-06 |
+| 07 | Assessment | trust-assessment | Assessment first | Skin guidance works best when it begins with observation, questions, and individual context. | Book consultation | Read FAQ | 05-elevate-elevated-botanical-salon-skin-assessment-07 |
+| 08 | Planning Cards | service-route | Planning focus | Texture, luminosity, comfort, and routine can be discussed with care. | View care | None | 05-elevate-elevated-botanical-salon-skin-planning-cards-08 |
+| 09 | Texture Break | reassurance-statement | Less pressure | Skin confidence should feel natural, realistic, and personal. | None | None | 05-elevate-elevated-botanical-salon-skin-texture-break-09 |
+| 10 | Final CTA | conversion-final | Start with clarity | Send your question or request an evaluation when you feel ready. | Request evaluation | Contact Franciele | 05-elevate-elevated-botanical-salon-skin-final-cta-10 |
 
 ### Results (results.html)
-
-| #   | Section           | Role                  | Heading               | Short text                                                                                       | Primary CTA        | Secondary CTA      | Layout signature                                                 |
-| --- | ----------------- | --------------------- | --------------------- | ------------------------------------------------------------------------------------------------ | ------------------ | ------------------ | ---------------------------------------------------------------- |
-| 01  | Results Hero      | opening-results       | Responsible results   | A calm approach to expectations, planning, and natural-looking confidence.                       | Request evaluation | Message WhatsApp   | 05-elevate-elevated-botanical-salon-results-results-hero-01      |
-| 02  | Statement Break   | reassurance-statement | Clarity over pressure | The best decisions leave space for questions.                                                    | None               | None               | 05-elevate-elevated-botanical-salon-results-statement-break-02   |
-| 03  | Related Care      | internal-route        | Explore context       | Read more about care planning and skin guidance.                                                 | Explore care       | View skin          | 05-elevate-elevated-botanical-salon-results-related-care-03      |
-| 04  | Consent Feedback  | reassurance-privacy   | Feedback matters      | Client feedback should be used with consent, privacy, and responsible context.                   | Feedback guidance  | Privacy            | 05-elevate-elevated-botanical-salon-results-consent-feedback-04  |
-| 05  | Consultation Path | conversion-contact    | Discuss expectations  | A consultation helps clarify what may be realistic for your individual context.                  | Request evaluation | Message WhatsApp   | 05-elevate-elevated-botanical-salon-results-consultation-path-05 |
-| 06  | Planning          | explanation-planning  | Results need planning | Care outcomes depend on assessment, consistency, individual context, and realistic expectations. | Begin consultation | None               | 05-elevate-elevated-botanical-salon-results-planning-06          |
-| 07  | Not Guarantees    | reassurance-boundary  | No guarantees         | This site does not promise identical results or create pressure-based expectations.              | Read FAQ           | Privacy            | 05-elevate-elevated-botanical-salon-results-not-guarantees-07    |
-| 08  | Naturality        | trust-naturality      | Natural confidence    | Guidance should support confidence without forcing a single idea of beauty.                      | View care          | Request evaluation | 05-elevate-elevated-botanical-salon-results-naturality-08        |
-| 09  | Process           | explanation-process   | Expectation process   | Listening, assessment, planning, and review help keep expectations responsible.                  | Book consultation  | None               | 05-elevate-elevated-botanical-salon-results-process-09           |
-| 10  | Final CTA         | conversion-final      | Ask first             | Send your question or begin with a calm evaluation.                                              | Contact Franciele  | Read FAQ           | 05-elevate-elevated-botanical-salon-results-final-cta-10         |
+| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
+|---|---|---|---|---|---|---|---|
+| 01 | Results Hero | opening-results | Responsible results | A calm approach to expectations, planning, and natural-looking confidence. | Request evaluation | Message WhatsApp | 05-elevate-elevated-botanical-salon-results-results-hero-01 |
+| 02 | Statement Break | reassurance-statement | Clarity over pressure | The best decisions leave space for questions. | None | None | 05-elevate-elevated-botanical-salon-results-statement-break-02 |
+| 03 | Related Care | internal-route | Explore context | Read more about care planning and skin guidance. | Explore care | View skin | 05-elevate-elevated-botanical-salon-results-related-care-03 |
+| 04 | Consent Feedback | reassurance-privacy | Feedback matters | Client feedback should be used with consent, privacy, and responsible context. | Feedback guidance | Privacy | 05-elevate-elevated-botanical-salon-results-consent-feedback-04 |
+| 05 | Consultation Path | conversion-contact | Discuss expectations | A consultation helps clarify what may be realistic for your individual context. | Request evaluation | Message WhatsApp | 05-elevate-elevated-botanical-salon-results-consultation-path-05 |
+| 06 | Planning | explanation-planning | Results need planning | Care outcomes depend on assessment, consistency, individual context, and realistic expectations. | Begin consultation | None | 05-elevate-elevated-botanical-salon-results-planning-06 |
+| 07 | Not Guarantees | reassurance-boundary | No guarantees | This site does not promise identical results or create pressure-based expectations. | Read FAQ | Privacy | 05-elevate-elevated-botanical-salon-results-not-guarantees-07 |
+| 08 | Naturality | trust-naturality | Natural confidence | Guidance should support confidence without forcing a single idea of beauty. | View care | Request evaluation | 05-elevate-elevated-botanical-salon-results-naturality-08 |
+| 09 | Process | explanation-process | Expectation process | Listening, assessment, planning, and review help keep expectations responsible. | Book consultation | None | 05-elevate-elevated-botanical-salon-results-process-09 |
+| 10 | Final CTA | conversion-final | Ask first | Send your question or begin with a calm evaluation. | Contact Franciele | Read FAQ | 05-elevate-elevated-botanical-salon-results-final-cta-10 |
 
 ### Consultation (consultation.html)
-
-| #   | Section             | Role                 | Heading             | Short text                                                                                      | Primary CTA      | Secondary CTA     | Layout signature                                                        |
-| --- | ------------------- | -------------------- | ------------------- | ----------------------------------------------------------------------------------------------- | ---------------- | ----------------- | ----------------------------------------------------------------------- |
-| 01  | Consultation Hero   | opening-consultation | Begin consultation  | Start with a calm conversation about your goals, questions, comfort, and expectations.          | Fill form        | Message WhatsApp  | 05-elevate-elevated-botanical-salon-consultation-consultation-hero-01   |
-| 02  | Form Break          | conversion-form      | Send your request   | Use the form or WhatsApp to begin privately.                                                    | Submit request   | Message WhatsApp  | 05-elevate-elevated-botanical-salon-consultation-form-break-02          |
-| 03  | Privacy Comfort     | reassurance-privacy  | Privacy matters     | Your message should feel safe, clear, and handled with care.                                    | Privacy          | None              | 05-elevate-elevated-botanical-salon-consultation-privacy-comfort-03     |
-| 04  | Related Guidance    | internal-route       | Helpful routes      | Explore care guidance or practical questions before sending your request.                       | Explore care     | View FAQ          | 05-elevate-elevated-botanical-salon-consultation-related-guidance-04    |
-| 05  | Contact Options     | conversion-contact   | Prefer messaging    | Use WhatsApp or the contact page if you have a quick question.                                  | Message WhatsApp | Contact Franciele | 05-elevate-elevated-botanical-salon-consultation-contact-options-05     |
-| 06  | What It Clarifies   | explanation-cards    | What it clarifies   | A consultation can clarify goals, questions, comfort, and expectations.                         | Start form       | None              | 05-elevate-elevated-botanical-salon-consultation-what-it-clarifies-06   |
-| 07  | Before Consultation | education-prep       | Before you start    | Bring simple notes about your goals, routine, questions, and comfort level.                     | Read FAQ         | None              | 05-elevate-elevated-botanical-salon-consultation-before-consultation-07 |
-| 08  | During Conversation | human-trust          | During consultation | The conversation focuses on listening, understanding, and guiding your next step clearly.       | Ask a question   | None              | 05-elevate-elevated-botanical-salon-consultation-during-conversation-08 |
-| 09  | After Consultation  | explanation-after    | Afterwards          | You should leave with clearer options, realistic expectations, and a better sense of direction. | View care        | View results      | 05-elevate-elevated-botanical-salon-consultation-after-consultation-09  |
-| 10  | Final CTA           | conversion-final     | Start simply        | A clear first step can make the whole process easier.                                           | Fill form        | Message WhatsApp  | 05-elevate-elevated-botanical-salon-consultation-final-cta-10           |
+| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
+|---|---|---|---|---|---|---|---|
+| 01 | Consultation Hero | opening-consultation | Begin consultation | Start with a calm conversation about your goals, questions, comfort, and expectations. | Fill form | Message WhatsApp | 05-elevate-elevated-botanical-salon-consultation-consultation-hero-01 |
+| 02 | Form Break | conversion-form | Send your request | Use the form or WhatsApp to begin privately. | Submit request | Message WhatsApp | 05-elevate-elevated-botanical-salon-consultation-form-break-02 |
+| 03 | Privacy Comfort | reassurance-privacy | Privacy matters | Your message should feel safe, clear, and handled with care. | Privacy | None | 05-elevate-elevated-botanical-salon-consultation-privacy-comfort-03 |
+| 04 | Related Guidance | internal-route | Helpful routes | Explore care guidance or practical questions before sending your request. | Explore care | View FAQ | 05-elevate-elevated-botanical-salon-consultation-related-guidance-04 |
+| 05 | Contact Options | conversion-contact | Prefer messaging | Use WhatsApp or the contact page if you have a quick question. | Message WhatsApp | Contact Franciele | 05-elevate-elevated-botanical-salon-consultation-contact-options-05 |
+| 06 | What It Clarifies | explanation-cards | What it clarifies | A consultation can clarify goals, questions, comfort, and expectations. | Start form | None | 05-elevate-elevated-botanical-salon-consultation-what-it-clarifies-06 |
+| 07 | Before Consultation | education-prep | Before you start | Bring simple notes about your goals, routine, questions, and comfort level. | Read FAQ | None | 05-elevate-elevated-botanical-salon-consultation-before-consultation-07 |
+| 08 | During Conversation | human-trust | During consultation | The conversation focuses on listening, understanding, and guiding your next step clearly. | Ask a question | None | 05-elevate-elevated-botanical-salon-consultation-during-conversation-08 |
+| 09 | After Consultation | explanation-after | Afterwards | You should leave with clearer options, realistic expectations, and a better sense of direction. | View care | View results | 05-elevate-elevated-botanical-salon-consultation-after-consultation-09 |
+| 10 | Final CTA | conversion-final | Start simply | A clear first step can make the whole process easier. | Fill form | Message WhatsApp | 05-elevate-elevated-botanical-salon-consultation-final-cta-10 |
 
 ### Contact (contact.html)
-
-| #   | Section               | Role                  | Heading           | Short text                                                                      | Primary CTA        | Secondary CTA      | Layout signature                                                     |
-| --- | --------------------- | --------------------- | ----------------- | ------------------------------------------------------------------------------- | ------------------ | ------------------ | -------------------------------------------------------------------- |
-| 01  | Contact Hero          | opening-contact       | Contact Franciele | Send a private message or request an evaluation when you feel ready.            | Message WhatsApp   | Fill form          | 05-elevate-elevated-botanical-salon-contact-contact-hero-01          |
-| 02  | Reassurance Break     | reassurance-statement | No pressure       | You can begin with a question before deciding anything.                         | None               | None               | 05-elevate-elevated-botanical-salon-contact-reassurance-break-02     |
-| 03  | FAQ Bridge            | education-route       | Have doubts       | Read common questions before sending your message.                              | Read FAQ           | Begin consultation | 05-elevate-elevated-botanical-salon-contact-faq-bridge-03            |
-| 04  | Trust Links           | reassurance-privacy   | Before sending    | Review privacy or accessibility information if helpful.                         | Privacy            | Accessibility      | 05-elevate-elevated-botanical-salon-contact-trust-links-04           |
-| 05  | Consultation Reminder | conversion-contact    | Evaluation helps  | A consultation gives your questions more context and direction.                 | Request evaluation | Message WhatsApp   | 05-elevate-elevated-botanical-salon-contact-consultation-reminder-05 |
-| 06  | Best Next Step        | guidance-route        | Best next step    | For care decisions, begin with evaluation. For questions, send a short message. | Begin consultation | Ask a question     | 05-elevate-elevated-botanical-salon-contact-best-next-step-06        |
-| 07  | Contact Options       | conversion-contact    | Contact options   | Choose WhatsApp, email, or the form route.                                      | Message WhatsApp   | Send form          | 05-elevate-elevated-botanical-salon-contact-contact-options-07       |
-| 08  | Message Tips          | education-prep        | What to include   | A short note can make the first response more useful.                           | Ask a question     | None               | 05-elevate-elevated-botanical-salon-contact-message-tips-08          |
-| 09  | Form Section          | conversion-form       | Send a message    | Share your question and preferred contact route.                                | Send message       | Privacy            | 05-elevate-elevated-botanical-salon-contact-form-section-09          |
-| 10  | Final Route           | conversion-final      | Keep exploring    | Return home or open the sitemap for all routes.                                 | Home               | Sitemap            | 05-elevate-elevated-botanical-salon-contact-final-route-10           |
+| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
+|---|---|---|---|---|---|---|---|
+| 01 | Contact Hero | opening-contact | Contact Franciele | Send a private message or request an evaluation when you feel ready. | Message WhatsApp | Fill form | 05-elevate-elevated-botanical-salon-contact-contact-hero-01 |
+| 02 | Reassurance Break | reassurance-statement | No pressure | You can begin with a question before deciding anything. | None | None | 05-elevate-elevated-botanical-salon-contact-reassurance-break-02 |
+| 03 | FAQ Bridge | education-route | Have doubts | Read common questions before sending your message. | Read FAQ | Begin consultation | 05-elevate-elevated-botanical-salon-contact-faq-bridge-03 |
+| 04 | Trust Links | reassurance-privacy | Before sending | Review privacy or accessibility information if helpful. | Privacy | Accessibility | 05-elevate-elevated-botanical-salon-contact-trust-links-04 |
+| 05 | Consultation Reminder | conversion-contact | Evaluation helps | A consultation gives your questions more context and direction. | Request evaluation | Message WhatsApp | 05-elevate-elevated-botanical-salon-contact-consultation-reminder-05 |
+| 06 | Best Next Step | guidance-route | Best next step | For care decisions, begin with evaluation. For questions, send a short message. | Begin consultation | Ask a question | 05-elevate-elevated-botanical-salon-contact-best-next-step-06 |
+| 07 | Contact Options | conversion-contact | Contact options | Choose WhatsApp, email, or the form route. | Message WhatsApp | Send form | 05-elevate-elevated-botanical-salon-contact-contact-options-07 |
+| 08 | Message Tips | education-prep | What to include | A short note can make the first response more useful. | Ask a question | None | 05-elevate-elevated-botanical-salon-contact-message-tips-08 |
+| 09 | Form Section | conversion-form | Send a message | Share your question and preferred contact route. | Send message | Privacy | 05-elevate-elevated-botanical-salon-contact-form-section-09 |
+| 10 | Final Route | conversion-final | Keep exploring | Return home or open the sitemap for all routes. | Home | Sitemap | 05-elevate-elevated-botanical-salon-contact-final-route-10 |
 
 ### Mission (mission.html)
-
-| #   | Section              | Role                  | Heading              | Short text                                                                  | Primary CTA        | Secondary CTA    | Layout signature                                                    |
-| --- | -------------------- | --------------------- | -------------------- | --------------------------------------------------------------------------- | ------------------ | ---------------- | ------------------------------------------------------------------- |
-| 01  | Mission Hero         | opening-mission       | Our mission          | To make aesthetic guidance feel careful, clear, and responsible.            | Request evaluation | Message WhatsApp | 05-elevate-elevated-botanical-salon-mission-mission-hero-01         |
-| 02  | Statement Break      | reassurance-statement | Clarity is care      | A calm process helps better choices.                                        | None               | None             | 05-elevate-elevated-botanical-salon-mission-statement-break-02      |
-| 03  | Responsible Practice | reassurance-boundary  | No pressure          | This site avoids exaggerated promises and unsupported proof.                | Understand results | None             | 05-elevate-elevated-botanical-salon-mission-responsible-practice-03 |
-| 04  | Related Pages        | internal-route        | Learn more           | Explore the values behind the experience.                                   | About              | Values           | 05-elevate-elevated-botanical-salon-mission-related-pages-04        |
-| 05  | Consultation Path    | conversion-contact    | Start with questions | A consultation can help clarify your next step.                             | Request evaluation | Read FAQ         | 05-elevate-elevated-botanical-salon-mission-consultation-path-05    |
-| 06  | Evaluation Leads     | trust-evaluation      | Evaluation first     | Good decisions begin with understanding the person, not rushing the answer. | Begin consultation | None             | 05-elevate-elevated-botanical-salon-mission-evaluation-leads-06     |
-| 07  | Care Philosophy      | brand-philosophy      | Careful planning     | Each step should feel considered, personal, and realistic.                  | Explore care       | None             | 05-elevate-elevated-botanical-salon-mission-care-philosophy-07      |
-| 08  | Brand Values         | trust-values          | Guiding values       | Care, trust, safety, and naturality guide the experience.                   | View values        | About Franciele  | 05-elevate-elevated-botanical-salon-mission-brand-values-08         |
-| 09  | Human Trust          | human-trust           | Human guidance       | The experience should feel personal, respectful, and clear.                 | Meet Franciele     | None             | 05-elevate-elevated-botanical-salon-mission-human-trust-09          |
-| 10  | Final CTA            | conversion-final      | Reach out            | Send a message when you are ready.                                          | Contact            | WhatsApp         | 05-elevate-elevated-botanical-salon-mission-final-cta-10            |
+| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
+|---|---|---|---|---|---|---|---|
+| 01 | Mission Hero | opening-mission | Our mission | To make aesthetic guidance feel careful, clear, and responsible. | Request evaluation | Message WhatsApp | 05-elevate-elevated-botanical-salon-mission-mission-hero-01 |
+| 02 | Statement Break | reassurance-statement | Clarity is care | A calm process helps better choices. | None | None | 05-elevate-elevated-botanical-salon-mission-statement-break-02 |
+| 03 | Responsible Practice | reassurance-boundary | No pressure | This site avoids exaggerated promises and unsupported proof. | Understand results | None | 05-elevate-elevated-botanical-salon-mission-responsible-practice-03 |
+| 04 | Related Pages | internal-route | Learn more | Explore the values behind the experience. | About | Values | 05-elevate-elevated-botanical-salon-mission-related-pages-04 |
+| 05 | Consultation Path | conversion-contact | Start with questions | A consultation can help clarify your next step. | Request evaluation | Read FAQ | 05-elevate-elevated-botanical-salon-mission-consultation-path-05 |
+| 06 | Evaluation Leads | trust-evaluation | Evaluation first | Good decisions begin with understanding the person, not rushing the answer. | Begin consultation | None | 05-elevate-elevated-botanical-salon-mission-evaluation-leads-06 |
+| 07 | Care Philosophy | brand-philosophy | Careful planning | Each step should feel considered, personal, and realistic. | Explore care | None | 05-elevate-elevated-botanical-salon-mission-care-philosophy-07 |
+| 08 | Brand Values | trust-values | Guiding values | Care, trust, safety, and naturality guide the experience. | View values | About Franciele | 05-elevate-elevated-botanical-salon-mission-brand-values-08 |
+| 09 | Human Trust | human-trust | Human guidance | The experience should feel personal, respectful, and clear. | Meet Franciele | None | 05-elevate-elevated-botanical-salon-mission-human-trust-09 |
+| 10 | Final CTA | conversion-final | Reach out | Send a message when you are ready. | Contact | WhatsApp | 05-elevate-elevated-botanical-salon-mission-final-cta-10 |
 
 ### Values (values.html)
-
-| #   | Section                | Role                  | Heading              | Short text                                                             | Primary CTA        | Secondary CTA    | Layout signature                                                     |
-| --- | ---------------------- | --------------------- | -------------------- | ---------------------------------------------------------------------- | ------------------ | ---------------- | -------------------------------------------------------------------- |
-| 01  | Values Hero            | opening-values        | Care values          | Four principles shape the Sofiati experience.                          | Request evaluation | Message WhatsApp | 05-elevate-elevated-botanical-salon-values-values-hero-01            |
-| 02  | Visual Break           | reassurance-statement | Values guide choices | The experience should feel thoughtful from start to finish.            | None               | None             | 05-elevate-elevated-botanical-salon-values-visual-break-02           |
-| 03  | Values in Consultation | conversion-prep       | In consultation      | These values shape how questions, goals, and next steps are discussed. | Begin consultation | None             | 05-elevate-elevated-botanical-salon-values-values-in-consultation-03 |
-| 04  | Related Guidance       | internal-route        | Related guidance     | Continue with care or results guidance.                                | Explore care       | Results          | 05-elevate-elevated-botanical-salon-values-related-guidance-04       |
-| 05  | About Mission Bridge   | brand-route           | Brand story          | Read more about the purpose behind the experience.                     | About              | Mission          | 05-elevate-elevated-botanical-salon-values-about-mission-bridge-05   |
-| 06  | Cuidado                | trust-care            | Care                 | Care begins with listening closely and respecting individual context.  | Explore care       | None             | 05-elevate-elevated-botanical-salon-values-cuidado-06                |
-| 07  | Confianca              | trust-confidence      | Trust                | Trust grows through clear explanations and calm guidance.              | Meet Franciele     | None             | 05-elevate-elevated-botanical-salon-values-confianca-07              |
-| 08  | Seguranca              | reassurance-safety    | Safety               | Safety means boundaries, evaluation, and realistic expectations.       | Read FAQ           | None             | 05-elevate-elevated-botanical-salon-values-seguranca-08              |
-| 09  | Naturalidade           | trust-naturality      | Naturality           | Naturality means planning that respects your features and comfort.     | Understand results | None             | 05-elevate-elevated-botanical-salon-values-naturalidade-09           |
-| 10  | Final CTA              | conversion-final      | Begin with care      | Send a question or request an evaluation.                              | Request evaluation | WhatsApp         | 05-elevate-elevated-botanical-salon-values-final-cta-10              |
+| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
+|---|---|---|---|---|---|---|---|
+| 01 | Values Hero | opening-values | Care values | Four principles shape the Sofiati experience. | Request evaluation | Message WhatsApp | 05-elevate-elevated-botanical-salon-values-values-hero-01 |
+| 02 | Visual Break | reassurance-statement | Values guide choices | The experience should feel thoughtful from start to finish. | None | None | 05-elevate-elevated-botanical-salon-values-visual-break-02 |
+| 03 | Values in Consultation | conversion-prep | In consultation | These values shape how questions, goals, and next steps are discussed. | Begin consultation | None | 05-elevate-elevated-botanical-salon-values-values-in-consultation-03 |
+| 04 | Related Guidance | internal-route | Related guidance | Continue with care or results guidance. | Explore care | Results | 05-elevate-elevated-botanical-salon-values-related-guidance-04 |
+| 05 | About Mission Bridge | brand-route | Brand story | Read more about the purpose behind the experience. | About | Mission | 05-elevate-elevated-botanical-salon-values-about-mission-bridge-05 |
+| 06 | Cuidado | trust-care | Care | Care begins with listening closely and respecting individual context. | Explore care | None | 05-elevate-elevated-botanical-salon-values-cuidado-06 |
+| 07 | Confianca | trust-confidence | Trust | Trust grows through clear explanations and calm guidance. | Meet Franciele | None | 05-elevate-elevated-botanical-salon-values-confianca-07 |
+| 08 | Seguranca | reassurance-safety | Safety | Safety means boundaries, evaluation, and realistic expectations. | Read FAQ | None | 05-elevate-elevated-botanical-salon-values-seguranca-08 |
+| 09 | Naturalidade | trust-naturality | Naturality | Naturality means planning that respects your features and comfort. | Understand results | None | 05-elevate-elevated-botanical-salon-values-naturalidade-09 |
+| 10 | Final CTA | conversion-final | Begin with care | Send a question or request an evaluation. | Request evaluation | WhatsApp | 05-elevate-elevated-botanical-salon-values-final-cta-10 |
 
 ### Testimonials (testimonials.html)
-
-| #   | Section           | Role                  | Heading            | Short text                                                               | Primary CTA        | Secondary CTA    | Layout signature                                                      |
-| --- | ----------------- | --------------------- | ------------------ | ------------------------------------------------------------------------ | ------------------ | ---------------- | --------------------------------------------------------------------- |
-| 01  | Feedback Hero     | opening-feedback      | Client feedback    | Feedback should be treated with consent, privacy, and realistic context. | Request evaluation | Message WhatsApp | 05-elevate-elevated-botanical-salon-testimonials-feedback-hero-01     |
-| 02  | Trust Break       | reassurance-statement | Trust needs care   | Responsibility matters in every part of the experience.                  | None               | None             | 05-elevate-elevated-botanical-salon-testimonials-trust-break-02       |
-| 03  | Results Guidance  | education-route       | Read expectations  | Understand results responsibly before making decisions.                  | Results            | None             | 05-elevate-elevated-botanical-salon-testimonials-results-guidance-03  |
-| 04  | FAQ Bridge        | education-route       | Have questions     | Read common questions before contacting.                                 | FAQ                | None             | 05-elevate-elevated-botanical-salon-testimonials-faq-bridge-04        |
-| 05  | Consultation CTA  | conversion-contact    | Discuss your goals | A consultation gives your questions context.                             | Request evaluation | WhatsApp         | 05-elevate-elevated-botanical-salon-testimonials-consultation-cta-05  |
-| 06  | Consent First     | reassurance-privacy   | Consent first      | Feedback should only be shared with appropriate permission.              | Privacy            | None             | 05-elevate-elevated-botanical-salon-testimonials-consent-first-06     |
-| 07  | No Guarantees     | reassurance-boundary  | Not a promise      | Feedback does not guarantee the same experience or outcome.              | Results            | None             | 05-elevate-elevated-botanical-salon-testimonials-no-guarantees-07     |
-| 08  | Experience Themes | trust-themes          | Experience themes  | Useful feedback themes include clarity, comfort, guidance, and trust.    | Read FAQ           | None             | 05-elevate-elevated-botanical-salon-testimonials-experience-themes-08 |
-| 09  | Privacy Note      | reassurance-privacy   | Privacy matters    | Personal details and feedback must be handled carefully.                 | Privacy            | None             | 05-elevate-elevated-botanical-salon-testimonials-privacy-note-09      |
-| 10  | Contact Path      | conversion-final      | Contact directly   | Send a message if you need guidance.                                     | Contact            | WhatsApp         | 05-elevate-elevated-botanical-salon-testimonials-contact-path-10      |
+| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
+|---|---|---|---|---|---|---|---|
+| 01 | Feedback Hero | opening-feedback | Client feedback | Feedback should be treated with consent, privacy, and realistic context. | Request evaluation | Message WhatsApp | 05-elevate-elevated-botanical-salon-testimonials-feedback-hero-01 |
+| 02 | Trust Break | reassurance-statement | Trust needs care | Responsibility matters in every part of the experience. | None | None | 05-elevate-elevated-botanical-salon-testimonials-trust-break-02 |
+| 03 | Results Guidance | education-route | Read expectations | Understand results responsibly before making decisions. | Results | None | 05-elevate-elevated-botanical-salon-testimonials-results-guidance-03 |
+| 04 | FAQ Bridge | education-route | Have questions | Read common questions before contacting. | FAQ | None | 05-elevate-elevated-botanical-salon-testimonials-faq-bridge-04 |
+| 05 | Consultation CTA | conversion-contact | Discuss your goals | A consultation gives your questions context. | Request evaluation | WhatsApp | 05-elevate-elevated-botanical-salon-testimonials-consultation-cta-05 |
+| 06 | Consent First | reassurance-privacy | Consent first | Feedback should only be shared with appropriate permission. | Privacy | None | 05-elevate-elevated-botanical-salon-testimonials-consent-first-06 |
+| 07 | No Guarantees | reassurance-boundary | Not a promise | Feedback does not guarantee the same experience or outcome. | Results | None | 05-elevate-elevated-botanical-salon-testimonials-no-guarantees-07 |
+| 08 | Experience Themes | trust-themes | Experience themes | Useful feedback themes include clarity, comfort, guidance, and trust. | Read FAQ | None | 05-elevate-elevated-botanical-salon-testimonials-experience-themes-08 |
+| 09 | Privacy Note | reassurance-privacy | Privacy matters | Personal details and feedback must be handled carefully. | Privacy | None | 05-elevate-elevated-botanical-salon-testimonials-privacy-note-09 |
+| 10 | Contact Path | conversion-final | Contact directly | Send a message if you need guidance. | Contact | WhatsApp | 05-elevate-elevated-botanical-salon-testimonials-contact-path-10 |
 
 ### FAQ (faq.html)
-
-| #   | Section                | Role                     | Heading               | Short text                                                               | Primary CTA        | Secondary CTA      | Layout signature                                                  |
-| --- | ---------------------- | ------------------------ | --------------------- | ------------------------------------------------------------------------ | ------------------ | ------------------ | ----------------------------------------------------------------- |
-| 01  | FAQ Hero               | opening-faq              | Common questions      | Short answers help you choose your next step calmly.                     | Ask a question     | Request evaluation | 05-elevate-elevated-botanical-salon-faq-faq-hero-01               |
-| 02  | Results Questions      | reassurance-expectations | Results               | Results vary and should be discussed with realistic expectations.        | Understand results | Request evaluation | 05-elevate-elevated-botanical-salon-faq-results-questions-02      |
-| 03  | Privacy Contact        | reassurance-privacy      | Privacy questions     | You can review privacy details before sending a message.                 | Privacy            | Contact            | 05-elevate-elevated-botanical-salon-faq-privacy-contact-03        |
-| 04  | Reassurance Break      | reassurance-statement    | Questions are welcome | You do not need to know everything before asking.                        | None               | None               | 05-elevate-elevated-botanical-salon-faq-reassurance-break-04      |
-| 05  | Journal Route          | education-route          | Read more             | Explore educational notes before your consultation.                      | Read journal       | View blog          | 05-elevate-elevated-botanical-salon-faq-journal-route-05          |
-| 06  | Consultation Questions | education-faq            | Consultation          | Bring your goals, routine, comfort level, and main questions.            | Begin consultation | Contact Franciele  | 05-elevate-elevated-botanical-salon-faq-consultation-questions-06 |
-| 07  | Care Questions         | education-care           | Care                  | Care depends on your goals, comfort, and evaluation.                     | Explore care       | Request evaluation | 05-elevate-elevated-botanical-salon-faq-care-questions-07         |
-| 08  | Skin Questions         | education-skin           | Skin                  | Skin guidance should consider routine, sensitivity, and realistic goals. | View skin          | Read journal       | 05-elevate-elevated-botanical-salon-faq-skin-questions-08         |
-| 09  | Laser Questions        | education-laser          | Laser                 | Suitability should be discussed before decisions are made.               | Explore laser      | Begin consultation | 05-elevate-elevated-botanical-salon-faq-laser-questions-09        |
-| 10  | Consultation CTA       | conversion-final         | Still unsure          | Send your question or request an evaluation.                             | Request evaluation | Message WhatsApp   | 05-elevate-elevated-botanical-salon-faq-consultation-cta-10       |
+| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
+|---|---|---|---|---|---|---|---|
+| 01 | FAQ Hero | opening-faq | Common questions | Short answers help you choose your next step calmly. | Ask a question | Request evaluation | 05-elevate-elevated-botanical-salon-faq-faq-hero-01 |
+| 02 | Results Questions | reassurance-expectations | Results | Results vary and should be discussed with realistic expectations. | Understand results | Request evaluation | 05-elevate-elevated-botanical-salon-faq-results-questions-02 |
+| 03 | Privacy Contact | reassurance-privacy | Privacy questions | You can review privacy details before sending a message. | Privacy | Contact | 05-elevate-elevated-botanical-salon-faq-privacy-contact-03 |
+| 04 | Reassurance Break | reassurance-statement | Questions are welcome | You do not need to know everything before asking. | None | None | 05-elevate-elevated-botanical-salon-faq-reassurance-break-04 |
+| 05 | Journal Route | education-route | Read more | Explore educational notes before your consultation. | Read journal | View blog | 05-elevate-elevated-botanical-salon-faq-journal-route-05 |
+| 06 | Consultation Questions | education-faq | Consultation | Bring your goals, routine, comfort level, and main questions. | Begin consultation | Contact Franciele | 05-elevate-elevated-botanical-salon-faq-consultation-questions-06 |
+| 07 | Care Questions | education-care | Care | Care depends on your goals, comfort, and evaluation. | Explore care | Request evaluation | 05-elevate-elevated-botanical-salon-faq-care-questions-07 |
+| 08 | Skin Questions | education-skin | Skin | Skin guidance should consider routine, sensitivity, and realistic goals. | View skin | Read journal | 05-elevate-elevated-botanical-salon-faq-skin-questions-08 |
+| 09 | Laser Questions | education-laser | Laser | Suitability should be discussed before decisions are made. | Explore laser | Begin consultation | 05-elevate-elevated-botanical-salon-faq-laser-questions-09 |
+| 10 | Consultation CTA | conversion-final | Still unsure | Send your question or request an evaluation. | Request evaluation | Message WhatsApp | 05-elevate-elevated-botanical-salon-faq-consultation-cta-10 |
 
 ### Journal (journal.html)
-
-| #   | Section             | Role                     | Heading               | Short text                                                                       | Primary CTA        | Secondary CTA      | Layout signature                                                   |
-| --- | ------------------- | ------------------------ | --------------------- | -------------------------------------------------------------------------------- | ------------------ | ------------------ | ------------------------------------------------------------------ |
-| 01  | Journal Hero        | opening-journal          | Care journal          | Short guidance for better questions, calmer decisions, and clearer expectations. | Read articles      | Request evaluation | 05-elevate-elevated-botanical-salon-journal-journal-hero-01        |
-| 02  | Results Category    | reassurance-expectations | Result expectations   | Read responsible guidance before forming expectations.                           | Understand results | Request evaluation | 05-elevate-elevated-botanical-salon-journal-results-category-02    |
-| 03  | Editorial Break     | reassurance-statement    | Learn before deciding | Good questions make the consultation more useful.                                | None               | None               | 05-elevate-elevated-botanical-salon-journal-editorial-break-03     |
-| 04  | Article Grid        | education-route          | Latest notes          | Browse short educational pieces by topic.                                        | View blog          | Read FAQ           | 05-elevate-elevated-botanical-salon-journal-article-grid-04        |
-| 05  | Consultation Bridge | conversion-contact       | Ready to ask          | Bring your questions into a private consultation or message.                     | Request evaluation | Message WhatsApp   | 05-elevate-elevated-botanical-salon-journal-consultation-bridge-05 |
-| 06  | Featured Article    | education-feature        | Featured guide        | Start with the most useful topic for your current questions.                     | Read guide         | None               | 05-elevate-elevated-botanical-salon-journal-featured-article-06    |
-| 07  | Skin Category       | education-skin           | Skin guidance         | Read about routine, texture, sensitivity, and planning.                          | View skin          | Read blog          | 05-elevate-elevated-botanical-salon-journal-skin-category-07       |
-| 08  | Laser Category      | education-laser          | Laser questions       | Learn what to discuss before choosing laser care.                                | Explore laser      | Read FAQ           | 05-elevate-elevated-botanical-salon-journal-laser-category-08      |
-| 09  | Care Category       | education-care           | Care planning         | Understand how consultation supports personal decisions.                         | Explore care       | Begin consultation | 05-elevate-elevated-botanical-salon-journal-care-category-09       |
-| 10  | Blog Contact CTA    | conversion-final         | Continue reading      | Explore more articles or contact Franciele directly.                             | View blog          | Contact Franciele  | 05-elevate-elevated-botanical-salon-journal-blog-contact-cta-10    |
+| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
+|---|---|---|---|---|---|---|---|
+| 01 | Journal Hero | opening-journal | Care journal | Short guidance for better questions, calmer decisions, and clearer expectations. | Read articles | Request evaluation | 05-elevate-elevated-botanical-salon-journal-journal-hero-01 |
+| 02 | Results Category | reassurance-expectations | Result expectations | Read responsible guidance before forming expectations. | Understand results | Request evaluation | 05-elevate-elevated-botanical-salon-journal-results-category-02 |
+| 03 | Editorial Break | reassurance-statement | Learn before deciding | Good questions make the consultation more useful. | None | None | 05-elevate-elevated-botanical-salon-journal-editorial-break-03 |
+| 04 | Article Grid | education-route | Latest notes | Browse short educational pieces by topic. | View blog | Read FAQ | 05-elevate-elevated-botanical-salon-journal-article-grid-04 |
+| 05 | Consultation Bridge | conversion-contact | Ready to ask | Bring your questions into a private consultation or message. | Request evaluation | Message WhatsApp | 05-elevate-elevated-botanical-salon-journal-consultation-bridge-05 |
+| 06 | Featured Article | education-feature | Featured guide | Start with the most useful topic for your current questions. | Read guide | None | 05-elevate-elevated-botanical-salon-journal-featured-article-06 |
+| 07 | Skin Category | education-skin | Skin guidance | Read about routine, texture, sensitivity, and planning. | View skin | Read blog | 05-elevate-elevated-botanical-salon-journal-skin-category-07 |
+| 08 | Laser Category | education-laser | Laser questions | Learn what to discuss before choosing laser care. | Explore laser | Read FAQ | 05-elevate-elevated-botanical-salon-journal-laser-category-08 |
+| 09 | Care Category | education-care | Care planning | Understand how consultation supports personal decisions. | Explore care | Begin consultation | 05-elevate-elevated-botanical-salon-journal-care-category-09 |
+| 10 | Blog Contact CTA | conversion-final | Continue reading | Explore more articles or contact Franciele directly. | View blog | Contact Franciele | 05-elevate-elevated-botanical-salon-journal-blog-contact-cta-10 |
 
 ### Blog (blog.html)
-
-| #   | Section            | Role                  | Heading          | Short text                                                        | Primary CTA        | Secondary CTA      | Layout signature                                               |
-| --- | ------------------ | --------------------- | ---------------- | ----------------------------------------------------------------- | ------------------ | ------------------ | -------------------------------------------------------------- |
-| 01  | Blog Hero          | opening-blog          | Care articles    | Deeper educational notes for skin, laser, care, and expectations. | Read articles      | Request evaluation | 05-elevate-elevated-botanical-salon-blog-blog-hero-01          |
-| 02  | Education Break    | reassurance-statement | Better questions | Useful reading makes consultation clearer.                        | None               | None               | 05-elevate-elevated-botanical-salon-blog-education-break-02    |
-| 03  | Popular Questions  | education-faq         | Popular doubts   | Find practical answers before your next step.                     | FAQ                | None               | 05-elevate-elevated-botanical-salon-blog-popular-questions-03  |
-| 04  | Related Services   | service-route         | Related pages    | Connect articles to service guidance.                             | Care               | Skin               | 05-elevate-elevated-botanical-salon-blog-related-services-04   |
-| 05  | Consultation CTA   | conversion-contact    | Need guidance    | Bring your questions into a consultation.                         | Request evaluation | WhatsApp           | 05-elevate-elevated-botanical-salon-blog-consultation-cta-05   |
-| 06  | Featured Guide     | education-feature     | Featured guide   | Start with the guide most relevant to your questions.             | Read guide         | None               | 05-elevate-elevated-botanical-salon-blog-featured-guide-06     |
-| 07  | Article Categories | education-route       | Browse topics    | Choose skin, laser, care, or results guidance.                    | Journal            | None               | 05-elevate-elevated-botanical-salon-blog-article-categories-07 |
-| 08  | Article Grid       | education-route       | Latest articles  | Read short educational pieces by topic.                           | Read more          | None               | 05-elevate-elevated-botanical-salon-blog-article-grid-08       |
-| 09  | Reading Path       | education-route       | Choose a path    | Follow the topic that matches your current question.              | View FAQ           | None               | 05-elevate-elevated-botanical-salon-blog-reading-path-09       |
-| 10  | Journal Bridge     | conversion-final      | Back to journal  | Return to the editorial guide library.                            | Journal            | Contact            | 05-elevate-elevated-botanical-salon-blog-journal-bridge-10     |
+| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
+|---|---|---|---|---|---|---|---|
+| 01 | Blog Hero | opening-blog | Care articles | Deeper educational notes for skin, laser, care, and expectations. | Read articles | Request evaluation | 05-elevate-elevated-botanical-salon-blog-blog-hero-01 |
+| 02 | Education Break | reassurance-statement | Better questions | Useful reading makes consultation clearer. | None | None | 05-elevate-elevated-botanical-salon-blog-education-break-02 |
+| 03 | Popular Questions | education-faq | Popular doubts | Find practical answers before your next step. | FAQ | None | 05-elevate-elevated-botanical-salon-blog-popular-questions-03 |
+| 04 | Related Services | service-route | Related pages | Connect articles to service guidance. | Care | Skin | 05-elevate-elevated-botanical-salon-blog-related-services-04 |
+| 05 | Consultation CTA | conversion-contact | Need guidance | Bring your questions into a consultation. | Request evaluation | WhatsApp | 05-elevate-elevated-botanical-salon-blog-consultation-cta-05 |
+| 06 | Featured Guide | education-feature | Featured guide | Start with the guide most relevant to your questions. | Read guide | None | 05-elevate-elevated-botanical-salon-blog-featured-guide-06 |
+| 07 | Article Categories | education-route | Browse topics | Choose skin, laser, care, or results guidance. | Journal | None | 05-elevate-elevated-botanical-salon-blog-article-categories-07 |
+| 08 | Article Grid | education-route | Latest articles | Read short educational pieces by topic. | Read more | None | 05-elevate-elevated-botanical-salon-blog-article-grid-08 |
+| 09 | Reading Path | education-route | Choose a path | Follow the topic that matches your current question. | View FAQ | None | 05-elevate-elevated-botanical-salon-blog-reading-path-09 |
+| 10 | Journal Bridge | conversion-final | Back to journal | Return to the editorial guide library. | Journal | Contact | 05-elevate-elevated-botanical-salon-blog-journal-bridge-10 |
 
 ### Legal (legal.html)
-
-| #   | Section          | Role                  | Heading               | Short text                                                      | Primary CTA  | Secondary CTA | Layout signature                                              |
-| --- | ---------------- | --------------------- | --------------------- | --------------------------------------------------------------- | ------------ | ------------- | ------------------------------------------------------------- |
-| 01  | Page Hero        | opening-legal         | Legal                 | Clear information helps visitors use this site with confidence. | Contact      | Sitemap       | 05-elevate-elevated-botanical-salon-legal-page-hero-01        |
-| 02  | Trust Break      | reassurance-statement | Trust through clarity | Clear information supports a better experience.                 | None         | None          | 05-elevate-elevated-botanical-salon-legal-trust-break-02      |
-| 03  | Contact Route    | conversion-contact    | Need help             | Send a message if something is unclear.                         | Contact      | WhatsApp      | 05-elevate-elevated-botanical-salon-legal-contact-route-03    |
-| 04  | Legal Bridge     | support-route         | More information      | Review related site guidance.                                   | Privacy      | Legal         | 05-elevate-elevated-botanical-salon-legal-legal-bridge-04     |
-| 05  | Sitemap Route    | internal-route        | Find pages            | Use the sitemap to find any route.                              | Sitemap      | Home          | 05-elevate-elevated-botanical-salon-legal-sitemap-route-05    |
-| 06  | Main Explanation | support-explanation   | Plain language        | This page explains the main information simply and clearly.     | None         | None          | 05-elevate-elevated-botanical-salon-legal-main-explanation-06 |
-| 07  | Key Topic        | support-details       | Key details           | Important details should be easy to read and understand.        | None         | None          | 05-elevate-elevated-botanical-salon-legal-key-topic-07        |
-| 08  | User Choice      | support-choice        | Your choices          | Visitors should understand their options and contact routes.    | Contact      | None          | 05-elevate-elevated-botanical-salon-legal-user-choice-08      |
-| 09  | Related Route    | support-route         | Related page          | Continue to the most relevant support page.                     | Related page | None          | 05-elevate-elevated-botanical-salon-legal-related-route-09    |
-| 10  | Final CTA        | conversion-final      | Contact support       | Reach out if you need help using the site.                      | Contact      | Home          | 05-elevate-elevated-botanical-salon-legal-final-cta-10        |
+| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
+|---|---|---|---|---|---|---|---|
+| 01 | Page Hero | opening-legal | Legal | Clear information helps visitors use this site with confidence. | Contact | Sitemap | 05-elevate-elevated-botanical-salon-legal-page-hero-01 |
+| 02 | Trust Break | reassurance-statement | Trust through clarity | Clear information supports a better experience. | None | None | 05-elevate-elevated-botanical-salon-legal-trust-break-02 |
+| 03 | Contact Route | conversion-contact | Need help | Send a message if something is unclear. | Contact | WhatsApp | 05-elevate-elevated-botanical-salon-legal-contact-route-03 |
+| 04 | Legal Bridge | support-route | More information | Review related site guidance. | Privacy | Legal | 05-elevate-elevated-botanical-salon-legal-legal-bridge-04 |
+| 05 | Sitemap Route | internal-route | Find pages | Use the sitemap to find any route. | Sitemap | Home | 05-elevate-elevated-botanical-salon-legal-sitemap-route-05 |
+| 06 | Main Explanation | support-explanation | Plain language | This page explains the main information simply and clearly. | None | None | 05-elevate-elevated-botanical-salon-legal-main-explanation-06 |
+| 07 | Key Topic | support-details | Key details | Important details should be easy to read and understand. | None | None | 05-elevate-elevated-botanical-salon-legal-key-topic-07 |
+| 08 | User Choice | support-choice | Your choices | Visitors should understand their options and contact routes. | Contact | None | 05-elevate-elevated-botanical-salon-legal-user-choice-08 |
+| 09 | Related Route | support-route | Related page | Continue to the most relevant support page. | Related page | None | 05-elevate-elevated-botanical-salon-legal-related-route-09 |
+| 10 | Final CTA | conversion-final | Contact support | Reach out if you need help using the site. | Contact | Home | 05-elevate-elevated-botanical-salon-legal-final-cta-10 |
 
 ### Privacy (privacy.html)
-
-| #   | Section          | Role                  | Heading               | Short text                                                      | Primary CTA  | Secondary CTA | Layout signature                                                |
-| --- | ---------------- | --------------------- | --------------------- | --------------------------------------------------------------- | ------------ | ------------- | --------------------------------------------------------------- |
-| 01  | Page Hero        | opening-privacy       | Privacy               | Clear information helps visitors use this site with confidence. | Contact      | Sitemap       | 05-elevate-elevated-botanical-salon-privacy-page-hero-01        |
-| 02  | Trust Break      | reassurance-statement | Trust through clarity | Clear information supports a better experience.                 | None         | None          | 05-elevate-elevated-botanical-salon-privacy-trust-break-02      |
-| 03  | Contact Route    | conversion-contact    | Need help             | Send a message if something is unclear.                         | Contact      | WhatsApp      | 05-elevate-elevated-botanical-salon-privacy-contact-route-03    |
-| 04  | Legal Bridge     | support-route         | More information      | Review related site guidance.                                   | Privacy      | Legal         | 05-elevate-elevated-botanical-salon-privacy-legal-bridge-04     |
-| 05  | Sitemap Route    | internal-route        | Find pages            | Use the sitemap to find any route.                              | Sitemap      | Home          | 05-elevate-elevated-botanical-salon-privacy-sitemap-route-05    |
-| 06  | Main Explanation | support-explanation   | Plain language        | This page explains the main information simply and clearly.     | None         | None          | 05-elevate-elevated-botanical-salon-privacy-main-explanation-06 |
-| 07  | Key Topic        | support-details       | Key details           | Important details should be easy to read and understand.        | None         | None          | 05-elevate-elevated-botanical-salon-privacy-key-topic-07        |
-| 08  | User Choice      | support-choice        | Your choices          | Visitors should understand their options and contact routes.    | Contact      | None          | 05-elevate-elevated-botanical-salon-privacy-user-choice-08      |
-| 09  | Related Route    | support-route         | Related page          | Continue to the most relevant support page.                     | Related page | None          | 05-elevate-elevated-botanical-salon-privacy-related-route-09    |
-| 10  | Final CTA        | conversion-final      | Contact support       | Reach out if you need help using the site.                      | Contact      | Home          | 05-elevate-elevated-botanical-salon-privacy-final-cta-10        |
+| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
+|---|---|---|---|---|---|---|---|
+| 01 | Page Hero | opening-privacy | Privacy | Clear information helps visitors use this site with confidence. | Contact | Sitemap | 05-elevate-elevated-botanical-salon-privacy-page-hero-01 |
+| 02 | Trust Break | reassurance-statement | Trust through clarity | Clear information supports a better experience. | None | None | 05-elevate-elevated-botanical-salon-privacy-trust-break-02 |
+| 03 | Contact Route | conversion-contact | Need help | Send a message if something is unclear. | Contact | WhatsApp | 05-elevate-elevated-botanical-salon-privacy-contact-route-03 |
+| 04 | Legal Bridge | support-route | More information | Review related site guidance. | Privacy | Legal | 05-elevate-elevated-botanical-salon-privacy-legal-bridge-04 |
+| 05 | Sitemap Route | internal-route | Find pages | Use the sitemap to find any route. | Sitemap | Home | 05-elevate-elevated-botanical-salon-privacy-sitemap-route-05 |
+| 06 | Main Explanation | support-explanation | Plain language | This page explains the main information simply and clearly. | None | None | 05-elevate-elevated-botanical-salon-privacy-main-explanation-06 |
+| 07 | Key Topic | support-details | Key details | Important details should be easy to read and understand. | None | None | 05-elevate-elevated-botanical-salon-privacy-key-topic-07 |
+| 08 | User Choice | support-choice | Your choices | Visitors should understand their options and contact routes. | Contact | None | 05-elevate-elevated-botanical-salon-privacy-user-choice-08 |
+| 09 | Related Route | support-route | Related page | Continue to the most relevant support page. | Related page | None | 05-elevate-elevated-botanical-salon-privacy-related-route-09 |
+| 10 | Final CTA | conversion-final | Contact support | Reach out if you need help using the site. | Contact | Home | 05-elevate-elevated-botanical-salon-privacy-final-cta-10 |
 
 ### Cookies (cookies.html)
-
-| #   | Section          | Role                  | Heading               | Short text                                                      | Primary CTA  | Secondary CTA | Layout signature                                                |
-| --- | ---------------- | --------------------- | --------------------- | --------------------------------------------------------------- | ------------ | ------------- | --------------------------------------------------------------- |
-| 01  | Page Hero        | opening-cookies       | Cookies               | Clear information helps visitors use this site with confidence. | Contact      | Sitemap       | 05-elevate-elevated-botanical-salon-cookies-page-hero-01        |
-| 02  | Trust Break      | reassurance-statement | Trust through clarity | Clear information supports a better experience.                 | None         | None          | 05-elevate-elevated-botanical-salon-cookies-trust-break-02      |
-| 03  | Contact Route    | conversion-contact    | Need help             | Send a message if something is unclear.                         | Contact      | WhatsApp      | 05-elevate-elevated-botanical-salon-cookies-contact-route-03    |
-| 04  | Legal Bridge     | support-route         | More information      | Review related site guidance.                                   | Privacy      | Legal         | 05-elevate-elevated-botanical-salon-cookies-legal-bridge-04     |
-| 05  | Sitemap Route    | internal-route        | Find pages            | Use the sitemap to find any route.                              | Sitemap      | Home          | 05-elevate-elevated-botanical-salon-cookies-sitemap-route-05    |
-| 06  | Main Explanation | support-explanation   | Plain language        | This page explains the main information simply and clearly.     | None         | None          | 05-elevate-elevated-botanical-salon-cookies-main-explanation-06 |
-| 07  | Key Topic        | support-details       | Key details           | Important details should be easy to read and understand.        | None         | None          | 05-elevate-elevated-botanical-salon-cookies-key-topic-07        |
-| 08  | User Choice      | support-choice        | Your choices          | Visitors should understand their options and contact routes.    | Contact      | None          | 05-elevate-elevated-botanical-salon-cookies-user-choice-08      |
-| 09  | Related Route    | support-route         | Related page          | Continue to the most relevant support page.                     | Related page | None          | 05-elevate-elevated-botanical-salon-cookies-related-route-09    |
-| 10  | Final CTA        | conversion-final      | Contact support       | Reach out if you need help using the site.                      | Contact      | Home          | 05-elevate-elevated-botanical-salon-cookies-final-cta-10        |
+| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
+|---|---|---|---|---|---|---|---|
+| 01 | Page Hero | opening-cookies | Cookies | Clear information helps visitors use this site with confidence. | Contact | Sitemap | 05-elevate-elevated-botanical-salon-cookies-page-hero-01 |
+| 02 | Trust Break | reassurance-statement | Trust through clarity | Clear information supports a better experience. | None | None | 05-elevate-elevated-botanical-salon-cookies-trust-break-02 |
+| 03 | Contact Route | conversion-contact | Need help | Send a message if something is unclear. | Contact | WhatsApp | 05-elevate-elevated-botanical-salon-cookies-contact-route-03 |
+| 04 | Legal Bridge | support-route | More information | Review related site guidance. | Privacy | Legal | 05-elevate-elevated-botanical-salon-cookies-legal-bridge-04 |
+| 05 | Sitemap Route | internal-route | Find pages | Use the sitemap to find any route. | Sitemap | Home | 05-elevate-elevated-botanical-salon-cookies-sitemap-route-05 |
+| 06 | Main Explanation | support-explanation | Plain language | This page explains the main information simply and clearly. | None | None | 05-elevate-elevated-botanical-salon-cookies-main-explanation-06 |
+| 07 | Key Topic | support-details | Key details | Important details should be easy to read and understand. | None | None | 05-elevate-elevated-botanical-salon-cookies-key-topic-07 |
+| 08 | User Choice | support-choice | Your choices | Visitors should understand their options and contact routes. | Contact | None | 05-elevate-elevated-botanical-salon-cookies-user-choice-08 |
+| 09 | Related Route | support-route | Related page | Continue to the most relevant support page. | Related page | None | 05-elevate-elevated-botanical-salon-cookies-related-route-09 |
+| 10 | Final CTA | conversion-final | Contact support | Reach out if you need help using the site. | Contact | Home | 05-elevate-elevated-botanical-salon-cookies-final-cta-10 |
 
 ### Accessibility (accessibility.html)
-
-| #   | Section          | Role                  | Heading               | Short text                                                      | Primary CTA  | Secondary CTA | Layout signature                                                      |
-| --- | ---------------- | --------------------- | --------------------- | --------------------------------------------------------------- | ------------ | ------------- | --------------------------------------------------------------------- |
-| 01  | Page Hero        | opening-accessibility | Accessibility         | Clear information helps visitors use this site with confidence. | Contact      | Sitemap       | 05-elevate-elevated-botanical-salon-accessibility-page-hero-01        |
-| 02  | Trust Break      | reassurance-statement | Trust through clarity | Clear information supports a better experience.                 | None         | None          | 05-elevate-elevated-botanical-salon-accessibility-trust-break-02      |
-| 03  | Contact Route    | conversion-contact    | Need help             | Send a message if something is unclear.                         | Contact      | WhatsApp      | 05-elevate-elevated-botanical-salon-accessibility-contact-route-03    |
-| 04  | Legal Bridge     | support-route         | More information      | Review related site guidance.                                   | Privacy      | Legal         | 05-elevate-elevated-botanical-salon-accessibility-legal-bridge-04     |
-| 05  | Sitemap Route    | internal-route        | Find pages            | Use the sitemap to find any route.                              | Sitemap      | Home          | 05-elevate-elevated-botanical-salon-accessibility-sitemap-route-05    |
-| 06  | Main Explanation | support-explanation   | Plain language        | This page explains the main information simply and clearly.     | None         | None          | 05-elevate-elevated-botanical-salon-accessibility-main-explanation-06 |
-| 07  | Key Topic        | support-details       | Key details           | Important details should be easy to read and understand.        | None         | None          | 05-elevate-elevated-botanical-salon-accessibility-key-topic-07        |
-| 08  | User Choice      | support-choice        | Your choices          | Visitors should understand their options and contact routes.    | Contact      | None          | 05-elevate-elevated-botanical-salon-accessibility-user-choice-08      |
-| 09  | Related Route    | support-route         | Related page          | Continue to the most relevant support page.                     | Related page | None          | 05-elevate-elevated-botanical-salon-accessibility-related-route-09    |
-| 10  | Final CTA        | conversion-final      | Contact support       | Reach out if you need help using the site.                      | Contact      | Home          | 05-elevate-elevated-botanical-salon-accessibility-final-cta-10        |
+| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
+|---|---|---|---|---|---|---|---|
+| 01 | Page Hero | opening-accessibility | Accessibility | Clear information helps visitors use this site with confidence. | Contact | Sitemap | 05-elevate-elevated-botanical-salon-accessibility-page-hero-01 |
+| 02 | Trust Break | reassurance-statement | Trust through clarity | Clear information supports a better experience. | None | None | 05-elevate-elevated-botanical-salon-accessibility-trust-break-02 |
+| 03 | Contact Route | conversion-contact | Need help | Send a message if something is unclear. | Contact | WhatsApp | 05-elevate-elevated-botanical-salon-accessibility-contact-route-03 |
+| 04 | Legal Bridge | support-route | More information | Review related site guidance. | Privacy | Legal | 05-elevate-elevated-botanical-salon-accessibility-legal-bridge-04 |
+| 05 | Sitemap Route | internal-route | Find pages | Use the sitemap to find any route. | Sitemap | Home | 05-elevate-elevated-botanical-salon-accessibility-sitemap-route-05 |
+| 06 | Main Explanation | support-explanation | Plain language | This page explains the main information simply and clearly. | None | None | 05-elevate-elevated-botanical-salon-accessibility-main-explanation-06 |
+| 07 | Key Topic | support-details | Key details | Important details should be easy to read and understand. | None | None | 05-elevate-elevated-botanical-salon-accessibility-key-topic-07 |
+| 08 | User Choice | support-choice | Your choices | Visitors should understand their options and contact routes. | Contact | None | 05-elevate-elevated-botanical-salon-accessibility-user-choice-08 |
+| 09 | Related Route | support-route | Related page | Continue to the most relevant support page. | Related page | None | 05-elevate-elevated-botanical-salon-accessibility-related-route-09 |
+| 10 | Final CTA | conversion-final | Contact support | Reach out if you need help using the site. | Contact | Home | 05-elevate-elevated-botanical-salon-accessibility-final-cta-10 |
 
 ### Sitemap (sitemap.html)
-
-| #   | Section           | Role                  | Heading      | Short text                                         | Primary CTA  | Secondary CTA | Layout signature                                                 |
-| --- | ----------------- | --------------------- | ------------ | -------------------------------------------------- | ------------ | ------------- | ---------------------------------------------------------------- |
-| 01  | Sitemap Hero      | opening-sitemap       | Site map     | Find every important page quickly.                 | Home         | Consultation  | 05-elevate-elevated-botanical-salon-sitemap-sitemap-hero-01      |
-| 02  | Trust Pages       | reassurance-route     | Trust pages  | Review results, feedback, and privacy.             | Results      | Privacy       | 05-elevate-elevated-botanical-salon-sitemap-trust-pages-02       |
-| 03  | Legal Pages       | support-route         | Legal pages  | Open policy and accessibility routes.              | Legal        | Accessibility | 05-elevate-elevated-botanical-salon-sitemap-legal-pages-03       |
-| 04  | Consultation Path | conversion-contact    | Start here   | Request evaluation or send a message.              | Consultation | Contact       | 05-elevate-elevated-botanical-salon-sitemap-consultation-path-04 |
-| 05  | Route Break       | reassurance-statement | Clear routes | A simple map helps every visitor move confidently. | None         | None          | 05-elevate-elevated-botanical-salon-sitemap-route-break-05       |
-| 06  | Core Pages        | internal-route        | Core pages   | Start with the main routes.                        | Home         | About         | 05-elevate-elevated-botanical-salon-sitemap-core-pages-06        |
-| 07  | Service Pages     | service-route         | Care pages   | Explore care, skin, laser, and results.            | Care         | Skin          | 05-elevate-elevated-botanical-salon-sitemap-service-pages-07     |
-| 08  | Brand Pages       | brand-route           | Brand pages  | Learn about the mission and values.                | Mission      | Values        | 05-elevate-elevated-botanical-salon-sitemap-brand-pages-08       |
-| 09  | Education Pages   | education-route       | Education    | Read journal notes and articles.                   | Journal      | Blog          | 05-elevate-elevated-botanical-salon-sitemap-education-pages-09   |
-| 10  | Final CTA         | conversion-final      | Return home  | Go back to the beginning or start consultation.    | Home         | Consultation  | 05-elevate-elevated-botanical-salon-sitemap-final-cta-10         |
+| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
+|---|---|---|---|---|---|---|---|
+| 01 | Sitemap Hero | opening-sitemap | Site map | Find every important page quickly. | Home | Consultation | 05-elevate-elevated-botanical-salon-sitemap-sitemap-hero-01 |
+| 02 | Trust Pages | reassurance-route | Trust pages | Review results, feedback, and privacy. | Results | Privacy | 05-elevate-elevated-botanical-salon-sitemap-trust-pages-02 |
+| 03 | Legal Pages | support-route | Legal pages | Open policy and accessibility routes. | Legal | Accessibility | 05-elevate-elevated-botanical-salon-sitemap-legal-pages-03 |
+| 04 | Consultation Path | conversion-contact | Start here | Request evaluation or send a message. | Consultation | Contact | 05-elevate-elevated-botanical-salon-sitemap-consultation-path-04 |
+| 05 | Route Break | reassurance-statement | Clear routes | A simple map helps every visitor move confidently. | None | None | 05-elevate-elevated-botanical-salon-sitemap-route-break-05 |
+| 06 | Core Pages | internal-route | Core pages | Start with the main routes. | Home | About | 05-elevate-elevated-botanical-salon-sitemap-core-pages-06 |
+| 07 | Service Pages | service-route | Care pages | Explore care, skin, laser, and results. | Care | Skin | 05-elevate-elevated-botanical-salon-sitemap-service-pages-07 |
+| 08 | Brand Pages | brand-route | Brand pages | Learn about the mission and values. | Mission | Values | 05-elevate-elevated-botanical-salon-sitemap-brand-pages-08 |
+| 09 | Education Pages | education-route | Education | Read journal notes and articles. | Journal | Blog | 05-elevate-elevated-botanical-salon-sitemap-education-pages-09 |
+| 10 | Final CTA | conversion-final | Return home | Go back to the beginning or start consultation. | Home | Consultation | 05-elevate-elevated-botanical-salon-sitemap-final-cta-10 |
 
 ### 404 (404.html)
-
-| #   | Section           | Role                  | Heading          | Short text                                                 | Primary CTA  | Secondary CTA | Layout signature                                             |
-| --- | ----------------- | --------------------- | ---------------- | ---------------------------------------------------------- | ------------ | ------------- | ------------------------------------------------------------ |
-| 01  | Error Hero        | opening-error         | Page missing     | This page could not be found, but you can continue calmly. | Home         | Contact       | 05-elevate-elevated-botanical-salon-404-error-hero-01        |
-| 02  | Journal Route     | education-route       | Read guidance    | Browse education while you search.                         | Journal      | Blog          | 05-elevate-elevated-botanical-salon-404-journal-route-02     |
-| 03  | FAQ Route         | education-faq         | Common questions | Find short answers quickly.                                | FAQ          | None          | 05-elevate-elevated-botanical-salon-404-faq-route-03         |
-| 04  | Contact Route     | conversion-contact    | Contact us       | Send a message if you need help.                           | Contact      | WhatsApp      | 05-elevate-elevated-botanical-salon-404-contact-route-04     |
-| 05  | Sitemap Route     | internal-route        | Find everything  | Open the full site map.                                    | Sitemap      | None          | 05-elevate-elevated-botanical-salon-404-sitemap-route-05     |
-| 06  | Reassurance       | reassurance-statement | No problem       | Use one of the routes below to keep moving.                | None         | None          | 05-elevate-elevated-botanical-salon-404-reassurance-06       |
-| 07  | Return Home       | internal-route        | Start again      | Return to the main page.                                   | Home         | None          | 05-elevate-elevated-botanical-salon-404-return-home-07       |
-| 08  | Consultation Path | conversion-contact    | Need guidance    | You can still request an evaluation.                       | Consultation | None          | 05-elevate-elevated-botanical-salon-404-consultation-path-08 |
-| 09  | Service Routes    | service-route         | Care routes      | Explore care or skin guidance.                             | Care         | Skin          | 05-elevate-elevated-botanical-salon-404-service-routes-09    |
-| 10  | Final CTA         | conversion-final      | Continue calmly  | Choose a route and keep exploring.                         | Home         | Contact       | 05-elevate-elevated-botanical-salon-404-final-cta-10         |
+| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
+|---|---|---|---|---|---|---|---|
+| 01 | Error Hero | opening-error | Page missing | This page could not be found, but you can continue calmly. | Home | Contact | 05-elevate-elevated-botanical-salon-404-error-hero-01 |
+| 02 | Journal Route | education-route | Read guidance | Browse education while you search. | Journal | Blog | 05-elevate-elevated-botanical-salon-404-journal-route-02 |
+| 03 | FAQ Route | education-faq | Common questions | Find short answers quickly. | FAQ | None | 05-elevate-elevated-botanical-salon-404-faq-route-03 |
+| 04 | Contact Route | conversion-contact | Contact us | Send a message if you need help. | Contact | WhatsApp | 05-elevate-elevated-botanical-salon-404-contact-route-04 |
+| 05 | Sitemap Route | internal-route | Find everything | Open the full site map. | Sitemap | None | 05-elevate-elevated-botanical-salon-404-sitemap-route-05 |
+| 06 | Reassurance | reassurance-statement | No problem | Use one of the routes below to keep moving. | None | None | 05-elevate-elevated-botanical-salon-404-reassurance-06 |
+| 07 | Return Home | internal-route | Start again | Return to the main page. | Home | None | 05-elevate-elevated-botanical-salon-404-return-home-07 |
+| 08 | Consultation Path | conversion-contact | Need guidance | You can still request an evaluation. | Consultation | None | 05-elevate-elevated-botanical-salon-404-consultation-path-08 |
+| 09 | Service Routes | service-route | Care routes | Explore care or skin guidance. | Care | Skin | 05-elevate-elevated-botanical-salon-404-service-routes-09 |
+| 10 | Final CTA | conversion-final | Continue calmly | Choose a route and keep exploring. | Home | Contact | 05-elevate-elevated-botanical-salon-404-final-cta-10 |
 
 ### Thank You (thank-you.html)
-
-| #   | Section              | Role                  | Heading           | Short text                                                              | Primary CTA  | Secondary CTA | Layout signature                                                      |
-| --- | -------------------- | --------------------- | ----------------- | ----------------------------------------------------------------------- | ------------ | ------------- | --------------------------------------------------------------------- |
-| 01  | Thank You Hero       | opening-thanks        | Message received  | Thank you. Your message has been sent.                                  | Home         | WhatsApp      | 05-elevate-elevated-botanical-salon-thank-you-thank-you-hero-01       |
-| 02  | Journal Preview      | education-route       | Read more         | Browse articles for practical education.                                | Journal      | Blog          | 05-elevate-elevated-botanical-salon-thank-you-journal-preview-02      |
-| 03  | Privacy Reassurance  | reassurance-privacy   | Privacy note      | Review how contact information is handled.                              | Privacy      | None          | 05-elevate-elevated-botanical-salon-thank-you-privacy-reassurance-03  |
-| 04  | Contact Again        | conversion-contact    | Need to add       | Send another message if needed.                                         | Contact      | WhatsApp      | 05-elevate-elevated-botanical-salon-thank-you-contact-again-04        |
-| 05  | Brand Reassurance    | reassurance-statement | Calm guidance     | Every next step should feel clear and considered.                       | None         | None          | 05-elevate-elevated-botanical-salon-thank-you-brand-reassurance-05    |
-| 06  | What Happens Next    | explanation-next      | Next step         | Your message can now be reviewed and answered through the chosen route. | None         | None          | 05-elevate-elevated-botanical-salon-thank-you-what-happens-next-06    |
-| 07  | While You Wait       | education-route       | While you wait    | Read useful guidance before the next step.                              | Journal      | None          | 05-elevate-elevated-botanical-salon-thank-you-while-you-wait-07       |
-| 08  | Prepare Consultation | education-prep        | Prepare questions | Think about goals, routine, comfort, and expectations.                  | Consultation | FAQ           | 05-elevate-elevated-botanical-salon-thank-you-prepare-consultation-08 |
-| 09  | Care Education       | service-route         | Explore care      | Learn more about care and skin guidance.                                | Care         | Skin          | 05-elevate-elevated-botanical-salon-thank-you-care-education-09       |
-| 10  | Final Route          | conversion-final      | Return home       | Go back to the site or continue reading.                                | Home         | Journal       | 05-elevate-elevated-botanical-salon-thank-you-final-route-10          |
+| # | Section | Role | Heading | Short text | Primary CTA | Secondary CTA | Layout signature |
+|---|---|---|---|---|---|---|---|
+| 01 | Thank You Hero | opening-thanks | Message received | Thank you. Your message has been sent. | Home | WhatsApp | 05-elevate-elevated-botanical-salon-thank-you-thank-you-hero-01 |
+| 02 | Journal Preview | education-route | Read more | Browse articles for practical education. | Journal | Blog | 05-elevate-elevated-botanical-salon-thank-you-journal-preview-02 |
+| 03 | Privacy Reassurance | reassurance-privacy | Privacy note | Review how contact information is handled. | Privacy | None | 05-elevate-elevated-botanical-salon-thank-you-privacy-reassurance-03 |
+| 04 | Contact Again | conversion-contact | Need to add | Send another message if needed. | Contact | WhatsApp | 05-elevate-elevated-botanical-salon-thank-you-contact-again-04 |
+| 05 | Brand Reassurance | reassurance-statement | Calm guidance | Every next step should feel clear and considered. | None | None | 05-elevate-elevated-botanical-salon-thank-you-brand-reassurance-05 |
+| 06 | What Happens Next | explanation-next | Next step | Your message can now be reviewed and answered through the chosen route. | None | None | 05-elevate-elevated-botanical-salon-thank-you-what-happens-next-06 |
+| 07 | While You Wait | education-route | While you wait | Read useful guidance before the next step. | Journal | None | 05-elevate-elevated-botanical-salon-thank-you-while-you-wait-07 |
+| 08 | Prepare Consultation | education-prep | Prepare questions | Think about goals, routine, comfort, and expectations. | Consultation | FAQ | 05-elevate-elevated-botanical-salon-thank-you-prepare-consultation-08 |
+| 09 | Care Education | service-route | Explore care | Learn more about care and skin guidance. | Care | Skin | 05-elevate-elevated-botanical-salon-thank-you-care-education-09 |
+| 10 | Final Route | conversion-final | Return home | Go back to the site or continue reading. | Home | Journal | 05-elevate-elevated-botanical-salon-thank-you-final-route-10 |
 
 ## 25. Actual short text for every page section
-
 The table above is the approved short copy. Each section has one heading, one concise paragraph, optional short bullets or cards, and at most two visible links or buttons.
 
 ## 26. CTA strategy
-
 Primary conversion language: Request evaluation, Begin consultation, Fill form, Contact Franciele. Secondary routes: Message WhatsApp, Read FAQ, View care, Open sitemap.
 
 ## 27. SEO rules
-
 Use concise titles, unique page descriptions, canonical URLs, internal education links, short headings, and no keyword stuffing.
 
 ## 28. Accessibility rules
-
 Use a single H1 per page, clear focus states, meaningful alt text, readable contrast, skip link, semantic sections, and no text hidden inside images.
 
 ## 29. Mobile rules
-
 botanical accents reduce opacity and never block copy. Buttons stack, media crops safely, no text overlaps, and final CTA remains easy to reach.
 
 ## 30. Screenshot QA rules
-
 Check desktop, tablet, and mobile for premium spacing, visible portrait, no overlapping partials, no oversized cards, and no cloned rhythm against adjacent concepts.
 
 ## 31. Implementation checklist
-
 - MASTER-BRIEF.md exists and ends with JSON.
 - scripts/sites/05-elevate/implement.mjs reads this brief.
 - All 21 pages exist in concepts/05-elevate.
@@ -718,13 +670,11 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
 - Each section has the required comment and data attributes.
 
 ## 32. Cleanup checklist
-
 - Remove old concept-level planning markdown after this brief is active.
 - Remove obsolete audit/report/doc clutter from active folders.
 - Keep production partials, source photos, brand identity, package files, and imported helpers.
 
 ## 33. Final QA checklist
-
 - Link count: maximum two visible links/buttons per section.
 - Copy length: short headings and paragraphs.
 - Safety: no guarantees, fake awards, fake testimonials, or unsupported claims.
@@ -732,13 +682,11 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
 - Differentiation: Elevated Botanical Salon remains visible in screenshots.
 
 ## 34. Human confirmation needed
-
 - Confirm medical/legal compliance before launch.
 - Confirm final photography choices.
 - Confirm production contact routing and WhatsApp destination.
 
 ## 35. Machine-readable JSON summary
-
 ```json
 {
   "siteId": "05-elevate",
@@ -4066,7 +4014,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "home",
           "section": "01",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": ["consultation.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "consultation.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4075,7 +4026,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "home",
           "section": "03",
           "anchorText": "Understand results / Request evaluation",
-          "targets": ["results.html", "consultation.html"],
+          "targets": [
+            "results.html",
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4084,7 +4038,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "home",
           "section": "04",
           "anchorText": "Read journal / View articles",
-          "targets": ["journal.html", "blog.html"],
+          "targets": [
+            "journal.html",
+            "blog.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4093,7 +4050,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "home",
           "section": "05",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": ["consultation.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "consultation.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4102,7 +4062,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "home",
           "section": "06",
           "anchorText": "View values / Read mission",
-          "targets": ["values.html", "mission.html"],
+          "targets": [
+            "values.html",
+            "mission.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4111,7 +4074,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "home",
           "section": "07",
           "anchorText": "Meet Franciele / Begin consultation",
-          "targets": ["about.html", "consultation.html"],
+          "targets": [
+            "about.html",
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4120,7 +4086,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "home",
           "section": "08",
           "anchorText": "Explore care / View skin",
-          "targets": ["care.html", "skin.html"],
+          "targets": [
+            "care.html",
+            "skin.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4129,7 +4098,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "home",
           "section": "09",
           "anchorText": "Book consultation / Read FAQ",
-          "targets": ["consultation.html", "faq.html"],
+          "targets": [
+            "consultation.html",
+            "faq.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4138,7 +4110,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "home",
           "section": "10",
           "anchorText": "Contact Franciele / Open sitemap",
-          "targets": ["contact.html", "sitemap.html"],
+          "targets": [
+            "contact.html",
+            "sitemap.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4152,7 +4127,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "about",
           "section": "01",
           "anchorText": "Begin consultation / Message WhatsApp",
-          "targets": ["consultation.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "consultation.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4161,7 +4139,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "about",
           "section": "03",
           "anchorText": "Book consultation / Read FAQ",
-          "targets": ["consultation.html", "faq.html"],
+          "targets": [
+            "consultation.html",
+            "faq.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4170,7 +4151,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "about",
           "section": "04",
           "anchorText": "Understand results / Privacy",
-          "targets": ["results.html", "privacy.html"],
+          "targets": [
+            "results.html",
+            "privacy.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4179,7 +4163,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "about",
           "section": "05",
           "anchorText": "Explore care / Read mission",
-          "targets": ["care.html", "mission.html"],
+          "targets": [
+            "care.html",
+            "mission.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4188,7 +4175,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "about",
           "section": "06",
           "anchorText": "View care",
-          "targets": ["care.html"],
+          "targets": [
+            "care.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4197,7 +4186,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "about",
           "section": "07",
           "anchorText": "Read mission / View values",
-          "targets": ["mission.html", "values.html"],
+          "targets": [
+            "mission.html",
+            "values.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4206,7 +4198,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "about",
           "section": "08",
           "anchorText": "View values / Request evaluation",
-          "targets": ["values.html", "consultation.html"],
+          "targets": [
+            "values.html",
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4215,7 +4210,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "about",
           "section": "09",
           "anchorText": "Contact Franciele",
-          "targets": ["contact.html"],
+          "targets": [
+            "contact.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4224,7 +4221,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "about",
           "section": "10",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": ["consultation.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "consultation.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4238,7 +4238,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "care",
           "section": "01",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": ["consultation.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "consultation.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4247,7 +4250,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "care",
           "section": "03",
           "anchorText": "Read FAQ / Privacy",
-          "targets": ["faq.html", "privacy.html"],
+          "targets": [
+            "faq.html",
+            "privacy.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4256,7 +4262,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "care",
           "section": "04",
           "anchorText": "Read journal / View blog",
-          "targets": ["journal.html", "blog.html"],
+          "targets": [
+            "journal.html",
+            "blog.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4265,7 +4274,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "care",
           "section": "05",
           "anchorText": "Begin consultation / Message WhatsApp",
-          "targets": ["consultation.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "consultation.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4274,7 +4286,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "care",
           "section": "06",
           "anchorText": "Begin consultation",
-          "targets": ["consultation.html"],
+          "targets": [
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4283,7 +4297,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "care",
           "section": "07",
           "anchorText": "Book consultation / Read FAQ",
-          "targets": ["consultation.html", "faq.html"],
+          "targets": [
+            "consultation.html",
+            "faq.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4292,7 +4309,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "care",
           "section": "08",
           "anchorText": "Request evaluation",
-          "targets": ["consultation.html"],
+          "targets": [
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4301,7 +4320,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "care",
           "section": "09",
           "anchorText": "View skin / Explore laser",
-          "targets": ["skin.html", "laser.html"],
+          "targets": [
+            "skin.html",
+            "laser.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4310,7 +4332,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "care",
           "section": "10",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": ["consultation.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "consultation.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4324,7 +4349,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "laser",
           "section": "01",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": ["consultation.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "consultation.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4333,7 +4361,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "laser",
           "section": "03",
           "anchorText": "View skin / View results",
-          "targets": ["skin.html", "results.html"],
+          "targets": [
+            "skin.html",
+            "results.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4342,7 +4373,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "laser",
           "section": "04",
           "anchorText": "Read FAQ / Ask a question",
-          "targets": ["faq.html", "contact.html"],
+          "targets": [
+            "faq.html",
+            "contact.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4351,7 +4385,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "laser",
           "section": "05",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": ["consultation.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "consultation.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4360,7 +4397,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "laser",
           "section": "06",
           "anchorText": "Begin consultation",
-          "targets": ["consultation.html"],
+          "targets": [
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4369,7 +4408,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "laser",
           "section": "07",
           "anchorText": "Read FAQ / View results",
-          "targets": ["faq.html", "results.html"],
+          "targets": [
+            "faq.html",
+            "results.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4378,7 +4420,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "laser",
           "section": "08",
           "anchorText": "Book consultation",
-          "targets": ["consultation.html"],
+          "targets": [
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4387,7 +4431,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "laser",
           "section": "09",
           "anchorText": "Read FAQ / Understand results",
-          "targets": ["faq.html", "results.html"],
+          "targets": [
+            "faq.html",
+            "results.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4396,7 +4443,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "laser",
           "section": "10",
           "anchorText": "Contact Franciele / Privacy",
-          "targets": ["contact.html", "privacy.html"],
+          "targets": [
+            "contact.html",
+            "privacy.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4410,7 +4460,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "skin",
           "section": "01",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": ["consultation.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "consultation.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4419,7 +4472,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "skin",
           "section": "02",
           "anchorText": "Understand results / Request evaluation",
-          "targets": ["results.html", "consultation.html"],
+          "targets": [
+            "results.html",
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4428,7 +4484,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "skin",
           "section": "03",
           "anchorText": "Explore care / Explore laser",
-          "targets": ["care.html", "laser.html"],
+          "targets": [
+            "care.html",
+            "laser.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4437,7 +4496,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "skin",
           "section": "04",
           "anchorText": "Read journal / View blog",
-          "targets": ["journal.html", "blog.html"],
+          "targets": [
+            "journal.html",
+            "blog.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4446,7 +4508,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "skin",
           "section": "05",
           "anchorText": "Begin consultation / Message WhatsApp",
-          "targets": ["consultation.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "consultation.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4455,7 +4520,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "skin",
           "section": "06",
           "anchorText": "Begin consultation",
-          "targets": ["consultation.html"],
+          "targets": [
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4464,7 +4531,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "skin",
           "section": "07",
           "anchorText": "Book consultation / Read FAQ",
-          "targets": ["consultation.html", "faq.html"],
+          "targets": [
+            "consultation.html",
+            "faq.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4473,7 +4543,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "skin",
           "section": "08",
           "anchorText": "View care",
-          "targets": ["care.html"],
+          "targets": [
+            "care.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4482,7 +4554,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "skin",
           "section": "10",
           "anchorText": "Request evaluation / Contact Franciele",
-          "targets": ["consultation.html", "contact.html"],
+          "targets": [
+            "consultation.html",
+            "contact.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4496,7 +4571,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "results",
           "section": "01",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": ["consultation.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "consultation.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4505,7 +4583,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "results",
           "section": "03",
           "anchorText": "Explore care / View skin",
-          "targets": ["care.html", "skin.html"],
+          "targets": [
+            "care.html",
+            "skin.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4514,7 +4595,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "results",
           "section": "04",
           "anchorText": "Feedback guidance / Privacy",
-          "targets": ["testimonials.html", "privacy.html"],
+          "targets": [
+            "testimonials.html",
+            "privacy.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4523,7 +4607,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "results",
           "section": "05",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": ["consultation.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "consultation.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4532,7 +4619,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "results",
           "section": "06",
           "anchorText": "Begin consultation",
-          "targets": ["consultation.html"],
+          "targets": [
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4541,7 +4630,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "results",
           "section": "07",
           "anchorText": "Read FAQ / Privacy",
-          "targets": ["faq.html", "privacy.html"],
+          "targets": [
+            "faq.html",
+            "privacy.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4550,7 +4642,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "results",
           "section": "08",
           "anchorText": "View care / Request evaluation",
-          "targets": ["care.html", "consultation.html"],
+          "targets": [
+            "care.html",
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4559,7 +4654,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "results",
           "section": "09",
           "anchorText": "Book consultation",
-          "targets": ["consultation.html"],
+          "targets": [
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4568,7 +4665,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "results",
           "section": "10",
           "anchorText": "Contact Franciele / Read FAQ",
-          "targets": ["contact.html", "faq.html"],
+          "targets": [
+            "contact.html",
+            "faq.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4582,7 +4682,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "consultation",
           "section": "01",
           "anchorText": "Fill form / Message WhatsApp",
-          "targets": ["contact.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "contact.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4591,7 +4694,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "consultation",
           "section": "02",
           "anchorText": "Submit request / Message WhatsApp",
-          "targets": ["contact.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "contact.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4600,7 +4706,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "consultation",
           "section": "03",
           "anchorText": "Privacy",
-          "targets": ["privacy.html"],
+          "targets": [
+            "privacy.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4609,7 +4717,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "consultation",
           "section": "04",
           "anchorText": "Explore care / View FAQ",
-          "targets": ["care.html", "faq.html"],
+          "targets": [
+            "care.html",
+            "faq.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4618,7 +4729,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "consultation",
           "section": "05",
           "anchorText": "Message WhatsApp / Contact Franciele",
-          "targets": ["https://wa.me/5543991043536", "contact.html"],
+          "targets": [
+            "https://wa.me/5543991043536",
+            "contact.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4627,7 +4741,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "consultation",
           "section": "06",
           "anchorText": "Start form",
-          "targets": ["contact.html"],
+          "targets": [
+            "contact.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4636,7 +4752,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "consultation",
           "section": "07",
           "anchorText": "Read FAQ",
-          "targets": ["faq.html"],
+          "targets": [
+            "faq.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4645,7 +4763,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "consultation",
           "section": "08",
           "anchorText": "Ask a question",
-          "targets": ["contact.html"],
+          "targets": [
+            "contact.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4654,7 +4774,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "consultation",
           "section": "09",
           "anchorText": "View care / View results",
-          "targets": ["care.html", "results.html"],
+          "targets": [
+            "care.html",
+            "results.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4663,7 +4786,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "consultation",
           "section": "10",
           "anchorText": "Fill form / Message WhatsApp",
-          "targets": ["contact.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "contact.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4677,7 +4803,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "contact",
           "section": "01",
           "anchorText": "Message WhatsApp / Fill form",
-          "targets": ["https://wa.me/5543991043536", "contact.html"],
+          "targets": [
+            "https://wa.me/5543991043536",
+            "contact.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4686,7 +4815,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "contact",
           "section": "03",
           "anchorText": "Read FAQ / Begin consultation",
-          "targets": ["faq.html", "consultation.html"],
+          "targets": [
+            "faq.html",
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4695,7 +4827,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "contact",
           "section": "04",
           "anchorText": "Privacy / Accessibility",
-          "targets": ["privacy.html", "accessibility.html"],
+          "targets": [
+            "privacy.html",
+            "accessibility.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4704,7 +4839,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "contact",
           "section": "05",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": ["consultation.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "consultation.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4713,7 +4851,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "contact",
           "section": "06",
           "anchorText": "Begin consultation / Ask a question",
-          "targets": ["consultation.html", "contact.html"],
+          "targets": [
+            "consultation.html",
+            "contact.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4722,7 +4863,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "contact",
           "section": "07",
           "anchorText": "Message WhatsApp / Send form",
-          "targets": ["https://wa.me/5543991043536", "contact.html"],
+          "targets": [
+            "https://wa.me/5543991043536",
+            "contact.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4731,7 +4875,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "contact",
           "section": "08",
           "anchorText": "Ask a question",
-          "targets": ["contact.html"],
+          "targets": [
+            "contact.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4740,7 +4886,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "contact",
           "section": "09",
           "anchorText": "Send message / Privacy",
-          "targets": ["contact.html", "privacy.html"],
+          "targets": [
+            "contact.html",
+            "privacy.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4749,7 +4898,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "contact",
           "section": "10",
           "anchorText": "Home / Sitemap",
-          "targets": ["index.html", "sitemap.html"],
+          "targets": [
+            "index.html",
+            "sitemap.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4763,7 +4915,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "mission",
           "section": "01",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": ["consultation.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "consultation.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4772,7 +4927,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "mission",
           "section": "03",
           "anchorText": "Understand results",
-          "targets": ["results.html"],
+          "targets": [
+            "results.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4781,7 +4938,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "mission",
           "section": "04",
           "anchorText": "About / Values",
-          "targets": ["about.html", "values.html"],
+          "targets": [
+            "about.html",
+            "values.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4790,7 +4950,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "mission",
           "section": "05",
           "anchorText": "Request evaluation / Read FAQ",
-          "targets": ["consultation.html", "faq.html"],
+          "targets": [
+            "consultation.html",
+            "faq.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4799,7 +4962,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "mission",
           "section": "06",
           "anchorText": "Begin consultation",
-          "targets": ["consultation.html"],
+          "targets": [
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4808,7 +4973,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "mission",
           "section": "07",
           "anchorText": "Explore care",
-          "targets": ["care.html"],
+          "targets": [
+            "care.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4817,7 +4984,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "mission",
           "section": "08",
           "anchorText": "View values / About Franciele",
-          "targets": ["values.html", "about.html"],
+          "targets": [
+            "values.html",
+            "about.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4826,7 +4996,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "mission",
           "section": "09",
           "anchorText": "Meet Franciele",
-          "targets": ["about.html"],
+          "targets": [
+            "about.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4835,7 +5007,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "mission",
           "section": "10",
           "anchorText": "Contact / WhatsApp",
-          "targets": ["contact.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "contact.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4849,7 +5024,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "values",
           "section": "01",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": ["consultation.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "consultation.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4858,7 +5036,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "values",
           "section": "03",
           "anchorText": "Begin consultation",
-          "targets": ["consultation.html"],
+          "targets": [
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4867,7 +5047,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "values",
           "section": "04",
           "anchorText": "Explore care / Results",
-          "targets": ["care.html", "results.html"],
+          "targets": [
+            "care.html",
+            "results.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4876,7 +5059,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "values",
           "section": "05",
           "anchorText": "About / Mission",
-          "targets": ["about.html", "mission.html"],
+          "targets": [
+            "about.html",
+            "mission.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4885,7 +5071,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "values",
           "section": "06",
           "anchorText": "Explore care",
-          "targets": ["care.html"],
+          "targets": [
+            "care.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4894,7 +5082,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "values",
           "section": "07",
           "anchorText": "Meet Franciele",
-          "targets": ["about.html"],
+          "targets": [
+            "about.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4903,7 +5093,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "values",
           "section": "08",
           "anchorText": "Read FAQ",
-          "targets": ["faq.html"],
+          "targets": [
+            "faq.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4912,7 +5104,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "values",
           "section": "09",
           "anchorText": "Understand results",
-          "targets": ["results.html"],
+          "targets": [
+            "results.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4921,7 +5115,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "values",
           "section": "10",
           "anchorText": "Request evaluation / WhatsApp",
-          "targets": ["consultation.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "consultation.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4935,7 +5132,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "testimonials",
           "section": "01",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": ["consultation.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "consultation.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4944,7 +5144,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "testimonials",
           "section": "03",
           "anchorText": "Results",
-          "targets": ["results.html"],
+          "targets": [
+            "results.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4953,7 +5155,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "testimonials",
           "section": "04",
           "anchorText": "FAQ",
-          "targets": ["faq.html"],
+          "targets": [
+            "faq.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4962,7 +5166,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "testimonials",
           "section": "05",
           "anchorText": "Request evaluation / WhatsApp",
-          "targets": ["consultation.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "consultation.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4971,7 +5178,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "testimonials",
           "section": "06",
           "anchorText": "Privacy",
-          "targets": ["privacy.html"],
+          "targets": [
+            "privacy.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4980,7 +5189,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "testimonials",
           "section": "07",
           "anchorText": "Results",
-          "targets": ["results.html"],
+          "targets": [
+            "results.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4989,7 +5200,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "testimonials",
           "section": "08",
           "anchorText": "Read FAQ",
-          "targets": ["faq.html"],
+          "targets": [
+            "faq.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -4998,7 +5211,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "testimonials",
           "section": "09",
           "anchorText": "Privacy",
-          "targets": ["privacy.html"],
+          "targets": [
+            "privacy.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5007,7 +5222,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "testimonials",
           "section": "10",
           "anchorText": "Contact / WhatsApp",
-          "targets": ["contact.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "contact.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5021,7 +5239,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "faq",
           "section": "01",
           "anchorText": "Ask a question / Request evaluation",
-          "targets": ["contact.html", "consultation.html"],
+          "targets": [
+            "contact.html",
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5030,7 +5251,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "faq",
           "section": "02",
           "anchorText": "Understand results / Request evaluation",
-          "targets": ["results.html", "consultation.html"],
+          "targets": [
+            "results.html",
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5039,7 +5263,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "faq",
           "section": "03",
           "anchorText": "Privacy / Contact",
-          "targets": ["privacy.html", "contact.html"],
+          "targets": [
+            "privacy.html",
+            "contact.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5048,7 +5275,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "faq",
           "section": "05",
           "anchorText": "Read journal / View blog",
-          "targets": ["journal.html", "blog.html"],
+          "targets": [
+            "journal.html",
+            "blog.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5057,7 +5287,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "faq",
           "section": "06",
           "anchorText": "Begin consultation / Contact Franciele",
-          "targets": ["consultation.html", "contact.html"],
+          "targets": [
+            "consultation.html",
+            "contact.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5066,7 +5299,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "faq",
           "section": "07",
           "anchorText": "Explore care / Request evaluation",
-          "targets": ["care.html", "consultation.html"],
+          "targets": [
+            "care.html",
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5075,7 +5311,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "faq",
           "section": "08",
           "anchorText": "View skin / Read journal",
-          "targets": ["skin.html", "journal.html"],
+          "targets": [
+            "skin.html",
+            "journal.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5084,7 +5323,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "faq",
           "section": "09",
           "anchorText": "Explore laser / Begin consultation",
-          "targets": ["laser.html", "consultation.html"],
+          "targets": [
+            "laser.html",
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5093,7 +5335,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "faq",
           "section": "10",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": ["consultation.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "consultation.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5107,7 +5352,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "journal",
           "section": "01",
           "anchorText": "Read articles / Request evaluation",
-          "targets": ["blog.html", "consultation.html"],
+          "targets": [
+            "blog.html",
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5116,7 +5364,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "journal",
           "section": "02",
           "anchorText": "Understand results / Request evaluation",
-          "targets": ["results.html", "consultation.html"],
+          "targets": [
+            "results.html",
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5125,7 +5376,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "journal",
           "section": "04",
           "anchorText": "View blog / Read FAQ",
-          "targets": ["blog.html", "faq.html"],
+          "targets": [
+            "blog.html",
+            "faq.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5134,7 +5388,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "journal",
           "section": "05",
           "anchorText": "Request evaluation / Message WhatsApp",
-          "targets": ["consultation.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "consultation.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5143,7 +5400,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "journal",
           "section": "06",
           "anchorText": "Read guide",
-          "targets": ["blog.html"],
+          "targets": [
+            "blog.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5152,7 +5411,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "journal",
           "section": "07",
           "anchorText": "View skin / Read blog",
-          "targets": ["skin.html", "blog.html"],
+          "targets": [
+            "skin.html",
+            "blog.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5161,7 +5423,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "journal",
           "section": "08",
           "anchorText": "Explore laser / Read FAQ",
-          "targets": ["laser.html", "faq.html"],
+          "targets": [
+            "laser.html",
+            "faq.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5170,7 +5435,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "journal",
           "section": "09",
           "anchorText": "Explore care / Begin consultation",
-          "targets": ["care.html", "consultation.html"],
+          "targets": [
+            "care.html",
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5179,7 +5447,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "journal",
           "section": "10",
           "anchorText": "View blog / Contact Franciele",
-          "targets": ["blog.html", "contact.html"],
+          "targets": [
+            "blog.html",
+            "contact.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5193,7 +5464,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "blog",
           "section": "01",
           "anchorText": "Read articles / Request evaluation",
-          "targets": ["journal.html", "consultation.html"],
+          "targets": [
+            "journal.html",
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5202,7 +5476,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "blog",
           "section": "03",
           "anchorText": "FAQ",
-          "targets": ["faq.html"],
+          "targets": [
+            "faq.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5211,7 +5487,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "blog",
           "section": "04",
           "anchorText": "Care / Skin",
-          "targets": ["care.html", "skin.html"],
+          "targets": [
+            "care.html",
+            "skin.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5220,7 +5499,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "blog",
           "section": "05",
           "anchorText": "Request evaluation / WhatsApp",
-          "targets": ["consultation.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "consultation.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5229,7 +5511,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "blog",
           "section": "06",
           "anchorText": "Read guide",
-          "targets": ["journal.html"],
+          "targets": [
+            "journal.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5238,7 +5522,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "blog",
           "section": "07",
           "anchorText": "Journal",
-          "targets": ["journal.html"],
+          "targets": [
+            "journal.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5247,7 +5533,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "blog",
           "section": "08",
           "anchorText": "Read more",
-          "targets": ["journal.html"],
+          "targets": [
+            "journal.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5256,7 +5544,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "blog",
           "section": "09",
           "anchorText": "View FAQ",
-          "targets": ["faq.html"],
+          "targets": [
+            "faq.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5265,7 +5555,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "blog",
           "section": "10",
           "anchorText": "Journal / Contact",
-          "targets": ["journal.html", "contact.html"],
+          "targets": [
+            "journal.html",
+            "contact.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5279,7 +5572,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "legal",
           "section": "01",
           "anchorText": "Contact / Sitemap",
-          "targets": ["contact.html", "sitemap.html"],
+          "targets": [
+            "contact.html",
+            "sitemap.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5288,7 +5584,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "legal",
           "section": "03",
           "anchorText": "Contact / WhatsApp",
-          "targets": ["contact.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "contact.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5297,7 +5596,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "legal",
           "section": "04",
           "anchorText": "Privacy / Legal",
-          "targets": ["privacy.html", "legal.html"],
+          "targets": [
+            "privacy.html",
+            "legal.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5306,7 +5608,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "legal",
           "section": "05",
           "anchorText": "Sitemap / Home",
-          "targets": ["sitemap.html", "index.html"],
+          "targets": [
+            "sitemap.html",
+            "index.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5315,7 +5620,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "legal",
           "section": "08",
           "anchorText": "Contact",
-          "targets": ["contact.html"],
+          "targets": [
+            "contact.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5324,7 +5631,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "legal",
           "section": "09",
           "anchorText": "Related page",
-          "targets": ["privacy.html"],
+          "targets": [
+            "privacy.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5333,7 +5642,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "legal",
           "section": "10",
           "anchorText": "Contact / Home",
-          "targets": ["contact.html", "index.html"],
+          "targets": [
+            "contact.html",
+            "index.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5347,7 +5659,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "privacy",
           "section": "01",
           "anchorText": "Contact / Sitemap",
-          "targets": ["contact.html", "sitemap.html"],
+          "targets": [
+            "contact.html",
+            "sitemap.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5356,7 +5671,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "privacy",
           "section": "03",
           "anchorText": "Contact / WhatsApp",
-          "targets": ["contact.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "contact.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5365,7 +5683,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "privacy",
           "section": "04",
           "anchorText": "Privacy / Legal",
-          "targets": ["privacy.html", "legal.html"],
+          "targets": [
+            "privacy.html",
+            "legal.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5374,7 +5695,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "privacy",
           "section": "05",
           "anchorText": "Sitemap / Home",
-          "targets": ["sitemap.html", "index.html"],
+          "targets": [
+            "sitemap.html",
+            "index.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5383,7 +5707,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "privacy",
           "section": "08",
           "anchorText": "Contact",
-          "targets": ["contact.html"],
+          "targets": [
+            "contact.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5392,7 +5718,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "privacy",
           "section": "09",
           "anchorText": "Related page",
-          "targets": ["cookies.html"],
+          "targets": [
+            "cookies.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5401,7 +5729,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "privacy",
           "section": "10",
           "anchorText": "Contact / Home",
-          "targets": ["contact.html", "index.html"],
+          "targets": [
+            "contact.html",
+            "index.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5415,7 +5746,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "cookies",
           "section": "01",
           "anchorText": "Contact / Sitemap",
-          "targets": ["contact.html", "sitemap.html"],
+          "targets": [
+            "contact.html",
+            "sitemap.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5424,7 +5758,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "cookies",
           "section": "03",
           "anchorText": "Contact / WhatsApp",
-          "targets": ["contact.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "contact.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5433,7 +5770,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "cookies",
           "section": "04",
           "anchorText": "Privacy / Legal",
-          "targets": ["privacy.html", "legal.html"],
+          "targets": [
+            "privacy.html",
+            "legal.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5442,7 +5782,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "cookies",
           "section": "05",
           "anchorText": "Sitemap / Home",
-          "targets": ["sitemap.html", "index.html"],
+          "targets": [
+            "sitemap.html",
+            "index.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5451,7 +5794,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "cookies",
           "section": "08",
           "anchorText": "Contact",
-          "targets": ["contact.html"],
+          "targets": [
+            "contact.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5460,7 +5805,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "cookies",
           "section": "09",
           "anchorText": "Related page",
-          "targets": ["privacy.html"],
+          "targets": [
+            "privacy.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5469,7 +5816,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "cookies",
           "section": "10",
           "anchorText": "Contact / Home",
-          "targets": ["contact.html", "index.html"],
+          "targets": [
+            "contact.html",
+            "index.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5483,7 +5833,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "accessibility",
           "section": "01",
           "anchorText": "Contact / Sitemap",
-          "targets": ["contact.html", "sitemap.html"],
+          "targets": [
+            "contact.html",
+            "sitemap.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5492,7 +5845,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "accessibility",
           "section": "03",
           "anchorText": "Contact / WhatsApp",
-          "targets": ["contact.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "contact.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5501,7 +5857,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "accessibility",
           "section": "04",
           "anchorText": "Privacy / Legal",
-          "targets": ["privacy.html", "legal.html"],
+          "targets": [
+            "privacy.html",
+            "legal.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5510,7 +5869,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "accessibility",
           "section": "05",
           "anchorText": "Sitemap / Home",
-          "targets": ["sitemap.html", "index.html"],
+          "targets": [
+            "sitemap.html",
+            "index.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5519,7 +5881,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "accessibility",
           "section": "08",
           "anchorText": "Contact",
-          "targets": ["contact.html"],
+          "targets": [
+            "contact.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5528,7 +5892,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "accessibility",
           "section": "09",
           "anchorText": "Related page",
-          "targets": ["legal.html"],
+          "targets": [
+            "legal.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5537,7 +5903,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "accessibility",
           "section": "10",
           "anchorText": "Contact / Home",
-          "targets": ["contact.html", "index.html"],
+          "targets": [
+            "contact.html",
+            "index.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5551,7 +5920,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "sitemap",
           "section": "01",
           "anchorText": "Home / Consultation",
-          "targets": ["index.html", "consultation.html"],
+          "targets": [
+            "index.html",
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5560,7 +5932,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "sitemap",
           "section": "02",
           "anchorText": "Results / Privacy",
-          "targets": ["results.html", "privacy.html"],
+          "targets": [
+            "results.html",
+            "privacy.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5569,7 +5944,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "sitemap",
           "section": "03",
           "anchorText": "Legal / Accessibility",
-          "targets": ["legal.html", "accessibility.html"],
+          "targets": [
+            "legal.html",
+            "accessibility.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5578,7 +5956,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "sitemap",
           "section": "04",
           "anchorText": "Consultation / Contact",
-          "targets": ["consultation.html", "contact.html"],
+          "targets": [
+            "consultation.html",
+            "contact.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5587,7 +5968,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "sitemap",
           "section": "06",
           "anchorText": "Home / About",
-          "targets": ["index.html", "about.html"],
+          "targets": [
+            "index.html",
+            "about.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5596,7 +5980,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "sitemap",
           "section": "07",
           "anchorText": "Care / Skin",
-          "targets": ["care.html", "skin.html"],
+          "targets": [
+            "care.html",
+            "skin.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5605,7 +5992,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "sitemap",
           "section": "08",
           "anchorText": "Mission / Values",
-          "targets": ["mission.html", "values.html"],
+          "targets": [
+            "mission.html",
+            "values.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5614,7 +6004,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "sitemap",
           "section": "09",
           "anchorText": "Journal / Blog",
-          "targets": ["journal.html", "blog.html"],
+          "targets": [
+            "journal.html",
+            "blog.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5623,7 +6016,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "sitemap",
           "section": "10",
           "anchorText": "Home / Consultation",
-          "targets": ["index.html", "consultation.html"],
+          "targets": [
+            "index.html",
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5637,7 +6033,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "404",
           "section": "01",
           "anchorText": "Home / Contact",
-          "targets": ["index.html", "contact.html"],
+          "targets": [
+            "index.html",
+            "contact.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5646,7 +6045,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "404",
           "section": "02",
           "anchorText": "Journal / Blog",
-          "targets": ["journal.html", "blog.html"],
+          "targets": [
+            "journal.html",
+            "blog.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5655,7 +6057,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "404",
           "section": "03",
           "anchorText": "FAQ",
-          "targets": ["faq.html"],
+          "targets": [
+            "faq.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5664,7 +6068,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "404",
           "section": "04",
           "anchorText": "Contact / WhatsApp",
-          "targets": ["contact.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "contact.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5673,7 +6080,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "404",
           "section": "05",
           "anchorText": "Sitemap",
-          "targets": ["sitemap.html"],
+          "targets": [
+            "sitemap.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5682,7 +6091,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "404",
           "section": "07",
           "anchorText": "Home",
-          "targets": ["index.html"],
+          "targets": [
+            "index.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5691,7 +6102,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "404",
           "section": "08",
           "anchorText": "Consultation",
-          "targets": ["consultation.html"],
+          "targets": [
+            "consultation.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5700,7 +6113,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "404",
           "section": "09",
           "anchorText": "Care / Skin",
-          "targets": ["care.html", "skin.html"],
+          "targets": [
+            "care.html",
+            "skin.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5709,7 +6125,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "404",
           "section": "10",
           "anchorText": "Home / Contact",
-          "targets": ["index.html", "contact.html"],
+          "targets": [
+            "index.html",
+            "contact.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5723,7 +6142,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "thank-you",
           "section": "01",
           "anchorText": "Home / WhatsApp",
-          "targets": ["index.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "index.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5732,7 +6154,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "thank-you",
           "section": "02",
           "anchorText": "Journal / Blog",
-          "targets": ["journal.html", "blog.html"],
+          "targets": [
+            "journal.html",
+            "blog.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5741,7 +6166,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "thank-you",
           "section": "03",
           "anchorText": "Privacy",
-          "targets": ["privacy.html"],
+          "targets": [
+            "privacy.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5750,7 +6177,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "thank-you",
           "section": "04",
           "anchorText": "Contact / WhatsApp",
-          "targets": ["contact.html", "https://wa.me/5543991043536"],
+          "targets": [
+            "contact.html",
+            "https://wa.me/5543991043536"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5759,7 +6189,9 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "thank-you",
           "section": "07",
           "anchorText": "Journal",
-          "targets": ["journal.html"],
+          "targets": [
+            "journal.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5768,7 +6200,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "thank-you",
           "section": "08",
           "anchorText": "Consultation / FAQ",
-          "targets": ["consultation.html", "faq.html"],
+          "targets": [
+            "consultation.html",
+            "faq.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5777,7 +6212,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "thank-you",
           "section": "09",
           "anchorText": "Care / Skin",
-          "targets": ["care.html", "skin.html"],
+          "targets": [
+            "care.html",
+            "skin.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5786,7 +6224,10 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
           "sourcePage": "thank-you",
           "section": "10",
           "anchorText": "Home / Journal",
-          "targets": ["index.html", "journal.html"],
+          "targets": [
+            "index.html",
+            "journal.html"
+          ],
           "seoReason": "Supports topical depth without bottom-only link dumps.",
           "trustReason": "Places guidance near the visitor question being answered.",
           "conversionReason": "Keeps consultation or contact routes near decision intent."
@@ -5795,48 +6236,326 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
     }
   ],
   "assets": {
+    "sourceFolders": [
+      "assets/photos",
+      "assets/brand"
+    ],
+    "absentSourceFolders": [
+      "assets/brand-photos"
+    ],
     "icons": [
-      "assets/icons/care.svg",
-      "assets/icons/credentials.svg",
-      "assets/icons/safety.svg",
-      "assets/icons/values.svg",
-      "assets/icons/consultation.svg",
-      "assets/icons/contact.svg",
-      "assets/icons/journal.svg",
-      "assets/icons/laser.svg",
-      "assets/icons/skin.svg",
-      "assets/icons/results.svg",
-      "assets/icons/mission.svg",
-      "assets/icons/whatsapp.svg"
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-service-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-care-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-laser-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-skin-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-consultation-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-safety-reassurance-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-faq-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-contact-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-navigation-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-footer-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-whatsapp-cta-icon.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-back-to-top-icon.svg"
+    ],
+    "logos": [
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-logo-lockup-cream-gold-badge.svg",
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-logo-badge-botanical-frame.svg",
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-logo-mark-soft-seal.svg",
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-logo-seal-editorial.svg",
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-logo-on-background.webp",
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-header-logo-version.svg",
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-footer-logo-version.svg",
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-mobile-logo-version.svg",
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-favicon-logo-icon.svg",
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-favicon-logo-icon.ico",
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-social-preview-logo.svg",
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-logo-watermark.svg"
     ],
     "botanical": [
-      "assets/botanical/gold-leaf-divider.svg",
-      "assets/botanical/section-separator.svg",
-      "assets/botanical/monogram-wreath.svg"
+      "../../assets/generated/concept-05/decorative/sofiati-concept-05-botanical-accent.svg",
+      "../../assets/generated/concept-05/decorative/sofiati-concept-05-gold-divider.svg",
+      "../../assets/generated/concept-05/decorative/sofiati-concept-05-section-divider.svg",
+      "../../assets/generated/concept-05/decorative/sofiati-concept-05-corner-decoration.svg",
+      "../../assets/generated/concept-05/decorative/sofiati-concept-05-frame-asset.svg",
+      "../../assets/generated/concept-05/decorative/sofiati-concept-05-watermark-asset.svg",
+      "../../assets/generated/concept-05/decorative/sofiati-concept-05-pattern-asset.svg",
+      "../../assets/generated/concept-05/decorative/sofiati-concept-05-texture-asset.svg",
+      "../../assets/generated/concept-05/decorative/sofiati-concept-05-quote-mark-asset.svg",
+      "../../assets/generated/concept-05/decorative/sofiati-concept-05-line-art-asset.svg"
     ],
-    "portrait": ["assets/portrait/franciele-portrait-elevate.webp"],
+    "portrait": [
+      "../../assets/generated/concept-05/portraits/sofiati-concept-05-portrait-crop.webp",
+      "../../assets/generated/concept-05/portraits/sofiati-concept-05-circular-portrait.svg",
+      "../../assets/generated/concept-05/portraits/sofiati-concept-05-editorial-portrait.webp",
+      "../../assets/generated/concept-05/portraits/sofiati-concept-05-vertical-portrait.webp",
+      "../../assets/generated/concept-05/portraits/sofiati-concept-05-square-portrait.webp",
+      "../../assets/generated/concept-05/portraits/sofiati-concept-05-portrait-card.webp",
+      "../../assets/generated/concept-05/portraits/sofiati-concept-05-portrait-background-version.webp",
+      "../../assets/generated/concept-05/portraits/sofiati-concept-05-portrait-overlay-version.svg"
+    ],
     "backgrounds": [
-      "assets/backgrounds/botanical-background.svg",
-      "assets/backgrounds/mobile-menu-background.svg"
+      "../../assets/generated/concept-05/backgrounds/sofiati-concept-05-home-section-background.svg",
+      "../../assets/generated/concept-05/backgrounds/sofiati-concept-05-about-section-background.svg",
+      "../../assets/generated/concept-05/backgrounds/sofiati-concept-05-care-section-background.svg",
+      "../../assets/generated/concept-05/backgrounds/sofiati-concept-05-laser-section-background.svg",
+      "../../assets/generated/concept-05/backgrounds/sofiati-concept-05-skin-section-background.svg",
+      "../../assets/generated/concept-05/backgrounds/sofiati-concept-05-results-section-background.svg",
+      "../../assets/generated/concept-05/backgrounds/sofiati-concept-05-consultation-section-background.svg",
+      "../../assets/generated/concept-05/backgrounds/sofiati-concept-05-contact-section-background.svg",
+      "../../assets/generated/concept-05/backgrounds/sofiati-concept-05-faq-section-background.svg",
+      "../../assets/generated/concept-05/backgrounds/sofiati-concept-05-footer-background.svg",
+      "../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-cream-background.svg",
+      "../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-beige-background.svg",
+      "../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-botanical-green-background.svg",
+      "../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-gold-background.svg",
+      "../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-dark-editorial-background.svg",
+      "../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-gradient-background.svg",
+      "../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-textured-background.svg",
+      "../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-framed-background.svg"
     ],
     "textures": [
-      "assets/textures/soft-skin-texture.svg",
-      "assets/textures/clinical-paper-texture.svg"
+      "../../assets/generated/concept-05/decorative/sofiati-concept-05-texture-asset.svg",
+      "../../assets/generated/concept-05/decorative/sofiati-concept-05-pattern-asset.svg"
     ],
-    "forms": ["assets/forms/consultation-form-frame.svg"],
-    "animations": ["assets/animations/motion-path.svg"],
+    "forms": [
+      "../../assets/generated/concept-05/forms/sofiati-concept-05-form-background.webp",
+      "../../assets/generated/concept-05/forms/sofiati-concept-05-form-side-image.webp",
+      "../../assets/generated/concept-05/forms/sofiati-concept-05-form-header-image.webp",
+      "../../assets/generated/concept-05/forms/sofiati-concept-05-form-icon-set.svg",
+      "../../assets/generated/concept-05/forms/sofiati-concept-05-form-privacy-icon.svg",
+      "../../assets/generated/concept-05/forms/sofiati-concept-05-success-message-graphic.svg",
+      "../../assets/generated/concept-05/forms/sofiati-concept-05-contact-panel-asset.svg",
+      "../../assets/generated/concept-05/forms/sofiati-concept-05-consultation-form-asset.svg"
+    ],
     "journal": [
-      "assets/journal/journal-thumbnail-1.svg",
-      "assets/journal/journal-thumbnail-2.svg",
-      "assets/journal/journal-thumbnail-3.svg"
+      "../../assets/generated/concept-05/journal/sofiati-concept-05-blog-hero-image.webp",
+      "../../assets/generated/concept-05/journal/sofiati-concept-05-blog-card-image.webp",
+      "../../assets/generated/concept-05/journal/sofiati-concept-05-featured-article-image.webp",
+      "../../assets/generated/concept-05/journal/sofiati-concept-05-article-header-image.webp",
+      "../../assets/generated/concept-05/journal/sofiati-concept-05-author-portrait-treatment.svg",
+      "../../assets/generated/concept-05/journal/sofiati-concept-05-category-icon-set.svg",
+      "../../assets/generated/concept-05/journal/sofiati-concept-05-related-post-card-asset.svg",
+      "../../assets/generated/concept-05/journal/sofiati-concept-05-journal-background-asset.svg"
     ],
     "service": [
-      "assets/service/care-service-visual.svg",
-      "assets/service/laser-service-visual.svg",
-      "assets/service/skin-service-visual.svg",
-      "assets/service/results-service-visual.svg"
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-service-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-care-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-laser-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-skin-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-safety-reassurance-icon-set.svg",
+      "../../assets/generated/concept-05/cards/sofiati-concept-05-service-card-gold-edge.svg",
+      "../../assets/generated/concept-05/cards/sofiati-concept-05-result-card.svg"
     ],
-    "generated": ["assets/generated/homepage-asset-composition.svg"],
+    "cta": [
+      "../../assets/generated/concept-05/cta/sofiati-concept-05-final-cta-background.webp",
+      "../../assets/generated/concept-05/cta/sofiati-concept-05-consultation-cta-panel.svg",
+      "../../assets/generated/concept-05/cta/sofiati-concept-05-whatsapp-cta-treatment.svg",
+      "../../assets/generated/concept-05/cta/sofiati-concept-05-cta-badge.svg",
+      "../../assets/generated/concept-05/cta/sofiati-concept-05-cta-seal.svg",
+      "../../assets/generated/concept-05/cta/sofiati-concept-05-cta-button-icon-version.svg",
+      "../../assets/generated/concept-05/cta/sofiati-concept-05-cta-image-panel.webp",
+      "../../assets/generated/concept-05/cta/sofiati-concept-05-cta-section-divider.svg"
+    ],
+    "navigation": [
+      "../../assets/generated/concept-05/navigation/sofiati-concept-05-header-logo-version.svg",
+      "../../assets/generated/concept-05/navigation/sofiati-concept-05-sticky-header-logo-version.svg",
+      "../../assets/generated/concept-05/navigation/sofiati-concept-05-mobile-menu-background.svg",
+      "../../assets/generated/concept-05/navigation/sofiati-concept-05-mobile-menu-icon.svg",
+      "../../assets/generated/concept-05/navigation/sofiati-concept-05-navigation-divider.svg",
+      "../../assets/generated/concept-05/navigation/sofiati-concept-05-navigation-hover-accent.svg",
+      "../../assets/generated/concept-05/navigation/sofiati-concept-05-menu-close-icon.svg",
+      "../../assets/generated/concept-05/navigation/sofiati-concept-05-menu-badge-asset.svg"
+    ],
+    "footer": [
+      "../../assets/generated/concept-05/footer/sofiati-concept-05-footer-background.svg",
+      "../../assets/generated/concept-05/footer/sofiati-concept-05-footer-logo-version.svg",
+      "../../assets/generated/concept-05/footer/sofiati-concept-05-footer-brand-mark.svg",
+      "../../assets/generated/concept-05/footer/sofiati-concept-05-footer-botanical-accent.svg",
+      "../../assets/generated/concept-05/footer/sofiati-concept-05-footer-gold-divider.svg",
+      "../../assets/generated/concept-05/footer/sofiati-concept-05-footer-cta-badge.svg",
+      "../../assets/generated/concept-05/footer/sofiati-concept-05-footer-contact-icon-set.svg",
+      "../../assets/generated/concept-05/footer/sofiati-concept-05-footer-watermark-version.svg"
+    ],
+    "social": [
+      "../../assets/generated/concept-05/social/sofiati-concept-05-open-graph-premium-care.webp",
+      "../../assets/generated/concept-05/social/sofiati-concept-05-whatsapp-preview-image.webp",
+      "../../assets/generated/concept-05/social/sofiati-concept-05-social-share-image.webp",
+      "../../assets/generated/concept-05/social/sofiati-concept-05-favicon-set.svg",
+      "../../assets/generated/concept-05/social/sofiati-concept-05-apple-touch-icon.png",
+      "../../assets/generated/concept-05/social/sofiati-concept-05-android-icon.png",
+      "../../assets/generated/concept-05/social/sofiati-concept-05-service-page-preview-image.webp",
+      "../../assets/generated/concept-05/social/sofiati-concept-05-consultation-page-preview-image.webp"
+    ],
+    "responsive": [
+      "../../assets/generated/concept-05/responsive/sofiati-concept-05-desktop-crop.webp",
+      "../../assets/generated/concept-05/responsive/sofiati-concept-05-tablet-crop.webp",
+      "../../assets/generated/concept-05/responsive/sofiati-concept-05-mobile-crop.webp",
+      "../../assets/generated/concept-05/responsive/sofiati-concept-05-square-crop.webp",
+      "../../assets/generated/concept-05/responsive/sofiati-concept-05-vertical-crop.webp",
+      "../../assets/generated/concept-05/responsive/sofiati-concept-05-wide-crop.webp",
+      "../../assets/generated/concept-05/responsive/sofiati-concept-05-thumbnail.webp",
+      "../../assets/generated/concept-05/responsive/sofiati-concept-05-low-quality-placeholder.webp",
+      "../../assets/generated/concept-05/responsive/sofiati-concept-05-compressed-webp-version.webp"
+    ],
+    "sectionAssets": [
+      "../../assets/generated/concept-05/section-assets/sofiati-concept-05-home-section-asset.svg",
+      "../../assets/generated/concept-05/section-assets/sofiati-concept-05-about-section-asset.svg",
+      "../../assets/generated/concept-05/section-assets/sofiati-concept-05-care-section-asset.svg",
+      "../../assets/generated/concept-05/section-assets/sofiati-concept-05-laser-section-asset.svg",
+      "../../assets/generated/concept-05/section-assets/sofiati-concept-05-skin-section-asset.svg",
+      "../../assets/generated/concept-05/section-assets/sofiati-concept-05-results-section-asset.svg",
+      "../../assets/generated/concept-05/section-assets/sofiati-concept-05-consultation-section-asset.svg",
+      "../../assets/generated/concept-05/section-assets/sofiati-concept-05-contact-section-asset.svg",
+      "../../assets/generated/concept-05/section-assets/sofiati-concept-05-faq-section-asset.svg",
+      "../../assets/generated/concept-05/section-assets/sofiati-concept-05-legal-support-section-asset.svg",
+      "../../assets/generated/concept-05/section-assets/sofiati-concept-05-homepage-asset-composition.svg"
+    ],
+    "generated": [
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-logo-lockup-cream-gold-badge.svg",
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-logo-badge-botanical-frame.svg",
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-logo-mark-soft-seal.svg",
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-logo-seal-editorial.svg",
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-logo-on-background.webp",
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-header-logo-version.svg",
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-footer-logo-version.svg",
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-mobile-logo-version.svg",
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-favicon-logo-icon.svg",
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-favicon-logo-icon.ico",
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-social-preview-logo.svg",
+      "../../assets/generated/concept-05/logos/sofiati-concept-05-logo-watermark.svg",
+      "../../assets/generated/concept-05/heroes/sofiati-concept-05-hero-editorial-portrait.webp",
+      "../../assets/generated/concept-05/heroes/sofiati-concept-05-hero-background-image.webp",
+      "../../assets/generated/concept-05/heroes/sofiati-concept-05-hero-portrait-crop.webp",
+      "../../assets/generated/concept-05/heroes/sofiati-concept-05-mobile-hero-portrait-crop.webp",
+      "../../assets/generated/concept-05/heroes/sofiati-concept-05-hero-overlay-version.svg",
+      "../../assets/generated/concept-05/heroes/sofiati-concept-05-hero-logo-brand-mark-composition.svg",
+      "../../assets/generated/concept-05/portraits/sofiati-concept-05-portrait-crop.webp",
+      "../../assets/generated/concept-05/portraits/sofiati-concept-05-circular-portrait.svg",
+      "../../assets/generated/concept-05/portraits/sofiati-concept-05-editorial-portrait.webp",
+      "../../assets/generated/concept-05/portraits/sofiati-concept-05-vertical-portrait.webp",
+      "../../assets/generated/concept-05/portraits/sofiati-concept-05-square-portrait.webp",
+      "../../assets/generated/concept-05/portraits/sofiati-concept-05-portrait-card.webp",
+      "../../assets/generated/concept-05/portraits/sofiati-concept-05-portrait-background-version.webp",
+      "../../assets/generated/concept-05/portraits/sofiati-concept-05-portrait-overlay-version.svg",
+      "../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-cream-background.svg",
+      "../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-beige-background.svg",
+      "../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-botanical-green-background.svg",
+      "../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-gold-background.svg",
+      "../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-dark-editorial-background.svg",
+      "../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-gradient-background.svg",
+      "../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-textured-background.svg",
+      "../../assets/generated/concept-05/brand-backgrounds/sofiati-concept-05-brand-mark-framed-background.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-service-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-care-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-laser-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-skin-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-consultation-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-safety-reassurance-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-faq-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-contact-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-navigation-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-footer-icon-set.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-whatsapp-cta-icon.svg",
+      "../../assets/generated/concept-05/icons/sofiati-concept-05-back-to-top-icon.svg",
+      "../../assets/generated/concept-05/backgrounds/sofiati-concept-05-home-section-background.svg",
+      "../../assets/generated/concept-05/backgrounds/sofiati-concept-05-about-section-background.svg",
+      "../../assets/generated/concept-05/backgrounds/sofiati-concept-05-care-section-background.svg",
+      "../../assets/generated/concept-05/backgrounds/sofiati-concept-05-laser-section-background.svg",
+      "../../assets/generated/concept-05/backgrounds/sofiati-concept-05-skin-section-background.svg",
+      "../../assets/generated/concept-05/backgrounds/sofiati-concept-05-results-section-background.svg",
+      "../../assets/generated/concept-05/backgrounds/sofiati-concept-05-consultation-section-background.svg",
+      "../../assets/generated/concept-05/backgrounds/sofiati-concept-05-contact-section-background.svg",
+      "../../assets/generated/concept-05/backgrounds/sofiati-concept-05-faq-section-background.svg",
+      "../../assets/generated/concept-05/backgrounds/sofiati-concept-05-footer-background.svg",
+      "../../assets/generated/concept-05/cards/sofiati-concept-05-service-card-gold-edge.svg",
+      "../../assets/generated/concept-05/cards/sofiati-concept-05-consultation-card.svg",
+      "../../assets/generated/concept-05/cards/sofiati-concept-05-testimonial-card.svg",
+      "../../assets/generated/concept-05/cards/sofiati-concept-05-faq-card.svg",
+      "../../assets/generated/concept-05/cards/sofiati-concept-05-value-card.svg",
+      "../../assets/generated/concept-05/cards/sofiati-concept-05-mission-card.svg",
+      "../../assets/generated/concept-05/cards/sofiati-concept-05-journal-blog-card.svg",
+      "../../assets/generated/concept-05/cards/sofiati-concept-05-contact-card.svg",
+      "../../assets/generated/concept-05/cards/sofiati-concept-05-result-card.svg",
+      "../../assets/generated/concept-05/cards/sofiati-concept-05-cta-card.svg",
+      "../../assets/generated/concept-05/cta/sofiati-concept-05-final-cta-background.webp",
+      "../../assets/generated/concept-05/cta/sofiati-concept-05-consultation-cta-panel.svg",
+      "../../assets/generated/concept-05/cta/sofiati-concept-05-whatsapp-cta-treatment.svg",
+      "../../assets/generated/concept-05/cta/sofiati-concept-05-cta-badge.svg",
+      "../../assets/generated/concept-05/cta/sofiati-concept-05-cta-seal.svg",
+      "../../assets/generated/concept-05/cta/sofiati-concept-05-cta-button-icon-version.svg",
+      "../../assets/generated/concept-05/cta/sofiati-concept-05-cta-image-panel.webp",
+      "../../assets/generated/concept-05/cta/sofiati-concept-05-cta-section-divider.svg",
+      "../../assets/generated/concept-05/decorative/sofiati-concept-05-botanical-accent.svg",
+      "../../assets/generated/concept-05/decorative/sofiati-concept-05-gold-divider.svg",
+      "../../assets/generated/concept-05/decorative/sofiati-concept-05-section-divider.svg",
+      "../../assets/generated/concept-05/decorative/sofiati-concept-05-corner-decoration.svg",
+      "../../assets/generated/concept-05/decorative/sofiati-concept-05-frame-asset.svg",
+      "../../assets/generated/concept-05/decorative/sofiati-concept-05-watermark-asset.svg",
+      "../../assets/generated/concept-05/decorative/sofiati-concept-05-pattern-asset.svg",
+      "../../assets/generated/concept-05/decorative/sofiati-concept-05-texture-asset.svg",
+      "../../assets/generated/concept-05/decorative/sofiati-concept-05-quote-mark-asset.svg",
+      "../../assets/generated/concept-05/decorative/sofiati-concept-05-line-art-asset.svg",
+      "../../assets/generated/concept-05/navigation/sofiati-concept-05-header-logo-version.svg",
+      "../../assets/generated/concept-05/navigation/sofiati-concept-05-sticky-header-logo-version.svg",
+      "../../assets/generated/concept-05/navigation/sofiati-concept-05-mobile-menu-background.svg",
+      "../../assets/generated/concept-05/navigation/sofiati-concept-05-mobile-menu-icon.svg",
+      "../../assets/generated/concept-05/navigation/sofiati-concept-05-navigation-divider.svg",
+      "../../assets/generated/concept-05/navigation/sofiati-concept-05-navigation-hover-accent.svg",
+      "../../assets/generated/concept-05/navigation/sofiati-concept-05-menu-close-icon.svg",
+      "../../assets/generated/concept-05/navigation/sofiati-concept-05-menu-badge-asset.svg",
+      "../../assets/generated/concept-05/footer/sofiati-concept-05-footer-background.svg",
+      "../../assets/generated/concept-05/footer/sofiati-concept-05-footer-logo-version.svg",
+      "../../assets/generated/concept-05/footer/sofiati-concept-05-footer-brand-mark.svg",
+      "../../assets/generated/concept-05/footer/sofiati-concept-05-footer-botanical-accent.svg",
+      "../../assets/generated/concept-05/footer/sofiati-concept-05-footer-gold-divider.svg",
+      "../../assets/generated/concept-05/footer/sofiati-concept-05-footer-cta-badge.svg",
+      "../../assets/generated/concept-05/footer/sofiati-concept-05-footer-contact-icon-set.svg",
+      "../../assets/generated/concept-05/footer/sofiati-concept-05-footer-watermark-version.svg",
+      "../../assets/generated/concept-05/forms/sofiati-concept-05-form-background.webp",
+      "../../assets/generated/concept-05/forms/sofiati-concept-05-form-side-image.webp",
+      "../../assets/generated/concept-05/forms/sofiati-concept-05-form-header-image.webp",
+      "../../assets/generated/concept-05/forms/sofiati-concept-05-form-icon-set.svg",
+      "../../assets/generated/concept-05/forms/sofiati-concept-05-form-privacy-icon.svg",
+      "../../assets/generated/concept-05/forms/sofiati-concept-05-success-message-graphic.svg",
+      "../../assets/generated/concept-05/forms/sofiati-concept-05-contact-panel-asset.svg",
+      "../../assets/generated/concept-05/forms/sofiati-concept-05-consultation-form-asset.svg",
+      "../../assets/generated/concept-05/journal/sofiati-concept-05-blog-hero-image.webp",
+      "../../assets/generated/concept-05/journal/sofiati-concept-05-blog-card-image.webp",
+      "../../assets/generated/concept-05/journal/sofiati-concept-05-featured-article-image.webp",
+      "../../assets/generated/concept-05/journal/sofiati-concept-05-article-header-image.webp",
+      "../../assets/generated/concept-05/journal/sofiati-concept-05-author-portrait-treatment.svg",
+      "../../assets/generated/concept-05/journal/sofiati-concept-05-category-icon-set.svg",
+      "../../assets/generated/concept-05/journal/sofiati-concept-05-related-post-card-asset.svg",
+      "../../assets/generated/concept-05/journal/sofiati-concept-05-journal-background-asset.svg",
+      "../../assets/generated/concept-05/social/sofiati-concept-05-open-graph-premium-care.webp",
+      "../../assets/generated/concept-05/social/sofiati-concept-05-whatsapp-preview-image.webp",
+      "../../assets/generated/concept-05/social/sofiati-concept-05-social-share-image.webp",
+      "../../assets/generated/concept-05/social/sofiati-concept-05-favicon-set.svg",
+      "../../assets/generated/concept-05/social/sofiati-concept-05-apple-touch-icon.png",
+      "../../assets/generated/concept-05/social/sofiati-concept-05-android-icon.png",
+      "../../assets/generated/concept-05/social/sofiati-concept-05-service-page-preview-image.webp",
+      "../../assets/generated/concept-05/social/sofiati-concept-05-consultation-page-preview-image.webp",
+      "../../assets/generated/concept-05/responsive/sofiati-concept-05-desktop-crop.webp",
+      "../../assets/generated/concept-05/responsive/sofiati-concept-05-tablet-crop.webp",
+      "../../assets/generated/concept-05/responsive/sofiati-concept-05-mobile-crop.webp",
+      "../../assets/generated/concept-05/responsive/sofiati-concept-05-square-crop.webp",
+      "../../assets/generated/concept-05/responsive/sofiati-concept-05-vertical-crop.webp",
+      "../../assets/generated/concept-05/responsive/sofiati-concept-05-wide-crop.webp",
+      "../../assets/generated/concept-05/responsive/sofiati-concept-05-thumbnail.webp",
+      "../../assets/generated/concept-05/responsive/sofiati-concept-05-low-quality-placeholder.webp",
+      "../../assets/generated/concept-05/responsive/sofiati-concept-05-compressed-webp-version.webp",
+      "../../assets/generated/concept-05/section-assets/sofiati-concept-05-home-section-asset.svg",
+      "../../assets/generated/concept-05/section-assets/sofiati-concept-05-about-section-asset.svg",
+      "../../assets/generated/concept-05/section-assets/sofiati-concept-05-care-section-asset.svg",
+      "../../assets/generated/concept-05/section-assets/sofiati-concept-05-laser-section-asset.svg",
+      "../../assets/generated/concept-05/section-assets/sofiati-concept-05-skin-section-asset.svg",
+      "../../assets/generated/concept-05/section-assets/sofiati-concept-05-results-section-asset.svg",
+      "../../assets/generated/concept-05/section-assets/sofiati-concept-05-consultation-section-asset.svg",
+      "../../assets/generated/concept-05/section-assets/sofiati-concept-05-contact-section-asset.svg",
+      "../../assets/generated/concept-05/section-assets/sofiati-concept-05-faq-section-asset.svg",
+      "../../assets/generated/concept-05/section-assets/sofiati-concept-05-legal-support-section-asset.svg",
+      "../../assets/generated/concept-05/section-assets/sofiati-concept-05-homepage-asset-composition.svg"
+    ],
     "treatment": "journal thumbnail, portrait, service icon, texture"
   },
   "partials": {
@@ -5854,7 +6573,11 @@ Check desktop, tablet, and mobile for premium spacing, visible portrait, no over
   "ctas": {
     "primary": "Request evaluation",
     "secondary": "Message WhatsApp",
-    "support": ["Contact Franciele", "Read FAQ", "Open sitemap"]
+    "support": [
+      "Contact Franciele",
+      "Read FAQ",
+      "Open sitemap"
+    ]
   },
   "seo": {
     "titlePattern": "[Page] | [Site] | Franciele Sofiati",

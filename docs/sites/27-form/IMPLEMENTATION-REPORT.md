@@ -1,11 +1,10 @@
 # 27-form Form IMPLEMENTATION-REPORT
 
-Run date/time: 2026-06-27T18:52:20.407Z
-Command: node scripts/continue-sofiati-atlas.mjs --site=27-form
+Run date/time: 2026-06-27T21:26:31.367Z
+Command: /usr/bin/node /run/media/code/Storage/GitHub/ashtra/health/scripts/sites/27-form/implement.mjs
 Status: complete
 
 ## Pages checked
-
 - index.html: 10 sections, 10 comments, max 2 visible links/buttons
 - about.html: 10 sections, 10 comments, max 2 visible links/buttons
 - care.html: 10 sections, 10 comments, max 2 visible links/buttons
@@ -29,44 +28,55 @@ Status: complete
 - thank-you.html: 10 sections, 10 comments, max 2 visible links/buttons
 
 ## Pages updated
-
 - None during this run
 
 ## Assets checked
-
 - Assets mapped in master brief: yes
 - Missing assets: none
 
 ## Internal links checked
-
 - Maximum two visible links/buttons per section: passed
 - Pages missing form or WhatsApp route: none
 
 ## CTAs checked
-
 - Pages missing final CTA: none
 - Pages missing reassurance section: none
 
 ## Partials checked
-
 - Strategy mapped: yes
 - Site-specific partial strategy: glowHero, lightboxCard, educationArc, contactGlow, footerHalo
 
-## Cleanup performed
+## Required asset and visual differentiation audit notes
+- 1. Images from assets/photos: assets/photos source index 27; assets/photos alternate crop index 5 are cropped into hero, CTA, journal, social, form, and responsive WebP assets.
+- 2. Images from assets/brand-photos: folder is absent in this branch; no external replacement was invented.
+- 3. Transparent assets from assets/brand: assets/brand transparent portrait index 2; assets/brand migrated Sofiati logo and monogram sources are used for portrait, logo, seal, watermark, and brand-background treatments.
+- 4. Generated assets created: 144 named assets for Form, covering logo, hero, portrait, icon, section, card, CTA, navigation, footer, form, journal, social, and responsive categories.
+- 5. Generated assets saved: assets/generated/concept-27.
+- 6. Logo treatment difference: Form uses Form Structured Atelier with 48px radius, #735C62 primary, #CDAA78 accent, and a concept-27 frame/badge/seal set.
+- 7. Hero layout difference: lightbox portrait glow with low-pressure CTAs; hero imagery uses generated desktop, mobile, overlay, portrait, and brand-composition assets.
+- 8. Section order difference: middle sections rotate by offset 2, changing the page rhythm against adjacent concepts.
+- 9. Service section difference: service visuals use the concept-27 service/care/laser/skin/safety icon set and soft glow blocks with generous negative space.
+- 10. Consultation CTA difference: CTA uses ../../assets/generated/concept-27/cta/sofiati-concept-27-final-cta-background.webp, ../../assets/generated/concept-27/cta/sofiati-concept-27-consultation-cta-panel.svg, and ../../assets/generated/concept-27/cta/sofiati-concept-27-cta-image-panel.webp with lightbox glow transition under 300ms.
+- 11. Footer difference: thin-rule footer index with no column boxes with concept-27 footer background, logo, brand mark, divider, CTA badge, contact icons, and watermark.
+- 12. Form layout difference: generated form background, side image, header image, privacy icon, success graphic, contact panel, and consultation form assets are specific to concept-27.
+- 13. Unique layout signatures: 27-form-form-structured-atelier-home-hero-promise-01; 27-form-form-structured-atelier-home-care-routes-02; 27-form-form-structured-atelier-about-portrait-hero-01; 27-form-form-structured-atelier-about-values-in-practice-02; 27-form-form-structured-atelier-care-care-hero-01; 27-form-form-structured-atelier-care-care-steps-02; all pages continue the same descriptive signature pattern.
+- 14. Sections changed to avoid repetition: hero, service route, reassurance, education/journal, contact CTA, and final bridge use generated per-concept art and extra layout families.
+- 15. Mobile-specific assets: ../../assets/generated/concept-27/heroes/sofiati-concept-27-mobile-hero-portrait-crop.webp, ../../assets/generated/concept-27/responsive/sofiati-concept-27-mobile-crop.webp, ../../assets/generated/concept-27/logos/sofiati-concept-27-mobile-logo-version.svg, and ../../assets/generated/concept-27/navigation/sofiati-concept-27-mobile-menu-background.svg.
+- 16. Social/SEO preview assets: ../../assets/generated/concept-27/social/sofiati-concept-27-open-graph-premium-care.webp, ../../assets/generated/concept-27/social/sofiati-concept-27-whatsapp-preview-image.webp, ../../assets/generated/concept-27/social/sofiati-concept-27-social-share-image.webp, ../../assets/generated/concept-27/social/sofiati-concept-27-favicon-set.svg, ../../assets/generated/concept-27/social/sofiati-concept-27-apple-touch-icon.png, ../../assets/generated/concept-27/social/sofiati-concept-27-android-icon.png, ../../assets/generated/concept-27/social/sofiati-concept-27-service-page-preview-image.webp, ../../assets/generated/concept-27/social/sofiati-concept-27-consultation-page-preview-image.webp.
+- 17. Asset restrictions: no remote URLs, stock images, downloaded assets, or unrelated AI photography are used by the generated concept assets.
+- 18. No-text visual difference test: Form passes at generation level through unique asset set, family 6, section rotation 2, wide image, portrait, compact icon, journal, and no missing section assets.
 
+## Cleanup performed
 - Old planning files are handled by the global cleanup command.
 - This site report supersedes scattered concept planning docs.
 
 ## Unused files removed
-
 - See docs/sites/ATLAS-CONTINUATION-REPORT.md after cleanup.
 
 ## Issues needing human confirmation
-
 - Medical/legal compliance, photography approval, and production contact routing before launch.
 
 ## Manual design review notes
-
 - Confirm Form Structured Atelier reads differently from adjacent concepts.
 - Confirm portrait crops are visible on mobile.
 - Confirm the page feels premium, botanical, calm, and not text-heavy.

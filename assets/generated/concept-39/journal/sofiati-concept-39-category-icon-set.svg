@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-label="categoryIconSet journal for Kindred">
+  <defs>
+    <pattern id="p39categoryIconSetjournal" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M4 22 C16 4 22 30 34 8" fill="none" stroke="#9A6B35" stroke-width="1" opacity=".22"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="620" rx="0" fill="#F6F4EA"/>
+  <rect width="900" height="620" fill="url(#p39categoryIconSetjournal)" opacity=".72"/>
+  <rect x="34" y="34" width="832" height="552" rx="0" fill="none" stroke="#9A6B35" stroke-width="2" opacity=".74"/>
+  <circle cx="342" cy="211" r="94" fill="#9A6B35" opacity=".16"/>
+  <path d="M162 446 C306 335 432 546 576 384 S738 322 810 223" fill="none" stroke="#9A6B35" stroke-width="4" stroke-linecap="round" opacity=".62"/>
+  <text x="108" y="149" font-family="Inter, Arial, sans-serif" font-size="22" letter-spacing="5" fill="#586D73" opacity=".72">39 / JOURNAL ASSET</text>
+  <text x="108" y="236" font-family="Georgia, serif" font-size="62" fill="#586D73">categoryIconSet journal</text>
+  <text x="108" y="310" font-family="Inter, Arial, sans-serif" font-size="24" fill="#586D73" opacity=".74">Kindred / calm-medical-spa</text>
+</svg>

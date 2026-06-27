@@ -28,7 +28,7 @@
     link.target = "_blank";
     link.rel = "noopener";
     link.setAttribute("aria-label", WHATSAPP_LABEL);
-    link.appendChild(makeImage("assets/icons/whatsapp.svg", ""));
+    link.appendChild(makeImage("../../assets/generated/concept-32/icons/sofiati-concept-32-whatsapp-cta-icon.svg", ""));
 
     const label = document.createElement("b");
     label.textContent = WHATSAPP_TEXT;
@@ -45,7 +45,7 @@
     button.setAttribute("aria-label", TOP_LABEL);
     button.setAttribute("aria-hidden", "true");
     button.tabIndex = -1;
-    button.appendChild(makeImage("assets/icons/back-to-top.svg", ""));
+    button.appendChild(makeImage("../../assets/generated/concept-32/icons/sofiati-concept-32-back-to-top-icon.svg", ""));
     return button;
   };
 

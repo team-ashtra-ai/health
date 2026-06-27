@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-label="corner decoration for Origin">
+  <defs>
+    <pattern id="p38cornerdecoration" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M4 22 C16 4 22 30 34 8" fill="none" stroke="#B7A06D" stroke-width="1" opacity=".22"/>
+    </pattern>
+  </defs>
+  <rect width="720" height="720" rx="0" fill="#F2EEE3"/>
+  <rect width="720" height="720" fill="url(#p38cornerdecoration)" opacity=".72"/>
+  <rect x="34" y="34" width="652" height="652" rx="0" fill="none" stroke="#B7A06D" stroke-width="2" opacity=".74"/>
+  <circle cx="216" cy="245" r="86" fill="#B7A06D" opacity=".16"/>
+  <path d="M130 518 C245 389 346 634 461 446 S590 374 648 259" fill="none" stroke="#B7A06D" stroke-width="4" stroke-linecap="round" opacity=".62"/>
+  <text x="86" y="173" font-family="Inter, Arial, sans-serif" font-size="22" letter-spacing="5" fill="#403F36" opacity=".72">38 / DECORATIVE ASSET</text>
+  <text x="86" y="274" font-family="Georgia, serif" font-size="72" fill="#403F36">corner decoration</text>
+  <text x="86" y="360" font-family="Inter, Arial, sans-serif" font-size="24" fill="#403F36" opacity=".74">Origin / magazine-beauty</text>
+</svg>

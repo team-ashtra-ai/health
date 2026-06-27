@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520" role="img" aria-label="contact card for Bloom">
+  <defs>
+    <pattern id="p11contactcard" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M4 22 C16 4 22 30 34 8" fill="none" stroke="#CDAA78" stroke-width="1" opacity=".22"/>
+    </pattern>
+  </defs>
+  <rect width="760" height="520" rx="22" fill="#F8F7F2"/>
+  <rect width="760" height="520" fill="url(#p11contactcard)" opacity=".72"/>
+  <rect x="34" y="34" width="692" height="452" rx="8" fill="none" stroke="#CDAA78" stroke-width="2" opacity=".74"/>
+  <circle cx="289" cy="177" r="94" fill="#CDAA78" opacity=".16"/>
+  <path d="M137 374 C258 281 365 458 486 322 S623 270 684 187" fill="none" stroke="#CDAA78" stroke-width="4" stroke-linecap="round" opacity=".62"/>
+  <text x="91" y="125" font-family="Inter, Arial, sans-serif" font-size="22" letter-spacing="5" fill="#485041" opacity=".72">11 / CARD ASSET</text>
+  <text x="91" y="198" font-family="Georgia, serif" font-size="52" fill="#485041">contact card</text>
+  <text x="91" y="260" font-family="Inter, Arial, sans-serif" font-size="24" fill="#485041" opacity=".74">Bloom / soft-clinical-luxury</text>
+</svg>

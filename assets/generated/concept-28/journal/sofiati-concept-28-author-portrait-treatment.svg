@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-label="authorPortrait journal for Pure">
+  <defs>
+    <pattern id="p28authorPortraitjournal" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M4 22 C16 4 22 30 34 8" fill="none" stroke="#B7A06D" stroke-width="1" opacity=".22"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="620" rx="0" fill="#F2EEE3"/>
+  <rect width="900" height="620" fill="url(#p28authorPortraitjournal)" opacity=".72"/>
+  <rect x="34" y="34" width="832" height="552" rx="0" fill="none" stroke="#B7A06D" stroke-width="4" opacity=".74"/>
+  <circle cx="414" cy="211" r="118" fill="#B7A06D" opacity=".16"/>
+  <path d="M162 446 C306 335 432 546 576 384 S738 322 810 223" fill="none" stroke="#B7A06D" stroke-width="4" stroke-linecap="round" opacity=".62"/>
+  <text x="108" y="149" font-family="Inter, Arial, sans-serif" font-size="22" letter-spacing="5" fill="#403F36" opacity=".72">28 / JOURNAL ASSET</text>
+  <text x="108" y="236" font-family="Georgia, serif" font-size="62" fill="#403F36">authorPortrait journal</text>
+  <text x="108" y="310" font-family="Inter, Arial, sans-serif" font-size="24" fill="#403F36" opacity=".74">Pure / magazine-beauty</text>
+</svg>

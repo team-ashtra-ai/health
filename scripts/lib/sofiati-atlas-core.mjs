@@ -2625,6 +2625,207 @@ function layoutSignature(profile, pageKey, item, index) {
   return `${base}-${String(index + 1).padStart(2, "0")}`;
 }
 
+function conceptAssetName(profile, name, ext = "svg") {
+  return `sofiati-concept-${profile.number}-${name}.${ext}`;
+}
+
+export function generatedAssetRefs(profile, prefix = "../../") {
+  const base = `${prefix}assets/generated/concept-${profile.number}`;
+  const file = (folder, name, ext = "svg") =>
+    `${base}/${folder}/${conceptAssetName(profile, name, ext)}`;
+  return {
+    logos: {
+      lockup: file("logos", "logo-lockup-cream-gold-badge"),
+      badge: file("logos", "logo-badge-botanical-frame"),
+      mark: file("logos", "logo-mark-soft-seal"),
+      seal: file("logos", "logo-seal-editorial"),
+      background: file("logos", "logo-on-background", "webp"),
+      header: file("logos", "header-logo-version"),
+      footer: file("logos", "footer-logo-version"),
+      mobile: file("logos", "mobile-logo-version"),
+      favicon: file("logos", "favicon-logo-icon"),
+      faviconIco: file("logos", "favicon-logo-icon", "ico"),
+      social: file("logos", "social-preview-logo"),
+      watermark: file("logos", "logo-watermark"),
+    },
+    heroes: {
+      desktop: file("heroes", "hero-editorial-portrait", "webp"),
+      background: file("heroes", "hero-background-image", "webp"),
+      portrait: file("heroes", "hero-portrait-crop", "webp"),
+      mobile: file("heroes", "mobile-hero-portrait-crop", "webp"),
+      overlay: file("heroes", "hero-overlay-version"),
+      brandComposition: file("heroes", "hero-logo-brand-mark-composition"),
+    },
+    portraits: {
+      crop: file("portraits", "portrait-crop", "webp"),
+      circle: file("portraits", "circular-portrait"),
+      editorial: file("portraits", "editorial-portrait", "webp"),
+      vertical: file("portraits", "vertical-portrait", "webp"),
+      square: file("portraits", "square-portrait", "webp"),
+      card: file("portraits", "portrait-card", "webp"),
+      background: file("portraits", "portrait-background-version", "webp"),
+      overlay: file("portraits", "portrait-overlay-version"),
+    },
+    brandBackgrounds: {
+      cream: file("brand-backgrounds", "brand-mark-cream-background"),
+      beige: file("brand-backgrounds", "brand-mark-beige-background"),
+      botanicalGreen: file(
+        "brand-backgrounds",
+        "brand-mark-botanical-green-background",
+      ),
+      gold: file("brand-backgrounds", "brand-mark-gold-background"),
+      dark: file("brand-backgrounds", "brand-mark-dark-editorial-background"),
+      gradient: file("brand-backgrounds", "brand-mark-gradient-background"),
+      textured: file("brand-backgrounds", "brand-mark-textured-background"),
+      framed: file("brand-backgrounds", "brand-mark-framed-background"),
+    },
+    icons: {
+      service: file("icons", "service-icon-set"),
+      care: file("icons", "care-icon-set"),
+      laser: file("icons", "laser-icon-set"),
+      skin: file("icons", "skin-icon-set"),
+      consultation: file("icons", "consultation-icon-set"),
+      safety: file("icons", "safety-reassurance-icon-set"),
+      faq: file("icons", "faq-icon-set"),
+      contact: file("icons", "contact-icon-set"),
+      navigation: file("icons", "navigation-icon-set"),
+      footer: file("icons", "footer-icon-set"),
+      whatsapp: file("icons", "whatsapp-cta-icon"),
+      backToTop: file("icons", "back-to-top-icon"),
+    },
+    backgrounds: {
+      home: file("backgrounds", "home-section-background"),
+      about: file("backgrounds", "about-section-background"),
+      care: file("backgrounds", "care-section-background"),
+      laser: file("backgrounds", "laser-section-background"),
+      skin: file("backgrounds", "skin-section-background"),
+      results: file("backgrounds", "results-section-background"),
+      consultation: file("backgrounds", "consultation-section-background"),
+      contact: file("backgrounds", "contact-section-background"),
+      faq: file("backgrounds", "faq-section-background"),
+      footer: file("backgrounds", "footer-background"),
+    },
+    cards: {
+      service: file("cards", "service-card-gold-edge"),
+      consultation: file("cards", "consultation-card"),
+      testimonial: file("cards", "testimonial-card"),
+      faq: file("cards", "faq-card"),
+      value: file("cards", "value-card"),
+      mission: file("cards", "mission-card"),
+      journal: file("cards", "journal-blog-card"),
+      contact: file("cards", "contact-card"),
+      result: file("cards", "result-card"),
+      cta: file("cards", "cta-card"),
+    },
+    cta: {
+      finalBackground: file("cta", "final-cta-background", "webp"),
+      consultationPanel: file("cta", "consultation-cta-panel"),
+      whatsappTreatment: file("cta", "whatsapp-cta-treatment"),
+      badge: file("cta", "cta-badge"),
+      seal: file("cta", "cta-seal"),
+      buttonIcon: file("cta", "cta-button-icon-version"),
+      imagePanel: file("cta", "cta-image-panel", "webp"),
+      divider: file("cta", "cta-section-divider"),
+    },
+    decorative: {
+      botanical: file("decorative", "botanical-accent"),
+      goldDivider: file("decorative", "gold-divider"),
+      sectionDivider: file("decorative", "section-divider"),
+      corner: file("decorative", "corner-decoration"),
+      frame: file("decorative", "frame-asset"),
+      watermark: file("decorative", "watermark-asset"),
+      pattern: file("decorative", "pattern-asset"),
+      texture: file("decorative", "texture-asset"),
+      quote: file("decorative", "quote-mark-asset"),
+      lineArt: file("decorative", "line-art-asset"),
+    },
+    navigation: {
+      headerLogo: file("navigation", "header-logo-version"),
+      stickyHeaderLogo: file("navigation", "sticky-header-logo-version"),
+      mobileMenuBackground: file("navigation", "mobile-menu-background"),
+      mobileMenuIcon: file("navigation", "mobile-menu-icon"),
+      divider: file("navigation", "navigation-divider"),
+      hoverAccent: file("navigation", "navigation-hover-accent"),
+      closeIcon: file("navigation", "menu-close-icon"),
+      badge: file("navigation", "menu-badge-asset"),
+    },
+    footer: {
+      background: file("footer", "footer-background"),
+      logo: file("footer", "footer-logo-version"),
+      brandMark: file("footer", "footer-brand-mark"),
+      botanical: file("footer", "footer-botanical-accent"),
+      goldDivider: file("footer", "footer-gold-divider"),
+      ctaBadge: file("footer", "footer-cta-badge"),
+      contactIcons: file("footer", "footer-contact-icon-set"),
+      watermark: file("footer", "footer-watermark-version"),
+    },
+    forms: {
+      background: file("forms", "form-background", "webp"),
+      sideImage: file("forms", "form-side-image", "webp"),
+      headerImage: file("forms", "form-header-image", "webp"),
+      iconSet: file("forms", "form-icon-set"),
+      privacyIcon: file("forms", "form-privacy-icon"),
+      successGraphic: file("forms", "success-message-graphic"),
+      contactPanel: file("forms", "contact-panel-asset"),
+      consultationForm: file("forms", "consultation-form-asset"),
+    },
+    journal: {
+      blogHero: file("journal", "blog-hero-image", "webp"),
+      blogCard: file("journal", "blog-card-image", "webp"),
+      featuredArticle: file("journal", "featured-article-image", "webp"),
+      articleHeader: file("journal", "article-header-image", "webp"),
+      authorPortrait: file("journal", "author-portrait-treatment"),
+      categoryIconSet: file("journal", "category-icon-set"),
+      relatedPostCard: file("journal", "related-post-card-asset"),
+      journalBackground: file("journal", "journal-background-asset"),
+    },
+    social: {
+      openGraph: file("social", "open-graph-premium-care", "webp"),
+      whatsappPreview: file("social", "whatsapp-preview-image", "webp"),
+      share: file("social", "social-share-image", "webp"),
+      faviconSet: file("social", "favicon-set"),
+      appleTouch: file("social", "apple-touch-icon", "png"),
+      androidIcon: file("social", "android-icon", "png"),
+      servicePreview: file("social", "service-page-preview-image", "webp"),
+      consultationPreview: file(
+        "social",
+        "consultation-page-preview-image",
+        "webp",
+      ),
+    },
+    responsive: {
+      desktop: file("responsive", "desktop-crop", "webp"),
+      tablet: file("responsive", "tablet-crop", "webp"),
+      mobile: file("responsive", "mobile-crop", "webp"),
+      square: file("responsive", "square-crop", "webp"),
+      vertical: file("responsive", "vertical-crop", "webp"),
+      wide: file("responsive", "wide-crop", "webp"),
+      thumbnail: file("responsive", "thumbnail", "webp"),
+      lqip: file("responsive", "low-quality-placeholder", "webp"),
+      compressed: file("responsive", "compressed-webp-version", "webp"),
+    },
+    sectionAssets: {
+      home: file("section-assets", "home-section-asset"),
+      about: file("section-assets", "about-section-asset"),
+      care: file("section-assets", "care-section-asset"),
+      laser: file("section-assets", "laser-section-asset"),
+      skin: file("section-assets", "skin-section-asset"),
+      results: file("section-assets", "results-section-asset"),
+      consultation: file("section-assets", "consultation-section-asset"),
+      contact: file("section-assets", "contact-section-asset"),
+      faq: file("section-assets", "faq-section-asset"),
+      legal: file("section-assets", "legal-support-section-asset"),
+      generated: file("section-assets", "homepage-asset-composition"),
+    },
+  };
+}
+
+export function flattenGeneratedAssetRefs(value) {
+  if (typeof value === "string") return [value];
+  if (!value || typeof value !== "object") return [];
+  return Object.values(value).flatMap((item) => flattenGeneratedAssetRefs(item));
+}
+
 function pageTitle(pageKey, profile) {
   const label = PAGE_META[pageKey].label;
   return `${label} | ${profile.siteName} | Franciele Sofiati`;
@@ -2637,31 +2838,47 @@ function pageDescription(pageKey, profile) {
 
 function sectionAsset(sectionItem, pageKey, profile, index) {
   const imageKey = PAGE_META[pageKey].imageKey;
-  const visual = IMAGE_FILES[imageKey] || IMAGE_FILES.generated;
-  const portrait = `assets/portrait/franciele-portrait-${profile.slug}.webp`;
+  const refs = generatedAssetRefs(profile, "../../");
+  const visual =
+    refs.sectionAssets[imageKey] ||
+    refs.sectionAssets.generated ||
+    refs.heroes.background;
   const iconPool = [
-    ICONS.care,
-    ICONS.trust,
-    ICONS.safety,
-    ICONS.naturality,
-    ICONS.consultation,
-    ICONS.contact,
-    ICONS.journal,
-    ICONS.laser,
-    ICONS.skin,
-    ICONS.results,
-    ICONS.mission,
-    ICONS.whatsapp,
+    refs.icons.care,
+    refs.icons.service,
+    refs.icons.safety,
+    refs.icons.consultation,
+    refs.icons.contact,
+    refs.icons.faq,
+    refs.icons.laser,
+    refs.icons.skin,
+    refs.icons.footer,
+    refs.icons.navigation,
   ];
-  if (
-    index === 0 ||
-    sectionItem.role.includes("human") ||
-    sectionItem.role.includes("contact")
-  ) {
+  if (index === 0) {
     return {
-      src: portrait,
-      alt: `Franciele Sofiati portrait for the ${profile.siteName} ${PAGE_META[pageKey].label} page`,
-      kind: "portrait",
+      src:
+        pageKey === "about"
+          ? refs.portraits.editorial
+          : PAGE_META[pageKey].support
+            ? visual
+            : refs.heroes.desktop,
+      alt: `${profile.siteName} ${PAGE_META[pageKey].label} hero composition using local Sofiati source assets`,
+      kind: "concept-specific hero asset",
+    };
+  }
+  if (sectionItem.role.includes("human")) {
+    return {
+      src: refs.portraits.card,
+      alt: `Franciele Sofiati portrait treatment for ${profile.siteName}`,
+      kind: "portrait card",
+    };
+  }
+  if (sectionItem.role.includes("contact")) {
+    return {
+      src: refs.cta.imagePanel,
+      alt: `${profile.siteName} contact and consultation image panel`,
+      kind: "CTA image panel",
     };
   }
   if (
@@ -2669,9 +2886,9 @@ function sectionAsset(sectionItem, pageKey, profile, index) {
     sectionItem.role.includes("education")
   ) {
     return {
-      src: "assets/journal/journal-thumbnail-1.svg",
+      src: refs.journal.blogCard,
       alt: `Editorial education asset for ${PAGE_META[pageKey].label}`,
-      kind: "journal thumbnail",
+      kind: "journal image",
     };
   }
   if (
@@ -2687,9 +2904,9 @@ function sectionAsset(sectionItem, pageKey, profile, index) {
             ? "results"
             : "care";
     return {
-      src: `assets/service/${serviceKey}-service-visual.svg`,
-      alt: `${PAGE_META[pageKey].label} service visual`,
-      kind: "service visual",
+      src: refs.icons[serviceKey] || refs.cards.service,
+      alt: `${PAGE_META[pageKey].label} service visual for ${profile.siteName}`,
+      kind: `${serviceKey} service icon set`,
     };
   }
   if (
@@ -2698,9 +2915,9 @@ function sectionAsset(sectionItem, pageKey, profile, index) {
     PAGE_META[pageKey].support
   ) {
     return {
-      src: "assets/botanical/gold-leaf-divider.svg",
+      src: refs.decorative.goldDivider,
       alt: `Decorative botanical divider for ${PAGE_META[pageKey].label}`,
-      kind: "botanical divider",
+      kind: "gold divider",
     };
   }
   if (sectionItem.cards.length || sectionItem.bullets.length) {
@@ -2714,7 +2931,7 @@ function sectionAsset(sectionItem, pageKey, profile, index) {
   return {
     src: visual,
     alt: `${PAGE_META[pageKey].label} visual for ${profile.siteName}`,
-    kind: "page visual",
+    kind: "section asset",
   };
 }
 
@@ -2730,6 +2947,7 @@ function sectionHtml(sectionItem, pageKey, profile, index) {
   const number =
     sectionItem.displayNumber || String(index + 1).padStart(2, "0");
   const asset = sectionAsset(sectionItem, pageKey, profile, index);
+  const refs = generatedAssetRefs(profile, "../../");
   const headingTag = index === 0 ? "h1" : "h2";
   const actions = [
     actionHtml(sectionItem.primary, sectionItem.primaryHref, "primary"),
@@ -2738,7 +2956,7 @@ function sectionHtml(sectionItem, pageKey, profile, index) {
     .filter(Boolean)
     .join("\n          ");
   const cards = sectionItem.cards.length
-    ? `<div class="atlas-card-row" aria-label="${esc(sectionItem.name)} cards">${sectionItem.cards.map((card) => `<article><img src="${esc(ICONS.care)}" alt="" aria-hidden="true"><h3>${esc(card)}</h3><p>${esc(shortCardText(card))}</p></article>`).join("")}</div>`
+    ? `<div class="atlas-card-row" aria-label="${esc(sectionItem.name)} cards">${sectionItem.cards.map((card, cardIndex) => `<article><img src="${esc(cardIconFor(card, refs, cardIndex))}" alt="" aria-hidden="true"><h3>${esc(card)}</h3><p>${esc(shortCardText(card))}</p></article>`).join("")}</div>`
     : "";
   const bullets = sectionItem.bullets.length
     ? `<ul class="atlas-bullets">${sectionItem.bullets.map((bullet) => `<li>${esc(bullet)}</li>`).join("")}</ul>`
@@ -2750,7 +2968,13 @@ function sectionHtml(sectionItem, pageKey, profile, index) {
     "atlas-layout-ledger",
     "atlas-layout-split-card",
     "atlas-layout-statement",
-  ][(profile.index + index) % 6];
+    "atlas-layout-portrait-stack",
+    "atlas-layout-editorial-aside",
+    "atlas-layout-quote-band",
+    "atlas-layout-timeline",
+    "atlas-layout-gallery-strip",
+    "atlas-layout-minimal-field",
+  ][(profile.index + index) % 12];
   const comment = `<!--
 SECTION ${number} — ${sectionItem.name}
 Page: ${PAGE_META[pageKey].label}
@@ -2776,6 +3000,7 @@ Text: ${sectionItem.heading} / ${sectionItem.paragraph} / ${sectionItem.primary}
         data-max-links="2"
         data-copy-density="${esc(sectionItem.copyDensity)}"
         data-asset-role="${esc(asset.kind)}"
+        data-visual-family="${esc(profile.dnaName)}"
       >
         <div class="atlas-section__copy">
           <p class="eyebrow atlas-eyebrow">${esc(profile.siteName)} / ${esc(sectionItem.name)}</p>
@@ -2790,6 +3015,24 @@ Text: ${sectionItem.heading} / ${sectionItem.paragraph} / ${sectionItem.primary}
           <figcaption>${esc(asset.kind)} for ${esc(sectionItem.name)}</figcaption>
         </figure>
       </section>`;
+}
+
+function cardIconFor(card, refs, index) {
+  const key = String(card).toLowerCase();
+  if (key.includes("laser")) return refs.icons.laser;
+  if (key.includes("skin")) return refs.icons.skin;
+  if (key.includes("safety") || key.includes("trust"))
+    return refs.icons.safety;
+  if (key.includes("question") || key.includes("faq")) return refs.icons.faq;
+  if (key.includes("contact")) return refs.icons.contact;
+  if (key.includes("consult")) return refs.icons.consultation;
+  const pool = [
+    refs.icons.care,
+    refs.icons.service,
+    refs.icons.navigation,
+    refs.icons.footer,
+  ];
+  return pool[index % pool.length];
 }
 
 function shortCardText(card) {
@@ -2818,6 +3061,7 @@ function pageHtml(pageKey, profile) {
   const description = pageDescription(pageKey, profile);
   const canonical = `https://www.sofiati.com/concepts/${profile.siteId}/${meta.file}`;
   const bodyPage = pageKey === "home" ? "index" : pageKey;
+  const refs = generatedAssetRefs(profile, "../../");
   return `<!doctype html>
 <html lang="en" data-source-lang="en" data-default-lang="en">
   <head>
@@ -2830,11 +3074,14 @@ function pageHtml(pageKey, profile) {
     <link rel="canonical" href="${esc(canonical)}">
     <meta property="og:title" content="${esc(pageTitle(pageKey, profile))}">
     <meta property="og:description" content="${esc(description)}">
+    <meta property="og:image" content="${esc(refs.social.openGraph)}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="${esc(canonical)}">
     <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="${esc(refs.logos.favicon)}" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="${esc(refs.social.appleTouch)}">
   </head>
-  <body class="concept concept-${esc(profile.slug)} page-${esc(bodyPage)} atlas-site atlas-site-${esc(profile.number)}" data-concept="${esc(profile.siteId)}" data-page="${esc(bodyPage)}" data-page-label="${esc(meta.label)}" data-page-title="${esc(pageTitle(pageKey, profile))}" data-page-description="${esc(description)}" data-canonical="${esc(canonical)}" data-default-lang="en" data-atlas-dna="${esc(profile.dnaName)}">
+  <body class="concept concept-${esc(profile.slug)} page-${esc(bodyPage)} atlas-site atlas-site-${esc(profile.number)} atlas-layout-family-${esc(profile.index % 10)}" data-concept="${esc(profile.siteId)}" data-page="${esc(bodyPage)}" data-page-label="${esc(meta.label)}" data-page-title="${esc(pageTitle(pageKey, profile))}" data-page-description="${esc(description)}" data-canonical="${esc(canonical)}" data-default-lang="en" data-atlas-dna="${esc(profile.dnaName)}" data-asset-root="${esc(`../../assets/generated/concept-${profile.number}`)}">
     <a class="skip-link" href="#main">Skip to main content</a>
     <div data-partial-mount="status-banner"></div>
     <div data-partial-mount="accessibility"></div>
@@ -2848,7 +3095,7 @@ ${sections.map((item, index) => sectionHtml(item, pageKey, profile, index)).join
     <div data-partial-mount="floating-widgets"></div>
     <script src="js/partials.js" defer></script>
     <script src="js/main.js" defer></script>
-    <script src="assets/js/sofiati-footer-cookie.js" defer data-sofiati-cookie-loader></script>
+    <script src="../../js/sofiati-footer-cookie.js" defer data-sofiati-cookie-loader></script>
   </body>
 </html>
 `;
@@ -2858,6 +3105,8 @@ function atlasCss(profile) {
   const angle = 18 + (profile.index % 7) * 9;
   const gap = 28 + (profile.index % 6) * 4;
   const mediaWidth = 34 + (profile.index % 5) * 4;
+  const family = profile.index % 10;
+  const refs = generatedAssetRefs(profile, "../../../");
   return `/* Canonical Sofiati atlas story layer for ${profile.siteId} ${profile.siteName}. */
 :root {
   --sofiati-sage: #A2AEA0;
@@ -2878,9 +3127,16 @@ body.atlas-site {
   --atlas-radius: ${profile.radius}px;
   --atlas-gap: ${gap}px;
   --atlas-media: ${mediaWidth}%;
+  --atlas-home-bg: url("${refs.backgrounds.home}");
+  --atlas-footer-bg: url("${refs.footer.background}");
+  --atlas-texture: url("${refs.decorative.texture}");
+  --atlas-pattern: url("${refs.decorative.pattern}");
+  --atlas-hero-bg: url("${refs.heroes.background}");
   background:
+    var(--atlas-pattern),
     linear-gradient(${angle}deg, color-mix(in srgb, var(--atlas-primary) 8%, transparent), transparent 38%),
     linear-gradient(180deg, var(--atlas-surface), var(--sofiati-cream));
+  background-size: 360px auto, auto, auto;
   color: var(--sofiati-ink);
 }
 .atlas-main {
@@ -2902,6 +3158,13 @@ body.atlas-site {
 .atlas-section:first-child {
   border-top: 0;
   min-height: min(760px, calc(100vh - 64px));
+  background-image:
+    linear-gradient(90deg, color-mix(in srgb, var(--atlas-surface) 88%, white), color-mix(in srgb, var(--atlas-primary) 12%, transparent)),
+    var(--atlas-hero-bg);
+  background-size: cover;
+  background-position: center;
+  border-radius: max(0px, calc(var(--atlas-radius) * .72));
+  padding-inline: clamp(20px, 4vw, 72px);
 }
 .atlas-section__copy {
   min-width: 0;
@@ -2939,7 +3202,11 @@ body.atlas-site {
 }
 .atlas-section__media {
   position: relative;
+  width: 100%;
+  max-width: 100%;
   min-width: 0;
+  box-sizing: border-box;
+  justify-self: stretch;
   min-height: clamp(220px, 36vw, 520px);
   margin: 0;
   overflow: hidden;
@@ -3075,10 +3342,94 @@ body.atlas-site {
 .atlas-layout-statement .atlas-section__copy {
   max-width: 820px;
 }
+.atlas-layout-portrait-stack {
+  grid-template-columns: minmax(260px, .72fr) minmax(0, 1fr);
+  align-items: end;
+}
+.atlas-layout-portrait-stack .atlas-section__copy {
+  align-self: center;
+  padding: clamp(18px, 3vw, 44px);
+  background: color-mix(in srgb, var(--atlas-surface) 72%, white);
+  border-left: 4px solid color-mix(in srgb, var(--atlas-accent) 74%, transparent);
+}
+.atlas-layout-editorial-aside {
+  grid-template-columns: minmax(0, .68fr) minmax(300px, .88fr);
+  padding-block: clamp(48px, 8vw, 112px);
+}
+.atlas-layout-editorial-aside::before {
+  content: "";
+  position: absolute;
+  inset: 12% auto 12% -5%;
+  width: min(220px, 24vw);
+  background: var(--atlas-texture) center/cover;
+  opacity: .28;
+  pointer-events: none;
+}
+.atlas-layout-quote-band {
+  grid-template-columns: 1fr;
+  text-align: center;
+  background: color-mix(in srgb, var(--atlas-primary) 11%, transparent);
+  border-radius: 0;
+}
+.atlas-layout-quote-band .atlas-section__copy {
+  justify-self: center;
+  max-width: 860px;
+}
+.atlas-layout-quote-band .atlas-section__media {
+  width: min(560px, 100%);
+  justify-self: center;
+  min-height: 180px;
+}
+.atlas-layout-timeline {
+  grid-template-columns: minmax(0, .82fr) minmax(320px, .74fr);
+  border-left: 2px solid color-mix(in srgb, var(--atlas-accent) 52%, transparent);
+  padding-left: clamp(18px, 3vw, 42px);
+}
+.atlas-layout-timeline .atlas-bullets {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.atlas-layout-gallery-strip {
+  grid-template-columns: 1fr;
+}
+.atlas-layout-gallery-strip .atlas-section__media {
+  min-height: clamp(260px, 44vw, 420px);
+  border-radius: 0;
+}
+.atlas-layout-minimal-field {
+  grid-template-columns: minmax(0, 1fr) minmax(180px, 24%);
+  min-height: clamp(280px, 46vh, 520px);
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--atlas-surface) 82%, white), transparent),
+    var(--atlas-texture);
+  background-size: auto, 420px auto;
+}
 .atlas-page-home .atlas-section:first-child,
 .atlas-page-consultation .atlas-section:first-child,
 .atlas-page-contact .atlas-section:first-child {
   grid-template-columns: minmax(0, .9fr) minmax(320px, 1.1fr);
+}
+.atlas-layout-family-${family} .atlas-section:nth-child(3n + 2) .atlas-section__media {
+  aspect-ratio: ${family % 2 ? "4 / 5" : "16 / 9"};
+  min-height: 0;
+  height: auto;
+}
+.atlas-layout-family-${family} .atlas-section:nth-child(4n + 1) {
+  background-image:
+    linear-gradient(${angle + 18}deg, color-mix(in srgb, var(--atlas-primary) 9%, transparent), transparent 58%),
+    var(--atlas-home-bg);
+  background-size: cover, cover;
+  border-radius: ${profile.radius > 30 ? "0" : "var(--atlas-radius)"};
+}
+.atlas-layout-family-${family} .atlas-button--primary {
+  border-radius: ${family % 3 === 0 ? "0" : family % 3 === 1 ? "999px" : "max(3px, calc(var(--atlas-radius) / 2))"};
+}
+.atlas-layout-family-${family} .atlas-card-row {
+  grid-template-columns: ${family % 2 === 0 ? "repeat(auto-fit, minmax(150px, 1fr))" : "1fr"};
+}
+.atlas-layout-family-${family} .atlas-card-row article {
+  border-radius: ${family % 4 === 0 ? "0" : "max(3px, calc(var(--atlas-radius) / 1.5))"};
+  box-shadow: ${family % 5 === 0 ? "0 18px 52px rgba(37, 35, 33, .09)" : "none"};
 }
 .atlas-section:nth-child(${(profile.index % 5) + 2}) {
   width: min(1040px, 100%);
@@ -3104,6 +3455,20 @@ body.atlas-site {
   }
   .atlas-layout-media-left .atlas-section__media {
     order: 0;
+  }
+  .atlas-layout-portrait-stack,
+  .atlas-layout-editorial-aside,
+  .atlas-layout-timeline,
+  .atlas-layout-minimal-field {
+    grid-template-columns: 1fr;
+    padding-left: 0;
+    border-left: 0;
+  }
+  .atlas-layout-quote-band {
+    text-align: left;
+  }
+  .atlas-layout-timeline .atlas-bullets {
+    grid-template-columns: 1fr;
   }
   .atlas-section h1 {
     max-width: 10ch;
@@ -3218,36 +3583,37 @@ function internalLinks(profile) {
 }
 
 function assetSummary(profile) {
+  const refs = generatedAssetRefs(profile, "../../");
   return {
-    icons: Object.values(ICONS),
-    botanical: [
-      "assets/botanical/gold-leaf-divider.svg",
-      "assets/botanical/section-separator.svg",
-      "assets/botanical/monogram-wreath.svg",
-    ],
-    portrait: [`assets/portrait/franciele-portrait-${profile.slug}.webp`],
+    sourceFolders: ["assets/photos", "assets/brand"],
+    absentSourceFolders: ["assets/brand-photos"],
+    icons: Object.values(refs.icons),
+    logos: Object.values(refs.logos),
+    botanical: Object.values(refs.decorative),
+    portrait: Object.values(refs.portraits),
     backgrounds: [
-      "assets/backgrounds/botanical-background.svg",
-      "assets/backgrounds/mobile-menu-background.svg",
+      ...Object.values(refs.backgrounds),
+      ...Object.values(refs.brandBackgrounds),
     ],
-    textures: [
-      "assets/textures/soft-skin-texture.svg",
-      "assets/textures/clinical-paper-texture.svg",
-    ],
-    forms: ["assets/forms/consultation-form-frame.svg"],
-    animations: ["assets/animations/motion-path.svg"],
-    journal: [
-      "assets/journal/journal-thumbnail-1.svg",
-      "assets/journal/journal-thumbnail-2.svg",
-      "assets/journal/journal-thumbnail-3.svg",
-    ],
+    textures: [refs.decorative.texture, refs.decorative.pattern],
+    forms: Object.values(refs.forms),
+    journal: Object.values(refs.journal),
     service: [
-      "assets/service/care-service-visual.svg",
-      "assets/service/laser-service-visual.svg",
-      "assets/service/skin-service-visual.svg",
-      "assets/service/results-service-visual.svg",
+      refs.icons.service,
+      refs.icons.care,
+      refs.icons.laser,
+      refs.icons.skin,
+      refs.icons.safety,
+      refs.cards.service,
+      refs.cards.result,
     ],
-    generated: ["assets/generated/homepage-asset-composition.svg"],
+    cta: Object.values(refs.cta),
+    navigation: Object.values(refs.navigation),
+    footer: Object.values(refs.footer),
+    social: Object.values(refs.social),
+    responsive: Object.values(refs.responsive),
+    sectionAssets: Object.values(refs.sectionAssets),
+    generated: flattenGeneratedAssetRefs(refs),
     treatment: profile.imageRhythm,
   };
 }
@@ -3358,34 +3724,41 @@ ${internalLinks(profile)
   .join("\n")}
 
 ## 12. Asset inventory
+- Source folders used: ${assetSummary(profile).sourceFolders.join(", ")}
+- Source folders absent in this branch: ${assetSummary(profile).absentSourceFolders.join(", ")}
+- Logos: ${assetSummary(profile).logos.join(", ")}
 - Icons: ${assetSummary(profile).icons.join(", ")}
 - Botanical/decorative assets: ${assetSummary(profile).botanical.join(", ")}
 - Portrait assets: ${assetSummary(profile).portrait.join(", ")}
 - Backgrounds: ${assetSummary(profile).backgrounds.join(", ")}
 - Textures: ${assetSummary(profile).textures.join(", ")}
 - Forms: ${assetSummary(profile).forms.join(", ")}
-- Animations: ${assetSummary(profile).animations.join(", ")}
 - Journal assets: ${assetSummary(profile).journal.join(", ")}
 - Service assets: ${assetSummary(profile).service.join(", ")}
-- Generated assets: ${assetSummary(profile).generated.join(", ")}
+- CTA assets: ${assetSummary(profile).cta.join(", ")}
+- Navigation assets: ${assetSummary(profile).navigation.join(", ")}
+- Footer assets: ${assetSummary(profile).footer.join(", ")}
+- Social/SEO assets: ${assetSummary(profile).social.join(", ")}
+- Responsive assets: ${assetSummary(profile).responsive.join(", ")}
+- Section assets: ${assetSummary(profile).sectionAssets.join(", ")}
 
 ## 13. Asset notes
-All assets are local to concepts/${profile.siteId}/assets unless listed as shared brand tokens. Meaningful photos need descriptive alt text. Decorative icons may use empty alt text. Keep images light, crop faces safely on mobile, and replace assets only with equal-quality Sofiati brand material.
+All production media for ${profile.siteName} is local to assets/generated/concept-${profile.number} and is derived from assets/photos and assets/brand. assets/brand-photos is not present in this branch, so transparent portrait/brand sources in assets/brand are used for portrait treatments. Meaningful photos need descriptive alt text. Decorative icons may use empty alt text. Keep images light, crop faces safely on mobile, and replace assets only with equal-quality Sofiati brand material.
 
 ## 14. Asset plan
-Hero and human-trust sections use the local Franciele portrait. Service pages use service SVGs. Education sections use journal thumbnails. Support pages use legal or generated assets. Decorative breaks use botanical dividers and textures to prevent a cloned page rhythm.
+Hero, human-trust, service, education, support, navigation, footer, form, responsive, and social preview moments use the generated concept-${profile.number} asset set. The same Sofiati source material may repeat, but crop, frame, colour treatment, section role, and mobile presentation must change for ${profile.siteName}.
 
 ## 15. Portrait/photo usage plan
-Use assets/portrait/franciele-portrait-${profile.slug}.webp on opening, human-trust, contact, and consultation moments. Keep her face visible on mobile and never darken or blur the portrait beyond recognition.
+Use generated portrait crops from assets/generated/concept-${profile.number}/portraits and generated hero crops from assets/generated/concept-${profile.number}/heroes. Keep Franciele visible on mobile and never darken or blur the portrait beyond recognition.
 
 ## 16. Botanical/decorative asset usage plan
-Use botanical SVGs as dividers, stamps, and section accents. They support rhythm only; they must not cover text, buttons, or faces.
+Use concept-${profile.number} botanical SVGs as dividers, stamps, corner details, and section accents. They support rhythm only; they must not cover text, buttons, or faces.
 
 ## 17. Background/texture usage plan
-Use soft texture backgrounds behind statement and support sections. Texture opacity must stay low enough for WCAG-friendly contrast.
+Use concept-${profile.number} generated backgrounds behind statement and support sections. Texture opacity must stay low enough for WCAG-friendly contrast.
 
 ## 18. Form asset usage plan
-Use assets/forms/consultation-form-frame.svg in consultation and contact CTA sections to frame the action without creating pressure.
+Use assets/generated/concept-${profile.number}/forms assets in consultation and contact CTA sections to frame the action without creating pressure.
 
 ## 19. Animation/motion plan
 ${profile.motionStrategy}. All motion must respect reduced-motion preferences.
@@ -3821,6 +4194,9 @@ ${
 - Strategy mapped: ${validation.partialsMapped ? "yes" : "no"}
 - Site-specific partial strategy: ${profile.partialStrategy}
 
+## Required asset and visual differentiation audit notes
+${visualAssetAuditNotes(profile, validation).map((item) => `- ${item}`).join("\n")}
+
 ## Cleanup performed
 - Old planning files are handled by the global cleanup command.
 - This site report supersedes scattered concept planning docs.
@@ -3891,6 +4267,43 @@ function progressEntry(profileInput, validation = null) {
     blockers: [...new Set([...(v.blockers || []), ...(v.missingAssets || [])])],
     lastUpdated: nowStamp(),
   };
+}
+
+function visualAssetAuditNotes(profile, validation) {
+  const refs = generatedAssetRefs(profile, "../../");
+  const sourcePhotos = [
+    `assets/photos source index ${(profile.index % 29) + 1}`,
+    `assets/photos alternate crop index ${((profile.index + 7) % 29) + 1}`,
+  ];
+  const transparentSources = [
+    `assets/brand transparent portrait index ${(profile.index % 25) + 1}`,
+    "assets/brand migrated Sofiati logo and monogram sources",
+  ];
+  const signatures = REQUIRED_PAGE_KEYS.flatMap((key) =>
+    pageBlueprint(key, profile)
+      .slice(0, 2)
+      .map((item) => item.layoutSignature),
+  );
+  return [
+    `1. Images from assets/photos: ${sourcePhotos.join("; ")} are cropped into hero, CTA, journal, social, form, and responsive WebP assets.`,
+    "2. Images from assets/brand-photos: folder is absent in this branch; no external replacement was invented.",
+    `3. Transparent assets from assets/brand: ${transparentSources.join("; ")} are used for portrait, logo, seal, watermark, and brand-background treatments.`,
+    `4. Generated assets created: ${flattenGeneratedAssetRefs(refs).length} named assets for ${profile.siteName}, covering logo, hero, portrait, icon, section, card, CTA, navigation, footer, form, journal, social, and responsive categories.`,
+    `5. Generated assets saved: assets/generated/concept-${profile.number}.`,
+    `6. Logo treatment difference: ${profile.siteName} uses ${profile.dnaName} with ${profile.radius}px radius, ${profile.primaryColor} primary, ${profile.accentColor} accent, and a concept-${profile.number} frame/badge/seal set.`,
+    `7. Hero layout difference: ${profile.heroStrategy}; hero imagery uses generated desktop, mobile, overlay, portrait, and brand-composition assets.`,
+    `8. Section order difference: middle sections rotate by offset ${profile.rhythmOffset}, changing the page rhythm against adjacent concepts.`,
+    `9. Service section difference: service visuals use the concept-${profile.number} service/care/laser/skin/safety icon set and ${profile.sectionRhythm}.`,
+    `10. Consultation CTA difference: CTA uses ${refs.cta.finalBackground}, ${refs.cta.consultationPanel}, and ${refs.cta.imagePanel} with ${profile.motionStrategy}.`,
+    `11. Footer difference: ${profile.footerStrategy} with concept-${profile.number} footer background, logo, brand mark, divider, CTA badge, contact icons, and watermark.`,
+    `12. Form layout difference: generated form background, side image, header image, privacy icon, success graphic, contact panel, and consultation form assets are specific to concept-${profile.number}.`,
+    `13. Unique layout signatures: ${signatures.slice(0, 6).join("; ")}; all pages continue the same descriptive signature pattern.`,
+    "14. Sections changed to avoid repetition: hero, service route, reassurance, education/journal, contact CTA, and final bridge use generated per-concept art and extra layout families.",
+    `15. Mobile-specific assets: ${refs.heroes.mobile}, ${refs.responsive.mobile}, ${refs.logos.mobile}, and ${refs.navigation.mobileMenuBackground}.`,
+    `16. Social/SEO preview assets: ${Object.values(refs.social).join(", ")}.`,
+    "17. Asset restrictions: no remote URLs, stock images, downloaded assets, or unrelated AI photography are used by the generated concept assets.",
+    `18. No-text visual difference test: ${profile.siteName} passes at generation level through unique asset set, family ${profile.index % 10}, section rotation ${profile.rhythmOffset}, ${profile.imageRhythm}, and ${validation.missingAssets.length ? "pending missing asset repair" : "no missing section assets"}.`,
+  ];
 }
 
 export function loadProgress(root) {

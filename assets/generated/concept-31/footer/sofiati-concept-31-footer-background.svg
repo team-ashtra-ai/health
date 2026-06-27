@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-label="background footer for Evolve">
+  <defs>
+    <pattern id="p31backgroundfooter" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M4 22 C16 4 22 30 34 8" fill="none" stroke="#CDAA78" stroke-width="1" opacity=".22"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="760" rx="0" fill="#252321"/>
+  <rect width="1400" height="760" fill="url(#p31backgroundfooter)" opacity=".72"/>
+  <rect x="34" y="34" width="1332" height="692" rx="0" fill="none" stroke="#CDAA78" stroke-width="4" opacity=".74"/>
+  <circle cx="532" cy="258" r="86" fill="#CDAA78" opacity=".16"/>
+  <path d="M252 547 C476 410 672 669 896 471 S1148 395 1260 274" fill="none" stroke="#CDAA78" stroke-width="4" stroke-linecap="round" opacity=".62"/>
+  <text x="168" y="182" font-family="Inter, Arial, sans-serif" font-size="22" letter-spacing="5" fill="#F8F7F2" opacity=".72">31 / FOOTER ASSET</text>
+  <text x="168" y="289" font-family="Georgia, serif" font-size="76" fill="#F8F7F2">background footer</text>
+  <text x="168" y="380" font-family="Inter, Arial, sans-serif" font-size="24" fill="#F8F7F2" opacity=".74">Evolve / soft-clinical-luxury</text>
+</svg>

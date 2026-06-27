@@ -472,7 +472,7 @@ p {
   position: absolute;
   inset: 18%;
   z-index: 2;
-  background: url("../assets/brand/sofiati-monogram-white.png") center/contain
+  background: url("../../../assets/generated/concept-22/logos/sofiati-concept-22-logo-watermark.svg") center/contain
     no-repeat;
   opacity: 0.16;
   pointer-events: none;
@@ -1569,11 +1569,11 @@ body.reduce-motion *:after {
   --asset-cream: #f8f4ea;
   --asset-bronze: #8f745f;
   --asset-gold: #d2c5a7;
-  --asset-divider: url("../assets/botanical/gold-leaf-divider.svg");
-  --asset-bg: url("../assets/backgrounds/botanical-background.svg");
-  --asset-texture: url("../assets/textures/soft-skin-texture.svg");
-  --asset-form: url("../assets/forms/consultation-form-frame.svg");
-  --asset-generated: url("../assets/generated/homepage-asset-composition.svg");
+  --asset-divider: url("../../../assets/generated/concept-22/decorative/sofiati-concept-22-gold-divider.svg");
+  --asset-bg: url("../../../assets/generated/concept-22/backgrounds/sofiati-concept-22-home-section-background.svg");
+  --asset-texture: url("../../../assets/generated/concept-22/decorative/sofiati-concept-22-texture-asset.svg");
+  --asset-form: url("../../../assets/generated/concept-22/forms/sofiati-concept-22-consultation-form-asset.svg");
+  --asset-generated: url("../../../assets/generated/concept-22/section-assets/sofiati-concept-22-homepage-asset-composition.svg");
 }
 body::before {
   content: "";
@@ -1745,7 +1745,7 @@ body::before {
 .home-index-journal,
 .page-journal .content-system,
 .page-blog .content-system {
-  background-image: url("../assets/journal/journal-thumbnail-1.svg");
+  background-image: url("../../../assets/generated/concept-22/journal/sofiati-concept-22-blog-card-image.webp");
   background-repeat: no-repeat;
   background-position: right clamp(16px, 5vw, 80px) top clamp(16px, 5vw, 70px);
   background-size: min(180px, 32vw);
@@ -1760,7 +1760,7 @@ body::before {
   bottom: clamp(24px, 6vw, 80px);
   width: min(220px, 36vw);
   aspect-ratio: 1;
-  background: url("../assets/service/skin-service-visual.svg") center/contain
+  background: url("../../../assets/generated/concept-22/icons/sofiati-concept-22-skin-icon-set.svg") center/contain
     no-repeat;
   opacity: 0.32;
   pointer-events: none;
@@ -1773,7 +1773,7 @@ body::before {
       color-mix(in srgb, var(--asset-sage) 11%, transparent),
       transparent 56%
     ),
-    url("../assets/textures/clinical-paper-texture.svg");
+    url("../../../assets/generated/concept-22/brand-backgrounds/sofiati-concept-22-brand-mark-textured-background.svg");
   background-size:
     auto,
     282px 282px;
@@ -1800,7 +1800,7 @@ body::before {
 .mobile-menu {
   background-image:
     linear-gradient(309deg, rgba(37, 35, 33, 0.54), rgba(37, 35, 33, 0.1)),
-    url("../assets/backgrounds/mobile-menu-background.svg"),
+    url("../../../assets/generated/concept-22/navigation/sofiati-concept-22-mobile-menu-background.svg"),
     linear-gradient(135deg, var(--deep-sage), var(--ink));
   background-size:
     auto,
@@ -2286,7 +2286,7 @@ body.page-consultation .public-secondary-bar:not(.public-secondary-none) {
   left: 14px;
   width: 58px;
   height: 58px;
-  background: url("../assets/botanical/gold-leaf-divider.svg") center/contain
+  background: url("../../../assets/generated/concept-22/decorative/sofiati-concept-22-gold-divider.svg") center/contain
     no-repeat;
   opacity: 0.19;
   pointer-events: none;
@@ -2350,7 +2350,7 @@ body.page-consultation .public-secondary-bar:not(.public-secondary-none) {
   color: white;
   background:
     linear-gradient(135deg, rgba(37, 35, 33, 0.74), rgba(52, 64, 57, 0.64)),
-    url("../assets/backgrounds/mobile-menu-background.svg") right bottom/360px
+    url("../../../assets/generated/concept-22/navigation/sofiati-concept-22-mobile-menu-background.svg") right bottom/360px
       360px no-repeat,
     var(--deep-sage);
   transform: translate3d(0, -104%, 0);
@@ -2479,7 +2479,7 @@ body.page-consultation .public-secondary-bar:not(.public-secondary-none) {
   transform: translate3d(-104%, 0, 0);
   background:
     linear-gradient(90deg, rgba(37, 35, 33, 0.86), rgba(52, 64, 57, 0.72)),
-    url("../assets/textures/clinical-paper-texture.svg") center/260px 260px,
+    url("../../../assets/generated/concept-22/brand-backgrounds/sofiati-concept-22-brand-mark-textured-background.svg") center/260px 260px,
     var(--ink);
 }
 .public-menu-layout-botanical-fade,
@@ -2689,7 +2689,7 @@ body.public-menu-locked {
   bottom: clamp(12px, 3vw, 34px);
   width: min(422px, 42vw);
   aspect-ratio: 1;
-  background: url("../assets/brand/footer-signature-watermark.png")
+  background: url("../../../assets/generated/concept-22/footer/sofiati-concept-22-footer-watermark-version.svg")
     center/contain no-repeat;
   opacity: 0.099;
   transform: rotate(5deg);
@@ -5620,3 +5620,23 @@ body.page-sitemap .hero-visual.photo-frame--hero {
   }
 }
 /* SOFIATI EDITORIAL POLISH END */
+
+/* Generated asset bridge for 22-precision. */
+.public-footer-22 {
+  background-image: url("../../../assets/generated/concept-22/footer/sofiati-concept-22-footer-background.svg");
+  background-size: cover;
+  background-position: center;
+}
+.public-footer-22 .public-footer-watermark {
+  position: absolute;
+  inset: auto 5% 10% auto;
+  width: min(260px, 34vw);
+  opacity: .16;
+  pointer-events: none;
+}
+.public-header-22 .public-brand-mark img,
+.public-menu-22 .public-brand-mark img,
+.public-footer-22 .footer-signature-logo img {
+  max-width: min(220px, 50vw);
+  height: auto;
+}

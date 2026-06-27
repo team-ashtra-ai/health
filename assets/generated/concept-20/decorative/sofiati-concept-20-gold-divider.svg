@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-label="goldDivider decoration for Halo">
+  <defs>
+    <pattern id="p20goldDividerdecoration" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M4 22 C16 4 22 30 34 8" fill="none" stroke="#8F7955" stroke-width="1" opacity=".22"/>
+    </pattern>
+  </defs>
+  <rect width="720" height="720" rx="60" fill="#F8F7F2"/>
+  <rect width="720" height="720" fill="url(#p20goldDividerdecoration)" opacity=".72"/>
+  <rect x="34" y="34" width="652" height="652" rx="46" fill="none" stroke="#8F7955" stroke-width="2" opacity=".74"/>
+  <circle cx="331" cy="245" r="110" fill="#8F7955" opacity=".16"/>
+  <path d="M130 518 C245 389 346 634 461 446 S590 374 648 259" fill="none" stroke="#8F7955" stroke-width="4" stroke-linecap="round" opacity=".62"/>
+  <text x="86" y="173" font-family="Inter, Arial, sans-serif" font-size="22" letter-spacing="5" fill="#505E54" opacity=".72">20 / DECORATIVE ASSET</text>
+  <text x="86" y="274" font-family="Georgia, serif" font-size="72" fill="#505E54">goldDivider decoration</text>
+  <text x="86" y="360" font-family="Inter, Arial, sans-serif" font-size="24" fill="#505E54" opacity=".74">Halo / portrait-led-brand</text>
+</svg>
