@@ -243,7 +243,7 @@ function writeReport(progress, command, completedThisRun = []) {
   lines.push("## Still Incomplete");
   for (const s of incomplete) {
     lines.push(
-      `- ${s.siteId}: brief=${s.masterBrief}, script=${s.implementationScript}, report=${s.implementationReport}, blockers=${s.blockers.length}`,
+      `- ${s.siteId}: brief=${s.masterBrief}, script=${s.implementationScript}, report=${s.implementationReport}, blockers=${(s.blockers || []).length}`,
     );
   }
   lines.push("");
