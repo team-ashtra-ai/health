@@ -1,26 +1,16 @@
 # Remaining Visual Risks
 
-Generated: 2026-06-29T11:10:42.575Z
+- Pages still visually flat: requires screenshot review; static DNA classes are present on 1050 pages.
+- Pages with low colour contrast: no static failure recorded; footer contrast should be browser-reviewed on dark and light footer variants.
+- Pages with repeated layout risk: no exact contract duplicate; subjective screenshot review still needed.
+- Pages with possible empty frames: 0
+- Partials risks: none found in static partial path scan
+- Manual screenshot review needed: yes, for premium art direction, whitespace density, mobile stacking, and side-by-side similarity.
 
-## Pages Still Visually Risky
+## Validation Risks
 
-- Representative rendered screenshots are still required to judge visual polish beyond code-level dereferencing.
-- Concepts with medium similarity risk: 01, 06, 11, 16, 21, 26, 31, 36, 41, 46.
-
-## Image Sizing Risks
-
-- All Franciele images now use full-image CSS, but transparent-source whitespace can vary by original photo.
-- Manual review should confirm no photo feels too small in hero sections.
-
-## Repeated Layout Risks
-
-- The atlas still shares a structural 10-section system; concept variables and frame treatments reduce but do not eliminate similarity.
-
-## Generated Asset Risks
-
-- 4650 generated assets are marked rejected or manual-review instead of approved.
-- Generated assets are left in place for history and future manual review, but they are dereferenced from visitor-facing pages and concept CSS.
-
-## Manual Screenshot Review Needed
-
-- Open http://localhost:8080/select.html and inspect desktop/mobile for at least one concept in each layout family.
+- Pages not exactly 10 sections: none
+- Pages missing or duplicating visual DNA stylesheet: none
+- Bad generated-asset text hits: none
+- object-fit: cover hits: none
+- Duplicate header/footer risks: none
