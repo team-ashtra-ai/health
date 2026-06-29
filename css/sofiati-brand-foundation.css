@@ -1,0 +1,191 @@
+
+:root {
+  /* Sage */
+  --sofiati-sage-50: #F6F8F5;
+  --sofiati-sage-100: #EEF3EE;
+  --sofiati-sage-200: #DCE5DA;
+  --sofiati-sage-300: #A2AEA0;
+  --sofiati-sage-400: #87927F;
+  --sofiati-sage-500: #6F7B68;
+  --sofiati-sage-700: #485041;
+  --sofiati-sage-900: #263026;
+
+  /* Ivory / cream */
+  --sofiati-ivory-50: #FFFDF8;
+  --sofiati-ivory-100: #FBFAF5;
+  --sofiati-ivory-200: #F8F7F2;
+  --sofiati-ivory-300: #F2EEE3;
+  --sofiati-cream-400: #EDE4D4;
+  --sofiati-cream-600: #D8CBB7;
+
+  /* Ink */
+  --sofiati-ink-600: #4A4640;
+  --sofiati-ink-700: #3A3631;
+  --sofiati-ink-900: #252321;
+
+  /* Bronze / gold */
+  --sofiati-bronze-300: #C39B6A;
+  --sofiati-bronze-400: #B88954;
+  --sofiati-bronze-600: #9A6B35;
+  --sofiati-bronze-800: #5F3F1F;
+  --sofiati-gold-200: #F1DEC0;
+  --sofiati-gold-300: #E4C99B;
+  --sofiati-gold-500: #CDAA78;
+
+  /* Blush / pink */
+  --sofiati-pink-50: #FFF7F6;
+  --sofiati-pink-100: #F8E4E1;
+  --sofiati-pink-200: #EDC6C0;
+  --sofiati-pink-300: #DFA49B;
+  --sofiati-pink-500: #B86A63;
+  --sofiati-pink-700: #743B37;
+
+  /* Warmth */
+  --sofiati-terracotta-200: #E7B7A6;
+  --sofiati-terracotta-300: #D7957F;
+  --sofiati-terracotta-500: #B86A4E;
+  --sofiati-taupe-300: #B6AA98;
+  --sofiati-taupe-400: #9B8F7E;
+  --sofiati-taupe-700: #5E5548;
+
+  /* Semantic base */
+  --color-bg: var(--sofiati-ivory-200);
+  --color-text: var(--sofiati-ink-900);
+  --color-text-soft: var(--sofiati-ink-700);
+  --color-text-inverse: var(--sofiati-ivory-100);
+  --color-border-soft: rgba(72, 80, 65, 0.18);
+
+  /* Surfaces */
+  --surface-card: rgba(255, 255, 255, 0.72);
+  --surface-card-strong: var(--sofiati-ivory-100);
+  --surface-sage: var(--sofiati-sage-100);
+  --surface-dark: var(--sofiati-sage-900);
+  --surface-blush: var(--sofiati-pink-100);
+
+  /* Gradients */
+  --gradient-cream: linear-gradient(135deg, var(--sofiati-ivory-100), var(--sofiati-ivory-300));
+  --gradient-sage-soft: linear-gradient(135deg, var(--sofiati-sage-100), var(--sofiati-sage-300));
+  --gradient-sage-deep: linear-gradient(135deg, var(--sofiati-sage-700), var(--sofiati-sage-900));
+  --gradient-dark-botanical: radial-gradient(circle at top left, rgba(162, 174, 160, 0.24), transparent 34%), linear-gradient(135deg, var(--sofiati-ink-900), var(--sofiati-sage-900));
+  --gradient-blush-cream: linear-gradient(135deg, var(--sofiati-pink-50), var(--sofiati-pink-100), var(--sofiati-ivory-200));
+  --gradient-gold-line: linear-gradient(90deg, var(--sofiati-bronze-600), var(--sofiati-gold-500), var(--sofiati-bronze-400));
+
+  /* Shadows */
+  --shadow-sm: 0 14px 40px rgba(37, 35, 33, 0.08);
+  --shadow-md: 0 26px 70px rgba(37, 35, 33, 0.12);
+  --shadow-dark: 0 30px 90px rgba(0, 0, 0, 0.24);
+
+  /* Buttons */
+  --button-primary-bg: var(--sofiati-sage-700);
+  --button-primary-text: var(--sofiati-ivory-100);
+  --button-gold-bg: var(--sofiati-gold-500);
+  --button-gold-text: var(--sofiati-ink-900);
+  --button-blush-bg: var(--sofiati-pink-200);
+  --button-blush-text: var(--sofiati-ink-900);
+  --button-dark-bg: var(--sofiati-ink-900);
+  --button-dark-text: var(--sofiati-ivory-100);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: Inter, "Avenir Next", "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+body.public-menu-locked {
+  overflow: hidden;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+.skip-link {
+  position: fixed;
+  inset-block-start: 1rem;
+  inset-inline-start: 1rem;
+  z-index: 1000;
+  transform: translateY(-160%);
+  background: var(--sofiati-ink-900);
+  color: var(--sofiati-ivory-100);
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+.section-light {
+  background: var(--gradient-cream);
+}
+
+.section-sage {
+  background: var(--gradient-sage-soft);
+}
+
+.section-dark {
+  background: var(--gradient-dark-botanical);
+  color: var(--color-text-inverse);
+}
+
+.section-blush {
+  background: var(--sofiati-pink-100);
+}
+
+.card {
+  background: var(--surface-card);
+  border: 1px solid var(--color-border-soft);
+  box-shadow: var(--shadow-sm);
+}
+
+.button-primary {
+  background: var(--button-primary-bg);
+  color: var(--button-primary-text);
+}
+
+.button-gold {
+  background: var(--button-gold-bg);
+  color: var(--button-gold-text);
+}
+
+.button-blush {
+  background: var(--button-blush-bg);
+  color: var(--button-blush-text);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

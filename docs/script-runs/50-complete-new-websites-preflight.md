@@ -1,0 +1,1472 @@
+# 50 Complete New Websites Preflight
+
+- Current branch: `sofiati-50-complete-new-websites-rebuild`
+- Git status: `M concepts/01-inspire/404.html
+ M concepts/01-inspire/about.html
+ M concepts/01-inspire/accessibility.html
+ M concepts/01-inspire/blog.html
+ M concepts/01-inspire/care.html
+ M concepts/01-inspire/consultation.html
+ M concepts/01-inspire/contact.html
+ M concepts/01-inspire/cookies.html
+ M concepts/01-inspire/faq.html
+ M concepts/01-inspire/index.html
+ M concepts/01-inspire/journal.html
+ M concepts/01-inspire/laser.html
+ M concepts/01-inspire/legal.html
+ M concepts/01-inspire/mission.html
+ M concepts/01-inspire/partials/cookie-banner.html
+ M concepts/01-inspire/partials/floating-widgets.html
+ M concepts/01-inspire/partials/footer.html
+ M concepts/01-inspire/partials/header.html
+ M concepts/01-inspire/partials/mobile-menu.html
+ M concepts/01-inspire/privacy.html
+ M concepts/01-inspire/results.html
+ M concepts/01-inspire/sitemap.html
+ M concepts/01-inspire/skin.html
+ M concepts/01-inspire/testimonials.html
+ M concepts/01-inspire/thank-you.html
+ M concepts/01-inspire/values.html
+ M concepts/02-empower/404.html
+ M concepts/02-empower/about.html
+ M concepts/02-empower/accessibility.html
+ M concepts/02-empower/blog.html
+ M concepts/02-empower/care.html
+ M concepts/02-empower/consultation.html
+ M concepts/02-empower/contact.html
+ M concepts/02-empower/cookies.html
+ M concepts/02-empower/faq.html
+ M concepts/02-empower/index.html
+ M concepts/02-empower/journal.html
+ M concepts/02-empower/laser.html
+ M concepts/02-empower/legal.html
+ M concepts/02-empower/mission.html
+ M concepts/02-empower/partials/cookie-banner.html
+ M concepts/02-empower/partials/floating-widgets.html
+ M concepts/02-empower/partials/footer.html
+ M concepts/02-empower/partials/header.html
+ M concepts/02-empower/partials/mobile-menu.html
+ M concepts/02-empower/privacy.html
+ M concepts/02-empower/results.html
+ M concepts/02-empower/sitemap.html
+ M concepts/02-empower/skin.html
+ M concepts/02-empower/testimonials.html
+ M concepts/02-empower/thank-you.html
+ M concepts/02-empower/values.html
+ M concepts/03-enhance/404.html
+ M concepts/03-enhance/about.html
+ M concepts/03-enhance/accessibility.html
+ M concepts/03-enhance/blog.html
+ M concepts/03-enhance/care.html
+ M concepts/03-enhance/consultation.html
+ M concepts/03-enhance/contact.html
+ M concepts/03-enhance/cookies.html
+ M concepts/03-enhance/faq.html
+ M concepts/03-enhance/index.html
+ M concepts/03-enhance/journal.html
+ M concepts/03-enhance/laser.html
+ M concepts/03-enhance/legal.html
+ M concepts/03-enhance/mission.html
+ M concepts/03-enhance/partials/cookie-banner.html
+ M concepts/03-enhance/partials/floating-widgets.html
+ M concepts/03-enhance/partials/footer.html
+ M concepts/03-enhance/partials/header.html
+ M concepts/03-enhance/partials/mobile-menu.html
+ M concepts/03-enhance/privacy.html
+ M concepts/03-enhance/results.html
+ M concepts/03-enhance/sitemap.html
+ M concepts/03-enhance/skin.html
+ M concepts/03-enhance/testimonials.html
+ M concepts/03-enhance/thank-you.html
+ M concepts/03-enhance/values.html
+ M concepts/04-renew/404.html
+ M concepts/04-renew/about.html
+ M concepts/04-renew/accessibility.html
+ M concepts/04-renew/blog.html
+ M concepts/04-renew/care.html
+ M concepts/04-renew/consultation.html
+ M concepts/04-renew/contact.html
+ M concepts/04-renew/cookies.html
+ M concepts/04-renew/faq.html
+ M concepts/04-renew/index.html
+ M concepts/04-renew/journal.html
+ M concepts/04-renew/laser.html
+ M concepts/04-renew/legal.html
+ M concepts/04-renew/mission.html
+ M concepts/04-renew/partials/cookie-banner.html
+ M concepts/04-renew/partials/floating-widgets.html
+ M concepts/04-renew/partials/footer.html
+ M concepts/04-renew/partials/header.html
+ M concepts/04-renew/partials/mobile-menu.html
+ M concepts/04-renew/privacy.html
+ M concepts/04-renew/results.html
+ M concepts/04-renew/sitemap.html
+ M concepts/04-renew/skin.html
+ M concepts/04-renew/testimonials.html
+ M concepts/04-renew/thank-you.html
+ M concepts/04-renew/values.html
+ M concepts/05-elevate/404.html
+ M concepts/05-elevate/about.html
+ M concepts/05-elevate/accessibility.html
+ M concepts/05-elevate/blog.html
+ M concepts/05-elevate/care.html
+ M concepts/05-elevate/consultation.html
+ M concepts/05-elevate/contact.html
+ M concepts/05-elevate/cookies.html
+ M concepts/05-elevate/faq.html
+ M concepts/05-elevate/index.html
+ M concepts/05-elevate/journal.html
+ M concepts/05-elevate/laser.html
+ M concepts/05-elevate/legal.html
+ M concepts/05-elevate/mission.html
+ M concepts/05-elevate/partials/cookie-banner.html
+ M concepts/05-elevate/partials/floating-widgets.html
+ M concepts/05-elevate/partials/footer.html
+ M concepts/05-elevate/partials/header.html
+ M concepts/05-elevate/partials/mobile-menu.html
+ M concepts/05-elevate/privacy.html
+ M concepts/05-elevate/results.html
+ M concepts/05-elevate/sitemap.html
+ M concepts/05-elevate/skin.html
+ M concepts/05-elevate/testimonials.html
+ M concepts/05-elevate/thank-you.html
+ M concepts/05-elevate/values.html
+ M concepts/06-refine/404.html
+ M concepts/06-refine/about.html
+ M concepts/06-refine/accessibility.html
+ M concepts/06-refine/blog.html
+ M concepts/06-refine/care.html
+ M concepts/06-refine/consultation.html
+ M concepts/06-refine/contact.html
+ M concepts/06-refine/cookies.html
+ M concepts/06-refine/faq.html
+ M concepts/06-refine/index.html
+ M concepts/06-refine/journal.html
+ M concepts/06-refine/laser.html
+ M concepts/06-refine/legal.html
+ M concepts/06-refine/mission.html
+ M concepts/06-refine/partials/cookie-banner.html
+ M concepts/06-refine/partials/floating-widgets.html
+ M concepts/06-refine/partials/footer.html
+ M concepts/06-refine/partials/header.html
+ M concepts/06-refine/partials/mobile-menu.html
+ M concepts/06-refine/privacy.html
+ M concepts/06-refine/results.html
+ M concepts/06-refine/sitemap.html
+ M concepts/06-refine/skin.html
+ M concepts/06-refine/testimonials.html
+ M concepts/06-refine/thank-you.html
+ M concepts/06-refine/values.html
+ M concepts/07-glow/404.html
+ M concepts/07-glow/about.html
+ M concepts/07-glow/accessibility.html
+ M concepts/07-glow/blog.html
+ M concepts/07-glow/care.html
+ M concepts/07-glow/consultation.html
+ M concepts/07-glow/contact.html
+ M concepts/07-glow/cookies.html
+ M concepts/07-glow/faq.html
+ M concepts/07-glow/index.html
+ M concepts/07-glow/journal.html
+ M concepts/07-glow/laser.html
+ M concepts/07-glow/legal.html
+ M concepts/07-glow/mission.html
+ M concepts/07-glow/partials/cookie-banner.html
+ M concepts/07-glow/partials/floating-widgets.html
+ M concepts/07-glow/partials/footer.html
+ M concepts/07-glow/partials/header.html
+ M concepts/07-glow/partials/mobile-menu.html
+ M concepts/07-glow/privacy.html
+ M concepts/07-glow/results.html
+ M concepts/07-glow/sitemap.html
+ M concepts/07-glow/skin.html
+ M concepts/07-glow/testimonials.html
+ M concepts/07-glow/thank-you.html
+ M concepts/07-glow/values.html
+ M concepts/08-balance/404.html
+ M concepts/08-balance/about.html
+ M concepts/08-balance/accessibility.html
+ M concepts/08-balance/blog.html
+ M concepts/08-balance/care.html
+ M concepts/08-balance/consultation.html
+ M concepts/08-balance/contact.html
+ M concepts/08-balance/cookies.html
+ M concepts/08-balance/faq.html
+ M concepts/08-balance/index.html
+ M concepts/08-balance/journal.html
+ M concepts/08-balance/laser.html
+ M concepts/08-balance/legal.html
+ M concepts/08-balance/mission.html
+ M concepts/08-balance/partials/cookie-banner.html
+ M concepts/08-balance/partials/floating-widgets.html
+ M concepts/08-balance/partials/footer.html
+ M concepts/08-balance/partials/header.html
+ M concepts/08-balance/partials/mobile-menu.html
+ M concepts/08-balance/privacy.html
+ M concepts/08-balance/results.html
+ M concepts/08-balance/sitemap.html
+ M concepts/08-balance/skin.html
+ M concepts/08-balance/testimonials.html
+ M concepts/08-balance/thank-you.html
+ M concepts/08-balance/values.html
+ M concepts/09-radiance/404.html
+ M concepts/09-radiance/about.html
+ M concepts/09-radiance/accessibility.html
+ M concepts/09-radiance/blog.html
+ M concepts/09-radiance/care.html
+ M concepts/09-radiance/consultation.html
+ M concepts/09-radiance/contact.html
+ M concepts/09-radiance/cookies.html
+ M concepts/09-radiance/faq.html
+ M concepts/09-radiance/index.html
+ M concepts/09-radiance/journal.html
+ M concepts/09-radiance/laser.html
+ M concepts/09-radiance/legal.html
+ M concepts/09-radiance/mission.html
+ M concepts/09-radiance/partials/cookie-banner.html
+ M concepts/09-radiance/partials/floating-widgets.html
+ M concepts/09-radiance/partials/footer.html
+ M concepts/09-radiance/partials/header.html
+ M concepts/09-radiance/partials/mobile-menu.html
+ M concepts/09-radiance/privacy.html
+ M concepts/09-radiance/results.html
+ M concepts/09-radiance/sitemap.html
+ M concepts/09-radiance/skin.html
+ M concepts/09-radiance/testimonials.html
+ M concepts/09-radiance/thank-you.html
+ M concepts/09-radiance/values.html
+ M concepts/10-essence/404.html
+ M concepts/10-essence/about.html
+ M concepts/10-essence/accessibility.html
+ M concepts/10-essence/blog.html
+ M concepts/10-essence/care.html
+ M concepts/10-essence/consultation.html
+ M concepts/10-essence/contact.html
+ M concepts/10-essence/cookies.html
+ M concepts/10-essence/faq.html
+ M concepts/10-essence/index.html
+ M concepts/10-essence/journal.html
+ M concepts/10-essence/laser.html
+ M concepts/10-essence/legal.html
+ M concepts/10-essence/mission.html
+ M concepts/10-essence/partials/cookie-banner.html
+ M concepts/10-essence/partials/floating-widgets.html
+ M concepts/10-essence/partials/footer.html
+ M concepts/10-essence/partials/header.html
+ M concepts/10-essence/partials/mobile-menu.html
+ M concepts/10-essence/privacy.html
+ M concepts/10-essence/results.html
+ M concepts/10-essence/sitemap.html
+ M concepts/10-essence/skin.html
+ M concepts/10-essence/testimonials.html
+ M concepts/10-essence/thank-you.html
+ M concepts/10-essence/values.html
+ M concepts/11-bloom/404.html
+ M concepts/11-bloom/about.html
+ M concepts/11-bloom/accessibility.html
+ M concepts/11-bloom/blog.html
+ M concepts/11-bloom/care.html
+ M concepts/11-bloom/consultation.html
+ M concepts/11-bloom/contact.html
+ M concepts/11-bloom/cookies.html
+ M concepts/11-bloom/faq.html
+ M concepts/11-bloom/index.html
+ M concepts/11-bloom/journal.html
+ M concepts/11-bloom/laser.html
+ M concepts/11-bloom/legal.html
+ M concepts/11-bloom/mission.html
+ M concepts/11-bloom/partials/cookie-banner.html
+ M concepts/11-bloom/partials/floating-widgets.html
+ M concepts/11-bloom/partials/footer.html
+ M concepts/11-bloom/partials/header.html
+ M concepts/11-bloom/partials/mobile-menu.html
+ M concepts/11-bloom/privacy.html
+ M concepts/11-bloom/results.html
+ M concepts/11-bloom/sitemap.html
+ M concepts/11-bloom/skin.html
+ M concepts/11-bloom/testimonials.html
+ M concepts/11-bloom/thank-you.html
+ M concepts/11-bloom/values.html
+ M concepts/12-vital/404.html
+ M concepts/12-vital/about.html
+ M concepts/12-vital/accessibility.html
+ M concepts/12-vital/blog.html
+ M concepts/12-vital/care.html
+ M concepts/12-vital/consultation.html
+ M concepts/12-vital/contact.html
+ M concepts/12-vital/cookies.html
+ M concepts/12-vital/faq.html
+ M concepts/12-vital/index.html
+ M concepts/12-vital/journal.html
+ M concepts/12-vital/laser.html
+ M concepts/12-vital/legal.html
+ M concepts/12-vital/mission.html
+ M concepts/12-vital/partials/cookie-banner.html
+ M concepts/12-vital/partials/floating-widgets.html
+ M concepts/12-vital/partials/footer.html
+ M concepts/12-vital/partials/header.html
+ M concepts/12-vital/partials/mobile-menu.html
+ M concepts/12-vital/privacy.html
+ M concepts/12-vital/results.html
+ M concepts/12-vital/sitemap.html
+ M concepts/12-vital/skin.html
+ M concepts/12-vital/testimonials.html
+ M concepts/12-vital/thank-you.html
+ M concepts/12-vital/values.html
+ M concepts/13-poise/404.html
+ M concepts/13-poise/about.html
+ M concepts/13-poise/accessibility.html
+ M concepts/13-poise/blog.html
+ M concepts/13-poise/care.html
+ M concepts/13-poise/consultation.html
+ M concepts/13-poise/contact.html
+ M concepts/13-poise/cookies.html
+ M concepts/13-poise/faq.html
+ M concepts/13-poise/index.html
+ M concepts/13-poise/journal.html
+ M concepts/13-poise/laser.html
+ M concepts/13-poise/legal.html
+ M concepts/13-poise/mission.html
+ M concepts/13-poise/partials/cookie-banner.html
+ M concepts/13-poise/partials/floating-widgets.html
+ M concepts/13-poise/partials/footer.html
+ M concepts/13-poise/partials/header.html
+ M concepts/13-poise/partials/mobile-menu.html
+ M concepts/13-poise/privacy.html
+ M concepts/13-poise/results.html
+ M concepts/13-poise/sitemap.html
+ M concepts/13-poise/skin.html
+ M concepts/13-poise/testimonials.html
+ M concepts/13-poise/thank-you.html
+ M concepts/13-poise/values.html
+ M concepts/14-aura/404.html
+ M concepts/14-aura/about.html
+ M concepts/14-aura/accessibility.html
+ M concepts/14-aura/blog.html
+ M concepts/14-aura/care.html
+ M concepts/14-aura/consultation.html
+ M concepts/14-aura/contact.html
+ M concepts/14-aura/cookies.html
+ M concepts/14-aura/faq.html
+ M concepts/14-aura/index.html
+ M concepts/14-aura/journal.html
+ M concepts/14-aura/laser.html
+ M concepts/14-aura/legal.html
+ M concepts/14-aura/mission.html
+ M concepts/14-aura/partials/cookie-banner.html
+ M concepts/14-aura/partials/floating-widgets.html
+ M concepts/14-aura/partials/footer.html
+ M concepts/14-aura/partials/header.html
+ M concepts/14-aura/partials/mobile-menu.html
+ M concepts/14-aura/privacy.html
+ M concepts/14-aura/results.html
+ M concepts/14-aura/sitemap.html
+ M concepts/14-aura/skin.html
+ M concepts/14-aura/testimonials.html
+ M concepts/14-aura/thank-you.html
+ M concepts/14-aura/values.html
+ M concepts/15-clarity/404.html
+ M concepts/15-clarity/about.html
+ M concepts/15-clarity/accessibility.html
+ M concepts/15-clarity/blog.html
+ M concepts/15-clarity/care.html
+ M concepts/15-clarity/consultation.html
+ M concepts/15-clarity/contact.html
+ M concepts/15-clarity/cookies.html
+ M concepts/15-clarity/faq.html
+ M concepts/15-clarity/index.html
+ M concepts/15-clarity/journal.html
+ M concepts/15-clarity/laser.html
+ M concepts/15-clarity/legal.html
+ M concepts/15-clarity/mission.html
+ M concepts/15-clarity/partials/cookie-banner.html
+ M concepts/15-clarity/partials/floating-widgets.html
+ M concepts/15-clarity/partials/footer.html
+ M concepts/15-clarity/partials/header.html
+ M concepts/15-clarity/partials/mobile-menu.html
+ M concepts/15-clarity/privacy.html
+ M concepts/15-clarity/results.html
+ M concepts/15-clarity/sitemap.html
+ M concepts/15-clarity/skin.html
+ M concepts/15-clarity/testimonials.html
+ M concepts/15-clarity/thank-you.html
+ M concepts/15-clarity/values.html
+ M concepts/16-grace/404.html
+ M concepts/16-grace/about.html
+ M concepts/16-grace/accessibility.html
+ M concepts/16-grace/blog.html
+ M concepts/16-grace/care.html
+ M concepts/16-grace/consultation.html
+ M concepts/16-grace/contact.html
+ M concepts/16-grace/cookies.html
+ M concepts/16-grace/faq.html
+ M concepts/16-grace/index.html
+ M concepts/16-grace/journal.html
+ M concepts/16-grace/laser.html
+ M concepts/16-grace/legal.html
+ M concepts/16-grace/mission.html
+ M concepts/16-grace/partials/cookie-banner.html
+ M concepts/16-grace/partials/floating-widgets.html
+ M concepts/16-grace/partials/footer.html
+ M concepts/16-grace/partials/header.html
+ M concepts/16-grace/partials/mobile-menu.html
+ M concepts/16-grace/privacy.html
+ M concepts/16-grace/results.html
+ M concepts/16-grace/sitemap.html
+ M concepts/16-grace/skin.html
+ M concepts/16-grace/testimonials.html
+ M concepts/16-grace/thank-you.html
+ M concepts/16-grace/values.html
+ M concepts/17-sculpt/404.html
+ M concepts/17-sculpt/about.html
+ M concepts/17-sculpt/accessibility.html
+ M concepts/17-sculpt/blog.html
+ M concepts/17-sculpt/care.html
+ M concepts/17-sculpt/consultation.html
+ M concepts/17-sculpt/contact.html
+ M concepts/17-sculpt/cookies.html
+ M concepts/17-sculpt/faq.html
+ M concepts/17-sculpt/index.html
+ M concepts/17-sculpt/journal.html
+ M concepts/17-sculpt/laser.html
+ M concepts/17-sculpt/legal.html
+ M concepts/17-sculpt/mission.html
+ M concepts/17-sculpt/partials/cookie-banner.html
+ M concepts/17-sculpt/partials/floating-widgets.html
+ M concepts/17-sculpt/partials/footer.html
+ M concepts/17-sculpt/partials/header.html
+ M concepts/17-sculpt/partials/mobile-menu.html
+ M concepts/17-sculpt/privacy.html
+ M concepts/17-sculpt/results.html
+ M concepts/17-sculpt/sitemap.html
+ M concepts/17-sculpt/skin.html
+ M concepts/17-sculpt/testimonials.html
+ M concepts/17-sculpt/thank-you.html
+ M concepts/17-sculpt/values.html
+ M concepts/18-lumin/404.html
+ M concepts/18-lumin/about.html
+ M concepts/18-lumin/accessibility.html
+ M concepts/18-lumin/blog.html
+ M concepts/18-lumin/care.html
+ M concepts/18-lumin/consultation.html
+ M concepts/18-lumin/contact.html
+ M concepts/18-lumin/cookies.html
+ M concepts/18-lumin/faq.html
+ M concepts/18-lumin/index.html
+ M concepts/18-lumin/journal.html
+ M concepts/18-lumin/laser.html
+ M concepts/18-lumin/legal.html
+ M concepts/18-lumin/mission.html
+ M concepts/18-lumin/partials/cookie-banner.html
+ M concepts/18-lumin/partials/floating-widgets.html
+ M concepts/18-lumin/partials/footer.html
+ M concepts/18-lumin/partials/header.html
+ M concepts/18-lumin/partials/mobile-menu.html
+ M concepts/18-lumin/privacy.html
+ M concepts/18-lumin/results.html
+ M concepts/18-lumin/sitemap.html
+ M concepts/18-lumin/skin.html
+ M concepts/18-lumin/testimonials.html
+ M concepts/18-lumin/thank-you.html
+ M concepts/18-lumin/values.html
+ M concepts/19-verda/404.html
+ M concepts/19-verda/about.html
+ M concepts/19-verda/accessibility.html
+ M concepts/19-verda/blog.html
+ M concepts/19-verda/care.html
+ M concepts/19-verda/consultation.html
+ M concepts/19-verda/contact.html
+ M concepts/19-verda/cookies.html
+ M concepts/19-verda/faq.html
+ M concepts/19-verda/index.html
+ M concepts/19-verda/journal.html
+ M concepts/19-verda/laser.html
+ M concepts/19-verda/legal.html
+ M concepts/19-verda/mission.html
+ M concepts/19-verda/partials/cookie-banner.html
+ M concepts/19-verda/partials/floating-widgets.html
+ M concepts/19-verda/partials/footer.html
+ M concepts/19-verda/partials/header.html
+ M concepts/19-verda/partials/mobile-menu.html
+ M concepts/19-verda/privacy.html
+ M concepts/19-verda/results.html
+ M concepts/19-verda/sitemap.html
+ M concepts/19-verda/skin.html
+ M concepts/19-verda/testimonials.html
+ M concepts/19-verda/thank-you.html
+ M concepts/19-verda/values.html
+ M concepts/20-halo/404.html
+ M concepts/20-halo/about.html
+ M concepts/20-halo/accessibility.html
+ M concepts/20-halo/blog.html
+ M concepts/20-halo/care.html
+ M concepts/20-halo/consultation.html
+ M concepts/20-halo/contact.html
+ M concepts/20-halo/cookies.html
+ M concepts/20-halo/faq.html
+ M concepts/20-halo/index.html
+ M concepts/20-halo/journal.html
+ M concepts/20-halo/laser.html
+ M concepts/20-halo/legal.html
+ M concepts/20-halo/mission.html
+ M concepts/20-halo/partials/cookie-banner.html
+ M concepts/20-halo/partials/floating-widgets.html
+ M concepts/20-halo/partials/footer.html
+ M concepts/20-halo/partials/header.html
+ M concepts/20-halo/partials/mobile-menu.html
+ M concepts/20-halo/privacy.html
+ M concepts/20-halo/results.html
+ M concepts/20-halo/sitemap.html
+ M concepts/20-halo/skin.html
+ M concepts/20-halo/testimonials.html
+ M concepts/20-halo/thank-you.html
+ M concepts/20-halo/values.html
+ M concepts/21-calm/404.html
+ M concepts/21-calm/about.html
+ M concepts/21-calm/accessibility.html
+ M concepts/21-calm/blog.html
+ M concepts/21-calm/care.html
+ M concepts/21-calm/consultation.html
+ M concepts/21-calm/contact.html
+ M concepts/21-calm/cookies.html
+ M concepts/21-calm/faq.html
+ M concepts/21-calm/index.html
+ M concepts/21-calm/journal.html
+ M concepts/21-calm/laser.html
+ M concepts/21-calm/legal.html
+ M concepts/21-calm/mission.html
+ M concepts/21-calm/partials/cookie-banner.html
+ M concepts/21-calm/partials/floating-widgets.html
+ M concepts/21-calm/partials/footer.html
+ M concepts/21-calm/partials/header.html
+ M concepts/21-calm/partials/mobile-menu.html
+ M concepts/21-calm/privacy.html
+ M concepts/21-calm/results.html
+ M concepts/21-calm/sitemap.html
+ M concepts/21-calm/skin.html
+ M concepts/21-calm/testimonials.html
+ M concepts/21-calm/thank-you.html
+ M concepts/21-calm/values.html
+ M concepts/22-precision/404.html
+ M concepts/22-precision/about.html
+ M concepts/22-precision/accessibility.html
+ M concepts/22-precision/blog.html
+ M concepts/22-precision/care.html
+ M concepts/22-precision/consultation.html
+ M concepts/22-precision/contact.html
+ M concepts/22-precision/cookies.html
+ M concepts/22-precision/faq.html
+ M concepts/22-precision/index.html
+ M concepts/22-precision/journal.html
+ M concepts/22-precision/laser.html
+ M concepts/22-precision/legal.html
+ M concepts/22-precision/mission.html
+ M concepts/22-precision/partials/cookie-banner.html
+ M concepts/22-precision/partials/floating-widgets.html
+ M concepts/22-precision/partials/footer.html
+ M concepts/22-precision/partials/header.html
+ M concepts/22-precision/partials/mobile-menu.html
+ M concepts/22-precision/privacy.html
+ M concepts/22-precision/results.html
+ M concepts/22-precision/sitemap.html
+ M concepts/22-precision/skin.html
+ M concepts/22-precision/testimonials.html
+ M concepts/22-precision/thank-you.html
+ M concepts/22-precision/values.html
+ M concepts/23-ritual/404.html
+ M concepts/23-ritual/about.html
+ M concepts/23-ritual/accessibility.html
+ M concepts/23-ritual/blog.html
+ M concepts/23-ritual/care.html
+ M concepts/23-ritual/consultation.html
+ M concepts/23-ritual/contact.html
+ M concepts/23-ritual/cookies.html
+ M concepts/23-ritual/faq.html
+ M concepts/23-ritual/index.html
+ M concepts/23-ritual/journal.html
+ M concepts/23-ritual/laser.html
+ M concepts/23-ritual/legal.html
+ M concepts/23-ritual/mission.html
+ M concepts/23-ritual/partials/cookie-banner.html
+ M concepts/23-ritual/partials/floating-widgets.html
+ M concepts/23-ritual/partials/footer.html
+ M concepts/23-ritual/partials/header.html
+ M concepts/23-ritual/partials/mobile-menu.html
+ M concepts/23-ritual/privacy.html
+ M concepts/23-ritual/results.html
+ M concepts/23-ritual/sitemap.html
+ M concepts/23-ritual/skin.html
+ M concepts/23-ritual/testimonials.html
+ M concepts/23-ritual/thank-you.html
+ M concepts/23-ritual/values.html
+ M concepts/24-signal/404.html
+ M concepts/24-signal/about.html
+ M concepts/24-signal/accessibility.html
+ M concepts/24-signal/blog.html
+ M concepts/24-signal/care.html
+ M concepts/24-signal/consultation.html
+ M concepts/24-signal/contact.html
+ M concepts/24-signal/cookies.html
+ M concepts/24-signal/faq.html
+ M concepts/24-signal/index.html
+ M concepts/24-signal/journal.html
+ M concepts/24-signal/laser.html
+ M concepts/24-signal/legal.html
+ M concepts/24-signal/mission.html
+ M concepts/24-signal/partials/cookie-banner.html
+ M concepts/24-signal/partials/floating-widgets.html
+ M concepts/24-signal/partials/footer.html
+ M concepts/24-signal/partials/header.html
+ M concepts/24-signal/partials/mobile-menu.html
+ M concepts/24-signal/privacy.html
+ M concepts/24-signal/results.html
+ M concepts/24-signal/sitemap.html
+ M concepts/24-signal/skin.html
+ M concepts/24-signal/testimonials.html
+ M concepts/24-signal/thank-you.html
+ M concepts/24-signal/values.html
+ M concepts/25-align/404.html
+ M concepts/25-align/about.html
+ M concepts/25-align/accessibility.html
+ M concepts/25-align/blog.html
+ M concepts/25-align/care.html
+ M concepts/25-align/consultation.html
+ M concepts/25-align/contact.html
+ M concepts/25-align/cookies.html
+ M concepts/25-align/faq.html
+ M concepts/25-align/index.html
+ M concepts/25-align/journal.html
+ M concepts/25-align/laser.html
+ M concepts/25-align/legal.html
+ M concepts/25-align/mission.html
+ M concepts/25-align/partials/cookie-banner.html
+ M concepts/25-align/partials/floating-widgets.html
+ M concepts/25-align/partials/footer.html
+ M concepts/25-align/partials/header.html
+ M concepts/25-align/partials/mobile-menu.html
+ M concepts/25-align/privacy.html
+ M concepts/25-align/results.html
+ M concepts/25-align/sitemap.html
+ M concepts/25-align/skin.html
+ M concepts/25-align/testimonials.html
+ M concepts/25-align/thank-you.html
+ M concepts/25-align/values.html
+ M concepts/26-vivant/404.html
+ M concepts/26-vivant/about.html
+ M concepts/26-vivant/accessibility.html
+ M concepts/26-vivant/blog.html
+ M concepts/26-vivant/care.html
+ M concepts/26-vivant/consultation.html
+ M concepts/26-vivant/contact.html
+ M concepts/26-vivant/cookies.html
+ M concepts/26-vivant/faq.html
+ M concepts/26-vivant/index.html
+ M concepts/26-vivant/journal.html
+ M concepts/26-vivant/laser.html
+ M concepts/26-vivant/legal.html
+ M concepts/26-vivant/mission.html
+ M concepts/26-vivant/partials/cookie-banner.html
+ M concepts/26-vivant/partials/floating-widgets.html
+ M concepts/26-vivant/partials/footer.html
+ M concepts/26-vivant/partials/header.html
+ M concepts/26-vivant/partials/mobile-menu.html
+ M concepts/26-vivant/privacy.html
+ M concepts/26-vivant/results.html
+ M concepts/26-vivant/sitemap.html
+ M concepts/26-vivant/skin.html
+ M concepts/26-vivant/testimonials.html
+ M concepts/26-vivant/thank-you.html
+ M concepts/26-vivant/values.html
+ M concepts/27-form/404.html
+ M concepts/27-form/about.html
+ M concepts/27-form/accessibility.html
+ M concepts/27-form/blog.html
+ M concepts/27-form/care.html
+ M concepts/27-form/consultation.html
+ M concepts/27-form/contact.html
+ M concepts/27-form/cookies.html
+ M concepts/27-form/faq.html
+ M concepts/27-form/index.html
+ M concepts/27-form/journal.html
+ M concepts/27-form/laser.html
+ M concepts/27-form/legal.html
+ M concepts/27-form/mission.html
+ M concepts/27-form/partials/cookie-banner.html
+ M concepts/27-form/partials/floating-widgets.html
+ M concepts/27-form/partials/footer.html
+ M concepts/27-form/partials/header.html
+ M concepts/27-form/partials/mobile-menu.html
+ M concepts/27-form/privacy.html
+ M concepts/27-form/results.html
+ M concepts/27-form/sitemap.html
+ M concepts/27-form/skin.html
+ M concepts/27-form/testimonials.html
+ M concepts/27-form/thank-you.html
+ M concepts/27-form/values.html
+ M concepts/28-pure/404.html
+ M concepts/28-pure/about.html
+ M concepts/28-pure/accessibility.html
+ M concepts/28-pure/blog.html
+ M concepts/28-pure/care.html
+ M concepts/28-pure/consultation.html
+ M concepts/28-pure/contact.html
+ M concepts/28-pure/cookies.html
+ M concepts/28-pure/faq.html
+ M concepts/28-pure/index.html
+ M concepts/28-pure/journal.html
+ M concepts/28-pure/laser.html
+ M concepts/28-pure/legal.html
+ M concepts/28-pure/mission.html
+ M concepts/28-pure/partials/cookie-banner.html
+ M concepts/28-pure/partials/floating-widgets.html
+ M concepts/28-pure/partials/footer.html
+ M concepts/28-pure/partials/header.html
+ M concepts/28-pure/partials/mobile-menu.html
+ M concepts/28-pure/privacy.html
+ M concepts/28-pure/results.html
+ M concepts/28-pure/sitemap.html
+ M concepts/28-pure/skin.html
+ M concepts/28-pure/testimonials.html
+ M concepts/28-pure/thank-you.html
+ M concepts/28-pure/values.html
+ M concepts/29-solace/404.html
+ M concepts/29-solace/about.html
+ M concepts/29-solace/accessibility.html
+ M concepts/29-solace/blog.html
+ M concepts/29-solace/care.html
+ M concepts/29-solace/consultation.html
+ M concepts/29-solace/contact.html
+ M concepts/29-solace/cookies.html
+ M concepts/29-solace/faq.html
+ M concepts/29-solace/index.html
+ M concepts/29-solace/journal.html
+ M concepts/29-solace/laser.html
+ M concepts/29-solace/legal.html
+ M concepts/29-solace/mission.html
+ M concepts/29-solace/partials/cookie-banner.html
+ M concepts/29-solace/partials/floating-widgets.html
+ M concepts/29-solace/partials/footer.html
+ M concepts/29-solace/partials/header.html
+ M concepts/29-solace/partials/mobile-menu.html
+ M concepts/29-solace/privacy.html
+ M concepts/29-solace/results.html
+ M concepts/29-solace/sitemap.html
+ M concepts/29-solace/skin.html
+ M concepts/29-solace/testimonials.html
+ M concepts/29-solace/thank-you.html
+ M concepts/29-solace/values.html
+ M concepts/30-method/404.html
+ M concepts/30-method/about.html
+ M concepts/30-method/accessibility.html
+ M concepts/30-method/blog.html
+ M concepts/30-method/care.html
+ M concepts/30-method/consultation.html
+ M concepts/30-method/contact.html
+ M concepts/30-method/cookies.html
+ M concepts/30-method/faq.html
+ M concepts/30-method/index.html
+ M concepts/30-method/journal.html
+ M concepts/30-method/laser.html
+ M concepts/30-method/legal.html
+ M concepts/30-method/mission.html
+ M concepts/30-method/partials/cookie-banner.html
+ M concepts/30-method/partials/floating-widgets.html
+ M concepts/30-method/partials/footer.html
+ M concepts/30-method/partials/header.html
+ M concepts/30-method/partials/mobile-menu.html
+ M concepts/30-method/privacy.html
+ M concepts/30-method/results.html
+ M concepts/30-method/sitemap.html
+ M concepts/30-method/skin.html
+ M concepts/30-method/testimonials.html
+ M concepts/30-method/thank-you.html
+ M concepts/30-method/values.html
+ M concepts/31-evolve/404.html
+ M concepts/31-evolve/about.html
+ M concepts/31-evolve/accessibility.html
+ M concepts/31-evolve/blog.html
+ M concepts/31-evolve/care.html
+ M concepts/31-evolve/consultation.html
+ M concepts/31-evolve/contact.html
+ M concepts/31-evolve/cookies.html
+ M concepts/31-evolve/faq.html
+ M concepts/31-evolve/index.html
+ M concepts/31-evolve/journal.html
+ M concepts/31-evolve/laser.html
+ M concepts/31-evolve/legal.html
+ M concepts/31-evolve/mission.html
+ M concepts/31-evolve/partials/cookie-banner.html
+ M concepts/31-evolve/partials/floating-widgets.html
+ M concepts/31-evolve/partials/footer.html
+ M concepts/31-evolve/partials/header.html
+ M concepts/31-evolve/partials/mobile-menu.html
+ M concepts/31-evolve/privacy.html
+ M concepts/31-evolve/results.html
+ M concepts/31-evolve/sitemap.html
+ M concepts/31-evolve/skin.html
+ M concepts/31-evolve/testimonials.html
+ M concepts/31-evolve/thank-you.html
+ M concepts/31-evolve/values.html
+ M concepts/32-serene/404.html
+ M concepts/32-serene/about.html
+ M concepts/32-serene/accessibility.html
+ M concepts/32-serene/blog.html
+ M concepts/32-serene/care.html
+ M concepts/32-serene/consultation.html
+ M concepts/32-serene/contact.html
+ M concepts/32-serene/cookies.html
+ M concepts/32-serene/faq.html
+ M concepts/32-serene/index.html
+ M concepts/32-serene/journal.html
+ M concepts/32-serene/laser.html
+ M concepts/32-serene/legal.html
+ M concepts/32-serene/mission.html
+ M concepts/32-serene/partials/cookie-banner.html
+ M concepts/32-serene/partials/floating-widgets.html
+ M concepts/32-serene/partials/footer.html
+ M concepts/32-serene/partials/header.html
+ M concepts/32-serene/partials/mobile-menu.html
+ M concepts/32-serene/privacy.html
+ M concepts/32-serene/results.html
+ M concepts/32-serene/sitemap.html
+ M concepts/32-serene/skin.html
+ M concepts/32-serene/testimonials.html
+ M concepts/32-serene/thank-you.html
+ M concepts/32-serene/values.html
+ M concepts/33-elan/404.html
+ M concepts/33-elan/about.html
+ M concepts/33-elan/accessibility.html
+ M concepts/33-elan/blog.html
+ M concepts/33-elan/care.html
+ M concepts/33-elan/consultation.html
+ M concepts/33-elan/contact.html
+ M concepts/33-elan/cookies.html
+ M concepts/33-elan/faq.html
+ M concepts/33-elan/index.html
+ M concepts/33-elan/journal.html
+ M concepts/33-elan/laser.html
+ M concepts/33-elan/legal.html
+ M concepts/33-elan/mission.html
+ M concepts/33-elan/partials/cookie-banner.html
+ M concepts/33-elan/partials/floating-widgets.html
+ M concepts/33-elan/partials/footer.html
+ M concepts/33-elan/partials/header.html
+ M concepts/33-elan/partials/mobile-menu.html
+ M concepts/33-elan/privacy.html
+ M concepts/33-elan/results.html
+ M concepts/33-elan/sitemap.html
+ M concepts/33-elan/skin.html
+ M concepts/33-elan/testimonials.html
+ M concepts/33-elan/thank-you.html
+ M concepts/33-elan/values.html
+ M concepts/34-flora/404.html
+ M concepts/34-flora/about.html
+ M concepts/34-flora/accessibility.html
+ M concepts/34-flora/blog.html
+ M concepts/34-flora/care.html
+ M concepts/34-flora/consultation.html
+ M concepts/34-flora/contact.html
+ M concepts/34-flora/cookies.html
+ M concepts/34-flora/faq.html
+ M concepts/34-flora/index.html
+ M concepts/34-flora/journal.html
+ M concepts/34-flora/laser.html
+ M concepts/34-flora/legal.html
+ M concepts/34-flora/mission.html
+ M concepts/34-flora/partials/cookie-banner.html
+ M concepts/34-flora/partials/floating-widgets.html
+ M concepts/34-flora/partials/footer.html
+ M concepts/34-flora/partials/header.html
+ M concepts/34-flora/partials/mobile-menu.html
+ M concepts/34-flora/privacy.html
+ M concepts/34-flora/results.html
+ M concepts/34-flora/sitemap.html
+ M concepts/34-flora/skin.html
+ M concepts/34-flora/testimonials.html
+ M concepts/34-flora/thank-you.html
+ M concepts/34-flora/values.html
+ M concepts/35-atelier/404.html
+ M concepts/35-atelier/about.html
+ M concepts/35-atelier/accessibility.html
+ M concepts/35-atelier/blog.html
+ M concepts/35-atelier/care.html
+ M concepts/35-atelier/consultation.html
+ M concepts/35-atelier/contact.html
+ M concepts/35-atelier/cookies.html
+ M concepts/35-atelier/faq.html
+ M concepts/35-atelier/index.html
+ M concepts/35-atelier/journal.html
+ M concepts/35-atelier/laser.html
+ M concepts/35-atelier/legal.html
+ M concepts/35-atelier/mission.html
+ M concepts/35-atelier/partials/cookie-banner.html
+ M concepts/35-atelier/partials/floating-widgets.html
+ M concepts/35-atelier/partials/footer.html
+ M concepts/35-atelier/partials/header.html
+ M concepts/35-atelier/partials/mobile-menu.html
+ M concepts/35-atelier/privacy.html
+ M concepts/35-atelier/results.html
+ M concepts/35-atelier/sitemap.html
+ M concepts/35-atelier/skin.html
+ M concepts/35-atelier/testimonials.html
+ M concepts/35-atelier/thank-you.html
+ M concepts/35-atelier/values.html
+ M concepts/36-lumina/404.html
+ M concepts/36-lumina/about.html
+ M concepts/36-lumina/accessibility.html
+ M concepts/36-lumina/blog.html
+ M concepts/36-lumina/care.html
+ M concepts/36-lumina/consultation.html
+ M concepts/36-lumina/contact.html
+ M concepts/36-lumina/cookies.html
+ M concepts/36-lumina/faq.html
+ M concepts/36-lumina/index.html
+ M concepts/36-lumina/journal.html
+ M concepts/36-lumina/laser.html
+ M concepts/36-lumina/legal.html
+ M concepts/36-lumina/mission.html
+ M concepts/36-lumina/partials/cookie-banner.html
+ M concepts/36-lumina/partials/floating-widgets.html
+ M concepts/36-lumina/partials/footer.html
+ M concepts/36-lumina/partials/header.html
+ M concepts/36-lumina/partials/mobile-menu.html
+ M concepts/36-lumina/privacy.html
+ M concepts/36-lumina/results.html
+ M concepts/36-lumina/sitemap.html
+ M concepts/36-lumina/skin.html
+ M concepts/36-lumina/testimonials.html
+ M concepts/36-lumina/thank-you.html
+ M concepts/36-lumina/values.html
+ M concepts/37-vellum/404.html
+ M concepts/37-vellum/about.html
+ M concepts/37-vellum/accessibility.html
+ M concepts/37-vellum/blog.html
+ M concepts/37-vellum/care.html
+ M concepts/37-vellum/consultation.html
+ M concepts/37-vellum/contact.html
+ M concepts/37-vellum/cookies.html
+ M concepts/37-vellum/faq.html
+ M concepts/37-vellum/index.html
+ M concepts/37-vellum/journal.html
+ M concepts/37-vellum/laser.html
+ M concepts/37-vellum/legal.html
+ M concepts/37-vellum/mission.html
+ M concepts/37-vellum/partials/cookie-banner.html
+ M concepts/37-vellum/partials/floating-widgets.html
+ M concepts/37-vellum/partials/footer.html
+ M concepts/37-vellum/partials/header.html
+ M concepts/37-vellum/partials/mobile-menu.html
+ M concepts/37-vellum/privacy.html
+ M concepts/37-vellum/results.html
+ M concepts/37-vellum/sitemap.html
+ M concepts/37-vellum/skin.html
+ M concepts/37-vellum/testimonials.html
+ M concepts/37-vellum/thank-you.html
+ M concepts/37-vellum/values.html
+ M concepts/38-origin/404.html
+ M concepts/38-origin/about.html
+ M concepts/38-origin/accessibility.html
+ M concepts/38-origin/blog.html
+ M concepts/38-origin/care.html
+ M concepts/38-origin/consultation.html
+ M concepts/38-origin/contact.html
+ M concepts/38-origin/cookies.html
+ M concepts/38-origin/faq.html
+ M concepts/38-origin/index.html
+ M concepts/38-origin/journal.html
+ M concepts/38-origin/laser.html
+ M concepts/38-origin/legal.html
+ M concepts/38-origin/mission.html
+ M concepts/38-origin/partials/cookie-banner.html
+ M concepts/38-origin/partials/floating-widgets.html
+ M concepts/38-origin/partials/footer.html
+ M concepts/38-origin/partials/header.html
+ M concepts/38-origin/partials/mobile-menu.html
+ M concepts/38-origin/privacy.html
+ M concepts/38-origin/results.html
+ M concepts/38-origin/sitemap.html
+ M concepts/38-origin/skin.html
+ M concepts/38-origin/testimonials.html
+ M concepts/38-origin/thank-you.html
+ M concepts/38-origin/values.html
+ M concepts/39-kindred/404.html
+ M concepts/39-kindred/about.html
+ M concepts/39-kindred/accessibility.html
+ M concepts/39-kindred/blog.html
+ M concepts/39-kindred/care.html
+ M concepts/39-kindred/consultation.html
+ M concepts/39-kindred/contact.html
+ M concepts/39-kindred/cookies.html
+ M concepts/39-kindred/faq.html
+ M concepts/39-kindred/index.html
+ M concepts/39-kindred/journal.html
+ M concepts/39-kindred/laser.html
+ M concepts/39-kindred/legal.html
+ M concepts/39-kindred/mission.html
+ M concepts/39-kindred/partials/cookie-banner.html
+ M concepts/39-kindred/partials/floating-widgets.html
+ M concepts/39-kindred/partials/footer.html
+ M concepts/39-kindred/partials/header.html
+ M concepts/39-kindred/partials/mobile-menu.html
+ M concepts/39-kindred/privacy.html
+ M concepts/39-kindred/results.html
+ M concepts/39-kindred/sitemap.html
+ M concepts/39-kindred/skin.html
+ M concepts/39-kindred/testimonials.html
+ M concepts/39-kindred/thank-you.html
+ M concepts/39-kindred/values.html
+ M concepts/40-noble/404.html
+ M concepts/40-noble/about.html
+ M concepts/40-noble/accessibility.html
+ M concepts/40-noble/blog.html
+ M concepts/40-noble/care.html
+ M concepts/40-noble/consultation.html
+ M concepts/40-noble/contact.html
+ M concepts/40-noble/cookies.html
+ M concepts/40-noble/faq.html
+ M concepts/40-noble/index.html
+ M concepts/40-noble/journal.html
+ M concepts/40-noble/laser.html
+ M concepts/40-noble/legal.html
+ M concepts/40-noble/mission.html
+ M concepts/40-noble/partials/cookie-banner.html
+ M concepts/40-noble/partials/floating-widgets.html
+ M concepts/40-noble/partials/footer.html
+ M concepts/40-noble/partials/header.html
+ M concepts/40-noble/partials/mobile-menu.html
+ M concepts/40-noble/privacy.html
+ M concepts/40-noble/results.html
+ M concepts/40-noble/sitemap.html
+ M concepts/40-noble/skin.html
+ M concepts/40-noble/testimonials.html
+ M concepts/40-noble/thank-you.html
+ M concepts/40-noble/values.html
+ M concepts/41-vista/404.html
+ M concepts/41-vista/about.html
+ M concepts/41-vista/accessibility.html
+ M concepts/41-vista/blog.html
+ M concepts/41-vista/care.html
+ M concepts/41-vista/consultation.html
+ M concepts/41-vista/contact.html
+ M concepts/41-vista/cookies.html
+ M concepts/41-vista/faq.html
+ M concepts/41-vista/index.html
+ M concepts/41-vista/journal.html
+ M concepts/41-vista/laser.html
+ M concepts/41-vista/legal.html
+ M concepts/41-vista/mission.html
+ M concepts/41-vista/partials/cookie-banner.html
+ M concepts/41-vista/partials/floating-widgets.html
+ M concepts/41-vista/partials/footer.html
+ M concepts/41-vista/partials/header.html
+ M concepts/41-vista/partials/mobile-menu.html
+ M concepts/41-vista/privacy.html
+ M concepts/41-vista/results.html
+ M concepts/41-vista/sitemap.html
+ M concepts/41-vista/skin.html
+ M concepts/41-vista/testimonials.html
+ M concepts/41-vista/thank-you.html
+ M concepts/41-vista/values.html
+ M concepts/42-softline/404.html
+ M concepts/42-softline/about.html
+ M concepts/42-softline/accessibility.html
+ M concepts/42-softline/blog.html
+ M concepts/42-softline/care.html
+ M concepts/42-softline/consultation.html
+ M concepts/42-softline/contact.html
+ M concepts/42-softline/cookies.html
+ M concepts/42-softline/faq.html
+ M concepts/42-softline/index.html
+ M concepts/42-softline/journal.html
+ M concepts/42-softline/laser.html
+ M concepts/42-softline/legal.html
+ M concepts/42-softline/mission.html
+ M concepts/42-softline/partials/cookie-banner.html
+ M concepts/42-softline/partials/floating-widgets.html
+ M concepts/42-softline/partials/footer.html
+ M concepts/42-softline/partials/header.html
+ M concepts/42-softline/partials/mobile-menu.html
+ M concepts/42-softline/privacy.html
+ M concepts/42-softline/results.html
+ M concepts/42-softline/sitemap.html
+ M concepts/42-softline/skin.html
+ M concepts/42-softline/testimonials.html
+ M concepts/42-softline/thank-you.html
+ M concepts/42-softline/values.html
+ M concepts/43-meridian/404.html
+ M concepts/43-meridian/about.html
+ M concepts/43-meridian/accessibility.html
+ M concepts/43-meridian/blog.html
+ M concepts/43-meridian/care.html
+ M concepts/43-meridian/consultation.html
+ M concepts/43-meridian/contact.html
+ M concepts/43-meridian/cookies.html
+ M concepts/43-meridian/faq.html
+ M concepts/43-meridian/index.html
+ M concepts/43-meridian/journal.html
+ M concepts/43-meridian/laser.html
+ M concepts/43-meridian/legal.html
+ M concepts/43-meridian/mission.html
+ M concepts/43-meridian/partials/cookie-banner.html
+ M concepts/43-meridian/partials/floating-widgets.html
+ M concepts/43-meridian/partials/footer.html
+ M concepts/43-meridian/partials/header.html
+ M concepts/43-meridian/partials/mobile-menu.html
+ M concepts/43-meridian/privacy.html
+ M concepts/43-meridian/results.html
+ M concepts/43-meridian/sitemap.html
+ M concepts/43-meridian/skin.html
+ M concepts/43-meridian/testimonials.html
+ M concepts/43-meridian/thank-you.html
+ M concepts/43-meridian/values.html
+ M concepts/44-safeguard/404.html
+ M concepts/44-safeguard/about.html
+ M concepts/44-safeguard/accessibility.html
+ M concepts/44-safeguard/blog.html
+ M concepts/44-safeguard/care.html
+ M concepts/44-safeguard/consultation.html
+ M concepts/44-safeguard/contact.html
+ M concepts/44-safeguard/cookies.html
+ M concepts/44-safeguard/faq.html
+ M concepts/44-safeguard/index.html
+ M concepts/44-safeguard/journal.html
+ M concepts/44-safeguard/laser.html
+ M concepts/44-safeguard/legal.html
+ M concepts/44-safeguard/mission.html
+ M concepts/44-safeguard/partials/cookie-banner.html
+ M concepts/44-safeguard/partials/floating-widgets.html
+ M concepts/44-safeguard/partials/footer.html
+ M concepts/44-safeguard/partials/header.html
+ M concepts/44-safeguard/partials/mobile-menu.html
+ M concepts/44-safeguard/privacy.html
+ M concepts/44-safeguard/results.html
+ M concepts/44-safeguard/sitemap.html
+ M concepts/44-safeguard/skin.html
+ M concepts/44-safeguard/testimonials.html
+ M concepts/44-safeguard/thank-you.html
+ M concepts/44-safeguard/values.html
+ M concepts/45-silhouette/404.html
+ M concepts/45-silhouette/about.html
+ M concepts/45-silhouette/accessibility.html
+ M concepts/45-silhouette/blog.html
+ M concepts/45-silhouette/care.html
+ M concepts/45-silhouette/consultation.html
+ M concepts/45-silhouette/contact.html
+ M concepts/45-silhouette/cookies.html
+ M concepts/45-silhouette/faq.html
+ M concepts/45-silhouette/index.html
+ M concepts/45-silhouette/journal.html
+ M concepts/45-silhouette/laser.html
+ M concepts/45-silhouette/legal.html
+ M concepts/45-silhouette/mission.html
+ M concepts/45-silhouette/partials/cookie-banner.html
+ M concepts/45-silhouette/partials/floating-widgets.html
+ M concepts/45-silhouette/partials/footer.html
+ M concepts/45-silhouette/partials/header.html
+ M concepts/45-silhouette/partials/mobile-menu.html
+ M concepts/45-silhouette/privacy.html
+ M concepts/45-silhouette/results.html
+ M concepts/45-silhouette/sitemap.html
+ M concepts/45-silhouette/skin.html
+ M concepts/45-silhouette/testimonials.html
+ M concepts/45-silhouette/thank-you.html
+ M concepts/45-silhouette/values.html
+ M concepts/46-curate/404.html
+ M concepts/46-curate/about.html
+ M concepts/46-curate/accessibility.html
+ M concepts/46-curate/blog.html
+ M concepts/46-curate/care.html
+ M concepts/46-curate/consultation.html
+ M concepts/46-curate/contact.html
+ M concepts/46-curate/cookies.html
+ M concepts/46-curate/faq.html
+ M concepts/46-curate/index.html
+ M concepts/46-curate/journal.html
+ M concepts/46-curate/laser.html
+ M concepts/46-curate/legal.html
+ M concepts/46-curate/mission.html
+ M concepts/46-curate/partials/cookie-banner.html
+ M concepts/46-curate/partials/floating-widgets.html
+ M concepts/46-curate/partials/footer.html
+ M concepts/46-curate/partials/header.html
+ M concepts/46-curate/partials/mobile-menu.html
+ M concepts/46-curate/privacy.html
+ M concepts/46-curate/results.html
+ M concepts/46-curate/sitemap.html
+ M concepts/46-curate/skin.html
+ M concepts/46-curate/testimonials.html
+ M concepts/46-curate/thank-you.html
+ M concepts/46-curate/values.html
+ M concepts/47-proof/404.html
+ M concepts/47-proof/about.html
+ M concepts/47-proof/accessibility.html
+ M concepts/47-proof/blog.html
+ M concepts/47-proof/care.html
+ M concepts/47-proof/consultation.html
+ M concepts/47-proof/contact.html
+ M concepts/47-proof/cookies.html
+ M concepts/47-proof/faq.html
+ M concepts/47-proof/index.html
+ M concepts/47-proof/journal.html
+ M concepts/47-proof/laser.html
+ M concepts/47-proof/legal.html
+ M concepts/47-proof/mission.html
+ M concepts/47-proof/partials/cookie-banner.html
+ M concepts/47-proof/partials/floating-widgets.html
+ M concepts/47-proof/partials/footer.html
+ M concepts/47-proof/partials/header.html
+ M concepts/47-proof/partials/mobile-menu.html
+ M concepts/47-proof/privacy.html
+ M concepts/47-proof/results.html
+ M concepts/47-proof/sitemap.html
+ M concepts/47-proof/skin.html
+ M concepts/47-proof/testimonials.html
+ M concepts/47-proof/thank-you.html
+ M concepts/47-proof/values.html
+ M concepts/48-signature/404.html
+ M concepts/48-signature/about.html
+ M concepts/48-signature/accessibility.html
+ M concepts/48-signature/blog.html
+ M concepts/48-signature/care.html
+ M concepts/48-signature/consultation.html
+ M concepts/48-signature/contact.html
+ M concepts/48-signature/cookies.html
+ M concepts/48-signature/faq.html
+ M concepts/48-signature/index.html
+ M concepts/48-signature/journal.html
+ M concepts/48-signature/laser.html
+ M concepts/48-signature/legal.html
+ M concepts/48-signature/mission.html
+ M concepts/48-signature/partials/cookie-banner.html
+ M concepts/48-signature/partials/floating-widgets.html
+ M concepts/48-signature/partials/footer.html
+ M concepts/48-signature/partials/header.html
+ M concepts/48-signature/partials/mobile-menu.html
+ M concepts/48-signature/privacy.html
+ M concepts/48-signature/results.html
+ M concepts/48-signature/sitemap.html
+ M concepts/48-signature/skin.html
+ M concepts/48-signature/testimonials.html
+ M concepts/48-signature/thank-you.html
+ M concepts/48-signature/values.html
+ M concepts/49-wisdom/404.html
+ M concepts/49-wisdom/about.html
+ M concepts/49-wisdom/accessibility.html
+ M concepts/49-wisdom/blog.html
+ M concepts/49-wisdom/care.html
+ M concepts/49-wisdom/consultation.html
+ M concepts/49-wisdom/contact.html
+ M concepts/49-wisdom/cookies.html
+ M concepts/49-wisdom/faq.html
+ M concepts/49-wisdom/index.html
+ M concepts/49-wisdom/journal.html
+ M concepts/49-wisdom/laser.html
+ M concepts/49-wisdom/legal.html
+ M concepts/49-wisdom/mission.html
+ M concepts/49-wisdom/partials/cookie-banner.html
+ M concepts/49-wisdom/partials/floating-widgets.html
+ M concepts/49-wisdom/partials/footer.html
+ M concepts/49-wisdom/partials/header.html
+ M concepts/49-wisdom/partials/mobile-menu.html
+ M concepts/49-wisdom/privacy.html
+ M concepts/49-wisdom/results.html
+ M concepts/49-wisdom/sitemap.html
+ M concepts/49-wisdom/skin.html
+ M concepts/49-wisdom/testimonials.html
+ M concepts/49-wisdom/thank-you.html
+ M concepts/49-wisdom/values.html
+ M concepts/50-sovereign/404.html
+ M concepts/50-sovereign/about.html
+ M concepts/50-sovereign/accessibility.html
+ M concepts/50-sovereign/blog.html
+ M concepts/50-sovereign/care.html
+ M concepts/50-sovereign/consultation.html
+ M concepts/50-sovereign/contact.html
+ M concepts/50-sovereign/cookies.html
+ M concepts/50-sovereign/faq.html
+ M concepts/50-sovereign/index.html
+ M concepts/50-sovereign/journal.html
+ M concepts/50-sovereign/laser.html
+ M concepts/50-sovereign/legal.html
+ M concepts/50-sovereign/mission.html
+ M concepts/50-sovereign/partials/cookie-banner.html
+ M concepts/50-sovereign/partials/floating-widgets.html
+ M concepts/50-sovereign/partials/footer.html
+ M concepts/50-sovereign/partials/header.html
+ M concepts/50-sovereign/partials/mobile-menu.html
+ M concepts/50-sovereign/privacy.html
+ M concepts/50-sovereign/results.html
+ M concepts/50-sovereign/sitemap.html
+ M concepts/50-sovereign/skin.html
+ M concepts/50-sovereign/testimonials.html
+ M concepts/50-sovereign/thank-you.html
+ M concepts/50-sovereign/values.html
+ M scripts/capture_homepage_full_screenshots.py
+?? concepts/01-inspire/css/concept.css
+?? concepts/01-inspire/js/concept.js
+?? concepts/02-empower/css/concept.css
+?? concepts/02-empower/js/concept.js
+?? concepts/03-enhance/css/concept.css
+?? concepts/03-enhance/js/concept.js
+?? concepts/04-renew/css/concept.css
+?? concepts/04-renew/js/concept.js
+?? concepts/05-elevate/css/concept.css
+?? concepts/05-elevate/js/concept.js
+?? concepts/06-refine/css/concept.css
+?? concepts/06-refine/js/concept.js
+?? concepts/07-glow/css/concept.css
+?? concepts/07-glow/js/concept.js
+?? concepts/08-balance/css/concept.css
+?? concepts/08-balance/js/concept.js
+?? concepts/09-radiance/css/concept.css
+?? concepts/09-radiance/js/concept.js
+?? concepts/10-essence/css/concept.css
+?? concepts/10-essence/js/concept.js
+?? concepts/11-bloom/css/concept.css
+?? concepts/11-bloom/js/concept.js
+?? concepts/12-vital/css/concept.css
+?? concepts/12-vital/js/concept.js
+?? concepts/13-poise/css/concept.css
+?? concepts/13-poise/js/concept.js
+?? concepts/14-aura/css/concept.css
+?? concepts/14-aura/js/concept.js
+?? concepts/15-clarity/css/concept.css
+?? concepts/15-clarity/js/concept.js
+?? concepts/16-grace/css/concept.css
+?? concepts/16-grace/js/concept.js
+?? concepts/17-sculpt/css/concept.css
+?? concepts/17-sculpt/js/concept.js
+?? concepts/18-lumin/css/concept.css
+?? concepts/18-lumin/js/concept.js
+?? concepts/19-verda/css/concept.css
+?? concepts/19-verda/js/concept.js
+?? concepts/20-halo/css/concept.css
+?? concepts/20-halo/js/concept.js
+?? concepts/21-calm/css/concept.css
+?? concepts/21-calm/js/concept.js
+?? concepts/22-precision/css/concept.css
+?? concepts/22-precision/js/concept.js
+?? concepts/23-ritual/css/concept.css
+?? concepts/23-ritual/js/concept.js
+?? concepts/24-signal/css/concept.css
+?? concepts/24-signal/js/concept.js
+?? concepts/25-align/css/concept.css
+?? concepts/25-align/js/concept.js
+?? concepts/26-vivant/css/concept.css
+?? concepts/26-vivant/js/concept.js
+?? concepts/27-form/css/concept.css
+?? concepts/27-form/js/concept.js
+?? concepts/28-pure/css/concept.css
+?? concepts/28-pure/js/concept.js
+?? concepts/29-solace/css/concept.css
+?? concepts/29-solace/js/concept.js
+?? concepts/30-method/css/concept.css
+?? concepts/30-method/js/concept.js
+?? concepts/31-evolve/css/concept.css
+?? concepts/31-evolve/js/concept.js
+?? concepts/32-serene/css/concept.css
+?? concepts/32-serene/js/concept.js
+?? concepts/33-elan/css/concept.css
+?? concepts/33-elan/js/concept.js
+?? concepts/34-flora/css/concept.css
+?? concepts/34-flora/js/concept.js
+?? concepts/35-atelier/css/concept.css
+?? concepts/35-atelier/js/concept.js
+?? concepts/36-lumina/css/concept.css
+?? concepts/36-lumina/js/concept.js
+?? concepts/37-vellum/css/concept.css
+?? concepts/37-vellum/js/concept.js
+?? concepts/38-origin/css/concept.css
+?? concepts/38-origin/js/concept.js
+?? concepts/39-kindred/css/concept.css
+?? concepts/39-kindred/js/concept.js
+?? concepts/40-noble/css/concept.css
+?? concepts/40-noble/js/concept.js
+?? concepts/41-vista/css/concept.css
+?? concepts/41-vista/js/concept.js
+?? concepts/42-softline/css/concept.css
+?? concepts/42-softline/js/concept.js
+?? concepts/43-meridian/css/concept.css
+?? concepts/43-meridian/js/concept.js
+?? concepts/44-safeguard/css/concept.css
+?? concepts/44-safeguard/js/concept.js
+?? concepts/45-silhouette/css/concept.css
+?? concepts/45-silhouette/js/concept.js
+?? concepts/46-curate/css/concept.css
+?? concepts/46-curate/js/concept.js
+?? concepts/47-proof/css/concept.css
+?? concepts/47-proof/js/concept.js
+?? concepts/48-signature/css/concept.css
+?? concepts/48-signature/js/concept.js
+?? concepts/49-wisdom/css/concept.css
+?? concepts/49-wisdom/js/concept.js
+?? concepts/50-sovereign/css/concept.css
+?? concepts/50-sovereign/js/concept.js
+?? css/sofiati-brand-foundation.css
+?? docs/design-destination-bible/
+?? docs/script-runs/50-complete-new-websites-preflight.md
+?? docs/script-runs/50-new-websites-compliance-audit.json
+?? docs/script-runs/50-new-websites-compliance-audit.md
+?? docs/script-runs/50-new-websites-final-rebuild-report.json
+?? docs/script-runs/50-new-websites-final-rebuild-report.md
+?? docs/script-runs/50-new-websites-manual-review-checklist.md
+?? docs/script-runs/50-new-websites-similarity-audit.json
+?? docs/script-runs/50-new-websites-similarity-audit.md
+?? docs/script-runs/conflict-layer-audit.json
+?? docs/script-runs/conflict-layer-audit.md
+?? docs/script-runs/conflict-removal-plan.md
+?? docs/script-runs/html-conflict-diagnosis.json
+?? docs/script-runs/html-conflict-diagnosis.md
+?? js/sofiati-brand-foundation.js
+?? qa/audit_50_new_websites_compliance.py
+?? qa/audit_50_new_websites_similarity.py
+?? qa/write_50_new_websites_final_report.py
+?? scripts/rebuild_50_new_websites.py`
+- Number of concept folders: 50
+- Existing real pages: 1050
+- Existing partials: 750
+- Existing global CSS files: 8
+- Existing global JS files: 13
+- Existing concept-local CSS files: 150
+- Existing concept-local JS files: 150
+
+The current system is not 50 websites. It is one repeated template family with conflicting CSS/JS layers. This rebuild must produce 50 new Figma-level websites in one full batch pass.
+
+## Current Conflict Layers
+
+- `css/atlas-story.css`
+- `css/sofiati-premium-visual-dna.css`
+- `css/sofiati-50-architecture-system.css`
+- `css/sofiati-architecture-conflict-repair.css`
+- `js/sofiati-50-architecture-system.js`
+- `js/sofiati-architecture-conflict-repair.js`
+
+## Current Repeated Visual Patterns
+
+- rounded floating header
+- split hero structure
+- ivory/cream cards
+- copy plus media section anatomy
+- two-button CTA rhythm
+- repeated vertical mobile card stack
+
+## Current Repeated HTML Patterns
+
+- atlas-section__copy plus atlas-section__media
+- atlas-actions plus atlas-button
+- Visual DNA classes mixed with architecture classes
+- repair data attributes mounted in active pages
+
+## Active CSS References
+
+- `../../css/sofiati-brand-foundation.css`: 1050
+- `css/concept.css`: 1050
+
+## Active JS References
+
+- `../../js/sofiati-brand-foundation.js`: 1050
+- `js/concept.js`: 1050
+
+## Why Previous Attempts Failed
+
+The old system stacked rescue layers over a repeated Atlas template instead of replacing the architecture.

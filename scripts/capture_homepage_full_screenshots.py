@@ -38,12 +38,18 @@ def port_is_open(port: int) -> bool:
         s.close()
 
 
-def list_concepts(limit: int | None = None) -> list[str]:
+def list_concepts(limit: int | None = None, selected: str | None = None) -> list[str]:
     concepts = sorted(
         p.name
         for p in CONCEPTS_DIR.iterdir()
         if p.is_dir() and p.name[:2].isdigit() and (p / "index.html").exists()
     )
+    if selected:
+        wanted = [item.strip() for item in selected.split(",") if item.strip()]
+        missing = [item for item in wanted if item not in concepts]
+        if missing:
+            raise ValueError(f"Unknown concept(s): {', '.join(missing)}")
+        concepts = wanted
     if limit:
         return concepts[:limit]
     return concepts
@@ -207,6 +213,8 @@ def main() -> int:
     parser.add_argument("--out-dir", default="", help="Output directory. Default: final/homepage-screenshots/full-TIMESTAMP")
     parser.add_argument("--headed", action="store_true", help="Show browser window.")
     parser.add_argument("--limit", type=int, default=None, help="Capture only the first N concepts.")
+    parser.add_argument("--all", action="store_true", help="Capture all concept homepages.")
+    parser.add_argument("--concepts", default="", help="Comma-separated concept folders, e.g. 01-inspire,02-empower.")
     parser.add_argument("--desktop-only", action="store_true", help="Capture desktop only.")
     parser.add_argument("--mobile-only", action="store_true", help="Capture mobile only.")
     args = parser.parse_args()
@@ -219,7 +227,11 @@ def main() -> int:
     out_dir = Path(args.out_dir).resolve() if args.out_dir else DEFAULT_OUT_ROOT / f"full-{stamp}"
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    concepts = list_concepts(args.limit)
+    try:
+        concepts = list_concepts(args.limit, args.concepts or None)
+    except ValueError as error:
+        print(f"ERROR: {error}")
+        return 1
     if not concepts:
         print("ERROR: no concept homepages found in concepts/*/index.html")
         return 1
