@@ -1,0 +1,884 @@
+<!doctype html>
+<html lang="en" data-source-lang="en" data-default-lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Start with a calm conversation about your goals, questions, comfort, and expectations. Glow expresses this through glow soft light story."
+    />
+    <title>Consultation | Glow | Franciele Sofiati</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/atlas-story.css" />
+    <link
+      rel="canonical"
+      href="https://www.sofiati.com/concepts/07-glow/consultation.html"
+    />
+    <meta
+      property="og:title"
+      content="Consultation | Glow | Franciele Sofiati"
+    />
+    <meta
+      property="og:description"
+      content="Start with a calm conversation about your goals, questions, comfort, and expectations. Glow expresses this through glow soft light story."
+    />
+    <meta
+      property="og:image"
+      content="../../assets/brand/franciele-sofiati-07-studio-crossed-composed-transparent.webp"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://www.sofiati.com/concepts/07-glow/consultation.html"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link
+      rel="icon"
+      href="../../assets/brand/sofiati-favicon.svg"
+      type="image/svg+xml"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="../../assets/brand/sofiati-monogram-sage.png"
+    />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-full-image-premium-system.css"
+    />
+    <link rel="stylesheet" href="../../css/sofiati-premium-visual-dna.css" />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-50-architecture-system.css"
+    />
+  </head>
+  <body
+    class="concept concept-glow page-consultation atlas-site atlas-site-07 atlas-layout-family-6 premium-visual-dna visual-dna-site-07 visual-header-botanical-rail-header visual-footer-compact-legal-footer visual-mobile-editorial-card-mobile architecture-site architecture-site-07 architecture-journey-form-first-journey architecture-header-drawer-led-mobile-header architecture-footer-multi-column-footer"
+    data-concept="07-glow"
+    data-page="consultation"
+    data-page-label="Consultation"
+    data-page-title="Consultation | Glow | Franciele Sofiati"
+    data-page-description="Start with a calm conversation about your goals, questions, comfort, and expectations. Glow expresses this through glow soft light story."
+    data-canonical="https://www.sofiati.com/concepts/07-glow/consultation.html"
+    data-default-lang="en"
+    data-atlas-dna="Glow Soft Light Story"
+    data-brand-asset-root="../../assets/brand"
+    data-visual-dna-theme="consultation studio, warm human flow, rounded panels and soft sage"
+    data-header-pattern="botanical-rail-header"
+    data-footer-pattern="compact-legal-footer"
+    data-mobile-pattern="editorial-card-mobile"
+    data-colour-rhythm="clinical-cream-sage-ink"
+    data-architecture-contract="07-glow"
+    data-visitor-journey="form-first journey"
+    data-ia-emphasis="lead with direct consultation routes"
+    data-header-architecture="drawer-led-mobile-header"
+    data-footer-architecture="multi-column-footer"
+    data-cta-architecture="deep-sage-cta-band"
+    data-js-architecture="reduced-motion-reveal, route-selector, process-stepper with reduced-motion-safe delegation"
+  >
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div data-partial-mount="status-banner"></div>
+    <div data-partial-mount="accessibility"></div>
+    <div data-partial-mount="header"></div>
+    <div data-partial-mount="mobile-menu"></div>
+    <main
+      id="main"
+      class="atlas-main atlas-page-consultation architecture-main architecture-main-07"
+      data-page="consultation"
+      data-section-count="10"
+      data-atlas-source="docs/sites/07-glow/MASTER-BRIEF.md"
+      data-homepage-architecture="editorial-pull-quote-section opening, centered-manifesto trust build, statement-interlude final bridge"
+      data-internal-page-architecture="vertical-process-rail intro, cta-dock body, horizontal-process-strip conversion close"
+    >
+      <!--
+SECTION 01 — Consultation Hero
+Page: Consultation
+Role: opening-consultation
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Fill form
+Secondary CTA: Message WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 07-glow-glow-soft-light-story-consultation-consultation-hero-01
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Begin consultation / Start with a calm conversation about your goals, questions, comfort, and expectations. / Fill form + Message WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-portrait-stack visual-dna-section visual-dna-section-01 visual-layout-sage-band visual-role-journal-strip visual-tone-sage visual-image-full-image-bronze-rule architecture-section architecture-section-01 arch-component-editorial-pull-quote-section arch-html-copy-first-image-anchor arch-layout-sticky-sidebar-grid arch-responsive-image-first-mobile arch-interaction-reduced-motion-reveal arch-cta-hero-primary-whatsapp-secondary arch-content-statement-led"
+        data-section="01"
+        data-page="consultation"
+        data-role="opening-consultation"
+        data-layout-signature="07-glow-glow-soft-light-story-consultation-consultation-hero-01"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Glow Soft Light Story"
+        data-visual-role="journal-strip"
+        data-image-treatment="no-image-editorial-structure"
+        data-premium-rhythm="sage-band"
+        data-visual-dna-signature="07-glow-sage-band-consultation-01"
+        data-concept-dna="07-glow"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="editorial-pull-quote-section"
+        data-html-anatomy="copy-first-image-anchor"
+        data-css-layout="sticky-sidebar-grid"
+        data-responsive-pattern="image-first-mobile"
+        data-interaction="reduced-motion-reveal"
+        data-cta-pattern="hero-primary-whatsapp-secondary"
+        data-content-presentation="statement-led"
+        data-visual-hierarchy="title-led"
+        data-architecture-signature="07-glow-editorial-pull-quote-section-sticky-sidebar-grid-consultation-01"
+        data-architecture-concept="07-glow"
+        data-architecture-section="01"
+        data-architecture-interaction="reduced-motion-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Glow / Consultation Hero</p>
+          <h1>Begin consultation</h1>
+          <p>
+            Start with a calm conversation about your goals, questions, comfort,
+            and expectations.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="contact.html"
+              >Fill form</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >Message WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-13-balcony-orange-soft-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Glow Consultation visual for opening consultation"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-hero-photo"
+            data-sofiati-photo="true"
+            fetchpriority="high"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 02 — Related Guidance
+Page: Consultation
+Role: internal-route
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Explore care
+Secondary CTA: View FAQ
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 07-glow-glow-soft-light-story-consultation-related-guidance-02
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Helpful routes / Explore care guidance or practical questions before sending your request. / Explore care + View FAQ
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-editorial-aside visual-dna-section visual-dna-section-02 visual-layout-image-first-mobile visual-role-form-focus visual-tone-ivory visual-image-full-image-open-frame architecture-section architecture-section-02 arch-component-vertical-process-rail arch-html-portrait-copy-sidebar-actions arch-layout-layered-panel-grid arch-responsive-compact-cta-strip-mobile arch-interaction-route-selector arch-cta-sage-consultation-strip arch-content-journal-led"
+        data-section="02"
+        data-page="consultation"
+        data-role="internal-route"
+        data-layout-signature="07-glow-glow-soft-light-story-consultation-related-guidance-02"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Glow Soft Light Story"
+        data-visual-role="form-focus"
+        data-image-treatment="full-image-vertical-card"
+        data-premium-rhythm="image-first-mobile"
+        data-visual-dna-signature="07-glow-image-first-mobile-consultation-02"
+        data-concept-dna="07-glow"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="vertical-process-rail"
+        data-html-anatomy="portrait-copy-sidebar-actions"
+        data-css-layout="layered-panel-grid"
+        data-responsive-pattern="compact-cta-strip-mobile"
+        data-interaction="route-selector"
+        data-cta-pattern="sage-consultation-strip"
+        data-content-presentation="journal-led"
+        data-visual-hierarchy="form-led"
+        data-architecture-signature="07-glow-vertical-process-rail-layered-panel-grid-consultation-02"
+        data-architecture-concept="07-glow"
+        data-architecture-section="02"
+        data-architecture-interaction="route-selector"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Glow / Related Guidance</p>
+          <h2>Helpful routes</h2>
+          <p>
+            Explore care guidance or practical questions before sending your
+            request.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="care.html"
+              >Explore care</a
+            >
+            <a class="button atlas-button atlas-button--soft" href="faq.html"
+              >View FAQ</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-17-balcony-orange-laughing-transparent.webp"
+            alt="Franciele Sofiati in a full-image Glow Consultation visual for internal route"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 03 — Contact Options
+Page: Consultation
+Role: conversion-contact
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Message WhatsApp
+Secondary CTA: Contact Franciele
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 07-glow-glow-soft-light-story-consultation-contact-options-03
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Prefer messaging / Use WhatsApp or the contact page if you have a quick question. / Message WhatsApp + Contact Franciele
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-quote-band visual-dna-section visual-dna-section-03 visual-layout-offset-photo visual-role-quiet-proof visual-tone-line visual-image-full-image-editorial-panel architecture-section architecture-section-03 arch-component-comparison-panel arch-html-copy-process-rail-actions arch-layout-magazine-css-grid arch-responsive-horizontal-scroll-cards-mobile arch-interaction-process-stepper arch-cta-form-first-cta arch-content-paragraph-led"
+        data-section="03"
+        data-page="consultation"
+        data-role="conversion-contact"
+        data-layout-signature="07-glow-glow-soft-light-story-consultation-contact-options-03"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Glow Soft Light Story"
+        data-visual-role="quiet-proof"
+        data-image-treatment="full-image-below-hero-text"
+        data-premium-rhythm="offset-photo"
+        data-visual-dna-signature="07-glow-offset-photo-consultation-03"
+        data-concept-dna="07-glow"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="comparison-panel"
+        data-html-anatomy="copy-process-rail-actions"
+        data-css-layout="magazine-css-grid"
+        data-responsive-pattern="horizontal-scroll-cards-mobile"
+        data-interaction="process-stepper"
+        data-cta-pattern="form-first-cta"
+        data-content-presentation="paragraph-led"
+        data-visual-hierarchy="list-led"
+        data-architecture-signature="07-glow-comparison-panel-magazine-css-grid-consultation-03"
+        data-architecture-concept="07-glow"
+        data-architecture-section="03"
+        data-architecture-interaction="process-stepper"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Glow / Contact Options</p>
+          <h2>Prefer messaging</h2>
+          <p>Use WhatsApp or the contact page if you have a quick question.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >Message WhatsApp</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="contact.html"
+              >Contact Franciele</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-21-ivory-room-side-gaze-transparent.webp"
+            alt="Franciele Sofiati in a full-image Glow Consultation visual for conversion contact"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 04 — What It Clarifies
+Page: Consultation
+Role: explanation-cards
+Content: Heading, short paragraph, route cards, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Start form
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 07-glow-glow-soft-light-story-consultation-what-it-clarifies-04
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: What it clarifies / A consultation can clarify goals, questions, comfort, and expectations. / Start form
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-timeline visual-dna-section visual-dna-section-04 visual-layout-asymmetric-panel visual-role-final-conversion visual-tone-conversion visual-image-full-image-soft-field architecture-section architecture-section-04 arch-component-centered-manifesto arch-html-copy-journal-row-figure arch-layout-statement-first-grid arch-responsive-reduced-density-mobile arch-interaction-none arch-cta-route-card-cta arch-content-bullets-led"
+        data-section="04"
+        data-page="consultation"
+        data-role="explanation-cards"
+        data-layout-signature="07-glow-glow-soft-light-story-consultation-what-it-clarifies-04"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Glow Soft Light Story"
+        data-visual-role="final-conversion"
+        data-image-treatment="full-image-consultation-side"
+        data-premium-rhythm="asymmetric-panel"
+        data-visual-dna-signature="07-glow-asymmetric-panel-consultation-04"
+        data-concept-dna="07-glow"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="centered-manifesto"
+        data-html-anatomy="copy-journal-row-figure"
+        data-css-layout="statement-first-grid"
+        data-responsive-pattern="reduced-density-mobile"
+        data-interaction="none"
+        data-cta-pattern="route-card-cta"
+        data-content-presentation="bullets-led"
+        data-visual-hierarchy="navigation-led"
+        data-architecture-signature="07-glow-centered-manifesto-statement-first-grid-consultation-04"
+        data-architecture-concept="07-glow"
+        data-architecture-section="04"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Glow / What It Clarifies</p>
+          <h2>What it clarifies</h2>
+          <p>
+            A consultation can clarify goals, questions, comfort, and
+            expectations.
+          </p>
+          <div class="atlas-card-row" aria-label="What It Clarifies cards">
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Goals</h3>
+              <p>Personal direction.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Questions</h3>
+              <p>Ask calmly.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Comfort</h3>
+              <p>Respect limits.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Expectations</h3>
+              <p>Plan responsibly.</p>
+            </article>
+          </div>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="contact.html"
+              >Start form</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-24-ivory-room-window-side-transparent.webp"
+            alt="Franciele Sofiati in a full-image Glow Consultation visual for explanation cards"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 05 — Before Consultation
+Page: Consultation
+Role: education-prep
+Content: Heading, short paragraph, concise bullets, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Read FAQ
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 07-glow-glow-soft-light-story-consultation-before-consultation-05
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Before you start / Bring simple notes about your goals, routine, questions, and comfort level. / Read FAQ
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-gallery-strip visual-dna-section visual-dna-section-05 visual-layout-diagonal-flow visual-role-opening-promise visual-tone-ivory visual-image-full-image-clinical-frame architecture-section architecture-section-05 arch-component-cta-dock arch-html-copy-timeline-figure arch-layout-asymmetric-css-grid arch-responsive-image-first-mobile arch-interaction-sticky-cta arch-cta-journal-consultation-bridge arch-content-cards-led"
+        data-section="05"
+        data-page="consultation"
+        data-role="education-prep"
+        data-layout-signature="07-glow-glow-soft-light-story-consultation-before-consultation-05"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Glow Soft Light Story"
+        data-visual-role="opening-promise"
+        data-image-treatment="full-image-minimal-border-frame"
+        data-premium-rhythm="diagonal-flow"
+        data-visual-dna-signature="07-glow-diagonal-flow-consultation-05"
+        data-concept-dna="07-glow"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="cta-dock"
+        data-html-anatomy="copy-timeline-figure"
+        data-css-layout="asymmetric-css-grid"
+        data-responsive-pattern="image-first-mobile"
+        data-interaction="sticky-cta"
+        data-cta-pattern="journal-consultation-bridge"
+        data-content-presentation="cards-led"
+        data-visual-hierarchy="title-led"
+        data-architecture-signature="07-glow-cta-dock-asymmetric-css-grid-consultation-05"
+        data-architecture-concept="07-glow"
+        data-architecture-section="05"
+        data-architecture-interaction="sticky-cta"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Glow / Before Consultation</p>
+          <h2>Before you start</h2>
+          <p>
+            Bring simple notes about your goals, routine, questions, and comfort
+            level.
+          </p>
+          <ul class="atlas-bullets">
+            <li>Your goals</li>
+            <li>Your routine</li>
+            <li>Your questions</li>
+            <li>Your comfort</li>
+          </ul>
+          <div class="atlas-actions">
+            <a class="button atlas-button atlas-button--primary" href="faq.html"
+              >Read FAQ</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-27-ivory-room-window-attentive-transparent.webp"
+            alt="Franciele Sofiati in a full-image Glow Consultation visual for education prep"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 06 — During Conversation
+Page: Consultation
+Role: human-trust
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Ask a question
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 07-glow-glow-soft-light-story-consultation-during-conversation-06
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: During consultation / The conversation focuses on listening, understanding, and guiding your next step clearly. / Ask a question
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-minimal-field visual-dna-section visual-dna-section-06 visual-layout-full-width-statement visual-role-sage-editorial-break visual-tone-sage visual-image-full-image-layered-panel architecture-section architecture-section-06 arch-component-consultation-route-selector arch-html-copy-first-image-anchor arch-layout-form-first-grid arch-responsive-compact-cta-strip-mobile arch-interaction-reduced-motion-reveal arch-cta-quiet-secondary-cta arch-content-quote-led"
+        data-section="06"
+        data-page="consultation"
+        data-role="human-trust"
+        data-layout-signature="07-glow-glow-soft-light-story-consultation-during-conversation-06"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Glow Soft Light Story"
+        data-visual-role="sage-editorial-break"
+        data-image-treatment="no-image-editorial-structure"
+        data-premium-rhythm="full-width-statement"
+        data-visual-dna-signature="07-glow-full-width-statement-consultation-06"
+        data-concept-dna="07-glow"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="consultation-route-selector"
+        data-html-anatomy="copy-first-image-anchor"
+        data-css-layout="form-first-grid"
+        data-responsive-pattern="compact-cta-strip-mobile"
+        data-interaction="reduced-motion-reveal"
+        data-cta-pattern="quiet-secondary-cta"
+        data-content-presentation="quote-led"
+        data-visual-hierarchy="form-led"
+        data-architecture-signature="07-glow-consultation-route-selector-form-first-grid-consultation-06"
+        data-architecture-concept="07-glow"
+        data-architecture-section="06"
+        data-architecture-interaction="reduced-motion-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Glow / During Conversation</p>
+          <h2>During consultation</h2>
+          <p>
+            The conversation focuses on listening, understanding, and guiding
+            your next step clearly.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="contact.html"
+              >Ask a question</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-03-studio-seated-joyful-transparent.webp"
+            alt="Franciele Sofiati in a full-image Glow Consultation visual for human trust"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 07 — After Consultation
+Page: Consultation
+Role: explanation-after
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: View care
+Secondary CTA: View results
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 07-glow-glow-soft-light-story-consultation-after-consultation-07
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Afterwards / You should leave with clearer options, realistic expectations, and a better sense of direction. / View care + View results
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-media-left visual-dna-section visual-dna-section-07 visual-layout-editorial-split visual-role-human-trust visual-tone-cream visual-image-full-image-gallery-frame architecture-section architecture-section-07 arch-component-dark-trust-band arch-html-portrait-copy-sidebar-actions arch-layout-wide-editorial-columns arch-responsive-horizontal-scroll-cards-mobile arch-interaction-route-selector arch-cta-sticky-consultation-dock arch-content-step-led"
+        data-section="07"
+        data-page="consultation"
+        data-role="explanation-after"
+        data-layout-signature="07-glow-glow-soft-light-story-consultation-after-consultation-07"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Glow Soft Light Story"
+        data-visual-role="human-trust"
+        data-image-treatment="full-image-vertical-card"
+        data-premium-rhythm="editorial-split"
+        data-visual-dna-signature="07-glow-editorial-split-consultation-07"
+        data-concept-dna="07-glow"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="dark-trust-band"
+        data-html-anatomy="portrait-copy-sidebar-actions"
+        data-css-layout="wide-editorial-columns"
+        data-responsive-pattern="horizontal-scroll-cards-mobile"
+        data-interaction="route-selector"
+        data-cta-pattern="sticky-consultation-dock"
+        data-content-presentation="step-led"
+        data-visual-hierarchy="list-led"
+        data-architecture-signature="07-glow-dark-trust-band-wide-editorial-columns-consultation-07"
+        data-architecture-concept="07-glow"
+        data-architecture-section="07"
+        data-architecture-interaction="route-selector"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Glow / After Consultation</p>
+          <h2>Afterwards</h2>
+          <p>
+            You should leave with clearer options, realistic expectations, and a
+            better sense of direction.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="care.html"
+              >View care</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="results.html"
+              >View results</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-06-studio-crossed-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Glow Consultation visual for explanation after"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 08 — Form Break
+Page: Consultation
+Role: conversion-form
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Submit request
+Secondary CTA: Message WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 07-glow-glow-soft-light-story-consultation-form-break-08
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Send your request / Use the form or WhatsApp to begin privately. / Submit request + Message WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-media-right visual-dna-section visual-dna-section-08 visual-layout-process-strip visual-role-route-panel visual-tone-editorial visual-image-full-image-quiet-anchor architecture-section architecture-section-08 arch-component-sidebar-navigation-section arch-html-copy-process-rail-actions arch-layout-alternating-grid arch-responsive-reduced-density-mobile arch-interaction-process-stepper arch-cta-portrait-trust-cta arch-content-question-led"
+        data-section="08"
+        data-page="consultation"
+        data-role="conversion-form"
+        data-layout-signature="07-glow-glow-soft-light-story-consultation-form-break-08"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Glow Soft Light Story"
+        data-visual-role="route-panel"
+        data-image-treatment="full-image-below-hero-text"
+        data-premium-rhythm="process-strip"
+        data-visual-dna-signature="07-glow-process-strip-consultation-08"
+        data-concept-dna="07-glow"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="sidebar-navigation-section"
+        data-html-anatomy="copy-process-rail-actions"
+        data-css-layout="alternating-grid"
+        data-responsive-pattern="reduced-density-mobile"
+        data-interaction="process-stepper"
+        data-cta-pattern="portrait-trust-cta"
+        data-content-presentation="question-led"
+        data-visual-hierarchy="navigation-led"
+        data-architecture-signature="07-glow-sidebar-navigation-section-alternating-grid-consultation-08"
+        data-architecture-concept="07-glow"
+        data-architecture-section="08"
+        data-architecture-interaction="process-stepper"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Glow / Form Break</p>
+          <h2>Send your request</h2>
+          <p>Use the form or WhatsApp to begin privately.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="contact.html"
+              >Submit request</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >Message WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-09-studio-seated-bright-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Glow Consultation visual for conversion form"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 09 — Privacy Comfort
+Page: Consultation
+Role: reassurance-privacy
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Privacy
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 07-glow-glow-soft-light-story-consultation-privacy-comfort-09
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Privacy matters / Your message should feel safe, clear, and handled with care. / Privacy
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-centered visual-dna-section visual-dna-section-09 visual-layout-journal-row visual-role-deep-trust-band visual-tone-deep visual-image-full-image-elegant-card architecture-section architecture-section-09 arch-component-horizontal-process-strip arch-html-copy-journal-row-figure arch-layout-botanical-divider-grid arch-responsive-image-first-mobile arch-interaction-none arch-cta-inline-consultation-link arch-content-route-led"
+        data-section="09"
+        data-page="consultation"
+        data-role="reassurance-privacy"
+        data-layout-signature="07-glow-glow-soft-light-story-consultation-privacy-comfort-09"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Glow Soft Light Story"
+        data-visual-role="deep-trust-band"
+        data-image-treatment="full-image-consultation-side"
+        data-premium-rhythm="journal-row"
+        data-visual-dna-signature="07-glow-journal-row-consultation-09"
+        data-concept-dna="07-glow"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="horizontal-process-strip"
+        data-html-anatomy="copy-journal-row-figure"
+        data-css-layout="botanical-divider-grid"
+        data-responsive-pattern="image-first-mobile"
+        data-interaction="none"
+        data-cta-pattern="inline-consultation-link"
+        data-content-presentation="route-led"
+        data-visual-hierarchy="title-led"
+        data-architecture-signature="07-glow-horizontal-process-strip-botanical-divider-grid-consultation-09"
+        data-architecture-concept="07-glow"
+        data-architecture-section="09"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Glow / Privacy Comfort</p>
+          <h2>Privacy matters</h2>
+          <p>Your message should feel safe, clear, and handled with care.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="privacy.html"
+              >Privacy</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-12-studio-close-composed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Glow Consultation visual for reassurance privacy"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 10 — Final CTA
+Page: Consultation
+Role: conversion-final
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Fill form
+Secondary CTA: Message WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 07-glow-glow-soft-light-story-consultation-final-cta-10
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Start simply / A clear first step can make the whole process easier. / Fill form + Message WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-ledger visual-dna-section visual-dna-section-10 visual-layout-luxury-dark-card visual-role-service-focus visual-tone-cream visual-image-full-image-sage-rail architecture-section architecture-section-10 arch-component-statement-interlude arch-html-copy-timeline-figure arch-layout-horizontal-scroll-strip arch-responsive-compact-cta-strip-mobile arch-interaction-sticky-cta arch-cta-footer-bridge-cta arch-content-form-led"
+        data-section="10"
+        data-page="consultation"
+        data-role="conversion-final"
+        data-layout-signature="07-glow-glow-soft-light-story-consultation-final-cta-10"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Glow Soft Light Story"
+        data-visual-role="service-focus"
+        data-image-treatment="full-image-minimal-border-frame"
+        data-premium-rhythm="luxury-dark-card"
+        data-visual-dna-signature="07-glow-luxury-dark-card-consultation-10"
+        data-concept-dna="07-glow"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="statement-interlude"
+        data-html-anatomy="copy-timeline-figure"
+        data-css-layout="horizontal-scroll-strip"
+        data-responsive-pattern="compact-cta-strip-mobile"
+        data-interaction="sticky-cta"
+        data-cta-pattern="footer-bridge-cta"
+        data-content-presentation="form-led"
+        data-visual-hierarchy="form-led"
+        data-architecture-signature="07-glow-statement-interlude-horizontal-scroll-strip-consultation-10"
+        data-architecture-concept="07-glow"
+        data-architecture-section="10"
+        data-architecture-interaction="sticky-cta"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Glow / Final CTA</p>
+          <h2>Start simply</h2>
+          <p>A clear first step can make the whole process easier.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="contact.html"
+              >Fill form</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >Message WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-15-balcony-orange-direct-transparent.webp"
+            alt="Franciele Sofiati in a full-image Glow Consultation visual for conversion final"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+    </main>
+    <div data-partial-mount="cookie-banner"></div>
+    <div data-partial-mount="footer"></div>
+    <div data-partial-mount="floating-widgets"></div>
+    <script src="js/partials.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="../../js/sofiati-50-architecture-system.js" defer></script>
+    <script
+      src="../../js/sofiati-footer-cookie.js"
+      defer
+      data-sofiati-cookie-loader
+    ></script>
+  </body>
+</html>

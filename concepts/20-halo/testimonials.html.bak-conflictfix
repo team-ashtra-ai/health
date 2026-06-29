@@ -1,0 +1,844 @@
+<!doctype html>
+<html lang="en" data-source-lang="en" data-default-lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Feedback should be treated with consent, privacy, and realistic context. Halo expresses this through halo circular promise."
+    />
+    <title>Testimonials | Halo | Franciele Sofiati</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/atlas-story.css" />
+    <link
+      rel="canonical"
+      href="https://www.sofiati.com/concepts/20-halo/testimonials.html"
+    />
+    <meta
+      property="og:title"
+      content="Testimonials | Halo | Franciele Sofiati"
+    />
+    <meta
+      property="og:description"
+      content="Feedback should be treated with consent, privacy, and realistic context. Halo expresses this through halo circular promise."
+    />
+    <meta
+      property="og:image"
+      content="../../assets/brand/franciele-sofiati-22-ivory-room-arms-crossed-transparent.webp"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://www.sofiati.com/concepts/20-halo/testimonials.html"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link
+      rel="icon"
+      href="../../assets/brand/sofiati-favicon.svg"
+      type="image/svg+xml"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="../../assets/brand/sofiati-monogram-sage.png"
+    />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-full-image-premium-system.css"
+    />
+    <link rel="stylesheet" href="../../css/sofiati-premium-visual-dna.css" />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-50-architecture-system.css"
+    />
+  </head>
+  <body
+    class="concept concept-halo page-testimonials atlas-site atlas-site-20 atlas-layout-family-9 premium-visual-dna visual-dna-site-20 visual-header-cta-forward-header visual-footer-cta-led-footer visual-mobile-compact-cta-mobile architecture-site architecture-site-20 architecture-journey-education-first-journey architecture-header-minimal-line-header architecture-footer-journal-route-footer"
+    data-concept="20-halo"
+    data-page="testimonials"
+    data-page-label="Testimonials"
+    data-page-title="Testimonials | Halo | Franciele Sofiati"
+    data-page-description="Feedback should be treated with consent, privacy, and realistic context. Halo expresses this through halo circular promise."
+    data-canonical="https://www.sofiati.com/concepts/20-halo/testimonials.html"
+    data-default-lang="en"
+    data-atlas-dna="Halo Circular Promise"
+    data-brand-asset-root="../../assets/brand"
+    data-visual-dna-theme="soft circular accents, glow frames, no circular image clipping"
+    data-header-pattern="cta-forward-header"
+    data-footer-pattern="cta-led-footer"
+    data-mobile-pattern="compact-cta-mobile"
+    data-colour-rhythm="cream-warm-sage-bronze"
+    data-architecture-contract="20-halo"
+    data-visitor-journey="education-first journey"
+    data-ia-emphasis="lead with soft halo accents and reassurance"
+    data-header-architecture="minimal-line-header"
+    data-footer-architecture="journal-route-footer"
+    data-cta-architecture="footer-bridge-cta"
+    data-js-architecture="accordion-guidance, route-selector, accordion-guidance with reduced-motion-safe delegation"
+  >
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div data-partial-mount="status-banner"></div>
+    <div data-partial-mount="accessibility"></div>
+    <div data-partial-mount="header"></div>
+    <div data-partial-mount="mobile-menu"></div>
+    <main
+      id="main"
+      class="atlas-main atlas-page-testimonials architecture-main architecture-main-20"
+      data-page="testimonials"
+      data-section-count="10"
+      data-atlas-source="docs/sites/20-halo/MASTER-BRIEF.md"
+      data-homepage-architecture="service-route-matrix opening, testimonial-style-quote-block trust build, dark-trust-band final bridge"
+      data-internal-page-architecture="radial-value-map intro, calm-checklist body, guided-pathway-panel conversion close"
+    >
+      <!--
+SECTION 01 — Feedback Hero
+Page: Testimonials
+Role: opening-feedback
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Request evaluation
+Secondary CTA: Message WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 20-halo-halo-circular-promise-testimonials-feedback-hero-01
+Mobile note: minimal pages remove decorative weight and keep final CTA visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Client feedback / Feedback should be treated with consent, privacy, and realistic context. / Request evaluation + Message WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-editorial-aside visual-dna-section visual-dna-section-01 visual-layout-trust-note visual-role-final-conversion visual-tone-conversion visual-image-full-image-gallery-frame architecture-section architecture-section-01 arch-component-service-route-matrix arch-html-image-first-copy-actions arch-layout-botanical-divider-grid arch-responsive-alternating-mobile-order arch-interaction-accordion-guidance arch-cta-whatsapp-first-cta arch-content-form-led"
+        data-section="01"
+        data-page="testimonials"
+        data-role="opening-feedback"
+        data-layout-signature="20-halo-halo-circular-promise-testimonials-feedback-hero-01"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Halo Circular Promise"
+        data-visual-role="final-conversion"
+        data-image-treatment="css-botanical-divider"
+        data-premium-rhythm="trust-note"
+        data-visual-dna-signature="20-halo-trust-note-testimonials-01"
+        data-concept-dna="20-halo"
+        data-mobile-rhythm="compact-cta-mobile"
+        data-component-type="service-route-matrix"
+        data-html-anatomy="image-first-copy-actions"
+        data-css-layout="botanical-divider-grid"
+        data-responsive-pattern="alternating-mobile-order"
+        data-interaction="accordion-guidance"
+        data-cta-pattern="whatsapp-first-cta"
+        data-content-presentation="form-led"
+        data-visual-hierarchy="quote-led"
+        data-architecture-signature="20-halo-service-route-matrix-botanical-divider-grid-testimonials-01"
+        data-architecture-concept="20-halo"
+        data-architecture-section="01"
+        data-architecture-interaction="accordion-guidance"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Halo / Feedback Hero</p>
+          <h1>Client feedback</h1>
+          <p>
+            Feedback should be treated with consent, privacy, and realistic
+            context.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="consultation.html"
+              >Request evaluation</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >Message WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-27-ivory-room-window-attentive-transparent.webp"
+            alt="Franciele Sofiati in a full-image Halo Testimonials visual for opening feedback"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-hero-photo"
+            data-sofiati-photo="true"
+            fetchpriority="high"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 02 — Privacy Note
+Page: Testimonials
+Role: reassurance-privacy
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Privacy
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 20-halo-halo-circular-promise-testimonials-privacy-note-02
+Mobile note: minimal pages remove decorative weight and keep final CTA visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Privacy matters / Personal details and feedback must be handled carefully. / Privacy
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-quote-band visual-dna-section visual-dna-section-02 visual-layout-luxury-dark-card visual-role-opening-promise visual-tone-ivory visual-image-full-image-quiet-anchor architecture-section architecture-section-02 arch-component-radial-value-map arch-html-statement-copy-wide-figure arch-layout-sticky-sidebar-grid arch-responsive-stacked-editorial-panels-mobile arch-interaction-route-selector arch-cta-faq-contact-bridge arch-content-statement-led"
+        data-section="02"
+        data-page="testimonials"
+        data-role="reassurance-privacy"
+        data-layout-signature="20-halo-halo-circular-promise-testimonials-privacy-note-02"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Halo Circular Promise"
+        data-visual-role="opening-promise"
+        data-image-treatment="full-image-wide-editorial-panel"
+        data-premium-rhythm="luxury-dark-card"
+        data-visual-dna-signature="20-halo-luxury-dark-card-testimonials-02"
+        data-concept-dna="20-halo"
+        data-mobile-rhythm="compact-cta-mobile"
+        data-component-type="radial-value-map"
+        data-html-anatomy="statement-copy-wide-figure"
+        data-css-layout="sticky-sidebar-grid"
+        data-responsive-pattern="stacked-editorial-panels-mobile"
+        data-interaction="route-selector"
+        data-cta-pattern="faq-contact-bridge"
+        data-content-presentation="statement-led"
+        data-visual-hierarchy="icon-led"
+        data-architecture-signature="20-halo-radial-value-map-sticky-sidebar-grid-testimonials-02"
+        data-architecture-concept="20-halo"
+        data-architecture-section="02"
+        data-architecture-interaction="route-selector"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Halo / Privacy Note</p>
+          <h2>Privacy matters</h2>
+          <p>Personal details and feedback must be handled carefully.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="privacy.html"
+              >Privacy</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-03-studio-seated-joyful-transparent.webp"
+            alt="Franciele Sofiati in a full-image Halo Testimonials visual for reassurance privacy"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 03 — Trust Break
+Page: Testimonials
+Role: reassurance-statement
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: None
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 20-halo-halo-circular-promise-testimonials-trust-break-03
+Mobile note: minimal pages remove decorative weight and keep final CTA visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Trust needs care / Responsibility matters in every part of the experience. / None
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-timeline visual-dna-section visual-dna-section-03 visual-layout-floating-card visual-role-sage-editorial-break visual-tone-sage visual-image-full-image-elegant-card architecture-section architecture-section-03 arch-component-centered-manifesto arch-html-copy-bullets-side-note arch-layout-timeline-rail-grid arch-responsive-alternating-mobile-order arch-interaction-accordion-guidance arch-cta-service-form-bridge arch-content-journal-led"
+        data-section="03"
+        data-page="testimonials"
+        data-role="reassurance-statement"
+        data-layout-signature="20-halo-halo-circular-promise-testimonials-trust-break-03"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Halo Circular Promise"
+        data-visual-role="sage-editorial-break"
+        data-image-treatment="full-image-sage-panel"
+        data-premium-rhythm="floating-card"
+        data-visual-dna-signature="20-halo-floating-card-testimonials-03"
+        data-concept-dna="20-halo"
+        data-mobile-rhythm="compact-cta-mobile"
+        data-component-type="centered-manifesto"
+        data-html-anatomy="copy-bullets-side-note"
+        data-css-layout="timeline-rail-grid"
+        data-responsive-pattern="alternating-mobile-order"
+        data-interaction="accordion-guidance"
+        data-cta-pattern="service-form-bridge"
+        data-content-presentation="journal-led"
+        data-visual-hierarchy="editorial-led"
+        data-architecture-signature="20-halo-centered-manifesto-timeline-rail-grid-testimonials-03"
+        data-architecture-concept="20-halo"
+        data-architecture-section="03"
+        data-architecture-interaction="accordion-guidance"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Halo / Trust Break</p>
+          <h2>Trust needs care</h2>
+          <p>Responsibility matters in every part of the experience.</p>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-06-studio-crossed-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Halo Testimonials visual for reassurance statement"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 04 — Results Guidance
+Page: Testimonials
+Role: education-route
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Results
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 20-halo-halo-circular-promise-testimonials-results-guidance-04
+Mobile note: minimal pages remove decorative weight and keep final CTA visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Read expectations / Understand results responsibly before making decisions. / Results
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-gallery-strip visual-dna-section visual-dna-section-04 visual-layout-image-first-mobile visual-role-human-trust visual-tone-cream visual-image-full-image-sage-rail architecture-section architecture-section-04 arch-component-testimonial-style-quote-block arch-html-copy-first-image-anchor arch-layout-asymmetric-css-grid arch-responsive-stacked-editorial-panels-mobile arch-interaction-route-selector arch-cta-deep-sage-cta-band arch-content-paragraph-led"
+        data-section="04"
+        data-page="testimonials"
+        data-role="education-route"
+        data-layout-signature="20-halo-halo-circular-promise-testimonials-results-guidance-04"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Halo Circular Promise"
+        data-visual-role="human-trust"
+        data-image-treatment="full-image-gallery-like-frame"
+        data-premium-rhythm="image-first-mobile"
+        data-visual-dna-signature="20-halo-image-first-mobile-testimonials-04"
+        data-concept-dna="20-halo"
+        data-mobile-rhythm="compact-cta-mobile"
+        data-component-type="testimonial-style-quote-block"
+        data-html-anatomy="copy-first-image-anchor"
+        data-css-layout="asymmetric-css-grid"
+        data-responsive-pattern="stacked-editorial-panels-mobile"
+        data-interaction="route-selector"
+        data-cta-pattern="deep-sage-cta-band"
+        data-content-presentation="paragraph-led"
+        data-visual-hierarchy="image-led"
+        data-architecture-signature="20-halo-testimonial-style-quote-block-asymmetric-css-grid-testimonials-04"
+        data-architecture-concept="20-halo"
+        data-architecture-section="04"
+        data-architecture-interaction="route-selector"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Halo / Results Guidance</p>
+          <h2>Read expectations</h2>
+          <p>Understand results responsibly before making decisions.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="results.html"
+              >Results</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-09-studio-seated-bright-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Halo Testimonials visual for education route"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 05 — FAQ Bridge
+Page: Testimonials
+Role: education-route
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: FAQ
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 20-halo-halo-circular-promise-testimonials-faq-bridge-05
+Mobile note: minimal pages remove decorative weight and keep final CTA visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Have questions / Read common questions before contacting. / FAQ
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-minimal-field visual-dna-section visual-dna-section-05 visual-layout-alternating-panel visual-role-route-panel visual-tone-editorial visual-image-full-image-bronze-rule architecture-section architecture-section-05 arch-component-calm-checklist arch-html-copy-route-grid-figure arch-layout-route-matrix-grid arch-responsive-alternating-mobile-order arch-interaction-accordion-guidance arch-cta-minimal-line-cta arch-content-bullets-led"
+        data-section="05"
+        data-page="testimonials"
+        data-role="education-route"
+        data-layout-signature="20-halo-halo-circular-promise-testimonials-faq-bridge-05"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Halo Circular Promise"
+        data-visual-role="route-panel"
+        data-image-treatment="full-image-asymmetrical-layout"
+        data-premium-rhythm="alternating-panel"
+        data-visual-dna-signature="20-halo-alternating-panel-testimonials-05"
+        data-concept-dna="20-halo"
+        data-mobile-rhythm="compact-cta-mobile"
+        data-component-type="calm-checklist"
+        data-html-anatomy="copy-route-grid-figure"
+        data-css-layout="route-matrix-grid"
+        data-responsive-pattern="alternating-mobile-order"
+        data-interaction="accordion-guidance"
+        data-cta-pattern="minimal-line-cta"
+        data-content-presentation="bullets-led"
+        data-visual-hierarchy="quote-led"
+        data-architecture-signature="20-halo-calm-checklist-route-matrix-grid-testimonials-05"
+        data-architecture-concept="20-halo"
+        data-architecture-section="05"
+        data-architecture-interaction="accordion-guidance"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Halo / FAQ Bridge</p>
+          <h2>Have questions</h2>
+          <p>Read common questions before contacting.</p>
+          <div class="atlas-actions">
+            <a class="button atlas-button atlas-button--primary" href="faq.html"
+              >FAQ</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-12-studio-close-composed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Halo Testimonials visual for education route"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 06 — Consultation CTA
+Page: Testimonials
+Role: conversion-contact
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Request evaluation
+Secondary CTA: WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 20-halo-halo-circular-promise-testimonials-consultation-cta-06
+Mobile note: minimal pages remove decorative weight and keep final CTA visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Discuss your goals / A consultation gives your questions context. / Request evaluation + WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-media-left visual-dna-section visual-dna-section-06 visual-layout-editorial-split visual-role-deep-trust-band visual-tone-deep visual-image-full-image-open-frame architecture-section architecture-section-06 arch-component-editorial-split arch-html-copy-masonry-cards-portrait arch-layout-botanical-divider-grid arch-responsive-stacked-editorial-panels-mobile arch-interaction-route-selector arch-cta-hero-primary-whatsapp-secondary arch-content-cards-led"
+        data-section="06"
+        data-page="testimonials"
+        data-role="conversion-contact"
+        data-layout-signature="20-halo-halo-circular-promise-testimonials-consultation-cta-06"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Halo Circular Promise"
+        data-visual-role="deep-trust-band"
+        data-image-treatment="css-botanical-divider"
+        data-premium-rhythm="editorial-split"
+        data-visual-dna-signature="20-halo-editorial-split-testimonials-06"
+        data-concept-dna="20-halo"
+        data-mobile-rhythm="compact-cta-mobile"
+        data-component-type="editorial-split"
+        data-html-anatomy="copy-masonry-cards-portrait"
+        data-css-layout="botanical-divider-grid"
+        data-responsive-pattern="stacked-editorial-panels-mobile"
+        data-interaction="route-selector"
+        data-cta-pattern="hero-primary-whatsapp-secondary"
+        data-content-presentation="cards-led"
+        data-visual-hierarchy="icon-led"
+        data-architecture-signature="20-halo-editorial-split-botanical-divider-grid-testimonials-06"
+        data-architecture-concept="20-halo"
+        data-architecture-section="06"
+        data-architecture-interaction="route-selector"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Halo / Consultation CTA</p>
+          <h2>Discuss your goals</h2>
+          <p>A consultation gives your questions context.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="consultation.html"
+              >Request evaluation</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-15-balcony-orange-direct-transparent.webp"
+            alt="Franciele Sofiati in a full-image Halo Testimonials visual for conversion contact"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 07 — Consent First
+Page: Testimonials
+Role: reassurance-privacy
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Privacy
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 20-halo-halo-circular-promise-testimonials-consent-first-07
+Mobile note: minimal pages remove decorative weight and keep final CTA visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Consent first / Feedback should only be shared with appropriate permission. / Privacy
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-media-right visual-dna-section visual-dna-section-07 visual-layout-gallery-frame visual-role-service-focus visual-tone-cream visual-image-full-image-editorial-panel architecture-section architecture-section-07 arch-component-sage-reassurance-panel arch-html-copy-cta-dock-panel arch-layout-sticky-sidebar-grid arch-responsive-alternating-mobile-order arch-interaction-accordion-guidance arch-cta-sage-consultation-strip arch-content-quote-led"
+        data-section="07"
+        data-page="testimonials"
+        data-role="reassurance-privacy"
+        data-layout-signature="20-halo-halo-circular-promise-testimonials-consent-first-07"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Halo Circular Promise"
+        data-visual-role="service-focus"
+        data-image-treatment="full-image-wide-editorial-panel"
+        data-premium-rhythm="gallery-frame"
+        data-visual-dna-signature="20-halo-gallery-frame-testimonials-07"
+        data-concept-dna="20-halo"
+        data-mobile-rhythm="compact-cta-mobile"
+        data-component-type="sage-reassurance-panel"
+        data-html-anatomy="copy-cta-dock-panel"
+        data-css-layout="sticky-sidebar-grid"
+        data-responsive-pattern="alternating-mobile-order"
+        data-interaction="accordion-guidance"
+        data-cta-pattern="sage-consultation-strip"
+        data-content-presentation="quote-led"
+        data-visual-hierarchy="editorial-led"
+        data-architecture-signature="20-halo-sage-reassurance-panel-sticky-sidebar-grid-testimonials-07"
+        data-architecture-concept="20-halo"
+        data-architecture-section="07"
+        data-architecture-interaction="accordion-guidance"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Halo / Consent First</p>
+          <h2>Consent first</h2>
+          <p>Feedback should only be shared with appropriate permission.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="privacy.html"
+              >Privacy</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-20-ivory-room-standing-calm-transparent.webp"
+            alt="Franciele Sofiati in a full-image Halo Testimonials visual for reassurance privacy"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 08 — No Guarantees
+Page: Testimonials
+Role: reassurance-boundary
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Results
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 20-halo-halo-circular-promise-testimonials-no-guarantees-08
+Mobile note: minimal pages remove decorative weight and keep final CTA visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Not a promise / Feedback does not guarantee the same experience or outcome. / Results
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-centered visual-dna-section visual-dna-section-08 visual-layout-cta-band visual-role-journal-strip visual-tone-sage visual-image-full-image-soft-field architecture-section architecture-section-08 arch-component-card-masonry arch-html-copy-process-rail-actions arch-layout-timeline-rail-grid arch-responsive-stacked-editorial-panels-mobile arch-interaction-route-selector arch-cta-form-first-cta arch-content-step-led"
+        data-section="08"
+        data-page="testimonials"
+        data-role="reassurance-boundary"
+        data-layout-signature="20-halo-halo-circular-promise-testimonials-no-guarantees-08"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Halo Circular Promise"
+        data-visual-role="journal-strip"
+        data-image-treatment="full-image-sage-panel"
+        data-premium-rhythm="cta-band"
+        data-visual-dna-signature="20-halo-cta-band-testimonials-08"
+        data-concept-dna="20-halo"
+        data-mobile-rhythm="compact-cta-mobile"
+        data-component-type="card-masonry"
+        data-html-anatomy="copy-process-rail-actions"
+        data-css-layout="timeline-rail-grid"
+        data-responsive-pattern="stacked-editorial-panels-mobile"
+        data-interaction="route-selector"
+        data-cta-pattern="form-first-cta"
+        data-content-presentation="step-led"
+        data-visual-hierarchy="image-led"
+        data-architecture-signature="20-halo-card-masonry-timeline-rail-grid-testimonials-08"
+        data-architecture-concept="20-halo"
+        data-architecture-section="08"
+        data-architecture-interaction="route-selector"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Halo / No Guarantees</p>
+          <h2>Not a promise</h2>
+          <p>Feedback does not guarantee the same experience or outcome.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="results.html"
+              >Results</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-23-ivory-room-arms-crossed-close-transparent.webp"
+            alt="Franciele Sofiati in a full-image Halo Testimonials visual for reassurance boundary"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 09 — Experience Themes
+Page: Testimonials
+Role: trust-themes
+Content: Heading, short paragraph, route cards, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Read FAQ
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 20-halo-halo-circular-promise-testimonials-experience-themes-09
+Mobile note: minimal pages remove decorative weight and keep final CTA visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Experience themes / Useful feedback themes include clarity, comfort, guidance, and trust. / Read FAQ
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-ledger visual-dna-section visual-dna-section-09 visual-layout-framed-minimal visual-role-form-focus visual-tone-ivory visual-image-full-image-clinical-frame architecture-section architecture-section-09 arch-component-guided-pathway-panel arch-html-copy-tabs-route-cards arch-layout-asymmetric-css-grid arch-responsive-alternating-mobile-order arch-interaction-accordion-guidance arch-cta-route-card-cta arch-content-question-led"
+        data-section="09"
+        data-page="testimonials"
+        data-role="trust-themes"
+        data-layout-signature="20-halo-halo-circular-promise-testimonials-experience-themes-09"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Halo Circular Promise"
+        data-visual-role="form-focus"
+        data-image-treatment="full-image-gallery-like-frame"
+        data-premium-rhythm="framed-minimal"
+        data-visual-dna-signature="20-halo-framed-minimal-testimonials-09"
+        data-concept-dna="20-halo"
+        data-mobile-rhythm="compact-cta-mobile"
+        data-component-type="guided-pathway-panel"
+        data-html-anatomy="copy-tabs-route-cards"
+        data-css-layout="asymmetric-css-grid"
+        data-responsive-pattern="alternating-mobile-order"
+        data-interaction="accordion-guidance"
+        data-cta-pattern="route-card-cta"
+        data-content-presentation="question-led"
+        data-visual-hierarchy="quote-led"
+        data-architecture-signature="20-halo-guided-pathway-panel-asymmetric-css-grid-testimonials-09"
+        data-architecture-concept="20-halo"
+        data-architecture-section="09"
+        data-architecture-interaction="accordion-guidance"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Halo / Experience Themes</p>
+          <h2>Experience themes</h2>
+          <p>
+            Useful feedback themes include clarity, comfort, guidance, and
+            trust.
+          </p>
+          <div class="atlas-card-row" aria-label="Experience Themes cards">
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Clarity</h3>
+              <p>Useful route.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Comfort</h3>
+              <p>Respect limits.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Guidance</h3>
+              <p>Useful route.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Trust</h3>
+              <p>Clear explanations.</p>
+            </article>
+          </div>
+          <div class="atlas-actions">
+            <a class="button atlas-button atlas-button--primary" href="faq.html"
+              >Read FAQ</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-26-ivory-room-window-composed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Halo Testimonials visual for trust themes"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 10 — Contact Path
+Page: Testimonials
+Role: conversion-final
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Contact
+Secondary CTA: WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 20-halo-halo-circular-promise-testimonials-contact-path-10
+Mobile note: minimal pages remove decorative weight and keep final CTA visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Contact directly / Send a message if you need guidance. / Contact + WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-split-card visual-dna-section visual-dna-section-10 visual-layout-asymmetric-panel visual-role-quiet-proof visual-tone-line visual-image-full-image-layered-panel architecture-section architecture-section-10 arch-component-dark-trust-band arch-html-copy-figure-actions arch-layout-route-matrix-grid arch-responsive-stacked-editorial-panels-mobile arch-interaction-route-selector arch-cta-journal-consultation-bridge arch-content-route-led"
+        data-section="10"
+        data-page="testimonials"
+        data-role="conversion-final"
+        data-layout-signature="20-halo-halo-circular-promise-testimonials-contact-path-10"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Halo Circular Promise"
+        data-visual-role="quiet-proof"
+        data-image-treatment="full-image-asymmetrical-layout"
+        data-premium-rhythm="asymmetric-panel"
+        data-visual-dna-signature="20-halo-asymmetric-panel-testimonials-10"
+        data-concept-dna="20-halo"
+        data-mobile-rhythm="compact-cta-mobile"
+        data-component-type="dark-trust-band"
+        data-html-anatomy="copy-figure-actions"
+        data-css-layout="route-matrix-grid"
+        data-responsive-pattern="stacked-editorial-panels-mobile"
+        data-interaction="route-selector"
+        data-cta-pattern="journal-consultation-bridge"
+        data-content-presentation="route-led"
+        data-visual-hierarchy="icon-led"
+        data-architecture-signature="20-halo-dark-trust-band-route-matrix-grid-testimonials-10"
+        data-architecture-concept="20-halo"
+        data-architecture-section="10"
+        data-architecture-interaction="route-selector"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Halo / Contact Path</p>
+          <h2>Contact directly</h2>
+          <p>Send a message if you need guidance.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="contact.html"
+              >Contact</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-02-studio-seated-laughing-transparent.webp"
+            alt="Franciele Sofiati in a full-image Halo Testimonials visual for conversion final"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+    </main>
+    <div data-partial-mount="cookie-banner"></div>
+    <div data-partial-mount="footer"></div>
+    <div data-partial-mount="floating-widgets"></div>
+    <script src="js/partials.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="../../js/sofiati-50-architecture-system.js" defer></script>
+    <script
+      src="../../js/sofiati-footer-cookie.js"
+      defer
+      data-sofiati-cookie-loader
+    ></script>
+  </body>
+</html>

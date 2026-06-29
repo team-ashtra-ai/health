@@ -1,0 +1,842 @@
+<!doctype html>
+<html lang="en" data-source-lang="en" data-default-lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Feedback should be treated with consent, privacy, and realistic context. Poise expresses this through poise portrait sequence."
+    />
+    <title>Testimonials | Poise | Franciele Sofiati</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/atlas-story.css" />
+    <link
+      rel="canonical"
+      href="https://www.sofiati.com/concepts/13-poise/testimonials.html"
+    />
+    <meta
+      property="og:title"
+      content="Testimonials | Poise | Franciele Sofiati"
+    />
+    <meta
+      property="og:description"
+      content="Feedback should be treated with consent, privacy, and realistic context. Poise expresses this through poise portrait sequence."
+    />
+    <meta
+      property="og:image"
+      content="../../assets/brand/franciele-sofiati-13-balcony-orange-soft-smile-transparent.webp"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://www.sofiati.com/concepts/13-poise/testimonials.html"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link
+      rel="icon"
+      href="../../assets/brand/sofiati-favicon.svg"
+      type="image/svg+xml"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="../../assets/brand/sofiati-monogram-sage.png"
+    />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-full-image-premium-system.css"
+    />
+    <link rel="stylesheet" href="../../css/sofiati-premium-visual-dna.css" />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-50-architecture-system.css"
+    />
+  </head>
+  <body
+    class="concept concept-poise page-testimonials atlas-site atlas-site-13 atlas-layout-family-2 premium-visual-dna visual-dna-site-13 visual-header-minimal-line-header visual-footer-light-multi-column-footer visual-mobile-alternating-mobile-stack architecture-site architecture-site-13 architecture-journey-consultation-first-journey architecture-header-editorial-masthead-header architecture-footer-consultation-first-footer"
+    data-concept="13-poise"
+    data-page="testimonials"
+    data-page-label="Testimonials"
+    data-page-title="Testimonials | Poise | Franciele Sofiati"
+    data-page-description="Feedback should be treated with consent, privacy, and realistic context. Poise expresses this through poise portrait sequence."
+    data-canonical="https://www.sofiati.com/concepts/13-poise/testimonials.html"
+    data-default-lang="en"
+    data-atlas-dna="Poise Portrait Sequence"
+    data-brand-asset-root="../../assets/brand"
+    data-visual-dna-theme="symmetrical elegance, balanced panels, refined bronze dividers"
+    data-header-pattern="minimal-line-header"
+    data-footer-pattern="light-multi-column-footer"
+    data-mobile-pattern="alternating-mobile-stack"
+    data-colour-rhythm="ink-deep-sage-gold"
+    data-architecture-contract="13-poise"
+    data-visitor-journey="consultation-first journey"
+    data-ia-emphasis="lead with balance, symmetry, and calm comparison"
+    data-header-architecture="editorial-masthead-header"
+    data-footer-architecture="consultation-first-footer"
+    data-cta-architecture="whatsapp-first-cta"
+    data-js-architecture="process-stepper, reduced-motion-reveal, route-selector with reduced-motion-safe delegation"
+  >
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div data-partial-mount="status-banner"></div>
+    <div data-partial-mount="accessibility"></div>
+    <div data-partial-mount="header"></div>
+    <div data-partial-mount="mobile-menu"></div>
+    <main
+      id="main"
+      class="atlas-main atlas-page-testimonials architecture-main architecture-main-13"
+      data-page="testimonials"
+      data-section-count="10"
+      data-atlas-source="docs/sites/13-poise/MASTER-BRIEF.md"
+      data-homepage-architecture="journal-carousel opening, form-led-conversion-panel trust build, stepper-component final bridge"
+      data-internal-page-architecture="botanical-divider-section intro, luxury-dark-card body, full-width-brand-band conversion close"
+    >
+      <!--
+SECTION 01 — Feedback Hero
+Page: Testimonials
+Role: opening-feedback
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Request evaluation
+Secondary CTA: Message WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 13-poise-poise-portrait-sequence-testimonials-feedback-hero-01
+Mobile note: images crop to calm center points and text stays short
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Client feedback / Feedback should be treated with consent, privacy, and realistic context. / Request evaluation + Message WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-media-left visual-dna-section visual-dna-section-01 visual-layout-process-strip visual-role-human-trust visual-tone-cream visual-image-full-image-editorial-panel architecture-section architecture-section-01 arch-component-journal-carousel arch-html-copy-accordion-cards arch-layout-route-matrix-grid arch-responsive-image-first-mobile arch-interaction-process-stepper arch-cta-hero-primary-whatsapp-secondary arch-content-route-led"
+        data-section="01"
+        data-page="testimonials"
+        data-role="opening-feedback"
+        data-layout-signature="13-poise-poise-portrait-sequence-testimonials-feedback-hero-01"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Poise Portrait Sequence"
+        data-visual-role="human-trust"
+        data-image-treatment="full-image-minimal-border-frame"
+        data-premium-rhythm="process-strip"
+        data-visual-dna-signature="13-poise-process-strip-testimonials-01"
+        data-concept-dna="13-poise"
+        data-mobile-rhythm="alternating-mobile-stack"
+        data-component-type="journal-carousel"
+        data-html-anatomy="copy-accordion-cards"
+        data-css-layout="route-matrix-grid"
+        data-responsive-pattern="image-first-mobile"
+        data-interaction="process-stepper"
+        data-cta-pattern="hero-primary-whatsapp-secondary"
+        data-content-presentation="route-led"
+        data-visual-hierarchy="title-led"
+        data-architecture-signature="13-poise-journal-carousel-route-matrix-grid-testimonials-01"
+        data-architecture-concept="13-poise"
+        data-architecture-section="01"
+        data-architecture-interaction="process-stepper"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Poise / Feedback Hero</p>
+          <h1>Client feedback</h1>
+          <p>
+            Feedback should be treated with consent, privacy, and realistic
+            context.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="consultation.html"
+              >Request evaluation</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >Message WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-12-studio-close-composed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Poise Testimonials visual for opening feedback"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-hero-photo"
+            data-sofiati-photo="true"
+            fetchpriority="high"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 02 — Trust Break
+Page: Testimonials
+Role: reassurance-statement
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: None
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 13-poise-poise-portrait-sequence-testimonials-trust-break-02
+Mobile note: images crop to calm center points and text stays short
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Trust needs care / Responsibility matters in every part of the experience. / None
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-media-right visual-dna-section visual-dna-section-02 visual-layout-form-panel visual-role-route-panel visual-tone-editorial visual-image-full-image-soft-field architecture-section architecture-section-02 arch-component-botanical-divider-section arch-html-kicker-heading-copy-card-grid arch-layout-botanical-divider-grid arch-responsive-sticky-consultation-mobile arch-interaction-reduced-motion-reveal arch-cta-sage-consultation-strip arch-content-form-led"
+        data-section="02"
+        data-page="testimonials"
+        data-role="reassurance-statement"
+        data-layout-signature="13-poise-poise-portrait-sequence-testimonials-trust-break-02"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Poise Portrait Sequence"
+        data-visual-role="route-panel"
+        data-image-treatment="no-image-editorial-structure"
+        data-premium-rhythm="form-panel"
+        data-visual-dna-signature="13-poise-form-panel-testimonials-02"
+        data-concept-dna="13-poise"
+        data-mobile-rhythm="alternating-mobile-stack"
+        data-component-type="botanical-divider-section"
+        data-html-anatomy="kicker-heading-copy-card-grid"
+        data-css-layout="botanical-divider-grid"
+        data-responsive-pattern="sticky-consultation-mobile"
+        data-interaction="reduced-motion-reveal"
+        data-cta-pattern="sage-consultation-strip"
+        data-content-presentation="form-led"
+        data-visual-hierarchy="form-led"
+        data-architecture-signature="13-poise-botanical-divider-section-botanical-divider-grid-testimonials-02"
+        data-architecture-concept="13-poise"
+        data-architecture-section="02"
+        data-architecture-interaction="reduced-motion-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Poise / Trust Break</p>
+          <h2>Trust needs care</h2>
+          <p>Responsibility matters in every part of the experience.</p>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-15-balcony-orange-direct-transparent.webp"
+            alt="Franciele Sofiati in a full-image Poise Testimonials visual for reassurance statement"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 03 — Results Guidance
+Page: Testimonials
+Role: education-route
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Results
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 13-poise-poise-portrait-sequence-testimonials-results-guidance-03
+Mobile note: images crop to calm center points and text stays short
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Read expectations / Understand results responsibly before making decisions. / Results
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-centered visual-dna-section visual-dna-section-03 visual-layout-botanical-divider visual-role-deep-trust-band visual-tone-deep visual-image-full-image-clinical-frame architecture-section architecture-section-03 arch-component-horizontal-process-strip arch-html-copy-process-rail-actions arch-layout-sticky-sidebar-grid arch-responsive-stacked-editorial-panels-mobile arch-interaction-none arch-cta-form-first-cta arch-content-statement-led"
+        data-section="03"
+        data-page="testimonials"
+        data-role="education-route"
+        data-layout-signature="13-poise-poise-portrait-sequence-testimonials-results-guidance-03"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Poise Portrait Sequence"
+        data-visual-role="deep-trust-band"
+        data-image-treatment="full-image-vertical-card"
+        data-premium-rhythm="botanical-divider"
+        data-visual-dna-signature="13-poise-botanical-divider-testimonials-03"
+        data-concept-dna="13-poise"
+        data-mobile-rhythm="alternating-mobile-stack"
+        data-component-type="horizontal-process-strip"
+        data-html-anatomy="copy-process-rail-actions"
+        data-css-layout="sticky-sidebar-grid"
+        data-responsive-pattern="stacked-editorial-panels-mobile"
+        data-interaction="none"
+        data-cta-pattern="form-first-cta"
+        data-content-presentation="statement-led"
+        data-visual-hierarchy="list-led"
+        data-architecture-signature="13-poise-horizontal-process-strip-sticky-sidebar-grid-testimonials-03"
+        data-architecture-concept="13-poise"
+        data-architecture-section="03"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Poise / Results Guidance</p>
+          <h2>Read expectations</h2>
+          <p>Understand results responsibly before making decisions.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="results.html"
+              >Results</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-20-ivory-room-standing-calm-transparent.webp"
+            alt="Franciele Sofiati in a full-image Poise Testimonials visual for education route"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 04 — FAQ Bridge
+Page: Testimonials
+Role: education-route
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: FAQ
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 13-poise-poise-portrait-sequence-testimonials-faq-bridge-04
+Mobile note: images crop to calm center points and text stays short
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Have questions / Read common questions before contacting. / FAQ
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-ledger visual-dna-section visual-dna-section-04 visual-layout-dark-band visual-role-service-focus visual-tone-cream visual-image-full-image-layered-panel architecture-section architecture-section-04 arch-component-form-led-conversion-panel arch-html-copy-bullets-side-note arch-layout-timeline-rail-grid arch-responsive-image-first-mobile arch-interaction-route-selector arch-cta-route-card-cta arch-content-journal-led"
+        data-section="04"
+        data-page="testimonials"
+        data-role="education-route"
+        data-layout-signature="13-poise-poise-portrait-sequence-testimonials-faq-bridge-04"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Poise Portrait Sequence"
+        data-visual-role="service-focus"
+        data-image-treatment="full-image-below-hero-text"
+        data-premium-rhythm="dark-band"
+        data-visual-dna-signature="13-poise-dark-band-testimonials-04"
+        data-concept-dna="13-poise"
+        data-mobile-rhythm="alternating-mobile-stack"
+        data-component-type="form-led-conversion-panel"
+        data-html-anatomy="copy-bullets-side-note"
+        data-css-layout="timeline-rail-grid"
+        data-responsive-pattern="image-first-mobile"
+        data-interaction="route-selector"
+        data-cta-pattern="route-card-cta"
+        data-content-presentation="journal-led"
+        data-visual-hierarchy="navigation-led"
+        data-architecture-signature="13-poise-form-led-conversion-panel-timeline-rail-grid-testimonials-04"
+        data-architecture-concept="13-poise"
+        data-architecture-section="04"
+        data-architecture-interaction="route-selector"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Poise / FAQ Bridge</p>
+          <h2>Have questions</h2>
+          <p>Read common questions before contacting.</p>
+          <div class="atlas-actions">
+            <a class="button atlas-button atlas-button--primary" href="faq.html"
+              >FAQ</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-23-ivory-room-arms-crossed-close-transparent.webp"
+            alt="Franciele Sofiati in a full-image Poise Testimonials visual for education route"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 05 — Consultation CTA
+Page: Testimonials
+Role: conversion-contact
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Request evaluation
+Secondary CTA: WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 13-poise-poise-portrait-sequence-testimonials-consultation-cta-05
+Mobile note: images crop to calm center points and text stays short
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Discuss your goals / A consultation gives your questions context. / Request evaluation + WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-split-card visual-dna-section visual-dna-section-05 visual-layout-diagonal-flow visual-role-journal-strip visual-tone-sage visual-image-full-image-gallery-frame architecture-section architecture-section-05 arch-component-luxury-dark-card arch-html-copy-accordion-cards arch-layout-asymmetric-css-grid arch-responsive-sticky-consultation-mobile arch-interaction-sticky-cta arch-cta-journal-consultation-bridge arch-content-paragraph-led"
+        data-section="05"
+        data-page="testimonials"
+        data-role="conversion-contact"
+        data-layout-signature="13-poise-poise-portrait-sequence-testimonials-consultation-cta-05"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Poise Portrait Sequence"
+        data-visual-role="journal-strip"
+        data-image-treatment="full-image-consultation-side"
+        data-premium-rhythm="diagonal-flow"
+        data-visual-dna-signature="13-poise-diagonal-flow-testimonials-05"
+        data-concept-dna="13-poise"
+        data-mobile-rhythm="alternating-mobile-stack"
+        data-component-type="luxury-dark-card"
+        data-html-anatomy="copy-accordion-cards"
+        data-css-layout="asymmetric-css-grid"
+        data-responsive-pattern="sticky-consultation-mobile"
+        data-interaction="sticky-cta"
+        data-cta-pattern="journal-consultation-bridge"
+        data-content-presentation="paragraph-led"
+        data-visual-hierarchy="title-led"
+        data-architecture-signature="13-poise-luxury-dark-card-asymmetric-css-grid-testimonials-05"
+        data-architecture-concept="13-poise"
+        data-architecture-section="05"
+        data-architecture-interaction="sticky-cta"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Poise / Consultation CTA</p>
+          <h2>Discuss your goals</h2>
+          <p>A consultation gives your questions context.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="consultation.html"
+              >Request evaluation</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-26-ivory-room-window-composed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Poise Testimonials visual for conversion contact"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 06 — Consent First
+Page: Testimonials
+Role: reassurance-privacy
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Privacy
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 13-poise-poise-portrait-sequence-testimonials-consent-first-06
+Mobile note: images crop to calm center points and text stays short
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Consent first / Feedback should only be shared with appropriate permission. / Privacy
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-statement visual-dna-section visual-dna-section-06 visual-layout-trust-note visual-role-form-focus visual-tone-ivory visual-image-full-image-quiet-anchor architecture-section architecture-section-06 arch-component-sticky-side-note-section arch-html-kicker-heading-copy-card-grid arch-layout-route-matrix-grid arch-responsive-stacked-editorial-panels-mobile arch-interaction-process-stepper arch-cta-quiet-secondary-cta arch-content-bullets-led"
+        data-section="06"
+        data-page="testimonials"
+        data-role="reassurance-privacy"
+        data-layout-signature="13-poise-poise-portrait-sequence-testimonials-consent-first-06"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Poise Portrait Sequence"
+        data-visual-role="form-focus"
+        data-image-treatment="full-image-minimal-border-frame"
+        data-premium-rhythm="trust-note"
+        data-visual-dna-signature="13-poise-trust-note-testimonials-06"
+        data-concept-dna="13-poise"
+        data-mobile-rhythm="alternating-mobile-stack"
+        data-component-type="sticky-side-note-section"
+        data-html-anatomy="kicker-heading-copy-card-grid"
+        data-css-layout="route-matrix-grid"
+        data-responsive-pattern="stacked-editorial-panels-mobile"
+        data-interaction="process-stepper"
+        data-cta-pattern="quiet-secondary-cta"
+        data-content-presentation="bullets-led"
+        data-visual-hierarchy="form-led"
+        data-architecture-signature="13-poise-sticky-side-note-section-route-matrix-grid-testimonials-06"
+        data-architecture-concept="13-poise"
+        data-architecture-section="06"
+        data-architecture-interaction="process-stepper"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Poise / Consent First</p>
+          <h2>Consent first</h2>
+          <p>Feedback should only be shared with appropriate permission.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="privacy.html"
+              >Privacy</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-02-studio-seated-laughing-transparent.webp"
+            alt="Franciele Sofiati in a full-image Poise Testimonials visual for reassurance privacy"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 07 — No Guarantees
+Page: Testimonials
+Role: reassurance-boundary
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Results
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 13-poise-poise-portrait-sequence-testimonials-no-guarantees-07
+Mobile note: images crop to calm center points and text stays short
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Not a promise / Feedback does not guarantee the same experience or outcome. / Results
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-portrait-stack visual-dna-section visual-dna-section-07 visual-layout-luxury-dark-card visual-role-quiet-proof visual-tone-line visual-image-full-image-elegant-card architecture-section architecture-section-07 arch-component-cta-dock arch-html-copy-process-rail-actions arch-layout-botanical-divider-grid arch-responsive-image-first-mobile arch-interaction-reduced-motion-reveal arch-cta-sticky-consultation-dock arch-content-cards-led"
+        data-section="07"
+        data-page="testimonials"
+        data-role="reassurance-boundary"
+        data-layout-signature="13-poise-poise-portrait-sequence-testimonials-no-guarantees-07"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Poise Portrait Sequence"
+        data-visual-role="quiet-proof"
+        data-image-treatment="no-image-editorial-structure"
+        data-premium-rhythm="luxury-dark-card"
+        data-visual-dna-signature="13-poise-luxury-dark-card-testimonials-07"
+        data-concept-dna="13-poise"
+        data-mobile-rhythm="alternating-mobile-stack"
+        data-component-type="cta-dock"
+        data-html-anatomy="copy-process-rail-actions"
+        data-css-layout="botanical-divider-grid"
+        data-responsive-pattern="image-first-mobile"
+        data-interaction="reduced-motion-reveal"
+        data-cta-pattern="sticky-consultation-dock"
+        data-content-presentation="cards-led"
+        data-visual-hierarchy="list-led"
+        data-architecture-signature="13-poise-cta-dock-botanical-divider-grid-testimonials-07"
+        data-architecture-concept="13-poise"
+        data-architecture-section="07"
+        data-architecture-interaction="reduced-motion-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Poise / No Guarantees</p>
+          <h2>Not a promise</h2>
+          <p>Feedback does not guarantee the same experience or outcome.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="results.html"
+              >Results</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-05-studio-full-direct-transparent.webp"
+            alt="Franciele Sofiati in a full-image Poise Testimonials visual for reassurance boundary"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 08 — Experience Themes
+Page: Testimonials
+Role: trust-themes
+Content: Heading, short paragraph, route cards, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Read FAQ
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 13-poise-poise-portrait-sequence-testimonials-experience-themes-08
+Mobile note: images crop to calm center points and text stays short
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Experience themes / Useful feedback themes include clarity, comfort, guidance, and trust. / Read FAQ
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-editorial-aside visual-dna-section visual-dna-section-08 visual-layout-floating-card visual-role-final-conversion visual-tone-conversion visual-image-full-image-sage-rail architecture-section architecture-section-08 arch-component-minimal-clinical-panel arch-html-copy-bullets-side-note arch-layout-sticky-sidebar-grid arch-responsive-sticky-consultation-mobile arch-interaction-none arch-cta-portrait-trust-cta arch-content-quote-led"
+        data-section="08"
+        data-page="testimonials"
+        data-role="trust-themes"
+        data-layout-signature="13-poise-poise-portrait-sequence-testimonials-experience-themes-08"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Poise Portrait Sequence"
+        data-visual-role="final-conversion"
+        data-image-treatment="full-image-vertical-card"
+        data-premium-rhythm="floating-card"
+        data-visual-dna-signature="13-poise-floating-card-testimonials-08"
+        data-concept-dna="13-poise"
+        data-mobile-rhythm="alternating-mobile-stack"
+        data-component-type="minimal-clinical-panel"
+        data-html-anatomy="copy-bullets-side-note"
+        data-css-layout="sticky-sidebar-grid"
+        data-responsive-pattern="sticky-consultation-mobile"
+        data-interaction="none"
+        data-cta-pattern="portrait-trust-cta"
+        data-content-presentation="quote-led"
+        data-visual-hierarchy="navigation-led"
+        data-architecture-signature="13-poise-minimal-clinical-panel-sticky-sidebar-grid-testimonials-08"
+        data-architecture-concept="13-poise"
+        data-architecture-section="08"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Poise / Experience Themes</p>
+          <h2>Experience themes</h2>
+          <p>
+            Useful feedback themes include clarity, comfort, guidance, and
+            trust.
+          </p>
+          <div class="atlas-card-row" aria-label="Experience Themes cards">
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Clarity</h3>
+              <p>Useful route.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Comfort</h3>
+              <p>Respect limits.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Guidance</h3>
+              <p>Useful route.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Trust</h3>
+              <p>Clear explanations.</p>
+            </article>
+          </div>
+          <div class="atlas-actions">
+            <a class="button atlas-button atlas-button--primary" href="faq.html"
+              >Read FAQ</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-08-studio-front-composed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Poise Testimonials visual for trust themes"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 09 — Privacy Note
+Page: Testimonials
+Role: reassurance-privacy
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Privacy
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 13-poise-poise-portrait-sequence-testimonials-privacy-note-09
+Mobile note: images crop to calm center points and text stays short
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Privacy matters / Personal details and feedback must be handled carefully. / Privacy
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-quote-band visual-dna-section visual-dna-section-09 visual-layout-image-first-mobile visual-role-opening-promise visual-tone-ivory visual-image-full-image-bronze-rule architecture-section architecture-section-09 arch-component-full-width-brand-band arch-html-copy-accordion-cards arch-layout-timeline-rail-grid arch-responsive-stacked-editorial-panels-mobile arch-interaction-route-selector arch-cta-inline-consultation-link arch-content-step-led"
+        data-section="09"
+        data-page="testimonials"
+        data-role="reassurance-privacy"
+        data-layout-signature="13-poise-poise-portrait-sequence-testimonials-privacy-note-09"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Poise Portrait Sequence"
+        data-visual-role="opening-promise"
+        data-image-treatment="full-image-below-hero-text"
+        data-premium-rhythm="image-first-mobile"
+        data-visual-dna-signature="13-poise-image-first-mobile-testimonials-09"
+        data-concept-dna="13-poise"
+        data-mobile-rhythm="alternating-mobile-stack"
+        data-component-type="full-width-brand-band"
+        data-html-anatomy="copy-accordion-cards"
+        data-css-layout="timeline-rail-grid"
+        data-responsive-pattern="stacked-editorial-panels-mobile"
+        data-interaction="route-selector"
+        data-cta-pattern="inline-consultation-link"
+        data-content-presentation="step-led"
+        data-visual-hierarchy="title-led"
+        data-architecture-signature="13-poise-full-width-brand-band-timeline-rail-grid-testimonials-09"
+        data-architecture-concept="13-poise"
+        data-architecture-section="09"
+        data-architecture-interaction="route-selector"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Poise / Privacy Note</p>
+          <h2>Privacy matters</h2>
+          <p>Personal details and feedback must be handled carefully.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="privacy.html"
+              >Privacy</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-11-studio-chair-angled-transparent.webp"
+            alt="Franciele Sofiati in a full-image Poise Testimonials visual for reassurance privacy"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 10 — Contact Path
+Page: Testimonials
+Role: conversion-final
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Contact
+Secondary CTA: WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 13-poise-poise-portrait-sequence-testimonials-contact-path-10
+Mobile note: images crop to calm center points and text stays short
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Contact directly / Send a message if you need guidance. / Contact + WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-timeline visual-dna-section visual-dna-section-10 visual-layout-alternating-panel visual-role-sage-editorial-break visual-tone-sage visual-image-full-image-open-frame architecture-section architecture-section-10 arch-component-stepper-component arch-html-kicker-heading-copy-card-grid arch-layout-asymmetric-css-grid arch-responsive-image-first-mobile arch-interaction-sticky-cta arch-cta-footer-bridge-cta arch-content-question-led"
+        data-section="10"
+        data-page="testimonials"
+        data-role="conversion-final"
+        data-layout-signature="13-poise-poise-portrait-sequence-testimonials-contact-path-10"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Poise Portrait Sequence"
+        data-visual-role="sage-editorial-break"
+        data-image-treatment="full-image-consultation-side"
+        data-premium-rhythm="alternating-panel"
+        data-visual-dna-signature="13-poise-alternating-panel-testimonials-10"
+        data-concept-dna="13-poise"
+        data-mobile-rhythm="alternating-mobile-stack"
+        data-component-type="stepper-component"
+        data-html-anatomy="kicker-heading-copy-card-grid"
+        data-css-layout="asymmetric-css-grid"
+        data-responsive-pattern="image-first-mobile"
+        data-interaction="sticky-cta"
+        data-cta-pattern="footer-bridge-cta"
+        data-content-presentation="question-led"
+        data-visual-hierarchy="form-led"
+        data-architecture-signature="13-poise-stepper-component-asymmetric-css-grid-testimonials-10"
+        data-architecture-concept="13-poise"
+        data-architecture-section="10"
+        data-architecture-interaction="sticky-cta"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Poise / Contact Path</p>
+          <h2>Contact directly</h2>
+          <p>Send a message if you need guidance.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="contact.html"
+              >Contact</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-14-balcony-orange-side-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Poise Testimonials visual for conversion final"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+    </main>
+    <div data-partial-mount="cookie-banner"></div>
+    <div data-partial-mount="footer"></div>
+    <div data-partial-mount="floating-widgets"></div>
+    <script src="js/partials.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="../../js/sofiati-50-architecture-system.js" defer></script>
+    <script
+      src="../../js/sofiati-footer-cookie.js"
+      defer
+      data-sofiati-cookie-loader
+    ></script>
+  </body>
+</html>

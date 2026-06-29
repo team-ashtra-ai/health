@@ -1,0 +1,871 @@
+<!doctype html>
+<html lang="en" data-source-lang="en" data-default-lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Send a private message or request an evaluation when you feel ready. Signature expresses this through signature personal mark."
+    />
+    <title>Contact | Signature | Franciele Sofiati</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/atlas-story.css" />
+    <link
+      rel="canonical"
+      href="https://www.sofiati.com/concepts/48-signature/contact.html"
+    />
+    <meta
+      property="og:title"
+      content="Contact | Signature | Franciele Sofiati"
+    />
+    <meta
+      property="og:description"
+      content="Send a private message or request an evaluation when you feel ready. Signature expresses this through signature personal mark."
+    />
+    <meta
+      property="og:image"
+      content="../../assets/brand/franciele-sofiati-25-ivory-room-window-touch-transparent.webp"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://www.sofiati.com/concepts/48-signature/contact.html"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link
+      rel="icon"
+      href="../../assets/brand/sofiati-favicon.svg"
+      type="image/svg+xml"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="../../assets/brand/sofiati-monogram-sage.png"
+    />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-full-image-premium-system.css"
+    />
+    <link rel="stylesheet" href="../../css/sofiati-premium-visual-dna.css" />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-50-architecture-system.css"
+    />
+  </head>
+  <body
+    class="concept concept-signature page-contact atlas-site atlas-site-48 atlas-layout-family-7 premium-visual-dna visual-dna-site-48 visual-header-split-navigation-header visual-footer-consultation-first-footer visual-mobile-low-density-mobile architecture-site architecture-site-48 architecture-journey-guided-pathway-journey architecture-header-split-nav-header architecture-footer-compact-legal-footer"
+    data-concept="48-signature"
+    data-page="contact"
+    data-page-label="Contact"
+    data-page-title="Contact | Signature | Franciele Sofiati"
+    data-page-description="Send a private message or request an evaluation when you feel ready. Signature expresses this through signature personal mark."
+    data-canonical="https://www.sofiati.com/concepts/48-signature/contact.html"
+    data-default-lang="en"
+    data-atlas-dna="Signature Personal Mark"
+    data-brand-asset-root="../../assets/brand"
+    data-visual-dna-theme="distinctive premium brand feel, polished portrait-led identity"
+    data-header-pattern="split-navigation-header"
+    data-footer-pattern="consultation-first-footer"
+    data-mobile-pattern="low-density-mobile"
+    data-colour-rhythm="spa-sage-gold-cream"
+    data-architecture-contract="48-signature"
+    data-visitor-journey="guided-pathway journey"
+    data-ia-emphasis="lead with signature portrait and brand confidence"
+    data-header-architecture="split-nav-header"
+    data-footer-architecture="compact-legal-footer"
+    data-cta-architecture="quiet-secondary-cta"
+    data-js-architecture="scroll-reveal, process-stepper, scroll-reveal with reduced-motion-safe delegation"
+  >
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div data-partial-mount="status-banner"></div>
+    <div data-partial-mount="accessibility"></div>
+    <div data-partial-mount="header"></div>
+    <div data-partial-mount="mobile-menu"></div>
+    <main
+      id="main"
+      class="atlas-main atlas-page-contact architecture-main architecture-main-48"
+      data-page="contact"
+      data-section-count="10"
+      data-atlas-source="docs/sites/48-signature/MASTER-BRIEF.md"
+      data-homepage-architecture="consultation-route-selector opening, full-bleed-soft-background-section trust build, luxury-dark-card final bridge"
+      data-internal-page-architecture="accordion-guidance-block intro, vertical-process-rail body, form-led-conversion-panel conversion close"
+    >
+      <!--
+SECTION 01 — Contact Hero
+Page: Contact
+Role: opening-contact
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Message WhatsApp
+Secondary CTA: Fill form
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 48-signature-signature-personal-mark-contact-contact-hero-01
+Mobile note: split layouts become single-flow stories with preserved order
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Contact Franciele / Send a private message or request an evaluation when you feel ready. / Message WhatsApp + Fill form
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-minimal-field visual-dna-section visual-dna-section-01 visual-layout-centered-portrait visual-role-form-focus visual-tone-ivory visual-image-full-image-editorial-panel architecture-section architecture-section-01 arch-component-consultation-route-selector arch-html-kicker-heading-copy-card-grid arch-layout-route-matrix-grid arch-responsive-footer-specific-mobile-rhythm arch-interaction-scroll-reveal arch-cta-quiet-secondary-cta arch-content-bullets-led"
+        data-section="01"
+        data-page="contact"
+        data-role="opening-contact"
+        data-layout-signature="48-signature-signature-personal-mark-contact-contact-hero-01"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Signature Personal Mark"
+        data-visual-role="form-focus"
+        data-image-treatment="css-statement-panel"
+        data-premium-rhythm="centered-portrait"
+        data-visual-dna-signature="48-signature-centered-portrait-contact-01"
+        data-concept-dna="48-signature"
+        data-mobile-rhythm="low-density-mobile"
+        data-component-type="consultation-route-selector"
+        data-html-anatomy="kicker-heading-copy-card-grid"
+        data-css-layout="route-matrix-grid"
+        data-responsive-pattern="footer-specific-mobile-rhythm"
+        data-interaction="scroll-reveal"
+        data-cta-pattern="quiet-secondary-cta"
+        data-content-presentation="bullets-led"
+        data-visual-hierarchy="statement-led"
+        data-architecture-signature="48-signature-consultation-route-selector-route-matrix-grid-contact-01"
+        data-architecture-concept="48-signature"
+        data-architecture-section="01"
+        data-architecture-interaction="scroll-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Signature / Contact Hero</p>
+          <h1>Contact Franciele</h1>
+          <p>
+            Send a private message or request an evaluation when you feel ready.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >Message WhatsApp</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="contact.html"
+              >Fill form</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-12-studio-close-composed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Signature Contact visual for opening contact"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-hero-photo"
+            data-sofiati-photo="true"
+            fetchpriority="high"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 02 — Consultation Reminder
+Page: Contact
+Role: conversion-contact
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Request evaluation
+Secondary CTA: Message WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 48-signature-signature-personal-mark-contact-consultation-reminder-02
+Mobile note: split layouts become single-flow stories with preserved order
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Evaluation helps / A consultation gives your questions more context and direction. / Request evaluation + Message WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-media-left visual-dna-section visual-dna-section-02 visual-layout-process-strip visual-role-quiet-proof visual-tone-line visual-image-full-image-soft-field architecture-section architecture-section-02 arch-component-accordion-guidance-block arch-html-copy-process-rail-actions arch-layout-botanical-divider-grid arch-responsive-alternating-mobile-order arch-interaction-process-stepper arch-cta-sticky-consultation-dock arch-content-cards-led"
+        data-section="02"
+        data-page="contact"
+        data-role="conversion-contact"
+        data-layout-signature="48-signature-signature-personal-mark-contact-consultation-reminder-02"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Signature Personal Mark"
+        data-visual-role="quiet-proof"
+        data-image-treatment="full-image-beside-text"
+        data-premium-rhythm="process-strip"
+        data-visual-dna-signature="48-signature-process-strip-contact-02"
+        data-concept-dna="48-signature"
+        data-mobile-rhythm="low-density-mobile"
+        data-component-type="accordion-guidance-block"
+        data-html-anatomy="copy-process-rail-actions"
+        data-css-layout="botanical-divider-grid"
+        data-responsive-pattern="alternating-mobile-order"
+        data-interaction="process-stepper"
+        data-cta-pattern="sticky-consultation-dock"
+        data-content-presentation="cards-led"
+        data-visual-hierarchy="process-led"
+        data-architecture-signature="48-signature-accordion-guidance-block-botanical-divider-grid-contact-02"
+        data-architecture-concept="48-signature"
+        data-architecture-section="02"
+        data-architecture-interaction="process-stepper"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Signature / Consultation Reminder</p>
+          <h2>Evaluation helps</h2>
+          <p>A consultation gives your questions more context and direction.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="consultation.html"
+              >Request evaluation</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >Message WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-15-balcony-orange-direct-transparent.webp"
+            alt="Franciele Sofiati in a full-image Signature Contact visual for conversion contact"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 03 — Best Next Step
+Page: Contact
+Role: guidance-route
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Begin consultation
+Secondary CTA: Ask a question
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 48-signature-signature-personal-mark-contact-best-next-step-03
+Mobile note: split layouts become single-flow stories with preserved order
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Best next step / For care decisions, begin with evaluation. For questions, send a short message. / Begin consultation + Ask a question
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-media-right visual-dna-section visual-dna-section-03 visual-layout-form-panel visual-role-final-conversion visual-tone-conversion visual-image-full-image-clinical-frame architecture-section architecture-section-03 arch-component-article-row arch-html-copy-bullets-side-note arch-layout-sticky-sidebar-grid arch-responsive-horizontal-scroll-cards-mobile arch-interaction-scroll-reveal arch-cta-portrait-trust-cta arch-content-quote-led"
+        data-section="03"
+        data-page="contact"
+        data-role="guidance-route"
+        data-layout-signature="48-signature-signature-personal-mark-contact-best-next-step-03"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Signature Personal Mark"
+        data-visual-role="final-conversion"
+        data-image-treatment="full-image-dark-luxury-section"
+        data-premium-rhythm="form-panel"
+        data-visual-dna-signature="48-signature-form-panel-contact-03"
+        data-concept-dna="48-signature"
+        data-mobile-rhythm="low-density-mobile"
+        data-component-type="article-row"
+        data-html-anatomy="copy-bullets-side-note"
+        data-css-layout="sticky-sidebar-grid"
+        data-responsive-pattern="horizontal-scroll-cards-mobile"
+        data-interaction="scroll-reveal"
+        data-cta-pattern="portrait-trust-cta"
+        data-content-presentation="quote-led"
+        data-visual-hierarchy="cta-led"
+        data-architecture-signature="48-signature-article-row-sticky-sidebar-grid-contact-03"
+        data-architecture-concept="48-signature"
+        data-architecture-section="03"
+        data-architecture-interaction="scroll-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Signature / Best Next Step</p>
+          <h2>Best next step</h2>
+          <p>
+            For care decisions, begin with evaluation. For questions, send a
+            short message.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="consultation.html"
+              >Begin consultation</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="contact.html"
+              >Ask a question</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-20-ivory-room-standing-calm-transparent.webp"
+            alt="Franciele Sofiati in a full-image Signature Contact visual for guidance route"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 04 — Contact Options
+Page: Contact
+Role: conversion-contact
+Content: Heading, short paragraph, route cards, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Message WhatsApp
+Secondary CTA: Send form
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 48-signature-signature-personal-mark-contact-contact-options-04
+Mobile note: split layouts become single-flow stories with preserved order
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Contact options / Choose WhatsApp, email, or the form route. / Message WhatsApp + Send form
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-centered visual-dna-section visual-dna-section-04 visual-layout-botanical-divider visual-role-opening-promise visual-tone-ivory visual-image-full-image-layered-panel architecture-section architecture-section-04 arch-component-full-bleed-soft-background-section arch-html-copy-accordion-cards arch-layout-timeline-rail-grid arch-responsive-footer-specific-mobile-rhythm arch-interaction-process-stepper arch-cta-inline-consultation-link arch-content-step-led"
+        data-section="04"
+        data-page="contact"
+        data-role="conversion-contact"
+        data-layout-signature="48-signature-signature-personal-mark-contact-contact-options-04"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Signature Personal Mark"
+        data-visual-role="opening-promise"
+        data-image-treatment="full-image-floating-panel"
+        data-premium-rhythm="botanical-divider"
+        data-visual-dna-signature="48-signature-botanical-divider-contact-04"
+        data-concept-dna="48-signature"
+        data-mobile-rhythm="low-density-mobile"
+        data-component-type="full-bleed-soft-background-section"
+        data-html-anatomy="copy-accordion-cards"
+        data-css-layout="timeline-rail-grid"
+        data-responsive-pattern="footer-specific-mobile-rhythm"
+        data-interaction="process-stepper"
+        data-cta-pattern="inline-consultation-link"
+        data-content-presentation="step-led"
+        data-visual-hierarchy="card-led"
+        data-architecture-signature="48-signature-full-bleed-soft-background-section-timeline-rail-grid-contact-04"
+        data-architecture-concept="48-signature"
+        data-architecture-section="04"
+        data-architecture-interaction="process-stepper"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Signature / Contact Options</p>
+          <h2>Contact options</h2>
+          <p>Choose WhatsApp, email, or the form route.</p>
+          <div class="atlas-card-row" aria-label="Contact Options cards">
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>WhatsApp</h3>
+              <p>Useful route.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Email</h3>
+              <p>Useful route.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Form</h3>
+              <p>Useful route.</p>
+            </article>
+          </div>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >Message WhatsApp</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="contact.html"
+              >Send form</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-23-ivory-room-arms-crossed-close-transparent.webp"
+            alt="Franciele Sofiati in a full-image Signature Contact visual for conversion contact"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 05 — Message Tips
+Page: Contact
+Role: education-prep
+Content: Heading, short paragraph, concise bullets, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Ask a question
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 48-signature-signature-personal-mark-contact-message-tips-05
+Mobile note: split layouts become single-flow stories with preserved order
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: What to include / A short note can make the first response more useful. / Ask a question
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-ledger visual-dna-section visual-dna-section-05 visual-layout-dark-band visual-role-sage-editorial-break visual-tone-sage visual-image-full-image-gallery-frame architecture-section architecture-section-05 arch-component-vertical-process-rail arch-html-kicker-heading-copy-card-grid arch-layout-asymmetric-css-grid arch-responsive-alternating-mobile-order arch-interaction-scroll-reveal arch-cta-footer-bridge-cta arch-content-question-led"
+        data-section="05"
+        data-page="contact"
+        data-role="education-prep"
+        data-layout-signature="48-signature-signature-personal-mark-contact-message-tips-05"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Signature Personal Mark"
+        data-visual-role="sage-editorial-break"
+        data-image-treatment="full-image-footer-brand-card"
+        data-premium-rhythm="dark-band"
+        data-visual-dna-signature="48-signature-dark-band-contact-05"
+        data-concept-dna="48-signature"
+        data-mobile-rhythm="low-density-mobile"
+        data-component-type="vertical-process-rail"
+        data-html-anatomy="kicker-heading-copy-card-grid"
+        data-css-layout="asymmetric-css-grid"
+        data-responsive-pattern="alternating-mobile-order"
+        data-interaction="scroll-reveal"
+        data-cta-pattern="footer-bridge-cta"
+        data-content-presentation="question-led"
+        data-visual-hierarchy="statement-led"
+        data-architecture-signature="48-signature-vertical-process-rail-asymmetric-css-grid-contact-05"
+        data-architecture-concept="48-signature"
+        data-architecture-section="05"
+        data-architecture-interaction="scroll-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Signature / Message Tips</p>
+          <h2>What to include</h2>
+          <p>A short note can make the first response more useful.</p>
+          <ul class="atlas-bullets">
+            <li>Your goal</li>
+            <li>Main question</li>
+            <li>Preferred contact</li>
+            <li>Comfort level</li>
+          </ul>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="contact.html"
+              >Ask a question</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-26-ivory-room-window-composed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Signature Contact visual for education prep"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 06 — Form Section
+Page: Contact
+Role: conversion-form
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Send message
+Secondary CTA: Privacy
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 48-signature-signature-personal-mark-contact-form-section-06
+Mobile note: split layouts become single-flow stories with preserved order
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Send a message / Share your question and preferred contact route. / Send message + Privacy
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-split-card visual-dna-section visual-dna-section-06 visual-layout-diagonal-flow visual-role-human-trust visual-tone-cream visual-image-full-image-quiet-anchor architecture-section architecture-section-06 arch-component-journal-carousel arch-html-copy-process-rail-actions arch-layout-route-matrix-grid arch-responsive-horizontal-scroll-cards-mobile arch-interaction-process-stepper arch-cta-whatsapp-first-cta arch-content-route-led"
+        data-section="06"
+        data-page="contact"
+        data-role="conversion-form"
+        data-layout-signature="48-signature-signature-personal-mark-contact-form-section-06"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Signature Personal Mark"
+        data-visual-role="human-trust"
+        data-image-treatment="css-statement-panel"
+        data-premium-rhythm="diagonal-flow"
+        data-visual-dna-signature="48-signature-diagonal-flow-contact-06"
+        data-concept-dna="48-signature"
+        data-mobile-rhythm="low-density-mobile"
+        data-component-type="journal-carousel"
+        data-html-anatomy="copy-process-rail-actions"
+        data-css-layout="route-matrix-grid"
+        data-responsive-pattern="horizontal-scroll-cards-mobile"
+        data-interaction="process-stepper"
+        data-cta-pattern="whatsapp-first-cta"
+        data-content-presentation="route-led"
+        data-visual-hierarchy="process-led"
+        data-architecture-signature="48-signature-journal-carousel-route-matrix-grid-contact-06"
+        data-architecture-concept="48-signature"
+        data-architecture-section="06"
+        data-architecture-interaction="process-stepper"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Signature / Form Section</p>
+          <h2>Send a message</h2>
+          <p>Share your question and preferred contact route.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="contact.html"
+              >Send message</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="privacy.html"
+              >Privacy</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-02-studio-seated-laughing-transparent.webp"
+            alt="Franciele Sofiati in a full-image Signature Contact visual for conversion form"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 07 — Reassurance Break
+Page: Contact
+Role: reassurance-statement
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: None
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 48-signature-signature-personal-mark-contact-reassurance-break-07
+Mobile note: split layouts become single-flow stories with preserved order
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: No pressure / You can begin with a question before deciding anything. / None
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-statement visual-dna-section visual-dna-section-07 visual-layout-trust-note visual-role-route-panel visual-tone-editorial visual-image-full-image-elegant-card architecture-section architecture-section-07 arch-component-botanical-divider-section arch-html-copy-bullets-side-note arch-layout-botanical-divider-grid arch-responsive-footer-specific-mobile-rhythm arch-interaction-scroll-reveal arch-cta-faq-contact-bridge arch-content-form-led"
+        data-section="07"
+        data-page="contact"
+        data-role="reassurance-statement"
+        data-layout-signature="48-signature-signature-personal-mark-contact-reassurance-break-07"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Signature Personal Mark"
+        data-visual-role="route-panel"
+        data-image-treatment="full-image-beside-text"
+        data-premium-rhythm="trust-note"
+        data-visual-dna-signature="48-signature-trust-note-contact-07"
+        data-concept-dna="48-signature"
+        data-mobile-rhythm="low-density-mobile"
+        data-component-type="botanical-divider-section"
+        data-html-anatomy="copy-bullets-side-note"
+        data-css-layout="botanical-divider-grid"
+        data-responsive-pattern="footer-specific-mobile-rhythm"
+        data-interaction="scroll-reveal"
+        data-cta-pattern="faq-contact-bridge"
+        data-content-presentation="form-led"
+        data-visual-hierarchy="cta-led"
+        data-architecture-signature="48-signature-botanical-divider-section-botanical-divider-grid-contact-07"
+        data-architecture-concept="48-signature"
+        data-architecture-section="07"
+        data-architecture-interaction="scroll-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Signature / Reassurance Break</p>
+          <h2>No pressure</h2>
+          <p>You can begin with a question before deciding anything.</p>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-05-studio-full-direct-transparent.webp"
+            alt="Franciele Sofiati in a full-image Signature Contact visual for reassurance statement"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 08 — FAQ Bridge
+Page: Contact
+Role: education-route
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Read FAQ
+Secondary CTA: Begin consultation
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 48-signature-signature-personal-mark-contact-faq-bridge-08
+Mobile note: split layouts become single-flow stories with preserved order
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Have doubts / Read common questions before sending your message. / Read FAQ + Begin consultation
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-portrait-stack visual-dna-section visual-dna-section-08 visual-layout-luxury-dark-card visual-role-deep-trust-band visual-tone-deep visual-image-full-image-sage-rail architecture-section architecture-section-08 arch-component-horizontal-process-strip arch-html-copy-accordion-cards arch-layout-sticky-sidebar-grid arch-responsive-alternating-mobile-order arch-interaction-process-stepper arch-cta-service-form-bridge arch-content-statement-led"
+        data-section="08"
+        data-page="contact"
+        data-role="education-route"
+        data-layout-signature="48-signature-signature-personal-mark-contact-faq-bridge-08"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Signature Personal Mark"
+        data-visual-role="deep-trust-band"
+        data-image-treatment="full-image-dark-luxury-section"
+        data-premium-rhythm="luxury-dark-card"
+        data-visual-dna-signature="48-signature-luxury-dark-card-contact-08"
+        data-concept-dna="48-signature"
+        data-mobile-rhythm="low-density-mobile"
+        data-component-type="horizontal-process-strip"
+        data-html-anatomy="copy-accordion-cards"
+        data-css-layout="sticky-sidebar-grid"
+        data-responsive-pattern="alternating-mobile-order"
+        data-interaction="process-stepper"
+        data-cta-pattern="service-form-bridge"
+        data-content-presentation="statement-led"
+        data-visual-hierarchy="card-led"
+        data-architecture-signature="48-signature-horizontal-process-strip-sticky-sidebar-grid-contact-08"
+        data-architecture-concept="48-signature"
+        data-architecture-section="08"
+        data-architecture-interaction="process-stepper"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Signature / FAQ Bridge</p>
+          <h2>Have doubts</h2>
+          <p>Read common questions before sending your message.</p>
+          <div class="atlas-actions">
+            <a class="button atlas-button atlas-button--primary" href="faq.html"
+              >Read FAQ</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="consultation.html"
+              >Begin consultation</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-08-studio-front-composed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Signature Contact visual for education route"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 09 — Trust Links
+Page: Contact
+Role: reassurance-privacy
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Privacy
+Secondary CTA: Accessibility
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 48-signature-signature-personal-mark-contact-trust-links-09
+Mobile note: split layouts become single-flow stories with preserved order
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Before sending / Review privacy or accessibility information if helpful. / Privacy + Accessibility
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-editorial-aside visual-dna-section visual-dna-section-09 visual-layout-floating-card visual-role-service-focus visual-tone-cream visual-image-full-image-bronze-rule architecture-section architecture-section-09 arch-component-form-led-conversion-panel arch-html-kicker-heading-copy-card-grid arch-layout-timeline-rail-grid arch-responsive-horizontal-scroll-cards-mobile arch-interaction-scroll-reveal arch-cta-deep-sage-cta-band arch-content-journal-led"
+        data-section="09"
+        data-page="contact"
+        data-role="reassurance-privacy"
+        data-layout-signature="48-signature-signature-personal-mark-contact-trust-links-09"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Signature Personal Mark"
+        data-visual-role="service-focus"
+        data-image-treatment="full-image-floating-panel"
+        data-premium-rhythm="floating-card"
+        data-visual-dna-signature="48-signature-floating-card-contact-09"
+        data-concept-dna="48-signature"
+        data-mobile-rhythm="low-density-mobile"
+        data-component-type="form-led-conversion-panel"
+        data-html-anatomy="kicker-heading-copy-card-grid"
+        data-css-layout="timeline-rail-grid"
+        data-responsive-pattern="horizontal-scroll-cards-mobile"
+        data-interaction="scroll-reveal"
+        data-cta-pattern="deep-sage-cta-band"
+        data-content-presentation="journal-led"
+        data-visual-hierarchy="statement-led"
+        data-architecture-signature="48-signature-form-led-conversion-panel-timeline-rail-grid-contact-09"
+        data-architecture-concept="48-signature"
+        data-architecture-section="09"
+        data-architecture-interaction="scroll-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Signature / Trust Links</p>
+          <h2>Before sending</h2>
+          <p>Review privacy or accessibility information if helpful.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="privacy.html"
+              >Privacy</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="accessibility.html"
+              >Accessibility</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-11-studio-chair-angled-transparent.webp"
+            alt="Franciele Sofiati in a full-image Signature Contact visual for reassurance privacy"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 10 — Final Route
+Page: Contact
+Role: conversion-final
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Home
+Secondary CTA: Sitemap
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 48-signature-signature-personal-mark-contact-final-route-10
+Mobile note: split layouts become single-flow stories with preserved order
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Keep exploring / Return home or open the sitemap for all routes. / Home + Sitemap
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-quote-band visual-dna-section visual-dna-section-10 visual-layout-image-first-mobile visual-role-journal-strip visual-tone-sage visual-image-full-image-open-frame architecture-section architecture-section-10 arch-component-luxury-dark-card arch-html-copy-process-rail-actions arch-layout-asymmetric-css-grid arch-responsive-footer-specific-mobile-rhythm arch-interaction-process-stepper arch-cta-minimal-line-cta arch-content-paragraph-led"
+        data-section="10"
+        data-page="contact"
+        data-role="conversion-final"
+        data-layout-signature="48-signature-signature-personal-mark-contact-final-route-10"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Signature Personal Mark"
+        data-visual-role="journal-strip"
+        data-image-treatment="full-image-footer-brand-card"
+        data-premium-rhythm="image-first-mobile"
+        data-visual-dna-signature="48-signature-image-first-mobile-contact-10"
+        data-concept-dna="48-signature"
+        data-mobile-rhythm="low-density-mobile"
+        data-component-type="luxury-dark-card"
+        data-html-anatomy="copy-process-rail-actions"
+        data-css-layout="asymmetric-css-grid"
+        data-responsive-pattern="footer-specific-mobile-rhythm"
+        data-interaction="process-stepper"
+        data-cta-pattern="minimal-line-cta"
+        data-content-presentation="paragraph-led"
+        data-visual-hierarchy="process-led"
+        data-architecture-signature="48-signature-luxury-dark-card-asymmetric-css-grid-contact-10"
+        data-architecture-concept="48-signature"
+        data-architecture-section="10"
+        data-architecture-interaction="process-stepper"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Signature / Final Route</p>
+          <h2>Keep exploring</h2>
+          <p>Return home or open the sitemap for all routes.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="index.html"
+              >Home</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="sitemap.html"
+              >Sitemap</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-14-balcony-orange-side-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Signature Contact visual for conversion final"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+    </main>
+    <div data-partial-mount="cookie-banner"></div>
+    <div data-partial-mount="footer"></div>
+    <div data-partial-mount="floating-widgets"></div>
+    <script src="js/partials.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="../../js/sofiati-50-architecture-system.js" defer></script>
+    <script
+      src="../../js/sofiati-footer-cookie.js"
+      defer
+      data-sofiati-cookie-loader
+    ></script>
+  </body>
+</html>

@@ -1,59 +1,47 @@
 # Visual Similarity Audit
 
-- Exact full visual-DNA duplicate combinations: 0
-- Concepts still too similar by exact contract: none
+- Exact component sequence duplicates: 0
+- Exact hero/header/footer/mobile duplicates: 0
+- Exact HTML anatomy sequence duplicates: 20
+- Exact CSS layout sequence duplicates: 15
+- Similarity risk: no exact architecture contract duplicates are allowed by the generated matrix; manual screenshot review remains required for subjective similarity.
 
-## Repeated Layout Signatures
+## Duplicate Details
 
-Individual layout families intentionally recur, but no concept has the same ordered 10-section rhythm combination.
-
-## Repeated Hero Patterns
-
-Hero pattern families recur across the 50-site system, but each recurring family is paired with a different header, section, frame, CTA, footer, mobile, and colour rhythm.
-
-## Repeated Header Patterns
-
-- compact-centered-header: 01-inspire, 11-bloom, 21-calm, 31-evolve, 41-vista
-- floating-pill-header: 02-empower, 12-vital, 22-precision, 32-serene, 42-softline
-- minimal-line-header: 03-enhance, 13-poise, 23-ritual, 33-elan, 43-meridian
-- gallery-calm-header: 04-renew, 14-aura, 24-signal, 34-flora, 44-safeguard
-- editorial-masthead-header: 05-elevate, 15-clarity, 25-align, 35-atelier, 45-silhouette
-- soft-sage-header: 06-refine, 16-grace, 26-vivant, 36-lumina, 46-curate
-- botanical-rail-header: 07-glow, 17-sculpt, 27-form, 37-vellum, 47-proof
-- split-navigation-header: 08-balance, 18-lumin, 28-pure, 38-origin, 48-signature
-- dark-premium-header: 09-radiance, 19-verda, 29-solace, 39-kindred, 49-wisdom
-- cta-forward-header: 10-essence, 20-halo, 30-method, 40-noble, 50-sovereign
-
-## Repeated Footer Patterns
-
-- journal-route-footer: 01-inspire, 11-bloom, 21-calm, 31-evolve, 41-vista
-- sage-rail-footer: 02-empower, 12-vital, 22-precision, 32-serene, 42-softline
-- light-multi-column-footer: 03-enhance, 13-poise, 23-ritual, 33-elan, 43-meridian
-- brand-card-footer: 04-renew, 14-aura, 24-signal, 34-flora, 44-safeguard
-- quiet-ink-footer: 05-elevate, 15-clarity, 25-align, 35-atelier, 45-silhouette
-- deep-sage-editorial-footer: 06-refine, 16-grace, 26-vivant, 36-lumina, 46-curate
-- compact-legal-footer: 07-glow, 17-sculpt, 27-form, 37-vellum, 47-proof
-- consultation-first-footer: 08-balance, 18-lumin, 28-pure, 38-origin, 48-signature
-- bronze-rule-footer: 09-radiance, 19-verda, 29-solace, 39-kindred, 49-wisdom
-- cta-led-footer: 10-essence, 20-halo, 30-method, 40-noble, 50-sovereign
-
-## Repeated Section Rhythm Patterns
-
-- No exact ordered section-rhythm duplicates.
-
-## Repeated Mobile Patterns
-
-- portrait-anchor-mobile: 01-inspire, 11-bloom, 21-calm, 31-evolve, 41-vista
-- deep-cta-mobile: 02-empower, 12-vital, 22-precision, 32-serene, 42-softline
-- alternating-mobile-stack: 03-enhance, 13-poise, 23-ritual, 33-elan, 43-meridian
-- route-first-mobile: 04-renew, 14-aura, 24-signal, 34-flora, 44-safeguard
-- clinical-mobile-stack: 05-elevate, 15-clarity, 25-align, 35-atelier, 45-silhouette
-- text-first-mobile: 06-refine, 16-grace, 26-vivant, 36-lumina, 46-curate
-- editorial-card-mobile: 07-glow, 17-sculpt, 27-form, 37-vellum, 47-proof
-- low-density-mobile: 08-balance, 18-lumin, 28-pure, 38-origin, 48-signature
-- image-first-mobile: 09-radiance, 19-verda, 29-solace, 39-kindred, 49-wisdom
-- compact-cta-mobile: 10-essence, 20-halo, 30-method, 40-noble, 50-sovereign
-
-## Required Manual Fixes
-
-- Run a screenshot contact-sheet review after browser rendering to catch subjective similarities not visible in static metadata.
+- Component sequence: none
+- Hero/header/footer/mobile: none
+- HTML anatomy: 01-inspire, 21-calm, 41-vista => copy-figure-actions|heading-copy-aside-figure|copy-process-rail-actions|copy-form-intro-actions|copy-masonry-cards-portrait|manifesto-copy-actions|copy-first-image-anchor|kicker-heading-copy-card-grid|statement-copy-wide-figure|quote-copy-portrait-actions
+- HTML anatomy: 02-empower, 22-precision, 42-softline => heading-copy-aside-figure|quote-copy-portrait-actions|copy-bullets-side-note|manifesto-copy-actions|copy-cta-dock-panel|heading-copy-aside-figure|quote-copy-portrait-actions|copy-bullets-side-note|manifesto-copy-actions|copy-cta-dock-panel
+- HTML anatomy: 03-enhance, 23-ritual, 43-meridian => copy-process-rail-actions|copy-bullets-side-note|copy-accordion-cards|kicker-heading-copy-card-grid|copy-process-rail-actions|copy-bullets-side-note|copy-accordion-cards|kicker-heading-copy-card-grid|copy-process-rail-actions|copy-bullets-side-note
+- HTML anatomy: 04-renew, 24-signal, 44-safeguard => copy-form-intro-actions|manifesto-copy-actions|kicker-heading-copy-card-grid|quote-copy-portrait-actions|copy-tabs-route-cards|copy-cta-dock-panel|copy-route-grid-figure|copy-bullets-side-note|image-first-copy-actions|heading-copy-aside-figure
+- HTML anatomy: 05-elevate, 25-align, 45-silhouette => copy-masonry-cards-portrait|copy-cta-dock-panel|copy-process-rail-actions|copy-tabs-route-cards|copy-figure-actions|quote-copy-portrait-actions|copy-timeline-figure|kicker-heading-copy-card-grid|copy-comparison-cards|manifesto-copy-actions
+- HTML anatomy: 06-refine, 26-vivant, 46-curate => manifesto-copy-actions|copy-first-image-anchor|kicker-heading-copy-card-grid|statement-copy-wide-figure|quote-copy-portrait-actions|copy-journal-row-figure|copy-tabs-route-cards|copy-accordion-cards|copy-cta-dock-panel|portrait-copy-sidebar-actions
+- HTML anatomy: 07-glow, 27-form, 47-proof => copy-first-image-anchor|portrait-copy-sidebar-actions|copy-process-rail-actions|copy-journal-row-figure|copy-timeline-figure|copy-first-image-anchor|portrait-copy-sidebar-actions|copy-process-rail-actions|copy-journal-row-figure|copy-timeline-figure
+- HTML anatomy: 08-balance, 28-pure, 48-signature => kicker-heading-copy-card-grid|copy-process-rail-actions|copy-bullets-side-note|copy-accordion-cards|kicker-heading-copy-card-grid|copy-process-rail-actions|copy-bullets-side-note|copy-accordion-cards|kicker-heading-copy-card-grid|copy-process-rail-actions
+- HTML anatomy: 09-radiance, 29-solace, 49-wisdom => statement-copy-wide-figure|copy-journal-row-figure|copy-accordion-cards|portrait-copy-sidebar-actions|copy-comparison-cards|copy-timeline-figure|copy-figure-actions|copy-process-rail-actions|copy-masonry-cards-portrait|copy-first-image-anchor
+- HTML anatomy: 10-essence, 30-method, 50-sovereign => quote-copy-portrait-actions|copy-timeline-figure|kicker-heading-copy-card-grid|copy-comparison-cards|manifesto-copy-actions|portrait-copy-sidebar-actions|copy-form-intro-actions|copy-accordion-cards|heading-copy-aside-figure|copy-journal-row-figure
+- HTML anatomy: 11-bloom, 31-evolve => copy-journal-row-figure|copy-tabs-route-cards|copy-accordion-cards|copy-cta-dock-panel|portrait-copy-sidebar-actions|copy-route-grid-figure|copy-comparison-cards|copy-bullets-side-note|copy-timeline-figure|image-first-copy-actions
+- HTML anatomy: 12-vital, 32-serene => copy-tabs-route-cards|image-first-copy-actions|kicker-heading-copy-card-grid|copy-route-grid-figure|copy-form-intro-actions|copy-tabs-route-cards|image-first-copy-actions|kicker-heading-copy-card-grid|copy-route-grid-figure|copy-form-intro-actions
+- HTML anatomy: 13-poise, 33-elan => copy-accordion-cards|kicker-heading-copy-card-grid|copy-process-rail-actions|copy-bullets-side-note|copy-accordion-cards|kicker-heading-copy-card-grid|copy-process-rail-actions|copy-bullets-side-note|copy-accordion-cards|kicker-heading-copy-card-grid
+- HTML anatomy: 14-aura, 34-flora => copy-cta-dock-panel|copy-route-grid-figure|copy-bullets-side-note|image-first-copy-actions|heading-copy-aside-figure|copy-form-intro-actions|manifesto-copy-actions|kicker-heading-copy-card-grid|quote-copy-portrait-actions|copy-tabs-route-cards
+- HTML anatomy: 15-clarity, 35-atelier => portrait-copy-sidebar-actions|copy-form-intro-actions|copy-accordion-cards|heading-copy-aside-figure|copy-journal-row-figure|image-first-copy-actions|statement-copy-wide-figure|copy-bullets-side-note|copy-first-image-anchor|copy-route-grid-figure
+- HTML anatomy: 16-grace, 36-lumina => copy-route-grid-figure|copy-comparison-cards|copy-bullets-side-note|copy-timeline-figure|image-first-copy-actions|copy-figure-actions|heading-copy-aside-figure|copy-process-rail-actions|copy-form-intro-actions|copy-masonry-cards-portrait
+- HTML anatomy: 17-sculpt, 37-vellum => copy-comparison-cards|copy-masonry-cards-portrait|copy-accordion-cards|copy-figure-actions|statement-copy-wide-figure|copy-comparison-cards|copy-masonry-cards-portrait|copy-accordion-cards|copy-figure-actions|statement-copy-wide-figure
+- HTML anatomy: 18-lumin, 38-origin => copy-bullets-side-note|copy-accordion-cards|kicker-heading-copy-card-grid|copy-process-rail-actions|copy-bullets-side-note|copy-accordion-cards|kicker-heading-copy-card-grid|copy-process-rail-actions|copy-bullets-side-note|copy-accordion-cards
+- HTML anatomy: 19-verda, 39-kindred => copy-timeline-figure|copy-figure-actions|copy-process-rail-actions|copy-masonry-cards-portrait|copy-first-image-anchor|statement-copy-wide-figure|copy-journal-row-figure|copy-accordion-cards|portrait-copy-sidebar-actions|copy-comparison-cards
+- HTML anatomy: 20-halo, 40-noble => image-first-copy-actions|statement-copy-wide-figure|copy-bullets-side-note|copy-first-image-anchor|copy-route-grid-figure|copy-masonry-cards-portrait|copy-cta-dock-panel|copy-process-rail-actions|copy-tabs-route-cards|copy-figure-actions
+- CSS layout: 01-inspire, 36-lumina => asymmetric-css-grid|full-width-band-grid|masonry-css-grid|form-first-grid|timeline-rail-grid|luxury-dark-grid|wide-editorial-columns|centered-flex-column|sticky-sidebar-grid|alternating-grid
+- CSS layout: 02-empower, 37-vellum => sticky-sidebar-grid|route-matrix-grid|timeline-rail-grid|botanical-divider-grid|asymmetric-css-grid|sticky-sidebar-grid|route-matrix-grid|timeline-rail-grid|botanical-divider-grid|asymmetric-css-grid
+- CSS layout: 03-enhance, 38-origin => route-matrix-grid|layered-panel-grid|wide-editorial-columns|full-width-band-grid|route-matrix-grid|layered-panel-grid|wide-editorial-columns|full-width-band-grid|route-matrix-grid|layered-panel-grid
+- CSS layout: 04-renew, 39-kindred => timeline-rail-grid|wide-editorial-columns|sticky-sidebar-grid|image-first-grid|botanical-divider-grid|magazine-css-grid|route-matrix-grid|clinical-two-column-grid|asymmetric-css-grid|masonry-css-grid
+- CSS layout: 05-elevate, 40-noble => botanical-divider-grid|full-width-band-grid|image-first-grid|compact-card-grid|sticky-sidebar-grid|statement-first-grid|wide-editorial-columns|horizontal-scroll-strip|timeline-rail-grid|mobile-dock-layout
+- CSS layout: 06-refine, 41-vista => asymmetric-css-grid|route-matrix-grid|botanical-divider-grid|sticky-sidebar-grid|timeline-rail-grid|asymmetric-css-grid|route-matrix-grid|botanical-divider-grid|sticky-sidebar-grid|timeline-rail-grid
+- CSS layout: 07-glow, 42-softline => sticky-sidebar-grid|layered-panel-grid|magazine-css-grid|statement-first-grid|asymmetric-css-grid|form-first-grid|wide-editorial-columns|alternating-grid|botanical-divider-grid|horizontal-scroll-strip
+- CSS layout: 08-balance, 43-meridian => route-matrix-grid|statement-first-grid|clinical-two-column-grid|compact-card-grid|asymmetric-css-grid|full-width-band-grid|masonry-css-grid|form-first-grid|timeline-rail-grid|luxury-dark-grid
+- CSS layout: 09-radiance, 44-safeguard => timeline-rail-grid|botanical-divider-grid|asymmetric-css-grid|sticky-sidebar-grid|route-matrix-grid|timeline-rail-grid|botanical-divider-grid|asymmetric-css-grid|sticky-sidebar-grid|route-matrix-grid
+- CSS layout: 10-essence, 45-silhouette => botanical-divider-grid|centered-flex-column|masonry-css-grid|statement-first-grid|botanical-divider-grid|centered-flex-column|masonry-css-grid|statement-first-grid|botanical-divider-grid|centered-flex-column
+- CSS layout: 11-bloom, 46-curate => asymmetric-css-grid|masonry-css-grid|timeline-rail-grid|wide-editorial-columns|sticky-sidebar-grid|image-first-grid|botanical-divider-grid|magazine-css-grid|route-matrix-grid|clinical-two-column-grid
+- CSS layout: 12-vital, 47-proof => sticky-sidebar-grid|statement-first-grid|wide-editorial-columns|horizontal-scroll-strip|timeline-rail-grid|mobile-dock-layout|masonry-css-grid|layered-panel-grid|asymmetric-css-grid|alternating-grid
+- CSS layout: 13-poise, 48-signature => route-matrix-grid|botanical-divider-grid|sticky-sidebar-grid|timeline-rail-grid|asymmetric-css-grid|route-matrix-grid|botanical-divider-grid|sticky-sidebar-grid|timeline-rail-grid|asymmetric-css-grid
+- CSS layout: 14-aura, 49-wisdom => timeline-rail-grid|centered-flex-column|image-first-grid|mobile-dock-layout|route-matrix-grid|compact-card-grid|masonry-css-grid|luxury-dark-grid|sticky-sidebar-grid|layered-panel-grid
+- CSS layout: 15-clarity, 50-sovereign => botanical-divider-grid|mobile-dock-layout|magazine-css-grid|horizontal-scroll-strip|route-matrix-grid|statement-first-grid|clinical-two-column-grid|compact-card-grid|asymmetric-css-grid|full-width-band-grid

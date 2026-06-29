@@ -1,0 +1,868 @@
+<!doctype html>
+<html lang="en" data-source-lang="en" data-default-lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Send a private message or request an evaluation when you feel ready. Vital expresses this through vital direct guidance."
+    />
+    <title>Contact | Vital | Franciele Sofiati</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/atlas-story.css" />
+    <link
+      rel="canonical"
+      href="https://www.sofiati.com/concepts/12-vital/contact.html"
+    />
+    <meta property="og:title" content="Contact | Vital | Franciele Sofiati" />
+    <meta
+      property="og:description"
+      content="Send a private message or request an evaluation when you feel ready. Vital expresses this through vital direct guidance."
+    />
+    <meta
+      property="og:image"
+      content="../../assets/brand/franciele-sofiati-12-studio-close-composed-transparent.webp"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://www.sofiati.com/concepts/12-vital/contact.html"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link
+      rel="icon"
+      href="../../assets/brand/sofiati-favicon.svg"
+      type="image/svg+xml"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="../../assets/brand/sofiati-monogram-sage.png"
+    />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-full-image-premium-system.css"
+    />
+    <link rel="stylesheet" href="../../css/sofiati-premium-visual-dna.css" />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-50-architecture-system.css"
+    />
+  </head>
+  <body
+    class="concept concept-vital page-contact atlas-site atlas-site-12 atlas-layout-family-1 premium-visual-dna visual-dna-site-12 visual-header-floating-pill-header visual-footer-sage-rail-footer visual-mobile-deep-cta-mobile architecture-site architecture-site-12 architecture-journey-guided-pathway-journey architecture-header-dark-premium-header architecture-footer-soft-cream-footer-sage-band"
+    data-concept="12-vital"
+    data-page="contact"
+    data-page-label="Contact"
+    data-page-title="Contact | Vital | Franciele Sofiati"
+    data-page-description="Send a private message or request an evaluation when you feel ready. Vital expresses this through vital direct guidance."
+    data-canonical="https://www.sofiati.com/concepts/12-vital/contact.html"
+    data-default-lang="en"
+    data-atlas-dna="Vital Direct Guidance"
+    data-brand-asset-root="../../assets/brand"
+    data-visual-dna-theme="fresh vitality, clearer contrast, active spacing rhythm"
+    data-header-pattern="floating-pill-header"
+    data-footer-pattern="sage-rail-footer"
+    data-mobile-pattern="deep-cta-mobile"
+    data-colour-rhythm="sage-open-ivory-deep"
+    data-architecture-contract="12-vital"
+    data-visitor-journey="guided-pathway journey"
+    data-ia-emphasis="lead with energetic process and route clarity"
+    data-header-architecture="dark-premium-header"
+    data-footer-architecture="soft-cream-footer-sage-band"
+    data-cta-architecture="inline-consultation-link"
+    data-js-architecture="journal-carousel, reduced-motion-reveal, journal-carousel with reduced-motion-safe delegation"
+  >
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div data-partial-mount="status-banner"></div>
+    <div data-partial-mount="accessibility"></div>
+    <div data-partial-mount="header"></div>
+    <div data-partial-mount="mobile-menu"></div>
+    <main
+      id="main"
+      class="atlas-main atlas-page-contact architecture-main architecture-main-12"
+      data-page="contact"
+      data-section-count="10"
+      data-atlas-source="docs/sites/12-vital/MASTER-BRIEF.md"
+      data-homepage-architecture="service-route-matrix opening, accordion-guidance-block trust build, full-bleed-soft-background-section final bridge"
+      data-internal-page-architecture="card-masonry intro, form-led-conversion-panel body, statement-interlude conversion close"
+    >
+      <!--
+SECTION 01 — Contact Hero
+Page: Contact
+Role: opening-contact
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Message WhatsApp
+Secondary CTA: Fill form
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 12-vital-vital-direct-guidance-contact-contact-hero-01
+Mobile note: routes collapse into touch-led ledger items with clear spacing
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Contact Franciele / Send a private message or request an evaluation when you feel ready. / Message WhatsApp + Fill form
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-minimal-field visual-dna-section visual-dna-section-01 visual-layout-dark-band visual-role-sage-editorial-break visual-tone-sage visual-image-full-image-bronze-rule architecture-section architecture-section-01 arch-component-service-route-matrix arch-html-copy-tabs-route-cards arch-layout-sticky-sidebar-grid arch-responsive-footer-specific-mobile-rhythm arch-interaction-journal-carousel arch-cta-quiet-secondary-cta arch-content-quote-led"
+        data-section="01"
+        data-page="contact"
+        data-role="opening-contact"
+        data-layout-signature="12-vital-vital-direct-guidance-contact-contact-hero-01"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Vital Direct Guidance"
+        data-visual-role="sage-editorial-break"
+        data-image-treatment="full-image-beside-text"
+        data-premium-rhythm="dark-band"
+        data-visual-dna-signature="12-vital-dark-band-contact-01"
+        data-concept-dna="12-vital"
+        data-mobile-rhythm="deep-cta-mobile"
+        data-component-type="service-route-matrix"
+        data-html-anatomy="copy-tabs-route-cards"
+        data-css-layout="sticky-sidebar-grid"
+        data-responsive-pattern="footer-specific-mobile-rhythm"
+        data-interaction="journal-carousel"
+        data-cta-pattern="quiet-secondary-cta"
+        data-content-presentation="quote-led"
+        data-visual-hierarchy="statement-led"
+        data-architecture-signature="12-vital-service-route-matrix-sticky-sidebar-grid-contact-01"
+        data-architecture-concept="12-vital"
+        data-architecture-section="01"
+        data-architecture-interaction="journal-carousel"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Vital / Contact Hero</p>
+          <h1>Contact Franciele</h1>
+          <p>
+            Send a private message or request an evaluation when you feel ready.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >Message WhatsApp</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="contact.html"
+              >Fill form</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-13-balcony-orange-soft-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Vital Contact visual for opening contact"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-hero-photo"
+            data-sofiati-photo="true"
+            fetchpriority="high"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 02 — Form Section
+Page: Contact
+Role: conversion-form
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Send message
+Secondary CTA: Privacy
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 12-vital-vital-direct-guidance-contact-form-section-02
+Mobile note: routes collapse into touch-led ledger items with clear spacing
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Send a message / Share your question and preferred contact route. / Send message + Privacy
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-media-left visual-dna-section visual-dna-section-02 visual-layout-route-grid visual-role-human-trust visual-tone-cream visual-image-full-image-open-frame architecture-section architecture-section-02 arch-component-card-masonry arch-html-image-first-copy-actions arch-layout-statement-first-grid arch-responsive-text-first-mobile arch-interaction-reduced-motion-reveal arch-cta-sticky-consultation-dock arch-content-step-led"
+        data-section="02"
+        data-page="contact"
+        data-role="conversion-form"
+        data-layout-signature="12-vital-vital-direct-guidance-contact-form-section-02"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Vital Direct Guidance"
+        data-visual-role="human-trust"
+        data-image-treatment="full-image-dark-luxury-section"
+        data-premium-rhythm="route-grid"
+        data-visual-dna-signature="12-vital-route-grid-contact-02"
+        data-concept-dna="12-vital"
+        data-mobile-rhythm="deep-cta-mobile"
+        data-component-type="card-masonry"
+        data-html-anatomy="image-first-copy-actions"
+        data-css-layout="statement-first-grid"
+        data-responsive-pattern="text-first-mobile"
+        data-interaction="reduced-motion-reveal"
+        data-cta-pattern="sticky-consultation-dock"
+        data-content-presentation="step-led"
+        data-visual-hierarchy="process-led"
+        data-architecture-signature="12-vital-card-masonry-statement-first-grid-contact-02"
+        data-architecture-concept="12-vital"
+        data-architecture-section="02"
+        data-architecture-interaction="reduced-motion-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Vital / Form Section</p>
+          <h2>Send a message</h2>
+          <p>Share your question and preferred contact route.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="contact.html"
+              >Send message</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="privacy.html"
+              >Privacy</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-17-balcony-orange-laughing-transparent.webp"
+            alt="Franciele Sofiati in a full-image Vital Contact visual for conversion form"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 03 — Reassurance Break
+Page: Contact
+Role: reassurance-statement
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: None
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 12-vital-vital-direct-guidance-contact-reassurance-break-03
+Mobile note: routes collapse into touch-led ledger items with clear spacing
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: No pressure / You can begin with a question before deciding anything. / None
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-media-right visual-dna-section visual-dna-section-03 visual-layout-form-panel visual-role-route-panel visual-tone-editorial visual-image-full-image-editorial-panel architecture-section architecture-section-03 arch-component-footer-bridge-panel arch-html-kicker-heading-copy-card-grid arch-layout-wide-editorial-columns arch-responsive-sticky-consultation-mobile arch-interaction-journal-carousel arch-cta-portrait-trust-cta arch-content-question-led"
+        data-section="03"
+        data-page="contact"
+        data-role="reassurance-statement"
+        data-layout-signature="12-vital-vital-direct-guidance-contact-reassurance-break-03"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Vital Direct Guidance"
+        data-visual-role="route-panel"
+        data-image-treatment="full-image-floating-panel"
+        data-premium-rhythm="form-panel"
+        data-visual-dna-signature="12-vital-form-panel-contact-03"
+        data-concept-dna="12-vital"
+        data-mobile-rhythm="deep-cta-mobile"
+        data-component-type="footer-bridge-panel"
+        data-html-anatomy="kicker-heading-copy-card-grid"
+        data-css-layout="wide-editorial-columns"
+        data-responsive-pattern="sticky-consultation-mobile"
+        data-interaction="journal-carousel"
+        data-cta-pattern="portrait-trust-cta"
+        data-content-presentation="question-led"
+        data-visual-hierarchy="cta-led"
+        data-architecture-signature="12-vital-footer-bridge-panel-wide-editorial-columns-contact-03"
+        data-architecture-concept="12-vital"
+        data-architecture-section="03"
+        data-architecture-interaction="journal-carousel"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Vital / Reassurance Break</p>
+          <h2>No pressure</h2>
+          <p>You can begin with a question before deciding anything.</p>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-21-ivory-room-side-gaze-transparent.webp"
+            alt="Franciele Sofiati in a full-image Vital Contact visual for reassurance statement"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 04 — FAQ Bridge
+Page: Contact
+Role: education-route
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Read FAQ
+Secondary CTA: Begin consultation
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 12-vital-vital-direct-guidance-contact-faq-bridge-04
+Mobile note: routes collapse into touch-led ledger items with clear spacing
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Have doubts / Read common questions before sending your message. / Read FAQ + Begin consultation
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-centered visual-dna-section visual-dna-section-04 visual-layout-framed-minimal visual-role-deep-trust-band visual-tone-deep visual-image-full-image-soft-field architecture-section architecture-section-04 arch-component-accordion-guidance-block arch-html-copy-route-grid-figure arch-layout-horizontal-scroll-strip arch-responsive-accordion-mobile-sections arch-interaction-reduced-motion-reveal arch-cta-inline-consultation-link arch-content-route-led"
+        data-section="04"
+        data-page="contact"
+        data-role="education-route"
+        data-layout-signature="12-vital-vital-direct-guidance-contact-faq-bridge-04"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Vital Direct Guidance"
+        data-visual-role="deep-trust-band"
+        data-image-treatment="full-image-footer-brand-card"
+        data-premium-rhythm="framed-minimal"
+        data-visual-dna-signature="12-vital-framed-minimal-contact-04"
+        data-concept-dna="12-vital"
+        data-mobile-rhythm="deep-cta-mobile"
+        data-component-type="accordion-guidance-block"
+        data-html-anatomy="copy-route-grid-figure"
+        data-css-layout="horizontal-scroll-strip"
+        data-responsive-pattern="accordion-mobile-sections"
+        data-interaction="reduced-motion-reveal"
+        data-cta-pattern="inline-consultation-link"
+        data-content-presentation="route-led"
+        data-visual-hierarchy="card-led"
+        data-architecture-signature="12-vital-accordion-guidance-block-horizontal-scroll-strip-contact-04"
+        data-architecture-concept="12-vital"
+        data-architecture-section="04"
+        data-architecture-interaction="reduced-motion-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Vital / FAQ Bridge</p>
+          <h2>Have doubts</h2>
+          <p>Read common questions before sending your message.</p>
+          <div class="atlas-actions">
+            <a class="button atlas-button atlas-button--primary" href="faq.html"
+              >Read FAQ</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="consultation.html"
+              >Begin consultation</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-24-ivory-room-window-side-transparent.webp"
+            alt="Franciele Sofiati in a full-image Vital Contact visual for education route"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 05 — Trust Links
+Page: Contact
+Role: reassurance-privacy
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Privacy
+Secondary CTA: Accessibility
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 12-vital-vital-direct-guidance-contact-trust-links-05
+Mobile note: routes collapse into touch-led ledger items with clear spacing
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Before sending / Review privacy or accessibility information if helpful. / Privacy + Accessibility
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-ledger visual-dna-section visual-dna-section-05 visual-layout-centered-portrait visual-role-service-focus visual-tone-cream visual-image-full-image-clinical-frame architecture-section architecture-section-05 arch-component-form-led-conversion-panel arch-html-copy-form-intro-actions arch-layout-timeline-rail-grid arch-responsive-footer-specific-mobile-rhythm arch-interaction-journal-carousel arch-cta-footer-bridge-cta arch-content-form-led"
+        data-section="05"
+        data-page="contact"
+        data-role="reassurance-privacy"
+        data-layout-signature="12-vital-vital-direct-guidance-contact-trust-links-05"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Vital Direct Guidance"
+        data-visual-role="service-focus"
+        data-image-treatment="css-statement-panel"
+        data-premium-rhythm="centered-portrait"
+        data-visual-dna-signature="12-vital-centered-portrait-contact-05"
+        data-concept-dna="12-vital"
+        data-mobile-rhythm="deep-cta-mobile"
+        data-component-type="form-led-conversion-panel"
+        data-html-anatomy="copy-form-intro-actions"
+        data-css-layout="timeline-rail-grid"
+        data-responsive-pattern="footer-specific-mobile-rhythm"
+        data-interaction="journal-carousel"
+        data-cta-pattern="footer-bridge-cta"
+        data-content-presentation="form-led"
+        data-visual-hierarchy="statement-led"
+        data-architecture-signature="12-vital-form-led-conversion-panel-timeline-rail-grid-contact-05"
+        data-architecture-concept="12-vital"
+        data-architecture-section="05"
+        data-architecture-interaction="journal-carousel"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Vital / Trust Links</p>
+          <h2>Before sending</h2>
+          <p>Review privacy or accessibility information if helpful.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="privacy.html"
+              >Privacy</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="accessibility.html"
+              >Accessibility</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-27-ivory-room-window-attentive-transparent.webp"
+            alt="Franciele Sofiati in a full-image Vital Contact visual for reassurance privacy"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 06 — Consultation Reminder
+Page: Contact
+Role: conversion-contact
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Request evaluation
+Secondary CTA: Message WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 12-vital-vital-direct-guidance-contact-consultation-reminder-06
+Mobile note: routes collapse into touch-led ledger items with clear spacing
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Evaluation helps / A consultation gives your questions more context and direction. / Request evaluation + Message WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-split-card visual-dna-section visual-dna-section-06 visual-layout-gallery-frame visual-role-journal-strip visual-tone-sage visual-image-full-image-layered-panel architecture-section architecture-section-06 arch-component-editorial-pull-quote-section arch-html-copy-tabs-route-cards arch-layout-mobile-dock-layout arch-responsive-text-first-mobile arch-interaction-reduced-motion-reveal arch-cta-whatsapp-first-cta arch-content-statement-led"
+        data-section="06"
+        data-page="contact"
+        data-role="conversion-contact"
+        data-layout-signature="12-vital-vital-direct-guidance-contact-consultation-reminder-06"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Vital Direct Guidance"
+        data-visual-role="journal-strip"
+        data-image-treatment="full-image-beside-text"
+        data-premium-rhythm="gallery-frame"
+        data-visual-dna-signature="12-vital-gallery-frame-contact-06"
+        data-concept-dna="12-vital"
+        data-mobile-rhythm="deep-cta-mobile"
+        data-component-type="editorial-pull-quote-section"
+        data-html-anatomy="copy-tabs-route-cards"
+        data-css-layout="mobile-dock-layout"
+        data-responsive-pattern="text-first-mobile"
+        data-interaction="reduced-motion-reveal"
+        data-cta-pattern="whatsapp-first-cta"
+        data-content-presentation="statement-led"
+        data-visual-hierarchy="process-led"
+        data-architecture-signature="12-vital-editorial-pull-quote-section-mobile-dock-layout-contact-06"
+        data-architecture-concept="12-vital"
+        data-architecture-section="06"
+        data-architecture-interaction="reduced-motion-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Vital / Consultation Reminder</p>
+          <h2>Evaluation helps</h2>
+          <p>A consultation gives your questions more context and direction.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="consultation.html"
+              >Request evaluation</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >Message WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-03-studio-seated-joyful-transparent.webp"
+            alt="Franciele Sofiati in a full-image Vital Contact visual for conversion contact"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 07 — Best Next Step
+Page: Contact
+Role: guidance-route
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Begin consultation
+Secondary CTA: Ask a question
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 12-vital-vital-direct-guidance-contact-best-next-step-07
+Mobile note: routes collapse into touch-led ledger items with clear spacing
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Best next step / For care decisions, begin with evaluation. For questions, send a short message. / Begin consultation + Ask a question
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-statement visual-dna-section visual-dna-section-07 visual-layout-text-first-mobile visual-role-form-focus visual-tone-ivory visual-image-full-image-gallery-frame architecture-section architecture-section-07 arch-component-centered-manifesto arch-html-image-first-copy-actions arch-layout-masonry-css-grid arch-responsive-sticky-consultation-mobile arch-interaction-journal-carousel arch-cta-faq-contact-bridge arch-content-journal-led"
+        data-section="07"
+        data-page="contact"
+        data-role="guidance-route"
+        data-layout-signature="12-vital-vital-direct-guidance-contact-best-next-step-07"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Vital Direct Guidance"
+        data-visual-role="form-focus"
+        data-image-treatment="full-image-dark-luxury-section"
+        data-premium-rhythm="text-first-mobile"
+        data-visual-dna-signature="12-vital-text-first-mobile-contact-07"
+        data-concept-dna="12-vital"
+        data-mobile-rhythm="deep-cta-mobile"
+        data-component-type="centered-manifesto"
+        data-html-anatomy="image-first-copy-actions"
+        data-css-layout="masonry-css-grid"
+        data-responsive-pattern="sticky-consultation-mobile"
+        data-interaction="journal-carousel"
+        data-cta-pattern="faq-contact-bridge"
+        data-content-presentation="journal-led"
+        data-visual-hierarchy="cta-led"
+        data-architecture-signature="12-vital-centered-manifesto-masonry-css-grid-contact-07"
+        data-architecture-concept="12-vital"
+        data-architecture-section="07"
+        data-architecture-interaction="journal-carousel"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Vital / Best Next Step</p>
+          <h2>Best next step</h2>
+          <p>
+            For care decisions, begin with evaluation. For questions, send a
+            short message.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="consultation.html"
+              >Begin consultation</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="contact.html"
+              >Ask a question</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-06-studio-crossed-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Vital Contact visual for guidance route"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 08 — Contact Options
+Page: Contact
+Role: conversion-contact
+Content: Heading, short paragraph, route cards, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Message WhatsApp
+Secondary CTA: Send form
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 12-vital-vital-direct-guidance-contact-contact-options-08
+Mobile note: routes collapse into touch-led ledger items with clear spacing
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Contact options / Choose WhatsApp, email, or the form route. / Message WhatsApp + Send form
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-portrait-stack visual-dna-section visual-dna-section-08 visual-layout-alternating-panel visual-role-quiet-proof visual-tone-line visual-image-full-image-quiet-anchor architecture-section architecture-section-08 arch-component-dark-trust-band arch-html-kicker-heading-copy-card-grid arch-layout-layered-panel-grid arch-responsive-accordion-mobile-sections arch-interaction-reduced-motion-reveal arch-cta-service-form-bridge arch-content-paragraph-led"
+        data-section="08"
+        data-page="contact"
+        data-role="conversion-contact"
+        data-layout-signature="12-vital-vital-direct-guidance-contact-contact-options-08"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Vital Direct Guidance"
+        data-visual-role="quiet-proof"
+        data-image-treatment="full-image-floating-panel"
+        data-premium-rhythm="alternating-panel"
+        data-visual-dna-signature="12-vital-alternating-panel-contact-08"
+        data-concept-dna="12-vital"
+        data-mobile-rhythm="deep-cta-mobile"
+        data-component-type="dark-trust-band"
+        data-html-anatomy="kicker-heading-copy-card-grid"
+        data-css-layout="layered-panel-grid"
+        data-responsive-pattern="accordion-mobile-sections"
+        data-interaction="reduced-motion-reveal"
+        data-cta-pattern="service-form-bridge"
+        data-content-presentation="paragraph-led"
+        data-visual-hierarchy="card-led"
+        data-architecture-signature="12-vital-dark-trust-band-layered-panel-grid-contact-08"
+        data-architecture-concept="12-vital"
+        data-architecture-section="08"
+        data-architecture-interaction="reduced-motion-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Vital / Contact Options</p>
+          <h2>Contact options</h2>
+          <p>Choose WhatsApp, email, or the form route.</p>
+          <div class="atlas-card-row" aria-label="Contact Options cards">
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>WhatsApp</h3>
+              <p>Useful route.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Email</h3>
+              <p>Useful route.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Form</h3>
+              <p>Useful route.</p>
+            </article>
+          </div>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >Message WhatsApp</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="contact.html"
+              >Send form</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-09-studio-seated-bright-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Vital Contact visual for conversion contact"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 09 — Message Tips
+Page: Contact
+Role: education-prep
+Content: Heading, short paragraph, concise bullets, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Ask a question
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 12-vital-vital-direct-guidance-contact-message-tips-09
+Mobile note: routes collapse into touch-led ledger items with clear spacing
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: What to include / A short note can make the first response more useful. / Ask a question
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-editorial-aside visual-dna-section visual-dna-section-09 visual-layout-soft-wellness-card visual-role-final-conversion visual-tone-conversion visual-image-full-image-elegant-card architecture-section architecture-section-09 arch-component-statement-interlude arch-html-copy-route-grid-figure arch-layout-asymmetric-css-grid arch-responsive-footer-specific-mobile-rhythm arch-interaction-journal-carousel arch-cta-deep-sage-cta-band arch-content-bullets-led"
+        data-section="09"
+        data-page="contact"
+        data-role="education-prep"
+        data-layout-signature="12-vital-vital-direct-guidance-contact-message-tips-09"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Vital Direct Guidance"
+        data-visual-role="final-conversion"
+        data-image-treatment="full-image-footer-brand-card"
+        data-premium-rhythm="soft-wellness-card"
+        data-visual-dna-signature="12-vital-soft-wellness-card-contact-09"
+        data-concept-dna="12-vital"
+        data-mobile-rhythm="deep-cta-mobile"
+        data-component-type="statement-interlude"
+        data-html-anatomy="copy-route-grid-figure"
+        data-css-layout="asymmetric-css-grid"
+        data-responsive-pattern="footer-specific-mobile-rhythm"
+        data-interaction="journal-carousel"
+        data-cta-pattern="deep-sage-cta-band"
+        data-content-presentation="bullets-led"
+        data-visual-hierarchy="statement-led"
+        data-architecture-signature="12-vital-statement-interlude-asymmetric-css-grid-contact-09"
+        data-architecture-concept="12-vital"
+        data-architecture-section="09"
+        data-architecture-interaction="journal-carousel"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Vital / Message Tips</p>
+          <h2>What to include</h2>
+          <p>A short note can make the first response more useful.</p>
+          <ul class="atlas-bullets">
+            <li>Your goal</li>
+            <li>Main question</li>
+            <li>Preferred contact</li>
+            <li>Comfort level</li>
+          </ul>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="contact.html"
+              >Ask a question</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-12-studio-close-composed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Vital Contact visual for education prep"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 10 — Final Route
+Page: Contact
+Role: conversion-final
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Home
+Secondary CTA: Sitemap
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 12-vital-vital-direct-guidance-contact-final-route-10
+Mobile note: routes collapse into touch-led ledger items with clear spacing
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Keep exploring / Return home or open the sitemap for all routes. / Home + Sitemap
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-quote-band visual-dna-section visual-dna-section-10 visual-layout-floating-card visual-role-opening-promise visual-tone-ivory visual-image-full-image-sage-rail architecture-section architecture-section-10 arch-component-full-bleed-soft-background-section arch-html-copy-form-intro-actions arch-layout-alternating-grid arch-responsive-text-first-mobile arch-interaction-reduced-motion-reveal arch-cta-minimal-line-cta arch-content-cards-led"
+        data-section="10"
+        data-page="contact"
+        data-role="conversion-final"
+        data-layout-signature="12-vital-vital-direct-guidance-contact-final-route-10"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Vital Direct Guidance"
+        data-visual-role="opening-promise"
+        data-image-treatment="css-statement-panel"
+        data-premium-rhythm="floating-card"
+        data-visual-dna-signature="12-vital-floating-card-contact-10"
+        data-concept-dna="12-vital"
+        data-mobile-rhythm="deep-cta-mobile"
+        data-component-type="full-bleed-soft-background-section"
+        data-html-anatomy="copy-form-intro-actions"
+        data-css-layout="alternating-grid"
+        data-responsive-pattern="text-first-mobile"
+        data-interaction="reduced-motion-reveal"
+        data-cta-pattern="minimal-line-cta"
+        data-content-presentation="cards-led"
+        data-visual-hierarchy="process-led"
+        data-architecture-signature="12-vital-full-bleed-soft-background-section-alternating-grid-contact-10"
+        data-architecture-concept="12-vital"
+        data-architecture-section="10"
+        data-architecture-interaction="reduced-motion-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Vital / Final Route</p>
+          <h2>Keep exploring</h2>
+          <p>Return home or open the sitemap for all routes.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="index.html"
+              >Home</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="sitemap.html"
+              >Sitemap</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-15-balcony-orange-direct-transparent.webp"
+            alt="Franciele Sofiati in a full-image Vital Contact visual for conversion final"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+    </main>
+    <div data-partial-mount="cookie-banner"></div>
+    <div data-partial-mount="footer"></div>
+    <div data-partial-mount="floating-widgets"></div>
+    <script src="js/partials.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="../../js/sofiati-50-architecture-system.js" defer></script>
+    <script
+      src="../../js/sofiati-footer-cookie.js"
+      defer
+      data-sofiati-cookie-loader
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,844 @@
+<!doctype html>
+<html lang="en" data-source-lang="en" data-default-lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Feedback should be treated with consent, privacy, and realistic context. Balance expresses this through balanced split narrative."
+    />
+    <title>Testimonials | Balance | Franciele Sofiati</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/atlas-story.css" />
+    <link
+      rel="canonical"
+      href="https://www.sofiati.com/concepts/08-balance/testimonials.html"
+    />
+    <meta
+      property="og:title"
+      content="Testimonials | Balance | Franciele Sofiati"
+    />
+    <meta
+      property="og:description"
+      content="Feedback should be treated with consent, privacy, and realistic context. Balance expresses this through balanced split narrative."
+    />
+    <meta
+      property="og:image"
+      content="../../assets/brand/franciele-sofiati-08-studio-front-composed-transparent.webp"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://www.sofiati.com/concepts/08-balance/testimonials.html"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link
+      rel="icon"
+      href="../../assets/brand/sofiati-favicon.svg"
+      type="image/svg+xml"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="../../assets/brand/sofiati-monogram-sage.png"
+    />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-full-image-premium-system.css"
+    />
+    <link rel="stylesheet" href="../../css/sofiati-premium-visual-dna.css" />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-50-architecture-system.css"
+    />
+  </head>
+  <body
+    class="concept concept-balance page-testimonials atlas-site atlas-site-08 atlas-layout-family-7 premium-visual-dna visual-dna-site-08 visual-header-split-navigation-header visual-footer-consultation-first-footer visual-mobile-low-density-mobile architecture-site architecture-site-08 architecture-journey-education-first-journey architecture-header-split-nav-header architecture-footer-compact-legal-footer"
+    data-concept="08-balance"
+    data-page="testimonials"
+    data-page-label="Testimonials"
+    data-page-title="Testimonials | Balance | Franciele Sofiati"
+    data-page-description="Feedback should be treated with consent, privacy, and realistic context. Balance expresses this through balanced split narrative."
+    data-canonical="https://www.sofiati.com/concepts/08-balance/testimonials.html"
+    data-default-lang="en"
+    data-atlas-dna="Balanced Split Narrative"
+    data-brand-asset-root="../../assets/brand"
+    data-visual-dna-theme="magazine beauty, layered editorial rhythm, stronger image/text alternation"
+    data-header-pattern="split-navigation-header"
+    data-footer-pattern="consultation-first-footer"
+    data-mobile-pattern="low-density-mobile"
+    data-colour-rhythm="spa-sage-gold-cream"
+    data-architecture-contract="08-balance"
+    data-visitor-journey="education-first journey"
+    data-ia-emphasis="lead with editorial scanning and alternating proof"
+    data-header-architecture="split-nav-header"
+    data-footer-architecture="compact-legal-footer"
+    data-cta-architecture="hero-primary-whatsapp-secondary"
+    data-js-architecture="scroll-reveal, process-stepper, scroll-reveal with reduced-motion-safe delegation"
+  >
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div data-partial-mount="status-banner"></div>
+    <div data-partial-mount="accessibility"></div>
+    <div data-partial-mount="header"></div>
+    <div data-partial-mount="mobile-menu"></div>
+    <main
+      id="main"
+      class="atlas-main atlas-page-testimonials architecture-main architecture-main-08"
+      data-page="testimonials"
+      data-section-count="10"
+      data-atlas-source="docs/sites/08-balance/MASTER-BRIEF.md"
+      data-homepage-architecture="consultation-route-selector opening, full-width-brand-band trust build, image-gallery-frame final bridge"
+      data-internal-page-architecture="portrait-led-story-panel intro, vertical-process-rail body, form-led-conversion-panel conversion close"
+    >
+      <!--
+SECTION 01 — Feedback Hero
+Page: Testimonials
+Role: opening-feedback
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Request evaluation
+Secondary CTA: Message WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 08-balance-balanced-split-narrative-testimonials-feedback-hero-01
+Mobile note: split layouts become single-flow stories with preserved order
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Client feedback / Feedback should be treated with consent, privacy, and realistic context. / Request evaluation + Message WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-editorial-aside visual-dna-section visual-dna-section-01 visual-layout-route-grid visual-role-form-focus visual-tone-ivory visual-image-full-image-editorial-panel architecture-section architecture-section-01 arch-component-consultation-route-selector arch-html-kicker-heading-copy-card-grid arch-layout-route-matrix-grid arch-responsive-alternating-mobile-order arch-interaction-scroll-reveal arch-cta-whatsapp-first-cta arch-content-bullets-led"
+        data-section="01"
+        data-page="testimonials"
+        data-role="opening-feedback"
+        data-layout-signature="08-balance-balanced-split-narrative-testimonials-feedback-hero-01"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Balanced Split Narrative"
+        data-visual-role="form-focus"
+        data-image-treatment="full-image-sage-panel"
+        data-premium-rhythm="route-grid"
+        data-visual-dna-signature="08-balance-route-grid-testimonials-01"
+        data-concept-dna="08-balance"
+        data-mobile-rhythm="low-density-mobile"
+        data-component-type="consultation-route-selector"
+        data-html-anatomy="kicker-heading-copy-card-grid"
+        data-css-layout="route-matrix-grid"
+        data-responsive-pattern="alternating-mobile-order"
+        data-interaction="scroll-reveal"
+        data-cta-pattern="whatsapp-first-cta"
+        data-content-presentation="bullets-led"
+        data-visual-hierarchy="quote-led"
+        data-architecture-signature="08-balance-consultation-route-selector-route-matrix-grid-testimonials-01"
+        data-architecture-concept="08-balance"
+        data-architecture-section="01"
+        data-architecture-interaction="scroll-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Balance / Feedback Hero</p>
+          <h1>Client feedback</h1>
+          <p>
+            Feedback should be treated with consent, privacy, and realistic
+            context.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="consultation.html"
+              >Request evaluation</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >Message WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-18-balcony-orange-looking-up-transparent.webp"
+            alt="Franciele Sofiati in a full-image Balance Testimonials visual for opening feedback"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-hero-photo"
+            data-sofiati-photo="true"
+            fetchpriority="high"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 02 — Consultation CTA
+Page: Testimonials
+Role: conversion-contact
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Request evaluation
+Secondary CTA: WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 08-balance-balanced-split-narrative-testimonials-consultation-cta-02
+Mobile note: split layouts become single-flow stories with preserved order
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Discuss your goals / A consultation gives your questions context. / Request evaluation + WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-quote-band visual-dna-section visual-dna-section-02 visual-layout-stacked-editorial visual-role-quiet-proof visual-tone-line visual-image-full-image-soft-field architecture-section architecture-section-02 arch-component-portrait-led-story-panel arch-html-copy-process-rail-actions arch-layout-statement-first-grid arch-responsive-horizontal-scroll-cards-mobile arch-interaction-process-stepper arch-cta-faq-contact-bridge arch-content-cards-led"
+        data-section="02"
+        data-page="testimonials"
+        data-role="conversion-contact"
+        data-layout-signature="08-balance-balanced-split-narrative-testimonials-consultation-cta-02"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Balanced Split Narrative"
+        data-visual-role="quiet-proof"
+        data-image-treatment="full-image-gallery-like-frame"
+        data-premium-rhythm="stacked-editorial"
+        data-visual-dna-signature="08-balance-stacked-editorial-testimonials-02"
+        data-concept-dna="08-balance"
+        data-mobile-rhythm="low-density-mobile"
+        data-component-type="portrait-led-story-panel"
+        data-html-anatomy="copy-process-rail-actions"
+        data-css-layout="statement-first-grid"
+        data-responsive-pattern="horizontal-scroll-cards-mobile"
+        data-interaction="process-stepper"
+        data-cta-pattern="faq-contact-bridge"
+        data-content-presentation="cards-led"
+        data-visual-hierarchy="icon-led"
+        data-architecture-signature="08-balance-portrait-led-story-panel-statement-first-grid-testimonials-02"
+        data-architecture-concept="08-balance"
+        data-architecture-section="02"
+        data-architecture-interaction="process-stepper"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Balance / Consultation CTA</p>
+          <h2>Discuss your goals</h2>
+          <p>A consultation gives your questions context.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="consultation.html"
+              >Request evaluation</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-22-ivory-room-arms-crossed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Balance Testimonials visual for conversion contact"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 03 — Consent First
+Page: Testimonials
+Role: reassurance-privacy
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Privacy
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 08-balance-balanced-split-narrative-testimonials-consent-first-03
+Mobile note: split layouts become single-flow stories with preserved order
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Consent first / Feedback should only be shared with appropriate permission. / Privacy
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-timeline visual-dna-section visual-dna-section-03 visual-layout-text-first-mobile visual-role-final-conversion visual-tone-conversion visual-image-full-image-clinical-frame architecture-section architecture-section-03 arch-component-centered-manifesto arch-html-copy-bullets-side-note arch-layout-clinical-two-column-grid arch-responsive-footer-specific-mobile-rhythm arch-interaction-scroll-reveal arch-cta-service-form-bridge arch-content-quote-led"
+        data-section="03"
+        data-page="testimonials"
+        data-role="reassurance-privacy"
+        data-layout-signature="08-balance-balanced-split-narrative-testimonials-consent-first-03"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Balanced Split Narrative"
+        data-visual-role="final-conversion"
+        data-image-treatment="full-image-asymmetrical-layout"
+        data-premium-rhythm="text-first-mobile"
+        data-visual-dna-signature="08-balance-text-first-mobile-testimonials-03"
+        data-concept-dna="08-balance"
+        data-mobile-rhythm="low-density-mobile"
+        data-component-type="centered-manifesto"
+        data-html-anatomy="copy-bullets-side-note"
+        data-css-layout="clinical-two-column-grid"
+        data-responsive-pattern="footer-specific-mobile-rhythm"
+        data-interaction="scroll-reveal"
+        data-cta-pattern="service-form-bridge"
+        data-content-presentation="quote-led"
+        data-visual-hierarchy="editorial-led"
+        data-architecture-signature="08-balance-centered-manifesto-clinical-two-column-grid-testimonials-03"
+        data-architecture-concept="08-balance"
+        data-architecture-section="03"
+        data-architecture-interaction="scroll-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Balance / Consent First</p>
+          <h2>Consent first</h2>
+          <p>Feedback should only be shared with appropriate permission.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="privacy.html"
+              >Privacy</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-25-ivory-room-window-touch-transparent.webp"
+            alt="Franciele Sofiati in a full-image Balance Testimonials visual for reassurance privacy"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 04 — No Guarantees
+Page: Testimonials
+Role: reassurance-boundary
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Results
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 08-balance-balanced-split-narrative-testimonials-no-guarantees-04
+Mobile note: split layouts become single-flow stories with preserved order
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Not a promise / Feedback does not guarantee the same experience or outcome. / Results
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-gallery-strip visual-dna-section visual-dna-section-04 visual-layout-form-panel visual-role-opening-promise visual-tone-ivory visual-image-full-image-layered-panel architecture-section architecture-section-04 arch-component-full-width-brand-band arch-html-copy-accordion-cards arch-layout-compact-card-grid arch-responsive-alternating-mobile-order arch-interaction-process-stepper arch-cta-deep-sage-cta-band arch-content-step-led"
+        data-section="04"
+        data-page="testimonials"
+        data-role="reassurance-boundary"
+        data-layout-signature="08-balance-balanced-split-narrative-testimonials-no-guarantees-04"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Balanced Split Narrative"
+        data-visual-role="opening-promise"
+        data-image-treatment="css-botanical-divider"
+        data-premium-rhythm="form-panel"
+        data-visual-dna-signature="08-balance-form-panel-testimonials-04"
+        data-concept-dna="08-balance"
+        data-mobile-rhythm="low-density-mobile"
+        data-component-type="full-width-brand-band"
+        data-html-anatomy="copy-accordion-cards"
+        data-css-layout="compact-card-grid"
+        data-responsive-pattern="alternating-mobile-order"
+        data-interaction="process-stepper"
+        data-cta-pattern="deep-sage-cta-band"
+        data-content-presentation="step-led"
+        data-visual-hierarchy="image-led"
+        data-architecture-signature="08-balance-full-width-brand-band-compact-card-grid-testimonials-04"
+        data-architecture-concept="08-balance"
+        data-architecture-section="04"
+        data-architecture-interaction="process-stepper"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Balance / No Guarantees</p>
+          <h2>Not a promise</h2>
+          <p>Feedback does not guarantee the same experience or outcome.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="results.html"
+              >Results</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-01-studio-seated-soft-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Balance Testimonials visual for reassurance boundary"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 05 — Experience Themes
+Page: Testimonials
+Role: trust-themes
+Content: Heading, short paragraph, route cards, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Read FAQ
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 08-balance-balanced-split-narrative-testimonials-experience-themes-05
+Mobile note: split layouts become single-flow stories with preserved order
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Experience themes / Useful feedback themes include clarity, comfort, guidance, and trust. / Read FAQ
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-minimal-field visual-dna-section visual-dna-section-05 visual-layout-trust-note visual-role-sage-editorial-break visual-tone-sage visual-image-full-image-gallery-frame architecture-section architecture-section-05 arch-component-vertical-process-rail arch-html-kicker-heading-copy-card-grid arch-layout-asymmetric-css-grid arch-responsive-horizontal-scroll-cards-mobile arch-interaction-scroll-reveal arch-cta-minimal-line-cta arch-content-question-led"
+        data-section="05"
+        data-page="testimonials"
+        data-role="trust-themes"
+        data-layout-signature="08-balance-balanced-split-narrative-testimonials-experience-themes-05"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Balanced Split Narrative"
+        data-visual-role="sage-editorial-break"
+        data-image-treatment="full-image-wide-editorial-panel"
+        data-premium-rhythm="trust-note"
+        data-visual-dna-signature="08-balance-trust-note-testimonials-05"
+        data-concept-dna="08-balance"
+        data-mobile-rhythm="low-density-mobile"
+        data-component-type="vertical-process-rail"
+        data-html-anatomy="kicker-heading-copy-card-grid"
+        data-css-layout="asymmetric-css-grid"
+        data-responsive-pattern="horizontal-scroll-cards-mobile"
+        data-interaction="scroll-reveal"
+        data-cta-pattern="minimal-line-cta"
+        data-content-presentation="question-led"
+        data-visual-hierarchy="quote-led"
+        data-architecture-signature="08-balance-vertical-process-rail-asymmetric-css-grid-testimonials-05"
+        data-architecture-concept="08-balance"
+        data-architecture-section="05"
+        data-architecture-interaction="scroll-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Balance / Experience Themes</p>
+          <h2>Experience themes</h2>
+          <p>
+            Useful feedback themes include clarity, comfort, guidance, and
+            trust.
+          </p>
+          <div class="atlas-card-row" aria-label="Experience Themes cards">
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Clarity</h3>
+              <p>Useful route.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Comfort</h3>
+              <p>Respect limits.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Guidance</h3>
+              <p>Useful route.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Trust</h3>
+              <p>Clear explanations.</p>
+            </article>
+          </div>
+          <div class="atlas-actions">
+            <a class="button atlas-button atlas-button--primary" href="faq.html"
+              >Read FAQ</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-04-studio-full-poised-transparent.webp"
+            alt="Franciele Sofiati in a full-image Balance Testimonials visual for trust themes"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 06 — Privacy Note
+Page: Testimonials
+Role: reassurance-privacy
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Privacy
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 08-balance-balanced-split-narrative-testimonials-privacy-note-06
+Mobile note: split layouts become single-flow stories with preserved order
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Privacy matters / Personal details and feedback must be handled carefully. / Privacy
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-media-left visual-dna-section visual-dna-section-06 visual-layout-alternating-panel visual-role-human-trust visual-tone-cream visual-image-full-image-quiet-anchor architecture-section architecture-section-06 arch-component-floating-card-cluster arch-html-copy-process-rail-actions arch-layout-full-width-band-grid arch-responsive-footer-specific-mobile-rhythm arch-interaction-process-stepper arch-cta-hero-primary-whatsapp-secondary arch-content-route-led"
+        data-section="06"
+        data-page="testimonials"
+        data-role="reassurance-privacy"
+        data-layout-signature="08-balance-balanced-split-narrative-testimonials-privacy-note-06"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Balanced Split Narrative"
+        data-visual-role="human-trust"
+        data-image-treatment="full-image-sage-panel"
+        data-premium-rhythm="alternating-panel"
+        data-visual-dna-signature="08-balance-alternating-panel-testimonials-06"
+        data-concept-dna="08-balance"
+        data-mobile-rhythm="low-density-mobile"
+        data-component-type="floating-card-cluster"
+        data-html-anatomy="copy-process-rail-actions"
+        data-css-layout="full-width-band-grid"
+        data-responsive-pattern="footer-specific-mobile-rhythm"
+        data-interaction="process-stepper"
+        data-cta-pattern="hero-primary-whatsapp-secondary"
+        data-content-presentation="route-led"
+        data-visual-hierarchy="icon-led"
+        data-architecture-signature="08-balance-floating-card-cluster-full-width-band-grid-testimonials-06"
+        data-architecture-concept="08-balance"
+        data-architecture-section="06"
+        data-architecture-interaction="process-stepper"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Balance / Privacy Note</p>
+          <h2>Privacy matters</h2>
+          <p>Personal details and feedback must be handled carefully.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="privacy.html"
+              >Privacy</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-07-studio-crossed-composed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Balance Testimonials visual for reassurance privacy"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 07 — Trust Break
+Page: Testimonials
+Role: reassurance-statement
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: None
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 08-balance-balanced-split-narrative-testimonials-trust-break-07
+Mobile note: split layouts become single-flow stories with preserved order
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Trust needs care / Responsibility matters in every part of the experience. / None
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-media-right visual-dna-section visual-dna-section-07 visual-layout-framed-minimal visual-role-route-panel visual-tone-editorial visual-image-full-image-elegant-card architecture-section architecture-section-07 arch-component-sage-reassurance-panel arch-html-copy-bullets-side-note arch-layout-masonry-css-grid arch-responsive-alternating-mobile-order arch-interaction-scroll-reveal arch-cta-sage-consultation-strip arch-content-form-led"
+        data-section="07"
+        data-page="testimonials"
+        data-role="reassurance-statement"
+        data-layout-signature="08-balance-balanced-split-narrative-testimonials-trust-break-07"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Balanced Split Narrative"
+        data-visual-role="route-panel"
+        data-image-treatment="full-image-gallery-like-frame"
+        data-premium-rhythm="framed-minimal"
+        data-visual-dna-signature="08-balance-framed-minimal-testimonials-07"
+        data-concept-dna="08-balance"
+        data-mobile-rhythm="low-density-mobile"
+        data-component-type="sage-reassurance-panel"
+        data-html-anatomy="copy-bullets-side-note"
+        data-css-layout="masonry-css-grid"
+        data-responsive-pattern="alternating-mobile-order"
+        data-interaction="scroll-reveal"
+        data-cta-pattern="sage-consultation-strip"
+        data-content-presentation="form-led"
+        data-visual-hierarchy="editorial-led"
+        data-architecture-signature="08-balance-sage-reassurance-panel-masonry-css-grid-testimonials-07"
+        data-architecture-concept="08-balance"
+        data-architecture-section="07"
+        data-architecture-interaction="scroll-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Balance / Trust Break</p>
+          <h2>Trust needs care</h2>
+          <p>Responsibility matters in every part of the experience.</p>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-10-studio-close-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Balance Testimonials visual for reassurance statement"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 08 — Results Guidance
+Page: Testimonials
+Role: education-route
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Results
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 08-balance-balanced-split-narrative-testimonials-results-guidance-08
+Mobile note: split layouts become single-flow stories with preserved order
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Read expectations / Understand results responsibly before making decisions. / Results
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-centered visual-dna-section visual-dna-section-08 visual-layout-structured-clinical visual-role-deep-trust-band visual-tone-deep visual-image-full-image-sage-rail architecture-section architecture-section-08 arch-component-timeline-component arch-html-copy-accordion-cards arch-layout-form-first-grid arch-responsive-horizontal-scroll-cards-mobile arch-interaction-process-stepper arch-cta-form-first-cta arch-content-statement-led"
+        data-section="08"
+        data-page="testimonials"
+        data-role="education-route"
+        data-layout-signature="08-balance-balanced-split-narrative-testimonials-results-guidance-08"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Balanced Split Narrative"
+        data-visual-role="deep-trust-band"
+        data-image-treatment="full-image-asymmetrical-layout"
+        data-premium-rhythm="structured-clinical"
+        data-visual-dna-signature="08-balance-structured-clinical-testimonials-08"
+        data-concept-dna="08-balance"
+        data-mobile-rhythm="low-density-mobile"
+        data-component-type="timeline-component"
+        data-html-anatomy="copy-accordion-cards"
+        data-css-layout="form-first-grid"
+        data-responsive-pattern="horizontal-scroll-cards-mobile"
+        data-interaction="process-stepper"
+        data-cta-pattern="form-first-cta"
+        data-content-presentation="statement-led"
+        data-visual-hierarchy="image-led"
+        data-architecture-signature="08-balance-timeline-component-form-first-grid-testimonials-08"
+        data-architecture-concept="08-balance"
+        data-architecture-section="08"
+        data-architecture-interaction="process-stepper"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Balance / Results Guidance</p>
+          <h2>Read expectations</h2>
+          <p>Understand results responsibly before making decisions.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="results.html"
+              >Results</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-13-balcony-orange-soft-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Balance Testimonials visual for education route"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 09 — FAQ Bridge
+Page: Testimonials
+Role: education-route
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: FAQ
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 08-balance-balanced-split-narrative-testimonials-faq-bridge-09
+Mobile note: split layouts become single-flow stories with preserved order
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Have questions / Read common questions before contacting. / FAQ
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-ledger visual-dna-section visual-dna-section-09 visual-layout-soft-wellness-card visual-role-service-focus visual-tone-cream visual-image-full-image-bronze-rule architecture-section architecture-section-09 arch-component-form-led-conversion-panel arch-html-kicker-heading-copy-card-grid arch-layout-timeline-rail-grid arch-responsive-footer-specific-mobile-rhythm arch-interaction-scroll-reveal arch-cta-route-card-cta arch-content-journal-led"
+        data-section="09"
+        data-page="testimonials"
+        data-role="education-route"
+        data-layout-signature="08-balance-balanced-split-narrative-testimonials-faq-bridge-09"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Balanced Split Narrative"
+        data-visual-role="service-focus"
+        data-image-treatment="css-botanical-divider"
+        data-premium-rhythm="soft-wellness-card"
+        data-visual-dna-signature="08-balance-soft-wellness-card-testimonials-09"
+        data-concept-dna="08-balance"
+        data-mobile-rhythm="low-density-mobile"
+        data-component-type="form-led-conversion-panel"
+        data-html-anatomy="kicker-heading-copy-card-grid"
+        data-css-layout="timeline-rail-grid"
+        data-responsive-pattern="footer-specific-mobile-rhythm"
+        data-interaction="scroll-reveal"
+        data-cta-pattern="route-card-cta"
+        data-content-presentation="journal-led"
+        data-visual-hierarchy="quote-led"
+        data-architecture-signature="08-balance-form-led-conversion-panel-timeline-rail-grid-testimonials-09"
+        data-architecture-concept="08-balance"
+        data-architecture-section="09"
+        data-architecture-interaction="scroll-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Balance / FAQ Bridge</p>
+          <h2>Have questions</h2>
+          <p>Read common questions before contacting.</p>
+          <div class="atlas-actions">
+            <a class="button atlas-button atlas-button--primary" href="faq.html"
+              >FAQ</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-17-balcony-orange-laughing-transparent.webp"
+            alt="Franciele Sofiati in a full-image Balance Testimonials visual for education route"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 10 — Contact Path
+Page: Testimonials
+Role: conversion-final
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Contact
+Secondary CTA: WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 08-balance-balanced-split-narrative-testimonials-contact-path-10
+Mobile note: split layouts become single-flow stories with preserved order
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Contact directly / Send a message if you need guidance. / Contact + WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-split-card visual-dna-section visual-dna-section-10 visual-layout-centered-portrait visual-role-journal-strip visual-tone-sage visual-image-full-image-open-frame architecture-section architecture-section-10 arch-component-image-gallery-frame arch-html-copy-process-rail-actions arch-layout-luxury-dark-grid arch-responsive-alternating-mobile-order arch-interaction-process-stepper arch-cta-journal-consultation-bridge arch-content-paragraph-led"
+        data-section="10"
+        data-page="testimonials"
+        data-role="conversion-final"
+        data-layout-signature="08-balance-balanced-split-narrative-testimonials-contact-path-10"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Balanced Split Narrative"
+        data-visual-role="journal-strip"
+        data-image-treatment="full-image-wide-editorial-panel"
+        data-premium-rhythm="centered-portrait"
+        data-visual-dna-signature="08-balance-centered-portrait-testimonials-10"
+        data-concept-dna="08-balance"
+        data-mobile-rhythm="low-density-mobile"
+        data-component-type="image-gallery-frame"
+        data-html-anatomy="copy-process-rail-actions"
+        data-css-layout="luxury-dark-grid"
+        data-responsive-pattern="alternating-mobile-order"
+        data-interaction="process-stepper"
+        data-cta-pattern="journal-consultation-bridge"
+        data-content-presentation="paragraph-led"
+        data-visual-hierarchy="icon-led"
+        data-architecture-signature="08-balance-image-gallery-frame-luxury-dark-grid-testimonials-10"
+        data-architecture-concept="08-balance"
+        data-architecture-section="10"
+        data-architecture-interaction="process-stepper"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Balance / Contact Path</p>
+          <h2>Contact directly</h2>
+          <p>Send a message if you need guidance.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="contact.html"
+              >Contact</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-21-ivory-room-side-gaze-transparent.webp"
+            alt="Franciele Sofiati in a full-image Balance Testimonials visual for conversion final"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+    </main>
+    <div data-partial-mount="cookie-banner"></div>
+    <div data-partial-mount="footer"></div>
+    <div data-partial-mount="floating-widgets"></div>
+    <script src="js/partials.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="../../js/sofiati-50-architecture-system.js" defer></script>
+    <script
+      src="../../js/sofiati-footer-cookie.js"
+      defer
+      data-sofiati-cookie-loader
+    ></script>
+  </body>
+</html>

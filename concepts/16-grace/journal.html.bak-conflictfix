@@ -1,0 +1,830 @@
+<!doctype html>
+<html lang="en" data-source-lang="en" data-default-lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Short guidance for better questions, calmer decisions, and clearer expectations. Grace expresses this through grace soft column."
+    />
+    <title>Journal | Grace | Franciele Sofiati</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/atlas-story.css" />
+    <link
+      rel="canonical"
+      href="https://www.sofiati.com/concepts/16-grace/journal.html"
+    />
+    <meta property="og:title" content="Journal | Grace | Franciele Sofiati" />
+    <meta
+      property="og:description"
+      content="Short guidance for better questions, calmer decisions, and clearer expectations. Grace expresses this through grace soft column."
+    />
+    <meta
+      property="og:image"
+      content="../../assets/brand/franciele-sofiati-17-balcony-orange-laughing-transparent.webp"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://www.sofiati.com/concepts/16-grace/journal.html"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link
+      rel="icon"
+      href="../../assets/brand/sofiati-favicon.svg"
+      type="image/svg+xml"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="../../assets/brand/sofiati-monogram-sage.png"
+    />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-full-image-premium-system.css"
+    />
+    <link rel="stylesheet" href="../../css/sofiati-premium-visual-dna.css" />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-50-architecture-system.css"
+    />
+  </head>
+  <body
+    class="concept concept-grace page-journal atlas-site atlas-site-16 atlas-layout-family-5 premium-visual-dna visual-dna-site-16 visual-header-soft-sage-header visual-footer-deep-sage-editorial-footer visual-mobile-text-first-mobile architecture-site architecture-site-16 architecture-journey-trust-first-journey architecture-header-cta-forward-header architecture-footer-minimal-line-footer"
+    data-concept="16-grace"
+    data-page="journal"
+    data-page-label="Journal"
+    data-page-title="Journal | Grace | Franciele Sofiati"
+    data-page-description="Short guidance for better questions, calmer decisions, and clearer expectations. Grace expresses this through grace soft column."
+    data-canonical="https://www.sofiati.com/concepts/16-grace/journal.html"
+    data-default-lang="en"
+    data-atlas-dna="Grace Soft Column"
+    data-brand-asset-root="../../assets/brand"
+    data-visual-dna-theme="feminine editorial, gentle curves, elegant image pacing"
+    data-header-pattern="soft-sage-header"
+    data-footer-pattern="deep-sage-editorial-footer"
+    data-mobile-pattern="text-first-mobile"
+    data-colour-rhythm="ivory-gold-sage-line"
+    data-architecture-contract="16-grace"
+    data-visitor-journey="trust-first journey"
+    data-ia-emphasis="lead with soft editorial warmth"
+    data-header-architecture="cta-forward-header"
+    data-footer-architecture="minimal-line-footer"
+    data-cta-architecture="sage-consultation-strip"
+    data-js-architecture="active-section-indicator, active-section-indicator, active-section-indicator with reduced-motion-safe delegation"
+  >
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div data-partial-mount="status-banner"></div>
+    <div data-partial-mount="accessibility"></div>
+    <div data-partial-mount="header"></div>
+    <div data-partial-mount="mobile-menu"></div>
+    <main
+      id="main"
+      class="atlas-main atlas-page-journal architecture-main architecture-main-16"
+      data-page="journal"
+      data-section-count="10"
+      data-atlas-source="docs/sites/16-grace/MASTER-BRIEF.md"
+      data-homepage-architecture="consultation-route-selector opening, floating-card-cluster trust build, editorial-split final bridge"
+      data-internal-page-architecture="editorial-split intro, service-route-matrix body, consultation-route-selector conversion close"
+    >
+      <!--
+SECTION 01 — Journal Hero
+Page: Journal
+Role: opening-journal
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Read articles
+Secondary CTA: Request evaluation
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 16-grace-grace-soft-column-journal-journal-hero-01
+Mobile note: matrix panels become numbered blocks with large touch targets
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Care journal / Short guidance for better questions, calmer decisions, and clearer expectations. / Read articles + Request evaluation
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-ledger visual-dna-section visual-dna-section-01 visual-layout-structured-clinical visual-role-service-focus visual-tone-cream visual-image-full-image-elegant-card architecture-section architecture-section-01 arch-component-consultation-route-selector arch-html-copy-route-grid-figure arch-layout-asymmetric-css-grid arch-responsive-horizontal-scroll-cards-mobile arch-interaction-active-section-indicator arch-cta-hero-primary-whatsapp-secondary arch-content-question-led"
+        data-section="01"
+        data-page="journal"
+        data-role="opening-journal"
+        data-layout-signature="16-grace-grace-soft-column-journal-journal-hero-01"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Grace Soft Column"
+        data-visual-role="service-focus"
+        data-image-treatment="full-image-vertical-card"
+        data-premium-rhythm="structured-clinical"
+        data-visual-dna-signature="16-grace-structured-clinical-journal-01"
+        data-concept-dna="16-grace"
+        data-mobile-rhythm="text-first-mobile"
+        data-component-type="consultation-route-selector"
+        data-html-anatomy="copy-route-grid-figure"
+        data-css-layout="asymmetric-css-grid"
+        data-responsive-pattern="horizontal-scroll-cards-mobile"
+        data-interaction="active-section-indicator"
+        data-cta-pattern="hero-primary-whatsapp-secondary"
+        data-content-presentation="question-led"
+        data-visual-hierarchy="title-led"
+        data-architecture-signature="16-grace-consultation-route-selector-asymmetric-css-grid-journal-01"
+        data-architecture-concept="16-grace"
+        data-architecture-section="01"
+        data-architecture-interaction="active-section-indicator"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Grace / Journal Hero</p>
+          <h1>Care journal</h1>
+          <p>
+            Short guidance for better questions, calmer decisions, and clearer
+            expectations.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="blog.html"
+              >Read articles</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="consultation.html"
+              >Request evaluation</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-26-ivory-room-window-composed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Grace Journal visual for opening journal"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-hero-photo"
+            data-sofiati-photo="true"
+            fetchpriority="high"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 02 — Consultation Bridge
+Page: Journal
+Role: conversion-contact
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Request evaluation
+Secondary CTA: Message WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 16-grace-grace-soft-column-journal-consultation-bridge-02
+Mobile note: matrix panels become numbered blocks with large touch targets
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Ready to ask / Bring your questions into a private consultation or message. / Request evaluation + Message WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-split-card visual-dna-section visual-dna-section-02 visual-layout-editorial-split visual-role-journal-strip visual-tone-sage visual-image-full-image-sage-rail architecture-section architecture-section-02 arch-component-editorial-split arch-html-copy-comparison-cards arch-layout-sticky-sidebar-grid arch-responsive-stacked-editorial-panels-mobile arch-interaction-none arch-cta-sage-consultation-strip arch-content-route-led"
+        data-section="02"
+        data-page="journal"
+        data-role="conversion-contact"
+        data-layout-signature="16-grace-grace-soft-column-journal-consultation-bridge-02"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Grace Soft Column"
+        data-visual-role="journal-strip"
+        data-image-treatment="full-image-below-hero-text"
+        data-premium-rhythm="editorial-split"
+        data-visual-dna-signature="16-grace-editorial-split-journal-02"
+        data-concept-dna="16-grace"
+        data-mobile-rhythm="text-first-mobile"
+        data-component-type="editorial-split"
+        data-html-anatomy="copy-comparison-cards"
+        data-css-layout="sticky-sidebar-grid"
+        data-responsive-pattern="stacked-editorial-panels-mobile"
+        data-interaction="none"
+        data-cta-pattern="sage-consultation-strip"
+        data-content-presentation="route-led"
+        data-visual-hierarchy="form-led"
+        data-architecture-signature="16-grace-editorial-split-sticky-sidebar-grid-journal-02"
+        data-architecture-concept="16-grace"
+        data-architecture-section="02"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Grace / Consultation Bridge</p>
+          <h2>Ready to ask</h2>
+          <p>Bring your questions into a private consultation or message.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="consultation.html"
+              >Request evaluation</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >Message WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-02-studio-seated-laughing-transparent.webp"
+            alt="Franciele Sofiati in a full-image Grace Journal visual for conversion contact"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 03 — Featured Article
+Page: Journal
+Role: education-feature
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Read guide
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 16-grace-grace-soft-column-journal-featured-article-03
+Mobile note: matrix panels become numbered blocks with large touch targets
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Featured guide / Start with the most useful topic for your current questions. / Read guide
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-statement visual-dna-section visual-dna-section-03 visual-layout-dark-band visual-role-form-focus visual-tone-ivory visual-image-full-image-bronze-rule architecture-section architecture-section-03 arch-component-sticky-side-note-section arch-html-copy-bullets-side-note arch-layout-route-matrix-grid arch-responsive-footer-specific-mobile-rhythm arch-interaction-active-section-indicator arch-cta-form-first-cta arch-content-form-led"
+        data-section="03"
+        data-page="journal"
+        data-role="education-feature"
+        data-layout-signature="16-grace-grace-soft-column-journal-featured-article-03"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Grace Soft Column"
+        data-visual-role="form-focus"
+        data-image-treatment="full-image-consultation-side"
+        data-premium-rhythm="dark-band"
+        data-visual-dna-signature="16-grace-dark-band-journal-03"
+        data-concept-dna="16-grace"
+        data-mobile-rhythm="text-first-mobile"
+        data-component-type="sticky-side-note-section"
+        data-html-anatomy="copy-bullets-side-note"
+        data-css-layout="route-matrix-grid"
+        data-responsive-pattern="footer-specific-mobile-rhythm"
+        data-interaction="active-section-indicator"
+        data-cta-pattern="form-first-cta"
+        data-content-presentation="form-led"
+        data-visual-hierarchy="list-led"
+        data-architecture-signature="16-grace-sticky-side-note-section-route-matrix-grid-journal-03"
+        data-architecture-concept="16-grace"
+        data-architecture-section="03"
+        data-architecture-interaction="active-section-indicator"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Grace / Featured Article</p>
+          <h2>Featured guide</h2>
+          <p>Start with the most useful topic for your current questions.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="blog.html"
+              >Read guide</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-05-studio-full-direct-transparent.webp"
+            alt="Franciele Sofiati in a full-image Grace Journal visual for education feature"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 04 — Skin Category
+Page: Journal
+Role: education-skin
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: View skin
+Secondary CTA: Read blog
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 16-grace-grace-soft-column-journal-skin-category-04
+Mobile note: matrix panels become numbered blocks with large touch targets
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Skin guidance / Read about routine, texture, sensitivity, and planning. / View skin + Read blog
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-portrait-stack visual-dna-section visual-dna-section-04 visual-layout-magazine-layer visual-role-quiet-proof visual-tone-line visual-image-full-image-open-frame architecture-section architecture-section-04 arch-component-floating-card-cluster arch-html-copy-timeline-figure arch-layout-timeline-rail-grid arch-responsive-image-first-mobile arch-interaction-none arch-cta-route-card-cta arch-content-statement-led"
+        data-section="04"
+        data-page="journal"
+        data-role="education-skin"
+        data-layout-signature="16-grace-grace-soft-column-journal-skin-category-04"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Grace Soft Column"
+        data-visual-role="quiet-proof"
+        data-image-treatment="full-image-minimal-border-frame"
+        data-premium-rhythm="magazine-layer"
+        data-visual-dna-signature="16-grace-magazine-layer-journal-04"
+        data-concept-dna="16-grace"
+        data-mobile-rhythm="text-first-mobile"
+        data-component-type="floating-card-cluster"
+        data-html-anatomy="copy-timeline-figure"
+        data-css-layout="timeline-rail-grid"
+        data-responsive-pattern="image-first-mobile"
+        data-interaction="none"
+        data-cta-pattern="route-card-cta"
+        data-content-presentation="statement-led"
+        data-visual-hierarchy="navigation-led"
+        data-architecture-signature="16-grace-floating-card-cluster-timeline-rail-grid-journal-04"
+        data-architecture-concept="16-grace"
+        data-architecture-section="04"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Grace / Skin Category</p>
+          <h2>Skin guidance</h2>
+          <p>Read about routine, texture, sensitivity, and planning.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="skin.html"
+              >View skin</a
+            >
+            <a class="button atlas-button atlas-button--soft" href="blog.html"
+              >Read blog</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-08-studio-front-composed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Grace Journal visual for education skin"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 05 — Laser Category
+Page: Journal
+Role: education-laser
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Explore laser
+Secondary CTA: Read FAQ
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 16-grace-grace-soft-column-journal-laser-category-05
+Mobile note: matrix panels become numbered blocks with large touch targets
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Laser questions / Learn what to discuss before choosing laser care. / Explore laser + Read FAQ
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-editorial-aside visual-dna-section visual-dna-section-05 visual-layout-route-grid visual-role-final-conversion visual-tone-conversion visual-image-full-image-editorial-panel architecture-section architecture-section-05 arch-component-service-route-matrix arch-html-image-first-copy-actions arch-layout-botanical-divider-grid arch-responsive-alternating-mobile-order arch-interaction-active-section-indicator arch-cta-journal-consultation-bridge arch-content-journal-led"
+        data-section="05"
+        data-page="journal"
+        data-role="education-laser"
+        data-layout-signature="16-grace-grace-soft-column-journal-laser-category-05"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Grace Soft Column"
+        data-visual-role="final-conversion"
+        data-image-treatment="no-image-editorial-structure"
+        data-premium-rhythm="route-grid"
+        data-visual-dna-signature="16-grace-route-grid-journal-05"
+        data-concept-dna="16-grace"
+        data-mobile-rhythm="text-first-mobile"
+        data-component-type="service-route-matrix"
+        data-html-anatomy="image-first-copy-actions"
+        data-css-layout="botanical-divider-grid"
+        data-responsive-pattern="alternating-mobile-order"
+        data-interaction="active-section-indicator"
+        data-cta-pattern="journal-consultation-bridge"
+        data-content-presentation="journal-led"
+        data-visual-hierarchy="title-led"
+        data-architecture-signature="16-grace-service-route-matrix-botanical-divider-grid-journal-05"
+        data-architecture-concept="16-grace"
+        data-architecture-section="05"
+        data-architecture-interaction="active-section-indicator"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Grace / Laser Category</p>
+          <h2>Laser questions</h2>
+          <p>Learn what to discuss before choosing laser care.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="laser.html"
+              >Explore laser</a
+            >
+            <a class="button atlas-button atlas-button--soft" href="faq.html"
+              >Read FAQ</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-11-studio-chair-angled-transparent.webp"
+            alt="Franciele Sofiati in a full-image Grace Journal visual for education laser"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 06 — Care Category
+Page: Journal
+Role: education-care
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Explore care
+Secondary CTA: Begin consultation
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 16-grace-grace-soft-column-journal-care-category-06
+Mobile note: matrix panels become numbered blocks with large touch targets
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Care planning / Understand how consultation supports personal decisions. / Explore care + Begin consultation
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-quote-band visual-dna-section visual-dna-section-06 visual-layout-image-first-mobile visual-role-opening-promise visual-tone-ivory visual-image-full-image-soft-field architecture-section architecture-section-06 arch-component-journal-carousel arch-html-copy-figure-actions arch-layout-asymmetric-css-grid arch-responsive-sticky-consultation-mobile arch-interaction-none arch-cta-quiet-secondary-cta arch-content-paragraph-led"
+        data-section="06"
+        data-page="journal"
+        data-role="education-care"
+        data-layout-signature="16-grace-grace-soft-column-journal-care-category-06"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Grace Soft Column"
+        data-visual-role="opening-promise"
+        data-image-treatment="full-image-vertical-card"
+        data-premium-rhythm="image-first-mobile"
+        data-visual-dna-signature="16-grace-image-first-mobile-journal-06"
+        data-concept-dna="16-grace"
+        data-mobile-rhythm="text-first-mobile"
+        data-component-type="journal-carousel"
+        data-html-anatomy="copy-figure-actions"
+        data-css-layout="asymmetric-css-grid"
+        data-responsive-pattern="sticky-consultation-mobile"
+        data-interaction="none"
+        data-cta-pattern="quiet-secondary-cta"
+        data-content-presentation="paragraph-led"
+        data-visual-hierarchy="form-led"
+        data-architecture-signature="16-grace-journal-carousel-asymmetric-css-grid-journal-06"
+        data-architecture-concept="16-grace"
+        data-architecture-section="06"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Grace / Care Category</p>
+          <h2>Care planning</h2>
+          <p>Understand how consultation supports personal decisions.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="care.html"
+              >Explore care</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="consultation.html"
+              >Begin consultation</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-14-balcony-orange-side-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Grace Journal visual for education care"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 07 — Results Category
+Page: Journal
+Role: reassurance-expectations
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Understand results
+Secondary CTA: Request evaluation
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 16-grace-grace-soft-column-journal-results-category-07
+Mobile note: matrix panels become numbered blocks with large touch targets
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Result expectations / Read responsible guidance before forming expectations. / Understand results + Request evaluation
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-timeline visual-dna-section visual-dna-section-07 visual-layout-form-panel visual-role-sage-editorial-break visual-tone-sage visual-image-full-image-clinical-frame architecture-section architecture-section-07 arch-component-split-card-stack arch-html-heading-copy-aside-figure arch-layout-sticky-sidebar-grid arch-responsive-horizontal-scroll-cards-mobile arch-interaction-active-section-indicator arch-cta-sticky-consultation-dock arch-content-bullets-led"
+        data-section="07"
+        data-page="journal"
+        data-role="reassurance-expectations"
+        data-layout-signature="16-grace-grace-soft-column-journal-results-category-07"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Grace Soft Column"
+        data-visual-role="sage-editorial-break"
+        data-image-treatment="full-image-below-hero-text"
+        data-premium-rhythm="form-panel"
+        data-visual-dna-signature="16-grace-form-panel-journal-07"
+        data-concept-dna="16-grace"
+        data-mobile-rhythm="text-first-mobile"
+        data-component-type="split-card-stack"
+        data-html-anatomy="heading-copy-aside-figure"
+        data-css-layout="sticky-sidebar-grid"
+        data-responsive-pattern="horizontal-scroll-cards-mobile"
+        data-interaction="active-section-indicator"
+        data-cta-pattern="sticky-consultation-dock"
+        data-content-presentation="bullets-led"
+        data-visual-hierarchy="list-led"
+        data-architecture-signature="16-grace-split-card-stack-sticky-sidebar-grid-journal-07"
+        data-architecture-concept="16-grace"
+        data-architecture-section="07"
+        data-architecture-interaction="active-section-indicator"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Grace / Results Category</p>
+          <h2>Result expectations</h2>
+          <p>Read responsible guidance before forming expectations.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="results.html"
+              >Understand results</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="consultation.html"
+              >Request evaluation</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-18-balcony-orange-looking-up-transparent.webp"
+            alt="Franciele Sofiati in a full-image Grace Journal visual for reassurance expectations"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 08 — Editorial Break
+Page: Journal
+Role: reassurance-statement
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: None
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 16-grace-grace-soft-column-journal-editorial-break-08
+Mobile note: matrix panels become numbered blocks with large touch targets
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Learn before deciding / Good questions make the consultation more useful. / None
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-gallery-strip visual-dna-section visual-dna-section-08 visual-layout-full-width-statement visual-role-human-trust visual-tone-cream visual-image-full-image-layered-panel architecture-section architecture-section-08 arch-component-editorial-pull-quote-section arch-html-copy-process-rail-actions arch-layout-route-matrix-grid arch-responsive-stacked-editorial-panels-mobile arch-interaction-none arch-cta-portrait-trust-cta arch-content-cards-led"
+        data-section="08"
+        data-page="journal"
+        data-role="reassurance-statement"
+        data-layout-signature="16-grace-grace-soft-column-journal-editorial-break-08"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Grace Soft Column"
+        data-visual-role="human-trust"
+        data-image-treatment="full-image-consultation-side"
+        data-premium-rhythm="full-width-statement"
+        data-visual-dna-signature="16-grace-full-width-statement-journal-08"
+        data-concept-dna="16-grace"
+        data-mobile-rhythm="text-first-mobile"
+        data-component-type="editorial-pull-quote-section"
+        data-html-anatomy="copy-process-rail-actions"
+        data-css-layout="route-matrix-grid"
+        data-responsive-pattern="stacked-editorial-panels-mobile"
+        data-interaction="none"
+        data-cta-pattern="portrait-trust-cta"
+        data-content-presentation="cards-led"
+        data-visual-hierarchy="navigation-led"
+        data-architecture-signature="16-grace-editorial-pull-quote-section-route-matrix-grid-journal-08"
+        data-architecture-concept="16-grace"
+        data-architecture-section="08"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Grace / Editorial Break</p>
+          <h2>Learn before deciding</h2>
+          <p>Good questions make the consultation more useful.</p>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-22-ivory-room-arms-crossed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Grace Journal visual for reassurance statement"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 09 — Article Grid
+Page: Journal
+Role: education-route
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: View blog
+Secondary CTA: Read FAQ
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 16-grace-grace-soft-column-journal-article-grid-09
+Mobile note: matrix panels become numbered blocks with large touch targets
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Latest notes / Browse short educational pieces by topic. / View blog + Read FAQ
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-minimal-field visual-dna-section visual-dna-section-09 visual-layout-framed-minimal visual-role-route-panel visual-tone-editorial visual-image-full-image-gallery-frame architecture-section architecture-section-09 arch-component-consultation-route-selector arch-html-copy-form-intro-actions arch-layout-timeline-rail-grid arch-responsive-footer-specific-mobile-rhythm arch-interaction-active-section-indicator arch-cta-inline-consultation-link arch-content-quote-led"
+        data-section="09"
+        data-page="journal"
+        data-role="education-route"
+        data-layout-signature="16-grace-grace-soft-column-journal-article-grid-09"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Grace Soft Column"
+        data-visual-role="route-panel"
+        data-image-treatment="full-image-minimal-border-frame"
+        data-premium-rhythm="framed-minimal"
+        data-visual-dna-signature="16-grace-framed-minimal-journal-09"
+        data-concept-dna="16-grace"
+        data-mobile-rhythm="text-first-mobile"
+        data-component-type="consultation-route-selector"
+        data-html-anatomy="copy-form-intro-actions"
+        data-css-layout="timeline-rail-grid"
+        data-responsive-pattern="footer-specific-mobile-rhythm"
+        data-interaction="active-section-indicator"
+        data-cta-pattern="inline-consultation-link"
+        data-content-presentation="quote-led"
+        data-visual-hierarchy="title-led"
+        data-architecture-signature="16-grace-consultation-route-selector-timeline-rail-grid-journal-09"
+        data-architecture-concept="16-grace"
+        data-architecture-section="09"
+        data-architecture-interaction="active-section-indicator"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Grace / Article Grid</p>
+          <h2>Latest notes</h2>
+          <p>Browse short educational pieces by topic.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="blog.html"
+              >View blog</a
+            >
+            <a class="button atlas-button atlas-button--soft" href="faq.html"
+              >Read FAQ</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-25-ivory-room-window-touch-transparent.webp"
+            alt="Franciele Sofiati in a full-image Grace Journal visual for education route"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 10 — Blog Contact CTA
+Page: Journal
+Role: conversion-final
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: View blog
+Secondary CTA: Contact Franciele
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 16-grace-grace-soft-column-journal-blog-contact-cta-10
+Mobile note: matrix panels become numbered blocks with large touch targets
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Continue reading / Explore more articles or contact Franciele directly. / View blog + Contact Franciele
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-media-left visual-dna-section visual-dna-section-10 visual-layout-luxury-dark-card visual-role-deep-trust-band visual-tone-deep visual-image-full-image-quiet-anchor architecture-section architecture-section-10 arch-component-editorial-split arch-html-copy-masonry-cards-portrait arch-layout-botanical-divider-grid arch-responsive-image-first-mobile arch-interaction-none arch-cta-footer-bridge-cta arch-content-step-led"
+        data-section="10"
+        data-page="journal"
+        data-role="conversion-final"
+        data-layout-signature="16-grace-grace-soft-column-journal-blog-contact-cta-10"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Grace Soft Column"
+        data-visual-role="deep-trust-band"
+        data-image-treatment="no-image-editorial-structure"
+        data-premium-rhythm="luxury-dark-card"
+        data-visual-dna-signature="16-grace-luxury-dark-card-journal-10"
+        data-concept-dna="16-grace"
+        data-mobile-rhythm="text-first-mobile"
+        data-component-type="editorial-split"
+        data-html-anatomy="copy-masonry-cards-portrait"
+        data-css-layout="botanical-divider-grid"
+        data-responsive-pattern="image-first-mobile"
+        data-interaction="none"
+        data-cta-pattern="footer-bridge-cta"
+        data-content-presentation="step-led"
+        data-visual-hierarchy="form-led"
+        data-architecture-signature="16-grace-editorial-split-botanical-divider-grid-journal-10"
+        data-architecture-concept="16-grace"
+        data-architecture-section="10"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Grace / Blog Contact CTA</p>
+          <h2>Continue reading</h2>
+          <p>Explore more articles or contact Franciele directly.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="blog.html"
+              >View blog</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="contact.html"
+              >Contact Franciele</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-01-studio-seated-soft-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Grace Journal visual for conversion final"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+    </main>
+    <div data-partial-mount="cookie-banner"></div>
+    <div data-partial-mount="footer"></div>
+    <div data-partial-mount="floating-widgets"></div>
+    <script src="js/partials.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="../../js/sofiati-50-architecture-system.js" defer></script>
+    <script
+      src="../../js/sofiati-footer-cookie.js"
+      defer
+      data-sofiati-cookie-loader
+    ></script>
+  </body>
+</html>

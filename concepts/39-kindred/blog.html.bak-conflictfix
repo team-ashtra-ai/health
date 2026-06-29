@@ -1,0 +1,834 @@
+<!doctype html>
+<html lang="en" data-source-lang="en" data-default-lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Deeper educational notes for skin, laser, care, and expectations. Kindred expresses this through kindred personal route."
+    />
+    <title>Blog | Kindred | Franciele Sofiati</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/atlas-story.css" />
+    <link
+      rel="canonical"
+      href="https://www.sofiati.com/concepts/39-kindred/blog.html"
+    />
+    <meta property="og:title" content="Blog | Kindred | Franciele Sofiati" />
+    <meta
+      property="og:description"
+      content="Deeper educational notes for skin, laser, care, and expectations. Kindred expresses this through kindred personal route."
+    />
+    <meta
+      property="og:image"
+      content="../../assets/brand/franciele-sofiati-14-balcony-orange-side-smile-transparent.webp"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://www.sofiati.com/concepts/39-kindred/blog.html"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link
+      rel="icon"
+      href="../../assets/brand/sofiati-favicon.svg"
+      type="image/svg+xml"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="../../assets/brand/sofiati-monogram-sage.png"
+    />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-full-image-premium-system.css"
+    />
+    <link rel="stylesheet" href="../../css/sofiati-premium-visual-dna.css" />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-50-architecture-system.css"
+    />
+  </head>
+  <body
+    class="concept concept-kindred page-blog atlas-site atlas-site-39 atlas-layout-family-8 premium-visual-dna visual-dna-site-39 visual-header-dark-premium-header visual-footer-bronze-rule-footer visual-mobile-image-first-mobile architecture-site architecture-site-39 architecture-journey-journal-editorial-first-journey architecture-header-transparent-to-solid-header architecture-footer-dark-luxury-footer"
+    data-concept="39-kindred"
+    data-page="blog"
+    data-page-label="Blog"
+    data-page-title="Blog | Kindred | Franciele Sofiati"
+    data-page-description="Deeper educational notes for skin, laser, care, and expectations. Kindred expresses this through kindred personal route."
+    data-canonical="https://www.sofiati.com/concepts/39-kindred/blog.html"
+    data-default-lang="en"
+    data-atlas-dna="Kindred Personal Route"
+    data-brand-asset-root="../../assets/brand"
+    data-visual-dna-theme="personal, intimate, human-first, softer portrait flow"
+    data-header-pattern="dark-premium-header"
+    data-footer-pattern="bronze-rule-footer"
+    data-mobile-pattern="image-first-mobile"
+    data-colour-rhythm="sage-panel-bronze-ivory"
+    data-architecture-contract="39-kindred"
+    data-visitor-journey="journal-editorial-first journey"
+    data-ia-emphasis="lead with intimate human relationship"
+    data-header-architecture="transparent-to-solid-header"
+    data-footer-architecture="dark-luxury-footer"
+    data-cta-architecture="form-first-cta"
+    data-js-architecture="sticky-cta, reduced-motion-reveal, route-selector with reduced-motion-safe delegation"
+  >
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div data-partial-mount="status-banner"></div>
+    <div data-partial-mount="accessibility"></div>
+    <div data-partial-mount="header"></div>
+    <div data-partial-mount="mobile-menu"></div>
+    <main
+      id="main"
+      class="atlas-main atlas-page-blog architecture-main architecture-main-39"
+      data-page="blog"
+      data-section-count="10"
+      data-atlas-source="docs/sites/39-kindred/MASTER-BRIEF.md"
+      data-homepage-architecture="editorial-pull-quote-section opening, stepper-component trust build, minimal-clinical-panel final bridge"
+      data-internal-page-architecture="guided-pathway-panel intro, card-masonry body, image-gallery-frame conversion close"
+    >
+      <!--
+SECTION 01 — Blog Hero
+Page: Blog
+Role: opening-blog
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Read articles
+Secondary CTA: Request evaluation
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 39-kindred-kindred-personal-route-blog-blog-hero-01
+Mobile note: journal previews become horizontal-scannable but readable cards
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Care articles / Deeper educational notes for skin, laser, care, and expectations. / Read articles + Request evaluation
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-centered visual-dna-section visual-dna-section-01 visual-layout-process-strip visual-role-quiet-proof visual-tone-line visual-image-full-image-clinical-frame architecture-section architecture-section-01 arch-component-editorial-pull-quote-section arch-html-copy-timeline-figure arch-layout-timeline-rail-grid arch-responsive-sticky-consultation-mobile arch-interaction-sticky-cta arch-cta-quiet-secondary-cta arch-content-step-led"
+        data-section="01"
+        data-page="blog"
+        data-role="opening-blog"
+        data-layout-signature="39-kindred-kindred-personal-route-blog-blog-hero-01"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Kindred Personal Route"
+        data-visual-role="quiet-proof"
+        data-image-treatment="full-image-footer-brand-card"
+        data-premium-rhythm="process-strip"
+        data-visual-dna-signature="39-kindred-process-strip-blog-01"
+        data-concept-dna="39-kindred"
+        data-mobile-rhythm="image-first-mobile"
+        data-component-type="editorial-pull-quote-section"
+        data-html-anatomy="copy-timeline-figure"
+        data-css-layout="timeline-rail-grid"
+        data-responsive-pattern="sticky-consultation-mobile"
+        data-interaction="sticky-cta"
+        data-cta-pattern="quiet-secondary-cta"
+        data-content-presentation="step-led"
+        data-visual-hierarchy="statement-led"
+        data-architecture-signature="39-kindred-editorial-pull-quote-section-timeline-rail-grid-blog-01"
+        data-architecture-concept="39-kindred"
+        data-architecture-section="01"
+        data-architecture-interaction="sticky-cta"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Kindred / Blog Hero</p>
+          <h1>Care articles</h1>
+          <p>
+            Deeper educational notes for skin, laser, care, and expectations.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="journal.html"
+              >Read articles</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="consultation.html"
+              >Request evaluation</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-11-studio-chair-angled-transparent.webp"
+            alt="Franciele Sofiati in a full-image Kindred Blog visual for opening blog"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-hero-photo"
+            data-sofiati-photo="true"
+            fetchpriority="high"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 02 — Related Services
+Page: Blog
+Role: service-route
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Care
+Secondary CTA: Skin
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 39-kindred-kindred-personal-route-blog-related-services-02
+Mobile note: journal previews become horizontal-scannable but readable cards
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Related pages / Connect articles to service guidance. / Care + Skin
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-ledger visual-dna-section visual-dna-section-02 visual-layout-text-first-mobile visual-role-final-conversion visual-tone-conversion visual-image-full-image-layered-panel architecture-section architecture-section-02 arch-component-guided-pathway-panel arch-html-copy-figure-actions arch-layout-wide-editorial-columns arch-responsive-reduced-density-mobile arch-interaction-reduced-motion-reveal arch-cta-sticky-consultation-dock arch-content-question-led"
+        data-section="02"
+        data-page="blog"
+        data-role="service-route"
+        data-layout-signature="39-kindred-kindred-personal-route-blog-related-services-02"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Kindred Personal Route"
+        data-visual-role="final-conversion"
+        data-image-treatment="css-statement-panel"
+        data-premium-rhythm="text-first-mobile"
+        data-visual-dna-signature="39-kindred-text-first-mobile-blog-02"
+        data-concept-dna="39-kindred"
+        data-mobile-rhythm="image-first-mobile"
+        data-component-type="guided-pathway-panel"
+        data-html-anatomy="copy-figure-actions"
+        data-css-layout="wide-editorial-columns"
+        data-responsive-pattern="reduced-density-mobile"
+        data-interaction="reduced-motion-reveal"
+        data-cta-pattern="sticky-consultation-dock"
+        data-content-presentation="question-led"
+        data-visual-hierarchy="process-led"
+        data-architecture-signature="39-kindred-guided-pathway-panel-wide-editorial-columns-blog-02"
+        data-architecture-concept="39-kindred"
+        data-architecture-section="02"
+        data-architecture-interaction="reduced-motion-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Kindred / Related Services</p>
+          <h2>Related pages</h2>
+          <p>Connect articles to service guidance.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="care.html"
+              >Care</a
+            >
+            <a class="button atlas-button atlas-button--soft" href="skin.html"
+              >Skin</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-14-balcony-orange-side-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Kindred Blog visual for service route"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 03 — Consultation CTA
+Page: Blog
+Role: conversion-contact
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Request evaluation
+Secondary CTA: WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 39-kindred-kindred-personal-route-blog-consultation-cta-03
+Mobile note: journal previews become horizontal-scannable but readable cards
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Need guidance / Bring your questions into a consultation. / Request evaluation + WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-split-card visual-dna-section visual-dna-section-03 visual-layout-full-width-statement visual-role-opening-promise visual-tone-ivory visual-image-full-image-gallery-frame architecture-section architecture-section-03 arch-component-accordion-guidance-block arch-html-copy-process-rail-actions arch-layout-sticky-sidebar-grid arch-responsive-alternating-mobile-order arch-interaction-route-selector arch-cta-portrait-trust-cta arch-content-route-led"
+        data-section="03"
+        data-page="blog"
+        data-role="conversion-contact"
+        data-layout-signature="39-kindred-kindred-personal-route-blog-consultation-cta-03"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Kindred Personal Route"
+        data-visual-role="opening-promise"
+        data-image-treatment="full-image-beside-text"
+        data-premium-rhythm="full-width-statement"
+        data-visual-dna-signature="39-kindred-full-width-statement-blog-03"
+        data-concept-dna="39-kindred"
+        data-mobile-rhythm="image-first-mobile"
+        data-component-type="accordion-guidance-block"
+        data-html-anatomy="copy-process-rail-actions"
+        data-css-layout="sticky-sidebar-grid"
+        data-responsive-pattern="alternating-mobile-order"
+        data-interaction="route-selector"
+        data-cta-pattern="portrait-trust-cta"
+        data-content-presentation="route-led"
+        data-visual-hierarchy="cta-led"
+        data-architecture-signature="39-kindred-accordion-guidance-block-sticky-sidebar-grid-blog-03"
+        data-architecture-concept="39-kindred"
+        data-architecture-section="03"
+        data-architecture-interaction="route-selector"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Kindred / Consultation CTA</p>
+          <h2>Need guidance</h2>
+          <p>Bring your questions into a consultation.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="consultation.html"
+              >Request evaluation</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-18-balcony-orange-looking-up-transparent.webp"
+            alt="Franciele Sofiati in a full-image Kindred Blog visual for conversion contact"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 04 — Featured Guide
+Page: Blog
+Role: education-feature
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Read guide
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 39-kindred-kindred-personal-route-blog-featured-guide-04
+Mobile note: journal previews become horizontal-scannable but readable cards
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Featured guide / Start with the guide most relevant to your questions. / Read guide
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-statement visual-dna-section visual-dna-section-04 visual-layout-structured-clinical visual-role-sage-editorial-break visual-tone-sage visual-image-full-image-quiet-anchor architecture-section architecture-section-04 arch-component-stepper-component arch-html-copy-masonry-cards-portrait arch-layout-image-first-grid arch-responsive-accordion-mobile-sections arch-interaction-process-stepper arch-cta-inline-consultation-link arch-content-form-led"
+        data-section="04"
+        data-page="blog"
+        data-role="education-feature"
+        data-layout-signature="39-kindred-kindred-personal-route-blog-featured-guide-04"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Kindred Personal Route"
+        data-visual-role="sage-editorial-break"
+        data-image-treatment="full-image-dark-luxury-section"
+        data-premium-rhythm="structured-clinical"
+        data-visual-dna-signature="39-kindred-structured-clinical-blog-04"
+        data-concept-dna="39-kindred"
+        data-mobile-rhythm="image-first-mobile"
+        data-component-type="stepper-component"
+        data-html-anatomy="copy-masonry-cards-portrait"
+        data-css-layout="image-first-grid"
+        data-responsive-pattern="accordion-mobile-sections"
+        data-interaction="process-stepper"
+        data-cta-pattern="inline-consultation-link"
+        data-content-presentation="form-led"
+        data-visual-hierarchy="card-led"
+        data-architecture-signature="39-kindred-stepper-component-image-first-grid-blog-04"
+        data-architecture-concept="39-kindred"
+        data-architecture-section="04"
+        data-architecture-interaction="process-stepper"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Kindred / Featured Guide</p>
+          <h2>Featured guide</h2>
+          <p>Start with the guide most relevant to your questions.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="journal.html"
+              >Read guide</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-22-ivory-room-arms-crossed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Kindred Blog visual for education feature"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 05 — Article Categories
+Page: Blog
+Role: education-route
+Content: Heading, short paragraph, route cards, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Journal
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 39-kindred-kindred-personal-route-blog-article-categories-05
+Mobile note: journal previews become horizontal-scannable but readable cards
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Browse topics / Choose skin, laser, care, or results guidance. / Journal
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-portrait-stack visual-dna-section visual-dna-section-05 visual-layout-asymmetric-panel visual-role-human-trust visual-tone-cream visual-image-full-image-elegant-card architecture-section architecture-section-05 arch-component-card-masonry arch-html-copy-first-image-anchor arch-layout-botanical-divider-grid arch-responsive-image-first-mobile arch-interaction-none arch-cta-footer-bridge-cta arch-content-statement-led"
+        data-section="05"
+        data-page="blog"
+        data-role="education-route"
+        data-layout-signature="39-kindred-kindred-personal-route-blog-article-categories-05"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Kindred Personal Route"
+        data-visual-role="human-trust"
+        data-image-treatment="full-image-floating-panel"
+        data-premium-rhythm="asymmetric-panel"
+        data-visual-dna-signature="39-kindred-asymmetric-panel-blog-05"
+        data-concept-dna="39-kindred"
+        data-mobile-rhythm="image-first-mobile"
+        data-component-type="card-masonry"
+        data-html-anatomy="copy-first-image-anchor"
+        data-css-layout="botanical-divider-grid"
+        data-responsive-pattern="image-first-mobile"
+        data-interaction="none"
+        data-cta-pattern="footer-bridge-cta"
+        data-content-presentation="statement-led"
+        data-visual-hierarchy="statement-led"
+        data-architecture-signature="39-kindred-card-masonry-botanical-divider-grid-blog-05"
+        data-architecture-concept="39-kindred"
+        data-architecture-section="05"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Kindred / Article Categories</p>
+          <h2>Browse topics</h2>
+          <p>Choose skin, laser, care, or results guidance.</p>
+          <div class="atlas-card-row" aria-label="Article Categories cards">
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Skin</h3>
+              <p>Skin context.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Laser</h3>
+              <p>Suitability first.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Care</h3>
+              <p>Attentive guidance.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Results</h3>
+              <p>Realistic goals.</p>
+            </article>
+          </div>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="journal.html"
+              >Journal</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-25-ivory-room-window-touch-transparent.webp"
+            alt="Franciele Sofiati in a full-image Kindred Blog visual for education route"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 06 — Article Grid
+Page: Blog
+Role: education-route
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Read more
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 39-kindred-kindred-personal-route-blog-article-grid-06
+Mobile note: journal previews become horizontal-scannable but readable cards
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Latest articles / Read short educational pieces by topic. / Read more
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-editorial-aside visual-dna-section visual-dna-section-06 visual-layout-gallery-frame visual-role-route-panel visual-tone-editorial visual-image-full-image-sage-rail architecture-section architecture-section-06 arch-component-consultation-route-selector arch-html-statement-copy-wide-figure arch-layout-magazine-css-grid arch-responsive-collapsed-route-cards-mobile arch-interaction-sticky-cta arch-cta-whatsapp-first-cta arch-content-journal-led"
+        data-section="06"
+        data-page="blog"
+        data-role="education-route"
+        data-layout-signature="39-kindred-kindred-personal-route-blog-article-grid-06"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Kindred Personal Route"
+        data-visual-role="route-panel"
+        data-image-treatment="full-image-footer-brand-card"
+        data-premium-rhythm="gallery-frame"
+        data-visual-dna-signature="39-kindred-gallery-frame-blog-06"
+        data-concept-dna="39-kindred"
+        data-mobile-rhythm="image-first-mobile"
+        data-component-type="consultation-route-selector"
+        data-html-anatomy="statement-copy-wide-figure"
+        data-css-layout="magazine-css-grid"
+        data-responsive-pattern="collapsed-route-cards-mobile"
+        data-interaction="sticky-cta"
+        data-cta-pattern="whatsapp-first-cta"
+        data-content-presentation="journal-led"
+        data-visual-hierarchy="process-led"
+        data-architecture-signature="39-kindred-consultation-route-selector-magazine-css-grid-blog-06"
+        data-architecture-concept="39-kindred"
+        data-architecture-section="06"
+        data-architecture-interaction="sticky-cta"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Kindred / Article Grid</p>
+          <h2>Latest articles</h2>
+          <p>Read short educational pieces by topic.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="journal.html"
+              >Read more</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-01-studio-seated-soft-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Kindred Blog visual for education route"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 07 — Reading Path
+Page: Blog
+Role: education-route
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: View FAQ
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 39-kindred-kindred-personal-route-blog-reading-path-07
+Mobile note: journal previews become horizontal-scannable but readable cards
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Choose a path / Follow the topic that matches your current question. / View FAQ
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-quote-band visual-dna-section visual-dna-section-07 visual-layout-image-first-mobile visual-role-deep-trust-band visual-tone-deep visual-image-full-image-bronze-rule architecture-section architecture-section-07 arch-component-full-width-brand-band arch-html-copy-journal-row-figure arch-layout-route-matrix-grid arch-responsive-footer-specific-mobile-rhythm arch-interaction-reduced-motion-reveal arch-cta-faq-contact-bridge arch-content-paragraph-led"
+        data-section="07"
+        data-page="blog"
+        data-role="education-route"
+        data-layout-signature="39-kindred-kindred-personal-route-blog-reading-path-07"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Kindred Personal Route"
+        data-visual-role="deep-trust-band"
+        data-image-treatment="css-statement-panel"
+        data-premium-rhythm="image-first-mobile"
+        data-visual-dna-signature="39-kindred-image-first-mobile-blog-07"
+        data-concept-dna="39-kindred"
+        data-mobile-rhythm="image-first-mobile"
+        data-component-type="full-width-brand-band"
+        data-html-anatomy="copy-journal-row-figure"
+        data-css-layout="route-matrix-grid"
+        data-responsive-pattern="footer-specific-mobile-rhythm"
+        data-interaction="reduced-motion-reveal"
+        data-cta-pattern="faq-contact-bridge"
+        data-content-presentation="paragraph-led"
+        data-visual-hierarchy="cta-led"
+        data-architecture-signature="39-kindred-full-width-brand-band-route-matrix-grid-blog-07"
+        data-architecture-concept="39-kindred"
+        data-architecture-section="07"
+        data-architecture-interaction="reduced-motion-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Kindred / Reading Path</p>
+          <h2>Choose a path</h2>
+          <p>Follow the topic that matches your current question.</p>
+          <div class="atlas-actions">
+            <a class="button atlas-button atlas-button--primary" href="faq.html"
+              >View FAQ</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-04-studio-full-poised-transparent.webp"
+            alt="Franciele Sofiati in a full-image Kindred Blog visual for education route"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 08 — Education Break
+Page: Blog
+Role: reassurance-statement
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: None
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 39-kindred-kindred-personal-route-blog-education-break-08
+Mobile note: journal previews become horizontal-scannable but readable cards
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Better questions / Useful reading makes consultation clearer. / None
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-timeline visual-dna-section visual-dna-section-08 visual-layout-trust-note visual-role-service-focus visual-tone-cream visual-image-full-image-open-frame architecture-section architecture-section-08 arch-component-sage-reassurance-panel arch-html-copy-accordion-cards arch-layout-clinical-two-column-grid arch-responsive-compact-cta-strip-mobile arch-interaction-route-selector arch-cta-service-form-bridge arch-content-bullets-led"
+        data-section="08"
+        data-page="blog"
+        data-role="reassurance-statement"
+        data-layout-signature="39-kindred-kindred-personal-route-blog-education-break-08"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Kindred Personal Route"
+        data-visual-role="service-focus"
+        data-image-treatment="full-image-beside-text"
+        data-premium-rhythm="trust-note"
+        data-visual-dna-signature="39-kindred-trust-note-blog-08"
+        data-concept-dna="39-kindred"
+        data-mobile-rhythm="image-first-mobile"
+        data-component-type="sage-reassurance-panel"
+        data-html-anatomy="copy-accordion-cards"
+        data-css-layout="clinical-two-column-grid"
+        data-responsive-pattern="compact-cta-strip-mobile"
+        data-interaction="route-selector"
+        data-cta-pattern="service-form-bridge"
+        data-content-presentation="bullets-led"
+        data-visual-hierarchy="card-led"
+        data-architecture-signature="39-kindred-sage-reassurance-panel-clinical-two-column-grid-blog-08"
+        data-architecture-concept="39-kindred"
+        data-architecture-section="08"
+        data-architecture-interaction="route-selector"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Kindred / Education Break</p>
+          <h2>Better questions</h2>
+          <p>Useful reading makes consultation clearer.</p>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-07-studio-crossed-composed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Kindred Blog visual for reassurance statement"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 09 — Popular Questions
+Page: Blog
+Role: education-faq
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: FAQ
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 39-kindred-kindred-personal-route-blog-popular-questions-09
+Mobile note: journal previews become horizontal-scannable but readable cards
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Popular doubts / Find practical answers before your next step. / FAQ
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-gallery-strip visual-dna-section visual-dna-section-09 visual-layout-botanical-divider visual-role-journal-strip visual-tone-sage visual-image-full-image-editorial-panel architecture-section architecture-section-09 arch-component-image-gallery-frame arch-html-portrait-copy-sidebar-actions arch-layout-asymmetric-css-grid arch-responsive-stacked-editorial-panels-mobile arch-interaction-process-stepper arch-cta-deep-sage-cta-band arch-content-cards-led"
+        data-section="09"
+        data-page="blog"
+        data-role="education-faq"
+        data-layout-signature="39-kindred-kindred-personal-route-blog-popular-questions-09"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Kindred Personal Route"
+        data-visual-role="journal-strip"
+        data-image-treatment="full-image-dark-luxury-section"
+        data-premium-rhythm="botanical-divider"
+        data-visual-dna-signature="39-kindred-botanical-divider-blog-09"
+        data-concept-dna="39-kindred"
+        data-mobile-rhythm="image-first-mobile"
+        data-component-type="image-gallery-frame"
+        data-html-anatomy="portrait-copy-sidebar-actions"
+        data-css-layout="asymmetric-css-grid"
+        data-responsive-pattern="stacked-editorial-panels-mobile"
+        data-interaction="process-stepper"
+        data-cta-pattern="deep-sage-cta-band"
+        data-content-presentation="cards-led"
+        data-visual-hierarchy="statement-led"
+        data-architecture-signature="39-kindred-image-gallery-frame-asymmetric-css-grid-blog-09"
+        data-architecture-concept="39-kindred"
+        data-architecture-section="09"
+        data-architecture-interaction="process-stepper"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Kindred / Popular Questions</p>
+          <h2>Popular doubts</h2>
+          <p>Find practical answers before your next step.</p>
+          <div class="atlas-actions">
+            <a class="button atlas-button atlas-button--primary" href="faq.html"
+              >FAQ</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-10-studio-close-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Kindred Blog visual for education faq"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 10 — Journal Bridge
+Page: Blog
+Role: conversion-final
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Journal
+Secondary CTA: Contact
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 39-kindred-kindred-personal-route-blog-journal-bridge-10
+Mobile note: journal previews become horizontal-scannable but readable cards
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Back to journal / Return to the editorial guide library. / Journal + Contact
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-minimal-field visual-dna-section visual-dna-section-10 visual-layout-centered-portrait visual-role-form-focus visual-tone-ivory visual-image-full-image-soft-field architecture-section architecture-section-10 arch-component-minimal-clinical-panel arch-html-copy-comparison-cards arch-layout-masonry-css-grid arch-responsive-text-first-mobile arch-interaction-none arch-cta-minimal-line-cta arch-content-quote-led"
+        data-section="10"
+        data-page="blog"
+        data-role="conversion-final"
+        data-layout-signature="39-kindred-kindred-personal-route-blog-journal-bridge-10"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Kindred Personal Route"
+        data-visual-role="form-focus"
+        data-image-treatment="full-image-floating-panel"
+        data-premium-rhythm="centered-portrait"
+        data-visual-dna-signature="39-kindred-centered-portrait-blog-10"
+        data-concept-dna="39-kindred"
+        data-mobile-rhythm="image-first-mobile"
+        data-component-type="minimal-clinical-panel"
+        data-html-anatomy="copy-comparison-cards"
+        data-css-layout="masonry-css-grid"
+        data-responsive-pattern="text-first-mobile"
+        data-interaction="none"
+        data-cta-pattern="minimal-line-cta"
+        data-content-presentation="quote-led"
+        data-visual-hierarchy="process-led"
+        data-architecture-signature="39-kindred-minimal-clinical-panel-masonry-css-grid-blog-10"
+        data-architecture-concept="39-kindred"
+        data-architecture-section="10"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Kindred / Journal Bridge</p>
+          <h2>Back to journal</h2>
+          <p>Return to the editorial guide library.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="journal.html"
+              >Journal</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="contact.html"
+              >Contact</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-13-balcony-orange-soft-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Kindred Blog visual for conversion final"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+    </main>
+    <div data-partial-mount="cookie-banner"></div>
+    <div data-partial-mount="footer"></div>
+    <div data-partial-mount="floating-widgets"></div>
+    <script src="js/partials.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="../../js/sofiati-50-architecture-system.js" defer></script>
+    <script
+      src="../../js/sofiati-footer-cookie.js"
+      defer
+      data-sofiati-cookie-loader
+    ></script>
+  </body>
+</html>

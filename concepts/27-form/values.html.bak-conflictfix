@@ -1,0 +1,826 @@
+<!doctype html>
+<html lang="en" data-source-lang="en" data-default-lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Four principles shape the Sofiati experience. Form expresses this through form structured atelier."
+    />
+    <title>Values | Form | Franciele Sofiati</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/atlas-story.css" />
+    <link
+      rel="canonical"
+      href="https://www.sofiati.com/concepts/27-form/values.html"
+    />
+    <meta property="og:title" content="Values | Form | Franciele Sofiati" />
+    <meta
+      property="og:description"
+      content="Four principles shape the Sofiati experience. Form expresses this through form structured atelier."
+    />
+    <meta
+      property="og:image"
+      content="../../assets/brand/franciele-sofiati-02-studio-seated-laughing-transparent.webp"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://www.sofiati.com/concepts/27-form/values.html"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link
+      rel="icon"
+      href="../../assets/brand/sofiati-favicon.svg"
+      type="image/svg+xml"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="../../assets/brand/sofiati-monogram-sage.png"
+    />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-full-image-premium-system.css"
+    />
+    <link rel="stylesheet" href="../../css/sofiati-premium-visual-dna.css" />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-50-architecture-system.css"
+    />
+  </head>
+  <body
+    class="concept concept-form page-values atlas-site atlas-site-27 atlas-layout-family-6 premium-visual-dna visual-dna-site-27 visual-header-botanical-rail-header visual-footer-compact-legal-footer visual-mobile-editorial-card-mobile architecture-site architecture-site-27 architecture-journey-journal-editorial-first-journey architecture-header-drawer-led-mobile-header architecture-footer-multi-column-footer"
+    data-concept="27-form"
+    data-page="values"
+    data-page-label="Values"
+    data-page-title="Values | Form | Franciele Sofiati"
+    data-page-description="Four principles shape the Sofiati experience. Form expresses this through form structured atelier."
+    data-canonical="https://www.sofiati.com/concepts/27-form/values.html"
+    data-default-lang="en"
+    data-atlas-dna="Form Structured Atelier"
+    data-brand-asset-root="../../assets/brand"
+    data-visual-dna-theme="shape-led editorial, structured form panels, strong frames"
+    data-header-pattern="botanical-rail-header"
+    data-footer-pattern="compact-legal-footer"
+    data-mobile-pattern="editorial-card-mobile"
+    data-colour-rhythm="clinical-cream-sage-ink"
+    data-architecture-contract="27-form"
+    data-visitor-journey="journal-editorial-first journey"
+    data-ia-emphasis="lead with form and shape as conversion structure"
+    data-header-architecture="drawer-led-mobile-header"
+    data-footer-architecture="multi-column-footer"
+    data-cta-architecture="inline-consultation-link"
+    data-js-architecture="reduced-motion-reveal, route-selector, process-stepper with reduced-motion-safe delegation"
+  >
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div data-partial-mount="status-banner"></div>
+    <div data-partial-mount="accessibility"></div>
+    <div data-partial-mount="header"></div>
+    <div data-partial-mount="mobile-menu"></div>
+    <main
+      id="main"
+      class="atlas-main atlas-page-values architecture-main architecture-main-27"
+      data-page="values"
+      data-section-count="10"
+      data-atlas-source="docs/sites/27-form/MASTER-BRIEF.md"
+      data-homepage-architecture="floating-card-cluster opening, tabbed-route-panel trust build, vertical-process-rail final bridge"
+      data-internal-page-architecture="statement-interlude intro, image-gallery-frame body, full-bleed-soft-background-section conversion close"
+    >
+      <!--
+SECTION 01 — Values Hero
+Page: Values
+Role: opening-values
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Request evaluation
+Secondary CTA: Message WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 27-form-form-structured-atelier-values-values-hero-01
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Care values / Four principles shape the Sofiati experience. / Request evaluation + Message WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-centered visual-dna-section visual-dna-section-01 visual-layout-editorial-split visual-role-journal-strip visual-tone-sage visual-image-full-image-bronze-rule architecture-section architecture-section-01 arch-component-floating-card-cluster arch-html-copy-first-image-anchor arch-layout-sticky-sidebar-grid arch-responsive-sticky-consultation-mobile arch-interaction-reduced-motion-reveal arch-cta-quiet-secondary-cta arch-content-statement-led"
+        data-section="01"
+        data-page="values"
+        data-role="opening-values"
+        data-layout-signature="27-form-form-structured-atelier-values-values-hero-01"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Form Structured Atelier"
+        data-visual-role="journal-strip"
+        data-image-treatment="full-image-beside-text"
+        data-premium-rhythm="editorial-split"
+        data-visual-dna-signature="27-form-editorial-split-values-01"
+        data-concept-dna="27-form"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="floating-card-cluster"
+        data-html-anatomy="copy-first-image-anchor"
+        data-css-layout="sticky-sidebar-grid"
+        data-responsive-pattern="sticky-consultation-mobile"
+        data-interaction="reduced-motion-reveal"
+        data-cta-pattern="quiet-secondary-cta"
+        data-content-presentation="statement-led"
+        data-visual-hierarchy="statement-led"
+        data-architecture-signature="27-form-floating-card-cluster-sticky-sidebar-grid-values-01"
+        data-architecture-concept="27-form"
+        data-architecture-section="01"
+        data-architecture-interaction="reduced-motion-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Form / Values Hero</p>
+          <h1>Care values</h1>
+          <p>Four principles shape the Sofiati experience.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="consultation.html"
+              >Request evaluation</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >Message WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-08-studio-front-composed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Form Values visual for opening values"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-hero-photo"
+            data-sofiati-photo="true"
+            fetchpriority="high"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 02 — Seguranca
+Page: Values
+Role: reassurance-safety
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Read FAQ
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 27-form-form-structured-atelier-values-seguranca-02
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Safety / Safety means boundaries, evaluation, and realistic expectations. / Read FAQ
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-ledger visual-dna-section visual-dna-section-02 visual-layout-gallery-frame visual-role-form-focus visual-tone-ivory visual-image-full-image-open-frame architecture-section architecture-section-02 arch-component-statement-interlude arch-html-portrait-copy-sidebar-actions arch-layout-timeline-rail-grid arch-responsive-accordion-mobile-sections arch-interaction-route-selector arch-cta-sticky-consultation-dock arch-content-journal-led"
+        data-section="02"
+        data-page="values"
+        data-role="reassurance-safety"
+        data-layout-signature="27-form-form-structured-atelier-values-seguranca-02"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Form Structured Atelier"
+        data-visual-role="form-focus"
+        data-image-treatment="full-image-dark-luxury-section"
+        data-premium-rhythm="gallery-frame"
+        data-visual-dna-signature="27-form-gallery-frame-values-02"
+        data-concept-dna="27-form"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="statement-interlude"
+        data-html-anatomy="portrait-copy-sidebar-actions"
+        data-css-layout="timeline-rail-grid"
+        data-responsive-pattern="accordion-mobile-sections"
+        data-interaction="route-selector"
+        data-cta-pattern="sticky-consultation-dock"
+        data-content-presentation="journal-led"
+        data-visual-hierarchy="process-led"
+        data-architecture-signature="27-form-statement-interlude-timeline-rail-grid-values-02"
+        data-architecture-concept="27-form"
+        data-architecture-section="02"
+        data-architecture-interaction="route-selector"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Form / Seguranca</p>
+          <h2>Safety</h2>
+          <p>
+            Safety means boundaries, evaluation, and realistic expectations.
+          </p>
+          <div class="atlas-actions">
+            <a class="button atlas-button atlas-button--primary" href="faq.html"
+              >Read FAQ</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-11-studio-chair-angled-transparent.webp"
+            alt="Franciele Sofiati in a full-image Form Values visual for reassurance safety"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 03 — Naturalidade
+Page: Values
+Role: trust-naturality
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Understand results
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 27-form-form-structured-atelier-values-naturalidade-03
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Naturality / Naturality means planning that respects your features and comfort. / Understand results
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-split-card visual-dna-section visual-dna-section-03 visual-layout-cta-band visual-role-quiet-proof visual-tone-line visual-image-full-image-editorial-panel architecture-section architecture-section-03 arch-component-evidence-note-panel arch-html-copy-process-rail-actions arch-layout-asymmetric-css-grid arch-responsive-footer-specific-mobile-rhythm arch-interaction-process-stepper arch-cta-portrait-trust-cta arch-content-paragraph-led"
+        data-section="03"
+        data-page="values"
+        data-role="trust-naturality"
+        data-layout-signature="27-form-form-structured-atelier-values-naturalidade-03"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Form Structured Atelier"
+        data-visual-role="quiet-proof"
+        data-image-treatment="full-image-floating-panel"
+        data-premium-rhythm="cta-band"
+        data-visual-dna-signature="27-form-cta-band-values-03"
+        data-concept-dna="27-form"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="evidence-note-panel"
+        data-html-anatomy="copy-process-rail-actions"
+        data-css-layout="asymmetric-css-grid"
+        data-responsive-pattern="footer-specific-mobile-rhythm"
+        data-interaction="process-stepper"
+        data-cta-pattern="portrait-trust-cta"
+        data-content-presentation="paragraph-led"
+        data-visual-hierarchy="cta-led"
+        data-architecture-signature="27-form-evidence-note-panel-asymmetric-css-grid-values-03"
+        data-architecture-concept="27-form"
+        data-architecture-section="03"
+        data-architecture-interaction="process-stepper"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Form / Naturalidade</p>
+          <h2>Naturality</h2>
+          <p>
+            Naturality means planning that respects your features and comfort.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="results.html"
+              >Understand results</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-14-balcony-orange-side-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Form Values visual for trust naturality"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 04 — Visual Break
+Page: Values
+Role: reassurance-statement
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: None
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 27-form-form-structured-atelier-values-visual-break-04
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Values guide choices / The experience should feel thoughtful from start to finish. / None
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-statement visual-dna-section visual-dna-section-04 visual-layout-framed-minimal visual-role-final-conversion visual-tone-conversion visual-image-full-image-soft-field architecture-section architecture-section-04 arch-component-tabbed-route-panel arch-html-copy-journal-row-figure arch-layout-route-matrix-grid arch-responsive-text-first-mobile arch-interaction-none arch-cta-inline-consultation-link arch-content-bullets-led"
+        data-section="04"
+        data-page="values"
+        data-role="reassurance-statement"
+        data-layout-signature="27-form-form-structured-atelier-values-visual-break-04"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Form Structured Atelier"
+        data-visual-role="final-conversion"
+        data-image-treatment="full-image-footer-brand-card"
+        data-premium-rhythm="framed-minimal"
+        data-visual-dna-signature="27-form-framed-minimal-values-04"
+        data-concept-dna="27-form"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="tabbed-route-panel"
+        data-html-anatomy="copy-journal-row-figure"
+        data-css-layout="route-matrix-grid"
+        data-responsive-pattern="text-first-mobile"
+        data-interaction="none"
+        data-cta-pattern="inline-consultation-link"
+        data-content-presentation="bullets-led"
+        data-visual-hierarchy="card-led"
+        data-architecture-signature="27-form-tabbed-route-panel-route-matrix-grid-values-04"
+        data-architecture-concept="27-form"
+        data-architecture-section="04"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Form / Visual Break</p>
+          <h2>Values guide choices</h2>
+          <p>The experience should feel thoughtful from start to finish.</p>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-18-balcony-orange-looking-up-transparent.webp"
+            alt="Franciele Sofiati in a full-image Form Values visual for reassurance statement"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 05 — Values in Consultation
+Page: Values
+Role: conversion-prep
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Begin consultation
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 27-form-form-structured-atelier-values-values-in-consultation-05
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: In consultation / These values shape how questions, goals, and next steps are discussed. / Begin consultation
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-portrait-stack visual-dna-section visual-dna-section-05 visual-layout-asymmetric-panel visual-role-opening-promise visual-tone-ivory visual-image-full-image-clinical-frame architecture-section architecture-section-05 arch-component-image-gallery-frame arch-html-copy-timeline-figure arch-layout-botanical-divider-grid arch-responsive-sticky-consultation-mobile arch-interaction-sticky-cta arch-cta-footer-bridge-cta arch-content-cards-led"
+        data-section="05"
+        data-page="values"
+        data-role="conversion-prep"
+        data-layout-signature="27-form-form-structured-atelier-values-values-in-consultation-05"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Form Structured Atelier"
+        data-visual-role="opening-promise"
+        data-image-treatment="css-statement-panel"
+        data-premium-rhythm="asymmetric-panel"
+        data-visual-dna-signature="27-form-asymmetric-panel-values-05"
+        data-concept-dna="27-form"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="image-gallery-frame"
+        data-html-anatomy="copy-timeline-figure"
+        data-css-layout="botanical-divider-grid"
+        data-responsive-pattern="sticky-consultation-mobile"
+        data-interaction="sticky-cta"
+        data-cta-pattern="footer-bridge-cta"
+        data-content-presentation="cards-led"
+        data-visual-hierarchy="statement-led"
+        data-architecture-signature="27-form-image-gallery-frame-botanical-divider-grid-values-05"
+        data-architecture-concept="27-form"
+        data-architecture-section="05"
+        data-architecture-interaction="sticky-cta"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Form / Values in Consultation</p>
+          <h2>In consultation</h2>
+          <p>
+            These values shape how questions, goals, and next steps are
+            discussed.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="consultation.html"
+              >Begin consultation</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-22-ivory-room-arms-crossed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Form Values visual for conversion prep"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 06 — Related Guidance
+Page: Values
+Role: internal-route
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Explore care
+Secondary CTA: Results
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 27-form-form-structured-atelier-values-related-guidance-06
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Related guidance / Continue with care or results guidance. / Explore care + Results
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-editorial-aside visual-dna-section visual-dna-section-06 visual-layout-route-grid visual-role-sage-editorial-break visual-tone-sage visual-image-full-image-layered-panel architecture-section architecture-section-06 arch-component-consultation-route-selector arch-html-copy-first-image-anchor arch-layout-sticky-sidebar-grid arch-responsive-accordion-mobile-sections arch-interaction-reduced-motion-reveal arch-cta-whatsapp-first-cta arch-content-quote-led"
+        data-section="06"
+        data-page="values"
+        data-role="internal-route"
+        data-layout-signature="27-form-form-structured-atelier-values-related-guidance-06"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Form Structured Atelier"
+        data-visual-role="sage-editorial-break"
+        data-image-treatment="full-image-beside-text"
+        data-premium-rhythm="route-grid"
+        data-visual-dna-signature="27-form-route-grid-values-06"
+        data-concept-dna="27-form"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="consultation-route-selector"
+        data-html-anatomy="copy-first-image-anchor"
+        data-css-layout="sticky-sidebar-grid"
+        data-responsive-pattern="accordion-mobile-sections"
+        data-interaction="reduced-motion-reveal"
+        data-cta-pattern="whatsapp-first-cta"
+        data-content-presentation="quote-led"
+        data-visual-hierarchy="process-led"
+        data-architecture-signature="27-form-consultation-route-selector-sticky-sidebar-grid-values-06"
+        data-architecture-concept="27-form"
+        data-architecture-section="06"
+        data-architecture-interaction="reduced-motion-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Form / Related Guidance</p>
+          <h2>Related guidance</h2>
+          <p>Continue with care or results guidance.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="care.html"
+              >Explore care</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="results.html"
+              >Results</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-25-ivory-room-window-touch-transparent.webp"
+            alt="Franciele Sofiati in a full-image Form Values visual for internal route"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 07 — About Mission Bridge
+Page: Values
+Role: brand-route
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: About
+Secondary CTA: Mission
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 27-form-form-structured-atelier-values-about-mission-bridge-07
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Brand story / Read more about the purpose behind the experience. / About + Mission
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-quote-band visual-dna-section visual-dna-section-07 visual-layout-journal-row visual-role-human-trust visual-tone-cream visual-image-full-image-gallery-frame architecture-section architecture-section-07 arch-component-accordion-guidance-block arch-html-portrait-copy-sidebar-actions arch-layout-timeline-rail-grid arch-responsive-footer-specific-mobile-rhythm arch-interaction-route-selector arch-cta-faq-contact-bridge arch-content-step-led"
+        data-section="07"
+        data-page="values"
+        data-role="brand-route"
+        data-layout-signature="27-form-form-structured-atelier-values-about-mission-bridge-07"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Form Structured Atelier"
+        data-visual-role="human-trust"
+        data-image-treatment="full-image-dark-luxury-section"
+        data-premium-rhythm="journal-row"
+        data-visual-dna-signature="27-form-journal-row-values-07"
+        data-concept-dna="27-form"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="accordion-guidance-block"
+        data-html-anatomy="portrait-copy-sidebar-actions"
+        data-css-layout="timeline-rail-grid"
+        data-responsive-pattern="footer-specific-mobile-rhythm"
+        data-interaction="route-selector"
+        data-cta-pattern="faq-contact-bridge"
+        data-content-presentation="step-led"
+        data-visual-hierarchy="cta-led"
+        data-architecture-signature="27-form-accordion-guidance-block-timeline-rail-grid-values-07"
+        data-architecture-concept="27-form"
+        data-architecture-section="07"
+        data-architecture-interaction="route-selector"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Form / About Mission Bridge</p>
+          <h2>Brand story</h2>
+          <p>Read more about the purpose behind the experience.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="about.html"
+              >About</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="mission.html"
+              >Mission</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-01-studio-seated-soft-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Form Values visual for brand route"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 08 — Cuidado
+Page: Values
+Role: trust-care
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Explore care
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 27-form-form-structured-atelier-values-cuidado-08
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Care / Care begins with listening closely and respecting individual context. / Explore care
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-timeline visual-dna-section visual-dna-section-08 visual-layout-structured-clinical visual-role-route-panel visual-tone-editorial visual-image-full-image-quiet-anchor architecture-section architecture-section-08 arch-component-article-row arch-html-copy-process-rail-actions arch-layout-asymmetric-css-grid arch-responsive-text-first-mobile arch-interaction-process-stepper arch-cta-service-form-bridge arch-content-question-led"
+        data-section="08"
+        data-page="values"
+        data-role="trust-care"
+        data-layout-signature="27-form-form-structured-atelier-values-cuidado-08"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Form Structured Atelier"
+        data-visual-role="route-panel"
+        data-image-treatment="full-image-floating-panel"
+        data-premium-rhythm="structured-clinical"
+        data-visual-dna-signature="27-form-structured-clinical-values-08"
+        data-concept-dna="27-form"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="article-row"
+        data-html-anatomy="copy-process-rail-actions"
+        data-css-layout="asymmetric-css-grid"
+        data-responsive-pattern="text-first-mobile"
+        data-interaction="process-stepper"
+        data-cta-pattern="service-form-bridge"
+        data-content-presentation="question-led"
+        data-visual-hierarchy="card-led"
+        data-architecture-signature="27-form-article-row-asymmetric-css-grid-values-08"
+        data-architecture-concept="27-form"
+        data-architecture-section="08"
+        data-architecture-interaction="process-stepper"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Form / Cuidado</p>
+          <h2>Care</h2>
+          <p>
+            Care begins with listening closely and respecting individual
+            context.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="care.html"
+              >Explore care</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-04-studio-full-poised-transparent.webp"
+            alt="Franciele Sofiati in a full-image Form Values visual for trust care"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 09 — Confianca
+Page: Values
+Role: trust-confidence
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Meet Franciele
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 27-form-form-structured-atelier-values-confianca-09
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Trust / Trust grows through clear explanations and calm guidance. / Meet Franciele
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-gallery-strip visual-dna-section visual-dna-section-09 visual-layout-sage-band visual-role-deep-trust-band visual-tone-deep visual-image-full-image-elegant-card architecture-section architecture-section-09 arch-component-full-bleed-soft-background-section arch-html-copy-journal-row-figure arch-layout-route-matrix-grid arch-responsive-sticky-consultation-mobile arch-interaction-none arch-cta-deep-sage-cta-band arch-content-route-led"
+        data-section="09"
+        data-page="values"
+        data-role="trust-confidence"
+        data-layout-signature="27-form-form-structured-atelier-values-confianca-09"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Form Structured Atelier"
+        data-visual-role="deep-trust-band"
+        data-image-treatment="full-image-footer-brand-card"
+        data-premium-rhythm="sage-band"
+        data-visual-dna-signature="27-form-sage-band-values-09"
+        data-concept-dna="27-form"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="full-bleed-soft-background-section"
+        data-html-anatomy="copy-journal-row-figure"
+        data-css-layout="route-matrix-grid"
+        data-responsive-pattern="sticky-consultation-mobile"
+        data-interaction="none"
+        data-cta-pattern="deep-sage-cta-band"
+        data-content-presentation="route-led"
+        data-visual-hierarchy="statement-led"
+        data-architecture-signature="27-form-full-bleed-soft-background-section-route-matrix-grid-values-09"
+        data-architecture-concept="27-form"
+        data-architecture-section="09"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Form / Confianca</p>
+          <h2>Trust</h2>
+          <p>Trust grows through clear explanations and calm guidance.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="about.html"
+              >Meet Franciele</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-07-studio-crossed-composed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Form Values visual for trust confidence"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 10 — Final CTA
+Page: Values
+Role: conversion-final
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Request evaluation
+Secondary CTA: WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 27-form-form-structured-atelier-values-final-cta-10
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Begin with care / Send a question or request an evaluation. / Request evaluation + WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-minimal-field visual-dna-section visual-dna-section-10 visual-layout-stacked-editorial visual-role-service-focus visual-tone-cream visual-image-full-image-sage-rail architecture-section architecture-section-10 arch-component-vertical-process-rail arch-html-copy-timeline-figure arch-layout-botanical-divider-grid arch-responsive-accordion-mobile-sections arch-interaction-sticky-cta arch-cta-minimal-line-cta arch-content-form-led"
+        data-section="10"
+        data-page="values"
+        data-role="conversion-final"
+        data-layout-signature="27-form-form-structured-atelier-values-final-cta-10"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Form Structured Atelier"
+        data-visual-role="service-focus"
+        data-image-treatment="css-statement-panel"
+        data-premium-rhythm="stacked-editorial"
+        data-visual-dna-signature="27-form-stacked-editorial-values-10"
+        data-concept-dna="27-form"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="vertical-process-rail"
+        data-html-anatomy="copy-timeline-figure"
+        data-css-layout="botanical-divider-grid"
+        data-responsive-pattern="accordion-mobile-sections"
+        data-interaction="sticky-cta"
+        data-cta-pattern="minimal-line-cta"
+        data-content-presentation="form-led"
+        data-visual-hierarchy="process-led"
+        data-architecture-signature="27-form-vertical-process-rail-botanical-divider-grid-values-10"
+        data-architecture-concept="27-form"
+        data-architecture-section="10"
+        data-architecture-interaction="sticky-cta"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Form / Final CTA</p>
+          <h2>Begin with care</h2>
+          <p>Send a question or request an evaluation.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="consultation.html"
+              >Request evaluation</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-10-studio-close-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Form Values visual for conversion final"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+    </main>
+    <div data-partial-mount="cookie-banner"></div>
+    <div data-partial-mount="footer"></div>
+    <div data-partial-mount="floating-widgets"></div>
+    <script src="js/partials.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="../../js/sofiati-50-architecture-system.js" defer></script>
+    <script
+      src="../../js/sofiati-footer-cookie.js"
+      defer
+      data-sofiati-cookie-loader
+    ></script>
+  </body>
+</html>

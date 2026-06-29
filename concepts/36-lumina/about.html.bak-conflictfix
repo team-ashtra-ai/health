@@ -1,0 +1,884 @@
+<!doctype html>
+<html lang="en" data-source-lang="en" data-default-lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A calm professional presence for aesthetic guidance, consultation, and realistic planning. Lumina expresses this through lumina bright gallery."
+    />
+    <title>About | Lumina | Franciele Sofiati</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/atlas-story.css" />
+    <link
+      rel="canonical"
+      href="https://www.sofiati.com/concepts/36-lumina/about.html"
+    />
+    <meta property="og:title" content="About | Lumina | Franciele Sofiati" />
+    <meta
+      property="og:description"
+      content="A calm professional presence for aesthetic guidance, consultation, and realistic planning. Lumina expresses this through lumina bright gallery."
+    />
+    <meta
+      property="og:image"
+      content="../../assets/brand/franciele-sofiati-11-studio-chair-angled-transparent.webp"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://www.sofiati.com/concepts/36-lumina/about.html"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link
+      rel="icon"
+      href="../../assets/brand/sofiati-favicon.svg"
+      type="image/svg+xml"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="../../assets/brand/sofiati-monogram-sage.png"
+    />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-full-image-premium-system.css"
+    />
+    <link rel="stylesheet" href="../../css/sofiati-premium-visual-dna.css" />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-50-architecture-system.css"
+    />
+  </head>
+  <body
+    class="concept concept-lumina page-about atlas-site atlas-site-36 atlas-layout-family-5 premium-visual-dna visual-dna-site-36 visual-header-soft-sage-header visual-footer-deep-sage-editorial-footer visual-mobile-text-first-mobile architecture-site architecture-site-36 architecture-journey-guided-pathway-journey architecture-header-cta-forward-header architecture-footer-minimal-line-footer"
+    data-concept="36-lumina"
+    data-page="about"
+    data-page-label="About"
+    data-page-title="About | Lumina | Franciele Sofiati"
+    data-page-description="A calm professional presence for aesthetic guidance, consultation, and realistic planning. Lumina expresses this through lumina bright gallery."
+    data-canonical="https://www.sofiati.com/concepts/36-lumina/about.html"
+    data-default-lang="en"
+    data-atlas-dna="Lumina Bright Gallery"
+    data-brand-asset-root="../../assets/brand"
+    data-visual-dna-theme="luminous elegance, pale surfaces, glow-like sage transitions"
+    data-header-pattern="soft-sage-header"
+    data-footer-pattern="deep-sage-editorial-footer"
+    data-mobile-pattern="text-first-mobile"
+    data-colour-rhythm="ivory-gold-sage-line"
+    data-architecture-contract="36-lumina"
+    data-visitor-journey="guided-pathway journey"
+    data-ia-emphasis="lead with luminous surfaces and soft hierarchy"
+    data-header-architecture="cta-forward-header"
+    data-footer-architecture="minimal-line-footer"
+    data-cta-architecture="faq-contact-bridge"
+    data-js-architecture="active-section-indicator, active-section-indicator, active-section-indicator with reduced-motion-safe delegation"
+  >
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div data-partial-mount="status-banner"></div>
+    <div data-partial-mount="accessibility"></div>
+    <div data-partial-mount="header"></div>
+    <div data-partial-mount="mobile-menu"></div>
+    <main
+      id="main"
+      class="atlas-main atlas-page-about architecture-main architecture-main-36"
+      data-page="about"
+      data-section-count="10"
+      data-atlas-source="docs/sites/36-lumina/MASTER-BRIEF.md"
+      data-homepage-architecture="service-route-matrix opening, comparison-panel trust build, asymmetric-panel final bridge"
+      data-internal-page-architecture="cta-dock intro, calm-checklist body, guided-pathway-panel conversion close"
+    >
+      <!--
+SECTION 01 — Portrait Hero
+Page: About
+Role: opening-portrait
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Begin consultation
+Secondary CTA: Message WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 36-lumina-lumina-bright-gallery-about-portrait-hero-01
+Mobile note: matrix panels become numbered blocks with large touch targets
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: About Franciele / A calm professional presence for aesthetic guidance, consultation, and realistic planning. / Begin consultation + Message WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-minimal-field visual-dna-section visual-dna-section-01 visual-layout-alternating-panel visual-role-service-focus visual-tone-cream visual-image-full-image-elegant-card architecture-section architecture-section-01 arch-component-service-route-matrix arch-html-copy-route-grid-figure arch-layout-asymmetric-css-grid arch-responsive-footer-specific-mobile-rhythm arch-interaction-active-section-indicator arch-cta-quiet-secondary-cta arch-content-question-led"
+        data-section="01"
+        data-page="about"
+        data-role="opening-portrait"
+        data-layout-signature="36-lumina-lumina-bright-gallery-about-portrait-hero-01"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Lumina Bright Gallery"
+        data-visual-role="service-focus"
+        data-image-treatment="full-image-dark-luxury-section"
+        data-premium-rhythm="alternating-panel"
+        data-visual-dna-signature="36-lumina-alternating-panel-about-01"
+        data-concept-dna="36-lumina"
+        data-mobile-rhythm="text-first-mobile"
+        data-component-type="service-route-matrix"
+        data-html-anatomy="copy-route-grid-figure"
+        data-css-layout="asymmetric-css-grid"
+        data-responsive-pattern="footer-specific-mobile-rhythm"
+        data-interaction="active-section-indicator"
+        data-cta-pattern="quiet-secondary-cta"
+        data-content-presentation="question-led"
+        data-visual-hierarchy="statement-led"
+        data-architecture-signature="36-lumina-service-route-matrix-asymmetric-css-grid-about-01"
+        data-architecture-concept="36-lumina"
+        data-architecture-section="01"
+        data-architecture-interaction="active-section-indicator"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Lumina / Portrait Hero</p>
+          <h1>About Franciele</h1>
+          <p>
+            A calm professional presence for aesthetic guidance, consultation,
+            and realistic planning.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="consultation.html"
+              >Begin consultation</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >Message WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-26-ivory-room-window-composed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Lumina About visual for opening portrait"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-hero-photo"
+            data-sofiati-photo="true"
+            fetchpriority="high"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 02 — Human Trust
+Page: About
+Role: human-trust
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Contact Franciele
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 36-lumina-lumina-bright-gallery-about-human-trust-02
+Mobile note: matrix panels become numbered blocks with large touch targets
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: A human approach / Consultation should feel clear, respectful, and personal from the first conversation. / Contact Franciele
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-media-left visual-dna-section visual-dna-section-02 visual-layout-framed-minimal visual-role-journal-strip visual-tone-sage visual-image-full-image-sage-rail architecture-section architecture-section-02 arch-component-cta-dock arch-html-copy-comparison-cards arch-layout-full-width-band-grid arch-responsive-image-first-mobile arch-interaction-none arch-cta-sticky-consultation-dock arch-content-route-led"
+        data-section="02"
+        data-page="about"
+        data-role="human-trust"
+        data-layout-signature="36-lumina-lumina-bright-gallery-about-human-trust-02"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Lumina Bright Gallery"
+        data-visual-role="journal-strip"
+        data-image-treatment="full-image-floating-panel"
+        data-premium-rhythm="framed-minimal"
+        data-visual-dna-signature="36-lumina-framed-minimal-about-02"
+        data-concept-dna="36-lumina"
+        data-mobile-rhythm="text-first-mobile"
+        data-component-type="cta-dock"
+        data-html-anatomy="copy-comparison-cards"
+        data-css-layout="full-width-band-grid"
+        data-responsive-pattern="image-first-mobile"
+        data-interaction="none"
+        data-cta-pattern="sticky-consultation-dock"
+        data-content-presentation="route-led"
+        data-visual-hierarchy="process-led"
+        data-architecture-signature="36-lumina-cta-dock-full-width-band-grid-about-02"
+        data-architecture-concept="36-lumina"
+        data-architecture-section="02"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Lumina / Human Trust</p>
+          <h2>A human approach</h2>
+          <p>
+            Consultation should feel clear, respectful, and personal from the
+            first conversation.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="contact.html"
+              >Contact Franciele</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-02-studio-seated-laughing-transparent.webp"
+            alt="Franciele Sofiati in a full-image Lumina About visual for human trust"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 03 — Editorial Pause
+Page: About
+Role: reassurance-statement
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: None
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 36-lumina-lumina-bright-gallery-about-editorial-pause-03
+Mobile note: matrix panels become numbered blocks with large touch targets
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Clarity feels calm / The best decisions are made with time, attention, and honest guidance. / None
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-media-right visual-dna-section visual-dna-section-03 visual-layout-structured-clinical visual-role-form-focus visual-tone-ivory visual-image-full-image-bronze-rule architecture-section architecture-section-03 arch-component-article-row arch-html-copy-bullets-side-note arch-layout-masonry-css-grid arch-responsive-alternating-mobile-order arch-interaction-active-section-indicator arch-cta-portrait-trust-cta arch-content-form-led"
+        data-section="03"
+        data-page="about"
+        data-role="reassurance-statement"
+        data-layout-signature="36-lumina-lumina-bright-gallery-about-editorial-pause-03"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Lumina Bright Gallery"
+        data-visual-role="form-focus"
+        data-image-treatment="full-image-footer-brand-card"
+        data-premium-rhythm="structured-clinical"
+        data-visual-dna-signature="36-lumina-structured-clinical-about-03"
+        data-concept-dna="36-lumina"
+        data-mobile-rhythm="text-first-mobile"
+        data-component-type="article-row"
+        data-html-anatomy="copy-bullets-side-note"
+        data-css-layout="masonry-css-grid"
+        data-responsive-pattern="alternating-mobile-order"
+        data-interaction="active-section-indicator"
+        data-cta-pattern="portrait-trust-cta"
+        data-content-presentation="form-led"
+        data-visual-hierarchy="cta-led"
+        data-architecture-signature="36-lumina-article-row-masonry-css-grid-about-03"
+        data-architecture-concept="36-lumina"
+        data-architecture-section="03"
+        data-architecture-interaction="active-section-indicator"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Lumina / Editorial Pause</p>
+          <h2>Clarity feels calm</h2>
+          <p>
+            The best decisions are made with time, attention, and honest
+            guidance.
+          </p>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-05-studio-full-direct-transparent.webp"
+            alt="Franciele Sofiati in a full-image Lumina About visual for reassurance statement"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 04 — Client Guidance
+Page: About
+Role: explanation-process
+Content: Heading, short paragraph, concise bullets, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Book consultation
+Secondary CTA: Read FAQ
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 36-lumina-lumina-bright-gallery-about-client-guidance-04
+Mobile note: matrix panels become numbered blocks with large touch targets
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: How clients start / The journey begins with conversation, then moves into careful evaluation and planning. / Book consultation + Read FAQ
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-centered visual-dna-section visual-dna-section-04 visual-layout-soft-wellness-card visual-role-quiet-proof visual-tone-line visual-image-full-image-open-frame architecture-section architecture-section-04 arch-component-comparison-panel arch-html-copy-timeline-figure arch-layout-form-first-grid arch-responsive-sticky-consultation-mobile arch-interaction-none arch-cta-inline-consultation-link arch-content-statement-led"
+        data-section="04"
+        data-page="about"
+        data-role="explanation-process"
+        data-layout-signature="36-lumina-lumina-bright-gallery-about-client-guidance-04"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Lumina Bright Gallery"
+        data-visual-role="quiet-proof"
+        data-image-treatment="css-statement-panel"
+        data-premium-rhythm="soft-wellness-card"
+        data-visual-dna-signature="36-lumina-soft-wellness-card-about-04"
+        data-concept-dna="36-lumina"
+        data-mobile-rhythm="text-first-mobile"
+        data-component-type="comparison-panel"
+        data-html-anatomy="copy-timeline-figure"
+        data-css-layout="form-first-grid"
+        data-responsive-pattern="sticky-consultation-mobile"
+        data-interaction="none"
+        data-cta-pattern="inline-consultation-link"
+        data-content-presentation="statement-led"
+        data-visual-hierarchy="card-led"
+        data-architecture-signature="36-lumina-comparison-panel-form-first-grid-about-04"
+        data-architecture-concept="36-lumina"
+        data-architecture-section="04"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Lumina / Client Guidance</p>
+          <h2>How clients start</h2>
+          <p>
+            The journey begins with conversation, then moves into careful
+            evaluation and planning.
+          </p>
+          <ul class="atlas-bullets">
+            <li>Ask</li>
+            <li>Listen</li>
+            <li>Assess</li>
+            <li>Guide</li>
+          </ul>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="consultation.html"
+              >Book consultation</a
+            >
+            <a class="button atlas-button atlas-button--soft" href="faq.html"
+              >Read FAQ</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-08-studio-front-composed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Lumina About visual for explanation process"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 05 — Responsible Boundaries
+Page: About
+Role: reassurance-boundary
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Understand results
+Secondary CTA: Privacy
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 36-lumina-lumina-bright-gallery-about-responsible-boundaries-05
+Mobile note: matrix panels become numbered blocks with large touch targets
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Responsible guidance / Recommendations depend on individual assessment and should be discussed with realistic expectations. / Understand results + Privacy
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-ledger visual-dna-section visual-dna-section-05 visual-layout-centered-portrait visual-role-final-conversion visual-tone-conversion visual-image-full-image-editorial-panel architecture-section architecture-section-05 arch-component-calm-checklist arch-html-image-first-copy-actions arch-layout-timeline-rail-grid arch-responsive-horizontal-scroll-cards-mobile arch-interaction-active-section-indicator arch-cta-footer-bridge-cta arch-content-journal-led"
+        data-section="05"
+        data-page="about"
+        data-role="reassurance-boundary"
+        data-layout-signature="36-lumina-lumina-bright-gallery-about-responsible-boundaries-05"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Lumina Bright Gallery"
+        data-visual-role="final-conversion"
+        data-image-treatment="full-image-beside-text"
+        data-premium-rhythm="centered-portrait"
+        data-visual-dna-signature="36-lumina-centered-portrait-about-05"
+        data-concept-dna="36-lumina"
+        data-mobile-rhythm="text-first-mobile"
+        data-component-type="calm-checklist"
+        data-html-anatomy="image-first-copy-actions"
+        data-css-layout="timeline-rail-grid"
+        data-responsive-pattern="horizontal-scroll-cards-mobile"
+        data-interaction="active-section-indicator"
+        data-cta-pattern="footer-bridge-cta"
+        data-content-presentation="journal-led"
+        data-visual-hierarchy="statement-led"
+        data-architecture-signature="36-lumina-calm-checklist-timeline-rail-grid-about-05"
+        data-architecture-concept="36-lumina"
+        data-architecture-section="05"
+        data-architecture-interaction="active-section-indicator"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Lumina / Responsible Boundaries</p>
+          <h2>Responsible guidance</h2>
+          <p>
+            Recommendations depend on individual assessment and should be
+            discussed with realistic expectations.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="results.html"
+              >Understand results</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="privacy.html"
+              >Privacy</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-11-studio-chair-angled-transparent.webp"
+            alt="Franciele Sofiati in a full-image Lumina About visual for reassurance boundary"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 06 — Related Routes
+Page: About
+Role: internal-route
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Explore care
+Secondary CTA: Read mission
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 36-lumina-lumina-bright-gallery-about-related-routes-06
+Mobile note: matrix panels become numbered blocks with large touch targets
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Continue exploring / Learn more about the approach and the care journey. / Explore care + Read mission
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-split-card visual-dna-section visual-dna-section-06 visual-layout-dark-band visual-role-opening-promise visual-tone-ivory visual-image-full-image-soft-field architecture-section architecture-section-06 arch-component-editorial-pull-quote-section arch-html-copy-figure-actions arch-layout-luxury-dark-grid arch-responsive-stacked-editorial-panels-mobile arch-interaction-none arch-cta-whatsapp-first-cta arch-content-paragraph-led"
+        data-section="06"
+        data-page="about"
+        data-role="internal-route"
+        data-layout-signature="36-lumina-lumina-bright-gallery-about-related-routes-06"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Lumina Bright Gallery"
+        data-visual-role="opening-promise"
+        data-image-treatment="full-image-dark-luxury-section"
+        data-premium-rhythm="dark-band"
+        data-visual-dna-signature="36-lumina-dark-band-about-06"
+        data-concept-dna="36-lumina"
+        data-mobile-rhythm="text-first-mobile"
+        data-component-type="editorial-pull-quote-section"
+        data-html-anatomy="copy-figure-actions"
+        data-css-layout="luxury-dark-grid"
+        data-responsive-pattern="stacked-editorial-panels-mobile"
+        data-interaction="none"
+        data-cta-pattern="whatsapp-first-cta"
+        data-content-presentation="paragraph-led"
+        data-visual-hierarchy="process-led"
+        data-architecture-signature="36-lumina-editorial-pull-quote-section-luxury-dark-grid-about-06"
+        data-architecture-concept="36-lumina"
+        data-architecture-section="06"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Lumina / Related Routes</p>
+          <h2>Continue exploring</h2>
+          <p>Learn more about the approach and the care journey.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="care.html"
+              >Explore care</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="mission.html"
+              >Read mission</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-14-balcony-orange-side-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Lumina About visual for internal route"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 07 — Professional Presence
+Page: About
+Role: trust-explanation
+Content: Heading, short paragraph, concise bullets, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: View care
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 36-lumina-lumina-bright-gallery-about-professional-presence-07
+Mobile note: matrix panels become numbered blocks with large touch targets
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Careful guidance / Her approach is attentive, clear, and guided by the person in front of her. / View care
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-statement visual-dna-section visual-dna-section-07 visual-layout-floating-card visual-role-sage-editorial-break visual-tone-sage visual-image-full-image-clinical-frame architecture-section architecture-section-07 arch-component-botanical-divider-section arch-html-heading-copy-aside-figure arch-layout-wide-editorial-columns arch-responsive-footer-specific-mobile-rhythm arch-interaction-active-section-indicator arch-cta-faq-contact-bridge arch-content-bullets-led"
+        data-section="07"
+        data-page="about"
+        data-role="trust-explanation"
+        data-layout-signature="36-lumina-lumina-bright-gallery-about-professional-presence-07"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Lumina Bright Gallery"
+        data-visual-role="sage-editorial-break"
+        data-image-treatment="full-image-floating-panel"
+        data-premium-rhythm="floating-card"
+        data-visual-dna-signature="36-lumina-floating-card-about-07"
+        data-concept-dna="36-lumina"
+        data-mobile-rhythm="text-first-mobile"
+        data-component-type="botanical-divider-section"
+        data-html-anatomy="heading-copy-aside-figure"
+        data-css-layout="wide-editorial-columns"
+        data-responsive-pattern="footer-specific-mobile-rhythm"
+        data-interaction="active-section-indicator"
+        data-cta-pattern="faq-contact-bridge"
+        data-content-presentation="bullets-led"
+        data-visual-hierarchy="cta-led"
+        data-architecture-signature="36-lumina-botanical-divider-section-wide-editorial-columns-about-07"
+        data-architecture-concept="36-lumina"
+        data-architecture-section="07"
+        data-architecture-interaction="active-section-indicator"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Lumina / Professional Presence</p>
+          <h2>Careful guidance</h2>
+          <p>
+            Her approach is attentive, clear, and guided by the person in front
+            of her.
+          </p>
+          <ul class="atlas-bullets">
+            <li>Listen carefully</li>
+            <li>Explain clearly</li>
+            <li>Plan responsibly</li>
+          </ul>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="care.html"
+              >View care</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-18-balcony-orange-looking-up-transparent.webp"
+            alt="Franciele Sofiati in a full-image Lumina About visual for trust explanation"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 08 — Care Philosophy
+Page: About
+Role: brand-philosophy
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Read mission
+Secondary CTA: View values
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 36-lumina-lumina-bright-gallery-about-care-philosophy-08
+Mobile note: matrix panels become numbered blocks with large touch targets
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Care philosophy / Good care begins with understanding your goals, routine, and comfort before planning next steps. / Read mission + View values
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-portrait-stack visual-dna-section visual-dna-section-08 visual-layout-gallery-frame visual-role-human-trust visual-tone-cream visual-image-full-image-layered-panel architecture-section architecture-section-08 arch-component-evidence-note-panel arch-html-copy-process-rail-actions arch-layout-centered-flex-column arch-responsive-image-first-mobile arch-interaction-none arch-cta-service-form-bridge arch-content-cards-led"
+        data-section="08"
+        data-page="about"
+        data-role="brand-philosophy"
+        data-layout-signature="36-lumina-lumina-bright-gallery-about-care-philosophy-08"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Lumina Bright Gallery"
+        data-visual-role="human-trust"
+        data-image-treatment="full-image-footer-brand-card"
+        data-premium-rhythm="gallery-frame"
+        data-visual-dna-signature="36-lumina-gallery-frame-about-08"
+        data-concept-dna="36-lumina"
+        data-mobile-rhythm="text-first-mobile"
+        data-component-type="evidence-note-panel"
+        data-html-anatomy="copy-process-rail-actions"
+        data-css-layout="centered-flex-column"
+        data-responsive-pattern="image-first-mobile"
+        data-interaction="none"
+        data-cta-pattern="service-form-bridge"
+        data-content-presentation="cards-led"
+        data-visual-hierarchy="card-led"
+        data-architecture-signature="36-lumina-evidence-note-panel-centered-flex-column-about-08"
+        data-architecture-concept="36-lumina"
+        data-architecture-section="08"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Lumina / Care Philosophy</p>
+          <h2>Care philosophy</h2>
+          <p>
+            Good care begins with understanding your goals, routine, and comfort
+            before planning next steps.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="mission.html"
+              >Read mission</a
+            >
+            <a class="button atlas-button atlas-button--soft" href="values.html"
+              >View values</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-22-ivory-room-arms-crossed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Lumina About visual for brand philosophy"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 09 — Values in Practice
+Page: About
+Role: trust-values
+Content: Heading, short paragraph, route cards, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: View values
+Secondary CTA: Request evaluation
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 36-lumina-lumina-bright-gallery-about-values-in-practice-09
+Mobile note: matrix panels become numbered blocks with large touch targets
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Values in practice / Care, trust, safety, and naturality shape the client experience. / View values + Request evaluation
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-editorial-aside visual-dna-section visual-dna-section-09 visual-layout-route-grid visual-role-route-panel visual-tone-editorial visual-image-full-image-gallery-frame architecture-section architecture-section-09 arch-component-guided-pathway-panel arch-html-copy-form-intro-actions arch-layout-sticky-sidebar-grid arch-responsive-alternating-mobile-order arch-interaction-active-section-indicator arch-cta-deep-sage-cta-band arch-content-quote-led"
+        data-section="09"
+        data-page="about"
+        data-role="trust-values"
+        data-layout-signature="36-lumina-lumina-bright-gallery-about-values-in-practice-09"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Lumina Bright Gallery"
+        data-visual-role="route-panel"
+        data-image-treatment="css-statement-panel"
+        data-premium-rhythm="route-grid"
+        data-visual-dna-signature="36-lumina-route-grid-about-09"
+        data-concept-dna="36-lumina"
+        data-mobile-rhythm="text-first-mobile"
+        data-component-type="guided-pathway-panel"
+        data-html-anatomy="copy-form-intro-actions"
+        data-css-layout="sticky-sidebar-grid"
+        data-responsive-pattern="alternating-mobile-order"
+        data-interaction="active-section-indicator"
+        data-cta-pattern="deep-sage-cta-band"
+        data-content-presentation="quote-led"
+        data-visual-hierarchy="statement-led"
+        data-architecture-signature="36-lumina-guided-pathway-panel-sticky-sidebar-grid-about-09"
+        data-architecture-concept="36-lumina"
+        data-architecture-section="09"
+        data-architecture-interaction="active-section-indicator"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Lumina / Values in Practice</p>
+          <h2>Values in practice</h2>
+          <p>
+            Care, trust, safety, and naturality shape the client experience.
+          </p>
+          <div class="atlas-card-row" aria-label="Values in Practice cards">
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Care</h3>
+              <p>Attentive guidance.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Trust</h3>
+              <p>Clear explanations.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Safety</h3>
+              <p>Responsible boundaries.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Naturality</h3>
+              <p>Natural confidence.</p>
+            </article>
+          </div>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="values.html"
+              >View values</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="consultation.html"
+              >Request evaluation</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-25-ivory-room-window-touch-transparent.webp"
+            alt="Franciele Sofiati in a full-image Lumina About visual for trust values"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 10 — Consultation CTA
+Page: About
+Role: conversion-final
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Request evaluation
+Secondary CTA: Message WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 36-lumina-lumina-bright-gallery-about-consultation-cta-10
+Mobile note: matrix panels become numbered blocks with large touch targets
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Start with clarity / Request an evaluation or send a private message when you are ready. / Request evaluation + Message WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-quote-band visual-dna-section visual-dna-section-10 visual-layout-stacked-editorial visual-role-deep-trust-band visual-tone-deep visual-image-full-image-quiet-anchor architecture-section architecture-section-10 arch-component-asymmetric-panel arch-html-copy-masonry-cards-portrait arch-layout-alternating-grid arch-responsive-sticky-consultation-mobile arch-interaction-none arch-cta-minimal-line-cta arch-content-step-led"
+        data-section="10"
+        data-page="about"
+        data-role="conversion-final"
+        data-layout-signature="36-lumina-lumina-bright-gallery-about-consultation-cta-10"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Lumina Bright Gallery"
+        data-visual-role="deep-trust-band"
+        data-image-treatment="full-image-beside-text"
+        data-premium-rhythm="stacked-editorial"
+        data-visual-dna-signature="36-lumina-stacked-editorial-about-10"
+        data-concept-dna="36-lumina"
+        data-mobile-rhythm="text-first-mobile"
+        data-component-type="asymmetric-panel"
+        data-html-anatomy="copy-masonry-cards-portrait"
+        data-css-layout="alternating-grid"
+        data-responsive-pattern="sticky-consultation-mobile"
+        data-interaction="none"
+        data-cta-pattern="minimal-line-cta"
+        data-content-presentation="step-led"
+        data-visual-hierarchy="process-led"
+        data-architecture-signature="36-lumina-asymmetric-panel-alternating-grid-about-10"
+        data-architecture-concept="36-lumina"
+        data-architecture-section="10"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Lumina / Consultation CTA</p>
+          <h2>Start with clarity</h2>
+          <p>
+            Request an evaluation or send a private message when you are ready.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="consultation.html"
+              >Request evaluation</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >Message WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-01-studio-seated-soft-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Lumina About visual for conversion final"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+    </main>
+    <div data-partial-mount="cookie-banner"></div>
+    <div data-partial-mount="footer"></div>
+    <div data-partial-mount="floating-widgets"></div>
+    <script src="js/partials.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="../../js/sofiati-50-architecture-system.js" defer></script>
+    <script
+      src="../../js/sofiati-footer-cookie.js"
+      defer
+      data-sofiati-cookie-loader
+    ></script>
+  </body>
+</html>

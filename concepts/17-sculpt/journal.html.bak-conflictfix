@@ -1,0 +1,833 @@
+<!doctype html>
+<html lang="en" data-source-lang="en" data-default-lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Short guidance for better questions, calmer decisions, and clearer expectations. Sculpt expresses this through sculpt contour studio."
+    />
+    <title>Journal | Sculpt | Franciele Sofiati</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/atlas-story.css" />
+    <link
+      rel="canonical"
+      href="https://www.sofiati.com/concepts/17-sculpt/journal.html"
+    />
+    <meta property="og:title" content="Journal | Sculpt | Franciele Sofiati" />
+    <meta
+      property="og:description"
+      content="Short guidance for better questions, calmer decisions, and clearer expectations. Sculpt expresses this through sculpt contour studio."
+    />
+    <meta
+      property="og:image"
+      content="../../assets/brand/franciele-sofiati-18-balcony-orange-looking-up-transparent.webp"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://www.sofiati.com/concepts/17-sculpt/journal.html"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link
+      rel="icon"
+      href="../../assets/brand/sofiati-favicon.svg"
+      type="image/svg+xml"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="../../assets/brand/sofiati-monogram-sage.png"
+    />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-full-image-premium-system.css"
+    />
+    <link rel="stylesheet" href="../../css/sofiati-premium-visual-dna.css" />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-50-architecture-system.css"
+    />
+  </head>
+  <body
+    class="concept concept-sculpt page-journal atlas-site atlas-site-17 atlas-layout-family-6 premium-visual-dna visual-dna-site-17 visual-header-botanical-rail-header visual-footer-compact-legal-footer visual-mobile-editorial-card-mobile architecture-site architecture-site-17 architecture-journey-values-first-journey architecture-header-drawer-led-mobile-header architecture-footer-multi-column-footer"
+    data-concept="17-sculpt"
+    data-page="journal"
+    data-page-label="Journal"
+    data-page-title="Journal | Sculpt | Franciele Sofiati"
+    data-page-description="Short guidance for better questions, calmer decisions, and clearer expectations. Sculpt expresses this through sculpt contour studio."
+    data-canonical="https://www.sofiati.com/concepts/17-sculpt/journal.html"
+    data-default-lang="en"
+    data-atlas-dna="Sculpt Contour Studio"
+    data-brand-asset-root="../../assets/brand"
+    data-visual-dna-theme="structured premium, sharper geometry, bolder panel contrast"
+    data-header-pattern="botanical-rail-header"
+    data-footer-pattern="compact-legal-footer"
+    data-mobile-pattern="editorial-card-mobile"
+    data-colour-rhythm="clinical-cream-sage-ink"
+    data-architecture-contract="17-sculpt"
+    data-visitor-journey="values-first journey"
+    data-ia-emphasis="lead with structured choices and strong hierarchy"
+    data-header-architecture="drawer-led-mobile-header"
+    data-footer-architecture="multi-column-footer"
+    data-cta-architecture="route-card-cta"
+    data-js-architecture="reduced-motion-reveal, route-selector, sticky-cta with reduced-motion-safe delegation"
+  >
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div data-partial-mount="status-banner"></div>
+    <div data-partial-mount="accessibility"></div>
+    <div data-partial-mount="header"></div>
+    <div data-partial-mount="mobile-menu"></div>
+    <main
+      id="main"
+      class="atlas-main atlas-page-journal architecture-main architecture-main-17"
+      data-page="journal"
+      data-section-count="10"
+      data-atlas-source="docs/sites/17-sculpt/MASTER-BRIEF.md"
+      data-homepage-architecture="editorial-split opening, article-row trust build, statement-interlude final bridge"
+      data-internal-page-architecture="vertical-process-rail intro, radial-value-map body, timeline-component conversion close"
+    >
+      <!--
+SECTION 01 — Journal Hero
+Page: Journal
+Role: opening-journal
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Read articles
+Secondary CTA: Request evaluation
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 17-sculpt-sculpt-contour-studio-journal-journal-hero-01
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Care journal / Short guidance for better questions, calmer decisions, and clearer expectations. / Read articles + Request evaluation
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-split-card visual-dna-section visual-dna-section-01 visual-layout-asymmetric-panel visual-role-journal-strip visual-tone-sage visual-image-full-image-bronze-rule architecture-section architecture-section-01 arch-component-editorial-split arch-html-copy-comparison-cards arch-layout-sticky-sidebar-grid arch-responsive-stacked-editorial-panels-mobile arch-interaction-reduced-motion-reveal arch-cta-whatsapp-first-cta arch-content-statement-led"
+        data-section="01"
+        data-page="journal"
+        data-role="opening-journal"
+        data-layout-signature="17-sculpt-sculpt-contour-studio-journal-journal-hero-01"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Sculpt Contour Studio"
+        data-visual-role="journal-strip"
+        data-image-treatment="full-image-gallery-like-frame"
+        data-premium-rhythm="asymmetric-panel"
+        data-visual-dna-signature="17-sculpt-asymmetric-panel-journal-01"
+        data-concept-dna="17-sculpt"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="editorial-split"
+        data-html-anatomy="copy-comparison-cards"
+        data-css-layout="sticky-sidebar-grid"
+        data-responsive-pattern="stacked-editorial-panels-mobile"
+        data-interaction="reduced-motion-reveal"
+        data-cta-pattern="whatsapp-first-cta"
+        data-content-presentation="statement-led"
+        data-visual-hierarchy="quote-led"
+        data-architecture-signature="17-sculpt-editorial-split-sticky-sidebar-grid-journal-01"
+        data-architecture-concept="17-sculpt"
+        data-architecture-section="01"
+        data-architecture-interaction="reduced-motion-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Sculpt / Journal Hero</p>
+          <h1>Care journal</h1>
+          <p>
+            Short guidance for better questions, calmer decisions, and clearer
+            expectations.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="blog.html"
+              >Read articles</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="consultation.html"
+              >Request evaluation</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-08-studio-front-composed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Sculpt Journal visual for opening journal"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-hero-photo"
+            data-sofiati-photo="true"
+            fetchpriority="high"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 02 — Featured Article
+Page: Journal
+Role: education-feature
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Read guide
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 17-sculpt-sculpt-contour-studio-journal-featured-article-02
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Featured guide / Start with the most useful topic for your current questions. / Read guide
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-statement visual-dna-section visual-dna-section-02 visual-layout-magazine-layer visual-role-form-focus visual-tone-ivory visual-image-full-image-open-frame architecture-section architecture-section-02 arch-component-vertical-process-rail arch-html-copy-masonry-cards-portrait arch-layout-form-first-grid arch-responsive-portrait-anchor-mobile arch-interaction-none arch-cta-faq-contact-bridge arch-content-journal-led"
+        data-section="02"
+        data-page="journal"
+        data-role="education-feature"
+        data-layout-signature="17-sculpt-sculpt-contour-studio-journal-featured-article-02"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Sculpt Contour Studio"
+        data-visual-role="form-focus"
+        data-image-treatment="full-image-asymmetrical-layout"
+        data-premium-rhythm="magazine-layer"
+        data-visual-dna-signature="17-sculpt-magazine-layer-journal-02"
+        data-concept-dna="17-sculpt"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="vertical-process-rail"
+        data-html-anatomy="copy-masonry-cards-portrait"
+        data-css-layout="form-first-grid"
+        data-responsive-pattern="portrait-anchor-mobile"
+        data-interaction="none"
+        data-cta-pattern="faq-contact-bridge"
+        data-content-presentation="journal-led"
+        data-visual-hierarchy="icon-led"
+        data-architecture-signature="17-sculpt-vertical-process-rail-form-first-grid-journal-02"
+        data-architecture-concept="17-sculpt"
+        data-architecture-section="02"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Sculpt / Featured Article</p>
+          <h2>Featured guide</h2>
+          <p>Start with the most useful topic for your current questions.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="blog.html"
+              >Read guide</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-11-studio-chair-angled-transparent.webp"
+            alt="Franciele Sofiati in a full-image Sculpt Journal visual for education feature"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 03 — Skin Category
+Page: Journal
+Role: education-skin
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: View skin
+Secondary CTA: Read blog
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 17-sculpt-sculpt-contour-studio-journal-skin-category-03
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Skin guidance / Read about routine, texture, sensitivity, and planning. / View skin + Read blog
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-portrait-stack visual-dna-section visual-dna-section-03 visual-layout-diagonal-flow visual-role-quiet-proof visual-tone-line visual-image-full-image-editorial-panel architecture-section architecture-section-03 arch-component-testimonial-style-quote-block arch-html-copy-accordion-cards arch-layout-clinical-two-column-grid arch-responsive-alternating-mobile-order arch-interaction-route-selector arch-cta-service-form-bridge arch-content-paragraph-led"
+        data-section="03"
+        data-page="journal"
+        data-role="education-skin"
+        data-layout-signature="17-sculpt-sculpt-contour-studio-journal-skin-category-03"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Sculpt Contour Studio"
+        data-visual-role="quiet-proof"
+        data-image-treatment="css-botanical-divider"
+        data-premium-rhythm="diagonal-flow"
+        data-visual-dna-signature="17-sculpt-diagonal-flow-journal-03"
+        data-concept-dna="17-sculpt"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="testimonial-style-quote-block"
+        data-html-anatomy="copy-accordion-cards"
+        data-css-layout="clinical-two-column-grid"
+        data-responsive-pattern="alternating-mobile-order"
+        data-interaction="route-selector"
+        data-cta-pattern="service-form-bridge"
+        data-content-presentation="paragraph-led"
+        data-visual-hierarchy="editorial-led"
+        data-architecture-signature="17-sculpt-testimonial-style-quote-block-clinical-two-column-grid-journal-03"
+        data-architecture-concept="17-sculpt"
+        data-architecture-section="03"
+        data-architecture-interaction="route-selector"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Sculpt / Skin Category</p>
+          <h2>Skin guidance</h2>
+          <p>Read about routine, texture, sensitivity, and planning.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="skin.html"
+              >View skin</a
+            >
+            <a class="button atlas-button atlas-button--soft" href="blog.html"
+              >Read blog</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-14-balcony-orange-side-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Sculpt Journal visual for education skin"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 04 — Laser Category
+Page: Journal
+Role: education-laser
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Explore laser
+Secondary CTA: Read FAQ
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 17-sculpt-sculpt-contour-studio-journal-laser-category-04
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Laser questions / Learn what to discuss before choosing laser care. / Explore laser + Read FAQ
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-editorial-aside visual-dna-section visual-dna-section-04 visual-layout-cta-band visual-role-final-conversion visual-tone-conversion visual-image-full-image-soft-field architecture-section architecture-section-04 arch-component-article-row arch-html-copy-figure-actions arch-layout-mobile-dock-layout arch-responsive-collapsed-route-cards-mobile arch-interaction-sticky-cta arch-cta-deep-sage-cta-band arch-content-bullets-led"
+        data-section="04"
+        data-page="journal"
+        data-role="education-laser"
+        data-layout-signature="17-sculpt-sculpt-contour-studio-journal-laser-category-04"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Sculpt Contour Studio"
+        data-visual-role="final-conversion"
+        data-image-treatment="full-image-wide-editorial-panel"
+        data-premium-rhythm="cta-band"
+        data-visual-dna-signature="17-sculpt-cta-band-journal-04"
+        data-concept-dna="17-sculpt"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="article-row"
+        data-html-anatomy="copy-figure-actions"
+        data-css-layout="mobile-dock-layout"
+        data-responsive-pattern="collapsed-route-cards-mobile"
+        data-interaction="sticky-cta"
+        data-cta-pattern="deep-sage-cta-band"
+        data-content-presentation="bullets-led"
+        data-visual-hierarchy="image-led"
+        data-architecture-signature="17-sculpt-article-row-mobile-dock-layout-journal-04"
+        data-architecture-concept="17-sculpt"
+        data-architecture-section="04"
+        data-architecture-interaction="sticky-cta"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Sculpt / Laser Category</p>
+          <h2>Laser questions</h2>
+          <p>Learn what to discuss before choosing laser care.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="laser.html"
+              >Explore laser</a
+            >
+            <a class="button atlas-button atlas-button--soft" href="faq.html"
+              >Read FAQ</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-18-balcony-orange-looking-up-transparent.webp"
+            alt="Franciele Sofiati in a full-image Sculpt Journal visual for education laser"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 05 — Care Category
+Page: Journal
+Role: education-care
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Explore care
+Secondary CTA: Begin consultation
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 17-sculpt-sculpt-contour-studio-journal-care-category-05
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Care planning / Understand how consultation supports personal decisions. / Explore care + Begin consultation
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-quote-band visual-dna-section visual-dna-section-05 visual-layout-full-width-statement visual-role-opening-promise visual-tone-ivory visual-image-full-image-clinical-frame architecture-section architecture-section-05 arch-component-radial-value-map arch-html-statement-copy-wide-figure arch-layout-sticky-sidebar-grid arch-responsive-stacked-editorial-panels-mobile arch-interaction-process-stepper arch-cta-minimal-line-cta arch-content-cards-led"
+        data-section="05"
+        data-page="journal"
+        data-role="education-care"
+        data-layout-signature="17-sculpt-sculpt-contour-studio-journal-care-category-05"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Sculpt Contour Studio"
+        data-visual-role="opening-promise"
+        data-image-treatment="full-image-sage-panel"
+        data-premium-rhythm="full-width-statement"
+        data-visual-dna-signature="17-sculpt-full-width-statement-journal-05"
+        data-concept-dna="17-sculpt"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="radial-value-map"
+        data-html-anatomy="statement-copy-wide-figure"
+        data-css-layout="sticky-sidebar-grid"
+        data-responsive-pattern="stacked-editorial-panels-mobile"
+        data-interaction="process-stepper"
+        data-cta-pattern="minimal-line-cta"
+        data-content-presentation="cards-led"
+        data-visual-hierarchy="quote-led"
+        data-architecture-signature="17-sculpt-radial-value-map-sticky-sidebar-grid-journal-05"
+        data-architecture-concept="17-sculpt"
+        data-architecture-section="05"
+        data-architecture-interaction="process-stepper"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Sculpt / Care Category</p>
+          <h2>Care planning</h2>
+          <p>Understand how consultation supports personal decisions.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="care.html"
+              >Explore care</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="consultation.html"
+              >Begin consultation</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-22-ivory-room-arms-crossed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Sculpt Journal visual for education care"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 06 — Results Category
+Page: Journal
+Role: reassurance-expectations
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Understand results
+Secondary CTA: Request evaluation
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 17-sculpt-sculpt-contour-studio-journal-results-category-06
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Result expectations / Read responsible guidance before forming expectations. / Understand results + Request evaluation
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-timeline visual-dna-section visual-dna-section-06 visual-layout-botanical-divider visual-role-sage-editorial-break visual-tone-sage visual-image-full-image-layered-panel architecture-section architecture-section-06 arch-component-consultation-route-selector arch-html-copy-comparison-cards arch-layout-form-first-grid arch-responsive-portrait-anchor-mobile arch-interaction-reduced-motion-reveal arch-cta-hero-primary-whatsapp-secondary arch-content-quote-led"
+        data-section="06"
+        data-page="journal"
+        data-role="reassurance-expectations"
+        data-layout-signature="17-sculpt-sculpt-contour-studio-journal-results-category-06"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Sculpt Contour Studio"
+        data-visual-role="sage-editorial-break"
+        data-image-treatment="full-image-gallery-like-frame"
+        data-premium-rhythm="botanical-divider"
+        data-visual-dna-signature="17-sculpt-botanical-divider-journal-06"
+        data-concept-dna="17-sculpt"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="consultation-route-selector"
+        data-html-anatomy="copy-comparison-cards"
+        data-css-layout="form-first-grid"
+        data-responsive-pattern="portrait-anchor-mobile"
+        data-interaction="reduced-motion-reveal"
+        data-cta-pattern="hero-primary-whatsapp-secondary"
+        data-content-presentation="quote-led"
+        data-visual-hierarchy="icon-led"
+        data-architecture-signature="17-sculpt-consultation-route-selector-form-first-grid-journal-06"
+        data-architecture-concept="17-sculpt"
+        data-architecture-section="06"
+        data-architecture-interaction="reduced-motion-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Sculpt / Results Category</p>
+          <h2>Result expectations</h2>
+          <p>Read responsible guidance before forming expectations.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="results.html"
+              >Understand results</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="consultation.html"
+              >Request evaluation</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-25-ivory-room-window-touch-transparent.webp"
+            alt="Franciele Sofiati in a full-image Sculpt Journal visual for reassurance expectations"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 07 — Editorial Break
+Page: Journal
+Role: reassurance-statement
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: None
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 17-sculpt-sculpt-contour-studio-journal-editorial-break-07
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Learn before deciding / Good questions make the consultation more useful. / None
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-gallery-strip visual-dna-section visual-dna-section-07 visual-layout-editorial-split visual-role-human-trust visual-tone-cream visual-image-full-image-gallery-frame architecture-section architecture-section-07 arch-component-asymmetric-panel arch-html-copy-masonry-cards-portrait arch-layout-clinical-two-column-grid arch-responsive-alternating-mobile-order arch-interaction-none arch-cta-sage-consultation-strip arch-content-step-led"
+        data-section="07"
+        data-page="journal"
+        data-role="reassurance-statement"
+        data-layout-signature="17-sculpt-sculpt-contour-studio-journal-editorial-break-07"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Sculpt Contour Studio"
+        data-visual-role="human-trust"
+        data-image-treatment="full-image-asymmetrical-layout"
+        data-premium-rhythm="editorial-split"
+        data-visual-dna-signature="17-sculpt-editorial-split-journal-07"
+        data-concept-dna="17-sculpt"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="asymmetric-panel"
+        data-html-anatomy="copy-masonry-cards-portrait"
+        data-css-layout="clinical-two-column-grid"
+        data-responsive-pattern="alternating-mobile-order"
+        data-interaction="none"
+        data-cta-pattern="sage-consultation-strip"
+        data-content-presentation="step-led"
+        data-visual-hierarchy="editorial-led"
+        data-architecture-signature="17-sculpt-asymmetric-panel-clinical-two-column-grid-journal-07"
+        data-architecture-concept="17-sculpt"
+        data-architecture-section="07"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Sculpt / Editorial Break</p>
+          <h2>Learn before deciding</h2>
+          <p>Good questions make the consultation more useful.</p>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-01-studio-seated-soft-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Sculpt Journal visual for reassurance statement"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 08 — Article Grid
+Page: Journal
+Role: education-route
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: View blog
+Secondary CTA: Read FAQ
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 17-sculpt-sculpt-contour-studio-journal-article-grid-08
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Latest notes / Browse short educational pieces by topic. / View blog + Read FAQ
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-minimal-field visual-dna-section visual-dna-section-08 visual-layout-sage-band visual-role-route-panel visual-tone-editorial visual-image-full-image-quiet-anchor architecture-section architecture-section-08 arch-component-tabbed-route-panel arch-html-copy-accordion-cards arch-layout-mobile-dock-layout arch-responsive-collapsed-route-cards-mobile arch-interaction-route-selector arch-cta-form-first-cta arch-content-question-led"
+        data-section="08"
+        data-page="journal"
+        data-role="education-route"
+        data-layout-signature="17-sculpt-sculpt-contour-studio-journal-article-grid-08"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Sculpt Contour Studio"
+        data-visual-role="route-panel"
+        data-image-treatment="css-botanical-divider"
+        data-premium-rhythm="sage-band"
+        data-visual-dna-signature="17-sculpt-sage-band-journal-08"
+        data-concept-dna="17-sculpt"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="tabbed-route-panel"
+        data-html-anatomy="copy-accordion-cards"
+        data-css-layout="mobile-dock-layout"
+        data-responsive-pattern="collapsed-route-cards-mobile"
+        data-interaction="route-selector"
+        data-cta-pattern="form-first-cta"
+        data-content-presentation="question-led"
+        data-visual-hierarchy="image-led"
+        data-architecture-signature="17-sculpt-tabbed-route-panel-mobile-dock-layout-journal-08"
+        data-architecture-concept="17-sculpt"
+        data-architecture-section="08"
+        data-architecture-interaction="route-selector"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Sculpt / Article Grid</p>
+          <h2>Latest notes</h2>
+          <p>Browse short educational pieces by topic.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="blog.html"
+              >View blog</a
+            >
+            <a class="button atlas-button atlas-button--soft" href="faq.html"
+              >Read FAQ</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-04-studio-full-poised-transparent.webp"
+            alt="Franciele Sofiati in a full-image Sculpt Journal visual for education route"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 09 — Consultation Bridge
+Page: Journal
+Role: conversion-contact
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Request evaluation
+Secondary CTA: Message WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 17-sculpt-sculpt-contour-studio-journal-consultation-bridge-09
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Ready to ask / Bring your questions into a private consultation or message. / Request evaluation + Message WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-media-left visual-dna-section visual-dna-section-09 visual-layout-process-strip visual-role-deep-trust-band visual-tone-deep visual-image-full-image-elegant-card architecture-section architecture-section-09 arch-component-timeline-component arch-html-copy-figure-actions arch-layout-sticky-sidebar-grid arch-responsive-stacked-editorial-panels-mobile arch-interaction-sticky-cta arch-cta-route-card-cta arch-content-route-led"
+        data-section="09"
+        data-page="journal"
+        data-role="conversion-contact"
+        data-layout-signature="17-sculpt-sculpt-contour-studio-journal-consultation-bridge-09"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Sculpt Contour Studio"
+        data-visual-role="deep-trust-band"
+        data-image-treatment="full-image-wide-editorial-panel"
+        data-premium-rhythm="process-strip"
+        data-visual-dna-signature="17-sculpt-process-strip-journal-09"
+        data-concept-dna="17-sculpt"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="timeline-component"
+        data-html-anatomy="copy-figure-actions"
+        data-css-layout="sticky-sidebar-grid"
+        data-responsive-pattern="stacked-editorial-panels-mobile"
+        data-interaction="sticky-cta"
+        data-cta-pattern="route-card-cta"
+        data-content-presentation="route-led"
+        data-visual-hierarchy="quote-led"
+        data-architecture-signature="17-sculpt-timeline-component-sticky-sidebar-grid-journal-09"
+        data-architecture-concept="17-sculpt"
+        data-architecture-section="09"
+        data-architecture-interaction="sticky-cta"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Sculpt / Consultation Bridge</p>
+          <h2>Ready to ask</h2>
+          <p>Bring your questions into a private consultation or message.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="consultation.html"
+              >Request evaluation</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >Message WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-07-studio-crossed-composed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Sculpt Journal visual for conversion contact"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 10 — Blog Contact CTA
+Page: Journal
+Role: conversion-final
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: View blog
+Secondary CTA: Contact Franciele
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 17-sculpt-sculpt-contour-studio-journal-blog-contact-cta-10
+Mobile note: lightbox media moves below copy and keeps buttons visible
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Continue reading / Explore more articles or contact Franciele directly. / View blog + Contact Franciele
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-media-right visual-dna-section visual-dna-section-10 visual-layout-image-first-mobile visual-role-service-focus visual-tone-cream visual-image-full-image-sage-rail architecture-section architecture-section-10 arch-component-statement-interlude arch-html-statement-copy-wide-figure arch-layout-form-first-grid arch-responsive-portrait-anchor-mobile arch-interaction-process-stepper arch-cta-journal-consultation-bridge arch-content-form-led"
+        data-section="10"
+        data-page="journal"
+        data-role="conversion-final"
+        data-layout-signature="17-sculpt-sculpt-contour-studio-journal-blog-contact-cta-10"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Sculpt Contour Studio"
+        data-visual-role="service-focus"
+        data-image-treatment="full-image-sage-panel"
+        data-premium-rhythm="image-first-mobile"
+        data-visual-dna-signature="17-sculpt-image-first-mobile-journal-10"
+        data-concept-dna="17-sculpt"
+        data-mobile-rhythm="editorial-card-mobile"
+        data-component-type="statement-interlude"
+        data-html-anatomy="statement-copy-wide-figure"
+        data-css-layout="form-first-grid"
+        data-responsive-pattern="portrait-anchor-mobile"
+        data-interaction="process-stepper"
+        data-cta-pattern="journal-consultation-bridge"
+        data-content-presentation="form-led"
+        data-visual-hierarchy="icon-led"
+        data-architecture-signature="17-sculpt-statement-interlude-form-first-grid-journal-10"
+        data-architecture-concept="17-sculpt"
+        data-architecture-section="10"
+        data-architecture-interaction="process-stepper"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Sculpt / Blog Contact CTA</p>
+          <h2>Continue reading</h2>
+          <p>Explore more articles or contact Franciele directly.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="blog.html"
+              >View blog</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="contact.html"
+              >Contact Franciele</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-10-studio-close-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Sculpt Journal visual for conversion final"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+    </main>
+    <div data-partial-mount="cookie-banner"></div>
+    <div data-partial-mount="footer"></div>
+    <div data-partial-mount="floating-widgets"></div>
+    <script src="js/partials.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="../../js/sofiati-50-architecture-system.js" defer></script>
+    <script
+      src="../../js/sofiati-footer-cookie.js"
+      defer
+      data-sofiati-cookie-loader
+    ></script>
+  </body>
+</html>

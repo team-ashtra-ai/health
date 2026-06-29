@@ -1,0 +1,845 @@
+<!doctype html>
+<html lang="en" data-source-lang="en" data-default-lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="To make aesthetic guidance feel careful, clear, and responsible. Empower expresses this through bronze concierge ledger."
+    />
+    <title>Mission | Empower | Franciele Sofiati</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/atlas-story.css" />
+    <link
+      rel="canonical"
+      href="https://www.sofiati.com/concepts/02-empower/mission.html"
+    />
+    <meta property="og:title" content="Mission | Empower | Franciele Sofiati" />
+    <meta
+      property="og:description"
+      content="To make aesthetic guidance feel careful, clear, and responsible. Empower expresses this through bronze concierge ledger."
+    />
+    <meta
+      property="og:image"
+      content="../../assets/brand/franciele-sofiati-02-studio-seated-laughing-transparent.webp"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://www.sofiati.com/concepts/02-empower/mission.html"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link
+      rel="icon"
+      href="../../assets/brand/sofiati-favicon.svg"
+      type="image/svg+xml"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="../../assets/brand/sofiati-monogram-sage.png"
+    />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-full-image-premium-system.css"
+    />
+    <link rel="stylesheet" href="../../css/sofiati-premium-visual-dna.css" />
+    <link
+      rel="stylesheet"
+      href="../../css/sofiati-50-architecture-system.css"
+    />
+  </head>
+  <body
+    class="concept concept-empower page-mission atlas-site atlas-site-02 atlas-layout-family-1 premium-visual-dna visual-dna-site-02 visual-header-floating-pill-header visual-footer-sage-rail-footer visual-mobile-deep-cta-mobile architecture-site architecture-site-02 architecture-journey-service-route-first-journey architecture-header-dark-premium-header architecture-footer-soft-cream-footer-sage-band"
+    data-concept="02-empower"
+    data-page="mission"
+    data-page-label="Mission"
+    data-page-title="Mission | Empower | Franciele Sofiati"
+    data-page-description="To make aesthetic guidance feel careful, clear, and responsible. Empower expresses this through bronze concierge ledger."
+    data-canonical="https://www.sofiati.com/concepts/02-empower/mission.html"
+    data-default-lang="en"
+    data-atlas-dna="Bronze Concierge Ledger"
+    data-brand-asset-root="../../assets/brand"
+    data-visual-dna-theme="botanical editorial, stronger sage panels, confident structured sections"
+    data-header-pattern="floating-pill-header"
+    data-footer-pattern="sage-rail-footer"
+    data-mobile-pattern="deep-cta-mobile"
+    data-colour-rhythm="sage-open-ivory-deep"
+    data-architecture-contract="02-empower"
+    data-visitor-journey="service-route-first journey"
+    data-ia-emphasis="lead with care categories and botanical trust"
+    data-header-architecture="dark-premium-header"
+    data-footer-architecture="soft-cream-footer-sage-band"
+    data-cta-architecture="route-card-cta"
+    data-js-architecture="journal-carousel, process-stepper, mobile-route-focus with reduced-motion-safe delegation"
+  >
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div data-partial-mount="status-banner"></div>
+    <div data-partial-mount="accessibility"></div>
+    <div data-partial-mount="header"></div>
+    <div data-partial-mount="mobile-menu"></div>
+    <main
+      id="main"
+      class="atlas-main atlas-page-mission architecture-main architecture-main-02"
+      data-page="mission"
+      data-section-count="10"
+      data-atlas-source="docs/sites/02-empower/MASTER-BRIEF.md"
+      data-homepage-architecture="sticky-side-note-section opening, journal-carousel trust build, floating-card-cluster final bridge"
+      data-internal-page-architecture="floating-card-cluster intro, split-card-stack body, sticky-side-note-section conversion close"
+    >
+      <!--
+SECTION 01 — Mission Hero
+Page: Mission
+Role: opening-mission
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Request evaluation
+Secondary CTA: Message WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 02-empower-bronze-concierge-ledger-mission-mission-hero-01
+Mobile note: routes collapse into touch-led ledger items with clear spacing
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Our mission / To make aesthetic guidance feel careful, clear, and responsible. / Request evaluation + Message WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-media-right visual-dna-section visual-dna-section-01 visual-layout-floating-card visual-role-sage-editorial-break visual-tone-sage visual-image-full-image-bronze-rule architecture-section architecture-section-01 arch-component-sticky-side-note-section arch-html-heading-copy-aside-figure arch-layout-sticky-sidebar-grid arch-responsive-alternating-mobile-order arch-interaction-journal-carousel arch-cta-whatsapp-first-cta arch-content-quote-led"
+        data-section="01"
+        data-page="mission"
+        data-role="opening-mission"
+        data-layout-signature="02-empower-bronze-concierge-ledger-mission-mission-hero-01"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Bronze Concierge Ledger"
+        data-visual-role="sage-editorial-break"
+        data-image-treatment="full-image-gallery-like-frame"
+        data-premium-rhythm="floating-card"
+        data-visual-dna-signature="02-empower-floating-card-mission-01"
+        data-concept-dna="02-empower"
+        data-mobile-rhythm="deep-cta-mobile"
+        data-component-type="sticky-side-note-section"
+        data-html-anatomy="heading-copy-aside-figure"
+        data-css-layout="sticky-sidebar-grid"
+        data-responsive-pattern="alternating-mobile-order"
+        data-interaction="journal-carousel"
+        data-cta-pattern="whatsapp-first-cta"
+        data-content-presentation="quote-led"
+        data-visual-hierarchy="quote-led"
+        data-architecture-signature="02-empower-sticky-side-note-section-sticky-sidebar-grid-mission-01"
+        data-architecture-concept="02-empower"
+        data-architecture-section="01"
+        data-architecture-interaction="journal-carousel"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Empower / Mission Hero</p>
+          <h1>Our mission</h1>
+          <p>
+            To make aesthetic guidance feel careful, clear, and responsible.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="consultation.html"
+              >Request evaluation</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >Message WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-03-studio-seated-joyful-transparent.webp"
+            alt="Franciele Sofiati in a full-image Empower Mission visual for opening mission"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-hero-photo"
+            data-sofiati-photo="true"
+            fetchpriority="high"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 02 — Care Philosophy
+Page: Mission
+Role: brand-philosophy
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Explore care
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 02-empower-bronze-concierge-ledger-mission-care-philosophy-02
+Mobile note: routes collapse into touch-led ledger items with clear spacing
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Careful planning / Each step should feel considered, personal, and realistic. / Explore care
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-centered visual-dna-section visual-dna-section-02 visual-layout-process-strip visual-role-human-trust visual-tone-cream visual-image-full-image-open-frame architecture-section architecture-section-02 arch-component-floating-card-cluster arch-html-quote-copy-portrait-actions arch-layout-route-matrix-grid arch-responsive-collapsed-route-cards-mobile arch-interaction-process-stepper arch-cta-faq-contact-bridge arch-content-step-led"
+        data-section="02"
+        data-page="mission"
+        data-role="brand-philosophy"
+        data-layout-signature="02-empower-bronze-concierge-ledger-mission-care-philosophy-02"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Bronze Concierge Ledger"
+        data-visual-role="human-trust"
+        data-image-treatment="full-image-asymmetrical-layout"
+        data-premium-rhythm="process-strip"
+        data-visual-dna-signature="02-empower-process-strip-mission-02"
+        data-concept-dna="02-empower"
+        data-mobile-rhythm="deep-cta-mobile"
+        data-component-type="floating-card-cluster"
+        data-html-anatomy="quote-copy-portrait-actions"
+        data-css-layout="route-matrix-grid"
+        data-responsive-pattern="collapsed-route-cards-mobile"
+        data-interaction="process-stepper"
+        data-cta-pattern="faq-contact-bridge"
+        data-content-presentation="step-led"
+        data-visual-hierarchy="icon-led"
+        data-architecture-signature="02-empower-floating-card-cluster-route-matrix-grid-mission-02"
+        data-architecture-concept="02-empower"
+        data-architecture-section="02"
+        data-architecture-interaction="process-stepper"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Empower / Care Philosophy</p>
+          <h2>Careful planning</h2>
+          <p>Each step should feel considered, personal, and realistic.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="care.html"
+              >Explore care</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-06-studio-crossed-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Empower Mission visual for brand philosophy"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 03 — Brand Values
+Page: Mission
+Role: trust-values
+Content: Heading, short paragraph, route cards, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: View values
+Secondary CTA: About Franciele
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 02-empower-bronze-concierge-ledger-mission-brand-values-03
+Mobile note: routes collapse into touch-led ledger items with clear spacing
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Guiding values / Care, trust, safety, and naturality guide the experience. / View values + About Franciele
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-ledger visual-dna-section visual-dna-section-03 visual-layout-stacked-editorial visual-role-route-panel visual-tone-editorial visual-image-full-image-editorial-panel architecture-section architecture-section-03 arch-component-service-route-matrix arch-html-copy-bullets-side-note arch-layout-timeline-rail-grid arch-responsive-stacked-editorial-panels-mobile arch-interaction-mobile-route-focus arch-cta-service-form-bridge arch-content-question-led"
+        data-section="03"
+        data-page="mission"
+        data-role="trust-values"
+        data-layout-signature="02-empower-bronze-concierge-ledger-mission-brand-values-03"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Bronze Concierge Ledger"
+        data-visual-role="route-panel"
+        data-image-treatment="css-botanical-divider"
+        data-premium-rhythm="stacked-editorial"
+        data-visual-dna-signature="02-empower-stacked-editorial-mission-03"
+        data-concept-dna="02-empower"
+        data-mobile-rhythm="deep-cta-mobile"
+        data-component-type="service-route-matrix"
+        data-html-anatomy="copy-bullets-side-note"
+        data-css-layout="timeline-rail-grid"
+        data-responsive-pattern="stacked-editorial-panels-mobile"
+        data-interaction="mobile-route-focus"
+        data-cta-pattern="service-form-bridge"
+        data-content-presentation="question-led"
+        data-visual-hierarchy="editorial-led"
+        data-architecture-signature="02-empower-service-route-matrix-timeline-rail-grid-mission-03"
+        data-architecture-concept="02-empower"
+        data-architecture-section="03"
+        data-architecture-interaction="mobile-route-focus"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Empower / Brand Values</p>
+          <h2>Guiding values</h2>
+          <p>Care, trust, safety, and naturality guide the experience.</p>
+          <div class="atlas-card-row" aria-label="Brand Values cards">
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Care</h3>
+              <p>Attentive guidance.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Trust</h3>
+              <p>Clear explanations.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Safety</h3>
+              <p>Responsible boundaries.</p>
+            </article>
+            <article>
+              <span class="sofiati-inline-icon" aria-hidden="true"></span>
+              <h3>Naturality</h3>
+              <p>Natural confidence.</p>
+            </article>
+          </div>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="values.html"
+              >View values</a
+            >
+            <a class="button atlas-button atlas-button--soft" href="about.html"
+              >About Franciele</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-09-studio-seated-bright-smile-transparent.webp"
+            alt="Franciele Sofiati in a full-image Empower Mission visual for trust values"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 04 — Human Trust
+Page: Mission
+Role: human-trust
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Meet Franciele
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 02-empower-bronze-concierge-ledger-mission-human-trust-04
+Mobile note: routes collapse into touch-led ledger items with clear spacing
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Human guidance / The experience should feel personal, respectful, and clear. / Meet Franciele
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-split-card visual-dna-section visual-dna-section-04 visual-layout-cta-band visual-role-deep-trust-band visual-tone-deep visual-image-full-image-soft-field architecture-section architecture-section-04 arch-component-journal-carousel arch-html-manifesto-copy-actions arch-layout-botanical-divider-grid arch-responsive-portrait-anchor-mobile arch-interaction-route-selector arch-cta-deep-sage-cta-band arch-content-route-led"
+        data-section="04"
+        data-page="mission"
+        data-role="human-trust"
+        data-layout-signature="02-empower-bronze-concierge-ledger-mission-human-trust-04"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Bronze Concierge Ledger"
+        data-visual-role="deep-trust-band"
+        data-image-treatment="full-image-wide-editorial-panel"
+        data-premium-rhythm="cta-band"
+        data-visual-dna-signature="02-empower-cta-band-mission-04"
+        data-concept-dna="02-empower"
+        data-mobile-rhythm="deep-cta-mobile"
+        data-component-type="journal-carousel"
+        data-html-anatomy="manifesto-copy-actions"
+        data-css-layout="botanical-divider-grid"
+        data-responsive-pattern="portrait-anchor-mobile"
+        data-interaction="route-selector"
+        data-cta-pattern="deep-sage-cta-band"
+        data-content-presentation="route-led"
+        data-visual-hierarchy="image-led"
+        data-architecture-signature="02-empower-journal-carousel-botanical-divider-grid-mission-04"
+        data-architecture-concept="02-empower"
+        data-architecture-section="04"
+        data-architecture-interaction="route-selector"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Empower / Human Trust</p>
+          <h2>Human guidance</h2>
+          <p>The experience should feel personal, respectful, and clear.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="about.html"
+              >Meet Franciele</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-12-studio-close-composed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Empower Mission visual for human trust"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 05 — Statement Break
+Page: Mission
+Role: reassurance-statement
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: None
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 02-empower-bronze-concierge-ledger-mission-statement-break-05
+Mobile note: routes collapse into touch-led ledger items with clear spacing
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Clarity is care / A calm process helps better choices. / None
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-statement visual-dna-section visual-dna-section-05 visual-layout-trust-note visual-role-service-focus visual-tone-cream visual-image-full-image-clinical-frame architecture-section architecture-section-05 arch-component-split-card-stack arch-html-copy-cta-dock-panel arch-layout-asymmetric-css-grid arch-responsive-alternating-mobile-order arch-interaction-active-section-indicator arch-cta-minimal-line-cta arch-content-form-led"
+        data-section="05"
+        data-page="mission"
+        data-role="reassurance-statement"
+        data-layout-signature="02-empower-bronze-concierge-ledger-mission-statement-break-05"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Bronze Concierge Ledger"
+        data-visual-role="service-focus"
+        data-image-treatment="full-image-sage-panel"
+        data-premium-rhythm="trust-note"
+        data-visual-dna-signature="02-empower-trust-note-mission-05"
+        data-concept-dna="02-empower"
+        data-mobile-rhythm="deep-cta-mobile"
+        data-component-type="split-card-stack"
+        data-html-anatomy="copy-cta-dock-panel"
+        data-css-layout="asymmetric-css-grid"
+        data-responsive-pattern="alternating-mobile-order"
+        data-interaction="active-section-indicator"
+        data-cta-pattern="minimal-line-cta"
+        data-content-presentation="form-led"
+        data-visual-hierarchy="quote-led"
+        data-architecture-signature="02-empower-split-card-stack-asymmetric-css-grid-mission-05"
+        data-architecture-concept="02-empower"
+        data-architecture-section="05"
+        data-architecture-interaction="active-section-indicator"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Empower / Statement Break</p>
+          <h2>Clarity is care</h2>
+          <p>A calm process helps better choices.</p>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-15-balcony-orange-direct-transparent.webp"
+            alt="Franciele Sofiati in a full-image Empower Mission visual for reassurance statement"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 06 — Responsible Practice
+Page: Mission
+Role: reassurance-boundary
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Understand results
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 02-empower-bronze-concierge-ledger-mission-responsible-practice-06
+Mobile note: routes collapse into touch-led ledger items with clear spacing
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: No pressure / This site avoids exaggerated promises and unsupported proof. / Understand results
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-portrait-stack visual-dna-section visual-dna-section-06 visual-layout-offset-photo visual-role-journal-strip visual-tone-sage visual-image-full-image-layered-panel architecture-section architecture-section-06 arch-component-editorial-pull-quote-section arch-html-heading-copy-aside-figure arch-layout-sticky-sidebar-grid arch-responsive-collapsed-route-cards-mobile arch-interaction-reduced-motion-reveal arch-cta-hero-primary-whatsapp-secondary arch-content-statement-led"
+        data-section="06"
+        data-page="mission"
+        data-role="reassurance-boundary"
+        data-layout-signature="02-empower-bronze-concierge-ledger-mission-responsible-practice-06"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Bronze Concierge Ledger"
+        data-visual-role="journal-strip"
+        data-image-treatment="full-image-gallery-like-frame"
+        data-premium-rhythm="offset-photo"
+        data-visual-dna-signature="02-empower-offset-photo-mission-06"
+        data-concept-dna="02-empower"
+        data-mobile-rhythm="deep-cta-mobile"
+        data-component-type="editorial-pull-quote-section"
+        data-html-anatomy="heading-copy-aside-figure"
+        data-css-layout="sticky-sidebar-grid"
+        data-responsive-pattern="collapsed-route-cards-mobile"
+        data-interaction="reduced-motion-reveal"
+        data-cta-pattern="hero-primary-whatsapp-secondary"
+        data-content-presentation="statement-led"
+        data-visual-hierarchy="icon-led"
+        data-architecture-signature="02-empower-editorial-pull-quote-section-sticky-sidebar-grid-mission-06"
+        data-architecture-concept="02-empower"
+        data-architecture-section="06"
+        data-architecture-interaction="reduced-motion-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Empower / Responsible Practice</p>
+          <h2>No pressure</h2>
+          <p>This site avoids exaggerated promises and unsupported proof.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="results.html"
+              >Understand results</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-20-ivory-room-standing-calm-transparent.webp"
+            alt="Franciele Sofiati in a full-image Empower Mission visual for reassurance boundary"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 07 — Related Pages
+Page: Mission
+Role: internal-route
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: About
+Secondary CTA: Values
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 02-empower-bronze-concierge-ledger-mission-related-pages-07
+Mobile note: routes collapse into touch-led ledger items with clear spacing
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Learn more / Explore the values behind the experience. / About + Values
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-editorial-aside visual-dna-section visual-dna-section-07 visual-layout-structured-clinical visual-role-form-focus visual-tone-ivory visual-image-full-image-gallery-frame architecture-section architecture-section-07 arch-component-consultation-route-selector arch-html-quote-copy-portrait-actions arch-layout-route-matrix-grid arch-responsive-stacked-editorial-panels-mobile arch-interaction-scroll-reveal arch-cta-sage-consultation-strip arch-content-journal-led"
+        data-section="07"
+        data-page="mission"
+        data-role="internal-route"
+        data-layout-signature="02-empower-bronze-concierge-ledger-mission-related-pages-07"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Bronze Concierge Ledger"
+        data-visual-role="form-focus"
+        data-image-treatment="full-image-asymmetrical-layout"
+        data-premium-rhythm="structured-clinical"
+        data-visual-dna-signature="02-empower-structured-clinical-mission-07"
+        data-concept-dna="02-empower"
+        data-mobile-rhythm="deep-cta-mobile"
+        data-component-type="consultation-route-selector"
+        data-html-anatomy="quote-copy-portrait-actions"
+        data-css-layout="route-matrix-grid"
+        data-responsive-pattern="stacked-editorial-panels-mobile"
+        data-interaction="scroll-reveal"
+        data-cta-pattern="sage-consultation-strip"
+        data-content-presentation="journal-led"
+        data-visual-hierarchy="editorial-led"
+        data-architecture-signature="02-empower-consultation-route-selector-route-matrix-grid-mission-07"
+        data-architecture-concept="02-empower"
+        data-architecture-section="07"
+        data-architecture-interaction="scroll-reveal"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Empower / Related Pages</p>
+          <h2>Learn more</h2>
+          <p>Explore the values behind the experience.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="about.html"
+              >About</a
+            >
+            <a class="button atlas-button atlas-button--soft" href="values.html"
+              >Values</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-23-ivory-room-arms-crossed-close-transparent.webp"
+            alt="Franciele Sofiati in a full-image Empower Mission visual for internal route"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 08 — Consultation Path
+Page: Mission
+Role: conversion-contact
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Request evaluation
+Secondary CTA: Read FAQ
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 02-empower-bronze-concierge-ledger-mission-consultation-path-08
+Mobile note: routes collapse into touch-led ledger items with clear spacing
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Start with questions / A consultation can help clarify your next step. / Request evaluation + Read FAQ
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-quote-band visual-dna-section visual-dna-section-08 visual-layout-editorial-split visual-role-quiet-proof visual-tone-line visual-image-full-image-quiet-anchor architecture-section architecture-section-08 arch-component-editorial-split arch-html-copy-bullets-side-note arch-layout-timeline-rail-grid arch-responsive-portrait-anchor-mobile arch-interaction-sticky-cta arch-cta-form-first-cta arch-content-paragraph-led"
+        data-section="08"
+        data-page="mission"
+        data-role="conversion-contact"
+        data-layout-signature="02-empower-bronze-concierge-ledger-mission-consultation-path-08"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Bronze Concierge Ledger"
+        data-visual-role="quiet-proof"
+        data-image-treatment="css-botanical-divider"
+        data-premium-rhythm="editorial-split"
+        data-visual-dna-signature="02-empower-editorial-split-mission-08"
+        data-concept-dna="02-empower"
+        data-mobile-rhythm="deep-cta-mobile"
+        data-component-type="editorial-split"
+        data-html-anatomy="copy-bullets-side-note"
+        data-css-layout="timeline-rail-grid"
+        data-responsive-pattern="portrait-anchor-mobile"
+        data-interaction="sticky-cta"
+        data-cta-pattern="form-first-cta"
+        data-content-presentation="paragraph-led"
+        data-visual-hierarchy="image-led"
+        data-architecture-signature="02-empower-editorial-split-timeline-rail-grid-mission-08"
+        data-architecture-concept="02-empower"
+        data-architecture-section="08"
+        data-architecture-interaction="sticky-cta"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Empower / Consultation Path</p>
+          <h2>Start with questions</h2>
+          <p>A consultation can help clarify your next step.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="consultation.html"
+              >Request evaluation</a
+            >
+            <a class="button atlas-button atlas-button--soft" href="faq.html"
+              >Read FAQ</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-26-ivory-room-window-composed-transparent.webp"
+            alt="Franciele Sofiati in a full-image Empower Mission visual for conversion contact"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 09 — Evaluation Leads
+Page: Mission
+Role: trust-evaluation
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Begin consultation
+Secondary CTA: None
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 02-empower-bronze-concierge-ledger-mission-evaluation-leads-09
+Mobile note: routes collapse into touch-led ledger items with clear spacing
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Evaluation first / Good decisions begin with understanding the person, not rushing the answer. / Begin consultation
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-timeline visual-dna-section visual-dna-section-09 visual-layout-dark-band visual-role-final-conversion visual-tone-conversion visual-image-full-image-elegant-card architecture-section architecture-section-09 arch-component-sticky-side-note-section arch-html-manifesto-copy-actions arch-layout-botanical-divider-grid arch-responsive-alternating-mobile-order arch-interaction-accordion-guidance arch-cta-route-card-cta arch-content-bullets-led"
+        data-section="09"
+        data-page="mission"
+        data-role="trust-evaluation"
+        data-layout-signature="02-empower-bronze-concierge-ledger-mission-evaluation-leads-09"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Bronze Concierge Ledger"
+        data-visual-role="final-conversion"
+        data-image-treatment="full-image-wide-editorial-panel"
+        data-premium-rhythm="dark-band"
+        data-visual-dna-signature="02-empower-dark-band-mission-09"
+        data-concept-dna="02-empower"
+        data-mobile-rhythm="deep-cta-mobile"
+        data-component-type="sticky-side-note-section"
+        data-html-anatomy="manifesto-copy-actions"
+        data-css-layout="botanical-divider-grid"
+        data-responsive-pattern="alternating-mobile-order"
+        data-interaction="accordion-guidance"
+        data-cta-pattern="route-card-cta"
+        data-content-presentation="bullets-led"
+        data-visual-hierarchy="quote-led"
+        data-architecture-signature="02-empower-sticky-side-note-section-botanical-divider-grid-mission-09"
+        data-architecture-concept="02-empower"
+        data-architecture-section="09"
+        data-architecture-interaction="accordion-guidance"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Empower / Evaluation Leads</p>
+          <h2>Evaluation first</h2>
+          <p>
+            Good decisions begin with understanding the person, not rushing the
+            answer.
+          </p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="consultation.html"
+              >Begin consultation</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-02-studio-seated-laughing-transparent.webp"
+            alt="Franciele Sofiati in a full-image Empower Mission visual for trust evaluation"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+      <!--
+SECTION 10 — Final CTA
+Page: Mission
+Role: conversion-final
+Content: Heading, short paragraph, and CTA logic.
+Assets: Full Franciele image, CSS decoration, and no-crop responsive framing.
+Links: Maximum 2 visible links/buttons.
+Primary CTA: Contact
+Secondary CTA: WhatsApp
+Internal link role: Guides visitors to the next useful route.
+Layout signature: 02-empower-bronze-concierge-ledger-mission-final-cta-10
+Mobile note: routes collapse into touch-led ledger items with clear spacing
+QA note: Check premium spacing, short copy, asset crop, link count, and no unsupported claims.
+Text: Reach out / Send a message when you are ready. / Contact + WhatsApp
+-->
+      <section
+        class="story-section page-section atlas-section atlas-layout-gallery-strip visual-dna-section visual-dna-section-10 visual-layout-magazine-layer visual-role-opening-promise visual-tone-ivory visual-image-full-image-sage-rail architecture-section architecture-section-10 arch-component-floating-card-cluster arch-html-copy-cta-dock-panel arch-layout-asymmetric-css-grid arch-responsive-collapsed-route-cards-mobile arch-interaction-none arch-cta-journal-consultation-bridge arch-content-cards-led"
+        data-section="10"
+        data-page="mission"
+        data-role="conversion-final"
+        data-layout-signature="02-empower-bronze-concierge-ledger-mission-final-cta-10"
+        data-max-links="2"
+        data-copy-density="light"
+        data-asset-role="full-image-photo"
+        data-visual-family="Bronze Concierge Ledger"
+        data-visual-role="opening-promise"
+        data-image-treatment="full-image-sage-panel"
+        data-premium-rhythm="magazine-layer"
+        data-visual-dna-signature="02-empower-magazine-layer-mission-10"
+        data-concept-dna="02-empower"
+        data-mobile-rhythm="deep-cta-mobile"
+        data-component-type="floating-card-cluster"
+        data-html-anatomy="copy-cta-dock-panel"
+        data-css-layout="asymmetric-css-grid"
+        data-responsive-pattern="collapsed-route-cards-mobile"
+        data-interaction="none"
+        data-cta-pattern="journal-consultation-bridge"
+        data-content-presentation="cards-led"
+        data-visual-hierarchy="icon-led"
+        data-architecture-signature="02-empower-floating-card-cluster-asymmetric-css-grid-mission-10"
+        data-architecture-concept="02-empower"
+        data-architecture-section="10"
+      >
+        <div class="atlas-section__copy">
+          <p class="eyebrow atlas-eyebrow">Empower / Final CTA</p>
+          <h2>Reach out</h2>
+          <p>Send a message when you are ready.</p>
+          <div class="atlas-actions">
+            <a
+              class="button atlas-button atlas-button--primary"
+              href="contact.html"
+              >Contact</a
+            >
+            <a
+              class="button atlas-button atlas-button--soft"
+              href="https://wa.me/5543991043536"
+              target="_blank"
+              rel="noopener"
+              >WhatsApp</a
+            >
+          </div>
+        </div>
+        <figure
+          class="atlas-section__media sofiati-photo-frame sofiati-portrait-frame"
+          data-full-image-frame="true"
+        >
+          <img
+            src="../../assets/brand/franciele-sofiati-05-studio-full-direct-transparent.webp"
+            alt="Franciele Sofiati in a full-image Empower Mission visual for conversion final"
+            loading="eager"
+            decoding="async"
+            class="sofiati-photo sofiati-brand-photo"
+            data-sofiati-photo="true"
+          />
+        </figure>
+      </section>
+    </main>
+    <div data-partial-mount="cookie-banner"></div>
+    <div data-partial-mount="footer"></div>
+    <div data-partial-mount="floating-widgets"></div>
+    <script src="js/partials.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="../../js/sofiati-50-architecture-system.js" defer></script>
+    <script
+      src="../../js/sofiati-footer-cookie.js"
+      defer
+      data-sofiati-cookie-loader
+    ></script>
+  </body>
+</html>
