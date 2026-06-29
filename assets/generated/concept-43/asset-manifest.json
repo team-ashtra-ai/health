@@ -1,166 +1,1622 @@
 {
-  "siteId": "43-meridian",
-  "siteName": "Meridian",
-  "conceptNumber": "43",
-  "visualDirection": "gold-minimalism",
-  "sourcePhotos": [
-    "assets/photos/IMG_1529.jpg.jpeg",
-    "assets/photos/IMG_1662.jpg.jpeg"
+  "conceptId": "43-meridian",
+  "conceptName": "Meridian",
+  "approvedAssets": [
+    {
+      "path": "assets/brand/sofiati-logo-primary-sage.png",
+      "category": "brand",
+      "role": "header and footer logo",
+      "usedOnPages": [
+        "all concept pages via partials"
+      ],
+      "usedInSections": [
+        "header",
+        "footer"
+      ],
+      "altText": "Sofiati",
+      "decorative": false,
+      "source": "assets/brand",
+      "license": "client-owned Sofiati brand asset",
+      "notes": "Approved real brand identity asset."
+    },
+    {
+      "path": "assets/brand/sofiati-favicon.svg",
+      "category": "brand",
+      "role": "favicon",
+      "usedOnPages": [
+        "all concept pages"
+      ],
+      "usedInSections": [
+        "head metadata"
+      ],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/brand",
+      "license": "client-owned Sofiati brand asset",
+      "notes": "Approved official icon."
+    }
   ],
-  "transparentBrandSources": [
-    "assets/brand/franciele-sofiati-20-ivory-room-standing-calm-transparent.webp",
-    "assets/brand/franciele-sofiati-26-ivory-room-window-composed-transparent.webp"
+  "quarantinedAssets": [
+    {
+      "path": "assets/generated/concept-43/backgrounds/sofiati-concept-43-about-section-background.svg",
+      "category": "backgrounds",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; backgrounds category is high-risk for visible labelled placeholder art; contains visible text 'section background'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/backgrounds/sofiati-concept-43-care-section-background.svg",
+      "category": "backgrounds",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; backgrounds category is high-risk for visible labelled placeholder art; contains visible text 'section background'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/backgrounds/sofiati-concept-43-consultation-section-background.svg",
+      "category": "backgrounds",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; backgrounds category is high-risk for visible labelled placeholder art; contains visible text 'section background'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/backgrounds/sofiati-concept-43-contact-section-background.svg",
+      "category": "backgrounds",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; backgrounds category is high-risk for visible labelled placeholder art; contains visible text 'section background'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/backgrounds/sofiati-concept-43-faq-section-background.svg",
+      "category": "backgrounds",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; backgrounds category is high-risk for visible labelled placeholder art; contains visible text 'section background'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/backgrounds/sofiati-concept-43-footer-background.svg",
+      "category": "backgrounds",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; backgrounds category is high-risk for visible labelled placeholder art; contains visible text 'section background'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/backgrounds/sofiati-concept-43-home-section-background.svg",
+      "category": "backgrounds",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; backgrounds category is high-risk for visible labelled placeholder art; contains visible text 'home background'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/backgrounds/sofiati-concept-43-laser-section-background.svg",
+      "category": "backgrounds",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; backgrounds category is high-risk for visible labelled placeholder art; contains visible text 'section background'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/backgrounds/sofiati-concept-43-results-section-background.svg",
+      "category": "backgrounds",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; backgrounds category is high-risk for visible labelled placeholder art; contains visible text 'section background'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/backgrounds/sofiati-concept-43-skin-section-background.svg",
+      "category": "backgrounds",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; backgrounds category is high-risk for visible labelled placeholder art; contains visible text 'section background'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/brand-backgrounds/sofiati-concept-43-brand-mark-beige-background.svg",
+      "category": "brand-backgrounds",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; brand-backgrounds category is high-risk for visible labelled placeholder art",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/brand-backgrounds/sofiati-concept-43-brand-mark-botanical-green-background.svg",
+      "category": "brand-backgrounds",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; brand-backgrounds category is high-risk for visible labelled placeholder art",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/brand-backgrounds/sofiati-concept-43-brand-mark-cream-background.svg",
+      "category": "brand-backgrounds",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; brand-backgrounds category is high-risk for visible labelled placeholder art",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/brand-backgrounds/sofiati-concept-43-brand-mark-dark-editorial-background.svg",
+      "category": "brand-backgrounds",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; brand-backgrounds category is high-risk for visible labelled placeholder art",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/brand-backgrounds/sofiati-concept-43-brand-mark-framed-background.svg",
+      "category": "brand-backgrounds",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; brand-backgrounds category is high-risk for visible labelled placeholder art",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/brand-backgrounds/sofiati-concept-43-brand-mark-gold-background.svg",
+      "category": "brand-backgrounds",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; brand-backgrounds category is high-risk for visible labelled placeholder art",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/brand-backgrounds/sofiati-concept-43-brand-mark-gradient-background.svg",
+      "category": "brand-backgrounds",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; brand-backgrounds category is high-risk for visible labelled placeholder art",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/brand-backgrounds/sofiati-concept-43-brand-mark-textured-background.svg",
+      "category": "brand-backgrounds",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; brand-backgrounds category is high-risk for visible labelled placeholder art",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/cards/sofiati-concept-43-consultation-card.svg",
+      "category": "cards",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; cards category is high-risk for visible labelled placeholder art",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/cards/sofiati-concept-43-contact-card.svg",
+      "category": "cards",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; cards category is high-risk for visible labelled placeholder art",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/cards/sofiati-concept-43-cta-card.svg",
+      "category": "cards",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; cards category is high-risk for visible labelled placeholder art",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/cards/sofiati-concept-43-faq-card.svg",
+      "category": "cards",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; cards category is high-risk for visible labelled placeholder art",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/cards/sofiati-concept-43-journal-blog-card.svg",
+      "category": "cards",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; cards category is high-risk for visible labelled placeholder art",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/cards/sofiati-concept-43-mission-card.svg",
+      "category": "cards",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; cards category is high-risk for visible labelled placeholder art",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/cards/sofiati-concept-43-result-card.svg",
+      "category": "cards",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; cards category is high-risk for visible labelled placeholder art",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/cards/sofiati-concept-43-service-card-gold-edge.svg",
+      "category": "cards",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; cards category is high-risk for visible labelled placeholder art",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/cards/sofiati-concept-43-testimonial-card.svg",
+      "category": "cards",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; cards category is high-risk for visible labelled placeholder art",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/cards/sofiati-concept-43-value-card.svg",
+      "category": "cards",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; cards category is high-risk for visible labelled placeholder art",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/cta/sofiati-concept-43-cta-image-panel.webp",
+      "category": "cta",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/cta/sofiati-concept-43-final-cta-background.webp",
+      "category": "cta",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/decorative/sofiati-concept-43-botanical-accent.svg",
+      "category": "decorative",
+      "reason": "contains visible text 'decorative asset'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/decorative/sofiati-concept-43-corner-decoration.svg",
+      "category": "decorative",
+      "reason": "contains visible text 'decorative asset'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/decorative/sofiati-concept-43-frame-asset.svg",
+      "category": "decorative",
+      "reason": "contains visible text 'decorative asset'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/decorative/sofiati-concept-43-gold-divider.svg",
+      "category": "decorative",
+      "reason": "contains visible text 'decorative asset'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/decorative/sofiati-concept-43-line-art-asset.svg",
+      "category": "decorative",
+      "reason": "contains visible text 'decorative asset'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/decorative/sofiati-concept-43-pattern-asset.svg",
+      "category": "decorative",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; contains visible text 'pattern decoration'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/decorative/sofiati-concept-43-quote-mark-asset.svg",
+      "category": "decorative",
+      "reason": "contains visible text 'decorative asset'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/decorative/sofiati-concept-43-section-divider.svg",
+      "category": "decorative",
+      "reason": "contains visible text 'decorative asset'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/decorative/sofiati-concept-43-texture-asset.svg",
+      "category": "decorative",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; contains visible text 'decorative asset'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/decorative/sofiati-concept-43-watermark-asset.svg",
+      "category": "decorative",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; contains visible text 'decorative asset'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/footer/sofiati-concept-43-footer-background.svg",
+      "category": "footer",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/footer/sofiati-concept-43-footer-watermark-version.svg",
+      "category": "footer",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/forms/sofiati-concept-43-form-background.webp",
+      "category": "forms",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/forms/sofiati-concept-43-form-header-image.webp",
+      "category": "forms",
+      "reason": "binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/forms/sofiati-concept-43-form-side-image.webp",
+      "category": "forms",
+      "reason": "binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/heroes/sofiati-concept-43-hero-background-image.webp",
+      "category": "heroes",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/heroes/sofiati-concept-43-hero-editorial-portrait.webp",
+      "category": "heroes",
+      "reason": "binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/heroes/sofiati-concept-43-hero-portrait-crop.webp",
+      "category": "heroes",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval; portrait or hero variant implies a crop and is not approved for Franciele photos",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/heroes/sofiati-concept-43-mobile-hero-portrait-crop.webp",
+      "category": "heroes",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval; portrait or hero variant implies a crop and is not approved for Franciele photos",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/journal/sofiati-concept-43-article-header-image.webp",
+      "category": "journal",
+      "reason": "binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/journal/sofiati-concept-43-blog-card-image.webp",
+      "category": "journal",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/journal/sofiati-concept-43-blog-hero-image.webp",
+      "category": "journal",
+      "reason": "binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/journal/sofiati-concept-43-featured-article-image.webp",
+      "category": "journal",
+      "reason": "binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/journal/sofiati-concept-43-journal-background-asset.svg",
+      "category": "journal",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/journal/sofiati-concept-43-related-post-card-asset.svg",
+      "category": "journal",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/logos/sofiati-concept-43-logo-on-background.webp",
+      "category": "logos",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/logos/sofiati-concept-43-logo-watermark.svg",
+      "category": "logos",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/navigation/sofiati-concept-43-mobile-menu-background.svg",
+      "category": "navigation",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/portraits/sofiati-concept-43-circular-portrait.svg",
+      "category": "portraits",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; portrait or hero variant implies a crop and is not approved for Franciele photos",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/portraits/sofiati-concept-43-editorial-portrait.webp",
+      "category": "portraits",
+      "reason": "binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/portraits/sofiati-concept-43-portrait-background-version.webp",
+      "category": "portraits",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/portraits/sofiati-concept-43-portrait-card.webp",
+      "category": "portraits",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/portraits/sofiati-concept-43-portrait-crop.webp",
+      "category": "portraits",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval; portrait or hero variant implies a crop and is not approved for Franciele photos",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/portraits/sofiati-concept-43-square-portrait.webp",
+      "category": "portraits",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval; portrait or hero variant implies a crop and is not approved for Franciele photos",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/portraits/sofiati-concept-43-vertical-portrait.webp",
+      "category": "portraits",
+      "reason": "binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/responsive/sofiati-concept-43-compressed-webp-version.webp",
+      "category": "responsive",
+      "reason": "responsive category is high-risk for visible labelled placeholder art; binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/responsive/sofiati-concept-43-desktop-crop.webp",
+      "category": "responsive",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; responsive category is high-risk for visible labelled placeholder art; binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/responsive/sofiati-concept-43-low-quality-placeholder.webp",
+      "category": "responsive",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; responsive category is high-risk for visible labelled placeholder art; binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/responsive/sofiati-concept-43-mobile-crop.webp",
+      "category": "responsive",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; responsive category is high-risk for visible labelled placeholder art; binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/responsive/sofiati-concept-43-square-crop.webp",
+      "category": "responsive",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; responsive category is high-risk for visible labelled placeholder art; binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/responsive/sofiati-concept-43-tablet-crop.webp",
+      "category": "responsive",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; responsive category is high-risk for visible labelled placeholder art; binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/responsive/sofiati-concept-43-thumbnail.webp",
+      "category": "responsive",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; responsive category is high-risk for visible labelled placeholder art; binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/responsive/sofiati-concept-43-vertical-crop.webp",
+      "category": "responsive",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; responsive category is high-risk for visible labelled placeholder art; binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/responsive/sofiati-concept-43-wide-crop.webp",
+      "category": "responsive",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; responsive category is high-risk for visible labelled placeholder art; binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/section-assets/sofiati-concept-43-about-section-asset.svg",
+      "category": "section-assets",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; section-assets category is high-risk for visible labelled placeholder art; contains visible text 'section asset'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/section-assets/sofiati-concept-43-care-section-asset.svg",
+      "category": "section-assets",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; section-assets category is high-risk for visible labelled placeholder art; contains visible text 'section asset'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/section-assets/sofiati-concept-43-consultation-section-asset.svg",
+      "category": "section-assets",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; section-assets category is high-risk for visible labelled placeholder art; contains visible text 'section asset'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/section-assets/sofiati-concept-43-contact-section-asset.svg",
+      "category": "section-assets",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; section-assets category is high-risk for visible labelled placeholder art; contains visible text 'section asset'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/section-assets/sofiati-concept-43-faq-section-asset.svg",
+      "category": "section-assets",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; section-assets category is high-risk for visible labelled placeholder art; contains visible text 'section asset'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/section-assets/sofiati-concept-43-home-section-asset.svg",
+      "category": "section-assets",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; section-assets category is high-risk for visible labelled placeholder art; contains visible text 'section asset'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/section-assets/sofiati-concept-43-homepage-asset-composition.svg",
+      "category": "section-assets",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; section-assets category is high-risk for visible labelled placeholder art; contains visible text 'section asset'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/section-assets/sofiati-concept-43-laser-section-asset.svg",
+      "category": "section-assets",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; section-assets category is high-risk for visible labelled placeholder art; contains visible text 'section asset'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/section-assets/sofiati-concept-43-legal-support-section-asset.svg",
+      "category": "section-assets",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; section-assets category is high-risk for visible labelled placeholder art; contains visible text 'section asset'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/section-assets/sofiati-concept-43-results-section-asset.svg",
+      "category": "section-assets",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; section-assets category is high-risk for visible labelled placeholder art; contains visible text 'section asset'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/section-assets/sofiati-concept-43-skin-section-asset.svg",
+      "category": "section-assets",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; section-assets category is high-risk for visible labelled placeholder art; contains visible text 'section asset'",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    },
+    {
+      "path": "assets/generated/concept-43/social/sofiati-concept-43-android-icon.png",
+      "category": "social",
+      "reason": "binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/social/sofiati-concept-43-apple-touch-icon.png",
+      "category": "social",
+      "reason": "binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/social/sofiati-concept-43-consultation-page-preview-image.webp",
+      "category": "social",
+      "reason": "binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/social/sofiati-concept-43-open-graph-premium-care.webp",
+      "category": "social",
+      "reason": "binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/social/sofiati-concept-43-service-page-preview-image.webp",
+      "category": "social",
+      "reason": "binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/social/sofiati-concept-43-social-share-image.webp",
+      "category": "social",
+      "reason": "binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/social/sofiati-concept-43-whatsapp-preview-image.webp",
+      "category": "social",
+      "reason": "binary generated image needs manual visual review before approval",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "yes"
+    },
+    {
+      "path": "assets/generated/concept-43/asset-manifest.json",
+      "category": "asset-manifest.json",
+      "reason": "manifest replaced with audited governance structure",
+      "status": "dereferenced; not moved",
+      "manualReviewNeeded": "no"
+    }
   ],
-  "sourceBrandFolder": "assets/brand",
-  "generatedAssets": [
-    "assets/generated/concept-43/logos/sofiati-concept-43-logo-lockup-cream-gold-badge.svg",
-    "assets/generated/concept-43/logos/sofiati-concept-43-logo-badge-botanical-frame.svg",
-    "assets/generated/concept-43/logos/sofiati-concept-43-logo-mark-soft-seal.svg",
-    "assets/generated/concept-43/logos/sofiati-concept-43-logo-seal-editorial.svg",
-    "assets/generated/concept-43/logos/sofiati-concept-43-logo-on-background.webp",
-    "assets/generated/concept-43/logos/sofiati-concept-43-header-logo-version.svg",
-    "assets/generated/concept-43/logos/sofiati-concept-43-footer-logo-version.svg",
-    "assets/generated/concept-43/logos/sofiati-concept-43-mobile-logo-version.svg",
-    "assets/generated/concept-43/logos/sofiati-concept-43-favicon-logo-icon.svg",
-    "assets/generated/concept-43/logos/sofiati-concept-43-favicon-logo-icon.ico",
-    "assets/generated/concept-43/logos/sofiati-concept-43-social-preview-logo.svg",
-    "assets/generated/concept-43/logos/sofiati-concept-43-logo-watermark.svg",
-    "assets/generated/concept-43/heroes/sofiati-concept-43-hero-editorial-portrait.webp",
-    "assets/generated/concept-43/heroes/sofiati-concept-43-hero-background-image.webp",
-    "assets/generated/concept-43/heroes/sofiati-concept-43-hero-portrait-crop.webp",
-    "assets/generated/concept-43/heroes/sofiati-concept-43-mobile-hero-portrait-crop.webp",
-    "assets/generated/concept-43/heroes/sofiati-concept-43-hero-overlay-version.svg",
-    "assets/generated/concept-43/heroes/sofiati-concept-43-hero-logo-brand-mark-composition.svg",
-    "assets/generated/concept-43/portraits/sofiati-concept-43-portrait-crop.webp",
-    "assets/generated/concept-43/portraits/sofiati-concept-43-circular-portrait.svg",
-    "assets/generated/concept-43/portraits/sofiati-concept-43-editorial-portrait.webp",
-    "assets/generated/concept-43/portraits/sofiati-concept-43-vertical-portrait.webp",
-    "assets/generated/concept-43/portraits/sofiati-concept-43-square-portrait.webp",
-    "assets/generated/concept-43/portraits/sofiati-concept-43-portrait-card.webp",
-    "assets/generated/concept-43/portraits/sofiati-concept-43-portrait-background-version.webp",
-    "assets/generated/concept-43/portraits/sofiati-concept-43-portrait-overlay-version.svg",
-    "assets/generated/concept-43/brand-backgrounds/sofiati-concept-43-brand-mark-cream-background.svg",
-    "assets/generated/concept-43/brand-backgrounds/sofiati-concept-43-brand-mark-beige-background.svg",
-    "assets/generated/concept-43/brand-backgrounds/sofiati-concept-43-brand-mark-botanical-green-background.svg",
-    "assets/generated/concept-43/brand-backgrounds/sofiati-concept-43-brand-mark-gold-background.svg",
-    "assets/generated/concept-43/brand-backgrounds/sofiati-concept-43-brand-mark-dark-editorial-background.svg",
-    "assets/generated/concept-43/brand-backgrounds/sofiati-concept-43-brand-mark-gradient-background.svg",
-    "assets/generated/concept-43/brand-backgrounds/sofiati-concept-43-brand-mark-textured-background.svg",
-    "assets/generated/concept-43/brand-backgrounds/sofiati-concept-43-brand-mark-framed-background.svg",
-    "assets/generated/concept-43/icons/sofiati-concept-43-service-icon-set.svg",
-    "assets/generated/concept-43/icons/sofiati-concept-43-care-icon-set.svg",
-    "assets/generated/concept-43/icons/sofiati-concept-43-laser-icon-set.svg",
-    "assets/generated/concept-43/icons/sofiati-concept-43-skin-icon-set.svg",
-    "assets/generated/concept-43/icons/sofiati-concept-43-consultation-icon-set.svg",
-    "assets/generated/concept-43/icons/sofiati-concept-43-safety-reassurance-icon-set.svg",
-    "assets/generated/concept-43/icons/sofiati-concept-43-faq-icon-set.svg",
-    "assets/generated/concept-43/icons/sofiati-concept-43-contact-icon-set.svg",
-    "assets/generated/concept-43/icons/sofiati-concept-43-navigation-icon-set.svg",
-    "assets/generated/concept-43/icons/sofiati-concept-43-footer-icon-set.svg",
-    "assets/generated/concept-43/icons/sofiati-concept-43-whatsapp-cta-icon.svg",
-    "assets/generated/concept-43/icons/sofiati-concept-43-back-to-top-icon.svg",
-    "assets/generated/concept-43/backgrounds/sofiati-concept-43-home-section-background.svg",
-    "assets/generated/concept-43/backgrounds/sofiati-concept-43-about-section-background.svg",
-    "assets/generated/concept-43/backgrounds/sofiati-concept-43-care-section-background.svg",
-    "assets/generated/concept-43/backgrounds/sofiati-concept-43-laser-section-background.svg",
-    "assets/generated/concept-43/backgrounds/sofiati-concept-43-skin-section-background.svg",
-    "assets/generated/concept-43/backgrounds/sofiati-concept-43-results-section-background.svg",
-    "assets/generated/concept-43/backgrounds/sofiati-concept-43-consultation-section-background.svg",
-    "assets/generated/concept-43/backgrounds/sofiati-concept-43-contact-section-background.svg",
-    "assets/generated/concept-43/backgrounds/sofiati-concept-43-faq-section-background.svg",
-    "assets/generated/concept-43/backgrounds/sofiati-concept-43-footer-background.svg",
-    "assets/generated/concept-43/cards/sofiati-concept-43-service-card-gold-edge.svg",
-    "assets/generated/concept-43/cards/sofiati-concept-43-consultation-card.svg",
-    "assets/generated/concept-43/cards/sofiati-concept-43-testimonial-card.svg",
-    "assets/generated/concept-43/cards/sofiati-concept-43-faq-card.svg",
-    "assets/generated/concept-43/cards/sofiati-concept-43-value-card.svg",
-    "assets/generated/concept-43/cards/sofiati-concept-43-mission-card.svg",
-    "assets/generated/concept-43/cards/sofiati-concept-43-journal-blog-card.svg",
-    "assets/generated/concept-43/cards/sofiati-concept-43-contact-card.svg",
-    "assets/generated/concept-43/cards/sofiati-concept-43-result-card.svg",
-    "assets/generated/concept-43/cards/sofiati-concept-43-cta-card.svg",
-    "assets/generated/concept-43/cta/sofiati-concept-43-final-cta-background.webp",
-    "assets/generated/concept-43/cta/sofiati-concept-43-consultation-cta-panel.svg",
-    "assets/generated/concept-43/cta/sofiati-concept-43-whatsapp-cta-treatment.svg",
-    "assets/generated/concept-43/cta/sofiati-concept-43-cta-badge.svg",
-    "assets/generated/concept-43/cta/sofiati-concept-43-cta-seal.svg",
-    "assets/generated/concept-43/cta/sofiati-concept-43-cta-button-icon-version.svg",
-    "assets/generated/concept-43/cta/sofiati-concept-43-cta-image-panel.webp",
-    "assets/generated/concept-43/cta/sofiati-concept-43-cta-section-divider.svg",
-    "assets/generated/concept-43/decorative/sofiati-concept-43-botanical-accent.svg",
-    "assets/generated/concept-43/decorative/sofiati-concept-43-gold-divider.svg",
-    "assets/generated/concept-43/decorative/sofiati-concept-43-section-divider.svg",
-    "assets/generated/concept-43/decorative/sofiati-concept-43-corner-decoration.svg",
-    "assets/generated/concept-43/decorative/sofiati-concept-43-frame-asset.svg",
-    "assets/generated/concept-43/decorative/sofiati-concept-43-watermark-asset.svg",
-    "assets/generated/concept-43/decorative/sofiati-concept-43-pattern-asset.svg",
-    "assets/generated/concept-43/decorative/sofiati-concept-43-texture-asset.svg",
-    "assets/generated/concept-43/decorative/sofiati-concept-43-quote-mark-asset.svg",
-    "assets/generated/concept-43/decorative/sofiati-concept-43-line-art-asset.svg",
-    "assets/generated/concept-43/navigation/sofiati-concept-43-header-logo-version.svg",
-    "assets/generated/concept-43/navigation/sofiati-concept-43-sticky-header-logo-version.svg",
-    "assets/generated/concept-43/navigation/sofiati-concept-43-mobile-menu-background.svg",
-    "assets/generated/concept-43/navigation/sofiati-concept-43-mobile-menu-icon.svg",
-    "assets/generated/concept-43/navigation/sofiati-concept-43-navigation-divider.svg",
-    "assets/generated/concept-43/navigation/sofiati-concept-43-navigation-hover-accent.svg",
-    "assets/generated/concept-43/navigation/sofiati-concept-43-menu-close-icon.svg",
-    "assets/generated/concept-43/navigation/sofiati-concept-43-menu-badge-asset.svg",
-    "assets/generated/concept-43/footer/sofiati-concept-43-footer-background.svg",
-    "assets/generated/concept-43/footer/sofiati-concept-43-footer-logo-version.svg",
-    "assets/generated/concept-43/footer/sofiati-concept-43-footer-brand-mark.svg",
-    "assets/generated/concept-43/footer/sofiati-concept-43-footer-botanical-accent.svg",
-    "assets/generated/concept-43/footer/sofiati-concept-43-footer-gold-divider.svg",
-    "assets/generated/concept-43/footer/sofiati-concept-43-footer-cta-badge.svg",
-    "assets/generated/concept-43/footer/sofiati-concept-43-footer-contact-icon-set.svg",
-    "assets/generated/concept-43/footer/sofiati-concept-43-footer-watermark-version.svg",
-    "assets/generated/concept-43/forms/sofiati-concept-43-form-background.webp",
-    "assets/generated/concept-43/forms/sofiati-concept-43-form-side-image.webp",
-    "assets/generated/concept-43/forms/sofiati-concept-43-form-header-image.webp",
-    "assets/generated/concept-43/forms/sofiati-concept-43-form-icon-set.svg",
-    "assets/generated/concept-43/forms/sofiati-concept-43-form-privacy-icon.svg",
-    "assets/generated/concept-43/forms/sofiati-concept-43-success-message-graphic.svg",
-    "assets/generated/concept-43/forms/sofiati-concept-43-contact-panel-asset.svg",
-    "assets/generated/concept-43/forms/sofiati-concept-43-consultation-form-asset.svg",
-    "assets/generated/concept-43/journal/sofiati-concept-43-blog-hero-image.webp",
-    "assets/generated/concept-43/journal/sofiati-concept-43-blog-card-image.webp",
-    "assets/generated/concept-43/journal/sofiati-concept-43-featured-article-image.webp",
-    "assets/generated/concept-43/journal/sofiati-concept-43-article-header-image.webp",
-    "assets/generated/concept-43/journal/sofiati-concept-43-author-portrait-treatment.svg",
-    "assets/generated/concept-43/journal/sofiati-concept-43-category-icon-set.svg",
-    "assets/generated/concept-43/journal/sofiati-concept-43-related-post-card-asset.svg",
-    "assets/generated/concept-43/journal/sofiati-concept-43-journal-background-asset.svg",
-    "assets/generated/concept-43/social/sofiati-concept-43-open-graph-premium-care.webp",
-    "assets/generated/concept-43/social/sofiati-concept-43-whatsapp-preview-image.webp",
-    "assets/generated/concept-43/social/sofiati-concept-43-social-share-image.webp",
-    "assets/generated/concept-43/social/sofiati-concept-43-favicon-set.svg",
-    "assets/generated/concept-43/social/sofiati-concept-43-apple-touch-icon.png",
-    "assets/generated/concept-43/social/sofiati-concept-43-android-icon.png",
-    "assets/generated/concept-43/social/sofiati-concept-43-service-page-preview-image.webp",
-    "assets/generated/concept-43/social/sofiati-concept-43-consultation-page-preview-image.webp",
-    "assets/generated/concept-43/responsive/sofiati-concept-43-desktop-crop.webp",
-    "assets/generated/concept-43/responsive/sofiati-concept-43-tablet-crop.webp",
-    "assets/generated/concept-43/responsive/sofiati-concept-43-mobile-crop.webp",
-    "assets/generated/concept-43/responsive/sofiati-concept-43-square-crop.webp",
-    "assets/generated/concept-43/responsive/sofiati-concept-43-vertical-crop.webp",
-    "assets/generated/concept-43/responsive/sofiati-concept-43-wide-crop.webp",
-    "assets/generated/concept-43/responsive/sofiati-concept-43-thumbnail.webp",
-    "assets/generated/concept-43/responsive/sofiati-concept-43-low-quality-placeholder.webp",
-    "assets/generated/concept-43/responsive/sofiati-concept-43-compressed-webp-version.webp",
-    "assets/generated/concept-43/section-assets/sofiati-concept-43-home-section-asset.svg",
-    "assets/generated/concept-43/section-assets/sofiati-concept-43-about-section-asset.svg",
-    "assets/generated/concept-43/section-assets/sofiati-concept-43-care-section-asset.svg",
-    "assets/generated/concept-43/section-assets/sofiati-concept-43-laser-section-asset.svg",
-    "assets/generated/concept-43/section-assets/sofiati-concept-43-skin-section-asset.svg",
-    "assets/generated/concept-43/section-assets/sofiati-concept-43-results-section-asset.svg",
-    "assets/generated/concept-43/section-assets/sofiati-concept-43-consultation-section-asset.svg",
-    "assets/generated/concept-43/section-assets/sofiati-concept-43-contact-section-asset.svg",
-    "assets/generated/concept-43/section-assets/sofiati-concept-43-faq-section-asset.svg",
-    "assets/generated/concept-43/section-assets/sofiati-concept-43-legal-support-section-asset.svg",
-    "assets/generated/concept-43/section-assets/sofiati-concept-43-homepage-asset-composition.svg"
+  "portraitAssets": [
+    {
+      "path": "assets/brand/franciele-sofiati-07-studio-crossed-composed-transparent.webp",
+      "category": "brand portrait",
+      "role": "full-image Franciele visual",
+      "usedOnPages": [
+        "rotated across real pages and partials"
+      ],
+      "usedInSections": [
+        "hero",
+        "about",
+        "care",
+        "consultation",
+        "contact",
+        "trust"
+      ],
+      "altText": "Franciele Sofiati full-image Meridian visual",
+      "decorative": false,
+      "source": "assets/brand",
+      "license": "client-owned Sofiati brand photography",
+      "notes": "Rendered with object-fit contain, height auto, and visible overflow."
+    },
+    {
+      "path": "assets/brand/franciele-sofiati-15-balcony-orange-direct-transparent.webp",
+      "category": "brand portrait",
+      "role": "full-image Franciele visual",
+      "usedOnPages": [
+        "rotated across real pages and partials"
+      ],
+      "usedInSections": [
+        "hero",
+        "about",
+        "care",
+        "consultation",
+        "contact",
+        "trust"
+      ],
+      "altText": "Franciele Sofiati full-image Meridian visual",
+      "decorative": false,
+      "source": "assets/brand",
+      "license": "client-owned Sofiati brand photography",
+      "notes": "Rendered with object-fit contain, height auto, and visible overflow."
+    },
+    {
+      "path": "assets/brand/franciele-sofiati-25-ivory-room-window-touch-transparent.webp",
+      "category": "brand portrait",
+      "role": "full-image Franciele visual",
+      "usedOnPages": [
+        "rotated across real pages and partials"
+      ],
+      "usedInSections": [
+        "hero",
+        "about",
+        "care",
+        "consultation",
+        "contact",
+        "trust"
+      ],
+      "altText": "Franciele Sofiati full-image Meridian visual",
+      "decorative": false,
+      "source": "assets/brand",
+      "license": "client-owned Sofiati brand photography",
+      "notes": "Rendered with object-fit contain, height auto, and visible overflow."
+    },
+    {
+      "path": "assets/brand/franciele-sofiati-06-studio-crossed-smile-transparent.webp",
+      "category": "brand portrait",
+      "role": "full-image Franciele visual",
+      "usedOnPages": [
+        "rotated across real pages and partials"
+      ],
+      "usedInSections": [
+        "hero",
+        "about",
+        "care",
+        "consultation",
+        "contact",
+        "trust"
+      ],
+      "altText": "Franciele Sofiati full-image Meridian visual",
+      "decorative": false,
+      "source": "assets/brand",
+      "license": "client-owned Sofiati brand photography",
+      "notes": "Rendered with object-fit contain, height auto, and visible overflow."
+    },
+    {
+      "path": "assets/brand/franciele-sofiati-14-balcony-orange-side-smile-transparent.webp",
+      "category": "brand portrait",
+      "role": "full-image Franciele visual",
+      "usedOnPages": [
+        "rotated across real pages and partials"
+      ],
+      "usedInSections": [
+        "hero",
+        "about",
+        "care",
+        "consultation",
+        "contact",
+        "trust"
+      ],
+      "altText": "Franciele Sofiati full-image Meridian visual",
+      "decorative": false,
+      "source": "assets/brand",
+      "license": "client-owned Sofiati brand photography",
+      "notes": "Rendered with object-fit contain, height auto, and visible overflow."
+    },
+    {
+      "path": "assets/brand/franciele-sofiati-24-ivory-room-window-side-transparent.webp",
+      "category": "brand portrait",
+      "role": "full-image Franciele visual",
+      "usedOnPages": [
+        "rotated across real pages and partials"
+      ],
+      "usedInSections": [
+        "hero",
+        "about",
+        "care",
+        "consultation",
+        "contact",
+        "trust"
+      ],
+      "altText": "Franciele Sofiati full-image Meridian visual",
+      "decorative": false,
+      "source": "assets/brand",
+      "license": "client-owned Sofiati brand photography",
+      "notes": "Rendered with object-fit contain, height auto, and visible overflow."
+    },
+    {
+      "path": "assets/brand/franciele-sofiati-05-studio-full-direct-transparent.webp",
+      "category": "brand portrait",
+      "role": "full-image Franciele visual",
+      "usedOnPages": [
+        "rotated across real pages and partials"
+      ],
+      "usedInSections": [
+        "hero",
+        "about",
+        "care",
+        "consultation",
+        "contact",
+        "trust"
+      ],
+      "altText": "Franciele Sofiati full-image Meridian visual",
+      "decorative": false,
+      "source": "assets/brand",
+      "license": "client-owned Sofiati brand photography",
+      "notes": "Rendered with object-fit contain, height auto, and visible overflow."
+    },
+    {
+      "path": "assets/brand/franciele-sofiati-13-balcony-orange-soft-smile-transparent.webp",
+      "category": "brand portrait",
+      "role": "full-image Franciele visual",
+      "usedOnPages": [
+        "rotated across real pages and partials"
+      ],
+      "usedInSections": [
+        "hero",
+        "about",
+        "care",
+        "consultation",
+        "contact",
+        "trust"
+      ],
+      "altText": "Franciele Sofiati full-image Meridian visual",
+      "decorative": false,
+      "source": "assets/brand",
+      "license": "client-owned Sofiati brand photography",
+      "notes": "Rendered with object-fit contain, height auto, and visible overflow."
+    }
   ],
-  "notes": [
-    "All generated media is derived from local assets/photos and assets/brand.",
-    "assets/brand-photos is absent on this branch; transparent portrait sources in assets/brand are used instead.",
-    "Concept-local assets are replaced by assets/generated/concept-XX paths."
+  "cssGeneratedAssets": [
+    {
+      "path": "css/sofiati-full-image-premium-system.css",
+      "category": "css",
+      "role": "concept-specific surfaces, line accents, frames, and icons",
+      "usedOnPages": [
+        "all real concept pages"
+      ],
+      "usedInSections": [
+        "hero",
+        "cards",
+        "forms",
+        "journal",
+        "footer",
+        "mobile"
+      ],
+      "altText": "",
+      "decorative": true,
+      "source": "local CSS/SVG-like drawing",
+      "license": "repo-authored",
+      "notes": "No external source or generated placeholder art."
+    }
+  ],
+  "externalAssets": [],
+  "unusedAssets": [
+    {
+      "path": "assets/generated/concept-43/cta/sofiati-concept-43-consultation-cta-panel.svg",
+      "category": "cta",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/cta/sofiati-concept-43-cta-badge.svg",
+      "category": "cta",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/cta/sofiati-concept-43-cta-button-icon-version.svg",
+      "category": "cta",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/cta/sofiati-concept-43-cta-seal.svg",
+      "category": "cta",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/cta/sofiati-concept-43-cta-section-divider.svg",
+      "category": "cta",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/cta/sofiati-concept-43-whatsapp-cta-treatment.svg",
+      "category": "cta",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/footer/sofiati-concept-43-footer-botanical-accent.svg",
+      "category": "footer",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/footer/sofiati-concept-43-footer-brand-mark.svg",
+      "category": "footer",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/footer/sofiati-concept-43-footer-contact-icon-set.svg",
+      "category": "footer",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/footer/sofiati-concept-43-footer-cta-badge.svg",
+      "category": "footer",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/footer/sofiati-concept-43-footer-gold-divider.svg",
+      "category": "footer",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/footer/sofiati-concept-43-footer-logo-version.svg",
+      "category": "footer",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/forms/sofiati-concept-43-consultation-form-asset.svg",
+      "category": "forms",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/forms/sofiati-concept-43-contact-panel-asset.svg",
+      "category": "forms",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/forms/sofiati-concept-43-form-icon-set.svg",
+      "category": "forms",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/forms/sofiati-concept-43-form-privacy-icon.svg",
+      "category": "forms",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/forms/sofiati-concept-43-success-message-graphic.svg",
+      "category": "forms",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/icons/sofiati-concept-43-back-to-top-icon.svg",
+      "category": "icons",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/icons/sofiati-concept-43-care-icon-set.svg",
+      "category": "icons",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/icons/sofiati-concept-43-consultation-icon-set.svg",
+      "category": "icons",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/icons/sofiati-concept-43-contact-icon-set.svg",
+      "category": "icons",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/icons/sofiati-concept-43-faq-icon-set.svg",
+      "category": "icons",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/icons/sofiati-concept-43-footer-icon-set.svg",
+      "category": "icons",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/icons/sofiati-concept-43-laser-icon-set.svg",
+      "category": "icons",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/icons/sofiati-concept-43-navigation-icon-set.svg",
+      "category": "icons",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/icons/sofiati-concept-43-safety-reassurance-icon-set.svg",
+      "category": "icons",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/icons/sofiati-concept-43-service-icon-set.svg",
+      "category": "icons",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/icons/sofiati-concept-43-skin-icon-set.svg",
+      "category": "icons",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/icons/sofiati-concept-43-whatsapp-cta-icon.svg",
+      "category": "icons",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/journal/sofiati-concept-43-author-portrait-treatment.svg",
+      "category": "journal",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/journal/sofiati-concept-43-category-icon-set.svg",
+      "category": "journal",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/logos/sofiati-concept-43-favicon-logo-icon.ico",
+      "category": "logos",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/logos/sofiati-concept-43-favicon-logo-icon.svg",
+      "category": "logos",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/logos/sofiati-concept-43-footer-logo-version.svg",
+      "category": "logos",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/logos/sofiati-concept-43-header-logo-version.svg",
+      "category": "logos",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/logos/sofiati-concept-43-logo-badge-botanical-frame.svg",
+      "category": "logos",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/logos/sofiati-concept-43-logo-lockup-cream-gold-badge.svg",
+      "category": "logos",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/logos/sofiati-concept-43-logo-mark-soft-seal.svg",
+      "category": "logos",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/logos/sofiati-concept-43-logo-seal-editorial.svg",
+      "category": "logos",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/logos/sofiati-concept-43-mobile-logo-version.svg",
+      "category": "logos",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/logos/sofiati-concept-43-social-preview-logo.svg",
+      "category": "logos",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/navigation/sofiati-concept-43-header-logo-version.svg",
+      "category": "navigation",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/navigation/sofiati-concept-43-menu-badge-asset.svg",
+      "category": "navigation",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/navigation/sofiati-concept-43-menu-close-icon.svg",
+      "category": "navigation",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/navigation/sofiati-concept-43-mobile-menu-icon.svg",
+      "category": "navigation",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/navigation/sofiati-concept-43-navigation-divider.svg",
+      "category": "navigation",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/navigation/sofiati-concept-43-navigation-hover-accent.svg",
+      "category": "navigation",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/navigation/sofiati-concept-43-sticky-header-logo-version.svg",
+      "category": "navigation",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    },
+    {
+      "path": "assets/generated/concept-43/social/sofiati-concept-43-favicon-set.svg",
+      "category": "social",
+      "role": "unused after premium repair",
+      "usedOnPages": [],
+      "usedInSections": [],
+      "altText": "",
+      "decorative": true,
+      "source": "assets/generated unapproved dump",
+      "license": "unapproved until manual audit",
+      "notes": "Dereferenced from visitor-facing pages."
+    }
+  ],
+  "manualReviewNeeded": [
+    {
+      "path": "assets/generated/concept-43/cta/sofiati-concept-43-cta-image-panel.webp",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/cta/sofiati-concept-43-final-cta-background.webp",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/forms/sofiati-concept-43-form-background.webp",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/forms/sofiati-concept-43-form-header-image.webp",
+      "reason": "binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/forms/sofiati-concept-43-form-side-image.webp",
+      "reason": "binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/heroes/sofiati-concept-43-hero-background-image.webp",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/heroes/sofiati-concept-43-hero-editorial-portrait.webp",
+      "reason": "binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/heroes/sofiati-concept-43-hero-portrait-crop.webp",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval; portrait or hero variant implies a crop and is not approved for Franciele photos"
+    },
+    {
+      "path": "assets/generated/concept-43/heroes/sofiati-concept-43-mobile-hero-portrait-crop.webp",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval; portrait or hero variant implies a crop and is not approved for Franciele photos"
+    },
+    {
+      "path": "assets/generated/concept-43/journal/sofiati-concept-43-article-header-image.webp",
+      "reason": "binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/journal/sofiati-concept-43-blog-card-image.webp",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/journal/sofiati-concept-43-blog-hero-image.webp",
+      "reason": "binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/journal/sofiati-concept-43-featured-article-image.webp",
+      "reason": "binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/logos/sofiati-concept-43-logo-on-background.webp",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/portraits/sofiati-concept-43-editorial-portrait.webp",
+      "reason": "binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/portraits/sofiati-concept-43-portrait-background-version.webp",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/portraits/sofiati-concept-43-portrait-card.webp",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/portraits/sofiati-concept-43-portrait-crop.webp",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval; portrait or hero variant implies a crop and is not approved for Franciele photos"
+    },
+    {
+      "path": "assets/generated/concept-43/portraits/sofiati-concept-43-square-portrait.webp",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; binary generated image needs manual visual review before approval; portrait or hero variant implies a crop and is not approved for Franciele photos"
+    },
+    {
+      "path": "assets/generated/concept-43/portraits/sofiati-concept-43-vertical-portrait.webp",
+      "reason": "binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/responsive/sofiati-concept-43-compressed-webp-version.webp",
+      "reason": "responsive category is high-risk for visible labelled placeholder art; binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/responsive/sofiati-concept-43-desktop-crop.webp",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; responsive category is high-risk for visible labelled placeholder art; binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/responsive/sofiati-concept-43-low-quality-placeholder.webp",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; responsive category is high-risk for visible labelled placeholder art; binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/responsive/sofiati-concept-43-mobile-crop.webp",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; responsive category is high-risk for visible labelled placeholder art; binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/responsive/sofiati-concept-43-square-crop.webp",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; responsive category is high-risk for visible labelled placeholder art; binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/responsive/sofiati-concept-43-tablet-crop.webp",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; responsive category is high-risk for visible labelled placeholder art; binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/responsive/sofiati-concept-43-thumbnail.webp",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; responsive category is high-risk for visible labelled placeholder art; binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/responsive/sofiati-concept-43-vertical-crop.webp",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; responsive category is high-risk for visible labelled placeholder art; binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/responsive/sofiati-concept-43-wide-crop.webp",
+      "reason": "filename suggests placeholder, crop, background, mockup, or asset-board use; responsive category is high-risk for visible labelled placeholder art; binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/social/sofiati-concept-43-android-icon.png",
+      "reason": "binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/social/sofiati-concept-43-apple-touch-icon.png",
+      "reason": "binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/social/sofiati-concept-43-consultation-page-preview-image.webp",
+      "reason": "binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/social/sofiati-concept-43-open-graph-premium-care.webp",
+      "reason": "binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/social/sofiati-concept-43-service-page-preview-image.webp",
+      "reason": "binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/social/sofiati-concept-43-social-share-image.webp",
+      "reason": "binary generated image needs manual visual review before approval"
+    },
+    {
+      "path": "assets/generated/concept-43/social/sofiati-concept-43-whatsapp-preview-image.webp",
+      "reason": "binary generated image needs manual visual review before approval"
+    }
   ]
 }

@@ -473,8 +473,7 @@ p {
   position: absolute;
   inset: 18%;
   z-index: 2;
-  background: url("../../../assets/generated/concept-29/logos/sofiati-concept-29-logo-watermark.svg") center/contain
-    no-repeat;
+  background: none center/contain no-repeat;
   opacity: 0.16;
   pointer-events: none;
 }
@@ -483,7 +482,7 @@ p {
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   mix-blend-mode: multiply;
   opacity: 0.88;
 }
@@ -507,7 +506,7 @@ p {
 .hero-mosaic img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .hero {
   grid-template-columns: 0.82fr 1.18fr;
@@ -602,7 +601,7 @@ p {
 .visual-detail {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   mix-blend-mode: normal;
   opacity: 1;
 }
@@ -1037,7 +1036,7 @@ body {
 .home-index-section figure img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   mix-blend-mode: normal;
   opacity: 1;
 }
@@ -1586,11 +1585,11 @@ body.reduce-motion *:after {
   --asset-cream: #f8f7f2;
   --asset-bronze: #8e7b56;
   --asset-gold: #daccb7;
-  --asset-divider: url("../../../assets/generated/concept-29/decorative/sofiati-concept-29-gold-divider.svg");
-  --asset-bg: url("../../../assets/generated/concept-29/backgrounds/sofiati-concept-29-home-section-background.svg");
-  --asset-texture: url("../../../assets/generated/concept-29/decorative/sofiati-concept-29-texture-asset.svg");
-  --asset-form: url("../../../assets/generated/concept-29/forms/sofiati-concept-29-consultation-form-asset.svg");
-  --asset-generated: url("../../../assets/generated/concept-29/section-assets/sofiati-concept-29-homepage-asset-composition.svg");
+  --asset-divider: none;
+  --asset-bg: none;
+  --asset-texture: none;
+  --asset-form: none;
+  --asset-generated: none;
 }
 body::before {
   content: "";
@@ -1645,7 +1644,7 @@ body::before {
 .doctor-presence img {
   width: 100%;
   aspect-ratio: 1/1;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: inherit;
 }
 .doctor-presence div {
@@ -1762,7 +1761,7 @@ body::before {
 .home-index-journal,
 .page-journal .content-system,
 .page-blog .content-system {
-  background-image: url("../../../assets/generated/concept-29/journal/sofiati-concept-29-featured-article-image.webp");
+  background-image: none;
   background-repeat: no-repeat;
   background-position: right clamp(16px, 5vw, 80px) top clamp(16px, 5vw, 70px);
   background-size: min(180px, 32vw);
@@ -1777,8 +1776,7 @@ body::before {
   bottom: clamp(24px, 6vw, 80px);
   width: min(220px, 36vw);
   aspect-ratio: 1;
-  background: url("../../../assets/generated/concept-29/icons/sofiati-concept-29-laser-icon-set.svg") center/contain
-    no-repeat;
+  background: none center/contain no-repeat;
   opacity: 0.32;
   pointer-events: none;
 }
@@ -1790,7 +1788,7 @@ body::before {
       color-mix(in srgb, var(--asset-sage) 18%, transparent),
       transparent 56%
     ),
-    url("../../../assets/generated/concept-29/brand-backgrounds/sofiati-concept-29-brand-mark-textured-background.svg");
+    none;
   background-size:
     auto,
     296px 296px;
@@ -1817,8 +1815,7 @@ body::before {
 .mobile-menu {
   background-image:
     linear-gradient(372deg, rgba(37, 35, 33, 0.54), rgba(37, 35, 33, 0.1)),
-    url("../../../assets/generated/concept-29/navigation/sofiati-concept-29-mobile-menu-background.svg"),
-    linear-gradient(135deg, var(--deep-sage), var(--ink));
+    none, linear-gradient(135deg, var(--deep-sage), var(--ink));
   background-size:
     auto,
     488px 488px,
@@ -1837,7 +1834,7 @@ body::before {
   top: clamp(82px, 14vw, 142px);
   width: min(116px, 26vw);
   aspect-ratio: 1;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 42px;
   border: 1px solid rgba(255, 255, 255, 0.34);
   box-shadow: 0 18px 46px rgba(0, 0, 0, 0.18);
@@ -1849,7 +1846,7 @@ body::before {
 .contact-card-portrait {
   width: min(132px, 36vw);
   aspect-ratio: 1;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 8px;
   box-shadow: 0 14px 34px rgba(37, 35, 33, 0.1);
 }
@@ -2295,8 +2292,7 @@ body.page-consultation .public-secondary-bar:not(.public-secondary-none) {
   left: auto;
   width: 74px;
   height: 74px;
-  background: url("../../../assets/generated/concept-29/logos/sofiati-concept-29-logo-watermark.svg") center/contain
-    no-repeat;
+  background: none center/contain no-repeat;
   opacity: 0.145;
   pointer-events: none;
 }
@@ -2359,8 +2355,7 @@ body.page-consultation .public-secondary-bar:not(.public-secondary-none) {
   color: white;
   background:
     linear-gradient(135deg, rgba(37, 35, 33, 0.74), rgba(52, 64, 57, 0.64)),
-    url("../../../assets/generated/concept-29/navigation/sofiati-concept-29-mobile-menu-background.svg") right bottom/360px
-      360px no-repeat,
+    none right bottom/360px 360px no-repeat,
     var(--deep-sage);
   transform: translate3d(0, -104%, 0);
   opacity: 0;
@@ -2488,7 +2483,7 @@ body.page-consultation .public-secondary-bar:not(.public-secondary-none) {
   transform: translate3d(-104%, 0, 0);
   background:
     linear-gradient(90deg, rgba(37, 35, 33, 0.86), rgba(52, 64, 57, 0.72)),
-    url("../../../assets/generated/concept-29/brand-backgrounds/sofiati-concept-29-brand-mark-textured-background.svg") center/260px 260px,
+    none center/260px 260px,
     var(--ink);
 }
 .public-menu-layout-botanical-fade,
@@ -2704,8 +2699,7 @@ body.public-menu-locked {
   bottom: clamp(12px, 3vw, 34px);
   width: min(400px, 42vw);
   aspect-ratio: 1;
-  background: url("../../../assets/generated/concept-29/footer/sofiati-concept-29-footer-watermark-version.svg")
-    center/contain no-repeat;
+  background: none center/contain no-repeat;
   opacity: 0.123;
   transform: rotate(3deg);
   animation: footer-signature-breathe-29 13s ease-in-out infinite;
@@ -2810,7 +2804,7 @@ body.public-menu-locked {
 .public-footer-29 .footer-signature-mark img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .public-footer-29 h3 {
   margin: 0 0 6px;
@@ -3874,7 +3868,7 @@ body.public-menu-locked {
 .storytelling-gate-visual img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   mix-blend-mode: multiply;
   opacity: 0.9;
 }
@@ -4625,7 +4619,7 @@ select {
 .doctor-portrait {
   display: block;
   max-width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: var(--photo-position, 50% 34%);
   filter: saturate(1.02) contrast(1.02);
 }
@@ -4672,7 +4666,7 @@ select {
 .storytelling-gate-visual img.doctor-portrait--story {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: var(--photo-position, 50% 34%);
   opacity: 1;
   mix-blend-mode: normal;
@@ -4976,7 +4970,7 @@ body.page-sitemap .hero-visual.photo-frame--hero {
 .photo-frame img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .sage-section {
   background: linear-gradient(
@@ -5115,7 +5109,7 @@ body.page-sitemap .hero-visual.photo-frame--hero {
   width: 45%;
   aspect-ratio: 1;
   border-radius: 999px;
-  object-fit: cover;
+  object-fit: contain;
   border: 8px solid rgba(255, 255, 255, 0.72);
 }
 .pilot-final-cta {
@@ -5403,7 +5397,7 @@ body.page-sitemap .hero-visual.photo-frame--hero {
 .hero-frame img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center top;
 }
 .hero-cutout-card {
@@ -5480,7 +5474,7 @@ body.page-sitemap .hero-visual.photo-frame--hero {
 .story-photo > img:not(.photo-cutout) {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center top;
 }
 .story-photo .photo-cutout--accent {
@@ -5652,7 +5646,7 @@ body.page-sitemap .hero-visual.photo-frame--hero {
 
 /* Generated asset bridge for 29-solace. */
 .public-footer-29 {
-  background-image: url("../../../assets/generated/concept-29/footer/sofiati-concept-29-footer-background.svg");
+  background-image: none;
   background-size: cover;
   background-position: center;
 }
@@ -5660,7 +5654,7 @@ body.page-sitemap .hero-visual.photo-frame--hero {
   position: absolute;
   inset: auto 5% 10% auto;
   width: min(260px, 34vw);
-  opacity: .16;
+  opacity: 0.16;
   pointer-events: none;
 }
 .public-header-29 .public-brand-mark img,

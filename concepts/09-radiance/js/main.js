@@ -13,12 +13,11 @@
     return match ? match[1] : "01";
   };
 
-  const makeImage = (src, alt) => {
-    const image = document.createElement("img");
-    image.src = src;
-    image.alt = alt;
-    image.setAttribute("aria-hidden", "true");
-    return image;
+  const makeWidgetIcon = (type) => {
+    const icon = document.createElement("span");
+    icon.className = `sofiati-widget-icon sofiati-widget-icon--${type}`;
+    icon.setAttribute("aria-hidden", "true");
+    return icon;
   };
 
   const createWhatsApp = () => {
@@ -28,7 +27,7 @@
     link.target = "_blank";
     link.rel = "noopener";
     link.setAttribute("aria-label", WHATSAPP_LABEL);
-    link.appendChild(makeImage("../../assets/generated/concept-09/icons/sofiati-concept-09-whatsapp-cta-icon.svg", ""));
+    link.appendChild(makeWidgetIcon("whatsapp"));
 
     const label = document.createElement("b");
     label.textContent = WHATSAPP_TEXT;
@@ -45,7 +44,7 @@
     button.setAttribute("aria-label", TOP_LABEL);
     button.setAttribute("aria-hidden", "true");
     button.tabIndex = -1;
-    button.appendChild(makeImage("../../assets/generated/concept-09/icons/sofiati-concept-09-back-to-top-icon.svg", ""));
+    button.appendChild(makeWidgetIcon("top"));
     return button;
   };
 

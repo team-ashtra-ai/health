@@ -1,0 +1,18 @@
+/*
+SOFIATI VISUAL RESCUE LEGACY COMPATIBILITY
+This older layer now delegates to the governed full-image premium system.
+It intentionally contains no image cropping rules.
+*/
+@import url("./sofiati-full-image-premium-system.css");
+
+.sofiati-photo,
+.sofiati-portrait,
+.sofiati-hero-photo,
+.sofiati-brand-photo,
+img[data-sofiati-photo="true"] {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
