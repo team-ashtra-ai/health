@@ -25,12 +25,20 @@ python3 scripts/generate_concepts.py
 python3 scripts/translate_pages.py
 python3 scripts/audit_static_site.py
 python3 scripts/capture_homepage_screenshots.py
+python3 scripts/capture_homepage_full_screenshots.py
+python3 scripts/capture_concept_focus_screenshots.py
+python3 scripts/git_add_commit_push.py
+python3 scripts/git_empty_commit.py
 ```
 
 - `generate_concepts.py` rebuilds the 50 standalone concepts.
 - `translate_pages.py` creates a non-destructive English-source translation inventory.
 - `audit_static_site.py` checks standalone structure, local links, ethical copy, service coverage, disclaimers, uniqueness markers, screenshots and tracked video files.
 - `capture_homepage_screenshots.py` captures desktop and mobile homepages into `final/homepage-screenshots/`.
+- `capture_homepage_full_screenshots.py` captures full-page homepage screenshots for all 50 concepts.
+- `capture_concept_focus_screenshots.py` captures full-page and focused header/footer/hero/widget screenshots for all 50 concepts.
+- `git_add_commit_push.py` stages all changes, commits them with a timestamped message, and pushes to the current remote.
+- `git_empty_commit.py` creates and pushes an empty timestamped commit.
 
 ## Rules
 
