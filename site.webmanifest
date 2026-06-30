@@ -10,6 +10,16 @@
       "src": "/assets/brand/sofiati-favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml"
+    },
+    {
+      "src": "/assets/brand/sofiati-logo-primary-transparent.png",
+      "sizes": "1254x1254",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/brand/sofiati-logo-monogram-transparent.png",
+      "sizes": "1254x1254",
+      "type": "image/png"
     }
   ]
 }

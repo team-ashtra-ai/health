@@ -1,82 +1,17 @@
-
 (() => {
   "use strict";
 
   const profile = {
-  "conceptId": "32-serene",
-  "partialNames": [
-    "header",
-    "mobile-menu",
-    "footer",
-    "cookie-banner",
-    "floating-widgets"
-  ],
-  "menuMode": "salon-overlay",
-  "headerMode": "botanical-stem-header",
-  "interactionTone": "gold-mark",
-  "destinationWords": [
-    "calm",
-    "refined",
-    "site",
-    "with",
-    "slow",
-    "rhythm",
-    "understated",
-    "visuals",
-    "soft",
-    "sage",
-    "cream",
-    "blush",
-    "gentle",
-    "gradients",
-    "minimal",
-    "dark",
-    "ctas",
-    "hero",
-    "trust",
-    "route",
-    "ivory",
-    "consultation",
-    "reassurance",
-    "band",
-    "education",
-    "flow",
-    "results",
-    "note",
-    "journal",
-    "footer"
-  ],
-  "sectionRhythm": [
-    "sage",
-    "cream",
-    "blush",
-    "ivory",
-    "sage",
-    "cream",
-    "blush",
-    "ivory",
-    "sage",
-    "sage"
-  ]
-};
+    conceptId: "32-serene",
+    partialNames: ["header", "mobile-menu", "footer", "cookie-banner", "floating-widgets"],
+  };
   const cache = new Map();
   let lastMenuTrigger = null;
-
-  const applyDestinationSignature = () => {
-    document.body.dataset.destinationSignature = profile.destinationWords.slice(0, 8).join("-");
-    document.querySelectorAll("[data-content-section]").forEach((section, index) => {
-      const word = profile.destinationWords[(index * 3) % profile.destinationWords.length] || profile.conceptId;
-      const rhythm = profile.sectionRhythm[index % profile.sectionRhythm.length] || "ivory";
-      section.style.setProperty("--concept-word-length", String(word.length));
-      section.dataset.destinationWord = word;
-      section.dataset.rhythmTone = rhythm;
-    });
-  };
 
   const fetchPartial = async (name) => {
     if (!cache.has(name)) {
       cache.set(name, fetch(`partials/${name}.html`, { cache: "no-store" }).then((response) => {
-        if (!response.ok) throw new Error(`Missing partial ${name} for 32-serene`);
+        if (!response.ok) throw new Error(`Missing partial ${name} for ${profile.conceptId}`);
         return response.text();
       }));
     }
@@ -99,9 +34,13 @@
     const panel = menu();
     if (!panel) return;
     lastMenuTrigger = trigger || document.activeElement;
+    panel.classList.add("is-open");
     panel.setAttribute("aria-hidden", "false");
     document.body.classList.add("public-menu-locked");
-    document.querySelectorAll("[data-menu-toggle]").forEach((button) => button.setAttribute("aria-expanded", "true"));
+    document.querySelectorAll("[data-menu-toggle]").forEach((button) => {
+      button.setAttribute("aria-expanded", "true");
+      button.setAttribute("aria-controls", "mobile-menu");
+    });
     const first = panel.querySelector("a[href], button:not([disabled])");
     if (first) first.focus({ preventScroll: true });
   };
@@ -109,9 +48,13 @@
   const closeMenu = () => {
     const panel = menu();
     if (!panel) return;
+    panel.classList.remove("is-open");
     panel.setAttribute("aria-hidden", "true");
     document.body.classList.remove("public-menu-locked");
-    document.querySelectorAll("[data-menu-toggle]").forEach((button) => button.setAttribute("aria-expanded", "false"));
+    document.querySelectorAll("[data-menu-toggle]").forEach((button) => {
+      button.setAttribute("aria-expanded", "false");
+      button.setAttribute("aria-controls", "mobile-menu");
+    });
     if (lastMenuTrigger && typeof lastMenuTrigger.focus === "function") {
       lastMenuTrigger.focus({ preventScroll: true });
     }
@@ -149,18 +92,56 @@
     });
   };
 
-  const wireHeaderState = () => {
-    const header = document.querySelector(".c32-header");
-    if (!header) return;
-    const update = () => header.toggleAttribute("data-scrolled", window.scrollY > 20);
-    update();
+  const setLanguage = (value) => {
+    const lang = value === "pt" || value === "pt-BR" ? "pt-BR" : "en";
+    const short = lang === "pt-BR" ? "pt" : "en";
+    document.documentElement.lang = lang;
+    document.documentElement.dataset.activeLang = short;
+    document.querySelectorAll("[data-lang-switch]").forEach((button) => {
+      const active = (button.dataset.langSwitch || "en").toLowerCase().startsWith(short);
+      button.setAttribute("aria-pressed", active ? "true" : "false");
+      button.dataset.active = active ? "true" : "false";
+    });
+  };
+
+  const wireLanguage = () => {
+    document.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-lang-switch]");
+      if (!button) return;
+      event.preventDefault();
+      setLanguage(button.dataset.langSwitch);
+    });
+    setLanguage(document.documentElement.lang || "en");
+  };
+
+  const wireFloatingTools = () => {
+    const buttons = document.querySelectorAll("[data-back-to-top]");
+    const update = () => {
+      const visible = window.scrollY > Math.min(520, Math.max(220, window.innerHeight * 0.42));
+      buttons.forEach((button) => {
+        button.classList.toggle("is-visible", visible);
+        button.setAttribute("aria-hidden", visible ? "false" : "true");
+        button.tabIndex = visible ? 0 : -1;
+      });
+    };
+    buttons.forEach((button) => {
+      if (button.dataset.sofiatiTopReady === "true") return;
+      button.dataset.sofiatiTopReady = "true";
+      button.addEventListener("click", () => {
+        const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        window.scrollTo({ top: 0, behavior: reduced ? "auto" : "smooth" });
+      });
+    });
     window.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+    update();
   };
 
   const markCurrentLinks = () => {
     const current = location.pathname.split("/").pop() || "index.html";
-    document.querySelectorAll('a[href$=".html"]').forEach((link) => {
+    document.querySelectorAll("a[href$='.html']").forEach((link) => {
       const href = link.getAttribute("href") || "";
+      link.removeAttribute("aria-current");
       if (href === current) link.setAttribute("aria-current", "page");
     });
   };
@@ -169,9 +150,10 @@
     await mountPartials();
     wireMenu();
     wireCookie();
-    wireHeaderState();
+    wireLanguage();
+    wireFloatingTools();
     markCurrentLinks();
-    applyDestinationSignature();
+    document.body.dataset.partialsReady = "true";
   };
 
   if (document.readyState === "loading") {
