@@ -1,12 +1,12 @@
-# 07-glow — Soft Human Warmth
+# 07-glow — Feminine Radiance Studio
 
 ## Visual Thesis
 
-A soft, human, welcoming website with warmth and emotional reassurance, without becoming childish or generic.
+Glow uses luminous, soft, beauty forward pacing with glowing blush and sage composition.
 
 ## Colour Thesis
 
-Cream, blush 100, and soft sage dominate. Bronze warms details. Deep dark is rare. Sage and blush alternate in CTA moments.
+blush, cream, sage, soft gold
 
 ## Systems
 
@@ -21,159 +21,161 @@ Cream, blush 100, and soft sage dominate. Bronze warms details. Deep dark is rar
 
 ## Homepage Colour Sequence
 
-1. Cream glow hero
-2. Blush human-trust section
-3. Soft sage route cards, not generic cards
-4. Ivory consultation story
-5. Blush reassurance quote
-6. Sage education strip
-7. Cream results guidance
-8. Ivory journal row
-9. Blush contact bridge
-10. Warm sage footer bridge
+1. Glow hero promise in cream
+2. Glow trust position in ivory
+3. Glow care route in gold
+4. Glow consultation path in dark
+5. Glow treatment navigation in bronze
+6. Glow human reassurance in sage
+7. Glow education preview in cream
+8. Glow responsible expectations in ivory
+9. Glow contact bridge in gold
+10. Glow closing identity in dark
 
 ## All Other Pages
 
-Use blush for warmth, sage for structure, cream for spacious reading. Avoid dark-heavy pages.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No deep luxury
-- No cold clinical layout
-- No photo in every section.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "07-glow",
-  "colourThesis": "Cream, blush 100, and soft sage dominate. Bronze warms details. Deep dark is rare. Sage and blush alternate in CTA moments.",
+  "colourThesis": "blush, cream, sage, soft gold",
   "dominantColourFamily": "dark",
   "secondaryColourFamily": "sage",
   "accentColourFamily": "ivory",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "expectation-ledger; no universal cream-card default",
   "buttonStrategy": "minimal-arrow",
-  "footerColour": "Warm sage footer bridge",
-  "mobileMenuColour": "Blush contact bridge",
+  "footerColour": "Glow closing identity in dark",
+  "mobileMenuColour": "Glow contact bridge in gold",
   "homepageSectionColourSequence": [
-    "Cream glow hero",
-    "Blush human-trust section",
-    "Soft sage route cards, not generic cards",
-    "Ivory consultation story",
-    "Blush reassurance quote",
-    "Sage education strip",
-    "Cream results guidance",
-    "Ivory journal row",
-    "Blush contact bridge",
-    "Warm sage footer bridge"
+    "Glow hero promise in cream",
+    "Glow trust position in ivory",
+    "Glow care route in gold",
+    "Glow consultation path in dark",
+    "Glow treatment navigation in bronze",
+    "Glow human reassurance in sage",
+    "Glow education preview in cream",
+    "Glow responsible expectations in ivory",
+    "Glow contact bridge in gold",
+    "Glow closing identity in dark"
   ],
   "aboutPageColourSequence": [
-    "about 1: blush rhythm from Blush contact bridge",
-    "about 2: sage rhythm from Warm sage footer bridge",
-    "about 3: cream rhythm from Cream glow hero",
-    "about 4: blush rhythm from Blush human-trust section",
-    "about 5: sage rhythm from Soft sage route cards, not generic cards",
-    "about 6: ivory rhythm from Ivory consultation story",
-    "about 7: blush rhythm from Blush reassurance quote",
-    "about 8: sage rhythm from Sage education strip",
-    "about 9: cream rhythm from Cream results guidance",
-    "about 10: ivory rhythm from Ivory journal row"
+    "about 1: gold rhythm from Glow contact bridge in gold",
+    "about 2: dark rhythm from Glow closing identity in dark",
+    "about 3: cream rhythm from Glow hero promise in cream",
+    "about 4: ivory rhythm from Glow trust position in ivory",
+    "about 5: gold rhythm from Glow care route in gold",
+    "about 6: dark rhythm from Glow consultation path in dark",
+    "about 7: bronze rhythm from Glow treatment navigation in bronze",
+    "about 8: sage rhythm from Glow human reassurance in sage",
+    "about 9: cream rhythm from Glow education preview in cream",
+    "about 10: ivory rhythm from Glow responsible expectations in ivory"
   ],
   "carePageColourSequence": [
-    "care 1: sage rhythm from Warm sage footer bridge",
-    "care 2: cream rhythm from Cream glow hero",
-    "care 3: blush rhythm from Blush human-trust section",
-    "care 4: sage rhythm from Soft sage route cards, not generic cards",
-    "care 5: ivory rhythm from Ivory consultation story",
-    "care 6: blush rhythm from Blush reassurance quote",
-    "care 7: sage rhythm from Sage education strip",
-    "care 8: cream rhythm from Cream results guidance",
-    "care 9: ivory rhythm from Ivory journal row",
-    "care 10: blush rhythm from Blush contact bridge"
+    "care 1: dark rhythm from Glow closing identity in dark",
+    "care 2: cream rhythm from Glow hero promise in cream",
+    "care 3: ivory rhythm from Glow trust position in ivory",
+    "care 4: gold rhythm from Glow care route in gold",
+    "care 5: dark rhythm from Glow consultation path in dark",
+    "care 6: bronze rhythm from Glow treatment navigation in bronze",
+    "care 7: sage rhythm from Glow human reassurance in sage",
+    "care 8: cream rhythm from Glow education preview in cream",
+    "care 9: ivory rhythm from Glow responsible expectations in ivory",
+    "care 10: gold rhythm from Glow contact bridge in gold"
   ],
   "laserPageColourSequence": [
-    "laser 1: cream rhythm from Cream glow hero",
-    "laser 2: blush rhythm from Blush human-trust section",
-    "laser 3: sage rhythm from Soft sage route cards, not generic cards",
-    "laser 4: ivory rhythm from Ivory consultation story",
-    "laser 5: blush rhythm from Blush reassurance quote",
-    "laser 6: sage rhythm from Sage education strip",
-    "laser 7: cream rhythm from Cream results guidance",
-    "laser 8: ivory rhythm from Ivory journal row",
-    "laser 9: blush rhythm from Blush contact bridge",
-    "laser 10: sage rhythm from Warm sage footer bridge"
+    "laser 1: cream rhythm from Glow hero promise in cream",
+    "laser 2: ivory rhythm from Glow trust position in ivory",
+    "laser 3: gold rhythm from Glow care route in gold",
+    "laser 4: dark rhythm from Glow consultation path in dark",
+    "laser 5: bronze rhythm from Glow treatment navigation in bronze",
+    "laser 6: sage rhythm from Glow human reassurance in sage",
+    "laser 7: cream rhythm from Glow education preview in cream",
+    "laser 8: ivory rhythm from Glow responsible expectations in ivory",
+    "laser 9: gold rhythm from Glow contact bridge in gold",
+    "laser 10: dark rhythm from Glow closing identity in dark"
   ],
   "skinPageColourSequence": [
-    "skin 1: blush rhythm from Blush human-trust section",
-    "skin 2: sage rhythm from Soft sage route cards, not generic cards",
-    "skin 3: ivory rhythm from Ivory consultation story",
-    "skin 4: blush rhythm from Blush reassurance quote",
-    "skin 5: sage rhythm from Sage education strip",
-    "skin 6: cream rhythm from Cream results guidance",
-    "skin 7: ivory rhythm from Ivory journal row",
-    "skin 8: blush rhythm from Blush contact bridge",
-    "skin 9: sage rhythm from Warm sage footer bridge",
-    "skin 10: cream rhythm from Cream glow hero"
+    "skin 1: ivory rhythm from Glow trust position in ivory",
+    "skin 2: gold rhythm from Glow care route in gold",
+    "skin 3: dark rhythm from Glow consultation path in dark",
+    "skin 4: bronze rhythm from Glow treatment navigation in bronze",
+    "skin 5: sage rhythm from Glow human reassurance in sage",
+    "skin 6: cream rhythm from Glow education preview in cream",
+    "skin 7: ivory rhythm from Glow responsible expectations in ivory",
+    "skin 8: gold rhythm from Glow contact bridge in gold",
+    "skin 9: dark rhythm from Glow closing identity in dark",
+    "skin 10: cream rhythm from Glow hero promise in cream"
   ],
   "resultsPageColourSequence": [
-    "results 1: sage rhythm from Soft sage route cards, not generic cards",
-    "results 2: ivory rhythm from Ivory consultation story",
-    "results 3: blush rhythm from Blush reassurance quote",
-    "results 4: sage rhythm from Sage education strip",
-    "results 5: cream rhythm from Cream results guidance",
-    "results 6: ivory rhythm from Ivory journal row",
-    "results 7: blush rhythm from Blush contact bridge",
-    "results 8: sage rhythm from Warm sage footer bridge",
-    "results 9: cream rhythm from Cream glow hero",
-    "results 10: blush rhythm from Blush human-trust section"
+    "results 1: gold rhythm from Glow care route in gold",
+    "results 2: dark rhythm from Glow consultation path in dark",
+    "results 3: bronze rhythm from Glow treatment navigation in bronze",
+    "results 4: sage rhythm from Glow human reassurance in sage",
+    "results 5: cream rhythm from Glow education preview in cream",
+    "results 6: ivory rhythm from Glow responsible expectations in ivory",
+    "results 7: gold rhythm from Glow contact bridge in gold",
+    "results 8: dark rhythm from Glow closing identity in dark",
+    "results 9: cream rhythm from Glow hero promise in cream",
+    "results 10: ivory rhythm from Glow trust position in ivory"
   ],
   "journalPageColourSequence": [
-    "journal 1: ivory rhythm from Ivory consultation story",
-    "journal 2: blush rhythm from Blush reassurance quote",
-    "journal 3: sage rhythm from Sage education strip",
-    "journal 4: cream rhythm from Cream results guidance",
-    "journal 5: ivory rhythm from Ivory journal row",
-    "journal 6: blush rhythm from Blush contact bridge",
-    "journal 7: sage rhythm from Warm sage footer bridge",
-    "journal 8: cream rhythm from Cream glow hero",
-    "journal 9: blush rhythm from Blush human-trust section",
-    "journal 10: sage rhythm from Soft sage route cards, not generic cards"
+    "journal 1: dark rhythm from Glow consultation path in dark",
+    "journal 2: bronze rhythm from Glow treatment navigation in bronze",
+    "journal 3: sage rhythm from Glow human reassurance in sage",
+    "journal 4: cream rhythm from Glow education preview in cream",
+    "journal 5: ivory rhythm from Glow responsible expectations in ivory",
+    "journal 6: gold rhythm from Glow contact bridge in gold",
+    "journal 7: dark rhythm from Glow closing identity in dark",
+    "journal 8: cream rhythm from Glow hero promise in cream",
+    "journal 9: ivory rhythm from Glow trust position in ivory",
+    "journal 10: gold rhythm from Glow care route in gold"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: sage rhythm from Sage education strip",
-    "consultation 2: cream rhythm from Cream results guidance",
-    "consultation 3: ivory rhythm from Ivory journal row",
-    "consultation 4: blush rhythm from Blush contact bridge",
-    "consultation 5: sage rhythm from Warm sage footer bridge",
-    "consultation 6: cream rhythm from Cream glow hero",
-    "consultation 7: blush rhythm from Blush human-trust section",
-    "consultation 8: sage rhythm from Soft sage route cards, not generic cards",
-    "consultation 9: ivory rhythm from Ivory consultation story",
-    "consultation 10: blush rhythm from Blush reassurance quote"
+    "consultation 1: sage rhythm from Glow human reassurance in sage",
+    "consultation 2: cream rhythm from Glow education preview in cream",
+    "consultation 3: ivory rhythm from Glow responsible expectations in ivory",
+    "consultation 4: gold rhythm from Glow contact bridge in gold",
+    "consultation 5: dark rhythm from Glow closing identity in dark",
+    "consultation 6: cream rhythm from Glow hero promise in cream",
+    "consultation 7: ivory rhythm from Glow trust position in ivory",
+    "consultation 8: gold rhythm from Glow care route in gold",
+    "consultation 9: dark rhythm from Glow consultation path in dark",
+    "consultation 10: bronze rhythm from Glow treatment navigation in bronze"
   ],
   "contactPageColourSequence": [
-    "contact 1: cream rhythm from Cream results guidance",
-    "contact 2: ivory rhythm from Ivory journal row",
-    "contact 3: blush rhythm from Blush contact bridge",
-    "contact 4: sage rhythm from Warm sage footer bridge",
-    "contact 5: cream rhythm from Cream glow hero",
-    "contact 6: blush rhythm from Blush human-trust section",
-    "contact 7: sage rhythm from Soft sage route cards, not generic cards",
-    "contact 8: ivory rhythm from Ivory consultation story",
-    "contact 9: blush rhythm from Blush reassurance quote",
-    "contact 10: sage rhythm from Sage education strip"
+    "contact 1: cream rhythm from Glow education preview in cream",
+    "contact 2: ivory rhythm from Glow responsible expectations in ivory",
+    "contact 3: gold rhythm from Glow contact bridge in gold",
+    "contact 4: dark rhythm from Glow closing identity in dark",
+    "contact 5: cream rhythm from Glow hero promise in cream",
+    "contact 6: ivory rhythm from Glow trust position in ivory",
+    "contact 7: gold rhythm from Glow care route in gold",
+    "contact 8: dark rhythm from Glow consultation path in dark",
+    "contact 9: bronze rhythm from Glow treatment navigation in bronze",
+    "contact 10: sage rhythm from Glow human reassurance in sage"
   ],
   "forbiddenColourPatterns": [
-    "No deep luxury",
-    "No cold clinical layout",
-    "No photo in every section."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

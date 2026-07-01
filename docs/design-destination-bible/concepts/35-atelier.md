@@ -1,12 +1,12 @@
-# 35-atelier — Crafted Studio
+# 35-atelier — Noble Luxury Clinic
 
 ## Visual Thesis
 
-A bespoke atelier site with crafted linework, curated frames, and artistic section composition.
+Nobile uses formal, luxurious, high end pacing with grand editorial dark light contrast.
 
 ## Colour Thesis
 
-Ivory paper base. Bronze linework. Sage studio panels. Blush handcrafted detail. Dark signature strip.
+ivory, ink, bronze, deep green
 
 ## Systems
 
@@ -21,159 +21,161 @@ Ivory paper base. Bronze linework. Sage studio panels. Blush handcrafted detail.
 
 ## Homepage Colour Sequence
 
-1. Ivory atelier hero
-2. Bronze-line trust
-3. Sage curated route
-4. Cream consultation studio
-5. Blush craft note
-6. Ivory education sketches
-7. Sage results frame
-8. Cream journal atelier row
-9. Bronze signature CTA
-10. Dark atelier footer
+1. Nobile hero promise in cream
+2. Nobile trust position in ink
+3. Nobile care route in dark
+4. Nobile consultation path in ivory
+5. Nobile treatment navigation in bronze
+6. Nobile human reassurance in sage
+7. Nobile education preview in cream
+8. Nobile responsible expectations in ink
+9. Nobile contact bridge in dark
+10. Nobile closing identity in ivory
 
 ## All Other Pages
 
-Use crafted frames, linework, and curated negative space.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No generic wellness cards
-- No clinical grid
-- No random gradients.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "35-atelier",
-  "colourThesis": "Ivory paper base. Bronze linework. Sage studio panels. Blush handcrafted detail. Dark signature strip.",
-  "dominantColourFamily": "dark",
-  "secondaryColourFamily": "sage",
-  "accentColourFamily": "ivory",
+  "colourThesis": "ivory, ink, bronze, deep green",
+  "dominantColourFamily": "ink",
+  "secondaryColourFamily": "dark",
+  "accentColourFamily": "sage",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "technical-table; no universal cream-card default",
   "buttonStrategy": "ledger-button",
-  "footerColour": "Dark atelier footer",
-  "mobileMenuColour": "Sage results frame",
+  "footerColour": "Nobile closing identity in ivory",
+  "mobileMenuColour": "Nobile education preview in cream",
   "homepageSectionColourSequence": [
-    "Ivory atelier hero",
-    "Bronze-line trust",
-    "Sage curated route",
-    "Cream consultation studio",
-    "Blush craft note",
-    "Ivory education sketches",
-    "Sage results frame",
-    "Cream journal atelier row",
-    "Bronze signature CTA",
-    "Dark atelier footer"
+    "Nobile hero promise in cream",
+    "Nobile trust position in ink",
+    "Nobile care route in dark",
+    "Nobile consultation path in ivory",
+    "Nobile treatment navigation in bronze",
+    "Nobile human reassurance in sage",
+    "Nobile education preview in cream",
+    "Nobile responsible expectations in ink",
+    "Nobile contact bridge in dark",
+    "Nobile closing identity in ivory"
   ],
   "aboutPageColourSequence": [
-    "about 1: sage rhythm from Sage results frame",
-    "about 2: cream rhythm from Cream journal atelier row",
-    "about 3: bronze rhythm from Bronze signature CTA",
-    "about 4: dark rhythm from Dark atelier footer",
-    "about 5: ivory rhythm from Ivory atelier hero",
-    "about 6: bronze rhythm from Bronze-line trust",
-    "about 7: sage rhythm from Sage curated route",
-    "about 8: cream rhythm from Cream consultation studio",
-    "about 9: blush rhythm from Blush craft note",
-    "about 10: ivory rhythm from Ivory education sketches"
+    "about 1: cream rhythm from Nobile education preview in cream",
+    "about 2: ivory rhythm from Nobile responsible expectations in ink",
+    "about 3: dark rhythm from Nobile contact bridge in dark",
+    "about 4: ivory rhythm from Nobile closing identity in ivory",
+    "about 5: cream rhythm from Nobile hero promise in cream",
+    "about 6: ivory rhythm from Nobile trust position in ink",
+    "about 7: dark rhythm from Nobile care route in dark",
+    "about 8: ivory rhythm from Nobile consultation path in ivory",
+    "about 9: bronze rhythm from Nobile treatment navigation in bronze",
+    "about 10: sage rhythm from Nobile human reassurance in sage"
   ],
   "carePageColourSequence": [
-    "care 1: cream rhythm from Cream journal atelier row",
-    "care 2: bronze rhythm from Bronze signature CTA",
-    "care 3: dark rhythm from Dark atelier footer",
-    "care 4: ivory rhythm from Ivory atelier hero",
-    "care 5: bronze rhythm from Bronze-line trust",
-    "care 6: sage rhythm from Sage curated route",
-    "care 7: cream rhythm from Cream consultation studio",
-    "care 8: blush rhythm from Blush craft note",
-    "care 9: ivory rhythm from Ivory education sketches",
-    "care 10: sage rhythm from Sage results frame"
+    "care 1: ivory rhythm from Nobile responsible expectations in ink",
+    "care 2: dark rhythm from Nobile contact bridge in dark",
+    "care 3: ivory rhythm from Nobile closing identity in ivory",
+    "care 4: cream rhythm from Nobile hero promise in cream",
+    "care 5: ivory rhythm from Nobile trust position in ink",
+    "care 6: dark rhythm from Nobile care route in dark",
+    "care 7: ivory rhythm from Nobile consultation path in ivory",
+    "care 8: bronze rhythm from Nobile treatment navigation in bronze",
+    "care 9: sage rhythm from Nobile human reassurance in sage",
+    "care 10: cream rhythm from Nobile education preview in cream"
   ],
   "laserPageColourSequence": [
-    "laser 1: bronze rhythm from Bronze signature CTA",
-    "laser 2: dark rhythm from Dark atelier footer",
-    "laser 3: ivory rhythm from Ivory atelier hero",
-    "laser 4: bronze rhythm from Bronze-line trust",
-    "laser 5: sage rhythm from Sage curated route",
-    "laser 6: cream rhythm from Cream consultation studio",
-    "laser 7: blush rhythm from Blush craft note",
-    "laser 8: ivory rhythm from Ivory education sketches",
-    "laser 9: sage rhythm from Sage results frame",
-    "laser 10: cream rhythm from Cream journal atelier row"
+    "laser 1: dark rhythm from Nobile contact bridge in dark",
+    "laser 2: ivory rhythm from Nobile closing identity in ivory",
+    "laser 3: cream rhythm from Nobile hero promise in cream",
+    "laser 4: ivory rhythm from Nobile trust position in ink",
+    "laser 5: dark rhythm from Nobile care route in dark",
+    "laser 6: ivory rhythm from Nobile consultation path in ivory",
+    "laser 7: bronze rhythm from Nobile treatment navigation in bronze",
+    "laser 8: sage rhythm from Nobile human reassurance in sage",
+    "laser 9: cream rhythm from Nobile education preview in cream",
+    "laser 10: ivory rhythm from Nobile responsible expectations in ink"
   ],
   "skinPageColourSequence": [
-    "skin 1: dark rhythm from Dark atelier footer",
-    "skin 2: ivory rhythm from Ivory atelier hero",
-    "skin 3: bronze rhythm from Bronze-line trust",
-    "skin 4: sage rhythm from Sage curated route",
-    "skin 5: cream rhythm from Cream consultation studio",
-    "skin 6: blush rhythm from Blush craft note",
-    "skin 7: ivory rhythm from Ivory education sketches",
-    "skin 8: sage rhythm from Sage results frame",
-    "skin 9: cream rhythm from Cream journal atelier row",
-    "skin 10: bronze rhythm from Bronze signature CTA"
+    "skin 1: ivory rhythm from Nobile closing identity in ivory",
+    "skin 2: cream rhythm from Nobile hero promise in cream",
+    "skin 3: ivory rhythm from Nobile trust position in ink",
+    "skin 4: dark rhythm from Nobile care route in dark",
+    "skin 5: ivory rhythm from Nobile consultation path in ivory",
+    "skin 6: bronze rhythm from Nobile treatment navigation in bronze",
+    "skin 7: sage rhythm from Nobile human reassurance in sage",
+    "skin 8: cream rhythm from Nobile education preview in cream",
+    "skin 9: ivory rhythm from Nobile responsible expectations in ink",
+    "skin 10: dark rhythm from Nobile contact bridge in dark"
   ],
   "resultsPageColourSequence": [
-    "results 1: ivory rhythm from Ivory atelier hero",
-    "results 2: bronze rhythm from Bronze-line trust",
-    "results 3: sage rhythm from Sage curated route",
-    "results 4: cream rhythm from Cream consultation studio",
-    "results 5: blush rhythm from Blush craft note",
-    "results 6: ivory rhythm from Ivory education sketches",
-    "results 7: sage rhythm from Sage results frame",
-    "results 8: cream rhythm from Cream journal atelier row",
-    "results 9: bronze rhythm from Bronze signature CTA",
-    "results 10: dark rhythm from Dark atelier footer"
+    "results 1: cream rhythm from Nobile hero promise in cream",
+    "results 2: ivory rhythm from Nobile trust position in ink",
+    "results 3: dark rhythm from Nobile care route in dark",
+    "results 4: ivory rhythm from Nobile consultation path in ivory",
+    "results 5: bronze rhythm from Nobile treatment navigation in bronze",
+    "results 6: sage rhythm from Nobile human reassurance in sage",
+    "results 7: cream rhythm from Nobile education preview in cream",
+    "results 8: ivory rhythm from Nobile responsible expectations in ink",
+    "results 9: dark rhythm from Nobile contact bridge in dark",
+    "results 10: ivory rhythm from Nobile closing identity in ivory"
   ],
   "journalPageColourSequence": [
-    "journal 1: bronze rhythm from Bronze-line trust",
-    "journal 2: sage rhythm from Sage curated route",
-    "journal 3: cream rhythm from Cream consultation studio",
-    "journal 4: blush rhythm from Blush craft note",
-    "journal 5: ivory rhythm from Ivory education sketches",
-    "journal 6: sage rhythm from Sage results frame",
-    "journal 7: cream rhythm from Cream journal atelier row",
-    "journal 8: bronze rhythm from Bronze signature CTA",
-    "journal 9: dark rhythm from Dark atelier footer",
-    "journal 10: ivory rhythm from Ivory atelier hero"
+    "journal 1: ivory rhythm from Nobile trust position in ink",
+    "journal 2: dark rhythm from Nobile care route in dark",
+    "journal 3: ivory rhythm from Nobile consultation path in ivory",
+    "journal 4: bronze rhythm from Nobile treatment navigation in bronze",
+    "journal 5: sage rhythm from Nobile human reassurance in sage",
+    "journal 6: cream rhythm from Nobile education preview in cream",
+    "journal 7: ivory rhythm from Nobile responsible expectations in ink",
+    "journal 8: dark rhythm from Nobile contact bridge in dark",
+    "journal 9: ivory rhythm from Nobile closing identity in ivory",
+    "journal 10: cream rhythm from Nobile hero promise in cream"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: cream rhythm from Cream consultation studio",
-    "consultation 2: blush rhythm from Blush craft note",
-    "consultation 3: ivory rhythm from Ivory education sketches",
-    "consultation 4: sage rhythm from Sage results frame",
-    "consultation 5: cream rhythm from Cream journal atelier row",
-    "consultation 6: bronze rhythm from Bronze signature CTA",
-    "consultation 7: dark rhythm from Dark atelier footer",
-    "consultation 8: ivory rhythm from Ivory atelier hero",
-    "consultation 9: bronze rhythm from Bronze-line trust",
-    "consultation 10: sage rhythm from Sage curated route"
+    "consultation 1: ivory rhythm from Nobile consultation path in ivory",
+    "consultation 2: bronze rhythm from Nobile treatment navigation in bronze",
+    "consultation 3: sage rhythm from Nobile human reassurance in sage",
+    "consultation 4: cream rhythm from Nobile education preview in cream",
+    "consultation 5: ivory rhythm from Nobile responsible expectations in ink",
+    "consultation 6: dark rhythm from Nobile contact bridge in dark",
+    "consultation 7: ivory rhythm from Nobile closing identity in ivory",
+    "consultation 8: cream rhythm from Nobile hero promise in cream",
+    "consultation 9: ivory rhythm from Nobile trust position in ink",
+    "consultation 10: dark rhythm from Nobile care route in dark"
   ],
   "contactPageColourSequence": [
-    "contact 1: blush rhythm from Blush craft note",
-    "contact 2: ivory rhythm from Ivory education sketches",
-    "contact 3: sage rhythm from Sage results frame",
-    "contact 4: cream rhythm from Cream journal atelier row",
-    "contact 5: bronze rhythm from Bronze signature CTA",
-    "contact 6: dark rhythm from Dark atelier footer",
-    "contact 7: ivory rhythm from Ivory atelier hero",
-    "contact 8: bronze rhythm from Bronze-line trust",
-    "contact 9: sage rhythm from Sage curated route",
-    "contact 10: cream rhythm from Cream consultation studio"
+    "contact 1: bronze rhythm from Nobile treatment navigation in bronze",
+    "contact 2: sage rhythm from Nobile human reassurance in sage",
+    "contact 3: cream rhythm from Nobile education preview in cream",
+    "contact 4: ivory rhythm from Nobile responsible expectations in ink",
+    "contact 5: dark rhythm from Nobile contact bridge in dark",
+    "contact 6: ivory rhythm from Nobile closing identity in ivory",
+    "contact 7: cream rhythm from Nobile hero promise in cream",
+    "contact 8: ivory rhythm from Nobile trust position in ink",
+    "contact 9: dark rhythm from Nobile care route in dark",
+    "contact 10: ivory rhythm from Nobile consultation path in ivory"
   ],
   "forbiddenColourPatterns": [
-    "No generic wellness cards",
-    "No clinical grid",
-    "No random gradients."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

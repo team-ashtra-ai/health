@@ -1,12 +1,12 @@
-# 12-vital — Fresh Energy
+# 12-vital — Botanical Clinical Garden
 
 ## Visual Thesis
 
-A fresh, active, premium website with more motion and energy while remaining calm.
+Verda uses botanical, fresh, grounded pacing with garden inspired clinical calm.
 
 ## Colour Thesis
 
-Brighter sage, warm cream, blush accents, and gold CTA highlights. More energetic colour changes than other concepts.
+greens, ivory, olive, sand
 
 ## Systems
 
@@ -21,159 +21,161 @@ Brighter sage, warm cream, blush accents, and gold CTA highlights. More energeti
 
 ## Homepage Colour Sequence
 
-1. Bright sage/cream hero
-2. Ivory active trust strip
-3. Blush route spark
-4. Sage process motion
-5. Cream reassurance panel
-6. Gold-marked education strip
-7. Ivory results cards
-8. Sage journal movement
-9. Blush/gold CTA
-10. Fresh sage footer
+1. Verda hero promise in ivory
+2. Verda trust position in cream
+3. Verda care route in sage
+4. Verda consultation path in gold
+5. Verda treatment navigation in dark
+6. Verda human reassurance in bronze
+7. Verda education preview in ivory
+8. Verda responsible expectations in cream
+9. Verda contact bridge in sage
+10. Verda closing identity in gold
 
 ## All Other Pages
 
-Use directional markers, horizontal sections, and brighter contrasts.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No muted all-cream design
-- No heavy dark luxury
-- No static card wall.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "12-vital",
-  "colourThesis": "Brighter sage, warm cream, blush accents, and gold CTA highlights. More energetic colour changes than other concepts.",
-  "dominantColourFamily": "sage",
-  "secondaryColourFamily": "ivory",
-  "accentColourFamily": "cream",
-  "contrastTemperature": "soft refined",
-  "darkUsage": "reserved for footer, text, or one anchor band",
-  "blushUsage": "purposeful warmth and guidance notes",
-  "sageUsage": "primary architecture",
+  "colourThesis": "greens, ivory, olive, sand",
+  "dominantColourFamily": "dark",
+  "secondaryColourFamily": "sage",
+  "accentColourFamily": "ivory",
+  "contrastTemperature": "high editorial",
+  "darkUsage": "dominant structural field",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
+  "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "expectation-ledger; no universal cream-card default",
   "buttonStrategy": "gold-mark",
-  "footerColour": "Fresh sage footer",
-  "mobileMenuColour": "Sage process motion",
+  "footerColour": "Verda closing identity in gold",
+  "mobileMenuColour": "Verda consultation path in gold",
   "homepageSectionColourSequence": [
-    "Bright sage/cream hero",
-    "Ivory active trust strip",
-    "Blush route spark",
-    "Sage process motion",
-    "Cream reassurance panel",
-    "Gold-marked education strip",
-    "Ivory results cards",
-    "Sage journal movement",
-    "Blush/gold CTA",
-    "Fresh sage footer"
+    "Verda hero promise in ivory",
+    "Verda trust position in cream",
+    "Verda care route in sage",
+    "Verda consultation path in gold",
+    "Verda treatment navigation in dark",
+    "Verda human reassurance in bronze",
+    "Verda education preview in ivory",
+    "Verda responsible expectations in cream",
+    "Verda contact bridge in sage",
+    "Verda closing identity in gold"
   ],
   "aboutPageColourSequence": [
-    "about 1: sage rhythm from Sage process motion",
-    "about 2: cream rhythm from Cream reassurance panel",
-    "about 3: gold rhythm from Gold-marked education strip",
-    "about 4: ivory rhythm from Ivory results cards",
-    "about 5: sage rhythm from Sage journal movement",
-    "about 6: blush rhythm from Blush/gold CTA",
-    "about 7: sage rhythm from Fresh sage footer",
-    "about 8: sage rhythm from Bright sage/cream hero",
-    "about 9: ivory rhythm from Ivory active trust strip",
-    "about 10: blush rhythm from Blush route spark"
+    "about 1: gold rhythm from Verda consultation path in gold",
+    "about 2: dark rhythm from Verda treatment navigation in dark",
+    "about 3: bronze rhythm from Verda human reassurance in bronze",
+    "about 4: ivory rhythm from Verda education preview in ivory",
+    "about 5: cream rhythm from Verda responsible expectations in cream",
+    "about 6: sage rhythm from Verda contact bridge in sage",
+    "about 7: gold rhythm from Verda closing identity in gold",
+    "about 8: ivory rhythm from Verda hero promise in ivory",
+    "about 9: cream rhythm from Verda trust position in cream",
+    "about 10: sage rhythm from Verda care route in sage"
   ],
   "carePageColourSequence": [
-    "care 1: cream rhythm from Cream reassurance panel",
-    "care 2: gold rhythm from Gold-marked education strip",
-    "care 3: ivory rhythm from Ivory results cards",
-    "care 4: sage rhythm from Sage journal movement",
-    "care 5: blush rhythm from Blush/gold CTA",
-    "care 6: sage rhythm from Fresh sage footer",
-    "care 7: sage rhythm from Bright sage/cream hero",
-    "care 8: ivory rhythm from Ivory active trust strip",
-    "care 9: blush rhythm from Blush route spark",
-    "care 10: sage rhythm from Sage process motion"
+    "care 1: dark rhythm from Verda treatment navigation in dark",
+    "care 2: bronze rhythm from Verda human reassurance in bronze",
+    "care 3: ivory rhythm from Verda education preview in ivory",
+    "care 4: cream rhythm from Verda responsible expectations in cream",
+    "care 5: sage rhythm from Verda contact bridge in sage",
+    "care 6: gold rhythm from Verda closing identity in gold",
+    "care 7: ivory rhythm from Verda hero promise in ivory",
+    "care 8: cream rhythm from Verda trust position in cream",
+    "care 9: sage rhythm from Verda care route in sage",
+    "care 10: gold rhythm from Verda consultation path in gold"
   ],
   "laserPageColourSequence": [
-    "laser 1: gold rhythm from Gold-marked education strip",
-    "laser 2: ivory rhythm from Ivory results cards",
-    "laser 3: sage rhythm from Sage journal movement",
-    "laser 4: blush rhythm from Blush/gold CTA",
-    "laser 5: sage rhythm from Fresh sage footer",
-    "laser 6: sage rhythm from Bright sage/cream hero",
-    "laser 7: ivory rhythm from Ivory active trust strip",
-    "laser 8: blush rhythm from Blush route spark",
-    "laser 9: sage rhythm from Sage process motion",
-    "laser 10: cream rhythm from Cream reassurance panel"
+    "laser 1: bronze rhythm from Verda human reassurance in bronze",
+    "laser 2: ivory rhythm from Verda education preview in ivory",
+    "laser 3: cream rhythm from Verda responsible expectations in cream",
+    "laser 4: sage rhythm from Verda contact bridge in sage",
+    "laser 5: gold rhythm from Verda closing identity in gold",
+    "laser 6: ivory rhythm from Verda hero promise in ivory",
+    "laser 7: cream rhythm from Verda trust position in cream",
+    "laser 8: sage rhythm from Verda care route in sage",
+    "laser 9: gold rhythm from Verda consultation path in gold",
+    "laser 10: dark rhythm from Verda treatment navigation in dark"
   ],
   "skinPageColourSequence": [
-    "skin 1: ivory rhythm from Ivory results cards",
-    "skin 2: sage rhythm from Sage journal movement",
-    "skin 3: blush rhythm from Blush/gold CTA",
-    "skin 4: sage rhythm from Fresh sage footer",
-    "skin 5: sage rhythm from Bright sage/cream hero",
-    "skin 6: ivory rhythm from Ivory active trust strip",
-    "skin 7: blush rhythm from Blush route spark",
-    "skin 8: sage rhythm from Sage process motion",
-    "skin 9: cream rhythm from Cream reassurance panel",
-    "skin 10: gold rhythm from Gold-marked education strip"
+    "skin 1: ivory rhythm from Verda education preview in ivory",
+    "skin 2: cream rhythm from Verda responsible expectations in cream",
+    "skin 3: sage rhythm from Verda contact bridge in sage",
+    "skin 4: gold rhythm from Verda closing identity in gold",
+    "skin 5: ivory rhythm from Verda hero promise in ivory",
+    "skin 6: cream rhythm from Verda trust position in cream",
+    "skin 7: sage rhythm from Verda care route in sage",
+    "skin 8: gold rhythm from Verda consultation path in gold",
+    "skin 9: dark rhythm from Verda treatment navigation in dark",
+    "skin 10: bronze rhythm from Verda human reassurance in bronze"
   ],
   "resultsPageColourSequence": [
-    "results 1: sage rhythm from Sage journal movement",
-    "results 2: blush rhythm from Blush/gold CTA",
-    "results 3: sage rhythm from Fresh sage footer",
-    "results 4: sage rhythm from Bright sage/cream hero",
-    "results 5: ivory rhythm from Ivory active trust strip",
-    "results 6: blush rhythm from Blush route spark",
-    "results 7: sage rhythm from Sage process motion",
-    "results 8: cream rhythm from Cream reassurance panel",
-    "results 9: gold rhythm from Gold-marked education strip",
-    "results 10: ivory rhythm from Ivory results cards"
+    "results 1: cream rhythm from Verda responsible expectations in cream",
+    "results 2: sage rhythm from Verda contact bridge in sage",
+    "results 3: gold rhythm from Verda closing identity in gold",
+    "results 4: ivory rhythm from Verda hero promise in ivory",
+    "results 5: cream rhythm from Verda trust position in cream",
+    "results 6: sage rhythm from Verda care route in sage",
+    "results 7: gold rhythm from Verda consultation path in gold",
+    "results 8: dark rhythm from Verda treatment navigation in dark",
+    "results 9: bronze rhythm from Verda human reassurance in bronze",
+    "results 10: ivory rhythm from Verda education preview in ivory"
   ],
   "journalPageColourSequence": [
-    "journal 1: blush rhythm from Blush/gold CTA",
-    "journal 2: sage rhythm from Fresh sage footer",
-    "journal 3: sage rhythm from Bright sage/cream hero",
-    "journal 4: ivory rhythm from Ivory active trust strip",
-    "journal 5: blush rhythm from Blush route spark",
-    "journal 6: sage rhythm from Sage process motion",
-    "journal 7: cream rhythm from Cream reassurance panel",
-    "journal 8: gold rhythm from Gold-marked education strip",
-    "journal 9: ivory rhythm from Ivory results cards",
-    "journal 10: sage rhythm from Sage journal movement"
+    "journal 1: sage rhythm from Verda contact bridge in sage",
+    "journal 2: gold rhythm from Verda closing identity in gold",
+    "journal 3: ivory rhythm from Verda hero promise in ivory",
+    "journal 4: cream rhythm from Verda trust position in cream",
+    "journal 5: sage rhythm from Verda care route in sage",
+    "journal 6: gold rhythm from Verda consultation path in gold",
+    "journal 7: dark rhythm from Verda treatment navigation in dark",
+    "journal 8: bronze rhythm from Verda human reassurance in bronze",
+    "journal 9: ivory rhythm from Verda education preview in ivory",
+    "journal 10: cream rhythm from Verda responsible expectations in cream"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: sage rhythm from Bright sage/cream hero",
-    "consultation 2: ivory rhythm from Ivory active trust strip",
-    "consultation 3: blush rhythm from Blush route spark",
-    "consultation 4: sage rhythm from Sage process motion",
-    "consultation 5: cream rhythm from Cream reassurance panel",
-    "consultation 6: gold rhythm from Gold-marked education strip",
-    "consultation 7: ivory rhythm from Ivory results cards",
-    "consultation 8: sage rhythm from Sage journal movement",
-    "consultation 9: blush rhythm from Blush/gold CTA",
-    "consultation 10: sage rhythm from Fresh sage footer"
+    "consultation 1: ivory rhythm from Verda hero promise in ivory",
+    "consultation 2: cream rhythm from Verda trust position in cream",
+    "consultation 3: sage rhythm from Verda care route in sage",
+    "consultation 4: gold rhythm from Verda consultation path in gold",
+    "consultation 5: dark rhythm from Verda treatment navigation in dark",
+    "consultation 6: bronze rhythm from Verda human reassurance in bronze",
+    "consultation 7: ivory rhythm from Verda education preview in ivory",
+    "consultation 8: cream rhythm from Verda responsible expectations in cream",
+    "consultation 9: sage rhythm from Verda contact bridge in sage",
+    "consultation 10: gold rhythm from Verda closing identity in gold"
   ],
   "contactPageColourSequence": [
-    "contact 1: ivory rhythm from Ivory active trust strip",
-    "contact 2: blush rhythm from Blush route spark",
-    "contact 3: sage rhythm from Sage process motion",
-    "contact 4: cream rhythm from Cream reassurance panel",
-    "contact 5: gold rhythm from Gold-marked education strip",
-    "contact 6: ivory rhythm from Ivory results cards",
-    "contact 7: sage rhythm from Sage journal movement",
-    "contact 8: blush rhythm from Blush/gold CTA",
-    "contact 9: sage rhythm from Fresh sage footer",
-    "contact 10: sage rhythm from Bright sage/cream hero"
+    "contact 1: cream rhythm from Verda trust position in cream",
+    "contact 2: sage rhythm from Verda care route in sage",
+    "contact 3: gold rhythm from Verda consultation path in gold",
+    "contact 4: dark rhythm from Verda treatment navigation in dark",
+    "contact 5: bronze rhythm from Verda human reassurance in bronze",
+    "contact 6: ivory rhythm from Verda education preview in ivory",
+    "contact 7: cream rhythm from Verda responsible expectations in cream",
+    "contact 8: sage rhythm from Verda contact bridge in sage",
+    "contact 9: gold rhythm from Verda closing identity in gold",
+    "contact 10: ivory rhythm from Verda hero promise in ivory"
   ],
   "forbiddenColourPatterns": [
-    "No muted all-cream design",
-    "No heavy dark luxury",
-    "No static card wall."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

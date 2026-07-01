@@ -1,12 +1,12 @@
-# 33-elan — Chic Editorial
+# 33-elan — Light Breathable Editorial
 
 ## Visual Thesis
 
-A chic editorial site with fashionable spacing and confident magazine energy.
+Aria uses light, breathable, sophisticated pacing with airy editorial composition.
 
 ## Colour Thesis
 
-Ivory plus ink contrast. Deep sage editorial blocks. Bronze/gold fashionable accents. Blush micro-accent only.
+ivory, pale sage, mist
 
 ## Systems
 
@@ -21,159 +21,161 @@ Ivory plus ink contrast. Deep sage editorial blocks. Bronze/gold fashionable acc
 
 ## Homepage Colour Sequence
 
-1. Ivory/ink chic hero
-2. Cream editorial trust
-3. Deep sage route spread
-4. Ivory consultation column
-5. Ink pull-quote band
-6. Cream article row
-7. Sage results panel
-8. Ivory journal magazine index
-9. Gold chic CTA
-10. Ink/sage footer
+1. Aria hero promise in gold
+2. Aria trust position in dark
+3. Aria care route in bronze
+4. Aria consultation path in sage
+5. Aria treatment navigation in ivory
+6. Aria human reassurance in cream
+7. Aria education preview in gold
+8. Aria responsible expectations in dark
+9. Aria contact bridge in bronze
+10. Aria closing identity in sage
 
 ## All Other Pages
 
-Use bold spacing, editorial columns, and high-control typography.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No warm spa cliché
-- No pale card wall
-- No low-fashion generic look.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "33-elan",
-  "colourThesis": "Ivory plus ink contrast. Deep sage editorial blocks. Bronze/gold fashionable accents. Blush micro-accent only.",
-  "dominantColourFamily": "ink",
-  "secondaryColourFamily": "dark",
-  "accentColourFamily": "sage",
+  "colourThesis": "ivory, pale sage, mist",
+  "dominantColourFamily": "dark",
+  "secondaryColourFamily": "sage",
+  "accentColourFamily": "ivory",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "axis-grid; no universal cream-card default",
   "buttonStrategy": "inline-route",
-  "footerColour": "Ink/sage footer",
-  "mobileMenuColour": "Ink pull-quote band",
+  "footerColour": "Aria closing identity in sage",
+  "mobileMenuColour": "Aria treatment navigation in ivory",
   "homepageSectionColourSequence": [
-    "Ivory/ink chic hero",
-    "Cream editorial trust",
-    "Deep sage route spread",
-    "Ivory consultation column",
-    "Ink pull-quote band",
-    "Cream article row",
-    "Sage results panel",
-    "Ivory journal magazine index",
-    "Gold chic CTA",
-    "Ink/sage footer"
+    "Aria hero promise in gold",
+    "Aria trust position in dark",
+    "Aria care route in bronze",
+    "Aria consultation path in sage",
+    "Aria treatment navigation in ivory",
+    "Aria human reassurance in cream",
+    "Aria education preview in gold",
+    "Aria responsible expectations in dark",
+    "Aria contact bridge in bronze",
+    "Aria closing identity in sage"
   ],
   "aboutPageColourSequence": [
-    "about 1: ivory rhythm from Ink pull-quote band",
-    "about 2: cream rhythm from Cream article row",
-    "about 3: sage rhythm from Sage results panel",
-    "about 4: ivory rhythm from Ivory journal magazine index",
-    "about 5: gold rhythm from Gold chic CTA",
-    "about 6: sage rhythm from Ink/sage footer",
-    "about 7: ivory rhythm from Ivory/ink chic hero",
-    "about 8: cream rhythm from Cream editorial trust",
-    "about 9: dark rhythm from Deep sage route spread",
-    "about 10: ivory rhythm from Ivory consultation column"
+    "about 1: ivory rhythm from Aria treatment navigation in ivory",
+    "about 2: cream rhythm from Aria human reassurance in cream",
+    "about 3: gold rhythm from Aria education preview in gold",
+    "about 4: dark rhythm from Aria responsible expectations in dark",
+    "about 5: bronze rhythm from Aria contact bridge in bronze",
+    "about 6: sage rhythm from Aria closing identity in sage",
+    "about 7: gold rhythm from Aria hero promise in gold",
+    "about 8: dark rhythm from Aria trust position in dark",
+    "about 9: bronze rhythm from Aria care route in bronze",
+    "about 10: sage rhythm from Aria consultation path in sage"
   ],
   "carePageColourSequence": [
-    "care 1: cream rhythm from Cream article row",
-    "care 2: sage rhythm from Sage results panel",
-    "care 3: ivory rhythm from Ivory journal magazine index",
-    "care 4: gold rhythm from Gold chic CTA",
-    "care 5: sage rhythm from Ink/sage footer",
-    "care 6: ivory rhythm from Ivory/ink chic hero",
-    "care 7: cream rhythm from Cream editorial trust",
-    "care 8: dark rhythm from Deep sage route spread",
-    "care 9: ivory rhythm from Ivory consultation column",
-    "care 10: ivory rhythm from Ink pull-quote band"
+    "care 1: cream rhythm from Aria human reassurance in cream",
+    "care 2: gold rhythm from Aria education preview in gold",
+    "care 3: dark rhythm from Aria responsible expectations in dark",
+    "care 4: bronze rhythm from Aria contact bridge in bronze",
+    "care 5: sage rhythm from Aria closing identity in sage",
+    "care 6: gold rhythm from Aria hero promise in gold",
+    "care 7: dark rhythm from Aria trust position in dark",
+    "care 8: bronze rhythm from Aria care route in bronze",
+    "care 9: sage rhythm from Aria consultation path in sage",
+    "care 10: ivory rhythm from Aria treatment navigation in ivory"
   ],
   "laserPageColourSequence": [
-    "laser 1: sage rhythm from Sage results panel",
-    "laser 2: ivory rhythm from Ivory journal magazine index",
-    "laser 3: gold rhythm from Gold chic CTA",
-    "laser 4: sage rhythm from Ink/sage footer",
-    "laser 5: ivory rhythm from Ivory/ink chic hero",
-    "laser 6: cream rhythm from Cream editorial trust",
-    "laser 7: dark rhythm from Deep sage route spread",
-    "laser 8: ivory rhythm from Ivory consultation column",
-    "laser 9: ivory rhythm from Ink pull-quote band",
-    "laser 10: cream rhythm from Cream article row"
+    "laser 1: gold rhythm from Aria education preview in gold",
+    "laser 2: dark rhythm from Aria responsible expectations in dark",
+    "laser 3: bronze rhythm from Aria contact bridge in bronze",
+    "laser 4: sage rhythm from Aria closing identity in sage",
+    "laser 5: gold rhythm from Aria hero promise in gold",
+    "laser 6: dark rhythm from Aria trust position in dark",
+    "laser 7: bronze rhythm from Aria care route in bronze",
+    "laser 8: sage rhythm from Aria consultation path in sage",
+    "laser 9: ivory rhythm from Aria treatment navigation in ivory",
+    "laser 10: cream rhythm from Aria human reassurance in cream"
   ],
   "skinPageColourSequence": [
-    "skin 1: ivory rhythm from Ivory journal magazine index",
-    "skin 2: gold rhythm from Gold chic CTA",
-    "skin 3: sage rhythm from Ink/sage footer",
-    "skin 4: ivory rhythm from Ivory/ink chic hero",
-    "skin 5: cream rhythm from Cream editorial trust",
-    "skin 6: dark rhythm from Deep sage route spread",
-    "skin 7: ivory rhythm from Ivory consultation column",
-    "skin 8: ivory rhythm from Ink pull-quote band",
-    "skin 9: cream rhythm from Cream article row",
-    "skin 10: sage rhythm from Sage results panel"
+    "skin 1: dark rhythm from Aria responsible expectations in dark",
+    "skin 2: bronze rhythm from Aria contact bridge in bronze",
+    "skin 3: sage rhythm from Aria closing identity in sage",
+    "skin 4: gold rhythm from Aria hero promise in gold",
+    "skin 5: dark rhythm from Aria trust position in dark",
+    "skin 6: bronze rhythm from Aria care route in bronze",
+    "skin 7: sage rhythm from Aria consultation path in sage",
+    "skin 8: ivory rhythm from Aria treatment navigation in ivory",
+    "skin 9: cream rhythm from Aria human reassurance in cream",
+    "skin 10: gold rhythm from Aria education preview in gold"
   ],
   "resultsPageColourSequence": [
-    "results 1: gold rhythm from Gold chic CTA",
-    "results 2: sage rhythm from Ink/sage footer",
-    "results 3: ivory rhythm from Ivory/ink chic hero",
-    "results 4: cream rhythm from Cream editorial trust",
-    "results 5: dark rhythm from Deep sage route spread",
-    "results 6: ivory rhythm from Ivory consultation column",
-    "results 7: ivory rhythm from Ink pull-quote band",
-    "results 8: cream rhythm from Cream article row",
-    "results 9: sage rhythm from Sage results panel",
-    "results 10: ivory rhythm from Ivory journal magazine index"
+    "results 1: bronze rhythm from Aria contact bridge in bronze",
+    "results 2: sage rhythm from Aria closing identity in sage",
+    "results 3: gold rhythm from Aria hero promise in gold",
+    "results 4: dark rhythm from Aria trust position in dark",
+    "results 5: bronze rhythm from Aria care route in bronze",
+    "results 6: sage rhythm from Aria consultation path in sage",
+    "results 7: ivory rhythm from Aria treatment navigation in ivory",
+    "results 8: cream rhythm from Aria human reassurance in cream",
+    "results 9: gold rhythm from Aria education preview in gold",
+    "results 10: dark rhythm from Aria responsible expectations in dark"
   ],
   "journalPageColourSequence": [
-    "journal 1: sage rhythm from Ink/sage footer",
-    "journal 2: ivory rhythm from Ivory/ink chic hero",
-    "journal 3: cream rhythm from Cream editorial trust",
-    "journal 4: dark rhythm from Deep sage route spread",
-    "journal 5: ivory rhythm from Ivory consultation column",
-    "journal 6: ivory rhythm from Ink pull-quote band",
-    "journal 7: cream rhythm from Cream article row",
-    "journal 8: sage rhythm from Sage results panel",
-    "journal 9: ivory rhythm from Ivory journal magazine index",
-    "journal 10: gold rhythm from Gold chic CTA"
+    "journal 1: sage rhythm from Aria closing identity in sage",
+    "journal 2: gold rhythm from Aria hero promise in gold",
+    "journal 3: dark rhythm from Aria trust position in dark",
+    "journal 4: bronze rhythm from Aria care route in bronze",
+    "journal 5: sage rhythm from Aria consultation path in sage",
+    "journal 6: ivory rhythm from Aria treatment navigation in ivory",
+    "journal 7: cream rhythm from Aria human reassurance in cream",
+    "journal 8: gold rhythm from Aria education preview in gold",
+    "journal 9: dark rhythm from Aria responsible expectations in dark",
+    "journal 10: bronze rhythm from Aria contact bridge in bronze"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: cream rhythm from Cream editorial trust",
-    "consultation 2: dark rhythm from Deep sage route spread",
-    "consultation 3: ivory rhythm from Ivory consultation column",
-    "consultation 4: ivory rhythm from Ink pull-quote band",
-    "consultation 5: cream rhythm from Cream article row",
-    "consultation 6: sage rhythm from Sage results panel",
-    "consultation 7: ivory rhythm from Ivory journal magazine index",
-    "consultation 8: gold rhythm from Gold chic CTA",
-    "consultation 9: sage rhythm from Ink/sage footer",
-    "consultation 10: ivory rhythm from Ivory/ink chic hero"
+    "consultation 1: dark rhythm from Aria trust position in dark",
+    "consultation 2: bronze rhythm from Aria care route in bronze",
+    "consultation 3: sage rhythm from Aria consultation path in sage",
+    "consultation 4: ivory rhythm from Aria treatment navigation in ivory",
+    "consultation 5: cream rhythm from Aria human reassurance in cream",
+    "consultation 6: gold rhythm from Aria education preview in gold",
+    "consultation 7: dark rhythm from Aria responsible expectations in dark",
+    "consultation 8: bronze rhythm from Aria contact bridge in bronze",
+    "consultation 9: sage rhythm from Aria closing identity in sage",
+    "consultation 10: gold rhythm from Aria hero promise in gold"
   ],
   "contactPageColourSequence": [
-    "contact 1: dark rhythm from Deep sage route spread",
-    "contact 2: ivory rhythm from Ivory consultation column",
-    "contact 3: ivory rhythm from Ink pull-quote band",
-    "contact 4: cream rhythm from Cream article row",
-    "contact 5: sage rhythm from Sage results panel",
-    "contact 6: ivory rhythm from Ivory journal magazine index",
-    "contact 7: gold rhythm from Gold chic CTA",
-    "contact 8: sage rhythm from Ink/sage footer",
-    "contact 9: ivory rhythm from Ivory/ink chic hero",
-    "contact 10: cream rhythm from Cream editorial trust"
+    "contact 1: bronze rhythm from Aria care route in bronze",
+    "contact 2: sage rhythm from Aria consultation path in sage",
+    "contact 3: ivory rhythm from Aria treatment navigation in ivory",
+    "contact 4: cream rhythm from Aria human reassurance in cream",
+    "contact 5: gold rhythm from Aria education preview in gold",
+    "contact 6: dark rhythm from Aria responsible expectations in dark",
+    "contact 7: bronze rhythm from Aria contact bridge in bronze",
+    "contact 8: sage rhythm from Aria closing identity in sage",
+    "contact 9: gold rhythm from Aria hero promise in gold",
+    "contact 10: dark rhythm from Aria trust position in dark"
   ],
   "forbiddenColourPatterns": [
-    "No warm spa clich\u00e9",
-    "No pale card wall",
-    "No low-fashion generic look."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

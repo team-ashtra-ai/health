@@ -1,12 +1,12 @@
-# 47-proof — Responsible Evidence
+# 47-proof — Guided Care Pathway
 
 ## Visual Thesis
 
-A credible evidence/responsibility site using ledgers, disclaimers, and careful explanations.
+Senda uses guided, structured, reassuring pacing with pathway and process promise.
 
 ## Colour Thesis
 
-Ivory/cream evidence panels. Sage ledgers. Ink text. Bronze rulework. Blush only for care/disclaimer notes.
+sage, cream, olive, blush accents
 
 ## Systems
 
@@ -21,159 +21,161 @@ Ivory/cream evidence panels. Sage ledgers. Ink text. Bronze rulework. Blush only
 
 ## Homepage Colour Sequence
 
-1. Ivory proof hero
-2. Sage responsibility ledger
-3. Cream service evidence route
-4. Ivory consultation explanation
-5. Blush disclaimer note
-6. Sage education proof
-7. Cream results expectation ledger
-8. Ivory journal evidence path
-9. Bronze responsible CTA
-10. Deep sage proof footer
+1. Senda hero promise in bronze
+2. Senda trust position in sage
+3. Senda care route in cream
+4. Senda consultation path in ivory
+5. Senda treatment navigation in gold
+6. Senda human reassurance in dark
+7. Senda education preview in bronze
+8. Senda responsible expectations in sage
+9. Senda contact bridge in cream
+10. Senda closing identity in ivory
 
 ## All Other Pages
 
-Use ledgers, clear disclaimers, and responsible wording hierarchy.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No fake testimonials
-- No guaranteed results
-- No glossy spa proof.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "47-proof",
-  "colourThesis": "Ivory/cream evidence panels. Sage ledgers. Ink text. Bronze rulework. Blush only for care/disclaimer notes.",
-  "dominantColourFamily": "ink",
-  "secondaryColourFamily": "dark",
-  "accentColourFamily": "sage",
+  "colourThesis": "sage, cream, olive, blush accents",
+  "dominantColourFamily": "dark",
+  "secondaryColourFamily": "sage",
+  "accentColourFamily": "ivory",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "expectation-ledger; no universal cream-card default",
   "buttonStrategy": "minimal-arrow",
-  "footerColour": "Deep sage proof footer",
-  "mobileMenuColour": "Bronze responsible CTA",
+  "footerColour": "Senda closing identity in ivory",
+  "mobileMenuColour": "Senda contact bridge in cream",
   "homepageSectionColourSequence": [
-    "Ivory proof hero",
-    "Sage responsibility ledger",
-    "Cream service evidence route",
-    "Ivory consultation explanation",
-    "Blush disclaimer note",
-    "Sage education proof",
-    "Cream results expectation ledger",
-    "Ivory journal evidence path",
-    "Bronze responsible CTA",
-    "Deep sage proof footer"
+    "Senda hero promise in bronze",
+    "Senda trust position in sage",
+    "Senda care route in cream",
+    "Senda consultation path in ivory",
+    "Senda treatment navigation in gold",
+    "Senda human reassurance in dark",
+    "Senda education preview in bronze",
+    "Senda responsible expectations in sage",
+    "Senda contact bridge in cream",
+    "Senda closing identity in ivory"
   ],
   "aboutPageColourSequence": [
-    "about 1: bronze rhythm from Bronze responsible CTA",
-    "about 2: dark rhythm from Deep sage proof footer",
-    "about 3: ivory rhythm from Ivory proof hero",
-    "about 4: sage rhythm from Sage responsibility ledger",
-    "about 5: cream rhythm from Cream service evidence route",
-    "about 6: ivory rhythm from Ivory consultation explanation",
-    "about 7: blush rhythm from Blush disclaimer note",
-    "about 8: sage rhythm from Sage education proof",
-    "about 9: cream rhythm from Cream results expectation ledger",
-    "about 10: ivory rhythm from Ivory journal evidence path"
+    "about 1: cream rhythm from Senda contact bridge in cream",
+    "about 2: ivory rhythm from Senda closing identity in ivory",
+    "about 3: bronze rhythm from Senda hero promise in bronze",
+    "about 4: sage rhythm from Senda trust position in sage",
+    "about 5: cream rhythm from Senda care route in cream",
+    "about 6: ivory rhythm from Senda consultation path in ivory",
+    "about 7: gold rhythm from Senda treatment navigation in gold",
+    "about 8: dark rhythm from Senda human reassurance in dark",
+    "about 9: bronze rhythm from Senda education preview in bronze",
+    "about 10: sage rhythm from Senda responsible expectations in sage"
   ],
   "carePageColourSequence": [
-    "care 1: dark rhythm from Deep sage proof footer",
-    "care 2: ivory rhythm from Ivory proof hero",
-    "care 3: sage rhythm from Sage responsibility ledger",
-    "care 4: cream rhythm from Cream service evidence route",
-    "care 5: ivory rhythm from Ivory consultation explanation",
-    "care 6: blush rhythm from Blush disclaimer note",
-    "care 7: sage rhythm from Sage education proof",
-    "care 8: cream rhythm from Cream results expectation ledger",
-    "care 9: ivory rhythm from Ivory journal evidence path",
-    "care 10: bronze rhythm from Bronze responsible CTA"
+    "care 1: ivory rhythm from Senda closing identity in ivory",
+    "care 2: bronze rhythm from Senda hero promise in bronze",
+    "care 3: sage rhythm from Senda trust position in sage",
+    "care 4: cream rhythm from Senda care route in cream",
+    "care 5: ivory rhythm from Senda consultation path in ivory",
+    "care 6: gold rhythm from Senda treatment navigation in gold",
+    "care 7: dark rhythm from Senda human reassurance in dark",
+    "care 8: bronze rhythm from Senda education preview in bronze",
+    "care 9: sage rhythm from Senda responsible expectations in sage",
+    "care 10: cream rhythm from Senda contact bridge in cream"
   ],
   "laserPageColourSequence": [
-    "laser 1: ivory rhythm from Ivory proof hero",
-    "laser 2: sage rhythm from Sage responsibility ledger",
-    "laser 3: cream rhythm from Cream service evidence route",
-    "laser 4: ivory rhythm from Ivory consultation explanation",
-    "laser 5: blush rhythm from Blush disclaimer note",
-    "laser 6: sage rhythm from Sage education proof",
-    "laser 7: cream rhythm from Cream results expectation ledger",
-    "laser 8: ivory rhythm from Ivory journal evidence path",
-    "laser 9: bronze rhythm from Bronze responsible CTA",
-    "laser 10: dark rhythm from Deep sage proof footer"
+    "laser 1: bronze rhythm from Senda hero promise in bronze",
+    "laser 2: sage rhythm from Senda trust position in sage",
+    "laser 3: cream rhythm from Senda care route in cream",
+    "laser 4: ivory rhythm from Senda consultation path in ivory",
+    "laser 5: gold rhythm from Senda treatment navigation in gold",
+    "laser 6: dark rhythm from Senda human reassurance in dark",
+    "laser 7: bronze rhythm from Senda education preview in bronze",
+    "laser 8: sage rhythm from Senda responsible expectations in sage",
+    "laser 9: cream rhythm from Senda contact bridge in cream",
+    "laser 10: ivory rhythm from Senda closing identity in ivory"
   ],
   "skinPageColourSequence": [
-    "skin 1: sage rhythm from Sage responsibility ledger",
-    "skin 2: cream rhythm from Cream service evidence route",
-    "skin 3: ivory rhythm from Ivory consultation explanation",
-    "skin 4: blush rhythm from Blush disclaimer note",
-    "skin 5: sage rhythm from Sage education proof",
-    "skin 6: cream rhythm from Cream results expectation ledger",
-    "skin 7: ivory rhythm from Ivory journal evidence path",
-    "skin 8: bronze rhythm from Bronze responsible CTA",
-    "skin 9: dark rhythm from Deep sage proof footer",
-    "skin 10: ivory rhythm from Ivory proof hero"
+    "skin 1: sage rhythm from Senda trust position in sage",
+    "skin 2: cream rhythm from Senda care route in cream",
+    "skin 3: ivory rhythm from Senda consultation path in ivory",
+    "skin 4: gold rhythm from Senda treatment navigation in gold",
+    "skin 5: dark rhythm from Senda human reassurance in dark",
+    "skin 6: bronze rhythm from Senda education preview in bronze",
+    "skin 7: sage rhythm from Senda responsible expectations in sage",
+    "skin 8: cream rhythm from Senda contact bridge in cream",
+    "skin 9: ivory rhythm from Senda closing identity in ivory",
+    "skin 10: bronze rhythm from Senda hero promise in bronze"
   ],
   "resultsPageColourSequence": [
-    "results 1: cream rhythm from Cream service evidence route",
-    "results 2: ivory rhythm from Ivory consultation explanation",
-    "results 3: blush rhythm from Blush disclaimer note",
-    "results 4: sage rhythm from Sage education proof",
-    "results 5: cream rhythm from Cream results expectation ledger",
-    "results 6: ivory rhythm from Ivory journal evidence path",
-    "results 7: bronze rhythm from Bronze responsible CTA",
-    "results 8: dark rhythm from Deep sage proof footer",
-    "results 9: ivory rhythm from Ivory proof hero",
-    "results 10: sage rhythm from Sage responsibility ledger"
+    "results 1: cream rhythm from Senda care route in cream",
+    "results 2: ivory rhythm from Senda consultation path in ivory",
+    "results 3: gold rhythm from Senda treatment navigation in gold",
+    "results 4: dark rhythm from Senda human reassurance in dark",
+    "results 5: bronze rhythm from Senda education preview in bronze",
+    "results 6: sage rhythm from Senda responsible expectations in sage",
+    "results 7: cream rhythm from Senda contact bridge in cream",
+    "results 8: ivory rhythm from Senda closing identity in ivory",
+    "results 9: bronze rhythm from Senda hero promise in bronze",
+    "results 10: sage rhythm from Senda trust position in sage"
   ],
   "journalPageColourSequence": [
-    "journal 1: ivory rhythm from Ivory consultation explanation",
-    "journal 2: blush rhythm from Blush disclaimer note",
-    "journal 3: sage rhythm from Sage education proof",
-    "journal 4: cream rhythm from Cream results expectation ledger",
-    "journal 5: ivory rhythm from Ivory journal evidence path",
-    "journal 6: bronze rhythm from Bronze responsible CTA",
-    "journal 7: dark rhythm from Deep sage proof footer",
-    "journal 8: ivory rhythm from Ivory proof hero",
-    "journal 9: sage rhythm from Sage responsibility ledger",
-    "journal 10: cream rhythm from Cream service evidence route"
+    "journal 1: ivory rhythm from Senda consultation path in ivory",
+    "journal 2: gold rhythm from Senda treatment navigation in gold",
+    "journal 3: dark rhythm from Senda human reassurance in dark",
+    "journal 4: bronze rhythm from Senda education preview in bronze",
+    "journal 5: sage rhythm from Senda responsible expectations in sage",
+    "journal 6: cream rhythm from Senda contact bridge in cream",
+    "journal 7: ivory rhythm from Senda closing identity in ivory",
+    "journal 8: bronze rhythm from Senda hero promise in bronze",
+    "journal 9: sage rhythm from Senda trust position in sage",
+    "journal 10: cream rhythm from Senda care route in cream"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: sage rhythm from Sage education proof",
-    "consultation 2: cream rhythm from Cream results expectation ledger",
-    "consultation 3: ivory rhythm from Ivory journal evidence path",
-    "consultation 4: bronze rhythm from Bronze responsible CTA",
-    "consultation 5: dark rhythm from Deep sage proof footer",
-    "consultation 6: ivory rhythm from Ivory proof hero",
-    "consultation 7: sage rhythm from Sage responsibility ledger",
-    "consultation 8: cream rhythm from Cream service evidence route",
-    "consultation 9: ivory rhythm from Ivory consultation explanation",
-    "consultation 10: blush rhythm from Blush disclaimer note"
+    "consultation 1: dark rhythm from Senda human reassurance in dark",
+    "consultation 2: bronze rhythm from Senda education preview in bronze",
+    "consultation 3: sage rhythm from Senda responsible expectations in sage",
+    "consultation 4: cream rhythm from Senda contact bridge in cream",
+    "consultation 5: ivory rhythm from Senda closing identity in ivory",
+    "consultation 6: bronze rhythm from Senda hero promise in bronze",
+    "consultation 7: sage rhythm from Senda trust position in sage",
+    "consultation 8: cream rhythm from Senda care route in cream",
+    "consultation 9: ivory rhythm from Senda consultation path in ivory",
+    "consultation 10: gold rhythm from Senda treatment navigation in gold"
   ],
   "contactPageColourSequence": [
-    "contact 1: cream rhythm from Cream results expectation ledger",
-    "contact 2: ivory rhythm from Ivory journal evidence path",
-    "contact 3: bronze rhythm from Bronze responsible CTA",
-    "contact 4: dark rhythm from Deep sage proof footer",
-    "contact 5: ivory rhythm from Ivory proof hero",
-    "contact 6: sage rhythm from Sage responsibility ledger",
-    "contact 7: cream rhythm from Cream service evidence route",
-    "contact 8: ivory rhythm from Ivory consultation explanation",
-    "contact 9: blush rhythm from Blush disclaimer note",
-    "contact 10: sage rhythm from Sage education proof"
+    "contact 1: bronze rhythm from Senda education preview in bronze",
+    "contact 2: sage rhythm from Senda responsible expectations in sage",
+    "contact 3: cream rhythm from Senda contact bridge in cream",
+    "contact 4: ivory rhythm from Senda closing identity in ivory",
+    "contact 5: bronze rhythm from Senda hero promise in bronze",
+    "contact 6: sage rhythm from Senda trust position in sage",
+    "contact 7: cream rhythm from Senda care route in cream",
+    "contact 8: ivory rhythm from Senda consultation path in ivory",
+    "contact 9: gold rhythm from Senda treatment navigation in gold",
+    "contact 10: dark rhythm from Senda human reassurance in dark"
   ],
   "forbiddenColourPatterns": [
-    "No fake testimonials",
-    "No guaranteed results",
-    "No glossy spa proof."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

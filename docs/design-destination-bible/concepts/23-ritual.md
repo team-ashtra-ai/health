@@ -1,12 +1,12 @@
-# 23-ritual — Spa Pathway
+# 23-ritual — Deep Olive Signature
 
 ## Visual Thesis
 
-A ritual pathway site where each section feels like the next step in a calm care sequence.
+Olive uses mature, grounded, premium pacing with olive led brand authority.
 
 ## Colour Thesis
 
-Cream and soft sage dominate. Blush marks ritual steps. Bronze marks sequence. Dark only final CTA/footer.
+olive, ivory, bronze, sand
 
 ## Systems
 
@@ -21,159 +21,161 @@ Cream and soft sage dominate. Blush marks ritual steps. Bronze marks sequence. D
 
 ## Homepage Colour Sequence
 
-1. Cream ritual hero
-2. Sage preparation trust
-3. Blush step-one route
-4. Cream consultation ritual
-5. Sage comfort band
-6. Blush education step
-7. Cream results expectation
-8. Sage journal pathway
-9. Bronze ritual CTA
-10. Deep sage closing ritual
+1. Olive hero promise in gold
+2. Olive trust position in dark
+3. Olive care route in ivory
+4. Olive consultation path in cream
+5. Olive treatment navigation in sage
+6. Olive human reassurance in bronze
+7. Olive education preview in gold
+8. Olive responsible expectations in dark
+9. Olive contact bridge in ivory
+10. Olive closing identity in cream
 
 ## All Other Pages
 
-Use numbered pathway sections and slow progression.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No clinical sharpness
-- No dark luxury dominance
-- No random cards.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "23-ritual",
-  "colourThesis": "Cream and soft sage dominate. Blush marks ritual steps. Bronze marks sequence. Dark only final CTA/footer.",
+  "colourThesis": "olive, ivory, bronze, sand",
   "dominantColourFamily": "dark",
   "secondaryColourFamily": "sage",
-  "accentColourFamily": "cream",
+  "accentColourFamily": "ivory",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "axis-grid; no universal cream-card default",
   "buttonStrategy": "inline-route",
-  "footerColour": "Deep sage closing ritual",
-  "mobileMenuColour": "Sage comfort band",
+  "footerColour": "Olive closing identity in cream",
+  "mobileMenuColour": "Olive treatment navigation in sage",
   "homepageSectionColourSequence": [
-    "Cream ritual hero",
-    "Sage preparation trust",
-    "Blush step-one route",
-    "Cream consultation ritual",
-    "Sage comfort band",
-    "Blush education step",
-    "Cream results expectation",
-    "Sage journal pathway",
-    "Bronze ritual CTA",
-    "Deep sage closing ritual"
+    "Olive hero promise in gold",
+    "Olive trust position in dark",
+    "Olive care route in ivory",
+    "Olive consultation path in cream",
+    "Olive treatment navigation in sage",
+    "Olive human reassurance in bronze",
+    "Olive education preview in gold",
+    "Olive responsible expectations in dark",
+    "Olive contact bridge in ivory",
+    "Olive closing identity in cream"
   ],
   "aboutPageColourSequence": [
-    "about 1: sage rhythm from Sage comfort band",
-    "about 2: blush rhythm from Blush education step",
-    "about 3: cream rhythm from Cream results expectation",
-    "about 4: sage rhythm from Sage journal pathway",
-    "about 5: bronze rhythm from Bronze ritual CTA",
-    "about 6: dark rhythm from Deep sage closing ritual",
-    "about 7: cream rhythm from Cream ritual hero",
-    "about 8: sage rhythm from Sage preparation trust",
-    "about 9: blush rhythm from Blush step-one route",
-    "about 10: cream rhythm from Cream consultation ritual"
+    "about 1: sage rhythm from Olive treatment navigation in sage",
+    "about 2: sage rhythm from Olive human reassurance in bronze",
+    "about 3: sage rhythm from Olive education preview in gold",
+    "about 4: dark rhythm from Olive responsible expectations in dark",
+    "about 5: sage rhythm from Olive contact bridge in ivory",
+    "about 6: sage rhythm from Olive closing identity in cream",
+    "about 7: sage rhythm from Olive hero promise in gold",
+    "about 8: dark rhythm from Olive trust position in dark",
+    "about 9: sage rhythm from Olive care route in ivory",
+    "about 10: sage rhythm from Olive consultation path in cream"
   ],
   "carePageColourSequence": [
-    "care 1: blush rhythm from Blush education step",
-    "care 2: cream rhythm from Cream results expectation",
-    "care 3: sage rhythm from Sage journal pathway",
-    "care 4: bronze rhythm from Bronze ritual CTA",
-    "care 5: dark rhythm from Deep sage closing ritual",
-    "care 6: cream rhythm from Cream ritual hero",
-    "care 7: sage rhythm from Sage preparation trust",
-    "care 8: blush rhythm from Blush step-one route",
-    "care 9: cream rhythm from Cream consultation ritual",
-    "care 10: sage rhythm from Sage comfort band"
+    "care 1: sage rhythm from Olive human reassurance in bronze",
+    "care 2: sage rhythm from Olive education preview in gold",
+    "care 3: dark rhythm from Olive responsible expectations in dark",
+    "care 4: sage rhythm from Olive contact bridge in ivory",
+    "care 5: sage rhythm from Olive closing identity in cream",
+    "care 6: sage rhythm from Olive hero promise in gold",
+    "care 7: dark rhythm from Olive trust position in dark",
+    "care 8: sage rhythm from Olive care route in ivory",
+    "care 9: sage rhythm from Olive consultation path in cream",
+    "care 10: sage rhythm from Olive treatment navigation in sage"
   ],
   "laserPageColourSequence": [
-    "laser 1: cream rhythm from Cream results expectation",
-    "laser 2: sage rhythm from Sage journal pathway",
-    "laser 3: bronze rhythm from Bronze ritual CTA",
-    "laser 4: dark rhythm from Deep sage closing ritual",
-    "laser 5: cream rhythm from Cream ritual hero",
-    "laser 6: sage rhythm from Sage preparation trust",
-    "laser 7: blush rhythm from Blush step-one route",
-    "laser 8: cream rhythm from Cream consultation ritual",
-    "laser 9: sage rhythm from Sage comfort band",
-    "laser 10: blush rhythm from Blush education step"
+    "laser 1: sage rhythm from Olive education preview in gold",
+    "laser 2: dark rhythm from Olive responsible expectations in dark",
+    "laser 3: sage rhythm from Olive contact bridge in ivory",
+    "laser 4: sage rhythm from Olive closing identity in cream",
+    "laser 5: sage rhythm from Olive hero promise in gold",
+    "laser 6: dark rhythm from Olive trust position in dark",
+    "laser 7: sage rhythm from Olive care route in ivory",
+    "laser 8: sage rhythm from Olive consultation path in cream",
+    "laser 9: sage rhythm from Olive treatment navigation in sage",
+    "laser 10: sage rhythm from Olive human reassurance in bronze"
   ],
   "skinPageColourSequence": [
-    "skin 1: sage rhythm from Sage journal pathway",
-    "skin 2: bronze rhythm from Bronze ritual CTA",
-    "skin 3: dark rhythm from Deep sage closing ritual",
-    "skin 4: cream rhythm from Cream ritual hero",
-    "skin 5: sage rhythm from Sage preparation trust",
-    "skin 6: blush rhythm from Blush step-one route",
-    "skin 7: cream rhythm from Cream consultation ritual",
-    "skin 8: sage rhythm from Sage comfort band",
-    "skin 9: blush rhythm from Blush education step",
-    "skin 10: cream rhythm from Cream results expectation"
+    "skin 1: dark rhythm from Olive responsible expectations in dark",
+    "skin 2: sage rhythm from Olive contact bridge in ivory",
+    "skin 3: sage rhythm from Olive closing identity in cream",
+    "skin 4: sage rhythm from Olive hero promise in gold",
+    "skin 5: dark rhythm from Olive trust position in dark",
+    "skin 6: sage rhythm from Olive care route in ivory",
+    "skin 7: sage rhythm from Olive consultation path in cream",
+    "skin 8: sage rhythm from Olive treatment navigation in sage",
+    "skin 9: sage rhythm from Olive human reassurance in bronze",
+    "skin 10: sage rhythm from Olive education preview in gold"
   ],
   "resultsPageColourSequence": [
-    "results 1: bronze rhythm from Bronze ritual CTA",
-    "results 2: dark rhythm from Deep sage closing ritual",
-    "results 3: cream rhythm from Cream ritual hero",
-    "results 4: sage rhythm from Sage preparation trust",
-    "results 5: blush rhythm from Blush step-one route",
-    "results 6: cream rhythm from Cream consultation ritual",
-    "results 7: sage rhythm from Sage comfort band",
-    "results 8: blush rhythm from Blush education step",
-    "results 9: cream rhythm from Cream results expectation",
-    "results 10: sage rhythm from Sage journal pathway"
+    "results 1: sage rhythm from Olive contact bridge in ivory",
+    "results 2: sage rhythm from Olive closing identity in cream",
+    "results 3: sage rhythm from Olive hero promise in gold",
+    "results 4: dark rhythm from Olive trust position in dark",
+    "results 5: sage rhythm from Olive care route in ivory",
+    "results 6: sage rhythm from Olive consultation path in cream",
+    "results 7: sage rhythm from Olive treatment navigation in sage",
+    "results 8: sage rhythm from Olive human reassurance in bronze",
+    "results 9: sage rhythm from Olive education preview in gold",
+    "results 10: dark rhythm from Olive responsible expectations in dark"
   ],
   "journalPageColourSequence": [
-    "journal 1: dark rhythm from Deep sage closing ritual",
-    "journal 2: cream rhythm from Cream ritual hero",
-    "journal 3: sage rhythm from Sage preparation trust",
-    "journal 4: blush rhythm from Blush step-one route",
-    "journal 5: cream rhythm from Cream consultation ritual",
-    "journal 6: sage rhythm from Sage comfort band",
-    "journal 7: blush rhythm from Blush education step",
-    "journal 8: cream rhythm from Cream results expectation",
-    "journal 9: sage rhythm from Sage journal pathway",
-    "journal 10: bronze rhythm from Bronze ritual CTA"
+    "journal 1: sage rhythm from Olive closing identity in cream",
+    "journal 2: sage rhythm from Olive hero promise in gold",
+    "journal 3: dark rhythm from Olive trust position in dark",
+    "journal 4: sage rhythm from Olive care route in ivory",
+    "journal 5: sage rhythm from Olive consultation path in cream",
+    "journal 6: sage rhythm from Olive treatment navigation in sage",
+    "journal 7: sage rhythm from Olive human reassurance in bronze",
+    "journal 8: sage rhythm from Olive education preview in gold",
+    "journal 9: dark rhythm from Olive responsible expectations in dark",
+    "journal 10: sage rhythm from Olive contact bridge in ivory"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: sage rhythm from Sage preparation trust",
-    "consultation 2: blush rhythm from Blush step-one route",
-    "consultation 3: cream rhythm from Cream consultation ritual",
-    "consultation 4: sage rhythm from Sage comfort band",
-    "consultation 5: blush rhythm from Blush education step",
-    "consultation 6: cream rhythm from Cream results expectation",
-    "consultation 7: sage rhythm from Sage journal pathway",
-    "consultation 8: bronze rhythm from Bronze ritual CTA",
-    "consultation 9: dark rhythm from Deep sage closing ritual",
-    "consultation 10: cream rhythm from Cream ritual hero"
+    "consultation 1: dark rhythm from Olive trust position in dark",
+    "consultation 2: sage rhythm from Olive care route in ivory",
+    "consultation 3: sage rhythm from Olive consultation path in cream",
+    "consultation 4: sage rhythm from Olive treatment navigation in sage",
+    "consultation 5: sage rhythm from Olive human reassurance in bronze",
+    "consultation 6: sage rhythm from Olive education preview in gold",
+    "consultation 7: dark rhythm from Olive responsible expectations in dark",
+    "consultation 8: sage rhythm from Olive contact bridge in ivory",
+    "consultation 9: sage rhythm from Olive closing identity in cream",
+    "consultation 10: sage rhythm from Olive hero promise in gold"
   ],
   "contactPageColourSequence": [
-    "contact 1: blush rhythm from Blush step-one route",
-    "contact 2: cream rhythm from Cream consultation ritual",
-    "contact 3: sage rhythm from Sage comfort band",
-    "contact 4: blush rhythm from Blush education step",
-    "contact 5: cream rhythm from Cream results expectation",
-    "contact 6: sage rhythm from Sage journal pathway",
-    "contact 7: bronze rhythm from Bronze ritual CTA",
-    "contact 8: dark rhythm from Deep sage closing ritual",
-    "contact 9: cream rhythm from Cream ritual hero",
-    "contact 10: sage rhythm from Sage preparation trust"
+    "contact 1: sage rhythm from Olive care route in ivory",
+    "contact 2: sage rhythm from Olive consultation path in cream",
+    "contact 3: sage rhythm from Olive treatment navigation in sage",
+    "contact 4: sage rhythm from Olive human reassurance in bronze",
+    "contact 5: sage rhythm from Olive education preview in gold",
+    "contact 6: dark rhythm from Olive responsible expectations in dark",
+    "contact 7: sage rhythm from Olive contact bridge in ivory",
+    "contact 8: sage rhythm from Olive closing identity in cream",
+    "contact 9: sage rhythm from Olive hero promise in gold",
+    "contact 10: dark rhythm from Olive trust position in dark"
   ],
   "forbiddenColourPatterns": [
-    "No clinical sharpness",
-    "No dark luxury dominance",
-    "No random cards."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

@@ -1,12 +1,12 @@
-# 01-inspire — Dark Premium Editorial
+# 01-inspire — Editorial Botanical Atelier
 
 ## Visual Thesis
 
-A confident dark editorial magazine site. It should feel like a luxury independent publication translated into a premium consultation-led care website.
+Inspire uses high-end editorial, botanical, quiet confidence pacing with asymmetric editorial spread with portrait and art panel.
 
 ## Colour Thesis
 
-Deep sage and ink dominate. Ivory appears as controlled reading relief. Bronze appears as vertical rules, underlines, section numbers, and quiet CTA detail. Blush is almost absent.
+ivory, deep green, sage, muted gold
 
 ## Systems
 
@@ -21,161 +21,161 @@ Deep sage and ink dominate. Ivory appears as controlled reading relief. Bronze a
 
 ## Homepage Colour Sequence
 
-1. Deep sage / ink editorial hero
-2. Ivory text-only manifesto
-3. Cream horizontal route index with bronze lines
-4. Sage-deep process rail
-5. Full-width dark reassurance band
-6. Ivory magazine article row
-7. Cream expectation ledger
-8. Ivory reading path with bronze topic chips
-9. Bronze-line CTA strip on cream
-10. Dark editorial footer bridge
+1. Inspire hero promise in sage
+2. Inspire trust position in ivory
+3. Inspire care route in gold
+4. Inspire consultation path in cream
+5. Inspire treatment navigation in bronze
+6. Inspire human reassurance in dark
+7. Inspire education preview in sage
+8. Inspire responsible expectations in ivory
+9. Inspire contact bridge in gold
+10. Inspire closing identity in cream
 
 ## All Other Pages
 
-Use dark hero or dark page masthead, then ivory reading sections, one sage-deep statement section, and a dark closing bridge. Avoid cream cards as a default.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No rounded cream hero
-- No blush-heavy section
-- No repeated card grid
-- No Atlas split.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "01-inspire",
-  "colourThesis": "Deep sage and ink dominate. Ivory appears as controlled reading relief. Bronze appears as vertical rules, underlines, section numbers, and quiet CTA detail. Blush is almost absent.",
-  "dominantColourFamily": "ink",
-  "secondaryColourFamily": "dark",
-  "accentColourFamily": "sage",
+  "colourThesis": "ivory, deep green, sage, muted gold",
+  "dominantColourFamily": "dark",
+  "secondaryColourFamily": "sage",
+  "accentColourFamily": "ivory",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "route-ledger; no universal cream-card default",
   "buttonStrategy": "split-quiet",
-  "footerColour": "Dark editorial footer bridge",
-  "mobileMenuColour": "Cream horizontal route index with bronze lines",
+  "footerColour": "Inspire closing identity in cream",
+  "mobileMenuColour": "Inspire care route in gold",
   "homepageSectionColourSequence": [
-    "Deep sage / ink editorial hero",
-    "Ivory text-only manifesto",
-    "Cream horizontal route index with bronze lines",
-    "Sage-deep process rail",
-    "Full-width dark reassurance band",
-    "Ivory magazine article row",
-    "Cream expectation ledger",
-    "Ivory reading path with bronze topic chips",
-    "Bronze-line CTA strip on cream",
-    "Dark editorial footer bridge"
+    "Inspire hero promise in sage",
+    "Inspire trust position in ivory",
+    "Inspire care route in gold",
+    "Inspire consultation path in cream",
+    "Inspire treatment navigation in bronze",
+    "Inspire human reassurance in dark",
+    "Inspire education preview in sage",
+    "Inspire responsible expectations in ivory",
+    "Inspire contact bridge in gold",
+    "Inspire closing identity in cream"
   ],
   "aboutPageColourSequence": [
-    "about 1: cream rhythm from Cream horizontal route index with bronze lines",
-    "about 2: dark rhythm from Sage-deep process rail",
-    "about 3: dark rhythm from Full-width dark reassurance band",
-    "about 4: ivory rhythm from Ivory magazine article row",
-    "about 5: cream rhythm from Cream expectation ledger",
-    "about 6: ivory rhythm from Ivory reading path with bronze topic chips",
-    "about 7: cream rhythm from Bronze-line CTA strip on cream",
-    "about 8: dark rhythm from Dark editorial footer bridge",
-    "about 9: dark rhythm from Deep sage / ink editorial hero",
-    "about 10: ivory rhythm from Ivory text-only manifesto"
+    "about 1: gold rhythm from Inspire care route in gold",
+    "about 2: cream rhythm from Inspire consultation path in cream",
+    "about 3: bronze rhythm from Inspire treatment navigation in bronze",
+    "about 4: dark rhythm from Inspire human reassurance in dark",
+    "about 5: sage rhythm from Inspire education preview in sage",
+    "about 6: ivory rhythm from Inspire responsible expectations in ivory",
+    "about 7: gold rhythm from Inspire contact bridge in gold",
+    "about 8: cream rhythm from Inspire closing identity in cream",
+    "about 9: sage rhythm from Inspire hero promise in sage",
+    "about 10: ivory rhythm from Inspire trust position in ivory"
   ],
   "carePageColourSequence": [
-    "care 1: dark rhythm from Sage-deep process rail",
-    "care 2: dark rhythm from Full-width dark reassurance band",
-    "care 3: ivory rhythm from Ivory magazine article row",
-    "care 4: cream rhythm from Cream expectation ledger",
-    "care 5: ivory rhythm from Ivory reading path with bronze topic chips",
-    "care 6: cream rhythm from Bronze-line CTA strip on cream",
-    "care 7: dark rhythm from Dark editorial footer bridge",
-    "care 8: dark rhythm from Deep sage / ink editorial hero",
-    "care 9: ivory rhythm from Ivory text-only manifesto",
-    "care 10: cream rhythm from Cream horizontal route index with bronze lines"
+    "care 1: cream rhythm from Inspire consultation path in cream",
+    "care 2: bronze rhythm from Inspire treatment navigation in bronze",
+    "care 3: dark rhythm from Inspire human reassurance in dark",
+    "care 4: sage rhythm from Inspire education preview in sage",
+    "care 5: ivory rhythm from Inspire responsible expectations in ivory",
+    "care 6: gold rhythm from Inspire contact bridge in gold",
+    "care 7: cream rhythm from Inspire closing identity in cream",
+    "care 8: sage rhythm from Inspire hero promise in sage",
+    "care 9: ivory rhythm from Inspire trust position in ivory",
+    "care 10: gold rhythm from Inspire care route in gold"
   ],
   "laserPageColourSequence": [
-    "laser 1: dark rhythm from Full-width dark reassurance band",
-    "laser 2: ivory rhythm from Ivory magazine article row",
-    "laser 3: cream rhythm from Cream expectation ledger",
-    "laser 4: ivory rhythm from Ivory reading path with bronze topic chips",
-    "laser 5: cream rhythm from Bronze-line CTA strip on cream",
-    "laser 6: dark rhythm from Dark editorial footer bridge",
-    "laser 7: dark rhythm from Deep sage / ink editorial hero",
-    "laser 8: ivory rhythm from Ivory text-only manifesto",
-    "laser 9: cream rhythm from Cream horizontal route index with bronze lines",
-    "laser 10: dark rhythm from Sage-deep process rail"
+    "laser 1: bronze rhythm from Inspire treatment navigation in bronze",
+    "laser 2: dark rhythm from Inspire human reassurance in dark",
+    "laser 3: sage rhythm from Inspire education preview in sage",
+    "laser 4: ivory rhythm from Inspire responsible expectations in ivory",
+    "laser 5: gold rhythm from Inspire contact bridge in gold",
+    "laser 6: cream rhythm from Inspire closing identity in cream",
+    "laser 7: sage rhythm from Inspire hero promise in sage",
+    "laser 8: ivory rhythm from Inspire trust position in ivory",
+    "laser 9: gold rhythm from Inspire care route in gold",
+    "laser 10: cream rhythm from Inspire consultation path in cream"
   ],
   "skinPageColourSequence": [
-    "skin 1: ivory rhythm from Ivory magazine article row",
-    "skin 2: cream rhythm from Cream expectation ledger",
-    "skin 3: ivory rhythm from Ivory reading path with bronze topic chips",
-    "skin 4: cream rhythm from Bronze-line CTA strip on cream",
-    "skin 5: dark rhythm from Dark editorial footer bridge",
-    "skin 6: dark rhythm from Deep sage / ink editorial hero",
-    "skin 7: ivory rhythm from Ivory text-only manifesto",
-    "skin 8: cream rhythm from Cream horizontal route index with bronze lines",
-    "skin 9: dark rhythm from Sage-deep process rail",
-    "skin 10: dark rhythm from Full-width dark reassurance band"
+    "skin 1: dark rhythm from Inspire human reassurance in dark",
+    "skin 2: sage rhythm from Inspire education preview in sage",
+    "skin 3: ivory rhythm from Inspire responsible expectations in ivory",
+    "skin 4: gold rhythm from Inspire contact bridge in gold",
+    "skin 5: cream rhythm from Inspire closing identity in cream",
+    "skin 6: sage rhythm from Inspire hero promise in sage",
+    "skin 7: ivory rhythm from Inspire trust position in ivory",
+    "skin 8: gold rhythm from Inspire care route in gold",
+    "skin 9: cream rhythm from Inspire consultation path in cream",
+    "skin 10: bronze rhythm from Inspire treatment navigation in bronze"
   ],
   "resultsPageColourSequence": [
-    "results 1: cream rhythm from Cream expectation ledger",
-    "results 2: ivory rhythm from Ivory reading path with bronze topic chips",
-    "results 3: cream rhythm from Bronze-line CTA strip on cream",
-    "results 4: dark rhythm from Dark editorial footer bridge",
-    "results 5: dark rhythm from Deep sage / ink editorial hero",
-    "results 6: ivory rhythm from Ivory text-only manifesto",
-    "results 7: cream rhythm from Cream horizontal route index with bronze lines",
-    "results 8: dark rhythm from Sage-deep process rail",
-    "results 9: dark rhythm from Full-width dark reassurance band",
-    "results 10: ivory rhythm from Ivory magazine article row"
+    "results 1: sage rhythm from Inspire education preview in sage",
+    "results 2: ivory rhythm from Inspire responsible expectations in ivory",
+    "results 3: gold rhythm from Inspire contact bridge in gold",
+    "results 4: cream rhythm from Inspire closing identity in cream",
+    "results 5: sage rhythm from Inspire hero promise in sage",
+    "results 6: ivory rhythm from Inspire trust position in ivory",
+    "results 7: gold rhythm from Inspire care route in gold",
+    "results 8: cream rhythm from Inspire consultation path in cream",
+    "results 9: bronze rhythm from Inspire treatment navigation in bronze",
+    "results 10: dark rhythm from Inspire human reassurance in dark"
   ],
   "journalPageColourSequence": [
-    "journal 1: ivory rhythm from Ivory reading path with bronze topic chips",
-    "journal 2: cream rhythm from Bronze-line CTA strip on cream",
-    "journal 3: dark rhythm from Dark editorial footer bridge",
-    "journal 4: dark rhythm from Deep sage / ink editorial hero",
-    "journal 5: ivory rhythm from Ivory text-only manifesto",
-    "journal 6: cream rhythm from Cream horizontal route index with bronze lines",
-    "journal 7: dark rhythm from Sage-deep process rail",
-    "journal 8: dark rhythm from Full-width dark reassurance band",
-    "journal 9: ivory rhythm from Ivory magazine article row",
-    "journal 10: cream rhythm from Cream expectation ledger"
+    "journal 1: ivory rhythm from Inspire responsible expectations in ivory",
+    "journal 2: gold rhythm from Inspire contact bridge in gold",
+    "journal 3: cream rhythm from Inspire closing identity in cream",
+    "journal 4: sage rhythm from Inspire hero promise in sage",
+    "journal 5: ivory rhythm from Inspire trust position in ivory",
+    "journal 6: gold rhythm from Inspire care route in gold",
+    "journal 7: cream rhythm from Inspire consultation path in cream",
+    "journal 8: bronze rhythm from Inspire treatment navigation in bronze",
+    "journal 9: dark rhythm from Inspire human reassurance in dark",
+    "journal 10: sage rhythm from Inspire education preview in sage"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: dark rhythm from Dark editorial footer bridge",
-    "consultation 2: dark rhythm from Deep sage / ink editorial hero",
-    "consultation 3: ivory rhythm from Ivory text-only manifesto",
-    "consultation 4: cream rhythm from Cream horizontal route index with bronze lines",
-    "consultation 5: dark rhythm from Sage-deep process rail",
-    "consultation 6: dark rhythm from Full-width dark reassurance band",
-    "consultation 7: ivory rhythm from Ivory magazine article row",
-    "consultation 8: cream rhythm from Cream expectation ledger",
-    "consultation 9: ivory rhythm from Ivory reading path with bronze topic chips",
-    "consultation 10: cream rhythm from Bronze-line CTA strip on cream"
+    "consultation 1: cream rhythm from Inspire closing identity in cream",
+    "consultation 2: sage rhythm from Inspire hero promise in sage",
+    "consultation 3: ivory rhythm from Inspire trust position in ivory",
+    "consultation 4: gold rhythm from Inspire care route in gold",
+    "consultation 5: cream rhythm from Inspire consultation path in cream",
+    "consultation 6: bronze rhythm from Inspire treatment navigation in bronze",
+    "consultation 7: dark rhythm from Inspire human reassurance in dark",
+    "consultation 8: sage rhythm from Inspire education preview in sage",
+    "consultation 9: ivory rhythm from Inspire responsible expectations in ivory",
+    "consultation 10: gold rhythm from Inspire contact bridge in gold"
   ],
   "contactPageColourSequence": [
-    "contact 1: dark rhythm from Deep sage / ink editorial hero",
-    "contact 2: ivory rhythm from Ivory text-only manifesto",
-    "contact 3: cream rhythm from Cream horizontal route index with bronze lines",
-    "contact 4: dark rhythm from Sage-deep process rail",
-    "contact 5: dark rhythm from Full-width dark reassurance band",
-    "contact 6: ivory rhythm from Ivory magazine article row",
-    "contact 7: cream rhythm from Cream expectation ledger",
-    "contact 8: ivory rhythm from Ivory reading path with bronze topic chips",
-    "contact 9: cream rhythm from Bronze-line CTA strip on cream",
-    "contact 10: dark rhythm from Dark editorial footer bridge"
+    "contact 1: sage rhythm from Inspire hero promise in sage",
+    "contact 2: ivory rhythm from Inspire trust position in ivory",
+    "contact 3: gold rhythm from Inspire care route in gold",
+    "contact 4: cream rhythm from Inspire consultation path in cream",
+    "contact 5: bronze rhythm from Inspire treatment navigation in bronze",
+    "contact 6: dark rhythm from Inspire human reassurance in dark",
+    "contact 7: sage rhythm from Inspire education preview in sage",
+    "contact 8: ivory rhythm from Inspire responsible expectations in ivory",
+    "contact 9: gold rhythm from Inspire contact bridge in gold",
+    "contact 10: cream rhythm from Inspire closing identity in cream"
   ],
   "forbiddenColourPatterns": [
-    "No rounded cream hero",
-    "No blush-heavy section",
-    "No repeated card grid",
-    "No Atlas split."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

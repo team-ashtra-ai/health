@@ -1,12 +1,12 @@
-# 41-vista — Wide Open Layout
+# 41-vista — Ultra Calm Consultation
 
 ## Visual Thesis
 
-A spacious wide-open website with expansive desktop breathing room and panoramic rhythm.
+Calma uses peaceful, slow, reassuring pacing with consultation first calm.
 
 ## Colour Thesis
 
-Ivory and cream expanses. Sage horizon bands. Gold line accents. Blush barely used.
+ivory, pale sage, cream
 
 ## Systems
 
@@ -21,159 +21,161 @@ Ivory and cream expanses. Sage horizon bands. Gold line accents. Blush barely us
 
 ## Homepage Colour Sequence
 
-1. Wide ivory vista hero
-2. Cream open trust
-3. Sage horizon route
-4. Ivory consultation panorama
-5. Cream reassurance expanse
-6. Sage education band
-7. Ivory results field
-8. Cream journal vista
-9. Gold horizon CTA
-10. Sage wide footer
+1. Calma hero promise in bronze
+2. Calma trust position in sage
+3. Calma care route in ivory
+4. Calma consultation path in cream
+5. Calma treatment navigation in gold
+6. Calma human reassurance in dark
+7. Calma education preview in bronze
+8. Calma responsible expectations in sage
+9. Calma contact bridge in ivory
+10. Calma closing identity in cream
 
 ## All Other Pages
 
-Use wide horizontal layouts and open panels.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No narrow card stacks
-- No dense grids
-- No dark-heavy pages.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "41-vista",
-  "colourThesis": "Ivory and cream expanses. Sage horizon bands. Gold line accents. Blush barely used.",
-  "dominantColourFamily": "sage",
-  "secondaryColourFamily": "ivory",
-  "accentColourFamily": "cream",
-  "contrastTemperature": "soft refined",
-  "darkUsage": "reserved for footer, text, or one anchor band",
-  "blushUsage": "purposeful warmth and guidance notes",
-  "sageUsage": "primary architecture",
+  "colourThesis": "ivory, pale sage, cream",
+  "dominantColourFamily": "dark",
+  "secondaryColourFamily": "sage",
+  "accentColourFamily": "ivory",
+  "contrastTemperature": "high editorial",
+  "darkUsage": "dominant structural field",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
+  "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "route-ledger; no universal cream-card default",
   "buttonStrategy": "split-quiet",
-  "footerColour": "Sage wide footer",
-  "mobileMenuColour": "Sage horizon route",
+  "footerColour": "Calma closing identity in cream",
+  "mobileMenuColour": "Calma care route in ivory",
   "homepageSectionColourSequence": [
-    "Wide ivory vista hero",
-    "Cream open trust",
-    "Sage horizon route",
-    "Ivory consultation panorama",
-    "Cream reassurance expanse",
-    "Sage education band",
-    "Ivory results field",
-    "Cream journal vista",
-    "Gold horizon CTA",
-    "Sage wide footer"
+    "Calma hero promise in bronze",
+    "Calma trust position in sage",
+    "Calma care route in ivory",
+    "Calma consultation path in cream",
+    "Calma treatment navigation in gold",
+    "Calma human reassurance in dark",
+    "Calma education preview in bronze",
+    "Calma responsible expectations in sage",
+    "Calma contact bridge in ivory",
+    "Calma closing identity in cream"
   ],
   "aboutPageColourSequence": [
-    "about 1: sage rhythm from Sage horizon route",
-    "about 2: ivory rhythm from Ivory consultation panorama",
-    "about 3: cream rhythm from Cream reassurance expanse",
-    "about 4: sage rhythm from Sage education band",
-    "about 5: ivory rhythm from Ivory results field",
-    "about 6: cream rhythm from Cream journal vista",
-    "about 7: gold rhythm from Gold horizon CTA",
-    "about 8: sage rhythm from Sage wide footer",
-    "about 9: ivory rhythm from Wide ivory vista hero",
-    "about 10: cream rhythm from Cream open trust"
+    "about 1: ivory rhythm from Calma care route in ivory",
+    "about 2: cream rhythm from Calma consultation path in cream",
+    "about 3: gold rhythm from Calma treatment navigation in gold",
+    "about 4: dark rhythm from Calma human reassurance in dark",
+    "about 5: bronze rhythm from Calma education preview in bronze",
+    "about 6: sage rhythm from Calma responsible expectations in sage",
+    "about 7: ivory rhythm from Calma contact bridge in ivory",
+    "about 8: cream rhythm from Calma closing identity in cream",
+    "about 9: bronze rhythm from Calma hero promise in bronze",
+    "about 10: sage rhythm from Calma trust position in sage"
   ],
   "carePageColourSequence": [
-    "care 1: ivory rhythm from Ivory consultation panorama",
-    "care 2: cream rhythm from Cream reassurance expanse",
-    "care 3: sage rhythm from Sage education band",
-    "care 4: ivory rhythm from Ivory results field",
-    "care 5: cream rhythm from Cream journal vista",
-    "care 6: gold rhythm from Gold horizon CTA",
-    "care 7: sage rhythm from Sage wide footer",
-    "care 8: ivory rhythm from Wide ivory vista hero",
-    "care 9: cream rhythm from Cream open trust",
-    "care 10: sage rhythm from Sage horizon route"
+    "care 1: cream rhythm from Calma consultation path in cream",
+    "care 2: gold rhythm from Calma treatment navigation in gold",
+    "care 3: dark rhythm from Calma human reassurance in dark",
+    "care 4: bronze rhythm from Calma education preview in bronze",
+    "care 5: sage rhythm from Calma responsible expectations in sage",
+    "care 6: ivory rhythm from Calma contact bridge in ivory",
+    "care 7: cream rhythm from Calma closing identity in cream",
+    "care 8: bronze rhythm from Calma hero promise in bronze",
+    "care 9: sage rhythm from Calma trust position in sage",
+    "care 10: ivory rhythm from Calma care route in ivory"
   ],
   "laserPageColourSequence": [
-    "laser 1: cream rhythm from Cream reassurance expanse",
-    "laser 2: sage rhythm from Sage education band",
-    "laser 3: ivory rhythm from Ivory results field",
-    "laser 4: cream rhythm from Cream journal vista",
-    "laser 5: gold rhythm from Gold horizon CTA",
-    "laser 6: sage rhythm from Sage wide footer",
-    "laser 7: ivory rhythm from Wide ivory vista hero",
-    "laser 8: cream rhythm from Cream open trust",
-    "laser 9: sage rhythm from Sage horizon route",
-    "laser 10: ivory rhythm from Ivory consultation panorama"
+    "laser 1: gold rhythm from Calma treatment navigation in gold",
+    "laser 2: dark rhythm from Calma human reassurance in dark",
+    "laser 3: bronze rhythm from Calma education preview in bronze",
+    "laser 4: sage rhythm from Calma responsible expectations in sage",
+    "laser 5: ivory rhythm from Calma contact bridge in ivory",
+    "laser 6: cream rhythm from Calma closing identity in cream",
+    "laser 7: bronze rhythm from Calma hero promise in bronze",
+    "laser 8: sage rhythm from Calma trust position in sage",
+    "laser 9: ivory rhythm from Calma care route in ivory",
+    "laser 10: cream rhythm from Calma consultation path in cream"
   ],
   "skinPageColourSequence": [
-    "skin 1: sage rhythm from Sage education band",
-    "skin 2: ivory rhythm from Ivory results field",
-    "skin 3: cream rhythm from Cream journal vista",
-    "skin 4: gold rhythm from Gold horizon CTA",
-    "skin 5: sage rhythm from Sage wide footer",
-    "skin 6: ivory rhythm from Wide ivory vista hero",
-    "skin 7: cream rhythm from Cream open trust",
-    "skin 8: sage rhythm from Sage horizon route",
-    "skin 9: ivory rhythm from Ivory consultation panorama",
-    "skin 10: cream rhythm from Cream reassurance expanse"
+    "skin 1: dark rhythm from Calma human reassurance in dark",
+    "skin 2: bronze rhythm from Calma education preview in bronze",
+    "skin 3: sage rhythm from Calma responsible expectations in sage",
+    "skin 4: ivory rhythm from Calma contact bridge in ivory",
+    "skin 5: cream rhythm from Calma closing identity in cream",
+    "skin 6: bronze rhythm from Calma hero promise in bronze",
+    "skin 7: sage rhythm from Calma trust position in sage",
+    "skin 8: ivory rhythm from Calma care route in ivory",
+    "skin 9: cream rhythm from Calma consultation path in cream",
+    "skin 10: gold rhythm from Calma treatment navigation in gold"
   ],
   "resultsPageColourSequence": [
-    "results 1: ivory rhythm from Ivory results field",
-    "results 2: cream rhythm from Cream journal vista",
-    "results 3: gold rhythm from Gold horizon CTA",
-    "results 4: sage rhythm from Sage wide footer",
-    "results 5: ivory rhythm from Wide ivory vista hero",
-    "results 6: cream rhythm from Cream open trust",
-    "results 7: sage rhythm from Sage horizon route",
-    "results 8: ivory rhythm from Ivory consultation panorama",
-    "results 9: cream rhythm from Cream reassurance expanse",
-    "results 10: sage rhythm from Sage education band"
+    "results 1: bronze rhythm from Calma education preview in bronze",
+    "results 2: sage rhythm from Calma responsible expectations in sage",
+    "results 3: ivory rhythm from Calma contact bridge in ivory",
+    "results 4: cream rhythm from Calma closing identity in cream",
+    "results 5: bronze rhythm from Calma hero promise in bronze",
+    "results 6: sage rhythm from Calma trust position in sage",
+    "results 7: ivory rhythm from Calma care route in ivory",
+    "results 8: cream rhythm from Calma consultation path in cream",
+    "results 9: gold rhythm from Calma treatment navigation in gold",
+    "results 10: dark rhythm from Calma human reassurance in dark"
   ],
   "journalPageColourSequence": [
-    "journal 1: cream rhythm from Cream journal vista",
-    "journal 2: gold rhythm from Gold horizon CTA",
-    "journal 3: sage rhythm from Sage wide footer",
-    "journal 4: ivory rhythm from Wide ivory vista hero",
-    "journal 5: cream rhythm from Cream open trust",
-    "journal 6: sage rhythm from Sage horizon route",
-    "journal 7: ivory rhythm from Ivory consultation panorama",
-    "journal 8: cream rhythm from Cream reassurance expanse",
-    "journal 9: sage rhythm from Sage education band",
-    "journal 10: ivory rhythm from Ivory results field"
+    "journal 1: sage rhythm from Calma responsible expectations in sage",
+    "journal 2: ivory rhythm from Calma contact bridge in ivory",
+    "journal 3: cream rhythm from Calma closing identity in cream",
+    "journal 4: bronze rhythm from Calma hero promise in bronze",
+    "journal 5: sage rhythm from Calma trust position in sage",
+    "journal 6: ivory rhythm from Calma care route in ivory",
+    "journal 7: cream rhythm from Calma consultation path in cream",
+    "journal 8: gold rhythm from Calma treatment navigation in gold",
+    "journal 9: dark rhythm from Calma human reassurance in dark",
+    "journal 10: bronze rhythm from Calma education preview in bronze"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: sage rhythm from Sage wide footer",
-    "consultation 2: ivory rhythm from Wide ivory vista hero",
-    "consultation 3: cream rhythm from Cream open trust",
-    "consultation 4: sage rhythm from Sage horizon route",
-    "consultation 5: ivory rhythm from Ivory consultation panorama",
-    "consultation 6: cream rhythm from Cream reassurance expanse",
-    "consultation 7: sage rhythm from Sage education band",
-    "consultation 8: ivory rhythm from Ivory results field",
-    "consultation 9: cream rhythm from Cream journal vista",
-    "consultation 10: gold rhythm from Gold horizon CTA"
+    "consultation 1: cream rhythm from Calma closing identity in cream",
+    "consultation 2: bronze rhythm from Calma hero promise in bronze",
+    "consultation 3: sage rhythm from Calma trust position in sage",
+    "consultation 4: ivory rhythm from Calma care route in ivory",
+    "consultation 5: cream rhythm from Calma consultation path in cream",
+    "consultation 6: gold rhythm from Calma treatment navigation in gold",
+    "consultation 7: dark rhythm from Calma human reassurance in dark",
+    "consultation 8: bronze rhythm from Calma education preview in bronze",
+    "consultation 9: sage rhythm from Calma responsible expectations in sage",
+    "consultation 10: ivory rhythm from Calma contact bridge in ivory"
   ],
   "contactPageColourSequence": [
-    "contact 1: ivory rhythm from Wide ivory vista hero",
-    "contact 2: cream rhythm from Cream open trust",
-    "contact 3: sage rhythm from Sage horizon route",
-    "contact 4: ivory rhythm from Ivory consultation panorama",
-    "contact 5: cream rhythm from Cream reassurance expanse",
-    "contact 6: sage rhythm from Sage education band",
-    "contact 7: ivory rhythm from Ivory results field",
-    "contact 8: cream rhythm from Cream journal vista",
-    "contact 9: gold rhythm from Gold horizon CTA",
-    "contact 10: sage rhythm from Sage wide footer"
+    "contact 1: bronze rhythm from Calma hero promise in bronze",
+    "contact 2: sage rhythm from Calma trust position in sage",
+    "contact 3: ivory rhythm from Calma care route in ivory",
+    "contact 4: cream rhythm from Calma consultation path in cream",
+    "contact 5: gold rhythm from Calma treatment navigation in gold",
+    "contact 6: dark rhythm from Calma human reassurance in dark",
+    "contact 7: bronze rhythm from Calma education preview in bronze",
+    "contact 8: sage rhythm from Calma responsible expectations in sage",
+    "contact 9: ivory rhythm from Calma contact bridge in ivory",
+    "contact 10: cream rhythm from Calma closing identity in cream"
   ],
   "forbiddenColourPatterns": [
-    "No narrow card stacks",
-    "No dense grids",
-    "No dark-heavy pages."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

@@ -1,12 +1,12 @@
-# 44-safeguard — Trust and Safety
+# 44-safeguard — Brazilian Botanical Luxury
 
 ## Visual Thesis
 
-A trust-first site focused on safety, boundaries, clarity, and responsible expectations.
+Jardim uses lush but controlled botanical pacing with Brazilian garden atmosphere.
 
 ## Colour Thesis
 
-Ivory/clinical cream. Sage trust blocks. Ink safety text. Bronze boundary lines. Blush only for caution/help notes.
+deep green, sage, ivory, warm gold
 
 ## Systems
 
@@ -21,159 +21,161 @@ Ivory/clinical cream. Sage trust blocks. Ink safety text. Bronze boundary lines.
 
 ## Homepage Colour Sequence
 
-1. Ivory safeguard hero
-2. Sage trust ledger
-3. Cream service boundaries
-4. Ivory consultation safety
-5. Blush help/caution note
-6. Sage education reassurance
-7. Cream results responsibility
-8. Ivory FAQ/journal safety
-9. Bronze trust CTA
-10. Deep sage safety footer
+1. Jardim hero promise in ivory
+2. Jardim trust position in gold
+3. Jardim care route in cream
+4. Jardim consultation path in bronze
+5. Jardim treatment navigation in dark
+6. Jardim human reassurance in sage
+7. Jardim education preview in ivory
+8. Jardim responsible expectations in gold
+9. Jardim contact bridge in cream
+10. Jardim closing identity in bronze
 
 ## All Other Pages
 
-Use ledgers, responsible notes, and boundary boxes.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No fake proof
-- No exaggerated result styling
-- No luxury drama.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "44-safeguard",
-  "colourThesis": "Ivory/clinical cream. Sage trust blocks. Ink safety text. Bronze boundary lines. Blush only for caution/help notes.",
-  "dominantColourFamily": "ink",
-  "secondaryColourFamily": "dark",
-  "accentColourFamily": "sage",
+  "colourThesis": "deep green, sage, ivory, warm gold",
+  "dominantColourFamily": "dark",
+  "secondaryColourFamily": "sage",
+  "accentColourFamily": "ivory",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "shape-field; no universal cream-card default",
   "buttonStrategy": "single-rule",
-  "footerColour": "Deep sage safety footer",
-  "mobileMenuColour": "Sage education reassurance",
+  "footerColour": "Jardim closing identity in bronze",
+  "mobileMenuColour": "Jardim human reassurance in sage",
   "homepageSectionColourSequence": [
-    "Ivory safeguard hero",
-    "Sage trust ledger",
-    "Cream service boundaries",
-    "Ivory consultation safety",
-    "Blush help/caution note",
-    "Sage education reassurance",
-    "Cream results responsibility",
-    "Ivory FAQ/journal safety",
-    "Bronze trust CTA",
-    "Deep sage safety footer"
+    "Jardim hero promise in ivory",
+    "Jardim trust position in gold",
+    "Jardim care route in cream",
+    "Jardim consultation path in bronze",
+    "Jardim treatment navigation in dark",
+    "Jardim human reassurance in sage",
+    "Jardim education preview in ivory",
+    "Jardim responsible expectations in gold",
+    "Jardim contact bridge in cream",
+    "Jardim closing identity in bronze"
   ],
   "aboutPageColourSequence": [
-    "about 1: sage rhythm from Sage education reassurance",
-    "about 2: cream rhythm from Cream results responsibility",
-    "about 3: ivory rhythm from Ivory FAQ/journal safety",
-    "about 4: bronze rhythm from Bronze trust CTA",
-    "about 5: dark rhythm from Deep sage safety footer",
-    "about 6: ivory rhythm from Ivory safeguard hero",
-    "about 7: sage rhythm from Sage trust ledger",
-    "about 8: cream rhythm from Cream service boundaries",
-    "about 9: ivory rhythm from Ivory consultation safety",
-    "about 10: blush rhythm from Blush help/caution note"
+    "about 1: sage rhythm from Jardim human reassurance in sage",
+    "about 2: ivory rhythm from Jardim education preview in ivory",
+    "about 3: gold rhythm from Jardim responsible expectations in gold",
+    "about 4: cream rhythm from Jardim contact bridge in cream",
+    "about 5: bronze rhythm from Jardim closing identity in bronze",
+    "about 6: ivory rhythm from Jardim hero promise in ivory",
+    "about 7: gold rhythm from Jardim trust position in gold",
+    "about 8: cream rhythm from Jardim care route in cream",
+    "about 9: bronze rhythm from Jardim consultation path in bronze",
+    "about 10: dark rhythm from Jardim treatment navigation in dark"
   ],
   "carePageColourSequence": [
-    "care 1: cream rhythm from Cream results responsibility",
-    "care 2: ivory rhythm from Ivory FAQ/journal safety",
-    "care 3: bronze rhythm from Bronze trust CTA",
-    "care 4: dark rhythm from Deep sage safety footer",
-    "care 5: ivory rhythm from Ivory safeguard hero",
-    "care 6: sage rhythm from Sage trust ledger",
-    "care 7: cream rhythm from Cream service boundaries",
-    "care 8: ivory rhythm from Ivory consultation safety",
-    "care 9: blush rhythm from Blush help/caution note",
-    "care 10: sage rhythm from Sage education reassurance"
+    "care 1: ivory rhythm from Jardim education preview in ivory",
+    "care 2: gold rhythm from Jardim responsible expectations in gold",
+    "care 3: cream rhythm from Jardim contact bridge in cream",
+    "care 4: bronze rhythm from Jardim closing identity in bronze",
+    "care 5: ivory rhythm from Jardim hero promise in ivory",
+    "care 6: gold rhythm from Jardim trust position in gold",
+    "care 7: cream rhythm from Jardim care route in cream",
+    "care 8: bronze rhythm from Jardim consultation path in bronze",
+    "care 9: dark rhythm from Jardim treatment navigation in dark",
+    "care 10: sage rhythm from Jardim human reassurance in sage"
   ],
   "laserPageColourSequence": [
-    "laser 1: ivory rhythm from Ivory FAQ/journal safety",
-    "laser 2: bronze rhythm from Bronze trust CTA",
-    "laser 3: dark rhythm from Deep sage safety footer",
-    "laser 4: ivory rhythm from Ivory safeguard hero",
-    "laser 5: sage rhythm from Sage trust ledger",
-    "laser 6: cream rhythm from Cream service boundaries",
-    "laser 7: ivory rhythm from Ivory consultation safety",
-    "laser 8: blush rhythm from Blush help/caution note",
-    "laser 9: sage rhythm from Sage education reassurance",
-    "laser 10: cream rhythm from Cream results responsibility"
+    "laser 1: gold rhythm from Jardim responsible expectations in gold",
+    "laser 2: cream rhythm from Jardim contact bridge in cream",
+    "laser 3: bronze rhythm from Jardim closing identity in bronze",
+    "laser 4: ivory rhythm from Jardim hero promise in ivory",
+    "laser 5: gold rhythm from Jardim trust position in gold",
+    "laser 6: cream rhythm from Jardim care route in cream",
+    "laser 7: bronze rhythm from Jardim consultation path in bronze",
+    "laser 8: dark rhythm from Jardim treatment navigation in dark",
+    "laser 9: sage rhythm from Jardim human reassurance in sage",
+    "laser 10: ivory rhythm from Jardim education preview in ivory"
   ],
   "skinPageColourSequence": [
-    "skin 1: bronze rhythm from Bronze trust CTA",
-    "skin 2: dark rhythm from Deep sage safety footer",
-    "skin 3: ivory rhythm from Ivory safeguard hero",
-    "skin 4: sage rhythm from Sage trust ledger",
-    "skin 5: cream rhythm from Cream service boundaries",
-    "skin 6: ivory rhythm from Ivory consultation safety",
-    "skin 7: blush rhythm from Blush help/caution note",
-    "skin 8: sage rhythm from Sage education reassurance",
-    "skin 9: cream rhythm from Cream results responsibility",
-    "skin 10: ivory rhythm from Ivory FAQ/journal safety"
+    "skin 1: cream rhythm from Jardim contact bridge in cream",
+    "skin 2: bronze rhythm from Jardim closing identity in bronze",
+    "skin 3: ivory rhythm from Jardim hero promise in ivory",
+    "skin 4: gold rhythm from Jardim trust position in gold",
+    "skin 5: cream rhythm from Jardim care route in cream",
+    "skin 6: bronze rhythm from Jardim consultation path in bronze",
+    "skin 7: dark rhythm from Jardim treatment navigation in dark",
+    "skin 8: sage rhythm from Jardim human reassurance in sage",
+    "skin 9: ivory rhythm from Jardim education preview in ivory",
+    "skin 10: gold rhythm from Jardim responsible expectations in gold"
   ],
   "resultsPageColourSequence": [
-    "results 1: dark rhythm from Deep sage safety footer",
-    "results 2: ivory rhythm from Ivory safeguard hero",
-    "results 3: sage rhythm from Sage trust ledger",
-    "results 4: cream rhythm from Cream service boundaries",
-    "results 5: ivory rhythm from Ivory consultation safety",
-    "results 6: blush rhythm from Blush help/caution note",
-    "results 7: sage rhythm from Sage education reassurance",
-    "results 8: cream rhythm from Cream results responsibility",
-    "results 9: ivory rhythm from Ivory FAQ/journal safety",
-    "results 10: bronze rhythm from Bronze trust CTA"
+    "results 1: bronze rhythm from Jardim closing identity in bronze",
+    "results 2: ivory rhythm from Jardim hero promise in ivory",
+    "results 3: gold rhythm from Jardim trust position in gold",
+    "results 4: cream rhythm from Jardim care route in cream",
+    "results 5: bronze rhythm from Jardim consultation path in bronze",
+    "results 6: dark rhythm from Jardim treatment navigation in dark",
+    "results 7: sage rhythm from Jardim human reassurance in sage",
+    "results 8: ivory rhythm from Jardim education preview in ivory",
+    "results 9: gold rhythm from Jardim responsible expectations in gold",
+    "results 10: cream rhythm from Jardim contact bridge in cream"
   ],
   "journalPageColourSequence": [
-    "journal 1: ivory rhythm from Ivory safeguard hero",
-    "journal 2: sage rhythm from Sage trust ledger",
-    "journal 3: cream rhythm from Cream service boundaries",
-    "journal 4: ivory rhythm from Ivory consultation safety",
-    "journal 5: blush rhythm from Blush help/caution note",
-    "journal 6: sage rhythm from Sage education reassurance",
-    "journal 7: cream rhythm from Cream results responsibility",
-    "journal 8: ivory rhythm from Ivory FAQ/journal safety",
-    "journal 9: bronze rhythm from Bronze trust CTA",
-    "journal 10: dark rhythm from Deep sage safety footer"
+    "journal 1: ivory rhythm from Jardim hero promise in ivory",
+    "journal 2: gold rhythm from Jardim trust position in gold",
+    "journal 3: cream rhythm from Jardim care route in cream",
+    "journal 4: bronze rhythm from Jardim consultation path in bronze",
+    "journal 5: dark rhythm from Jardim treatment navigation in dark",
+    "journal 6: sage rhythm from Jardim human reassurance in sage",
+    "journal 7: ivory rhythm from Jardim education preview in ivory",
+    "journal 8: gold rhythm from Jardim responsible expectations in gold",
+    "journal 9: cream rhythm from Jardim contact bridge in cream",
+    "journal 10: bronze rhythm from Jardim closing identity in bronze"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: cream rhythm from Cream service boundaries",
-    "consultation 2: ivory rhythm from Ivory consultation safety",
-    "consultation 3: blush rhythm from Blush help/caution note",
-    "consultation 4: sage rhythm from Sage education reassurance",
-    "consultation 5: cream rhythm from Cream results responsibility",
-    "consultation 6: ivory rhythm from Ivory FAQ/journal safety",
-    "consultation 7: bronze rhythm from Bronze trust CTA",
-    "consultation 8: dark rhythm from Deep sage safety footer",
-    "consultation 9: ivory rhythm from Ivory safeguard hero",
-    "consultation 10: sage rhythm from Sage trust ledger"
+    "consultation 1: cream rhythm from Jardim care route in cream",
+    "consultation 2: bronze rhythm from Jardim consultation path in bronze",
+    "consultation 3: dark rhythm from Jardim treatment navigation in dark",
+    "consultation 4: sage rhythm from Jardim human reassurance in sage",
+    "consultation 5: ivory rhythm from Jardim education preview in ivory",
+    "consultation 6: gold rhythm from Jardim responsible expectations in gold",
+    "consultation 7: cream rhythm from Jardim contact bridge in cream",
+    "consultation 8: bronze rhythm from Jardim closing identity in bronze",
+    "consultation 9: ivory rhythm from Jardim hero promise in ivory",
+    "consultation 10: gold rhythm from Jardim trust position in gold"
   ],
   "contactPageColourSequence": [
-    "contact 1: ivory rhythm from Ivory consultation safety",
-    "contact 2: blush rhythm from Blush help/caution note",
-    "contact 3: sage rhythm from Sage education reassurance",
-    "contact 4: cream rhythm from Cream results responsibility",
-    "contact 5: ivory rhythm from Ivory FAQ/journal safety",
-    "contact 6: bronze rhythm from Bronze trust CTA",
-    "contact 7: dark rhythm from Deep sage safety footer",
-    "contact 8: ivory rhythm from Ivory safeguard hero",
-    "contact 9: sage rhythm from Sage trust ledger",
-    "contact 10: cream rhythm from Cream service boundaries"
+    "contact 1: bronze rhythm from Jardim consultation path in bronze",
+    "contact 2: dark rhythm from Jardim treatment navigation in dark",
+    "contact 3: sage rhythm from Jardim human reassurance in sage",
+    "contact 4: ivory rhythm from Jardim education preview in ivory",
+    "contact 5: gold rhythm from Jardim responsible expectations in gold",
+    "contact 6: cream rhythm from Jardim contact bridge in cream",
+    "contact 7: bronze rhythm from Jardim closing identity in bronze",
+    "contact 8: ivory rhythm from Jardim hero promise in ivory",
+    "contact 9: gold rhythm from Jardim trust position in gold",
+    "contact 10: cream rhythm from Jardim care route in cream"
   ],
   "forbiddenColourPatterns": [
-    "No fake proof",
-    "No exaggerated result styling",
-    "No luxury drama."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

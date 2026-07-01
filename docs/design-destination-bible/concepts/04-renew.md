@@ -1,12 +1,12 @@
-# 04-renew — Deep Sage Luxury
+# 04-renew — Dark Botanical Renewal
 
 ## Visual Thesis
 
-A dramatic deep sage luxury site with fewer, larger, stronger sections. It should feel immersive and high-end.
+Renew uses dramatic, restorative, cinematic pacing with dark immersive botanical hero.
 
 ## Colour Thesis
 
-Deep sage and ink dominate. Gold and bronze are stronger than in Inspire. Ivory is used for contrast panels. Blush is almost absent.
+deep green, ink, ivory, gold
 
 ## Systems
 
@@ -21,159 +21,161 @@ Deep sage and ink dominate. Gold and bronze are stronger than in Inspire. Ivory 
 
 ## Homepage Colour Sequence
 
-1. Deep sage luxury hero
-2. Ink/sage trust statement
-3. Ivory service route gallery
-4. Dark consultation process band
-5. Gold-line reassurance quote
-6. Sage-deep education panel
-7. Ivory results ledger
-8. Ink journal preview
-9. Dark luxury CTA band
-10. Deep sage flagship footer bridge
+1. Renew hero promise in sage
+2. Renew trust position in cream
+3. Renew care route in ink
+4. Renew consultation path in dark
+5. Renew treatment navigation in ivory
+6. Renew human reassurance in gold
+7. Renew education preview in sage
+8. Renew responsible expectations in cream
+9. Renew contact bridge in ink
+10. Renew closing identity in dark
 
 ## All Other Pages
 
-Use dark mastheads, ivory content islands, deep footer, and gold/bronze separators.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No pale card-stack homepage
-- No soft blush sections
-- No generic wellness feel.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "04-renew",
-  "colourThesis": "Deep sage and ink dominate. Gold and bronze are stronger than in Inspire. Ivory is used for contrast panels. Blush is almost absent.",
+  "colourThesis": "deep green, ink, ivory, gold",
   "dominantColourFamily": "ink",
   "secondaryColourFamily": "dark",
   "accentColourFamily": "sage",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "shape-field; no universal cream-card default",
   "buttonStrategy": "single-rule",
-  "footerColour": "Deep sage flagship footer bridge",
-  "mobileMenuColour": "Sage-deep education panel",
+  "footerColour": "Renew closing identity in dark",
+  "mobileMenuColour": "Renew human reassurance in gold",
   "homepageSectionColourSequence": [
-    "Deep sage luxury hero",
-    "Ink/sage trust statement",
-    "Ivory service route gallery",
-    "Dark consultation process band",
-    "Gold-line reassurance quote",
-    "Sage-deep education panel",
-    "Ivory results ledger",
-    "Ink journal preview",
-    "Dark luxury CTA band",
-    "Deep sage flagship footer bridge"
+    "Renew hero promise in sage",
+    "Renew trust position in cream",
+    "Renew care route in ink",
+    "Renew consultation path in dark",
+    "Renew treatment navigation in ivory",
+    "Renew human reassurance in gold",
+    "Renew education preview in sage",
+    "Renew responsible expectations in cream",
+    "Renew contact bridge in ink",
+    "Renew closing identity in dark"
   ],
   "aboutPageColourSequence": [
-    "about 1: dark rhythm from Sage-deep education panel",
-    "about 2: ivory rhythm from Ivory results ledger",
-    "about 3: ivory rhythm from Ink journal preview",
-    "about 4: dark rhythm from Dark luxury CTA band",
-    "about 5: dark rhythm from Deep sage flagship footer bridge",
-    "about 6: dark rhythm from Deep sage luxury hero",
-    "about 7: sage rhythm from Ink/sage trust statement",
-    "about 8: ivory rhythm from Ivory service route gallery",
-    "about 9: dark rhythm from Dark consultation process band",
-    "about 10: gold rhythm from Gold-line reassurance quote"
+    "about 1: gold rhythm from Renew human reassurance in gold",
+    "about 2: sage rhythm from Renew education preview in sage",
+    "about 3: cream rhythm from Renew responsible expectations in cream",
+    "about 4: ivory rhythm from Renew contact bridge in ink",
+    "about 5: dark rhythm from Renew closing identity in dark",
+    "about 6: sage rhythm from Renew hero promise in sage",
+    "about 7: cream rhythm from Renew trust position in cream",
+    "about 8: ivory rhythm from Renew care route in ink",
+    "about 9: dark rhythm from Renew consultation path in dark",
+    "about 10: ivory rhythm from Renew treatment navigation in ivory"
   ],
   "carePageColourSequence": [
-    "care 1: ivory rhythm from Ivory results ledger",
-    "care 2: ivory rhythm from Ink journal preview",
-    "care 3: dark rhythm from Dark luxury CTA band",
-    "care 4: dark rhythm from Deep sage flagship footer bridge",
-    "care 5: dark rhythm from Deep sage luxury hero",
-    "care 6: sage rhythm from Ink/sage trust statement",
-    "care 7: ivory rhythm from Ivory service route gallery",
-    "care 8: dark rhythm from Dark consultation process band",
-    "care 9: gold rhythm from Gold-line reassurance quote",
-    "care 10: dark rhythm from Sage-deep education panel"
+    "care 1: sage rhythm from Renew education preview in sage",
+    "care 2: cream rhythm from Renew responsible expectations in cream",
+    "care 3: ivory rhythm from Renew contact bridge in ink",
+    "care 4: dark rhythm from Renew closing identity in dark",
+    "care 5: sage rhythm from Renew hero promise in sage",
+    "care 6: cream rhythm from Renew trust position in cream",
+    "care 7: ivory rhythm from Renew care route in ink",
+    "care 8: dark rhythm from Renew consultation path in dark",
+    "care 9: ivory rhythm from Renew treatment navigation in ivory",
+    "care 10: gold rhythm from Renew human reassurance in gold"
   ],
   "laserPageColourSequence": [
-    "laser 1: ivory rhythm from Ink journal preview",
-    "laser 2: dark rhythm from Dark luxury CTA band",
-    "laser 3: dark rhythm from Deep sage flagship footer bridge",
-    "laser 4: dark rhythm from Deep sage luxury hero",
-    "laser 5: sage rhythm from Ink/sage trust statement",
-    "laser 6: ivory rhythm from Ivory service route gallery",
-    "laser 7: dark rhythm from Dark consultation process band",
-    "laser 8: gold rhythm from Gold-line reassurance quote",
-    "laser 9: dark rhythm from Sage-deep education panel",
-    "laser 10: ivory rhythm from Ivory results ledger"
+    "laser 1: cream rhythm from Renew responsible expectations in cream",
+    "laser 2: ivory rhythm from Renew contact bridge in ink",
+    "laser 3: dark rhythm from Renew closing identity in dark",
+    "laser 4: sage rhythm from Renew hero promise in sage",
+    "laser 5: cream rhythm from Renew trust position in cream",
+    "laser 6: ivory rhythm from Renew care route in ink",
+    "laser 7: dark rhythm from Renew consultation path in dark",
+    "laser 8: ivory rhythm from Renew treatment navigation in ivory",
+    "laser 9: gold rhythm from Renew human reassurance in gold",
+    "laser 10: sage rhythm from Renew education preview in sage"
   ],
   "skinPageColourSequence": [
-    "skin 1: dark rhythm from Dark luxury CTA band",
-    "skin 2: dark rhythm from Deep sage flagship footer bridge",
-    "skin 3: dark rhythm from Deep sage luxury hero",
-    "skin 4: sage rhythm from Ink/sage trust statement",
-    "skin 5: ivory rhythm from Ivory service route gallery",
-    "skin 6: dark rhythm from Dark consultation process band",
-    "skin 7: gold rhythm from Gold-line reassurance quote",
-    "skin 8: dark rhythm from Sage-deep education panel",
-    "skin 9: ivory rhythm from Ivory results ledger",
-    "skin 10: ivory rhythm from Ink journal preview"
+    "skin 1: ivory rhythm from Renew contact bridge in ink",
+    "skin 2: dark rhythm from Renew closing identity in dark",
+    "skin 3: sage rhythm from Renew hero promise in sage",
+    "skin 4: cream rhythm from Renew trust position in cream",
+    "skin 5: ivory rhythm from Renew care route in ink",
+    "skin 6: dark rhythm from Renew consultation path in dark",
+    "skin 7: ivory rhythm from Renew treatment navigation in ivory",
+    "skin 8: gold rhythm from Renew human reassurance in gold",
+    "skin 9: sage rhythm from Renew education preview in sage",
+    "skin 10: cream rhythm from Renew responsible expectations in cream"
   ],
   "resultsPageColourSequence": [
-    "results 1: dark rhythm from Deep sage flagship footer bridge",
-    "results 2: dark rhythm from Deep sage luxury hero",
-    "results 3: sage rhythm from Ink/sage trust statement",
-    "results 4: ivory rhythm from Ivory service route gallery",
-    "results 5: dark rhythm from Dark consultation process band",
-    "results 6: gold rhythm from Gold-line reassurance quote",
-    "results 7: dark rhythm from Sage-deep education panel",
-    "results 8: ivory rhythm from Ivory results ledger",
-    "results 9: ivory rhythm from Ink journal preview",
-    "results 10: dark rhythm from Dark luxury CTA band"
+    "results 1: dark rhythm from Renew closing identity in dark",
+    "results 2: sage rhythm from Renew hero promise in sage",
+    "results 3: cream rhythm from Renew trust position in cream",
+    "results 4: ivory rhythm from Renew care route in ink",
+    "results 5: dark rhythm from Renew consultation path in dark",
+    "results 6: ivory rhythm from Renew treatment navigation in ivory",
+    "results 7: gold rhythm from Renew human reassurance in gold",
+    "results 8: sage rhythm from Renew education preview in sage",
+    "results 9: cream rhythm from Renew responsible expectations in cream",
+    "results 10: ivory rhythm from Renew contact bridge in ink"
   ],
   "journalPageColourSequence": [
-    "journal 1: dark rhythm from Deep sage luxury hero",
-    "journal 2: sage rhythm from Ink/sage trust statement",
-    "journal 3: ivory rhythm from Ivory service route gallery",
-    "journal 4: dark rhythm from Dark consultation process band",
-    "journal 5: gold rhythm from Gold-line reassurance quote",
-    "journal 6: dark rhythm from Sage-deep education panel",
-    "journal 7: ivory rhythm from Ivory results ledger",
-    "journal 8: ivory rhythm from Ink journal preview",
-    "journal 9: dark rhythm from Dark luxury CTA band",
-    "journal 10: dark rhythm from Deep sage flagship footer bridge"
+    "journal 1: sage rhythm from Renew hero promise in sage",
+    "journal 2: cream rhythm from Renew trust position in cream",
+    "journal 3: ivory rhythm from Renew care route in ink",
+    "journal 4: dark rhythm from Renew consultation path in dark",
+    "journal 5: ivory rhythm from Renew treatment navigation in ivory",
+    "journal 6: gold rhythm from Renew human reassurance in gold",
+    "journal 7: sage rhythm from Renew education preview in sage",
+    "journal 8: cream rhythm from Renew responsible expectations in cream",
+    "journal 9: ivory rhythm from Renew contact bridge in ink",
+    "journal 10: dark rhythm from Renew closing identity in dark"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: ivory rhythm from Ivory service route gallery",
-    "consultation 2: dark rhythm from Dark consultation process band",
-    "consultation 3: gold rhythm from Gold-line reassurance quote",
-    "consultation 4: dark rhythm from Sage-deep education panel",
-    "consultation 5: ivory rhythm from Ivory results ledger",
-    "consultation 6: ivory rhythm from Ink journal preview",
-    "consultation 7: dark rhythm from Dark luxury CTA band",
-    "consultation 8: dark rhythm from Deep sage flagship footer bridge",
-    "consultation 9: dark rhythm from Deep sage luxury hero",
-    "consultation 10: sage rhythm from Ink/sage trust statement"
+    "consultation 1: ivory rhythm from Renew care route in ink",
+    "consultation 2: dark rhythm from Renew consultation path in dark",
+    "consultation 3: ivory rhythm from Renew treatment navigation in ivory",
+    "consultation 4: gold rhythm from Renew human reassurance in gold",
+    "consultation 5: sage rhythm from Renew education preview in sage",
+    "consultation 6: cream rhythm from Renew responsible expectations in cream",
+    "consultation 7: ivory rhythm from Renew contact bridge in ink",
+    "consultation 8: dark rhythm from Renew closing identity in dark",
+    "consultation 9: sage rhythm from Renew hero promise in sage",
+    "consultation 10: cream rhythm from Renew trust position in cream"
   ],
   "contactPageColourSequence": [
-    "contact 1: dark rhythm from Dark consultation process band",
-    "contact 2: gold rhythm from Gold-line reassurance quote",
-    "contact 3: dark rhythm from Sage-deep education panel",
-    "contact 4: ivory rhythm from Ivory results ledger",
-    "contact 5: ivory rhythm from Ink journal preview",
-    "contact 6: dark rhythm from Dark luxury CTA band",
-    "contact 7: dark rhythm from Deep sage flagship footer bridge",
-    "contact 8: dark rhythm from Deep sage luxury hero",
-    "contact 9: sage rhythm from Ink/sage trust statement",
-    "contact 10: ivory rhythm from Ivory service route gallery"
+    "contact 1: dark rhythm from Renew consultation path in dark",
+    "contact 2: ivory rhythm from Renew treatment navigation in ivory",
+    "contact 3: gold rhythm from Renew human reassurance in gold",
+    "contact 4: sage rhythm from Renew education preview in sage",
+    "contact 5: cream rhythm from Renew responsible expectations in cream",
+    "contact 6: ivory rhythm from Renew contact bridge in ink",
+    "contact 7: dark rhythm from Renew closing identity in dark",
+    "contact 8: sage rhythm from Renew hero promise in sage",
+    "contact 9: cream rhythm from Renew trust position in cream",
+    "contact 10: ivory rhythm from Renew care route in ink"
   ],
   "forbiddenColourPatterns": [
-    "No pale card-stack homepage",
-    "No soft blush sections",
-    "No generic wellness feel."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

@@ -1,12 +1,12 @@
-# 10-essence — Minimal Portrait Story
+# 10-essence — Organic Quiet Luxury
 
 ## Visual Thesis
 
-A quiet minimal human-first website. It should feel intimate, restrained, and premium.
+Essence uses intimate, organic, refined pacing with warm quiet luxury with organic forms.
 
 ## Colour Thesis
 
-Ivory and cream dominate. Soft sage appears in quiet blocks. Blush is barely visible. Gold is almost absent.
+ivory, sand, pale sage, bronze
 
 ## Systems
 
@@ -21,159 +21,161 @@ Ivory and cream dominate. Soft sage appears in quiet blocks. Blush is barely vis
 
 ## Homepage Colour Sequence
 
-1. Ivory minimal portrait hero
-2. Cream text-only trust
-3. White/ivory route list
-4. Pale sage consultation note
-5. Ivory reassurance statement
-6. Cream education line
-7. Pale sage results note
-8. Ivory journal text links
-9. Cream quiet CTA
-10. Minimal sage footer bridge
+1. Essence hero promise in gold
+2. Essence trust position in dark
+3. Essence care route in sage
+4. Essence consultation path in ivory
+5. Essence treatment navigation in cream
+6. Essence human reassurance in bronze
+7. Essence education preview in gold
+8. Essence responsible expectations in dark
+9. Essence contact bridge in sage
+10. Essence closing identity in ivory
 
 ## All Other Pages
 
-Use low-density layouts, text-first sections, one or two portraits, no busy grids.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No strong dark bands
-- No bright blush
-- No dense route cards.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "10-essence",
-  "colourThesis": "Ivory and cream dominate. Soft sage appears in quiet blocks. Blush is barely visible. Gold is almost absent.",
-  "dominantColourFamily": "ink",
+  "colourThesis": "ivory, sand, pale sage, bronze",
+  "dominantColourFamily": "dark",
   "secondaryColourFamily": "sage",
   "accentColourFamily": "ivory",
-  "contrastTemperature": "soft refined",
-  "darkUsage": "reserved for footer, text, or one anchor band",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "contrastTemperature": "high editorial",
+  "darkUsage": "dominant structural field",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "technical-table; no universal cream-card default",
   "buttonStrategy": "dark-anchor",
-  "footerColour": "Minimal sage footer bridge",
-  "mobileMenuColour": "Cream text-only trust",
+  "footerColour": "Essence closing identity in ivory",
+  "mobileMenuColour": "Essence trust position in dark",
   "homepageSectionColourSequence": [
-    "Ivory minimal portrait hero",
-    "Cream text-only trust",
-    "White/ivory route list",
-    "Pale sage consultation note",
-    "Ivory reassurance statement",
-    "Cream education line",
-    "Pale sage results note",
-    "Ivory journal text links",
-    "Cream quiet CTA",
-    "Minimal sage footer bridge"
+    "Essence hero promise in gold",
+    "Essence trust position in dark",
+    "Essence care route in sage",
+    "Essence consultation path in ivory",
+    "Essence treatment navigation in cream",
+    "Essence human reassurance in bronze",
+    "Essence education preview in gold",
+    "Essence responsible expectations in dark",
+    "Essence contact bridge in sage",
+    "Essence closing identity in ivory"
   ],
   "aboutPageColourSequence": [
-    "about 1: cream rhythm from Cream text-only trust",
-    "about 2: ivory rhythm from White/ivory route list",
-    "about 3: sage rhythm from Pale sage consultation note",
-    "about 4: ivory rhythm from Ivory reassurance statement",
-    "about 5: cream rhythm from Cream education line",
-    "about 6: sage rhythm from Pale sage results note",
-    "about 7: ivory rhythm from Ivory journal text links",
-    "about 8: cream rhythm from Cream quiet CTA",
-    "about 9: sage rhythm from Minimal sage footer bridge",
-    "about 10: ivory rhythm from Ivory minimal portrait hero"
+    "about 1: dark rhythm from Essence trust position in dark",
+    "about 2: sage rhythm from Essence care route in sage",
+    "about 3: ivory rhythm from Essence consultation path in ivory",
+    "about 4: cream rhythm from Essence treatment navigation in cream",
+    "about 5: bronze rhythm from Essence human reassurance in bronze",
+    "about 6: gold rhythm from Essence education preview in gold",
+    "about 7: dark rhythm from Essence responsible expectations in dark",
+    "about 8: sage rhythm from Essence contact bridge in sage",
+    "about 9: ivory rhythm from Essence closing identity in ivory",
+    "about 10: gold rhythm from Essence hero promise in gold"
   ],
   "carePageColourSequence": [
-    "care 1: ivory rhythm from White/ivory route list",
-    "care 2: sage rhythm from Pale sage consultation note",
-    "care 3: ivory rhythm from Ivory reassurance statement",
-    "care 4: cream rhythm from Cream education line",
-    "care 5: sage rhythm from Pale sage results note",
-    "care 6: ivory rhythm from Ivory journal text links",
-    "care 7: cream rhythm from Cream quiet CTA",
-    "care 8: sage rhythm from Minimal sage footer bridge",
-    "care 9: ivory rhythm from Ivory minimal portrait hero",
-    "care 10: cream rhythm from Cream text-only trust"
+    "care 1: sage rhythm from Essence care route in sage",
+    "care 2: ivory rhythm from Essence consultation path in ivory",
+    "care 3: cream rhythm from Essence treatment navigation in cream",
+    "care 4: bronze rhythm from Essence human reassurance in bronze",
+    "care 5: gold rhythm from Essence education preview in gold",
+    "care 6: dark rhythm from Essence responsible expectations in dark",
+    "care 7: sage rhythm from Essence contact bridge in sage",
+    "care 8: ivory rhythm from Essence closing identity in ivory",
+    "care 9: gold rhythm from Essence hero promise in gold",
+    "care 10: dark rhythm from Essence trust position in dark"
   ],
   "laserPageColourSequence": [
-    "laser 1: sage rhythm from Pale sage consultation note",
-    "laser 2: ivory rhythm from Ivory reassurance statement",
-    "laser 3: cream rhythm from Cream education line",
-    "laser 4: sage rhythm from Pale sage results note",
-    "laser 5: ivory rhythm from Ivory journal text links",
-    "laser 6: cream rhythm from Cream quiet CTA",
-    "laser 7: sage rhythm from Minimal sage footer bridge",
-    "laser 8: ivory rhythm from Ivory minimal portrait hero",
-    "laser 9: cream rhythm from Cream text-only trust",
-    "laser 10: ivory rhythm from White/ivory route list"
+    "laser 1: ivory rhythm from Essence consultation path in ivory",
+    "laser 2: cream rhythm from Essence treatment navigation in cream",
+    "laser 3: bronze rhythm from Essence human reassurance in bronze",
+    "laser 4: gold rhythm from Essence education preview in gold",
+    "laser 5: dark rhythm from Essence responsible expectations in dark",
+    "laser 6: sage rhythm from Essence contact bridge in sage",
+    "laser 7: ivory rhythm from Essence closing identity in ivory",
+    "laser 8: gold rhythm from Essence hero promise in gold",
+    "laser 9: dark rhythm from Essence trust position in dark",
+    "laser 10: sage rhythm from Essence care route in sage"
   ],
   "skinPageColourSequence": [
-    "skin 1: ivory rhythm from Ivory reassurance statement",
-    "skin 2: cream rhythm from Cream education line",
-    "skin 3: sage rhythm from Pale sage results note",
-    "skin 4: ivory rhythm from Ivory journal text links",
-    "skin 5: cream rhythm from Cream quiet CTA",
-    "skin 6: sage rhythm from Minimal sage footer bridge",
-    "skin 7: ivory rhythm from Ivory minimal portrait hero",
-    "skin 8: cream rhythm from Cream text-only trust",
-    "skin 9: ivory rhythm from White/ivory route list",
-    "skin 10: sage rhythm from Pale sage consultation note"
+    "skin 1: cream rhythm from Essence treatment navigation in cream",
+    "skin 2: bronze rhythm from Essence human reassurance in bronze",
+    "skin 3: gold rhythm from Essence education preview in gold",
+    "skin 4: dark rhythm from Essence responsible expectations in dark",
+    "skin 5: sage rhythm from Essence contact bridge in sage",
+    "skin 6: ivory rhythm from Essence closing identity in ivory",
+    "skin 7: gold rhythm from Essence hero promise in gold",
+    "skin 8: dark rhythm from Essence trust position in dark",
+    "skin 9: sage rhythm from Essence care route in sage",
+    "skin 10: ivory rhythm from Essence consultation path in ivory"
   ],
   "resultsPageColourSequence": [
-    "results 1: cream rhythm from Cream education line",
-    "results 2: sage rhythm from Pale sage results note",
-    "results 3: ivory rhythm from Ivory journal text links",
-    "results 4: cream rhythm from Cream quiet CTA",
-    "results 5: sage rhythm from Minimal sage footer bridge",
-    "results 6: ivory rhythm from Ivory minimal portrait hero",
-    "results 7: cream rhythm from Cream text-only trust",
-    "results 8: ivory rhythm from White/ivory route list",
-    "results 9: sage rhythm from Pale sage consultation note",
-    "results 10: ivory rhythm from Ivory reassurance statement"
+    "results 1: bronze rhythm from Essence human reassurance in bronze",
+    "results 2: gold rhythm from Essence education preview in gold",
+    "results 3: dark rhythm from Essence responsible expectations in dark",
+    "results 4: sage rhythm from Essence contact bridge in sage",
+    "results 5: ivory rhythm from Essence closing identity in ivory",
+    "results 6: gold rhythm from Essence hero promise in gold",
+    "results 7: dark rhythm from Essence trust position in dark",
+    "results 8: sage rhythm from Essence care route in sage",
+    "results 9: ivory rhythm from Essence consultation path in ivory",
+    "results 10: cream rhythm from Essence treatment navigation in cream"
   ],
   "journalPageColourSequence": [
-    "journal 1: sage rhythm from Pale sage results note",
-    "journal 2: ivory rhythm from Ivory journal text links",
-    "journal 3: cream rhythm from Cream quiet CTA",
-    "journal 4: sage rhythm from Minimal sage footer bridge",
-    "journal 5: ivory rhythm from Ivory minimal portrait hero",
-    "journal 6: cream rhythm from Cream text-only trust",
-    "journal 7: ivory rhythm from White/ivory route list",
-    "journal 8: sage rhythm from Pale sage consultation note",
-    "journal 9: ivory rhythm from Ivory reassurance statement",
-    "journal 10: cream rhythm from Cream education line"
+    "journal 1: gold rhythm from Essence education preview in gold",
+    "journal 2: dark rhythm from Essence responsible expectations in dark",
+    "journal 3: sage rhythm from Essence contact bridge in sage",
+    "journal 4: ivory rhythm from Essence closing identity in ivory",
+    "journal 5: gold rhythm from Essence hero promise in gold",
+    "journal 6: dark rhythm from Essence trust position in dark",
+    "journal 7: sage rhythm from Essence care route in sage",
+    "journal 8: ivory rhythm from Essence consultation path in ivory",
+    "journal 9: cream rhythm from Essence treatment navigation in cream",
+    "journal 10: bronze rhythm from Essence human reassurance in bronze"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: cream rhythm from Cream quiet CTA",
-    "consultation 2: sage rhythm from Minimal sage footer bridge",
-    "consultation 3: ivory rhythm from Ivory minimal portrait hero",
-    "consultation 4: cream rhythm from Cream text-only trust",
-    "consultation 5: ivory rhythm from White/ivory route list",
-    "consultation 6: sage rhythm from Pale sage consultation note",
-    "consultation 7: ivory rhythm from Ivory reassurance statement",
-    "consultation 8: cream rhythm from Cream education line",
-    "consultation 9: sage rhythm from Pale sage results note",
-    "consultation 10: ivory rhythm from Ivory journal text links"
+    "consultation 1: sage rhythm from Essence contact bridge in sage",
+    "consultation 2: ivory rhythm from Essence closing identity in ivory",
+    "consultation 3: gold rhythm from Essence hero promise in gold",
+    "consultation 4: dark rhythm from Essence trust position in dark",
+    "consultation 5: sage rhythm from Essence care route in sage",
+    "consultation 6: ivory rhythm from Essence consultation path in ivory",
+    "consultation 7: cream rhythm from Essence treatment navigation in cream",
+    "consultation 8: bronze rhythm from Essence human reassurance in bronze",
+    "consultation 9: gold rhythm from Essence education preview in gold",
+    "consultation 10: dark rhythm from Essence responsible expectations in dark"
   ],
   "contactPageColourSequence": [
-    "contact 1: sage rhythm from Minimal sage footer bridge",
-    "contact 2: ivory rhythm from Ivory minimal portrait hero",
-    "contact 3: cream rhythm from Cream text-only trust",
-    "contact 4: ivory rhythm from White/ivory route list",
-    "contact 5: sage rhythm from Pale sage consultation note",
-    "contact 6: ivory rhythm from Ivory reassurance statement",
-    "contact 7: cream rhythm from Cream education line",
-    "contact 8: sage rhythm from Pale sage results note",
-    "contact 9: ivory rhythm from Ivory journal text links",
-    "contact 10: cream rhythm from Cream quiet CTA"
+    "contact 1: ivory rhythm from Essence closing identity in ivory",
+    "contact 2: gold rhythm from Essence hero promise in gold",
+    "contact 3: dark rhythm from Essence trust position in dark",
+    "contact 4: sage rhythm from Essence care route in sage",
+    "contact 5: ivory rhythm from Essence consultation path in ivory",
+    "contact 6: cream rhythm from Essence treatment navigation in cream",
+    "contact 7: bronze rhythm from Essence human reassurance in bronze",
+    "contact 8: gold rhythm from Essence education preview in gold",
+    "contact 9: dark rhythm from Essence responsible expectations in dark",
+    "contact 10: sage rhythm from Essence contact bridge in sage"
   ],
   "forbiddenColourPatterns": [
-    "No strong dark bands",
-    "No bright blush",
-    "No dense route cards."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

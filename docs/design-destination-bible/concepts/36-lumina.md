@@ -1,12 +1,12 @@
-# 36-lumina — Bright Premium
+# 36-lumina — Soft Breeze Skin Care
 
 ## Visual Thesis
 
-A luminous bright premium site with polished lightness and refined glow.
+Brisa uses soft, fresh, gentle pacing with breezy soft movement.
 
 ## Colour Thesis
 
-Luminous ivory, gold glow, pale sage, blush 50 for warmth. Dark text only.
+pale sage, ivory, blush, mist
 
 ## Systems
 
@@ -21,159 +21,161 @@ Luminous ivory, gold glow, pale sage, blush 50 for warmth. Dark text only.
 
 ## Homepage Colour Sequence
 
-1. Luminous ivory hero
-2. Pale sage light trust
-3. Cream route glow
-4. Ivory consultation light
-5. Gold reassurance line
-6. Sage education glow
-7. Cream results clarity
-8. Ivory journal light
-9. Gold luminous CTA
-10. Bright sage/ivory footer
+1. Brisa hero promise in sage
+2. Brisa trust position in ivory
+3. Brisa care route in cream
+4. Brisa consultation path in gold
+5. Brisa treatment navigation in dark
+6. Brisa human reassurance in bronze
+7. Brisa education preview in sage
+8. Brisa responsible expectations in ivory
+9. Brisa contact bridge in cream
+10. Brisa closing identity in gold
 
 ## All Other Pages
 
-Use luminous surfaces, soft highlights, and careful contrast.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No dark homepage
-- No dense layouts
-- No strong blush dominance.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "36-lumina",
-  "colourThesis": "Luminous ivory, gold glow, pale sage, blush 50 for warmth. Dark text only.",
+  "colourThesis": "pale sage, ivory, blush, mist",
   "dominantColourFamily": "dark",
   "secondaryColourFamily": "sage",
   "accentColourFamily": "ivory",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "route-ledger; no universal cream-card default",
   "buttonStrategy": "soft-pill",
-  "footerColour": "Bright sage/ivory footer",
-  "mobileMenuColour": "Ivory journal light",
+  "footerColour": "Brisa closing identity in gold",
+  "mobileMenuColour": "Brisa responsible expectations in ivory",
   "homepageSectionColourSequence": [
-    "Luminous ivory hero",
-    "Pale sage light trust",
-    "Cream route glow",
-    "Ivory consultation light",
-    "Gold reassurance line",
-    "Sage education glow",
-    "Cream results clarity",
-    "Ivory journal light",
-    "Gold luminous CTA",
-    "Bright sage/ivory footer"
+    "Brisa hero promise in sage",
+    "Brisa trust position in ivory",
+    "Brisa care route in cream",
+    "Brisa consultation path in gold",
+    "Brisa treatment navigation in dark",
+    "Brisa human reassurance in bronze",
+    "Brisa education preview in sage",
+    "Brisa responsible expectations in ivory",
+    "Brisa contact bridge in cream",
+    "Brisa closing identity in gold"
   ],
   "aboutPageColourSequence": [
-    "about 1: ivory rhythm from Ivory journal light",
-    "about 2: gold rhythm from Gold luminous CTA",
-    "about 3: sage rhythm from Bright sage/ivory footer",
-    "about 4: ivory rhythm from Luminous ivory hero",
-    "about 5: sage rhythm from Pale sage light trust",
-    "about 6: cream rhythm from Cream route glow",
-    "about 7: ivory rhythm from Ivory consultation light",
-    "about 8: gold rhythm from Gold reassurance line",
-    "about 9: sage rhythm from Sage education glow",
-    "about 10: cream rhythm from Cream results clarity"
+    "about 1: ivory rhythm from Brisa responsible expectations in ivory",
+    "about 2: cream rhythm from Brisa contact bridge in cream",
+    "about 3: gold rhythm from Brisa closing identity in gold",
+    "about 4: sage rhythm from Brisa hero promise in sage",
+    "about 5: ivory rhythm from Brisa trust position in ivory",
+    "about 6: cream rhythm from Brisa care route in cream",
+    "about 7: gold rhythm from Brisa consultation path in gold",
+    "about 8: dark rhythm from Brisa treatment navigation in dark",
+    "about 9: bronze rhythm from Brisa human reassurance in bronze",
+    "about 10: sage rhythm from Brisa education preview in sage"
   ],
   "carePageColourSequence": [
-    "care 1: gold rhythm from Gold luminous CTA",
-    "care 2: sage rhythm from Bright sage/ivory footer",
-    "care 3: ivory rhythm from Luminous ivory hero",
-    "care 4: sage rhythm from Pale sage light trust",
-    "care 5: cream rhythm from Cream route glow",
-    "care 6: ivory rhythm from Ivory consultation light",
-    "care 7: gold rhythm from Gold reassurance line",
-    "care 8: sage rhythm from Sage education glow",
-    "care 9: cream rhythm from Cream results clarity",
-    "care 10: ivory rhythm from Ivory journal light"
+    "care 1: cream rhythm from Brisa contact bridge in cream",
+    "care 2: gold rhythm from Brisa closing identity in gold",
+    "care 3: sage rhythm from Brisa hero promise in sage",
+    "care 4: ivory rhythm from Brisa trust position in ivory",
+    "care 5: cream rhythm from Brisa care route in cream",
+    "care 6: gold rhythm from Brisa consultation path in gold",
+    "care 7: dark rhythm from Brisa treatment navigation in dark",
+    "care 8: bronze rhythm from Brisa human reassurance in bronze",
+    "care 9: sage rhythm from Brisa education preview in sage",
+    "care 10: ivory rhythm from Brisa responsible expectations in ivory"
   ],
   "laserPageColourSequence": [
-    "laser 1: sage rhythm from Bright sage/ivory footer",
-    "laser 2: ivory rhythm from Luminous ivory hero",
-    "laser 3: sage rhythm from Pale sage light trust",
-    "laser 4: cream rhythm from Cream route glow",
-    "laser 5: ivory rhythm from Ivory consultation light",
-    "laser 6: gold rhythm from Gold reassurance line",
-    "laser 7: sage rhythm from Sage education glow",
-    "laser 8: cream rhythm from Cream results clarity",
-    "laser 9: ivory rhythm from Ivory journal light",
-    "laser 10: gold rhythm from Gold luminous CTA"
+    "laser 1: gold rhythm from Brisa closing identity in gold",
+    "laser 2: sage rhythm from Brisa hero promise in sage",
+    "laser 3: ivory rhythm from Brisa trust position in ivory",
+    "laser 4: cream rhythm from Brisa care route in cream",
+    "laser 5: gold rhythm from Brisa consultation path in gold",
+    "laser 6: dark rhythm from Brisa treatment navigation in dark",
+    "laser 7: bronze rhythm from Brisa human reassurance in bronze",
+    "laser 8: sage rhythm from Brisa education preview in sage",
+    "laser 9: ivory rhythm from Brisa responsible expectations in ivory",
+    "laser 10: cream rhythm from Brisa contact bridge in cream"
   ],
   "skinPageColourSequence": [
-    "skin 1: ivory rhythm from Luminous ivory hero",
-    "skin 2: sage rhythm from Pale sage light trust",
-    "skin 3: cream rhythm from Cream route glow",
-    "skin 4: ivory rhythm from Ivory consultation light",
-    "skin 5: gold rhythm from Gold reassurance line",
-    "skin 6: sage rhythm from Sage education glow",
-    "skin 7: cream rhythm from Cream results clarity",
-    "skin 8: ivory rhythm from Ivory journal light",
-    "skin 9: gold rhythm from Gold luminous CTA",
-    "skin 10: sage rhythm from Bright sage/ivory footer"
+    "skin 1: sage rhythm from Brisa hero promise in sage",
+    "skin 2: ivory rhythm from Brisa trust position in ivory",
+    "skin 3: cream rhythm from Brisa care route in cream",
+    "skin 4: gold rhythm from Brisa consultation path in gold",
+    "skin 5: dark rhythm from Brisa treatment navigation in dark",
+    "skin 6: bronze rhythm from Brisa human reassurance in bronze",
+    "skin 7: sage rhythm from Brisa education preview in sage",
+    "skin 8: ivory rhythm from Brisa responsible expectations in ivory",
+    "skin 9: cream rhythm from Brisa contact bridge in cream",
+    "skin 10: gold rhythm from Brisa closing identity in gold"
   ],
   "resultsPageColourSequence": [
-    "results 1: sage rhythm from Pale sage light trust",
-    "results 2: cream rhythm from Cream route glow",
-    "results 3: ivory rhythm from Ivory consultation light",
-    "results 4: gold rhythm from Gold reassurance line",
-    "results 5: sage rhythm from Sage education glow",
-    "results 6: cream rhythm from Cream results clarity",
-    "results 7: ivory rhythm from Ivory journal light",
-    "results 8: gold rhythm from Gold luminous CTA",
-    "results 9: sage rhythm from Bright sage/ivory footer",
-    "results 10: ivory rhythm from Luminous ivory hero"
+    "results 1: ivory rhythm from Brisa trust position in ivory",
+    "results 2: cream rhythm from Brisa care route in cream",
+    "results 3: gold rhythm from Brisa consultation path in gold",
+    "results 4: dark rhythm from Brisa treatment navigation in dark",
+    "results 5: bronze rhythm from Brisa human reassurance in bronze",
+    "results 6: sage rhythm from Brisa education preview in sage",
+    "results 7: ivory rhythm from Brisa responsible expectations in ivory",
+    "results 8: cream rhythm from Brisa contact bridge in cream",
+    "results 9: gold rhythm from Brisa closing identity in gold",
+    "results 10: sage rhythm from Brisa hero promise in sage"
   ],
   "journalPageColourSequence": [
-    "journal 1: cream rhythm from Cream route glow",
-    "journal 2: ivory rhythm from Ivory consultation light",
-    "journal 3: gold rhythm from Gold reassurance line",
-    "journal 4: sage rhythm from Sage education glow",
-    "journal 5: cream rhythm from Cream results clarity",
-    "journal 6: ivory rhythm from Ivory journal light",
-    "journal 7: gold rhythm from Gold luminous CTA",
-    "journal 8: sage rhythm from Bright sage/ivory footer",
-    "journal 9: ivory rhythm from Luminous ivory hero",
-    "journal 10: sage rhythm from Pale sage light trust"
+    "journal 1: cream rhythm from Brisa care route in cream",
+    "journal 2: gold rhythm from Brisa consultation path in gold",
+    "journal 3: dark rhythm from Brisa treatment navigation in dark",
+    "journal 4: bronze rhythm from Brisa human reassurance in bronze",
+    "journal 5: sage rhythm from Brisa education preview in sage",
+    "journal 6: ivory rhythm from Brisa responsible expectations in ivory",
+    "journal 7: cream rhythm from Brisa contact bridge in cream",
+    "journal 8: gold rhythm from Brisa closing identity in gold",
+    "journal 9: sage rhythm from Brisa hero promise in sage",
+    "journal 10: ivory rhythm from Brisa trust position in ivory"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: gold rhythm from Gold reassurance line",
-    "consultation 2: sage rhythm from Sage education glow",
-    "consultation 3: cream rhythm from Cream results clarity",
-    "consultation 4: ivory rhythm from Ivory journal light",
-    "consultation 5: gold rhythm from Gold luminous CTA",
-    "consultation 6: sage rhythm from Bright sage/ivory footer",
-    "consultation 7: ivory rhythm from Luminous ivory hero",
-    "consultation 8: sage rhythm from Pale sage light trust",
-    "consultation 9: cream rhythm from Cream route glow",
-    "consultation 10: ivory rhythm from Ivory consultation light"
+    "consultation 1: dark rhythm from Brisa treatment navigation in dark",
+    "consultation 2: bronze rhythm from Brisa human reassurance in bronze",
+    "consultation 3: sage rhythm from Brisa education preview in sage",
+    "consultation 4: ivory rhythm from Brisa responsible expectations in ivory",
+    "consultation 5: cream rhythm from Brisa contact bridge in cream",
+    "consultation 6: gold rhythm from Brisa closing identity in gold",
+    "consultation 7: sage rhythm from Brisa hero promise in sage",
+    "consultation 8: ivory rhythm from Brisa trust position in ivory",
+    "consultation 9: cream rhythm from Brisa care route in cream",
+    "consultation 10: gold rhythm from Brisa consultation path in gold"
   ],
   "contactPageColourSequence": [
-    "contact 1: sage rhythm from Sage education glow",
-    "contact 2: cream rhythm from Cream results clarity",
-    "contact 3: ivory rhythm from Ivory journal light",
-    "contact 4: gold rhythm from Gold luminous CTA",
-    "contact 5: sage rhythm from Bright sage/ivory footer",
-    "contact 6: ivory rhythm from Luminous ivory hero",
-    "contact 7: sage rhythm from Pale sage light trust",
-    "contact 8: cream rhythm from Cream route glow",
-    "contact 9: ivory rhythm from Ivory consultation light",
-    "contact 10: gold rhythm from Gold reassurance line"
+    "contact 1: bronze rhythm from Brisa human reassurance in bronze",
+    "contact 2: sage rhythm from Brisa education preview in sage",
+    "contact 3: ivory rhythm from Brisa responsible expectations in ivory",
+    "contact 4: cream rhythm from Brisa contact bridge in cream",
+    "contact 5: gold rhythm from Brisa closing identity in gold",
+    "contact 6: sage rhythm from Brisa hero promise in sage",
+    "contact 7: ivory rhythm from Brisa trust position in ivory",
+    "contact 8: cream rhythm from Brisa care route in cream",
+    "contact 9: gold rhythm from Brisa consultation path in gold",
+    "contact 10: dark rhythm from Brisa treatment navigation in dark"
   ],
   "forbiddenColourPatterns": [
-    "No dark homepage",
-    "No dense layouts",
-    "No strong blush dominance."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

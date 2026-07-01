@@ -1,12 +1,12 @@
-# 13-poise — Symmetrical Premium
+# 13-poise — Light Science Studio
 
 ## Visual Thesis
 
-A composed, symmetrical, balanced premium site with measured order and elegance.
+Luma uses light, precise, modern pacing with light science treatment focus.
 
 ## Colour Thesis
 
-Ivory dominates. Deep sage anchors symmetry. Bronze dividers create balance. Blush is minimal.
+ivory, pale green, clean white, gold micro accents
 
 ## Systems
 
@@ -21,159 +21,161 @@ Ivory dominates. Deep sage anchors symmetry. Bronze dividers create balance. Blu
 
 ## Homepage Colour Sequence
 
-1. Centered ivory/sage hero
-2. Cream symmetrical values
-3. Ivory route quadrants
-4. Sage process centreline
-5. Cream reassurance quote
-6. Ivory education columns
-7. Sage results balance
-8. Cream journal pairings
-9. Bronze-line CTA
-10. Deep sage balanced footer
+1. Luma hero promise in gold
+2. Luma trust position in sage
+3. Luma care route in cream
+4. Luma consultation path in dark
+5. Luma treatment navigation in bronze
+6. Luma human reassurance in ivory
+7. Luma education preview in gold
+8. Luma responsible expectations in sage
+9. Luma contact bridge in cream
+10. Luma closing identity in dark
 
 ## All Other Pages
 
-Use centred headings, paired sections, mirrored grids, and consistent axis lines.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No chaotic asymmetry
-- No layered magazine offsets
-- No blush dominance.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "13-poise",
-  "colourThesis": "Ivory dominates. Deep sage anchors symmetry. Bronze dividers create balance. Blush is minimal.",
+  "colourThesis": "ivory, pale green, clean white, gold micro accents",
   "dominantColourFamily": "dark",
   "secondaryColourFamily": "sage",
   "accentColourFamily": "ivory",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "axis-grid; no universal cream-card default",
   "buttonStrategy": "inline-route",
-  "footerColour": "Deep sage balanced footer",
-  "mobileMenuColour": "Cream reassurance quote",
+  "footerColour": "Luma closing identity in dark",
+  "mobileMenuColour": "Luma treatment navigation in bronze",
   "homepageSectionColourSequence": [
-    "Centered ivory/sage hero",
-    "Cream symmetrical values",
-    "Ivory route quadrants",
-    "Sage process centreline",
-    "Cream reassurance quote",
-    "Ivory education columns",
-    "Sage results balance",
-    "Cream journal pairings",
-    "Bronze-line CTA",
-    "Deep sage balanced footer"
+    "Luma hero promise in gold",
+    "Luma trust position in sage",
+    "Luma care route in cream",
+    "Luma consultation path in dark",
+    "Luma treatment navigation in bronze",
+    "Luma human reassurance in ivory",
+    "Luma education preview in gold",
+    "Luma responsible expectations in sage",
+    "Luma contact bridge in cream",
+    "Luma closing identity in dark"
   ],
   "aboutPageColourSequence": [
-    "about 1: cream rhythm from Cream reassurance quote",
-    "about 2: ivory rhythm from Ivory education columns",
-    "about 3: sage rhythm from Sage results balance",
-    "about 4: cream rhythm from Cream journal pairings",
-    "about 5: bronze rhythm from Bronze-line CTA",
-    "about 6: dark rhythm from Deep sage balanced footer",
-    "about 7: sage rhythm from Centered ivory/sage hero",
-    "about 8: cream rhythm from Cream symmetrical values",
-    "about 9: ivory rhythm from Ivory route quadrants",
-    "about 10: sage rhythm from Sage process centreline"
+    "about 1: bronze rhythm from Luma treatment navigation in bronze",
+    "about 2: ivory rhythm from Luma human reassurance in ivory",
+    "about 3: gold rhythm from Luma education preview in gold",
+    "about 4: sage rhythm from Luma responsible expectations in sage",
+    "about 5: cream rhythm from Luma contact bridge in cream",
+    "about 6: dark rhythm from Luma closing identity in dark",
+    "about 7: gold rhythm from Luma hero promise in gold",
+    "about 8: sage rhythm from Luma trust position in sage",
+    "about 9: cream rhythm from Luma care route in cream",
+    "about 10: dark rhythm from Luma consultation path in dark"
   ],
   "carePageColourSequence": [
-    "care 1: ivory rhythm from Ivory education columns",
-    "care 2: sage rhythm from Sage results balance",
-    "care 3: cream rhythm from Cream journal pairings",
-    "care 4: bronze rhythm from Bronze-line CTA",
-    "care 5: dark rhythm from Deep sage balanced footer",
-    "care 6: sage rhythm from Centered ivory/sage hero",
-    "care 7: cream rhythm from Cream symmetrical values",
-    "care 8: ivory rhythm from Ivory route quadrants",
-    "care 9: sage rhythm from Sage process centreline",
-    "care 10: cream rhythm from Cream reassurance quote"
+    "care 1: ivory rhythm from Luma human reassurance in ivory",
+    "care 2: gold rhythm from Luma education preview in gold",
+    "care 3: sage rhythm from Luma responsible expectations in sage",
+    "care 4: cream rhythm from Luma contact bridge in cream",
+    "care 5: dark rhythm from Luma closing identity in dark",
+    "care 6: gold rhythm from Luma hero promise in gold",
+    "care 7: sage rhythm from Luma trust position in sage",
+    "care 8: cream rhythm from Luma care route in cream",
+    "care 9: dark rhythm from Luma consultation path in dark",
+    "care 10: bronze rhythm from Luma treatment navigation in bronze"
   ],
   "laserPageColourSequence": [
-    "laser 1: sage rhythm from Sage results balance",
-    "laser 2: cream rhythm from Cream journal pairings",
-    "laser 3: bronze rhythm from Bronze-line CTA",
-    "laser 4: dark rhythm from Deep sage balanced footer",
-    "laser 5: sage rhythm from Centered ivory/sage hero",
-    "laser 6: cream rhythm from Cream symmetrical values",
-    "laser 7: ivory rhythm from Ivory route quadrants",
-    "laser 8: sage rhythm from Sage process centreline",
-    "laser 9: cream rhythm from Cream reassurance quote",
-    "laser 10: ivory rhythm from Ivory education columns"
+    "laser 1: gold rhythm from Luma education preview in gold",
+    "laser 2: sage rhythm from Luma responsible expectations in sage",
+    "laser 3: cream rhythm from Luma contact bridge in cream",
+    "laser 4: dark rhythm from Luma closing identity in dark",
+    "laser 5: gold rhythm from Luma hero promise in gold",
+    "laser 6: sage rhythm from Luma trust position in sage",
+    "laser 7: cream rhythm from Luma care route in cream",
+    "laser 8: dark rhythm from Luma consultation path in dark",
+    "laser 9: bronze rhythm from Luma treatment navigation in bronze",
+    "laser 10: ivory rhythm from Luma human reassurance in ivory"
   ],
   "skinPageColourSequence": [
-    "skin 1: cream rhythm from Cream journal pairings",
-    "skin 2: bronze rhythm from Bronze-line CTA",
-    "skin 3: dark rhythm from Deep sage balanced footer",
-    "skin 4: sage rhythm from Centered ivory/sage hero",
-    "skin 5: cream rhythm from Cream symmetrical values",
-    "skin 6: ivory rhythm from Ivory route quadrants",
-    "skin 7: sage rhythm from Sage process centreline",
-    "skin 8: cream rhythm from Cream reassurance quote",
-    "skin 9: ivory rhythm from Ivory education columns",
-    "skin 10: sage rhythm from Sage results balance"
+    "skin 1: sage rhythm from Luma responsible expectations in sage",
+    "skin 2: cream rhythm from Luma contact bridge in cream",
+    "skin 3: dark rhythm from Luma closing identity in dark",
+    "skin 4: gold rhythm from Luma hero promise in gold",
+    "skin 5: sage rhythm from Luma trust position in sage",
+    "skin 6: cream rhythm from Luma care route in cream",
+    "skin 7: dark rhythm from Luma consultation path in dark",
+    "skin 8: bronze rhythm from Luma treatment navigation in bronze",
+    "skin 9: ivory rhythm from Luma human reassurance in ivory",
+    "skin 10: gold rhythm from Luma education preview in gold"
   ],
   "resultsPageColourSequence": [
-    "results 1: bronze rhythm from Bronze-line CTA",
-    "results 2: dark rhythm from Deep sage balanced footer",
-    "results 3: sage rhythm from Centered ivory/sage hero",
-    "results 4: cream rhythm from Cream symmetrical values",
-    "results 5: ivory rhythm from Ivory route quadrants",
-    "results 6: sage rhythm from Sage process centreline",
-    "results 7: cream rhythm from Cream reassurance quote",
-    "results 8: ivory rhythm from Ivory education columns",
-    "results 9: sage rhythm from Sage results balance",
-    "results 10: cream rhythm from Cream journal pairings"
+    "results 1: cream rhythm from Luma contact bridge in cream",
+    "results 2: dark rhythm from Luma closing identity in dark",
+    "results 3: gold rhythm from Luma hero promise in gold",
+    "results 4: sage rhythm from Luma trust position in sage",
+    "results 5: cream rhythm from Luma care route in cream",
+    "results 6: dark rhythm from Luma consultation path in dark",
+    "results 7: bronze rhythm from Luma treatment navigation in bronze",
+    "results 8: ivory rhythm from Luma human reassurance in ivory",
+    "results 9: gold rhythm from Luma education preview in gold",
+    "results 10: sage rhythm from Luma responsible expectations in sage"
   ],
   "journalPageColourSequence": [
-    "journal 1: dark rhythm from Deep sage balanced footer",
-    "journal 2: sage rhythm from Centered ivory/sage hero",
-    "journal 3: cream rhythm from Cream symmetrical values",
-    "journal 4: ivory rhythm from Ivory route quadrants",
-    "journal 5: sage rhythm from Sage process centreline",
-    "journal 6: cream rhythm from Cream reassurance quote",
-    "journal 7: ivory rhythm from Ivory education columns",
-    "journal 8: sage rhythm from Sage results balance",
-    "journal 9: cream rhythm from Cream journal pairings",
-    "journal 10: bronze rhythm from Bronze-line CTA"
+    "journal 1: dark rhythm from Luma closing identity in dark",
+    "journal 2: gold rhythm from Luma hero promise in gold",
+    "journal 3: sage rhythm from Luma trust position in sage",
+    "journal 4: cream rhythm from Luma care route in cream",
+    "journal 5: dark rhythm from Luma consultation path in dark",
+    "journal 6: bronze rhythm from Luma treatment navigation in bronze",
+    "journal 7: ivory rhythm from Luma human reassurance in ivory",
+    "journal 8: gold rhythm from Luma education preview in gold",
+    "journal 9: sage rhythm from Luma responsible expectations in sage",
+    "journal 10: cream rhythm from Luma contact bridge in cream"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: cream rhythm from Cream symmetrical values",
-    "consultation 2: ivory rhythm from Ivory route quadrants",
-    "consultation 3: sage rhythm from Sage process centreline",
-    "consultation 4: cream rhythm from Cream reassurance quote",
-    "consultation 5: ivory rhythm from Ivory education columns",
-    "consultation 6: sage rhythm from Sage results balance",
-    "consultation 7: cream rhythm from Cream journal pairings",
-    "consultation 8: bronze rhythm from Bronze-line CTA",
-    "consultation 9: dark rhythm from Deep sage balanced footer",
-    "consultation 10: sage rhythm from Centered ivory/sage hero"
+    "consultation 1: sage rhythm from Luma trust position in sage",
+    "consultation 2: cream rhythm from Luma care route in cream",
+    "consultation 3: dark rhythm from Luma consultation path in dark",
+    "consultation 4: bronze rhythm from Luma treatment navigation in bronze",
+    "consultation 5: ivory rhythm from Luma human reassurance in ivory",
+    "consultation 6: gold rhythm from Luma education preview in gold",
+    "consultation 7: sage rhythm from Luma responsible expectations in sage",
+    "consultation 8: cream rhythm from Luma contact bridge in cream",
+    "consultation 9: dark rhythm from Luma closing identity in dark",
+    "consultation 10: gold rhythm from Luma hero promise in gold"
   ],
   "contactPageColourSequence": [
-    "contact 1: ivory rhythm from Ivory route quadrants",
-    "contact 2: sage rhythm from Sage process centreline",
-    "contact 3: cream rhythm from Cream reassurance quote",
-    "contact 4: ivory rhythm from Ivory education columns",
-    "contact 5: sage rhythm from Sage results balance",
-    "contact 6: cream rhythm from Cream journal pairings",
-    "contact 7: bronze rhythm from Bronze-line CTA",
-    "contact 8: dark rhythm from Deep sage balanced footer",
-    "contact 9: sage rhythm from Centered ivory/sage hero",
-    "contact 10: cream rhythm from Cream symmetrical values"
+    "contact 1: cream rhythm from Luma care route in cream",
+    "contact 2: dark rhythm from Luma consultation path in dark",
+    "contact 3: bronze rhythm from Luma treatment navigation in bronze",
+    "contact 4: ivory rhythm from Luma human reassurance in ivory",
+    "contact 5: gold rhythm from Luma education preview in gold",
+    "contact 6: sage rhythm from Luma responsible expectations in sage",
+    "contact 7: cream rhythm from Luma contact bridge in cream",
+    "contact 8: dark rhythm from Luma closing identity in dark",
+    "contact 9: gold rhythm from Luma hero promise in gold",
+    "contact 10: sage rhythm from Luma trust position in sage"
   ],
   "forbiddenColourPatterns": [
-    "No chaotic asymmetry",
-    "No layered magazine offsets",
-    "No blush dominance."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

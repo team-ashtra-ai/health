@@ -298,19 +298,217 @@ def generate_logo_assets() -> None:
     )
 
 
-def nav_links(klass: str, attr: str = 'data-main-nav="true"', numbered: bool = False) -> str:
+HEADER_FAMILY_BY_NUMBER = {
+    1: "editorial-stack",
+    2: "capsule-island",
+    3: "atelier-rail",
+    4: "app-dock",
+    5: "utility-split",
+    6: "monogram-axis",
+    7: "command-center",
+    8: "botanical-frame",
+    9: "concierge-panel",
+    10: "timeline-path",
+    11: "paper-stack",
+    12: "ink-runway",
+    13: "portal-grid",
+    14: "asymmetric-studio",
+    15: "glass-overlay",
+    16: "preview-strip",
+    17: "icon-grid",
+    18: "tabbed-system",
+    19: "ribbon-system",
+    20: "framed-system",
+    21: "floating-islands",
+    22: "progress-line",
+    23: "wordmark-stage",
+    24: "clinical-toolbar",
+    25: "image-strip",
+    26: "accordion-bar",
+    27: "quiet-luxury",
+    28: "dual-contact",
+    29: "dossier-tabs",
+    30: "archive-index",
+    31: "split-screen",
+    32: "round-controls",
+    33: "split-logo",
+    34: "right-rail",
+    35: "soft-glass",
+    36: "spa-symmetry",
+    37: "soft-brutalist",
+    38: "minimal-line",
+    39: "human-note",
+    40: "consultation-funnel",
+    41: "learning-index",
+    42: "treatment-matrix",
+    43: "medical-portal",
+    44: "consultation-corner",
+    45: "service-directory",
+    46: "portrait-trust",
+    47: "sidebar-index",
+    48: "footer-led",
+    49: "scroll-chips",
+    50: "architectural-grid",
+}
+
+FOOTER_FAMILY_BY_NUMBER = {
+    1: "editorial-colophon",
+    2: "floating-card-directory",
+    3: "vertical-studio-index",
+    4: "app-settings-panel",
+    5: "utility-zones",
+    6: "monogram-watermark",
+    7: "command-ledger",
+    8: "botanical-garden",
+    9: "concierge-contact",
+    10: "journey-timeline",
+    11: "paper-stack",
+    12: "ink-index",
+    13: "module-dashboard",
+    14: "asymmetric-salon",
+    15: "image-led-trust",
+    16: "preview-directory",
+    17: "icon-directory",
+    18: "tabbed-index",
+    19: "ribbon-colophon",
+    20: "framed-garden",
+    21: "island-cluster",
+    22: "explore-path",
+    23: "typographic-stage",
+    24: "professional-ledger",
+    25: "image-divider",
+    26: "accordion-ledger",
+    27: "footer-hero",
+    28: "dual-contact-stage",
+    29: "packet-dossier",
+    30: "numbered-archive",
+    31: "split-chapter",
+    32: "round-modules",
+    33: "balanced-columns",
+    34: "utility-aware",
+    35: "solid-contrast",
+    36: "centered-spa",
+    37: "soft-grid",
+    38: "minimal-complete",
+    39: "personal-note",
+    40: "funnel-path",
+    41: "learning-library",
+    42: "matrix-directory",
+    43: "portal-calm",
+    44: "appointment-card",
+    45: "service-directory",
+    46: "portrait-trust",
+    47: "expanded-index",
+    48: "modular-islands",
+    49: "chip-directory",
+    50: "architectural-ledger",
+}
+
+NAV_TREATMENTS = [
+    "numbered",
+    "capsule",
+    "rail",
+    "dock",
+    "utility",
+    "axis",
+    "command",
+    "leaf",
+    "concierge",
+    "timeline",
+    "paper",
+    "ink",
+    "tile",
+    "offset",
+    "glass",
+    "preview",
+    "icon",
+    "tab",
+    "ribbon",
+    "frame",
+    "island",
+    "progress",
+    "wordmark",
+    "clinical",
+    "image",
+    "accordion",
+    "quiet",
+    "dual",
+    "dossier",
+    "archive",
+    "split",
+    "round",
+    "balance",
+    "rail-right",
+    "frost",
+    "spa",
+    "grid",
+    "minimal",
+    "note",
+    "funnel",
+    "learning",
+    "matrix",
+    "medical",
+    "corner",
+    "directory",
+    "portrait",
+    "sidebar",
+    "modular",
+    "chip",
+    "architecture",
+]
+
+
+def header_family(spec: PartialSpec) -> str:
+    return HEADER_FAMILY_BY_NUMBER.get(spec.number, spec.header)
+
+
+def footer_family(spec: PartialSpec) -> str:
+    return FOOTER_FAMILY_BY_NUMBER.get(spec.number, spec.footer)
+
+
+def nav_treatment(spec: PartialSpec) -> str:
+    return NAV_TREATMENTS[(spec.number - 1) % len(NAV_TREATMENTS)]
+
+
+def nav_marker(index: int, treatment: str, numbered: bool) -> str:
+    if numbered or treatment in {"numbered", "archive", "sidebar"}:
+        return f'<span class="sf-link-number" aria-hidden="true">{index:02d}</span>'
+    if treatment in {"timeline", "progress", "funnel"}:
+        return '<span class="sf-link-step" aria-hidden="true"></span>'
+    if treatment in {"dock", "icon", "round", "matrix", "medical"}:
+        return '<span class="sf-link-glyph" aria-hidden="true"></span>'
+    if treatment in {"leaf", "botanical", "portrait"}:
+        return '<span class="sf-link-leaf" aria-hidden="true"></span>'
+    if treatment in {"ribbon", "frame", "architecture"}:
+        return '<span class="sf-link-corner" aria-hidden="true"></span>'
+    if treatment in {"command", "clinical", "directory"}:
+        return '<span class="sf-link-key" aria-hidden="true"></span>'
+    return '<span class="sf-link-dot" aria-hidden="true"></span>'
+
+
+def nav_links(
+    klass: str,
+    attr: str = 'data-main-nav="true"',
+    numbered: bool = False,
+    treatment: str = "plain",
+) -> str:
     parts = []
     for index, (label, href) in enumerate(MAIN_LINKS, start=1):
-        number = f'<span class="sf-link-number" aria-hidden="true">{index:02d}</span>' if numbered else ""
-        parts.append(f'      <a class="{klass}" href="{href}" {attr}>{number}<span>{label}</span></a>')
+        marker = nav_marker(index, treatment, numbered)
+        parts.append(
+            f'      <a class="{klass} sf-link-style--{treatment}" href="{href}" {attr} data-nav-index="{index:02d}">{marker}<span>{label}</span></a>'
+        )
     return "\n".join(parts)
 
 
-def footer_links(numbered: bool = False) -> str:
+def footer_links(numbered: bool = False, treatment: str = "plain") -> str:
     parts = []
     for index, (label, href) in enumerate(FOOTER_LINKS, start=1):
         number = f'<span aria-hidden="true">{index:02d}</span>' if numbered else ""
-        parts.append(f'        <li><a href="{href}" data-footer-link="true">{number}{label}</a></li>')
+        marker = "" if numbered else '<i aria-hidden="true"></i>'
+        parts.append(
+            f'        <li><a class="sf-footer-link-style--{treatment}" href="{href}" data-footer-link="true" data-footer-index="{index:02d}">{number}{marker}{label}</a></li>'
+        )
     return "\n".join(parts)
 
 
@@ -337,9 +535,9 @@ def banner(spec: PartialSpec) -> str:
     <span>{BRAND_NAME}</span>
   </a>
   <div class="sf-language-switcher" aria-label="Language switcher">
-    <button type="button" data-lang-switch="en" aria-pressed="true">EN</button>
+    <a href="?lang=en" hreflang="en" data-lang-switch="en" aria-pressed="true">EN</a>
     <span aria-hidden="true">/</span>
-    <button type="button" data-lang-switch="pt-BR" aria-pressed="false">PT</button>
+    <a href="?lang=pt-BR" hreflang="pt-BR" data-lang-switch="pt-BR" aria-pressed="false">PT</a>
   </div>
 </div>""".strip()
 
@@ -358,42 +556,169 @@ def header_feature(spec: PartialSpec) -> str:
     return '<span class="sf-header-feature sf-feature-line" aria-hidden="true"></span>'
 
 
-def header(spec: PartialSpec) -> str:
-    numbered = spec.number in {1, 10, 30, 47}
-    split = spec.number == 33
-    if split:
-        first = "\n".join(
-            f'      <a class="sf-nav-link" href="{href}" data-main-nav="true"><span>{label}</span></a>'
-            for label, href in MAIN_LINKS[:4]
-        )
-        second = "\n".join(
-            f'      <a class="sf-nav-link" href="{href}" data-main-nav="true"><span>{label}</span></a>'
-            for label, href in MAIN_LINKS[4:]
-        )
-        nav = f'<div class="sf-split-nav-group">{first}</div><div class="sf-split-nav-group">{second}</div>'
-    else:
-        nav = nav_links("sf-nav-link", numbered=numbered)
+def brand_lockup(kind: str = "primary") -> str:
     return f"""
-{banner(spec)}
-<header class="sf-public-header sf-theme-{spec.code} sf-header--{spec.header}" data-partial-owner="header" data-structure="{spec.signature}">
-  <div class="sf-header-shell">
-    {header_feature(spec)}
     <a class="sf-brand-lockup" href="index.html" aria-label="{BRAND_NAME} home">
-      {logo_img("primary")}
+      {logo_img(kind)}
       <span>{BRAND_NAME}</span>
-    </a>
-    <nav class="sf-desktop-nav" aria-label="Primary navigation">
-{nav}
-    </nav>
+    </a>""".strip()
+
+
+def header_actions() -> str:
+    return f"""
     <div class="sf-header-actions" aria-label="Header actions">
       <a class="sf-header-cta" href="consultation.html" data-header-cta="true">Consultation</a>
       <a class="sf-action-link sf-whatsapp-link" href="{WHATSAPP_URL}" target="_blank" rel="noopener">WhatsApp</a>
       <a class="sf-action-link sf-accessibility-link" href="accessibility.html">Accessibility</a>
-    </div>
+    </div>""".strip()
+
+
+def menu_button() -> str:
+    return """
     <button class="sf-menu-button" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation menu">
       <span>Menu</span>
-    </button>
-  </div>
+    </button>""".strip()
+
+
+def nav_block(spec: PartialSpec, split: bool = False) -> str:
+    numbered = spec.number in {1, 10, 30, 47}
+    treatment = nav_treatment(spec)
+    if split:
+        first = "\n".join(
+            f'      <a class="sf-nav-link sf-link-style--{treatment}" href="{href}" data-main-nav="true" data-nav-index="{index:02d}">{nav_marker(index, treatment, numbered)}<span>{label}</span></a>'
+            for index, (label, href) in enumerate(MAIN_LINKS[:4], start=1)
+        )
+        second = "\n".join(
+            f'      <a class="sf-nav-link sf-link-style--{treatment}" href="{href}" data-main-nav="true" data-nav-index="{index:02d}">{nav_marker(index, treatment, numbered)}<span>{label}</span></a>'
+            for index, (label, href) in enumerate(MAIN_LINKS[4:], start=5)
+        )
+        return f"""
+    <nav class="sf-desktop-nav" aria-label="Primary navigation">
+      <div class="sf-split-nav-group">{first}</div>
+      <div class="sf-split-nav-group">{second}</div>
+    </nav>""".strip()
+    return f"""
+    <nav class="sf-desktop-nav" aria-label="Primary navigation">
+{nav_links("sf-nav-link", numbered=numbered, treatment=treatment)}
+    </nav>""".strip()
+
+
+def header_shell(spec: PartialSpec) -> str:
+    family = header_family(spec)
+    feature = header_feature(spec)
+    brand = brand_lockup("primary")
+    nav = nav_block(spec, split=family == "split-logo")
+    actions = header_actions()
+    button = menu_button()
+
+    if family in {"editorial-stack", "paper-stack", "ink-runway", "wordmark-stage", "archive-index", "sidebar-index"}:
+        return f"""
+  <div class="sf-header-shell">
+    <div class="sf-header-brand-row">
+      {feature}
+      {brand}
+      {actions}
+      {button}
+    </div>
+    <div class="sf-header-navigation-row">
+      {nav}
+    </div>
+  </div>""".strip()
+
+    if family in {"atelier-rail", "right-rail", "split-screen"}:
+        return f"""
+  <div class="sf-header-shell">
+    <div class="sf-header-rail" aria-hidden="true">{feature}</div>
+    <div class="sf-header-main">
+      {brand}
+      {nav}
+    </div>
+    {actions}
+    {button}
+  </div>""".strip()
+
+    if family in {"command-center", "clinical-toolbar", "medical-portal", "service-directory", "learning-index"}:
+        return f"""
+  <div class="sf-header-shell">
+    {brand}
+    <div class="sf-command-wrap">
+      <span class="sf-command-prompt" aria-hidden="true"></span>
+      {nav}
+    </div>
+    <div class="sf-header-aside">
+      {actions}
+      {button}
+    </div>
+  </div>""".strip()
+
+    if family in {"portal-grid", "icon-grid", "tabbed-system", "treatment-matrix", "soft-brutalist", "architectural-grid"}:
+        return f"""
+  <div class="sf-header-shell">
+    <div class="sf-header-main">
+      {feature}
+      {brand}
+    </div>
+    {nav}
+    <div class="sf-header-aside">
+      {actions}
+      {button}
+    </div>
+  </div>""".strip()
+
+    if family in {"capsule-island", "floating-islands", "soft-glass", "scroll-chips", "round-controls"}:
+        return f"""
+  <div class="sf-header-shell">
+    <div class="sf-header-island sf-header-island--brand">
+      {brand}
+    </div>
+    <div class="sf-header-island sf-header-island--nav">
+      {nav}
+    </div>
+    <div class="sf-header-island sf-header-island--actions">
+      {actions}
+      {button}
+    </div>
+  </div>""".strip()
+
+    if family in {"utility-split", "app-dock", "dual-contact", "consultation-corner", "consultation-funnel"}:
+        return f"""
+  <div class="sf-header-shell">
+    <div class="sf-header-topline">
+      {brand}
+      {actions}
+      {button}
+    </div>
+    <div class="sf-header-dock">
+      {feature}
+      {nav}
+    </div>
+  </div>""".strip()
+
+    if family == "split-logo":
+        return f"""
+  <div class="sf-header-shell">
+    {nav}
+    {brand}
+    {actions}
+    {button}
+  </div>""".strip()
+
+    return f"""
+  <div class="sf-header-shell">
+    {feature}
+    {brand}
+    {nav}
+    {actions}
+    {button}
+  </div>""".strip()
+
+
+def header(spec: PartialSpec) -> str:
+    family = header_family(spec)
+    return f"""
+{banner(spec)}
+<header class="sf-public-header sf-theme-{spec.code} sf-header--{spec.header} sf-header-family--{family}" data-partial-owner="header" data-structure="{spec.signature}" data-header-layout="{family}" data-header-variant="{spec.header}">
+{header_shell(spec)}
 </header>""".strip()
 
 
@@ -410,8 +735,9 @@ def mobile_intro(spec: PartialSpec) -> str:
 
 def mobile_menu(spec: PartialSpec) -> str:
     numbered = spec.number in {1, 10, 30, 47}
+    treatment = nav_treatment(spec)
     return f"""
-<aside id="mobile-menu" class="sf-mobile-menu sf-theme-{spec.code} sf-menu--{spec.mobile}" data-partial-owner="mobile-menu" aria-hidden="true">
+<aside id="mobile-menu" class="sf-mobile-menu sf-theme-{spec.code} sf-menu--{spec.mobile} sf-menu-family--{header_family(spec)}" data-partial-owner="mobile-menu" data-mobile-layout="{header_family(spec)}" aria-hidden="true">
   <div class="sf-mobile-dialog" role="dialog" aria-modal="true" aria-label="Mobile navigation">
     <div class="sf-mobile-top">
       <a class="sf-mobile-brand" href="index.html" aria-label="{BRAND_NAME} home">
@@ -422,7 +748,7 @@ def mobile_menu(spec: PartialSpec) -> str:
     </div>
     {mobile_intro(spec)}
     <nav class="sf-mobile-nav" aria-label="Mobile primary navigation">
-{nav_links("sf-mobile-link", numbered=numbered)}
+{nav_links("sf-mobile-link", numbered=numbered, treatment=treatment)}
     </nav>
     <div class="sf-mobile-actions" aria-label="Mobile actions">
       <a class="sf-mobile-primary" href="consultation.html">Consultation</a>
@@ -445,40 +771,97 @@ def footer_feature(spec: PartialSpec) -> str:
     return '<div class="sf-footer-feature" aria-hidden="true"><span></span></div>'
 
 
-def footer(spec: PartialSpec) -> str:
-    numbered = spec.number in {1, 30, 47}
+def footer_brand_block() -> str:
     return f"""
-<footer class="sf-public-footer sf-theme-{spec.code} sf-footer--{spec.footer}" data-partial-owner="footer" data-structure="{spec.signature}">
-  {footer_feature(spec)}
   <div class="sf-footer-brand">
     {logo_img("primary")}
     <h2>{BRAND_NAME}</h2>
     <p>{DESCRIPTION}</p>
-  </div>
+  </div>""".strip()
+
+
+def footer_contact_block() -> str:
+    return f"""
   <address class="sf-footer-contact" aria-label="Contact details">
     <a href="{WHATSAPP_URL}" target="_blank" rel="noopener">WhatsApp</a>
     <a href="{INSTAGRAM_URL}" target="_blank" rel="noopener">Instagram: @fransofiati_biomedica</a>
     <span>Service area: Londrina, PR / Brazil</span>
     <a href="contact.html">Consultation or contact page</a>
-  </address>
+  </address>""".strip()
+
+
+def footer_sitemap_block(spec: PartialSpec) -> str:
+    numbered = spec.number in {1, 30, 47}
+    treatment = nav_treatment(spec)
+    return f"""
   <nav class="sf-footer-sitemap" aria-label="Footer sitemap">
     <ul>
-{footer_links(numbered=numbered)}
+{footer_links(numbered=numbered, treatment=treatment)}
     </ul>
-  </nav>
+  </nav>""".strip()
+
+
+def footer_close_block() -> str:
+    return f"""
   <div class="sf-footer-close">
     <a class="sf-footer-cta" href="contact.html" data-footer-cta="true">Contact the clinic</a>
     <p>© 2026 {BRAND_NAME}. All rights reserved.</p>
-  </div>
+  </div>""".strip()
+
+
+def footer_body(spec: PartialSpec) -> str:
+    family = footer_family(spec)
+    feature = footer_feature(spec)
+    brand = footer_brand_block()
+    contact = footer_contact_block()
+    sitemap = footer_sitemap_block(spec)
+    close = footer_close_block()
+
+    if family in {"editorial-colophon", "ink-index", "typographic-stage", "numbered-archive", "expanded-index"}:
+        return "\n".join([feature, sitemap, brand, contact, close])
+    if family in {"concierge-contact", "dual-contact-stage", "appointment-card", "personal-note"}:
+        return "\n".join([feature, contact, brand, sitemap, close])
+    if family in {"vertical-studio-index", "asymmetric-salon", "split-chapter", "balanced-columns"}:
+        return "\n".join([brand, feature, sitemap, contact, close])
+    if family in {"module-dashboard", "icon-directory", "tabbed-index", "matrix-directory", "architectural-ledger"}:
+        return "\n".join([feature, brand, sitemap, contact, close])
+    if family in {"journey-timeline", "explore-path", "funnel-path"}:
+        return "\n".join([brand, contact, feature, sitemap, close])
+    if family in {"centered-spa", "minimal-complete", "footer-hero", "modular-islands"}:
+        return "\n".join([brand, feature, sitemap, contact, close])
+    return "\n".join([feature, brand, contact, sitemap, close])
+
+
+def footer(spec: PartialSpec) -> str:
+    family = footer_family(spec)
+    return f"""
+<footer class="sf-public-footer sf-theme-{spec.code} sf-footer--{spec.footer} sf-footer-family--{family}" data-partial-owner="footer" data-structure="{spec.signature}" data-footer-layout="{family}" data-footer-variant="{spec.footer}">
+{footer_body(spec)}
 </footer>""".strip()
 
 
 def cookie_banner(spec: PartialSpec) -> str:
     return f"""
-<div class="sf-cookie-banner sf-theme-{spec.code} sf-cookie--{spec.cookie}" data-partial-owner="cookie-banner" data-cookie-banner role="region" aria-label="Cookie preferences">
-  <p>We use essential cookies to remember language and browsing preferences for a calm site experience.</p>
+<div class="sf-cookie-banner sf-theme-{spec.code} sf-cookie--{spec.cookie}" data-partial-owner="cookie-banner" data-cookie-banner role="region" aria-labelledby="sf-cookie-title-{spec.code}" aria-live="polite">
+  <div class="sf-cookie-copy">
+    <p id="sf-cookie-title-{spec.code}" class="sf-cookie-title">Cookie preferences</p>
+    <p>Essential cookies keep this static site working. Optional preferences remember language and browsing choices on this device.</p>
+  </div>
+  <div class="sf-cookie-preferences" id="sf-cookie-preferences-{spec.code}" data-cookie-preferences hidden>
+    <label class="sf-cookie-choice">
+      <input type="checkbox" checked disabled />
+      <span>Essential site storage</span>
+    </label>
+    <label class="sf-cookie-choice">
+      <input type="checkbox" data-cookie-preference="preferences" />
+      <span>Remember preferences</span>
+    </label>
+  </div>
   <div class="sf-cookie-actions">
-    <button type="button" data-cookie-accept>Accept</button>
+    <button type="button" data-cookie-reject>Reject</button>
+    <button type="button" data-cookie-customize aria-expanded="false" aria-controls="sf-cookie-preferences-{spec.code}">Customize</button>
+    <button type="button" data-cookie-save hidden>Save</button>
+    <button type="button" data-cookie-accept>Accept all</button>
     <a href="cookies.html">Cookie details</a>
   </div>
 </div>""".strip()
@@ -512,8 +895,29 @@ def concept_js(concept_id: str, code: str) -> str:
     conceptId: {json.dumps(concept_id)},
     partialNames: ["header", "mobile-menu", "footer", "cookie-banner", "floating-widgets"],
   }};
+  const runtimeRoot = window.SofiatiConceptRuntime = window.SofiatiConceptRuntime || {{}};
+  if (runtimeRoot[profile.conceptId]) return;
+  runtimeRoot[profile.conceptId] = true;
+
   const cache = new Map();
   let lastMenuTrigger = null;
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const storage = {{
+    get(key) {{
+      try {{
+        return window.localStorage.getItem(key);
+      }} catch (_error) {{
+        return null;
+      }}
+    }},
+    set(key, value) {{
+      try {{
+        window.localStorage.setItem(key, value);
+      }} catch (_error) {{
+        document.documentElement.dataset.storageFallback = "true";
+      }}
+    }},
+  }};
 
   const fetchPartial = async (name) => {{
     if (!cache.has(name)) {{
@@ -536,6 +940,9 @@ def concept_js(concept_id: str, code: str) -> str:
   }};
 
   const menu = () => document.getElementById("mobile-menu");
+  const isMenuOpen = () => menu()?.getAttribute("aria-hidden") === "false";
+  const focusableSelector = "a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex='-1'])";
+  const focusableIn = (root) => Array.from(root.querySelectorAll(focusableSelector)).filter((item) => !item.hasAttribute("hidden") && item.offsetParent !== null);
 
   const openMenu = (trigger) => {{
     const panel = menu();
@@ -548,7 +955,7 @@ def concept_js(concept_id: str, code: str) -> str:
       button.setAttribute("aria-expanded", "true");
       button.setAttribute("aria-controls", "mobile-menu");
     }});
-    const first = panel.querySelector("a[href], button:not([disabled])");
+    const first = focusableIn(panel)[0];
     if (first) first.focus({{ preventScroll: true }});
   }};
 
@@ -582,9 +989,23 @@ def concept_js(concept_id: str, code: str) -> str:
         closeMenu();
       }}
       if (panel && event.target === panel) closeMenu();
+      if (panel?.contains(event.target) && event.target.closest(".sf-mobile-link[href]")) closeMenu();
     }});
     document.addEventListener("keydown", (event) => {{
+      const panel = menu();
       if (event.key === "Escape") closeMenu();
+      if (event.key !== "Tab" || !panel || !isMenuOpen()) return;
+      const items = focusableIn(panel);
+      if (!items.length) return;
+      const first = items[0];
+      const last = items[items.length - 1];
+      if (event.shiftKey && document.activeElement === first) {{
+        event.preventDefault();
+        last.focus({{ preventScroll: true }});
+      }} else if (!event.shiftKey && document.activeElement === last) {{
+        event.preventDefault();
+        first.focus({{ preventScroll: true }});
+      }}
     }});
   }};
 
@@ -592,40 +1013,114 @@ def concept_js(concept_id: str, code: str) -> str:
     const key = `sofiati-cookie-${{profile.conceptId}}`;
     const banner = document.querySelector("[data-cookie-banner]");
     if (!banner) return;
+    const preferences = banner.querySelector("[data-cookie-preferences]");
+    const customize = banner.querySelector("[data-cookie-customize]");
+    const save = banner.querySelector("[data-cookie-save]");
+    const preferenceInput = banner.querySelector("[data-cookie-preference='preferences']");
     const setVisible = (visible) => document.body.classList.toggle("public-cookie-visible", visible);
-    if (window.localStorage.getItem(key) === "accepted") {{
-      banner.classList.add("is-hidden");
-      setVisible(false);
-    }} else {{
-      setVisible(true);
-    }}
+
+    const readConsent = () => {{
+      const raw = storage.get(key);
+      if (raw === "accepted" || raw === "rejected") {{
+        return {{ status: raw, preferences: {{ essential: true, preferences: raw === "accepted" }} }};
+      }}
+      if (!raw) return null;
+      try {{
+        const parsed = JSON.parse(raw);
+        if (parsed && typeof parsed.status === "string") return parsed;
+      }} catch (_error) {{
+        return null;
+      }}
+      return null;
+    }};
+
+    const applyConsent = (consent) => {{
+      const status = consent?.status || "pending";
+      document.documentElement.dataset.cookieConsent = status;
+      if (preferenceInput) {{
+        preferenceInput.checked = Boolean(consent?.preferences?.preferences);
+      }}
+      if (status !== "pending") {{
+        banner.classList.add("is-hidden");
+        setVisible(false);
+      }} else {{
+        banner.classList.remove("is-hidden");
+        setVisible(true);
+      }}
+    }};
+
+    const persist = (status, rememberPreferences) => {{
+      const consent = {{
+        version: 1,
+        status,
+        preferences: {{
+          essential: true,
+          preferences: Boolean(rememberPreferences),
+        }},
+        updatedAt: new Date().toISOString(),
+      }};
+      storage.set(key, JSON.stringify(consent));
+      applyConsent(consent);
+    }};
+
+    applyConsent(readConsent());
+
+    customize?.addEventListener("click", () => {{
+      const nextOpen = preferences?.hasAttribute("hidden") ?? false;
+      if (preferences) preferences.hidden = !nextOpen;
+      if (save) save.hidden = !nextOpen;
+      customize.setAttribute("aria-expanded", nextOpen ? "true" : "false");
+    }});
+
+    banner.querySelector("[data-cookie-reject]")?.addEventListener("click", () => {{
+      persist("rejected", false);
+    }});
+
+    save?.addEventListener("click", () => {{
+      persist("custom", Boolean(preferenceInput?.checked));
+    }});
+
     banner.querySelector("[data-cookie-accept]")?.addEventListener("click", () => {{
-      window.localStorage.setItem(key, "accepted");
-      banner.classList.add("is-hidden");
-      setVisible(false);
+      persist("accepted", true);
     }});
   }};
 
-  const setLanguage = (value) => {{
+  const equivalentHref = (langValue) => {{
+    const current = location.pathname.split("/").pop() || "index.html";
+    const url = new URL(current, location.href);
+    url.searchParams.set("lang", langValue);
+    return `${{current}}${{url.search}}${{location.hash}}`;
+  }};
+
+  const setLanguage = (value, updateUrl = false) => {{
     const lang = value === "pt" || value === "pt-BR" ? "pt-BR" : "en";
     const short = lang === "pt-BR" ? "pt" : "en";
     document.documentElement.lang = lang;
     document.documentElement.dataset.activeLang = short;
-    document.querySelectorAll("[data-lang-switch]").forEach((button) => {{
-      const active = (button.dataset.langSwitch || "en").toLowerCase().startsWith(short);
-      button.setAttribute("aria-pressed", active ? "true" : "false");
-      button.dataset.active = active ? "true" : "false";
+    storage.set(`sofiati-language-${{profile.conceptId}}`, lang);
+    document.querySelectorAll("[data-lang-switch]").forEach((control) => {{
+      const target = control.dataset.langSwitch || "en";
+      const active = target.toLowerCase().startsWith(short);
+      control.setAttribute("aria-pressed", active ? "true" : "false");
+      control.dataset.active = active ? "true" : "false";
+      control.setAttribute("href", equivalentHref(target));
     }});
+    if (updateUrl && window.history?.replaceState) {{
+      const next = new URL(location.href);
+      next.searchParams.set("lang", lang);
+      window.history.replaceState(null, "", next);
+    }}
   }};
 
   const wireLanguage = () => {{
     document.addEventListener("click", (event) => {{
-      const button = event.target.closest("[data-lang-switch]");
-      if (!button) return;
+      const control = event.target.closest("[data-lang-switch]");
+      if (!control) return;
       event.preventDefault();
-      setLanguage(button.dataset.langSwitch);
+      setLanguage(control.dataset.langSwitch, true);
     }});
-    setLanguage(document.documentElement.lang || "en");
+    const urlLang = new URLSearchParams(location.search).get("lang");
+    setLanguage(urlLang || storage.get(`sofiati-language-${{profile.conceptId}}`) || document.documentElement.lang || "en");
   }};
 
   const wireFloatingTools = () => {{
@@ -642,8 +1137,7 @@ def concept_js(concept_id: str, code: str) -> str:
       if (button.dataset.sofiatiTopReady === "true") return;
       button.dataset.sofiatiTopReady = "true";
       button.addEventListener("click", () => {{
-        const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-        window.scrollTo({{ top: 0, behavior: reduced ? "auto" : "smooth" }});
+        window.scrollTo({{ top: 0, behavior: reduceMotion.matches ? "auto" : "smooth" }});
       }});
     }});
     window.addEventListener("scroll", update, {{ passive: true }});
@@ -653,8 +1147,8 @@ def concept_js(concept_id: str, code: str) -> str:
 
   const markCurrentLinks = () => {{
     const current = location.pathname.split("/").pop() || "index.html";
-    document.querySelectorAll("a[href$='.html']").forEach((link) => {{
-      const href = link.getAttribute("href") || "";
+    document.querySelectorAll("a[href$='.html'], a[href*='.html?']").forEach((link) => {{
+      const href = (link.getAttribute("href") || "").split(/[?#]/)[0];
       link.removeAttribute("aria-current");
       if (href === current) link.setAttribute("aria-current", "page");
     }});
@@ -679,8 +1173,469 @@ def concept_js(concept_id: str, code: str) -> str:
 """
 
 
+def designer_header_css(spec: PartialSpec) -> str:
+    family = header_family(spec)
+    accent_ratio = 58 + (spec.number % 7) * 4
+    link_min = "2.35rem" if spec.number % 3 else "2.8rem"
+    brand_span = "minmax(160px, 0.9fr)" if spec.number % 2 else "minmax(190px, 0.74fr)"
+    return f"""
+.sf-public-header[data-header-layout] .sf-header-shell {{
+  position: relative;
+  isolation: isolate;
+}}
+
+.sf-header-brand-row,
+.sf-header-navigation-row,
+.sf-header-main,
+.sf-command-wrap,
+.sf-header-aside,
+.sf-header-island,
+.sf-header-topline,
+.sf-header-dock {{
+  min-width: 0;
+}}
+
+.sf-header-brand-row {{
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto minmax(170px, 1fr) auto auto;
+  align-items: center;
+  gap: clamp(0.6rem, 1.4vw, 1.1rem);
+}}
+
+.sf-header-navigation-row {{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}}
+
+.sf-header-main {{
+  display: flex;
+  align-items: center;
+  gap: clamp(0.7rem, 1.5vw, 1.2rem);
+  min-width: 0;
+}}
+
+.sf-command-wrap {{
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.38rem;
+  border: 1px solid var(--sf-line);
+  border-radius: calc(var(--sf-radius) + 10px);
+  background: color-mix(in srgb, var(--sf-panel), transparent 7%);
+  box-shadow: 0 12px 34px color-mix(in srgb, var(--sf-ink), transparent 92%);
+}}
+
+.sf-command-prompt {{
+  width: 0.72rem;
+  height: 0.72rem;
+  border-radius: 50%;
+  background: var(--sf-accent);
+  box-shadow: 1rem 0 0 color-mix(in srgb, var(--sf-accent), transparent 46%),
+    2rem 0 0 color-mix(in srgb, var(--sf-accent), transparent 72%);
+  flex: 0 0 auto;
+}}
+
+.sf-header-aside,
+.sf-header-island--actions {{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.48rem;
+}}
+
+.sf-header-island {{
+  display: flex;
+  align-items: center;
+}}
+
+.sf-header-island--brand,
+.sf-header-island--nav,
+.sf-header-island--actions {{
+  padding: 0.42rem 0.54rem;
+  border: 1px solid var(--sf-line);
+  border-radius: calc(var(--sf-radius) + 14px);
+  background: color-mix(in srgb, var(--sf-panel), transparent 8%);
+}}
+
+.sf-header-topline,
+.sf-header-dock {{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: clamp(0.7rem, 1.8vw, 1.4rem);
+}}
+
+.sf-header-dock {{
+  justify-content: center;
+  padding-top: 0.54rem;
+  border-top: 1px solid var(--sf-line);
+}}
+
+.sf-header-rail {{
+  align-self: stretch;
+  min-width: clamp(3rem, 5vw, 4.8rem);
+  display: grid;
+  place-items: center;
+  border-right: 1px solid var(--sf-line);
+}}
+
+.sf-link-dot,
+.sf-link-step,
+.sf-link-glyph,
+.sf-link-leaf,
+.sf-link-corner,
+.sf-link-key {{
+  display: inline-block;
+  flex: 0 0 auto;
+}}
+
+.sf-link-dot {{
+  width: 0.36rem;
+  height: 0.36rem;
+  border-radius: 50%;
+  background: var(--sf-accent);
+}}
+
+.sf-link-step {{
+  width: 1rem;
+  height: 1px;
+  background: var(--sf-accent);
+}}
+
+.sf-link-glyph {{
+  width: 0.62rem;
+  height: 0.62rem;
+  border: 1px solid var(--sf-accent);
+  border-radius: 0.18rem;
+  transform: rotate(45deg);
+}}
+
+.sf-link-leaf {{
+  width: 0.7rem;
+  height: 0.46rem;
+  border-radius: 80% 0 80% 0;
+  background: color-mix(in srgb, var(--sf-accent), var(--sf-soft) 35%);
+}}
+
+.sf-link-corner {{
+  width: 0.72rem;
+  height: 0.72rem;
+  border-top: 1px solid var(--sf-accent);
+  border-left: 1px solid var(--sf-accent);
+}}
+
+.sf-link-key {{
+  width: 0.86rem;
+  height: 0.42rem;
+  border: 1px solid var(--sf-accent);
+  border-radius: 999px;
+}}
+
+.sf-public-header[data-header-layout="{family}"] {{
+  background:
+    linear-gradient(90deg, color-mix(in srgb, var(--sf-accent), transparent {accent_ratio}%) 0 1px, transparent 1px 100%),
+    linear-gradient(135deg, color-mix(in srgb, var(--sf-bg), white 16%), color-mix(in srgb, var(--sf-panel), var(--sf-soft) 18%));
+}}
+
+.sf-public-header[data-header-layout="{family}"] .sf-header-shell {{
+  grid-template-columns: {brand_span} minmax(0, 1.55fr) auto;
+  min-height: {86 + (spec.number % 4) * 4}px;
+}}
+
+.sf-public-header[data-header-layout="{family}"] .sf-nav-link {{
+  min-height: {link_min};
+  border: {("1px solid var(--sf-line)" if spec.number % 4 in {0, 2} else "0")};
+  border-radius: {("999px" if spec.number % 5 in {1, 4} else "var(--sf-radius)")};
+  background: {("color-mix(in srgb, var(--sf-panel), transparent 12%)" if spec.number % 4 in {0, 1} else "transparent")};
+}}
+""" + header_family_css(family, spec)
+
+
+def header_family_css(family: str, spec: PartialSpec) -> str:
+    if family in {"editorial-stack", "paper-stack", "ink-runway", "wordmark-stage", "archive-index", "sidebar-index"}:
+        return """
+.sf-public-header[data-header-layout] .sf-header-shell {
+  grid-template-columns: 1fr;
+  justify-items: stretch;
+  padding-block: 0.82rem;
+}
+.sf-public-header[data-header-layout] .sf-header-brand-row {
+  border-bottom: 1px solid var(--sf-line);
+  padding-bottom: 0.62rem;
+}
+.sf-public-header[data-header-layout] .sf-desktop-nav {
+  justify-content: space-between;
+  width: 100%;
+}
+"""
+    if family in {"atelier-rail", "right-rail", "split-screen"}:
+        return """
+.sf-public-header[data-header-layout] .sf-header-shell {
+  grid-template-columns: clamp(3.5rem, 6vw, 5.4rem) minmax(0, 1.45fr) auto auto;
+}
+.sf-public-header[data-header-layout] .sf-header-main {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.sf-public-header[data-header-layout] .sf-desktop-nav {
+  justify-content: flex-start;
+}
+.sf-public-header[data-header-layout] .sf-header-actions {
+  flex-direction: column;
+  align-items: stretch;
+}
+"""
+    if family in {"command-center", "clinical-toolbar", "medical-portal", "service-directory", "learning-index"}:
+        return """
+.sf-public-header[data-header-layout] .sf-header-shell {
+  grid-template-columns: minmax(180px, 0.55fr) minmax(0, 1.6fr) auto;
+}
+.sf-public-header[data-header-layout] .sf-desktop-nav {
+  justify-content: center;
+}
+.sf-public-header[data-header-layout] .sf-header-actions {
+  flex-direction: column;
+  align-items: stretch;
+}
+"""
+    if family in {"portal-grid", "icon-grid", "tabbed-system", "treatment-matrix", "soft-brutalist", "architectural-grid"}:
+        return """
+.sf-public-header[data-header-layout] .sf-header-shell {
+  grid-template-columns: minmax(180px, 0.72fr) minmax(0, 1.35fr) auto;
+}
+.sf-public-header[data-header-layout] .sf-header-main {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.sf-public-header[data-header-layout] .sf-desktop-nav {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.42rem;
+  width: 100%;
+}
+.sf-public-header[data-header-layout] .sf-nav-link {
+  justify-content: flex-start;
+}
+"""
+    if family in {"capsule-island", "floating-islands", "soft-glass", "scroll-chips", "round-controls"}:
+        return """
+.sf-public-header[data-header-layout] .sf-header-shell {
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: clamp(0.5rem, 1.1vw, 0.9rem);
+}
+.sf-public-header[data-header-layout] .sf-header-island--nav {
+  justify-content: center;
+}
+.sf-public-header[data-header-layout] .sf-desktop-nav {
+  justify-content: center;
+}
+"""
+    if family in {"utility-split", "app-dock", "dual-contact", "consultation-corner", "consultation-funnel"}:
+        return """
+.sf-public-header[data-header-layout] .sf-header-shell {
+  grid-template-columns: 1fr;
+}
+.sf-public-header[data-header-layout] .sf-header-actions {
+  justify-content: flex-end;
+}
+.sf-public-header[data-header-layout] .sf-header-dock .sf-desktop-nav {
+  width: 100%;
+  justify-content: center;
+}
+"""
+    if family == "split-logo":
+        return """
+.sf-public-header[data-header-layout] .sf-header-shell {
+  grid-template-columns: minmax(0, 1fr) minmax(170px, auto) auto auto;
+}
+.sf-public-header[data-header-layout] .sf-desktop-nav {
+  display: contents;
+}
+.sf-public-header[data-header-layout] .sf-split-nav-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.34rem;
+}
+"""
+    return """
+.sf-public-header[data-header-layout] .sf-header-shell {
+  grid-template-columns: auto minmax(165px, 0.82fr) minmax(0, 1.55fr) auto auto;
+}
+"""
+
+
+def designer_footer_css(spec: PartialSpec) -> str:
+    family = footer_family(spec)
+    return f"""
+.sf-public-footer[data-footer-layout] {{
+  background:
+    linear-gradient({112 + (spec.number % 6) * 9}deg, color-mix(in srgb, var(--sf-bg), white 12%), transparent 42%),
+    radial-gradient(circle at {18 + (spec.number % 5) * 18}% {12 + (spec.number % 4) * 12}%, color-mix(in srgb, var(--sf-accent), transparent 82%), transparent 28%),
+    color-mix(in srgb, var(--sf-panel), var(--sf-bg) 32%);
+}}
+
+.sf-public-footer[data-footer-layout] .sf-footer-link-style--{nav_treatment(spec)} i {{
+  width: 0.42rem;
+  height: 0.42rem;
+  display: inline-block;
+  flex: 0 0 auto;
+  border-radius: {("50%" if spec.number % 2 else "1px")};
+  background: color-mix(in srgb, var(--sf-accent), transparent 18%);
+}}
+
+.sf-public-footer[data-footer-layout] .sf-footer-contact a,
+.sf-public-footer[data-footer-layout] .sf-footer-contact span,
+.sf-public-footer[data-footer-layout] .sf-footer-sitemap a {{
+  min-width: 0;
+}}
+
+.sf-public-footer[data-footer-layout="{family}"] .sf-footer-brand h2 {{
+  max-width: {("9ch" if spec.number % 4 == 0 else "14ch" if spec.number % 4 == 1 else "18ch")};
+}}
+""" + footer_family_css(family)
+
+
+def footer_family_css(family: str) -> str:
+    if family in {"editorial-colophon", "ink-index", "typographic-stage", "numbered-archive", "expanded-index"}:
+        return """
+.sf-public-footer[data-footer-layout] {
+  grid-template-columns: minmax(0, 1.2fr) minmax(260px, 0.8fr);
+  align-items: stretch;
+}
+.sf-public-footer[data-footer-layout] .sf-footer-sitemap {
+  grid-column: 1;
+  grid-row: 2 / span 2;
+}
+.sf-public-footer[data-footer-layout] .sf-footer-sitemap ul {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.sf-public-footer[data-footer-layout] .sf-footer-brand,
+.sf-public-footer[data-footer-layout] .sf-footer-contact {
+  grid-column: 2;
+}
+"""
+    if family in {"concierge-contact", "dual-contact-stage", "appointment-card", "personal-note"}:
+        return """
+.sf-public-footer[data-footer-layout] {
+  grid-template-columns: minmax(260px, 0.72fr) minmax(0, 1.28fr);
+}
+.sf-public-footer[data-footer-layout] .sf-footer-contact {
+  grid-column: 1;
+  grid-row: 2;
+  padding-left: clamp(1rem, 2vw, 1.5rem);
+  border-left: 3px solid var(--sf-accent);
+}
+.sf-public-footer[data-footer-layout] .sf-footer-brand {
+  grid-column: 2;
+}
+.sf-public-footer[data-footer-layout] .sf-footer-sitemap {
+  grid-column: 2;
+}
+"""
+    if family in {"vertical-studio-index", "asymmetric-salon", "split-chapter", "balanced-columns"}:
+        return """
+.sf-public-footer[data-footer-layout] {
+  grid-template-columns: minmax(220px, 0.85fr) minmax(0, 1.15fr);
+}
+.sf-public-footer[data-footer-layout] .sf-footer-brand,
+.sf-public-footer[data-footer-layout] .sf-footer-contact {
+  grid-column: 1;
+}
+.sf-public-footer[data-footer-layout] .sf-footer-sitemap {
+  grid-column: 2;
+  grid-row: 2 / span 2;
+}
+.sf-public-footer[data-footer-layout] .sf-footer-sitemap ul {
+  grid-template-columns: 1fr;
+}
+"""
+    if family in {"module-dashboard", "icon-directory", "tabbed-index", "matrix-directory", "architectural-ledger"}:
+        return """
+.sf-public-footer[data-footer-layout] {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+.sf-public-footer[data-footer-layout] .sf-footer-brand {
+  grid-column: span 5;
+}
+.sf-public-footer[data-footer-layout] .sf-footer-sitemap {
+  grid-column: span 7;
+}
+.sf-public-footer[data-footer-layout] .sf-footer-contact {
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.sf-public-footer[data-footer-layout] .sf-footer-sitemap ul {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+"""
+    if family in {"journey-timeline", "explore-path", "funnel-path"}:
+        return """
+.sf-public-footer[data-footer-layout] {
+  grid-template-columns: minmax(0, 0.72fr) minmax(0, 1.28fr);
+}
+.sf-public-footer[data-footer-layout] .sf-footer-feature {
+  grid-column: 1 / -1;
+  order: 3;
+}
+.sf-public-footer[data-footer-layout] .sf-footer-feature::before,
+.sf-public-footer[data-footer-layout] .sf-footer-feature::after {
+  height: 3px;
+}
+.sf-public-footer[data-footer-layout] .sf-footer-sitemap {
+  grid-column: 2;
+}
+"""
+    if family in {"centered-spa", "minimal-complete", "footer-hero", "modular-islands"}:
+        return """
+.sf-public-footer[data-footer-layout] {
+  grid-template-columns: minmax(0, 1fr);
+  text-align: center;
+  justify-items: center;
+}
+.sf-public-footer[data-footer-layout] .sf-footer-brand,
+.sf-public-footer[data-footer-layout] .sf-footer-contact,
+.sf-public-footer[data-footer-layout] .sf-footer-sitemap {
+  grid-column: 1 / -1;
+  justify-items: center;
+}
+.sf-public-footer[data-footer-layout] .sf-footer-sitemap ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+"""
+    return """
+.sf-public-footer[data-footer-layout] {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+"""
+
+
+BRAND_PALETTES = [
+    ("#fbfaf5", "#252321", "#9a6b35", "#a2aea0", "#fffdf8", "#485041"),
+    ("#f8f7f2", "#263026", "#87927f", "#d8cbb7", "#fffdf8", "#596653"),
+    ("#f2eee3", "#252321", "#b88954", "#798a80", "#fbfaf5", "#3a3631"),
+    ("#eef3ee", "#263026", "#6f7b68", "#c39b6a", "#fffdf8", "#485041"),
+    ("#fbfaf5", "#252321", "#9a6b35", "#dce5da", "#f8f7f2", "#5e5548"),
+    ("#263026", "#fbfaf5", "#cdaa78", "#a2aea0", "#f2eee3", "#1f261f"),
+    ("#f8f7f2", "#252321", "#87927f", "#9a6b35", "#fffdf8", "#4a4640"),
+    ("#eef3ee", "#263026", "#798a80", "#b88954", "#fbfaf5", "#485041"),
+    ("#f3efe5", "#252321", "#8f745f", "#a2aea0", "#fffdf8", "#5e5548"),
+    ("#252321", "#fbfaf5", "#c39b6a", "#87927f", "#f8f7f2", "#3a3631"),
+]
+
+
+def brand_palette(number: int) -> tuple[str, str, str, str, str, str]:
+    return BRAND_PALETTES[(number - 1) % len(BRAND_PALETTES)]
+
+
 def css_for(spec: PartialSpec) -> str:
-    bg, ink, accent, soft, panel, deep = spec.palette
+    bg, ink, accent, soft, panel, deep = brand_palette(spec.number)
     radius = ["2px", "999px", "14px", "0px", "8px"][spec.number % 5]
     footer_columns = "repeat(12, minmax(0, 1fr))"
     return f"""
@@ -803,7 +1758,7 @@ def css_for(spec: PartialSpec) -> str:
   background: color-mix(in srgb, var(--sf-panel), transparent 10%);
 }}
 
-.sf-language-switcher button {{
+.sf-language-switcher :is(a, button) {{
   min-width: 2rem;
   min-height: 1.55rem;
   border: 0;
@@ -811,13 +1766,31 @@ def css_for(spec: PartialSpec) -> str:
   background: transparent;
   color: inherit;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-size: 0.64rem;
   font-weight: 700;
+  text-decoration: none;
 }}
 
-.sf-language-switcher button[aria-pressed="true"] {{
+.sf-language-switcher :is(a, button)[aria-pressed="true"] {{
   background: var(--sf-deep);
   color: var(--sf-panel);
+}}
+
+.sf-public-header a:focus-visible,
+.sf-public-header button:focus-visible,
+.sf-mobile-menu a:focus-visible,
+.sf-mobile-menu button:focus-visible,
+.sf-public-footer a:focus-visible,
+.sf-cookie-banner a:focus-visible,
+.sf-cookie-banner button:focus-visible,
+.sf-cookie-banner input:focus-visible,
+.sf-floating-tools a:focus-visible,
+.sf-floating-tools button:focus-visible {{
+  outline: 2px solid var(--sf-accent);
+  outline-offset: 3px;
 }}
 
 .sf-public-header {{
@@ -958,10 +1931,10 @@ def css_for(spec: PartialSpec) -> str:
   padding: 0.68rem 0.86rem;
   border: 1px solid color-mix(in srgb, var(--sf-ink), transparent 72%);
   border-radius: var(--sf-radius);
-  background: #fffaf1;
-  color: #211f1b;
+  background: var(--sf-panel);
+  color: var(--sf-ink);
   font-weight: 800;
-  box-shadow: 0 10px 24px rgba(33, 31, 27, 0.1);
+  box-shadow: 0 10px 24px color-mix(in srgb, var(--sf-ink), transparent 90%);
 }}
 
 .sf-header-feature {{
@@ -1166,7 +2139,7 @@ def css_for(spec: PartialSpec) -> str:
   display: grid;
   place-items: center;
   padding: clamp(0.85rem, 3vw, 1.6rem);
-  background: rgba(24, 22, 18, 0.82);
+  background: color-mix(in srgb, var(--sf-ink), transparent 18%);
   opacity: 0;
   pointer-events: none;
   transition: opacity 190ms ease;
@@ -1189,8 +2162,8 @@ def css_for(spec: PartialSpec) -> str:
   border-radius: min(24px, calc(var(--sf-radius) + 8px));
   background:
     radial-gradient(circle at top right, color-mix(in srgb, var(--sf-accent), transparent 82%), transparent 34%),
-    #fbf8f0;
-  color: #211f1b;
+    var(--sf-panel);
+  color: var(--sf-ink);
   box-shadow: var(--sf-shadow);
 }}
 
@@ -1206,14 +2179,14 @@ def css_for(spec: PartialSpec) -> str:
   padding: 0.58rem 0.82rem;
   border: 1px solid var(--sf-line);
   border-radius: var(--sf-radius);
-  background: #fffdf8;
-  color: #211f1b;
+  background: color-mix(in srgb, var(--sf-panel), white 6%);
+  color: var(--sf-ink);
 }}
 
 .sf-mobile-note {{
   max-width: 34rem;
   margin: 0;
-  color: rgba(33, 31, 27, 0.72);
+  color: color-mix(in srgb, var(--sf-ink), transparent 28%);
 }}
 
 .sf-mobile-nav {{
@@ -1228,8 +2201,8 @@ def css_for(spec: PartialSpec) -> str:
   padding: 0.84rem 0.9rem;
   border: 1px solid var(--sf-line);
   border-radius: var(--sf-radius);
-  background: #fffdf8;
-  color: #211f1b;
+  background: color-mix(in srgb, var(--sf-panel), white 6%);
+  color: var(--sf-ink);
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.05rem, 4.8vw, 1.7rem);
 }}
@@ -1245,14 +2218,14 @@ def css_for(spec: PartialSpec) -> str:
   padding: 0.78rem 0.92rem;
   border: 1px solid var(--sf-line);
   border-radius: var(--sf-radius);
-  background: #f2eadc;
-  color: #211f1b;
+  background: color-mix(in srgb, var(--sf-soft), var(--sf-panel) 54%);
+  color: var(--sf-ink);
   font-weight: 800;
 }}
 
 .sf-mobile-primary {{
-  background: #211f1b !important;
-  color: #fffaf1 !important;
+  background: var(--sf-ink) !important;
+  color: var(--sf-panel) !important;
 }}
 
 .sf-menu--timeline-menu .sf-mobile-nav,
@@ -1578,7 +2551,7 @@ def css_for(spec: PartialSpec) -> str:
   left: 50%;
   bottom: 1rem;
   transform: translateX(-50%);
-  width: min(520px, calc(100vw - 2rem));
+  width: min(640px, calc(100vw - 2rem));
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   gap: 0.58rem;
@@ -1591,16 +2564,59 @@ def css_for(spec: PartialSpec) -> str:
   box-shadow: var(--sf-shadow);
 }}
 
+.sf-cookie-copy {{
+  display: grid;
+  gap: 0.18rem;
+  min-width: 0;
+}}
+
 .sf-cookie-banner p {{
   margin: 0;
   font-size: 0.76rem;
   line-height: 1.35;
 }}
 
+.sf-cookie-title {{
+  font-weight: 850;
+  color: var(--sf-deep);
+}}
+
+.sf-cookie-preferences {{
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.42rem;
+  padding-top: 0.34rem;
+}}
+
+.sf-cookie-preferences[hidden] {{
+  display: none;
+}}
+
+.sf-cookie-choice {{
+  min-height: 2.35rem;
+  display: flex;
+  align-items: center;
+  gap: 0.42rem;
+  padding: 0.48rem 0.58rem;
+  border: 1px solid var(--sf-line);
+  border-radius: var(--sf-radius);
+  background: color-mix(in srgb, var(--sf-panel), transparent 6%);
+  font-size: 0.72rem;
+  font-weight: 760;
+}}
+
+.sf-cookie-choice input {{
+  width: 1rem;
+  height: 1rem;
+  accent-color: var(--sf-deep);
+}}
+
 .sf-cookie-actions {{
   display: flex;
   flex-wrap: wrap;
   gap: 0.34rem;
+  justify-content: flex-end;
 }}
 
 .sf-cookie-actions button,
@@ -1616,7 +2632,7 @@ def css_for(spec: PartialSpec) -> str:
   font-weight: 800;
 }}
 
-.sf-cookie-actions a {{
+.sf-cookie-actions :is(a, [data-cookie-reject], [data-cookie-customize]) {{
   background: transparent;
   color: color-mix(in srgb, var(--sf-deep), black 16%);
 }}
@@ -1660,8 +2676,8 @@ body.public-menu-locked .sf-floating-tools {{
 
 .sf-floating-whatsapp {{
   order: 1;
-  background: #25d366;
-  color: #ffffff;
+  background: var(--sf-deep);
+  color: var(--sf-panel);
 }}
 
 .sf-floating-accessibility {{
@@ -1680,7 +2696,7 @@ body.public-menu-locked .sf-floating-tools {{
 .sf-back-to-top {{
   order: 3;
   background: color-mix(in srgb, var(--sf-ink), var(--sf-accent) 18%);
-  color: #fffaf1;
+  color: var(--sf-panel);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -1738,6 +2754,10 @@ body.public-menu-locked .sf-floating-tools {{
 .sf-floating--architectural-button .sf-back-to-top {{
   border-radius: 0 45% 0 45%;
 }}
+
+{designer_header_css(spec)}
+
+{designer_footer_css(spec)}
 
 @media (max-width: 1180px) and (min-width: 1025px) {{
   .sf-header-shell {{
@@ -1817,6 +2837,14 @@ body.public-menu-locked .sf-floating-tools {{
     grid-template-columns: 1fr;
     padding-inline: 1rem;
   }}
+  .sf-public-footer[data-footer-layout] {{
+    grid-template-columns: 1fr !important;
+  }}
+  .sf-public-footer[data-footer-layout] > * {{
+    grid-column: 1 / -1 !important;
+    grid-row: auto !important;
+    order: initial !important;
+  }}
   .sf-public-footer > *,
   .sf-footer--vertical-directory .sf-footer-brand,
   .sf-footer--vertical-directory .sf-footer-contact,
@@ -1862,6 +2890,12 @@ body.public-menu-locked .sf-floating-tools {{
     padding: 0.7rem;
     border-radius: 18px;
   }}
+  .sf-cookie-actions {{
+    justify-content: flex-start;
+  }}
+  .sf-cookie-preferences {{
+    grid-template-columns: 1fr;
+  }}
   .sf-floating-tools {{
     right: 0.85rem;
     bottom: 0.85rem;
@@ -1880,7 +2914,7 @@ body.public-menu-locked .sf-floating-tools {{
     width: 1.45rem;
     height: 1.45rem;
   }}
-  .sf-language-switcher button {{
+  .sf-language-switcher :is(a, button) {{
     min-width: 1.7rem;
   }}
   .sf-header-shell {{
@@ -1891,9 +2925,36 @@ body.public-menu-locked .sf-floating-tools {{
     max-width: 6.4rem;
     font-size: 0.68rem;
   }}
+  .sf-header-actions {{
+    display: flex !important;
+    min-width: 0;
+  }}
+  .sf-header-aside,
+  .sf-header-island--actions {{
+    justify-content: flex-end;
+  }}
+  .sf-menu-button {{
+    min-width: 3.35rem;
+    flex: 0 0 auto;
+    justify-self: end;
+    padding-inline: 0.62rem;
+    box-sizing: border-box;
+  }}
+  .sf-menu-button span {{
+    white-space: nowrap;
+  }}
   .sf-header-cta {{
-    max-width: 6.4rem;
-    padding-inline: 0.55rem;
+    width: 2.9rem;
+    min-width: 2.9rem;
+    max-width: 2.9rem;
+    padding-inline: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 0;
+  }}
+  .sf-header-cta::after {{
+    content: "Book";
+    font-size: 0.68rem;
   }}
   .sf-mobile-nav,
   .sf-menu--tile-grid .sf-mobile-nav,
@@ -1907,7 +2968,22 @@ body.public-menu-locked .sf-floating-tools {{
     font-size: 1.02rem;
   }}
   .sf-footer-sitemap ul {{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.34rem;
+  }}
+  .sf-footer-sitemap a {{
+    width: 100%;
+    min-height: 2.25rem;
+    justify-content: flex-start;
+  }}
+  .sf-public-footer[data-footer-layout] .sf-footer-brand h2 {{
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }}
+  .sf-public-footer[data-footer-layout] .sf-footer-contact {{
+    display: grid;
+    grid-template-columns: 1fr;
   }}
   .sf-floating-whatsapp,
   .sf-floating-accessibility,
@@ -2367,13 +3443,6 @@ def sanitize_page(path: Path, concept: Path, spec: PartialSpec) -> None:
         text,
         flags=re.I,
     )
-    text = re.sub(
-        r"(<h1\b[^>]*>).*?(</h1>)",
-        rf"\1{page_h1(path)}\2",
-        text,
-        count=1,
-        flags=re.S,
-    )
     path.write_text(text, encoding="utf-8")
 
 
@@ -2473,21 +3542,23 @@ def write_docs(concepts: list[Path]) -> None:
         "- Header, banner, footer, favicon, and social preview references use the approved `logo.png` system.",
         "- Public partial text uses `Franciele Sofiati Biomédica`, not internal concept names.",
         "",
-        "| Concept | Internal Direction | Header | Mobile | Footer | Cookie | Floating |",
-        "|---|---|---|---|---|---|---|",
+        "| Concept | Internal Direction | Header Family | Header Variant | Mobile | Footer Family | Footer Variant | Cookie | Floating |",
+        "|---|---|---|---|---|---|---|---|---|",
     ]
     manifest = []
     for concept, spec in zip(concepts, SPECS, strict=True):
         lines.append(
-            f"| {spec.code} | {spec.signature} | `{spec.header}` | `{spec.mobile}` | `{spec.footer}` | `{spec.cookie}` | `{spec.floating}` |"
+            f"| {spec.code} | {spec.signature} | `{header_family(spec)}` | `{spec.header}` | `{spec.mobile}` | `{footer_family(spec)}` | `{spec.footer}` | `{spec.cookie}` | `{spec.floating}` |"
         )
         manifest.append(
             {
                 "concept": concept.name,
                 "number": spec.code,
                 "internal_direction": spec.signature,
+                "header_family": header_family(spec),
                 "header": spec.header,
                 "mobile": spec.mobile,
+                "footer_family": footer_family(spec),
                 "footer": spec.footer,
                 "cookie": spec.cookie,
                 "floating": spec.floating,

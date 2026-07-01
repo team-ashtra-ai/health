@@ -1,12 +1,12 @@
-# 46-curate — Selective Editorial
+# 46-curate — Grand Premium Authority
 
 ## Visual Thesis
 
-A curated editorial site with fewer, stronger moments and intentional restraint.
+Magna uses high authority, premium, confident pacing with large cinematic brand statement.
 
 ## Colour Thesis
 
-Ivory base. Selective deep sage bands. Bronze editorial marks. Blush rare.
+ink, ivory, bronze, sage
 
 ## Systems
 
@@ -21,159 +21,161 @@ Ivory base. Selective deep sage bands. Bronze editorial marks. Blush rare.
 
 ## Homepage Colour Sequence
 
-1. Ivory curated hero
-2. Cream selected trust
-3. Deep sage route feature
-4. Ivory consultation note
-5. Cream reassurance statement
-6. Sage education feature
-7. Ivory results edit
-8. Cream journal curation
-9. Bronze editorial CTA
-10. Deep sage curated footer
+1. Magna hero promise in cream
+2. Magna trust position in gold
+3. Magna care route in ink
+4. Magna consultation path in sage
+5. Magna treatment navigation in ivory
+6. Magna human reassurance in bronze
+7. Magna education preview in cream
+8. Magna responsible expectations in gold
+9. Magna contact bridge in ink
+10. Magna closing identity in sage
 
 ## All Other Pages
 
-Use selective section moments, not filler cards.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No busy grids
-- No excessive photos
-- No random blush.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "46-curate",
-  "colourThesis": "Ivory base. Selective deep sage bands. Bronze editorial marks. Blush rare.",
-  "dominantColourFamily": "dark",
+  "colourThesis": "ink, ivory, bronze, sage",
+  "dominantColourFamily": "ink",
   "secondaryColourFamily": "sage",
   "accentColourFamily": "ivory",
-  "contrastTemperature": "high editorial",
-  "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "contrastTemperature": "soft refined",
+  "darkUsage": "reserved for footer, text, or one anchor band",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "route-ledger; no universal cream-card default",
   "buttonStrategy": "soft-pill",
-  "footerColour": "Deep sage curated footer",
-  "mobileMenuColour": "Cream journal curation",
+  "footerColour": "Magna closing identity in sage",
+  "mobileMenuColour": "Magna responsible expectations in gold",
   "homepageSectionColourSequence": [
-    "Ivory curated hero",
-    "Cream selected trust",
-    "Deep sage route feature",
-    "Ivory consultation note",
-    "Cream reassurance statement",
-    "Sage education feature",
-    "Ivory results edit",
-    "Cream journal curation",
-    "Bronze editorial CTA",
-    "Deep sage curated footer"
+    "Magna hero promise in cream",
+    "Magna trust position in gold",
+    "Magna care route in ink",
+    "Magna consultation path in sage",
+    "Magna treatment navigation in ivory",
+    "Magna human reassurance in bronze",
+    "Magna education preview in cream",
+    "Magna responsible expectations in gold",
+    "Magna contact bridge in ink",
+    "Magna closing identity in sage"
   ],
   "aboutPageColourSequence": [
-    "about 1: cream rhythm from Cream journal curation",
-    "about 2: bronze rhythm from Bronze editorial CTA",
-    "about 3: dark rhythm from Deep sage curated footer",
-    "about 4: ivory rhythm from Ivory curated hero",
-    "about 5: cream rhythm from Cream selected trust",
-    "about 6: dark rhythm from Deep sage route feature",
-    "about 7: ivory rhythm from Ivory consultation note",
-    "about 8: cream rhythm from Cream reassurance statement",
-    "about 9: sage rhythm from Sage education feature",
-    "about 10: ivory rhythm from Ivory results edit"
+    "about 1: gold rhythm from Magna responsible expectations in gold",
+    "about 2: ivory rhythm from Magna contact bridge in ink",
+    "about 3: sage rhythm from Magna closing identity in sage",
+    "about 4: cream rhythm from Magna hero promise in cream",
+    "about 5: gold rhythm from Magna trust position in gold",
+    "about 6: ivory rhythm from Magna care route in ink",
+    "about 7: sage rhythm from Magna consultation path in sage",
+    "about 8: ivory rhythm from Magna treatment navigation in ivory",
+    "about 9: bronze rhythm from Magna human reassurance in bronze",
+    "about 10: cream rhythm from Magna education preview in cream"
   ],
   "carePageColourSequence": [
-    "care 1: bronze rhythm from Bronze editorial CTA",
-    "care 2: dark rhythm from Deep sage curated footer",
-    "care 3: ivory rhythm from Ivory curated hero",
-    "care 4: cream rhythm from Cream selected trust",
-    "care 5: dark rhythm from Deep sage route feature",
-    "care 6: ivory rhythm from Ivory consultation note",
-    "care 7: cream rhythm from Cream reassurance statement",
-    "care 8: sage rhythm from Sage education feature",
-    "care 9: ivory rhythm from Ivory results edit",
-    "care 10: cream rhythm from Cream journal curation"
+    "care 1: ivory rhythm from Magna contact bridge in ink",
+    "care 2: sage rhythm from Magna closing identity in sage",
+    "care 3: cream rhythm from Magna hero promise in cream",
+    "care 4: gold rhythm from Magna trust position in gold",
+    "care 5: ivory rhythm from Magna care route in ink",
+    "care 6: sage rhythm from Magna consultation path in sage",
+    "care 7: ivory rhythm from Magna treatment navigation in ivory",
+    "care 8: bronze rhythm from Magna human reassurance in bronze",
+    "care 9: cream rhythm from Magna education preview in cream",
+    "care 10: gold rhythm from Magna responsible expectations in gold"
   ],
   "laserPageColourSequence": [
-    "laser 1: dark rhythm from Deep sage curated footer",
-    "laser 2: ivory rhythm from Ivory curated hero",
-    "laser 3: cream rhythm from Cream selected trust",
-    "laser 4: dark rhythm from Deep sage route feature",
-    "laser 5: ivory rhythm from Ivory consultation note",
-    "laser 6: cream rhythm from Cream reassurance statement",
-    "laser 7: sage rhythm from Sage education feature",
-    "laser 8: ivory rhythm from Ivory results edit",
-    "laser 9: cream rhythm from Cream journal curation",
-    "laser 10: bronze rhythm from Bronze editorial CTA"
+    "laser 1: sage rhythm from Magna closing identity in sage",
+    "laser 2: cream rhythm from Magna hero promise in cream",
+    "laser 3: gold rhythm from Magna trust position in gold",
+    "laser 4: ivory rhythm from Magna care route in ink",
+    "laser 5: sage rhythm from Magna consultation path in sage",
+    "laser 6: ivory rhythm from Magna treatment navigation in ivory",
+    "laser 7: bronze rhythm from Magna human reassurance in bronze",
+    "laser 8: cream rhythm from Magna education preview in cream",
+    "laser 9: gold rhythm from Magna responsible expectations in gold",
+    "laser 10: ivory rhythm from Magna contact bridge in ink"
   ],
   "skinPageColourSequence": [
-    "skin 1: ivory rhythm from Ivory curated hero",
-    "skin 2: cream rhythm from Cream selected trust",
-    "skin 3: dark rhythm from Deep sage route feature",
-    "skin 4: ivory rhythm from Ivory consultation note",
-    "skin 5: cream rhythm from Cream reassurance statement",
-    "skin 6: sage rhythm from Sage education feature",
-    "skin 7: ivory rhythm from Ivory results edit",
-    "skin 8: cream rhythm from Cream journal curation",
-    "skin 9: bronze rhythm from Bronze editorial CTA",
-    "skin 10: dark rhythm from Deep sage curated footer"
+    "skin 1: cream rhythm from Magna hero promise in cream",
+    "skin 2: gold rhythm from Magna trust position in gold",
+    "skin 3: ivory rhythm from Magna care route in ink",
+    "skin 4: sage rhythm from Magna consultation path in sage",
+    "skin 5: ivory rhythm from Magna treatment navigation in ivory",
+    "skin 6: bronze rhythm from Magna human reassurance in bronze",
+    "skin 7: cream rhythm from Magna education preview in cream",
+    "skin 8: gold rhythm from Magna responsible expectations in gold",
+    "skin 9: ivory rhythm from Magna contact bridge in ink",
+    "skin 10: sage rhythm from Magna closing identity in sage"
   ],
   "resultsPageColourSequence": [
-    "results 1: cream rhythm from Cream selected trust",
-    "results 2: dark rhythm from Deep sage route feature",
-    "results 3: ivory rhythm from Ivory consultation note",
-    "results 4: cream rhythm from Cream reassurance statement",
-    "results 5: sage rhythm from Sage education feature",
-    "results 6: ivory rhythm from Ivory results edit",
-    "results 7: cream rhythm from Cream journal curation",
-    "results 8: bronze rhythm from Bronze editorial CTA",
-    "results 9: dark rhythm from Deep sage curated footer",
-    "results 10: ivory rhythm from Ivory curated hero"
+    "results 1: gold rhythm from Magna trust position in gold",
+    "results 2: ivory rhythm from Magna care route in ink",
+    "results 3: sage rhythm from Magna consultation path in sage",
+    "results 4: ivory rhythm from Magna treatment navigation in ivory",
+    "results 5: bronze rhythm from Magna human reassurance in bronze",
+    "results 6: cream rhythm from Magna education preview in cream",
+    "results 7: gold rhythm from Magna responsible expectations in gold",
+    "results 8: ivory rhythm from Magna contact bridge in ink",
+    "results 9: sage rhythm from Magna closing identity in sage",
+    "results 10: cream rhythm from Magna hero promise in cream"
   ],
   "journalPageColourSequence": [
-    "journal 1: dark rhythm from Deep sage route feature",
-    "journal 2: ivory rhythm from Ivory consultation note",
-    "journal 3: cream rhythm from Cream reassurance statement",
-    "journal 4: sage rhythm from Sage education feature",
-    "journal 5: ivory rhythm from Ivory results edit",
-    "journal 6: cream rhythm from Cream journal curation",
-    "journal 7: bronze rhythm from Bronze editorial CTA",
-    "journal 8: dark rhythm from Deep sage curated footer",
-    "journal 9: ivory rhythm from Ivory curated hero",
-    "journal 10: cream rhythm from Cream selected trust"
+    "journal 1: ivory rhythm from Magna care route in ink",
+    "journal 2: sage rhythm from Magna consultation path in sage",
+    "journal 3: ivory rhythm from Magna treatment navigation in ivory",
+    "journal 4: bronze rhythm from Magna human reassurance in bronze",
+    "journal 5: cream rhythm from Magna education preview in cream",
+    "journal 6: gold rhythm from Magna responsible expectations in gold",
+    "journal 7: ivory rhythm from Magna contact bridge in ink",
+    "journal 8: sage rhythm from Magna closing identity in sage",
+    "journal 9: cream rhythm from Magna hero promise in cream",
+    "journal 10: gold rhythm from Magna trust position in gold"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: cream rhythm from Cream reassurance statement",
-    "consultation 2: sage rhythm from Sage education feature",
-    "consultation 3: ivory rhythm from Ivory results edit",
-    "consultation 4: cream rhythm from Cream journal curation",
-    "consultation 5: bronze rhythm from Bronze editorial CTA",
-    "consultation 6: dark rhythm from Deep sage curated footer",
-    "consultation 7: ivory rhythm from Ivory curated hero",
-    "consultation 8: cream rhythm from Cream selected trust",
-    "consultation 9: dark rhythm from Deep sage route feature",
-    "consultation 10: ivory rhythm from Ivory consultation note"
+    "consultation 1: ivory rhythm from Magna treatment navigation in ivory",
+    "consultation 2: bronze rhythm from Magna human reassurance in bronze",
+    "consultation 3: cream rhythm from Magna education preview in cream",
+    "consultation 4: gold rhythm from Magna responsible expectations in gold",
+    "consultation 5: ivory rhythm from Magna contact bridge in ink",
+    "consultation 6: sage rhythm from Magna closing identity in sage",
+    "consultation 7: cream rhythm from Magna hero promise in cream",
+    "consultation 8: gold rhythm from Magna trust position in gold",
+    "consultation 9: ivory rhythm from Magna care route in ink",
+    "consultation 10: sage rhythm from Magna consultation path in sage"
   ],
   "contactPageColourSequence": [
-    "contact 1: sage rhythm from Sage education feature",
-    "contact 2: ivory rhythm from Ivory results edit",
-    "contact 3: cream rhythm from Cream journal curation",
-    "contact 4: bronze rhythm from Bronze editorial CTA",
-    "contact 5: dark rhythm from Deep sage curated footer",
-    "contact 6: ivory rhythm from Ivory curated hero",
-    "contact 7: cream rhythm from Cream selected trust",
-    "contact 8: dark rhythm from Deep sage route feature",
-    "contact 9: ivory rhythm from Ivory consultation note",
-    "contact 10: cream rhythm from Cream reassurance statement"
+    "contact 1: bronze rhythm from Magna human reassurance in bronze",
+    "contact 2: cream rhythm from Magna education preview in cream",
+    "contact 3: gold rhythm from Magna responsible expectations in gold",
+    "contact 4: ivory rhythm from Magna contact bridge in ink",
+    "contact 5: sage rhythm from Magna closing identity in sage",
+    "contact 6: cream rhythm from Magna hero promise in cream",
+    "contact 7: gold rhythm from Magna trust position in gold",
+    "contact 8: ivory rhythm from Magna care route in ink",
+    "contact 9: sage rhythm from Magna consultation path in sage",
+    "contact 10: ivory rhythm from Magna treatment navigation in ivory"
   ],
   "forbiddenColourPatterns": [
-    "No busy grids",
-    "No excessive photos",
-    "No random blush."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

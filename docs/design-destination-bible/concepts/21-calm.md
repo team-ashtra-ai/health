@@ -1,12 +1,12 @@
-# 21-calm — Quiet Wellness
+# 21-calm — Warm Human Clinic
 
 ## Visual Thesis
 
-A very quiet slow-paced wellness site with silence, whitespace, and gentle clarity.
+Amara uses warm, personal, inviting pacing with human trust and listening.
 
 ## Colour Thesis
 
-Cream, ivory, and very pale sage dominate. Gold is almost absent. Blush is slight warmth. Dark avoided except text/footer.
+cream, blush, sand, sage
 
 ## Systems
 
@@ -21,159 +21,161 @@ Cream, ivory, and very pale sage dominate. Gold is almost absent. Blush is sligh
 
 ## Homepage Colour Sequence
 
-1. Quiet cream hero
-2. Ivory trust silence
-3. Pale sage route list
-4. Cream consultation note
-5. Ivory reassurance pause
-6. Pale sage education
-7. Cream results reflection
-8. Ivory journal quiet path
-9. Pale blush contact note
-10. Quiet sage footer
+1. Amara hero promise in gold
+2. Amara trust position in dark
+3. Amara care route in bronze
+4. Amara consultation path in sage
+5. Amara treatment navigation in cream
+6. Amara human reassurance in ivory
+7. Amara education preview in gold
+8. Amara responsible expectations in dark
+9. Amara contact bridge in bronze
+10. Amara closing identity in sage
 
 ## All Other Pages
 
-Use low density and generous negative space.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No dramatic dark bands
-- No energetic colour rhythm
-- No dense card grids.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "21-calm",
-  "colourThesis": "Cream, ivory, and very pale sage dominate. Gold is almost absent. Blush is slight warmth. Dark avoided except text/footer.",
+  "colourThesis": "cream, blush, sand, sage",
   "dominantColourFamily": "dark",
   "secondaryColourFamily": "sage",
   "accentColourFamily": "ivory",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "route-ledger; no universal cream-card default",
   "buttonStrategy": "split-quiet",
-  "footerColour": "Quiet sage footer",
-  "mobileMenuColour": "Pale sage route list",
+  "footerColour": "Amara closing identity in sage",
+  "mobileMenuColour": "Amara care route in bronze",
   "homepageSectionColourSequence": [
-    "Quiet cream hero",
-    "Ivory trust silence",
-    "Pale sage route list",
-    "Cream consultation note",
-    "Ivory reassurance pause",
-    "Pale sage education",
-    "Cream results reflection",
-    "Ivory journal quiet path",
-    "Pale blush contact note",
-    "Quiet sage footer"
+    "Amara hero promise in gold",
+    "Amara trust position in dark",
+    "Amara care route in bronze",
+    "Amara consultation path in sage",
+    "Amara treatment navigation in cream",
+    "Amara human reassurance in ivory",
+    "Amara education preview in gold",
+    "Amara responsible expectations in dark",
+    "Amara contact bridge in bronze",
+    "Amara closing identity in sage"
   ],
   "aboutPageColourSequence": [
-    "about 1: sage rhythm from Pale sage route list",
-    "about 2: cream rhythm from Cream consultation note",
-    "about 3: ivory rhythm from Ivory reassurance pause",
-    "about 4: sage rhythm from Pale sage education",
-    "about 5: cream rhythm from Cream results reflection",
-    "about 6: ivory rhythm from Ivory journal quiet path",
-    "about 7: blush rhythm from Pale blush contact note",
-    "about 8: sage rhythm from Quiet sage footer",
-    "about 9: cream rhythm from Quiet cream hero",
-    "about 10: ivory rhythm from Ivory trust silence"
+    "about 1: bronze rhythm from Amara care route in bronze",
+    "about 2: sage rhythm from Amara consultation path in sage",
+    "about 3: cream rhythm from Amara treatment navigation in cream",
+    "about 4: ivory rhythm from Amara human reassurance in ivory",
+    "about 5: gold rhythm from Amara education preview in gold",
+    "about 6: dark rhythm from Amara responsible expectations in dark",
+    "about 7: bronze rhythm from Amara contact bridge in bronze",
+    "about 8: sage rhythm from Amara closing identity in sage",
+    "about 9: gold rhythm from Amara hero promise in gold",
+    "about 10: dark rhythm from Amara trust position in dark"
   ],
   "carePageColourSequence": [
-    "care 1: cream rhythm from Cream consultation note",
-    "care 2: ivory rhythm from Ivory reassurance pause",
-    "care 3: sage rhythm from Pale sage education",
-    "care 4: cream rhythm from Cream results reflection",
-    "care 5: ivory rhythm from Ivory journal quiet path",
-    "care 6: blush rhythm from Pale blush contact note",
-    "care 7: sage rhythm from Quiet sage footer",
-    "care 8: cream rhythm from Quiet cream hero",
-    "care 9: ivory rhythm from Ivory trust silence",
-    "care 10: sage rhythm from Pale sage route list"
+    "care 1: sage rhythm from Amara consultation path in sage",
+    "care 2: cream rhythm from Amara treatment navigation in cream",
+    "care 3: ivory rhythm from Amara human reassurance in ivory",
+    "care 4: gold rhythm from Amara education preview in gold",
+    "care 5: dark rhythm from Amara responsible expectations in dark",
+    "care 6: bronze rhythm from Amara contact bridge in bronze",
+    "care 7: sage rhythm from Amara closing identity in sage",
+    "care 8: gold rhythm from Amara hero promise in gold",
+    "care 9: dark rhythm from Amara trust position in dark",
+    "care 10: bronze rhythm from Amara care route in bronze"
   ],
   "laserPageColourSequence": [
-    "laser 1: ivory rhythm from Ivory reassurance pause",
-    "laser 2: sage rhythm from Pale sage education",
-    "laser 3: cream rhythm from Cream results reflection",
-    "laser 4: ivory rhythm from Ivory journal quiet path",
-    "laser 5: blush rhythm from Pale blush contact note",
-    "laser 6: sage rhythm from Quiet sage footer",
-    "laser 7: cream rhythm from Quiet cream hero",
-    "laser 8: ivory rhythm from Ivory trust silence",
-    "laser 9: sage rhythm from Pale sage route list",
-    "laser 10: cream rhythm from Cream consultation note"
+    "laser 1: cream rhythm from Amara treatment navigation in cream",
+    "laser 2: ivory rhythm from Amara human reassurance in ivory",
+    "laser 3: gold rhythm from Amara education preview in gold",
+    "laser 4: dark rhythm from Amara responsible expectations in dark",
+    "laser 5: bronze rhythm from Amara contact bridge in bronze",
+    "laser 6: sage rhythm from Amara closing identity in sage",
+    "laser 7: gold rhythm from Amara hero promise in gold",
+    "laser 8: dark rhythm from Amara trust position in dark",
+    "laser 9: bronze rhythm from Amara care route in bronze",
+    "laser 10: sage rhythm from Amara consultation path in sage"
   ],
   "skinPageColourSequence": [
-    "skin 1: sage rhythm from Pale sage education",
-    "skin 2: cream rhythm from Cream results reflection",
-    "skin 3: ivory rhythm from Ivory journal quiet path",
-    "skin 4: blush rhythm from Pale blush contact note",
-    "skin 5: sage rhythm from Quiet sage footer",
-    "skin 6: cream rhythm from Quiet cream hero",
-    "skin 7: ivory rhythm from Ivory trust silence",
-    "skin 8: sage rhythm from Pale sage route list",
-    "skin 9: cream rhythm from Cream consultation note",
-    "skin 10: ivory rhythm from Ivory reassurance pause"
+    "skin 1: ivory rhythm from Amara human reassurance in ivory",
+    "skin 2: gold rhythm from Amara education preview in gold",
+    "skin 3: dark rhythm from Amara responsible expectations in dark",
+    "skin 4: bronze rhythm from Amara contact bridge in bronze",
+    "skin 5: sage rhythm from Amara closing identity in sage",
+    "skin 6: gold rhythm from Amara hero promise in gold",
+    "skin 7: dark rhythm from Amara trust position in dark",
+    "skin 8: bronze rhythm from Amara care route in bronze",
+    "skin 9: sage rhythm from Amara consultation path in sage",
+    "skin 10: cream rhythm from Amara treatment navigation in cream"
   ],
   "resultsPageColourSequence": [
-    "results 1: cream rhythm from Cream results reflection",
-    "results 2: ivory rhythm from Ivory journal quiet path",
-    "results 3: blush rhythm from Pale blush contact note",
-    "results 4: sage rhythm from Quiet sage footer",
-    "results 5: cream rhythm from Quiet cream hero",
-    "results 6: ivory rhythm from Ivory trust silence",
-    "results 7: sage rhythm from Pale sage route list",
-    "results 8: cream rhythm from Cream consultation note",
-    "results 9: ivory rhythm from Ivory reassurance pause",
-    "results 10: sage rhythm from Pale sage education"
+    "results 1: gold rhythm from Amara education preview in gold",
+    "results 2: dark rhythm from Amara responsible expectations in dark",
+    "results 3: bronze rhythm from Amara contact bridge in bronze",
+    "results 4: sage rhythm from Amara closing identity in sage",
+    "results 5: gold rhythm from Amara hero promise in gold",
+    "results 6: dark rhythm from Amara trust position in dark",
+    "results 7: bronze rhythm from Amara care route in bronze",
+    "results 8: sage rhythm from Amara consultation path in sage",
+    "results 9: cream rhythm from Amara treatment navigation in cream",
+    "results 10: ivory rhythm from Amara human reassurance in ivory"
   ],
   "journalPageColourSequence": [
-    "journal 1: ivory rhythm from Ivory journal quiet path",
-    "journal 2: blush rhythm from Pale blush contact note",
-    "journal 3: sage rhythm from Quiet sage footer",
-    "journal 4: cream rhythm from Quiet cream hero",
-    "journal 5: ivory rhythm from Ivory trust silence",
-    "journal 6: sage rhythm from Pale sage route list",
-    "journal 7: cream rhythm from Cream consultation note",
-    "journal 8: ivory rhythm from Ivory reassurance pause",
-    "journal 9: sage rhythm from Pale sage education",
-    "journal 10: cream rhythm from Cream results reflection"
+    "journal 1: dark rhythm from Amara responsible expectations in dark",
+    "journal 2: bronze rhythm from Amara contact bridge in bronze",
+    "journal 3: sage rhythm from Amara closing identity in sage",
+    "journal 4: gold rhythm from Amara hero promise in gold",
+    "journal 5: dark rhythm from Amara trust position in dark",
+    "journal 6: bronze rhythm from Amara care route in bronze",
+    "journal 7: sage rhythm from Amara consultation path in sage",
+    "journal 8: cream rhythm from Amara treatment navigation in cream",
+    "journal 9: ivory rhythm from Amara human reassurance in ivory",
+    "journal 10: gold rhythm from Amara education preview in gold"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: sage rhythm from Quiet sage footer",
-    "consultation 2: cream rhythm from Quiet cream hero",
-    "consultation 3: ivory rhythm from Ivory trust silence",
-    "consultation 4: sage rhythm from Pale sage route list",
-    "consultation 5: cream rhythm from Cream consultation note",
-    "consultation 6: ivory rhythm from Ivory reassurance pause",
-    "consultation 7: sage rhythm from Pale sage education",
-    "consultation 8: cream rhythm from Cream results reflection",
-    "consultation 9: ivory rhythm from Ivory journal quiet path",
-    "consultation 10: blush rhythm from Pale blush contact note"
+    "consultation 1: sage rhythm from Amara closing identity in sage",
+    "consultation 2: gold rhythm from Amara hero promise in gold",
+    "consultation 3: dark rhythm from Amara trust position in dark",
+    "consultation 4: bronze rhythm from Amara care route in bronze",
+    "consultation 5: sage rhythm from Amara consultation path in sage",
+    "consultation 6: cream rhythm from Amara treatment navigation in cream",
+    "consultation 7: ivory rhythm from Amara human reassurance in ivory",
+    "consultation 8: gold rhythm from Amara education preview in gold",
+    "consultation 9: dark rhythm from Amara responsible expectations in dark",
+    "consultation 10: bronze rhythm from Amara contact bridge in bronze"
   ],
   "contactPageColourSequence": [
-    "contact 1: cream rhythm from Quiet cream hero",
-    "contact 2: ivory rhythm from Ivory trust silence",
-    "contact 3: sage rhythm from Pale sage route list",
-    "contact 4: cream rhythm from Cream consultation note",
-    "contact 5: ivory rhythm from Ivory reassurance pause",
-    "contact 6: sage rhythm from Pale sage education",
-    "contact 7: cream rhythm from Cream results reflection",
-    "contact 8: ivory rhythm from Ivory journal quiet path",
-    "contact 9: blush rhythm from Pale blush contact note",
-    "contact 10: sage rhythm from Quiet sage footer"
+    "contact 1: gold rhythm from Amara hero promise in gold",
+    "contact 2: dark rhythm from Amara trust position in dark",
+    "contact 3: bronze rhythm from Amara care route in bronze",
+    "contact 4: sage rhythm from Amara consultation path in sage",
+    "contact 5: cream rhythm from Amara treatment navigation in cream",
+    "contact 6: ivory rhythm from Amara human reassurance in ivory",
+    "contact 7: gold rhythm from Amara education preview in gold",
+    "contact 8: dark rhythm from Amara responsible expectations in dark",
+    "contact 9: bronze rhythm from Amara contact bridge in bronze",
+    "contact 10: sage rhythm from Amara closing identity in sage"
   ],
   "forbiddenColourPatterns": [
-    "No dramatic dark bands",
-    "No energetic colour rhythm",
-    "No dense card grids."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

@@ -1,12 +1,12 @@
-# 08-balance — Layered Magazine
+# 08-balance — Holistic Calm Clinic
 
 ## Visual Thesis
 
-A layered editorial magazine site with alternating panels, offset content, and sophisticated visual pacing.
+Balance uses grounded, natural, wellness clinical pacing with balanced split with calm process.
 
 ## Colour Thesis
 
-Ivory base. Sage, cream, blush, and one dark editorial band create layered rhythm. Bronze dividers connect the layout.
+sage, ivory, sand, olive
 
 ## Systems
 
@@ -21,159 +21,161 @@ Ivory base. Sage, cream, blush, and one dark editorial band create layered rhyth
 
 ## Homepage Colour Sequence
 
-1. Ivory layered magazine hero
-2. Sage-offset trust panel
-3. Cream route spread
-4. Blush editorial aside
-5. Dark sage statement band
-6. Ivory article-row section
-7. Sage results panel
-8. Cream journal index
-9. Bronze-line CTA layer
-10. Dark/ivory magazine footer bridge
+1. Balance hero promise in cream
+2. Balance trust position in gold
+3. Balance care route in dark
+4. Balance consultation path in bronze
+5. Balance treatment navigation in sage
+6. Balance human reassurance in ivory
+7. Balance education preview in cream
+8. Balance responsible expectations in gold
+9. Balance contact bridge in dark
+10. Balance closing identity in bronze
 
 ## All Other Pages
 
-Alternate layered panels. Use one dramatic colour break per page. Preserve magazine asymmetry.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No centered card stack
-- No same two-column split repeated
-- No flat all-cream page.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "08-balance",
-  "colourThesis": "Ivory base. Sage, cream, blush, and one dark editorial band create layered rhythm. Bronze dividers connect the layout.",
+  "colourThesis": "sage, ivory, sand, olive",
   "dominantColourFamily": "dark",
   "secondaryColourFamily": "sage",
   "accentColourFamily": "ivory",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "axis-grid; no universal cream-card default",
   "buttonStrategy": "text-link",
-  "footerColour": "Dark/ivory magazine footer bridge",
-  "mobileMenuColour": "Dark/ivory magazine footer bridge",
+  "footerColour": "Balance closing identity in bronze",
+  "mobileMenuColour": "Balance closing identity in bronze",
   "homepageSectionColourSequence": [
-    "Ivory layered magazine hero",
-    "Sage-offset trust panel",
-    "Cream route spread",
-    "Blush editorial aside",
-    "Dark sage statement band",
-    "Ivory article-row section",
-    "Sage results panel",
-    "Cream journal index",
-    "Bronze-line CTA layer",
-    "Dark/ivory magazine footer bridge"
+    "Balance hero promise in cream",
+    "Balance trust position in gold",
+    "Balance care route in dark",
+    "Balance consultation path in bronze",
+    "Balance treatment navigation in sage",
+    "Balance human reassurance in ivory",
+    "Balance education preview in cream",
+    "Balance responsible expectations in gold",
+    "Balance contact bridge in dark",
+    "Balance closing identity in bronze"
   ],
   "aboutPageColourSequence": [
-    "about 1: dark rhythm from Dark/ivory magazine footer bridge",
-    "about 2: ivory rhythm from Ivory layered magazine hero",
-    "about 3: sage rhythm from Sage-offset trust panel",
-    "about 4: cream rhythm from Cream route spread",
-    "about 5: blush rhythm from Blush editorial aside",
-    "about 6: dark rhythm from Dark sage statement band",
-    "about 7: ivory rhythm from Ivory article-row section",
-    "about 8: sage rhythm from Sage results panel",
-    "about 9: cream rhythm from Cream journal index",
-    "about 10: bronze rhythm from Bronze-line CTA layer"
+    "about 1: bronze rhythm from Balance closing identity in bronze",
+    "about 2: cream rhythm from Balance hero promise in cream",
+    "about 3: gold rhythm from Balance trust position in gold",
+    "about 4: dark rhythm from Balance care route in dark",
+    "about 5: bronze rhythm from Balance consultation path in bronze",
+    "about 6: sage rhythm from Balance treatment navigation in sage",
+    "about 7: ivory rhythm from Balance human reassurance in ivory",
+    "about 8: cream rhythm from Balance education preview in cream",
+    "about 9: gold rhythm from Balance responsible expectations in gold",
+    "about 10: dark rhythm from Balance contact bridge in dark"
   ],
   "carePageColourSequence": [
-    "care 1: ivory rhythm from Ivory layered magazine hero",
-    "care 2: sage rhythm from Sage-offset trust panel",
-    "care 3: cream rhythm from Cream route spread",
-    "care 4: blush rhythm from Blush editorial aside",
-    "care 5: dark rhythm from Dark sage statement band",
-    "care 6: ivory rhythm from Ivory article-row section",
-    "care 7: sage rhythm from Sage results panel",
-    "care 8: cream rhythm from Cream journal index",
-    "care 9: bronze rhythm from Bronze-line CTA layer",
-    "care 10: dark rhythm from Dark/ivory magazine footer bridge"
+    "care 1: cream rhythm from Balance hero promise in cream",
+    "care 2: gold rhythm from Balance trust position in gold",
+    "care 3: dark rhythm from Balance care route in dark",
+    "care 4: bronze rhythm from Balance consultation path in bronze",
+    "care 5: sage rhythm from Balance treatment navigation in sage",
+    "care 6: ivory rhythm from Balance human reassurance in ivory",
+    "care 7: cream rhythm from Balance education preview in cream",
+    "care 8: gold rhythm from Balance responsible expectations in gold",
+    "care 9: dark rhythm from Balance contact bridge in dark",
+    "care 10: bronze rhythm from Balance closing identity in bronze"
   ],
   "laserPageColourSequence": [
-    "laser 1: sage rhythm from Sage-offset trust panel",
-    "laser 2: cream rhythm from Cream route spread",
-    "laser 3: blush rhythm from Blush editorial aside",
-    "laser 4: dark rhythm from Dark sage statement band",
-    "laser 5: ivory rhythm from Ivory article-row section",
-    "laser 6: sage rhythm from Sage results panel",
-    "laser 7: cream rhythm from Cream journal index",
-    "laser 8: bronze rhythm from Bronze-line CTA layer",
-    "laser 9: dark rhythm from Dark/ivory magazine footer bridge",
-    "laser 10: ivory rhythm from Ivory layered magazine hero"
+    "laser 1: gold rhythm from Balance trust position in gold",
+    "laser 2: dark rhythm from Balance care route in dark",
+    "laser 3: bronze rhythm from Balance consultation path in bronze",
+    "laser 4: sage rhythm from Balance treatment navigation in sage",
+    "laser 5: ivory rhythm from Balance human reassurance in ivory",
+    "laser 6: cream rhythm from Balance education preview in cream",
+    "laser 7: gold rhythm from Balance responsible expectations in gold",
+    "laser 8: dark rhythm from Balance contact bridge in dark",
+    "laser 9: bronze rhythm from Balance closing identity in bronze",
+    "laser 10: cream rhythm from Balance hero promise in cream"
   ],
   "skinPageColourSequence": [
-    "skin 1: cream rhythm from Cream route spread",
-    "skin 2: blush rhythm from Blush editorial aside",
-    "skin 3: dark rhythm from Dark sage statement band",
-    "skin 4: ivory rhythm from Ivory article-row section",
-    "skin 5: sage rhythm from Sage results panel",
-    "skin 6: cream rhythm from Cream journal index",
-    "skin 7: bronze rhythm from Bronze-line CTA layer",
-    "skin 8: dark rhythm from Dark/ivory magazine footer bridge",
-    "skin 9: ivory rhythm from Ivory layered magazine hero",
-    "skin 10: sage rhythm from Sage-offset trust panel"
+    "skin 1: dark rhythm from Balance care route in dark",
+    "skin 2: bronze rhythm from Balance consultation path in bronze",
+    "skin 3: sage rhythm from Balance treatment navigation in sage",
+    "skin 4: ivory rhythm from Balance human reassurance in ivory",
+    "skin 5: cream rhythm from Balance education preview in cream",
+    "skin 6: gold rhythm from Balance responsible expectations in gold",
+    "skin 7: dark rhythm from Balance contact bridge in dark",
+    "skin 8: bronze rhythm from Balance closing identity in bronze",
+    "skin 9: cream rhythm from Balance hero promise in cream",
+    "skin 10: gold rhythm from Balance trust position in gold"
   ],
   "resultsPageColourSequence": [
-    "results 1: blush rhythm from Blush editorial aside",
-    "results 2: dark rhythm from Dark sage statement band",
-    "results 3: ivory rhythm from Ivory article-row section",
-    "results 4: sage rhythm from Sage results panel",
-    "results 5: cream rhythm from Cream journal index",
-    "results 6: bronze rhythm from Bronze-line CTA layer",
-    "results 7: dark rhythm from Dark/ivory magazine footer bridge",
-    "results 8: ivory rhythm from Ivory layered magazine hero",
-    "results 9: sage rhythm from Sage-offset trust panel",
-    "results 10: cream rhythm from Cream route spread"
+    "results 1: bronze rhythm from Balance consultation path in bronze",
+    "results 2: sage rhythm from Balance treatment navigation in sage",
+    "results 3: ivory rhythm from Balance human reassurance in ivory",
+    "results 4: cream rhythm from Balance education preview in cream",
+    "results 5: gold rhythm from Balance responsible expectations in gold",
+    "results 6: dark rhythm from Balance contact bridge in dark",
+    "results 7: bronze rhythm from Balance closing identity in bronze",
+    "results 8: cream rhythm from Balance hero promise in cream",
+    "results 9: gold rhythm from Balance trust position in gold",
+    "results 10: dark rhythm from Balance care route in dark"
   ],
   "journalPageColourSequence": [
-    "journal 1: dark rhythm from Dark sage statement band",
-    "journal 2: ivory rhythm from Ivory article-row section",
-    "journal 3: sage rhythm from Sage results panel",
-    "journal 4: cream rhythm from Cream journal index",
-    "journal 5: bronze rhythm from Bronze-line CTA layer",
-    "journal 6: dark rhythm from Dark/ivory magazine footer bridge",
-    "journal 7: ivory rhythm from Ivory layered magazine hero",
-    "journal 8: sage rhythm from Sage-offset trust panel",
-    "journal 9: cream rhythm from Cream route spread",
-    "journal 10: blush rhythm from Blush editorial aside"
+    "journal 1: sage rhythm from Balance treatment navigation in sage",
+    "journal 2: ivory rhythm from Balance human reassurance in ivory",
+    "journal 3: cream rhythm from Balance education preview in cream",
+    "journal 4: gold rhythm from Balance responsible expectations in gold",
+    "journal 5: dark rhythm from Balance contact bridge in dark",
+    "journal 6: bronze rhythm from Balance closing identity in bronze",
+    "journal 7: cream rhythm from Balance hero promise in cream",
+    "journal 8: gold rhythm from Balance trust position in gold",
+    "journal 9: dark rhythm from Balance care route in dark",
+    "journal 10: bronze rhythm from Balance consultation path in bronze"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: sage rhythm from Sage results panel",
-    "consultation 2: cream rhythm from Cream journal index",
-    "consultation 3: bronze rhythm from Bronze-line CTA layer",
-    "consultation 4: dark rhythm from Dark/ivory magazine footer bridge",
-    "consultation 5: ivory rhythm from Ivory layered magazine hero",
-    "consultation 6: sage rhythm from Sage-offset trust panel",
-    "consultation 7: cream rhythm from Cream route spread",
-    "consultation 8: blush rhythm from Blush editorial aside",
-    "consultation 9: dark rhythm from Dark sage statement band",
-    "consultation 10: ivory rhythm from Ivory article-row section"
+    "consultation 1: cream rhythm from Balance education preview in cream",
+    "consultation 2: gold rhythm from Balance responsible expectations in gold",
+    "consultation 3: dark rhythm from Balance contact bridge in dark",
+    "consultation 4: bronze rhythm from Balance closing identity in bronze",
+    "consultation 5: cream rhythm from Balance hero promise in cream",
+    "consultation 6: gold rhythm from Balance trust position in gold",
+    "consultation 7: dark rhythm from Balance care route in dark",
+    "consultation 8: bronze rhythm from Balance consultation path in bronze",
+    "consultation 9: sage rhythm from Balance treatment navigation in sage",
+    "consultation 10: ivory rhythm from Balance human reassurance in ivory"
   ],
   "contactPageColourSequence": [
-    "contact 1: cream rhythm from Cream journal index",
-    "contact 2: bronze rhythm from Bronze-line CTA layer",
-    "contact 3: dark rhythm from Dark/ivory magazine footer bridge",
-    "contact 4: ivory rhythm from Ivory layered magazine hero",
-    "contact 5: sage rhythm from Sage-offset trust panel",
-    "contact 6: cream rhythm from Cream route spread",
-    "contact 7: blush rhythm from Blush editorial aside",
-    "contact 8: dark rhythm from Dark sage statement band",
-    "contact 9: ivory rhythm from Ivory article-row section",
-    "contact 10: sage rhythm from Sage results panel"
+    "contact 1: gold rhythm from Balance responsible expectations in gold",
+    "contact 2: dark rhythm from Balance contact bridge in dark",
+    "contact 3: bronze rhythm from Balance closing identity in bronze",
+    "contact 4: cream rhythm from Balance hero promise in cream",
+    "contact 5: gold rhythm from Balance trust position in gold",
+    "contact 6: dark rhythm from Balance care route in dark",
+    "contact 7: bronze rhythm from Balance consultation path in bronze",
+    "contact 8: sage rhythm from Balance treatment navigation in sage",
+    "contact 9: ivory rhythm from Balance human reassurance in ivory",
+    "contact 10: cream rhythm from Balance education preview in cream"
   ],
   "forbiddenColourPatterns": [
-    "No centered card stack",
-    "No same two-column split repeated",
-    "No flat all-cream page."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

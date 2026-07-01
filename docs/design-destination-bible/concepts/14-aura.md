@@ -1,12 +1,12 @@
-# 14-aura — Atmospheric Calm
+# 14-aura — Serene Private Care
 
 ## Visual Thesis
 
-A soft atmospheric website using quiet gradients, low-density sections, and calm immersion.
+Seren uses calm, private, soft spoken pacing with quiet trust and consultation.
 
 ## Colour Thesis
 
-Cream, pale sage, blush 50, and soft gradients dominate. Dark appears only in text and footer.
+ivory, sage, taupe
 
 ## Systems
 
@@ -21,159 +21,161 @@ Cream, pale sage, blush 50, and soft gradients dominate. Dark appears only in te
 
 ## Homepage Colour Sequence
 
-1. Atmospheric cream/sage hero
-2. Blush mist trust section
-3. Pale sage route field
-4. Ivory consultation calm
-5. Cream gradient reassurance
-6. Sage education cloud
-7. Ivory results note
-8. Blush reading path
-9. Cream quiet CTA
-10. Soft dark footer
+1. Seren hero promise in bronze
+2. Seren trust position in cream
+3. Seren care route in gold
+4. Seren consultation path in dark
+5. Seren treatment navigation in sage
+6. Seren human reassurance in ivory
+7. Seren education preview in bronze
+8. Seren responsible expectations in cream
+9. Seren contact bridge in gold
+10. Seren closing identity in dark
 
 ## All Other Pages
 
-Use gentle gradient transitions and very soft boundaries.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No hard clinical lines
-- No strong dark bands
-- No high-contrast luxury.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "14-aura",
-  "colourThesis": "Cream, pale sage, blush 50, and soft gradients dominate. Dark appears only in text and footer.",
+  "colourThesis": "ivory, sage, taupe",
   "dominantColourFamily": "dark",
   "secondaryColourFamily": "sage",
   "accentColourFamily": "ivory",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "shape-field; no universal cream-card default",
   "buttonStrategy": "single-rule",
-  "footerColour": "Soft dark footer",
-  "mobileMenuColour": "Sage education cloud",
+  "footerColour": "Seren closing identity in dark",
+  "mobileMenuColour": "Seren human reassurance in ivory",
   "homepageSectionColourSequence": [
-    "Atmospheric cream/sage hero",
-    "Blush mist trust section",
-    "Pale sage route field",
-    "Ivory consultation calm",
-    "Cream gradient reassurance",
-    "Sage education cloud",
-    "Ivory results note",
-    "Blush reading path",
-    "Cream quiet CTA",
-    "Soft dark footer"
+    "Seren hero promise in bronze",
+    "Seren trust position in cream",
+    "Seren care route in gold",
+    "Seren consultation path in dark",
+    "Seren treatment navigation in sage",
+    "Seren human reassurance in ivory",
+    "Seren education preview in bronze",
+    "Seren responsible expectations in cream",
+    "Seren contact bridge in gold",
+    "Seren closing identity in dark"
   ],
   "aboutPageColourSequence": [
-    "about 1: sage rhythm from Sage education cloud",
-    "about 2: ivory rhythm from Ivory results note",
-    "about 3: blush rhythm from Blush reading path",
-    "about 4: cream rhythm from Cream quiet CTA",
-    "about 5: dark rhythm from Soft dark footer",
-    "about 6: sage rhythm from Atmospheric cream/sage hero",
-    "about 7: blush rhythm from Blush mist trust section",
-    "about 8: sage rhythm from Pale sage route field",
-    "about 9: ivory rhythm from Ivory consultation calm",
-    "about 10: cream rhythm from Cream gradient reassurance"
+    "about 1: ivory rhythm from Seren human reassurance in ivory",
+    "about 2: bronze rhythm from Seren education preview in bronze",
+    "about 3: cream rhythm from Seren responsible expectations in cream",
+    "about 4: gold rhythm from Seren contact bridge in gold",
+    "about 5: dark rhythm from Seren closing identity in dark",
+    "about 6: bronze rhythm from Seren hero promise in bronze",
+    "about 7: cream rhythm from Seren trust position in cream",
+    "about 8: gold rhythm from Seren care route in gold",
+    "about 9: dark rhythm from Seren consultation path in dark",
+    "about 10: sage rhythm from Seren treatment navigation in sage"
   ],
   "carePageColourSequence": [
-    "care 1: ivory rhythm from Ivory results note",
-    "care 2: blush rhythm from Blush reading path",
-    "care 3: cream rhythm from Cream quiet CTA",
-    "care 4: dark rhythm from Soft dark footer",
-    "care 5: sage rhythm from Atmospheric cream/sage hero",
-    "care 6: blush rhythm from Blush mist trust section",
-    "care 7: sage rhythm from Pale sage route field",
-    "care 8: ivory rhythm from Ivory consultation calm",
-    "care 9: cream rhythm from Cream gradient reassurance",
-    "care 10: sage rhythm from Sage education cloud"
+    "care 1: bronze rhythm from Seren education preview in bronze",
+    "care 2: cream rhythm from Seren responsible expectations in cream",
+    "care 3: gold rhythm from Seren contact bridge in gold",
+    "care 4: dark rhythm from Seren closing identity in dark",
+    "care 5: bronze rhythm from Seren hero promise in bronze",
+    "care 6: cream rhythm from Seren trust position in cream",
+    "care 7: gold rhythm from Seren care route in gold",
+    "care 8: dark rhythm from Seren consultation path in dark",
+    "care 9: sage rhythm from Seren treatment navigation in sage",
+    "care 10: ivory rhythm from Seren human reassurance in ivory"
   ],
   "laserPageColourSequence": [
-    "laser 1: blush rhythm from Blush reading path",
-    "laser 2: cream rhythm from Cream quiet CTA",
-    "laser 3: dark rhythm from Soft dark footer",
-    "laser 4: sage rhythm from Atmospheric cream/sage hero",
-    "laser 5: blush rhythm from Blush mist trust section",
-    "laser 6: sage rhythm from Pale sage route field",
-    "laser 7: ivory rhythm from Ivory consultation calm",
-    "laser 8: cream rhythm from Cream gradient reassurance",
-    "laser 9: sage rhythm from Sage education cloud",
-    "laser 10: ivory rhythm from Ivory results note"
+    "laser 1: cream rhythm from Seren responsible expectations in cream",
+    "laser 2: gold rhythm from Seren contact bridge in gold",
+    "laser 3: dark rhythm from Seren closing identity in dark",
+    "laser 4: bronze rhythm from Seren hero promise in bronze",
+    "laser 5: cream rhythm from Seren trust position in cream",
+    "laser 6: gold rhythm from Seren care route in gold",
+    "laser 7: dark rhythm from Seren consultation path in dark",
+    "laser 8: sage rhythm from Seren treatment navigation in sage",
+    "laser 9: ivory rhythm from Seren human reassurance in ivory",
+    "laser 10: bronze rhythm from Seren education preview in bronze"
   ],
   "skinPageColourSequence": [
-    "skin 1: cream rhythm from Cream quiet CTA",
-    "skin 2: dark rhythm from Soft dark footer",
-    "skin 3: sage rhythm from Atmospheric cream/sage hero",
-    "skin 4: blush rhythm from Blush mist trust section",
-    "skin 5: sage rhythm from Pale sage route field",
-    "skin 6: ivory rhythm from Ivory consultation calm",
-    "skin 7: cream rhythm from Cream gradient reassurance",
-    "skin 8: sage rhythm from Sage education cloud",
-    "skin 9: ivory rhythm from Ivory results note",
-    "skin 10: blush rhythm from Blush reading path"
+    "skin 1: gold rhythm from Seren contact bridge in gold",
+    "skin 2: dark rhythm from Seren closing identity in dark",
+    "skin 3: bronze rhythm from Seren hero promise in bronze",
+    "skin 4: cream rhythm from Seren trust position in cream",
+    "skin 5: gold rhythm from Seren care route in gold",
+    "skin 6: dark rhythm from Seren consultation path in dark",
+    "skin 7: sage rhythm from Seren treatment navigation in sage",
+    "skin 8: ivory rhythm from Seren human reassurance in ivory",
+    "skin 9: bronze rhythm from Seren education preview in bronze",
+    "skin 10: cream rhythm from Seren responsible expectations in cream"
   ],
   "resultsPageColourSequence": [
-    "results 1: dark rhythm from Soft dark footer",
-    "results 2: sage rhythm from Atmospheric cream/sage hero",
-    "results 3: blush rhythm from Blush mist trust section",
-    "results 4: sage rhythm from Pale sage route field",
-    "results 5: ivory rhythm from Ivory consultation calm",
-    "results 6: cream rhythm from Cream gradient reassurance",
-    "results 7: sage rhythm from Sage education cloud",
-    "results 8: ivory rhythm from Ivory results note",
-    "results 9: blush rhythm from Blush reading path",
-    "results 10: cream rhythm from Cream quiet CTA"
+    "results 1: dark rhythm from Seren closing identity in dark",
+    "results 2: bronze rhythm from Seren hero promise in bronze",
+    "results 3: cream rhythm from Seren trust position in cream",
+    "results 4: gold rhythm from Seren care route in gold",
+    "results 5: dark rhythm from Seren consultation path in dark",
+    "results 6: sage rhythm from Seren treatment navigation in sage",
+    "results 7: ivory rhythm from Seren human reassurance in ivory",
+    "results 8: bronze rhythm from Seren education preview in bronze",
+    "results 9: cream rhythm from Seren responsible expectations in cream",
+    "results 10: gold rhythm from Seren contact bridge in gold"
   ],
   "journalPageColourSequence": [
-    "journal 1: sage rhythm from Atmospheric cream/sage hero",
-    "journal 2: blush rhythm from Blush mist trust section",
-    "journal 3: sage rhythm from Pale sage route field",
-    "journal 4: ivory rhythm from Ivory consultation calm",
-    "journal 5: cream rhythm from Cream gradient reassurance",
-    "journal 6: sage rhythm from Sage education cloud",
-    "journal 7: ivory rhythm from Ivory results note",
-    "journal 8: blush rhythm from Blush reading path",
-    "journal 9: cream rhythm from Cream quiet CTA",
-    "journal 10: dark rhythm from Soft dark footer"
+    "journal 1: bronze rhythm from Seren hero promise in bronze",
+    "journal 2: cream rhythm from Seren trust position in cream",
+    "journal 3: gold rhythm from Seren care route in gold",
+    "journal 4: dark rhythm from Seren consultation path in dark",
+    "journal 5: sage rhythm from Seren treatment navigation in sage",
+    "journal 6: ivory rhythm from Seren human reassurance in ivory",
+    "journal 7: bronze rhythm from Seren education preview in bronze",
+    "journal 8: cream rhythm from Seren responsible expectations in cream",
+    "journal 9: gold rhythm from Seren contact bridge in gold",
+    "journal 10: dark rhythm from Seren closing identity in dark"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: sage rhythm from Pale sage route field",
-    "consultation 2: ivory rhythm from Ivory consultation calm",
-    "consultation 3: cream rhythm from Cream gradient reassurance",
-    "consultation 4: sage rhythm from Sage education cloud",
-    "consultation 5: ivory rhythm from Ivory results note",
-    "consultation 6: blush rhythm from Blush reading path",
-    "consultation 7: cream rhythm from Cream quiet CTA",
-    "consultation 8: dark rhythm from Soft dark footer",
-    "consultation 9: sage rhythm from Atmospheric cream/sage hero",
-    "consultation 10: blush rhythm from Blush mist trust section"
+    "consultation 1: gold rhythm from Seren care route in gold",
+    "consultation 2: dark rhythm from Seren consultation path in dark",
+    "consultation 3: sage rhythm from Seren treatment navigation in sage",
+    "consultation 4: ivory rhythm from Seren human reassurance in ivory",
+    "consultation 5: bronze rhythm from Seren education preview in bronze",
+    "consultation 6: cream rhythm from Seren responsible expectations in cream",
+    "consultation 7: gold rhythm from Seren contact bridge in gold",
+    "consultation 8: dark rhythm from Seren closing identity in dark",
+    "consultation 9: bronze rhythm from Seren hero promise in bronze",
+    "consultation 10: cream rhythm from Seren trust position in cream"
   ],
   "contactPageColourSequence": [
-    "contact 1: ivory rhythm from Ivory consultation calm",
-    "contact 2: cream rhythm from Cream gradient reassurance",
-    "contact 3: sage rhythm from Sage education cloud",
-    "contact 4: ivory rhythm from Ivory results note",
-    "contact 5: blush rhythm from Blush reading path",
-    "contact 6: cream rhythm from Cream quiet CTA",
-    "contact 7: dark rhythm from Soft dark footer",
-    "contact 8: sage rhythm from Atmospheric cream/sage hero",
-    "contact 9: blush rhythm from Blush mist trust section",
-    "contact 10: sage rhythm from Pale sage route field"
+    "contact 1: dark rhythm from Seren consultation path in dark",
+    "contact 2: sage rhythm from Seren treatment navigation in sage",
+    "contact 3: ivory rhythm from Seren human reassurance in ivory",
+    "contact 4: bronze rhythm from Seren education preview in bronze",
+    "contact 5: cream rhythm from Seren responsible expectations in cream",
+    "contact 6: gold rhythm from Seren contact bridge in gold",
+    "contact 7: dark rhythm from Seren closing identity in dark",
+    "contact 8: bronze rhythm from Seren hero promise in bronze",
+    "contact 9: cream rhythm from Seren trust position in cream",
+    "contact 10: gold rhythm from Seren care route in gold"
   ],
   "forbiddenColourPatterns": [
-    "No hard clinical lines",
-    "No strong dark bands",
-    "No high-contrast luxury."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

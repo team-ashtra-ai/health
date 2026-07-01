@@ -1,12 +1,12 @@
-# 25-align — Balanced Journey
+# 25-align — Smooth Skin Minimalism
 
 ## Visual Thesis
 
-A guided journey site with measured progression and balanced text/image rhythm.
+Silka uses silky, smooth, minimal pacing with minimal texture and softness.
 
 ## Colour Thesis
 
-Ivory, soft sage, cream, and one dark anchor section. Bronze pathway lines. Blush for human reassurance.
+ivory, pearl, pale sage, taupe
 
 ## Systems
 
@@ -21,159 +21,161 @@ Ivory, soft sage, cream, and one dark anchor section. Bronze pathway lines. Blus
 
 ## Homepage Colour Sequence
 
-1. Ivory journey hero
-2. Sage balanced values
-3. Cream route pathway
-4. Ivory consultation marker
-5. Dark sage anchor statement
-6. Cream education path
-7. Blush reassurance/results
-8. Sage journal route
-9. Bronze journey CTA
-10. Deep sage footer
+1. Silka hero promise in ivory
+2. Silka trust position in bronze
+3. Silka care route in cream
+4. Silka consultation path in gold
+5. Silka treatment navigation in dark
+6. Silka human reassurance in sage
+7. Silka education preview in ivory
+8. Silka responsible expectations in bronze
+9. Silka contact bridge in cream
+10. Silka closing identity in gold
 
 ## All Other Pages
 
-Use pathway markers and alternating balanced sections.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No asymmetrical magazine chaos
-- No all-light monotony
-- No heavy blush.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "25-align",
-  "colourThesis": "Ivory, soft sage, cream, and one dark anchor section. Bronze pathway lines. Blush for human reassurance.",
+  "colourThesis": "ivory, pearl, pale sage, taupe",
   "dominantColourFamily": "dark",
   "secondaryColourFamily": "sage",
   "accentColourFamily": "ivory",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "technical-table; no universal cream-card default",
   "buttonStrategy": "ledger-button",
-  "footerColour": "Deep sage footer",
-  "mobileMenuColour": "Blush reassurance/results",
+  "footerColour": "Silka closing identity in gold",
+  "mobileMenuColour": "Silka education preview in ivory",
   "homepageSectionColourSequence": [
-    "Ivory journey hero",
-    "Sage balanced values",
-    "Cream route pathway",
-    "Ivory consultation marker",
-    "Dark sage anchor statement",
-    "Cream education path",
-    "Blush reassurance/results",
-    "Sage journal route",
-    "Bronze journey CTA",
-    "Deep sage footer"
+    "Silka hero promise in ivory",
+    "Silka trust position in bronze",
+    "Silka care route in cream",
+    "Silka consultation path in gold",
+    "Silka treatment navigation in dark",
+    "Silka human reassurance in sage",
+    "Silka education preview in ivory",
+    "Silka responsible expectations in bronze",
+    "Silka contact bridge in cream",
+    "Silka closing identity in gold"
   ],
   "aboutPageColourSequence": [
-    "about 1: blush rhythm from Blush reassurance/results",
-    "about 2: sage rhythm from Sage journal route",
-    "about 3: bronze rhythm from Bronze journey CTA",
-    "about 4: dark rhythm from Deep sage footer",
-    "about 5: ivory rhythm from Ivory journey hero",
-    "about 6: sage rhythm from Sage balanced values",
-    "about 7: cream rhythm from Cream route pathway",
-    "about 8: ivory rhythm from Ivory consultation marker",
-    "about 9: dark rhythm from Dark sage anchor statement",
-    "about 10: cream rhythm from Cream education path"
+    "about 1: ivory rhythm from Silka education preview in ivory",
+    "about 2: bronze rhythm from Silka responsible expectations in bronze",
+    "about 3: cream rhythm from Silka contact bridge in cream",
+    "about 4: gold rhythm from Silka closing identity in gold",
+    "about 5: ivory rhythm from Silka hero promise in ivory",
+    "about 6: bronze rhythm from Silka trust position in bronze",
+    "about 7: cream rhythm from Silka care route in cream",
+    "about 8: gold rhythm from Silka consultation path in gold",
+    "about 9: dark rhythm from Silka treatment navigation in dark",
+    "about 10: sage rhythm from Silka human reassurance in sage"
   ],
   "carePageColourSequence": [
-    "care 1: sage rhythm from Sage journal route",
-    "care 2: bronze rhythm from Bronze journey CTA",
-    "care 3: dark rhythm from Deep sage footer",
-    "care 4: ivory rhythm from Ivory journey hero",
-    "care 5: sage rhythm from Sage balanced values",
-    "care 6: cream rhythm from Cream route pathway",
-    "care 7: ivory rhythm from Ivory consultation marker",
-    "care 8: dark rhythm from Dark sage anchor statement",
-    "care 9: cream rhythm from Cream education path",
-    "care 10: blush rhythm from Blush reassurance/results"
+    "care 1: bronze rhythm from Silka responsible expectations in bronze",
+    "care 2: cream rhythm from Silka contact bridge in cream",
+    "care 3: gold rhythm from Silka closing identity in gold",
+    "care 4: ivory rhythm from Silka hero promise in ivory",
+    "care 5: bronze rhythm from Silka trust position in bronze",
+    "care 6: cream rhythm from Silka care route in cream",
+    "care 7: gold rhythm from Silka consultation path in gold",
+    "care 8: dark rhythm from Silka treatment navigation in dark",
+    "care 9: sage rhythm from Silka human reassurance in sage",
+    "care 10: ivory rhythm from Silka education preview in ivory"
   ],
   "laserPageColourSequence": [
-    "laser 1: bronze rhythm from Bronze journey CTA",
-    "laser 2: dark rhythm from Deep sage footer",
-    "laser 3: ivory rhythm from Ivory journey hero",
-    "laser 4: sage rhythm from Sage balanced values",
-    "laser 5: cream rhythm from Cream route pathway",
-    "laser 6: ivory rhythm from Ivory consultation marker",
-    "laser 7: dark rhythm from Dark sage anchor statement",
-    "laser 8: cream rhythm from Cream education path",
-    "laser 9: blush rhythm from Blush reassurance/results",
-    "laser 10: sage rhythm from Sage journal route"
+    "laser 1: cream rhythm from Silka contact bridge in cream",
+    "laser 2: gold rhythm from Silka closing identity in gold",
+    "laser 3: ivory rhythm from Silka hero promise in ivory",
+    "laser 4: bronze rhythm from Silka trust position in bronze",
+    "laser 5: cream rhythm from Silka care route in cream",
+    "laser 6: gold rhythm from Silka consultation path in gold",
+    "laser 7: dark rhythm from Silka treatment navigation in dark",
+    "laser 8: sage rhythm from Silka human reassurance in sage",
+    "laser 9: ivory rhythm from Silka education preview in ivory",
+    "laser 10: bronze rhythm from Silka responsible expectations in bronze"
   ],
   "skinPageColourSequence": [
-    "skin 1: dark rhythm from Deep sage footer",
-    "skin 2: ivory rhythm from Ivory journey hero",
-    "skin 3: sage rhythm from Sage balanced values",
-    "skin 4: cream rhythm from Cream route pathway",
-    "skin 5: ivory rhythm from Ivory consultation marker",
-    "skin 6: dark rhythm from Dark sage anchor statement",
-    "skin 7: cream rhythm from Cream education path",
-    "skin 8: blush rhythm from Blush reassurance/results",
-    "skin 9: sage rhythm from Sage journal route",
-    "skin 10: bronze rhythm from Bronze journey CTA"
+    "skin 1: gold rhythm from Silka closing identity in gold",
+    "skin 2: ivory rhythm from Silka hero promise in ivory",
+    "skin 3: bronze rhythm from Silka trust position in bronze",
+    "skin 4: cream rhythm from Silka care route in cream",
+    "skin 5: gold rhythm from Silka consultation path in gold",
+    "skin 6: dark rhythm from Silka treatment navigation in dark",
+    "skin 7: sage rhythm from Silka human reassurance in sage",
+    "skin 8: ivory rhythm from Silka education preview in ivory",
+    "skin 9: bronze rhythm from Silka responsible expectations in bronze",
+    "skin 10: cream rhythm from Silka contact bridge in cream"
   ],
   "resultsPageColourSequence": [
-    "results 1: ivory rhythm from Ivory journey hero",
-    "results 2: sage rhythm from Sage balanced values",
-    "results 3: cream rhythm from Cream route pathway",
-    "results 4: ivory rhythm from Ivory consultation marker",
-    "results 5: dark rhythm from Dark sage anchor statement",
-    "results 6: cream rhythm from Cream education path",
-    "results 7: blush rhythm from Blush reassurance/results",
-    "results 8: sage rhythm from Sage journal route",
-    "results 9: bronze rhythm from Bronze journey CTA",
-    "results 10: dark rhythm from Deep sage footer"
+    "results 1: ivory rhythm from Silka hero promise in ivory",
+    "results 2: bronze rhythm from Silka trust position in bronze",
+    "results 3: cream rhythm from Silka care route in cream",
+    "results 4: gold rhythm from Silka consultation path in gold",
+    "results 5: dark rhythm from Silka treatment navigation in dark",
+    "results 6: sage rhythm from Silka human reassurance in sage",
+    "results 7: ivory rhythm from Silka education preview in ivory",
+    "results 8: bronze rhythm from Silka responsible expectations in bronze",
+    "results 9: cream rhythm from Silka contact bridge in cream",
+    "results 10: gold rhythm from Silka closing identity in gold"
   ],
   "journalPageColourSequence": [
-    "journal 1: sage rhythm from Sage balanced values",
-    "journal 2: cream rhythm from Cream route pathway",
-    "journal 3: ivory rhythm from Ivory consultation marker",
-    "journal 4: dark rhythm from Dark sage anchor statement",
-    "journal 5: cream rhythm from Cream education path",
-    "journal 6: blush rhythm from Blush reassurance/results",
-    "journal 7: sage rhythm from Sage journal route",
-    "journal 8: bronze rhythm from Bronze journey CTA",
-    "journal 9: dark rhythm from Deep sage footer",
-    "journal 10: ivory rhythm from Ivory journey hero"
+    "journal 1: bronze rhythm from Silka trust position in bronze",
+    "journal 2: cream rhythm from Silka care route in cream",
+    "journal 3: gold rhythm from Silka consultation path in gold",
+    "journal 4: dark rhythm from Silka treatment navigation in dark",
+    "journal 5: sage rhythm from Silka human reassurance in sage",
+    "journal 6: ivory rhythm from Silka education preview in ivory",
+    "journal 7: bronze rhythm from Silka responsible expectations in bronze",
+    "journal 8: cream rhythm from Silka contact bridge in cream",
+    "journal 9: gold rhythm from Silka closing identity in gold",
+    "journal 10: ivory rhythm from Silka hero promise in ivory"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: ivory rhythm from Ivory consultation marker",
-    "consultation 2: dark rhythm from Dark sage anchor statement",
-    "consultation 3: cream rhythm from Cream education path",
-    "consultation 4: blush rhythm from Blush reassurance/results",
-    "consultation 5: sage rhythm from Sage journal route",
-    "consultation 6: bronze rhythm from Bronze journey CTA",
-    "consultation 7: dark rhythm from Deep sage footer",
-    "consultation 8: ivory rhythm from Ivory journey hero",
-    "consultation 9: sage rhythm from Sage balanced values",
-    "consultation 10: cream rhythm from Cream route pathway"
+    "consultation 1: gold rhythm from Silka consultation path in gold",
+    "consultation 2: dark rhythm from Silka treatment navigation in dark",
+    "consultation 3: sage rhythm from Silka human reassurance in sage",
+    "consultation 4: ivory rhythm from Silka education preview in ivory",
+    "consultation 5: bronze rhythm from Silka responsible expectations in bronze",
+    "consultation 6: cream rhythm from Silka contact bridge in cream",
+    "consultation 7: gold rhythm from Silka closing identity in gold",
+    "consultation 8: ivory rhythm from Silka hero promise in ivory",
+    "consultation 9: bronze rhythm from Silka trust position in bronze",
+    "consultation 10: cream rhythm from Silka care route in cream"
   ],
   "contactPageColourSequence": [
-    "contact 1: dark rhythm from Dark sage anchor statement",
-    "contact 2: cream rhythm from Cream education path",
-    "contact 3: blush rhythm from Blush reassurance/results",
-    "contact 4: sage rhythm from Sage journal route",
-    "contact 5: bronze rhythm from Bronze journey CTA",
-    "contact 6: dark rhythm from Deep sage footer",
-    "contact 7: ivory rhythm from Ivory journey hero",
-    "contact 8: sage rhythm from Sage balanced values",
-    "contact 9: cream rhythm from Cream route pathway",
-    "contact 10: ivory rhythm from Ivory consultation marker"
+    "contact 1: dark rhythm from Silka treatment navigation in dark",
+    "contact 2: sage rhythm from Silka human reassurance in sage",
+    "contact 3: ivory rhythm from Silka education preview in ivory",
+    "contact 4: bronze rhythm from Silka responsible expectations in bronze",
+    "contact 5: cream rhythm from Silka contact bridge in cream",
+    "contact 6: gold rhythm from Silka closing identity in gold",
+    "contact 7: ivory rhythm from Silka hero promise in ivory",
+    "contact 8: bronze rhythm from Silka trust position in bronze",
+    "contact 9: cream rhythm from Silka care route in cream",
+    "contact 10: gold rhythm from Silka consultation path in gold"
   ],
   "forbiddenColourPatterns": [
-    "No asymmetrical magazine chaos",
-    "No all-light monotony",
-    "No heavy blush."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

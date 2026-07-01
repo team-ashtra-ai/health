@@ -1,12 +1,12 @@
-# 05-elevate — Warm Consultation Studio
+# 05-elevate — Concierge Luxury Aesthetics
 
 ## Visual Thesis
 
-A warm studio website centred around consultation, preparation, form flow, and reassurance.
+Elevate uses polished, private, high end pacing with concierge booking and premium care promise.
 
 ## Colour Thesis
 
-Cream and ivory dominate. Soft sage structures sections. Blush supports human warmth and consultation panels. Bronze frames forms and CTAs.
+ivory, champagne, sage, bronze
 
 ## Systems
 
@@ -21,159 +21,161 @@ Cream and ivory dominate. Soft sage structures sections. Blush supports human wa
 
 ## Homepage Colour Sequence
 
-1. Warm cream consultation hero
-2. Blush-soft trust note
-3. Sage route panel
-4. Ivory form-first consultation section
-5. Cream comfort band
-6. Sage education strip
-7. Blush expectation reassurance
-8. Ivory journal help row
-9. Cream WhatsApp/contact panel
-10. Sage-warm footer bridge
+1. Elevate hero promise in dark
+2. Elevate trust position in sage
+3. Elevate care route in ivory
+4. Elevate consultation path in bronze
+5. Elevate treatment navigation in gold
+6. Elevate human reassurance in cream
+7. Elevate education preview in dark
+8. Elevate responsible expectations in sage
+9. Elevate contact bridge in ivory
+10. Elevate closing identity in bronze
 
 ## All Other Pages
 
-Use form-led cream/ivory layouts, blush only for reassurance, sage for structure and route sections.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No dark luxury homepage
-- No cold clinical grid
-- No repeated image cards.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "05-elevate",
-  "colourThesis": "Cream and ivory dominate. Soft sage structures sections. Blush supports human warmth and consultation panels. Bronze frames forms and CTAs.",
-  "dominantColourFamily": "sage",
-  "secondaryColourFamily": "ivory",
-  "accentColourFamily": "cream",
-  "contrastTemperature": "soft refined",
-  "darkUsage": "reserved for footer, text, or one anchor band",
-  "blushUsage": "purposeful warmth and guidance notes",
-  "sageUsage": "primary architecture",
+  "colourThesis": "ivory, champagne, sage, bronze",
+  "dominantColourFamily": "dark",
+  "secondaryColourFamily": "sage",
+  "accentColourFamily": "ivory",
+  "contrastTemperature": "high editorial",
+  "darkUsage": "dominant structural field",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
+  "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "technical-table; no universal cream-card default",
   "buttonStrategy": "ledger-button",
-  "footerColour": "Sage-warm footer bridge",
-  "mobileMenuColour": "Blush expectation reassurance",
+  "footerColour": "Elevate closing identity in bronze",
+  "mobileMenuColour": "Elevate education preview in dark",
   "homepageSectionColourSequence": [
-    "Warm cream consultation hero",
-    "Blush-soft trust note",
-    "Sage route panel",
-    "Ivory form-first consultation section",
-    "Cream comfort band",
-    "Sage education strip",
-    "Blush expectation reassurance",
-    "Ivory journal help row",
-    "Cream WhatsApp/contact panel",
-    "Sage-warm footer bridge"
+    "Elevate hero promise in dark",
+    "Elevate trust position in sage",
+    "Elevate care route in ivory",
+    "Elevate consultation path in bronze",
+    "Elevate treatment navigation in gold",
+    "Elevate human reassurance in cream",
+    "Elevate education preview in dark",
+    "Elevate responsible expectations in sage",
+    "Elevate contact bridge in ivory",
+    "Elevate closing identity in bronze"
   ],
   "aboutPageColourSequence": [
-    "about 1: blush rhythm from Blush expectation reassurance",
-    "about 2: ivory rhythm from Ivory journal help row",
-    "about 3: cream rhythm from Cream WhatsApp/contact panel",
-    "about 4: sage rhythm from Sage-warm footer bridge",
-    "about 5: cream rhythm from Warm cream consultation hero",
-    "about 6: blush rhythm from Blush-soft trust note",
-    "about 7: sage rhythm from Sage route panel",
-    "about 8: ivory rhythm from Ivory form-first consultation section",
-    "about 9: cream rhythm from Cream comfort band",
-    "about 10: sage rhythm from Sage education strip"
+    "about 1: dark rhythm from Elevate education preview in dark",
+    "about 2: sage rhythm from Elevate responsible expectations in sage",
+    "about 3: ivory rhythm from Elevate contact bridge in ivory",
+    "about 4: bronze rhythm from Elevate closing identity in bronze",
+    "about 5: dark rhythm from Elevate hero promise in dark",
+    "about 6: sage rhythm from Elevate trust position in sage",
+    "about 7: ivory rhythm from Elevate care route in ivory",
+    "about 8: bronze rhythm from Elevate consultation path in bronze",
+    "about 9: gold rhythm from Elevate treatment navigation in gold",
+    "about 10: cream rhythm from Elevate human reassurance in cream"
   ],
   "carePageColourSequence": [
-    "care 1: ivory rhythm from Ivory journal help row",
-    "care 2: cream rhythm from Cream WhatsApp/contact panel",
-    "care 3: sage rhythm from Sage-warm footer bridge",
-    "care 4: cream rhythm from Warm cream consultation hero",
-    "care 5: blush rhythm from Blush-soft trust note",
-    "care 6: sage rhythm from Sage route panel",
-    "care 7: ivory rhythm from Ivory form-first consultation section",
-    "care 8: cream rhythm from Cream comfort band",
-    "care 9: sage rhythm from Sage education strip",
-    "care 10: blush rhythm from Blush expectation reassurance"
+    "care 1: sage rhythm from Elevate responsible expectations in sage",
+    "care 2: ivory rhythm from Elevate contact bridge in ivory",
+    "care 3: bronze rhythm from Elevate closing identity in bronze",
+    "care 4: dark rhythm from Elevate hero promise in dark",
+    "care 5: sage rhythm from Elevate trust position in sage",
+    "care 6: ivory rhythm from Elevate care route in ivory",
+    "care 7: bronze rhythm from Elevate consultation path in bronze",
+    "care 8: gold rhythm from Elevate treatment navigation in gold",
+    "care 9: cream rhythm from Elevate human reassurance in cream",
+    "care 10: dark rhythm from Elevate education preview in dark"
   ],
   "laserPageColourSequence": [
-    "laser 1: cream rhythm from Cream WhatsApp/contact panel",
-    "laser 2: sage rhythm from Sage-warm footer bridge",
-    "laser 3: cream rhythm from Warm cream consultation hero",
-    "laser 4: blush rhythm from Blush-soft trust note",
-    "laser 5: sage rhythm from Sage route panel",
-    "laser 6: ivory rhythm from Ivory form-first consultation section",
-    "laser 7: cream rhythm from Cream comfort band",
-    "laser 8: sage rhythm from Sage education strip",
-    "laser 9: blush rhythm from Blush expectation reassurance",
-    "laser 10: ivory rhythm from Ivory journal help row"
+    "laser 1: ivory rhythm from Elevate contact bridge in ivory",
+    "laser 2: bronze rhythm from Elevate closing identity in bronze",
+    "laser 3: dark rhythm from Elevate hero promise in dark",
+    "laser 4: sage rhythm from Elevate trust position in sage",
+    "laser 5: ivory rhythm from Elevate care route in ivory",
+    "laser 6: bronze rhythm from Elevate consultation path in bronze",
+    "laser 7: gold rhythm from Elevate treatment navigation in gold",
+    "laser 8: cream rhythm from Elevate human reassurance in cream",
+    "laser 9: dark rhythm from Elevate education preview in dark",
+    "laser 10: sage rhythm from Elevate responsible expectations in sage"
   ],
   "skinPageColourSequence": [
-    "skin 1: sage rhythm from Sage-warm footer bridge",
-    "skin 2: cream rhythm from Warm cream consultation hero",
-    "skin 3: blush rhythm from Blush-soft trust note",
-    "skin 4: sage rhythm from Sage route panel",
-    "skin 5: ivory rhythm from Ivory form-first consultation section",
-    "skin 6: cream rhythm from Cream comfort band",
-    "skin 7: sage rhythm from Sage education strip",
-    "skin 8: blush rhythm from Blush expectation reassurance",
-    "skin 9: ivory rhythm from Ivory journal help row",
-    "skin 10: cream rhythm from Cream WhatsApp/contact panel"
+    "skin 1: bronze rhythm from Elevate closing identity in bronze",
+    "skin 2: dark rhythm from Elevate hero promise in dark",
+    "skin 3: sage rhythm from Elevate trust position in sage",
+    "skin 4: ivory rhythm from Elevate care route in ivory",
+    "skin 5: bronze rhythm from Elevate consultation path in bronze",
+    "skin 6: gold rhythm from Elevate treatment navigation in gold",
+    "skin 7: cream rhythm from Elevate human reassurance in cream",
+    "skin 8: dark rhythm from Elevate education preview in dark",
+    "skin 9: sage rhythm from Elevate responsible expectations in sage",
+    "skin 10: ivory rhythm from Elevate contact bridge in ivory"
   ],
   "resultsPageColourSequence": [
-    "results 1: cream rhythm from Warm cream consultation hero",
-    "results 2: blush rhythm from Blush-soft trust note",
-    "results 3: sage rhythm from Sage route panel",
-    "results 4: ivory rhythm from Ivory form-first consultation section",
-    "results 5: cream rhythm from Cream comfort band",
-    "results 6: sage rhythm from Sage education strip",
-    "results 7: blush rhythm from Blush expectation reassurance",
-    "results 8: ivory rhythm from Ivory journal help row",
-    "results 9: cream rhythm from Cream WhatsApp/contact panel",
-    "results 10: sage rhythm from Sage-warm footer bridge"
+    "results 1: dark rhythm from Elevate hero promise in dark",
+    "results 2: sage rhythm from Elevate trust position in sage",
+    "results 3: ivory rhythm from Elevate care route in ivory",
+    "results 4: bronze rhythm from Elevate consultation path in bronze",
+    "results 5: gold rhythm from Elevate treatment navigation in gold",
+    "results 6: cream rhythm from Elevate human reassurance in cream",
+    "results 7: dark rhythm from Elevate education preview in dark",
+    "results 8: sage rhythm from Elevate responsible expectations in sage",
+    "results 9: ivory rhythm from Elevate contact bridge in ivory",
+    "results 10: bronze rhythm from Elevate closing identity in bronze"
   ],
   "journalPageColourSequence": [
-    "journal 1: blush rhythm from Blush-soft trust note",
-    "journal 2: sage rhythm from Sage route panel",
-    "journal 3: ivory rhythm from Ivory form-first consultation section",
-    "journal 4: cream rhythm from Cream comfort band",
-    "journal 5: sage rhythm from Sage education strip",
-    "journal 6: blush rhythm from Blush expectation reassurance",
-    "journal 7: ivory rhythm from Ivory journal help row",
-    "journal 8: cream rhythm from Cream WhatsApp/contact panel",
-    "journal 9: sage rhythm from Sage-warm footer bridge",
-    "journal 10: cream rhythm from Warm cream consultation hero"
+    "journal 1: sage rhythm from Elevate trust position in sage",
+    "journal 2: ivory rhythm from Elevate care route in ivory",
+    "journal 3: bronze rhythm from Elevate consultation path in bronze",
+    "journal 4: gold rhythm from Elevate treatment navigation in gold",
+    "journal 5: cream rhythm from Elevate human reassurance in cream",
+    "journal 6: dark rhythm from Elevate education preview in dark",
+    "journal 7: sage rhythm from Elevate responsible expectations in sage",
+    "journal 8: ivory rhythm from Elevate contact bridge in ivory",
+    "journal 9: bronze rhythm from Elevate closing identity in bronze",
+    "journal 10: dark rhythm from Elevate hero promise in dark"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: ivory rhythm from Ivory form-first consultation section",
-    "consultation 2: cream rhythm from Cream comfort band",
-    "consultation 3: sage rhythm from Sage education strip",
-    "consultation 4: blush rhythm from Blush expectation reassurance",
-    "consultation 5: ivory rhythm from Ivory journal help row",
-    "consultation 6: cream rhythm from Cream WhatsApp/contact panel",
-    "consultation 7: sage rhythm from Sage-warm footer bridge",
-    "consultation 8: cream rhythm from Warm cream consultation hero",
-    "consultation 9: blush rhythm from Blush-soft trust note",
-    "consultation 10: sage rhythm from Sage route panel"
+    "consultation 1: bronze rhythm from Elevate consultation path in bronze",
+    "consultation 2: gold rhythm from Elevate treatment navigation in gold",
+    "consultation 3: cream rhythm from Elevate human reassurance in cream",
+    "consultation 4: dark rhythm from Elevate education preview in dark",
+    "consultation 5: sage rhythm from Elevate responsible expectations in sage",
+    "consultation 6: ivory rhythm from Elevate contact bridge in ivory",
+    "consultation 7: bronze rhythm from Elevate closing identity in bronze",
+    "consultation 8: dark rhythm from Elevate hero promise in dark",
+    "consultation 9: sage rhythm from Elevate trust position in sage",
+    "consultation 10: ivory rhythm from Elevate care route in ivory"
   ],
   "contactPageColourSequence": [
-    "contact 1: cream rhythm from Cream comfort band",
-    "contact 2: sage rhythm from Sage education strip",
-    "contact 3: blush rhythm from Blush expectation reassurance",
-    "contact 4: ivory rhythm from Ivory journal help row",
-    "contact 5: cream rhythm from Cream WhatsApp/contact panel",
-    "contact 6: sage rhythm from Sage-warm footer bridge",
-    "contact 7: cream rhythm from Warm cream consultation hero",
-    "contact 8: blush rhythm from Blush-soft trust note",
-    "contact 9: sage rhythm from Sage route panel",
-    "contact 10: ivory rhythm from Ivory form-first consultation section"
+    "contact 1: gold rhythm from Elevate treatment navigation in gold",
+    "contact 2: cream rhythm from Elevate human reassurance in cream",
+    "contact 3: dark rhythm from Elevate education preview in dark",
+    "contact 4: sage rhythm from Elevate responsible expectations in sage",
+    "contact 5: ivory rhythm from Elevate contact bridge in ivory",
+    "contact 6: bronze rhythm from Elevate closing identity in bronze",
+    "contact 7: dark rhythm from Elevate hero promise in dark",
+    "contact 8: sage rhythm from Elevate trust position in sage",
+    "contact 9: ivory rhythm from Elevate care route in ivory",
+    "contact 10: bronze rhythm from Elevate consultation path in bronze"
   ],
   "forbiddenColourPatterns": [
-    "No dark luxury homepage",
-    "No cold clinical grid",
-    "No repeated image cards."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

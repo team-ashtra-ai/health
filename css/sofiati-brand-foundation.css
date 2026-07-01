@@ -32,18 +32,9 @@
   --sofiati-gold-300: #E4C99B;
   --sofiati-gold-500: #CDAA78;
 
-  /* Blush / pink */
-  --sofiati-pink-50: #FFF7F6;
-  --sofiati-pink-100: #F8E4E1;
-  --sofiati-pink-200: #EDC6C0;
-  --sofiati-pink-300: #DFA49B;
-  --sofiati-pink-500: #B86A63;
-  --sofiati-pink-700: #743B37;
-
-  /* Warmth */
-  --sofiati-terracotta-200: #E7B7A6;
-  --sofiati-terracotta-300: #D7957F;
-  --sofiati-terracotta-500: #B86A4E;
+  /* Warm identity neutrals from the logo and palette boards */
+  --sofiati-champagne-100: #DACCB7;
+  --sofiati-bronze-clay: #8F745F;
   --sofiati-taupe-300: #B6AA98;
   --sofiati-taupe-400: #9B8F7E;
   --sofiati-taupe-700: #5E5548;
@@ -60,14 +51,13 @@
   --surface-card-strong: var(--sofiati-ivory-100);
   --surface-sage: var(--sofiati-sage-100);
   --surface-dark: var(--sofiati-sage-900);
-  --surface-blush: var(--sofiati-pink-100);
 
   /* Gradients */
   --gradient-cream: linear-gradient(135deg, var(--sofiati-ivory-100), var(--sofiati-ivory-300));
   --gradient-sage-soft: linear-gradient(135deg, var(--sofiati-sage-100), var(--sofiati-sage-300));
   --gradient-sage-deep: linear-gradient(135deg, var(--sofiati-sage-700), var(--sofiati-sage-900));
   --gradient-dark-botanical: radial-gradient(circle at top left, rgba(162, 174, 160, 0.24), transparent 34%), linear-gradient(135deg, var(--sofiati-ink-900), var(--sofiati-sage-900));
-  --gradient-blush-cream: linear-gradient(135deg, var(--sofiati-pink-50), var(--sofiati-pink-100), var(--sofiati-ivory-200));
+  --gradient-champagne-cream: linear-gradient(135deg, var(--sofiati-ivory-100), var(--sofiati-champagne-100), var(--sofiati-ivory-200));
   --gradient-gold-line: linear-gradient(90deg, var(--sofiati-bronze-600), var(--sofiati-gold-500), var(--sofiati-bronze-400));
 
   /* Shadows */
@@ -80,10 +70,29 @@
   --button-primary-text: var(--sofiati-ivory-100);
   --button-gold-bg: var(--sofiati-gold-500);
   --button-gold-text: var(--sofiati-ink-900);
-  --button-blush-bg: var(--sofiati-pink-200);
-  --button-blush-text: var(--sofiati-ink-900);
+  --button-champagne-bg: var(--sofiati-champagne-100);
+  --button-champagne-text: var(--sofiati-ink-900);
   --button-dark-bg: var(--sofiati-ink-900);
   --button-dark-text: var(--sofiati-ivory-100);
+
+  /* Layout and interaction tokens */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --radius-sm: 2px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --z-header: 70;
+  --z-menu: 88;
+  --z-cookie: 90;
+  --z-floating: 95;
+  --transition-fast: 160ms ease;
+  --transition-med: 220ms ease;
 }
 
 *,
@@ -154,8 +163,8 @@ textarea {
   color: var(--color-text-inverse);
 }
 
-.section-blush {
-  background: var(--sofiati-pink-100);
+.section-champagne {
+  background: var(--gradient-champagne-cream);
 }
 
 .card {
@@ -174,9 +183,9 @@ textarea {
   color: var(--button-gold-text);
 }
 
-.button-blush {
-  background: var(--button-blush-bg);
-  color: var(--button-blush-text);
+.button-champagne {
+  background: var(--button-champagne-bg);
+  color: var(--button-champagne-text);
 }
 
 @media (prefers-reduced-motion: reduce) {

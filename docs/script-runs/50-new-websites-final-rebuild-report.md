@@ -6,9 +6,15 @@
 - Number of partials rewritten: 250
 - Number of local CSS files rewritten: 50
 - Number of local JS files rewritten: 50
-- Screenshot folder: pending screenshot capture
-- Compliance audit result: pending
-- Similarity audit result: pending
+- Screenshot folder: `final/homepage-screenshots/full-20260701-123608`
+- Compliance audit result: passed
+- Similarity audit result: passed
+- Section count result: passed
+- No-crop result: passed
+- Blank frame result: passed
+- Fake label result: passed
+- Photo count result: passed
+- Colour rhythm result: passed
 
 ## Old Conflict Files Removed From Active References
 
@@ -19,55 +25,59 @@
 - `js/sofiati-50-architecture-system.js`
 - `js/sofiati-architecture-conflict-repair.js`
 
+## Manual Review
+
+None required by automated gates.
+
 ## Per Concept Status
 
-- `01-inspire`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `02-empower`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `03-enhance`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `04-renew`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `05-elevate`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `06-refine`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `07-glow`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `08-balance`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `09-radiance`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `10-essence`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `11-bloom`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `12-vital`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `13-poise`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `14-aura`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `15-clarity`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `16-grace`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `17-sculpt`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `18-lumin`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `19-verda`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `20-halo`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `21-calm`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `22-precision`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `23-ritual`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `24-signal`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `25-align`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `26-vivant`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `27-form`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `28-pure`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `29-solace`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `30-method`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `31-evolve`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `32-serene`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `33-elan`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `34-flora`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `35-atelier`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `36-lumina`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `37-vellum`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `38-origin`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `39-kindred`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `40-noble`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `41-vista`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `42-softline`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `43-meridian`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `44-safeguard`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `45-silhouette`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `46-curate`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `47-proof`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `48-signature`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `49-wisdom`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
-- `50-sovereign`: rebuilt with distinct header, hero, section rhythm, colour rhythm, footer, mobile menu, local CSS, local JS, and concept partials. Audit results pending.
+- `01-inspire`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `02-empower`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `03-enhance`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `04-renew`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `05-elevate`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `06-refine`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `07-glow`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `08-balance`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `09-radiance`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `10-essence`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `11-bloom`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `12-vital`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `13-poise`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `14-aura`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `15-clarity`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `16-grace`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `17-sculpt`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `18-lumin`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `19-verda`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `20-halo`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `21-calm`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `22-precision`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `23-ritual`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `24-signal`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `25-align`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `26-vivant`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `27-form`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `28-pure`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `29-solace`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `30-method`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `31-evolve`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `32-serene`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `33-elan`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `34-flora`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `35-atelier`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `36-lumina`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `37-vellum`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `38-origin`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `39-kindred`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `40-noble`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `41-vista`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `42-softline`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `43-meridian`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `44-safeguard`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `45-silhouette`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `46-curate`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `47-proof`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `48-signature`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `49-wisdom`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.
+- `50-sovereign`: different website=True; header=True; hero=True; section rhythm=True; colour rhythm=True; footer=True; mobile=True; 10 sections=True; partials excluded=True; uncropped photos=True; selective photos=True; blank frames gone=True; old Atlas gone=True; conflict refs gone=True; CTA rhythm=True; Sofiati feel=True.

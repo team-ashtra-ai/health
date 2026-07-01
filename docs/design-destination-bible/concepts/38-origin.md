@@ -1,12 +1,12 @@
-# 38-origin — Grounded Natural
+# 38-origin — Elegant Feminine Authority
 
 ## Visual Thesis
 
-A grounded natural site with sincere warmth and rooted premium calm.
+Dama uses feminine authority, refined pacing with strong elegant portrait led layout.
 
 ## Colour Thesis
 
-Cream, taupe, sage, terracotta warmth. Less gold. Blush earthy and subtle. Dark footer grounded.
+ivory, deep green, blush, bronze
 
 ## Systems
 
@@ -21,159 +21,161 @@ Cream, taupe, sage, terracotta warmth. Less gold. Blush earthy and subtle. Dark 
 
 ## Homepage Colour Sequence
 
-1. Cream/taupe origin hero
-2. Sage grounded trust
-3. Cream natural route
-4. Ivory consultation grounding
-5. Terracotta reassurance note
-6. Sage education field
-7. Cream results roots
-8. Ivory journal natural path
-9. Terracotta/bronze CTA
-10. Grounded dark sage footer
+1. Dama hero promise in bronze
+2. Dama trust position in sage
+3. Dama care route in cream
+4. Dama consultation path in gold
+5. Dama treatment navigation in dark
+6. Dama human reassurance in ivory
+7. Dama education preview in bronze
+8. Dama responsible expectations in sage
+9. Dama contact bridge in cream
+10. Dama closing identity in gold
 
 ## All Other Pages
 
-Use earthier warmth, sincere tone, and natural hierarchy.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No glossy luxury
-- No high-fashion editorial
-- No cold clinical grid.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "38-origin",
-  "colourThesis": "Cream, taupe, sage, terracotta warmth. Less gold. Blush earthy and subtle. Dark footer grounded.",
+  "colourThesis": "ivory, deep green, blush, bronze",
   "dominantColourFamily": "dark",
   "secondaryColourFamily": "sage",
   "accentColourFamily": "ivory",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "axis-grid; no universal cream-card default",
   "buttonStrategy": "text-link",
-  "footerColour": "Grounded dark sage footer",
-  "mobileMenuColour": "Grounded dark sage footer",
+  "footerColour": "Dama closing identity in gold",
+  "mobileMenuColour": "Dama closing identity in gold",
   "homepageSectionColourSequence": [
-    "Cream/taupe origin hero",
-    "Sage grounded trust",
-    "Cream natural route",
-    "Ivory consultation grounding",
-    "Terracotta reassurance note",
-    "Sage education field",
-    "Cream results roots",
-    "Ivory journal natural path",
-    "Terracotta/bronze CTA",
-    "Grounded dark sage footer"
+    "Dama hero promise in bronze",
+    "Dama trust position in sage",
+    "Dama care route in cream",
+    "Dama consultation path in gold",
+    "Dama treatment navigation in dark",
+    "Dama human reassurance in ivory",
+    "Dama education preview in bronze",
+    "Dama responsible expectations in sage",
+    "Dama contact bridge in cream",
+    "Dama closing identity in gold"
   ],
   "aboutPageColourSequence": [
-    "about 1: dark rhythm from Grounded dark sage footer",
-    "about 2: cream rhythm from Cream/taupe origin hero",
-    "about 3: sage rhythm from Sage grounded trust",
-    "about 4: cream rhythm from Cream natural route",
-    "about 5: ivory rhythm from Ivory consultation grounding",
-    "about 6: terracotta rhythm from Terracotta reassurance note",
-    "about 7: sage rhythm from Sage education field",
-    "about 8: cream rhythm from Cream results roots",
-    "about 9: ivory rhythm from Ivory journal natural path",
-    "about 10: terracotta rhythm from Terracotta/bronze CTA"
+    "about 1: gold rhythm from Dama closing identity in gold",
+    "about 2: bronze rhythm from Dama hero promise in bronze",
+    "about 3: sage rhythm from Dama trust position in sage",
+    "about 4: cream rhythm from Dama care route in cream",
+    "about 5: gold rhythm from Dama consultation path in gold",
+    "about 6: dark rhythm from Dama treatment navigation in dark",
+    "about 7: ivory rhythm from Dama human reassurance in ivory",
+    "about 8: bronze rhythm from Dama education preview in bronze",
+    "about 9: sage rhythm from Dama responsible expectations in sage",
+    "about 10: cream rhythm from Dama contact bridge in cream"
   ],
   "carePageColourSequence": [
-    "care 1: cream rhythm from Cream/taupe origin hero",
-    "care 2: sage rhythm from Sage grounded trust",
-    "care 3: cream rhythm from Cream natural route",
-    "care 4: ivory rhythm from Ivory consultation grounding",
-    "care 5: terracotta rhythm from Terracotta reassurance note",
-    "care 6: sage rhythm from Sage education field",
-    "care 7: cream rhythm from Cream results roots",
-    "care 8: ivory rhythm from Ivory journal natural path",
-    "care 9: terracotta rhythm from Terracotta/bronze CTA",
-    "care 10: dark rhythm from Grounded dark sage footer"
+    "care 1: bronze rhythm from Dama hero promise in bronze",
+    "care 2: sage rhythm from Dama trust position in sage",
+    "care 3: cream rhythm from Dama care route in cream",
+    "care 4: gold rhythm from Dama consultation path in gold",
+    "care 5: dark rhythm from Dama treatment navigation in dark",
+    "care 6: ivory rhythm from Dama human reassurance in ivory",
+    "care 7: bronze rhythm from Dama education preview in bronze",
+    "care 8: sage rhythm from Dama responsible expectations in sage",
+    "care 9: cream rhythm from Dama contact bridge in cream",
+    "care 10: gold rhythm from Dama closing identity in gold"
   ],
   "laserPageColourSequence": [
-    "laser 1: sage rhythm from Sage grounded trust",
-    "laser 2: cream rhythm from Cream natural route",
-    "laser 3: ivory rhythm from Ivory consultation grounding",
-    "laser 4: terracotta rhythm from Terracotta reassurance note",
-    "laser 5: sage rhythm from Sage education field",
-    "laser 6: cream rhythm from Cream results roots",
-    "laser 7: ivory rhythm from Ivory journal natural path",
-    "laser 8: terracotta rhythm from Terracotta/bronze CTA",
-    "laser 9: dark rhythm from Grounded dark sage footer",
-    "laser 10: cream rhythm from Cream/taupe origin hero"
+    "laser 1: sage rhythm from Dama trust position in sage",
+    "laser 2: cream rhythm from Dama care route in cream",
+    "laser 3: gold rhythm from Dama consultation path in gold",
+    "laser 4: dark rhythm from Dama treatment navigation in dark",
+    "laser 5: ivory rhythm from Dama human reassurance in ivory",
+    "laser 6: bronze rhythm from Dama education preview in bronze",
+    "laser 7: sage rhythm from Dama responsible expectations in sage",
+    "laser 8: cream rhythm from Dama contact bridge in cream",
+    "laser 9: gold rhythm from Dama closing identity in gold",
+    "laser 10: bronze rhythm from Dama hero promise in bronze"
   ],
   "skinPageColourSequence": [
-    "skin 1: cream rhythm from Cream natural route",
-    "skin 2: ivory rhythm from Ivory consultation grounding",
-    "skin 3: terracotta rhythm from Terracotta reassurance note",
-    "skin 4: sage rhythm from Sage education field",
-    "skin 5: cream rhythm from Cream results roots",
-    "skin 6: ivory rhythm from Ivory journal natural path",
-    "skin 7: terracotta rhythm from Terracotta/bronze CTA",
-    "skin 8: dark rhythm from Grounded dark sage footer",
-    "skin 9: cream rhythm from Cream/taupe origin hero",
-    "skin 10: sage rhythm from Sage grounded trust"
+    "skin 1: cream rhythm from Dama care route in cream",
+    "skin 2: gold rhythm from Dama consultation path in gold",
+    "skin 3: dark rhythm from Dama treatment navigation in dark",
+    "skin 4: ivory rhythm from Dama human reassurance in ivory",
+    "skin 5: bronze rhythm from Dama education preview in bronze",
+    "skin 6: sage rhythm from Dama responsible expectations in sage",
+    "skin 7: cream rhythm from Dama contact bridge in cream",
+    "skin 8: gold rhythm from Dama closing identity in gold",
+    "skin 9: bronze rhythm from Dama hero promise in bronze",
+    "skin 10: sage rhythm from Dama trust position in sage"
   ],
   "resultsPageColourSequence": [
-    "results 1: ivory rhythm from Ivory consultation grounding",
-    "results 2: terracotta rhythm from Terracotta reassurance note",
-    "results 3: sage rhythm from Sage education field",
-    "results 4: cream rhythm from Cream results roots",
-    "results 5: ivory rhythm from Ivory journal natural path",
-    "results 6: terracotta rhythm from Terracotta/bronze CTA",
-    "results 7: dark rhythm from Grounded dark sage footer",
-    "results 8: cream rhythm from Cream/taupe origin hero",
-    "results 9: sage rhythm from Sage grounded trust",
-    "results 10: cream rhythm from Cream natural route"
+    "results 1: gold rhythm from Dama consultation path in gold",
+    "results 2: dark rhythm from Dama treatment navigation in dark",
+    "results 3: ivory rhythm from Dama human reassurance in ivory",
+    "results 4: bronze rhythm from Dama education preview in bronze",
+    "results 5: sage rhythm from Dama responsible expectations in sage",
+    "results 6: cream rhythm from Dama contact bridge in cream",
+    "results 7: gold rhythm from Dama closing identity in gold",
+    "results 8: bronze rhythm from Dama hero promise in bronze",
+    "results 9: sage rhythm from Dama trust position in sage",
+    "results 10: cream rhythm from Dama care route in cream"
   ],
   "journalPageColourSequence": [
-    "journal 1: terracotta rhythm from Terracotta reassurance note",
-    "journal 2: sage rhythm from Sage education field",
-    "journal 3: cream rhythm from Cream results roots",
-    "journal 4: ivory rhythm from Ivory journal natural path",
-    "journal 5: terracotta rhythm from Terracotta/bronze CTA",
-    "journal 6: dark rhythm from Grounded dark sage footer",
-    "journal 7: cream rhythm from Cream/taupe origin hero",
-    "journal 8: sage rhythm from Sage grounded trust",
-    "journal 9: cream rhythm from Cream natural route",
-    "journal 10: ivory rhythm from Ivory consultation grounding"
+    "journal 1: dark rhythm from Dama treatment navigation in dark",
+    "journal 2: ivory rhythm from Dama human reassurance in ivory",
+    "journal 3: bronze rhythm from Dama education preview in bronze",
+    "journal 4: sage rhythm from Dama responsible expectations in sage",
+    "journal 5: cream rhythm from Dama contact bridge in cream",
+    "journal 6: gold rhythm from Dama closing identity in gold",
+    "journal 7: bronze rhythm from Dama hero promise in bronze",
+    "journal 8: sage rhythm from Dama trust position in sage",
+    "journal 9: cream rhythm from Dama care route in cream",
+    "journal 10: gold rhythm from Dama consultation path in gold"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: cream rhythm from Cream results roots",
-    "consultation 2: ivory rhythm from Ivory journal natural path",
-    "consultation 3: terracotta rhythm from Terracotta/bronze CTA",
-    "consultation 4: dark rhythm from Grounded dark sage footer",
-    "consultation 5: cream rhythm from Cream/taupe origin hero",
-    "consultation 6: sage rhythm from Sage grounded trust",
-    "consultation 7: cream rhythm from Cream natural route",
-    "consultation 8: ivory rhythm from Ivory consultation grounding",
-    "consultation 9: terracotta rhythm from Terracotta reassurance note",
-    "consultation 10: sage rhythm from Sage education field"
+    "consultation 1: bronze rhythm from Dama education preview in bronze",
+    "consultation 2: sage rhythm from Dama responsible expectations in sage",
+    "consultation 3: cream rhythm from Dama contact bridge in cream",
+    "consultation 4: gold rhythm from Dama closing identity in gold",
+    "consultation 5: bronze rhythm from Dama hero promise in bronze",
+    "consultation 6: sage rhythm from Dama trust position in sage",
+    "consultation 7: cream rhythm from Dama care route in cream",
+    "consultation 8: gold rhythm from Dama consultation path in gold",
+    "consultation 9: dark rhythm from Dama treatment navigation in dark",
+    "consultation 10: ivory rhythm from Dama human reassurance in ivory"
   ],
   "contactPageColourSequence": [
-    "contact 1: ivory rhythm from Ivory journal natural path",
-    "contact 2: terracotta rhythm from Terracotta/bronze CTA",
-    "contact 3: dark rhythm from Grounded dark sage footer",
-    "contact 4: cream rhythm from Cream/taupe origin hero",
-    "contact 5: sage rhythm from Sage grounded trust",
-    "contact 6: cream rhythm from Cream natural route",
-    "contact 7: ivory rhythm from Ivory consultation grounding",
-    "contact 8: terracotta rhythm from Terracotta reassurance note",
-    "contact 9: sage rhythm from Sage education field",
-    "contact 10: cream rhythm from Cream results roots"
+    "contact 1: sage rhythm from Dama responsible expectations in sage",
+    "contact 2: cream rhythm from Dama contact bridge in cream",
+    "contact 3: gold rhythm from Dama closing identity in gold",
+    "contact 4: bronze rhythm from Dama hero promise in bronze",
+    "contact 5: sage rhythm from Dama trust position in sage",
+    "contact 6: cream rhythm from Dama care route in cream",
+    "contact 7: gold rhythm from Dama consultation path in gold",
+    "contact 8: dark rhythm from Dama treatment navigation in dark",
+    "contact 9: ivory rhythm from Dama human reassurance in ivory",
+    "contact 10: bronze rhythm from Dama education preview in bronze"
   ],
   "forbiddenColourPatterns": [
-    "No glossy luxury",
-    "No high-fashion editorial",
-    "No cold clinical grid."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

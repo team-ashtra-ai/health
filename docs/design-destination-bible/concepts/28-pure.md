@@ -1,12 +1,12 @@
-# 28-pure — Minimal Beauty
+# 28-pure — Botanical Education Studio
 
 ## Visual Thesis
 
-A pure minimal beauty site with precise whitespace and very few visible elements.
+Flora uses educational, botanical, calm pacing with education and care combined.
 
 ## Colour Thesis
 
-Almost all ivory and cream. Sage appears as text accent. Tiny bronze rules. Blush nearly invisible.
+sage, ivory, leaf green
 
 ## Systems
 
@@ -21,159 +21,161 @@ Almost all ivory and cream. Sage appears as text accent. Tiny bronze rules. Blus
 
 ## Homepage Colour Sequence
 
-1. Pure ivory hero
-2. Cream minimal trust
-3. Ivory route line
-4. Pale sage consultation note
-5. Ivory reassurance statement
-6. Cream education line
-7. Ivory results text
-8. Pale sage journal links
-9. Cream quiet CTA
-10. Minimal sage footer
+1. Flora hero promise in dark
+2. Flora trust position in bronze
+3. Flora care route in sage
+4. Flora consultation path in ivory
+5. Flora treatment navigation in cream
+6. Flora human reassurance in gold
+7. Flora education preview in dark
+8. Flora responsible expectations in bronze
+9. Flora contact bridge in sage
+10. Flora closing identity in ivory
 
 ## All Other Pages
 
-Use almost no cards, almost no decoration, and extremely controlled spacing.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No blush sections
-- No dark bands
-- No heavy gradients.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "28-pure",
-  "colourThesis": "Almost all ivory and cream. Sage appears as text accent. Tiny bronze rules. Blush nearly invisible.",
-  "dominantColourFamily": "ink",
+  "colourThesis": "sage, ivory, leaf green",
+  "dominantColourFamily": "dark",
   "secondaryColourFamily": "sage",
   "accentColourFamily": "ivory",
-  "contrastTemperature": "soft refined",
-  "darkUsage": "reserved for footer, text, or one anchor band",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "contrastTemperature": "high editorial",
+  "darkUsage": "dominant structural field",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "axis-grid; no universal cream-card default",
   "buttonStrategy": "text-link",
-  "footerColour": "Minimal sage footer",
-  "mobileMenuColour": "Minimal sage footer",
+  "footerColour": "Flora closing identity in ivory",
+  "mobileMenuColour": "Flora closing identity in ivory",
   "homepageSectionColourSequence": [
-    "Pure ivory hero",
-    "Cream minimal trust",
-    "Ivory route line",
-    "Pale sage consultation note",
-    "Ivory reassurance statement",
-    "Cream education line",
-    "Ivory results text",
-    "Pale sage journal links",
-    "Cream quiet CTA",
-    "Minimal sage footer"
+    "Flora hero promise in dark",
+    "Flora trust position in bronze",
+    "Flora care route in sage",
+    "Flora consultation path in ivory",
+    "Flora treatment navigation in cream",
+    "Flora human reassurance in gold",
+    "Flora education preview in dark",
+    "Flora responsible expectations in bronze",
+    "Flora contact bridge in sage",
+    "Flora closing identity in ivory"
   ],
   "aboutPageColourSequence": [
-    "about 1: sage rhythm from Minimal sage footer",
-    "about 2: ivory rhythm from Pure ivory hero",
-    "about 3: cream rhythm from Cream minimal trust",
-    "about 4: ivory rhythm from Ivory route line",
-    "about 5: sage rhythm from Pale sage consultation note",
-    "about 6: ivory rhythm from Ivory reassurance statement",
-    "about 7: cream rhythm from Cream education line",
-    "about 8: ivory rhythm from Ivory results text",
-    "about 9: sage rhythm from Pale sage journal links",
-    "about 10: cream rhythm from Cream quiet CTA"
+    "about 1: ivory rhythm from Flora closing identity in ivory",
+    "about 2: dark rhythm from Flora hero promise in dark",
+    "about 3: bronze rhythm from Flora trust position in bronze",
+    "about 4: sage rhythm from Flora care route in sage",
+    "about 5: ivory rhythm from Flora consultation path in ivory",
+    "about 6: cream rhythm from Flora treatment navigation in cream",
+    "about 7: gold rhythm from Flora human reassurance in gold",
+    "about 8: dark rhythm from Flora education preview in dark",
+    "about 9: bronze rhythm from Flora responsible expectations in bronze",
+    "about 10: sage rhythm from Flora contact bridge in sage"
   ],
   "carePageColourSequence": [
-    "care 1: ivory rhythm from Pure ivory hero",
-    "care 2: cream rhythm from Cream minimal trust",
-    "care 3: ivory rhythm from Ivory route line",
-    "care 4: sage rhythm from Pale sage consultation note",
-    "care 5: ivory rhythm from Ivory reassurance statement",
-    "care 6: cream rhythm from Cream education line",
-    "care 7: ivory rhythm from Ivory results text",
-    "care 8: sage rhythm from Pale sage journal links",
-    "care 9: cream rhythm from Cream quiet CTA",
-    "care 10: sage rhythm from Minimal sage footer"
+    "care 1: dark rhythm from Flora hero promise in dark",
+    "care 2: bronze rhythm from Flora trust position in bronze",
+    "care 3: sage rhythm from Flora care route in sage",
+    "care 4: ivory rhythm from Flora consultation path in ivory",
+    "care 5: cream rhythm from Flora treatment navigation in cream",
+    "care 6: gold rhythm from Flora human reassurance in gold",
+    "care 7: dark rhythm from Flora education preview in dark",
+    "care 8: bronze rhythm from Flora responsible expectations in bronze",
+    "care 9: sage rhythm from Flora contact bridge in sage",
+    "care 10: ivory rhythm from Flora closing identity in ivory"
   ],
   "laserPageColourSequence": [
-    "laser 1: cream rhythm from Cream minimal trust",
-    "laser 2: ivory rhythm from Ivory route line",
-    "laser 3: sage rhythm from Pale sage consultation note",
-    "laser 4: ivory rhythm from Ivory reassurance statement",
-    "laser 5: cream rhythm from Cream education line",
-    "laser 6: ivory rhythm from Ivory results text",
-    "laser 7: sage rhythm from Pale sage journal links",
-    "laser 8: cream rhythm from Cream quiet CTA",
-    "laser 9: sage rhythm from Minimal sage footer",
-    "laser 10: ivory rhythm from Pure ivory hero"
+    "laser 1: bronze rhythm from Flora trust position in bronze",
+    "laser 2: sage rhythm from Flora care route in sage",
+    "laser 3: ivory rhythm from Flora consultation path in ivory",
+    "laser 4: cream rhythm from Flora treatment navigation in cream",
+    "laser 5: gold rhythm from Flora human reassurance in gold",
+    "laser 6: dark rhythm from Flora education preview in dark",
+    "laser 7: bronze rhythm from Flora responsible expectations in bronze",
+    "laser 8: sage rhythm from Flora contact bridge in sage",
+    "laser 9: ivory rhythm from Flora closing identity in ivory",
+    "laser 10: dark rhythm from Flora hero promise in dark"
   ],
   "skinPageColourSequence": [
-    "skin 1: ivory rhythm from Ivory route line",
-    "skin 2: sage rhythm from Pale sage consultation note",
-    "skin 3: ivory rhythm from Ivory reassurance statement",
-    "skin 4: cream rhythm from Cream education line",
-    "skin 5: ivory rhythm from Ivory results text",
-    "skin 6: sage rhythm from Pale sage journal links",
-    "skin 7: cream rhythm from Cream quiet CTA",
-    "skin 8: sage rhythm from Minimal sage footer",
-    "skin 9: ivory rhythm from Pure ivory hero",
-    "skin 10: cream rhythm from Cream minimal trust"
+    "skin 1: sage rhythm from Flora care route in sage",
+    "skin 2: ivory rhythm from Flora consultation path in ivory",
+    "skin 3: cream rhythm from Flora treatment navigation in cream",
+    "skin 4: gold rhythm from Flora human reassurance in gold",
+    "skin 5: dark rhythm from Flora education preview in dark",
+    "skin 6: bronze rhythm from Flora responsible expectations in bronze",
+    "skin 7: sage rhythm from Flora contact bridge in sage",
+    "skin 8: ivory rhythm from Flora closing identity in ivory",
+    "skin 9: dark rhythm from Flora hero promise in dark",
+    "skin 10: bronze rhythm from Flora trust position in bronze"
   ],
   "resultsPageColourSequence": [
-    "results 1: sage rhythm from Pale sage consultation note",
-    "results 2: ivory rhythm from Ivory reassurance statement",
-    "results 3: cream rhythm from Cream education line",
-    "results 4: ivory rhythm from Ivory results text",
-    "results 5: sage rhythm from Pale sage journal links",
-    "results 6: cream rhythm from Cream quiet CTA",
-    "results 7: sage rhythm from Minimal sage footer",
-    "results 8: ivory rhythm from Pure ivory hero",
-    "results 9: cream rhythm from Cream minimal trust",
-    "results 10: ivory rhythm from Ivory route line"
+    "results 1: ivory rhythm from Flora consultation path in ivory",
+    "results 2: cream rhythm from Flora treatment navigation in cream",
+    "results 3: gold rhythm from Flora human reassurance in gold",
+    "results 4: dark rhythm from Flora education preview in dark",
+    "results 5: bronze rhythm from Flora responsible expectations in bronze",
+    "results 6: sage rhythm from Flora contact bridge in sage",
+    "results 7: ivory rhythm from Flora closing identity in ivory",
+    "results 8: dark rhythm from Flora hero promise in dark",
+    "results 9: bronze rhythm from Flora trust position in bronze",
+    "results 10: sage rhythm from Flora care route in sage"
   ],
   "journalPageColourSequence": [
-    "journal 1: ivory rhythm from Ivory reassurance statement",
-    "journal 2: cream rhythm from Cream education line",
-    "journal 3: ivory rhythm from Ivory results text",
-    "journal 4: sage rhythm from Pale sage journal links",
-    "journal 5: cream rhythm from Cream quiet CTA",
-    "journal 6: sage rhythm from Minimal sage footer",
-    "journal 7: ivory rhythm from Pure ivory hero",
-    "journal 8: cream rhythm from Cream minimal trust",
-    "journal 9: ivory rhythm from Ivory route line",
-    "journal 10: sage rhythm from Pale sage consultation note"
+    "journal 1: cream rhythm from Flora treatment navigation in cream",
+    "journal 2: gold rhythm from Flora human reassurance in gold",
+    "journal 3: dark rhythm from Flora education preview in dark",
+    "journal 4: bronze rhythm from Flora responsible expectations in bronze",
+    "journal 5: sage rhythm from Flora contact bridge in sage",
+    "journal 6: ivory rhythm from Flora closing identity in ivory",
+    "journal 7: dark rhythm from Flora hero promise in dark",
+    "journal 8: bronze rhythm from Flora trust position in bronze",
+    "journal 9: sage rhythm from Flora care route in sage",
+    "journal 10: ivory rhythm from Flora consultation path in ivory"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: ivory rhythm from Ivory results text",
-    "consultation 2: sage rhythm from Pale sage journal links",
-    "consultation 3: cream rhythm from Cream quiet CTA",
-    "consultation 4: sage rhythm from Minimal sage footer",
-    "consultation 5: ivory rhythm from Pure ivory hero",
-    "consultation 6: cream rhythm from Cream minimal trust",
-    "consultation 7: ivory rhythm from Ivory route line",
-    "consultation 8: sage rhythm from Pale sage consultation note",
-    "consultation 9: ivory rhythm from Ivory reassurance statement",
-    "consultation 10: cream rhythm from Cream education line"
+    "consultation 1: dark rhythm from Flora education preview in dark",
+    "consultation 2: bronze rhythm from Flora responsible expectations in bronze",
+    "consultation 3: sage rhythm from Flora contact bridge in sage",
+    "consultation 4: ivory rhythm from Flora closing identity in ivory",
+    "consultation 5: dark rhythm from Flora hero promise in dark",
+    "consultation 6: bronze rhythm from Flora trust position in bronze",
+    "consultation 7: sage rhythm from Flora care route in sage",
+    "consultation 8: ivory rhythm from Flora consultation path in ivory",
+    "consultation 9: cream rhythm from Flora treatment navigation in cream",
+    "consultation 10: gold rhythm from Flora human reassurance in gold"
   ],
   "contactPageColourSequence": [
-    "contact 1: sage rhythm from Pale sage journal links",
-    "contact 2: cream rhythm from Cream quiet CTA",
-    "contact 3: sage rhythm from Minimal sage footer",
-    "contact 4: ivory rhythm from Pure ivory hero",
-    "contact 5: cream rhythm from Cream minimal trust",
-    "contact 6: ivory rhythm from Ivory route line",
-    "contact 7: sage rhythm from Pale sage consultation note",
-    "contact 8: ivory rhythm from Ivory reassurance statement",
-    "contact 9: cream rhythm from Cream education line",
-    "contact 10: ivory rhythm from Ivory results text"
+    "contact 1: bronze rhythm from Flora responsible expectations in bronze",
+    "contact 2: sage rhythm from Flora contact bridge in sage",
+    "contact 3: ivory rhythm from Flora closing identity in ivory",
+    "contact 4: dark rhythm from Flora hero promise in dark",
+    "contact 5: bronze rhythm from Flora trust position in bronze",
+    "contact 6: sage rhythm from Flora care route in sage",
+    "contact 7: ivory rhythm from Flora consultation path in ivory",
+    "contact 8: cream rhythm from Flora treatment navigation in cream",
+    "contact 9: gold rhythm from Flora human reassurance in gold",
+    "contact 10: dark rhythm from Flora education preview in dark"
   ],
   "forbiddenColourPatterns": [
-    "No blush sections",
-    "No dark bands",
-    "No heavy gradients."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

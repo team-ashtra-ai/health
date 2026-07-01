@@ -1,12 +1,12 @@
-# 26-vivant — Lively Premium
+# 26-vivant — Morning Light Clinic
 
 ## Visual Thesis
 
-A lively but premium website with confident movement and bright rhythm.
+Alba uses fresh, bright, optimistic pacing with morning light glow.
 
 ## Colour Thesis
 
-Brighter sage, warm cream, blush accents, and gold CTA highlights. Energetic but not loud.
+ivory, warm cream, pale gold, sage
 
 ## Systems
 
@@ -21,159 +21,161 @@ Brighter sage, warm cream, blush accents, and gold CTA highlights. Energetic but
 
 ## Homepage Colour Sequence
 
-1. Bright sage hero
-2. Cream lively trust
-3. Blush route movement
-4. Ivory consultation motion
-5. Sage reassurance strip
-6. Gold-marked education
-7. Cream results pulse
-8. Blush journal preview
-9. Gold lively CTA
-10. Sage footer
+1. Alba hero promise in cream
+2. Alba trust position in gold
+3. Alba care route in dark
+4. Alba consultation path in bronze
+5. Alba treatment navigation in sage
+6. Alba human reassurance in ivory
+7. Alba education preview in cream
+8. Alba responsible expectations in gold
+9. Alba contact bridge in dark
+10. Alba closing identity in bronze
 
 ## All Other Pages
 
-Use energetic section transitions, directional lines, and brighter contrast.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No muted calm-only pages
-- No dark luxury
-- No childish colour use.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "26-vivant",
-  "colourThesis": "Brighter sage, warm cream, blush accents, and gold CTA highlights. Energetic but not loud.",
-  "dominantColourFamily": "sage",
-  "secondaryColourFamily": "ivory",
-  "accentColourFamily": "cream",
-  "contrastTemperature": "soft refined",
-  "darkUsage": "reserved for footer, text, or one anchor band",
-  "blushUsage": "purposeful warmth and guidance notes",
-  "sageUsage": "primary architecture",
+  "colourThesis": "ivory, warm cream, pale gold, sage",
+  "dominantColourFamily": "dark",
+  "secondaryColourFamily": "sage",
+  "accentColourFamily": "ivory",
+  "contrastTemperature": "high editorial",
+  "darkUsage": "dominant structural field",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
+  "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "route-ledger; no universal cream-card default",
   "buttonStrategy": "soft-pill",
-  "footerColour": "Sage footer",
-  "mobileMenuColour": "Blush journal preview",
+  "footerColour": "Alba closing identity in bronze",
+  "mobileMenuColour": "Alba responsible expectations in gold",
   "homepageSectionColourSequence": [
-    "Bright sage hero",
-    "Cream lively trust",
-    "Blush route movement",
-    "Ivory consultation motion",
-    "Sage reassurance strip",
-    "Gold-marked education",
-    "Cream results pulse",
-    "Blush journal preview",
-    "Gold lively CTA",
-    "Sage footer"
+    "Alba hero promise in cream",
+    "Alba trust position in gold",
+    "Alba care route in dark",
+    "Alba consultation path in bronze",
+    "Alba treatment navigation in sage",
+    "Alba human reassurance in ivory",
+    "Alba education preview in cream",
+    "Alba responsible expectations in gold",
+    "Alba contact bridge in dark",
+    "Alba closing identity in bronze"
   ],
   "aboutPageColourSequence": [
-    "about 1: blush rhythm from Blush journal preview",
-    "about 2: gold rhythm from Gold lively CTA",
-    "about 3: sage rhythm from Sage footer",
-    "about 4: sage rhythm from Bright sage hero",
-    "about 5: cream rhythm from Cream lively trust",
-    "about 6: blush rhythm from Blush route movement",
-    "about 7: ivory rhythm from Ivory consultation motion",
-    "about 8: sage rhythm from Sage reassurance strip",
-    "about 9: gold rhythm from Gold-marked education",
-    "about 10: cream rhythm from Cream results pulse"
+    "about 1: gold rhythm from Alba responsible expectations in gold",
+    "about 2: dark rhythm from Alba contact bridge in dark",
+    "about 3: bronze rhythm from Alba closing identity in bronze",
+    "about 4: cream rhythm from Alba hero promise in cream",
+    "about 5: gold rhythm from Alba trust position in gold",
+    "about 6: dark rhythm from Alba care route in dark",
+    "about 7: bronze rhythm from Alba consultation path in bronze",
+    "about 8: sage rhythm from Alba treatment navigation in sage",
+    "about 9: ivory rhythm from Alba human reassurance in ivory",
+    "about 10: cream rhythm from Alba education preview in cream"
   ],
   "carePageColourSequence": [
-    "care 1: gold rhythm from Gold lively CTA",
-    "care 2: sage rhythm from Sage footer",
-    "care 3: sage rhythm from Bright sage hero",
-    "care 4: cream rhythm from Cream lively trust",
-    "care 5: blush rhythm from Blush route movement",
-    "care 6: ivory rhythm from Ivory consultation motion",
-    "care 7: sage rhythm from Sage reassurance strip",
-    "care 8: gold rhythm from Gold-marked education",
-    "care 9: cream rhythm from Cream results pulse",
-    "care 10: blush rhythm from Blush journal preview"
+    "care 1: dark rhythm from Alba contact bridge in dark",
+    "care 2: bronze rhythm from Alba closing identity in bronze",
+    "care 3: cream rhythm from Alba hero promise in cream",
+    "care 4: gold rhythm from Alba trust position in gold",
+    "care 5: dark rhythm from Alba care route in dark",
+    "care 6: bronze rhythm from Alba consultation path in bronze",
+    "care 7: sage rhythm from Alba treatment navigation in sage",
+    "care 8: ivory rhythm from Alba human reassurance in ivory",
+    "care 9: cream rhythm from Alba education preview in cream",
+    "care 10: gold rhythm from Alba responsible expectations in gold"
   ],
   "laserPageColourSequence": [
-    "laser 1: sage rhythm from Sage footer",
-    "laser 2: sage rhythm from Bright sage hero",
-    "laser 3: cream rhythm from Cream lively trust",
-    "laser 4: blush rhythm from Blush route movement",
-    "laser 5: ivory rhythm from Ivory consultation motion",
-    "laser 6: sage rhythm from Sage reassurance strip",
-    "laser 7: gold rhythm from Gold-marked education",
-    "laser 8: cream rhythm from Cream results pulse",
-    "laser 9: blush rhythm from Blush journal preview",
-    "laser 10: gold rhythm from Gold lively CTA"
+    "laser 1: bronze rhythm from Alba closing identity in bronze",
+    "laser 2: cream rhythm from Alba hero promise in cream",
+    "laser 3: gold rhythm from Alba trust position in gold",
+    "laser 4: dark rhythm from Alba care route in dark",
+    "laser 5: bronze rhythm from Alba consultation path in bronze",
+    "laser 6: sage rhythm from Alba treatment navigation in sage",
+    "laser 7: ivory rhythm from Alba human reassurance in ivory",
+    "laser 8: cream rhythm from Alba education preview in cream",
+    "laser 9: gold rhythm from Alba responsible expectations in gold",
+    "laser 10: dark rhythm from Alba contact bridge in dark"
   ],
   "skinPageColourSequence": [
-    "skin 1: sage rhythm from Bright sage hero",
-    "skin 2: cream rhythm from Cream lively trust",
-    "skin 3: blush rhythm from Blush route movement",
-    "skin 4: ivory rhythm from Ivory consultation motion",
-    "skin 5: sage rhythm from Sage reassurance strip",
-    "skin 6: gold rhythm from Gold-marked education",
-    "skin 7: cream rhythm from Cream results pulse",
-    "skin 8: blush rhythm from Blush journal preview",
-    "skin 9: gold rhythm from Gold lively CTA",
-    "skin 10: sage rhythm from Sage footer"
+    "skin 1: cream rhythm from Alba hero promise in cream",
+    "skin 2: gold rhythm from Alba trust position in gold",
+    "skin 3: dark rhythm from Alba care route in dark",
+    "skin 4: bronze rhythm from Alba consultation path in bronze",
+    "skin 5: sage rhythm from Alba treatment navigation in sage",
+    "skin 6: ivory rhythm from Alba human reassurance in ivory",
+    "skin 7: cream rhythm from Alba education preview in cream",
+    "skin 8: gold rhythm from Alba responsible expectations in gold",
+    "skin 9: dark rhythm from Alba contact bridge in dark",
+    "skin 10: bronze rhythm from Alba closing identity in bronze"
   ],
   "resultsPageColourSequence": [
-    "results 1: cream rhythm from Cream lively trust",
-    "results 2: blush rhythm from Blush route movement",
-    "results 3: ivory rhythm from Ivory consultation motion",
-    "results 4: sage rhythm from Sage reassurance strip",
-    "results 5: gold rhythm from Gold-marked education",
-    "results 6: cream rhythm from Cream results pulse",
-    "results 7: blush rhythm from Blush journal preview",
-    "results 8: gold rhythm from Gold lively CTA",
-    "results 9: sage rhythm from Sage footer",
-    "results 10: sage rhythm from Bright sage hero"
+    "results 1: gold rhythm from Alba trust position in gold",
+    "results 2: dark rhythm from Alba care route in dark",
+    "results 3: bronze rhythm from Alba consultation path in bronze",
+    "results 4: sage rhythm from Alba treatment navigation in sage",
+    "results 5: ivory rhythm from Alba human reassurance in ivory",
+    "results 6: cream rhythm from Alba education preview in cream",
+    "results 7: gold rhythm from Alba responsible expectations in gold",
+    "results 8: dark rhythm from Alba contact bridge in dark",
+    "results 9: bronze rhythm from Alba closing identity in bronze",
+    "results 10: cream rhythm from Alba hero promise in cream"
   ],
   "journalPageColourSequence": [
-    "journal 1: blush rhythm from Blush route movement",
-    "journal 2: ivory rhythm from Ivory consultation motion",
-    "journal 3: sage rhythm from Sage reassurance strip",
-    "journal 4: gold rhythm from Gold-marked education",
-    "journal 5: cream rhythm from Cream results pulse",
-    "journal 6: blush rhythm from Blush journal preview",
-    "journal 7: gold rhythm from Gold lively CTA",
-    "journal 8: sage rhythm from Sage footer",
-    "journal 9: sage rhythm from Bright sage hero",
-    "journal 10: cream rhythm from Cream lively trust"
+    "journal 1: dark rhythm from Alba care route in dark",
+    "journal 2: bronze rhythm from Alba consultation path in bronze",
+    "journal 3: sage rhythm from Alba treatment navigation in sage",
+    "journal 4: ivory rhythm from Alba human reassurance in ivory",
+    "journal 5: cream rhythm from Alba education preview in cream",
+    "journal 6: gold rhythm from Alba responsible expectations in gold",
+    "journal 7: dark rhythm from Alba contact bridge in dark",
+    "journal 8: bronze rhythm from Alba closing identity in bronze",
+    "journal 9: cream rhythm from Alba hero promise in cream",
+    "journal 10: gold rhythm from Alba trust position in gold"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: sage rhythm from Sage reassurance strip",
-    "consultation 2: gold rhythm from Gold-marked education",
-    "consultation 3: cream rhythm from Cream results pulse",
-    "consultation 4: blush rhythm from Blush journal preview",
-    "consultation 5: gold rhythm from Gold lively CTA",
-    "consultation 6: sage rhythm from Sage footer",
-    "consultation 7: sage rhythm from Bright sage hero",
-    "consultation 8: cream rhythm from Cream lively trust",
-    "consultation 9: blush rhythm from Blush route movement",
-    "consultation 10: ivory rhythm from Ivory consultation motion"
+    "consultation 1: sage rhythm from Alba treatment navigation in sage",
+    "consultation 2: ivory rhythm from Alba human reassurance in ivory",
+    "consultation 3: cream rhythm from Alba education preview in cream",
+    "consultation 4: gold rhythm from Alba responsible expectations in gold",
+    "consultation 5: dark rhythm from Alba contact bridge in dark",
+    "consultation 6: bronze rhythm from Alba closing identity in bronze",
+    "consultation 7: cream rhythm from Alba hero promise in cream",
+    "consultation 8: gold rhythm from Alba trust position in gold",
+    "consultation 9: dark rhythm from Alba care route in dark",
+    "consultation 10: bronze rhythm from Alba consultation path in bronze"
   ],
   "contactPageColourSequence": [
-    "contact 1: gold rhythm from Gold-marked education",
-    "contact 2: cream rhythm from Cream results pulse",
-    "contact 3: blush rhythm from Blush journal preview",
-    "contact 4: gold rhythm from Gold lively CTA",
-    "contact 5: sage rhythm from Sage footer",
-    "contact 6: sage rhythm from Bright sage hero",
-    "contact 7: cream rhythm from Cream lively trust",
-    "contact 8: blush rhythm from Blush route movement",
-    "contact 9: ivory rhythm from Ivory consultation motion",
-    "contact 10: sage rhythm from Sage reassurance strip"
+    "contact 1: ivory rhythm from Alba human reassurance in ivory",
+    "contact 2: cream rhythm from Alba education preview in cream",
+    "contact 3: gold rhythm from Alba responsible expectations in gold",
+    "contact 4: dark rhythm from Alba contact bridge in dark",
+    "contact 5: bronze rhythm from Alba closing identity in bronze",
+    "contact 6: cream rhythm from Alba hero promise in cream",
+    "contact 7: gold rhythm from Alba trust position in gold",
+    "contact 8: dark rhythm from Alba care route in dark",
+    "contact 9: bronze rhythm from Alba consultation path in bronze",
+    "contact 10: sage rhythm from Alba treatment navigation in sage"
   ],
   "forbiddenColourPatterns": [
-    "No muted calm-only pages",
-    "No dark luxury",
-    "No childish colour use."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

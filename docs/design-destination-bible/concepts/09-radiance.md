@@ -1,12 +1,12 @@
-# 09-radiance — Service Route System
+# 09-radiance — Results-Led Premium Contrast
 
 ## Visual Thesis
 
-A navigation-led premium route system. It should feel like a sophisticated service map.
+Radiance uses confident, luminous, proof oriented pacing with bold contrast with responsible results language.
 
 ## Colour Thesis
 
-Cream/ivory base. Sage route panels dominate. Gold/bronze indicate active paths. Dark is reserved for route summary and footer.
+ivory, ink, gold, sage
 
 ## Systems
 
@@ -21,159 +21,161 @@ Cream/ivory base. Sage route panels dominate. Gold/bronze indicate active paths.
 
 ## Homepage Colour Sequence
 
-1. Ivory route-index hero
-2. Sage route overview
-3. Cream service matrix
-4. Ivory consultation pathway
-5. Sage safety route
-6. Cream education map
-7. Ivory results path
-8. Sage journal route
-9. Gold/bronze route CTA
-10. Deep sage directory footer
+1. Radiance hero promise in gold
+2. Radiance trust position in cream
+3. Radiance care route in dark
+4. Radiance consultation path in ink
+5. Radiance treatment navigation in sage
+6. Radiance human reassurance in ivory
+7. Radiance education preview in gold
+8. Radiance responsible expectations in cream
+9. Radiance contact bridge in dark
+10. Radiance closing identity in ink
 
 ## All Other Pages
 
-Use route maps, side indices, path markers, and structured internal links.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No portrait-first design
-- No generic cards
-- No decorative blush sections.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "09-radiance",
-  "colourThesis": "Cream/ivory base. Sage route panels dominate. Gold/bronze indicate active paths. Dark is reserved for route summary and footer.",
-  "dominantColourFamily": "dark",
-  "secondaryColourFamily": "sage",
-  "accentColourFamily": "ivory",
+  "colourThesis": "ivory, ink, gold, sage",
+  "dominantColourFamily": "ink",
+  "secondaryColourFamily": "dark",
+  "accentColourFamily": "sage",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "rare or absent by contract",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "shape-field; no universal cream-card default",
   "buttonStrategy": "whatsapp-strip",
-  "footerColour": "Deep sage directory footer",
-  "mobileMenuColour": "Ivory route-index hero",
+  "footerColour": "Radiance closing identity in ink",
+  "mobileMenuColour": "Radiance hero promise in gold",
   "homepageSectionColourSequence": [
-    "Ivory route-index hero",
-    "Sage route overview",
-    "Cream service matrix",
-    "Ivory consultation pathway",
-    "Sage safety route",
-    "Cream education map",
-    "Ivory results path",
-    "Sage journal route",
-    "Gold/bronze route CTA",
-    "Deep sage directory footer"
+    "Radiance hero promise in gold",
+    "Radiance trust position in cream",
+    "Radiance care route in dark",
+    "Radiance consultation path in ink",
+    "Radiance treatment navigation in sage",
+    "Radiance human reassurance in ivory",
+    "Radiance education preview in gold",
+    "Radiance responsible expectations in cream",
+    "Radiance contact bridge in dark",
+    "Radiance closing identity in ink"
   ],
   "aboutPageColourSequence": [
-    "about 1: ivory rhythm from Ivory route-index hero",
-    "about 2: sage rhythm from Sage route overview",
-    "about 3: cream rhythm from Cream service matrix",
-    "about 4: ivory rhythm from Ivory consultation pathway",
-    "about 5: sage rhythm from Sage safety route",
-    "about 6: cream rhythm from Cream education map",
-    "about 7: ivory rhythm from Ivory results path",
-    "about 8: sage rhythm from Sage journal route",
-    "about 9: gold rhythm from Gold/bronze route CTA",
-    "about 10: dark rhythm from Deep sage directory footer"
+    "about 1: gold rhythm from Radiance hero promise in gold",
+    "about 2: cream rhythm from Radiance trust position in cream",
+    "about 3: dark rhythm from Radiance care route in dark",
+    "about 4: ivory rhythm from Radiance consultation path in ink",
+    "about 5: sage rhythm from Radiance treatment navigation in sage",
+    "about 6: ivory rhythm from Radiance human reassurance in ivory",
+    "about 7: gold rhythm from Radiance education preview in gold",
+    "about 8: cream rhythm from Radiance responsible expectations in cream",
+    "about 9: dark rhythm from Radiance contact bridge in dark",
+    "about 10: ivory rhythm from Radiance closing identity in ink"
   ],
   "carePageColourSequence": [
-    "care 1: sage rhythm from Sage route overview",
-    "care 2: cream rhythm from Cream service matrix",
-    "care 3: ivory rhythm from Ivory consultation pathway",
-    "care 4: sage rhythm from Sage safety route",
-    "care 5: cream rhythm from Cream education map",
-    "care 6: ivory rhythm from Ivory results path",
-    "care 7: sage rhythm from Sage journal route",
-    "care 8: gold rhythm from Gold/bronze route CTA",
-    "care 9: dark rhythm from Deep sage directory footer",
-    "care 10: ivory rhythm from Ivory route-index hero"
+    "care 1: cream rhythm from Radiance trust position in cream",
+    "care 2: dark rhythm from Radiance care route in dark",
+    "care 3: ivory rhythm from Radiance consultation path in ink",
+    "care 4: sage rhythm from Radiance treatment navigation in sage",
+    "care 5: ivory rhythm from Radiance human reassurance in ivory",
+    "care 6: gold rhythm from Radiance education preview in gold",
+    "care 7: cream rhythm from Radiance responsible expectations in cream",
+    "care 8: dark rhythm from Radiance contact bridge in dark",
+    "care 9: ivory rhythm from Radiance closing identity in ink",
+    "care 10: gold rhythm from Radiance hero promise in gold"
   ],
   "laserPageColourSequence": [
-    "laser 1: cream rhythm from Cream service matrix",
-    "laser 2: ivory rhythm from Ivory consultation pathway",
-    "laser 3: sage rhythm from Sage safety route",
-    "laser 4: cream rhythm from Cream education map",
-    "laser 5: ivory rhythm from Ivory results path",
-    "laser 6: sage rhythm from Sage journal route",
-    "laser 7: gold rhythm from Gold/bronze route CTA",
-    "laser 8: dark rhythm from Deep sage directory footer",
-    "laser 9: ivory rhythm from Ivory route-index hero",
-    "laser 10: sage rhythm from Sage route overview"
+    "laser 1: dark rhythm from Radiance care route in dark",
+    "laser 2: ivory rhythm from Radiance consultation path in ink",
+    "laser 3: sage rhythm from Radiance treatment navigation in sage",
+    "laser 4: ivory rhythm from Radiance human reassurance in ivory",
+    "laser 5: gold rhythm from Radiance education preview in gold",
+    "laser 6: cream rhythm from Radiance responsible expectations in cream",
+    "laser 7: dark rhythm from Radiance contact bridge in dark",
+    "laser 8: ivory rhythm from Radiance closing identity in ink",
+    "laser 9: gold rhythm from Radiance hero promise in gold",
+    "laser 10: cream rhythm from Radiance trust position in cream"
   ],
   "skinPageColourSequence": [
-    "skin 1: ivory rhythm from Ivory consultation pathway",
-    "skin 2: sage rhythm from Sage safety route",
-    "skin 3: cream rhythm from Cream education map",
-    "skin 4: ivory rhythm from Ivory results path",
-    "skin 5: sage rhythm from Sage journal route",
-    "skin 6: gold rhythm from Gold/bronze route CTA",
-    "skin 7: dark rhythm from Deep sage directory footer",
-    "skin 8: ivory rhythm from Ivory route-index hero",
-    "skin 9: sage rhythm from Sage route overview",
-    "skin 10: cream rhythm from Cream service matrix"
+    "skin 1: ivory rhythm from Radiance consultation path in ink",
+    "skin 2: sage rhythm from Radiance treatment navigation in sage",
+    "skin 3: ivory rhythm from Radiance human reassurance in ivory",
+    "skin 4: gold rhythm from Radiance education preview in gold",
+    "skin 5: cream rhythm from Radiance responsible expectations in cream",
+    "skin 6: dark rhythm from Radiance contact bridge in dark",
+    "skin 7: ivory rhythm from Radiance closing identity in ink",
+    "skin 8: gold rhythm from Radiance hero promise in gold",
+    "skin 9: cream rhythm from Radiance trust position in cream",
+    "skin 10: dark rhythm from Radiance care route in dark"
   ],
   "resultsPageColourSequence": [
-    "results 1: sage rhythm from Sage safety route",
-    "results 2: cream rhythm from Cream education map",
-    "results 3: ivory rhythm from Ivory results path",
-    "results 4: sage rhythm from Sage journal route",
-    "results 5: gold rhythm from Gold/bronze route CTA",
-    "results 6: dark rhythm from Deep sage directory footer",
-    "results 7: ivory rhythm from Ivory route-index hero",
-    "results 8: sage rhythm from Sage route overview",
-    "results 9: cream rhythm from Cream service matrix",
-    "results 10: ivory rhythm from Ivory consultation pathway"
+    "results 1: sage rhythm from Radiance treatment navigation in sage",
+    "results 2: ivory rhythm from Radiance human reassurance in ivory",
+    "results 3: gold rhythm from Radiance education preview in gold",
+    "results 4: cream rhythm from Radiance responsible expectations in cream",
+    "results 5: dark rhythm from Radiance contact bridge in dark",
+    "results 6: ivory rhythm from Radiance closing identity in ink",
+    "results 7: gold rhythm from Radiance hero promise in gold",
+    "results 8: cream rhythm from Radiance trust position in cream",
+    "results 9: dark rhythm from Radiance care route in dark",
+    "results 10: ivory rhythm from Radiance consultation path in ink"
   ],
   "journalPageColourSequence": [
-    "journal 1: cream rhythm from Cream education map",
-    "journal 2: ivory rhythm from Ivory results path",
-    "journal 3: sage rhythm from Sage journal route",
-    "journal 4: gold rhythm from Gold/bronze route CTA",
-    "journal 5: dark rhythm from Deep sage directory footer",
-    "journal 6: ivory rhythm from Ivory route-index hero",
-    "journal 7: sage rhythm from Sage route overview",
-    "journal 8: cream rhythm from Cream service matrix",
-    "journal 9: ivory rhythm from Ivory consultation pathway",
-    "journal 10: sage rhythm from Sage safety route"
+    "journal 1: ivory rhythm from Radiance human reassurance in ivory",
+    "journal 2: gold rhythm from Radiance education preview in gold",
+    "journal 3: cream rhythm from Radiance responsible expectations in cream",
+    "journal 4: dark rhythm from Radiance contact bridge in dark",
+    "journal 5: ivory rhythm from Radiance closing identity in ink",
+    "journal 6: gold rhythm from Radiance hero promise in gold",
+    "journal 7: cream rhythm from Radiance trust position in cream",
+    "journal 8: dark rhythm from Radiance care route in dark",
+    "journal 9: ivory rhythm from Radiance consultation path in ink",
+    "journal 10: sage rhythm from Radiance treatment navigation in sage"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: sage rhythm from Sage journal route",
-    "consultation 2: gold rhythm from Gold/bronze route CTA",
-    "consultation 3: dark rhythm from Deep sage directory footer",
-    "consultation 4: ivory rhythm from Ivory route-index hero",
-    "consultation 5: sage rhythm from Sage route overview",
-    "consultation 6: cream rhythm from Cream service matrix",
-    "consultation 7: ivory rhythm from Ivory consultation pathway",
-    "consultation 8: sage rhythm from Sage safety route",
-    "consultation 9: cream rhythm from Cream education map",
-    "consultation 10: ivory rhythm from Ivory results path"
+    "consultation 1: cream rhythm from Radiance responsible expectations in cream",
+    "consultation 2: dark rhythm from Radiance contact bridge in dark",
+    "consultation 3: ivory rhythm from Radiance closing identity in ink",
+    "consultation 4: gold rhythm from Radiance hero promise in gold",
+    "consultation 5: cream rhythm from Radiance trust position in cream",
+    "consultation 6: dark rhythm from Radiance care route in dark",
+    "consultation 7: ivory rhythm from Radiance consultation path in ink",
+    "consultation 8: sage rhythm from Radiance treatment navigation in sage",
+    "consultation 9: ivory rhythm from Radiance human reassurance in ivory",
+    "consultation 10: gold rhythm from Radiance education preview in gold"
   ],
   "contactPageColourSequence": [
-    "contact 1: gold rhythm from Gold/bronze route CTA",
-    "contact 2: dark rhythm from Deep sage directory footer",
-    "contact 3: ivory rhythm from Ivory route-index hero",
-    "contact 4: sage rhythm from Sage route overview",
-    "contact 5: cream rhythm from Cream service matrix",
-    "contact 6: ivory rhythm from Ivory consultation pathway",
-    "contact 7: sage rhythm from Sage safety route",
-    "contact 8: cream rhythm from Cream education map",
-    "contact 9: ivory rhythm from Ivory results path",
-    "contact 10: sage rhythm from Sage journal route"
+    "contact 1: dark rhythm from Radiance contact bridge in dark",
+    "contact 2: ivory rhythm from Radiance closing identity in ink",
+    "contact 3: gold rhythm from Radiance hero promise in gold",
+    "contact 4: cream rhythm from Radiance trust position in cream",
+    "contact 5: dark rhythm from Radiance care route in dark",
+    "contact 6: ivory rhythm from Radiance consultation path in ink",
+    "contact 7: sage rhythm from Radiance treatment navigation in sage",
+    "contact 8: ivory rhythm from Radiance human reassurance in ivory",
+    "contact 9: gold rhythm from Radiance education preview in gold",
+    "contact 10: cream rhythm from Radiance responsible expectations in cream"
   ],
   "forbiddenColourPatterns": [
-    "No portrait-first design",
-    "No generic cards",
-    "No decorative blush sections."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

@@ -1,12 +1,12 @@
-# 45-silhouette — Sculptural Shape
+# 45-silhouette — Smooth Minimal Beauty
 
 ## Visual Thesis
 
-A sculptural negative-space site using elegant outlines and silhouette-like layout forms.
+Lisse uses smooth, clean, refined pacing with minimal smooth skin focus.
 
 ## Colour Thesis
 
-Ivory negative space, dark sage shapes, bronze outlines. Blush not dominant.
+ivory, pale sage, pearl
 
 ## Systems
 
@@ -21,159 +21,161 @@ Ivory negative space, dark sage shapes, bronze outlines. Blush not dominant.
 
 ## Homepage Colour Sequence
 
-1. Ivory/dark silhouette hero
-2. Cream outline trust
-3. Sage sculptural route
-4. Ivory consultation shape
-5. Dark sage statement silhouette
-6. Cream education outline
-7. Sage results form
-8. Ivory journal silhouette
-9. Bronze outline CTA
-10. Dark sculptural footer
+1. Lisse hero promise in gold
+2. Lisse trust position in dark
+3. Lisse care route in bronze
+4. Lisse consultation path in sage
+5. Lisse treatment navigation in ivory
+6. Lisse human reassurance in cream
+7. Lisse education preview in gold
+8. Lisse responsible expectations in dark
+9. Lisse contact bridge in bronze
+10. Lisse closing identity in sage
 
 ## All Other Pages
 
-Use shape-driven section architecture while preserving full uncropped photos.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No photo clipping
-- No circular crops
-- No generic card wall.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "45-silhouette",
-  "colourThesis": "Ivory negative space, dark sage shapes, bronze outlines. Blush not dominant.",
+  "colourThesis": "ivory, pale sage, pearl",
   "dominantColourFamily": "dark",
   "secondaryColourFamily": "sage",
   "accentColourFamily": "ivory",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "technical-table; no universal cream-card default",
   "buttonStrategy": "ledger-button",
-  "footerColour": "Dark sculptural footer",
-  "mobileMenuColour": "Sage results form",
+  "footerColour": "Lisse closing identity in sage",
+  "mobileMenuColour": "Lisse education preview in gold",
   "homepageSectionColourSequence": [
-    "Ivory/dark silhouette hero",
-    "Cream outline trust",
-    "Sage sculptural route",
-    "Ivory consultation shape",
-    "Dark sage statement silhouette",
-    "Cream education outline",
-    "Sage results form",
-    "Ivory journal silhouette",
-    "Bronze outline CTA",
-    "Dark sculptural footer"
+    "Lisse hero promise in gold",
+    "Lisse trust position in dark",
+    "Lisse care route in bronze",
+    "Lisse consultation path in sage",
+    "Lisse treatment navigation in ivory",
+    "Lisse human reassurance in cream",
+    "Lisse education preview in gold",
+    "Lisse responsible expectations in dark",
+    "Lisse contact bridge in bronze",
+    "Lisse closing identity in sage"
   ],
   "aboutPageColourSequence": [
-    "about 1: sage rhythm from Sage results form",
-    "about 2: ivory rhythm from Ivory journal silhouette",
-    "about 3: bronze rhythm from Bronze outline CTA",
-    "about 4: dark rhythm from Dark sculptural footer",
-    "about 5: dark rhythm from Ivory/dark silhouette hero",
-    "about 6: cream rhythm from Cream outline trust",
-    "about 7: sage rhythm from Sage sculptural route",
-    "about 8: ivory rhythm from Ivory consultation shape",
-    "about 9: dark rhythm from Dark sage statement silhouette",
-    "about 10: cream rhythm from Cream education outline"
+    "about 1: gold rhythm from Lisse education preview in gold",
+    "about 2: dark rhythm from Lisse responsible expectations in dark",
+    "about 3: bronze rhythm from Lisse contact bridge in bronze",
+    "about 4: sage rhythm from Lisse closing identity in sage",
+    "about 5: gold rhythm from Lisse hero promise in gold",
+    "about 6: dark rhythm from Lisse trust position in dark",
+    "about 7: bronze rhythm from Lisse care route in bronze",
+    "about 8: sage rhythm from Lisse consultation path in sage",
+    "about 9: ivory rhythm from Lisse treatment navigation in ivory",
+    "about 10: cream rhythm from Lisse human reassurance in cream"
   ],
   "carePageColourSequence": [
-    "care 1: ivory rhythm from Ivory journal silhouette",
-    "care 2: bronze rhythm from Bronze outline CTA",
-    "care 3: dark rhythm from Dark sculptural footer",
-    "care 4: dark rhythm from Ivory/dark silhouette hero",
-    "care 5: cream rhythm from Cream outline trust",
-    "care 6: sage rhythm from Sage sculptural route",
-    "care 7: ivory rhythm from Ivory consultation shape",
-    "care 8: dark rhythm from Dark sage statement silhouette",
-    "care 9: cream rhythm from Cream education outline",
-    "care 10: sage rhythm from Sage results form"
+    "care 1: dark rhythm from Lisse responsible expectations in dark",
+    "care 2: bronze rhythm from Lisse contact bridge in bronze",
+    "care 3: sage rhythm from Lisse closing identity in sage",
+    "care 4: gold rhythm from Lisse hero promise in gold",
+    "care 5: dark rhythm from Lisse trust position in dark",
+    "care 6: bronze rhythm from Lisse care route in bronze",
+    "care 7: sage rhythm from Lisse consultation path in sage",
+    "care 8: ivory rhythm from Lisse treatment navigation in ivory",
+    "care 9: cream rhythm from Lisse human reassurance in cream",
+    "care 10: gold rhythm from Lisse education preview in gold"
   ],
   "laserPageColourSequence": [
-    "laser 1: bronze rhythm from Bronze outline CTA",
-    "laser 2: dark rhythm from Dark sculptural footer",
-    "laser 3: dark rhythm from Ivory/dark silhouette hero",
-    "laser 4: cream rhythm from Cream outline trust",
-    "laser 5: sage rhythm from Sage sculptural route",
-    "laser 6: ivory rhythm from Ivory consultation shape",
-    "laser 7: dark rhythm from Dark sage statement silhouette",
-    "laser 8: cream rhythm from Cream education outline",
-    "laser 9: sage rhythm from Sage results form",
-    "laser 10: ivory rhythm from Ivory journal silhouette"
+    "laser 1: bronze rhythm from Lisse contact bridge in bronze",
+    "laser 2: sage rhythm from Lisse closing identity in sage",
+    "laser 3: gold rhythm from Lisse hero promise in gold",
+    "laser 4: dark rhythm from Lisse trust position in dark",
+    "laser 5: bronze rhythm from Lisse care route in bronze",
+    "laser 6: sage rhythm from Lisse consultation path in sage",
+    "laser 7: ivory rhythm from Lisse treatment navigation in ivory",
+    "laser 8: cream rhythm from Lisse human reassurance in cream",
+    "laser 9: gold rhythm from Lisse education preview in gold",
+    "laser 10: dark rhythm from Lisse responsible expectations in dark"
   ],
   "skinPageColourSequence": [
-    "skin 1: dark rhythm from Dark sculptural footer",
-    "skin 2: dark rhythm from Ivory/dark silhouette hero",
-    "skin 3: cream rhythm from Cream outline trust",
-    "skin 4: sage rhythm from Sage sculptural route",
-    "skin 5: ivory rhythm from Ivory consultation shape",
-    "skin 6: dark rhythm from Dark sage statement silhouette",
-    "skin 7: cream rhythm from Cream education outline",
-    "skin 8: sage rhythm from Sage results form",
-    "skin 9: ivory rhythm from Ivory journal silhouette",
-    "skin 10: bronze rhythm from Bronze outline CTA"
+    "skin 1: sage rhythm from Lisse closing identity in sage",
+    "skin 2: gold rhythm from Lisse hero promise in gold",
+    "skin 3: dark rhythm from Lisse trust position in dark",
+    "skin 4: bronze rhythm from Lisse care route in bronze",
+    "skin 5: sage rhythm from Lisse consultation path in sage",
+    "skin 6: ivory rhythm from Lisse treatment navigation in ivory",
+    "skin 7: cream rhythm from Lisse human reassurance in cream",
+    "skin 8: gold rhythm from Lisse education preview in gold",
+    "skin 9: dark rhythm from Lisse responsible expectations in dark",
+    "skin 10: bronze rhythm from Lisse contact bridge in bronze"
   ],
   "resultsPageColourSequence": [
-    "results 1: dark rhythm from Ivory/dark silhouette hero",
-    "results 2: cream rhythm from Cream outline trust",
-    "results 3: sage rhythm from Sage sculptural route",
-    "results 4: ivory rhythm from Ivory consultation shape",
-    "results 5: dark rhythm from Dark sage statement silhouette",
-    "results 6: cream rhythm from Cream education outline",
-    "results 7: sage rhythm from Sage results form",
-    "results 8: ivory rhythm from Ivory journal silhouette",
-    "results 9: bronze rhythm from Bronze outline CTA",
-    "results 10: dark rhythm from Dark sculptural footer"
+    "results 1: gold rhythm from Lisse hero promise in gold",
+    "results 2: dark rhythm from Lisse trust position in dark",
+    "results 3: bronze rhythm from Lisse care route in bronze",
+    "results 4: sage rhythm from Lisse consultation path in sage",
+    "results 5: ivory rhythm from Lisse treatment navigation in ivory",
+    "results 6: cream rhythm from Lisse human reassurance in cream",
+    "results 7: gold rhythm from Lisse education preview in gold",
+    "results 8: dark rhythm from Lisse responsible expectations in dark",
+    "results 9: bronze rhythm from Lisse contact bridge in bronze",
+    "results 10: sage rhythm from Lisse closing identity in sage"
   ],
   "journalPageColourSequence": [
-    "journal 1: cream rhythm from Cream outline trust",
-    "journal 2: sage rhythm from Sage sculptural route",
-    "journal 3: ivory rhythm from Ivory consultation shape",
-    "journal 4: dark rhythm from Dark sage statement silhouette",
-    "journal 5: cream rhythm from Cream education outline",
-    "journal 6: sage rhythm from Sage results form",
-    "journal 7: ivory rhythm from Ivory journal silhouette",
-    "journal 8: bronze rhythm from Bronze outline CTA",
-    "journal 9: dark rhythm from Dark sculptural footer",
-    "journal 10: dark rhythm from Ivory/dark silhouette hero"
+    "journal 1: dark rhythm from Lisse trust position in dark",
+    "journal 2: bronze rhythm from Lisse care route in bronze",
+    "journal 3: sage rhythm from Lisse consultation path in sage",
+    "journal 4: ivory rhythm from Lisse treatment navigation in ivory",
+    "journal 5: cream rhythm from Lisse human reassurance in cream",
+    "journal 6: gold rhythm from Lisse education preview in gold",
+    "journal 7: dark rhythm from Lisse responsible expectations in dark",
+    "journal 8: bronze rhythm from Lisse contact bridge in bronze",
+    "journal 9: sage rhythm from Lisse closing identity in sage",
+    "journal 10: gold rhythm from Lisse hero promise in gold"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: ivory rhythm from Ivory consultation shape",
-    "consultation 2: dark rhythm from Dark sage statement silhouette",
-    "consultation 3: cream rhythm from Cream education outline",
-    "consultation 4: sage rhythm from Sage results form",
-    "consultation 5: ivory rhythm from Ivory journal silhouette",
-    "consultation 6: bronze rhythm from Bronze outline CTA",
-    "consultation 7: dark rhythm from Dark sculptural footer",
-    "consultation 8: dark rhythm from Ivory/dark silhouette hero",
-    "consultation 9: cream rhythm from Cream outline trust",
-    "consultation 10: sage rhythm from Sage sculptural route"
+    "consultation 1: sage rhythm from Lisse consultation path in sage",
+    "consultation 2: ivory rhythm from Lisse treatment navigation in ivory",
+    "consultation 3: cream rhythm from Lisse human reassurance in cream",
+    "consultation 4: gold rhythm from Lisse education preview in gold",
+    "consultation 5: dark rhythm from Lisse responsible expectations in dark",
+    "consultation 6: bronze rhythm from Lisse contact bridge in bronze",
+    "consultation 7: sage rhythm from Lisse closing identity in sage",
+    "consultation 8: gold rhythm from Lisse hero promise in gold",
+    "consultation 9: dark rhythm from Lisse trust position in dark",
+    "consultation 10: bronze rhythm from Lisse care route in bronze"
   ],
   "contactPageColourSequence": [
-    "contact 1: dark rhythm from Dark sage statement silhouette",
-    "contact 2: cream rhythm from Cream education outline",
-    "contact 3: sage rhythm from Sage results form",
-    "contact 4: ivory rhythm from Ivory journal silhouette",
-    "contact 5: bronze rhythm from Bronze outline CTA",
-    "contact 6: dark rhythm from Dark sculptural footer",
-    "contact 7: dark rhythm from Ivory/dark silhouette hero",
-    "contact 8: cream rhythm from Cream outline trust",
-    "contact 9: sage rhythm from Sage sculptural route",
-    "contact 10: ivory rhythm from Ivory consultation shape"
+    "contact 1: ivory rhythm from Lisse treatment navigation in ivory",
+    "contact 2: cream rhythm from Lisse human reassurance in cream",
+    "contact 3: gold rhythm from Lisse education preview in gold",
+    "contact 4: dark rhythm from Lisse responsible expectations in dark",
+    "contact 5: bronze rhythm from Lisse contact bridge in bronze",
+    "contact 6: sage rhythm from Lisse closing identity in sage",
+    "contact 7: gold rhythm from Lisse hero promise in gold",
+    "contact 8: dark rhythm from Lisse trust position in dark",
+    "contact 9: bronze rhythm from Lisse care route in bronze",
+    "contact 10: sage rhythm from Lisse consultation path in sage"
   ],
   "forbiddenColourPatterns": [
-    "No photo clipping",
-    "No circular crops",
-    "No generic card wall."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

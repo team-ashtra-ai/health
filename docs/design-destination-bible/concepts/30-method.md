@@ -1,12 +1,12 @@
-# 30-method — Disciplined Process
+# 30-method — Modern Premium Energy
 
 ## Visual Thesis
 
-A disciplined process-led site structured around methods, steps, and responsible decisions.
+Elan uses modern, energetic, confident pacing with dynamic asymmetric layout.
 
 ## Colour Thesis
 
-Ivory base. Sage process rails. Ink headings. Bronze numbers. Blush not central. Dark used for summaries.
+ivory, ink, sage, gold
 
 ## Systems
 
@@ -21,159 +21,161 @@ Ivory base. Sage process rails. Ink headings. Bronze numbers. Blush not central.
 
 ## Homepage Colour Sequence
 
-1. Ivory method hero
-2. Sage method principles
-3. Cream route system
-4. White numbered process
-5. Dark method summary
-6. Ivory education method
-7. Sage results ledger
-8. Cream journal method
-9. Bronze process CTA
-10. Ink/sage footer
+1. Elan hero promise in ink
+2. Elan trust position in sage
+3. Elan care route in ivory
+4. Elan consultation path in gold
+5. Elan treatment navigation in cream
+6. Elan human reassurance in dark
+7. Elan education preview in ink
+8. Elan responsible expectations in sage
+9. Elan contact bridge in ivory
+10. Elan closing identity in gold
 
 ## All Other Pages
 
-Use step ledgers, numbers, and structured method panels.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No soft spa flow
-- No botanical decoration
-- No random photo sections.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "30-method",
-  "colourThesis": "Ivory base. Sage process rails. Ink headings. Bronze numbers. Blush not central. Dark used for summaries.",
+  "colourThesis": "ivory, ink, sage, gold",
   "dominantColourFamily": "ink",
   "secondaryColourFamily": "dark",
   "accentColourFamily": "sage",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "technical-table; no universal cream-card default",
   "buttonStrategy": "dark-anchor",
-  "footerColour": "Ink/sage footer",
-  "mobileMenuColour": "Sage method principles",
+  "footerColour": "Elan closing identity in gold",
+  "mobileMenuColour": "Elan trust position in sage",
   "homepageSectionColourSequence": [
-    "Ivory method hero",
-    "Sage method principles",
-    "Cream route system",
-    "White numbered process",
-    "Dark method summary",
-    "Ivory education method",
-    "Sage results ledger",
-    "Cream journal method",
-    "Bronze process CTA",
-    "Ink/sage footer"
+    "Elan hero promise in ink",
+    "Elan trust position in sage",
+    "Elan care route in ivory",
+    "Elan consultation path in gold",
+    "Elan treatment navigation in cream",
+    "Elan human reassurance in dark",
+    "Elan education preview in ink",
+    "Elan responsible expectations in sage",
+    "Elan contact bridge in ivory",
+    "Elan closing identity in gold"
   ],
   "aboutPageColourSequence": [
-    "about 1: sage rhythm from Sage method principles",
-    "about 2: cream rhythm from Cream route system",
-    "about 3: ivory rhythm from White numbered process",
-    "about 4: dark rhythm from Dark method summary",
-    "about 5: ivory rhythm from Ivory education method",
-    "about 6: sage rhythm from Sage results ledger",
-    "about 7: cream rhythm from Cream journal method",
-    "about 8: bronze rhythm from Bronze process CTA",
-    "about 9: sage rhythm from Ink/sage footer",
-    "about 10: ivory rhythm from Ivory method hero"
+    "about 1: sage rhythm from Elan trust position in sage",
+    "about 2: ivory rhythm from Elan care route in ivory",
+    "about 3: gold rhythm from Elan consultation path in gold",
+    "about 4: cream rhythm from Elan treatment navigation in cream",
+    "about 5: dark rhythm from Elan human reassurance in dark",
+    "about 6: ivory rhythm from Elan education preview in ink",
+    "about 7: sage rhythm from Elan responsible expectations in sage",
+    "about 8: ivory rhythm from Elan contact bridge in ivory",
+    "about 9: gold rhythm from Elan closing identity in gold",
+    "about 10: ivory rhythm from Elan hero promise in ink"
   ],
   "carePageColourSequence": [
-    "care 1: cream rhythm from Cream route system",
-    "care 2: ivory rhythm from White numbered process",
-    "care 3: dark rhythm from Dark method summary",
-    "care 4: ivory rhythm from Ivory education method",
-    "care 5: sage rhythm from Sage results ledger",
-    "care 6: cream rhythm from Cream journal method",
-    "care 7: bronze rhythm from Bronze process CTA",
-    "care 8: sage rhythm from Ink/sage footer",
-    "care 9: ivory rhythm from Ivory method hero",
-    "care 10: sage rhythm from Sage method principles"
+    "care 1: ivory rhythm from Elan care route in ivory",
+    "care 2: gold rhythm from Elan consultation path in gold",
+    "care 3: cream rhythm from Elan treatment navigation in cream",
+    "care 4: dark rhythm from Elan human reassurance in dark",
+    "care 5: ivory rhythm from Elan education preview in ink",
+    "care 6: sage rhythm from Elan responsible expectations in sage",
+    "care 7: ivory rhythm from Elan contact bridge in ivory",
+    "care 8: gold rhythm from Elan closing identity in gold",
+    "care 9: ivory rhythm from Elan hero promise in ink",
+    "care 10: sage rhythm from Elan trust position in sage"
   ],
   "laserPageColourSequence": [
-    "laser 1: ivory rhythm from White numbered process",
-    "laser 2: dark rhythm from Dark method summary",
-    "laser 3: ivory rhythm from Ivory education method",
-    "laser 4: sage rhythm from Sage results ledger",
-    "laser 5: cream rhythm from Cream journal method",
-    "laser 6: bronze rhythm from Bronze process CTA",
-    "laser 7: sage rhythm from Ink/sage footer",
-    "laser 8: ivory rhythm from Ivory method hero",
-    "laser 9: sage rhythm from Sage method principles",
-    "laser 10: cream rhythm from Cream route system"
+    "laser 1: gold rhythm from Elan consultation path in gold",
+    "laser 2: cream rhythm from Elan treatment navigation in cream",
+    "laser 3: dark rhythm from Elan human reassurance in dark",
+    "laser 4: ivory rhythm from Elan education preview in ink",
+    "laser 5: sage rhythm from Elan responsible expectations in sage",
+    "laser 6: ivory rhythm from Elan contact bridge in ivory",
+    "laser 7: gold rhythm from Elan closing identity in gold",
+    "laser 8: ivory rhythm from Elan hero promise in ink",
+    "laser 9: sage rhythm from Elan trust position in sage",
+    "laser 10: ivory rhythm from Elan care route in ivory"
   ],
   "skinPageColourSequence": [
-    "skin 1: dark rhythm from Dark method summary",
-    "skin 2: ivory rhythm from Ivory education method",
-    "skin 3: sage rhythm from Sage results ledger",
-    "skin 4: cream rhythm from Cream journal method",
-    "skin 5: bronze rhythm from Bronze process CTA",
-    "skin 6: sage rhythm from Ink/sage footer",
-    "skin 7: ivory rhythm from Ivory method hero",
-    "skin 8: sage rhythm from Sage method principles",
-    "skin 9: cream rhythm from Cream route system",
-    "skin 10: ivory rhythm from White numbered process"
+    "skin 1: cream rhythm from Elan treatment navigation in cream",
+    "skin 2: dark rhythm from Elan human reassurance in dark",
+    "skin 3: ivory rhythm from Elan education preview in ink",
+    "skin 4: sage rhythm from Elan responsible expectations in sage",
+    "skin 5: ivory rhythm from Elan contact bridge in ivory",
+    "skin 6: gold rhythm from Elan closing identity in gold",
+    "skin 7: ivory rhythm from Elan hero promise in ink",
+    "skin 8: sage rhythm from Elan trust position in sage",
+    "skin 9: ivory rhythm from Elan care route in ivory",
+    "skin 10: gold rhythm from Elan consultation path in gold"
   ],
   "resultsPageColourSequence": [
-    "results 1: ivory rhythm from Ivory education method",
-    "results 2: sage rhythm from Sage results ledger",
-    "results 3: cream rhythm from Cream journal method",
-    "results 4: bronze rhythm from Bronze process CTA",
-    "results 5: sage rhythm from Ink/sage footer",
-    "results 6: ivory rhythm from Ivory method hero",
-    "results 7: sage rhythm from Sage method principles",
-    "results 8: cream rhythm from Cream route system",
-    "results 9: ivory rhythm from White numbered process",
-    "results 10: dark rhythm from Dark method summary"
+    "results 1: dark rhythm from Elan human reassurance in dark",
+    "results 2: ivory rhythm from Elan education preview in ink",
+    "results 3: sage rhythm from Elan responsible expectations in sage",
+    "results 4: ivory rhythm from Elan contact bridge in ivory",
+    "results 5: gold rhythm from Elan closing identity in gold",
+    "results 6: ivory rhythm from Elan hero promise in ink",
+    "results 7: sage rhythm from Elan trust position in sage",
+    "results 8: ivory rhythm from Elan care route in ivory",
+    "results 9: gold rhythm from Elan consultation path in gold",
+    "results 10: cream rhythm from Elan treatment navigation in cream"
   ],
   "journalPageColourSequence": [
-    "journal 1: sage rhythm from Sage results ledger",
-    "journal 2: cream rhythm from Cream journal method",
-    "journal 3: bronze rhythm from Bronze process CTA",
-    "journal 4: sage rhythm from Ink/sage footer",
-    "journal 5: ivory rhythm from Ivory method hero",
-    "journal 6: sage rhythm from Sage method principles",
-    "journal 7: cream rhythm from Cream route system",
-    "journal 8: ivory rhythm from White numbered process",
-    "journal 9: dark rhythm from Dark method summary",
-    "journal 10: ivory rhythm from Ivory education method"
+    "journal 1: ivory rhythm from Elan education preview in ink",
+    "journal 2: sage rhythm from Elan responsible expectations in sage",
+    "journal 3: ivory rhythm from Elan contact bridge in ivory",
+    "journal 4: gold rhythm from Elan closing identity in gold",
+    "journal 5: ivory rhythm from Elan hero promise in ink",
+    "journal 6: sage rhythm from Elan trust position in sage",
+    "journal 7: ivory rhythm from Elan care route in ivory",
+    "journal 8: gold rhythm from Elan consultation path in gold",
+    "journal 9: cream rhythm from Elan treatment navigation in cream",
+    "journal 10: dark rhythm from Elan human reassurance in dark"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: bronze rhythm from Bronze process CTA",
-    "consultation 2: sage rhythm from Ink/sage footer",
-    "consultation 3: ivory rhythm from Ivory method hero",
-    "consultation 4: sage rhythm from Sage method principles",
-    "consultation 5: cream rhythm from Cream route system",
-    "consultation 6: ivory rhythm from White numbered process",
-    "consultation 7: dark rhythm from Dark method summary",
-    "consultation 8: ivory rhythm from Ivory education method",
-    "consultation 9: sage rhythm from Sage results ledger",
-    "consultation 10: cream rhythm from Cream journal method"
+    "consultation 1: ivory rhythm from Elan contact bridge in ivory",
+    "consultation 2: gold rhythm from Elan closing identity in gold",
+    "consultation 3: ivory rhythm from Elan hero promise in ink",
+    "consultation 4: sage rhythm from Elan trust position in sage",
+    "consultation 5: ivory rhythm from Elan care route in ivory",
+    "consultation 6: gold rhythm from Elan consultation path in gold",
+    "consultation 7: cream rhythm from Elan treatment navigation in cream",
+    "consultation 8: dark rhythm from Elan human reassurance in dark",
+    "consultation 9: ivory rhythm from Elan education preview in ink",
+    "consultation 10: sage rhythm from Elan responsible expectations in sage"
   ],
   "contactPageColourSequence": [
-    "contact 1: sage rhythm from Ink/sage footer",
-    "contact 2: ivory rhythm from Ivory method hero",
-    "contact 3: sage rhythm from Sage method principles",
-    "contact 4: cream rhythm from Cream route system",
-    "contact 5: ivory rhythm from White numbered process",
-    "contact 6: dark rhythm from Dark method summary",
-    "contact 7: ivory rhythm from Ivory education method",
-    "contact 8: sage rhythm from Sage results ledger",
-    "contact 9: cream rhythm from Cream journal method",
-    "contact 10: bronze rhythm from Bronze process CTA"
+    "contact 1: gold rhythm from Elan closing identity in gold",
+    "contact 2: ivory rhythm from Elan hero promise in ink",
+    "contact 3: sage rhythm from Elan trust position in sage",
+    "contact 4: ivory rhythm from Elan care route in ivory",
+    "contact 5: gold rhythm from Elan consultation path in gold",
+    "contact 6: cream rhythm from Elan treatment navigation in cream",
+    "contact 7: dark rhythm from Elan human reassurance in dark",
+    "contact 8: ivory rhythm from Elan education preview in ink",
+    "contact 9: sage rhythm from Elan responsible expectations in sage",
+    "contact 10: ivory rhythm from Elan contact bridge in ivory"
   ],
   "forbiddenColourPatterns": [
-    "No soft spa flow",
-    "No botanical decoration",
-    "No random photo sections."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

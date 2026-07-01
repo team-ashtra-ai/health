@@ -1,12 +1,12 @@
-# 24-signal — Modern Interface-Led
+# 24-signal — Blush Clinical Warmth
 
 ## Visual Thesis
 
-A modern UI-led site with real interface components, active states, and navigation logic.
+Rosea uses warm, feminine, soft clinical pacing with blush warmth without sweetness.
 
 ## Colour Thesis
 
-Ivory base. Sage panels. Ink UI states. Gold active indicators. Blush secondary UI states only.
+dusty rose, ivory, sage
 
 ## Systems
 
@@ -21,159 +21,161 @@ Ivory base. Sage panels. Ink UI states. Gold active indicators. Blush secondary 
 
 ## Homepage Colour Sequence
 
-1. Interface hero on ivory
-2. Sage signal trust panel
-3. White route selector
-4. Cream consultation controls
-5. Sage status/reassurance
-6. Ivory education tabs
-7. White results comparison
-8. Sage journal module
-9. Gold active CTA bar
-10. Ink interface footer
+1. Rosea hero promise in sage
+2. Rosea trust position in ivory
+3. Rosea care route in cream
+4. Rosea consultation path in gold
+5. Rosea treatment navigation in dark
+6. Rosea human reassurance in bronze
+7. Rosea education preview in sage
+8. Rosea responsible expectations in ivory
+9. Rosea contact bridge in cream
+10. Rosea closing identity in gold
 
 ## All Other Pages
 
-Use real tabs, selectors, panels, and accessible JS only where implemented.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No fake interactions
-- No ornamental botanical style
-- No static card-only UI.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "24-signal",
-  "colourThesis": "Ivory base. Sage panels. Ink UI states. Gold active indicators. Blush secondary UI states only.",
-  "dominantColourFamily": "ink",
+  "colourThesis": "dusty rose, ivory, sage",
+  "dominantColourFamily": "dark",
   "secondaryColourFamily": "sage",
   "accentColourFamily": "ivory",
-  "contrastTemperature": "soft refined",
-  "darkUsage": "reserved for footer, text, or one anchor band",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "contrastTemperature": "high editorial",
+  "darkUsage": "dominant structural field",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "shape-field; no universal cream-card default",
   "buttonStrategy": "single-rule",
-  "footerColour": "Ink interface footer",
-  "mobileMenuColour": "Ivory education tabs",
+  "footerColour": "Rosea closing identity in gold",
+  "mobileMenuColour": "Rosea human reassurance in bronze",
   "homepageSectionColourSequence": [
-    "Interface hero on ivory",
-    "Sage signal trust panel",
-    "White route selector",
-    "Cream consultation controls",
-    "Sage status/reassurance",
-    "Ivory education tabs",
-    "White results comparison",
-    "Sage journal module",
-    "Gold active CTA bar",
-    "Ink interface footer"
+    "Rosea hero promise in sage",
+    "Rosea trust position in ivory",
+    "Rosea care route in cream",
+    "Rosea consultation path in gold",
+    "Rosea treatment navigation in dark",
+    "Rosea human reassurance in bronze",
+    "Rosea education preview in sage",
+    "Rosea responsible expectations in ivory",
+    "Rosea contact bridge in cream",
+    "Rosea closing identity in gold"
   ],
   "aboutPageColourSequence": [
-    "about 1: ivory rhythm from Ivory education tabs",
-    "about 2: ivory rhythm from White results comparison",
-    "about 3: sage rhythm from Sage journal module",
-    "about 4: gold rhythm from Gold active CTA bar",
-    "about 5: ivory rhythm from Ink interface footer",
-    "about 6: ivory rhythm from Interface hero on ivory",
-    "about 7: sage rhythm from Sage signal trust panel",
-    "about 8: ivory rhythm from White route selector",
-    "about 9: cream rhythm from Cream consultation controls",
-    "about 10: sage rhythm from Sage status/reassurance"
+    "about 1: ivory rhythm from Rosea human reassurance in bronze",
+    "about 2: sage rhythm from Rosea education preview in sage",
+    "about 3: ivory rhythm from Rosea responsible expectations in ivory",
+    "about 4: cream rhythm from Rosea contact bridge in cream",
+    "about 5: gold rhythm from Rosea closing identity in gold",
+    "about 6: sage rhythm from Rosea hero promise in sage",
+    "about 7: ivory rhythm from Rosea trust position in ivory",
+    "about 8: cream rhythm from Rosea care route in cream",
+    "about 9: gold rhythm from Rosea consultation path in gold",
+    "about 10: dark rhythm from Rosea treatment navigation in dark"
   ],
   "carePageColourSequence": [
-    "care 1: ivory rhythm from White results comparison",
-    "care 2: sage rhythm from Sage journal module",
-    "care 3: gold rhythm from Gold active CTA bar",
-    "care 4: ivory rhythm from Ink interface footer",
-    "care 5: ivory rhythm from Interface hero on ivory",
-    "care 6: sage rhythm from Sage signal trust panel",
-    "care 7: ivory rhythm from White route selector",
-    "care 8: cream rhythm from Cream consultation controls",
-    "care 9: sage rhythm from Sage status/reassurance",
-    "care 10: ivory rhythm from Ivory education tabs"
+    "care 1: sage rhythm from Rosea education preview in sage",
+    "care 2: ivory rhythm from Rosea responsible expectations in ivory",
+    "care 3: cream rhythm from Rosea contact bridge in cream",
+    "care 4: gold rhythm from Rosea closing identity in gold",
+    "care 5: sage rhythm from Rosea hero promise in sage",
+    "care 6: ivory rhythm from Rosea trust position in ivory",
+    "care 7: cream rhythm from Rosea care route in cream",
+    "care 8: gold rhythm from Rosea consultation path in gold",
+    "care 9: dark rhythm from Rosea treatment navigation in dark",
+    "care 10: ivory rhythm from Rosea human reassurance in bronze"
   ],
   "laserPageColourSequence": [
-    "laser 1: sage rhythm from Sage journal module",
-    "laser 2: gold rhythm from Gold active CTA bar",
-    "laser 3: ivory rhythm from Ink interface footer",
-    "laser 4: ivory rhythm from Interface hero on ivory",
-    "laser 5: sage rhythm from Sage signal trust panel",
-    "laser 6: ivory rhythm from White route selector",
-    "laser 7: cream rhythm from Cream consultation controls",
-    "laser 8: sage rhythm from Sage status/reassurance",
-    "laser 9: ivory rhythm from Ivory education tabs",
-    "laser 10: ivory rhythm from White results comparison"
+    "laser 1: ivory rhythm from Rosea responsible expectations in ivory",
+    "laser 2: cream rhythm from Rosea contact bridge in cream",
+    "laser 3: gold rhythm from Rosea closing identity in gold",
+    "laser 4: sage rhythm from Rosea hero promise in sage",
+    "laser 5: ivory rhythm from Rosea trust position in ivory",
+    "laser 6: cream rhythm from Rosea care route in cream",
+    "laser 7: gold rhythm from Rosea consultation path in gold",
+    "laser 8: dark rhythm from Rosea treatment navigation in dark",
+    "laser 9: ivory rhythm from Rosea human reassurance in bronze",
+    "laser 10: sage rhythm from Rosea education preview in sage"
   ],
   "skinPageColourSequence": [
-    "skin 1: gold rhythm from Gold active CTA bar",
-    "skin 2: ivory rhythm from Ink interface footer",
-    "skin 3: ivory rhythm from Interface hero on ivory",
-    "skin 4: sage rhythm from Sage signal trust panel",
-    "skin 5: ivory rhythm from White route selector",
-    "skin 6: cream rhythm from Cream consultation controls",
-    "skin 7: sage rhythm from Sage status/reassurance",
-    "skin 8: ivory rhythm from Ivory education tabs",
-    "skin 9: ivory rhythm from White results comparison",
-    "skin 10: sage rhythm from Sage journal module"
+    "skin 1: cream rhythm from Rosea contact bridge in cream",
+    "skin 2: gold rhythm from Rosea closing identity in gold",
+    "skin 3: sage rhythm from Rosea hero promise in sage",
+    "skin 4: ivory rhythm from Rosea trust position in ivory",
+    "skin 5: cream rhythm from Rosea care route in cream",
+    "skin 6: gold rhythm from Rosea consultation path in gold",
+    "skin 7: dark rhythm from Rosea treatment navigation in dark",
+    "skin 8: ivory rhythm from Rosea human reassurance in bronze",
+    "skin 9: sage rhythm from Rosea education preview in sage",
+    "skin 10: ivory rhythm from Rosea responsible expectations in ivory"
   ],
   "resultsPageColourSequence": [
-    "results 1: ivory rhythm from Ink interface footer",
-    "results 2: ivory rhythm from Interface hero on ivory",
-    "results 3: sage rhythm from Sage signal trust panel",
-    "results 4: ivory rhythm from White route selector",
-    "results 5: cream rhythm from Cream consultation controls",
-    "results 6: sage rhythm from Sage status/reassurance",
-    "results 7: ivory rhythm from Ivory education tabs",
-    "results 8: ivory rhythm from White results comparison",
-    "results 9: sage rhythm from Sage journal module",
-    "results 10: gold rhythm from Gold active CTA bar"
+    "results 1: gold rhythm from Rosea closing identity in gold",
+    "results 2: sage rhythm from Rosea hero promise in sage",
+    "results 3: ivory rhythm from Rosea trust position in ivory",
+    "results 4: cream rhythm from Rosea care route in cream",
+    "results 5: gold rhythm from Rosea consultation path in gold",
+    "results 6: dark rhythm from Rosea treatment navigation in dark",
+    "results 7: ivory rhythm from Rosea human reassurance in bronze",
+    "results 8: sage rhythm from Rosea education preview in sage",
+    "results 9: ivory rhythm from Rosea responsible expectations in ivory",
+    "results 10: cream rhythm from Rosea contact bridge in cream"
   ],
   "journalPageColourSequence": [
-    "journal 1: ivory rhythm from Interface hero on ivory",
-    "journal 2: sage rhythm from Sage signal trust panel",
-    "journal 3: ivory rhythm from White route selector",
-    "journal 4: cream rhythm from Cream consultation controls",
-    "journal 5: sage rhythm from Sage status/reassurance",
-    "journal 6: ivory rhythm from Ivory education tabs",
-    "journal 7: ivory rhythm from White results comparison",
-    "journal 8: sage rhythm from Sage journal module",
-    "journal 9: gold rhythm from Gold active CTA bar",
-    "journal 10: ivory rhythm from Ink interface footer"
+    "journal 1: sage rhythm from Rosea hero promise in sage",
+    "journal 2: ivory rhythm from Rosea trust position in ivory",
+    "journal 3: cream rhythm from Rosea care route in cream",
+    "journal 4: gold rhythm from Rosea consultation path in gold",
+    "journal 5: dark rhythm from Rosea treatment navigation in dark",
+    "journal 6: ivory rhythm from Rosea human reassurance in bronze",
+    "journal 7: sage rhythm from Rosea education preview in sage",
+    "journal 8: ivory rhythm from Rosea responsible expectations in ivory",
+    "journal 9: cream rhythm from Rosea contact bridge in cream",
+    "journal 10: gold rhythm from Rosea closing identity in gold"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: ivory rhythm from White route selector",
-    "consultation 2: cream rhythm from Cream consultation controls",
-    "consultation 3: sage rhythm from Sage status/reassurance",
-    "consultation 4: ivory rhythm from Ivory education tabs",
-    "consultation 5: ivory rhythm from White results comparison",
-    "consultation 6: sage rhythm from Sage journal module",
-    "consultation 7: gold rhythm from Gold active CTA bar",
-    "consultation 8: ivory rhythm from Ink interface footer",
-    "consultation 9: ivory rhythm from Interface hero on ivory",
-    "consultation 10: sage rhythm from Sage signal trust panel"
+    "consultation 1: cream rhythm from Rosea care route in cream",
+    "consultation 2: gold rhythm from Rosea consultation path in gold",
+    "consultation 3: dark rhythm from Rosea treatment navigation in dark",
+    "consultation 4: ivory rhythm from Rosea human reassurance in bronze",
+    "consultation 5: sage rhythm from Rosea education preview in sage",
+    "consultation 6: ivory rhythm from Rosea responsible expectations in ivory",
+    "consultation 7: cream rhythm from Rosea contact bridge in cream",
+    "consultation 8: gold rhythm from Rosea closing identity in gold",
+    "consultation 9: sage rhythm from Rosea hero promise in sage",
+    "consultation 10: ivory rhythm from Rosea trust position in ivory"
   ],
   "contactPageColourSequence": [
-    "contact 1: cream rhythm from Cream consultation controls",
-    "contact 2: sage rhythm from Sage status/reassurance",
-    "contact 3: ivory rhythm from Ivory education tabs",
-    "contact 4: ivory rhythm from White results comparison",
-    "contact 5: sage rhythm from Sage journal module",
-    "contact 6: gold rhythm from Gold active CTA bar",
-    "contact 7: ivory rhythm from Ink interface footer",
-    "contact 8: ivory rhythm from Interface hero on ivory",
-    "contact 9: sage rhythm from Sage signal trust panel",
-    "contact 10: ivory rhythm from White route selector"
+    "contact 1: gold rhythm from Rosea consultation path in gold",
+    "contact 2: dark rhythm from Rosea treatment navigation in dark",
+    "contact 3: ivory rhythm from Rosea human reassurance in bronze",
+    "contact 4: sage rhythm from Rosea education preview in sage",
+    "contact 5: ivory rhythm from Rosea responsible expectations in ivory",
+    "contact 6: cream rhythm from Rosea contact bridge in cream",
+    "contact 7: gold rhythm from Rosea closing identity in gold",
+    "contact 8: sage rhythm from Rosea hero promise in sage",
+    "contact 9: ivory rhythm from Rosea trust position in ivory",
+    "contact 10: cream rhythm from Rosea care route in cream"
   ],
   "forbiddenColourPatterns": [
-    "No fake interactions",
-    "No ornamental botanical style",
-    "No static card-only UI."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

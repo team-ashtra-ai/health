@@ -1,12 +1,12 @@
-# 27-form — Shape-Led Studio
+# 27-form — Boutique Personal Care
 
 ## Visual Thesis
 
-A design-studio site where CSS shapes drive layout and section identity.
+Noemi uses boutique, personal, intimate pacing with private studio consultation.
 
 ## Colour Thesis
 
-Ivory base with sage and blush shape fields. Bronze outlines. Dark shapes used selectively.
+cream, sage, blush, bronze
 
 ## Systems
 
@@ -21,159 +21,161 @@ Ivory base with sage and blush shape fields. Bronze outlines. Dark shapes used s
 
 ## Homepage Colour Sequence
 
-1. Ivory shape hero
-2. Sage values shape
-3. Blush route field
-4. Cream consultation shape panel
-5. Dark sage sculpted statement
-6. Ivory education forms
-7. Sage results structure
-8. Cream journal shape index
-9. Bronze-outline CTA
-10. Dark shape footer
+1. Noemi hero promise in bronze
+2. Noemi trust position in gold
+3. Noemi care route in dark
+4. Noemi consultation path in sage
+5. Noemi treatment navigation in cream
+6. Noemi human reassurance in ivory
+7. Noemi education preview in bronze
+8. Noemi responsible expectations in gold
+9. Noemi contact bridge in dark
+10. Noemi closing identity in sage
 
 ## All Other Pages
 
-Use shape fields and CSS outlines, but never crop photos.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No photo clipping
-- No generic rectangles
-- No same card grid.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "27-form",
-  "colourThesis": "Ivory base with sage and blush shape fields. Bronze outlines. Dark shapes used selectively.",
+  "colourThesis": "cream, sage, blush, bronze",
   "dominantColourFamily": "dark",
   "secondaryColourFamily": "sage",
   "accentColourFamily": "ivory",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "expectation-ledger; no universal cream-card default",
   "buttonStrategy": "minimal-arrow",
-  "footerColour": "Dark shape footer",
-  "mobileMenuColour": "Bronze-outline CTA",
+  "footerColour": "Noemi closing identity in sage",
+  "mobileMenuColour": "Noemi contact bridge in dark",
   "homepageSectionColourSequence": [
-    "Ivory shape hero",
-    "Sage values shape",
-    "Blush route field",
-    "Cream consultation shape panel",
-    "Dark sage sculpted statement",
-    "Ivory education forms",
-    "Sage results structure",
-    "Cream journal shape index",
-    "Bronze-outline CTA",
-    "Dark shape footer"
+    "Noemi hero promise in bronze",
+    "Noemi trust position in gold",
+    "Noemi care route in dark",
+    "Noemi consultation path in sage",
+    "Noemi treatment navigation in cream",
+    "Noemi human reassurance in ivory",
+    "Noemi education preview in bronze",
+    "Noemi responsible expectations in gold",
+    "Noemi contact bridge in dark",
+    "Noemi closing identity in sage"
   ],
   "aboutPageColourSequence": [
-    "about 1: bronze rhythm from Bronze-outline CTA",
-    "about 2: dark rhythm from Dark shape footer",
-    "about 3: ivory rhythm from Ivory shape hero",
-    "about 4: sage rhythm from Sage values shape",
-    "about 5: blush rhythm from Blush route field",
-    "about 6: cream rhythm from Cream consultation shape panel",
-    "about 7: dark rhythm from Dark sage sculpted statement",
-    "about 8: ivory rhythm from Ivory education forms",
-    "about 9: sage rhythm from Sage results structure",
-    "about 10: cream rhythm from Cream journal shape index"
+    "about 1: dark rhythm from Noemi contact bridge in dark",
+    "about 2: sage rhythm from Noemi closing identity in sage",
+    "about 3: bronze rhythm from Noemi hero promise in bronze",
+    "about 4: gold rhythm from Noemi trust position in gold",
+    "about 5: dark rhythm from Noemi care route in dark",
+    "about 6: sage rhythm from Noemi consultation path in sage",
+    "about 7: cream rhythm from Noemi treatment navigation in cream",
+    "about 8: ivory rhythm from Noemi human reassurance in ivory",
+    "about 9: bronze rhythm from Noemi education preview in bronze",
+    "about 10: gold rhythm from Noemi responsible expectations in gold"
   ],
   "carePageColourSequence": [
-    "care 1: dark rhythm from Dark shape footer",
-    "care 2: ivory rhythm from Ivory shape hero",
-    "care 3: sage rhythm from Sage values shape",
-    "care 4: blush rhythm from Blush route field",
-    "care 5: cream rhythm from Cream consultation shape panel",
-    "care 6: dark rhythm from Dark sage sculpted statement",
-    "care 7: ivory rhythm from Ivory education forms",
-    "care 8: sage rhythm from Sage results structure",
-    "care 9: cream rhythm from Cream journal shape index",
-    "care 10: bronze rhythm from Bronze-outline CTA"
+    "care 1: sage rhythm from Noemi closing identity in sage",
+    "care 2: bronze rhythm from Noemi hero promise in bronze",
+    "care 3: gold rhythm from Noemi trust position in gold",
+    "care 4: dark rhythm from Noemi care route in dark",
+    "care 5: sage rhythm from Noemi consultation path in sage",
+    "care 6: cream rhythm from Noemi treatment navigation in cream",
+    "care 7: ivory rhythm from Noemi human reassurance in ivory",
+    "care 8: bronze rhythm from Noemi education preview in bronze",
+    "care 9: gold rhythm from Noemi responsible expectations in gold",
+    "care 10: dark rhythm from Noemi contact bridge in dark"
   ],
   "laserPageColourSequence": [
-    "laser 1: ivory rhythm from Ivory shape hero",
-    "laser 2: sage rhythm from Sage values shape",
-    "laser 3: blush rhythm from Blush route field",
-    "laser 4: cream rhythm from Cream consultation shape panel",
-    "laser 5: dark rhythm from Dark sage sculpted statement",
-    "laser 6: ivory rhythm from Ivory education forms",
-    "laser 7: sage rhythm from Sage results structure",
-    "laser 8: cream rhythm from Cream journal shape index",
-    "laser 9: bronze rhythm from Bronze-outline CTA",
-    "laser 10: dark rhythm from Dark shape footer"
+    "laser 1: bronze rhythm from Noemi hero promise in bronze",
+    "laser 2: gold rhythm from Noemi trust position in gold",
+    "laser 3: dark rhythm from Noemi care route in dark",
+    "laser 4: sage rhythm from Noemi consultation path in sage",
+    "laser 5: cream rhythm from Noemi treatment navigation in cream",
+    "laser 6: ivory rhythm from Noemi human reassurance in ivory",
+    "laser 7: bronze rhythm from Noemi education preview in bronze",
+    "laser 8: gold rhythm from Noemi responsible expectations in gold",
+    "laser 9: dark rhythm from Noemi contact bridge in dark",
+    "laser 10: sage rhythm from Noemi closing identity in sage"
   ],
   "skinPageColourSequence": [
-    "skin 1: sage rhythm from Sage values shape",
-    "skin 2: blush rhythm from Blush route field",
-    "skin 3: cream rhythm from Cream consultation shape panel",
-    "skin 4: dark rhythm from Dark sage sculpted statement",
-    "skin 5: ivory rhythm from Ivory education forms",
-    "skin 6: sage rhythm from Sage results structure",
-    "skin 7: cream rhythm from Cream journal shape index",
-    "skin 8: bronze rhythm from Bronze-outline CTA",
-    "skin 9: dark rhythm from Dark shape footer",
-    "skin 10: ivory rhythm from Ivory shape hero"
+    "skin 1: gold rhythm from Noemi trust position in gold",
+    "skin 2: dark rhythm from Noemi care route in dark",
+    "skin 3: sage rhythm from Noemi consultation path in sage",
+    "skin 4: cream rhythm from Noemi treatment navigation in cream",
+    "skin 5: ivory rhythm from Noemi human reassurance in ivory",
+    "skin 6: bronze rhythm from Noemi education preview in bronze",
+    "skin 7: gold rhythm from Noemi responsible expectations in gold",
+    "skin 8: dark rhythm from Noemi contact bridge in dark",
+    "skin 9: sage rhythm from Noemi closing identity in sage",
+    "skin 10: bronze rhythm from Noemi hero promise in bronze"
   ],
   "resultsPageColourSequence": [
-    "results 1: blush rhythm from Blush route field",
-    "results 2: cream rhythm from Cream consultation shape panel",
-    "results 3: dark rhythm from Dark sage sculpted statement",
-    "results 4: ivory rhythm from Ivory education forms",
-    "results 5: sage rhythm from Sage results structure",
-    "results 6: cream rhythm from Cream journal shape index",
-    "results 7: bronze rhythm from Bronze-outline CTA",
-    "results 8: dark rhythm from Dark shape footer",
-    "results 9: ivory rhythm from Ivory shape hero",
-    "results 10: sage rhythm from Sage values shape"
+    "results 1: dark rhythm from Noemi care route in dark",
+    "results 2: sage rhythm from Noemi consultation path in sage",
+    "results 3: cream rhythm from Noemi treatment navigation in cream",
+    "results 4: ivory rhythm from Noemi human reassurance in ivory",
+    "results 5: bronze rhythm from Noemi education preview in bronze",
+    "results 6: gold rhythm from Noemi responsible expectations in gold",
+    "results 7: dark rhythm from Noemi contact bridge in dark",
+    "results 8: sage rhythm from Noemi closing identity in sage",
+    "results 9: bronze rhythm from Noemi hero promise in bronze",
+    "results 10: gold rhythm from Noemi trust position in gold"
   ],
   "journalPageColourSequence": [
-    "journal 1: cream rhythm from Cream consultation shape panel",
-    "journal 2: dark rhythm from Dark sage sculpted statement",
-    "journal 3: ivory rhythm from Ivory education forms",
-    "journal 4: sage rhythm from Sage results structure",
-    "journal 5: cream rhythm from Cream journal shape index",
-    "journal 6: bronze rhythm from Bronze-outline CTA",
-    "journal 7: dark rhythm from Dark shape footer",
-    "journal 8: ivory rhythm from Ivory shape hero",
-    "journal 9: sage rhythm from Sage values shape",
-    "journal 10: blush rhythm from Blush route field"
+    "journal 1: sage rhythm from Noemi consultation path in sage",
+    "journal 2: cream rhythm from Noemi treatment navigation in cream",
+    "journal 3: ivory rhythm from Noemi human reassurance in ivory",
+    "journal 4: bronze rhythm from Noemi education preview in bronze",
+    "journal 5: gold rhythm from Noemi responsible expectations in gold",
+    "journal 6: dark rhythm from Noemi contact bridge in dark",
+    "journal 7: sage rhythm from Noemi closing identity in sage",
+    "journal 8: bronze rhythm from Noemi hero promise in bronze",
+    "journal 9: gold rhythm from Noemi trust position in gold",
+    "journal 10: dark rhythm from Noemi care route in dark"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: ivory rhythm from Ivory education forms",
-    "consultation 2: sage rhythm from Sage results structure",
-    "consultation 3: cream rhythm from Cream journal shape index",
-    "consultation 4: bronze rhythm from Bronze-outline CTA",
-    "consultation 5: dark rhythm from Dark shape footer",
-    "consultation 6: ivory rhythm from Ivory shape hero",
-    "consultation 7: sage rhythm from Sage values shape",
-    "consultation 8: blush rhythm from Blush route field",
-    "consultation 9: cream rhythm from Cream consultation shape panel",
-    "consultation 10: dark rhythm from Dark sage sculpted statement"
+    "consultation 1: ivory rhythm from Noemi human reassurance in ivory",
+    "consultation 2: bronze rhythm from Noemi education preview in bronze",
+    "consultation 3: gold rhythm from Noemi responsible expectations in gold",
+    "consultation 4: dark rhythm from Noemi contact bridge in dark",
+    "consultation 5: sage rhythm from Noemi closing identity in sage",
+    "consultation 6: bronze rhythm from Noemi hero promise in bronze",
+    "consultation 7: gold rhythm from Noemi trust position in gold",
+    "consultation 8: dark rhythm from Noemi care route in dark",
+    "consultation 9: sage rhythm from Noemi consultation path in sage",
+    "consultation 10: cream rhythm from Noemi treatment navigation in cream"
   ],
   "contactPageColourSequence": [
-    "contact 1: sage rhythm from Sage results structure",
-    "contact 2: cream rhythm from Cream journal shape index",
-    "contact 3: bronze rhythm from Bronze-outline CTA",
-    "contact 4: dark rhythm from Dark shape footer",
-    "contact 5: ivory rhythm from Ivory shape hero",
-    "contact 6: sage rhythm from Sage values shape",
-    "contact 7: blush rhythm from Blush route field",
-    "contact 8: cream rhythm from Cream consultation shape panel",
-    "contact 9: dark rhythm from Dark sage sculpted statement",
-    "contact 10: ivory rhythm from Ivory education forms"
+    "contact 1: bronze rhythm from Noemi education preview in bronze",
+    "contact 2: gold rhythm from Noemi responsible expectations in gold",
+    "contact 3: dark rhythm from Noemi contact bridge in dark",
+    "contact 4: sage rhythm from Noemi closing identity in sage",
+    "contact 5: bronze rhythm from Noemi hero promise in bronze",
+    "contact 6: gold rhythm from Noemi trust position in gold",
+    "contact 7: dark rhythm from Noemi care route in dark",
+    "contact 8: sage rhythm from Noemi consultation path in sage",
+    "contact 9: cream rhythm from Noemi treatment navigation in cream",
+    "contact 10: ivory rhythm from Noemi human reassurance in ivory"
   ],
   "forbiddenColourPatterns": [
-    "No photo clipping",
-    "No generic rectangles",
-    "No same card grid."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

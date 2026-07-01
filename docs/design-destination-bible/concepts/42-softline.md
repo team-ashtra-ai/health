@@ -1,12 +1,12 @@
-# 42-softline — Linear Soft System
+# 42-softline — Paper Editorial Clinic
 
 ## Visual Thesis
 
-A soft line-based site using gentle dividers and progressive routes.
+Vellum uses paper, editorial, tactile pacing with magazine style paper layout.
 
 ## Colour Thesis
 
-Ivory/cream base. Sage and blush lines. Bronze fine dividers. No heavy blocks except footer.
+ivory, paper, taupe, sage
 
 ## Systems
 
@@ -21,159 +21,161 @@ Ivory/cream base. Sage and blush lines. Bronze fine dividers. No heavy blocks ex
 
 ## Homepage Colour Sequence
 
-1. Ivory softline hero
-2. Cream trust line
-3. Sage route line
-4. Blush consultation line
-5. Ivory reassurance line
-6. Sage education line
-7. Cream results line
-8. Ivory journal line
-9. Bronze line CTA
-10. Soft sage footer
+1. Vellum hero promise in sage
+2. Vellum trust position in ivory
+3. Vellum care route in bronze
+4. Vellum consultation path in cream
+5. Vellum treatment navigation in gold
+6. Vellum human reassurance in dark
+7. Vellum education preview in sage
+8. Vellum responsible expectations in ivory
+9. Vellum contact bridge in bronze
+10. Vellum closing identity in cream
 
 ## All Other Pages
 
-Use linear separators instead of cards.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No blocky grids
-- No strong dark bands
-- No circular halo system.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "42-softline",
-  "colourThesis": "Ivory/cream base. Sage and blush lines. Bronze fine dividers. No heavy blocks except footer.",
-  "dominantColourFamily": "sage",
-  "secondaryColourFamily": "ivory",
-  "accentColourFamily": "cream",
-  "contrastTemperature": "soft refined",
-  "darkUsage": "reserved for footer, text, or one anchor band",
-  "blushUsage": "purposeful warmth and guidance notes",
-  "sageUsage": "primary architecture",
+  "colourThesis": "ivory, paper, taupe, sage",
+  "dominantColourFamily": "dark",
+  "secondaryColourFamily": "sage",
+  "accentColourFamily": "ivory",
+  "contrastTemperature": "high editorial",
+  "darkUsage": "dominant structural field",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
+  "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "expectation-ledger; no universal cream-card default",
   "buttonStrategy": "gold-mark",
-  "footerColour": "Soft sage footer",
-  "mobileMenuColour": "Blush consultation line",
+  "footerColour": "Vellum closing identity in cream",
+  "mobileMenuColour": "Vellum consultation path in cream",
   "homepageSectionColourSequence": [
-    "Ivory softline hero",
-    "Cream trust line",
-    "Sage route line",
-    "Blush consultation line",
-    "Ivory reassurance line",
-    "Sage education line",
-    "Cream results line",
-    "Ivory journal line",
-    "Bronze line CTA",
-    "Soft sage footer"
+    "Vellum hero promise in sage",
+    "Vellum trust position in ivory",
+    "Vellum care route in bronze",
+    "Vellum consultation path in cream",
+    "Vellum treatment navigation in gold",
+    "Vellum human reassurance in dark",
+    "Vellum education preview in sage",
+    "Vellum responsible expectations in ivory",
+    "Vellum contact bridge in bronze",
+    "Vellum closing identity in cream"
   ],
   "aboutPageColourSequence": [
-    "about 1: blush rhythm from Blush consultation line",
-    "about 2: ivory rhythm from Ivory reassurance line",
-    "about 3: sage rhythm from Sage education line",
-    "about 4: cream rhythm from Cream results line",
-    "about 5: ivory rhythm from Ivory journal line",
-    "about 6: bronze rhythm from Bronze line CTA",
-    "about 7: sage rhythm from Soft sage footer",
-    "about 8: ivory rhythm from Ivory softline hero",
-    "about 9: cream rhythm from Cream trust line",
-    "about 10: sage rhythm from Sage route line"
+    "about 1: cream rhythm from Vellum consultation path in cream",
+    "about 2: gold rhythm from Vellum treatment navigation in gold",
+    "about 3: dark rhythm from Vellum human reassurance in dark",
+    "about 4: sage rhythm from Vellum education preview in sage",
+    "about 5: ivory rhythm from Vellum responsible expectations in ivory",
+    "about 6: bronze rhythm from Vellum contact bridge in bronze",
+    "about 7: cream rhythm from Vellum closing identity in cream",
+    "about 8: sage rhythm from Vellum hero promise in sage",
+    "about 9: ivory rhythm from Vellum trust position in ivory",
+    "about 10: bronze rhythm from Vellum care route in bronze"
   ],
   "carePageColourSequence": [
-    "care 1: ivory rhythm from Ivory reassurance line",
-    "care 2: sage rhythm from Sage education line",
-    "care 3: cream rhythm from Cream results line",
-    "care 4: ivory rhythm from Ivory journal line",
-    "care 5: bronze rhythm from Bronze line CTA",
-    "care 6: sage rhythm from Soft sage footer",
-    "care 7: ivory rhythm from Ivory softline hero",
-    "care 8: cream rhythm from Cream trust line",
-    "care 9: sage rhythm from Sage route line",
-    "care 10: blush rhythm from Blush consultation line"
+    "care 1: gold rhythm from Vellum treatment navigation in gold",
+    "care 2: dark rhythm from Vellum human reassurance in dark",
+    "care 3: sage rhythm from Vellum education preview in sage",
+    "care 4: ivory rhythm from Vellum responsible expectations in ivory",
+    "care 5: bronze rhythm from Vellum contact bridge in bronze",
+    "care 6: cream rhythm from Vellum closing identity in cream",
+    "care 7: sage rhythm from Vellum hero promise in sage",
+    "care 8: ivory rhythm from Vellum trust position in ivory",
+    "care 9: bronze rhythm from Vellum care route in bronze",
+    "care 10: cream rhythm from Vellum consultation path in cream"
   ],
   "laserPageColourSequence": [
-    "laser 1: sage rhythm from Sage education line",
-    "laser 2: cream rhythm from Cream results line",
-    "laser 3: ivory rhythm from Ivory journal line",
-    "laser 4: bronze rhythm from Bronze line CTA",
-    "laser 5: sage rhythm from Soft sage footer",
-    "laser 6: ivory rhythm from Ivory softline hero",
-    "laser 7: cream rhythm from Cream trust line",
-    "laser 8: sage rhythm from Sage route line",
-    "laser 9: blush rhythm from Blush consultation line",
-    "laser 10: ivory rhythm from Ivory reassurance line"
+    "laser 1: dark rhythm from Vellum human reassurance in dark",
+    "laser 2: sage rhythm from Vellum education preview in sage",
+    "laser 3: ivory rhythm from Vellum responsible expectations in ivory",
+    "laser 4: bronze rhythm from Vellum contact bridge in bronze",
+    "laser 5: cream rhythm from Vellum closing identity in cream",
+    "laser 6: sage rhythm from Vellum hero promise in sage",
+    "laser 7: ivory rhythm from Vellum trust position in ivory",
+    "laser 8: bronze rhythm from Vellum care route in bronze",
+    "laser 9: cream rhythm from Vellum consultation path in cream",
+    "laser 10: gold rhythm from Vellum treatment navigation in gold"
   ],
   "skinPageColourSequence": [
-    "skin 1: cream rhythm from Cream results line",
-    "skin 2: ivory rhythm from Ivory journal line",
-    "skin 3: bronze rhythm from Bronze line CTA",
-    "skin 4: sage rhythm from Soft sage footer",
-    "skin 5: ivory rhythm from Ivory softline hero",
-    "skin 6: cream rhythm from Cream trust line",
-    "skin 7: sage rhythm from Sage route line",
-    "skin 8: blush rhythm from Blush consultation line",
-    "skin 9: ivory rhythm from Ivory reassurance line",
-    "skin 10: sage rhythm from Sage education line"
+    "skin 1: sage rhythm from Vellum education preview in sage",
+    "skin 2: ivory rhythm from Vellum responsible expectations in ivory",
+    "skin 3: bronze rhythm from Vellum contact bridge in bronze",
+    "skin 4: cream rhythm from Vellum closing identity in cream",
+    "skin 5: sage rhythm from Vellum hero promise in sage",
+    "skin 6: ivory rhythm from Vellum trust position in ivory",
+    "skin 7: bronze rhythm from Vellum care route in bronze",
+    "skin 8: cream rhythm from Vellum consultation path in cream",
+    "skin 9: gold rhythm from Vellum treatment navigation in gold",
+    "skin 10: dark rhythm from Vellum human reassurance in dark"
   ],
   "resultsPageColourSequence": [
-    "results 1: ivory rhythm from Ivory journal line",
-    "results 2: bronze rhythm from Bronze line CTA",
-    "results 3: sage rhythm from Soft sage footer",
-    "results 4: ivory rhythm from Ivory softline hero",
-    "results 5: cream rhythm from Cream trust line",
-    "results 6: sage rhythm from Sage route line",
-    "results 7: blush rhythm from Blush consultation line",
-    "results 8: ivory rhythm from Ivory reassurance line",
-    "results 9: sage rhythm from Sage education line",
-    "results 10: cream rhythm from Cream results line"
+    "results 1: ivory rhythm from Vellum responsible expectations in ivory",
+    "results 2: bronze rhythm from Vellum contact bridge in bronze",
+    "results 3: cream rhythm from Vellum closing identity in cream",
+    "results 4: sage rhythm from Vellum hero promise in sage",
+    "results 5: ivory rhythm from Vellum trust position in ivory",
+    "results 6: bronze rhythm from Vellum care route in bronze",
+    "results 7: cream rhythm from Vellum consultation path in cream",
+    "results 8: gold rhythm from Vellum treatment navigation in gold",
+    "results 9: dark rhythm from Vellum human reassurance in dark",
+    "results 10: sage rhythm from Vellum education preview in sage"
   ],
   "journalPageColourSequence": [
-    "journal 1: bronze rhythm from Bronze line CTA",
-    "journal 2: sage rhythm from Soft sage footer",
-    "journal 3: ivory rhythm from Ivory softline hero",
-    "journal 4: cream rhythm from Cream trust line",
-    "journal 5: sage rhythm from Sage route line",
-    "journal 6: blush rhythm from Blush consultation line",
-    "journal 7: ivory rhythm from Ivory reassurance line",
-    "journal 8: sage rhythm from Sage education line",
-    "journal 9: cream rhythm from Cream results line",
-    "journal 10: ivory rhythm from Ivory journal line"
+    "journal 1: bronze rhythm from Vellum contact bridge in bronze",
+    "journal 2: cream rhythm from Vellum closing identity in cream",
+    "journal 3: sage rhythm from Vellum hero promise in sage",
+    "journal 4: ivory rhythm from Vellum trust position in ivory",
+    "journal 5: bronze rhythm from Vellum care route in bronze",
+    "journal 6: cream rhythm from Vellum consultation path in cream",
+    "journal 7: gold rhythm from Vellum treatment navigation in gold",
+    "journal 8: dark rhythm from Vellum human reassurance in dark",
+    "journal 9: sage rhythm from Vellum education preview in sage",
+    "journal 10: ivory rhythm from Vellum responsible expectations in ivory"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: ivory rhythm from Ivory softline hero",
-    "consultation 2: cream rhythm from Cream trust line",
-    "consultation 3: sage rhythm from Sage route line",
-    "consultation 4: blush rhythm from Blush consultation line",
-    "consultation 5: ivory rhythm from Ivory reassurance line",
-    "consultation 6: sage rhythm from Sage education line",
-    "consultation 7: cream rhythm from Cream results line",
-    "consultation 8: ivory rhythm from Ivory journal line",
-    "consultation 9: bronze rhythm from Bronze line CTA",
-    "consultation 10: sage rhythm from Soft sage footer"
+    "consultation 1: sage rhythm from Vellum hero promise in sage",
+    "consultation 2: ivory rhythm from Vellum trust position in ivory",
+    "consultation 3: bronze rhythm from Vellum care route in bronze",
+    "consultation 4: cream rhythm from Vellum consultation path in cream",
+    "consultation 5: gold rhythm from Vellum treatment navigation in gold",
+    "consultation 6: dark rhythm from Vellum human reassurance in dark",
+    "consultation 7: sage rhythm from Vellum education preview in sage",
+    "consultation 8: ivory rhythm from Vellum responsible expectations in ivory",
+    "consultation 9: bronze rhythm from Vellum contact bridge in bronze",
+    "consultation 10: cream rhythm from Vellum closing identity in cream"
   ],
   "contactPageColourSequence": [
-    "contact 1: cream rhythm from Cream trust line",
-    "contact 2: sage rhythm from Sage route line",
-    "contact 3: blush rhythm from Blush consultation line",
-    "contact 4: ivory rhythm from Ivory reassurance line",
-    "contact 5: sage rhythm from Sage education line",
-    "contact 6: cream rhythm from Cream results line",
-    "contact 7: ivory rhythm from Ivory journal line",
-    "contact 8: bronze rhythm from Bronze line CTA",
-    "contact 9: sage rhythm from Soft sage footer",
-    "contact 10: ivory rhythm from Ivory softline hero"
+    "contact 1: ivory rhythm from Vellum trust position in ivory",
+    "contact 2: bronze rhythm from Vellum care route in bronze",
+    "contact 3: cream rhythm from Vellum consultation path in cream",
+    "contact 4: gold rhythm from Vellum treatment navigation in gold",
+    "contact 5: dark rhythm from Vellum human reassurance in dark",
+    "contact 6: sage rhythm from Vellum education preview in sage",
+    "contact 7: ivory rhythm from Vellum responsible expectations in ivory",
+    "contact 8: bronze rhythm from Vellum contact bridge in bronze",
+    "contact 9: cream rhythm from Vellum closing identity in cream",
+    "contact 10: sage rhythm from Vellum hero promise in sage"
   ],
   "forbiddenColourPatterns": [
-    "No blocky grids",
-    "No strong dark bands",
-    "No circular halo system."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

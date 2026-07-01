@@ -1,12 +1,12 @@
-# 40-noble — Mature Luxury
+# 40-noble — Modern Treatment Navigation
 
 ## Visual Thesis
 
-A mature dignified luxury site with serious premium presence.
+Prisma uses modern, clear, multi service pacing with treatment navigation focused.
 
 ## Colour Thesis
 
-Deep sage, ink, ivory, bronze. Minimal blush. Strong mature contrast.
+ivory, sage, blush, gold accents
 
 ## Systems
 
@@ -21,159 +21,161 @@ Deep sage, ink, ivory, bronze. Minimal blush. Strong mature contrast.
 
 ## Homepage Colour Sequence
 
-1. Deep noble hero
-2. Ivory dignified trust
-3. Sage service structure
-4. Ink consultation band
-5. Bronze reassurance statement
-6. Ivory education section
-7. Sage results ledger
-8. Cream journal row
-9. Deep CTA band
-10. Noble dark footer
+1. Prisma hero promise in dark
+2. Prisma trust position in bronze
+3. Prisma care route in sage
+4. Prisma consultation path in ivory
+5. Prisma treatment navigation in gold
+6. Prisma human reassurance in cream
+7. Prisma education preview in dark
+8. Prisma responsible expectations in bronze
+9. Prisma contact bridge in sage
+10. Prisma closing identity in ivory
 
 ## All Other Pages
 
-Use stately spacing, restrained colour, and strong hierarchy.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No playful blush
-- No spa softness
-- No overly decorative botanical motifs.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "40-noble",
-  "colourThesis": "Deep sage, ink, ivory, bronze. Minimal blush. Strong mature contrast.",
-  "dominantColourFamily": "ink",
-  "secondaryColourFamily": "dark",
-  "accentColourFamily": "sage",
+  "colourThesis": "ivory, sage, blush, gold accents",
+  "dominantColourFamily": "dark",
+  "secondaryColourFamily": "sage",
+  "accentColourFamily": "ivory",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "technical-table; no universal cream-card default",
   "buttonStrategy": "dark-anchor",
-  "footerColour": "Noble dark footer",
-  "mobileMenuColour": "Ivory dignified trust",
+  "footerColour": "Prisma closing identity in ivory",
+  "mobileMenuColour": "Prisma trust position in bronze",
   "homepageSectionColourSequence": [
-    "Deep noble hero",
-    "Ivory dignified trust",
-    "Sage service structure",
-    "Ink consultation band",
-    "Bronze reassurance statement",
-    "Ivory education section",
-    "Sage results ledger",
-    "Cream journal row",
-    "Deep CTA band",
-    "Noble dark footer"
+    "Prisma hero promise in dark",
+    "Prisma trust position in bronze",
+    "Prisma care route in sage",
+    "Prisma consultation path in ivory",
+    "Prisma treatment navigation in gold",
+    "Prisma human reassurance in cream",
+    "Prisma education preview in dark",
+    "Prisma responsible expectations in bronze",
+    "Prisma contact bridge in sage",
+    "Prisma closing identity in ivory"
   ],
   "aboutPageColourSequence": [
-    "about 1: ivory rhythm from Ivory dignified trust",
-    "about 2: sage rhythm from Sage service structure",
-    "about 3: ivory rhythm from Ink consultation band",
-    "about 4: bronze rhythm from Bronze reassurance statement",
-    "about 5: ivory rhythm from Ivory education section",
-    "about 6: sage rhythm from Sage results ledger",
-    "about 7: cream rhythm from Cream journal row",
-    "about 8: dark rhythm from Deep CTA band",
-    "about 9: dark rhythm from Noble dark footer",
-    "about 10: dark rhythm from Deep noble hero"
+    "about 1: bronze rhythm from Prisma trust position in bronze",
+    "about 2: sage rhythm from Prisma care route in sage",
+    "about 3: ivory rhythm from Prisma consultation path in ivory",
+    "about 4: gold rhythm from Prisma treatment navigation in gold",
+    "about 5: cream rhythm from Prisma human reassurance in cream",
+    "about 6: dark rhythm from Prisma education preview in dark",
+    "about 7: bronze rhythm from Prisma responsible expectations in bronze",
+    "about 8: sage rhythm from Prisma contact bridge in sage",
+    "about 9: ivory rhythm from Prisma closing identity in ivory",
+    "about 10: dark rhythm from Prisma hero promise in dark"
   ],
   "carePageColourSequence": [
-    "care 1: sage rhythm from Sage service structure",
-    "care 2: ivory rhythm from Ink consultation band",
-    "care 3: bronze rhythm from Bronze reassurance statement",
-    "care 4: ivory rhythm from Ivory education section",
-    "care 5: sage rhythm from Sage results ledger",
-    "care 6: cream rhythm from Cream journal row",
-    "care 7: dark rhythm from Deep CTA band",
-    "care 8: dark rhythm from Noble dark footer",
-    "care 9: dark rhythm from Deep noble hero",
-    "care 10: ivory rhythm from Ivory dignified trust"
+    "care 1: sage rhythm from Prisma care route in sage",
+    "care 2: ivory rhythm from Prisma consultation path in ivory",
+    "care 3: gold rhythm from Prisma treatment navigation in gold",
+    "care 4: cream rhythm from Prisma human reassurance in cream",
+    "care 5: dark rhythm from Prisma education preview in dark",
+    "care 6: bronze rhythm from Prisma responsible expectations in bronze",
+    "care 7: sage rhythm from Prisma contact bridge in sage",
+    "care 8: ivory rhythm from Prisma closing identity in ivory",
+    "care 9: dark rhythm from Prisma hero promise in dark",
+    "care 10: bronze rhythm from Prisma trust position in bronze"
   ],
   "laserPageColourSequence": [
-    "laser 1: ivory rhythm from Ink consultation band",
-    "laser 2: bronze rhythm from Bronze reassurance statement",
-    "laser 3: ivory rhythm from Ivory education section",
-    "laser 4: sage rhythm from Sage results ledger",
-    "laser 5: cream rhythm from Cream journal row",
-    "laser 6: dark rhythm from Deep CTA band",
-    "laser 7: dark rhythm from Noble dark footer",
-    "laser 8: dark rhythm from Deep noble hero",
-    "laser 9: ivory rhythm from Ivory dignified trust",
-    "laser 10: sage rhythm from Sage service structure"
+    "laser 1: ivory rhythm from Prisma consultation path in ivory",
+    "laser 2: gold rhythm from Prisma treatment navigation in gold",
+    "laser 3: cream rhythm from Prisma human reassurance in cream",
+    "laser 4: dark rhythm from Prisma education preview in dark",
+    "laser 5: bronze rhythm from Prisma responsible expectations in bronze",
+    "laser 6: sage rhythm from Prisma contact bridge in sage",
+    "laser 7: ivory rhythm from Prisma closing identity in ivory",
+    "laser 8: dark rhythm from Prisma hero promise in dark",
+    "laser 9: bronze rhythm from Prisma trust position in bronze",
+    "laser 10: sage rhythm from Prisma care route in sage"
   ],
   "skinPageColourSequence": [
-    "skin 1: bronze rhythm from Bronze reassurance statement",
-    "skin 2: ivory rhythm from Ivory education section",
-    "skin 3: sage rhythm from Sage results ledger",
-    "skin 4: cream rhythm from Cream journal row",
-    "skin 5: dark rhythm from Deep CTA band",
-    "skin 6: dark rhythm from Noble dark footer",
-    "skin 7: dark rhythm from Deep noble hero",
-    "skin 8: ivory rhythm from Ivory dignified trust",
-    "skin 9: sage rhythm from Sage service structure",
-    "skin 10: ivory rhythm from Ink consultation band"
+    "skin 1: gold rhythm from Prisma treatment navigation in gold",
+    "skin 2: cream rhythm from Prisma human reassurance in cream",
+    "skin 3: dark rhythm from Prisma education preview in dark",
+    "skin 4: bronze rhythm from Prisma responsible expectations in bronze",
+    "skin 5: sage rhythm from Prisma contact bridge in sage",
+    "skin 6: ivory rhythm from Prisma closing identity in ivory",
+    "skin 7: dark rhythm from Prisma hero promise in dark",
+    "skin 8: bronze rhythm from Prisma trust position in bronze",
+    "skin 9: sage rhythm from Prisma care route in sage",
+    "skin 10: ivory rhythm from Prisma consultation path in ivory"
   ],
   "resultsPageColourSequence": [
-    "results 1: ivory rhythm from Ivory education section",
-    "results 2: sage rhythm from Sage results ledger",
-    "results 3: cream rhythm from Cream journal row",
-    "results 4: dark rhythm from Deep CTA band",
-    "results 5: dark rhythm from Noble dark footer",
-    "results 6: dark rhythm from Deep noble hero",
-    "results 7: ivory rhythm from Ivory dignified trust",
-    "results 8: sage rhythm from Sage service structure",
-    "results 9: ivory rhythm from Ink consultation band",
-    "results 10: bronze rhythm from Bronze reassurance statement"
+    "results 1: cream rhythm from Prisma human reassurance in cream",
+    "results 2: dark rhythm from Prisma education preview in dark",
+    "results 3: bronze rhythm from Prisma responsible expectations in bronze",
+    "results 4: sage rhythm from Prisma contact bridge in sage",
+    "results 5: ivory rhythm from Prisma closing identity in ivory",
+    "results 6: dark rhythm from Prisma hero promise in dark",
+    "results 7: bronze rhythm from Prisma trust position in bronze",
+    "results 8: sage rhythm from Prisma care route in sage",
+    "results 9: ivory rhythm from Prisma consultation path in ivory",
+    "results 10: gold rhythm from Prisma treatment navigation in gold"
   ],
   "journalPageColourSequence": [
-    "journal 1: sage rhythm from Sage results ledger",
-    "journal 2: cream rhythm from Cream journal row",
-    "journal 3: dark rhythm from Deep CTA band",
-    "journal 4: dark rhythm from Noble dark footer",
-    "journal 5: dark rhythm from Deep noble hero",
-    "journal 6: ivory rhythm from Ivory dignified trust",
-    "journal 7: sage rhythm from Sage service structure",
-    "journal 8: ivory rhythm from Ink consultation band",
-    "journal 9: bronze rhythm from Bronze reassurance statement",
-    "journal 10: ivory rhythm from Ivory education section"
+    "journal 1: dark rhythm from Prisma education preview in dark",
+    "journal 2: bronze rhythm from Prisma responsible expectations in bronze",
+    "journal 3: sage rhythm from Prisma contact bridge in sage",
+    "journal 4: ivory rhythm from Prisma closing identity in ivory",
+    "journal 5: dark rhythm from Prisma hero promise in dark",
+    "journal 6: bronze rhythm from Prisma trust position in bronze",
+    "journal 7: sage rhythm from Prisma care route in sage",
+    "journal 8: ivory rhythm from Prisma consultation path in ivory",
+    "journal 9: gold rhythm from Prisma treatment navigation in gold",
+    "journal 10: cream rhythm from Prisma human reassurance in cream"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: dark rhythm from Deep CTA band",
-    "consultation 2: dark rhythm from Noble dark footer",
-    "consultation 3: dark rhythm from Deep noble hero",
-    "consultation 4: ivory rhythm from Ivory dignified trust",
-    "consultation 5: sage rhythm from Sage service structure",
-    "consultation 6: ivory rhythm from Ink consultation band",
-    "consultation 7: bronze rhythm from Bronze reassurance statement",
-    "consultation 8: ivory rhythm from Ivory education section",
-    "consultation 9: sage rhythm from Sage results ledger",
-    "consultation 10: cream rhythm from Cream journal row"
+    "consultation 1: sage rhythm from Prisma contact bridge in sage",
+    "consultation 2: ivory rhythm from Prisma closing identity in ivory",
+    "consultation 3: dark rhythm from Prisma hero promise in dark",
+    "consultation 4: bronze rhythm from Prisma trust position in bronze",
+    "consultation 5: sage rhythm from Prisma care route in sage",
+    "consultation 6: ivory rhythm from Prisma consultation path in ivory",
+    "consultation 7: gold rhythm from Prisma treatment navigation in gold",
+    "consultation 8: cream rhythm from Prisma human reassurance in cream",
+    "consultation 9: dark rhythm from Prisma education preview in dark",
+    "consultation 10: bronze rhythm from Prisma responsible expectations in bronze"
   ],
   "contactPageColourSequence": [
-    "contact 1: dark rhythm from Noble dark footer",
-    "contact 2: dark rhythm from Deep noble hero",
-    "contact 3: ivory rhythm from Ivory dignified trust",
-    "contact 4: sage rhythm from Sage service structure",
-    "contact 5: ivory rhythm from Ink consultation band",
-    "contact 6: bronze rhythm from Bronze reassurance statement",
-    "contact 7: ivory rhythm from Ivory education section",
-    "contact 8: sage rhythm from Sage results ledger",
-    "contact 9: cream rhythm from Cream journal row",
-    "contact 10: dark rhythm from Deep CTA band"
+    "contact 1: ivory rhythm from Prisma closing identity in ivory",
+    "contact 2: dark rhythm from Prisma hero promise in dark",
+    "contact 3: bronze rhythm from Prisma trust position in bronze",
+    "contact 4: sage rhythm from Prisma care route in sage",
+    "contact 5: ivory rhythm from Prisma consultation path in ivory",
+    "contact 6: gold rhythm from Prisma treatment navigation in gold",
+    "contact 7: cream rhythm from Prisma human reassurance in cream",
+    "contact 8: dark rhythm from Prisma education preview in dark",
+    "contact 9: bronze rhythm from Prisma responsible expectations in bronze",
+    "contact 10: sage rhythm from Prisma contact bridge in sage"
   ],
   "forbiddenColourPatterns": [
-    "No playful blush",
-    "No spa softness",
-    "No overly decorative botanical motifs."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

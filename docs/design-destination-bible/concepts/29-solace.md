@@ -1,12 +1,12 @@
-# 29-solace — Comforting Reassurance
+# 29-solace — Warm Terracotta Luxury
 
 ## Visual Thesis
 
-A comforting supportive site centred around emotional safety and calm reassurance.
+Siena uses warm, earthy, premium pacing with terracotta and sand warmth.
 
 ## Colour Thesis
 
-Warm cream, blush 100, soft sage, and gentle bronze borders. Dark avoided.
+sand, terracotta, sage, ivory
 
 ## Systems
 
@@ -21,159 +21,161 @@ Warm cream, blush 100, soft sage, and gentle bronze borders. Dark avoided.
 
 ## Homepage Colour Sequence
 
-1. Warm cream solace hero
-2. Blush reassurance values
-3. Sage care route
-4. Cream consultation comfort
-5. Blush safety statement
-6. Sage education support
-7. Cream results reassurance
-8. Ivory journal help
-9. Blush contact comfort
-10. Soft sage footer
+1. Siena hero promise in dark
+2. Siena trust position in sage
+3. Siena care route in ivory
+4. Siena consultation path in cream
+5. Siena treatment navigation in bronze
+6. Siena human reassurance in gold
+7. Siena education preview in dark
+8. Siena responsible expectations in sage
+9. Siena contact bridge in ivory
+10. Siena closing identity in cream
 
 ## All Other Pages
 
-Use warmth, reassurance panels, and supportive CTA language.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No clinical coldness
-- No dark luxury
-- No sharp geometric sections.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "29-solace",
-  "colourThesis": "Warm cream, blush 100, soft sage, and gentle bronze borders. Dark avoided.",
+  "colourThesis": "sand, terracotta, sage, ivory",
   "dominantColourFamily": "dark",
   "secondaryColourFamily": "sage",
   "accentColourFamily": "ivory",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "shape-field; no universal cream-card default",
   "buttonStrategy": "whatsapp-strip",
-  "footerColour": "Soft sage footer",
-  "mobileMenuColour": "Warm cream solace hero",
+  "footerColour": "Siena closing identity in cream",
+  "mobileMenuColour": "Siena hero promise in dark",
   "homepageSectionColourSequence": [
-    "Warm cream solace hero",
-    "Blush reassurance values",
-    "Sage care route",
-    "Cream consultation comfort",
-    "Blush safety statement",
-    "Sage education support",
-    "Cream results reassurance",
-    "Ivory journal help",
-    "Blush contact comfort",
-    "Soft sage footer"
+    "Siena hero promise in dark",
+    "Siena trust position in sage",
+    "Siena care route in ivory",
+    "Siena consultation path in cream",
+    "Siena treatment navigation in bronze",
+    "Siena human reassurance in gold",
+    "Siena education preview in dark",
+    "Siena responsible expectations in sage",
+    "Siena contact bridge in ivory",
+    "Siena closing identity in cream"
   ],
   "aboutPageColourSequence": [
-    "about 1: cream rhythm from Warm cream solace hero",
-    "about 2: blush rhythm from Blush reassurance values",
-    "about 3: sage rhythm from Sage care route",
-    "about 4: cream rhythm from Cream consultation comfort",
-    "about 5: blush rhythm from Blush safety statement",
-    "about 6: sage rhythm from Sage education support",
-    "about 7: cream rhythm from Cream results reassurance",
-    "about 8: ivory rhythm from Ivory journal help",
-    "about 9: blush rhythm from Blush contact comfort",
-    "about 10: sage rhythm from Soft sage footer"
+    "about 1: dark rhythm from Siena hero promise in dark",
+    "about 2: sage rhythm from Siena trust position in sage",
+    "about 3: ivory rhythm from Siena care route in ivory",
+    "about 4: cream rhythm from Siena consultation path in cream",
+    "about 5: bronze rhythm from Siena treatment navigation in bronze",
+    "about 6: gold rhythm from Siena human reassurance in gold",
+    "about 7: dark rhythm from Siena education preview in dark",
+    "about 8: sage rhythm from Siena responsible expectations in sage",
+    "about 9: ivory rhythm from Siena contact bridge in ivory",
+    "about 10: cream rhythm from Siena closing identity in cream"
   ],
   "carePageColourSequence": [
-    "care 1: blush rhythm from Blush reassurance values",
-    "care 2: sage rhythm from Sage care route",
-    "care 3: cream rhythm from Cream consultation comfort",
-    "care 4: blush rhythm from Blush safety statement",
-    "care 5: sage rhythm from Sage education support",
-    "care 6: cream rhythm from Cream results reassurance",
-    "care 7: ivory rhythm from Ivory journal help",
-    "care 8: blush rhythm from Blush contact comfort",
-    "care 9: sage rhythm from Soft sage footer",
-    "care 10: cream rhythm from Warm cream solace hero"
+    "care 1: sage rhythm from Siena trust position in sage",
+    "care 2: ivory rhythm from Siena care route in ivory",
+    "care 3: cream rhythm from Siena consultation path in cream",
+    "care 4: bronze rhythm from Siena treatment navigation in bronze",
+    "care 5: gold rhythm from Siena human reassurance in gold",
+    "care 6: dark rhythm from Siena education preview in dark",
+    "care 7: sage rhythm from Siena responsible expectations in sage",
+    "care 8: ivory rhythm from Siena contact bridge in ivory",
+    "care 9: cream rhythm from Siena closing identity in cream",
+    "care 10: dark rhythm from Siena hero promise in dark"
   ],
   "laserPageColourSequence": [
-    "laser 1: sage rhythm from Sage care route",
-    "laser 2: cream rhythm from Cream consultation comfort",
-    "laser 3: blush rhythm from Blush safety statement",
-    "laser 4: sage rhythm from Sage education support",
-    "laser 5: cream rhythm from Cream results reassurance",
-    "laser 6: ivory rhythm from Ivory journal help",
-    "laser 7: blush rhythm from Blush contact comfort",
-    "laser 8: sage rhythm from Soft sage footer",
-    "laser 9: cream rhythm from Warm cream solace hero",
-    "laser 10: blush rhythm from Blush reassurance values"
+    "laser 1: ivory rhythm from Siena care route in ivory",
+    "laser 2: cream rhythm from Siena consultation path in cream",
+    "laser 3: bronze rhythm from Siena treatment navigation in bronze",
+    "laser 4: gold rhythm from Siena human reassurance in gold",
+    "laser 5: dark rhythm from Siena education preview in dark",
+    "laser 6: sage rhythm from Siena responsible expectations in sage",
+    "laser 7: ivory rhythm from Siena contact bridge in ivory",
+    "laser 8: cream rhythm from Siena closing identity in cream",
+    "laser 9: dark rhythm from Siena hero promise in dark",
+    "laser 10: sage rhythm from Siena trust position in sage"
   ],
   "skinPageColourSequence": [
-    "skin 1: cream rhythm from Cream consultation comfort",
-    "skin 2: blush rhythm from Blush safety statement",
-    "skin 3: sage rhythm from Sage education support",
-    "skin 4: cream rhythm from Cream results reassurance",
-    "skin 5: ivory rhythm from Ivory journal help",
-    "skin 6: blush rhythm from Blush contact comfort",
-    "skin 7: sage rhythm from Soft sage footer",
-    "skin 8: cream rhythm from Warm cream solace hero",
-    "skin 9: blush rhythm from Blush reassurance values",
-    "skin 10: sage rhythm from Sage care route"
+    "skin 1: cream rhythm from Siena consultation path in cream",
+    "skin 2: bronze rhythm from Siena treatment navigation in bronze",
+    "skin 3: gold rhythm from Siena human reassurance in gold",
+    "skin 4: dark rhythm from Siena education preview in dark",
+    "skin 5: sage rhythm from Siena responsible expectations in sage",
+    "skin 6: ivory rhythm from Siena contact bridge in ivory",
+    "skin 7: cream rhythm from Siena closing identity in cream",
+    "skin 8: dark rhythm from Siena hero promise in dark",
+    "skin 9: sage rhythm from Siena trust position in sage",
+    "skin 10: ivory rhythm from Siena care route in ivory"
   ],
   "resultsPageColourSequence": [
-    "results 1: blush rhythm from Blush safety statement",
-    "results 2: sage rhythm from Sage education support",
-    "results 3: cream rhythm from Cream results reassurance",
-    "results 4: ivory rhythm from Ivory journal help",
-    "results 5: blush rhythm from Blush contact comfort",
-    "results 6: sage rhythm from Soft sage footer",
-    "results 7: cream rhythm from Warm cream solace hero",
-    "results 8: blush rhythm from Blush reassurance values",
-    "results 9: sage rhythm from Sage care route",
-    "results 10: cream rhythm from Cream consultation comfort"
+    "results 1: bronze rhythm from Siena treatment navigation in bronze",
+    "results 2: gold rhythm from Siena human reassurance in gold",
+    "results 3: dark rhythm from Siena education preview in dark",
+    "results 4: sage rhythm from Siena responsible expectations in sage",
+    "results 5: ivory rhythm from Siena contact bridge in ivory",
+    "results 6: cream rhythm from Siena closing identity in cream",
+    "results 7: dark rhythm from Siena hero promise in dark",
+    "results 8: sage rhythm from Siena trust position in sage",
+    "results 9: ivory rhythm from Siena care route in ivory",
+    "results 10: cream rhythm from Siena consultation path in cream"
   ],
   "journalPageColourSequence": [
-    "journal 1: sage rhythm from Sage education support",
-    "journal 2: cream rhythm from Cream results reassurance",
-    "journal 3: ivory rhythm from Ivory journal help",
-    "journal 4: blush rhythm from Blush contact comfort",
-    "journal 5: sage rhythm from Soft sage footer",
-    "journal 6: cream rhythm from Warm cream solace hero",
-    "journal 7: blush rhythm from Blush reassurance values",
-    "journal 8: sage rhythm from Sage care route",
-    "journal 9: cream rhythm from Cream consultation comfort",
-    "journal 10: blush rhythm from Blush safety statement"
+    "journal 1: gold rhythm from Siena human reassurance in gold",
+    "journal 2: dark rhythm from Siena education preview in dark",
+    "journal 3: sage rhythm from Siena responsible expectations in sage",
+    "journal 4: ivory rhythm from Siena contact bridge in ivory",
+    "journal 5: cream rhythm from Siena closing identity in cream",
+    "journal 6: dark rhythm from Siena hero promise in dark",
+    "journal 7: sage rhythm from Siena trust position in sage",
+    "journal 8: ivory rhythm from Siena care route in ivory",
+    "journal 9: cream rhythm from Siena consultation path in cream",
+    "journal 10: bronze rhythm from Siena treatment navigation in bronze"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: ivory rhythm from Ivory journal help",
-    "consultation 2: blush rhythm from Blush contact comfort",
-    "consultation 3: sage rhythm from Soft sage footer",
-    "consultation 4: cream rhythm from Warm cream solace hero",
-    "consultation 5: blush rhythm from Blush reassurance values",
-    "consultation 6: sage rhythm from Sage care route",
-    "consultation 7: cream rhythm from Cream consultation comfort",
-    "consultation 8: blush rhythm from Blush safety statement",
-    "consultation 9: sage rhythm from Sage education support",
-    "consultation 10: cream rhythm from Cream results reassurance"
+    "consultation 1: sage rhythm from Siena responsible expectations in sage",
+    "consultation 2: ivory rhythm from Siena contact bridge in ivory",
+    "consultation 3: cream rhythm from Siena closing identity in cream",
+    "consultation 4: dark rhythm from Siena hero promise in dark",
+    "consultation 5: sage rhythm from Siena trust position in sage",
+    "consultation 6: ivory rhythm from Siena care route in ivory",
+    "consultation 7: cream rhythm from Siena consultation path in cream",
+    "consultation 8: bronze rhythm from Siena treatment navigation in bronze",
+    "consultation 9: gold rhythm from Siena human reassurance in gold",
+    "consultation 10: dark rhythm from Siena education preview in dark"
   ],
   "contactPageColourSequence": [
-    "contact 1: blush rhythm from Blush contact comfort",
-    "contact 2: sage rhythm from Soft sage footer",
-    "contact 3: cream rhythm from Warm cream solace hero",
-    "contact 4: blush rhythm from Blush reassurance values",
-    "contact 5: sage rhythm from Sage care route",
-    "contact 6: cream rhythm from Cream consultation comfort",
-    "contact 7: blush rhythm from Blush safety statement",
-    "contact 8: sage rhythm from Sage education support",
-    "contact 9: cream rhythm from Cream results reassurance",
-    "contact 10: ivory rhythm from Ivory journal help"
+    "contact 1: ivory rhythm from Siena contact bridge in ivory",
+    "contact 2: cream rhythm from Siena closing identity in cream",
+    "contact 3: dark rhythm from Siena hero promise in dark",
+    "contact 4: sage rhythm from Siena trust position in sage",
+    "contact 5: ivory rhythm from Siena care route in ivory",
+    "contact 6: cream rhythm from Siena consultation path in cream",
+    "contact 7: bronze rhythm from Siena treatment navigation in bronze",
+    "contact 8: gold rhythm from Siena human reassurance in gold",
+    "contact 9: dark rhythm from Siena education preview in dark",
+    "contact 10: sage rhythm from Siena responsible expectations in sage"
   ],
   "forbiddenColourPatterns": [
-    "No clinical coldness",
-    "No dark luxury",
-    "No sharp geometric sections."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

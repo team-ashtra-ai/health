@@ -1,12 +1,12 @@
-# 18-lumin — Luminous Ivory
+# 18-lumin — Clean Clarity Aesthetics
 
 ## Visual Thesis
 
-A luminous bright premium site with airy surfaces and refined glow.
+Clare uses clean, transparent, direct pacing with clarity first explanation.
 
 ## Colour Thesis
 
-Ivory and cream dominate. Gold glow accents. Pale sage shadows. Blush very light. Dark is minimal.
+ivory, white, pale sage, ink
 
 ## Systems
 
@@ -21,159 +21,161 @@ Ivory and cream dominate. Gold glow accents. Pale sage shadows. Blush very light
 
 ## Homepage Colour Sequence
 
-1. Luminous ivory hero
-2. Cream glow trust
-3. Pale sage route field
-4. Ivory consultation light panel
-5. Gold-line reassurance
-6. Cream education glow
-7. Ivory results clarity
-8. Pale sage journal strip
-9. Gold CTA light band
-10. Bright ivory footer bridge
+1. Clare hero promise in ink
+2. Clare trust position in sage
+3. Clare care route in ivory
+4. Clare consultation path in cream
+5. Clare treatment navigation in gold
+6. Clare human reassurance in dark
+7. Clare education preview in ink
+8. Clare responsible expectations in sage
+9. Clare contact bridge in ivory
+10. Clare closing identity in cream
 
 ## All Other Pages
 
-Use airy spacing, subtle glow, and very clean surfaces.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No deep dark homepage
-- No heavy panels
-- No dense grids.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "18-lumin",
-  "colourThesis": "Ivory and cream dominate. Gold glow accents. Pale sage shadows. Blush very light. Dark is minimal.",
-  "dominantColourFamily": "dark",
-  "secondaryColourFamily": "sage",
-  "accentColourFamily": "ivory",
+  "colourThesis": "ivory, white, pale sage, ink",
+  "dominantColourFamily": "ink",
+  "secondaryColourFamily": "dark",
+  "accentColourFamily": "sage",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "axis-grid; no universal cream-card default",
   "buttonStrategy": "text-link",
-  "footerColour": "Bright ivory footer bridge",
-  "mobileMenuColour": "Bright ivory footer bridge",
+  "footerColour": "Clare closing identity in cream",
+  "mobileMenuColour": "Clare closing identity in cream",
   "homepageSectionColourSequence": [
-    "Luminous ivory hero",
-    "Cream glow trust",
-    "Pale sage route field",
-    "Ivory consultation light panel",
-    "Gold-line reassurance",
-    "Cream education glow",
-    "Ivory results clarity",
-    "Pale sage journal strip",
-    "Gold CTA light band",
-    "Bright ivory footer bridge"
+    "Clare hero promise in ink",
+    "Clare trust position in sage",
+    "Clare care route in ivory",
+    "Clare consultation path in cream",
+    "Clare treatment navigation in gold",
+    "Clare human reassurance in dark",
+    "Clare education preview in ink",
+    "Clare responsible expectations in sage",
+    "Clare contact bridge in ivory",
+    "Clare closing identity in cream"
   ],
   "aboutPageColourSequence": [
-    "about 1: ivory rhythm from Bright ivory footer bridge",
-    "about 2: ivory rhythm from Luminous ivory hero",
-    "about 3: cream rhythm from Cream glow trust",
-    "about 4: sage rhythm from Pale sage route field",
-    "about 5: ivory rhythm from Ivory consultation light panel",
-    "about 6: gold rhythm from Gold-line reassurance",
-    "about 7: cream rhythm from Cream education glow",
-    "about 8: ivory rhythm from Ivory results clarity",
-    "about 9: sage rhythm from Pale sage journal strip",
-    "about 10: gold rhythm from Gold CTA light band"
+    "about 1: cream rhythm from Clare closing identity in cream",
+    "about 2: ivory rhythm from Clare hero promise in ink",
+    "about 3: sage rhythm from Clare trust position in sage",
+    "about 4: ivory rhythm from Clare care route in ivory",
+    "about 5: cream rhythm from Clare consultation path in cream",
+    "about 6: gold rhythm from Clare treatment navigation in gold",
+    "about 7: dark rhythm from Clare human reassurance in dark",
+    "about 8: ivory rhythm from Clare education preview in ink",
+    "about 9: sage rhythm from Clare responsible expectations in sage",
+    "about 10: ivory rhythm from Clare contact bridge in ivory"
   ],
   "carePageColourSequence": [
-    "care 1: ivory rhythm from Luminous ivory hero",
-    "care 2: cream rhythm from Cream glow trust",
-    "care 3: sage rhythm from Pale sage route field",
-    "care 4: ivory rhythm from Ivory consultation light panel",
-    "care 5: gold rhythm from Gold-line reassurance",
-    "care 6: cream rhythm from Cream education glow",
-    "care 7: ivory rhythm from Ivory results clarity",
-    "care 8: sage rhythm from Pale sage journal strip",
-    "care 9: gold rhythm from Gold CTA light band",
-    "care 10: ivory rhythm from Bright ivory footer bridge"
+    "care 1: ivory rhythm from Clare hero promise in ink",
+    "care 2: sage rhythm from Clare trust position in sage",
+    "care 3: ivory rhythm from Clare care route in ivory",
+    "care 4: cream rhythm from Clare consultation path in cream",
+    "care 5: gold rhythm from Clare treatment navigation in gold",
+    "care 6: dark rhythm from Clare human reassurance in dark",
+    "care 7: ivory rhythm from Clare education preview in ink",
+    "care 8: sage rhythm from Clare responsible expectations in sage",
+    "care 9: ivory rhythm from Clare contact bridge in ivory",
+    "care 10: cream rhythm from Clare closing identity in cream"
   ],
   "laserPageColourSequence": [
-    "laser 1: cream rhythm from Cream glow trust",
-    "laser 2: sage rhythm from Pale sage route field",
-    "laser 3: ivory rhythm from Ivory consultation light panel",
-    "laser 4: gold rhythm from Gold-line reassurance",
-    "laser 5: cream rhythm from Cream education glow",
-    "laser 6: ivory rhythm from Ivory results clarity",
-    "laser 7: sage rhythm from Pale sage journal strip",
-    "laser 8: gold rhythm from Gold CTA light band",
-    "laser 9: ivory rhythm from Bright ivory footer bridge",
-    "laser 10: ivory rhythm from Luminous ivory hero"
+    "laser 1: sage rhythm from Clare trust position in sage",
+    "laser 2: ivory rhythm from Clare care route in ivory",
+    "laser 3: cream rhythm from Clare consultation path in cream",
+    "laser 4: gold rhythm from Clare treatment navigation in gold",
+    "laser 5: dark rhythm from Clare human reassurance in dark",
+    "laser 6: ivory rhythm from Clare education preview in ink",
+    "laser 7: sage rhythm from Clare responsible expectations in sage",
+    "laser 8: ivory rhythm from Clare contact bridge in ivory",
+    "laser 9: cream rhythm from Clare closing identity in cream",
+    "laser 10: ivory rhythm from Clare hero promise in ink"
   ],
   "skinPageColourSequence": [
-    "skin 1: sage rhythm from Pale sage route field",
-    "skin 2: ivory rhythm from Ivory consultation light panel",
-    "skin 3: gold rhythm from Gold-line reassurance",
-    "skin 4: cream rhythm from Cream education glow",
-    "skin 5: ivory rhythm from Ivory results clarity",
-    "skin 6: sage rhythm from Pale sage journal strip",
-    "skin 7: gold rhythm from Gold CTA light band",
-    "skin 8: ivory rhythm from Bright ivory footer bridge",
-    "skin 9: ivory rhythm from Luminous ivory hero",
-    "skin 10: cream rhythm from Cream glow trust"
+    "skin 1: ivory rhythm from Clare care route in ivory",
+    "skin 2: cream rhythm from Clare consultation path in cream",
+    "skin 3: gold rhythm from Clare treatment navigation in gold",
+    "skin 4: dark rhythm from Clare human reassurance in dark",
+    "skin 5: ivory rhythm from Clare education preview in ink",
+    "skin 6: sage rhythm from Clare responsible expectations in sage",
+    "skin 7: ivory rhythm from Clare contact bridge in ivory",
+    "skin 8: cream rhythm from Clare closing identity in cream",
+    "skin 9: ivory rhythm from Clare hero promise in ink",
+    "skin 10: sage rhythm from Clare trust position in sage"
   ],
   "resultsPageColourSequence": [
-    "results 1: ivory rhythm from Ivory consultation light panel",
-    "results 2: gold rhythm from Gold-line reassurance",
-    "results 3: cream rhythm from Cream education glow",
-    "results 4: ivory rhythm from Ivory results clarity",
-    "results 5: sage rhythm from Pale sage journal strip",
-    "results 6: gold rhythm from Gold CTA light band",
-    "results 7: ivory rhythm from Bright ivory footer bridge",
-    "results 8: ivory rhythm from Luminous ivory hero",
-    "results 9: cream rhythm from Cream glow trust",
-    "results 10: sage rhythm from Pale sage route field"
+    "results 1: cream rhythm from Clare consultation path in cream",
+    "results 2: gold rhythm from Clare treatment navigation in gold",
+    "results 3: dark rhythm from Clare human reassurance in dark",
+    "results 4: ivory rhythm from Clare education preview in ink",
+    "results 5: sage rhythm from Clare responsible expectations in sage",
+    "results 6: ivory rhythm from Clare contact bridge in ivory",
+    "results 7: cream rhythm from Clare closing identity in cream",
+    "results 8: ivory rhythm from Clare hero promise in ink",
+    "results 9: sage rhythm from Clare trust position in sage",
+    "results 10: ivory rhythm from Clare care route in ivory"
   ],
   "journalPageColourSequence": [
-    "journal 1: gold rhythm from Gold-line reassurance",
-    "journal 2: cream rhythm from Cream education glow",
-    "journal 3: ivory rhythm from Ivory results clarity",
-    "journal 4: sage rhythm from Pale sage journal strip",
-    "journal 5: gold rhythm from Gold CTA light band",
-    "journal 6: ivory rhythm from Bright ivory footer bridge",
-    "journal 7: ivory rhythm from Luminous ivory hero",
-    "journal 8: cream rhythm from Cream glow trust",
-    "journal 9: sage rhythm from Pale sage route field",
-    "journal 10: ivory rhythm from Ivory consultation light panel"
+    "journal 1: gold rhythm from Clare treatment navigation in gold",
+    "journal 2: dark rhythm from Clare human reassurance in dark",
+    "journal 3: ivory rhythm from Clare education preview in ink",
+    "journal 4: sage rhythm from Clare responsible expectations in sage",
+    "journal 5: ivory rhythm from Clare contact bridge in ivory",
+    "journal 6: cream rhythm from Clare closing identity in cream",
+    "journal 7: ivory rhythm from Clare hero promise in ink",
+    "journal 8: sage rhythm from Clare trust position in sage",
+    "journal 9: ivory rhythm from Clare care route in ivory",
+    "journal 10: cream rhythm from Clare consultation path in cream"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: ivory rhythm from Ivory results clarity",
-    "consultation 2: sage rhythm from Pale sage journal strip",
-    "consultation 3: gold rhythm from Gold CTA light band",
-    "consultation 4: ivory rhythm from Bright ivory footer bridge",
-    "consultation 5: ivory rhythm from Luminous ivory hero",
-    "consultation 6: cream rhythm from Cream glow trust",
-    "consultation 7: sage rhythm from Pale sage route field",
-    "consultation 8: ivory rhythm from Ivory consultation light panel",
-    "consultation 9: gold rhythm from Gold-line reassurance",
-    "consultation 10: cream rhythm from Cream education glow"
+    "consultation 1: ivory rhythm from Clare education preview in ink",
+    "consultation 2: sage rhythm from Clare responsible expectations in sage",
+    "consultation 3: ivory rhythm from Clare contact bridge in ivory",
+    "consultation 4: cream rhythm from Clare closing identity in cream",
+    "consultation 5: ivory rhythm from Clare hero promise in ink",
+    "consultation 6: sage rhythm from Clare trust position in sage",
+    "consultation 7: ivory rhythm from Clare care route in ivory",
+    "consultation 8: cream rhythm from Clare consultation path in cream",
+    "consultation 9: gold rhythm from Clare treatment navigation in gold",
+    "consultation 10: dark rhythm from Clare human reassurance in dark"
   ],
   "contactPageColourSequence": [
-    "contact 1: sage rhythm from Pale sage journal strip",
-    "contact 2: gold rhythm from Gold CTA light band",
-    "contact 3: ivory rhythm from Bright ivory footer bridge",
-    "contact 4: ivory rhythm from Luminous ivory hero",
-    "contact 5: cream rhythm from Cream glow trust",
-    "contact 6: sage rhythm from Pale sage route field",
-    "contact 7: ivory rhythm from Ivory consultation light panel",
-    "contact 8: gold rhythm from Gold-line reassurance",
-    "contact 9: cream rhythm from Cream education glow",
-    "contact 10: ivory rhythm from Ivory results clarity"
+    "contact 1: sage rhythm from Clare responsible expectations in sage",
+    "contact 2: ivory rhythm from Clare contact bridge in ivory",
+    "contact 3: cream rhythm from Clare closing identity in cream",
+    "contact 4: ivory rhythm from Clare hero promise in ink",
+    "contact 5: sage rhythm from Clare trust position in sage",
+    "contact 6: ivory rhythm from Clare care route in ivory",
+    "contact 7: cream rhythm from Clare consultation path in cream",
+    "contact 8: gold rhythm from Clare treatment navigation in gold",
+    "contact 9: dark rhythm from Clare human reassurance in dark",
+    "contact 10: ivory rhythm from Clare education preview in ink"
   ],
   "forbiddenColourPatterns": [
-    "No deep dark homepage",
-    "No heavy panels",
-    "No dense grids."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

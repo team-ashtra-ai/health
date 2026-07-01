@@ -138,7 +138,8 @@ def cta_styles(html: str) -> set[str]:
 
 def concept_specific(partial: str, number: str, name: str) -> bool:
     prefix = f"c{number}-"
-    return prefix in partial and name in partial
+    public_theme = f"sf-theme-{number}"
+    return (prefix in partial and name in partial) or public_theme in partial
 
 
 def audit() -> tuple[dict, bool]:

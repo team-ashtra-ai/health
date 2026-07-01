@@ -1,0 +1,267 @@
+{
+  "generatedAt": "2026-07-01T19:41:54.805Z",
+  "pages": 1050,
+  "viewports": [
+    1440,
+    1024,
+    768,
+    360
+  ],
+  "renderedChecks": 4200,
+  "renderedFailures": 0,
+  "cookieConceptChecks": 50,
+  "cookieFailures": 0,
+  "failures": [],
+  "cookieResults": [
+    {
+      "concept": "01-inspire",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "02-empower",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "03-enhance",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "04-renew",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "05-elevate",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "06-refine",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "07-glow",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "08-balance",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "09-radiance",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "10-essence",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "11-bloom",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "12-vital",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "13-poise",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "14-aura",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "15-clarity",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "16-grace",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "17-sculpt",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "18-lumin",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "19-verda",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "20-halo",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "21-calm",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "22-precision",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "23-ritual",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "24-signal",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "25-align",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "26-vivant",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "27-form",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "28-pure",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "29-solace",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "30-method",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "31-evolve",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "32-serene",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "33-elan",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "34-flora",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "35-atelier",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "36-lumina",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "37-vellum",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "38-origin",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "39-kindred",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "40-noble",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "41-vista",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "42-softline",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "43-meridian",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "44-safeguard",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "45-silhouette",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "46-curate",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "47-proof",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "48-signature",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "49-wisdom",
+      "status": "PASS",
+      "failures": []
+    },
+    {
+      "concept": "50-sovereign",
+      "status": "PASS",
+      "failures": []
+    }
+  ]
+}

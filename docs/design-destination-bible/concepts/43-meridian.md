@@ -1,12 +1,12 @@
-# 43-meridian — Guided Pathway
+# 43-meridian — Soft Iridescent Premium
 
 ## Visual Thesis
 
-A guided pathway site with meridian lines, route progress, and structured conversion.
+Opal uses luminous, delicate, refined pacing with opal glow and soft gradients.
 
 ## Colour Thesis
 
-Cream base. Sage pathway lines. Dark sage route anchors. Gold progress indicators. Blush guidance notes.
+pearl, blush, sage, ivory
 
 ## Systems
 
@@ -21,159 +21,161 @@ Cream base. Sage pathway lines. Dark sage route anchors. Gold progress indicator
 
 ## Homepage Colour Sequence
 
-1. Cream meridian hero
-2. Sage path trust
-3. Ivory route map
-4. Dark sage consultation anchor
-5. Blush guidance note
-6. Cream education path
-7. Sage results route
-8. Ivory journal map
-9. Gold progress CTA
-10. Deep sage pathway footer
+1. Opal hero promise in ivory
+2. Opal trust position in cream
+3. Opal care route in gold
+4. Opal consultation path in dark
+5. Opal treatment navigation in bronze
+6. Opal human reassurance in sage
+7. Opal education preview in ivory
+8. Opal responsible expectations in cream
+9. Opal contact bridge in gold
+10. Opal closing identity in dark
 
 ## All Other Pages
 
-Use vertical/horizontal guides, process maps, and navigation anchors.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No random section order
-- No unstructured cards
-- No purely decorative lines.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "43-meridian",
-  "colourThesis": "Cream base. Sage pathway lines. Dark sage route anchors. Gold progress indicators. Blush guidance notes.",
+  "colourThesis": "pearl, blush, sage, ivory",
   "dominantColourFamily": "dark",
   "secondaryColourFamily": "sage",
   "accentColourFamily": "ivory",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "axis-grid; no universal cream-card default",
   "buttonStrategy": "inline-route",
-  "footerColour": "Deep sage pathway footer",
-  "mobileMenuColour": "Blush guidance note",
+  "footerColour": "Opal closing identity in dark",
+  "mobileMenuColour": "Opal treatment navigation in bronze",
   "homepageSectionColourSequence": [
-    "Cream meridian hero",
-    "Sage path trust",
-    "Ivory route map",
-    "Dark sage consultation anchor",
-    "Blush guidance note",
-    "Cream education path",
-    "Sage results route",
-    "Ivory journal map",
-    "Gold progress CTA",
-    "Deep sage pathway footer"
+    "Opal hero promise in ivory",
+    "Opal trust position in cream",
+    "Opal care route in gold",
+    "Opal consultation path in dark",
+    "Opal treatment navigation in bronze",
+    "Opal human reassurance in sage",
+    "Opal education preview in ivory",
+    "Opal responsible expectations in cream",
+    "Opal contact bridge in gold",
+    "Opal closing identity in dark"
   ],
   "aboutPageColourSequence": [
-    "about 1: blush rhythm from Blush guidance note",
-    "about 2: cream rhythm from Cream education path",
-    "about 3: sage rhythm from Sage results route",
-    "about 4: ivory rhythm from Ivory journal map",
-    "about 5: gold rhythm from Gold progress CTA",
-    "about 6: dark rhythm from Deep sage pathway footer",
-    "about 7: cream rhythm from Cream meridian hero",
-    "about 8: sage rhythm from Sage path trust",
-    "about 9: ivory rhythm from Ivory route map",
-    "about 10: dark rhythm from Dark sage consultation anchor"
+    "about 1: bronze rhythm from Opal treatment navigation in bronze",
+    "about 2: sage rhythm from Opal human reassurance in sage",
+    "about 3: ivory rhythm from Opal education preview in ivory",
+    "about 4: cream rhythm from Opal responsible expectations in cream",
+    "about 5: gold rhythm from Opal contact bridge in gold",
+    "about 6: dark rhythm from Opal closing identity in dark",
+    "about 7: ivory rhythm from Opal hero promise in ivory",
+    "about 8: cream rhythm from Opal trust position in cream",
+    "about 9: gold rhythm from Opal care route in gold",
+    "about 10: dark rhythm from Opal consultation path in dark"
   ],
   "carePageColourSequence": [
-    "care 1: cream rhythm from Cream education path",
-    "care 2: sage rhythm from Sage results route",
-    "care 3: ivory rhythm from Ivory journal map",
-    "care 4: gold rhythm from Gold progress CTA",
-    "care 5: dark rhythm from Deep sage pathway footer",
-    "care 6: cream rhythm from Cream meridian hero",
-    "care 7: sage rhythm from Sage path trust",
-    "care 8: ivory rhythm from Ivory route map",
-    "care 9: dark rhythm from Dark sage consultation anchor",
-    "care 10: blush rhythm from Blush guidance note"
+    "care 1: sage rhythm from Opal human reassurance in sage",
+    "care 2: ivory rhythm from Opal education preview in ivory",
+    "care 3: cream rhythm from Opal responsible expectations in cream",
+    "care 4: gold rhythm from Opal contact bridge in gold",
+    "care 5: dark rhythm from Opal closing identity in dark",
+    "care 6: ivory rhythm from Opal hero promise in ivory",
+    "care 7: cream rhythm from Opal trust position in cream",
+    "care 8: gold rhythm from Opal care route in gold",
+    "care 9: dark rhythm from Opal consultation path in dark",
+    "care 10: bronze rhythm from Opal treatment navigation in bronze"
   ],
   "laserPageColourSequence": [
-    "laser 1: sage rhythm from Sage results route",
-    "laser 2: ivory rhythm from Ivory journal map",
-    "laser 3: gold rhythm from Gold progress CTA",
-    "laser 4: dark rhythm from Deep sage pathway footer",
-    "laser 5: cream rhythm from Cream meridian hero",
-    "laser 6: sage rhythm from Sage path trust",
-    "laser 7: ivory rhythm from Ivory route map",
-    "laser 8: dark rhythm from Dark sage consultation anchor",
-    "laser 9: blush rhythm from Blush guidance note",
-    "laser 10: cream rhythm from Cream education path"
+    "laser 1: ivory rhythm from Opal education preview in ivory",
+    "laser 2: cream rhythm from Opal responsible expectations in cream",
+    "laser 3: gold rhythm from Opal contact bridge in gold",
+    "laser 4: dark rhythm from Opal closing identity in dark",
+    "laser 5: ivory rhythm from Opal hero promise in ivory",
+    "laser 6: cream rhythm from Opal trust position in cream",
+    "laser 7: gold rhythm from Opal care route in gold",
+    "laser 8: dark rhythm from Opal consultation path in dark",
+    "laser 9: bronze rhythm from Opal treatment navigation in bronze",
+    "laser 10: sage rhythm from Opal human reassurance in sage"
   ],
   "skinPageColourSequence": [
-    "skin 1: ivory rhythm from Ivory journal map",
-    "skin 2: gold rhythm from Gold progress CTA",
-    "skin 3: dark rhythm from Deep sage pathway footer",
-    "skin 4: cream rhythm from Cream meridian hero",
-    "skin 5: sage rhythm from Sage path trust",
-    "skin 6: ivory rhythm from Ivory route map",
-    "skin 7: dark rhythm from Dark sage consultation anchor",
-    "skin 8: blush rhythm from Blush guidance note",
-    "skin 9: cream rhythm from Cream education path",
-    "skin 10: sage rhythm from Sage results route"
+    "skin 1: cream rhythm from Opal responsible expectations in cream",
+    "skin 2: gold rhythm from Opal contact bridge in gold",
+    "skin 3: dark rhythm from Opal closing identity in dark",
+    "skin 4: ivory rhythm from Opal hero promise in ivory",
+    "skin 5: cream rhythm from Opal trust position in cream",
+    "skin 6: gold rhythm from Opal care route in gold",
+    "skin 7: dark rhythm from Opal consultation path in dark",
+    "skin 8: bronze rhythm from Opal treatment navigation in bronze",
+    "skin 9: sage rhythm from Opal human reassurance in sage",
+    "skin 10: ivory rhythm from Opal education preview in ivory"
   ],
   "resultsPageColourSequence": [
-    "results 1: gold rhythm from Gold progress CTA",
-    "results 2: dark rhythm from Deep sage pathway footer",
-    "results 3: cream rhythm from Cream meridian hero",
-    "results 4: sage rhythm from Sage path trust",
-    "results 5: ivory rhythm from Ivory route map",
-    "results 6: dark rhythm from Dark sage consultation anchor",
-    "results 7: blush rhythm from Blush guidance note",
-    "results 8: cream rhythm from Cream education path",
-    "results 9: sage rhythm from Sage results route",
-    "results 10: ivory rhythm from Ivory journal map"
+    "results 1: gold rhythm from Opal contact bridge in gold",
+    "results 2: dark rhythm from Opal closing identity in dark",
+    "results 3: ivory rhythm from Opal hero promise in ivory",
+    "results 4: cream rhythm from Opal trust position in cream",
+    "results 5: gold rhythm from Opal care route in gold",
+    "results 6: dark rhythm from Opal consultation path in dark",
+    "results 7: bronze rhythm from Opal treatment navigation in bronze",
+    "results 8: sage rhythm from Opal human reassurance in sage",
+    "results 9: ivory rhythm from Opal education preview in ivory",
+    "results 10: cream rhythm from Opal responsible expectations in cream"
   ],
   "journalPageColourSequence": [
-    "journal 1: dark rhythm from Deep sage pathway footer",
-    "journal 2: cream rhythm from Cream meridian hero",
-    "journal 3: sage rhythm from Sage path trust",
-    "journal 4: ivory rhythm from Ivory route map",
-    "journal 5: dark rhythm from Dark sage consultation anchor",
-    "journal 6: blush rhythm from Blush guidance note",
-    "journal 7: cream rhythm from Cream education path",
-    "journal 8: sage rhythm from Sage results route",
-    "journal 9: ivory rhythm from Ivory journal map",
-    "journal 10: gold rhythm from Gold progress CTA"
+    "journal 1: dark rhythm from Opal closing identity in dark",
+    "journal 2: ivory rhythm from Opal hero promise in ivory",
+    "journal 3: cream rhythm from Opal trust position in cream",
+    "journal 4: gold rhythm from Opal care route in gold",
+    "journal 5: dark rhythm from Opal consultation path in dark",
+    "journal 6: bronze rhythm from Opal treatment navigation in bronze",
+    "journal 7: sage rhythm from Opal human reassurance in sage",
+    "journal 8: ivory rhythm from Opal education preview in ivory",
+    "journal 9: cream rhythm from Opal responsible expectations in cream",
+    "journal 10: gold rhythm from Opal contact bridge in gold"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: sage rhythm from Sage path trust",
-    "consultation 2: ivory rhythm from Ivory route map",
-    "consultation 3: dark rhythm from Dark sage consultation anchor",
-    "consultation 4: blush rhythm from Blush guidance note",
-    "consultation 5: cream rhythm from Cream education path",
-    "consultation 6: sage rhythm from Sage results route",
-    "consultation 7: ivory rhythm from Ivory journal map",
-    "consultation 8: gold rhythm from Gold progress CTA",
-    "consultation 9: dark rhythm from Deep sage pathway footer",
-    "consultation 10: cream rhythm from Cream meridian hero"
+    "consultation 1: cream rhythm from Opal trust position in cream",
+    "consultation 2: gold rhythm from Opal care route in gold",
+    "consultation 3: dark rhythm from Opal consultation path in dark",
+    "consultation 4: bronze rhythm from Opal treatment navigation in bronze",
+    "consultation 5: sage rhythm from Opal human reassurance in sage",
+    "consultation 6: ivory rhythm from Opal education preview in ivory",
+    "consultation 7: cream rhythm from Opal responsible expectations in cream",
+    "consultation 8: gold rhythm from Opal contact bridge in gold",
+    "consultation 9: dark rhythm from Opal closing identity in dark",
+    "consultation 10: ivory rhythm from Opal hero promise in ivory"
   ],
   "contactPageColourSequence": [
-    "contact 1: ivory rhythm from Ivory route map",
-    "contact 2: dark rhythm from Dark sage consultation anchor",
-    "contact 3: blush rhythm from Blush guidance note",
-    "contact 4: cream rhythm from Cream education path",
-    "contact 5: sage rhythm from Sage results route",
-    "contact 6: ivory rhythm from Ivory journal map",
-    "contact 7: gold rhythm from Gold progress CTA",
-    "contact 8: dark rhythm from Deep sage pathway footer",
-    "contact 9: cream rhythm from Cream meridian hero",
-    "contact 10: sage rhythm from Sage path trust"
+    "contact 1: gold rhythm from Opal care route in gold",
+    "contact 2: dark rhythm from Opal consultation path in dark",
+    "contact 3: bronze rhythm from Opal treatment navigation in bronze",
+    "contact 4: sage rhythm from Opal human reassurance in sage",
+    "contact 5: ivory rhythm from Opal education preview in ivory",
+    "contact 6: cream rhythm from Opal responsible expectations in cream",
+    "contact 7: gold rhythm from Opal contact bridge in gold",
+    "contact 8: dark rhythm from Opal closing identity in dark",
+    "contact 9: ivory rhythm from Opal hero promise in ivory",
+    "contact 10: cream rhythm from Opal trust position in cream"
   ],
   "forbiddenColourPatterns": [
-    "No random section order",
-    "No unstructured cards",
-    "No purely decorative lines."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

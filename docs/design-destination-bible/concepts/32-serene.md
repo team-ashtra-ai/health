@@ -1,12 +1,12 @@
-# 32-serene — Spa Calm
+# 32-serene — Sunlit Skin Studio
 
 ## Visual Thesis
 
-A refined spa-calm site with slow rhythm and understated visuals.
+Solea uses sunlit, warm, radiant pacing with sunlight inspired skin care.
 
 ## Colour Thesis
 
-Soft sage, cream, blush 50/100, gentle gradients. Minimal dark. CTAs soft sage or blush.
+warm cream, soft gold, sage
 
 ## Systems
 
@@ -21,159 +21,161 @@ Soft sage, cream, blush 50/100, gentle gradients. Minimal dark. CTAs soft sage o
 
 ## Homepage Colour Sequence
 
-1. Soft sage spa hero
-2. Cream calm trust
-3. Blush gentle route
-4. Ivory consultation calm
-5. Sage reassurance band
-6. Cream education flow
-7. Blush results note
-8. Ivory journal calm
-9. Soft sage CTA
-10. Sage footer
+1. Solea hero promise in gold
+2. Solea trust position in ivory
+3. Solea care route in dark
+4. Solea consultation path in bronze
+5. Solea treatment navigation in sage
+6. Solea human reassurance in cream
+7. Solea education preview in gold
+8. Solea responsible expectations in ivory
+9. Solea contact bridge in dark
+10. Solea closing identity in bronze
 
 ## All Other Pages
 
-Use slow full-width bands and quiet imagery.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No clinical tables
-- No high-contrast editorial
-- No busy grids.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "32-serene",
-  "colourThesis": "Soft sage, cream, blush 50/100, gentle gradients. Minimal dark. CTAs soft sage or blush.",
+  "colourThesis": "warm cream, soft gold, sage",
   "dominantColourFamily": "dark",
   "secondaryColourFamily": "sage",
   "accentColourFamily": "ivory",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "expectation-ledger; no universal cream-card default",
   "buttonStrategy": "gold-mark",
-  "footerColour": "Sage footer",
-  "mobileMenuColour": "Ivory consultation calm",
+  "footerColour": "Solea closing identity in bronze",
+  "mobileMenuColour": "Solea consultation path in bronze",
   "homepageSectionColourSequence": [
-    "Soft sage spa hero",
-    "Cream calm trust",
-    "Blush gentle route",
-    "Ivory consultation calm",
-    "Sage reassurance band",
-    "Cream education flow",
-    "Blush results note",
-    "Ivory journal calm",
-    "Soft sage CTA",
-    "Sage footer"
+    "Solea hero promise in gold",
+    "Solea trust position in ivory",
+    "Solea care route in dark",
+    "Solea consultation path in bronze",
+    "Solea treatment navigation in sage",
+    "Solea human reassurance in cream",
+    "Solea education preview in gold",
+    "Solea responsible expectations in ivory",
+    "Solea contact bridge in dark",
+    "Solea closing identity in bronze"
   ],
   "aboutPageColourSequence": [
-    "about 1: ivory rhythm from Ivory consultation calm",
-    "about 2: sage rhythm from Sage reassurance band",
-    "about 3: cream rhythm from Cream education flow",
-    "about 4: blush rhythm from Blush results note",
-    "about 5: ivory rhythm from Ivory journal calm",
-    "about 6: sage rhythm from Soft sage CTA",
-    "about 7: sage rhythm from Sage footer",
-    "about 8: sage rhythm from Soft sage spa hero",
-    "about 9: cream rhythm from Cream calm trust",
-    "about 10: blush rhythm from Blush gentle route"
+    "about 1: bronze rhythm from Solea consultation path in bronze",
+    "about 2: sage rhythm from Solea treatment navigation in sage",
+    "about 3: cream rhythm from Solea human reassurance in cream",
+    "about 4: gold rhythm from Solea education preview in gold",
+    "about 5: ivory rhythm from Solea responsible expectations in ivory",
+    "about 6: dark rhythm from Solea contact bridge in dark",
+    "about 7: bronze rhythm from Solea closing identity in bronze",
+    "about 8: gold rhythm from Solea hero promise in gold",
+    "about 9: ivory rhythm from Solea trust position in ivory",
+    "about 10: dark rhythm from Solea care route in dark"
   ],
   "carePageColourSequence": [
-    "care 1: sage rhythm from Sage reassurance band",
-    "care 2: cream rhythm from Cream education flow",
-    "care 3: blush rhythm from Blush results note",
-    "care 4: ivory rhythm from Ivory journal calm",
-    "care 5: sage rhythm from Soft sage CTA",
-    "care 6: sage rhythm from Sage footer",
-    "care 7: sage rhythm from Soft sage spa hero",
-    "care 8: cream rhythm from Cream calm trust",
-    "care 9: blush rhythm from Blush gentle route",
-    "care 10: ivory rhythm from Ivory consultation calm"
+    "care 1: sage rhythm from Solea treatment navigation in sage",
+    "care 2: cream rhythm from Solea human reassurance in cream",
+    "care 3: gold rhythm from Solea education preview in gold",
+    "care 4: ivory rhythm from Solea responsible expectations in ivory",
+    "care 5: dark rhythm from Solea contact bridge in dark",
+    "care 6: bronze rhythm from Solea closing identity in bronze",
+    "care 7: gold rhythm from Solea hero promise in gold",
+    "care 8: ivory rhythm from Solea trust position in ivory",
+    "care 9: dark rhythm from Solea care route in dark",
+    "care 10: bronze rhythm from Solea consultation path in bronze"
   ],
   "laserPageColourSequence": [
-    "laser 1: cream rhythm from Cream education flow",
-    "laser 2: blush rhythm from Blush results note",
-    "laser 3: ivory rhythm from Ivory journal calm",
-    "laser 4: sage rhythm from Soft sage CTA",
-    "laser 5: sage rhythm from Sage footer",
-    "laser 6: sage rhythm from Soft sage spa hero",
-    "laser 7: cream rhythm from Cream calm trust",
-    "laser 8: blush rhythm from Blush gentle route",
-    "laser 9: ivory rhythm from Ivory consultation calm",
-    "laser 10: sage rhythm from Sage reassurance band"
+    "laser 1: cream rhythm from Solea human reassurance in cream",
+    "laser 2: gold rhythm from Solea education preview in gold",
+    "laser 3: ivory rhythm from Solea responsible expectations in ivory",
+    "laser 4: dark rhythm from Solea contact bridge in dark",
+    "laser 5: bronze rhythm from Solea closing identity in bronze",
+    "laser 6: gold rhythm from Solea hero promise in gold",
+    "laser 7: ivory rhythm from Solea trust position in ivory",
+    "laser 8: dark rhythm from Solea care route in dark",
+    "laser 9: bronze rhythm from Solea consultation path in bronze",
+    "laser 10: sage rhythm from Solea treatment navigation in sage"
   ],
   "skinPageColourSequence": [
-    "skin 1: blush rhythm from Blush results note",
-    "skin 2: ivory rhythm from Ivory journal calm",
-    "skin 3: sage rhythm from Soft sage CTA",
-    "skin 4: sage rhythm from Sage footer",
-    "skin 5: sage rhythm from Soft sage spa hero",
-    "skin 6: cream rhythm from Cream calm trust",
-    "skin 7: blush rhythm from Blush gentle route",
-    "skin 8: ivory rhythm from Ivory consultation calm",
-    "skin 9: sage rhythm from Sage reassurance band",
-    "skin 10: cream rhythm from Cream education flow"
+    "skin 1: gold rhythm from Solea education preview in gold",
+    "skin 2: ivory rhythm from Solea responsible expectations in ivory",
+    "skin 3: dark rhythm from Solea contact bridge in dark",
+    "skin 4: bronze rhythm from Solea closing identity in bronze",
+    "skin 5: gold rhythm from Solea hero promise in gold",
+    "skin 6: ivory rhythm from Solea trust position in ivory",
+    "skin 7: dark rhythm from Solea care route in dark",
+    "skin 8: bronze rhythm from Solea consultation path in bronze",
+    "skin 9: sage rhythm from Solea treatment navigation in sage",
+    "skin 10: cream rhythm from Solea human reassurance in cream"
   ],
   "resultsPageColourSequence": [
-    "results 1: ivory rhythm from Ivory journal calm",
-    "results 2: sage rhythm from Soft sage CTA",
-    "results 3: sage rhythm from Sage footer",
-    "results 4: sage rhythm from Soft sage spa hero",
-    "results 5: cream rhythm from Cream calm trust",
-    "results 6: blush rhythm from Blush gentle route",
-    "results 7: ivory rhythm from Ivory consultation calm",
-    "results 8: sage rhythm from Sage reassurance band",
-    "results 9: cream rhythm from Cream education flow",
-    "results 10: blush rhythm from Blush results note"
+    "results 1: ivory rhythm from Solea responsible expectations in ivory",
+    "results 2: dark rhythm from Solea contact bridge in dark",
+    "results 3: bronze rhythm from Solea closing identity in bronze",
+    "results 4: gold rhythm from Solea hero promise in gold",
+    "results 5: ivory rhythm from Solea trust position in ivory",
+    "results 6: dark rhythm from Solea care route in dark",
+    "results 7: bronze rhythm from Solea consultation path in bronze",
+    "results 8: sage rhythm from Solea treatment navigation in sage",
+    "results 9: cream rhythm from Solea human reassurance in cream",
+    "results 10: gold rhythm from Solea education preview in gold"
   ],
   "journalPageColourSequence": [
-    "journal 1: sage rhythm from Soft sage CTA",
-    "journal 2: sage rhythm from Sage footer",
-    "journal 3: sage rhythm from Soft sage spa hero",
-    "journal 4: cream rhythm from Cream calm trust",
-    "journal 5: blush rhythm from Blush gentle route",
-    "journal 6: ivory rhythm from Ivory consultation calm",
-    "journal 7: sage rhythm from Sage reassurance band",
-    "journal 8: cream rhythm from Cream education flow",
-    "journal 9: blush rhythm from Blush results note",
-    "journal 10: ivory rhythm from Ivory journal calm"
+    "journal 1: dark rhythm from Solea contact bridge in dark",
+    "journal 2: bronze rhythm from Solea closing identity in bronze",
+    "journal 3: gold rhythm from Solea hero promise in gold",
+    "journal 4: ivory rhythm from Solea trust position in ivory",
+    "journal 5: dark rhythm from Solea care route in dark",
+    "journal 6: bronze rhythm from Solea consultation path in bronze",
+    "journal 7: sage rhythm from Solea treatment navigation in sage",
+    "journal 8: cream rhythm from Solea human reassurance in cream",
+    "journal 9: gold rhythm from Solea education preview in gold",
+    "journal 10: ivory rhythm from Solea responsible expectations in ivory"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: sage rhythm from Soft sage spa hero",
-    "consultation 2: cream rhythm from Cream calm trust",
-    "consultation 3: blush rhythm from Blush gentle route",
-    "consultation 4: ivory rhythm from Ivory consultation calm",
-    "consultation 5: sage rhythm from Sage reassurance band",
-    "consultation 6: cream rhythm from Cream education flow",
-    "consultation 7: blush rhythm from Blush results note",
-    "consultation 8: ivory rhythm from Ivory journal calm",
-    "consultation 9: sage rhythm from Soft sage CTA",
-    "consultation 10: sage rhythm from Sage footer"
+    "consultation 1: gold rhythm from Solea hero promise in gold",
+    "consultation 2: ivory rhythm from Solea trust position in ivory",
+    "consultation 3: dark rhythm from Solea care route in dark",
+    "consultation 4: bronze rhythm from Solea consultation path in bronze",
+    "consultation 5: sage rhythm from Solea treatment navigation in sage",
+    "consultation 6: cream rhythm from Solea human reassurance in cream",
+    "consultation 7: gold rhythm from Solea education preview in gold",
+    "consultation 8: ivory rhythm from Solea responsible expectations in ivory",
+    "consultation 9: dark rhythm from Solea contact bridge in dark",
+    "consultation 10: bronze rhythm from Solea closing identity in bronze"
   ],
   "contactPageColourSequence": [
-    "contact 1: cream rhythm from Cream calm trust",
-    "contact 2: blush rhythm from Blush gentle route",
-    "contact 3: ivory rhythm from Ivory consultation calm",
-    "contact 4: sage rhythm from Sage reassurance band",
-    "contact 5: cream rhythm from Cream education flow",
-    "contact 6: blush rhythm from Blush results note",
-    "contact 7: ivory rhythm from Ivory journal calm",
-    "contact 8: sage rhythm from Soft sage CTA",
-    "contact 9: sage rhythm from Sage footer",
-    "contact 10: sage rhythm from Soft sage spa hero"
+    "contact 1: ivory rhythm from Solea trust position in ivory",
+    "contact 2: dark rhythm from Solea care route in dark",
+    "contact 3: bronze rhythm from Solea consultation path in bronze",
+    "contact 4: sage rhythm from Solea treatment navigation in sage",
+    "contact 5: cream rhythm from Solea human reassurance in cream",
+    "contact 6: gold rhythm from Solea education preview in gold",
+    "contact 7: ivory rhythm from Solea responsible expectations in ivory",
+    "contact 8: dark rhythm from Solea contact bridge in dark",
+    "contact 9: bronze rhythm from Solea closing identity in bronze",
+    "contact 10: gold rhythm from Solea hero promise in gold"
   ],
   "forbiddenColourPatterns": [
-    "No clinical tables",
-    "No high-contrast editorial",
-    "No busy grids."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

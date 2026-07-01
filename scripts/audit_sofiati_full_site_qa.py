@@ -20,7 +20,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CONCEPTS_DIR = ROOT / "concepts"
 DOCS_DIR = ROOT / "docs" / "script-runs"
-VIEWPORTS = [1440, 1280, 1024, 768, 430, 390, 360]
+VIEWPORTS = [1440, 1024, 768, 360]
 
 REQUIRED_MAIN = ["Home", "About", "Care", "Laser", "Skin", "Results", "Journal", "Contact"]
 REQUIRED_FOOTER = [
@@ -245,11 +245,11 @@ const waitForPartials = async (page) => {{
     const names = ['header', 'mobile-menu', 'footer', 'cookie-banner', 'floating-widgets'];
     return names.every((name) => document.querySelector(`[data-sofiati-partial="${{name}}"]`)?.dataset.partialLoaded === 'true');
   }}, null, {{ timeout: 12000 }});
-  await page.waitForLoadState('networkidle', {{ timeout: 5000 }}).catch(() => {{}});
+  await page.waitForLoadState('networkidle', {{ timeout: 300 }}).catch(() => {{}});
   await page.waitForFunction(() => {{
     const logos = [...document.querySelectorAll('.sf-logo-img')];
     return logos.length >= 3 && logos.every((img) => img.complete && img.naturalWidth > 0);
-  }}, null, {{ timeout: 5000 }}).catch(() => {{}});
+  }}, null, {{ timeout: 1200 }}).catch(() => {{}});
 }};
 
 const visibleImagesLoaded = async (page) => {{

@@ -1,12 +1,12 @@
-# 02-empower — Botanical Confidence
+# 02-empower — Clinical Confidence Care
 
 ## Visual Thesis
 
-A confident botanical website with organic structure, not a soft spa cliché. The site should feel natural, clear, and quietly strong.
+Empower uses precise, structured, confident, medical luxury pacing with clinical grid with trust markers.
 
 ## Colour Thesis
 
-Sage 100/200/300 dominate. Ivory and cream provide calm negative space. Bronze/gold are tiny botanical line accents. Blush appears in one or two human warmth sections only.
+ivory, pale sage, olive, controlled blush
 
 ## Systems
 
@@ -21,161 +21,161 @@ Sage 100/200/300 dominate. Ivory and cream provide calm negative space. Bronze/g
 
 ## Homepage Colour Sequence
 
-1. Sage-soft botanical hero
-2. Cream confidence manifesto
-3. Sage route garden with organic dividers
-4. Ivory consultation explanation
-5. Blush-soft human reassurance
-6. Sage education field
-7. Cream results expectation path
-8. Ivory journal seed index
-9. Sage contact grove
-10. Botanical sage footer bridge
+1. Empower hero promise in cream
+2. Empower trust position in gold
+3. Empower care route in dark
+4. Empower consultation path in bronze
+5. Empower treatment navigation in sage
+6. Empower human reassurance in ivory
+7. Empower education preview in cream
+8. Empower responsible expectations in gold
+9. Empower contact bridge in dark
+10. Empower closing identity in bronze
 
 ## All Other Pages
 
-Begin with sage-soft masthead, alternate organic sage and cream fields, use blush only for reassurance or warmth.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No dark luxury dominance
-- No generic white cards
-- No fake leaf assets
-- CSS/SVG botanical detail only.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "02-empower",
-  "colourThesis": "Sage 100/200/300 dominate. Ivory and cream provide calm negative space. Bronze/gold are tiny botanical line accents. Blush appears in one or two human warmth sections only.",
-  "dominantColourFamily": "sage",
-  "secondaryColourFamily": "ivory",
-  "accentColourFamily": "cream",
-  "contrastTemperature": "soft refined",
-  "darkUsage": "reserved for footer, text, or one anchor band",
-  "blushUsage": "purposeful warmth and guidance notes",
-  "sageUsage": "primary architecture",
+  "colourThesis": "ivory, pale sage, olive, controlled blush",
+  "dominantColourFamily": "dark",
+  "secondaryColourFamily": "sage",
+  "accentColourFamily": "ivory",
+  "contrastTemperature": "high editorial",
+  "darkUsage": "dominant structural field",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
+  "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "expectation-ledger; no universal cream-card default",
   "buttonStrategy": "gold-mark",
-  "footerColour": "Botanical sage footer bridge",
-  "mobileMenuColour": "Ivory consultation explanation",
+  "footerColour": "Empower closing identity in bronze",
+  "mobileMenuColour": "Empower consultation path in bronze",
   "homepageSectionColourSequence": [
-    "Sage-soft botanical hero",
-    "Cream confidence manifesto",
-    "Sage route garden with organic dividers",
-    "Ivory consultation explanation",
-    "Blush-soft human reassurance",
-    "Sage education field",
-    "Cream results expectation path",
-    "Ivory journal seed index",
-    "Sage contact grove",
-    "Botanical sage footer bridge"
+    "Empower hero promise in cream",
+    "Empower trust position in gold",
+    "Empower care route in dark",
+    "Empower consultation path in bronze",
+    "Empower treatment navigation in sage",
+    "Empower human reassurance in ivory",
+    "Empower education preview in cream",
+    "Empower responsible expectations in gold",
+    "Empower contact bridge in dark",
+    "Empower closing identity in bronze"
   ],
   "aboutPageColourSequence": [
-    "about 1: ivory rhythm from Ivory consultation explanation",
-    "about 2: blush rhythm from Blush-soft human reassurance",
-    "about 3: sage rhythm from Sage education field",
-    "about 4: cream rhythm from Cream results expectation path",
-    "about 5: ivory rhythm from Ivory journal seed index",
-    "about 6: sage rhythm from Sage contact grove",
-    "about 7: sage rhythm from Botanical sage footer bridge",
-    "about 8: sage rhythm from Sage-soft botanical hero",
-    "about 9: cream rhythm from Cream confidence manifesto",
-    "about 10: sage rhythm from Sage route garden with organic dividers"
+    "about 1: bronze rhythm from Empower consultation path in bronze",
+    "about 2: sage rhythm from Empower treatment navigation in sage",
+    "about 3: ivory rhythm from Empower human reassurance in ivory",
+    "about 4: cream rhythm from Empower education preview in cream",
+    "about 5: gold rhythm from Empower responsible expectations in gold",
+    "about 6: dark rhythm from Empower contact bridge in dark",
+    "about 7: bronze rhythm from Empower closing identity in bronze",
+    "about 8: cream rhythm from Empower hero promise in cream",
+    "about 9: gold rhythm from Empower trust position in gold",
+    "about 10: dark rhythm from Empower care route in dark"
   ],
   "carePageColourSequence": [
-    "care 1: blush rhythm from Blush-soft human reassurance",
-    "care 2: sage rhythm from Sage education field",
-    "care 3: cream rhythm from Cream results expectation path",
-    "care 4: ivory rhythm from Ivory journal seed index",
-    "care 5: sage rhythm from Sage contact grove",
-    "care 6: sage rhythm from Botanical sage footer bridge",
-    "care 7: sage rhythm from Sage-soft botanical hero",
-    "care 8: cream rhythm from Cream confidence manifesto",
-    "care 9: sage rhythm from Sage route garden with organic dividers",
-    "care 10: ivory rhythm from Ivory consultation explanation"
+    "care 1: sage rhythm from Empower treatment navigation in sage",
+    "care 2: ivory rhythm from Empower human reassurance in ivory",
+    "care 3: cream rhythm from Empower education preview in cream",
+    "care 4: gold rhythm from Empower responsible expectations in gold",
+    "care 5: dark rhythm from Empower contact bridge in dark",
+    "care 6: bronze rhythm from Empower closing identity in bronze",
+    "care 7: cream rhythm from Empower hero promise in cream",
+    "care 8: gold rhythm from Empower trust position in gold",
+    "care 9: dark rhythm from Empower care route in dark",
+    "care 10: bronze rhythm from Empower consultation path in bronze"
   ],
   "laserPageColourSequence": [
-    "laser 1: sage rhythm from Sage education field",
-    "laser 2: cream rhythm from Cream results expectation path",
-    "laser 3: ivory rhythm from Ivory journal seed index",
-    "laser 4: sage rhythm from Sage contact grove",
-    "laser 5: sage rhythm from Botanical sage footer bridge",
-    "laser 6: sage rhythm from Sage-soft botanical hero",
-    "laser 7: cream rhythm from Cream confidence manifesto",
-    "laser 8: sage rhythm from Sage route garden with organic dividers",
-    "laser 9: ivory rhythm from Ivory consultation explanation",
-    "laser 10: blush rhythm from Blush-soft human reassurance"
+    "laser 1: ivory rhythm from Empower human reassurance in ivory",
+    "laser 2: cream rhythm from Empower education preview in cream",
+    "laser 3: gold rhythm from Empower responsible expectations in gold",
+    "laser 4: dark rhythm from Empower contact bridge in dark",
+    "laser 5: bronze rhythm from Empower closing identity in bronze",
+    "laser 6: cream rhythm from Empower hero promise in cream",
+    "laser 7: gold rhythm from Empower trust position in gold",
+    "laser 8: dark rhythm from Empower care route in dark",
+    "laser 9: bronze rhythm from Empower consultation path in bronze",
+    "laser 10: sage rhythm from Empower treatment navigation in sage"
   ],
   "skinPageColourSequence": [
-    "skin 1: cream rhythm from Cream results expectation path",
-    "skin 2: ivory rhythm from Ivory journal seed index",
-    "skin 3: sage rhythm from Sage contact grove",
-    "skin 4: sage rhythm from Botanical sage footer bridge",
-    "skin 5: sage rhythm from Sage-soft botanical hero",
-    "skin 6: cream rhythm from Cream confidence manifesto",
-    "skin 7: sage rhythm from Sage route garden with organic dividers",
-    "skin 8: ivory rhythm from Ivory consultation explanation",
-    "skin 9: blush rhythm from Blush-soft human reassurance",
-    "skin 10: sage rhythm from Sage education field"
+    "skin 1: cream rhythm from Empower education preview in cream",
+    "skin 2: gold rhythm from Empower responsible expectations in gold",
+    "skin 3: dark rhythm from Empower contact bridge in dark",
+    "skin 4: bronze rhythm from Empower closing identity in bronze",
+    "skin 5: cream rhythm from Empower hero promise in cream",
+    "skin 6: gold rhythm from Empower trust position in gold",
+    "skin 7: dark rhythm from Empower care route in dark",
+    "skin 8: bronze rhythm from Empower consultation path in bronze",
+    "skin 9: sage rhythm from Empower treatment navigation in sage",
+    "skin 10: ivory rhythm from Empower human reassurance in ivory"
   ],
   "resultsPageColourSequence": [
-    "results 1: ivory rhythm from Ivory journal seed index",
-    "results 2: sage rhythm from Sage contact grove",
-    "results 3: sage rhythm from Botanical sage footer bridge",
-    "results 4: sage rhythm from Sage-soft botanical hero",
-    "results 5: cream rhythm from Cream confidence manifesto",
-    "results 6: sage rhythm from Sage route garden with organic dividers",
-    "results 7: ivory rhythm from Ivory consultation explanation",
-    "results 8: blush rhythm from Blush-soft human reassurance",
-    "results 9: sage rhythm from Sage education field",
-    "results 10: cream rhythm from Cream results expectation path"
+    "results 1: gold rhythm from Empower responsible expectations in gold",
+    "results 2: dark rhythm from Empower contact bridge in dark",
+    "results 3: bronze rhythm from Empower closing identity in bronze",
+    "results 4: cream rhythm from Empower hero promise in cream",
+    "results 5: gold rhythm from Empower trust position in gold",
+    "results 6: dark rhythm from Empower care route in dark",
+    "results 7: bronze rhythm from Empower consultation path in bronze",
+    "results 8: sage rhythm from Empower treatment navigation in sage",
+    "results 9: ivory rhythm from Empower human reassurance in ivory",
+    "results 10: cream rhythm from Empower education preview in cream"
   ],
   "journalPageColourSequence": [
-    "journal 1: sage rhythm from Sage contact grove",
-    "journal 2: sage rhythm from Botanical sage footer bridge",
-    "journal 3: sage rhythm from Sage-soft botanical hero",
-    "journal 4: cream rhythm from Cream confidence manifesto",
-    "journal 5: sage rhythm from Sage route garden with organic dividers",
-    "journal 6: ivory rhythm from Ivory consultation explanation",
-    "journal 7: blush rhythm from Blush-soft human reassurance",
-    "journal 8: sage rhythm from Sage education field",
-    "journal 9: cream rhythm from Cream results expectation path",
-    "journal 10: ivory rhythm from Ivory journal seed index"
+    "journal 1: dark rhythm from Empower contact bridge in dark",
+    "journal 2: bronze rhythm from Empower closing identity in bronze",
+    "journal 3: cream rhythm from Empower hero promise in cream",
+    "journal 4: gold rhythm from Empower trust position in gold",
+    "journal 5: dark rhythm from Empower care route in dark",
+    "journal 6: bronze rhythm from Empower consultation path in bronze",
+    "journal 7: sage rhythm from Empower treatment navigation in sage",
+    "journal 8: ivory rhythm from Empower human reassurance in ivory",
+    "journal 9: cream rhythm from Empower education preview in cream",
+    "journal 10: gold rhythm from Empower responsible expectations in gold"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: sage rhythm from Sage-soft botanical hero",
-    "consultation 2: cream rhythm from Cream confidence manifesto",
-    "consultation 3: sage rhythm from Sage route garden with organic dividers",
-    "consultation 4: ivory rhythm from Ivory consultation explanation",
-    "consultation 5: blush rhythm from Blush-soft human reassurance",
-    "consultation 6: sage rhythm from Sage education field",
-    "consultation 7: cream rhythm from Cream results expectation path",
-    "consultation 8: ivory rhythm from Ivory journal seed index",
-    "consultation 9: sage rhythm from Sage contact grove",
-    "consultation 10: sage rhythm from Botanical sage footer bridge"
+    "consultation 1: cream rhythm from Empower hero promise in cream",
+    "consultation 2: gold rhythm from Empower trust position in gold",
+    "consultation 3: dark rhythm from Empower care route in dark",
+    "consultation 4: bronze rhythm from Empower consultation path in bronze",
+    "consultation 5: sage rhythm from Empower treatment navigation in sage",
+    "consultation 6: ivory rhythm from Empower human reassurance in ivory",
+    "consultation 7: cream rhythm from Empower education preview in cream",
+    "consultation 8: gold rhythm from Empower responsible expectations in gold",
+    "consultation 9: dark rhythm from Empower contact bridge in dark",
+    "consultation 10: bronze rhythm from Empower closing identity in bronze"
   ],
   "contactPageColourSequence": [
-    "contact 1: cream rhythm from Cream confidence manifesto",
-    "contact 2: sage rhythm from Sage route garden with organic dividers",
-    "contact 3: ivory rhythm from Ivory consultation explanation",
-    "contact 4: blush rhythm from Blush-soft human reassurance",
-    "contact 5: sage rhythm from Sage education field",
-    "contact 6: cream rhythm from Cream results expectation path",
-    "contact 7: ivory rhythm from Ivory journal seed index",
-    "contact 8: sage rhythm from Sage contact grove",
-    "contact 9: sage rhythm from Botanical sage footer bridge",
-    "contact 10: sage rhythm from Sage-soft botanical hero"
+    "contact 1: gold rhythm from Empower trust position in gold",
+    "contact 2: dark rhythm from Empower care route in dark",
+    "contact 3: bronze rhythm from Empower consultation path in bronze",
+    "contact 4: sage rhythm from Empower treatment navigation in sage",
+    "contact 5: ivory rhythm from Empower human reassurance in ivory",
+    "contact 6: cream rhythm from Empower education preview in cream",
+    "contact 7: gold rhythm from Empower responsible expectations in gold",
+    "contact 8: dark rhythm from Empower contact bridge in dark",
+    "contact 9: bronze rhythm from Empower closing identity in bronze",
+    "contact 10: cream rhythm from Empower hero promise in cream"
   ],
   "forbiddenColourPatterns": [
-    "No dark luxury dominance",
-    "No generic white cards",
-    "No fake leaf assets",
-    "CSS/SVG botanical detail only."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

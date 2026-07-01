@@ -1,12 +1,12 @@
-# 34-flora — Botanical Luxury
+# 34-flora — Grounded Wellness Clinic
 
 ## Visual Thesis
 
-A high-end botanical luxury site: natural, refined, premium, not rustic.
+Vale uses earthy, calm, reassuring pacing with grounded trust.
 
 ## Colour Thesis
 
-Sage and cream dominate. Gold botanical details. Blush as flower accent. Dark sage footer.
+olive, sand, sage, ivory
 
 ## Systems
 
@@ -21,159 +21,161 @@ Sage and cream dominate. Gold botanical details. Blush as flower accent. Dark sa
 
 ## Homepage Colour Sequence
 
-1. Sage/cream luxury botanical hero
-2. Ivory trust garden
-3. Sage route branches
-4. Cream consultation bloom
-5. Gold-line botanical statement
-6. Sage education leaves
-7. Ivory results flower note
-8. Cream journal flora path
-9. Blush/gold CTA
-10. Dark sage botanical footer
+1. Vale hero promise in dark
+2. Vale trust position in bronze
+3. Vale care route in sage
+4. Vale consultation path in ivory
+5. Vale treatment navigation in cream
+6. Vale human reassurance in gold
+7. Vale education preview in dark
+8. Vale responsible expectations in bronze
+9. Vale contact bridge in sage
+10. Vale closing identity in ivory
 
 ## All Other Pages
 
-Use botanical luxury motifs and refined gold details.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No rustic earthy heaviness
-- No fake plant images
-- No generic cards.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "34-flora",
-  "colourThesis": "Sage and cream dominate. Gold botanical details. Blush as flower accent. Dark sage footer.",
+  "colourThesis": "olive, sand, sage, ivory",
   "dominantColourFamily": "dark",
   "secondaryColourFamily": "sage",
   "accentColourFamily": "ivory",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "shape-field; no universal cream-card default",
   "buttonStrategy": "single-rule",
-  "footerColour": "Dark sage botanical footer",
-  "mobileMenuColour": "Sage education leaves",
+  "footerColour": "Vale closing identity in ivory",
+  "mobileMenuColour": "Vale human reassurance in gold",
   "homepageSectionColourSequence": [
-    "Sage/cream luxury botanical hero",
-    "Ivory trust garden",
-    "Sage route branches",
-    "Cream consultation bloom",
-    "Gold-line botanical statement",
-    "Sage education leaves",
-    "Ivory results flower note",
-    "Cream journal flora path",
-    "Blush/gold CTA",
-    "Dark sage botanical footer"
+    "Vale hero promise in dark",
+    "Vale trust position in bronze",
+    "Vale care route in sage",
+    "Vale consultation path in ivory",
+    "Vale treatment navigation in cream",
+    "Vale human reassurance in gold",
+    "Vale education preview in dark",
+    "Vale responsible expectations in bronze",
+    "Vale contact bridge in sage",
+    "Vale closing identity in ivory"
   ],
   "aboutPageColourSequence": [
-    "about 1: sage rhythm from Sage education leaves",
-    "about 2: ivory rhythm from Ivory results flower note",
-    "about 3: cream rhythm from Cream journal flora path",
-    "about 4: blush rhythm from Blush/gold CTA",
-    "about 5: dark rhythm from Dark sage botanical footer",
-    "about 6: sage rhythm from Sage/cream luxury botanical hero",
-    "about 7: ivory rhythm from Ivory trust garden",
-    "about 8: sage rhythm from Sage route branches",
-    "about 9: cream rhythm from Cream consultation bloom",
-    "about 10: gold rhythm from Gold-line botanical statement"
+    "about 1: gold rhythm from Vale human reassurance in gold",
+    "about 2: dark rhythm from Vale education preview in dark",
+    "about 3: bronze rhythm from Vale responsible expectations in bronze",
+    "about 4: sage rhythm from Vale contact bridge in sage",
+    "about 5: ivory rhythm from Vale closing identity in ivory",
+    "about 6: dark rhythm from Vale hero promise in dark",
+    "about 7: bronze rhythm from Vale trust position in bronze",
+    "about 8: sage rhythm from Vale care route in sage",
+    "about 9: ivory rhythm from Vale consultation path in ivory",
+    "about 10: cream rhythm from Vale treatment navigation in cream"
   ],
   "carePageColourSequence": [
-    "care 1: ivory rhythm from Ivory results flower note",
-    "care 2: cream rhythm from Cream journal flora path",
-    "care 3: blush rhythm from Blush/gold CTA",
-    "care 4: dark rhythm from Dark sage botanical footer",
-    "care 5: sage rhythm from Sage/cream luxury botanical hero",
-    "care 6: ivory rhythm from Ivory trust garden",
-    "care 7: sage rhythm from Sage route branches",
-    "care 8: cream rhythm from Cream consultation bloom",
-    "care 9: gold rhythm from Gold-line botanical statement",
-    "care 10: sage rhythm from Sage education leaves"
+    "care 1: dark rhythm from Vale education preview in dark",
+    "care 2: bronze rhythm from Vale responsible expectations in bronze",
+    "care 3: sage rhythm from Vale contact bridge in sage",
+    "care 4: ivory rhythm from Vale closing identity in ivory",
+    "care 5: dark rhythm from Vale hero promise in dark",
+    "care 6: bronze rhythm from Vale trust position in bronze",
+    "care 7: sage rhythm from Vale care route in sage",
+    "care 8: ivory rhythm from Vale consultation path in ivory",
+    "care 9: cream rhythm from Vale treatment navigation in cream",
+    "care 10: gold rhythm from Vale human reassurance in gold"
   ],
   "laserPageColourSequence": [
-    "laser 1: cream rhythm from Cream journal flora path",
-    "laser 2: blush rhythm from Blush/gold CTA",
-    "laser 3: dark rhythm from Dark sage botanical footer",
-    "laser 4: sage rhythm from Sage/cream luxury botanical hero",
-    "laser 5: ivory rhythm from Ivory trust garden",
-    "laser 6: sage rhythm from Sage route branches",
-    "laser 7: cream rhythm from Cream consultation bloom",
-    "laser 8: gold rhythm from Gold-line botanical statement",
-    "laser 9: sage rhythm from Sage education leaves",
-    "laser 10: ivory rhythm from Ivory results flower note"
+    "laser 1: bronze rhythm from Vale responsible expectations in bronze",
+    "laser 2: sage rhythm from Vale contact bridge in sage",
+    "laser 3: ivory rhythm from Vale closing identity in ivory",
+    "laser 4: dark rhythm from Vale hero promise in dark",
+    "laser 5: bronze rhythm from Vale trust position in bronze",
+    "laser 6: sage rhythm from Vale care route in sage",
+    "laser 7: ivory rhythm from Vale consultation path in ivory",
+    "laser 8: cream rhythm from Vale treatment navigation in cream",
+    "laser 9: gold rhythm from Vale human reassurance in gold",
+    "laser 10: dark rhythm from Vale education preview in dark"
   ],
   "skinPageColourSequence": [
-    "skin 1: blush rhythm from Blush/gold CTA",
-    "skin 2: dark rhythm from Dark sage botanical footer",
-    "skin 3: sage rhythm from Sage/cream luxury botanical hero",
-    "skin 4: ivory rhythm from Ivory trust garden",
-    "skin 5: sage rhythm from Sage route branches",
-    "skin 6: cream rhythm from Cream consultation bloom",
-    "skin 7: gold rhythm from Gold-line botanical statement",
-    "skin 8: sage rhythm from Sage education leaves",
-    "skin 9: ivory rhythm from Ivory results flower note",
-    "skin 10: cream rhythm from Cream journal flora path"
+    "skin 1: sage rhythm from Vale contact bridge in sage",
+    "skin 2: ivory rhythm from Vale closing identity in ivory",
+    "skin 3: dark rhythm from Vale hero promise in dark",
+    "skin 4: bronze rhythm from Vale trust position in bronze",
+    "skin 5: sage rhythm from Vale care route in sage",
+    "skin 6: ivory rhythm from Vale consultation path in ivory",
+    "skin 7: cream rhythm from Vale treatment navigation in cream",
+    "skin 8: gold rhythm from Vale human reassurance in gold",
+    "skin 9: dark rhythm from Vale education preview in dark",
+    "skin 10: bronze rhythm from Vale responsible expectations in bronze"
   ],
   "resultsPageColourSequence": [
-    "results 1: dark rhythm from Dark sage botanical footer",
-    "results 2: sage rhythm from Sage/cream luxury botanical hero",
-    "results 3: ivory rhythm from Ivory trust garden",
-    "results 4: sage rhythm from Sage route branches",
-    "results 5: cream rhythm from Cream consultation bloom",
-    "results 6: gold rhythm from Gold-line botanical statement",
-    "results 7: sage rhythm from Sage education leaves",
-    "results 8: ivory rhythm from Ivory results flower note",
-    "results 9: cream rhythm from Cream journal flora path",
-    "results 10: blush rhythm from Blush/gold CTA"
+    "results 1: ivory rhythm from Vale closing identity in ivory",
+    "results 2: dark rhythm from Vale hero promise in dark",
+    "results 3: bronze rhythm from Vale trust position in bronze",
+    "results 4: sage rhythm from Vale care route in sage",
+    "results 5: ivory rhythm from Vale consultation path in ivory",
+    "results 6: cream rhythm from Vale treatment navigation in cream",
+    "results 7: gold rhythm from Vale human reassurance in gold",
+    "results 8: dark rhythm from Vale education preview in dark",
+    "results 9: bronze rhythm from Vale responsible expectations in bronze",
+    "results 10: sage rhythm from Vale contact bridge in sage"
   ],
   "journalPageColourSequence": [
-    "journal 1: sage rhythm from Sage/cream luxury botanical hero",
-    "journal 2: ivory rhythm from Ivory trust garden",
-    "journal 3: sage rhythm from Sage route branches",
-    "journal 4: cream rhythm from Cream consultation bloom",
-    "journal 5: gold rhythm from Gold-line botanical statement",
-    "journal 6: sage rhythm from Sage education leaves",
-    "journal 7: ivory rhythm from Ivory results flower note",
-    "journal 8: cream rhythm from Cream journal flora path",
-    "journal 9: blush rhythm from Blush/gold CTA",
-    "journal 10: dark rhythm from Dark sage botanical footer"
+    "journal 1: dark rhythm from Vale hero promise in dark",
+    "journal 2: bronze rhythm from Vale trust position in bronze",
+    "journal 3: sage rhythm from Vale care route in sage",
+    "journal 4: ivory rhythm from Vale consultation path in ivory",
+    "journal 5: cream rhythm from Vale treatment navigation in cream",
+    "journal 6: gold rhythm from Vale human reassurance in gold",
+    "journal 7: dark rhythm from Vale education preview in dark",
+    "journal 8: bronze rhythm from Vale responsible expectations in bronze",
+    "journal 9: sage rhythm from Vale contact bridge in sage",
+    "journal 10: ivory rhythm from Vale closing identity in ivory"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: sage rhythm from Sage route branches",
-    "consultation 2: cream rhythm from Cream consultation bloom",
-    "consultation 3: gold rhythm from Gold-line botanical statement",
-    "consultation 4: sage rhythm from Sage education leaves",
-    "consultation 5: ivory rhythm from Ivory results flower note",
-    "consultation 6: cream rhythm from Cream journal flora path",
-    "consultation 7: blush rhythm from Blush/gold CTA",
-    "consultation 8: dark rhythm from Dark sage botanical footer",
-    "consultation 9: sage rhythm from Sage/cream luxury botanical hero",
-    "consultation 10: ivory rhythm from Ivory trust garden"
+    "consultation 1: sage rhythm from Vale care route in sage",
+    "consultation 2: ivory rhythm from Vale consultation path in ivory",
+    "consultation 3: cream rhythm from Vale treatment navigation in cream",
+    "consultation 4: gold rhythm from Vale human reassurance in gold",
+    "consultation 5: dark rhythm from Vale education preview in dark",
+    "consultation 6: bronze rhythm from Vale responsible expectations in bronze",
+    "consultation 7: sage rhythm from Vale contact bridge in sage",
+    "consultation 8: ivory rhythm from Vale closing identity in ivory",
+    "consultation 9: dark rhythm from Vale hero promise in dark",
+    "consultation 10: bronze rhythm from Vale trust position in bronze"
   ],
   "contactPageColourSequence": [
-    "contact 1: cream rhythm from Cream consultation bloom",
-    "contact 2: gold rhythm from Gold-line botanical statement",
-    "contact 3: sage rhythm from Sage education leaves",
-    "contact 4: ivory rhythm from Ivory results flower note",
-    "contact 5: cream rhythm from Cream journal flora path",
-    "contact 6: blush rhythm from Blush/gold CTA",
-    "contact 7: dark rhythm from Dark sage botanical footer",
-    "contact 8: sage rhythm from Sage/cream luxury botanical hero",
-    "contact 9: ivory rhythm from Ivory trust garden",
-    "contact 10: sage rhythm from Sage route branches"
+    "contact 1: ivory rhythm from Vale consultation path in ivory",
+    "contact 2: cream rhythm from Vale treatment navigation in cream",
+    "contact 3: gold rhythm from Vale human reassurance in gold",
+    "contact 4: dark rhythm from Vale education preview in dark",
+    "contact 5: bronze rhythm from Vale responsible expectations in bronze",
+    "contact 6: sage rhythm from Vale contact bridge in sage",
+    "contact 7: ivory rhythm from Vale closing identity in ivory",
+    "contact 8: dark rhythm from Vale hero promise in dark",
+    "contact 9: bronze rhythm from Vale trust position in bronze",
+    "contact 10: sage rhythm from Vale care route in sage"
   ],
   "forbiddenColourPatterns": [
-    "No rustic earthy heaviness",
-    "No fake plant images",
-    "No generic cards."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

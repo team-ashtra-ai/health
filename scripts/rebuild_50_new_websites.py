@@ -437,6 +437,164 @@ CTA_STYLES = [
     "minimal-arrow",
 ]
 
+REQUESTED_CONCEPT_MATRIX = """
+01|Inspire|Editorial Botanical Atelier|high-end editorial, botanical, quiet confidence|asymmetric editorial spread with portrait and art panel|ivory, deep green, sage, muted gold|large serif opening, thin editorial cards, botanical line overlays, dark botanical closing
+02|Empower|Clinical Confidence Care|precise, structured, confident, medical luxury|clinical grid with trust markers|ivory, pale sage, olive, controlled blush|modular treatment route, crisp cards, clear consultation pathway
+03|Enhance|Soft Transformation Journey|gentle, feminine, progress oriented|soft layered transformation story|cream, blush, sage|offset cards, step by step journey, warm consultation sections
+04|Renew|Dark Botanical Renewal|dramatic, restorative, cinematic|dark immersive botanical hero|deep green, ink, ivory, gold|high contrast panels, cinematic moments, elegant dark footer
+05|Elevate|Concierge Luxury Aesthetics|polished, private, high end|concierge booking and premium care promise|ivory, champagne, sage, bronze|appointment journey, premium service menu, refined CTA rhythm
+06|Refine|Minimal Clinical Editorial|intelligent, restrained, calm|minimal grid with large whitespace|ivory, pale sage, ink|strict grids, thin borders, quiet typography, minimal cards
+07|Glow|Feminine Radiance Studio|luminous, soft, beauty forward|glowing blush and sage composition|blush, cream, sage, soft gold|radiance cards, client reassurance, journal previews, soft mobile flow
+08|Balance|Holistic Calm Clinic|grounded, natural, wellness clinical|balanced split with calm process|sage, ivory, sand, olive|process pathways, values, reassurance, calm footer
+09|Radiance|Results-Led Premium Contrast|confident, luminous, proof oriented|bold contrast with responsible results language|ivory, ink, gold, sage|trust modules, treatment navigation, dramatic footer
+10|Essence|Organic Quiet Luxury|intimate, organic, refined|warm quiet luxury with organic forms|ivory, sand, pale sage, bronze|paper texture, slow story sections, soft footer
+11|Aura|Ethereal Skin Confidence|airy, luminous, delicate|light open aura glow|mist, ivory, blush, sage|floating panels, delicate gradients, light trust sections
+12|Verda|Botanical Clinical Garden|botanical, fresh, grounded|garden inspired clinical calm|greens, ivory, olive, sand|leaf motifs, botanical cards, nature led service pathways
+13|Luma|Light Science Studio|light, precise, modern|light science treatment focus|ivory, pale green, clean white, gold micro accents|clean grids, treatment explainers, subtle light effects
+14|Seren|Serene Private Care|calm, private, soft spoken|quiet trust and consultation|ivory, sage, taupe|spacious sections, private care messaging, soft footer
+15|Vitta|Vitality And Skin Health|fresh, health forward, energetic but premium|vitality focused care promise|cream, sage, muted terracotta, olive|health pillars, care journey, lively controlled cards
+16|Bloom|Feminine Botanical Bloom|soft botanical growth|blooming visual motif|blush, sage, ivory, rose beige|petal cards, organic transitions, journal warmth
+17|Poise|Elegant Confidence Clinic|composed, poised, premium|portrait led confidence|ivory, deep green, gold|elegant typography, confidence cards, refined footer
+18|Clare|Clean Clarity Aesthetics|clean, transparent, direct|clarity first explanation|ivory, white, pale sage, ink|clean explainers, FAQ forward, minimal visual noise
+19|Natura|Natural Results Philosophy|natural, subtle, trustworthy|natural care philosophy|sage, sand, ivory, olive|comparison free benefits, process sections, natural textures
+20|Forma|Sculptural Aesthetic Structure|structured, sculptural, precise|geometric premium layout|ivory, stone, sage, ink|strong grids, sculptural cards, form and process language
+21|Amara|Warm Human Clinic|warm, personal, inviting|human trust and listening|cream, blush, sand, sage|story led sections, reassurance, soft appointment pathway
+22|Celeste|Airy Editorial Luxury|airy, refined, spa editorial|open editorial composition|ivory, mist, pale sage, soft gold|oversized whitespace, delicate cards, elegant footer
+23|Olive|Deep Olive Signature|mature, grounded, premium|olive led brand authority|olive, ivory, bronze, sand|deep olive accents, mature typography, service menu
+24|Rosea|Blush Clinical Warmth|warm, feminine, soft clinical|blush warmth without sweetness|dusty rose, ivory, sage|blush as accent, calm cards, soft CTA blocks
+25|Silka|Smooth Skin Minimalism|silky, smooth, minimal|minimal texture and softness|ivory, pearl, pale sage, taupe|smooth gradients, minimal cards, refined typography
+26|Alba|Morning Light Clinic|fresh, bright, optimistic|morning light glow|ivory, warm cream, pale gold, sage|light sections, clean CTAs, airy mobile flow
+27|Noemi|Boutique Personal Care|boutique, personal, intimate|private studio consultation|cream, sage, blush, bronze|personal consultation emphasis, small elegant cards
+28|Flora|Botanical Education Studio|educational, botanical, calm|education and care combined|sage, ivory, leaf green|journal forward, treatment education, botanical diagrams
+29|Siena|Warm Terracotta Luxury|warm, earthy, premium|terracotta and sand warmth|sand, terracotta, sage, ivory|earthy sections, warm CTA, luxury editorial cards
+30|Elan|Modern Premium Energy|modern, energetic, confident|dynamic asymmetric layout|ivory, ink, sage, gold|bolder transitions, strong CTAs, energetic grids
+31|Mira|Mirror Of Confidence|reflective, elegant, confidence led|mirror and reflection metaphor|ivory, mist, sage, deep green|reflective panels, confidence sections, polished footer
+32|Solea|Sunlit Skin Studio|sunlit, warm, radiant|sunlight inspired skin care|warm cream, soft gold, sage|luminous panels, radiance sections, warm footer
+33|Aria|Light Breathable Editorial|light, breathable, sophisticated|airy editorial composition|ivory, pale sage, mist|whitespace, delicate typography, thin cards
+34|Vale|Grounded Wellness Clinic|earthy, calm, reassuring|grounded trust|olive, sand, sage, ivory|grounded process, values, reassurance cards
+35|Nobile|Noble Luxury Clinic|formal, luxurious, high end|grand editorial dark light contrast|ivory, ink, bronze, deep green|premium concierge sections, refined large typography
+36|Brisa|Soft Breeze Skin Care|soft, fresh, gentle|breezy soft movement|pale sage, ivory, blush, mist|gentle transitions, soft cards, calming mobile flow
+37|Linha|Line-Art Clinical Beauty|precise, artistic, line based|botanical and face line art composition|ivory, ink, sage, gold|line art, thin borders, structured treatment diagrams
+38|Dama|Elegant Feminine Authority|feminine authority, refined|strong elegant portrait led layout|ivory, deep green, blush, bronze|confident typography, trust sections, elegant footer
+39|Terra|Earthy Biological Care|organic, biological, grounded|earth tone care philosophy|sand, taupe, sage, olive|natural textures, grounded sections, warm footer
+40|Prisma|Modern Treatment Navigation|modern, clear, multi service|treatment navigation focused|ivory, sage, blush, gold accents|category tiles, clear pathways, interactive feeling
+41|Calma|Ultra Calm Consultation|peaceful, slow, reassuring|consultation first calm|ivory, pale sage, cream|slow scroll rhythm, reassurance, FAQ, soft CTA
+42|Vellum|Paper Editorial Clinic|paper, editorial, tactile|magazine style paper layout|ivory, paper, taupe, sage|editorial cards, paper texture, serif headings
+43|Opal|Soft Iridescent Premium|luminous, delicate, refined|opal glow and soft gradients|pearl, blush, sage, ivory|luminous cards, elegant service sections, soft footer
+44|Jardim|Brazilian Botanical Luxury|lush but controlled botanical|Brazilian garden atmosphere|deep green, sage, ivory, warm gold|botanical overlays, immersive image panels, rich footer
+45|Lisse|Smooth Minimal Beauty|smooth, clean, refined|minimal smooth skin focus|ivory, pale sage, pearl|clean blocks, smooth transitions, subtle cards
+46|Magna|Grand Premium Authority|high authority, premium, confident|large cinematic brand statement|ink, ivory, bronze, sage|big sections, strong contrast, authoritative service layout
+47|Senda|Guided Care Pathway|guided, structured, reassuring|pathway and process promise|sage, cream, olive, blush accents|timelines, guided steps, consultation journey
+48|Isla|Soft Private Escape|private, gentle, retreat like|calm private escape|ivory, mist, sage, sand|soft panels, private care CTAs, intimate footer
+49|Oro|Gold Accent Luxury|refined gold luxury|gold accent editorial premium|ivory, deep green, muted gold|restrained gold details, premium service menu, elegant footer
+50|Maison|High-End Private Clinic|private maison and atelier clinic|boutique private clinic statement|ivory, deep green, champagne, taupe|maison navigation, concierge journey, luxury footer
+""".strip()
+
+LAYOUT_FAMILIES = [
+    "editorial-asymmetric",
+    "clinical-grid",
+    "soft-journey",
+    "cinematic-immersive",
+    "concierge-suite",
+    "minimal-clinical",
+    "luminous-studio",
+    "balanced-pathway",
+    "route-led",
+    "organic-editorial",
+    "ethereal-panels",
+    "botanical-garden",
+    "light-science",
+    "private-serene",
+    "vitality-pillars",
+    "botanical-bloom",
+    "poised-portrait",
+    "clarity-led",
+    "natural-philosophy",
+    "sculptural-grid",
+]
+
+HERO_PATTERNS_EXTENDED = [
+    "editorial-spread",
+    "clinical-dashboard",
+    "soft-layers",
+    "dark-cinematic",
+    "concierge-card",
+    "quiet-minimal",
+    "radiance-glow",
+    "balanced-split",
+    "proof-route",
+    "organic-paper",
+    "aura-field",
+    "garden-panel",
+    "light-lab",
+    "private-note",
+    "vitality-board",
+    "bloom-frame",
+    "portrait-confidence",
+    "clarity-brief",
+    "natural-texture",
+    "sculptural-form",
+]
+
+CARD_STYLES = [
+    "fine-line",
+    "clinical-module",
+    "offset-soft",
+    "cinematic-slate",
+    "concierge-ticket",
+    "minimal-rule",
+    "luminous-card",
+    "calm-path",
+    "proof-ledger",
+    "paper-note",
+    "floating-pane",
+    "botanical-tile",
+    "light-cell",
+    "private-panel",
+    "health-pillar",
+    "petal-card",
+    "confidence-frame",
+    "clarity-row",
+    "natural-slip",
+    "sculpted-plate",
+]
+
+IMAGE_TREATMENTS = [
+    "portrait-atelier",
+    "clinical-crop",
+    "soft-vellum",
+    "shadow-botanical",
+    "concierge-frame",
+    "quiet-negative",
+    "skin-light",
+    "balanced-window",
+    "contrast-proof",
+    "organic-paper",
+    "mist-layer",
+    "leaf-annotation",
+    "lab-light",
+    "private-room",
+    "fresh-motion",
+    "bloom-outline",
+    "poised-portrait",
+    "clean-cut",
+    "natural-fiber",
+    "sculptural-plinth",
+]
+
+MOBILE_STRATEGIES = [
+    "hero-first-shortcuts",
+    "care-route-tabs",
+    "soft-stepper",
+    "cinematic-compact",
+    "concierge-actions",
+    "minimal-index",
+    "journal-preview",
+    "two-card-flow",
+    "route-chips",
+    "paper-scroll",
+]
+
 COLOUR_KEYWORDS = {
     "ink": "ink",
     "dark": "dark",
@@ -445,12 +603,20 @@ COLOUR_KEYWORDS = {
     "ivory": "ivory",
     "cream": "cream",
     "white": "ivory",
-    "blush": "blush",
-    "pink": "blush",
+    "blush": "ivory",
+    "pink": "ivory",
+    "rose": "ivory",
+    "mist": "ivory",
+    "pearl": "ivory",
+    "sand": "cream",
+    "stone": "cream",
+    "olive": "sage",
     "gold": "gold",
     "bronze": "bronze",
-    "taupe": "taupe",
-    "terracotta": "terracotta",
+    "champagne": "gold",
+    "taupe": "bronze",
+    "terracotta": "bronze",
+    "clay": "bronze",
     "paper": "ivory",
     "luminous": "ivory",
     "clinical": "sage",
@@ -533,6 +699,9 @@ def parse_concepts_from_prompt(prompt: str) -> list[dict]:
 
 
 def load_concepts() -> list[dict]:
+    current = concepts_from_current_folders()
+    if current:
+        return current
     cached = BIBLE / "10-50-new-website-destinations.json"
     if PROMPT_PATH.exists():
         return parse_concepts_from_prompt(read_text(PROMPT_PATH))
@@ -555,7 +724,7 @@ def tone_from_phrase(phrase: str, fallback: str = "ivory") -> str:
     families = colour_families(phrase)
     if "dark" in families:
         return "dark"
-    for family in ("sage", "blush", "cream", "gold", "terracotta", "taupe", "ivory", "bronze"):
+    for family in ("sage", "cream", "gold", "ivory", "bronze"):
         if family in families:
             return family
     return fallback
@@ -566,6 +735,107 @@ def rotate(values: list[str], amount: int) -> list[str]:
         return values
     amount = amount % len(values)
     return values[amount:] + values[:amount]
+
+
+def parse_requested_matrix() -> dict[str, dict]:
+    matrix: dict[str, dict] = {}
+    for line in REQUESTED_CONCEPT_MATRIX.splitlines():
+        number, name, destination, mood, hero, palette, structure = line.split("|", 6)
+        matrix[number] = {
+            "number": number,
+            "requestedName": name,
+            "destination": destination,
+            "visualMood": mood,
+            "heroPatternText": hero,
+            "paletteRole": palette,
+            "structure": structure,
+        }
+    if len(matrix) != 50:
+        raise RuntimeError(f"Expected 50 requested concept directions, found {len(matrix)}")
+    return matrix
+
+
+def title_from_slug(slug: str) -> str:
+    return " ".join(part.capitalize() for part in slug.split("-"))
+
+
+def concept_folders() -> list[Path]:
+    if not CONCEPTS_DIR.exists():
+        return []
+    return sorted(
+        [p for p in CONCEPTS_DIR.iterdir() if p.is_dir() and re.match(r"^\d{2}-", p.name)],
+        key=lambda p: p.name,
+    )
+
+
+def homepage_sequence_from_matrix(item: dict, number: int) -> list[str]:
+    families = colour_families(
+        " ".join([item["paletteRole"], item["visualMood"], item["heroPatternText"], item["structure"]])
+    )
+    fallback = ["ivory", "sage", "cream", "gold", "dark", "bronze"]
+    for family in fallback:
+        if family not in families:
+            families.append(family)
+        if len(families) >= 6:
+            break
+    base = rotate(families, number % len(families))
+    section_roles = [
+        "hero promise",
+        "trust position",
+        "care route",
+        "consultation path",
+        "treatment navigation",
+        "human reassurance",
+        "education preview",
+        "responsible expectations",
+        "contact bridge",
+        "closing identity",
+    ]
+    return [
+        f"{item['requestedName']} {section_roles[index]} in {base[index % len(base)]}"
+        for index in range(10)
+    ]
+
+
+def concepts_from_current_folders() -> list[dict]:
+    folders = concept_folders()
+    if len(folders) != 50:
+        return []
+    matrix = parse_requested_matrix()
+    concepts: list[dict] = []
+    for folder in folders:
+        number, slug = folder.name.split("-", 1)
+        item = matrix[number]
+        concepts.append(
+            {
+                "number": number,
+                "name": title_from_slug(slug),
+                "slug": slug,
+                "conceptId": folder.name,
+                "requestedName": item["requestedName"],
+                "destination": item["destination"],
+                "visualThesis": (
+                    f"{item['requestedName']} uses {item['visualMood']} pacing with {item['heroPatternText']}."
+                ),
+                "colourThesis": item["paletteRole"],
+                "homepageSectionColourSequence": homepage_sequence_from_matrix(item, int(number)),
+                "allOtherPages": (
+                    "Inner pages keep the same care voice while changing the density, introduction, "
+                    "navigation rhythm, and visual emphasis by page type."
+                ),
+                "forbiddenPatterns": [
+                    "Do not flatten the site into repeated centered card stacks",
+                    "Do not use gray placeholders",
+                    "Do not invent testimonials, guarantees, prices, results, or credentials",
+                    "Do not let desktop collapse into a narrow mobile column",
+                ],
+                "visualMood": item["visualMood"],
+                "heroPatternText": item["heroPatternText"],
+                "paletteRole": item["paletteRole"],
+                "structure": item["structure"],
+            }
+        )
+    return concepts
 
 
 def page_colour_sequences(home_sequence: list[str], concept_number: int) -> dict[str, list[str]]:
@@ -589,7 +859,7 @@ def enrich_concepts(concepts: list[dict]) -> list[dict]:
             concept["colourThesis"] + " " + " ".join(concept["homepageSectionColourSequence"])
         )
         while len(families) < 3:
-            for fallback in ("ivory", "sage", "bronze", "blush", "dark", "cream"):
+            for fallback in ("ivory", "sage", "bronze", "dark", "cream", "gold"):
                 if fallback not in families:
                     families.append(fallback)
                     break
@@ -600,6 +870,17 @@ def enrich_concepts(concepts: list[dict]) -> list[dict]:
             "headerSystem": HEADER_PATTERNS[index % len(HEADER_PATTERNS)],
             "mobileSystem": MOBILE_PATTERNS[(index * 3) % len(MOBILE_PATTERNS)],
             "footerSystem": FOOTER_PATTERNS[(index * 7) % len(FOOTER_PATTERNS)],
+            "layoutFamily": LAYOUT_FAMILIES[index % len(LAYOUT_FAMILIES)],
+            "heroPattern": HERO_PATTERNS_EXTENDED[index % len(HERO_PATTERNS_EXTENDED)],
+            "cardStyle": CARD_STYLES[index % len(CARD_STYLES)],
+            "imageTreatment": IMAGE_TREATMENTS[index % len(IMAGE_TREATMENTS)],
+            "mobileLayoutStrategy": MOBILE_STRATEGIES[index % len(MOBILE_STRATEGIES)],
+            "homepageSectionOrder": rotate(PAGE_ROLES["home"], index % len(PAGE_ROLES["home"])),
+            "uniqueDifferentiators": [
+                f"Hero uses {HERO_PATTERNS_EXTENDED[index % len(HERO_PATTERNS_EXTENDED)].replace('-', ' ')} instead of the neighboring hero pattern.",
+                f"Section rhythm leads with {tone_from_phrase(concept['homepageSectionColourSequence'][0])} and rotates through a numbered palette contract.",
+                f"Cards use {CARD_STYLES[index % len(CARD_STYLES)].replace('-', ' ')} with {IMAGE_TREATMENTS[index % len(IMAGE_TREATMENTS)].replace('-', ' ')} media treatment.",
+            ],
             "homepageAnatomy": ANATOMIES[index % len(ANATOMIES)],
             "internalPageAnatomy": ANATOMIES[(index * 5 + 3) % len(ANATOMIES)],
             "componentStrategy": f"{ANATOMIES[(index * 2) % len(ANATOMIES)]} with {CTA_STYLES[index % len(CTA_STYLES)]} calls to action",
@@ -613,11 +894,11 @@ def enrich_concepts(concepts: list[dict]) -> list[dict]:
                 "accentColourFamily": families[2],
                 "contrastTemperature": "high editorial" if "dark" in families[:2] else "soft refined",
                 "darkUsage": "dominant structural field" if "dark" in families[:2] else "reserved for footer, text, or one anchor band",
-                "blushUsage": "purposeful warmth and guidance notes" if "blush" in families else "rare or absent by contract",
+                "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
                 "sageUsage": "primary architecture" if families[0] == "sage" else "brand structure and quiet route support",
                 "creamUsage": "reading relief and calm transitions",
                 "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-                "terracottaTaupeUsage": "earth warmth only when named by the destination",
+                "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
                 "cardSurfaceStrategy": f"{ANATOMIES[(index * 4 + 2) % len(ANATOMIES)]}; no universal cream-card default",
                 "buttonStrategy": CTA_STYLES[(index * 3 + 1) % len(CTA_STYLES)],
                 "footerColour": concept["homepageSectionColourSequence"][-1],
@@ -846,18 +1127,9 @@ def write_foundation_files() -> None:
   --sofiati-gold-300: #E4C99B;
   --sofiati-gold-500: #CDAA78;
 
-  /* Blush / pink */
-  --sofiati-pink-50: #FFF7F6;
-  --sofiati-pink-100: #F8E4E1;
-  --sofiati-pink-200: #EDC6C0;
-  --sofiati-pink-300: #DFA49B;
-  --sofiati-pink-500: #B86A63;
-  --sofiati-pink-700: #743B37;
-
-  /* Warmth */
-  --sofiati-terracotta-200: #E7B7A6;
-  --sofiati-terracotta-300: #D7957F;
-  --sofiati-terracotta-500: #B86A4E;
+  /* Warm identity neutrals from the logo and palette boards */
+  --sofiati-champagne-100: #DACCB7;
+  --sofiati-bronze-clay: #8F745F;
   --sofiati-taupe-300: #B6AA98;
   --sofiati-taupe-400: #9B8F7E;
   --sofiati-taupe-700: #5E5548;
@@ -874,14 +1146,13 @@ def write_foundation_files() -> None:
   --surface-card-strong: var(--sofiati-ivory-100);
   --surface-sage: var(--sofiati-sage-100);
   --surface-dark: var(--sofiati-sage-900);
-  --surface-blush: var(--sofiati-pink-100);
 
   /* Gradients */
   --gradient-cream: linear-gradient(135deg, var(--sofiati-ivory-100), var(--sofiati-ivory-300));
   --gradient-sage-soft: linear-gradient(135deg, var(--sofiati-sage-100), var(--sofiati-sage-300));
   --gradient-sage-deep: linear-gradient(135deg, var(--sofiati-sage-700), var(--sofiati-sage-900));
   --gradient-dark-botanical: radial-gradient(circle at top left, rgba(162, 174, 160, 0.24), transparent 34%), linear-gradient(135deg, var(--sofiati-ink-900), var(--sofiati-sage-900));
-  --gradient-blush-cream: linear-gradient(135deg, var(--sofiati-pink-50), var(--sofiati-pink-100), var(--sofiati-ivory-200));
+  --gradient-champagne-cream: linear-gradient(135deg, var(--sofiati-ivory-100), var(--sofiati-champagne-100), var(--sofiati-ivory-200));
   --gradient-gold-line: linear-gradient(90deg, var(--sofiati-bronze-600), var(--sofiati-gold-500), var(--sofiati-bronze-400));
 
   /* Shadows */
@@ -894,10 +1165,29 @@ def write_foundation_files() -> None:
   --button-primary-text: var(--sofiati-ivory-100);
   --button-gold-bg: var(--sofiati-gold-500);
   --button-gold-text: var(--sofiati-ink-900);
-  --button-blush-bg: var(--sofiati-pink-200);
-  --button-blush-text: var(--sofiati-ink-900);
+  --button-champagne-bg: var(--sofiati-champagne-100);
+  --button-champagne-text: var(--sofiati-ink-900);
   --button-dark-bg: var(--sofiati-ink-900);
   --button-dark-text: var(--sofiati-ivory-100);
+
+  /* Layout and interaction tokens */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --radius-sm: 2px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --z-header: 70;
+  --z-menu: 88;
+  --z-cookie: 90;
+  --z-floating: 95;
+  --transition-fast: 160ms ease;
+  --transition-med: 220ms ease;
 }
 
 *,
@@ -968,8 +1258,8 @@ textarea {
   color: var(--color-text-inverse);
 }
 
-.section-blush {
-  background: var(--sofiati-pink-100);
+.section-champagne {
+  background: var(--gradient-champagne-cream);
 }
 
 .card {
@@ -988,9 +1278,9 @@ textarea {
   color: var(--button-gold-text);
 }
 
-.button-blush {
-  background: var(--button-blush-bg);
-  color: var(--button-blush-text);
+.button-champagne {
+  background: var(--button-champagne-bg);
+  color: var(--button-champagne-text);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -1012,25 +1302,9 @@ textarea {
 
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
-  document.addEventListener("click", (event) => {
-    const top = event.target.closest("[data-back-to-top]");
-    if (!top) return;
-    event.preventDefault();
-    window.scrollTo({ top: 0, behavior: reduceMotion.matches ? "auto" : "smooth" });
-  });
-
-  document.addEventListener("click", (event) => {
-    const language = event.target.closest("[data-language-option]");
-    if (!language) return;
-    const next = language.getAttribute("data-language-option") || "en";
-    document.documentElement.lang = next;
-    document.querySelectorAll("[data-language-option]").forEach((button) => {
-      button.setAttribute("aria-pressed", button === language ? "true" : "false");
-    });
-  });
-
   window.SofiatiFoundation = {
     reduceMotion: () => reduceMotion.matches,
+    scrollToTop: () => window.scrollTo({ top: 0, behavior: reduceMotion.matches ? "auto" : "smooth" }),
     readyAt: new Date().toISOString(),
   };
 
@@ -1049,10 +1323,22 @@ def make_design_bible(concepts: list[dict]) -> None:
             for key in [
                 "conceptId",
                 "name",
+                "requestedName",
                 "slug",
                 "destination",
                 "visualThesis",
                 "colourThesis",
+                "visualMood",
+                "heroPatternText",
+                "paletteRole",
+                "structure",
+                "layoutFamily",
+                "heroPattern",
+                "cardStyle",
+                "imageTreatment",
+                "mobileLayoutStrategy",
+                "homepageSectionOrder",
+                "uniqueDifferentiators",
                 "headerSystem",
                 "mobileSystem",
                 "footerSystem",
@@ -1299,22 +1585,37 @@ def page_description(page_key: str, concept: dict) -> str:
         "thank-you": "Thank you for reaching out; review next steps and helpful routes.",
         "not-found": "The page was not found; return to core Sofiati routes.",
     }
-    return f"{base[page_key]} {concept['name']} expresses this as {concept['destination'].lower()}."
+    return f"{base[page_key]} The page keeps a calm Sofiati voice with clear next steps."
 
 
 def section_copy(page_key: str, role: str, concept: dict, section_number: int) -> tuple[str, str]:
-    name = concept["name"]
+    care_focus = {
+        "home": "skin, laser, consultation, and responsible aesthetic care",
+        "about": "professional presence, listening, and trust",
+        "care": "evaluation, comfort, and planning",
+        "laser": "laser suitability, safety, and preparation",
+        "skin": "skin quality, routine, and natural confidence",
+        "results": "realistic expectations and individual response",
+        "journal": "care education and better questions",
+        "blog": "care education and better questions",
+        "consultation": "the first conversation and next step",
+        "contact": "direct contact and appointment questions",
+    }.get(page_key, "clear guidance and responsible care")
     if page_key in {"legal", "privacy", "cookies", "accessibility", "sitemap", "thank-you", "not-found"}:
         title = role
     else:
-        title = f"{role} with {name}"
+        title = role
     paragraph = (
-        f"{role} is presented with calm language, responsible expectations, and a consultation-led path. "
-        f"The {concept['destination'].lower()} direction shapes the pacing without adding unsupported claims."
+        f"This part of the page keeps {care_focus} easy to scan, with careful language and room for questions before decisions."
     )
     if section_number == 1 and page_key == "home":
-        title = f"{name}: {concept['destination']}"
-        paragraph = f"{concept['visualThesis']} {page_description(page_key, concept)}"
+        title = f"{concept['destination']} with Franciele Sofiati"
+        mood = concept.get("visualMood", "calm and refined")
+        article = "An" if mood[:1].lower() in {"a", "e", "i", "o", "u"} else "A"
+        paragraph = (
+            f"{article} {mood} opening for consultation-first care, "
+            "built around listening, skin context, comfort, and realistic expectations."
+        )
     elif section_number == 1:
         title = f"{html.escape(role)}"
         paragraph = page_description(page_key, concept)
@@ -1335,10 +1636,65 @@ def photo_markup(concept: dict, section_number: int, page_index: int) -> str:
         </figure>"""
 
 
+def visual_panel_markup(concept: dict, section_number: int) -> str:
+    prefix = f"c{concept['number']}"
+    treatment = concept["imageTreatment"]
+    return f"""
+        <div class="{prefix}-visual-panel {prefix}-visual-panel--{treatment}" aria-hidden="true">
+          <span></span>
+          <i></i>
+          <b></b>
+        </div>"""
+
+
+def hero_html(concept: dict, page_key: str, page_index: int, title: str, paragraph: str) -> str:
+    number = concept["number"]
+    prefix = f"c{number}"
+    tone = tone_from_phrase(concept["homepageSectionColourSequence"][0], "ivory")
+    routes = ROUTE_LINKS[:4]
+    route_items = "\n".join(
+        f'            <li><a href="{href}">{label}</a></li>' for label, href in routes
+    )
+    proof_items = [
+        ("Consultation", "Goals, skin context, comfort, and timing are discussed first."),
+        ("Planning", "Options are explained with clear limits and realistic expectations."),
+        ("Care", "The next step stays calm, personal, and medically responsible."),
+    ]
+    proof_markup = "\n".join(
+        f"          <li><strong>{label}</strong><span>{text}</span></li>" for label, text in proof_items
+    )
+    photo = photo_markup(concept, 1, page_index)
+    panel = visual_panel_markup(concept, 1)
+    return f"""
+      <section class="{prefix}-section {prefix}-section--01 {prefix}-hero {prefix}-hero--{concept['heroPattern']} {prefix}-tone--{tone} {prefix}-card--{concept['cardStyle']}" id="{page_key}-01-panel" aria-labelledby="{page_key}-01" data-content-section="01" data-section-role="Opening promise" data-hero-pattern="{concept['heroPattern']}" data-layout-family="{concept['layoutFamily']}">
+        <div class="{prefix}-hero-copy">
+          <p class="{prefix}-eyebrow">Sofiati care path</p>
+          <h1 id="{page_key}-01">{html.escape(title)}</h1>
+          <p>{html.escape(paragraph)}</p>
+          <div class="{prefix}-hero-actions">
+            <a class="{prefix}-action {prefix}-action--{concept['ctaStrategy']}" href="consultation.html">Request consultation</a>
+            <a class="{prefix}-text-link" href="journal.html">Read guidance</a>
+          </div>
+        </div>
+        <div class="{prefix}-hero-media {prefix}-media--{concept['imageTreatment']}">
+          {photo}
+          {panel}
+        </div>
+        <ul class="{prefix}-hero-proof" aria-label="Care principles">
+{proof_markup}
+        </ul>
+        <ul class="{prefix}-hero-routes" aria-label="Key care routes">
+{route_items}
+        </ul>
+      </section>"""
+
+
 def section_html(concept: dict, page_key: str, page_index: int, section_number: int, role: str) -> str:
     number = concept["number"]
     prefix = f"c{number}"
     title, paragraph = section_copy(page_key, role, concept, section_number)
+    if section_number == 1 and page_key == "home":
+        return hero_html(concept, page_key, page_index, title, paragraph)
     sequence = concept["pageColourSequences"].get(page_key, concept["homepageSectionColourSequence"])
     colour_phrase = sequence[section_number - 1] if section_number <= len(sequence) else role
     tone = tone_from_phrase(colour_phrase, "ivory")
@@ -1347,6 +1703,7 @@ def section_html(concept: dict, page_key: str, page_index: int, section_number: 
     heading_tag = "h1" if section_number == 1 else "h2"
     section_id = f"{page_key}-{section_number:02d}"
     image_sections = {1, 5 + (int(number) + page_index) % 2, 8 + (int(number) + page_index) % 2}
+    art_sections = {3 + (int(number) % 2), 7 + (page_index % 2)}
     legal_like = page_key in {"legal", "privacy", "cookies", "accessibility", "sitemap", "thank-you", "not-found"}
     include_photo = section_number in image_sections and not (legal_like and section_number != 1)
     action_primary = "Request consultation" if page_key != "contact" else "Message WhatsApp"
@@ -1368,6 +1725,7 @@ def section_html(concept: dict, page_key: str, page_index: int, section_number: 
         ]
     )
     photo = photo_markup(concept, section_number, page_index) if include_photo else ""
+    art_panel = "" if include_photo or legal_like or section_number not in art_sections else visual_panel_markup(concept, section_number)
 
     if anatomy in {"route-ledger", "route-directory", "wide-horizon"}:
         body = f"""
@@ -1379,7 +1737,7 @@ def section_html(concept: dict, page_key: str, page_index: int, section_number: 
         <ul class="{prefix}-route-list">
 {route_items}
         </ul>
-        {photo}
+        {photo or art_panel}
         """
     elif anatomy in {"process-rail", "technical-table", "softline-sequence"}:
         body = f"""
@@ -1393,7 +1751,7 @@ def section_html(concept: dict, page_key: str, page_index: int, section_number: 
           <li>Clarify suitability, comfort, and timing.</li>
           <li>Continue only with realistic expectations.</li>
         </ol>
-        {photo}
+        {photo or art_panel}
         """
     elif anatomy in {"expectation-ledger", "evidence-ledger", "clinical-grid"}:
         body = f"""
@@ -1405,7 +1763,7 @@ def section_html(concept: dict, page_key: str, page_index: int, section_number: 
         <dl class="{prefix}-proof-ledger">
 {proof_items}
         </dl>
-        {photo}
+        {photo or art_panel}
         """
     elif anatomy in {"article-row", "reading-path", "folio-stack"}:
         body = f"""
@@ -1419,7 +1777,7 @@ def section_html(concept: dict, page_key: str, page_index: int, section_number: 
           {local_href("Laser questions", "laser.html", f"{prefix}-text-link")}
           {local_href("FAQ", "faq.html", f"{prefix}-text-link")}
         </div>
-        {photo}
+        {photo or art_panel}
         """
     elif anatomy in {"contact-bridge", "conversation-field"}:
         body = f"""
@@ -1432,7 +1790,7 @@ def section_html(concept: dict, page_key: str, page_index: int, section_number: 
           <a class="{prefix}-action {prefix}-action--{cta_style}" href="{action_href}"{action_attr}>{action_primary}</a>
           <a class="{prefix}-action {prefix}-action--quiet" href="{secondary_href}">{secondary_label}</a>
         </div>
-        {photo}
+        {photo or art_panel}
         """
     else:
         body = f"""
@@ -1445,10 +1803,10 @@ def section_html(concept: dict, page_key: str, page_index: int, section_number: 
           <span>{html.escape(colour_phrase)}</span>
           <a class="{prefix}-action {prefix}-action--{cta_style}" href="{action_href}"{action_attr}>{action_primary}</a>
         </div>
-        {photo}
+        {photo or art_panel}
         """
     return f"""
-      <section class="{prefix}-section {prefix}-section--{section_number:02d} {prefix}-anatomy--{anatomy} {prefix}-tone--{tone}" id="{section_id}-panel" aria-labelledby="{section_id}" data-content-section="{section_number:02d}" data-section-role="{html.escape(role, quote=True)}">
+      <section class="{prefix}-section {prefix}-section--{section_number:02d} {prefix}-anatomy--{anatomy} {prefix}-tone--{tone} {prefix}-card--{concept['cardStyle']}" id="{section_id}-panel" aria-labelledby="{section_id}" data-content-section="{section_number:02d}" data-section-role="{html.escape(role, quote=True)}" data-layout-family="{concept['layoutFamily']}">
 {body.rstrip()}
       </section>"""
 
@@ -1459,6 +1817,27 @@ def page_html(concept: dict, file_name: str, page_key: str, label: str, page_ind
     title = f"{label} | {concept['name']} | Franciele Sofiati"
     description = page_description(page_key, concept)
     canonical = f"{BRAND['domain']}/concepts/{concept['conceptId']}/{file_name}"
+    schema = json.dumps(
+        {
+            "@context": "https://schema.org",
+            "@type": "HealthAndBeautyBusiness",
+            "name": "Franciele Sofiati Biomédica",
+            "url": canonical,
+            "description": description,
+            "image": f"{BRAND['domain']}/assets/brand/sofiati-logo-primary-transparent.png",
+            "email": BRAND["email"],
+            "telephone": "+5543991043536",
+            "areaServed": "Londrina, PR, Brazil",
+            "sameAs": [BRAND["instagramUrl"]],
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": "Franciele Sofiati",
+                "url": BRAND["domain"],
+            },
+            "mainEntityOfPage": canonical,
+        },
+        ensure_ascii=False,
+    )
     roles = PAGE_ROLES[page_key]
     sections = "\n".join(section_html(concept, page_key, page_index, i, role) for i, role in enumerate(roles, 1))
     return f"""<!doctype html>
@@ -1475,6 +1854,7 @@ def page_html(concept: dict, file_name: str, page_key: str, label: str, page_ind
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{canonical}" />
     <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json">{schema}</script>
     <link rel="icon" href="../../assets/brand/sofiati-favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="../../assets/brand/sofiati-monogram-sage.png" />
     <link rel="stylesheet" href="../../css/sofiati-brand-foundation.css" />
@@ -1482,11 +1862,11 @@ def page_html(concept: dict, file_name: str, page_key: str, label: str, page_ind
     <script src="../../js/sofiati-brand-foundation.js" defer></script>
     <script src="js/concept.js" defer></script>
   </head>
-  <body class="{prefix}-body {prefix}-site {prefix}-{concept['slug']} {prefix}-page-{page_key}" data-concept="{concept['conceptId']}" data-page="{page_key}" data-section-total="10">
+  <body class="{prefix}-body {prefix}-site {prefix}-{concept['slug']} {prefix}-page-{page_key}" data-concept="{concept['conceptId']}" data-page="{page_key}" data-section-total="10" data-creative-family="{concept['layoutFamily']}" data-hero-pattern="{concept['heroPattern']}" data-card-style="{concept['cardStyle']}" data-media-treatment="{concept['imageTreatment']}">
     <a class="skip-link" href="#main">Skip to main content</a>
     <div data-sofiati-partial="header"></div>
     <div data-sofiati-partial="mobile-menu"></div>
-    <main id="main" class="{prefix}-main {prefix}-main--{concept['homepageAnatomy'] if page_key == 'home' else concept['internalPageAnatomy']}" aria-label="{html.escape(label)} content">
+    <main id="main" class="{prefix}-main {prefix}-main--{concept['homepageAnatomy'] if page_key == 'home' else concept['internalPageAnatomy']}" aria-label="{html.escape(label)} content" data-layout-family="{concept['layoutFamily']}" data-mobile-strategy="{concept['mobileLayoutStrategy']}">
 {sections}
     </main>
     <div data-sofiati-partial="footer"></div>
@@ -1494,123 +1874,6 @@ def page_html(concept: dict, file_name: str, page_key: str, label: str, page_ind
     <div data-sofiati-partial="floating-widgets"></div>
   </body>
 </html>"""
-
-
-def nav_links(prefix: str, class_name: str, offset: int = 0, limit: int | None = None) -> str:
-    links = [
-        ("Home", "index.html"),
-        ("About", "about.html"),
-        ("Care", "care.html"),
-        ("Laser", "laser.html"),
-        ("Skin", "skin.html"),
-        ("Consultation", "consultation.html"),
-        ("Contact", "contact.html"),
-    ]
-    if offset:
-        links = rotate(links, offset)
-    if limit:
-        links = links[:limit]
-    return "\n".join(f'        <a class="{prefix}-{class_name}" href="{href}">{label}</a>' for label, href in links)
-
-
-def write_partials(concept: dict) -> None:
-    number = concept["number"]
-    number_int = int(number)
-    prefix = f"c{number}"
-    folder = CONCEPTS_DIR / concept["conceptId"]
-    nav_offset = number_int % 7
-    header_intro = concept["visualThesis"].split(".")[0]
-    header_detail = [
-        f'<p class="{prefix}-header-note">{concept["destination"]}</p>',
-        f'<span class="{prefix}-header-index">Destination {number}</span>',
-        f'<p class="{prefix}-header-note">{header_intro}.</p>',
-    ][number_int % 3]
-    nav_block = nav_links(prefix, "nav-link", nav_offset)
-    header = f"""
-<header class="{prefix}-header {prefix}-header--{concept['headerSystem']}" data-partial-owner="header">
-  <a class="{prefix}-brand" href="index.html" aria-label="Sofiati {concept['name']} home">
-    <img src="../../assets/brand/sofiati-logo-primary-sage.png" alt="Sofiati" />
-    <span>{concept['name']}</span>
-  </a>
-  {header_detail}
-  <nav class="{prefix}-desktop-nav" aria-label="{concept['name']} primary navigation">
-{nav_block}
-  </nav>
-  <div class="{prefix}-language" aria-label="Language controls">
-    <button type="button" data-language-option="en" aria-pressed="true">EN</button>
-    <button type="button" data-language-option="pt-BR" aria-pressed="false">PT</button>
-  </div>
-  <a class="{prefix}-header-cta" href="consultation.html">Request evaluation</a>
-  <button class="{prefix}-menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu">
-    <span>Menu</span>
-  </button>
-</header>
-"""
-    mobile = f"""
-<aside id="mobile-menu" class="{prefix}-mobile-menu {prefix}-mobile-menu--{concept['mobileSystem']}" data-menu-panel aria-hidden="true">
-  <div class="{prefix}-mobile-dialog" role="dialog" aria-modal="true" aria-label="{concept['name']} mobile navigation">
-    <button class="{prefix}-mobile-close" type="button" data-menu-close>Close</button>
-    <p class="{prefix}-mobile-kicker">{concept['destination']}</p>
-    <div class="{prefix}-mobile-links">
-{nav_links(prefix, "mobile-link", nav_offset + 2)}
-      <a class="{prefix}-mobile-link" href="values.html">Values</a>
-      <a class="{prefix}-mobile-link" href="faq.html">FAQ</a>
-      <a class="{prefix}-mobile-link" href="sitemap.html">Sitemap</a>
-    </div>
-    <a class="{prefix}-mobile-primary" href="{BRAND['whatsappUrl']}" target="_blank" rel="noopener">Message WhatsApp</a>
-  </div>
-</aside>
-"""
-    rotated_footer_routes = rotate(ROUTE_LINKS, (number_int * 2) % len(ROUTE_LINKS))
-    footer_links = "\n".join(f'      <li><a href="{href}">{label}</a></li>' for label, href in rotated_footer_routes[:6])
-    rotated_policies = rotate(POLICY_LINKS, number_int % len(POLICY_LINKS))
-    policy_links = "\n".join(f'      <li><a href="{href}">{label}</a></li>' for label, href in POLICY_LINKS)
-    policy_links = "\n".join(f'      <li><a href="{href}">{label}</a></li>' for label, href in rotated_policies)
-    footer_manifest = " ".join((concept["colourThesis"] + " " + concept["visualThesis"]).split()[:42])
-    footer = f"""
-<footer class="{prefix}-footer {prefix}-footer--{concept['footerSystem']}" data-partial-owner="footer">
-  <div class="{prefix}-footer-brand">
-    <img src="../../assets/brand/sofiati-signature-sage.png" alt="Franciele Sofiati signature" />
-    <p>{concept['destination']} for ethical, consultation-led care in {BRAND['location']}.</p>
-    <p class="{prefix}-footer-manifest">{footer_manifest}.</p>
-  </div>
-  <div class="{prefix}-footer-columns">
-    <ul aria-label="{concept['name']} core routes">
-{footer_links}
-    </ul>
-    <ul aria-label="{concept['name']} policy routes">
-{policy_links}
-    </ul>
-  </div>
-  <div class="{prefix}-footer-bottom">
-    <span>{BRAND['name']} · {BRAND['credential']}</span>
-    <a href="{BRAND['instagramUrl']}" target="_blank" rel="noopener">{BRAND['instagram']}</a>
-  </div>
-</footer>
-"""
-    cookie = f"""
-<div class="{prefix}-cookie" data-cookie-banner role="region" aria-label="{concept['name']} cookie preferences">
-  <p>This site uses essential cookies for preference memory and a calmer browsing experience.</p>
-  <button type="button" data-cookie-accept>Accept</button>
-  <a href="cookies.html">Cookie details</a>
-</div>
-"""
-    floating = f"""
-<div class="{prefix}-floating" data-floating-widgets>
-  <span class="{prefix}-float-label">{concept['name']} quick routes</span>
-  <a class="{prefix}-float-link" href="{BRAND['whatsappUrl']}" target="_blank" rel="noopener" aria-label="Message Franciele Sofiati on WhatsApp">WhatsApp</a>
-  <button class="{prefix}-float-top" type="button" data-back-to-top aria-label="Back to top">Top</button>
-</div>
-"""
-    partials = {
-        "header.html": header,
-        "mobile-menu.html": mobile,
-        "footer.html": footer,
-        "cookie-banner.html": cookie,
-        "floating-widgets.html": floating,
-    }
-    for filename, content in partials.items():
-        write_text(folder / "partials" / filename, content)
 
 
 def palette_vars(concept: dict) -> dict[str, str]:
@@ -1623,11 +1886,8 @@ def palette_vars(concept: dict) -> dict[str, str]:
         "sage": "var(--sofiati-sage-200)",
         "ivory": "var(--sofiati-ivory-100)",
         "cream": "var(--sofiati-cream-400)",
-        "blush": "var(--sofiati-pink-100)",
         "gold": "var(--sofiati-gold-500)",
         "bronze": "var(--sofiati-bronze-400)",
-        "taupe": "var(--sofiati-taupe-300)",
-        "terracotta": "var(--sofiati-terracotta-300)",
     }
     return {
         "base": mapping.get(dominant, "var(--sofiati-ivory-100)"),
@@ -1679,96 +1939,6 @@ def concept_css(concept: dict) -> str:
   color: var(--{prefix}-ink);
 }}
 
-.{prefix}-header {{
-  position: sticky;
-  top: 0;
-  z-index: 50;
-  display: grid;
-  grid-template-columns: {'1fr auto 1fr' if header_mode in (1, 3, 7) else 'auto 1fr auto auto'};
-  align-items: center;
-  gap: 1rem;
-  padding: {0.75 + header_mode * 0.04:.2f}rem clamp(1rem, 3vw, 3rem);
-  background: color-mix(in srgb, var(--{prefix}-base), white 30%);
-  border-bottom: 1px solid var(--{prefix}-line);
-}}
-
-.{prefix}-brand {{
-  display: inline-flex;
-  align-items: center;
-  gap: 0.7rem;
-  color: inherit;
-  font-weight: 700;
-  letter-spacing: 0;
-  text-decoration: none;
-}}
-
-.{prefix}-brand img {{
-  width: {120 + header_mode * 6}px;
-  height: auto;
-}}
-
-.{prefix}-header-note,
-.{prefix}-header-index {{
-  max-width: 18rem;
-  margin: 0;
-  color: color-mix(in srgb, var(--{prefix}-ink), transparent 22%);
-  font-size: 0.76rem;
-  line-height: 1.35;
-}}
-
-.{prefix}-header-index {{
-  justify-self: center;
-  padding: 0.35rem 0.55rem;
-  border: 1px solid var(--{prefix}-line);
-}}
-
-.{prefix}-desktop-nav {{
-  display: flex;
-  justify-content: {'center' if header_mode in (1, 2, 4, 8) else 'flex-end'};
-  gap: clamp(0.65rem, 1.2vw, 1.2rem);
-}}
-
-.{prefix}-nav-link,
-.{prefix}-mobile-link {{
-  color: inherit;
-  font-size: 0.88rem;
-  text-decoration: none;
-}}
-
-.{prefix}-nav-link:hover,
-.{prefix}-mobile-link:hover {{
-  color: var(--{prefix}-accent);
-}}
-
-.{prefix}-language {{
-  display: inline-flex;
-  gap: 0.25rem;
-  border: 1px solid var(--{prefix}-line);
-}}
-
-.{prefix}-language button,
-.{prefix}-menu-toggle,
-.{prefix}-mobile-close,
-.{prefix}-cookie button,
-.{prefix}-float-top {{
-  border: 0;
-  border-radius: var(--{prefix}-radius);
-  background: transparent;
-  color: inherit;
-  cursor: pointer;
-}}
-
-.{prefix}-language button {{
-  padding: 0.45rem 0.55rem;
-}}
-
-.{prefix}-language button[aria-pressed="true"] {{
-  background: var(--{prefix}-accent);
-  color: var(--sofiati-ink-900);
-}}
-
-.{prefix}-header-cta,
-.{prefix}-mobile-primary,
 .{prefix}-action,
 .{prefix}-text-link {{
   display: inline-flex;
@@ -1781,55 +1951,215 @@ def concept_css(concept: dict) -> str:
   text-decoration: none;
 }}
 
-.{prefix}-header-cta,
 .{prefix}-action--gold-mark,
 .{prefix}-action--ledger-button {{
   background: var(--{prefix}-accent);
   color: var(--sofiati-ink-900);
 }}
 
-.{prefix}-menu-toggle {{
-  display: none;
-  border: 1px solid var(--{prefix}-line);
-  padding: 0.72rem 0.9rem;
+.{prefix}-main {{
+  overflow: clip;
 }}
 
-.{prefix}-mobile-menu {{
-  position: fixed;
-  inset: 0;
-  z-index: 80;
-  display: grid;
-  place-items: {'center' if header_mode % 2 else 'end'};
-  padding: 1rem;
-  background: rgba(37, 35, 33, 0.38);
-  opacity: 0;
+.{prefix}-hero {{
+  min-height: clamp(620px, 78vh, 860px);
+  position: relative;
+  grid-template-columns: minmax(0, 1.05fr) minmax(18rem, 0.62fr) minmax(12rem, 0.36fr);
+  grid-template-rows: auto auto;
+  column-gap: clamp(1.2rem, 3vw, 3.4rem);
+  overflow: hidden;
+}}
+
+.{prefix}-hero::before {{
+  content: "";
+  position: absolute;
+  inset: clamp(1rem, 2vw, 2rem);
   pointer-events: none;
-  transition: opacity 180ms ease;
+  border: 1px solid color-mix(in srgb, var(--{prefix}-accent), transparent 62%);
 }}
 
-.{prefix}-mobile-menu[aria-hidden="false"] {{
-  opacity: 1;
-  pointer-events: auto;
+.{prefix}-hero-copy {{
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  align-self: center;
+  max-width: min(760px, 100%);
+  z-index: 1;
 }}
 
-.{prefix}-mobile-dialog {{
-  width: min(92vw, {360 + header_mode * 18}px);
-  max-height: 92vh;
-  overflow: auto;
-  padding: 1.4rem;
-  background: var(--{prefix}-secondary);
+.{prefix}-hero-copy h1 {{
+  max-width: {'10ch' if header_mode in (0, 3, 9) else '12ch'};
+  font-size: clamp(3.25rem, 7.4vw, {6.2 + (int(number) % 5) * .38:.2f}rem);
+}}
+
+.{prefix}-hero-copy p {{
+  max-width: 54ch;
+  font-size: clamp(1rem, 1.45vw, 1.2rem);
+}}
+
+.{prefix}-hero-actions {{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}}
+
+.{prefix}-hero-media {{
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+  min-width: 0;
+  display: grid;
+  align-self: stretch;
+  position: relative;
+}}
+
+.{prefix}-hero-media .{prefix}-portrait {{
+  grid-column: 1;
+  grid-row: 1;
+  min-height: clamp(420px, 62vh, 720px);
+  height: 100%;
+}}
+
+.{prefix}-hero-media .{prefix}-portrait img {{
+  height: clamp(400px, 60vh, 700px);
+}}
+
+.{prefix}-hero-media .{prefix}-visual-panel {{
+  grid-column: 1;
+  grid-row: 1;
+  align-self: stretch;
+  min-height: 0;
+  opacity: 0.72;
+}}
+
+.{prefix}-hero-proof,
+.{prefix}-hero-routes {{
+  position: relative;
+  z-index: 1;
+  list-style: none;
+  margin: 0;
+  padding: clamp(1rem, 1.8vw, 1.45rem);
   border: 1px solid var(--{prefix}-line);
+  background: color-mix(in srgb, var(--sofiati-ivory-100), transparent 15%);
   border-radius: var(--{prefix}-radius);
 }}
 
-.{prefix}-mobile-links {{
+.{prefix}-hero-proof {{
+  grid-column: 3 / 4;
+  grid-row: 1;
+  align-self: start;
   display: grid;
-  gap: 0.75rem;
-  margin: 1rem 0;
+  gap: 1rem;
 }}
 
-.{prefix}-main {{
-  overflow: clip;
+.{prefix}-hero-proof strong {{
+  display: block;
+  color: var(--{prefix}-accent);
+}}
+
+.{prefix}-hero-routes {{
+  grid-column: 3 / 4;
+  grid-row: 2;
+  align-self: end;
+  display: grid;
+  gap: 0.55rem;
+}}
+
+.{prefix}-hero-routes a {{
+  display: flex;
+  justify-content: space-between;
+  min-height: 2.45rem;
+  align-items: center;
+  border-bottom: 1px solid var(--{prefix}-line);
+  color: inherit;
+  text-decoration: none;
+}}
+
+.{prefix}-hero--clinical-dashboard,
+.{prefix}-hero--light-lab,
+.{prefix}-hero--clarity-brief {{
+  grid-template-columns: minmax(0, 0.9fr) minmax(18rem, 0.78fr);
+}}
+
+.{prefix}-hero--clinical-dashboard .{prefix}-hero-proof,
+.{prefix}-hero--light-lab .{prefix}-hero-proof,
+.{prefix}-hero--clarity-brief .{prefix}-hero-proof {{
+  grid-column: 1 / 2;
+  grid-row: 2;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}}
+
+.{prefix}-hero--clinical-dashboard .{prefix}-hero-routes,
+.{prefix}-hero--light-lab .{prefix}-hero-routes,
+.{prefix}-hero--clarity-brief .{prefix}-hero-routes {{
+  grid-column: 2 / 3;
+}}
+
+.{prefix}-hero--dark-cinematic,
+.{prefix}-hero--proof-route,
+.{prefix}-hero--sculptural-form {{
+  min-height: clamp(660px, 84vh, 920px);
+}}
+
+.{prefix}-hero--dark-cinematic .{prefix}-hero-copy,
+.{prefix}-hero--proof-route .{prefix}-hero-copy,
+.{prefix}-hero--sculptural-form .{prefix}-hero-copy {{
+  grid-column: 1 / 3;
+}}
+
+.{prefix}-hero--quiet-minimal,
+.{prefix}-hero--private-note,
+.{prefix}-hero--organic-paper {{
+  grid-template-columns: minmax(0, 0.72fr) minmax(16rem, 0.44fr) minmax(10rem, 0.34fr);
+  min-height: clamp(560px, 68vh, 760px);
+}}
+
+.{prefix}-hero--radiance-glow,
+.{prefix}-hero--aura-field,
+.{prefix}-hero--bloom-frame {{
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--{prefix}-secondary), white 36%), var(--sofiati-ivory-100));
+}}
+
+.{prefix}-visual-panel {{
+  grid-column: {'8 / 12' if image_side == 'end' else '2 / 6'};
+  min-height: min(46vh, 520px);
+  display: grid;
+  place-items: center;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--{prefix}-line);
+  background:
+    repeating-linear-gradient(90deg, color-mix(in srgb, var(--{prefix}-accent), transparent 86%) 0 1px, transparent 1px 22px),
+    linear-gradient(135deg, color-mix(in srgb, var(--{prefix}-secondary), white 22%), var(--sofiati-ivory-100));
+}}
+
+.{prefix}-visual-panel span,
+.{prefix}-visual-panel i,
+.{prefix}-visual-panel b {{
+  position: absolute;
+  display: block;
+  border: 1px solid color-mix(in srgb, var(--{prefix}-accent), transparent 38%);
+}}
+
+.{prefix}-visual-panel span {{
+  width: 58%;
+  aspect-ratio: 1 / 1.34;
+  border-radius: 48% 52% 46% 54%;
+}}
+
+.{prefix}-visual-panel i {{
+  width: 42%;
+  height: 1px;
+  transform: rotate(-18deg);
+  background: var(--{prefix}-accent);
+}}
+
+.{prefix}-visual-panel b {{
+  width: 26%;
+  aspect-ratio: 1;
+  right: 12%;
+  bottom: 14%;
+  border-radius: {'50%' if header_mode in (6, 7, 8) else '2px'};
 }}
 
 .{prefix}-section {{
@@ -1844,6 +2174,71 @@ def concept_css(concept: dict) -> str:
 
 .{prefix}-section > * {{
   grid-column: 2 / 12;
+}}
+
+.{prefix}-hero {{
+  min-height: clamp(620px, 78vh, 860px);
+  grid-template-columns: minmax(0, 1.05fr) minmax(18rem, 0.62fr) minmax(12rem, 0.36fr);
+  grid-template-rows: auto auto;
+}}
+
+.{prefix}-hero--clinical-dashboard,
+.{prefix}-hero--light-lab,
+.{prefix}-hero--clarity-brief {{
+  grid-template-columns: minmax(0, 0.9fr) minmax(18rem, 0.78fr);
+}}
+
+.{prefix}-hero--dark-cinematic,
+.{prefix}-hero--proof-route,
+.{prefix}-hero--sculptural-form {{
+  min-height: clamp(660px, 84vh, 920px);
+}}
+
+.{prefix}-hero--quiet-minimal,
+.{prefix}-hero--private-note,
+.{prefix}-hero--organic-paper {{
+  grid-template-columns: minmax(0, 0.72fr) minmax(16rem, 0.44fr) minmax(10rem, 0.34fr);
+  min-height: clamp(560px, 68vh, 760px);
+}}
+
+.{prefix}-hero > .{prefix}-hero-copy {{
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}}
+
+.{prefix}-hero > .{prefix}-hero-media {{
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+}}
+
+.{prefix}-hero > .{prefix}-hero-proof {{
+  grid-column: 3 / 4;
+  grid-row: 1;
+}}
+
+.{prefix}-hero > .{prefix}-hero-routes {{
+  grid-column: 3 / 4;
+  grid-row: 2;
+}}
+
+.{prefix}-hero--clinical-dashboard > .{prefix}-hero-proof,
+.{prefix}-hero--light-lab > .{prefix}-hero-proof,
+.{prefix}-hero--clarity-brief > .{prefix}-hero-proof {{
+  grid-column: 1 / 2;
+  grid-row: 2;
+}}
+
+.{prefix}-hero--clinical-dashboard > .{prefix}-hero-routes,
+.{prefix}-hero--light-lab > .{prefix}-hero-routes,
+.{prefix}-hero--clarity-brief > .{prefix}-hero-routes {{
+  grid-column: 2 / 3;
+  grid-row: 2;
+}}
+
+.{prefix}-hero--dark-cinematic > .{prefix}-hero-copy,
+.{prefix}-hero--proof-route > .{prefix}-hero-copy,
+.{prefix}-hero--sculptural-form > .{prefix}-hero-copy {{
+  grid-column: 1 / 3;
 }}
 
 .{prefix}-section h1,
@@ -1867,6 +2262,36 @@ def concept_css(concept: dict) -> str:
 .{prefix}-section p {{
   max-width: 62ch;
   margin: 1rem 0 0;
+}}
+
+.{prefix}-anatomy--editorial-spread,
+.{prefix}-anatomy--wide-horizon,
+.{prefix}-anatomy--manifesto-line {{
+  grid-template-columns: minmax(0, 1.1fr) minmax(16rem, 0.72fr) minmax(9rem, 0.28fr);
+}}
+
+.{prefix}-anatomy--process-rail,
+.{prefix}-anatomy--softline-sequence,
+.{prefix}-anatomy--technical-table {{
+  grid-template-columns: minmax(0, 0.82fr) minmax(18rem, 0.9fr);
+}}
+
+.{prefix}-anatomy--route-ledger,
+.{prefix}-anatomy--route-directory,
+.{prefix}-anatomy--evidence-ledger {{
+  grid-template-columns: minmax(0, 0.74fr) minmax(18rem, 1fr);
+}}
+
+.{prefix}-anatomy--statement-band,
+.{prefix}-anatomy--conversation-field {{
+  min-height: auto;
+  padding-block: clamp(5rem, 8vw, 9rem);
+}}
+
+.{prefix}-anatomy--article-row,
+.{prefix}-anatomy--reading-path,
+.{prefix}-anatomy--folio-stack {{
+  grid-template-columns: minmax(0, 0.92fr) minmax(18rem, 0.86fr);
 }}
 
 .{prefix}-eyebrow {{
@@ -1894,18 +2319,9 @@ def concept_css(concept: dict) -> str:
   background: var(--sofiati-ivory-100);
 }}
 
-.{prefix}-tone--blush {{
-  background: var(--sofiati-pink-100);
-}}
-
 .{prefix}-tone--gold,
 .{prefix}-tone--bronze {{
   background: linear-gradient(135deg, var(--sofiati-gold-200), var(--sofiati-ivory-100));
-}}
-
-.{prefix}-tone--terracotta,
-.{prefix}-tone--taupe {{
-  background: linear-gradient(135deg, var(--sofiati-terracotta-200), var(--sofiati-taupe-300));
 }}
 
 .{prefix}-section-note,
@@ -1921,6 +2337,45 @@ def concept_css(concept: dict) -> str:
   border: 1px solid var(--{prefix}-line);
   border-radius: var(--{prefix}-radius);
   background: color-mix(in srgb, white, transparent {34 + header_mode * 2}%);
+}}
+
+.{prefix}-card--clinical-module .{prefix}-section-note,
+.{prefix}-card--clinical-module .{prefix}-route-list,
+.{prefix}-card--clinical-module .{prefix}-process-list,
+.{prefix}-card--clinical-module .{prefix}-proof-ledger {{
+  display: grid;
+  border-left-width: 4px;
+  background: color-mix(in srgb, var(--sofiati-ivory-100), var(--{prefix}-secondary) 16%);
+}}
+
+.{prefix}-card--offset-soft .{prefix}-section-note,
+.{prefix}-card--floating-pane .{prefix}-section-note,
+.{prefix}-card--petal-card .{prefix}-section-note {{
+  transform: translateY(1.2rem);
+  box-shadow: var(--shadow-sm);
+}}
+
+.{prefix}-card--cinematic-slate .{prefix}-section-note,
+.{prefix}-card--proof-ledger .{prefix}-proof-ledger,
+.{prefix}-card--sculpted-plate .{prefix}-section-note {{
+  background: color-mix(in srgb, var(--{prefix}-ink), var(--{prefix}-accent) 12%);
+  color: var(--sofiati-ivory-100);
+}}
+
+.{prefix}-card--paper-note .{prefix}-section-note,
+.{prefix}-card--natural-slip .{prefix}-section-note,
+.{prefix}-card--botanical-tile .{prefix}-section-note {{
+  background:
+    repeating-linear-gradient(0deg, transparent 0 15px, color-mix(in srgb, var(--{prefix}-accent), transparent 90%) 15px 16px),
+    color-mix(in srgb, var(--sofiati-ivory-100), var(--{prefix}-secondary) 8%);
+}}
+
+.{prefix}-card--fine-line .{prefix}-section-note,
+.{prefix}-card--minimal-rule .{prefix}-section-note,
+.{prefix}-card--light-cell .{prefix}-section-note,
+.{prefix}-card--clarity-row .{prefix}-section-note {{
+  box-shadow: none;
+  background: transparent;
 }}
 
 .{prefix}-route-list {{
@@ -1976,121 +2431,85 @@ def concept_css(concept: dict) -> str:
   grid-column: {'2 / 8' if image_side == 'end' else '6 / 12'};
 }}
 
-.{prefix}-footer {{
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(18rem, 0.8fr);
-  gap: 2rem;
-  padding: clamp(3rem, 6vw, 5rem) clamp(1rem, 4vw, 4.5rem);
-  background: {footer_background};
-  color: {footer_color};
-}}
-
-.{prefix}-footer img {{
-  width: min(240px, 68vw);
-}}
-
-.{prefix}-footer-manifest {{
-  max-width: 42rem;
-  font-size: 0.92rem;
-}}
-
-.{prefix}-footer-columns {{
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-}}
-
-.{prefix}-footer ul {{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}}
-
-.{prefix}-footer a {{
-  color: inherit;
-}}
-
-.{prefix}-footer-bottom {{
-  grid-column: 1 / -1;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 1rem;
-  border-top: 1px solid var(--{prefix}-line);
-  padding-top: 1rem;
-}}
-
-.{prefix}-cookie {{
-  position: fixed;
-  inset: auto clamp(1rem, 2vw, 2rem) clamp(1rem, 2vw, 2rem) auto;
-  z-index: 70;
-  width: min(360px, calc(100vw - 2rem));
-  display: grid;
-  gap: 0.65rem;
-  padding: 1rem;
-  background: var(--sofiati-ivory-100);
-  border: 1px solid var(--{prefix}-line);
-  border-radius: var(--{prefix}-radius);
-  box-shadow: var(--shadow-md);
-}}
-
-.{prefix}-cookie.is-hidden {{
-  display: none;
-}}
-
-.{prefix}-floating {{
-  position: fixed;
-  inset: auto 1rem 1rem auto;
-  z-index: 65;
-  display: grid;
-  gap: 0.55rem;
-  transform: translateY(-5.4rem);
-}}
-
-.{prefix}-float-link,
-.{prefix}-float-top {{
-  min-width: 4.7rem;
-  padding: 0.72rem 0.8rem;
-  border: 1px solid var(--{prefix}-line);
-  border-radius: var(--{prefix}-radius);
-  background: var(--{prefix}-accent);
-  color: var(--sofiati-ink-900);
-  text-align: center;
-  text-decoration: none;
-}}
-
-.{prefix}-float-label {{
-  max-width: 8rem;
-  font-size: 0.68rem;
-  line-height: 1.2;
-  text-align: center;
-  color: var(--{prefix}-ink);
-}}
-
 {chr(10).join(section_styles)}
 
-@media (max-width: 920px) {{
-  .{prefix}-desktop-nav,
-  .{prefix}-header-cta {{
-    display: none;
+@media (max-width: 1024px) and (min-width: 721px) {{
+  .{prefix}-section {{
+    min-height: auto;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    padding: clamp(4rem, 8vw, 6rem) clamp(1.2rem, 4vw, 2.4rem);
   }}
 
-  .{prefix}-header {{
-    grid-template-columns: 1fr auto auto;
+  .{prefix}-section > * {{
+    grid-column: 1 / -1;
   }}
 
-  .{prefix}-menu-toggle {{
-    display: inline-flex;
+  .{prefix}-hero {{
+    grid-template-columns: minmax(0, 1fr) minmax(16rem, 0.68fr);
+    grid-template-rows: auto auto auto;
   }}
 
+  .{prefix}-hero > .{prefix}-hero-copy {{
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+  }}
+
+  .{prefix}-hero > .{prefix}-hero-media {{
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+  }}
+
+  .{prefix}-hero > .{prefix}-hero-proof,
+  .{prefix}-hero > .{prefix}-hero-routes {{
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }}
+
+  .{prefix}-hero-proof {{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }}
+
+  .{prefix}-portrait {{
+    min-height: 420px;
+  }}
+
+  .{prefix}-portrait img {{
+    height: 420px;
+  }}
+
+  .{prefix}-visual-panel {{
+    min-height: 340px;
+  }}
+
+  .{prefix}-section:has(.{prefix}-portrait) .{prefix}-section-head,
+  .{prefix}-section:has(.{prefix}-portrait) .{prefix}-statement,
+  .{prefix}-section:has(.{prefix}-portrait) .{prefix}-rail-copy,
+  .{prefix}-section:has(.{prefix}-portrait) .{prefix}-ledger-title,
+  .{prefix}-section:has(.{prefix}-portrait) .{prefix}-reading-intro,
+  .{prefix}-section:has(.{prefix}-portrait) .{prefix}-contact-copy {{
+    grid-column: 1 / 5;
+  }}
+
+  .{prefix}-section:has(.{prefix}-portrait) .{prefix}-portrait,
+  .{prefix}-visual-panel {{
+    grid-column: 5 / -1;
+  }}
+}}
+
+@media (max-width: 720px) {{
   .{prefix}-section {{
     min-height: auto;
     grid-template-columns: 1fr;
-    padding: 4rem 1rem;
+    padding: 3.4rem 1rem;
   }}
 
   .{prefix}-section > *,
+  .{prefix}-hero > .{prefix}-hero-copy,
+  .{prefix}-hero > .{prefix}-hero-media,
+  .{prefix}-hero > .{prefix}-hero-proof,
+  .{prefix}-hero > .{prefix}-hero-routes,
   .{prefix}-portrait,
+  .{prefix}-visual-panel,
   .{prefix}-portrait + *,
   .{prefix}-section:has(.{prefix}-portrait) .{prefix}-section-head,
   .{prefix}-section:has(.{prefix}-portrait) .{prefix}-statement,
@@ -2101,185 +2520,38 @@ def concept_css(concept: dict) -> str:
     grid-column: 1;
   }}
 
+  .{prefix}-hero {{
+    min-height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }}
+
+  .{prefix}-hero::before {{
+    inset: 0.55rem;
+  }}
+
+  .{prefix}-hero-copy h1 {{
+    max-width: 11ch;
+    font-size: clamp(2.55rem, 15vw, 4rem);
+  }}
+
+  .{prefix}-hero-proof {{
+    grid-template-columns: 1fr;
+  }}
+
   .{prefix}-portrait {{
     grid-row: auto;
-    min-height: 360px;
+    min-height: 320px;
   }}
 
   .{prefix}-portrait img {{
-    height: 360px;
+    height: 320px;
   }}
 
-  .{prefix}-footer {{
-    grid-template-columns: 1fr;
-  }}
-
-  .{prefix}-footer-columns {{
-    grid-template-columns: 1fr;
-  }}
-
-  .{prefix}-cookie {{
-    inset-inline: 1rem;
-    inset-block-end: 1rem;
+  .{prefix}-visual-panel {{
+    min-height: 280px;
   }}
 }}
-"""
-
-
-def concept_js(concept: dict) -> str:
-    number = concept["number"]
-    prefix = f"c{number}"
-    destination_words = []
-    for word in re.findall(
-        r"[A-Za-z]{4,}",
-        " ".join(
-            [
-                concept["destination"],
-                concept["visualThesis"],
-                concept["colourThesis"],
-                " ".join(concept["homepageSectionColourSequence"]),
-            ]
-        ),
-    ):
-        word = word.lower()
-        if word not in destination_words:
-            destination_words.append(word)
-    destination_words = destination_words[:34]
-    profile = {
-        "conceptId": concept["conceptId"],
-        "partialNames": ["header", "mobile-menu", "footer", "cookie-banner", "floating-widgets"],
-        "menuMode": concept["mobileSystem"],
-        "headerMode": concept["headerSystem"],
-        "interactionTone": concept["ctaStrategy"],
-        "destinationWords": destination_words,
-        "sectionRhythm": [tone_from_phrase(item) for item in concept["homepageSectionColourSequence"]],
-    }
-    return f"""
-(() => {{
-  "use strict";
-
-  const profile = {json.dumps(profile, indent=2)};
-  const cache = new Map();
-  let lastMenuTrigger = null;
-
-  const applyDestinationSignature = () => {{
-    document.body.dataset.destinationSignature = profile.destinationWords.slice(0, 8).join("-");
-    document.querySelectorAll("[data-content-section]").forEach((section, index) => {{
-      const word = profile.destinationWords[(index * 3) % profile.destinationWords.length] || profile.conceptId;
-      const rhythm = profile.sectionRhythm[index % profile.sectionRhythm.length] || "ivory";
-      section.style.setProperty("--concept-word-length", String(word.length));
-      section.dataset.destinationWord = word;
-      section.dataset.rhythmTone = rhythm;
-    }});
-  }};
-
-  const fetchPartial = async (name) => {{
-    if (!cache.has(name)) {{
-      cache.set(name, fetch(`partials/${{name}}.html`, {{ cache: "no-store" }}).then((response) => {{
-        if (!response.ok) throw new Error(`Missing partial ${{name}} for {concept['conceptId']}`);
-        return response.text();
-      }}));
-    }}
-    return cache.get(name);
-  }};
-
-  const mountPartials = async () => {{
-    await Promise.all(profile.partialNames.map(async (name) => {{
-      const mount = document.querySelector(`[data-sofiati-partial="${{name}}"]`);
-      if (!mount) return;
-      mount.innerHTML = await fetchPartial(name);
-      mount.dataset.partialLoaded = "true";
-    }}));
-    document.dispatchEvent(new CustomEvent("sofiati:concept-partials-ready", {{ detail: profile }}));
-  }};
-
-  const menu = () => document.getElementById("mobile-menu");
-
-  const openMenu = (trigger) => {{
-    const panel = menu();
-    if (!panel) return;
-    lastMenuTrigger = trigger || document.activeElement;
-    panel.setAttribute("aria-hidden", "false");
-    document.body.classList.add("public-menu-locked");
-    document.querySelectorAll("[data-menu-toggle]").forEach((button) => button.setAttribute("aria-expanded", "true"));
-    const first = panel.querySelector("a[href], button:not([disabled])");
-    if (first) first.focus({{ preventScroll: true }});
-  }};
-
-  const closeMenu = () => {{
-    const panel = menu();
-    if (!panel) return;
-    panel.setAttribute("aria-hidden", "true");
-    document.body.classList.remove("public-menu-locked");
-    document.querySelectorAll("[data-menu-toggle]").forEach((button) => button.setAttribute("aria-expanded", "false"));
-    if (lastMenuTrigger && typeof lastMenuTrigger.focus === "function") {{
-      lastMenuTrigger.focus({{ preventScroll: true }});
-    }}
-  }};
-
-  const wireMenu = () => {{
-    document.addEventListener("click", (event) => {{
-      const toggle = event.target.closest("[data-menu-toggle]");
-      const close = event.target.closest("[data-menu-close]");
-      const panel = menu();
-      if (toggle) {{
-        event.preventDefault();
-        if (panel?.getAttribute("aria-hidden") === "false") closeMenu();
-        else openMenu(toggle);
-      }}
-      if (close) {{
-        event.preventDefault();
-        closeMenu();
-      }}
-      if (panel && event.target === panel) closeMenu();
-    }});
-    document.addEventListener("keydown", (event) => {{
-      if (event.key === "Escape") closeMenu();
-    }});
-  }};
-
-  const wireCookie = () => {{
-    const key = `sofiati-cookie-${{profile.conceptId}}`;
-    const banner = document.querySelector("[data-cookie-banner]");
-    if (!banner) return;
-    if (window.localStorage.getItem(key) === "accepted") banner.classList.add("is-hidden");
-    banner.querySelector("[data-cookie-accept]")?.addEventListener("click", () => {{
-      window.localStorage.setItem(key, "accepted");
-      banner.classList.add("is-hidden");
-    }});
-  }};
-
-  const wireHeaderState = () => {{
-    const header = document.querySelector(".{prefix}-header");
-    if (!header) return;
-    const update = () => header.toggleAttribute("data-scrolled", window.scrollY > 20);
-    update();
-    window.addEventListener("scroll", update, {{ passive: true }});
-  }};
-
-  const markCurrentLinks = () => {{
-    const current = location.pathname.split("/").pop() || "index.html";
-    document.querySelectorAll('a[href$=".html"]').forEach((link) => {{
-      const href = link.getAttribute("href") || "";
-      if (href === current) link.setAttribute("aria-current", "page");
-    }});
-  }};
-
-  const init = async () => {{
-    await mountPartials();
-    wireMenu();
-    wireCookie();
-    wireHeaderState();
-    markCurrentLinks();
-    applyDestinationSignature();
-  }};
-
-  if (document.readyState === "loading") {{
-    document.addEventListener("DOMContentLoaded", init, {{ once: true }});
-  }} else {{
-    init();
-  }}
-}})();
 """
 
 
@@ -2289,9 +2561,7 @@ def generate_concepts(concepts: list[dict]) -> None:
         (folder / "css").mkdir(parents=True, exist_ok=True)
         (folder / "js").mkdir(parents=True, exist_ok=True)
         (folder / "partials").mkdir(parents=True, exist_ok=True)
-        write_partials(concept)
         write_text(folder / "css" / "concept.css", concept_css(concept))
-        write_text(folder / "js" / "concept.js", concept_js(concept))
         for page_file, page_key, label in PAGES:
             write_text(folder / page_file, page_html(concept, page_file, page_key, label, page_index))
 
@@ -2386,14 +2656,119 @@ def write_initial_reports(concepts: list[dict]) -> None:
     write_text(SCRIPT_RUNS / "50-new-websites-manual-review-checklist.md", "\n".join(checklist))
 
 
+def write_required_refactor_docs(concepts: list[dict], preflight: dict) -> None:
+    concept_rows = [
+        f"- `{concept['conceptId']}`: public folder retained; creative label {concept.get('requestedName', concept['name'])}; "
+        f"mood {concept.get('visualMood', concept['destination'])}; hero {concept['heroPattern']}; "
+        f"layout {concept['layoutFamily']}; cards {concept['cardStyle']}; media {concept['imageTreatment']}."
+        for concept in concepts
+    ]
+    plan = [
+        "# Sofiati 50 Premium Refactor Plan",
+        "",
+        "## Current Architecture Summary",
+        "",
+        f"- Concept folders found: {preflight['conceptFolders']}.",
+        f"- Real concept HTML pages found: {preflight['existingRealPages']}.",
+        f"- Concept partial files found: {preflight['existingPartials']}.",
+        f"- Concept-local CSS files found: {preflight['existingConceptLocalCssFiles']}.",
+        f"- Concept-local JS files found: {preflight['existingConceptLocalJsFiles']}.",
+        "- Active pages load `../../css/sofiati-brand-foundation.css`, `css/concept.css`, `../../js/sofiati-brand-foundation.js`, and `js/concept.js`.",
+        "- The approved public partial system owns header, language banner, mobile menu, footer, cookie banner, WhatsApp, accessibility, and back-to-top controls.",
+        "- The page generator owns the 21 HTML pages per concept and the concept-specific layout CSS before the public partial CSS block is appended.",
+        "",
+        "## All 50 Concepts",
+        "",
+        *concept_rows,
+        "",
+        "## Repeated Template Problems Found",
+        "",
+        "- Homepage sections shared one dominant grid rhythm even when palette and labels changed.",
+        "- Hero areas used the same section model as normal content, which weakened the first viewport.",
+        "- Tablet behavior collapsed too early and did not keep composed two-column layouts.",
+        "- Similarity checks were stale and measured repeated generated selectors instead of visual decisions.",
+        "- The older rebuild script could overwrite the current public partial system with incompatible `cXX-*` partials.",
+        "",
+        "## Design-System Problems Found",
+        "",
+        "- Composition, card style, media treatment, hero type, and mobile strategy were not stored in one durable registry.",
+        "- Section archetypes existed as names but did not create enough rendered layout difference.",
+        "- The shared chrome was strong, but page architecture did not yet carry the same level of differentiation.",
+        "",
+        "## Responsive Problems Found",
+        "",
+        "- Desktop used grid columns, but many sections still behaved like repeated stacked panels.",
+        "- Tablet needed a true 721px-1024px layout state instead of immediate phone stacking.",
+        "- Mobile needed stronger hero-first scanning and less repeated card rhythm.",
+        "",
+        "## Asset And Placeholder Problems Found",
+        "",
+        "- Approved transparent Sofiati portraits are available under `assets/brand/` and should remain the primary human media.",
+        "- Non-photo visual moments need intentional CSS art panels rather than gray or empty-looking boxes.",
+        "- No fabricated proof, results, testimonials, prices, awards, or medical promises should be introduced.",
+        "",
+        "## Differentiation Plan",
+        "",
+        "- Preserve the existing `concepts/NN-slug` routes and map the attached 50-way creative matrix onto those numbered folders.",
+        "- Generate hero-specific markup for homepage openings instead of reusing regular section scaffolds.",
+        "- Add layout family, hero pattern, card style, media treatment, mobile strategy, and uniqueness notes to each concept contract.",
+        "- Keep public partial generation centralized in `scripts/generate_public_partial_systems.py`.",
+        "- Update similarity/compliance audits so they verify the current architecture instead of stale assumptions.",
+        "",
+        "## Implementation Checklist",
+        "",
+        "- [x] Audit repository structure and baseline checks.",
+        "- [x] Create this refactor plan.",
+        "- [x] Create the differentiation registry.",
+        "- [x] Refactor generator inputs around a 50-concept creative matrix.",
+        "- [x] Preserve public partial ownership.",
+        "- [ ] Rebuild all 50 concepts.",
+        "- [ ] Run compliance, similarity, full-site static QA, and rendered QA.",
+        "- [ ] Capture visual evidence and write final report.",
+    ]
+    write_text(ROOT / "docs" / "sofiati-50-premium-refactor-plan.md", "\n".join(plan))
+
+    registry = [
+        "# Sofiati 50 Concept Differentiation Registry",
+        "",
+        "This registry preserves existing folder names while applying the numbered creative direction from the current premium refactor brief.",
+        "",
+    ]
+    for concept in concepts:
+        registry.extend(
+            [
+                f"## {concept['conceptId']} — {concept.get('requestedName', concept['name'])}",
+                "",
+                f"- Concept name: {concept['name']} folder, creative label {concept.get('requestedName', concept['name'])}.",
+                f"- Visual mood: {concept.get('visualMood', concept['destination'])}.",
+                f"- Primary palette role: {concept.get('paletteRole', concept['colourThesis'])}.",
+                f"- Header pattern: {concept['headerSystem']}.",
+                f"- Hero pattern: {concept['heroPattern']} ({concept.get('heroPatternText', concept['destination'])}).",
+                f"- Homepage section order: {', '.join(concept['homepageSectionOrder'])}.",
+                f"- Card style: {concept['cardStyle']}.",
+                f"- Image treatment: {concept['imageTreatment']}.",
+                f"- CTA style: {concept['ctaStrategy']}.",
+                f"- Footer pattern: {concept['footerSystem']}.",
+                f"- Mobile menu pattern: {concept['mobileSystem']}.",
+                f"- Mobile layout strategy: {concept['mobileLayoutStrategy']}.",
+                "- Unique compared to neighbors:",
+                *[f"  - {item}" for item in concept["uniqueDifferentiators"]],
+                "",
+            ]
+        )
+    write_text(ROOT / "docs" / "sofiati-50-concept-differentiation-registry.md", "\n".join(registry))
+
+
 def main() -> int:
     preflight = collect_preflight()
     write_preflight(preflight)
     write_conflict_audits(preflight)
     concepts = enrich_concepts(load_concepts())
     make_design_bible(concepts)
+    write_required_refactor_docs(concepts, preflight)
     write_foundation_files()
     generate_concepts(concepts)
+    subprocess.run(["python3", "scripts/generate_public_partial_systems.py"], cwd=ROOT, check=True)
     write_initial_reports(concepts)
     print(f"Rebuilt {len(concepts)} concepts and {len(concepts) * len(PAGES)} pages.")
     print(f"Design destination bible: {BIBLE}")

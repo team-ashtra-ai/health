@@ -1,12 +1,12 @@
-# 20-halo — Circular Accent Rhythm
+# 20-halo — Sculptural Aesthetic Structure
 
 ## Visual Thesis
 
-A soft halo-based site using circular CSS accents as rhythm, never as photo crops.
+Forma uses structured, sculptural, precise pacing with geometric premium layout.
 
 ## Colour Thesis
 
-Cream/ivory base. Sage and blush circular accents. Gold tiny highlights. Dark only for footer text.
+ivory, stone, sage, ink
 
 ## Systems
 
@@ -21,159 +21,161 @@ Cream/ivory base. Sage and blush circular accents. Gold tiny highlights. Dark on
 
 ## Homepage Colour Sequence
 
-1. Cream halo hero
-2. Blush halo trust
-3. Sage circular route field
-4. Ivory consultation orbit
-5. Cream reassurance ring
-6. Sage education halo
-7. Blush results note
-8. Ivory journal orbit
-9. Gold halo CTA
-10. Soft sage footer
+1. Forma hero promise in ivory
+2. Forma trust position in cream
+3. Forma care route in gold
+4. Forma consultation path in dark
+5. Forma treatment navigation in ink
+6. Forma human reassurance in sage
+7. Forma education preview in ivory
+8. Forma responsible expectations in cream
+9. Forma contact bridge in gold
+10. Forma closing identity in dark
 
 ## All Other Pages
 
-Use circles as background accents, counters, or CTA fields; never crop portraits.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No circular portrait crops
-- No dark luxury
-- No hard angular grids.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "20-halo",
-  "colourThesis": "Cream/ivory base. Sage and blush circular accents. Gold tiny highlights. Dark only for footer text.",
-  "dominantColourFamily": "dark",
-  "secondaryColourFamily": "sage",
-  "accentColourFamily": "ivory",
+  "colourThesis": "ivory, stone, sage, ink",
+  "dominantColourFamily": "ink",
+  "secondaryColourFamily": "dark",
+  "accentColourFamily": "sage",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "technical-table; no universal cream-card default",
   "buttonStrategy": "dark-anchor",
-  "footerColour": "Soft sage footer",
-  "mobileMenuColour": "Blush halo trust",
+  "footerColour": "Forma closing identity in dark",
+  "mobileMenuColour": "Forma trust position in cream",
   "homepageSectionColourSequence": [
-    "Cream halo hero",
-    "Blush halo trust",
-    "Sage circular route field",
-    "Ivory consultation orbit",
-    "Cream reassurance ring",
-    "Sage education halo",
-    "Blush results note",
-    "Ivory journal orbit",
-    "Gold halo CTA",
-    "Soft sage footer"
+    "Forma hero promise in ivory",
+    "Forma trust position in cream",
+    "Forma care route in gold",
+    "Forma consultation path in dark",
+    "Forma treatment navigation in ink",
+    "Forma human reassurance in sage",
+    "Forma education preview in ivory",
+    "Forma responsible expectations in cream",
+    "Forma contact bridge in gold",
+    "Forma closing identity in dark"
   ],
   "aboutPageColourSequence": [
-    "about 1: blush rhythm from Blush halo trust",
-    "about 2: sage rhythm from Sage circular route field",
-    "about 3: ivory rhythm from Ivory consultation orbit",
-    "about 4: cream rhythm from Cream reassurance ring",
-    "about 5: sage rhythm from Sage education halo",
-    "about 6: blush rhythm from Blush results note",
-    "about 7: ivory rhythm from Ivory journal orbit",
-    "about 8: gold rhythm from Gold halo CTA",
-    "about 9: sage rhythm from Soft sage footer",
-    "about 10: cream rhythm from Cream halo hero"
+    "about 1: cream rhythm from Forma trust position in cream",
+    "about 2: gold rhythm from Forma care route in gold",
+    "about 3: dark rhythm from Forma consultation path in dark",
+    "about 4: ivory rhythm from Forma treatment navigation in ink",
+    "about 5: sage rhythm from Forma human reassurance in sage",
+    "about 6: ivory rhythm from Forma education preview in ivory",
+    "about 7: cream rhythm from Forma responsible expectations in cream",
+    "about 8: gold rhythm from Forma contact bridge in gold",
+    "about 9: dark rhythm from Forma closing identity in dark",
+    "about 10: ivory rhythm from Forma hero promise in ivory"
   ],
   "carePageColourSequence": [
-    "care 1: sage rhythm from Sage circular route field",
-    "care 2: ivory rhythm from Ivory consultation orbit",
-    "care 3: cream rhythm from Cream reassurance ring",
-    "care 4: sage rhythm from Sage education halo",
-    "care 5: blush rhythm from Blush results note",
-    "care 6: ivory rhythm from Ivory journal orbit",
-    "care 7: gold rhythm from Gold halo CTA",
-    "care 8: sage rhythm from Soft sage footer",
-    "care 9: cream rhythm from Cream halo hero",
-    "care 10: blush rhythm from Blush halo trust"
+    "care 1: gold rhythm from Forma care route in gold",
+    "care 2: dark rhythm from Forma consultation path in dark",
+    "care 3: ivory rhythm from Forma treatment navigation in ink",
+    "care 4: sage rhythm from Forma human reassurance in sage",
+    "care 5: ivory rhythm from Forma education preview in ivory",
+    "care 6: cream rhythm from Forma responsible expectations in cream",
+    "care 7: gold rhythm from Forma contact bridge in gold",
+    "care 8: dark rhythm from Forma closing identity in dark",
+    "care 9: ivory rhythm from Forma hero promise in ivory",
+    "care 10: cream rhythm from Forma trust position in cream"
   ],
   "laserPageColourSequence": [
-    "laser 1: ivory rhythm from Ivory consultation orbit",
-    "laser 2: cream rhythm from Cream reassurance ring",
-    "laser 3: sage rhythm from Sage education halo",
-    "laser 4: blush rhythm from Blush results note",
-    "laser 5: ivory rhythm from Ivory journal orbit",
-    "laser 6: gold rhythm from Gold halo CTA",
-    "laser 7: sage rhythm from Soft sage footer",
-    "laser 8: cream rhythm from Cream halo hero",
-    "laser 9: blush rhythm from Blush halo trust",
-    "laser 10: sage rhythm from Sage circular route field"
+    "laser 1: dark rhythm from Forma consultation path in dark",
+    "laser 2: ivory rhythm from Forma treatment navigation in ink",
+    "laser 3: sage rhythm from Forma human reassurance in sage",
+    "laser 4: ivory rhythm from Forma education preview in ivory",
+    "laser 5: cream rhythm from Forma responsible expectations in cream",
+    "laser 6: gold rhythm from Forma contact bridge in gold",
+    "laser 7: dark rhythm from Forma closing identity in dark",
+    "laser 8: ivory rhythm from Forma hero promise in ivory",
+    "laser 9: cream rhythm from Forma trust position in cream",
+    "laser 10: gold rhythm from Forma care route in gold"
   ],
   "skinPageColourSequence": [
-    "skin 1: cream rhythm from Cream reassurance ring",
-    "skin 2: sage rhythm from Sage education halo",
-    "skin 3: blush rhythm from Blush results note",
-    "skin 4: ivory rhythm from Ivory journal orbit",
-    "skin 5: gold rhythm from Gold halo CTA",
-    "skin 6: sage rhythm from Soft sage footer",
-    "skin 7: cream rhythm from Cream halo hero",
-    "skin 8: blush rhythm from Blush halo trust",
-    "skin 9: sage rhythm from Sage circular route field",
-    "skin 10: ivory rhythm from Ivory consultation orbit"
+    "skin 1: ivory rhythm from Forma treatment navigation in ink",
+    "skin 2: sage rhythm from Forma human reassurance in sage",
+    "skin 3: ivory rhythm from Forma education preview in ivory",
+    "skin 4: cream rhythm from Forma responsible expectations in cream",
+    "skin 5: gold rhythm from Forma contact bridge in gold",
+    "skin 6: dark rhythm from Forma closing identity in dark",
+    "skin 7: ivory rhythm from Forma hero promise in ivory",
+    "skin 8: cream rhythm from Forma trust position in cream",
+    "skin 9: gold rhythm from Forma care route in gold",
+    "skin 10: dark rhythm from Forma consultation path in dark"
   ],
   "resultsPageColourSequence": [
-    "results 1: sage rhythm from Sage education halo",
-    "results 2: blush rhythm from Blush results note",
-    "results 3: ivory rhythm from Ivory journal orbit",
-    "results 4: gold rhythm from Gold halo CTA",
-    "results 5: sage rhythm from Soft sage footer",
-    "results 6: cream rhythm from Cream halo hero",
-    "results 7: blush rhythm from Blush halo trust",
-    "results 8: sage rhythm from Sage circular route field",
-    "results 9: ivory rhythm from Ivory consultation orbit",
-    "results 10: cream rhythm from Cream reassurance ring"
+    "results 1: sage rhythm from Forma human reassurance in sage",
+    "results 2: ivory rhythm from Forma education preview in ivory",
+    "results 3: cream rhythm from Forma responsible expectations in cream",
+    "results 4: gold rhythm from Forma contact bridge in gold",
+    "results 5: dark rhythm from Forma closing identity in dark",
+    "results 6: ivory rhythm from Forma hero promise in ivory",
+    "results 7: cream rhythm from Forma trust position in cream",
+    "results 8: gold rhythm from Forma care route in gold",
+    "results 9: dark rhythm from Forma consultation path in dark",
+    "results 10: ivory rhythm from Forma treatment navigation in ink"
   ],
   "journalPageColourSequence": [
-    "journal 1: blush rhythm from Blush results note",
-    "journal 2: ivory rhythm from Ivory journal orbit",
-    "journal 3: gold rhythm from Gold halo CTA",
-    "journal 4: sage rhythm from Soft sage footer",
-    "journal 5: cream rhythm from Cream halo hero",
-    "journal 6: blush rhythm from Blush halo trust",
-    "journal 7: sage rhythm from Sage circular route field",
-    "journal 8: ivory rhythm from Ivory consultation orbit",
-    "journal 9: cream rhythm from Cream reassurance ring",
-    "journal 10: sage rhythm from Sage education halo"
+    "journal 1: ivory rhythm from Forma education preview in ivory",
+    "journal 2: cream rhythm from Forma responsible expectations in cream",
+    "journal 3: gold rhythm from Forma contact bridge in gold",
+    "journal 4: dark rhythm from Forma closing identity in dark",
+    "journal 5: ivory rhythm from Forma hero promise in ivory",
+    "journal 6: cream rhythm from Forma trust position in cream",
+    "journal 7: gold rhythm from Forma care route in gold",
+    "journal 8: dark rhythm from Forma consultation path in dark",
+    "journal 9: ivory rhythm from Forma treatment navigation in ink",
+    "journal 10: sage rhythm from Forma human reassurance in sage"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: gold rhythm from Gold halo CTA",
-    "consultation 2: sage rhythm from Soft sage footer",
-    "consultation 3: cream rhythm from Cream halo hero",
-    "consultation 4: blush rhythm from Blush halo trust",
-    "consultation 5: sage rhythm from Sage circular route field",
-    "consultation 6: ivory rhythm from Ivory consultation orbit",
-    "consultation 7: cream rhythm from Cream reassurance ring",
-    "consultation 8: sage rhythm from Sage education halo",
-    "consultation 9: blush rhythm from Blush results note",
-    "consultation 10: ivory rhythm from Ivory journal orbit"
+    "consultation 1: gold rhythm from Forma contact bridge in gold",
+    "consultation 2: dark rhythm from Forma closing identity in dark",
+    "consultation 3: ivory rhythm from Forma hero promise in ivory",
+    "consultation 4: cream rhythm from Forma trust position in cream",
+    "consultation 5: gold rhythm from Forma care route in gold",
+    "consultation 6: dark rhythm from Forma consultation path in dark",
+    "consultation 7: ivory rhythm from Forma treatment navigation in ink",
+    "consultation 8: sage rhythm from Forma human reassurance in sage",
+    "consultation 9: ivory rhythm from Forma education preview in ivory",
+    "consultation 10: cream rhythm from Forma responsible expectations in cream"
   ],
   "contactPageColourSequence": [
-    "contact 1: sage rhythm from Soft sage footer",
-    "contact 2: cream rhythm from Cream halo hero",
-    "contact 3: blush rhythm from Blush halo trust",
-    "contact 4: sage rhythm from Sage circular route field",
-    "contact 5: ivory rhythm from Ivory consultation orbit",
-    "contact 6: cream rhythm from Cream reassurance ring",
-    "contact 7: sage rhythm from Sage education halo",
-    "contact 8: blush rhythm from Blush results note",
-    "contact 9: ivory rhythm from Ivory journal orbit",
-    "contact 10: gold rhythm from Gold halo CTA"
+    "contact 1: dark rhythm from Forma closing identity in dark",
+    "contact 2: ivory rhythm from Forma hero promise in ivory",
+    "contact 3: cream rhythm from Forma trust position in cream",
+    "contact 4: gold rhythm from Forma care route in gold",
+    "contact 5: dark rhythm from Forma consultation path in dark",
+    "contact 6: ivory rhythm from Forma treatment navigation in ink",
+    "contact 7: sage rhythm from Forma human reassurance in sage",
+    "contact 8: ivory rhythm from Forma education preview in ivory",
+    "contact 9: cream rhythm from Forma responsible expectations in cream",
+    "contact 10: gold rhythm from Forma contact bridge in gold"
   ],
   "forbiddenColourPatterns": [
-    "No circular portrait crops",
-    "No dark luxury",
-    "No hard angular grids."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

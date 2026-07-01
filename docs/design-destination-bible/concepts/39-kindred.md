@@ -1,12 +1,12 @@
-# 39-kindred — Relational Human-First
+# 39-kindred — Earthy Biological Care
 
 ## Visual Thesis
 
-An intimate relational site built around trust, conversation, and human connection.
+Terra uses organic, biological, grounded pacing with earth tone care philosophy.
 
 ## Colour Thesis
 
-Warm cream, blush, soft sage, bronze human details. Dark avoided except text.
+sand, taupe, sage, olive
 
 ## Systems
 
@@ -21,159 +21,161 @@ Warm cream, blush, soft sage, bronze human details. Dark avoided except text.
 
 ## Homepage Colour Sequence
 
-1. Warm human hero
-2. Blush relational trust
-3. Sage gentle route
-4. Cream consultation conversation
-5. Blush reassurance quote
-6. Sage education support
-7. Cream results conversation
-8. Ivory journal relationship path
-9. Blush contact bridge
-10. Warm sage footer
+1. Terra hero promise in ivory
+2. Terra trust position in gold
+3. Terra care route in dark
+4. Terra consultation path in sage
+5. Terra treatment navigation in cream
+6. Terra human reassurance in bronze
+7. Terra education preview in ivory
+8. Terra responsible expectations in gold
+9. Terra contact bridge in dark
+10. Terra closing identity in sage
 
 ## All Other Pages
 
-Use conversational sections, human copy hierarchy, and warmth.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No technical clinical styling
-- No dark flagship energy
-- No detached interface feel.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "39-kindred",
-  "colourThesis": "Warm cream, blush, soft sage, bronze human details. Dark avoided except text.",
+  "colourThesis": "sand, taupe, sage, olive",
   "dominantColourFamily": "dark",
   "secondaryColourFamily": "sage",
   "accentColourFamily": "ivory",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "shape-field; no universal cream-card default",
   "buttonStrategy": "whatsapp-strip",
-  "footerColour": "Warm sage footer",
-  "mobileMenuColour": "Warm human hero",
+  "footerColour": "Terra closing identity in sage",
+  "mobileMenuColour": "Terra hero promise in ivory",
   "homepageSectionColourSequence": [
-    "Warm human hero",
-    "Blush relational trust",
-    "Sage gentle route",
-    "Cream consultation conversation",
-    "Blush reassurance quote",
-    "Sage education support",
-    "Cream results conversation",
-    "Ivory journal relationship path",
-    "Blush contact bridge",
-    "Warm sage footer"
+    "Terra hero promise in ivory",
+    "Terra trust position in gold",
+    "Terra care route in dark",
+    "Terra consultation path in sage",
+    "Terra treatment navigation in cream",
+    "Terra human reassurance in bronze",
+    "Terra education preview in ivory",
+    "Terra responsible expectations in gold",
+    "Terra contact bridge in dark",
+    "Terra closing identity in sage"
   ],
   "aboutPageColourSequence": [
-    "about 1: sage rhythm from Warm human hero",
-    "about 2: blush rhythm from Blush relational trust",
-    "about 3: sage rhythm from Sage gentle route",
-    "about 4: cream rhythm from Cream consultation conversation",
-    "about 5: blush rhythm from Blush reassurance quote",
-    "about 6: sage rhythm from Sage education support",
-    "about 7: cream rhythm from Cream results conversation",
-    "about 8: ivory rhythm from Ivory journal relationship path",
-    "about 9: blush rhythm from Blush contact bridge",
-    "about 10: sage rhythm from Warm sage footer"
+    "about 1: ivory rhythm from Terra hero promise in ivory",
+    "about 2: gold rhythm from Terra trust position in gold",
+    "about 3: dark rhythm from Terra care route in dark",
+    "about 4: sage rhythm from Terra consultation path in sage",
+    "about 5: cream rhythm from Terra treatment navigation in cream",
+    "about 6: bronze rhythm from Terra human reassurance in bronze",
+    "about 7: ivory rhythm from Terra education preview in ivory",
+    "about 8: gold rhythm from Terra responsible expectations in gold",
+    "about 9: dark rhythm from Terra contact bridge in dark",
+    "about 10: sage rhythm from Terra closing identity in sage"
   ],
   "carePageColourSequence": [
-    "care 1: blush rhythm from Blush relational trust",
-    "care 2: sage rhythm from Sage gentle route",
-    "care 3: cream rhythm from Cream consultation conversation",
-    "care 4: blush rhythm from Blush reassurance quote",
-    "care 5: sage rhythm from Sage education support",
-    "care 6: cream rhythm from Cream results conversation",
-    "care 7: ivory rhythm from Ivory journal relationship path",
-    "care 8: blush rhythm from Blush contact bridge",
-    "care 9: sage rhythm from Warm sage footer",
-    "care 10: sage rhythm from Warm human hero"
+    "care 1: gold rhythm from Terra trust position in gold",
+    "care 2: dark rhythm from Terra care route in dark",
+    "care 3: sage rhythm from Terra consultation path in sage",
+    "care 4: cream rhythm from Terra treatment navigation in cream",
+    "care 5: bronze rhythm from Terra human reassurance in bronze",
+    "care 6: ivory rhythm from Terra education preview in ivory",
+    "care 7: gold rhythm from Terra responsible expectations in gold",
+    "care 8: dark rhythm from Terra contact bridge in dark",
+    "care 9: sage rhythm from Terra closing identity in sage",
+    "care 10: ivory rhythm from Terra hero promise in ivory"
   ],
   "laserPageColourSequence": [
-    "laser 1: sage rhythm from Sage gentle route",
-    "laser 2: cream rhythm from Cream consultation conversation",
-    "laser 3: blush rhythm from Blush reassurance quote",
-    "laser 4: sage rhythm from Sage education support",
-    "laser 5: cream rhythm from Cream results conversation",
-    "laser 6: ivory rhythm from Ivory journal relationship path",
-    "laser 7: blush rhythm from Blush contact bridge",
-    "laser 8: sage rhythm from Warm sage footer",
-    "laser 9: sage rhythm from Warm human hero",
-    "laser 10: blush rhythm from Blush relational trust"
+    "laser 1: dark rhythm from Terra care route in dark",
+    "laser 2: sage rhythm from Terra consultation path in sage",
+    "laser 3: cream rhythm from Terra treatment navigation in cream",
+    "laser 4: bronze rhythm from Terra human reassurance in bronze",
+    "laser 5: ivory rhythm from Terra education preview in ivory",
+    "laser 6: gold rhythm from Terra responsible expectations in gold",
+    "laser 7: dark rhythm from Terra contact bridge in dark",
+    "laser 8: sage rhythm from Terra closing identity in sage",
+    "laser 9: ivory rhythm from Terra hero promise in ivory",
+    "laser 10: gold rhythm from Terra trust position in gold"
   ],
   "skinPageColourSequence": [
-    "skin 1: cream rhythm from Cream consultation conversation",
-    "skin 2: blush rhythm from Blush reassurance quote",
-    "skin 3: sage rhythm from Sage education support",
-    "skin 4: cream rhythm from Cream results conversation",
-    "skin 5: ivory rhythm from Ivory journal relationship path",
-    "skin 6: blush rhythm from Blush contact bridge",
-    "skin 7: sage rhythm from Warm sage footer",
-    "skin 8: sage rhythm from Warm human hero",
-    "skin 9: blush rhythm from Blush relational trust",
-    "skin 10: sage rhythm from Sage gentle route"
+    "skin 1: sage rhythm from Terra consultation path in sage",
+    "skin 2: cream rhythm from Terra treatment navigation in cream",
+    "skin 3: bronze rhythm from Terra human reassurance in bronze",
+    "skin 4: ivory rhythm from Terra education preview in ivory",
+    "skin 5: gold rhythm from Terra responsible expectations in gold",
+    "skin 6: dark rhythm from Terra contact bridge in dark",
+    "skin 7: sage rhythm from Terra closing identity in sage",
+    "skin 8: ivory rhythm from Terra hero promise in ivory",
+    "skin 9: gold rhythm from Terra trust position in gold",
+    "skin 10: dark rhythm from Terra care route in dark"
   ],
   "resultsPageColourSequence": [
-    "results 1: blush rhythm from Blush reassurance quote",
-    "results 2: sage rhythm from Sage education support",
-    "results 3: cream rhythm from Cream results conversation",
-    "results 4: ivory rhythm from Ivory journal relationship path",
-    "results 5: blush rhythm from Blush contact bridge",
-    "results 6: sage rhythm from Warm sage footer",
-    "results 7: sage rhythm from Warm human hero",
-    "results 8: blush rhythm from Blush relational trust",
-    "results 9: sage rhythm from Sage gentle route",
-    "results 10: cream rhythm from Cream consultation conversation"
+    "results 1: cream rhythm from Terra treatment navigation in cream",
+    "results 2: bronze rhythm from Terra human reassurance in bronze",
+    "results 3: ivory rhythm from Terra education preview in ivory",
+    "results 4: gold rhythm from Terra responsible expectations in gold",
+    "results 5: dark rhythm from Terra contact bridge in dark",
+    "results 6: sage rhythm from Terra closing identity in sage",
+    "results 7: ivory rhythm from Terra hero promise in ivory",
+    "results 8: gold rhythm from Terra trust position in gold",
+    "results 9: dark rhythm from Terra care route in dark",
+    "results 10: sage rhythm from Terra consultation path in sage"
   ],
   "journalPageColourSequence": [
-    "journal 1: sage rhythm from Sage education support",
-    "journal 2: cream rhythm from Cream results conversation",
-    "journal 3: ivory rhythm from Ivory journal relationship path",
-    "journal 4: blush rhythm from Blush contact bridge",
-    "journal 5: sage rhythm from Warm sage footer",
-    "journal 6: sage rhythm from Warm human hero",
-    "journal 7: blush rhythm from Blush relational trust",
-    "journal 8: sage rhythm from Sage gentle route",
-    "journal 9: cream rhythm from Cream consultation conversation",
-    "journal 10: blush rhythm from Blush reassurance quote"
+    "journal 1: bronze rhythm from Terra human reassurance in bronze",
+    "journal 2: ivory rhythm from Terra education preview in ivory",
+    "journal 3: gold rhythm from Terra responsible expectations in gold",
+    "journal 4: dark rhythm from Terra contact bridge in dark",
+    "journal 5: sage rhythm from Terra closing identity in sage",
+    "journal 6: ivory rhythm from Terra hero promise in ivory",
+    "journal 7: gold rhythm from Terra trust position in gold",
+    "journal 8: dark rhythm from Terra care route in dark",
+    "journal 9: sage rhythm from Terra consultation path in sage",
+    "journal 10: cream rhythm from Terra treatment navigation in cream"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: ivory rhythm from Ivory journal relationship path",
-    "consultation 2: blush rhythm from Blush contact bridge",
-    "consultation 3: sage rhythm from Warm sage footer",
-    "consultation 4: sage rhythm from Warm human hero",
-    "consultation 5: blush rhythm from Blush relational trust",
-    "consultation 6: sage rhythm from Sage gentle route",
-    "consultation 7: cream rhythm from Cream consultation conversation",
-    "consultation 8: blush rhythm from Blush reassurance quote",
-    "consultation 9: sage rhythm from Sage education support",
-    "consultation 10: cream rhythm from Cream results conversation"
+    "consultation 1: gold rhythm from Terra responsible expectations in gold",
+    "consultation 2: dark rhythm from Terra contact bridge in dark",
+    "consultation 3: sage rhythm from Terra closing identity in sage",
+    "consultation 4: ivory rhythm from Terra hero promise in ivory",
+    "consultation 5: gold rhythm from Terra trust position in gold",
+    "consultation 6: dark rhythm from Terra care route in dark",
+    "consultation 7: sage rhythm from Terra consultation path in sage",
+    "consultation 8: cream rhythm from Terra treatment navigation in cream",
+    "consultation 9: bronze rhythm from Terra human reassurance in bronze",
+    "consultation 10: ivory rhythm from Terra education preview in ivory"
   ],
   "contactPageColourSequence": [
-    "contact 1: blush rhythm from Blush contact bridge",
-    "contact 2: sage rhythm from Warm sage footer",
-    "contact 3: sage rhythm from Warm human hero",
-    "contact 4: blush rhythm from Blush relational trust",
-    "contact 5: sage rhythm from Sage gentle route",
-    "contact 6: cream rhythm from Cream consultation conversation",
-    "contact 7: blush rhythm from Blush reassurance quote",
-    "contact 8: sage rhythm from Sage education support",
-    "contact 9: cream rhythm from Cream results conversation",
-    "contact 10: ivory rhythm from Ivory journal relationship path"
+    "contact 1: dark rhythm from Terra contact bridge in dark",
+    "contact 2: sage rhythm from Terra closing identity in sage",
+    "contact 3: ivory rhythm from Terra hero promise in ivory",
+    "contact 4: gold rhythm from Terra trust position in gold",
+    "contact 5: dark rhythm from Terra care route in dark",
+    "contact 6: sage rhythm from Terra consultation path in sage",
+    "contact 7: cream rhythm from Terra treatment navigation in cream",
+    "contact 8: bronze rhythm from Terra human reassurance in bronze",
+    "contact 9: ivory rhythm from Terra education preview in ivory",
+    "contact 10: gold rhythm from Terra responsible expectations in gold"
   ],
   "forbiddenColourPatterns": [
-    "No technical clinical styling",
-    "No dark flagship energy",
-    "No detached interface feel."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```

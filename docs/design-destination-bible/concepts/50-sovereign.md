@@ -1,12 +1,12 @@
-# 50-sovereign — Flagship Premium Luxury
+# 50-sovereign — High-End Private Clinic
 
 ## Visual Thesis
 
-The crown concept. A flagship premium luxury site with restrained power, deep contrast, and precise editorial control.
+Maison uses private maison and atelier clinic pacing with boutique private clinic statement.
 
 ## Colour Thesis
 
-Ink and deep sage dominate. Ivory editorial panels create contrast. Bronze/gold luxury detail. Blush almost absent.
+ivory, deep green, champagne, taupe
 
 ## Systems
 
@@ -21,161 +21,161 @@ Ink and deep sage dominate. Ivory editorial panels create contrast. Bronze/gold 
 
 ## Homepage Colour Sequence
 
-1. Ink/deep sage flagship hero
-2. Ivory sovereign trust panel
-3. Dark route architecture
-4. Cream consultation salon
-5. Deep sage authority statement
-6. Ivory education editorial
-7. Ink results ledger
-8. Cream journal archive
-9. Gold flagship CTA band
-10. Ink/deep sage sovereign footer
+1. Maison hero promise in gold
+2. Maison trust position in bronze
+3. Maison care route in sage
+4. Maison consultation path in cream
+5. Maison treatment navigation in dark
+6. Maison human reassurance in ivory
+7. Maison education preview in gold
+8. Maison responsible expectations in bronze
+9. Maison contact bridge in sage
+10. Maison closing identity in cream
 
 ## All Other Pages
 
-Use deep mastheads, ivory editorial panels, gold detail, and powerful restraint.
+Inner pages keep the same care voice while changing the density, introduction, navigation rhythm, and visual emphasis by page type.
 
 ## Forbidden Patterns
 
-- No blush softness
-- No generic sage cards
-- No weak footer
-- No cheap luxury.
+- Do not flatten the site into repeated centered card stacks
+- Do not use gray placeholders
+- Do not invent testimonials, guarantees, prices, results, or credentials
+- Do not let desktop collapse into a narrow mobile column
 
 ## Colour Rhythm Contract
 
 ```json
 {
   "conceptId": "50-sovereign",
-  "colourThesis": "Ink and deep sage dominate. Ivory editorial panels create contrast. Bronze/gold luxury detail. Blush almost absent.",
-  "dominantColourFamily": "ink",
-  "secondaryColourFamily": "dark",
-  "accentColourFamily": "sage",
+  "colourThesis": "ivory, deep green, champagne, taupe",
+  "dominantColourFamily": "dark",
+  "secondaryColourFamily": "sage",
+  "accentColourFamily": "ivory",
   "contrastTemperature": "high editorial",
   "darkUsage": "dominant structural field",
-  "blushUsage": "purposeful warmth and guidance notes",
+  "softWarmthUsage": "only through ivory, cream, champagne, and bronze from the approved identity palette",
   "sageUsage": "brand structure and quiet route support",
   "creamUsage": "reading relief and calm transitions",
   "goldBronzeUsage": "rules, markers, numerals, and selected CTA detail",
-  "terracottaTaupeUsage": "earth warmth only when named by the destination",
+  "nonBrandColourUsage": "not allowed in generated CSS; descriptive pink, blush, rose, and terracotta words resolve to identity colours",
   "cardSurfaceStrategy": "technical-table; no universal cream-card default",
   "buttonStrategy": "dark-anchor",
-  "footerColour": "Ink/deep sage sovereign footer",
-  "mobileMenuColour": "Ivory sovereign trust panel",
+  "footerColour": "Maison closing identity in cream",
+  "mobileMenuColour": "Maison trust position in bronze",
   "homepageSectionColourSequence": [
-    "Ink/deep sage flagship hero",
-    "Ivory sovereign trust panel",
-    "Dark route architecture",
-    "Cream consultation salon",
-    "Deep sage authority statement",
-    "Ivory education editorial",
-    "Ink results ledger",
-    "Cream journal archive",
-    "Gold flagship CTA band",
-    "Ink/deep sage sovereign footer"
+    "Maison hero promise in gold",
+    "Maison trust position in bronze",
+    "Maison care route in sage",
+    "Maison consultation path in cream",
+    "Maison treatment navigation in dark",
+    "Maison human reassurance in ivory",
+    "Maison education preview in gold",
+    "Maison responsible expectations in bronze",
+    "Maison contact bridge in sage",
+    "Maison closing identity in cream"
   ],
   "aboutPageColourSequence": [
-    "about 1: ivory rhythm from Ivory sovereign trust panel",
-    "about 2: dark rhythm from Dark route architecture",
-    "about 3: cream rhythm from Cream consultation salon",
-    "about 4: dark rhythm from Deep sage authority statement",
-    "about 5: ivory rhythm from Ivory education editorial",
-    "about 6: ivory rhythm from Ink results ledger",
-    "about 7: cream rhythm from Cream journal archive",
-    "about 8: gold rhythm from Gold flagship CTA band",
-    "about 9: dark rhythm from Ink/deep sage sovereign footer",
-    "about 10: dark rhythm from Ink/deep sage flagship hero"
+    "about 1: bronze rhythm from Maison trust position in bronze",
+    "about 2: sage rhythm from Maison care route in sage",
+    "about 3: cream rhythm from Maison consultation path in cream",
+    "about 4: dark rhythm from Maison treatment navigation in dark",
+    "about 5: ivory rhythm from Maison human reassurance in ivory",
+    "about 6: gold rhythm from Maison education preview in gold",
+    "about 7: bronze rhythm from Maison responsible expectations in bronze",
+    "about 8: sage rhythm from Maison contact bridge in sage",
+    "about 9: cream rhythm from Maison closing identity in cream",
+    "about 10: gold rhythm from Maison hero promise in gold"
   ],
   "carePageColourSequence": [
-    "care 1: dark rhythm from Dark route architecture",
-    "care 2: cream rhythm from Cream consultation salon",
-    "care 3: dark rhythm from Deep sage authority statement",
-    "care 4: ivory rhythm from Ivory education editorial",
-    "care 5: ivory rhythm from Ink results ledger",
-    "care 6: cream rhythm from Cream journal archive",
-    "care 7: gold rhythm from Gold flagship CTA band",
-    "care 8: dark rhythm from Ink/deep sage sovereign footer",
-    "care 9: dark rhythm from Ink/deep sage flagship hero",
-    "care 10: ivory rhythm from Ivory sovereign trust panel"
+    "care 1: sage rhythm from Maison care route in sage",
+    "care 2: cream rhythm from Maison consultation path in cream",
+    "care 3: dark rhythm from Maison treatment navigation in dark",
+    "care 4: ivory rhythm from Maison human reassurance in ivory",
+    "care 5: gold rhythm from Maison education preview in gold",
+    "care 6: bronze rhythm from Maison responsible expectations in bronze",
+    "care 7: sage rhythm from Maison contact bridge in sage",
+    "care 8: cream rhythm from Maison closing identity in cream",
+    "care 9: gold rhythm from Maison hero promise in gold",
+    "care 10: bronze rhythm from Maison trust position in bronze"
   ],
   "laserPageColourSequence": [
-    "laser 1: cream rhythm from Cream consultation salon",
-    "laser 2: dark rhythm from Deep sage authority statement",
-    "laser 3: ivory rhythm from Ivory education editorial",
-    "laser 4: ivory rhythm from Ink results ledger",
-    "laser 5: cream rhythm from Cream journal archive",
-    "laser 6: gold rhythm from Gold flagship CTA band",
-    "laser 7: dark rhythm from Ink/deep sage sovereign footer",
-    "laser 8: dark rhythm from Ink/deep sage flagship hero",
-    "laser 9: ivory rhythm from Ivory sovereign trust panel",
-    "laser 10: dark rhythm from Dark route architecture"
+    "laser 1: cream rhythm from Maison consultation path in cream",
+    "laser 2: dark rhythm from Maison treatment navigation in dark",
+    "laser 3: ivory rhythm from Maison human reassurance in ivory",
+    "laser 4: gold rhythm from Maison education preview in gold",
+    "laser 5: bronze rhythm from Maison responsible expectations in bronze",
+    "laser 6: sage rhythm from Maison contact bridge in sage",
+    "laser 7: cream rhythm from Maison closing identity in cream",
+    "laser 8: gold rhythm from Maison hero promise in gold",
+    "laser 9: bronze rhythm from Maison trust position in bronze",
+    "laser 10: sage rhythm from Maison care route in sage"
   ],
   "skinPageColourSequence": [
-    "skin 1: dark rhythm from Deep sage authority statement",
-    "skin 2: ivory rhythm from Ivory education editorial",
-    "skin 3: ivory rhythm from Ink results ledger",
-    "skin 4: cream rhythm from Cream journal archive",
-    "skin 5: gold rhythm from Gold flagship CTA band",
-    "skin 6: dark rhythm from Ink/deep sage sovereign footer",
-    "skin 7: dark rhythm from Ink/deep sage flagship hero",
-    "skin 8: ivory rhythm from Ivory sovereign trust panel",
-    "skin 9: dark rhythm from Dark route architecture",
-    "skin 10: cream rhythm from Cream consultation salon"
+    "skin 1: dark rhythm from Maison treatment navigation in dark",
+    "skin 2: ivory rhythm from Maison human reassurance in ivory",
+    "skin 3: gold rhythm from Maison education preview in gold",
+    "skin 4: bronze rhythm from Maison responsible expectations in bronze",
+    "skin 5: sage rhythm from Maison contact bridge in sage",
+    "skin 6: cream rhythm from Maison closing identity in cream",
+    "skin 7: gold rhythm from Maison hero promise in gold",
+    "skin 8: bronze rhythm from Maison trust position in bronze",
+    "skin 9: sage rhythm from Maison care route in sage",
+    "skin 10: cream rhythm from Maison consultation path in cream"
   ],
   "resultsPageColourSequence": [
-    "results 1: ivory rhythm from Ivory education editorial",
-    "results 2: ivory rhythm from Ink results ledger",
-    "results 3: cream rhythm from Cream journal archive",
-    "results 4: gold rhythm from Gold flagship CTA band",
-    "results 5: dark rhythm from Ink/deep sage sovereign footer",
-    "results 6: dark rhythm from Ink/deep sage flagship hero",
-    "results 7: ivory rhythm from Ivory sovereign trust panel",
-    "results 8: dark rhythm from Dark route architecture",
-    "results 9: cream rhythm from Cream consultation salon",
-    "results 10: dark rhythm from Deep sage authority statement"
+    "results 1: ivory rhythm from Maison human reassurance in ivory",
+    "results 2: gold rhythm from Maison education preview in gold",
+    "results 3: bronze rhythm from Maison responsible expectations in bronze",
+    "results 4: sage rhythm from Maison contact bridge in sage",
+    "results 5: cream rhythm from Maison closing identity in cream",
+    "results 6: gold rhythm from Maison hero promise in gold",
+    "results 7: bronze rhythm from Maison trust position in bronze",
+    "results 8: sage rhythm from Maison care route in sage",
+    "results 9: cream rhythm from Maison consultation path in cream",
+    "results 10: dark rhythm from Maison treatment navigation in dark"
   ],
   "journalPageColourSequence": [
-    "journal 1: ivory rhythm from Ink results ledger",
-    "journal 2: cream rhythm from Cream journal archive",
-    "journal 3: gold rhythm from Gold flagship CTA band",
-    "journal 4: dark rhythm from Ink/deep sage sovereign footer",
-    "journal 5: dark rhythm from Ink/deep sage flagship hero",
-    "journal 6: ivory rhythm from Ivory sovereign trust panel",
-    "journal 7: dark rhythm from Dark route architecture",
-    "journal 8: cream rhythm from Cream consultation salon",
-    "journal 9: dark rhythm from Deep sage authority statement",
-    "journal 10: ivory rhythm from Ivory education editorial"
+    "journal 1: gold rhythm from Maison education preview in gold",
+    "journal 2: bronze rhythm from Maison responsible expectations in bronze",
+    "journal 3: sage rhythm from Maison contact bridge in sage",
+    "journal 4: cream rhythm from Maison closing identity in cream",
+    "journal 5: gold rhythm from Maison hero promise in gold",
+    "journal 6: bronze rhythm from Maison trust position in bronze",
+    "journal 7: sage rhythm from Maison care route in sage",
+    "journal 8: cream rhythm from Maison consultation path in cream",
+    "journal 9: dark rhythm from Maison treatment navigation in dark",
+    "journal 10: ivory rhythm from Maison human reassurance in ivory"
   ],
   "consultationPageColourSequence": [
-    "consultation 1: gold rhythm from Gold flagship CTA band",
-    "consultation 2: dark rhythm from Ink/deep sage sovereign footer",
-    "consultation 3: dark rhythm from Ink/deep sage flagship hero",
-    "consultation 4: ivory rhythm from Ivory sovereign trust panel",
-    "consultation 5: dark rhythm from Dark route architecture",
-    "consultation 6: cream rhythm from Cream consultation salon",
-    "consultation 7: dark rhythm from Deep sage authority statement",
-    "consultation 8: ivory rhythm from Ivory education editorial",
-    "consultation 9: ivory rhythm from Ink results ledger",
-    "consultation 10: cream rhythm from Cream journal archive"
+    "consultation 1: sage rhythm from Maison contact bridge in sage",
+    "consultation 2: cream rhythm from Maison closing identity in cream",
+    "consultation 3: gold rhythm from Maison hero promise in gold",
+    "consultation 4: bronze rhythm from Maison trust position in bronze",
+    "consultation 5: sage rhythm from Maison care route in sage",
+    "consultation 6: cream rhythm from Maison consultation path in cream",
+    "consultation 7: dark rhythm from Maison treatment navigation in dark",
+    "consultation 8: ivory rhythm from Maison human reassurance in ivory",
+    "consultation 9: gold rhythm from Maison education preview in gold",
+    "consultation 10: bronze rhythm from Maison responsible expectations in bronze"
   ],
   "contactPageColourSequence": [
-    "contact 1: dark rhythm from Ink/deep sage sovereign footer",
-    "contact 2: dark rhythm from Ink/deep sage flagship hero",
-    "contact 3: ivory rhythm from Ivory sovereign trust panel",
-    "contact 4: dark rhythm from Dark route architecture",
-    "contact 5: cream rhythm from Cream consultation salon",
-    "contact 6: dark rhythm from Deep sage authority statement",
-    "contact 7: ivory rhythm from Ivory education editorial",
-    "contact 8: ivory rhythm from Ink results ledger",
-    "contact 9: cream rhythm from Cream journal archive",
-    "contact 10: gold rhythm from Gold flagship CTA band"
+    "contact 1: cream rhythm from Maison closing identity in cream",
+    "contact 2: gold rhythm from Maison hero promise in gold",
+    "contact 3: bronze rhythm from Maison trust position in bronze",
+    "contact 4: sage rhythm from Maison care route in sage",
+    "contact 5: cream rhythm from Maison consultation path in cream",
+    "contact 6: dark rhythm from Maison treatment navigation in dark",
+    "contact 7: ivory rhythm from Maison human reassurance in ivory",
+    "contact 8: gold rhythm from Maison education preview in gold",
+    "contact 9: bronze rhythm from Maison responsible expectations in bronze",
+    "contact 10: sage rhythm from Maison contact bridge in sage"
   ],
   "forbiddenColourPatterns": [
-    "No blush softness",
-    "No generic sage cards",
-    "No weak footer",
-    "No cheap luxury."
+    "Do not flatten the site into repeated centered card stacks",
+    "Do not use gray placeholders",
+    "Do not invent testimonials, guarantees, prices, results, or credentials",
+    "Do not let desktop collapse into a narrow mobile column"
   ]
 }
 ```
