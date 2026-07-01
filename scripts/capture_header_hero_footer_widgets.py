@@ -6,6 +6,7 @@ What it captures:
 - top EN/PT identity banner, if present
 - header / navigation
 - hero
+- cookie banner / preferences
 - floating widgets / utility widgets
 - footer
 
@@ -99,6 +100,11 @@ WIDGET_SELECTORS = [
     ".sf-floating-tools",
 ]
 
+COOKIE_SELECTORS = [
+    ".sf-cookie-banner",
+    "[data-cookie-banner]",
+]
+
 
 class QuietHandler(SimpleHTTPRequestHandler):
     def log_message(self, format: str, *args: Any) -> None:
@@ -175,6 +181,7 @@ def run_node_capture(
             "hero": HERO_SELECTORS,
             "footer": FOOTER_SELECTORS,
             "widgets": WIDGET_SELECTORS,
+            "cookie": COOKIE_SELECTORS,
         },
     }
 
@@ -273,6 +280,7 @@ async function getPageBoxes(page) {
       banner: firstBox(selectors.banner),
       header: firstBox(selectors.header),
       hero: firstBox(selectors.hero),
+      cookie: firstBox(selectors.cookie),
       footer: firstBox(selectors.footer),
       widgets: allBoxes(selectors.widgets),
     };
@@ -479,6 +487,7 @@ def build_composite(meta_path: Path, out_dir: Path, max_width: int) -> Path:
         crop_region(full_img, boxes.get("banner"), label="Top EN/PT identity banner", max_height=180),
         crop_region(full_img, boxes.get("header"), label="Header / navigation", max_height=max_header),
         crop_region(full_img, boxes.get("hero"), label="Hero", max_height=max_hero),
+        crop_region(full_img, boxes.get("cookie"), label="Cookie banner", max_height=260),
         crop_widget_regions(full_img, boxes.get("widgets") or []),
         crop_region(full_img, boxes.get("footer"), label="Footer", max_height=max_footer),
     ]:
@@ -510,7 +519,7 @@ def build_composite(meta_path: Path, out_dir: Path, max_width: int) -> Path:
     draw = ImageDraw.Draw(canvas)
 
     y = outer_pad
-    title = f"{concept} — {viewport} partial audit: banner, header, hero, widgets, footer"
+    title = f"{concept} — {viewport} partial audit: banner, header, hero, cookies, widgets, footer"
     draw.rectangle((outer_pad, y, canvas_w - outer_pad, y + title_h), fill=(252, 250, 244))
     draw.text((outer_pad + 16, y + 20), title, fill=(35, 35, 35), font=font)
     y += title_h + gap

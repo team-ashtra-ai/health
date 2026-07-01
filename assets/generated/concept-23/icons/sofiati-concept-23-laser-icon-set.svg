@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-label="Ritual laser icon set for Ritual">
-  <rect width="960" height="640" rx="8" fill="#FFF9ED"/>
-  <rect x="40" y="40" width="880" height="560" rx="2" fill="none" stroke="#D1A771" stroke-width="2" opacity=".5"/>
-  <path d="M150 300 H810 M430 210 L530 300 L430 390" fill="none" stroke="#D1A771" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="480" y="490" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" letter-spacing="5" fill="#5F6E61" opacity=".82">RITUAL LASER</text>
-</svg>

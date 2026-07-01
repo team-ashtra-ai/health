@@ -331,7 +331,7 @@ def logo_img(kind: str = "primary", klass: str = "sf-logo-img") -> str:
 
 def banner(spec: PartialSpec) -> str:
     return f"""
-<div class="sf-identity-banner sf-theme-{spec.code} sf-banner--{spec.banner}" data-partial-owner="identity-banner" aria-label="Brand identity and language">
+<div class="sf-identity-banner language-banner sf-theme-{spec.code} sf-banner--{spec.banner}" data-partial-owner="identity-banner" aria-label="Brand identity and language">
   <a class="sf-banner-brand" href="index.html" aria-label="{BRAND_NAME} home">
     <span class="sf-mini-mark" aria-hidden="true">{logo_img("monogram", "sf-logo-img")}</span>
     <span>{BRAND_NAME}</span>
@@ -390,7 +390,7 @@ def header(spec: PartialSpec) -> str:
       <a class="sf-action-link sf-whatsapp-link" href="{WHATSAPP_URL}" target="_blank" rel="noopener">WhatsApp</a>
       <a class="sf-action-link sf-accessibility-link" href="accessibility.html">Accessibility</a>
     </div>
-    <button class="sf-menu-button" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu">
+    <button class="sf-menu-button" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation menu">
       <span>Menu</span>
     </button>
   </div>
@@ -418,7 +418,7 @@ def mobile_menu(spec: PartialSpec) -> str:
         <span class="sf-mini-mark" aria-hidden="true">{logo_img("monogram", "sf-logo-img")}</span>
         <span>{BRAND_NAME}</span>
       </a>
-      <button class="sf-mobile-close" type="button" data-menu-close>Close</button>
+      <button class="sf-mobile-close" type="button" data-menu-close aria-label="Close navigation menu">Close</button>
     </div>
     {mobile_intro(spec)}
     <nav class="sf-mobile-nav" aria-label="Mobile primary navigation">
@@ -592,10 +592,17 @@ def concept_js(concept_id: str, code: str) -> str:
     const key = `sofiati-cookie-${{profile.conceptId}}`;
     const banner = document.querySelector("[data-cookie-banner]");
     if (!banner) return;
-    if (window.localStorage.getItem(key) === "accepted") banner.classList.add("is-hidden");
+    const setVisible = (visible) => document.body.classList.toggle("public-cookie-visible", visible);
+    if (window.localStorage.getItem(key) === "accepted") {{
+      banner.classList.add("is-hidden");
+      setVisible(false);
+    }} else {{
+      setVisible(true);
+    }}
     banner.querySelector("[data-cookie-accept]")?.addEventListener("click", () => {{
       window.localStorage.setItem(key, "accepted");
       banner.classList.add("is-hidden");
+      setVisible(false);
     }});
   }};
 
@@ -737,6 +744,15 @@ def css_for(spec: PartialSpec) -> str:
   background: color-mix(in srgb, var(--sf-bg), white 16%);
   border-bottom: 1px solid var(--sf-line);
   font-size: clamp(0.66rem, 1.7vw, 0.76rem);
+}}
+
+.language-banner,
+.language-banner * {{
+  white-space: nowrap;
+  writing-mode: horizontal-tb;
+  text-orientation: mixed;
+  word-break: keep-all;
+  overflow-wrap: normal;
 }}
 
 .sf-logo-img {{
@@ -940,11 +956,12 @@ def css_for(spec: PartialSpec) -> str:
 .sf-menu-button {{
   display: none;
   padding: 0.68rem 0.86rem;
-  border: 1px solid var(--sf-line);
+  border: 1px solid color-mix(in srgb, var(--sf-ink), transparent 72%);
   border-radius: var(--sf-radius);
-  background: var(--sf-panel);
-  color: var(--sf-ink);
+  background: #fffaf1;
+  color: #211f1b;
   font-weight: 800;
+  box-shadow: 0 10px 24px rgba(33, 31, 27, 0.1);
 }}
 
 .sf-header-feature {{
@@ -1149,7 +1166,7 @@ def css_for(spec: PartialSpec) -> str:
   display: grid;
   place-items: center;
   padding: clamp(0.85rem, 3vw, 1.6rem);
-  background: color-mix(in srgb, var(--sf-ink), transparent 20%);
+  background: rgba(24, 22, 18, 0.82);
   opacity: 0;
   pointer-events: none;
   transition: opacity 190ms ease;
@@ -1169,11 +1186,11 @@ def css_for(spec: PartialSpec) -> str:
   gap: 1rem;
   padding: clamp(1rem, 4vw, 2rem);
   border: 1px solid color-mix(in srgb, var(--sf-accent), transparent 45%);
-  border-radius: calc(var(--sf-radius) + 8px);
+  border-radius: min(24px, calc(var(--sf-radius) + 8px));
   background:
-    radial-gradient(circle at top right, color-mix(in srgb, var(--sf-accent), transparent 78%), transparent 34%),
-    color-mix(in srgb, var(--sf-panel), var(--sf-bg) 14%);
-  color: var(--sf-ink);
+    radial-gradient(circle at top right, color-mix(in srgb, var(--sf-accent), transparent 82%), transparent 34%),
+    #fbf8f0;
+  color: #211f1b;
   box-shadow: var(--sf-shadow);
 }}
 
@@ -1189,14 +1206,14 @@ def css_for(spec: PartialSpec) -> str:
   padding: 0.58rem 0.82rem;
   border: 1px solid var(--sf-line);
   border-radius: var(--sf-radius);
-  background: transparent;
-  color: inherit;
+  background: #fffdf8;
+  color: #211f1b;
 }}
 
 .sf-mobile-note {{
   max-width: 34rem;
   margin: 0;
-  color: color-mix(in srgb, var(--sf-ink), transparent 24%);
+  color: rgba(33, 31, 27, 0.72);
 }}
 
 .sf-mobile-nav {{
@@ -1211,7 +1228,8 @@ def css_for(spec: PartialSpec) -> str:
   padding: 0.84rem 0.9rem;
   border: 1px solid var(--sf-line);
   border-radius: var(--sf-radius);
-  background: color-mix(in srgb, var(--sf-panel), transparent 10%);
+  background: #fffdf8;
+  color: #211f1b;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.05rem, 4.8vw, 1.7rem);
 }}
@@ -1227,13 +1245,14 @@ def css_for(spec: PartialSpec) -> str:
   padding: 0.78rem 0.92rem;
   border: 1px solid var(--sf-line);
   border-radius: var(--sf-radius);
-  background: color-mix(in srgb, var(--sf-accent), transparent 78%);
+  background: #f2eadc;
+  color: #211f1b;
   font-weight: 800;
 }}
 
 .sf-mobile-primary {{
-  background: var(--sf-ink) !important;
-  color: var(--sf-panel) !important;
+  background: #211f1b !important;
+  color: #fffaf1 !important;
 }}
 
 .sf-menu--timeline-menu .sf-mobile-nav,
@@ -1556,16 +1575,17 @@ def css_for(spec: PartialSpec) -> str:
 .sf-cookie-banner {{
   position: fixed;
   z-index: 90;
-  left: max(1rem, calc((100vw - 1180px) / 2));
+  left: 50%;
   bottom: 1rem;
-  width: min(440px, calc(100vw - 2rem));
+  transform: translateX(-50%);
+  width: min(520px, calc(100vw - 2rem));
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
-  gap: 0.8rem;
+  gap: 0.58rem;
   align-items: center;
-  padding: 0.9rem;
+  padding: 0.72rem 0.78rem;
   border: 1px solid var(--sf-line);
-  border-radius: calc(var(--sf-radius) + 6px);
+  border-radius: min(22px, calc(var(--sf-radius) + 6px));
   background: color-mix(in srgb, var(--sf-panel), white 5%);
   color: color-mix(in srgb, var(--sf-deep), black 16%);
   box-shadow: var(--sf-shadow);
@@ -1573,24 +1593,26 @@ def css_for(spec: PartialSpec) -> str:
 
 .sf-cookie-banner p {{
   margin: 0;
-  font-size: 0.82rem;
+  font-size: 0.76rem;
+  line-height: 1.35;
 }}
 
 .sf-cookie-actions {{
   display: flex;
   flex-wrap: wrap;
-  gap: 0.42rem;
+  gap: 0.34rem;
 }}
 
 .sf-cookie-actions button,
 .sf-cookie-actions a {{
-  padding: 0.58rem 0.72rem;
+  min-height: 2.15rem;
+  padding: 0.48rem 0.62rem;
   border-radius: var(--sf-radius);
   border: 1px solid var(--sf-line);
   background: color-mix(in srgb, var(--sf-deep), black 12%);
   color: var(--sf-panel);
   text-decoration: none;
-  font-size: 0.76rem;
+  font-size: 0.72rem;
   font-weight: 800;
 }}
 
@@ -1658,14 +1680,25 @@ body.public-menu-locked .sf-floating-tools {{
 .sf-back-to-top {{
   order: 3;
   background: color-mix(in srgb, var(--sf-ink), var(--sf-accent) 18%);
-  color: var(--sf-panel);
-  opacity: 0.28;
+  color: #fffaf1;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
   transform: translateY(4px);
-  transition: opacity 160ms ease, transform 160ms ease;
+  transition: opacity 160ms ease, transform 160ms ease, visibility 160ms ease;
+}}
+
+.sf-back-to-top span {{
+  display: block;
+  font-size: 1.08rem;
+  font-weight: 900;
+  line-height: 1;
 }}
 
 .sf-back-to-top.is-visible {{
   opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
   transform: none;
 }}
 
@@ -1823,12 +1856,18 @@ body.public-menu-locked .sf-floating-tools {{
     left: 0.75rem;
     right: 0.75rem;
     bottom: 0.75rem;
+    transform: none;
     width: auto;
     grid-template-columns: 1fr;
+    padding: 0.7rem;
+    border-radius: 18px;
   }}
   .sf-floating-tools {{
     right: 0.85rem;
     bottom: 0.85rem;
+  }}
+  body.public-cookie-visible .sf-floating-tools {{
+    bottom: 7.4rem;
   }}
 }}
 
@@ -1875,6 +1914,9 @@ body.public-menu-locked .sf-floating-tools {{
   .sf-back-to-top {{
     width: 2.55rem;
     height: 2.55rem;
+  }}
+  body.public-cookie-visible .sf-floating-tools {{
+    bottom: 8.1rem;
   }}
 }}
 
@@ -1958,6 +2000,111 @@ SAFE_BODY_SENTENCE = (
     "Before any treatment is chosen, the consultation clarifies goals, comfort, timing, and realistic next steps."
 )
 
+HEADING_REPLACEMENTS = {
+    "Brand trust and human trust": "Trust begins with the consultation",
+    "Care route": "A clear path through care",
+    "Consultation approach": "How the first conversation works",
+    "Safety and reassurance statement": "Safety, comfort and clear expectations",
+    "Skin and laser education route": "Skin and laser guidance",
+    "Journal and learning route": "Guidance for later reading",
+    "Conversion and contact bridge": "When you are ready to talk",
+    "Final brand bridge": "A calm next step",
+    "Final CTA": "Ready for a careful next step",
+    "Final CTA bridge": "Ready for a careful next step",
+    "Final redirect": "Find the right page",
+    "Final accessibility bridge": "Tell us what would make the site easier",
+    "Final reassurance CTA": "Continue with clear expectations",
+    "Final contact CTA": "Choose the contact route that feels easiest",
+    "Footer bridge": "A clear path back to the clinic",
+    "Final cookie bridge": "Questions about cookie preferences",
+    "Final legal bridge": "Questions about this information",
+    "Final privacy bridge": "Questions about privacy",
+    "Final sitemap bridge": "Find the next page",
+    "Contact bridge": "A simple way to continue",
+    "Feedback route": "Share an accessibility concern",
+    "WhatsApp route": "Message the clinic on WhatsApp",
+    "Form or WhatsApp route": "Choose form or WhatsApp",
+    "Sofiati or WhatsApp route": "Choose form or WhatsApp",
+    "Location and service context": "Service area and appointment context",
+    "Social and contact route": "Social and direct contact",
+    "Contact route": "A direct way to reach the clinic",
+    "Consultation bridge": "Talk through the next step",
+    "Consultation route": "Consultation before decisions",
+    "Education route": "Care education before action",
+    "Education and journal route": "Read guidance before deciding",
+    "Suitability-first statement": "Suitability comes first",
+    "Skin and context evaluation": "Your skin context matters",
+    "Individual skin context": "Your skin context matters",
+    "Process overview": "How the visit is planned",
+    "No guarantee statement": "No promises without evaluation",
+    "Patient words and care context": "Patient stories with context",
+    "Ethical note on client stories": "Client stories stay responsible",
+    "Final reassurance": "Continue at a comfortable pace",
+}
+
+PAGE_CONTEXT = {
+    "index": "skin, laser and aesthetic care",
+    "about": "Franciele Sofiati's professional care philosophy",
+    "care": "the care plan",
+    "laser": "laser suitability and safety",
+    "skin": "skin quality and personal goals",
+    "results": "realistic results and follow-up",
+    "journal": "care education",
+    "blog": "care education",
+    "contact": "contact and appointment questions",
+    "consultation": "the first consultation",
+    "values": "the values behind care",
+    "mission": "responsible aesthetic biomedicine",
+    "testimonials": "patient stories and responsible context",
+    "faq": "common appointment questions",
+    "privacy": "privacy and visitor information",
+    "cookies": "cookie preferences",
+    "accessibility": "accessible browsing",
+    "sitemap": "site navigation",
+    "legal": "responsible use of site information",
+    "thank-you": "what happens after contact",
+    "404": "the right next page",
+}
+
+PARAGRAPH_REPLACEMENTS = {
+    "Trust begins with the consultation": "Trust is built through a careful first conversation, clear limits, and choices that respect your skin, timing, comfort, and expectations.",
+    "A clear path through care": "The path is simple: listen first, evaluate carefully, explain the options, and move forward only when the plan makes sense for you.",
+    "How the first conversation works": "The consultation gives space for questions, preferences, history, and realistic planning before any procedure is considered.",
+    "Safety, comfort and clear expectations": "Safety is treated as part of the experience, from suitability and comfort to aftercare and the pace of each decision.",
+    "Skin and laser guidance": "Education helps you understand skin quality, laser suitability, preparation, and what a responsible plan can and cannot promise.",
+    "Guidance for later reading": "The journal keeps practical guidance close, so you can read calmly before choosing your next appointment or question.",
+    "When you are ready to talk": "When you feel ready, the next step is a direct conversation with the clinic about goals, timing, and what should be evaluated first.",
+    "A calm next step": "You can continue with a consultation request, ask a focused question, or read more before deciding what feels right.",
+    "Ready for a careful next step": "Start with a consultation request and bring your questions, goals, timing, and any concerns you want clarified.",
+    "Find the right page": "Use the main navigation to return to care guidance, contact the clinic, or continue to the page that best fits your question.",
+    "Tell us what would make the site easier": "Accessibility feedback is welcome, especially if a page, menu, colour, or interaction makes information harder to use.",
+    "Continue with clear expectations": "A responsible plan keeps expectations honest and leaves room for individual response, aftercare, and follow-up questions.",
+    "Choose the contact route that feels easiest": "Use WhatsApp for a direct message or the contact page for a calmer written request before scheduling.",
+    "A clear path back to the clinic": "The footer keeps contact, care pages, legal information, and accessibility links available without interrupting the page.",
+    "Questions about cookie preferences": "Cookie choices can be reviewed through the cookie page, with essential preferences kept simple and transparent.",
+    "Questions about this information": "For questions about legal, privacy, accessibility, or educational content, use the contact route so the clinic can review the request.",
+    "Questions about privacy": "Privacy questions can be sent through the contact page, especially if you need a correction, clarification, or deletion request.",
+    "Find the next page": "The sitemap gathers care pages, contact routes, privacy information, and accessibility resources in one readable place.",
+    "A simple way to continue": "The next step can stay simple: read a related page, ask a question, or request a consultation when you feel ready.",
+    "Share an accessibility concern": "If something is difficult to read, navigate, or operate, send the concern so the site can be improved with care.",
+    "Message the clinic on WhatsApp": "WhatsApp is available for direct questions, appointment guidance, and deciding whether a consultation is the right next step.",
+    "Choose form or WhatsApp": "Choose the route that suits the question: WhatsApp for a quick message or the form for more context.",
+    "Service area and appointment context": "Care is offered from Londrina, PR, with appointment details and suitability discussed before any treatment decision.",
+    "Social and direct contact": "Instagram is available for brand updates, while WhatsApp and the contact page are clearer routes for appointment questions.",
+    "A direct way to reach the clinic": "Use the contact page or WhatsApp when you want guidance about timing, suitability, preparation, or the first consultation.",
+    "Talk through the next step": "A conversation helps decide whether to read more, schedule an evaluation, or wait until the timing feels better.",
+    "Consultation before decisions": "Laser, skin, and aesthetic decisions should begin with evaluation rather than assumptions or quick promises.",
+    "Care education before action": "Clear explanations make each option easier to understand before you decide whether to continue.",
+    "Read guidance before deciding": "Related journal and FAQ pages help you prepare better questions before requesting an appointment.",
+    "Suitability comes first": "Laser planning starts with skin context, goals, contraindications, and the level of comfort needed for a responsible plan.",
+    "Your skin context matters": "Skin history, sensitivity, routine, timing, and expectations shape whether a treatment is appropriate and how it should be planned.",
+    "How the visit is planned": "The visit moves through listening, evaluation, explanation, decision-making, and aftercare guidance without rushing the process.",
+    "No promises without evaluation": "Results cannot be promised without individual evaluation, because response, timing, and aftercare vary from person to person.",
+    "Patient stories with context": "Client stories are treated as personal experiences, not guarantees of what another person will see or feel.",
+    "Client stories stay responsible": "Testimonials should support reassurance while keeping expectations realistic and avoiding exaggerated claims.",
+    "Continue at a comfortable pace": "You can continue with a question, a consultation request, or more reading before choosing any next step.",
+}
+
 LOGO_REPLACEMENTS = {
     "sofiati-logo-primary-sage.png": "sofiati-logo-primary-transparent.png",
     "sofiati-logo-primary-white.png": "sofiati-logo-light-transparent.png",
@@ -1987,6 +2134,85 @@ def replace_meta_content(text: str, selector: str, value: str) -> str:
     )
 
 
+def remove_damaged_head_paragraphs(text: str) -> str:
+    return re.sub(
+        r'\n\s*<p>(?:Before any treatment is chosen, the consultation clarifies goals, comfort, timing, and realistic next steps\.|")\s*(?:"\s*)?/>\s*',
+        "\n",
+        text,
+        flags=re.I,
+    )
+
+
+def ensure_meta_name(text: str, name: str, content: str, after_pattern: str) -> str:
+    selector = rf'name="{re.escape(name)}"'
+    if re.search(rf'<meta\s+{selector}\s+content="', text, flags=re.I):
+        return replace_meta_content(text, selector, content)
+    return re.sub(
+        after_pattern,
+        rf'\g<1>\n    <meta name="{name}" content="{content}" />\n    ',
+        text,
+        count=1,
+        flags=re.I,
+    )
+
+
+def ensure_meta_property(text: str, prop: str, content: str, after_pattern: str) -> str:
+    selector = rf'property="{re.escape(prop)}"'
+    if re.search(rf'<meta\s+{selector}\s+content="', text, flags=re.I):
+        return replace_meta_content(text, selector, content)
+    return re.sub(
+        after_pattern,
+        rf'\g<1>\n    <meta property="{prop}" content="{content}" />\n    ',
+        text,
+        count=1,
+        flags=re.I,
+    )
+
+
+def public_heading(value: str) -> str:
+    clean = re.sub(r"\s+", " ", value).strip()
+    return HEADING_REPLACEMENTS.get(clean, clean)
+
+
+def paragraph_for_heading(page_stem: str, heading: str) -> str:
+    clean = public_heading(heading)
+    if clean in PARAGRAPH_REPLACEMENTS:
+        return PARAGRAPH_REPLACEMENTS[clean]
+    context = PAGE_CONTEXT.get(page_stem, "care")
+    lowered = clean[:1].lower() + clean[1:]
+    if page_stem in {"privacy", "cookies", "legal", "accessibility", "sitemap"}:
+        return f"{clean} is explained in plain language so visitors can find the right information, understand their options, and contact the clinic when a question needs review."
+    if page_stem in {"contact", "consultation", "thank-you"}:
+        return f"{clean} keeps the next step practical, with space for questions, timing, comfort, and the details needed before a consultation is arranged."
+    if page_stem in {"journal", "blog", "faq"}:
+        return f"{clean} gives calm, readable guidance so you can prepare better questions before choosing a consultation or treatment path."
+    return f"{clean} connects {context} with responsible evaluation, clear expectations, and decisions made at a calm pace."
+
+
+def rewrite_public_headings(text: str) -> str:
+    def replace_heading(match: re.Match[str]) -> str:
+        open_tag, value, close_tag = match.groups()
+        plain = re.sub(r"<.*?>", "", value, flags=re.S)
+        return f"{open_tag}{public_heading(plain)}{close_tag}"
+
+    return re.sub(r"(<h[12]\b[^>]*>)(.*?)(</h[12]>)", replace_heading, text, flags=re.S)
+
+
+def rewrite_template_paragraphs(text: str, page_stem: str) -> str:
+    template = re.compile(
+        r"<p>([^<.]+?)\s+is presented with calm language, responsible expectations, and a consultation-led path\.?\s*"
+        r"(?:Before any treatment is chosen, the consultation clarifies goals, comfort, timing, and realistic next steps\.)?</p>",
+        flags=re.I,
+    )
+
+    def replace_template(match: re.Match[str]) -> str:
+        heading = match.group(1).strip()
+        return f"<p>{paragraph_for_heading(page_stem, heading)}</p>"
+
+    text = template.sub(replace_template, text)
+    return text.replace("path.Before", "path. Before")
+
+
 def sanitize_internal_copy(text: str, concept: Path, spec: PartialSpec) -> str:
     concept_title = concept.name.split("-", 1)[1].replace("-", " ").title()
     escaped_title = re.escape(concept_title)
@@ -2000,7 +2226,7 @@ def sanitize_internal_copy(text: str, concept: Path, spec: PartialSpec) -> str:
     text = re.sub(rf"\b{escaped_signature}\b", "Sofiati care", text, flags=re.I)
     text = re.sub(r"\bDestination\s+\d+\b", "Sofiati care", text)
     text = re.sub(
-        r">(?!<)([^<>.]*\b(?:website|direction|translated into|shapes the pacing|visual\s+note|design\s+direction|concept\s+label)\b[^<>.]*\.)",
+        r">(?!<)([^<>.]*\b(?:website|direction|translated into|shapes the pacing|visual\s+note|design\s+direction|concept\s+label|should\s+feel|route\s+system|botanical\s+system)\b[^<>.]*\.)",
         f">{SAFE_BODY_SENTENCE}",
         text,
         flags=re.I,
@@ -2012,19 +2238,19 @@ def sanitize_internal_copy(text: str, concept: Path, spec: PartialSpec) -> str:
     )
     text = re.sub(
         r"(<div class=\"c\d+-section-note\">\s*<span>).*?(</span>)",
-        rf"\1{SAFE_BODY_SENTENCE}\2",
+        rf"\1Use the consultation route when you are ready for a focused conversation.\2",
         text,
         flags=re.S,
     )
     text = re.sub(r"\s+with\s+Sofiati\b", "", text)
     text = re.sub(
         r'alt="Franciele Sofiati full portrait for [^"]* section (\d+)"',
-        r'alt="Franciele Sofiati portrait for care section \1"',
+        r'alt="Franciele Sofiati portrait for consultation guidance"',
         text,
     )
     text = re.sub(
         r'alt="Franciele Sofiati [^"]* for [^"]* section (\d+)"',
-        r'alt="Franciele Sofiati portrait for care section \1"',
+        r'alt="Franciele Sofiati portrait for consultation guidance"',
         text,
     )
     return text
@@ -2048,6 +2274,7 @@ def repair_previous_sanitizer_damage(text: str) -> str:
 
 def polish_safe_copy(text: str) -> str:
     text = text.replace(OLD_SAFE_BODY_SENTENCE, SAFE_BODY_SENTENCE)
+    text = re.sub(r"\s*It should feel[^.]*\.", "", text, flags=re.I)
     safe = re.escape(SAFE_BODY_SENTENCE)
     text = re.sub(rf"({safe})(?:\s*{safe})+", SAFE_BODY_SENTENCE, text)
     text = text.replace(f"{SAFE_BODY_SENTENCE}A calm", f"{SAFE_BODY_SENTENCE} A calm")
@@ -2074,9 +2301,24 @@ def clean_eyebrow(value: str) -> str:
         return "Guided planning"
     replacements = {
         "Step 02": "Guided planning",
-        "Section 03": "Care route",
-        "Section 08": "Learning route",
-        "Section 09": "Contact bridge",
+        "Section 03": "Care guidance",
+        "Section 08": "Learning",
+        "Section 09": "Contact options",
+        "Care route": "Care guidance",
+        "Learning route": "Learning",
+        "Safety and reassurance statement": "Responsible care",
+        "Skin and laser education route": "Care education",
+        "Journal and learning route": "Learning",
+        "Contact bridge": "Contact options",
+        "Conversion and contact bridge": "Contact options",
+        "Footer bridge": "Contact options",
+        "Final CTA": "Next step",
+        "Final CTA bridge": "Next step",
+        "Final contact CTA": "Contact options",
+        "Final legal bridge": "Questions",
+        "Final privacy bridge": "Questions",
+        "Final cookie bridge": "Questions",
+        "Final accessibility bridge": "Feedback",
         "Opening promise": "Care promise",
         "Continue": "Next step",
     }
@@ -2086,16 +2328,39 @@ def clean_eyebrow(value: str) -> str:
 def sanitize_page(path: Path, concept: Path, spec: PartialSpec) -> None:
     text = path.read_text(encoding="utf-8")
     text = repair_previous_sanitizer_damage(text)
+    text = remove_damaged_head_paragraphs(text)
     for old, new in LOGO_REPLACEMENTS.items():
         text = text.replace(old, new)
     text = sanitize_internal_copy(text, concept, spec)
+    text = rewrite_public_headings(text)
+    text = rewrite_template_paragraphs(text, path.stem)
     text = polish_safe_copy(text)
     title = f"{page_label(path)} | {BRAND_NAME}"
     text = re.sub(r"<title>.*?</title>", f"<title>{title}</title>", text, count=1, flags=re.S)
-    text = replace_meta_content(text, 'name="description"', PUBLIC_META_DESCRIPTION)
-    text = replace_meta_content(text, 'property="og:title"', title)
-    text = replace_meta_content(text, 'property="og:description"', PUBLIC_META_DESCRIPTION)
-    text = replace_meta_content(text, 'property="og:image"', "../../assets/brand/sofiati-logo-primary-transparent.png")
+    text = ensure_meta_name(
+        text,
+        "description",
+        PUBLIC_META_DESCRIPTION,
+        r'(<meta\s+name="viewport"[^>]*>\s*)',
+    )
+    text = ensure_meta_property(
+        text,
+        "og:title",
+        title,
+        r'(<link\s+rel="canonical"[^>]*>\s*)',
+    )
+    text = ensure_meta_property(
+        text,
+        "og:description",
+        PUBLIC_META_DESCRIPTION,
+        r'(<meta\s+property="og:title"[^>]*>\s*)',
+    )
+    text = ensure_meta_property(
+        text,
+        "og:image",
+        "../../assets/brand/sofiati-logo-primary-transparent.png",
+        r'(<meta\s+property="og:description"[^>]*>\s*)',
+    )
     text = re.sub(
         r'(<link\s+rel="apple-touch-icon"\s+href=")[^"]*(")',
         r'\1../../assets/brand/sofiati-logo-monogram-transparent.png\2',

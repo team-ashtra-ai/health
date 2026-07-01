@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-label="Form skin icon set for Form">
-  <rect width="960" height="640" rx="48" fill="#FBF5EC"/>
-  <rect x="40" y="40" width="880" height="560" rx="42" fill="none" stroke="#C9A56A" stroke-width="2" opacity=".5"/>
-  <path d="M306 330 C306 210 412 132 498 132 C604 132 678 222 654 332 C632 436 554 492 468 486 C378 480 306 418 306 330Z" fill="none" stroke="#C9A56A" stroke-width="24"/><circle cx="474" cy="300" r="44" fill="#C9A56A" opacity=".22"/>
-  <text x="480" y="470" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" letter-spacing="5" fill="#694B43" opacity=".82">FORM SKIN</text>
-</svg>

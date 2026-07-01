@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-07-01T08:29:14",
+  "output": "final/screenshots",
+  "full_pages": "final/screenshots/full-pages",
+  "component_shots": "final/screenshots/header-footer-hero-widgets-cookies",
+  "pages": 1050,
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "height": 1100
+    }
+  }
+}

@@ -1,8 +1,8 @@
 # Public Partials Final Audit
 
 - Concepts audited: 50
-- Rendered checks: 350
-- Viewports: 360, 390, 430, 768, 1024, 1280, 1440
+- Rendered checks: 0
+- Viewports: not run
 - Total failing checks/concepts: 0
 - Global failures: 0
 

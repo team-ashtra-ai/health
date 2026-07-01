@@ -85,10 +85,17 @@
     const key = `sofiati-cookie-${profile.conceptId}`;
     const banner = document.querySelector("[data-cookie-banner]");
     if (!banner) return;
-    if (window.localStorage.getItem(key) === "accepted") banner.classList.add("is-hidden");
+    const setVisible = (visible) => document.body.classList.toggle("public-cookie-visible", visible);
+    if (window.localStorage.getItem(key) === "accepted") {
+      banner.classList.add("is-hidden");
+      setVisible(false);
+    } else {
+      setVisible(true);
+    }
     banner.querySelector("[data-cookie-accept]")?.addEventListener("click", () => {
       window.localStorage.setItem(key, "accepted");
       banner.classList.add("is-hidden");
+      setVisible(false);
     });
   };
 
