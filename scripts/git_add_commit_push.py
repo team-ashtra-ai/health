@@ -1,86 +1,86 @@
 #!/usr/bin/env python3
+"""Stage every change, commit with a timestamped message, and push."""
+
+from __future__ import annotations
+
+import argparse
 import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
 
+
 ROOT = Path(__file__).resolve().parents[1]
 
-def run(cmd, check=True):
-    print("\n$ " + " ".join(cmd))
-    p = subprocess.run(cmd, cwd=ROOT, text=True, capture_output=True)
-    if p.stdout:
-        print(p.stdout)
-    if p.stderr:
-        print(p.stderr, file=sys.stderr)
-    if check and p.returncode != 0:
-        print(f"\nFAILED: {' '.join(cmd)}", file=sys.stderr)
-        raise SystemExit(p.returncode)
-    return p
 
-def main():
-    print(f"Repo: {ROOT}")
+def run(command: list[str], check: bool = True) -> subprocess.CompletedProcess[str]:
+    print("$ " + " ".join(command))
+    result = subprocess.run(
+        command,
+        cwd=ROOT,
+        text=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+    )
+    if result.stdout:
+        print(result.stdout.rstrip())
+    if check and result.returncode != 0:
+        raise SystemExit(result.returncode)
+    return result
 
-    run(["git", "--version"])
-    run(["git", "status", "--short"], check=False)
-    run(["git", "remote", "-v"], check=False)
 
-    branch = run(["git", "branch", "--show-current"], check=False).stdout.strip()
+def current_branch() -> str:
+    result = run(["git", "branch", "--show-current"], check=False)
+    branch = result.stdout.strip()
     if not branch:
-        print("No current branch found. You may be in detached HEAD.", file=sys.stderr)
-        run(["git", "status"])
-        return 1
+        print("No current branch found. Are you in detached HEAD?", file=sys.stderr)
+        raise SystemExit(1)
+    return branch
 
-    print(f"Current branch: {branch}")
+
+def has_staged_changes() -> bool:
+    return run(["git", "diff", "--cached", "--quiet"], check=False).returncode != 0
+
+
+def has_upstream() -> bool:
+    return (
+        run(
+            ["git", "rev-parse", "--abbrev-ref", "--symbolic-full-name", "@{u}"],
+            check=False,
+        ).returncode
+        == 0
+    )
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "-m",
+        "--message",
+        default="Site update",
+        help="Commit message prefix. The current date and time are added automatically.",
+    )
+    args = parser.parse_args()
+
+    branch = current_branch()
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    message = f"{args.message} - {timestamp}"
 
     run(["git", "add", "-A"])
 
-    staged = run(["git", "diff", "--cached", "--quiet"], check=False)
-    if staged.returncode == 0:
-        print("No changes to commit.")
+    if has_staged_changes():
+        run(["git", "commit", "-m", message])
     else:
-        msg = "Update site work " + datetime.now().strftime("%Y-%m-%d %H:%M")
-        run(["git", "commit", "-m", msg])
+        print("No file changes to commit.")
 
-    upstream = run(["git", "rev-parse", "--abbrev-ref", "--symbolic-full-name", "@{u}"], check=False)
-
-    if upstream.returncode != 0:
-        print("No upstream branch set. Setting upstream now.")
-        push = run(["git", "push", "--set-upstream", "origin", branch], check=False)
+    if has_upstream():
+        run(["git", "push"])
     else:
-        print(f"Upstream: {upstream.stdout.strip()}")
-        push = run(["git", "push"], check=False)
+        run(["git", "push", "--set-upstream", "origin", branch])
 
-    if push.returncode == 0:
-        print("\nDONE: changes committed and pushed.")
-        return 0
+    print(f"Done on branch '{branch}'.")
+    return 0
 
-    print("\nPush failed. Running diagnostics...\n", file=sys.stderr)
-
-    run(["git", "status"], check=False)
-    run(["git", "remote", "-v"], check=False)
-    run(["git", "branch", "-vv"], check=False)
-
-    print("""
-Common fixes:
-
-1) If authentication failed:
-   gh auth status
-   gh auth login
-   git push
-
-2) If remote rejected because branch is behind:
-   git pull --rebase
-   git push
-
-3) If no upstream branch:
-   git push --set-upstream origin """ + branch + """
-
-4) If GitHub token/key problem:
-   gh auth refresh
-""", file=sys.stderr)
-
-    return push.returncode
 
 if __name__ == "__main__":
     raise SystemExit(main())

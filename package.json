@@ -1,29 +1,21 @@
 {
-  "name": "health",
+  "name": "sofiati-static-site",
   "version": "1.0.0",
-  "description": "Static presentation for `www.sofiati.com`, built for Franciele Sofiati, Advanced Aesthetic Biomedicine, CRBM 6277, Londrina, PR.",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "description": "Static handwritten website for Franciele Sofiati.",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "screenshots": "python3 scripts/capture_homepage_full_screenshots.py"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/team-ashtra-ai/health.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/team-ashtra-ai/health/issues"
   },
   "homepage": "https://github.com/team-ashtra-ai/health#readme",
   "devDependencies": {
-    "axe-core": "^4.12.1",
-    "lighthouse": "^13.4.0",
-    "playwright": "^1.61.1",
-    "sharp": "^0.35.2"
+    "playwright": "^1.61.1"
   }
 }

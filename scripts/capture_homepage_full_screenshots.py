@@ -1,65 +1,42 @@
 #!/usr/bin/env python3
+"""Capture full-page homepage screenshots at mobile, tablet, and desktop sizes."""
+
 from __future__ import annotations
 
 import argparse
-import datetime as dt
 import json
 import os
 import socket
 import subprocess
+import tempfile
 import time
-from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
+from datetime import datetime
+from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from threading import Thread
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CONCEPTS_DIR = ROOT / "concepts"
-DEFAULT_OUT_ROOT = ROOT / "final" / "homepage-screenshots"
+DEFAULT_OUTPUT_ROOT = ROOT / "screenshots" / "homepage"
+
+VIEWPORTS = {
+    "mobile": {"width": 390, "height": 844, "isMobile": True},
+    "tablet": {"width": 820, "height": 1180, "isMobile": True},
+    "desktop": {"width": 1440, "height": 1200, "isMobile": False},
+}
 
 
 def find_free_port() -> int:
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.bind(("127.0.0.1", 0))
-    port = int(s.getsockname()[1])
-    s.close()
-    return port
-
-
-def port_is_open(port: int) -> bool:
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.settimeout(0.3)
-    try:
-        s.connect(("127.0.0.1", port))
-        return True
-    except OSError:
-        return False
-    finally:
-        s.close()
-
-
-def list_concepts(limit: int | None = None, selected: str | None = None) -> list[str]:
-    concepts = sorted(
-        p.name
-        for p in CONCEPTS_DIR.iterdir()
-        if p.is_dir() and p.name[:2].isdigit() and (p / "index.html").exists()
-    )
-    if selected:
-        wanted = [item.strip() for item in selected.split(",") if item.strip()]
-        missing = [item for item in wanted if item not in concepts]
-        if missing:
-            raise ValueError(f"Unknown concept(s): {', '.join(missing)}")
-        concepts = wanted
-    if limit:
-        return concepts[:limit]
-    return concepts
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
+        sock.bind(("127.0.0.1", 0))
+        return int(sock.getsockname()[1])
 
 
 def start_server(port: int) -> ThreadingHTTPServer:
     os.chdir(ROOT)
 
     class QuietHandler(SimpleHTTPRequestHandler):
-        def log_message(self, format: str, *args) -> None:
+        def log_message(self, format: str, *args: object) -> None:
             return
 
     server = ThreadingHTTPServer(("127.0.0.1", port), QuietHandler)
@@ -71,218 +48,188 @@ def start_server(port: int) -> ThreadingHTTPServer:
 def wait_for_server(port: int, timeout: float = 8.0) -> None:
     started = time.time()
     while time.time() - started < timeout:
-        if port_is_open(port):
-            return
-        time.sleep(0.15)
-    raise RuntimeError(f"Server did not start on port {port}")
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
+            sock.settimeout(0.25)
+            if sock.connect_ex(("127.0.0.1", port)) == 0:
+                return
+        time.sleep(0.1)
+    raise RuntimeError(f"Local server did not start on port {port}.")
 
 
-def require_playwright() -> None:
-    check = subprocess.run(
-        ["node", "-e", "require('playwright'); console.log('ok')"],
+def require_node_playwright() -> None:
+    result = subprocess.run(
+        ["node", "-e", "require('playwright');"],
         cwd=ROOT,
         text=True,
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT,
     )
-    if check.returncode != 0:
-        print("ERROR: Node Playwright is not available.")
-        print(check.stdout)
-        print("Try this:")
-        print("npm install playwright")
-        raise SystemExit(1)
+    if result.returncode != 0:
+        raise SystemExit(
+            "Playwright is not installed for Node. Run `npm install` first, then try again."
+        )
 
 
-def write_node_runner(path: Path) -> None:
-    path.write_text(
-        r'''
+def capture_with_playwright(url: str, output_dir: Path, headed: bool) -> dict[str, object]:
+    runner = """
 const { chromium } = require("playwright");
 const fs = require("fs");
 const path = require("path");
 
-const port = Number(process.argv[2]);
-const outDir = process.argv[3];
+const url = process.argv[2];
+const outputDir = process.argv[3];
 const headed = process.argv[4] === "true";
-const modes = JSON.parse(process.argv[5]);
-const concepts = JSON.parse(process.argv[6]);
-
-function urlFor(concept) {
-  return `http://localhost:${port}/concepts/${encodeURIComponent(concept)}/index.html`;
-}
+const viewports = JSON.parse(process.argv[5]);
 
 (async () => {
-  fs.mkdirSync(outDir, { recursive: true });
+  fs.mkdirSync(outputDir, { recursive: true });
+  const browser = await chromium.launch({
+    headless: !headed,
+    args: ["--disable-dev-shm-usage"],
+  });
+  const captures = [];
 
-  console.log(`Found ${concepts.length} concept homepages.`);
-  console.log(`Port: ${port}`);
-  console.log(`Output: ${outDir}`);
-  console.log("");
-
-  const browser = await chromium.launch({ headless: !headed });
-
-  let completed = 0;
-  let failed = 0;
-  const failures = [];
-  const totalJobs = concepts.length * modes.length;
-
-  const contexts = {};
-
-  if (modes.includes("desktop")) {
-    contexts.desktop = await browser.newContext({
-      viewport: { width: 1440, height: 1800 },
+  for (const [name, viewport] of Object.entries(viewports)) {
+    const context = await browser.newContext({
+      viewport: { width: viewport.width, height: viewport.height },
+      isMobile: viewport.isMobile,
       deviceScaleFactor: 1,
     });
-  }
+    const page = await context.newPage();
+    const fileName = `${name}-homepage-fullpage.png`;
+    const filePath = path.join(outputDir, fileName);
 
-  if (modes.includes("mobile")) {
-    contexts.mobile = await browser.newContext({
-      viewport: { width: 390, height: 1200 },
-      isMobile: true,
-      deviceScaleFactor: 1,
+    await page.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 });
+    await page.waitForLoadState("networkidle", { timeout: 10000 }).catch(() => {});
+    await page.waitForTimeout(500);
+
+    const size = await page.evaluate(() => {
+      const documentElement = document.documentElement;
+      const body = document.body;
+      return {
+        width: Math.max(
+          documentElement.scrollWidth,
+          documentElement.offsetWidth,
+          body ? body.scrollWidth : 0,
+          body ? body.offsetWidth : 0
+        ),
+        height: Math.max(
+          documentElement.scrollHeight,
+          documentElement.offsetHeight,
+          body ? body.scrollHeight : 0,
+          body ? body.offsetHeight : 0
+        ),
+      };
     });
-  }
 
-  for (const concept of concepts) {
-    for (const mode of modes) {
-      const jobNumber = completed + failed + 1;
-      const url = urlFor(concept);
-      const page = await contexts[mode].newPage();
-      const screenshotPath = path.join(outDir, `${concept}-${mode}-full.png`);
+    await page.setViewportSize({
+      width: viewport.width,
+      height: Math.min(Math.max(size.height, viewport.height), 16000),
+    });
+    await page.screenshot({
+      path: filePath,
+      clip: {
+        x: 0,
+        y: 0,
+        width: viewport.width,
+        height: Math.min(Math.max(size.height, viewport.height), 16000),
+      },
+    });
 
-      console.log(`[${jobNumber}/${totalJobs}] capturing ${concept} ${mode}...`);
+    captures.push({
+      name,
+      width: viewport.width,
+      height: viewport.height,
+      capturedHeight: Math.min(Math.max(size.height, viewport.height), 16000),
+      file: fileName,
+    });
 
-      try {
-        await page.goto(url, { waitUntil: "networkidle", timeout: 45000 });
-        await page.screenshot({ path: screenshotPath, fullPage: true });
-        completed += 1;
-        console.log(`[${jobNumber}/${totalJobs}] done ${concept} ${mode} -> ${screenshotPath}`);
-      } catch (error) {
-        failed += 1;
-        failures.push({
-          concept,
-          mode,
-          url,
-          error: String(error && error.message ? error.message : error),
-        });
-        console.error(`[${jobNumber}/${totalJobs}] FAILED ${concept} ${mode}: ${error.message || error}`);
-      } finally {
-        await page.close().catch(() => {});
-      }
-    }
-  }
-
-  for (const context of Object.values(contexts)) {
     await context.close();
   }
 
   await browser.close();
+  console.log(JSON.stringify({ captures }, null, 2));
+})().catch((error) => {
+  console.error(error);
+  process.exit(1);
+});
+"""
 
-  const report = {
-    generatedAt: new Date().toISOString(),
-    port,
-    outDir,
-    totalConcepts: concepts.length,
-    modes,
-    totalJobs,
-    completed,
-    failed,
-    failures,
-  };
+    with tempfile.NamedTemporaryFile("w", suffix=".cjs", dir=ROOT, delete=False) as temp:
+        temp.write(runner)
+        temp_path = Path(temp.name)
 
-  fs.writeFileSync(path.join(outDir, "capture-report.json"), JSON.stringify(report, null, 2));
+    try:
+        result = subprocess.run(
+            [
+                "node",
+                str(temp_path),
+                url,
+                str(output_dir),
+                "true" if headed else "false",
+                json.dumps(VIEWPORTS),
+            ],
+            cwd=ROOT,
+            text=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+        )
+    finally:
+        temp_path.unlink(missing_ok=True)
 
-  console.log("");
-  console.log("Capture complete.");
-  console.log(`Completed jobs: ${completed}/${totalJobs}`);
-  console.log(`Failed jobs: ${failed}`);
-  console.log(`Report: ${path.join(outDir, "capture-report.json")}`);
+    if result.returncode != 0:
+        print(result.stdout)
+        raise SystemExit(result.returncode)
 
-  if (failed > 0) {
-    process.exitCode = 1;
-  }
-})();
-'''.strip()
-        + "\n",
-        encoding="utf-8",
-    )
+    print(result.stdout.rstrip())
+    return json.loads(result.stdout)
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--port", default="auto", help="Use a specific port, or auto. Default: auto.")
-    parser.add_argument("--out-dir", default="", help="Output directory. Default: final/homepage-screenshots/full-TIMESTAMP")
-    parser.add_argument("--headed", action="store_true", help="Show browser window.")
-    parser.add_argument("--limit", type=int, default=None, help="Capture only the first N concepts.")
-    parser.add_argument("--all", action="store_true", help="Capture all concept homepages.")
-    parser.add_argument("--concepts", default="", help="Comma-separated concept folders, e.g. 01-inspire,02-empower.")
-    parser.add_argument("--desktop-only", action="store_true", help="Capture desktop only.")
-    parser.add_argument("--mobile-only", action="store_true", help="Capture mobile only.")
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--port", type=int, default=0, help="Local server port. Default: auto.")
+    parser.add_argument(
+        "--path",
+        default="/index.html",
+        help="Homepage path to capture from the local server. Default: /index.html.",
+    )
+    parser.add_argument(
+        "--out-dir",
+        default="",
+        help="Exact output directory. Default: screenshots/homepage/YYYY-mm-dd_HH-MM-SS.",
+    )
+    parser.add_argument("--headed", action="store_true", help="Show the browser while capturing.")
     args = parser.parse_args()
 
-    require_playwright()
+    require_node_playwright()
 
-    port = find_free_port() if args.port == "auto" else int(args.port)
-
-    stamp = dt.datetime.now().strftime("%Y%m%d-%H%M%S")
-    out_dir = Path(args.out_dir).resolve() if args.out_dir else DEFAULT_OUT_ROOT / f"full-{stamp}"
-    out_dir.mkdir(parents=True, exist_ok=True)
-
-    try:
-        concepts = list_concepts(args.limit, args.concepts or None)
-    except ValueError as error:
-        print(f"ERROR: {error}")
-        return 1
-    if not concepts:
-        print("ERROR: no concept homepages found in concepts/*/index.html")
-        return 1
-
-    if args.desktop_only and args.mobile_only:
-        print("ERROR: choose only one of --desktop-only or --mobile-only")
-        return 1
-
-    if args.desktop_only:
-        modes = ["desktop"]
-    elif args.mobile_only:
-        modes = ["mobile"]
-    else:
-        modes = ["desktop", "mobile"]
-
-    print("Starting local server...")
-    print(f"Selected free port: {port}")
+    port = args.port or find_free_port()
+    stamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    output_dir = Path(args.out_dir).resolve() if args.out_dir else DEFAULT_OUTPUT_ROOT / stamp
+    output_dir.mkdir(parents=True, exist_ok=True)
 
     server = start_server(port)
-
     try:
         wait_for_server(port)
-        print(f"Server ready: http://localhost:{port}/select.html")
-        print("")
+        path = args.path if args.path.startswith("/") else f"/{args.path}"
+        url = f"http://127.0.0.1:{port}{path}"
+        result = capture_with_playwright(url, output_dir, args.headed)
 
-        runner = ROOT / "qa" / "capture_homepages_progress_runner.cjs"
-        runner.parent.mkdir(parents=True, exist_ok=True)
-        write_node_runner(runner)
-
-        cmd = [
-            "node",
-            str(runner),
-            str(port),
-            str(out_dir),
-            "true" if args.headed else "false",
-            json.dumps(modes),
-            json.dumps(concepts),
-        ]
-
-        result = subprocess.run(cmd, cwd=ROOT)
-
-        print("")
-        print(f"Screenshots saved to: {out_dir}")
-        print(f"Preview URL used: http://localhost:{port}/select.html")
-
-        return int(result.returncode)
-
+        manifest = {
+            "generatedAt": datetime.now().isoformat(timespec="seconds"),
+            "url": url,
+            "outputDir": str(output_dir),
+            **result,
+        }
+        (output_dir / "manifest.json").write_text(
+            json.dumps(manifest, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        print(f"Screenshots saved to: {output_dir}")
     finally:
         server.shutdown()
-        server.server_close()
-        print("Temporary server stopped.")
+
+    return 0
 
 
 if __name__ == "__main__":
