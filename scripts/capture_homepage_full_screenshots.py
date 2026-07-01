@@ -17,7 +17,7 @@ from threading import Thread
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUTPUT_ROOT = ROOT / "screenshots" / "homepage"
+DEFAULT_OUTPUT_ROOT = ROOT / "screenshots"
 
 VIEWPORTS = {
     "mobile": {"width": 390, "height": 844, "isMobile": True},
@@ -70,19 +70,20 @@ def require_node_playwright() -> None:
         )
 
 
-def capture_with_playwright(url: str, output_dir: Path, headed: bool) -> dict[str, object]:
+def capture_with_playwright(url: str, output_root: Path, stamp: str, headed: bool) -> dict[str, object]:
     runner = """
 const { chromium } = require("playwright");
 const fs = require("fs");
 const path = require("path");
 
 const url = process.argv[2];
-const outputDir = process.argv[3];
-const headed = process.argv[4] === "true";
-const viewports = JSON.parse(process.argv[5]);
+const outputRoot = process.argv[3];
+const stamp = process.argv[4];
+const headed = process.argv[5] === "true";
+const viewports = JSON.parse(process.argv[6]);
 
 (async () => {
-  fs.mkdirSync(outputDir, { recursive: true });
+  fs.mkdirSync(outputRoot, { recursive: true });
   const browser = await chromium.launch({
     headless: !headed,
     args: ["--disable-dev-shm-usage"],
@@ -96,8 +97,10 @@ const viewports = JSON.parse(process.argv[5]);
       deviceScaleFactor: 1,
     });
     const page = await context.newPage();
-    const fileName = `${name}-homepage-fullpage.png`;
-    const filePath = path.join(outputDir, fileName);
+    const deviceDir = path.join(outputRoot, name);
+    fs.mkdirSync(deviceDir, { recursive: true });
+    const fileName = `homepage-fullpage-${stamp}.png`;
+    const filePath = path.join(deviceDir, fileName);
 
     await page.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 });
     await page.waitForLoadState("networkidle", { timeout: 10000 }).catch(() => {});
@@ -141,7 +144,7 @@ const viewports = JSON.parse(process.argv[5]);
       width: viewport.width,
       height: viewport.height,
       capturedHeight: Math.min(Math.max(size.height, viewport.height), 16000),
-      file: fileName,
+      file: path.join(name, fileName),
     });
 
     await context.close();
@@ -165,7 +168,8 @@ const viewports = JSON.parse(process.argv[5]);
                 "node",
                 str(temp_path),
                 url,
-                str(output_dir),
+                str(output_root),
+                stamp,
                 "true" if headed else "false",
                 json.dumps(VIEWPORTS),
             ],
@@ -196,7 +200,7 @@ def main() -> int:
     parser.add_argument(
         "--out-dir",
         default="",
-        help="Exact output directory. Default: screenshots/homepage/YYYY-mm-dd_HH-MM-SS.",
+        help="Output root directory. Default: screenshots/.",
     )
     parser.add_argument("--headed", action="store_true", help="Show the browser while capturing.")
     args = parser.parse_args()
@@ -205,27 +209,30 @@ def main() -> int:
 
     port = args.port or find_free_port()
     stamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    output_dir = Path(args.out_dir).resolve() if args.out_dir else DEFAULT_OUTPUT_ROOT / stamp
-    output_dir.mkdir(parents=True, exist_ok=True)
+    output_root = Path(args.out_dir).resolve() if args.out_dir else DEFAULT_OUTPUT_ROOT
+    output_root.mkdir(parents=True, exist_ok=True)
+    (output_root / "archive").mkdir(parents=True, exist_ok=True)
 
     server = start_server(port)
     try:
         wait_for_server(port)
         path = args.path if args.path.startswith("/") else f"/{args.path}"
         url = f"http://127.0.0.1:{port}{path}"
-        result = capture_with_playwright(url, output_dir, args.headed)
+        result = capture_with_playwright(url, output_root, stamp, args.headed)
 
         manifest = {
             "generatedAt": datetime.now().isoformat(timespec="seconds"),
             "url": url,
-            "outputDir": str(output_dir),
+            "outputRoot": str(output_root),
             **result,
         }
-        (output_dir / "manifest.json").write_text(
+        manifest_path = output_root / "archive" / f"homepage-{stamp}-manifest.json"
+        manifest_path.write_text(
             json.dumps(manifest, indent=2) + "\n",
             encoding="utf-8",
         )
-        print(f"Screenshots saved to: {output_dir}")
+        print(f"Screenshots saved under: {output_root}")
+        print(f"Manifest: {manifest_path}")
     finally:
         server.shutdown()
 

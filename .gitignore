@@ -1,20 +1,22 @@
-# Raw / heavy media files
-brand identity/*.mov
+node_modules/
+.continue/
+.npmrc
+.env
+.env.local
+.DS_Store
+*.log
+screenshots/archive/*
+!screenshots/archive/.gitkeep
+__pycache__/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.venv-playwright/
+dist/
+build/
 *.mov
 *.mp4
 *.webm
 *.avi
 *.mkv
-
-# Python cache
-__pycache__/
-*.pyc
-
-# Node dependencies
-node_modules/
-
-# Local logs / temporary files
-*.log
-.DS_Store
-Thumbs.db
-node_modules

@@ -1,0 +1,30 @@
+{
+  "primary": [
+    { "label": "Home", "href": "index.html" },
+    { "label": "About", "href": "about.html" },
+    { "label": "Care", "href": "care.html" },
+    { "label": "Laser", "href": "laser.html" },
+    { "label": "Skin", "href": "skin.html" },
+    { "label": "Results", "href": "results.html" },
+    { "label": "Journal", "href": "journal.html" },
+    { "label": "Contact", "href": "contact.html" }
+  ],
+  "footer": [
+    "index.html",
+    "about.html",
+    "care.html",
+    "laser.html",
+    "skin.html",
+    "results.html",
+    "journal.html",
+    "contact.html",
+    "consultation.html",
+    "values.html",
+    "mission.html",
+    "testimonials.html",
+    "faq.html",
+    "privacy.html",
+    "cookies.html",
+    "accessibility.html"
+  ]
+}

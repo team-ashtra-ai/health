@@ -1,0 +1,8 @@
+{
+  "services": [
+    { "name": "Consultation", "href": "consultation.html" },
+    { "name": "Skin guidance", "href": "skin.html" },
+    { "name": "Laser guidance", "href": "laser.html" },
+    { "name": "Responsible aesthetic care", "href": "care.html" }
+  ]
+}

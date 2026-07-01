@@ -4,7 +4,11 @@
   "description": "Static handwritten website for Franciele Sofiati.",
   "private": true,
   "scripts": {
-    "screenshots": "python3 scripts/capture_homepage_full_screenshots.py"
+    "screenshots": "python3 scripts/capture_homepage_full_screenshots.py",
+    "generate:sitemap": "python3 scripts/generate-sitemap.py",
+    "generate:robots": "python3 scripts/generate-robots.py",
+    "validate:links": "python3 scripts/validate-links.py",
+    "check:seo": "python3 scripts/check-seo.py"
   },
   "repository": {
     "type": "git",

@@ -7,9 +7,14 @@
   "theme_color": "#A2AE9F",
   "icons": [
     {
-      "src": "/assets/brand/sofiati-favicon.svg",
+      "src": "/assets/favicons/sofiati-favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml"
+    },
+    {
+      "src": "/assets/favicons/apple-touch-icon.png",
+      "sizes": "1254x1254",
+      "type": "image/png"
     },
     {
       "src": "/assets/brand/sofiati-logo-primary-transparent.png",
