@@ -77,7 +77,7 @@ html[lang="pt-BR"] [data-i18n="pt"] {
   position: relative;
   z-index: var(--sf-z-header);
   padding: var(--sf-space-3) clamp(0.75rem, 2vw, 1.5rem);
-  background: color-mix(in srgb, var(--sf-ivory-soft), transparent 2%);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--sf-ivory-soft), transparent 4%), transparent);
 }
 
 body.c01-page-home .sf-public-header {
@@ -97,8 +97,10 @@ body.c01-page-home .sf-public-header {
   padding: var(--sf-space-2) var(--sf-space-2) var(--sf-space-2) var(--sf-space-4);
   border: 1px solid var(--sf-line);
   border-radius: var(--sf-radius-lg);
-  background: color-mix(in srgb, var(--sf-white), var(--sf-ivory) 38%);
-  box-shadow: 0 10px 30px rgba(24, 35, 28, 0.055);
+  background: color-mix(in srgb, color-mix(in srgb, var(--sf-white), var(--sf-ivory) 38%), transparent 6%);
+  box-shadow: 0 18px 52px rgba(24, 35, 28, 0.09);
+  backdrop-filter: blur(18px) saturate(1.06);
+  -webkit-backdrop-filter: blur(18px) saturate(1.06);
 }
 
 .sf-brand-lockup,

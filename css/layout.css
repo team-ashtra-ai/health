@@ -18,11 +18,26 @@ main {
 .c01-body {
   min-width: 320px;
   background:
-    linear-gradient(180deg, var(--sf-ivory-soft), var(--sf-ivory) 42%, color-mix(in srgb, var(--sf-ivory), var(--sf-sage) 9%));
+    var(--sf-canvas-glow);
+  background-attachment: fixed;
 }
 
 .c01-main {
+  position: relative;
   overflow: clip;
+}
+
+.c01-main::before,
+.sf-main::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, transparent calc(50% - 0.5px), color-mix(in srgb, var(--sf-gold), transparent 88%) 50%, transparent calc(50% + 0.5px)),
+    radial-gradient(ellipse at 70% 40%, color-mix(in srgb, var(--sf-white), transparent 72%), transparent 38rem);
+  opacity: 0.72;
 }
 
 .sf-container {

@@ -9,8 +9,49 @@
   border: 1px solid var(--sf-line);
   border-radius: var(--sf-card-radius);
   background: color-mix(in srgb, var(--sf-white), transparent 16%);
-  box-shadow: var(--sf-shadow-soft);
+  box-shadow: var(--sf-shadow-float);
   backdrop-filter: blur(14px);
+}
+
+.c01-section-note,
+.c01-contact-actions,
+.c01-reading-links,
+.sf-card,
+.sf-route-card,
+.sf-article-card,
+.sf-proof-card,
+.sf-contact-card,
+.sf-form-card,
+.sf-utility-doc,
+.sf-next-panel,
+.sf-empty-proof,
+.sf-diagnostic-card,
+.sf-ledger-card,
+.sf-consult-card,
+.sf-note-card,
+.sf-pathway-card,
+.sf-support-nav {
+  backdrop-filter: blur(16px) saturate(1.04);
+}
+
+.sf-card-grid > :nth-child(3n + 2),
+.sf-route-grid > :nth-child(3n + 2),
+.sf-proof-grid > :nth-child(3n + 2),
+.sf-article-grid > :nth-child(3n + 2),
+.sf-diagnostic-grid > :nth-child(3n + 2),
+.sf-ledger-grid > :nth-child(3n + 2),
+.sf-pathway-grid > :nth-child(3n + 2) {
+  transform: translateY(clamp(0.65rem, 1.4vw, 1.1rem));
+}
+
+.sf-card-grid > :nth-child(3n + 3),
+.sf-route-grid > :nth-child(3n + 3),
+.sf-proof-grid > :nth-child(3n + 3),
+.sf-article-grid > :nth-child(3n + 3),
+.sf-diagnostic-grid > :nth-child(3n + 3),
+.sf-ledger-grid > :nth-child(3n + 3),
+.sf-pathway-grid > :nth-child(3n + 3) {
+  transform: translateY(clamp(-0.35rem, -0.7vw, -0.2rem));
 }
 
 .c01-process-list,
@@ -145,6 +186,7 @@
     linear-gradient(135deg, color-mix(in srgb, var(--sf-sage), white 44%), var(--sf-ivory-soft));
   background-position: center;
   background-size: cover;
+  box-shadow: var(--sf-shadow-editorial);
 }
 
 .c01-visual-panel::before,

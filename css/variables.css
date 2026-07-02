@@ -81,6 +81,12 @@
   --sf-shadow-lift: 0 22px 64px rgba(24, 35, 28, 0.13);
   --sf-shadow-editorial: 0 30px 90px rgba(24, 35, 28, 0.16);
   --sf-shadow-dark: 0 34px 110px rgba(0, 0, 0, 0.22);
+  --sf-shadow-float: 0 28px 80px rgba(24, 35, 28, 0.11);
+  --sf-canvas-glow:
+    radial-gradient(circle at 12% 7%, color-mix(in srgb, var(--sf-sage), transparent 76%), transparent 24rem),
+    radial-gradient(circle at 88% 22%, color-mix(in srgb, var(--sf-gold-pale), transparent 66%), transparent 22rem),
+    radial-gradient(circle at 22% 74%, color-mix(in srgb, var(--sf-clay-soft), transparent 78%), transparent 24rem),
+    linear-gradient(180deg, var(--sf-ivory-soft), color-mix(in srgb, var(--sf-ivory), var(--sf-sage) 8%) 48%, color-mix(in srgb, var(--sf-ivory-soft), var(--sf-mist) 24%));
 
   --sf-button-height: 3rem;
   --sf-button-height-sm: 2.75rem;

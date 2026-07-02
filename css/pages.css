@@ -53,8 +53,8 @@
     minmax(0, 1fr);
   gap: var(--c01-grid-gap);
   padding: var(--c01-section-pad-block) var(--c01-section-pad-inline);
-  overflow: hidden;
-  border-bottom: 1px solid var(--sf-line);
+  overflow: visible;
+  border-bottom: 0;
 }
 
 .c01-section--02,
@@ -96,6 +96,30 @@
   padding: clamp(3.5rem, 7vw, 6rem) var(--sf-section-padding-x);
 }
 
+.c01-section:not(.hero) {
+  margin-top: clamp(-2.5rem, -3vw, -1rem);
+}
+
+.c01-section:not(.hero)::after,
+.sf-section::after,
+.sf-hero::after {
+  content: "";
+  position: absolute;
+  inset: auto var(--sf-section-padding-x) -1px;
+  height: clamp(3.5rem, 8vw, 6rem);
+  z-index: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, transparent, color-mix(in srgb, var(--sf-ivory-soft), transparent 18%));
+  opacity: 0.68;
+}
+
+.c01-section > *,
+.sf-section > *,
+.sf-hero > * {
+  position: relative;
+  z-index: 1;
+}
+
 .c01-section.hero--utility {
   min-height: var(--sf-hero-min-utility);
 }
@@ -127,18 +151,20 @@
 }
 
 .c01-tone--sage {
-  background: linear-gradient(135deg, color-mix(in srgb, var(--sf-sage), white 30%), var(--sf-ivory));
+  background:
+    radial-gradient(circle at 92% 8%, color-mix(in srgb, var(--sf-gold-pale), transparent 70%), transparent 18rem),
+    linear-gradient(135deg, color-mix(in srgb, color-mix(in srgb, var(--sf-sage), white 30%), transparent 12%), color-mix(in srgb, var(--sf-ivory), transparent 6%));
 }
 
 .c01-tone--ivory {
   background:
-    linear-gradient(180deg, var(--sf-ivory-soft), color-mix(in srgb, var(--sf-ivory), var(--sf-sage) 7%));
+    linear-gradient(180deg, color-mix(in srgb, var(--sf-ivory-soft), transparent 8%), color-mix(in srgb, color-mix(in srgb, var(--sf-ivory), var(--sf-sage) 7%), transparent 8%));
 }
 
 .c01-tone--cream {
   background:
     radial-gradient(circle at 88% 18%, color-mix(in srgb, var(--sf-gold-pale), transparent 62%), transparent 18rem),
-    linear-gradient(135deg, var(--sf-ivory-soft), color-mix(in srgb, var(--sf-ivory), var(--sf-sage) 12%));
+    linear-gradient(135deg, color-mix(in srgb, var(--sf-ivory-soft), transparent 7%), color-mix(in srgb, color-mix(in srgb, var(--sf-ivory), var(--sf-sage) 12%), transparent 10%));
 }
 
 .c01-tone--gold,
@@ -148,8 +174,13 @@
 }
 
 .c01-tone--dark {
+  width: min(100% - 2rem, calc(var(--sf-content-max) + 7rem));
+  margin-inline: auto;
+  border: 1px solid rgba(253, 227, 176, 0.16);
+  border-radius: clamp(1.25rem, 4vw, 2.25rem);
   background: linear-gradient(140deg, var(--sf-botanical), var(--sf-botanical-2));
   color: var(--sf-ivory-soft);
+  box-shadow: var(--sf-shadow-dark);
 }
 
 .c01-tone--dark .c01-text-link,
@@ -538,7 +569,7 @@ body[data-page-group="support"] .c01-section--10 {
   position: relative;
   overflow: clip;
   background:
-    linear-gradient(180deg, var(--sf-ivory-soft), color-mix(in srgb, var(--sf-ivory), var(--sf-mist) 35%));
+    var(--sf-canvas-glow);
 }
 
 .sf-main :where(h1, h2, h3) {
@@ -553,6 +584,11 @@ body[data-page-group="support"] .c01-section--10 {
 .sf-hero {
   position: relative;
   padding: var(--sf-section-padding-y) var(--sf-section-padding-x);
+}
+
+.sf-section {
+  margin-top: clamp(-2.25rem, -3vw, -0.875rem);
+  background-blend-mode: normal;
 }
 
 .sf-section > *,
@@ -602,7 +638,7 @@ body[data-page-group="support"] .c01-section--10 {
   min-height: clamp(34rem, 76vh, 53rem);
   display: grid;
   align-items: stretch;
-  border-bottom: 1px solid var(--sf-line);
+  border-bottom: 0;
 }
 
 .sf-hero__inner {
@@ -669,7 +705,17 @@ body[data-page-group="support"] .c01-section--10 {
   border: 1px solid var(--sf-line);
   border-radius: var(--sf-radius-md);
   background: color-mix(in srgb, var(--sf-white), var(--sf-ivory) 28%);
-  box-shadow: var(--sf-shadow-lift);
+  box-shadow: var(--sf-shadow-editorial);
+}
+
+.sf-photo-frame,
+.sf-image-panel {
+  transform: rotate(-0.45deg);
+}
+
+.sf-split--reverse .sf-photo-frame,
+.sf-split--reverse .sf-image-panel {
+  transform: rotate(0.45deg);
 }
 
 .sf-photo-frame img,
@@ -834,23 +880,28 @@ body[data-page="results"] .sf-hero--care {
 .sf-section--mist {
   background:
     radial-gradient(circle at 88% 8%, color-mix(in srgb, var(--sf-gold-pale), transparent 68%), transparent 17rem),
-    linear-gradient(135deg, color-mix(in srgb, var(--sf-mist), white 28%), var(--sf-ivory-soft));
+    linear-gradient(135deg, color-mix(in srgb, color-mix(in srgb, var(--sf-mist), white 28%), transparent 9%), color-mix(in srgb, var(--sf-ivory-soft), transparent 8%));
 }
 
 .sf-section--ivory {
-  background: linear-gradient(180deg, var(--sf-ivory-soft), color-mix(in srgb, var(--sf-ivory), var(--sf-mist) 22%));
+  background: linear-gradient(180deg, color-mix(in srgb, var(--sf-ivory-soft), transparent 7%), color-mix(in srgb, color-mix(in srgb, var(--sf-ivory), var(--sf-mist) 22%), transparent 8%));
 }
 
 .sf-section--warm {
   background:
-    linear-gradient(135deg, color-mix(in srgb, var(--sf-clay-soft), var(--sf-ivory) 58%), var(--sf-ivory-soft));
+    linear-gradient(135deg, color-mix(in srgb, color-mix(in srgb, var(--sf-clay-soft), var(--sf-ivory) 58%), transparent 10%), color-mix(in srgb, var(--sf-ivory-soft), transparent 8%));
 }
 
 .sf-section--dark {
+  width: min(100% - 2rem, calc(var(--sf-content-max) + 7rem));
+  margin-inline: auto;
+  border: 1px solid rgba(253, 227, 176, 0.16);
+  border-radius: clamp(1.25rem, 4vw, 2.25rem);
   background:
     radial-gradient(circle at 84% 16%, rgba(216, 176, 106, 0.16), transparent 18rem),
     linear-gradient(140deg, var(--sf-botanical), var(--sf-botanical-2));
   color: var(--sf-ivory-soft);
+  box-shadow: var(--sf-shadow-dark);
 }
 
 .sf-section--sage {
@@ -861,7 +912,7 @@ body[data-page="results"] .sf-hero--care {
 
 .sf-section--paper {
   background:
-    linear-gradient(90deg, color-mix(in srgb, var(--sf-ivory-soft), var(--sf-mist) 18%) 0 68%, color-mix(in srgb, var(--sf-sage), white 56%) 68% 100%);
+    linear-gradient(90deg, color-mix(in srgb, color-mix(in srgb, var(--sf-ivory-soft), var(--sf-mist) 18%), transparent 9%) 0 68%, color-mix(in srgb, color-mix(in srgb, var(--sf-sage), white 56%), transparent 14%) 68% 100%);
 }
 
 .sf-section--clay {
@@ -1553,6 +1604,17 @@ form[data-submitted="true"] .sf-form-success {
     padding: clamp(3rem, 11vw, 4.75rem) 1rem;
   }
 
+  .sf-section,
+  .c01-section:not(.hero) {
+    margin-top: 0;
+  }
+
+  .sf-section--dark,
+  .c01-tone--dark {
+    width: min(100% - 1rem, var(--sf-content-max));
+    border-radius: var(--sf-radius-lg);
+  }
+
   .sf-hero {
     min-height: auto;
   }
@@ -1585,6 +1647,20 @@ form[data-submitted="true"] .sf-form-success {
   .sf-portrait-frame,
   .sf-image-panel {
     min-height: clamp(16rem, 68vw, 24rem);
+  }
+
+  .sf-photo-frame,
+  .sf-image-panel,
+  .sf-split--reverse .sf-photo-frame,
+  .sf-split--reverse .sf-image-panel,
+  .sf-card-grid > *,
+  .sf-route-grid > *,
+  .sf-proof-grid > *,
+  .sf-article-grid > *,
+  .sf-diagnostic-grid > *,
+  .sf-ledger-grid > *,
+  .sf-pathway-grid > * {
+    transform: none;
   }
 
   .sf-portrait-frame img {
@@ -2539,4 +2615,3 @@ body[data-page="home"] #home-hero .sf-reference-hero__portrait {
     max-width: 100%;
   }
 }
-

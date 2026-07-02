@@ -14,6 +14,45 @@
   .sf-floating-tools {
     will-change: transform, opacity;
   }
+
+  .sf-photo-frame img,
+  .sf-image-panel img,
+  .c01-visual-panel {
+    animation: sf-image-drift 12s ease-in-out infinite alternate;
+  }
+
+  .sf-card,
+  .sf-route-card,
+  .sf-article-card,
+  .sf-proof-card,
+  .sf-contact-card,
+  .sf-diagnostic-card,
+  .sf-ledger-card,
+  .sf-consult-card,
+  .sf-note-card,
+  .sf-pathway-card,
+  .c01-section-note,
+  .c01-reading-links,
+  .c01-contact-actions {
+    transition:
+      border-color var(--sf-transition),
+      box-shadow var(--sf-transition-slow),
+      transform var(--sf-transition-slow);
+  }
+
+  .sf-card:hover,
+  .sf-route-card:hover,
+  .sf-article-card:hover,
+  .sf-proof-card:hover,
+  .sf-contact-card:hover,
+  .sf-diagnostic-card:hover,
+  .sf-ledger-card:hover,
+  .sf-consult-card:hover,
+  .sf-note-card:hover,
+  .sf-pathway-card:hover {
+    border-color: color-mix(in srgb, var(--sf-gold), transparent 48%);
+    box-shadow: var(--sf-shadow-editorial);
+  }
 }
 
 @keyframes sf-soft-rise {
@@ -24,6 +63,17 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes sf-image-drift {
+  from {
+    background-position: center 42%;
+    transform: scale(1);
+  }
+  to {
+    background-position: center 46%;
+    transform: scale(1.018);
   }
 }
 
