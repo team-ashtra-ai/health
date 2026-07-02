@@ -129,6 +129,19 @@
   box-shadow: var(--sf-shadow-soft);
 }
 
+.sf-floating-whatsapp {
+  overflow: hidden;
+  border-color: transparent;
+  background: #25d366;
+}
+
+.sf-floating-whatsapp img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .sf-floating-tools svg {
   width: 1.22rem;
   height: 1.22rem;
@@ -192,6 +205,10 @@ body.public-menu-locked .sf-floating-tools {
     bottom: 0.85rem;
   }
 
+  .sf-floating-accessibility {
+    display: none;
+  }
+
   body.public-cookie-visible .sf-floating-tools {
     display: none;
   }
@@ -199,6 +216,14 @@ body.public-menu-locked .sf-floating-tools {
 
 @media (max-width: 520px) {
   .sf-floating-tools {
-    display: none;
+    right: 0.75rem;
+    bottom: 0.75rem;
+  }
+
+  .sf-floating-tools a,
+  .sf-floating-tools button {
+    width: 2.75rem;
+    min-width: 2.75rem;
+    height: 2.75rem;
   }
 }

@@ -4,16 +4,16 @@
   "pages": {
     "index.html": {
       "source_file": "index.html",
-      "source_hash": "b2fc010c9dbe03a1a240df4a246845b551df9ca2c3161863a82ed77e7c850460",
+      "source_hash": "f9defc7fe29e4f0df66d5f6fb46af0dc438e8aec29e6ad07d127a62678602125",
       "output_file": "pt/index.html",
-      "generated_at": "2026-07-02T11:14:26.412996+00:00",
+      "generated_at": "2026-07-02T11:44:51.863955+00:00",
       "rule_version": "pt-br-static-v1"
     },
     "about.html": {
       "source_file": "about.html",
-      "source_hash": "aa2916ab7134babdb10e6140d026f812f15b39c75b58a04308ad873153407a26",
+      "source_hash": "11af45c812e3d7b60ab2b905e6aa14a39d9b161bce7ef667327edb12e45275ba",
       "output_file": "pt/about.html",
-      "generated_at": "2026-07-02T11:14:26.424173+00:00",
+      "generated_at": "2026-07-02T11:44:51.876136+00:00",
       "rule_version": "pt-br-static-v1"
     },
     "accessibility.html": {
@@ -25,9 +25,9 @@
     },
     "blog.html": {
       "source_file": "blog.html",
-      "source_hash": "08431b69ec7d277a97cf407f1d6807ca26b38685eeb940bb13541cd16bf8c5fe",
+      "source_hash": "326dc4357ac6d5c0e7fa41c49c9337fc376bdc6c30ea51517f546e13f8500c4b",
       "output_file": "pt/blog.html",
-      "generated_at": "2026-07-02T11:14:26.440842+00:00",
+      "generated_at": "2026-07-02T11:44:51.887365+00:00",
       "rule_version": "pt-br-static-v1"
     },
     "care.html": {
@@ -39,16 +39,16 @@
     },
     "consultation.html": {
       "source_file": "consultation.html",
-      "source_hash": "426846684ced941291efbc2a2d1db6f90471c926b9fd077c88aa84ef6ac2881b",
+      "source_hash": "71230942d0deb2146b95af85334a6456ab9a5bff2d6790fe17cf846adfb9cdfa",
       "output_file": "pt/consultation.html",
-      "generated_at": "2026-07-02T11:14:26.464315+00:00",
+      "generated_at": "2026-07-02T11:44:51.902293+00:00",
       "rule_version": "pt-br-static-v1"
     },
     "contact.html": {
       "source_file": "contact.html",
-      "source_hash": "268071e33ae34618e5d68dc9b9e356946fd90c810dc0aca4eaa99888900d2719",
+      "source_hash": "fb674ebbd8caacc19e5b5c3276fa97c8346d4cc22ae36ae496b8d166eb1cef99",
       "output_file": "pt/contact.html",
-      "generated_at": "2026-07-02T11:14:26.475011+00:00",
+      "generated_at": "2026-07-02T11:44:51.915141+00:00",
       "rule_version": "pt-br-static-v1"
     },
     "cookies.html": {
@@ -67,16 +67,16 @@
     },
     "journal.html": {
       "source_file": "journal.html",
-      "source_hash": "b1dd8a71e418648e44af2f83222c0d14ff3f2ce4281ea50b60b65cdad2da5e80",
+      "source_hash": "34685f4bd5e366b6aaf6fc2f956a3406b14927f0690291b80714df3127e9bd5c",
       "output_file": "pt/journal.html",
-      "generated_at": "2026-07-02T11:14:26.503184+00:00",
+      "generated_at": "2026-07-02T11:44:51.925298+00:00",
       "rule_version": "pt-br-static-v1"
     },
     "laser.html": {
       "source_file": "laser.html",
-      "source_hash": "226daff700b0b635240da1385d7dd96f9124058f33d1bb988de8132c36b4d6c7",
+      "source_hash": "b3f2d2a1b157cee3ddd6d767c93d08a360c0c083e4a20dcd6d7e8ba2409d5a72",
       "output_file": "pt/laser.html",
-      "generated_at": "2026-07-02T11:14:26.515301+00:00",
+      "generated_at": "2026-07-02T11:44:51.939604+00:00",
       "rule_version": "pt-br-static-v1"
     },
     "legal.html": {
@@ -88,9 +88,9 @@
     },
     "mission.html": {
       "source_file": "mission.html",
-      "source_hash": "78fc9e1bdd72a1744e2eaaa7828c6dce59892a9fe0a82e087bbff2f18816d8ed",
+      "source_hash": "5319c4c4ccef9b3b53c7aee2de339cb3067ee2c6864038a46943cb72b669d59f",
       "output_file": "pt/mission.html",
-      "generated_at": "2026-07-02T11:14:26.533048+00:00",
+      "generated_at": "2026-07-02T11:44:51.949870+00:00",
       "rule_version": "pt-br-static-v1"
     },
     "privacy.html": {
@@ -102,44 +102,44 @@
     },
     "results.html": {
       "source_file": "results.html",
-      "source_hash": "e70483e9ad1a19e2e7e0b683b3d4ff6e4cbe481acba912dd061bbc436799fa2a",
+      "source_hash": "88145fd1701226c9601393b40dd8eed6981f2717e5345b393a5e777c52555cc0",
       "output_file": "pt/results.html",
-      "generated_at": "2026-07-02T11:14:26.553354+00:00",
+      "generated_at": "2026-07-02T11:44:51.964463+00:00",
       "rule_version": "pt-br-static-v1"
     },
     "skin.html": {
       "source_file": "skin.html",
-      "source_hash": "ed54f56a1e5a58e92f1b580bb1bdfdd24d679042ef2223e252222656c8e449cd",
+      "source_hash": "a3bacd49e762803b449f806a439152ceef2985d03a64eaf4d98cddac5f259735",
       "output_file": "pt/skin.html",
-      "generated_at": "2026-07-02T11:14:26.565382+00:00",
+      "generated_at": "2026-07-02T11:44:51.976136+00:00",
       "rule_version": "pt-br-static-v1"
     },
     "testimonials.html": {
       "source_file": "testimonials.html",
-      "source_hash": "baf59d863e977897da2faae557abd171ed2ffba9c7f337be03cc93fedfaa36cf",
+      "source_hash": "a1976bae48f665cd12e7907ce485a981ed0643b52bedeccb6e25c92562942a3d",
       "output_file": "pt/testimonials.html",
-      "generated_at": "2026-07-02T11:14:26.574991+00:00",
+      "generated_at": "2026-07-02T11:44:51.985873+00:00",
       "rule_version": "pt-br-static-v1"
     },
     "thank-you.html": {
       "source_file": "thank-you.html",
-      "source_hash": "3aee099882e42e71328bf06258145fd1f91aff9d1038a51d93d5df4e2e12805e",
+      "source_hash": "12b160a4cae9cdb991b2dc4e0bc1459642cf9ec282ad81a69be3eb00f45285a7",
       "output_file": "pt/thank-you.html",
-      "generated_at": "2026-07-02T11:14:26.582467+00:00",
+      "generated_at": "2026-07-02T11:44:51.993794+00:00",
       "rule_version": "pt-br-static-v1"
     },
     "values.html": {
       "source_file": "values.html",
-      "source_hash": "2b1f41874d4fbb34e4671d65ae10d9df016dce3290c3108713fb762612a3b382",
+      "source_hash": "b8ae55744a2361e3841b1104629b4f8692ab060c6812f17446781b0854daa575",
       "output_file": "pt/values.html",
-      "generated_at": "2026-07-02T11:14:26.593537+00:00",
+      "generated_at": "2026-07-02T11:44:52.004557+00:00",
       "rule_version": "pt-br-static-v1"
     },
     "404.html": {
       "source_file": "404.html",
-      "source_hash": "5a8aa1f3f402495e759d746b151f64524cc0cc0c42bf864a4d6418bf9dad7187",
+      "source_hash": "5c6c276b4526511f5bce1faef0b89925406e186b96a8df6e970308cc02268f8b",
       "output_file": "pt/404.html",
-      "generated_at": "2026-07-02T11:14:26.600650+00:00",
+      "generated_at": "2026-07-02T11:44:52.012492+00:00",
       "rule_version": "pt-br-static-v1"
     }
   }

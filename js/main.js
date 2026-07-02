@@ -15,9 +15,10 @@
 
   const initFloatingTools = () => {
     if (floatingToolsReady) return;
+    const buttons = document.querySelectorAll("[data-back-to-top]");
+    if (!buttons.length) return;
     floatingToolsReady = true;
 
-    const buttons = document.querySelectorAll("[data-back-to-top]");
     const update = () => {
       const visible = window.scrollY > Math.min(520, Math.max(220, window.innerHeight * 0.42));
       buttons.forEach((button) => {
@@ -39,5 +40,10 @@
   };
 
   document.addEventListener("sofiati:partials-loaded", initFloatingTools);
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initFloatingTools, { once: true });
+  } else {
+    initFloatingTools();
+  }
   document.dispatchEvent(new CustomEvent("sofiati:foundation-ready"));
 })();
