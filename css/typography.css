@@ -81,7 +81,7 @@ small {
 }
 
 .hero__title {
-  max-width: 12ch;
+  max-width: 13.25ch;
   color: var(--sf-botanical);
   font-size: var(--sf-hero-title);
   line-height: var(--sf-line-height-tight);

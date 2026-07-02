@@ -24,15 +24,15 @@
 .sf-cookie-banner {
   position: fixed;
   z-index: var(--sf-z-cookie);
-  left: 50%;
+  left: 1rem;
   bottom: 1rem;
-  width: min(690px, calc(100vw - 2rem));
+  width: min(430px, calc(100vw - 2rem));
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: 1fr;
   gap: var(--sf-space-3);
   align-items: center;
   padding: var(--sf-space-3);
-  transform: translateX(-50%);
+  transform: none;
   border: 1px solid var(--sf-line);
   border-radius: var(--sf-card-radius);
   background: color-mix(in srgb, var(--sf-ivory-soft), white 10%);
@@ -85,7 +85,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: var(--sf-space-2);
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .sf-cookie-actions button,
@@ -155,20 +155,35 @@ body.public-menu-locked .sf-floating-tools {
 
 @media (max-width: 720px) {
   .sf-cookie-banner {
-    left: 0.75rem;
-    right: 0.75rem;
-    bottom: 0.75rem;
+    left: 0.5rem;
+    right: 0.5rem;
+    bottom: 0.5rem;
     width: auto;
     transform: none;
     grid-template-columns: 1fr;
+    gap: var(--sf-space-2);
+    padding: var(--sf-space-3);
   }
 
   .sf-cookie-preferences {
     grid-template-columns: 1fr;
   }
 
+  .sf-cookie-copy p:not(.sf-cookie-title) {
+    font-size: 0.8125rem;
+    line-height: 1.32;
+  }
+
   .sf-cookie-actions {
+    flex-wrap: wrap;
     justify-content: flex-start;
+  }
+
+  .sf-cookie-actions button,
+  .sf-cookie-actions a {
+    min-height: 2.2rem;
+    padding: 0.48rem 0.68rem;
+    font-size: 0.8125rem;
   }
 
   .sf-floating-tools {
@@ -177,6 +192,6 @@ body.public-menu-locked .sf-floating-tools {
   }
 
   body.public-cookie-visible .sf-floating-tools {
-    bottom: 8rem;
+    bottom: 7.5rem;
   }
 }

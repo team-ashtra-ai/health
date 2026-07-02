@@ -187,7 +187,8 @@ html[lang="pt-BR"] [data-i18n="pt"] {
   position: relative;
   overflow: hidden;
   background:
-    linear-gradient(135deg, color-mix(in srgb, var(--sf-sage), white 30%), var(--sf-ivory) 54%, var(--sf-ivory-soft));
+    radial-gradient(circle at 72% 28%, color-mix(in srgb, var(--sf-white), transparent 18%), transparent 24rem),
+    linear-gradient(135deg, color-mix(in srgb, var(--sf-sage), white 25%), var(--sf-ivory) 52%, var(--sf-ivory-soft));
   color: var(--sf-botanical);
 }
 
@@ -214,6 +215,23 @@ html[lang="pt-BR"] [data-i18n="pt"] {
   transform: rotate(-15deg);
 }
 
+.hero__inner {
+  position: relative;
+}
+
+.hero__content {
+  padding-block: clamp(1rem, 2vw, 2rem);
+}
+
+.hero__content::before {
+  content: "";
+  display: block;
+  width: clamp(3.5rem, 7vw, 6rem);
+  height: 1px;
+  margin-bottom: var(--sf-space-5);
+  background: color-mix(in srgb, var(--sf-gold), var(--sf-bronze) 20%);
+}
+
 .hero--utility {
   min-height: var(--sf-hero-min-utility);
 }
@@ -229,12 +247,24 @@ html[lang="pt-BR"] [data-i18n="pt"] {
   display: grid;
   align-items: end;
   justify-items: center;
-  overflow: hidden;
-  border: 1px solid color-mix(in srgb, var(--sf-botanical), transparent 78%);
-  border-radius: 44% 44% var(--sf-radius-lg) var(--sf-radius-lg);
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.hero__media::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  inset: 5% 0 0 9%;
+  border: 1px solid color-mix(in srgb, var(--sf-botanical), transparent 80%);
+  border-radius: 48% 48% var(--sf-radius-xl) var(--sf-radius-xl);
   background:
-    linear-gradient(180deg, color-mix(in srgb, var(--sf-white), var(--sf-gold-pale) 12%), color-mix(in srgb, var(--sf-sage), white 36%));
-  box-shadow: var(--sf-shadow-lift);
+    radial-gradient(circle at 74% 22%, color-mix(in srgb, var(--sf-gold-pale), transparent 36%), transparent 12rem),
+    linear-gradient(180deg, color-mix(in srgb, var(--sf-white), transparent 8%), color-mix(in srgb, var(--sf-sage), white 38%));
+  box-shadow: var(--sf-shadow-editorial);
 }
 
 .hero__portrait::before,
@@ -242,7 +272,8 @@ html[lang="pt-BR"] [data-i18n="pt"] {
   content: "";
   position: absolute;
   pointer-events: none;
-  border: 1px solid color-mix(in srgb, var(--sf-gold), transparent 52%);
+  z-index: 2;
+  border: 1px solid color-mix(in srgb, var(--sf-gold), transparent 56%);
   border-radius: 50%;
 }
 
@@ -262,11 +293,12 @@ html[lang="pt-BR"] [data-i18n="pt"] {
 
 .hero__portrait img {
   position: relative;
-  z-index: 1;
-  width: min(100%, var(--sf-portrait-max-width));
+  z-index: 3;
+  width: min(100%, calc(var(--sf-portrait-max-width) + 2rem));
   max-height: var(--sf-portrait-max-height);
   object-fit: contain;
   object-position: center bottom;
+  filter: drop-shadow(0 20px 34px rgba(24, 35, 28, 0.12));
 }
 
 .hero__botanical-mark {
@@ -320,6 +352,78 @@ html[lang="pt-BR"] [data-i18n="pt"] {
   background: var(--sf-gold);
 }
 
+body[data-page="home"] .hero--authority {
+  background:
+    radial-gradient(circle at 78% 26%, color-mix(in srgb, var(--sf-gold-pale), transparent 45%), transparent 25rem),
+    linear-gradient(90deg, color-mix(in srgb, var(--sf-sage), white 18%) 0 52%, var(--sf-ivory-soft) 52% 100%);
+}
+
+body[data-page="about"] .hero--authority,
+body[data-page="mission"] .hero--authority,
+body[data-page="values"] .hero--authority,
+body[data-page="testimonials"] .hero--authority {
+  background:
+    radial-gradient(circle at 20% 85%, color-mix(in srgb, var(--sf-gold-pale), transparent 60%), transparent 20rem),
+    linear-gradient(135deg, var(--sf-ivory-soft), color-mix(in srgb, var(--sf-sage), white 46%));
+}
+
+body[data-page="care"] .hero--authority,
+body[data-page="laser"] .hero--authority,
+body[data-page="skin"] .hero--authority,
+body[data-page="results"] .hero--authority {
+  background:
+    linear-gradient(90deg, color-mix(in srgb, var(--sf-sage-deep), white 42%) 0 52%, var(--sf-ivory) 52% 100%);
+}
+
+body[data-page="consultation"] .hero--authority,
+body[data-page="contact"] .hero--authority,
+body[data-page="faq"] .hero--authority {
+  background:
+    radial-gradient(circle at 82% 18%, color-mix(in srgb, var(--sf-white), transparent 15%), transparent 22rem),
+    linear-gradient(135deg, color-mix(in srgb, var(--sf-sage), white 34%), var(--sf-ivory-soft));
+}
+
+body[data-page="journal"] .hero--authority,
+body[data-page="blog"] .hero--authority {
+  background:
+    linear-gradient(90deg, var(--sf-ivory-soft) 0 58%, color-mix(in srgb, var(--sf-sage), white 52%) 58% 100%);
+}
+
+body[data-page="privacy"] .hero--authority,
+body[data-page="cookies"] .hero--authority,
+body[data-page="accessibility"] .hero--authority,
+body[data-page="legal"] .hero--authority,
+body[data-page="thank-you"] .hero--authority,
+body[data-page="not-found"] .hero--authority {
+  background:
+    linear-gradient(135deg, var(--sf-ivory-soft), var(--sf-ivory));
+}
+
+body[data-page="home"] .hero__media::before,
+body[data-page="consultation"] .hero__media::before,
+body[data-page="contact"] .hero__media::before {
+  inset: 0 0 0 4%;
+  border-radius: 52% 48% var(--sf-radius-xl) var(--sf-radius-xl);
+}
+
+body[data-page="laser"] .hero__media::before,
+body[data-page="skin"] .hero__media::before,
+body[data-page="results"] .hero__media::before {
+  border-radius: var(--sf-radius-xl) 48% var(--sf-radius-xl) 48%;
+}
+
+body[data-page="journal"] .hero__media::before,
+body[data-page="blog"] .hero__media::before {
+  border-radius: 42% var(--sf-radius-xl) 42% var(--sf-radius-xl);
+}
+
+body[data-page="privacy"] .hero__media::before,
+body[data-page="cookies"] .hero__media::before,
+body[data-page="accessibility"] .hero__media::before,
+body[data-page="legal"] .hero__media::before {
+  box-shadow: 0 18px 50px rgba(24, 35, 28, 0.08);
+}
+
 @media (max-width: 1024px) {
   .sf-public-header {
     padding: var(--sf-space-2) 0.75rem;
@@ -367,6 +471,14 @@ html[lang="pt-BR"] [data-i18n="pt"] {
   }
 }
 
+@media (max-width: 760px) {
+  body[data-page] .hero--authority {
+    background:
+      radial-gradient(circle at 84% 22%, color-mix(in srgb, var(--sf-gold-pale), transparent 64%), transparent 14rem),
+      linear-gradient(180deg, color-mix(in srgb, var(--sf-sage), white 32%), var(--sf-ivory-soft));
+  }
+}
+
 @media (max-width: 520px) {
   .sf-header-shell {
     border-radius: var(--sf-radius-md);
@@ -392,6 +504,7 @@ html[lang="pt-BR"] [data-i18n="pt"] {
 
   .hero--authority::after,
   .hero__botanical-mark,
+  .hero__media::before,
   .hero__portrait::before,
   .hero__portrait::after {
     display: none;
@@ -404,7 +517,10 @@ html[lang="pt-BR"] [data-i18n="pt"] {
   .hero__portrait {
     width: var(--sf-portrait-mobile-width);
     min-height: var(--sf-portrait-mobile-height);
+    overflow: hidden;
+    border: 1px solid color-mix(in srgb, var(--sf-botanical), transparent 82%);
     border-radius: 42% 42% var(--sf-radius-md) var(--sf-radius-md);
+    background: linear-gradient(180deg, color-mix(in srgb, var(--sf-white), transparent 10%), color-mix(in srgb, var(--sf-sage), white 38%));
     box-shadow: 0 16px 38px rgba(24, 35, 28, 0.12);
   }
 

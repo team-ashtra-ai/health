@@ -2,7 +2,9 @@
   position: relative;
   overflow: hidden;
   padding: clamp(3.5rem, 7vw, 6.25rem) clamp(1rem, 4vw, 4rem);
-  background: linear-gradient(135deg, var(--sf-ivory-soft), var(--sf-ivory));
+  background:
+    radial-gradient(circle at 86% 22%, color-mix(in srgb, var(--sf-gold-pale), transparent 56%), transparent 20rem),
+    linear-gradient(135deg, var(--sf-ivory-soft), var(--sf-ivory));
 }
 
 .sf-prefooter::before {
@@ -19,7 +21,7 @@
 
 .sf-prefooter-inner {
   position: relative;
-  width: min(100%, 820px);
+  width: min(100%, 760px);
   margin-inline: auto;
   text-align: center;
 }
@@ -45,7 +47,9 @@
 .sf-public-footer {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(145deg, var(--sf-botanical), var(--sf-botanical-2));
+  background:
+    radial-gradient(circle at 12% 82%, rgba(162, 174, 159, 0.12), transparent 22rem),
+    linear-gradient(145deg, var(--sf-botanical), var(--sf-botanical-2));
   color: var(--sf-ivory-soft);
 }
 
@@ -75,7 +79,7 @@
 }
 
 .sf-footer-logo {
-  width: min(var(--sf-footer-logo-max), 68vw);
+  width: min(11.5rem, 62vw);
 }
 
 .sf-footer-brand p {

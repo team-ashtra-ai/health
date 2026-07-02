@@ -32,6 +32,37 @@
   padding: clamp(1rem, 2vw, 1.5rem);
 }
 
+.c01-process-list {
+  counter-reset: sf-process;
+}
+
+.c01-process-list li {
+  position: relative;
+  padding-left: 2.35rem;
+}
+
+.c01-process-list li + li {
+  margin-top: var(--sf-space-3);
+}
+
+.c01-process-list li::before {
+  counter-increment: sf-process;
+  content: counter(sf-process, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 0.08rem;
+  width: 1.55rem;
+  height: 1.55rem;
+  display: grid;
+  place-items: center;
+  border: 1px solid color-mix(in srgb, var(--sf-gold), transparent 48%);
+  border-radius: 50%;
+  color: var(--sf-bronze);
+  font-size: 0.66rem;
+  font-weight: 850;
+  line-height: 1;
+}
+
 .c01-process-list li,
 .c01-hero-proof li,
 .c01-route-list li {
@@ -112,6 +143,8 @@
   border-radius: var(--sf-radius-lg);
   background:
     linear-gradient(135deg, color-mix(in srgb, var(--sf-sage), white 44%), var(--sf-ivory-soft));
+  background-position: center;
+  background-size: cover;
 }
 
 .c01-visual-panel::before,
@@ -121,6 +154,101 @@
   inset: 14%;
   border: 1px solid color-mix(in srgb, var(--sf-botanical), transparent 76%);
   border-radius: 46% 54% 43% 57%;
+}
+
+.c01-section--04 .c01-visual-panel,
+.c01-section--07 .c01-visual-panel {
+  min-height: clamp(19rem, 34vw, 32rem);
+}
+
+.c01-section--04 .c01-visual-panel::before,
+.c01-section--04 .c01-visual-panel::after,
+.c01-section--07 .c01-visual-panel::before,
+.c01-section--07 .c01-visual-panel::after {
+  opacity: 0.35;
+}
+
+body[data-page="home"] .c01-section--04 .c01-visual-panel,
+body[data-page="journal"] .c01-section--04 .c01-visual-panel,
+body[data-page="blog"] .c01-section--04 .c01-visual-panel {
+  background-image:
+    linear-gradient(90deg, rgba(243, 239, 229, 0.18), rgba(24, 35, 28, 0.18)),
+    url("../assets/photos/IMG_1539.jpg.jpeg");
+  background-position: center 40%;
+}
+
+body[data-page="about"] .c01-section--04 .c01-visual-panel,
+body[data-page="mission"] .c01-section--04 .c01-visual-panel,
+body[data-page="values"] .c01-section--04 .c01-visual-panel,
+body[data-page="testimonials"] .c01-section--04 .c01-visual-panel {
+  background-image:
+    linear-gradient(90deg, rgba(251, 248, 240, 0.28), rgba(24, 35, 28, 0.2)),
+    url("../assets/photos/IMG_1474.jpg.jpeg");
+  background-position: center 42%;
+}
+
+body[data-page="care"] .c01-section--04 .c01-visual-panel,
+body[data-page="laser"] .c01-section--04 .c01-visual-panel,
+body[data-page="skin"] .c01-section--04 .c01-visual-panel,
+body[data-page="results"] .c01-section--04 .c01-visual-panel,
+body[data-page="consultation"] .c01-section--04 .c01-visual-panel,
+body[data-page="contact"] .c01-section--04 .c01-visual-panel,
+body[data-page="faq"] .c01-section--04 .c01-visual-panel {
+  background-image:
+    linear-gradient(90deg, rgba(243, 239, 229, 0.14), rgba(24, 35, 28, 0.24)),
+    url("../assets/photos/IMG_1449.jpg.jpeg");
+  background-position: center 32%;
+}
+
+body[data-page="privacy"] .c01-section--04 .c01-visual-panel,
+body[data-page="cookies"] .c01-section--04 .c01-visual-panel,
+body[data-page="accessibility"] .c01-section--04 .c01-visual-panel,
+body[data-page="legal"] .c01-section--04 .c01-visual-panel,
+body[data-page="thank-you"] .c01-section--04 .c01-visual-panel,
+body[data-page="not-found"] .c01-section--04 .c01-visual-panel {
+  background-image:
+    linear-gradient(135deg, rgba(251, 248, 240, 0.72), rgba(162, 174, 159, 0.34)),
+    url("../assets/brand/sofiati-logo-monogram-transparent.webp");
+  background-size: cover, 44%;
+  background-repeat: no-repeat;
+}
+
+body[data-page-group="gateway"] .c01-section--07 .c01-visual-panel,
+body[data-page-group="conversion"] .c01-section--07 .c01-visual-panel {
+  background-image:
+    linear-gradient(90deg, rgba(251, 248, 240, 0.22), rgba(24, 35, 28, 0.22)),
+    url("../assets/photos/IMG_1474.jpg.jpeg");
+  background-position: center 45%;
+}
+
+body[data-page-group="trust"] .c01-section--07 .c01-visual-panel {
+  background-image:
+    linear-gradient(90deg, rgba(251, 248, 240, 0.26), rgba(24, 35, 28, 0.2)),
+    url("../assets/photos/IMG_1539.jpg.jpeg");
+  background-position: center 40%;
+}
+
+body[data-page-group="care"] .c01-section--07 .c01-visual-panel {
+  background-image:
+    linear-gradient(90deg, rgba(243, 239, 229, 0.14), rgba(24, 35, 28, 0.26)),
+    url("../assets/photos/IMG_1449.jpg.jpeg");
+  background-position: center 28%;
+}
+
+body[data-page-group="editorial"] .c01-section--07 .c01-visual-panel {
+  background-image:
+    linear-gradient(90deg, rgba(251, 248, 240, 0.18), rgba(24, 35, 28, 0.2)),
+    url("../assets/photos/IMG_1539.jpg.jpeg");
+  background-position: center 36%;
+}
+
+body[data-page-group="support"] .c01-section--07 .c01-visual-panel {
+  background-image:
+    linear-gradient(135deg, rgba(251, 248, 240, 0.78), rgba(121, 138, 128, 0.3)),
+    url("../assets/brand/sofiati-logo-monogram-transparent.webp");
+  background-size: cover, 38%;
+  background-position: center, center;
+  background-repeat: no-repeat;
 }
 
 .c01-visual-panel::after {

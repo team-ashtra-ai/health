@@ -75,6 +75,7 @@
 
   --sf-shadow-soft: 0 14px 38px rgba(24, 35, 28, 0.08);
   --sf-shadow-lift: 0 22px 64px rgba(24, 35, 28, 0.13);
+  --sf-shadow-editorial: 0 30px 90px rgba(24, 35, 28, 0.16);
   --sf-shadow-dark: 0 34px 110px rgba(0, 0, 0, 0.22);
 
   --sf-button-height: 3rem;
@@ -93,15 +94,15 @@
   --sf-mobile-secondary-link: clamp(1rem, 3.4vw, 1.125rem);
   --sf-mobile-legal-link: clamp(0.8125rem, 2.5vw, 0.875rem);
 
-  --sf-hero-min-main: clamp(38rem, 82vh, 54rem);
-  --sf-hero-min-utility: clamp(31rem, 68vh, 42rem);
+  --sf-hero-min-main: clamp(40rem, 86vh, 58rem);
+  --sf-hero-min-utility: clamp(28rem, 60vh, 38rem);
   --sf-hero-content: 38rem;
   --sf-hero-media: 33rem;
   --sf-hero-title: var(--sf-type-hero);
   --sf-hero-title-utility: var(--sf-type-hero-utility);
   --sf-hero-summary: var(--sf-type-body-lg);
   --sf-portrait-max-width: 33rem;
-  --sf-portrait-max-height: clamp(26rem, 58vh, 40rem);
+  --sf-portrait-max-height: clamp(30rem, 66vh, 45rem);
   --sf-portrait-mobile-width: min(100%, 19rem);
   --sf-portrait-mobile-height: clamp(16rem, 54vw, 22rem);
 
