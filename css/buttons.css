@@ -1,3 +1,126 @@
-/* buttons.css
-   Reserved for buttons rules as the static Sofiati site grows.
-   Current production styling is preserved in pages.css and sofiati-brand-foundation.css. */
+.c01-action,
+.c01-text-link,
+.sf-button,
+.sf-header-cta,
+.sf-mobile-primary,
+.sf-footer-cta,
+.sf-cookie-actions button,
+.sf-cookie-actions a,
+.sf-floating-tools a,
+.sf-floating-tools button {
+  min-height: var(--sf-tap-target);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sf-space-2);
+  border-radius: var(--sf-radius-pill);
+  font-weight: 800;
+  line-height: 1.12;
+  text-decoration: none;
+  transition:
+    background-color var(--sf-transition),
+    border-color var(--sf-transition),
+    color var(--sf-transition),
+    opacity var(--sf-transition),
+    transform var(--sf-transition);
+}
+
+.c01-action,
+.sf-button,
+.sf-mobile-primary,
+.sf-footer-cta {
+  padding: 0.78rem 1.15rem;
+  border: 1px solid color-mix(in srgb, var(--sf-botanical), transparent 72%);
+  background: var(--sf-botanical);
+  color: var(--sf-ivory-soft);
+  box-shadow: 0 10px 24px rgba(24, 35, 28, 0.1);
+}
+
+.c01-text-link,
+.sf-button--quiet,
+.c01-action--quiet {
+  padding: 0.76rem 1rem;
+  border: 1px solid var(--sf-line);
+  background: color-mix(in srgb, var(--sf-white), transparent 22%);
+  color: var(--sf-botanical);
+  box-shadow: none;
+}
+
+.sf-button--light {
+  border-color: color-mix(in srgb, var(--sf-gold), transparent 36%);
+  background: var(--sf-ivory-soft);
+  color: var(--sf-botanical);
+}
+
+.c01-action--gold-mark {
+  border-color: color-mix(in srgb, var(--sf-bronze), transparent 45%);
+  background: color-mix(in srgb, var(--sf-botanical), var(--sf-bronze) 18%);
+}
+
+.c01-action--dark-anchor {
+  border-color: var(--sf-botanical);
+  background: var(--sf-botanical);
+}
+
+.c01-action--minimal-arrow,
+.c01-action--single-rule {
+  background: transparent;
+  color: var(--sf-botanical);
+  box-shadow: none;
+}
+
+.c01-tone--dark .c01-action--minimal-arrow,
+.c01-tone--dark .c01-action--single-rule,
+.c01-tone--dark .c01-action--quiet,
+.c01-tone--dark .c01-text-link {
+  border-color: rgba(253, 227, 176, 0.22);
+  color: var(--sf-ivory-soft);
+}
+
+.c01-action:hover,
+.c01-text-link:hover,
+.sf-button:hover,
+.sf-header-cta:hover,
+.sf-mobile-primary:hover,
+.sf-footer-cta:hover {
+  transform: translateY(-1px);
+}
+
+.c01-action:focus-visible,
+.c01-text-link:focus-visible,
+.sf-button:focus-visible,
+.sf-header-cta:focus-visible,
+.sf-mobile-primary:focus-visible,
+.sf-footer-cta:focus-visible,
+.sf-menu-button:focus-visible,
+.sf-mobile-close:focus-visible {
+  outline: 2px solid var(--sf-gold);
+  outline-offset: 4px;
+  box-shadow: var(--sf-focus-ring);
+}
+
+.hero__actions .c01-action,
+.hero__actions .c01-text-link {
+  min-height: var(--sf-button-height);
+  padding-inline: 1.2rem;
+}
+
+.hero__actions .c01-action {
+  border-color: var(--sf-botanical);
+  background: var(--sf-botanical);
+  color: var(--sf-ivory-soft);
+}
+
+.hero__actions .c01-text-link {
+  border-color: color-mix(in srgb, var(--sf-botanical), transparent 78%);
+  background: color-mix(in srgb, var(--sf-white), transparent 18%);
+}
+
+@media (max-width: 520px) {
+  .hero__actions .c01-action,
+  .hero__actions .c01-text-link,
+  .c01-contact-actions .c01-action,
+  .c01-reading-links .c01-text-link {
+    width: 100%;
+  }
+}

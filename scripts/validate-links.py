@@ -11,7 +11,7 @@ from urllib.parse import urlparse
 
 
 ROOT = Path(__file__).resolve().parents[1]
-HTML_FILES = sorted(ROOT.glob("*.html")) + sorted((ROOT / "partials").glob("*.html"))
+HTML_FILES = sorted(ROOT.glob("*.html")) + sorted((ROOT / "pt").glob("*.html")) + sorted((ROOT / "partials").glob("*.html"))
 TEXT_FILES = [*HTML_FILES, *sorted((ROOT / "css").glob("*.css")), *sorted((ROOT / "js").glob("*.js")), ROOT / "site.webmanifest"]
 ATTRS = {"href", "src", "srcset", "content"}
 SKIP_SCHEMES = {"http", "https", "mailto", "tel", "sms", "whatsapp"}

@@ -1,3 +1,182 @@
-/* utilities.css
-   Reserved for utilities rules as the static Sofiati site grows.
-   Current production styling is preserved in pages.css and sofiati-brand-foundation.css. */
+:focus-visible {
+  outline: 2px solid var(--sf-gold);
+  outline-offset: 3px;
+  box-shadow: var(--sf-focus-ring);
+}
+
+.skip-link {
+  position: fixed;
+  inset-block-start: 1rem;
+  inset-inline-start: 1rem;
+  z-index: 1000;
+  transform: translateY(-160%);
+  border-radius: var(--sf-radius-pill);
+  background: var(--sf-botanical);
+  color: var(--sf-ivory-soft);
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+.sf-cookie-banner {
+  position: fixed;
+  z-index: var(--sf-z-cookie);
+  left: 50%;
+  bottom: 1rem;
+  width: min(690px, calc(100vw - 2rem));
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: var(--sf-space-3);
+  align-items: center;
+  padding: var(--sf-space-3);
+  transform: translateX(-50%);
+  border: 1px solid var(--sf-line);
+  border-radius: var(--sf-card-radius);
+  background: color-mix(in srgb, var(--sf-ivory-soft), white 10%);
+  color: var(--sf-botanical);
+  box-shadow: var(--sf-shadow-lift);
+}
+
+.sf-cookie-banner p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.sf-cookie-title {
+  font-weight: 850;
+}
+
+.sf-cookie-preferences {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--sf-space-2);
+}
+
+.sf-cookie-preferences[hidden] {
+  display: none;
+}
+
+.sf-cookie-choice {
+  display: flex;
+  align-items: center;
+  gap: var(--sf-space-2);
+  min-height: 2.6rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--sf-line);
+  border-radius: var(--sf-card-radius);
+  background: var(--sf-white);
+  font-size: var(--sf-type-legal);
+  font-weight: 750;
+}
+
+.sf-cookie-choice input {
+  width: 1rem;
+  height: 1rem;
+  min-height: 1rem;
+  padding: 0;
+  accent-color: var(--sf-botanical);
+}
+
+.sf-cookie-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sf-space-2);
+  justify-content: flex-end;
+}
+
+.sf-cookie-actions button,
+.sf-cookie-actions a {
+  min-height: 2.3rem;
+  padding: 0.54rem 0.72rem;
+  border: 1px solid var(--sf-line);
+  border-radius: var(--sf-radius-pill);
+  background: var(--sf-botanical);
+  color: var(--sf-ivory-soft);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.sf-cookie-actions :is(a, [data-cookie-reject], [data-cookie-customize]) {
+  background: transparent;
+  color: var(--sf-botanical);
+}
+
+.sf-cookie-banner.is-hidden {
+  display: none;
+}
+
+.sf-floating-tools {
+  position: fixed;
+  right: max(1rem, calc((100vw - var(--sf-content-max)) / 2));
+  bottom: 1rem;
+  z-index: var(--sf-z-floating);
+  display: grid;
+  gap: var(--sf-space-2);
+}
+
+.sf-floating-tools a,
+.sf-floating-tools button {
+  width: 3rem;
+  min-width: 3rem;
+  height: 3rem;
+  border: 1px solid color-mix(in srgb, var(--sf-botanical), transparent 76%);
+  background: color-mix(in srgb, var(--sf-ivory-soft), white 8%);
+  color: var(--sf-botanical);
+  box-shadow: var(--sf-shadow-soft);
+}
+
+.sf-floating-tools svg {
+  width: 1.22rem;
+  height: 1.22rem;
+  fill: currentColor;
+}
+
+.sf-back-to-top {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(0.5rem);
+}
+
+.sf-back-to-top.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+body.public-menu-locked .sf-cookie-banner,
+body.public-menu-locked .sf-floating-tools {
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (max-width: 720px) {
+  .sf-cookie-banner {
+    left: 0.75rem;
+    right: 0.75rem;
+    bottom: 0.75rem;
+    width: auto;
+    transform: none;
+    grid-template-columns: 1fr;
+  }
+
+  .sf-cookie-preferences {
+    grid-template-columns: 1fr;
+  }
+
+  .sf-cookie-actions {
+    justify-content: flex-start;
+  }
+
+  .sf-floating-tools {
+    right: 0.85rem;
+    bottom: 0.85rem;
+  }
+
+  body.public-cookie-visible .sf-floating-tools {
+    bottom: 8rem;
+  }
+}

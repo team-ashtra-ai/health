@@ -1,22 +1,231 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.sofiati.com/</loc></url>
-  <url><loc>https://www.sofiati.com/about.html</loc></url>
-  <url><loc>https://www.sofiati.com/accessibility.html</loc></url>
-  <url><loc>https://www.sofiati.com/blog.html</loc></url>
-  <url><loc>https://www.sofiati.com/care.html</loc></url>
-  <url><loc>https://www.sofiati.com/consultation.html</loc></url>
-  <url><loc>https://www.sofiati.com/contact.html</loc></url>
-  <url><loc>https://www.sofiati.com/cookies.html</loc></url>
-  <url><loc>https://www.sofiati.com/faq.html</loc></url>
-  <url><loc>https://www.sofiati.com/journal.html</loc></url>
-  <url><loc>https://www.sofiati.com/laser.html</loc></url>
-  <url><loc>https://www.sofiati.com/legal.html</loc></url>
-  <url><loc>https://www.sofiati.com/mission.html</loc></url>
-  <url><loc>https://www.sofiati.com/privacy.html</loc></url>
-  <url><loc>https://www.sofiati.com/results.html</loc></url>
-  <url><loc>https://www.sofiati.com/skin.html</loc></url>
-  <url><loc>https://www.sofiati.com/testimonials.html</loc></url>
-  <url><loc>https://www.sofiati.com/thank-you.html</loc></url>
-  <url><loc>https://www.sofiati.com/values.html</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.sofiati.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/pt/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/about.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/about.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/about.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/pt/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/about.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/about.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/about.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/accessibility.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/accessibility.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/accessibility.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/accessibility.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/pt/accessibility.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/accessibility.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/accessibility.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/accessibility.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/blog.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/blog.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/blog.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/pt/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/blog.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/blog.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/blog.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/care.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/care.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/care.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/care.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/pt/care.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/care.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/care.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/care.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/consultation.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/consultation.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/consultation.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/consultation.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/pt/consultation.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/consultation.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/consultation.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/consultation.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/contact.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/contact.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/pt/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/contact.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/contact.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/cookies.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/cookies.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/cookies.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/cookies.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/pt/cookies.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/cookies.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/cookies.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/cookies.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/faq.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/faq.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/faq.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/pt/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/faq.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/faq.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/faq.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/journal.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/journal.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/journal.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/journal.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/pt/journal.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/journal.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/journal.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/journal.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/laser.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/laser.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/laser.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/laser.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/pt/laser.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/laser.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/laser.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/laser.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/legal.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/legal.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/legal.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/legal.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/pt/legal.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/legal.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/legal.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/legal.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/mission.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/mission.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/mission.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/mission.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/pt/mission.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/mission.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/mission.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/mission.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/privacy.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/pt/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/privacy.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/results.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/results.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/results.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/results.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/pt/results.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/results.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/results.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/results.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/skin.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/skin.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/skin.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/skin.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/pt/skin.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/skin.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/skin.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/skin.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/testimonials.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/testimonials.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/testimonials.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/testimonials.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/pt/testimonials.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/testimonials.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/testimonials.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/testimonials.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/thank-you.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/thank-you.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/thank-you.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/thank-you.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/pt/thank-you.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/thank-you.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/thank-you.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/thank-you.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/values.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/values.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/values.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/values.html" />
+  </url>
+  <url>
+    <loc>https://www.sofiati.com/pt/values.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sofiati.com/values.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sofiati.com/pt/values.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sofiati.com/values.html" />
+  </url>
 </urlset>

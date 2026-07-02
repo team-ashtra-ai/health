@@ -1,3 +1,163 @@
-/* cards.css
-   Reserved for cards rules as the static Sofiati site grows.
-   Current production styling is preserved in pages.css and sofiati-brand-foundation.css. */
+.c01-hero-proof,
+.c01-hero-routes,
+.c01-section-note,
+.c01-route-list,
+.c01-process-list,
+.c01-proof-ledger,
+.c01-reading-links,
+.c01-contact-actions {
+  border: 1px solid var(--sf-line);
+  border-radius: var(--sf-card-radius);
+  background: color-mix(in srgb, var(--sf-white), transparent 16%);
+  box-shadow: var(--sf-shadow-soft);
+  backdrop-filter: blur(14px);
+}
+
+.c01-process-list,
+.c01-hero-proof,
+.c01-hero-routes,
+.c01-route-list {
+  list-style: none;
+  margin: 0;
+  padding: clamp(1rem, 2vw, 1.5rem);
+}
+
+.c01-process-list,
+.c01-reading-links,
+.c01-contact-actions,
+.c01-section-note {
+  display: grid;
+  gap: var(--sf-space-2);
+  align-self: stretch;
+  padding: clamp(1rem, 2vw, 1.5rem);
+}
+
+.c01-process-list li,
+.c01-hero-proof li,
+.c01-route-list li {
+  min-width: 0;
+}
+
+.c01-proof-ledger {
+  display: grid;
+  grid-template-columns: minmax(7rem, 0.35fr) minmax(0, 1fr);
+  gap: var(--sf-space-3) var(--sf-space-4);
+  padding: clamp(1rem, 2vw, 1.5rem);
+}
+
+.c01-proof-ledger dt {
+  color: var(--sf-bronze);
+  font-weight: 850;
+}
+
+.c01-proof-ledger dd {
+  margin: 0;
+}
+
+.c01-hero-proof {
+  display: grid;
+  gap: var(--sf-space-4);
+}
+
+.c01-hero-proof strong {
+  display: block;
+  color: var(--sf-botanical);
+  font-family: var(--sf-font-serif);
+  font-size: var(--sf-type-card-title);
+  font-weight: 500;
+  line-height: 1.18;
+}
+
+.c01-hero-proof span {
+  display: block;
+  margin-top: var(--sf-space-1);
+  color: var(--sf-muted);
+  font-size: var(--sf-type-legal);
+  line-height: 1.48;
+}
+
+.c01-hero-routes {
+  display: grid;
+  gap: var(--sf-space-1);
+}
+
+.c01-hero-routes a,
+.c01-reading-links a,
+.c01-route-list a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 2.875rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.c01-hero-routes a::after,
+.c01-reading-links a::after,
+.c01-route-list a::after {
+  content: "";
+  width: 0.46rem;
+  height: 0.46rem;
+  border-top: 1px solid currentColor;
+  border-right: 1px solid currentColor;
+  transform: rotate(45deg);
+  opacity: 0.55;
+}
+
+.c01-visual-panel {
+  min-height: clamp(16rem, 31vw, 26rem);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--sf-line);
+  border-radius: var(--sf-radius-lg);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--sf-sage), white 44%), var(--sf-ivory-soft));
+}
+
+.c01-visual-panel::before,
+.c01-visual-panel::after {
+  content: "";
+  position: absolute;
+  inset: 14%;
+  border: 1px solid color-mix(in srgb, var(--sf-botanical), transparent 76%);
+  border-radius: 46% 54% 43% 57%;
+}
+
+.c01-visual-panel::after {
+  inset: 34% 18% 18% 42%;
+  border-color: color-mix(in srgb, var(--sf-gold), transparent 34%);
+  transform: rotate(-18deg);
+}
+
+.c01-visual-panel span,
+.c01-visual-panel i,
+.c01-visual-panel b {
+  display: none;
+}
+
+.c01-portrait {
+  margin: 0;
+  min-height: clamp(20rem, 42vw, 36rem);
+  display: grid;
+  align-items: end;
+  justify-items: center;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--sf-botanical), transparent 78%);
+  border-radius: 42% 42% var(--sf-radius-lg) var(--sf-radius-lg);
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--sf-sage), white 34%), var(--sf-ivory-soft));
+  box-shadow: var(--sf-shadow-lift);
+}
+
+.c01-portrait img {
+  width: min(100%, 28rem);
+  max-height: clamp(20rem, 44vw, 36rem);
+  object-fit: contain;
+  object-position: center bottom;
+}
+
+@media (max-width: 700px) {
+  .c01-proof-ledger {
+    grid-template-columns: 1fr;
+  }
+}

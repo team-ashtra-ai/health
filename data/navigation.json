@@ -5,26 +5,21 @@
     { "label": "Care", "href": "care.html" },
     { "label": "Laser", "href": "laser.html" },
     { "label": "Skin", "href": "skin.html" },
-    { "label": "Results", "href": "results.html" },
-    { "label": "Journal", "href": "journal.html" },
-    { "label": "Contact", "href": "contact.html" }
+    { "label": "Results", "href": "results.html" }
   ],
-  "footer": [
-    "index.html",
-    "about.html",
-    "care.html",
-    "laser.html",
-    "skin.html",
-    "results.html",
-    "journal.html",
-    "contact.html",
-    "consultation.html",
-    "values.html",
-    "mission.html",
-    "testimonials.html",
-    "faq.html",
-    "privacy.html",
-    "cookies.html",
-    "accessibility.html"
+  "cta": { "label": "Contact", "href": "contact.html" },
+  "secondary": [
+    { "label": "Journal", "href": "journal.html" },
+    { "label": "FAQ", "href": "faq.html" },
+    { "label": "Consultation", "href": "consultation.html" },
+    { "label": "Values", "href": "values.html" },
+    { "label": "Mission", "href": "mission.html" },
+    { "label": "Testimonials", "href": "testimonials.html" }
+  ],
+  "support": [
+    { "label": "Privacy", "href": "privacy.html" },
+    { "label": "Cookies", "href": "cookies.html" },
+    { "label": "Accessibility", "href": "accessibility.html" },
+    { "label": "Legal", "href": "legal.html" }
   ]
 }

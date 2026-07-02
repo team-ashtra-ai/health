@@ -4,18 +4,13 @@
 from __future__ import annotations
 
 import json
-import re
 import sys
 from pathlib import Path
 
+from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
-PAGES = sorted(ROOT.glob("*.html"))
-
-
-def one(pattern: str, html: str) -> str | None:
-    match = re.search(pattern, html, re.S)
-    return match.group(1).strip() if match else None
+PAGES = sorted(ROOT.glob("*.html")) + sorted((ROOT / "pt").glob("*.html"))
 
 
 def main() -> int:
@@ -25,12 +20,16 @@ def main() -> int:
 
     for path in PAGES:
         html = path.read_text(encoding="utf-8")
-        rel = path.name
-        h1_count = len(re.findall(r"<h1\b", html))
-        title = one(r"<title>(.*?)</title>", html)
-        description = one(r'<meta name="description" content="([^"]+)"', html)
-        canonical = one(r'<link rel="canonical" href="([^"]+)"', html)
-        schema = one(r'<script type="application/ld\+json">(.*?)</script>', html)
+        soup = BeautifulSoup(html, "html.parser")
+        rel = str(path.relative_to(ROOT))
+        h1_count = len(soup.find_all("h1"))
+        title = soup.title.get_text(strip=True) if soup.title else None
+        description_tag = soup.find("meta", attrs={"name": "description"})
+        description = description_tag.get("content", "").strip() if description_tag else None
+        canonical_tag = soup.find("link", rel="canonical")
+        canonical = canonical_tag.get("href", "").strip() if canonical_tag else None
+        schema_tag = soup.find("script", attrs={"type": "application/ld+json"})
+        schema = schema_tag.string.strip() if schema_tag and schema_tag.string else None
 
         if h1_count != 1:
             failures.append(f"{rel}: expected exactly one h1, found {h1_count}")
@@ -48,10 +47,13 @@ def main() -> int:
             descriptions[description] = rel
         if not canonical:
             failures.append(f"{rel}: missing canonical URL")
+        for hreflang in ("en", "pt-BR", "x-default"):
+            if not soup.find("link", rel="alternate", hreflang=hreflang):
+                failures.append(f"{rel}: missing hreflang {hreflang}")
         for required in ("og:title", "og:description", "og:image", "og:url"):
-            if f'property="{required}"' not in html:
+            if not soup.find("meta", property=required):
                 failures.append(f"{rel}: missing {required}")
-        if 'name="twitter:card"' not in html or 'name="twitter:image"' not in html:
+        if not soup.find("meta", attrs={"name": "twitter:card"}) or not soup.find("meta", attrs={"name": "twitter:image"}):
             failures.append(f"{rel}: missing Twitter card metadata")
         if not schema:
             failures.append(f"{rel}: missing JSON-LD schema")

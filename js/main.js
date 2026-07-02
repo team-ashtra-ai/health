@@ -11,7 +11,12 @@
     readyAt: new Date().toISOString(),
   };
 
+  let floatingToolsReady = false;
+
   const initFloatingTools = () => {
+    if (floatingToolsReady) return;
+    floatingToolsReady = true;
+
     const buttons = document.querySelectorAll("[data-back-to-top]");
     const update = () => {
       const visible = window.scrollY > Math.min(520, Math.max(220, window.innerHeight * 0.42));

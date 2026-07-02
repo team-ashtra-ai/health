@@ -1,3 +1,115 @@
-/* layout.css
-   Reserved for layout rules as the static Sofiati site grows.
-   Current production styling is preserved in pages.css and sofiati-brand-foundation.css. */
+[data-sofiati-partial] {
+  display: contents;
+}
+
+[data-sofiati-partial]:not([data-partial-loaded="true"]) {
+  min-height: 0;
+}
+
+.c01-main,
+main {
+  isolation: isolate;
+}
+
+:target {
+  scroll-margin-top: var(--sf-scroll-offset);
+}
+
+.c01-body {
+  min-width: 320px;
+  background:
+    linear-gradient(180deg, var(--sf-ivory-soft), var(--sf-ivory) 42%, color-mix(in srgb, var(--sf-ivory), var(--sf-sage) 9%));
+}
+
+.c01-main {
+  overflow: clip;
+}
+
+.sf-container {
+  width: min(100% - 2rem, var(--sf-content-max));
+  margin-inline: auto;
+}
+
+.public-menu-locked {
+  overflow: hidden;
+}
+
+.hero {
+  min-height: var(--sf-hero-min-main);
+  display: grid;
+  grid-template-columns:
+    minmax(0, 1fr)
+    minmax(0, min(100% - 2rem, var(--sf-content-max)))
+    minmax(0, 1fr);
+  align-items: stretch;
+  padding: clamp(3.5rem, 7vw, 6rem) var(--sf-section-padding-x);
+}
+
+.hero > * {
+  grid-column: 2;
+}
+
+.hero__inner {
+  min-height: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, var(--sf-hero-content)) minmax(18rem, var(--sf-hero-media));
+  gap: var(--sf-grid-gap);
+  align-items: center;
+}
+
+.hero__content {
+  position: relative;
+  z-index: 2;
+  max-width: var(--sf-hero-content);
+}
+
+.hero__media {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  align-items: end;
+  justify-items: center;
+  min-width: 0;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sf-space-2);
+  margin-top: var(--sf-space-5);
+}
+
+@media (max-width: 900px) {
+  .hero {
+    min-height: auto;
+    padding: clamp(3rem, 9vw, 5rem) 1rem clamp(3.5rem, 11vw, 5.5rem);
+  }
+
+  .hero__inner {
+    grid-template-columns: 1fr;
+    gap: var(--sf-space-6);
+  }
+
+  .hero__content {
+    max-width: 42rem;
+  }
+
+  .hero__media {
+    order: 2;
+  }
+}
+
+@media (max-width: 520px) {
+  .hero {
+    padding: clamp(2.5rem, 10vw, 4rem) 1rem clamp(3rem, 12vw, 4.5rem);
+  }
+
+  .hero__inner {
+    gap: var(--sf-space-5);
+  }
+
+  .hero__actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}

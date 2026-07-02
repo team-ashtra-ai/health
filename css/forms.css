@@ -1,3 +1,40 @@
-/* forms.css
-   Reserved for forms rules as the static Sofiati site grows.
-   Current production styling is preserved in pages.css and sofiati-brand-foundation.css. */
+form {
+  display: grid;
+  gap: var(--sf-space-4);
+}
+
+label {
+  cursor: pointer;
+  color: var(--sf-botanical);
+  font-weight: 760;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  max-width: 100%;
+  min-height: var(--sf-tap-target);
+  padding: 0.75rem 0.9rem;
+  border: 1px solid var(--sf-line);
+  border-radius: var(--sf-field-radius);
+  background: var(--sf-white);
+  color: var(--sf-ink);
+}
+
+textarea {
+  min-height: 8rem;
+  resize: vertical;
+}
+
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  border-color: var(--sf-sage-deep);
+}
+
+button:disabled,
+input:disabled {
+  cursor: not-allowed;
+  opacity: 0.68;
+}

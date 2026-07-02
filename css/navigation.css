@@ -1,3 +1,230 @@
-/* navigation.css
-   Reserved for navigation rules as the static Sofiati site grows.
-   Current production styling is preserved in pages.css and sofiati-brand-foundation.css. */
+.sf-desktop-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(0.1rem, 0.5vw, 0.45rem);
+  min-width: 0;
+}
+
+.sf-nav-link {
+  min-height: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.62rem 0.72rem;
+  border-radius: var(--sf-radius-pill);
+  color: color-mix(in srgb, var(--sf-botanical), var(--sf-muted) 18%);
+  font-weight: 780;
+  line-height: 1;
+  text-decoration: none;
+  transition:
+    background-color var(--sf-transition),
+    color var(--sf-transition),
+    transform var(--sf-transition);
+}
+
+.sf-nav-link:hover,
+.sf-nav-link:focus-visible,
+.sf-nav-link[aria-current="page"] {
+  background: color-mix(in srgb, var(--sf-sage), transparent 78%);
+  color: var(--sf-botanical);
+}
+
+.sf-mobile-menu {
+  position: fixed;
+  inset: 0;
+  z-index: var(--sf-z-menu);
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.sf-mobile-menu.is-open,
+.sf-mobile-menu[aria-hidden="false"] {
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.sf-mobile-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(24, 35, 28, 0.38);
+  opacity: 0;
+  backdrop-filter: blur(4px);
+  transition: opacity var(--sf-transition-slow);
+}
+
+.sf-mobile-menu.is-open .sf-mobile-backdrop,
+.sf-mobile-menu[aria-hidden="false"] .sf-mobile-backdrop {
+  opacity: 1;
+}
+
+.sf-mobile-dialog {
+  position: absolute;
+  inset-block: 0;
+  right: 0;
+  width: min(92vw, var(--sf-mobile-menu-width));
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  align-content: start;
+  gap: var(--sf-space-4);
+  padding: clamp(1rem, 4vw, 1.5rem);
+  overflow-y: auto;
+  background:
+    linear-gradient(180deg, var(--sf-ivory-soft), var(--sf-ivory));
+  color: var(--sf-botanical);
+  box-shadow: var(--sf-shadow-dark);
+  transform: translateX(100%);
+  transition: transform var(--sf-transition-slow);
+}
+
+.sf-mobile-menu.is-open .sf-mobile-dialog,
+.sf-mobile-menu[aria-hidden="false"] .sf-mobile-dialog {
+  transform: translateX(0);
+}
+
+.sf-mobile-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sf-space-3);
+  padding-bottom: var(--sf-space-3);
+  border-bottom: 1px solid var(--sf-line);
+}
+
+.sf-mobile-brand {
+  width: min(100%, var(--sf-mobile-logo-max));
+  gap: var(--sf-space-3);
+}
+
+.sf-mobile-close {
+  position: relative;
+  width: var(--sf-tap-target);
+  height: var(--sf-tap-target);
+  flex: 0 0 auto;
+  border: 1px solid var(--sf-line);
+  border-radius: 50%;
+  background: var(--sf-white);
+  color: var(--sf-botanical);
+}
+
+.sf-mobile-close::before,
+.sf-mobile-close::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1rem;
+  height: 1px;
+  background: currentColor;
+}
+
+.sf-mobile-close::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.sf-mobile-close::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.sf-mobile-note {
+  max-width: 30ch;
+  margin: 0;
+  color: var(--sf-muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.sf-mobile-nav,
+.sf-mobile-secondary,
+.sf-mobile-legal {
+  display: grid;
+  align-content: start;
+}
+
+.sf-mobile-nav {
+  gap: var(--sf-space-1);
+}
+
+.sf-mobile-link {
+  min-height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--sf-line);
+  color: var(--sf-botanical);
+  font-family: var(--sf-font-serif);
+  font-size: var(--sf-mobile-primary-link);
+  line-height: 1.12;
+  text-decoration: none;
+}
+
+.sf-mobile-link::after {
+  content: "";
+  width: 0.48rem;
+  height: 0.48rem;
+  border-top: 1px solid currentColor;
+  border-right: 1px solid currentColor;
+  opacity: 0.45;
+  transform: rotate(45deg);
+}
+
+.sf-mobile-link[aria-current="page"] {
+  color: var(--sf-bronze);
+}
+
+.sf-mobile-primary {
+  width: 100%;
+  min-height: var(--sf-button-height);
+}
+
+.sf-mobile-secondary {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--sf-space-2) var(--sf-space-3);
+  padding-top: var(--sf-space-4);
+  border-top: 1px solid var(--sf-line);
+}
+
+.sf-mobile-secondary a,
+.sf-mobile-legal a {
+  min-height: var(--sf-tap-target);
+  display: inline-flex;
+  align-items: center;
+  color: var(--sf-muted);
+  font-weight: 720;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.sf-mobile-secondary a {
+  font-size: var(--sf-mobile-secondary-link);
+}
+
+.sf-mobile-legal {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--sf-space-1) var(--sf-space-3);
+  padding-top: var(--sf-space-3);
+  border-top: 1px solid color-mix(in srgb, var(--sf-botanical), transparent 90%);
+}
+
+.sf-mobile-legal a {
+  min-height: 2.4rem;
+  font-size: var(--sf-mobile-legal-link);
+}
+
+.sf-mobile-secondary a:hover,
+.sf-mobile-secondary a:focus-visible,
+.sf-mobile-legal a:hover,
+.sf-mobile-legal a:focus-visible {
+  color: var(--sf-botanical);
+}
+
+@media (max-width: 430px) {
+  .sf-mobile-dialog {
+    width: 100vw;
+  }
+
+  .sf-mobile-secondary,
+  .sf-mobile-legal {
+    grid-template-columns: 1fr;
+  }
+}

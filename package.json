@@ -7,6 +7,8 @@
     "screenshots": "python3 scripts/capture_homepage_full_screenshots.py",
     "generate:sitemap": "python3 scripts/generate-sitemap.py",
     "generate:robots": "python3 scripts/generate-robots.py",
+    "generate:pt": "python3 scripts/generate-portuguese-site.py",
+    "check:pt": "python3 scripts/check-portuguese-site.py",
     "validate:links": "python3 scripts/validate-links.py",
     "check:seo": "python3 scripts/check-seo.py"
   },

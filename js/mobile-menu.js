@@ -1,79 +1,133 @@
 (() => {
   "use strict";
 
-  let lastMenuTrigger = null;
-  const focusableSelector = "a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex='-1'])";
+  const focusableSelector = [
+    "a[href]",
+    "button:not([disabled])",
+    "input:not([disabled])",
+    "select:not([disabled])",
+    "textarea:not([disabled])",
+    "[tabindex]:not([tabindex='-1'])",
+  ].join(",");
 
-  const menu = () => document.getElementById("mobile-menu");
-  const isMenuOpen = () => menu()?.getAttribute("aria-hidden") === "false";
-  const focusableIn = (root) => Array.from(root.querySelectorAll(focusableSelector)).filter((item) => !item.hasAttribute("hidden") && item.offsetParent !== null);
+  let initialized = false;
+  let lastTrigger = null;
 
-  const openMenu = (trigger) => {
-    const panel = menu();
-    if (!panel) return;
-    lastMenuTrigger = trigger || document.activeElement;
-    panel.classList.add("is-open");
-    panel.setAttribute("aria-hidden", "false");
-    document.body.classList.add("public-menu-locked");
+  const getMenu = () => document.getElementById("mobile-menu");
+  const getDialog = () => getMenu()?.querySelector(".sf-mobile-dialog");
+  const isOpen = () => getMenu()?.getAttribute("aria-hidden") === "false";
+
+  const visibleFocusable = (root) =>
+    Array.from(root.querySelectorAll(focusableSelector)).filter((element) => {
+      if (element.hasAttribute("hidden") || element.getAttribute("aria-hidden") === "true") return false;
+      return element.offsetWidth > 0 || element.offsetHeight > 0 || element === document.activeElement;
+    });
+
+  const setToggleState = (open) => {
     document.querySelectorAll("[data-menu-toggle]").forEach((button) => {
-      button.setAttribute("aria-expanded", "true");
+      button.setAttribute("aria-expanded", open ? "true" : "false");
       button.setAttribute("aria-controls", "mobile-menu");
     });
-    focusableIn(panel)[0]?.focus({ preventScroll: true });
   };
 
-  const closeMenu = () => {
-    const panel = menu();
-    if (!panel) return;
-    panel.classList.remove("is-open");
-    panel.setAttribute("aria-hidden", "true");
-    document.body.classList.remove("public-menu-locked");
-    document.querySelectorAll("[data-menu-toggle]").forEach((button) => {
-      button.setAttribute("aria-expanded", "false");
-      button.setAttribute("aria-controls", "mobile-menu");
+  const openMenu = (trigger) => {
+    const menu = getMenu();
+    const dialog = getDialog();
+    if (!menu || !dialog || isOpen()) return;
+
+    lastTrigger = trigger || document.activeElement;
+    menu.classList.add("is-open");
+    menu.setAttribute("aria-hidden", "false");
+    document.body.classList.add("public-menu-locked");
+    setToggleState(true);
+
+    requestAnimationFrame(() => {
+      const first = dialog.querySelector("[data-menu-close]") || visibleFocusable(dialog)[0] || dialog;
+      first.focus({ preventScroll: true });
     });
-    lastMenuTrigger?.focus?.({ preventScroll: true });
+  };
+
+  const closeMenu = ({ restoreFocus = true } = {}) => {
+    const menu = getMenu();
+    if (!menu || !isOpen()) return;
+
+    menu.classList.remove("is-open");
+    menu.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("public-menu-locked");
+    setToggleState(false);
+
+    if (restoreFocus) lastTrigger?.focus?.({ preventScroll: true });
+    lastTrigger = null;
+  };
+
+  const keepFocusInDialog = (event) => {
+    if (event.key !== "Tab" || !isOpen()) return;
+
+    const dialog = getDialog();
+    if (!dialog) return;
+
+    const focusable = visibleFocusable(dialog);
+    if (!focusable.length) {
+      event.preventDefault();
+      dialog.focus({ preventScroll: true });
+      return;
+    }
+
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus({ preventScroll: true });
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus({ preventScroll: true });
+    }
   };
 
   const initMobileMenu = () => {
+    if (initialized) return;
+    initialized = true;
+    setToggleState(false);
+
     document.addEventListener("click", (event) => {
       const toggle = event.target.closest("[data-menu-toggle]");
       const close = event.target.closest("[data-menu-close]");
-      const panel = menu();
+      const menu = getMenu();
+      const dialog = getDialog();
 
       if (toggle) {
         event.preventDefault();
-        isMenuOpen() ? closeMenu() : openMenu(toggle);
+        isOpen() ? closeMenu() : openMenu(toggle);
+        return;
       }
+
+      if (!menu || !isOpen()) return;
 
       if (close) {
         event.preventDefault();
         closeMenu();
+        return;
       }
 
-      if (panel && event.target === panel) closeMenu();
-      if (panel?.contains(event.target) && event.target.closest(".sf-mobile-link[href]")) closeMenu();
+      if (event.target.closest("#mobile-menu a[href]")) {
+        closeMenu({ restoreFocus: false });
+        return;
+      }
+
+      if (dialog && !dialog.contains(event.target)) closeMenu();
     });
 
     document.addEventListener("keydown", (event) => {
-      const panel = menu();
-      if (event.key === "Escape") closeMenu();
-      if (event.key !== "Tab" || !panel || !isMenuOpen()) return;
-
-      const items = focusableIn(panel);
-      if (!items.length) return;
-
-      const first = items[0];
-      const last = items[items.length - 1];
-      if (event.shiftKey && document.activeElement === first) {
-        event.preventDefault();
-        last.focus({ preventScroll: true });
-      } else if (!event.shiftKey && document.activeElement === last) {
-        event.preventDefault();
-        first.focus({ preventScroll: true });
+      if (event.key === "Escape" && isOpen()) {
+        closeMenu();
+        return;
       }
+
+      keepFocusInDialog(event);
     });
   };
 
   document.addEventListener("sofiati:partials-loaded", initMobileMenu);
+  if (document.body?.dataset.partialsReady === "true") initMobileMenu();
 })();

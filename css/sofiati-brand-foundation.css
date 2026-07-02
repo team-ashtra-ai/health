@@ -1,153 +1,80 @@
-
 :root {
-  /* Sage */
-  --sofiati-sage-50: #F6F8F5;
-  --sofiati-sage-100: #EEF3EE;
-  --sofiati-sage-200: #DCE5DA;
-  --sofiati-sage-300: #A2AEA0;
-  --sofiati-sage-400: #87927F;
-  --sofiati-sage-500: #6F7B68;
-  --sofiati-sage-700: #485041;
-  --sofiati-sage-900: #263026;
-
-  /* Ivory / cream */
-  --sofiati-ivory-50: #FFFDF8;
-  --sofiati-ivory-100: #FBFAF5;
-  --sofiati-ivory-200: #F8F7F2;
-  --sofiati-ivory-300: #F2EEE3;
-  --sofiati-cream-400: #EDE4D4;
-  --sofiati-cream-600: #D8CBB7;
-
-  /* Ink */
-  --sofiati-ink-600: #4A4640;
-  --sofiati-ink-700: #3A3631;
-  --sofiati-ink-900: #252321;
-
-  /* Bronze / gold */
-  --sofiati-bronze-300: #C39B6A;
-  --sofiati-bronze-400: #B88954;
-  --sofiati-bronze-600: #9A6B35;
-  --sofiati-bronze-800: #5F3F1F;
-  --sofiati-gold-200: #F1DEC0;
-  --sofiati-gold-300: #E4C99B;
-  --sofiati-gold-500: #CDAA78;
-
-  /* Warm identity neutrals from the logo and palette boards */
-  --sofiati-champagne-100: #DACCB7;
-  --sofiati-bronze-clay: #8F745F;
-  --sofiati-taupe-300: #B6AA98;
-  --sofiati-taupe-400: #9B8F7E;
-  --sofiati-taupe-700: #5E5548;
-
-  /* Semantic base */
-  --color-bg: var(--sofiati-ivory-200);
-  --color-text: var(--sofiati-ink-900);
-  --color-text-soft: var(--sofiati-ink-700);
-  --color-text-inverse: var(--sofiati-ivory-100);
-  --color-border-soft: rgba(72, 80, 65, 0.18);
-
-  /* Surfaces */
-  --surface-card: rgba(255, 255, 255, 0.72);
-  --surface-card-strong: var(--sofiati-ivory-100);
-  --surface-sage: var(--sofiati-sage-100);
-  --surface-dark: var(--sofiati-sage-900);
-
-  /* Gradients */
-  --gradient-cream: linear-gradient(135deg, var(--sofiati-ivory-100), var(--sofiati-ivory-300));
-  --gradient-sage-soft: linear-gradient(135deg, var(--sofiati-sage-100), var(--sofiati-sage-300));
-  --gradient-sage-deep: linear-gradient(135deg, var(--sofiati-sage-700), var(--sofiati-sage-900));
-  --gradient-dark-botanical: radial-gradient(circle at top left, rgba(162, 174, 160, 0.24), transparent 34%), linear-gradient(135deg, var(--sofiati-ink-900), var(--sofiati-sage-900));
-  --gradient-champagne-cream: linear-gradient(135deg, var(--sofiati-ivory-100), var(--sofiati-champagne-100), var(--sofiati-ivory-200));
-  --gradient-gold-line: linear-gradient(90deg, var(--sofiati-bronze-600), var(--sofiati-gold-500), var(--sofiati-bronze-400));
-
-  /* Shadows */
-  --shadow-sm: 0 14px 40px rgba(37, 35, 33, 0.08);
-  --shadow-md: 0 26px 70px rgba(37, 35, 33, 0.12);
-  --shadow-dark: 0 30px 90px rgba(0, 0, 0, 0.24);
-
-  /* Buttons */
-  --button-primary-bg: var(--sofiati-sage-700);
-  --button-primary-text: var(--sofiati-ivory-100);
-  --button-gold-bg: var(--sofiati-gold-500);
-  --button-gold-text: var(--sofiati-ink-900);
-  --button-champagne-bg: var(--sofiati-champagne-100);
-  --button-champagne-text: var(--sofiati-ink-900);
-  --button-dark-bg: var(--sofiati-ink-900);
-  --button-dark-text: var(--sofiati-ivory-100);
-
-  /* Layout and interaction tokens */
-  --space-1: 0.25rem;
-  --space-2: 0.5rem;
-  --space-3: 0.75rem;
-  --space-4: 1rem;
-  --space-5: 1.5rem;
-  --space-6: 2rem;
-  --space-7: 3rem;
-  --space-8: 4rem;
-  --radius-sm: 2px;
-  --radius-md: 6px;
-  --radius-lg: 8px;
-  --z-header: 70;
-  --z-menu: 88;
-  --z-cookie: 90;
-  --z-floating: 95;
-  --transition-fast: 160ms ease;
-  --transition-med: 220ms ease;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-  text-size-adjust: 100%;
-}
-
-body {
-  margin: 0;
-  background: var(--color-bg);
-  color: var(--color-text);
-  font-family: Inter, "Avenir Next", "Segoe UI", Arial, sans-serif;
-  line-height: 1.6;
+  --sofiati-sage-50: color-mix(in srgb, var(--sf-sage), white 88%);
+  --sofiati-sage-100: color-mix(in srgb, var(--sf-sage), white 76%);
+  --sofiati-sage-200: color-mix(in srgb, var(--sf-sage), white 56%);
+  --sofiati-sage-300: var(--sf-sage);
+  --sofiati-sage-400: color-mix(in srgb, var(--sf-sage-deep), white 12%);
+  --sofiati-sage-500: var(--sf-sage-deep);
+  --sofiati-sage-700: var(--sf-botanical-2);
+  --sofiati-sage-900: var(--sf-botanical);
+  --sofiati-ivory-50: var(--sf-ivory-soft);
+  --sofiati-ivory-100: var(--sf-ivory-soft);
+  --sofiati-ivory-200: var(--sf-ivory);
+  --sofiati-ivory-300: var(--sf-ivory);
+  --sofiati-cream-400: color-mix(in srgb, var(--sf-ivory), var(--sf-gold-pale) 22%);
+  --sofiati-cream-600: color-mix(in srgb, var(--sf-ivory), var(--sf-bronze) 12%);
+  --sofiati-ink-600: var(--sf-muted);
+  --sofiati-ink-700: var(--sf-ink);
+  --sofiati-ink-900: var(--sf-botanical);
+  --sofiati-bronze-300: color-mix(in srgb, var(--sf-bronze), white 34%);
+  --sofiati-bronze-400: color-mix(in srgb, var(--sf-bronze), white 18%);
+  --sofiati-bronze-600: var(--sf-bronze);
+  --sofiati-bronze-800: color-mix(in srgb, var(--sf-bronze), var(--sf-botanical) 30%);
+  --sofiati-gold-200: var(--sf-gold-pale);
+  --sofiati-gold-300: color-mix(in srgb, var(--sf-gold), white 26%);
+  --sofiati-gold-500: var(--sf-gold);
+  --sofiati-champagne-100: color-mix(in srgb, var(--sf-gold-pale), var(--sf-ivory) 35%);
+  --sofiati-bronze-clay: color-mix(in srgb, var(--sf-bronze), var(--sf-sage-deep) 28%);
+  --sofiati-taupe-300: color-mix(in srgb, var(--sf-muted), white 44%);
+  --sofiati-taupe-400: color-mix(in srgb, var(--sf-muted), white 24%);
+  --sofiati-taupe-700: var(--sf-muted);
+  --color-bg: var(--sf-ivory);
+  --color-text: var(--sf-ink);
+  --color-text-soft: var(--sf-muted);
+  --color-text-inverse: var(--sf-ivory-soft);
+  --color-border-soft: var(--sf-line);
+  --surface-card: color-mix(in srgb, var(--sf-white), transparent 18%);
+  --surface-card-strong: var(--sf-white);
+  --surface-sage: color-mix(in srgb, var(--sf-sage), white 70%);
+  --surface-dark: var(--sf-botanical);
+  --gradient-cream: linear-gradient(135deg, var(--sf-ivory-soft), var(--sf-ivory));
+  --gradient-sage-soft: linear-gradient(135deg, color-mix(in srgb, var(--sf-sage), white 58%), var(--sf-ivory));
+  --gradient-sage-deep: linear-gradient(135deg, var(--sf-sage-deep), var(--sf-botanical));
+  --gradient-dark-botanical: linear-gradient(135deg, var(--sf-botanical), var(--sf-botanical-2));
+  --gradient-champagne-cream: linear-gradient(135deg, var(--sf-ivory-soft), color-mix(in srgb, var(--sf-gold-pale), var(--sf-ivory) 45%));
+  --gradient-gold-line: linear-gradient(90deg, var(--sf-bronze), var(--sf-gold));
+  --shadow-sm: var(--sf-shadow-soft);
+  --shadow-md: var(--sf-shadow-lift);
+  --shadow-dark: var(--sf-shadow-dark);
+  --button-primary-bg: var(--sf-botanical);
+  --button-primary-text: var(--sf-ivory-soft);
+  --button-gold-bg: var(--sf-gold);
+  --button-gold-text: var(--sf-botanical);
+  --button-champagne-bg: color-mix(in srgb, var(--sf-gold-pale), var(--sf-ivory) 35%);
+  --button-champagne-text: var(--sf-botanical);
+  --button-dark-bg: var(--sf-botanical);
+  --button-dark-text: var(--sf-ivory-soft);
+  --space-1: var(--sf-space-1);
+  --space-2: var(--sf-space-2);
+  --space-3: var(--sf-space-3);
+  --space-4: var(--sf-space-4);
+  --space-5: var(--sf-space-5);
+  --space-6: var(--sf-space-6);
+  --space-7: var(--sf-space-7);
+  --space-8: var(--sf-space-8);
+  --radius-sm: var(--sf-radius-sm);
+  --radius-md: var(--sf-radius-md);
+  --radius-lg: var(--sf-radius-lg);
+  --z-header: var(--sf-z-header);
+  --z-menu: var(--sf-z-menu);
+  --z-cookie: var(--sf-z-cookie);
+  --z-floating: var(--sf-z-floating);
+  --transition-fast: var(--sf-transition);
+  --transition-med: var(--sf-transition-slow);
 }
 
 body.public-menu-locked {
   overflow: hidden;
-}
-
-img,
-svg {
-  display: block;
-  max-width: 100%;
-}
-
-a {
-  color: inherit;
-}
-
-button,
-input,
-textarea {
-  font: inherit;
-}
-
-.skip-link {
-  position: fixed;
-  inset-block-start: 1rem;
-  inset-inline-start: 1rem;
-  z-index: 1000;
-  transform: translateY(-160%);
-  background: var(--sofiati-ink-900);
-  color: var(--sofiati-ivory-100);
-  padding: 0.75rem 1rem;
-  text-decoration: none;
-}
-
-.skip-link:focus {
-  transform: translateY(0);
 }
 
 .section-light {
@@ -168,8 +95,9 @@ textarea {
 }
 
 .card {
-  background: var(--surface-card);
   border: 1px solid var(--color-border-soft);
+  border-radius: var(--sf-card-radius);
+  background: var(--surface-card);
   box-shadow: var(--shadow-sm);
 }
 
@@ -186,15 +114,4 @@ textarea {
 .button-champagne {
   background: var(--button-champagne-bg);
   color: var(--button-champagne-text);
-}
-
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    scroll-behavior: auto !important;
-    transition-duration: 0.01ms !important;
-  }
 }

@@ -22,6 +22,8 @@
     const key = "sofiati-cookie-consent";
     const banner = document.querySelector("[data-cookie-banner]");
     if (!banner) return;
+    if (banner.dataset.cookieReady === "true") return;
+    banner.dataset.cookieReady = "true";
 
     const preferences = banner.querySelector("[data-cookie-preferences]");
     const customize = banner.querySelector("[data-cookie-customize]");

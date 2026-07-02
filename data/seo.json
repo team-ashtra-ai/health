@@ -3,6 +3,8 @@
   "domain": "https://www.sofiati.com",
   "defaultOgImage": "assets/social/sofiati-og-image.png",
   "schemaType": "HealthAndBeautyBusiness",
-  "areaServed": "Londrina, PR, Brazil",
-  "sameAs": ["https://www.instagram.com/fransofiati_biomedica/"]
+  "areaServed": "Londrina, Paraná, Brazil",
+  "sameAs": [
+    "https://www.instagram.com/sofiati_biomedica/"
+  ]
 }

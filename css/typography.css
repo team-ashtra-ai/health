@@ -1,3 +1,130 @@
-/* typography.css
-   Reserved for typography rules as the static Sofiati site grows.
-   Current production styling is preserved in pages.css and sofiati-brand-foundation.css. */
+body {
+  color: var(--sf-ink);
+  font-family: var(--sf-font-sans);
+  font-size: var(--sf-type-body);
+  line-height: var(--sf-line-height-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  color: inherit;
+  font-family: var(--sf-font-serif);
+  font-weight: 500;
+  letter-spacing: 0;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: var(--sf-type-h1);
+  line-height: var(--sf-line-height-tight);
+}
+
+h2 {
+  font-size: var(--sf-type-h2);
+  line-height: var(--sf-line-height-heading);
+}
+
+h3 {
+  font-size: var(--sf-type-h3);
+  line-height: 1.14;
+}
+
+h4 {
+  font-size: var(--sf-type-card-title);
+  line-height: 1.18;
+}
+
+p,
+li,
+dd {
+  text-wrap: pretty;
+}
+
+p {
+  margin: 0;
+}
+
+small {
+  font-size: var(--sf-type-legal);
+}
+
+.c01-eyebrow,
+.sf-prefooter-kicker,
+.hero__kicker {
+  margin: 0 0 var(--sf-space-3);
+  color: var(--sf-bronze);
+  font-size: var(--sf-type-eyebrow);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.c01-tone--dark .c01-eyebrow,
+.sf-public-footer .c01-eyebrow {
+  color: var(--sf-gold-pale);
+}
+
+.c01-section p {
+  max-width: var(--sf-measure);
+  margin-top: var(--sf-space-3);
+}
+
+.c01-section a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+}
+
+.hero__title {
+  max-width: 12ch;
+  color: var(--sf-botanical);
+  font-size: var(--sf-hero-title);
+  line-height: var(--sf-line-height-tight);
+}
+
+.hero--utility .hero__title {
+  font-size: var(--sf-hero-title-utility);
+}
+
+.hero__summary {
+  max-width: var(--sf-measure-narrow);
+  margin-top: var(--sf-space-4);
+  color: color-mix(in srgb, var(--sf-botanical), var(--sf-muted) 24%);
+  font-size: var(--sf-hero-summary);
+  line-height: 1.58;
+}
+
+.sf-nav-link,
+.sf-header-cta,
+.sf-menu-button,
+.c01-action,
+.c01-text-link,
+.sf-button,
+.sf-footer-cta {
+  font-size: var(--sf-type-nav);
+}
+
+.sf-footer-bottom p,
+.sf-footer-legal a,
+.sf-cookie-banner p,
+.sf-cookie-actions button,
+.sf-cookie-actions a {
+  font-size: var(--sf-type-legal);
+}
+
+@media (max-width: 520px) {
+  .hero__title,
+  .hero--utility .hero__title {
+    max-width: 11.5ch;
+  }
+
+  .hero__summary {
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+}
