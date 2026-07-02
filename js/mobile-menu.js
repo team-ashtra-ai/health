@@ -36,6 +36,8 @@
     if (!menu || !dialog || isOpen()) return;
 
     lastTrigger = trigger || document.activeElement;
+    menu.inert = false;
+    menu.removeAttribute("inert");
     menu.classList.add("is-open");
     menu.setAttribute("aria-hidden", "false");
     document.body.classList.add("public-menu-locked");
@@ -53,6 +55,8 @@
 
     menu.classList.remove("is-open");
     menu.setAttribute("aria-hidden", "true");
+    menu.inert = true;
+    menu.setAttribute("inert", "");
     document.body.classList.remove("public-menu-locked");
     setToggleState(false);
 
@@ -88,6 +92,11 @@
   const initMobileMenu = () => {
     if (initialized) return;
     initialized = true;
+    const menu = getMenu();
+    if (menu && !isOpen()) {
+      menu.inert = true;
+      menu.setAttribute("inert", "");
+    }
     setToggleState(false);
 
     document.addEventListener("click", (event) => {

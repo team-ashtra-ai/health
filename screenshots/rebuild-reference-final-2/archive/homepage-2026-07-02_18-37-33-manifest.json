@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-07-02T18:37:39",
+  "url": "http://127.0.0.1:46041/index.html",
+  "outputRoot": "/run/media/code/Storage/GitHub/ashtra/health/screenshots/rebuild-reference-final-2",
+  "captures": [
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "capturedHeight": 7550,
+      "file": "mobile/homepage-fullpage-2026-07-02_18-37-33.png"
+    },
+    {
+      "name": "tablet",
+      "width": 820,
+      "height": 1180,
+      "capturedHeight": 5655,
+      "file": "tablet/homepage-fullpage-2026-07-02_18-37-33.png"
+    },
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1200,
+      "capturedHeight": 3937,
+      "file": "desktop/homepage-fullpage-2026-07-02_18-37-33.png"
+    }
+  ]
+}

@@ -1,24 +1,28 @@
 :root {
-  --sf-ivory: #f3efe5;
-  --sf-ivory-soft: #fbf8f0;
+  --sf-ivory: #fbf7ef;
+  --sf-ivory-soft: #fffaf2;
   --sf-white: #ffffff;
-  --sf-sage: #a2ae9f;
-  --sf-sage-deep: #798a80;
-  --sf-botanical: #18231c;
-  --sf-botanical-2: #2e3c33;
-  --sf-gold: #d8b06a;
-  --sf-gold-pale: #fde3b0;
-  --sf-bronze: #735011;
-  --sf-clay: #a7654a;
-  --sf-clay-soft: #ead1c4;
-  --sf-rosewood: #6d3f35;
-  --sf-mist: #dfe6dc;
-  --sf-ink: #252321;
-  --sf-muted: #625f56;
+  --sf-sage: #8f9f88;
+  --sf-sage-deep: #173c30;
+  --sf-botanical: #0f3428;
+  --sf-botanical-2: #09251d;
+  --sf-gold: #c99a52;
+  --sf-gold-pale: #ead7bd;
+  --sf-bronze: #8f6532;
+  --sf-clay: #b98265;
+  --sf-clay-soft: #efd8c5;
+  --sf-rosewood: #6a3d31;
+  --sf-mist: #dce3d6;
+  --sf-ink: #1d251d;
+  --sf-muted: #655c4d;
+  --sf-cream: #f7efe3;
+  --sf-champagne: #ead7bd;
+  --sf-peach: #efd8c5;
+  --sf-brown-text: #403323;
   --sf-surface: color-mix(in srgb, var(--sf-white), var(--sf-ivory) 18%);
   --sf-surface-soft: color-mix(in srgb, var(--sf-white), var(--sf-ivory) 42%);
-  --sf-line: color-mix(in srgb, var(--sf-botanical), transparent 84%);
-  --sf-line-strong: color-mix(in srgb, var(--sf-botanical), transparent 70%);
+  --sf-line: rgba(201, 154, 82, 0.25);
+  --sf-line-strong: rgba(201, 154, 82, 0.38);
   --sf-line-light: color-mix(in srgb, var(--sf-white), transparent 76%);
 
   --sf-font-sans: Inter, "Avenir Next", "Segoe UI", Arial, sans-serif;
@@ -77,11 +81,11 @@
   --sf-card-radius: 8px;
   --sf-field-radius: 8px;
 
-  --sf-shadow-soft: 0 14px 38px rgba(24, 35, 28, 0.08);
-  --sf-shadow-lift: 0 22px 64px rgba(24, 35, 28, 0.13);
-  --sf-shadow-editorial: 0 30px 90px rgba(24, 35, 28, 0.16);
+  --sf-shadow-soft: 0 14px 38px rgba(64, 51, 35, 0.08);
+  --sf-shadow-lift: 0 22px 64px rgba(64, 51, 35, 0.12);
+  --sf-shadow-editorial: 0 30px 90px rgba(64, 51, 35, 0.14);
   --sf-shadow-dark: 0 34px 110px rgba(0, 0, 0, 0.22);
-  --sf-shadow-float: 0 28px 80px rgba(24, 35, 28, 0.11);
+  --sf-shadow-float: 0 28px 80px rgba(64, 51, 35, 0.11);
   --sf-canvas-glow:
     radial-gradient(circle at 12% 7%, color-mix(in srgb, var(--sf-sage), transparent 76%), transparent 24rem),
     radial-gradient(circle at 88% 22%, color-mix(in srgb, var(--sf-gold-pale), transparent 66%), transparent 22rem),
