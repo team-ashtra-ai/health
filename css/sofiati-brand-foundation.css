@@ -115,3 +115,273 @@ body.public-menu-locked {
   background: var(--button-champagne-bg);
   color: var(--button-champagne-text);
 }
+/* =========================================================
+   FINAL RENDERED QA PATCH
+   Purpose: reduce oversized panels, fix CTA readability,
+   improve homepage composition, and prevent mobile overbuild.
+   ========================================================= */
+
+/* Safer global rendering */
+html,
+body {
+  overflow-x: clip;
+}
+
+.sf-main,
+.c01-main {
+  overflow-x: clip;
+}
+
+/* Make all CTA text visible and prevent compressed blank buttons */
+.c01-action,
+.c01-text-link,
+.sf-button,
+.sf-header-cta,
+.sf-footer-cta {
+  position: relative;
+  z-index: 1;
+  min-width: max-content;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: visible;
+  text-indent: 0;
+  font-size: var(--sf-type-nav);
+  line-height: 1.15;
+}
+
+.c01-action,
+.c01-action:visited,
+.c01-action:hover,
+.c01-action:focus-visible {
+  color: var(--sf-ivory-soft);
+}
+
+.c01-text-link,
+.c01-text-link:visited,
+.c01-text-link:hover,
+.c01-text-link:focus-visible {
+  color: var(--sf-botanical);
+}
+
+/* General section rhythm: less inflated, more content-proportional */
+.sf-section {
+  padding-block: clamp(3.5rem, 6.2vw, 5.75rem);
+}
+
+.sf-section-head {
+  margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+/* Hero should be strong but not vertically bloated */
+.sf-hero {
+  min-height: auto;
+  padding-block: clamp(4rem, 7vw, 6rem);
+}
+
+.sf-hero__inner {
+  align-items: center;
+}
+
+.sf-hero__title {
+  max-width: min(13.5ch, 100%);
+}
+
+/* Control large photo frames */
+.sf-photo-frame {
+  min-height: 0;
+  aspect-ratio: 4 / 5;
+  max-height: 640px;
+}
+
+.sf-photo-frame img {
+  min-height: 0;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 24%;
+}
+
+/* Control generic image panels so they stop feeling like placeholders */
+.sf-image-panel {
+  min-height: 0;
+  aspect-ratio: 4 / 5;
+  max-height: 560px;
+}
+
+.sf-image-panel img {
+  min-height: 0;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 28%;
+}
+
+/* Specific homepage human/profile panel: reduce placeholder feeling */
+#home-human .sf-image-panel {
+  max-width: 430px;
+  max-height: 520px;
+  justify-self: center;
+}
+
+#home-human .sf-image-caption {
+  max-width: calc(100% - 2rem);
+}
+
+/* Diagnostic cards: make the first route lead visually */
+.sf-diagnostic-grid {
+  align-items: stretch;
+}
+
+.sf-diagnostic-card:first-child {
+  border-color: color-mix(in srgb, var(--sf-botanical), transparent 62%);
+  background:
+    linear-gradient(145deg, var(--sf-botanical), var(--sf-botanical-2));
+  color: var(--sf-ivory-soft);
+}
+
+.sf-diagnostic-card:first-child :where(h3, p, .sf-kicker, a) {
+  color: var(--sf-ivory-soft);
+}
+
+.sf-diagnostic-card:first-child a {
+  text-decoration-color: color-mix(in srgb, var(--sf-gold-pale), transparent 25%);
+}
+
+/* Final CTA panel: prevent compressed blank button */
+.sf-next-panel {
+  grid-template-columns: minmax(0, 1fr) minmax(16rem, max-content);
+  align-items: center;
+}
+
+.sf-next-panel .sf-action-row {
+  margin-top: 0;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sf-next-panel .c01-action,
+.sf-next-panel .c01-text-link {
+  min-width: max-content;
+}
+
+/* Floating widgets should not dominate screenshots/layout */
+.sf-floating-tools {
+  opacity: 0.72;
+  transform: scale(0.88);
+  transform-origin: right bottom;
+}
+
+.sf-floating-tools:hover,
+.sf-floating-tools:focus-within {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Tablet refinement */
+@media (max-width: 1080px) {
+  .sf-hero {
+    padding-block: clamp(3.25rem, 7vw, 5rem);
+  }
+
+  .sf-photo-frame {
+    max-height: 560px;
+  }
+
+  .sf-image-panel {
+    max-height: 460px;
+  }
+
+  #home-human .sf-image-panel {
+    max-width: 380px;
+    max-height: 460px;
+  }
+}
+
+/* Mobile: stop big image/card overbuild */
+@media (max-width: 760px) {
+  .sf-section {
+    padding-block: clamp(2.75rem, 9vw, 4rem);
+    padding-inline: 1rem;
+  }
+
+  .sf-hero {
+    padding-block: clamp(2.25rem, 8vw, 3.5rem);
+  }
+
+  .sf-hero__inner {
+    gap: clamp(1.25rem, 5vw, 2rem);
+  }
+
+  .sf-hero__title {
+    max-width: 100%;
+    font-size: clamp(2rem, 9vw, 2.75rem);
+  }
+
+  .sf-lede {
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+
+  .sf-hero__actions,
+  .sf-action-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .sf-hero__actions .c01-action,
+  .sf-hero__actions .c01-text-link,
+  .sf-action-row .c01-action,
+  .sf-action-row .c01-text-link {
+    width: 100%;
+    min-width: 0;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .sf-photo-frame,
+  .sf-image-panel,
+  .sf-portrait-frame {
+    min-height: 0;
+    aspect-ratio: 4 / 5;
+    max-height: 420px;
+  }
+
+  .sf-photo-frame img,
+  .sf-image-panel img {
+    min-height: 0;
+    height: 100%;
+  }
+
+  .sf-hero__caption,
+  .sf-image-caption {
+    position: relative;
+    inset: auto;
+    max-width: none;
+    margin: -1.5rem 1rem 0;
+    padding: 0.85rem;
+  }
+
+  .sf-hero__caption strong,
+  .sf-image-caption strong {
+    font-size: clamp(1.15rem, 5vw, 1.45rem);
+  }
+
+  #home-human .sf-image-panel {
+    max-width: 100%;
+    max-height: 360px;
+  }
+
+  .sf-next-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .sf-next-panel .sf-action-row {
+    margin-top: var(--sf-space-4);
+  }
+}
+
+/* Small mobile: hide floating tools completely to avoid visual clutter */
+@media (max-width: 520px) {
+  .sf-floating-tools,
+  .floating-widgets {
+    display: none !important;
+  }
+}
