@@ -1,4925 +1,906 @@
 {
-  "generatedAt": "2026-07-02T02:15:57.456Z",
-  "diagnostics": [
+  "generatedAt": "2026-07-02T11:06:39.262Z",
+  "cookieState": "accepted for visual review",
+  "pages": [
     {
       "viewport": "desktop",
-      "page": "index.html",
       "label": "Home",
+      "href": "index.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Consultation-led aesthetic care in Londrina",
-      "sectionCount": 7,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 1440,
-      "viewportWidth": 1440,
-      "pageHeight": 6250,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 1440,
-          "right": 1848,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 1464,
-          "right": 1824,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 1464,
-          "right": 1624,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 1464,
-          "right": 1518,
-          "width": 54
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1780,
-          "right": 1824,
-          "width": 44
-        }
+      "screenshot": "desktop/home.png",
+      "errors": [],
+      "title": "Home | Franciele Sofiati Biomédica",
+      "h1s": [
+        "Consultation-led aesthetic care in Londrina"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "desktop",
-      "page": "about.html",
       "label": "About",
+      "href": "about.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Meet Franciele Sofiati, Biomédica",
-      "sectionCount": 6,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 1440,
-      "viewportWidth": 1440,
-      "pageHeight": 5357,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 1440,
-          "right": 1848,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 1464,
-          "right": 1824,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 1464,
-          "right": 1624,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 1464,
-          "right": 1518,
-          "width": 54
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1780,
-          "right": 1824,
-          "width": 44
-        }
+      "screenshot": "desktop/about.png",
+      "errors": [],
+      "title": "About Franciele Sofiati | Biomédica in Londrina",
+      "h1s": [
+        "Meet Franciele Sofiati, Biomédica"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "desktop",
-      "page": "care.html",
       "label": "Care",
+      "href": "care.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Care begins with listening and evaluation",
-      "sectionCount": 6,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 1440,
-      "viewportWidth": 1440,
-      "pageHeight": 5091,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 1440,
-          "right": 1848,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 1464,
-          "right": 1824,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 1464,
-          "right": 1624,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 1464,
-          "right": 1518,
-          "width": 54
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1780,
-          "right": 1824,
-          "width": 44
-        }
+      "screenshot": "desktop/care.png",
+      "errors": [],
+      "title": "Care Approach | Responsible Aesthetic Care in Londrina",
+      "h1s": [
+        "Care begins with listening and evaluation"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "desktop",
-      "page": "laser.html",
       "label": "Laser",
+      "href": "laser.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Laser care with suitability first",
-      "sectionCount": 6,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 1440,
-      "viewportWidth": 1440,
-      "pageHeight": 5041,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 1440,
-          "right": 1848,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 1464,
-          "right": 1824,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 1464,
-          "right": 1624,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 1464,
-          "right": 1518,
-          "width": 54
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1780,
-          "right": 1824,
-          "width": 44
-        }
+      "screenshot": "desktop/laser.png",
+      "errors": [],
+      "title": "Laser Guidance in Londrina | Suitability and Aftercare",
+      "h1s": [
+        "Laser care with suitability first"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "desktop",
-      "page": "skin.html",
       "label": "Skin",
+      "href": "skin.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Skin care guided by your context",
-      "sectionCount": 6,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 1440,
-      "viewportWidth": 1440,
-      "pageHeight": 5041,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 1440,
-          "right": 1848,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 1464,
-          "right": 1824,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 1464,
-          "right": 1624,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 1464,
-          "right": 1518,
-          "width": 54
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1780,
-          "right": 1824,
-          "width": 44
-        }
+      "screenshot": "desktop/skin.png",
+      "errors": [],
+      "title": "Skin Guidance in Londrina | Franciele Sofiati Biomédica",
+      "h1s": [
+        "Skin care guided by your context"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "desktop",
-      "page": "results.html",
       "label": "Results",
+      "href": "results.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Results are best understood with context",
-      "sectionCount": 6,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 1440,
-      "viewportWidth": 1440,
-      "pageHeight": 5041,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 1440,
-          "right": 1848,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 1464,
-          "right": 1824,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 1464,
-          "right": 1624,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 1464,
-          "right": 1518,
-          "width": 54
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1780,
-          "right": 1824,
-          "width": 44
-        }
+      "screenshot": "desktop/results.png",
+      "errors": [],
+      "title": "Results | Realistic Aesthetic Expectations",
+      "h1s": [
+        "Results are best understood with context"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "desktop",
-      "page": "consultation.html",
       "label": "Consultation",
+      "href": "consultation.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Request a consultation before treatment decisions",
-      "sectionCount": 6,
-      "formCount": 1,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 1440,
-      "viewportWidth": 1440,
-      "pageHeight": 5438,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 1440,
-          "right": 1848,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 1464,
-          "right": 1824,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 1464,
-          "right": 1624,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 1464,
-          "right": 1518,
-          "width": 54
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1780,
-          "right": 1824,
-          "width": 44
-        }
+      "screenshot": "desktop/consultation.png",
+      "errors": [],
+      "title": "Aesthetic Consultation in Londrina | Franciele Sofiati Biomédica",
+      "h1s": [
+        "Request a consultation before treatment decisions"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "desktop",
-      "page": "contact.html",
       "label": "Contact",
+      "href": "contact.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Start with a simple message",
-      "sectionCount": 5,
-      "formCount": 1,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 1440,
-      "viewportWidth": 1440,
-      "pageHeight": 4400,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 1440,
-          "right": 1848,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 1464,
-          "right": 1824,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 1464,
-          "right": 1624,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 1464,
-          "right": 1518,
-          "width": 54
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1780,
-          "right": 1824,
-          "width": 44
-        }
+      "screenshot": "desktop/contact.png",
+      "errors": [],
+      "title": "Contact Franciele Sofiati | Consultation in Londrina",
+      "h1s": [
+        "Start with a simple message"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "desktop",
-      "page": "faq.html",
       "label": "FAQ",
+      "href": "faq.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Practical answers before aesthetic care",
-      "sectionCount": 5,
-      "formCount": 0,
-      "detailsCount": 6,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 1440,
-      "viewportWidth": 1440,
-      "pageHeight": 4396,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 1440,
-          "right": 1848,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 1464,
-          "right": 1824,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 1464,
-          "right": 1624,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 1464,
-          "right": 1518,
-          "width": 54
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1780,
-          "right": 1824,
-          "width": 44
-        }
+      "screenshot": "desktop/faq.png",
+      "errors": [],
+      "title": "FAQ | Skin, Laser, and Aesthetic Consultation Questions",
+      "h1s": [
+        "Practical answers before aesthetic care"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "desktop",
-      "page": "journal.html",
       "label": "Journal",
+      "href": "journal.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Thoughtful guidance before aesthetic decisions",
-      "sectionCount": 5,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 1440,
-      "viewportWidth": 1440,
-      "pageHeight": 4666,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 1440,
-          "right": 1848,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 1464,
-          "right": 1824,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 1464,
-          "right": 1624,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 1464,
-          "right": 1518,
-          "width": 54
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1780,
-          "right": 1824,
-          "width": 44
-        }
+      "screenshot": "desktop/journal.png",
+      "errors": [],
+      "title": "Journal | Responsible Skin and Laser Guidance",
+      "h1s": [
+        "Thoughtful guidance before aesthetic decisions"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "desktop",
-      "page": "blog.html",
       "label": "Blog",
+      "href": "blog.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Clear notes on skin, laser, and responsible care",
-      "sectionCount": 5,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 1440,
-      "viewportWidth": 1440,
-      "pageHeight": 4666,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 1440,
-          "right": 1848,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 1464,
-          "right": 1824,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 1464,
-          "right": 1624,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 1464,
-          "right": 1518,
-          "width": 54
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1780,
-          "right": 1824,
-          "width": 44
-        }
+      "screenshot": "desktop/blog.png",
+      "errors": [],
+      "title": "Blog | Skin, Laser, and Aesthetic Care Notes",
+      "h1s": [
+        "Clear notes on skin, laser, and responsible care"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "desktop",
-      "page": "mission.html",
       "label": "Mission",
+      "href": "mission.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "A mission built on listening and responsibility",
-      "sectionCount": 5,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 1440,
-      "viewportWidth": 1440,
-      "pageHeight": 4353,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 1440,
-          "right": 1848,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 1464,
-          "right": 1824,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 1464,
-          "right": 1624,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 1464,
-          "right": 1518,
-          "width": 54
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1780,
-          "right": 1824,
-          "width": 44
-        }
+      "screenshot": "desktop/mission.png",
+      "errors": [],
+      "title": "Mission | Responsible Aesthetic Care by Franciele Sofiati",
+      "h1s": [
+        "A mission built on listening and responsibility"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "desktop",
-      "page": "values.html",
       "label": "Values",
+      "href": "values.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Principles that guide every consultation",
-      "sectionCount": 5,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 1440,
-      "viewportWidth": 1440,
-      "pageHeight": 4651,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 1440,
-          "right": 1848,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 1464,
-          "right": 1824,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 1464,
-          "right": 1624,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 1464,
-          "right": 1518,
-          "width": 54
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1780,
-          "right": 1824,
-          "width": 44
-        }
+      "screenshot": "desktop/values.png",
+      "errors": [],
+      "title": "Values | Listening, Clarity, Comfort, Responsibility",
+      "h1s": [
+        "Principles that guide every consultation"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "desktop",
-      "page": "testimonials.html",
       "label": "Testimonials",
+      "href": "testimonials.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Patient experience should be truthful, approved, and specific",
-      "sectionCount": 5,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 1440,
-      "viewportWidth": 1440,
-      "pageHeight": 4149,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 1440,
-          "right": 1848,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 1464,
-          "right": 1824,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 1464,
-          "right": 1624,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 1464,
-          "right": 1518,
-          "width": 54
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1780,
-          "right": 1824,
-          "width": 44
-        }
+      "screenshot": "desktop/testimonials.png",
+      "errors": [],
+      "title": "Testimonials | Trust and Responsible Care",
+      "h1s": [
+        "Patient experience should be truthful, approved, and specific"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "desktop",
-      "page": "privacy.html",
       "label": "Privacy",
+      "href": "privacy.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Privacy information with clarity",
-      "sectionCount": 3,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 1440,
-      "viewportWidth": 1440,
-      "pageHeight": 2912,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 1440,
-          "right": 1848,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 1464,
-          "right": 1824,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 1464,
-          "right": 1624,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 1464,
-          "right": 1518,
-          "width": 54
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1780,
-          "right": 1824,
-          "width": 44
-        }
+      "screenshot": "desktop/privacy.png",
+      "errors": [],
+      "title": "Privacy | Franciele Sofiati Biomédica",
+      "h1s": [
+        "Privacy information with clarity"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "desktop",
-      "page": "cookies.html",
       "label": "Cookies",
+      "href": "cookies.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Cookie choices, explained simply",
-      "sectionCount": 3,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 1440,
-      "viewportWidth": 1440,
-      "pageHeight": 2844,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 1440,
-          "right": 1848,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 1464,
-          "right": 1824,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 1464,
-          "right": 1624,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 1464,
-          "right": 1518,
-          "width": 54
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1780,
-          "right": 1824,
-          "width": 44
-        }
+      "screenshot": "desktop/cookies.png",
+      "errors": [],
+      "title": "Cookies | Sofiati Website Preferences",
+      "h1s": [
+        "Cookie choices, explained simply"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "desktop",
-      "page": "accessibility.html",
       "label": "Accessibility",
+      "href": "accessibility.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Accessible, comfortable site use",
-      "sectionCount": 3,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 1440,
-      "viewportWidth": 1440,
-      "pageHeight": 2912,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 1440,
-          "right": 1848,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 1464,
-          "right": 1824,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 1464,
-          "right": 1624,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 1464,
-          "right": 1518,
-          "width": 54
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1780,
-          "right": 1824,
-          "width": 44
-        }
+      "screenshot": "desktop/accessibility.png",
+      "errors": [],
+      "title": "Accessibility | Sofiati Website",
+      "h1s": [
+        "Accessible, comfortable site use"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "desktop",
-      "page": "legal.html",
       "label": "Legal",
+      "href": "legal.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Professional legal clarity",
-      "sectionCount": 3,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 1440,
-      "viewportWidth": 1440,
-      "pageHeight": 2963,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 1440,
-          "right": 1848,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 1464,
-          "right": 1824,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 1464,
-          "right": 1624,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 1464,
-          "right": 1518,
-          "width": 54
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1780,
-          "right": 1824,
-          "width": 44
-        }
+      "screenshot": "desktop/legal.png",
+      "errors": [],
+      "title": "Legal Notes | Responsible Website Information",
+      "h1s": [
+        "Professional legal clarity"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "desktop",
-      "page": "thank-you.html",
       "label": "Thank You",
+      "href": "thank-you.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Thank you for reaching out",
-      "sectionCount": 3,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 1440,
-      "viewportWidth": 1440,
-      "pageHeight": 3482,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 1440,
-          "right": 1848,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 1464,
-          "right": 1824,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 1464,
-          "right": 1624,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 1464,
-          "right": 1518,
-          "width": 54
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1780,
-          "right": 1824,
-          "width": 44
-        }
+      "screenshot": "desktop/thank-you.png",
+      "errors": [],
+      "title": "Thank You | Franciele Sofiati Biomédica",
+      "h1s": [
+        "Thank you for reaching out"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "desktop",
-      "page": "404.html",
       "label": "404",
+      "href": "404.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "This page could not be found",
-      "sectionCount": 3,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 1440,
-      "viewportWidth": 1440,
-      "pageHeight": 3291,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 1440,
-          "right": 1848,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 1464,
-          "right": 1824,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 1464,
-          "right": 1624,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 1464,
-          "right": 1518,
-          "width": 54
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 1530,
-          "right": 1624,
-          "width": 94
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1780,
-          "right": 1824,
-          "width": 44
-        }
+      "screenshot": "desktop/404.png",
+      "errors": [],
+      "title": "Page Not Found | Franciele Sofiati Biomédica",
+      "h1s": [
+        "This page could not be found"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "tablet",
-      "page": "index.html",
       "label": "Home",
+      "href": "index.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Consultation-led aesthetic care in Londrina",
-      "sectionCount": 7,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 820,
-      "viewportWidth": 820,
-      "pageHeight": 7609,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 820,
-          "right": 1228,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 844,
-          "right": 1204,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 844,
-          "right": 1004,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 844,
-          "right": 890,
-          "width": 46
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1160,
-          "right": 1204,
-          "width": 44
-        }
+      "screenshot": "tablet/home.png",
+      "errors": [],
+      "title": "Home | Franciele Sofiati Biomédica",
+      "h1s": [
+        "Consultation-led aesthetic care in Londrina"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "tablet",
-      "page": "about.html",
       "label": "About",
+      "href": "about.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Meet Franciele Sofiati, Biomédica",
-      "sectionCount": 6,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 820,
-      "viewportWidth": 820,
-      "pageHeight": 6608,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 820,
-          "right": 1228,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 844,
-          "right": 1204,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 844,
-          "right": 1004,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 844,
-          "right": 890,
-          "width": 46
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1160,
-          "right": 1204,
-          "width": 44
-        }
+      "screenshot": "tablet/about.png",
+      "errors": [],
+      "title": "About Franciele Sofiati | Biomédica in Londrina",
+      "h1s": [
+        "Meet Franciele Sofiati, Biomédica"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "tablet",
-      "page": "care.html",
       "label": "Care",
+      "href": "care.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Care begins with listening and evaluation",
-      "sectionCount": 6,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 820,
-      "viewportWidth": 820,
-      "pageHeight": 5606,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 820,
-          "right": 1228,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 844,
-          "right": 1204,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 844,
-          "right": 1004,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 844,
-          "right": 890,
-          "width": 46
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1160,
-          "right": 1204,
-          "width": 44
-        }
+      "screenshot": "tablet/care.png",
+      "errors": [],
+      "title": "Care Approach | Responsible Aesthetic Care in Londrina",
+      "h1s": [
+        "Care begins with listening and evaluation"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "tablet",
-      "page": "laser.html",
       "label": "Laser",
+      "href": "laser.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Laser care with suitability first",
-      "sectionCount": 6,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 820,
-      "viewportWidth": 820,
-      "pageHeight": 5162,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 820,
-          "right": 1228,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 844,
-          "right": 1204,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 844,
-          "right": 1004,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 844,
-          "right": 890,
-          "width": 46
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1160,
-          "right": 1204,
-          "width": 44
-        }
+      "screenshot": "tablet/laser.png",
+      "errors": [],
+      "title": "Laser Guidance in Londrina | Suitability and Aftercare",
+      "h1s": [
+        "Laser care with suitability first"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "tablet",
-      "page": "skin.html",
       "label": "Skin",
+      "href": "skin.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Skin care guided by your context",
-      "sectionCount": 6,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 820,
-      "viewportWidth": 820,
-      "pageHeight": 5684,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 820,
-          "right": 1228,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 844,
-          "right": 1204,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 844,
-          "right": 1004,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 844,
-          "right": 890,
-          "width": 46
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1160,
-          "right": 1204,
-          "width": 44
-        }
+      "screenshot": "tablet/skin.png",
+      "errors": [],
+      "title": "Skin Guidance in Londrina | Franciele Sofiati Biomédica",
+      "h1s": [
+        "Skin care guided by your context"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "tablet",
-      "page": "results.html",
       "label": "Results",
+      "href": "results.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Results are best understood with context",
-      "sectionCount": 6,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 820,
-      "viewportWidth": 820,
-      "pageHeight": 5735,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 820,
-          "right": 1228,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 844,
-          "right": 1204,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 844,
-          "right": 1004,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 844,
-          "right": 890,
-          "width": 46
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1160,
-          "right": 1204,
-          "width": 44
-        }
+      "screenshot": "tablet/results.png",
+      "errors": [],
+      "title": "Results | Realistic Aesthetic Expectations",
+      "h1s": [
+        "Results are best understood with context"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "tablet",
-      "page": "consultation.html",
       "label": "Consultation",
+      "href": "consultation.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Request a consultation before treatment decisions",
-      "sectionCount": 6,
-      "formCount": 1,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 820,
-      "viewportWidth": 820,
-      "pageHeight": 6283,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 820,
-          "right": 1228,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 844,
-          "right": 1204,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 844,
-          "right": 1004,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 844,
-          "right": 890,
-          "width": 46
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1160,
-          "right": 1204,
-          "width": 44
-        }
+      "screenshot": "tablet/consultation.png",
+      "errors": [],
+      "title": "Aesthetic Consultation in Londrina | Franciele Sofiati Biomédica",
+      "h1s": [
+        "Request a consultation before treatment decisions"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "tablet",
-      "page": "contact.html",
       "label": "Contact",
+      "href": "contact.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Start with a simple message",
-      "sectionCount": 5,
-      "formCount": 1,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 820,
-      "viewportWidth": 820,
-      "pageHeight": 4940,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 820,
-          "right": 1228,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 844,
-          "right": 1204,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 844,
-          "right": 1004,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 844,
-          "right": 890,
-          "width": 46
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1160,
-          "right": 1204,
-          "width": 44
-        }
+      "screenshot": "tablet/contact.png",
+      "errors": [],
+      "title": "Contact Franciele Sofiati | Consultation in Londrina",
+      "h1s": [
+        "Start with a simple message"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "tablet",
-      "page": "faq.html",
       "label": "FAQ",
+      "href": "faq.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Practical answers before aesthetic care",
-      "sectionCount": 5,
-      "formCount": 0,
-      "detailsCount": 6,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 820,
-      "viewportWidth": 820,
-      "pageHeight": 4336,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 820,
-          "right": 1228,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 844,
-          "right": 1204,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 844,
-          "right": 1004,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 844,
-          "right": 890,
-          "width": 46
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1160,
-          "right": 1204,
-          "width": 44
-        }
+      "screenshot": "tablet/faq.png",
+      "errors": [],
+      "title": "FAQ | Skin, Laser, and Aesthetic Consultation Questions",
+      "h1s": [
+        "Practical answers before aesthetic care"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "tablet",
-      "page": "journal.html",
       "label": "Journal",
+      "href": "journal.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Thoughtful guidance before aesthetic decisions",
-      "sectionCount": 5,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 820,
-      "viewportWidth": 820,
-      "pageHeight": 5876,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 820,
-          "right": 1228,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 844,
-          "right": 1204,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 844,
-          "right": 1004,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 844,
-          "right": 890,
-          "width": 46
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1160,
-          "right": 1204,
-          "width": 44
-        }
+      "screenshot": "tablet/journal.png",
+      "errors": [],
+      "title": "Journal | Responsible Skin and Laser Guidance",
+      "h1s": [
+        "Thoughtful guidance before aesthetic decisions"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "tablet",
-      "page": "blog.html",
       "label": "Blog",
+      "href": "blog.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Clear notes on skin, laser, and responsible care",
-      "sectionCount": 5,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 820,
-      "viewportWidth": 820,
-      "pageHeight": 5825,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 820,
-          "right": 1228,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 844,
-          "right": 1204,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 844,
-          "right": 1004,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 844,
-          "right": 890,
-          "width": 46
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1160,
-          "right": 1204,
-          "width": 44
-        }
+      "screenshot": "tablet/blog.png",
+      "errors": [],
+      "title": "Blog | Skin, Laser, and Aesthetic Care Notes",
+      "h1s": [
+        "Clear notes on skin, laser, and responsible care"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "tablet",
-      "page": "mission.html",
       "label": "Mission",
+      "href": "mission.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "A mission built on listening and responsibility",
-      "sectionCount": 5,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 820,
-      "viewportWidth": 820,
-      "pageHeight": 5050,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 820,
-          "right": 1228,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 844,
-          "right": 1204,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 844,
-          "right": 1004,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 844,
-          "right": 890,
-          "width": 46
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1160,
-          "right": 1204,
-          "width": 44
-        }
+      "screenshot": "tablet/mission.png",
+      "errors": [],
+      "title": "Mission | Responsible Aesthetic Care by Franciele Sofiati",
+      "h1s": [
+        "A mission built on listening and responsibility"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "tablet",
-      "page": "values.html",
       "label": "Values",
+      "href": "values.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Principles that guide every consultation",
-      "sectionCount": 5,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 820,
-      "viewportWidth": 820,
-      "pageHeight": 5210,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 820,
-          "right": 1228,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 844,
-          "right": 1204,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 844,
-          "right": 1004,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 844,
-          "right": 890,
-          "width": 46
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1160,
-          "right": 1204,
-          "width": 44
-        }
+      "screenshot": "tablet/values.png",
+      "errors": [],
+      "title": "Values | Listening, Clarity, Comfort, Responsibility",
+      "h1s": [
+        "Principles that guide every consultation"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "tablet",
-      "page": "testimonials.html",
       "label": "Testimonials",
+      "href": "testimonials.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Patient experience should be truthful, approved, and specific",
-      "sectionCount": 5,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 820,
-      "viewportWidth": 820,
-      "pageHeight": 4878,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 820,
-          "right": 1228,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 844,
-          "right": 1204,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 844,
-          "right": 1004,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 844,
-          "right": 890,
-          "width": 46
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1160,
-          "right": 1204,
-          "width": 44
-        }
+      "screenshot": "tablet/testimonials.png",
+      "errors": [],
+      "title": "Testimonials | Trust and Responsible Care",
+      "h1s": [
+        "Patient experience should be truthful, approved, and specific"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "tablet",
-      "page": "privacy.html",
       "label": "Privacy",
+      "href": "privacy.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Privacy information with clarity",
-      "sectionCount": 3,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 820,
-      "viewportWidth": 820,
-      "pageHeight": 2993,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 820,
-          "right": 1228,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 844,
-          "right": 1204,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 844,
-          "right": 1004,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 844,
-          "right": 890,
-          "width": 46
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1160,
-          "right": 1204,
-          "width": 44
-        }
+      "screenshot": "tablet/privacy.png",
+      "errors": [],
+      "title": "Privacy | Franciele Sofiati Biomédica",
+      "h1s": [
+        "Privacy information with clarity"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "tablet",
-      "page": "cookies.html",
       "label": "Cookies",
+      "href": "cookies.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Cookie choices, explained simply",
-      "sectionCount": 3,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 820,
-      "viewportWidth": 820,
-      "pageHeight": 2925,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 820,
-          "right": 1228,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 844,
-          "right": 1204,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 844,
-          "right": 1004,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 844,
-          "right": 890,
-          "width": 46
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1160,
-          "right": 1204,
-          "width": 44
-        }
+      "screenshot": "tablet/cookies.png",
+      "errors": [],
+      "title": "Cookies | Sofiati Website Preferences",
+      "h1s": [
+        "Cookie choices, explained simply"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "tablet",
-      "page": "accessibility.html",
       "label": "Accessibility",
+      "href": "accessibility.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Accessible, comfortable site use",
-      "sectionCount": 3,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 820,
-      "viewportWidth": 820,
-      "pageHeight": 2993,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 820,
-          "right": 1228,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 844,
-          "right": 1204,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 844,
-          "right": 1004,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 844,
-          "right": 890,
-          "width": 46
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1160,
-          "right": 1204,
-          "width": 44
-        }
+      "screenshot": "tablet/accessibility.png",
+      "errors": [],
+      "title": "Accessibility | Sofiati Website",
+      "h1s": [
+        "Accessible, comfortable site use"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "tablet",
-      "page": "legal.html",
       "label": "Legal",
+      "href": "legal.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Professional legal clarity",
-      "sectionCount": 3,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 820,
-      "viewportWidth": 820,
-      "pageHeight": 3035,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 820,
-          "right": 1228,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 844,
-          "right": 1204,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 844,
-          "right": 1004,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 844,
-          "right": 890,
-          "width": 46
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1160,
-          "right": 1204,
-          "width": 44
-        }
+      "screenshot": "tablet/legal.png",
+      "errors": [],
+      "title": "Legal Notes | Responsible Website Information",
+      "h1s": [
+        "Professional legal clarity"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "tablet",
-      "page": "thank-you.html",
       "label": "Thank You",
+      "href": "thank-you.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Thank you for reaching out",
-      "sectionCount": 3,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 820,
-      "viewportWidth": 820,
-      "pageHeight": 4256,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 820,
-          "right": 1228,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 844,
-          "right": 1204,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 844,
-          "right": 1004,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 844,
-          "right": 890,
-          "width": 46
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1160,
-          "right": 1204,
-          "width": 44
-        }
+      "screenshot": "tablet/thank-you.png",
+      "errors": [],
+      "title": "Thank You | Franciele Sofiati Biomédica",
+      "h1s": [
+        "Thank you for reaching out"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "tablet",
-      "page": "404.html",
       "label": "404",
+      "href": "404.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "This page could not be found",
-      "sectionCount": 3,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 820,
-      "viewportWidth": 820,
-      "pageHeight": 4078,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 820,
-          "right": 1228,
-          "width": 408
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 844,
-          "right": 1204,
-          "width": 360
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 844,
-          "right": 1004,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 844,
-          "right": 890,
-          "width": 46
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 902,
-          "right": 1004,
-          "width": 102
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 1160,
-          "right": 1204,
-          "width": 44
-        }
+      "screenshot": "tablet/404.png",
+      "errors": [],
+      "title": "Page Not Found | Franciele Sofiati Biomédica",
+      "h1s": [
+        "This page could not be found"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "mobile",
-      "page": "index.html",
       "label": "Home",
+      "href": "index.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Consultation-led aesthetic care in Londrina",
-      "sectionCount": 7,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 390,
-      "viewportWidth": 390,
-      "pageHeight": 7423,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 390,
-          "right": 780,
-          "width": 390
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 406,
-          "right": 764,
-          "width": 358
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 406,
-          "right": 566,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 406,
-          "right": 445,
-          "width": 39
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 720,
-          "right": 764,
-          "width": 44
-        }
+      "screenshot": "mobile/home.png",
+      "errors": [],
+      "title": "Home | Franciele Sofiati Biomédica",
+      "h1s": [
+        "Consultation-led aesthetic care in Londrina"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "mobile",
-      "page": "about.html",
       "label": "About",
+      "href": "about.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Meet Franciele Sofiati, Biomédica",
-      "sectionCount": 6,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 390,
-      "viewportWidth": 390,
-      "pageHeight": 6366,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 390,
-          "right": 780,
-          "width": 390
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 406,
-          "right": 764,
-          "width": 358
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 406,
-          "right": 566,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 406,
-          "right": 445,
-          "width": 39
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 720,
-          "right": 764,
-          "width": 44
-        }
+      "screenshot": "mobile/about.png",
+      "errors": [],
+      "title": "About Franciele Sofiati | Biomédica in Londrina",
+      "h1s": [
+        "Meet Franciele Sofiati, Biomédica"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "mobile",
-      "page": "care.html",
       "label": "Care",
+      "href": "care.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Care begins with listening and evaluation",
-      "sectionCount": 6,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 390,
-      "viewportWidth": 390,
-      "pageHeight": 5910,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 390,
-          "right": 780,
-          "width": 390
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 406,
-          "right": 764,
-          "width": 358
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 406,
-          "right": 566,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 406,
-          "right": 445,
-          "width": 39
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 720,
-          "right": 764,
-          "width": 44
-        }
+      "screenshot": "mobile/care.png",
+      "errors": [],
+      "title": "Care Approach | Responsible Aesthetic Care in Londrina",
+      "h1s": [
+        "Care begins with listening and evaluation"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "mobile",
-      "page": "laser.html",
       "label": "Laser",
+      "href": "laser.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Laser care with suitability first",
-      "sectionCount": 6,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 390,
-      "viewportWidth": 390,
-      "pageHeight": 5686,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 390,
-          "right": 780,
-          "width": 390
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 406,
-          "right": 764,
-          "width": 358
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 406,
-          "right": 566,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 406,
-          "right": 445,
-          "width": 39
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 720,
-          "right": 764,
-          "width": 44
-        }
+      "screenshot": "mobile/laser.png",
+      "errors": [],
+      "title": "Laser Guidance in Londrina | Suitability and Aftercare",
+      "h1s": [
+        "Laser care with suitability first"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "mobile",
-      "page": "skin.html",
       "label": "Skin",
+      "href": "skin.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Skin care guided by your context",
-      "sectionCount": 6,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 390,
-      "viewportWidth": 390,
-      "pageHeight": 5838,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 390,
-          "right": 780,
-          "width": 390
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 406,
-          "right": 764,
-          "width": 358
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 406,
-          "right": 566,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 406,
-          "right": 445,
-          "width": 39
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 720,
-          "right": 764,
-          "width": 44
-        }
+      "screenshot": "mobile/skin.png",
+      "errors": [],
+      "title": "Skin Guidance in Londrina | Franciele Sofiati Biomédica",
+      "h1s": [
+        "Skin care guided by your context"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "mobile",
-      "page": "results.html",
       "label": "Results",
+      "href": "results.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Results are best understood with context",
-      "sectionCount": 6,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 390,
-      "viewportWidth": 390,
-      "pageHeight": 5928,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 390,
-          "right": 780,
-          "width": 390
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 406,
-          "right": 764,
-          "width": 358
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 406,
-          "right": 566,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 406,
-          "right": 445,
-          "width": 39
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 720,
-          "right": 764,
-          "width": 44
-        }
+      "screenshot": "mobile/results.png",
+      "errors": [],
+      "title": "Results | Realistic Aesthetic Expectations",
+      "h1s": [
+        "Results are best understood with context"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "mobile",
-      "page": "consultation.html",
       "label": "Consultation",
+      "href": "consultation.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Request a consultation before treatment decisions",
-      "sectionCount": 6,
-      "formCount": 1,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 390,
-      "viewportWidth": 390,
-      "pageHeight": 6720,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 390,
-          "right": 780,
-          "width": 390
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 406,
-          "right": 764,
-          "width": 358
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 406,
-          "right": 566,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 406,
-          "right": 445,
-          "width": 39
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 720,
-          "right": 764,
-          "width": 44
-        }
+      "screenshot": "mobile/consultation.png",
+      "errors": [],
+      "title": "Aesthetic Consultation in Londrina | Franciele Sofiati Biomédica",
+      "h1s": [
+        "Request a consultation before treatment decisions"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "mobile",
-      "page": "contact.html",
       "label": "Contact",
+      "href": "contact.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Start with a simple message",
-      "sectionCount": 5,
-      "formCount": 1,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 390,
-      "viewportWidth": 390,
-      "pageHeight": 5328,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 390,
-          "right": 780,
-          "width": 390
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 406,
-          "right": 764,
-          "width": 358
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 406,
-          "right": 566,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 406,
-          "right": 445,
-          "width": 39
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 720,
-          "right": 764,
-          "width": 44
-        }
+      "screenshot": "mobile/contact.png",
+      "errors": [],
+      "title": "Contact Franciele Sofiati | Consultation in Londrina",
+      "h1s": [
+        "Start with a simple message"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "mobile",
-      "page": "faq.html",
       "label": "FAQ",
+      "href": "faq.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Practical answers before aesthetic care",
-      "sectionCount": 5,
-      "formCount": 0,
-      "detailsCount": 6,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 390,
-      "viewportWidth": 390,
-      "pageHeight": 4677,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 390,
-          "right": 780,
-          "width": 390
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 406,
-          "right": 764,
-          "width": 358
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 406,
-          "right": 566,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 406,
-          "right": 445,
-          "width": 39
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 720,
-          "right": 764,
-          "width": 44
-        }
+      "screenshot": "mobile/faq.png",
+      "errors": [],
+      "title": "FAQ | Skin, Laser, and Aesthetic Consultation Questions",
+      "h1s": [
+        "Practical answers before aesthetic care"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "mobile",
-      "page": "journal.html",
       "label": "Journal",
+      "href": "journal.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Thoughtful guidance before aesthetic decisions",
-      "sectionCount": 5,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 390,
-      "viewportWidth": 390,
-      "pageHeight": 5526,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 390,
-          "right": 780,
-          "width": 390
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 406,
-          "right": 764,
-          "width": 358
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 406,
-          "right": 566,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 406,
-          "right": 445,
-          "width": 39
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 720,
-          "right": 764,
-          "width": 44
-        }
+      "screenshot": "mobile/journal.png",
+      "errors": [],
+      "title": "Journal | Responsible Skin and Laser Guidance",
+      "h1s": [
+        "Thoughtful guidance before aesthetic decisions"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "mobile",
-      "page": "blog.html",
       "label": "Blog",
+      "href": "blog.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Clear notes on skin, laser, and responsible care",
-      "sectionCount": 5,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 390,
-      "viewportWidth": 390,
-      "pageHeight": 5486,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 390,
-          "right": 780,
-          "width": 390
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 406,
-          "right": 764,
-          "width": 358
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 406,
-          "right": 566,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 406,
-          "right": 445,
-          "width": 39
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 720,
-          "right": 764,
-          "width": 44
-        }
+      "screenshot": "mobile/blog.png",
+      "errors": [],
+      "title": "Blog | Skin, Laser, and Aesthetic Care Notes",
+      "h1s": [
+        "Clear notes on skin, laser, and responsible care"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "mobile",
-      "page": "mission.html",
       "label": "Mission",
+      "href": "mission.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "A mission built on listening and responsibility",
-      "sectionCount": 5,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 390,
-      "viewportWidth": 390,
-      "pageHeight": 5110,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 390,
-          "right": 780,
-          "width": 390
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 406,
-          "right": 764,
-          "width": 358
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 406,
-          "right": 566,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 406,
-          "right": 445,
-          "width": 39
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 720,
-          "right": 764,
-          "width": 44
-        }
+      "screenshot": "mobile/mission.png",
+      "errors": [],
+      "title": "Mission | Responsible Aesthetic Care by Franciele Sofiati",
+      "h1s": [
+        "A mission built on listening and responsibility"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "mobile",
-      "page": "values.html",
       "label": "Values",
+      "href": "values.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Principles that guide every consultation",
-      "sectionCount": 5,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 390,
-      "viewportWidth": 390,
-      "pageHeight": 5579,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 390,
-          "right": 780,
-          "width": 390
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 406,
-          "right": 764,
-          "width": 358
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 406,
-          "right": 566,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 406,
-          "right": 445,
-          "width": 39
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 720,
-          "right": 764,
-          "width": 44
-        }
+      "screenshot": "mobile/values.png",
+      "errors": [],
+      "title": "Values | Listening, Clarity, Comfort, Responsibility",
+      "h1s": [
+        "Principles that guide every consultation"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "mobile",
-      "page": "testimonials.html",
       "label": "Testimonials",
+      "href": "testimonials.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Patient experience should be truthful, approved, and specific",
-      "sectionCount": 5,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 390,
-      "viewportWidth": 390,
-      "pageHeight": 4840,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 390,
-          "right": 780,
-          "width": 390
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 406,
-          "right": 764,
-          "width": 358
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 406,
-          "right": 566,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 406,
-          "right": 445,
-          "width": 39
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 720,
-          "right": 764,
-          "width": 44
-        }
+      "screenshot": "mobile/testimonials.png",
+      "errors": [],
+      "title": "Testimonials | Trust and Responsible Care",
+      "h1s": [
+        "Patient experience should be truthful, approved, and specific"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "mobile",
-      "page": "privacy.html",
       "label": "Privacy",
+      "href": "privacy.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Privacy information with clarity",
-      "sectionCount": 3,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 390,
-      "viewportWidth": 390,
-      "pageHeight": 3660,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 390,
-          "right": 780,
-          "width": 390
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 406,
-          "right": 764,
-          "width": 358
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 406,
-          "right": 566,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 406,
-          "right": 445,
-          "width": 39
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 720,
-          "right": 764,
-          "width": 44
-        }
+      "screenshot": "mobile/privacy.png",
+      "errors": [],
+      "title": "Privacy | Franciele Sofiati Biomédica",
+      "h1s": [
+        "Privacy information with clarity"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "mobile",
-      "page": "cookies.html",
       "label": "Cookies",
+      "href": "cookies.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Cookie choices, explained simply",
-      "sectionCount": 3,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 390,
-      "viewportWidth": 390,
-      "pageHeight": 3652,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 390,
-          "right": 780,
-          "width": 390
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 406,
-          "right": 764,
-          "width": 358
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 406,
-          "right": 566,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 406,
-          "right": 445,
-          "width": 39
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 720,
-          "right": 764,
-          "width": 44
-        }
+      "screenshot": "mobile/cookies.png",
+      "errors": [],
+      "title": "Cookies | Sofiati Website Preferences",
+      "h1s": [
+        "Cookie choices, explained simply"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "mobile",
-      "page": "accessibility.html",
       "label": "Accessibility",
+      "href": "accessibility.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Accessible, comfortable site use",
-      "sectionCount": 3,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 390,
-      "viewportWidth": 390,
-      "pageHeight": 3634,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 390,
-          "right": 780,
-          "width": 390
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 406,
-          "right": 764,
-          "width": 358
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 406,
-          "right": 566,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 406,
-          "right": 445,
-          "width": 39
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 720,
-          "right": 764,
-          "width": 44
-        }
+      "screenshot": "mobile/accessibility.png",
+      "errors": [],
+      "title": "Accessibility | Sofiati Website",
+      "h1s": [
+        "Accessible, comfortable site use"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "mobile",
-      "page": "legal.html",
       "label": "Legal",
+      "href": "legal.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Professional legal clarity",
-      "sectionCount": 3,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 390,
-      "viewportWidth": 390,
-      "pageHeight": 3611,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 390,
-          "right": 780,
-          "width": 390
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 406,
-          "right": 764,
-          "width": 358
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 406,
-          "right": 566,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 406,
-          "right": 445,
-          "width": 39
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 720,
-          "right": 764,
-          "width": 44
-        }
+      "screenshot": "mobile/legal.png",
+      "errors": [],
+      "title": "Legal Notes | Responsible Website Information",
+      "h1s": [
+        "Professional legal clarity"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "mobile",
-      "page": "thank-you.html",
       "label": "Thank You",
+      "href": "thank-you.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "Thank you for reaching out",
-      "sectionCount": 3,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 390,
-      "viewportWidth": 390,
-      "pageHeight": 4102,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 390,
-          "right": 780,
-          "width": 390
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 406,
-          "right": 764,
-          "width": 358
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 406,
-          "right": 566,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 406,
-          "right": 445,
-          "width": 39
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 720,
-          "right": 764,
-          "width": 44
-        }
+      "screenshot": "mobile/thank-you.png",
+      "errors": [],
+      "title": "Thank You | Franciele Sofiati Biomédica",
+      "h1s": [
+        "Thank you for reaching out"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     },
     {
       "viewport": "mobile",
-      "page": "404.html",
       "label": "404",
+      "href": "404.html",
       "status": 200,
-      "consoleMessages": [],
-      "pageErrors": [],
-      "requestFailures": [],
-      "partialsReady": "true",
-      "h1Count": 1,
-      "h1": "This page could not be found",
-      "sectionCount": 3,
-      "formCount": 0,
-      "detailsCount": 0,
-      "brokenImages": [],
-      "horizontalOverflow": false,
-      "scrollWidth": 390,
-      "viewportWidth": 390,
-      "pageHeight": 4066,
-      "overflows": [
-        {
-          "tag": "div",
-          "className": "sf-mobile-dialog",
-          "left": 390,
-          "right": 780,
-          "width": 390
-        },
-        {
-          "tag": "div",
-          "className": "sf-mobile-top",
-          "left": 406,
-          "right": 764,
-          "width": 358
-        },
-        {
-          "tag": "a",
-          "className": "sf-mobile-brand",
-          "left": 406,
-          "right": 566,
-          "width": 160
-        },
-        {
-          "tag": "img",
-          "className": "sf-logo-img",
-          "left": 406,
-          "right": 445,
-          "width": 39
-        },
-        {
-          "tag": "span",
-          "className": "sf-brand-text",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "span",
-          "className": "",
-          "left": 457,
-          "right": 561,
-          "width": 104
-        },
-        {
-          "tag": "button",
-          "className": "sf-mobile-close",
-          "left": 720,
-          "right": 764,
-          "width": 44
-        }
+      "screenshot": "mobile/404.png",
+      "errors": [],
+      "title": "Page Not Found | Franciele Sofiati Biomédica",
+      "h1s": [
+        "This page could not be found"
       ],
-      "footerPresent": true,
-      "headerPresent": true,
-      "cookieVisible": false,
-      "floatingTools": true
+      "partialsReady": "true",
+      "horizontalOverflow": false,
+      "brokenVisibleImages": []
     }
   ]
 }
