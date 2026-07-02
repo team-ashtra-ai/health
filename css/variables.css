@@ -9,6 +9,10 @@
   --sf-gold: #d8b06a;
   --sf-gold-pale: #fde3b0;
   --sf-bronze: #735011;
+  --sf-clay: #a7654a;
+  --sf-clay-soft: #ead1c4;
+  --sf-rosewood: #6d3f35;
+  --sf-mist: #dfe6dc;
   --sf-ink: #252321;
   --sf-muted: #625f56;
   --sf-surface: color-mix(in srgb, var(--sf-white), var(--sf-ivory) 18%);
