@@ -1,34 +1,86 @@
 @layer components {
   .sf-form, .sf-search-form, .sf-treatment-filter__inner { display: grid; gap: var(--space-4); }
-  .sf-field { display: grid; align-content: start; gap: .45rem; min-inline-size: 0; }
-  .sf-field label, .sf-search-form label, .sf-treatment-filter label, .sf-faq-search label { color: var(--color-text-primary); font-size: .875rem; font-weight: 760; letter-spacing: .025em; }
+
+  form.sf-form {
+    inline-size: 100%;
+    max-inline-size: 72rem;
+    margin-inline: auto;
+    gap: clamp(1.25rem, 2.5vw, 2rem);
+    border: 1px solid color-mix(in srgb, var(--gold-500) 44%, transparent);
+    border-radius: clamp(1rem, 3vw, 2.5rem) .65rem clamp(1rem, 3vw, 2.5rem) clamp(1rem, 3vw, 2.5rem);
+    background:
+      radial-gradient(circle at 100% 0, rgb(239 210 202 / .34), transparent 25rem),
+      repeating-linear-gradient(0deg, rgb(88 74 48 / .016) 0 1px, transparent 1px 6px),
+      var(--ivory-50);
+    padding: clamp(1.25rem, 4vw, 3.5rem);
+    box-shadow: 0 1.75rem 4.5rem rgb(36 49 41 / .12), inset 0 1px 0 rgb(255 255 255 / .88);
+  }
+
+  .sf-field { display: grid; align-content: start; gap: .55rem; min-inline-size: 0; }
+
+  .sf-field label, .sf-search-form label, .sf-treatment-filter label, .sf-faq-search label {
+    color: var(--color-text-primary);
+    font-size: .9rem;
+    font-weight: 780;
+    letter-spacing: .018em;
+    line-height: 1.45;
+  }
 
   :is(.sf-form, .sf-search-form, .sf-treatment-filter, .sf-faq-search) :is(input:not([type="checkbox"]):not([type="radio"]), select, textarea) {
     inline-size: 100%;
-    min-block-size: var(--control-height);
-    border: 1px solid var(--color-border-subtle);
-    border-radius: var(--radius-sm);
-    background: color-mix(in srgb, var(--ivory-50) 94%, var(--white));
-    padding: .78rem 1rem;
-    box-shadow: inset 0 1px 0 color-mix(in srgb, var(--white) 82%, transparent);
-    transition: border-color var(--duration-fast), background var(--duration-fast), box-shadow var(--duration-fast);
+    min-block-size: max(var(--control-height), 3.7rem);
+    border: 1px solid color-mix(in srgb, var(--olive-700) 25%, transparent);
+    border-radius: .55rem;
+    background: rgb(255 255 255 / .94);
+    padding: .92rem 1.05rem;
+    color: var(--forest-900);
+    box-shadow: 0 .5rem 1.25rem rgb(36 49 41 / .035), inset 0 1px 0 color-mix(in srgb, var(--white) 88%, transparent);
+    transition: border-color var(--duration-fast), background var(--duration-fast), box-shadow var(--duration-fast), translate var(--duration-fast);
   }
 
-  :is(.sf-form, .sf-search-form, .sf-treatment-filter, .sf-faq-search) :is(input:not([type="checkbox"]):not([type="radio"]), select, textarea):hover { border-color: color-mix(in srgb, var(--olive-700) 35%, transparent); }
-  :is(.sf-form, .sf-search-form, .sf-treatment-filter, .sf-faq-search) :is(input:not([type="checkbox"]):not([type="radio"]), select, textarea):focus-visible { border-color: var(--gold-700); background: var(--white); box-shadow: var(--focus-ring); }
+  :is(.sf-form, .sf-search-form, .sf-treatment-filter, .sf-faq-search) :is(input:not([type="checkbox"]):not([type="radio"]), select, textarea):hover { border-color: color-mix(in srgb, var(--olive-700) 48%, transparent); }
+  :is(.sf-form, .sf-search-form, .sf-treatment-filter, .sf-faq-search) :is(input:not([type="checkbox"]):not([type="radio"]), select, textarea):focus-visible { border-color: var(--gold-700); background: var(--white); box-shadow: var(--focus-ring), 0 .75rem 1.5rem rgb(36 49 41 / .06); translate: 0 -.08rem; }
 
-  textarea { min-block-size: 9rem; resize: vertical; }
+  textarea { min-block-size: 10rem; resize: vertical; line-height: 1.65; }
   :is(input, select, textarea)::placeholder { color: color-mix(in srgb, var(--color-text-secondary) 67%, transparent); }
   :is(input, select, textarea)[aria-invalid="true"] { border-color: var(--color-error); background: color-mix(in srgb, var(--blush-50) 82%, var(--white)); }
   :is(input, select, textarea):disabled { cursor: not-allowed; opacity: .62; }
 
-  .sf-field-help { color: var(--color-text-secondary); font-size: .875rem; line-height: 1.5; }
+  .sf-form-introduction {
+    max-inline-size: 58ch;
+    border-inline-start: 2px solid var(--rose-gold-500);
+    background: color-mix(in srgb, var(--blush-50) 72%, transparent);
+    padding: .85rem 1rem;
+    color: var(--color-text-secondary);
+    font-size: .94rem;
+    line-height: 1.6;
+  }
+
+  .sf-field-help { color: var(--color-text-secondary); font-size: .84rem; line-height: 1.55; }
   .sf-form-error, .form-error { min-block-size: 1em; color: var(--color-error); font-size: .875rem; }
   .sf-required { color: var(--color-error); }
-  .sf-field--checkbox label { min-block-size: 2.75rem; display: grid; grid-template-columns: 1.35rem 1fr; align-items: start; gap: .75rem; border-radius: var(--radius-sm); padding: .4rem; font-weight: 520; line-height: 1.5; }
+
+  .sf-field--checkbox {
+    border: 1px solid color-mix(in srgb, var(--gold-500) 28%, transparent);
+    border-radius: .7rem;
+    background: color-mix(in srgb, var(--sage-50) 64%, var(--white));
+    padding: .7rem .8rem;
+  }
+
+  .sf-field--checkbox label { min-block-size: 2.75rem; display: grid; grid-template-columns: 1.35rem 1fr; align-items: start; gap: .8rem; border-radius: var(--radius-sm); padding: .35rem; font-weight: 540; line-height: 1.55; }
   .sf-field--checkbox input { inline-size: 1.25rem; block-size: 1.25rem; margin-block-start: .22rem; accent-color: var(--color-action-primary); }
-  .sf-form-states { min-block-size: 1.5rem; }
-  .sf-form-state, .sf-form-status { border: 1px solid var(--color-border-subtle); border-radius: var(--radius-sm); background: var(--color-bg-soft); padding: .85rem 1rem; }
+
+  form.sf-form > .sf-button {
+    inline-size: 100%;
+    min-block-size: 4rem;
+    margin-block-start: .25rem;
+    border-radius: .55rem;
+    box-shadow: 0 1rem 2.25rem rgb(36 49 41 / .16);
+  }
+
+  .sf-form-states { display: grid; min-block-size: 1.5rem; }
+  .sf-form-state, .sf-form-status { gap: .2rem; border: 1px solid var(--color-border-subtle); border-radius: .7rem; background: var(--color-bg-soft); padding: 1rem 1.1rem; line-height: 1.5; }
+  .sf-form-state:not([hidden]), .sf-form-status:not([hidden]) { display: grid; }
   .sf-form-state--success { border-color: color-mix(in srgb, var(--color-success) 32%, transparent); background: var(--sage-100); color: var(--color-success); }
   .sf-form-state--error { border-color: color-mix(in srgb, var(--color-error) 30%, transparent); background: var(--blush-100); color: var(--color-error); }
   .sf-honeypot { position: absolute; inset-inline-start: -10000px; }
@@ -36,5 +88,8 @@
   .sf-search-form { grid-template-columns: minmax(0, 2fr) minmax(12rem, 1fr); align-items: end; border: 1px solid var(--color-border-warm); border-radius: var(--radius-lg); background: color-mix(in srgb, var(--white) 72%, transparent); padding: clamp(1rem, 2.5vw, 1.8rem); box-shadow: var(--shadow-soft); }
   .sf-faq-search { max-inline-size: 48rem; margin-inline: auto; }
 
-  @media (max-width: 47.999rem) { .sf-search-form { grid-template-columns: 1fr; border-radius: var(--radius-md); } }
+  @media (max-width: 47.999rem) {
+    form.sf-form { border-radius: 1.35rem .5rem 1.35rem 1.35rem; padding: 1.1rem; }
+    .sf-search-form { grid-template-columns: 1fr; border-radius: var(--radius-md); }
+  }
 }

@@ -28909,6 +28909,46 @@
       "approved": false,
       "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
       "updated_at": "2026-07-17T15:12:33.196643+00:00"
+    },
+    "d5ca57c1785f2df31d8015bb4209c62224bd21f5541e711ccb5d155119547a83": {
+      "source": "Portrait study of Franciele Sofiati",
+      "translation": "Estudo retrato de Franciele Sofiati",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-17T15:54:53.373769+00:00"
+    },
+    "07ccee827ae47611969179cc4e48798ffdf343513f5aff25e72ea560273a3871": {
+      "source": "Franciele Sofiati, biomedical practitioner and aesthetician",
+      "translation": "Franciele Sofiati, biomédica e esteticista",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-17T15:54:53.425938+00:00"
+    },
+    "22b83f24b588bd07bacd5014c48282d6210533a560650d877dff99392b25c631": {
+      "source": "Portraits of Franciele Sofiati",
+      "translation": "Retratos de Franciele Sofiati",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-17T15:54:53.506450+00:00"
+    },
+    "6a8c61327f6c84ad588c21bd4f9d2687ddf5c237adb645734cf0d5ea9e7232c4": {
+      "source": "Franciele Sofiati, biomedical practitioner and aesthetician in Londrina",
+      "translation": "Franciele Sofiati, biomédica e estético em Londrina",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-17T15:54:53.742097+00:00"
+    },
+    "f76fbfa5e09becfdd47b0a3c9d3acb4218b810231fc0e73010b8b4e0761a2def": {
+      "source": "Factors that shape a result",
+      "translation": "Fatores que formam um resultado",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-17T15:54:53.998574+00:00"
     }
   }
 }

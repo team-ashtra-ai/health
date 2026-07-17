@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T15:13:54.553Z",
+  "generatedAt": "2026-07-17T16:09:57.268Z",
   "routeCount": 52,
   "englishOnly": false,
   "checks": [
@@ -36,7 +36,7 @@
     {
       "name": "contact.html @ 390px",
       "passed": true,
-      "detail": "{\"mains\":1,\"h1s\":1,\"duplicateIds\":[],\"brokenImages\":[],\"partialCounts\":{\"topbar\":1,\"header\":1,\"mobile-menu\":1,\"footer\":1,\"cookie-banner\":1,\"floating-widgets\":1},\"partialOrder\":[\"topbar\",\"header\",\"mobile-menu\",\"footer\",\"cookie-banner\",\"floating-widgets\"],\"partialRootsAreBodyChildren\":true,\"remainingPlaceholders\":0,\"partialEvents\":1,\"partialEventDetail\":{\"language\":\"en\",\"partials\":[\"topbar\",\"header\",\"mobile-menu\",\"footer\",\"cookie-banner\",\"floating-widgets\"]},\"languageLinks\":{\"en\":\"contact.html\",\"pt\":\"pt/contact.html\"},\"activeNavigationValid\":true,\"whatsappLinks\":[\"https://wa.me/5543991043536\"],\"backToTopCount\":1,\"partialRequests\":[\"/partials/top-bar.html\",\"/partials/header.html\",\"/partials/mobile-menu.html\",\"/partials/footer.html\",\"/partials/cookie-banner.html\",\"/partials/floating-widgets.html\"],\"errors\":[]}"
+      "detail": "{\"mains\":1,\"h1s\":1,\"duplicateIds\":[],\"brokenImages\":[],\"partialCounts\":{\"topbar\":1,\"header\":1,\"mobile-menu\":1,\"footer\":1,\"cookie-banner\":1,\"floating-widgets\":1},\"partialOrder\":[\"topbar\",\"header\",\"mobile-menu\",\"cookie-banner\",\"floating-widgets\",\"footer\"],\"partialRootsAreBodyChildren\":true,\"remainingPlaceholders\":0,\"partialEvents\":1,\"partialEventDetail\":{\"language\":\"en\",\"partials\":[\"topbar\",\"header\",\"mobile-menu\",\"cookie-banner\",\"floating-widgets\",\"footer\"]},\"languageLinks\":{\"en\":\"contact.html\",\"pt\":\"pt/contact.html\"},\"activeNavigationValid\":true,\"whatsappLinks\":[\"https://wa.me/5543991043536\"],\"backToTopCount\":1,\"partialRequests\":[\"/partials/top-bar.html\",\"/partials/header.html\",\"/partials/mobile-menu.html\",\"/partials/cookie-banner.html\",\"/partials/floating-widgets.html\",\"/partials/footer.html\"],\"errors\":[]}"
     },
     {
       "name": "cookies.html @ 390px",
@@ -161,7 +161,7 @@
     {
       "name": "pt/contact.html @ 390px",
       "passed": true,
-      "detail": "{\"mains\":1,\"h1s\":1,\"duplicateIds\":[],\"brokenImages\":[],\"partialCounts\":{\"topbar\":1,\"header\":1,\"mobile-menu\":1,\"footer\":1,\"cookie-banner\":1,\"floating-widgets\":1},\"partialOrder\":[\"topbar\",\"header\",\"mobile-menu\",\"footer\",\"cookie-banner\",\"floating-widgets\"],\"partialRootsAreBodyChildren\":true,\"remainingPlaceholders\":0,\"partialEvents\":1,\"partialEventDetail\":{\"language\":\"pt-BR\",\"partials\":[\"topbar\",\"header\",\"mobile-menu\",\"footer\",\"cookie-banner\",\"floating-widgets\"]},\"languageLinks\":{\"en\":\"../contact.html\",\"pt\":\"contact.html\"},\"activeNavigationValid\":true,\"whatsappLinks\":[\"https://wa.me/5543991043536\"],\"backToTopCount\":1,\"partialRequests\":[\"/partials/pt-BR/top-bar.html\",\"/partials/pt-BR/header.html\",\"/partials/pt-BR/mobile-menu.html\",\"/partials/pt-BR/footer.html\",\"/partials/pt-BR/cookie-banner.html\",\"/partials/pt-BR/floating-widgets.html\"],\"errors\":[]}"
+      "detail": "{\"mains\":1,\"h1s\":1,\"duplicateIds\":[],\"brokenImages\":[],\"partialCounts\":{\"topbar\":1,\"header\":1,\"mobile-menu\":1,\"footer\":1,\"cookie-banner\":1,\"floating-widgets\":1},\"partialOrder\":[\"topbar\",\"header\",\"mobile-menu\",\"cookie-banner\",\"floating-widgets\",\"footer\"],\"partialRootsAreBodyChildren\":true,\"remainingPlaceholders\":0,\"partialEvents\":1,\"partialEventDetail\":{\"language\":\"pt-BR\",\"partials\":[\"topbar\",\"header\",\"mobile-menu\",\"cookie-banner\",\"floating-widgets\",\"footer\"]},\"languageLinks\":{\"en\":\"../contact.html\",\"pt\":\"contact.html\"},\"activeNavigationValid\":true,\"whatsappLinks\":[\"https://wa.me/5543991043536\"],\"backToTopCount\":1,\"partialRequests\":[\"/partials/pt-BR/top-bar.html\",\"/partials/pt-BR/header.html\",\"/partials/pt-BR/mobile-menu.html\",\"/partials/pt-BR/cookie-banner.html\",\"/partials/pt-BR/floating-widgets.html\",\"/partials/pt-BR/footer.html\"],\"errors\":[]}"
     },
     {
       "name": "pt/cookies.html @ 390px",
@@ -296,7 +296,7 @@
     {
       "name": "contact.html @ 1440px",
       "passed": true,
-      "detail": "{\"mains\":1,\"h1s\":1,\"duplicateIds\":[],\"brokenImages\":[],\"partialCounts\":{\"topbar\":1,\"header\":1,\"mobile-menu\":1,\"footer\":1,\"cookie-banner\":1,\"floating-widgets\":1},\"partialOrder\":[\"topbar\",\"header\",\"mobile-menu\",\"footer\",\"cookie-banner\",\"floating-widgets\"],\"partialRootsAreBodyChildren\":true,\"remainingPlaceholders\":0,\"partialEvents\":1,\"partialEventDetail\":{\"language\":\"en\",\"partials\":[\"topbar\",\"header\",\"mobile-menu\",\"footer\",\"cookie-banner\",\"floating-widgets\"]},\"languageLinks\":{\"en\":\"contact.html\",\"pt\":\"pt/contact.html\"},\"activeNavigationValid\":true,\"whatsappLinks\":[\"https://wa.me/5543991043536\"],\"backToTopCount\":1,\"partialRequests\":[\"/partials/top-bar.html\",\"/partials/header.html\",\"/partials/mobile-menu.html\",\"/partials/footer.html\",\"/partials/cookie-banner.html\",\"/partials/floating-widgets.html\"],\"errors\":[]}"
+      "detail": "{\"mains\":1,\"h1s\":1,\"duplicateIds\":[],\"brokenImages\":[],\"partialCounts\":{\"topbar\":1,\"header\":1,\"mobile-menu\":1,\"footer\":1,\"cookie-banner\":1,\"floating-widgets\":1},\"partialOrder\":[\"topbar\",\"header\",\"mobile-menu\",\"cookie-banner\",\"floating-widgets\",\"footer\"],\"partialRootsAreBodyChildren\":true,\"remainingPlaceholders\":0,\"partialEvents\":1,\"partialEventDetail\":{\"language\":\"en\",\"partials\":[\"topbar\",\"header\",\"mobile-menu\",\"cookie-banner\",\"floating-widgets\",\"footer\"]},\"languageLinks\":{\"en\":\"contact.html\",\"pt\":\"pt/contact.html\"},\"activeNavigationValid\":true,\"whatsappLinks\":[\"https://wa.me/5543991043536\"],\"backToTopCount\":1,\"partialRequests\":[\"/partials/top-bar.html\",\"/partials/header.html\",\"/partials/mobile-menu.html\",\"/partials/cookie-banner.html\",\"/partials/floating-widgets.html\",\"/partials/footer.html\"],\"errors\":[]}"
     },
     {
       "name": "cookies.html @ 1440px",
@@ -421,7 +421,7 @@
     {
       "name": "pt/contact.html @ 1440px",
       "passed": true,
-      "detail": "{\"mains\":1,\"h1s\":1,\"duplicateIds\":[],\"brokenImages\":[],\"partialCounts\":{\"topbar\":1,\"header\":1,\"mobile-menu\":1,\"footer\":1,\"cookie-banner\":1,\"floating-widgets\":1},\"partialOrder\":[\"topbar\",\"header\",\"mobile-menu\",\"footer\",\"cookie-banner\",\"floating-widgets\"],\"partialRootsAreBodyChildren\":true,\"remainingPlaceholders\":0,\"partialEvents\":1,\"partialEventDetail\":{\"language\":\"pt-BR\",\"partials\":[\"topbar\",\"header\",\"mobile-menu\",\"footer\",\"cookie-banner\",\"floating-widgets\"]},\"languageLinks\":{\"en\":\"../contact.html\",\"pt\":\"contact.html\"},\"activeNavigationValid\":true,\"whatsappLinks\":[\"https://wa.me/5543991043536\"],\"backToTopCount\":1,\"partialRequests\":[\"/partials/pt-BR/top-bar.html\",\"/partials/pt-BR/header.html\",\"/partials/pt-BR/mobile-menu.html\",\"/partials/pt-BR/footer.html\",\"/partials/pt-BR/cookie-banner.html\",\"/partials/pt-BR/floating-widgets.html\"],\"errors\":[]}"
+      "detail": "{\"mains\":1,\"h1s\":1,\"duplicateIds\":[],\"brokenImages\":[],\"partialCounts\":{\"topbar\":1,\"header\":1,\"mobile-menu\":1,\"footer\":1,\"cookie-banner\":1,\"floating-widgets\":1},\"partialOrder\":[\"topbar\",\"header\",\"mobile-menu\",\"cookie-banner\",\"floating-widgets\",\"footer\"],\"partialRootsAreBodyChildren\":true,\"remainingPlaceholders\":0,\"partialEvents\":1,\"partialEventDetail\":{\"language\":\"pt-BR\",\"partials\":[\"topbar\",\"header\",\"mobile-menu\",\"cookie-banner\",\"floating-widgets\",\"footer\"]},\"languageLinks\":{\"en\":\"../contact.html\",\"pt\":\"contact.html\"},\"activeNavigationValid\":true,\"whatsappLinks\":[\"https://wa.me/5543991043536\"],\"backToTopCount\":1,\"partialRequests\":[\"/partials/pt-BR/top-bar.html\",\"/partials/pt-BR/header.html\",\"/partials/pt-BR/mobile-menu.html\",\"/partials/pt-BR/cookie-banner.html\",\"/partials/pt-BR/floating-widgets.html\",\"/partials/pt-BR/footer.html\"],\"errors\":[]}"
     },
     {
       "name": "pt/cookies.html @ 1440px",

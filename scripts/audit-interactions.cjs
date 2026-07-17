@@ -174,12 +174,15 @@ async function fillForm(page, selector) {
               pt: portuguese ? filename : `pt/${filename}`,
             };
           const expectedPartialPath = portuguese ? '/partials/pt-BR/' : '/partials/';
+          const expectedPartialOrder = route.endsWith('contact.html')
+            ? 'topbar,header,mobile-menu,cookie-banner,floating-widgets,footer'
+            : 'topbar,header,mobile-menu,footer,cookie-banner,floating-widgets';
           const passed = audit.mains === 1
             && audit.h1s === 1
             && !audit.duplicateIds.length
             && !audit.brokenImages.length
             && Object.values(audit.partialCounts).every((count) => count === 1)
-            && audit.partialOrder.join(',') === 'topbar,header,mobile-menu,footer,cookie-banner,floating-widgets'
+            && audit.partialOrder.join(',') === expectedPartialOrder
             && audit.partialRootsAreBodyChildren
             && audit.remainingPlaceholders === 0
             && audit.partialEvents === 1

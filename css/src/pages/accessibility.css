@@ -5,6 +5,65 @@
   .sf-page[data-page="accessibility"] #images-and-media .sf-content-card { border-radius: var(--radius-lg); }
   .sf-page[data-page="accessibility"] #content-clarity > .sf-editorial-media-layout { border-radius: var(--radius-xl) var(--radius-md) var(--radius-xl) var(--radius-xl); }
   .sf-page[data-page="accessibility"] #known-limitations .sf-statement-inner { max-inline-size: min(58rem, calc(100% - 2 * var(--page-gutter))); }
-  .sf-page[data-page="accessibility"] #accessibility-feedback-section .sf-form-section-body { border-radius: var(--radius-xl) var(--radius-md) var(--radius-xl) var(--radius-xl); }
+  .sf-page[data-page="accessibility"] #accessibility-feedback-section .sf-form-section-layout {
+    grid-template-columns: minmax(16rem, .48fr) minmax(0, 1.52fr);
+    align-items: start;
+    gap: clamp(2.5rem, 6vw, 6rem);
+    max-inline-size: 82rem;
+  }
+
+  .sf-page[data-page="accessibility"] #accessibility-feedback-section .sf-form-section-intro {
+    border-inline-start: 1px solid var(--rose-gold-500);
+    padding-inline-start: clamp(1rem, 2.5vw, 2rem);
+  }
+
+  .sf-page[data-page="accessibility"] #accessibility-feedback-section .sf-form-section-body {
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .sf-page[data-page="accessibility"] #accessibility-feedback-section .sf-form-section-body > .sf-lede {
+    max-inline-size: 42ch;
+    margin-block-end: 1.25rem;
+  }
+
+  .sf-page[data-page="accessibility"] #accessibility-feedback-form {
+    max-inline-size: none;
+    border-radius: 4.5rem .65rem .65rem;
+  }
+
+  .sf-page[data-page="accessibility"] #accessibility-feedback-form .sf-form-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(1rem, 2vw, 1.5rem);
+  }
+
+  .sf-page[data-page="accessibility"] #accessibility-feedback-form .sf-field:has(textarea) {
+    grid-column: 1 / -1;
+  }
+
+  .sf-page[data-page="accessibility"] #accessibility-feedback-form textarea {
+    min-block-size: 13rem;
+  }
   .sf-page[data-page="accessibility"] #other-ways-to-contact .sf-content-card { border-radius: var(--radius-arch); text-align: center; }
+
+  @media (max-width: 63.999rem) {
+    .sf-page[data-page="accessibility"] #accessibility-feedback-section .sf-form-section-layout {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 47.999rem) {
+    .sf-page[data-page="accessibility"] #accessibility-feedback-form {
+      border-radius: 2.75rem .5rem .5rem;
+    }
+
+    .sf-page[data-page="accessibility"] #accessibility-feedback-form .sf-form-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .sf-page[data-page="accessibility"] #accessibility-feedback-form .sf-field { grid-column: 1; }
+  }
 }

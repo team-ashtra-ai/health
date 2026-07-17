@@ -110,6 +110,41 @@
     font-weight: 400;
   }
 
+  /* Portraits are tucked into the publication's existing editorial fields,
+     not added as a separate gallery. They sit on the opposite side of the
+     reading content and recede on smaller screens. */
+  .sj-support,
+  .sj-full-feature__inner,
+  .sj-overlays__inner { position: relative; }
+
+  .sf-journal-cutout {
+    position: absolute;
+    z-index: 1;
+    inset-block-end: -1.2rem;
+    inline-size: clamp(9rem, 14vw, 14rem);
+    margin: 0;
+    pointer-events: none;
+  }
+
+  .sf-journal-cutout--left { inset-inline-start: clamp(.25rem, 2vw, 2rem); }
+  .sf-journal-cutout--right { inset-inline-end: clamp(.25rem, 2vw, 2rem); }
+
+  .sf-journal-cutout::before {
+    content: "";
+    position: absolute;
+    inset: 12% 4% 0;
+    z-index: -1;
+    border: 1px solid rgb(180 137 80 / .3);
+    border-block-end: 0;
+    border-radius: 50% 50% .25rem .25rem;
+    background: rgb(255 253 249 / .72);
+  }
+
+  .sf-journal-cutout img {
+    inline-size: 100%;
+    filter: drop-shadow(0 1rem 1.35rem rgb(36 49 41 / .14));
+  }
+
   .sj-category-index {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -612,6 +647,15 @@
   }
 
   @media (max-width: 47.999rem) {
+    .sf-journal-cutout {
+      position: relative;
+      z-index: 2;
+      inset: auto;
+      display: block;
+      inline-size: min(48vw, 11rem);
+      margin: 1rem auto -1rem;
+    }
+
     .sj-masthead { padding-block: 8rem 2.5rem; }
     .sj-masthead__rail { grid-template-columns: 1fr auto; }
     .sj-masthead__place { display: none; }

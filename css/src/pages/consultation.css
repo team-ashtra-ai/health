@@ -4,9 +4,130 @@
   .sf-page[data-page="consultation"] #how-it-works .sf-step { background: linear-gradient(145deg, var(--color-bg-sage-soft), color-mix(in srgb, var(--white) 80%, transparent)); }
   .sf-page[data-page="consultation"] #what-to-bring .sf-content-card { min-block-size: 11rem; }
   .sf-page[data-page="consultation"] #questions-belong-here .sf-statement-inner { max-inline-size: min(58rem, calc(100% - 2 * var(--page-gutter))); background: linear-gradient(145deg, var(--blush-50), var(--champagne-100)); }
-  .sf-page[data-page="consultation"] #consultation-request-form-section .sf-form-section-layout { max-inline-size: 76rem; }
-  .sf-page[data-page="consultation"] #consultation-request-form-section .sf-form-section-body { border-radius: var(--radius-xl) var(--radius-md) var(--radius-xl) var(--radius-xl); }
   .sf-page[data-page="consultation"] #the-next-step .sf-process-list { max-inline-size: 64rem; margin-inline: auto; }
   .sf-page[data-page="consultation"] #consultation-format .sf-editorial-media-layout { background: linear-gradient(145deg, color-mix(in srgb, var(--white) 75%, transparent), var(--color-bg-sage-soft)); }
   .sf-page[data-page="consultation"] #final-clarity .sf-bottom-cta__inner { border-radius: var(--radius-arch) var(--radius-lg) var(--radius-arch) var(--radius-lg); }
+
+  /* The request form is a single generous central workspace. Introductory
+     content remains on the same rail and shorter questions pair naturally on
+     wide screens without turning the page into a cramped sidebar form. */
+  .sf-page[data-page="consultation"] #consultation-request-form-section > .sf-section-inner {
+    max-inline-size: 82rem;
+  }
+
+  .sf-page[data-page="consultation"] #consultation-request-form-section .sf-section-head {
+    max-inline-size: 64rem;
+    margin-inline: auto !important;
+    text-align: center !important;
+  }
+
+  .sf-page[data-page="consultation"] #consultation-request-form-section .sf-section-head .sf-eyebrow {
+    justify-content: center !important;
+  }
+
+  .sf-page[data-page="consultation"] #consultation-request-form-section .sf-section-head h2 {
+    max-inline-size: 17ch;
+    margin-inline: auto !important;
+    font-size: clamp(2.7rem, 5vw, 5.25rem);
+    line-height: .94;
+    text-wrap: balance;
+  }
+
+  .sf-page[data-page="consultation"] #consultation-request-form-section .sf-section-head + .sf-lede {
+    max-inline-size: 56ch;
+    margin: 1.25rem auto 0;
+    color: rgb(255 253 249 / .8);
+  }
+
+  .sf-page[data-page="consultation"] #consultation-request-form-section > .sf-section-inner > .sf-content-card-grid {
+    max-inline-size: 72rem;
+    margin: clamp(2rem, 4vw, 3.25rem) auto 0;
+  }
+
+  .sf-page[data-page="consultation"] #consultation-request-form-section > .sf-section-inner > .sf-content-card-grid .sf-content-card {
+    border: 1px solid rgb(234 213 173 / .42);
+    border-radius: 4.5rem .65rem .65rem;
+    background: rgb(255 253 249 / .1);
+    padding: clamp(1.25rem, 3vw, 2rem);
+    color: var(--ivory-50);
+    box-shadow: none;
+  }
+
+  .sf-page[data-page="consultation"] #consultation-request-form-section > .sf-section-inner > .sf-content-card-grid .sf-content-card h3 {
+    color: var(--gold-200);
+  }
+
+  .sf-page[data-page="consultation"] #consultation-request-form-section .sf-botanical-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: .6rem clamp(1.25rem, 3vw, 2.5rem);
+    padding: 0;
+    list-style: none;
+  }
+
+  .sf-page[data-page="consultation"] #consultation-request-form-section .sf-botanical-list li {
+    min-inline-size: 0;
+    margin: 0;
+    border-block-start: 1px solid rgb(234 213 173 / .22);
+    padding-block-start: .55rem;
+  }
+
+  .sf-page[data-page="consultation"] #consultation-request-form-section .sf-botanical-list :is(span, strong, a) {
+    color: var(--ivory-50);
+    overflow-wrap: anywhere;
+  }
+
+  .sf-page[data-page="consultation"] #consultation-request-form {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-inline-size: 72rem;
+    margin-block-start: clamp(1.25rem, 3vw, 2rem);
+    border-radius: 5rem .7rem .7rem;
+    padding: clamp(1.25rem, 4vw, 3.75rem);
+  }
+
+  .sf-page[data-page="consultation"] #consultation-request-form > :is(
+    .sf-honeypot,
+    .sf-field:has(textarea),
+    .sf-field--checkbox,
+    .sf-button,
+    .sf-form-states,
+    .sf-field-help
+  ) {
+    grid-column: 1 / -1;
+  }
+
+  .sf-page[data-page="consultation"] #consultation-request-form textarea[rows="10"] {
+    min-block-size: 15rem;
+  }
+
+  .sf-page[data-page="consultation"] #consultation-request-form > .sf-field-help {
+    max-inline-size: 68ch;
+    margin-inline: auto;
+    text-align: center;
+  }
+
+  @media (max-width: 47.999rem) {
+    .sf-page[data-page="consultation"] #consultation-request-form-section .sf-section-head {
+      text-align: start !important;
+    }
+
+    .sf-page[data-page="consultation"] #consultation-request-form-section .sf-section-head .sf-eyebrow {
+      justify-content: flex-start !important;
+    }
+
+    .sf-page[data-page="consultation"] #consultation-request-form-section .sf-section-head h2 {
+      margin-inline: 0 !important;
+    }
+
+    .sf-page[data-page="consultation"] #consultation-request-form-section .sf-botanical-list,
+    .sf-page[data-page="consultation"] #consultation-request-form {
+      grid-template-columns: 1fr;
+    }
+
+    .sf-page[data-page="consultation"] #consultation-request-form {
+      border-radius: 2.75rem .5rem .5rem;
+    }
+
+    .sf-page[data-page="consultation"] #consultation-request-form > * { grid-column: 1; }
+  }
 }
