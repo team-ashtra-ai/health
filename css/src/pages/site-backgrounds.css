@@ -288,4 +288,92 @@
     .sf-page { background-image: var(--site-panorama); }
     .sf-main > .sf-section.section--full-bleed { background: var(--menu-green) !important; }
   }
+
+  /* Non-hero photography uses content-led ratios and quiet rectangular
+     corners. Portraits, landscape treatment scenes and editorial crops no
+     longer inherit the former doorway/arch treatment. */
+  .sf-page[data-page] .sf-main > .sf-section:not([data-pattern="hero"]) .sf-editorial-media {
+    min-block-size: 0 !important;
+    overflow: hidden;
+    border-radius: .9rem !important;
+  }
+
+  .sf-page[data-page] .sf-main > .sf-section:not([data-pattern="hero"]) .sf-editorial-media::after {
+    content: none !important;
+    display: none !important;
+  }
+
+  .sf-page[data-page] .sf-main > .sf-section:not([data-pattern="hero"]) .sf-editorial-media > img {
+    inline-size: 100%;
+    block-size: auto !important;
+    min-block-size: 0 !important;
+    max-block-size: none !important;
+    aspect-ratio: 16 / 10 !important;
+    object-fit: cover !important;
+  }
+
+  .sf-page[data-page] .sf-main > .sf-section:not([data-pattern="hero"]) .sf-editorial-media--portrait > img {
+    aspect-ratio: 4 / 5 !important;
+    object-fit: cover !important;
+    object-position: center top;
+  }
+
+  .sf-page[data-page="skin"] :is(#your-skin-concern-atlas, #professional-skin-treatments) .sf-section-head::after,
+  .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner::before {
+    border-radius: .9rem !important;
+  }
+
+  .sf-page[data-page="treatments"] .sf-treatment-menu-card,
+  .sf-page[data-page="treatments"] .sf-treatment-menu-card__media,
+  .sf-page[data-page="contact"] .sf-direct-contact__portrait {
+    border-radius: .9rem !important;
+  }
+
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__visual::before,
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait::after,
+  .sf-page[data-page="home"] #results-in-context .sf-home-results__halo::after {
+    content: none !important;
+    display: none !important;
+  }
+
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait,
+  .sf-page[data-page="home"] #results-in-context .sf-home-results__halo,
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-home-portrait {
+    border-radius: .9rem !important;
+  }
+
+  .sf-page[data-page="home"] #results-in-context .sf-home-results__halo { min-block-size: 0; }
+
+  .sf-page[data-page="home"] #results-in-context .sf-home-results__portrait img {
+    inline-size: 100%;
+    block-size: auto;
+    aspect-ratio: 4 / 5;
+    object-fit: contain;
+    object-position: center bottom;
+  }
+
+  .sf-page[data-page="home"] #care-pathways .sf-editorial-media {
+    inline-size: min(100%, 34rem);
+    justify-self: end;
+    align-self: center;
+    aspect-ratio: auto;
+  }
+
+  .sf-page[data-page="home"] #care-pathways .sf-editorial-media--portrait { inline-size: min(100%, 31rem); aspect-ratio: 4 / 5; }
+
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-statement-inner {
+    grid-template-columns: minmax(20rem, .72fr) minmax(0, 1.28fr);
+  }
+
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-home-portrait {
+    inline-size: min(100%, 31rem);
+    justify-self: center;
+  }
+
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+  @media (max-width: 47.999rem) {
+    .sf-page[data-page="home"] #care-pathways .sf-editorial-media { inline-size: min(100%, 25rem); justify-self: center; }
+    .sf-page[data-page="home"] #what-shapes-a-plan .sf-content-card-grid { grid-template-columns: 1fr; }
+  }
 }

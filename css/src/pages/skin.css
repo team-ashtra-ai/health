@@ -1,15 +1,163 @@
 @layer pages {
-  .sf-page[data-page="skin"] #beneath-the-surface .sf-editorial-media { border-radius: var(--radius-lg) var(--radius-arch) var(--radius-lg); }
-  .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .sf-page[data-page="skin"] #a-useful-routine .sf-content-card { border-radius: var(--radius-arch); text-align: center; }
-  .sf-page[data-page="skin"] #your-skin-concern-atlas > .sf-editorial-media-layout { border-radius: var(--radius-xl) var(--radius-md) var(--radius-xl) var(--radius-xl); }
-  .sf-page[data-page="skin"] #skin-myths .sf-step { background: color-mix(in srgb, var(--blush-50) 74%, var(--white)); }
-  .sf-page[data-page="skin"] #pigment-sun-and-memory .sf-content-card--focus { border-radius: var(--radius-arch) var(--radius-md) var(--radius-lg); }
-  .sf-page[data-page="skin"] #acne-without-punishment .sf-section-head { max-inline-size: 44rem; }
-  .sf-page[data-page="skin"] #professional-skin-treatments .sf-statement-inner { max-inline-size: min(68rem, calc(100% - 2 * var(--page-gutter))); }
-  .sf-page[data-page="skin"] #building-your-skin-plan .sf-content-card-grid { max-inline-size: 62rem; }
+  /* SKIN — an assessment-led editorial journey. The existing hero and final
+     CTA remain unchanged; each chapter below uses a distinct information
+     pattern suited to its content. */
+  .sf-page[data-page="skin"] :is(#beneath-the-surface, #the-skin-barrier, #a-useful-routine, #your-skin-concern-atlas, #skin-myths, #pigment-sun-and-memory, #acne-without-punishment, #professional-skin-treatments) .sf-section-head h2 {
+    max-inline-size: 12ch;
+    font-size: clamp(2.55rem, 4.5vw, 5.1rem);
+    line-height: .94;
+  }
+
+  /* 01 · anatomy/depth assessment spread */
+  .sf-page[data-page="skin"] #beneath-the-surface .sf-editorial-media-layout { grid-template-columns: minmax(0, 1.22fr) minmax(18rem, .68fr); align-items: center; gap: clamp(2.5rem, 6vw, 7rem); }
+  .sf-page[data-page="skin"] #beneath-the-surface .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; margin-block-start: 2.25rem; border-block: 1px solid var(--color-border-warm); counter-reset: skin-depth; }
+  .sf-page[data-page="skin"] #beneath-the-surface .sf-content-card { position: relative; min-block-size: 8.5rem; border: 0; border-radius: 0; background: transparent; padding: 1.15rem 1.2rem 1.15rem 3.7rem; counter-increment: skin-depth; }
+  .sf-page[data-page="skin"] #beneath-the-surface .sf-content-card::before { content: "0" counter(skin-depth); position: absolute; inset: 1.1rem auto auto 1rem; color: var(--rose-gold-700); font-family: var(--font-heading); font-style: italic; }
+  .sf-page[data-page="skin"] #beneath-the-surface .sf-content-card:nth-child(even) { border-inline-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="skin"] #beneath-the-surface .sf-content-card:nth-child(n + 3) { border-block-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="skin"] #beneath-the-surface .sf-content-card:last-child { grid-column: 1 / -1; min-block-size: 0; background: color-mix(in srgb, var(--sage-100) 62%, transparent); }
+  .sf-page[data-page="skin"] #beneath-the-surface .sf-content-card h3 { font-size: 1.3rem; }
+  .sf-page[data-page="skin"] #beneath-the-surface .sf-content-card p { color: var(--color-text-secondary); font-size: .84rem; line-height: 1.52; }
+  .sf-page[data-page="skin"] #beneath-the-surface .sf-editorial-media { overflow: hidden; border: 0; border-radius: 10rem 10rem .5rem .5rem; }
+  .sf-page[data-page="skin"] #beneath-the-surface .sf-editorial-media img { block-size: 37rem; aspect-ratio: 3 / 4; object-fit: cover; object-position: 56% center; }
+
+  /* 02 · barrier triage board, with a quiet skincare still-life */
+  .sf-page[data-page="skin"] #the-skin-barrier .sf-section-inner { display: grid; grid-template-columns: minmax(15rem, .5fr) minmax(0, 1.5fr); column-gap: clamp(3rem, 7vw, 8rem); align-items: start; }
+  .sf-page[data-page="skin"] #the-skin-barrier .sf-section-head,
+  .sf-page[data-page="skin"] #the-skin-barrier .sf-lede,
+  .sf-page[data-page="skin"] #the-skin-barrier .sf-practitioner-quote { grid-column: 1; }
+  .sf-page[data-page="skin"] #the-skin-barrier .sf-lede { color: var(--gold-200); font-family: var(--font-heading); font-size: clamp(1.45rem, 2vw, 2rem); line-height: 1.35; }
+  .sf-page[data-page="skin"] #the-skin-barrier .sf-section-head::after { content: ""; display: block; min-block-size: 12rem; margin-block-start: 2rem; border: 1px solid rgb(234 213 173 / .3); border-radius: 5rem 5rem .35rem .35rem; background: url("../assets/posts/journal/skin-barrier-moisturiser-care.webp") center / cover no-repeat; }
+  .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card-grid { grid-column: 2; grid-row: 1 / span 4; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border-block: 1px solid rgb(234 213 173 / .4); }
+  .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card { border: 0; border-radius: 0; background: transparent; color: var(--ivory-50); padding: clamp(1.4rem, 2.5vw, 2.2rem); }
+  .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card + .sf-content-card { border-inline-start: 1px solid rgb(234 213 173 / .25); }
+  .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card:last-child { grid-column: 1 / -1; border-block-start: 1px solid rgb(234 213 173 / .25); border-inline-start: 0; background: rgb(255 253 249 / .06); }
+  .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card h3 { color: var(--ivory-50); font-size: 1.4rem; }
+  .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card :is(p, li) { color: rgb(255 253 249 / .72); font-size: .86rem; line-height: 1.55; }
+  .sf-page[data-page="skin"] #the-skin-barrier .sf-practitioner-quote { max-inline-size: 24rem; margin-block-start: 2rem; }
+
+  /* 03 · morning/evening routine with a product decision checklist */
+  .sf-page[data-page="skin"] #a-useful-routine .sf-section-inner { display: grid; grid-template-columns: minmax(15rem, .5fr) minmax(0, 1.5fr); column-gap: clamp(3rem, 7vw, 8rem); align-items: start; }
+  .sf-page[data-page="skin"] #a-useful-routine .sf-section-head,
+  .sf-page[data-page="skin"] #a-useful-routine .sf-practitioner-quote { grid-column: 1; }
+  .sf-page[data-page="skin"] #a-useful-routine .sf-content-card-grid { grid-column: 2; grid-row: 1; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border: 1px solid var(--color-border-warm); }
+  .sf-page[data-page="skin"] #a-useful-routine .sf-content-card { min-block-size: 20rem; border: 0; border-radius: 0; background: transparent; padding: clamp(1.5rem, 3vw, 2.5rem); text-align: start; }
+  .sf-page[data-page="skin"] #a-useful-routine .sf-content-card:first-child { grid-column: auto; }
+  .sf-page[data-page="skin"] #a-useful-routine .sf-content-card + .sf-content-card { border-inline-start: 1px solid var(--color-border-warm); background: color-mix(in srgb, var(--sage-100) 42%, transparent); }
+  .sf-page[data-page="skin"] #a-useful-routine .sf-content-card h3 { color: var(--rose-gold-700); font-size: clamp(1.7rem, 2.4vw, 2.4rem); }
+  .sf-page[data-page="skin"] #a-useful-routine .sf-content-card li { color: var(--color-text-secondary); font-size: .9rem; }
+  .sf-page[data-page="skin"] #a-useful-routine .sf-section-inner > h3,
+  .sf-page[data-page="skin"] #a-useful-routine .sf-section-inner > ul { grid-column: 2; }
+  .sf-page[data-page="skin"] #a-useful-routine .sf-section-inner > h3 { margin-block-start: 2rem; font-size: 1.35rem; }
+  .sf-page[data-page="skin"] #a-useful-routine .sf-section-inner > ul { columns: 2; column-gap: 2rem; margin-block-start: .75rem; border-block: 1px solid var(--color-border-warm); padding: 1rem 0; }
+  .sf-page[data-page="skin"] #a-useful-routine .sf-section-inner > ul li { break-inside: avoid; color: var(--color-text-secondary); font-size: .86rem; }
+  .sf-page[data-page="skin"] #a-useful-routine .sf-practitioner-quote { max-inline-size: 23rem; margin-block-start: 2rem; }
+
+  /* 04 · diagnostic atlas with close-up imagery and a ruled concern index */
+  .sf-page[data-page="skin"] #your-skin-concern-atlas .sf-section-inner { display: grid; grid-template-columns: minmax(16rem, .58fr) minmax(0, 1.42fr); column-gap: clamp(3rem, 7vw, 8rem); align-items: start; }
+  .sf-page[data-page="skin"] #your-skin-concern-atlas .sf-section-head { grid-column: 1; }
+  .sf-page[data-page="skin"] #your-skin-concern-atlas .sf-section-head::after { content: ""; display: block; min-block-size: 16rem; margin-block-start: 2rem; border-radius: .5rem 7rem .5rem .5rem; background: linear-gradient(rgb(36 49 41 / .05), rgb(36 49 41 / .05)), url("../assets/posts/journal/professional-skin-care-appointment.webp") center / cover no-repeat; box-shadow: var(--shadow-soft); }
+  .sf-page[data-page="skin"] #your-skin-concern-atlas .sf-content-card-grid { grid-column: 2; grid-row: 1; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border-block: 1px solid var(--color-border-warm); counter-reset: skin-atlas; }
+  .sf-page[data-page="skin"] #your-skin-concern-atlas .sf-content-card { position: relative; min-block-size: 9.25rem; border: 0; border-radius: 0; background: transparent; padding: 1.2rem 1.25rem 1.2rem 3.7rem; counter-increment: skin-atlas; }
+  .sf-page[data-page="skin"] #your-skin-concern-atlas .sf-content-card::before { content: "0" counter(skin-atlas); position: absolute; inset: 1.15rem auto auto 1rem; color: var(--rose-gold-700); font-family: var(--font-heading); font-style: italic; }
+  .sf-page[data-page="skin"] #your-skin-concern-atlas .sf-content-card:nth-child(even) { border-inline-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="skin"] #your-skin-concern-atlas .sf-content-card:nth-child(n + 3) { border-block-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="skin"] #your-skin-concern-atlas .sf-content-card h3 { font-size: 1.3rem; }
+  .sf-page[data-page="skin"] #your-skin-concern-atlas .sf-content-card p { color: var(--color-text-secondary); font-size: .84rem; line-height: 1.52; }
+
+  /* 05 · myth and evidence reading table */
+  .sf-page[data-page="skin"] #skin-myths .sf-editorial-media-layout { grid-template-columns: minmax(0, 1.24fr) minmax(18rem, .58fr); align-items: start; gap: clamp(2.5rem, 6vw, 7rem); }
+  .sf-page[data-page="skin"] #skin-myths .sf-section-inner { display: grid; grid-template-columns: minmax(12rem, .72fr) minmax(0, 1.28fr); align-items: baseline; column-gap: 1.5rem; }
+  .sf-page[data-page="skin"] #skin-myths .sf-section-head,
+  .sf-page[data-page="skin"] #skin-myths .sf-practitioner-quote { grid-column: 1 / -1; }
+  .sf-page[data-page="skin"] #skin-myths .sf-section-inner > h3 { grid-column: 1; margin: 0; border-block-start: 1px solid var(--color-border-warm); padding: 1rem 0; font-size: 1.15rem; }
+  .sf-page[data-page="skin"] #skin-myths .sf-section-inner > p { grid-column: 2; max-inline-size: none; margin: 0; border-block-start: 1px solid var(--color-border-subtle); color: var(--color-text-secondary); padding: 1rem 0; font-size: .86rem; line-height: 1.55; }
+  .sf-page[data-page="skin"] #skin-myths .sf-practitioner-quote { max-inline-size: 37rem; margin: 2rem 0 0 auto; }
+  .sf-page[data-page="skin"] #skin-myths .sf-editorial-media { position: sticky; inset-block-start: calc(var(--header-height) + 1.5rem); overflow: hidden; border: 0; border-radius: 9rem 9rem .5rem .5rem; }
+  .sf-page[data-page="skin"] #skin-myths .sf-editorial-media img { block-size: 36rem; aspect-ratio: 3 / 4; object-fit: cover; object-position: 54% center; }
+
+  /* 06 · pigmentation history matrix */
+  .sf-page[data-page="skin"] #pigment-sun-and-memory .sf-section-inner { display: grid; grid-template-columns: minmax(16rem, .56fr) minmax(0, 1.44fr); column-gap: clamp(3rem, 7vw, 8rem); align-items: start; }
+  .sf-page[data-page="skin"] #pigment-sun-and-memory .sf-section-head,
+  .sf-page[data-page="skin"] #pigment-sun-and-memory .sf-section-inner > p,
+  .sf-page[data-page="skin"] #pigment-sun-and-memory .sf-practitioner-quote { grid-column: 1; }
+  .sf-page[data-page="skin"] #pigment-sun-and-memory .sf-section-head::after { content: ""; display: block; min-block-size: 12rem; margin-block-start: 2rem; border: 1px solid rgb(234 213 173 / .28); border-radius: 5rem 5rem .35rem .35rem; background: url("../assets/posts/journal/facial-pigmentation-and-freckles.webp") center / cover no-repeat; }
+  .sf-page[data-page="skin"] #pigment-sun-and-memory .sf-section-inner > p { color: rgb(255 253 249 / .72); }
+  .sf-page[data-page="skin"] #pigment-sun-and-memory .sf-content-card-grid { grid-column: 2; grid-row: 1 / span 4; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border-block: 1px solid rgb(234 213 173 / .38); counter-reset: skin-pigment; }
+  .sf-page[data-page="skin"] #pigment-sun-and-memory .sf-content-card { position: relative; min-block-size: 8.5rem; border: 0; border-radius: 0; background: transparent; color: var(--ivory-50); padding: 1.15rem 1.2rem 1.15rem 3.6rem; counter-increment: skin-pigment; }
+  .sf-page[data-page="skin"] #pigment-sun-and-memory .sf-content-card::before { content: "0" counter(skin-pigment); position: absolute; inset: 1.1rem auto auto 1rem; color: var(--gold-200); font-family: var(--font-heading); font-style: italic; }
+  .sf-page[data-page="skin"] #pigment-sun-and-memory .sf-content-card:nth-child(even) { border-inline-start: 1px solid rgb(234 213 173 / .24); }
+  .sf-page[data-page="skin"] #pigment-sun-and-memory .sf-content-card:nth-child(n + 3) { border-block-start: 1px solid rgb(234 213 173 / .24); }
+  .sf-page[data-page="skin"] #pigment-sun-and-memory .sf-content-card:last-child { grid-column: 1 / -1; min-block-size: 0; background: rgb(255 253 249 / .07); }
+  .sf-page[data-page="skin"] #pigment-sun-and-memory .sf-content-card h3 { color: var(--ivory-50); font-size: 1.28rem; }
+  .sf-page[data-page="skin"] #pigment-sun-and-memory .sf-content-card p { color: rgb(255 253 249 / .68); font-size: .83rem; line-height: 1.5; }
+  .sf-page[data-page="skin"] #pigment-sun-and-memory .sf-practitioner-quote { max-inline-size: 24rem; margin-block-start: 2rem; }
+
+  /* 07 · acne support/pressure comparison with real skin texture */
+  .sf-page[data-page="skin"] #acne-without-punishment .sf-section-inner { display: grid; grid-template-columns: minmax(15rem, .52fr) minmax(0, 1.48fr); column-gap: clamp(3rem, 7vw, 8rem); align-items: start; }
+  .sf-page[data-page="skin"] #acne-without-punishment .sf-section-head,
+  .sf-page[data-page="skin"] #acne-without-punishment .sf-section-inner > p,
+  .sf-page[data-page="skin"] #acne-without-punishment .sf-practitioner-quote { grid-column: 1; }
+  .sf-page[data-page="skin"] #acne-without-punishment .sf-section-head::after { content: ""; display: block; min-block-size: 12rem; margin-block-start: 2rem; border-radius: .5rem 5rem .5rem .5rem; background: url("../assets/posts/journal/acne-scars-and-natural-skin-texture.webp") center / cover no-repeat; }
+  .sf-page[data-page="skin"] #acne-without-punishment .sf-section-inner > p { color: var(--color-text-secondary); }
+  .sf-page[data-page="skin"] #acne-without-punishment .sf-content-card-grid { grid-column: 2; grid-row: 1 / span 4; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border: 1px solid var(--color-border-warm); }
+  .sf-page[data-page="skin"] #acne-without-punishment .sf-content-card { border: 0; border-radius: 0; background: color-mix(in srgb, var(--sage-100) 36%, transparent); padding: clamp(1.5rem, 3vw, 2.5rem); }
+  .sf-page[data-page="skin"] #acne-without-punishment .sf-content-card + .sf-content-card { border-inline-start: 1px solid var(--color-border-warm); background: color-mix(in srgb, var(--blush-100) 46%, transparent); }
+  .sf-page[data-page="skin"] #acne-without-punishment .sf-content-card h3 { font-size: clamp(1.5rem, 2vw, 2rem); }
+  .sf-page[data-page="skin"] #acne-without-punishment .sf-content-card li { color: var(--color-text-secondary); font-size: .87rem; }
+  .sf-page[data-page="skin"] #acne-without-punishment .sf-practitioner-quote { max-inline-size: 24rem; margin-block-start: 2rem; }
+
+  /* 08 · professional care taxonomy with an image-led introduction */
+  .sf-page[data-page="skin"] #professional-skin-treatments .sf-statement-inner { display: grid; grid-template-columns: minmax(15rem, .52fr) minmax(0, 1.48fr); column-gap: clamp(3rem, 7vw, 8rem); align-items: start; max-inline-size: none; }
+  .sf-page[data-page="skin"] #professional-skin-treatments .sf-section-head { grid-column: 1; }
+  .sf-page[data-page="skin"] #professional-skin-treatments .sf-section-head::after { content: ""; display: block; min-block-size: 15rem; margin-block-start: 2rem; border-radius: 7rem 7rem .5rem .5rem; background: url("../assets/posts/journal/calming-care-for-reactive-skin.webp") center / cover no-repeat; box-shadow: var(--shadow-soft); }
+  .sf-page[data-page="skin"] #professional-skin-treatments .sf-content-card-grid { grid-column: 2; grid-row: 1 / span 2; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border-block: 1px solid var(--color-border-warm); }
+  .sf-page[data-page="skin"] #professional-skin-treatments .sf-content-card { min-block-size: 8rem; border: 0; border-radius: 0; background: transparent; padding: 1.2rem 1.35rem; }
+  .sf-page[data-page="skin"] #professional-skin-treatments .sf-content-card:nth-child(even) { border-inline-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="skin"] #professional-skin-treatments .sf-content-card:nth-child(n + 3) { border-block-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="skin"] #professional-skin-treatments .sf-content-card h3 { color: var(--rose-gold-700); font-size: 1.3rem; }
+  .sf-page[data-page="skin"] #professional-skin-treatments .sf-content-card p { color: var(--color-text-secondary); font-size: .84rem; line-height: 1.5; }
+  .sf-page[data-page="skin"] #professional-skin-treatments .sf-button-row { grid-column: 2; margin-block-start: 2rem; }
+
+  @media (max-width: 63.999rem) {
+    .sf-page[data-page="skin"] #skin-myths .sf-editorial-media-layout { grid-template-columns: minmax(0, 1.35fr) minmax(15rem, .45fr); gap: 2.5rem; }
+    .sf-page[data-page="skin"] #beneath-the-surface .sf-editorial-media-layout { gap: 2.5rem; }
+  }
 
   @media (max-width: 47.999rem) {
-    .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card-grid { grid-template-columns: 1fr; }
+    .sf-page[data-page="skin"] #beneath-the-surface .sf-editorial-media-layout,
+    .sf-page[data-page="skin"] #the-skin-barrier .sf-section-inner,
+    .sf-page[data-page="skin"] #a-useful-routine .sf-section-inner,
+    .sf-page[data-page="skin"] #your-skin-concern-atlas .sf-section-inner,
+    .sf-page[data-page="skin"] #skin-myths .sf-editorial-media-layout,
+    .sf-page[data-page="skin"] #pigment-sun-and-memory .sf-section-inner,
+    .sf-page[data-page="skin"] #acne-without-punishment .sf-section-inner,
+    .sf-page[data-page="skin"] #professional-skin-treatments .sf-statement-inner { display: grid; grid-template-columns: 1fr; }
+    .sf-page[data-page="skin"] #beneath-the-surface .sf-section-inner { grid-column: 1; grid-row: 1; }
+    .sf-page[data-page="skin"] #beneath-the-surface .sf-editorial-media { grid-column: 1; grid-row: 2; inline-size: min(100%, 22rem); justify-self: center; margin-block-start: 2rem; }
+    .sf-page[data-page="skin"] #beneath-the-surface .sf-editorial-media img { block-size: 25rem; }
+    .sf-page[data-page="skin"] :is(#the-skin-barrier, #a-useful-routine, #your-skin-concern-atlas, #pigment-sun-and-memory, #acne-without-punishment, #professional-skin-treatments) :is(.sf-content-card-grid, .sf-practitioner-quote, .sf-section-inner > h3, .sf-section-inner > ul, .sf-button-row) { grid-column: 1; grid-row: auto; }
+    .sf-page[data-page="skin"] #the-skin-barrier .sf-section-head::after,
+    .sf-page[data-page="skin"] #your-skin-concern-atlas .sf-section-head::after,
+    .sf-page[data-page="skin"] #pigment-sun-and-memory .sf-section-head::after,
+    .sf-page[data-page="skin"] #acne-without-punishment .sf-section-head::after,
+    .sf-page[data-page="skin"] #professional-skin-treatments .sf-section-head::after { min-block-size: 10rem; margin-block-start: 1.5rem; }
+    .sf-page[data-page="skin"] #a-useful-routine .sf-content-card-grid,
+    .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card-grid,
+    .sf-page[data-page="skin"] #acne-without-punishment .sf-content-card-grid { grid-template-columns: 1fr; }
+    .sf-page[data-page="skin"] :is(#the-skin-barrier, #a-useful-routine, #acne-without-punishment) .sf-content-card + .sf-content-card { border-block-start: 1px solid var(--color-border-warm); border-inline-start: 0; }
+    .sf-page[data-page="skin"] #a-useful-routine .sf-content-card { min-block-size: 0; }
+    .sf-page[data-page="skin"] #a-useful-routine .sf-section-inner > ul { columns: 1; }
+    .sf-page[data-page="skin"] #skin-myths .sf-section-inner { grid-template-columns: 1fr; }
+    .sf-page[data-page="skin"] #skin-myths .sf-section-inner > :is(h3, p) { grid-column: 1; }
+    .sf-page[data-page="skin"] #skin-myths .sf-section-inner > p { border-block-start: 0; padding-block-start: 0; }
+    .sf-page[data-page="skin"] #skin-myths .sf-editorial-media { position: static; inline-size: min(100%, 22rem); justify-self: center; margin-block-start: 2rem; }
+    .sf-page[data-page="skin"] #skin-myths .sf-editorial-media img { block-size: 26rem; }
+    .sf-page[data-page="skin"] #your-skin-concern-atlas .sf-content-card-grid,
+    .sf-page[data-page="skin"] #pigment-sun-and-memory .sf-content-card-grid,
+    .sf-page[data-page="skin"] #professional-skin-treatments .sf-content-card-grid,
+    .sf-page[data-page="skin"] #beneath-the-surface .sf-content-card-grid { grid-template-columns: 1fr; }
+    .sf-page[data-page="skin"] :is(#your-skin-concern-atlas, #pigment-sun-and-memory, #professional-skin-treatments, #beneath-the-surface) .sf-content-card:nth-child(n) { grid-column: 1; border-inline: 0; }
+    .sf-page[data-page="skin"] :is(#your-skin-concern-atlas, #pigment-sun-and-memory, #professional-skin-treatments, #beneath-the-surface) .sf-content-card + .sf-content-card { border-block-start: 1px solid var(--color-border-subtle); }
   }
 }

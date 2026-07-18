@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "generatedAt": "2026-07-18T13:21:20.235030+00:00",
+  "generatedAt": "2026-07-18T16:18:09.165066+00:00",
   "pagesChecked": 52,
   "scriptsPresent": {
     "required": [
@@ -848,12 +848,12 @@
                 "content_group": "Trust",
                 "page_language": "en",
                 "page_path": "/about.html",
-                "lcp_ms": 108,
+                "lcp_ms": 92,
                 "cls_score": 0.032,
                 "inp_ms": 40,
                 "ttfb_ms": 2,
-                "dom_content_loaded_ms": 56,
-                "page_load_ms": 83
+                "dom_content_loaded_ms": 67,
+                "page_load_ms": 76
               }
             ]
           }

@@ -6,8 +6,8 @@
 
 - Public HTML pages parsed: 52
 - Canonical, indexable URLs in sitemap: 48
-- Images audited: 346
-- Decorative images with empty alt text: 154
+- Images audited: 363
+- Decorative images with empty alt text: 165
 - Post-hero navigation targets: 48
 
 ## Validation summary

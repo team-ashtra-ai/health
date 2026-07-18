@@ -1,14 +1,148 @@
 @layer pages {
-  .sf-page[data-page="laser"] #what-laser-is .sf-content-card { border-radius: var(--radius-arch); text-align: center; }
-  .sf-page[data-page="laser"] #what-laser-is-not > .sf-editorial-media-layout { background: var(--olive-700); }
-  .sf-page[data-page="laser"] #when-laser-may-be-used .sf-statement-inner { margin-inline-start: max(var(--page-gutter), calc((100% - var(--container-standard)) / 2)); }
-  .sf-page[data-page="laser"] #technologies-i-use .sf-content-card { min-block-size: 13rem; }
-  .sf-page[data-page="laser"] #laser-hair-reduction .sf-editorial-media { border-radius: var(--radius-arch) var(--radius-lg) var(--radius-lg); }
-  .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner { border-radius: var(--radius-xl) var(--radius-md) var(--radius-xl) var(--radius-xl); }
+  /* LASER — a clinical field guide. The approved hero and chapter 07
+     (When Treatment Should Wait) are deliberately untouched. */
+  .sf-page[data-page="laser"] :is(#what-laser-is, #what-laser-is-not, #when-laser-may-be-used, #technologies-i-use, #laser-hair-reduction, #co-resurfacing, #before-during-and-after) .sf-section-head h2 {
+    max-inline-size: 12ch;
+    font-size: clamp(2.55rem, 4.4vw, 5rem);
+    line-height: .94;
+  }
+
+  /* 01 · target first: image-led wavelength/target matrix */
+  .sf-page[data-page="laser"] #what-laser-is .sf-editorial-media-layout { grid-template-columns: minmax(18rem, .72fr) minmax(0, 1.28fr); align-items: center; gap: clamp(2.5rem, 6vw, 7rem); }
+  .sf-page[data-page="laser"] #what-laser-is .sf-editorial-media { grid-column: 1; grid-row: 1; overflow: hidden; border: 0; border-radius: .5rem 8rem .5rem .5rem; box-shadow: var(--shadow-soft); }
+  .sf-page[data-page="laser"] #what-laser-is .sf-editorial-media img { block-size: 35rem; aspect-ratio: 4 / 5; object-fit: cover; object-position: 52% center; }
+  .sf-page[data-page="laser"] #what-laser-is .sf-section-inner { grid-column: 2; grid-row: 1; }
+  .sf-page[data-page="laser"] #what-laser-is .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; margin-block-start: 2.25rem; border-block: 1px solid var(--color-border-warm); counter-reset: laser-target; }
+  .sf-page[data-page="laser"] #what-laser-is .sf-content-card { position: relative; min-block-size: 8.75rem; border: 0; border-radius: 0; background: transparent; padding: 1.2rem 1.25rem 1.2rem 3.7rem; text-align: start; counter-increment: laser-target; }
+  .sf-page[data-page="laser"] #what-laser-is .sf-content-card::before { content: "0" counter(laser-target); position: absolute; inset: 1.15rem auto auto 1rem; color: var(--rose-gold-700); font-family: var(--font-heading); font-style: italic; }
+  .sf-page[data-page="laser"] #what-laser-is .sf-content-card:nth-child(even) { border-inline-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="laser"] #what-laser-is .sf-content-card:nth-child(n + 3) { border-block-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="laser"] #what-laser-is .sf-content-card:last-child { grid-column: 1 / -1; min-block-size: 0; background: color-mix(in srgb, var(--sage-100) 68%, transparent); }
+  .sf-page[data-page="laser"] #what-laser-is .sf-content-card h3 { font-size: 1.35rem; }
+  .sf-page[data-page="laser"] #what-laser-is .sf-content-card p { color: var(--color-text-secondary); font-size: .85rem; line-height: 1.55; }
+
+  /* 02 · definition versus misconception comparison board */
+  .sf-page[data-page="laser"] #what-laser-is-not .sf-section-inner { display: grid; grid-template-columns: minmax(15rem, .55fr) minmax(0, 1.45fr); column-gap: clamp(3rem, 7vw, 8rem); align-items: start; }
+  .sf-page[data-page="laser"] #what-laser-is-not .sf-section-head,
+  .sf-page[data-page="laser"] #what-laser-is-not .sf-section-inner > p { grid-column: 1; }
+  .sf-page[data-page="laser"] #what-laser-is-not .sf-section-inner > p { color: rgb(255 253 249 / .7); }
+  .sf-page[data-page="laser"] #what-laser-is-not .sf-content-card-grid { grid-column: 2; grid-row: 1 / span 3; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border-block: 1px solid rgb(234 213 173 / .4); }
+  .sf-page[data-page="laser"] #what-laser-is-not .sf-content-card { border: 0; border-radius: 0; background: transparent; color: var(--ivory-50); padding: clamp(1.5rem, 3vw, 2.5rem); }
+  .sf-page[data-page="laser"] #what-laser-is-not .sf-content-card + .sf-content-card { border-inline-start: 1px solid rgb(234 213 173 / .28); }
+  .sf-page[data-page="laser"] #what-laser-is-not .sf-content-card h3 { color: var(--ivory-50); font-size: clamp(1.5rem, 2vw, 2rem); }
+  .sf-page[data-page="laser"] #what-laser-is-not .sf-botanical-list { color: rgb(255 253 249 / .76); }
+  .sf-page[data-page="laser"] #what-laser-is-not .sf-practitioner-quote { grid-column: 2; max-inline-size: 37rem; margin: 2rem 0 0 auto; }
+
+  /* 03 · six clinical uses arranged as an application spectrum */
+  .sf-page[data-page="laser"] #when-laser-may-be-used .sf-statement-inner { display: grid; grid-template-columns: minmax(15rem, .5fr) minmax(0, 1.5fr); column-gap: clamp(3rem, 7vw, 8rem); align-items: start; }
+  .sf-page[data-page="laser"] #when-laser-may-be-used .sf-section-head { grid-column: 1; }
+  .sf-page[data-page="laser"] #when-laser-may-be-used .sf-content-card-grid { grid-column: 2; grid-row: 1 / span 2; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; border-block: 1px solid var(--color-border-warm); counter-reset: laser-use; }
+  .sf-page[data-page="laser"] #when-laser-may-be-used .sf-content-card { position: relative; min-block-size: 10.5rem; border: 0; border-radius: 0; background: transparent; padding: 3.1rem 1.15rem 1.2rem; counter-increment: laser-use; }
+  .sf-page[data-page="laser"] #when-laser-may-be-used .sf-content-card::before { content: "0" counter(laser-use); position: absolute; inset: .9rem auto auto 1.15rem; color: var(--rose-gold-700); font-family: var(--font-heading); font-style: italic; }
+  .sf-page[data-page="laser"] #when-laser-may-be-used .sf-content-card:nth-child(3n + 2) { border-inline: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="laser"] #when-laser-may-be-used .sf-content-card:nth-child(n + 4) { border-block-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="laser"] #when-laser-may-be-used .sf-content-card h3 { font-size: 1.3rem; }
+  .sf-page[data-page="laser"] #when-laser-may-be-used .sf-content-card p { color: var(--color-text-secondary); font-size: .83rem; line-height: 1.5; }
+  .sf-page[data-page="laser"] #when-laser-may-be-used .sf-practitioner-quote { grid-column: 1; max-inline-size: 22rem; margin-block-start: 2rem; }
+
+  /* 04 · technology dossier: names and explanations share one ruled field */
+  .sf-page[data-page="laser"] #technologies-i-use .sf-section-inner { display: grid; grid-template-columns: minmax(15rem, .52fr) minmax(0, 1.48fr); column-gap: clamp(3rem, 7vw, 8rem); align-items: start; }
+  .sf-page[data-page="laser"] #technologies-i-use .sf-section-head { grid-column: 1; grid-row: 1 / span 7; position: sticky; inset-block-start: calc(var(--header-height) + 1.5rem); }
+  .sf-page[data-page="laser"] #technologies-i-use .sf-section-inner > h3,
+  .sf-page[data-page="laser"] #technologies-i-use .sf-section-inner > p,
+  .sf-page[data-page="laser"] #technologies-i-use .sf-button-row { grid-column: 2; }
+  .sf-page[data-page="laser"] #technologies-i-use .sf-section-inner > h3 { margin: 0; border-block-start: 1px solid var(--color-border-warm); padding: 1.4rem 0 .35rem; color: var(--rose-gold-700); font-size: clamp(1.55rem, 2.2vw, 2.2rem); }
+  .sf-page[data-page="laser"] #technologies-i-use .sf-section-inner > p { max-inline-size: 66ch; margin: 0; border-block-end: 1px solid var(--color-border-subtle); color: var(--color-text-secondary); padding: 0 0 1.5rem; }
+  .sf-page[data-page="laser"] #technologies-i-use .sf-button-row { margin-block-start: 1.75rem; }
+
+  /* 05 · hair reduction: assessment factors and expectation comparison */
+  .sf-page[data-page="laser"] #laser-hair-reduction .sf-editorial-media-layout { grid-template-columns: minmax(0, 1.28fr) minmax(17rem, .54fr); align-items: start; gap: clamp(2.5rem, 5vw, 5rem); }
+  .sf-page[data-page="laser"] #laser-hair-reduction .sf-editorial-media { position: sticky; inset-block-start: calc(var(--header-height) + 1.5rem); overflow: hidden; border: 0; border-radius: 9rem 9rem .5rem .5rem; }
+  .sf-page[data-page="laser"] #laser-hair-reduction .sf-editorial-media img { block-size: 34rem; aspect-ratio: 3 / 4; object-fit: cover; object-position: 56% center; }
+  .sf-page[data-page="laser"] #laser-hair-reduction .sf-section-inner > p { max-inline-size: 60ch; color: var(--color-text-secondary); }
+  .sf-page[data-page="laser"] #laser-hair-reduction .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; margin-block-start: 2.25rem; border-block: 1px solid var(--color-border-warm); counter-reset: laser-hair; }
+  .sf-page[data-page="laser"] #laser-hair-reduction .sf-content-card { position: relative; min-block-size: 8.5rem; border: 0; border-radius: 0; background: transparent; padding: 1.15rem 1.2rem 1.15rem 3.5rem; counter-increment: laser-hair; }
+  .sf-page[data-page="laser"] #laser-hair-reduction .sf-content-card::before { content: "0" counter(laser-hair); position: absolute; inset: 1.1rem auto auto .9rem; color: var(--rose-gold-700); font-family: var(--font-heading); font-style: italic; }
+  .sf-page[data-page="laser"] #laser-hair-reduction .sf-content-card:nth-child(even) { border-inline-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="laser"] #laser-hair-reduction .sf-content-card:nth-child(n + 3) { border-block-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="laser"] #laser-hair-reduction .sf-content-card:nth-last-child(-n + 2) { min-block-size: 13rem; background: color-mix(in srgb, var(--ivory-50) 56%, transparent); }
+  .sf-page[data-page="laser"] #laser-hair-reduction .sf-content-card h3 { font-size: 1.25rem; }
+  .sf-page[data-page="laser"] #laser-hair-reduction .sf-content-card p,
+  .sf-page[data-page="laser"] #laser-hair-reduction .sf-content-card li { color: var(--color-text-secondary); font-size: .82rem; line-height: 1.5; }
+  .sf-page[data-page="laser"] #laser-hair-reduction .sf-practitioner-quote { max-inline-size: 37rem; margin: 2rem 0 0 auto; }
+
+  /* 06 · CO2 planning as a treatment/recovery split with real imagery */
+  .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(18rem, .72fr); column-gap: clamp(3rem, 7vw, 8rem); align-items: start; }
+  .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner::before { content: ""; grid-column: 2; grid-row: 1 / span 7; min-block-size: 39rem; border: 1px solid rgb(234 213 173 / .38); border-radius: 10rem 10rem .5rem .5rem; background: linear-gradient(rgb(36 49 41 / .08), rgb(36 49 41 / .08)), url("../assets/posts/journal/fractional-co2-laser-treatment.webp") center / cover no-repeat; }
+  .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner > *:not(.sf-practitioner-quote) { grid-column: 1; }
+  .sf-page[data-page="laser"] #co-resurfacing .sf-lede { color: var(--gold-200); font-family: var(--font-heading); font-size: clamp(1.45rem, 2vw, 2rem); }
+  .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner > p:not(.sf-lede),
+  .sf-page[data-page="laser"] #co-resurfacing .sf-botanical-list { color: rgb(255 253 249 / .74); }
+  .sf-page[data-page="laser"] #co-resurfacing .sf-practitioner-quote { grid-column: 1; max-inline-size: 36rem; margin-block-start: 2rem; }
+
+  /* Approved Section 8 — keep the existing composition exactly. */
   .sf-page[data-page="laser"] #when-to-wait .sf-statement-inner { max-inline-size: min(54rem, calc(100% - 2 * var(--page-gutter))); }
-  .sf-page[data-page="laser"] #recovery-and-honest-answers .sf-content-card { align-content: start; }
+
+  /* 08 · preparation-to-recovery clinical timeline */
+  .sf-page[data-page="laser"] #before-during-and-after .sf-section-head { display: grid; grid-template-columns: minmax(15rem, .5fr) minmax(0, 1fr); column-gap: clamp(2rem, 6vw, 6rem); align-items: end; max-inline-size: none; }
+  .sf-page[data-page="laser"] #before-during-and-after .sf-section-head .sf-chapter-number { grid-row: 1 / span 2; align-self: start; font-size: clamp(5rem, 8vw, 8rem); }
+  .sf-page[data-page="laser"] #before-during-and-after .sf-section-head :is(.sf-eyebrow, h2) { grid-column: 2; }
+  .sf-page[data-page="laser"] #before-during-and-after .sf-process-list { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0; margin-block-start: 3rem; border-block: 1px solid var(--color-border-warm); }
+  .sf-page[data-page="laser"] #before-during-and-after .sf-step { min-block-size: 12rem; border: 0; border-radius: 0; background: transparent; padding: 1.2rem; }
+  .sf-page[data-page="laser"] #before-during-and-after .sf-step + .sf-step { border-inline-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="laser"] #before-during-and-after .sf-step-number { inline-size: auto; block-size: auto; border: 0; border-radius: 0; background: transparent; color: var(--rose-gold-700); font-family: var(--font-heading); font-size: 2.4rem; font-style: italic; }
+  .sf-page[data-page="laser"] #before-during-and-after .sf-step h3 { font-size: 1.3rem; }
+  .sf-page[data-page="laser"] #before-during-and-after .sf-step p { color: var(--color-text-secondary); font-size: .82rem; line-height: 1.5; }
+  .sf-page[data-page="laser"] #before-during-and-after .sf-content-card-grid { display: block; margin-block-start: 1.5rem; }
+  .sf-page[data-page="laser"] #before-during-and-after .sf-content-card { display: grid; grid-template-columns: minmax(12rem, .4fr) minmax(0, 1fr); gap: 2rem; border: 0; border-inline-start: 2px solid var(--rose-gold-500); border-radius: 0; background: color-mix(in srgb, var(--blush-100) 58%, transparent); box-shadow: none; padding: 1.25rem 1.5rem; }
+  .sf-page[data-page="laser"] #before-during-and-after .sf-content-card :is(h3, p) { margin: 0; }
+
+  @media (max-width: 63.999rem) {
+    .sf-page[data-page="laser"] #when-laser-may-be-used .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .sf-page[data-page="laser"] #when-laser-may-be-used .sf-content-card:nth-child(3n + 2) { border-inline: 0; }
+    .sf-page[data-page="laser"] #when-laser-may-be-used .sf-content-card:nth-child(even) { border-inline-start: 1px solid var(--color-border-subtle); }
+    .sf-page[data-page="laser"] #when-laser-may-be-used .sf-content-card:nth-child(n + 3) { border-block-start: 1px solid var(--color-border-subtle); }
+    .sf-page[data-page="laser"] #before-during-and-after .sf-process-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .sf-page[data-page="laser"] #before-during-and-after .sf-step:nth-child(4) { border-inline-start: 0; }
+    .sf-page[data-page="laser"] #before-during-and-after .sf-step:nth-child(n + 4) { border-block-start: 1px solid var(--color-border-subtle); }
+  }
 
   @media (max-width: 47.999rem) {
-    .sf-page[data-page="laser"] #when-laser-may-be-used .sf-statement-inner { margin-inline: auto; }
+    .sf-page[data-page="laser"] #what-laser-is .sf-editorial-media-layout,
+    .sf-page[data-page="laser"] #what-laser-is-not .sf-section-inner,
+    .sf-page[data-page="laser"] #when-laser-may-be-used .sf-statement-inner,
+    .sf-page[data-page="laser"] #technologies-i-use .sf-section-inner,
+    .sf-page[data-page="laser"] #laser-hair-reduction .sf-editorial-media-layout,
+    .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner { display: grid; grid-template-columns: 1fr; }
+    .sf-page[data-page="laser"] #what-laser-is .sf-section-inner { grid-column: 1; grid-row: 1; }
+    .sf-page[data-page="laser"] #what-laser-is .sf-editorial-media { grid-column: 1; grid-row: 2; inline-size: min(100%, 24rem); justify-self: center; margin-block-start: 2rem; }
+    .sf-page[data-page="laser"] #what-laser-is .sf-editorial-media img { block-size: 24rem; }
+    .sf-page[data-page="laser"] #what-laser-is-not .sf-content-card-grid,
+    .sf-page[data-page="laser"] #what-laser-is-not .sf-practitioner-quote,
+    .sf-page[data-page="laser"] #when-laser-may-be-used .sf-content-card-grid,
+    .sf-page[data-page="laser"] #when-laser-may-be-used .sf-practitioner-quote,
+    .sf-page[data-page="laser"] #technologies-i-use .sf-section-head,
+    .sf-page[data-page="laser"] #technologies-i-use .sf-section-inner > :is(h3, p, .sf-button-row) { grid-column: 1; grid-row: auto; }
+    .sf-page[data-page="laser"] #what-laser-is-not .sf-content-card-grid { grid-template-columns: 1fr; }
+    .sf-page[data-page="laser"] #what-laser-is-not .sf-content-card + .sf-content-card { border-block-start: 1px solid rgb(234 213 173 / .28); border-inline-start: 0; }
+    .sf-page[data-page="laser"] #when-laser-may-be-used .sf-content-card-grid { grid-template-columns: 1fr; }
+    .sf-page[data-page="laser"] #when-laser-may-be-used .sf-content-card:nth-child(n) { border-inline: 0; }
+    .sf-page[data-page="laser"] #when-laser-may-be-used .sf-content-card + .sf-content-card { border-block-start: 1px solid var(--color-border-subtle); }
+    .sf-page[data-page="laser"] #technologies-i-use .sf-section-head,
+    .sf-page[data-page="laser"] #laser-hair-reduction .sf-editorial-media { position: static; }
+    .sf-page[data-page="laser"] #laser-hair-reduction .sf-section-inner { grid-column: 1; grid-row: 1; }
+    .sf-page[data-page="laser"] #laser-hair-reduction .sf-editorial-media { grid-column: 1; grid-row: 2; inline-size: min(100%, 22rem); justify-self: center; margin-block-start: 2rem; }
+    .sf-page[data-page="laser"] #laser-hair-reduction .sf-editorial-media img { block-size: 26rem; }
+    .sf-page[data-page="laser"] :is(#what-laser-is, #laser-hair-reduction) .sf-content-card-grid { grid-template-columns: 1fr; }
+    .sf-page[data-page="laser"] :is(#what-laser-is, #laser-hair-reduction) .sf-content-card:nth-child(n) { grid-column: 1; border-inline: 0; }
+    .sf-page[data-page="laser"] :is(#what-laser-is, #laser-hair-reduction) .sf-content-card + .sf-content-card { border-block-start: 1px solid var(--color-border-subtle); }
+    .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner::before { grid-column: 1; grid-row: 2; min-block-size: 17rem; margin-block: 1.5rem; border-radius: 5rem 5rem .5rem .5rem; }
+    .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner > *:not(.sf-practitioner-quote) { grid-column: 1; }
+    .sf-page[data-page="laser"] #co-resurfacing .sf-section-head { grid-row: 1; }
+    .sf-page[data-page="laser"] #before-during-and-after .sf-section-head { display: block; }
+    .sf-page[data-page="laser"] #before-during-and-after .sf-process-list { grid-template-columns: 1fr; }
+    .sf-page[data-page="laser"] #before-during-and-after .sf-step + .sf-step { border-block-start: 1px solid var(--color-border-subtle); border-inline-start: 0; }
+    .sf-page[data-page="laser"] #before-during-and-after .sf-step { display: grid; grid-template-columns: 3rem minmax(0, 1fr); min-block-size: 0; }
+    .sf-page[data-page="laser"] #before-during-and-after .sf-content-card { grid-template-columns: 1fr; gap: .4rem; }
   }
 }

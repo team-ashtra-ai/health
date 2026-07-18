@@ -1,25 +1,174 @@
 @layer pages {
-  .sf-page[data-page="about"] #why-this-work .sf-editorial-media { border-radius: var(--radius-arch) var(--radius-lg) var(--radius-lg); }
-  .sf-page[data-page="about"] #my-view-of-aesthetics .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .sf-page[data-page="about"] #clinical-judgment { background: linear-gradient(135deg, var(--blush-50), var(--color-bg-soft)); }
-  .sf-page[data-page="about"] #the-clinic-experience .sf-content-card { background: transparent; border-inline-start: 2px solid var(--color-border-rose); }
-  .sf-page[data-page="about"] #technology-with-purpose .sf-editorial-media { border-radius: var(--radius-lg) var(--radius-lg) var(--radius-arch); }
-  .sf-page[data-page="about"] #after-treatment .sf-section-head { margin-inline-start: auto; text-align: end; }
-  .sf-page[data-page="about"] #continue-the-story .sf-bottom-cta__inner { max-inline-size: min(66rem, calc(100% - 2 * var(--page-gutter))); }
-  .sf-page[data-page="about"] .sf-editorial-media--portrait {
-    max-inline-size: min(100%, 32rem);
-    justify-self: end;
+  /* ABOUT — an editorial biography, moving from professional motivation to
+     method, experience, technology, continuity and values. The approved hero
+     and final CTA intentionally remain outside this redesign. */
+  .sf-page[data-page="about"] :is(#why-this-work, #my-view-of-aesthetics, #clinical-judgment, #what-you-can-expect, #the-clinic-experience, #technology-with-purpose, #after-treatment, #the-values-behind-the-work) .sf-section-head h2 {
+    max-inline-size: 12ch;
+    font-size: clamp(2.6rem, 4.6vw, 5.25rem);
+    line-height: .94;
   }
-  .sf-page[data-page="about"] .sf-editorial-media--portrait img {
-    aspect-ratio: 4 / 5;
-    object-position: center top;
+
+  /* 01 · opening biography spread */
+  .sf-page[data-page="about"] #why-this-work .sf-editorial-media-layout {
+    grid-template-columns: minmax(17rem, .72fr) minmax(0, 1.28fr);
+    align-items: stretch;
+    gap: clamp(2.5rem, 6vw, 7rem);
+  }
+
+  .sf-page[data-page="about"] #why-this-work .sf-editorial-media { grid-column: 1; grid-row: 1; align-self: stretch; overflow: hidden; border: 0; border-radius: 12rem 12rem .5rem .5rem; background: linear-gradient(155deg, var(--blush-100), var(--sage-100)); box-shadow: var(--shadow-soft); }
+  .sf-page[data-page="about"] #why-this-work .sf-editorial-media img { block-size: 100%; min-block-size: 42rem; aspect-ratio: 4 / 5; object-fit: contain; object-position: center bottom; }
+  .sf-page[data-page="about"] #why-this-work .sf-section-inner { grid-column: 2; grid-row: 1; align-self: center; }
+  .sf-page[data-page="about"] #why-this-work .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; margin-block-start: 2.5rem; border-block: 1px solid var(--color-border-warm); counter-reset: about-motive; }
+  .sf-page[data-page="about"] #why-this-work .sf-content-card { position: relative; min-block-size: 9rem; border: 0; border-radius: 0; background: transparent; padding: 1.25rem 1.5rem 1.25rem 3.4rem; counter-increment: about-motive; }
+  .sf-page[data-page="about"] #why-this-work .sf-content-card::before { content: "0" counter(about-motive); position: absolute; inset: 1.25rem auto auto 1rem; color: var(--rose-gold-700); font-family: var(--font-heading); font-size: .78rem; font-style: italic; }
+  .sf-page[data-page="about"] #why-this-work .sf-content-card:nth-child(even) { border-inline-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="about"] #why-this-work .sf-content-card:nth-child(n + 3) { border-block-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="about"] #why-this-work .sf-content-card h2 { margin: 0 0 .35rem; font-size: clamp(1.25rem, 1.6vw, 1.55rem); }
+  .sf-page[data-page="about"] #why-this-work .sf-content-card p { margin: 0; color: var(--color-text-secondary); font-size: .88rem; line-height: 1.55; }
+
+  /* 02 · manifesto: two opposing positions, not two generic cards */
+  .sf-page[data-page="about"] #my-view-of-aesthetics .sf-section-inner { display: grid; grid-template-columns: minmax(16rem, .58fr) minmax(0, 1.42fr); column-gap: clamp(3rem, 7vw, 8rem); align-items: start; }
+  .sf-page[data-page="about"] #my-view-of-aesthetics .sf-section-head,
+  .sf-page[data-page="about"] #my-view-of-aesthetics > .sf-section-inner > :is(.sf-lede, p) { grid-column: 1; }
+  .sf-page[data-page="about"] #my-view-of-aesthetics .sf-lede { margin-block-start: 1.75rem; color: var(--gold-200); font-family: var(--font-heading); font-size: clamp(1.5rem, 2vw, 2rem); line-height: 1.35; }
+  .sf-page[data-page="about"] #my-view-of-aesthetics .sf-section-inner > p:not(.sf-lede) { color: rgb(255 253 249 / .72); }
+  .sf-page[data-page="about"] #my-view-of-aesthetics .sf-content-card-grid { grid-column: 2; grid-row: 1 / span 4; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border-block: 1px solid rgb(234 213 173 / .38); }
+  .sf-page[data-page="about"] #my-view-of-aesthetics .sf-content-card { border: 0; border-radius: 0; background: transparent; color: var(--ivory-50); padding: clamp(1.5rem, 3vw, 2.5rem); }
+  .sf-page[data-page="about"] #my-view-of-aesthetics .sf-content-card + .sf-content-card { border-inline-start: 1px solid rgb(234 213 173 / .28); }
+  .sf-page[data-page="about"] #my-view-of-aesthetics .sf-content-card h2 { color: var(--ivory-50); font-size: clamp(1.5rem, 2vw, 2rem); }
+  .sf-page[data-page="about"] #my-view-of-aesthetics .sf-botanical-list { margin-block-start: 1.25rem; color: rgb(255 253 249 / .76); }
+  .sf-page[data-page="about"] #my-view-of-aesthetics .sf-practitioner-quote { grid-column: 2; max-inline-size: 38rem; margin: 2rem 0 0 auto; }
+
+  /* 03 · recommendation pathway */
+  .sf-page[data-page="about"] #clinical-judgment .sf-editorial-media-layout { grid-template-columns: minmax(0, 1.15fr) minmax(17rem, .65fr); gap: clamp(2.5rem, 6vw, 6.5rem); align-items: center; }
+  .sf-page[data-page="about"] #clinical-judgment .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; margin-block-start: 2.25rem; border-block: 1px solid var(--color-border-warm); counter-reset: about-judgment; }
+  .sf-page[data-page="about"] #clinical-judgment .sf-content-card { position: relative; min-block-size: 8.5rem; border: 0; border-radius: 0; background: transparent; padding: 1.2rem 1.25rem 1.2rem 3.8rem; counter-increment: about-judgment; }
+  .sf-page[data-page="about"] #clinical-judgment .sf-content-card::before { content: "0" counter(about-judgment); position: absolute; inset: 1.15rem auto auto 1rem; color: var(--rose-gold-700); font-family: var(--font-heading); font-size: 1rem; }
+  .sf-page[data-page="about"] #clinical-judgment .sf-content-card:nth-child(even) { border-inline-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="about"] #clinical-judgment .sf-content-card:nth-child(n + 3) { border-block-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="about"] #clinical-judgment .sf-content-card h2 { font-size: 1.35rem; }
+  .sf-page[data-page="about"] #clinical-judgment .sf-content-card p { color: var(--color-text-secondary); font-size: .86rem; line-height: 1.55; }
+  .sf-page[data-page="about"] #clinical-judgment .sf-callout { margin-block-start: 1.5rem; border: 0; border-inline-start: 2px solid var(--rose-gold-500); border-radius: 0; background: color-mix(in srgb, var(--blush-100) 54%, transparent); box-shadow: none; }
+  .sf-page[data-page="about"] #clinical-judgment .sf-editorial-media { overflow: hidden; border-radius: 10rem 10rem .5rem .5rem; }
+  .sf-page[data-page="about"] #clinical-judgment .sf-editorial-media img { block-size: 38rem; aspect-ratio: 3 / 4; object-fit: cover; object-position: 54% center; }
+
+  /* 04 · consultation experience as an editorial promise rail */
+  .sf-page[data-page="about"] #what-you-can-expect .sf-statement-inner { display: grid; grid-template-columns: minmax(15rem, .52fr) minmax(0, 1.48fr); column-gap: clamp(3rem, 7vw, 8rem); align-items: start; }
+  .sf-page[data-page="about"] #what-you-can-expect .sf-section-head { grid-column: 1; }
+  .sf-page[data-page="about"] #what-you-can-expect .sf-content-card-grid { grid-column: 2; grid-row: 1 / span 2; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border-block: 1px solid var(--color-border-warm); counter-reset: about-expect; }
+  .sf-page[data-page="about"] #what-you-can-expect .sf-content-card { position: relative; min-block-size: 9.5rem; border: 0; border-radius: 0; background: transparent; padding: 1.25rem 1.35rem 1.25rem 3.7rem; counter-increment: about-expect; }
+  .sf-page[data-page="about"] #what-you-can-expect .sf-content-card::before { content: "0" counter(about-expect); position: absolute; inset: 1.25rem auto auto 1rem; color: var(--rose-gold-700); font-family: var(--font-heading); font-style: italic; }
+  .sf-page[data-page="about"] #what-you-can-expect .sf-content-card:nth-child(even) { border-inline-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="about"] #what-you-can-expect .sf-content-card:nth-child(n + 3) { border-block-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="about"] #what-you-can-expect .sf-content-card h2 { font-size: 1.3rem; }
+  .sf-page[data-page="about"] #what-you-can-expect .sf-content-card p { color: var(--color-text-secondary); font-size: .85rem; line-height: 1.55; }
+  .sf-page[data-page="about"] #what-you-can-expect .sf-practitioner-quote { grid-column: 1; max-inline-size: 23rem; margin-block-start: 2rem; }
+
+  /* 05 · clinic portrait and quiet-room index */
+  .sf-page[data-page="about"] #the-clinic-experience .sf-editorial-media-layout { grid-template-columns: minmax(17rem, .68fr) minmax(0, 1.32fr); align-items: center; gap: clamp(2.5rem, 6vw, 7rem); }
+  .sf-page[data-page="about"] #the-clinic-experience .sf-editorial-media { grid-column: 1; grid-row: 1; justify-self: start; overflow: hidden; border: 0; border-radius: .5rem 10rem .5rem .5rem; background: var(--blush-100); }
+  .sf-page[data-page="about"] #the-clinic-experience .sf-editorial-media img { block-size: 40rem; aspect-ratio: 4 / 5; object-fit: contain; object-position: center bottom; }
+  .sf-page[data-page="about"] #the-clinic-experience .sf-section-inner { grid-column: 2; grid-row: 1; }
+  .sf-page[data-page="about"] #the-clinic-experience .sf-section-inner > p { max-inline-size: 58ch; color: var(--color-text-secondary); }
+  .sf-page[data-page="about"] #the-clinic-experience .sf-content-card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; margin-block-start: 2.25rem; border-block: 1px solid var(--color-border-warm); }
+  .sf-page[data-page="about"] #the-clinic-experience .sf-content-card { min-block-size: 7.5rem; border: 0; border-radius: 0; background: transparent; padding: 1rem 1.2rem; }
+  .sf-page[data-page="about"] #the-clinic-experience .sf-content-card:nth-child(3n + 2) { border-inline: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="about"] #the-clinic-experience .sf-content-card:nth-child(n + 4) { border-block-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="about"] #the-clinic-experience .sf-content-card h2 { font-size: 1.25rem; }
+  .sf-page[data-page="about"] #the-clinic-experience .sf-content-card p { color: var(--color-text-secondary); font-size: .82rem; line-height: 1.5; }
+  .sf-page[data-page="about"] #the-clinic-experience .sf-content-card--link { background: color-mix(in srgb, var(--blush-100) 48%, transparent); }
+  .sf-page[data-page="about"] #the-clinic-experience .sf-practitioner-quote { max-inline-size: 35rem; margin: 1.75rem 0 0 auto; }
+
+  /* 06 · technology capability index */
+  .sf-page[data-page="about"] #technology-with-purpose .sf-section-inner { display: grid; grid-template-columns: minmax(16rem, .56fr) minmax(0, 1.44fr); column-gap: clamp(3rem, 7vw, 8rem); align-items: start; }
+  .sf-page[data-page="about"] #technology-with-purpose .sf-section-head,
+  .sf-page[data-page="about"] #technology-with-purpose .sf-section-inner > p,
+  .sf-page[data-page="about"] #technology-with-purpose .sf-button-row { grid-column: 1; }
+  .sf-page[data-page="about"] #technology-with-purpose .sf-section-inner > p { color: rgb(255 253 249 / .72); }
+  .sf-page[data-page="about"] #technology-with-purpose .sf-content-card-grid { grid-column: 2; grid-row: 1 / span 4; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border-block: 1px solid rgb(234 213 173 / .38); counter-reset: about-tech; }
+  .sf-page[data-page="about"] #technology-with-purpose .sf-content-card { position: relative; min-block-size: 9rem; border: 0; border-radius: 0; background: transparent; color: var(--ivory-50); padding: 1.25rem 1.25rem 1.25rem 3.7rem; counter-increment: about-tech; }
+  .sf-page[data-page="about"] #technology-with-purpose .sf-content-card::before { content: "0" counter(about-tech); position: absolute; inset: 1.2rem auto auto 1rem; color: var(--gold-200); font-family: var(--font-heading); font-style: italic; }
+  .sf-page[data-page="about"] #technology-with-purpose .sf-content-card:nth-child(even) { border-inline-start: 1px solid rgb(234 213 173 / .24); }
+  .sf-page[data-page="about"] #technology-with-purpose .sf-content-card:nth-child(n + 3) { border-block-start: 1px solid rgb(234 213 173 / .24); }
+  .sf-page[data-page="about"] #technology-with-purpose .sf-content-card h2 { color: var(--ivory-50); font-size: 1.3rem; }
+  .sf-page[data-page="about"] #technology-with-purpose .sf-content-card p { color: rgb(255 253 249 / .68); font-size: .84rem; line-height: 1.52; }
+
+  /* 07 · continuation of care as a four-stage handoff */
+  .sf-page[data-page="about"] #after-treatment .sf-editorial-media-layout { grid-template-columns: minmax(0, 1.24fr) minmax(17rem, .56fr); align-items: center; gap: clamp(2.5rem, 6vw, 6.5rem); }
+  .sf-page[data-page="about"] #after-treatment .sf-content-card-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; margin-block-start: 2.25rem; border-block: 1px solid var(--color-border-warm); counter-reset: about-aftercare; }
+  .sf-page[data-page="about"] #after-treatment .sf-content-card { position: relative; min-block-size: 11rem; border: 0; border-radius: 0; background: transparent; padding: 3.2rem 1rem 1.15rem; counter-increment: about-aftercare; }
+  .sf-page[data-page="about"] #after-treatment .sf-content-card::before { content: "0" counter(about-aftercare); position: absolute; inset: .9rem auto auto 1rem; color: var(--rose-gold-700); font-family: var(--font-heading); font-size: 1.15rem; font-style: italic; }
+  .sf-page[data-page="about"] #after-treatment .sf-content-card + .sf-content-card { border-inline-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="about"] #after-treatment .sf-content-card h2 { font-size: 1.22rem; }
+  .sf-page[data-page="about"] #after-treatment .sf-content-card p { color: var(--color-text-secondary); font-size: .82rem; line-height: 1.5; }
+  .sf-page[data-page="about"] #after-treatment .sf-editorial-media { overflow: hidden; border-radius: 10rem 10rem .5rem .5rem; }
+  .sf-page[data-page="about"] #after-treatment .sf-editorial-media img { block-size: 34rem; aspect-ratio: 3 / 4; object-fit: cover; object-position: 58% center; }
+
+  /* 08 · value words and final portrait before the approved CTA */
+  .sf-page[data-page="about"] #the-values-behind-the-work .sf-editorial-media-layout { grid-template-columns: minmax(0, 1.25fr) minmax(17rem, .55fr); align-items: center; gap: clamp(2.5rem, 6vw, 7rem); }
+  .sf-page[data-page="about"] #the-values-behind-the-work .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; margin-block-start: 2.25rem; border-block: 1px solid var(--color-border-warm); }
+  .sf-page[data-page="about"] #the-values-behind-the-work .sf-content-card { min-block-size: 7.5rem; border: 0; border-radius: 0; background: transparent; padding: 1.1rem 1.25rem; }
+  .sf-page[data-page="about"] #the-values-behind-the-work .sf-content-card:nth-child(even) { border-inline-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="about"] #the-values-behind-the-work .sf-content-card:nth-child(n + 3) { border-block-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="about"] #the-values-behind-the-work .sf-content-card h2 { color: var(--rose-gold-700); font-size: clamp(1.4rem, 2vw, 1.9rem); }
+  .sf-page[data-page="about"] #the-values-behind-the-work .sf-content-card p { color: var(--color-text-secondary); font-size: .84rem; }
+  .sf-page[data-page="about"] #the-values-behind-the-work .sf-editorial-media { overflow: hidden; border: 0; border-radius: 10rem 10rem .5rem .5rem; background: linear-gradient(150deg, var(--sage-100), var(--blush-100)); }
+  .sf-page[data-page="about"] #the-values-behind-the-work .sf-editorial-media img { block-size: 38rem; aspect-ratio: 3 / 4; object-fit: contain; object-position: center bottom; }
+
+  /* Approved CTA — retain its existing proportions. */
+  .sf-page[data-page="about"] #continue-the-story .sf-bottom-cta__inner { max-inline-size: min(66rem, calc(100% - 2 * var(--page-gutter))); }
+
+  @media (max-width: 63.999rem) {
+    .sf-page[data-page="about"] :is(#why-this-work, #clinical-judgment, #the-clinic-experience, #after-treatment, #the-values-behind-the-work) .sf-editorial-media-layout { gap: 2.5rem; }
+    .sf-page[data-page="about"] #after-treatment .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .sf-page[data-page="about"] #after-treatment .sf-content-card:nth-child(odd) { border-inline-start: 0; }
+    .sf-page[data-page="about"] #after-treatment .sf-content-card:nth-child(n + 3) { border-block-start: 1px solid var(--color-border-subtle); }
   }
 
   @media (max-width: 47.999rem) {
-    .sf-page[data-page="about"] #my-view-of-aesthetics .sf-content-card-grid { grid-template-columns: 1fr; }
-    .sf-page[data-page="about"] #after-treatment .sf-section-head { margin-inline-start: 0; text-align: start; }
-    .sf-page[data-page="about"] .sf-editorial-media--portrait {
-      justify-self: center;
-    }
+    .sf-page[data-page="about"] #why-this-work .sf-editorial-media-layout,
+    .sf-page[data-page="about"] #clinical-judgment .sf-editorial-media-layout,
+    .sf-page[data-page="about"] #the-clinic-experience .sf-editorial-media-layout,
+    .sf-page[data-page="about"] #after-treatment .sf-editorial-media-layout,
+    .sf-page[data-page="about"] #the-values-behind-the-work .sf-editorial-media-layout,
+    .sf-page[data-page="about"] #my-view-of-aesthetics .sf-section-inner,
+    .sf-page[data-page="about"] #what-you-can-expect .sf-statement-inner,
+    .sf-page[data-page="about"] #technology-with-purpose .sf-section-inner { display: grid; grid-template-columns: 1fr; }
+    .sf-page[data-page="about"] #why-this-work .sf-section-inner,
+    .sf-page[data-page="about"] #clinical-judgment .sf-section-inner,
+    .sf-page[data-page="about"] #the-clinic-experience .sf-section-inner,
+    .sf-page[data-page="about"] #after-treatment .sf-section-inner,
+    .sf-page[data-page="about"] #the-values-behind-the-work .sf-section-inner { grid-column: 1; grid-row: 1; }
+    .sf-page[data-page="about"] #why-this-work .sf-editorial-media,
+    .sf-page[data-page="about"] #clinical-judgment .sf-editorial-media,
+    .sf-page[data-page="about"] #the-clinic-experience .sf-editorial-media,
+    .sf-page[data-page="about"] #after-treatment .sf-editorial-media,
+    .sf-page[data-page="about"] #the-values-behind-the-work .sf-editorial-media { grid-column: 1; grid-row: 2; inline-size: min(100%, 22rem); justify-self: center; margin-block-start: 2rem; }
+    .sf-page[data-page="about"] :is(#why-this-work, #the-clinic-experience, #the-values-behind-the-work) .sf-editorial-media img { min-block-size: 0; block-size: auto; max-block-size: 31rem; }
+    .sf-page[data-page="about"] :is(#clinical-judgment, #after-treatment) .sf-editorial-media img { block-size: 27rem; }
+    .sf-page[data-page="about"] #my-view-of-aesthetics .sf-content-card-grid,
+    .sf-page[data-page="about"] #my-view-of-aesthetics .sf-practitioner-quote,
+    .sf-page[data-page="about"] #what-you-can-expect .sf-content-card-grid,
+    .sf-page[data-page="about"] #what-you-can-expect .sf-practitioner-quote,
+    .sf-page[data-page="about"] #technology-with-purpose .sf-content-card-grid { grid-column: 1; grid-row: auto; }
+    .sf-page[data-page="about"] #my-view-of-aesthetics .sf-content-card-grid,
+    .sf-page[data-page="about"] #what-you-can-expect .sf-content-card-grid,
+    .sf-page[data-page="about"] #technology-with-purpose .sf-content-card-grid,
+    .sf-page[data-page="about"] #the-clinic-experience .sf-content-card-grid { grid-template-columns: 1fr; }
+    .sf-page[data-page="about"] #my-view-of-aesthetics .sf-content-card + .sf-content-card,
+    .sf-page[data-page="about"] #what-you-can-expect .sf-content-card:nth-child(n),
+    .sf-page[data-page="about"] #technology-with-purpose .sf-content-card:nth-child(n),
+    .sf-page[data-page="about"] #the-clinic-experience .sf-content-card:nth-child(n) { border-inline: 0; }
+    .sf-page[data-page="about"] #my-view-of-aesthetics .sf-content-card + .sf-content-card,
+    .sf-page[data-page="about"] #what-you-can-expect .sf-content-card + .sf-content-card,
+    .sf-page[data-page="about"] #technology-with-purpose .sf-content-card + .sf-content-card,
+    .sf-page[data-page="about"] #the-clinic-experience .sf-content-card + .sf-content-card { border-block-start: 1px solid var(--color-border-subtle); }
+    .sf-page[data-page="about"] #why-this-work .sf-content-card-grid,
+    .sf-page[data-page="about"] #clinical-judgment .sf-content-card-grid,
+    .sf-page[data-page="about"] #the-values-behind-the-work .sf-content-card-grid { grid-template-columns: 1fr; }
+    .sf-page[data-page="about"] :is(#why-this-work, #clinical-judgment, #the-values-behind-the-work) .sf-content-card:nth-child(n) { border-inline: 0; }
+    .sf-page[data-page="about"] :is(#why-this-work, #clinical-judgment, #the-values-behind-the-work) .sf-content-card + .sf-content-card { border-block-start: 1px solid var(--color-border-subtle); }
+    .sf-page[data-page="about"] #after-treatment .sf-content-card-grid { grid-template-columns: 1fr; }
+    .sf-page[data-page="about"] #after-treatment .sf-content-card + .sf-content-card { border-inline-start: 0; border-block-start: 1px solid var(--color-border-subtle); }
   }
 }
