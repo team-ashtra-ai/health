@@ -29320,11 +29320,11 @@
     },
     "6eaf7e28dc4f00f4a9ae3a065fba184da39c34304488e77a7de1413239ac1922": {
       "source": "Care Around Treatment",
-      "translation": "Cuidado em torno de tratamento",
-      "engine": "argos:en->pb:installed",
-      "approved": false,
+      "translation": "Cuidado em Cada Etapa",
+      "engine": "manual-override",
+      "approved": true,
       "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
-      "updated_at": "2026-07-18T10:48:52.209952+00:00"
+      "updated_at": "2026-07-18T11:14:24.425578+00:00"
     },
     "ad7b8ee8a7de23aeb45d60a0d1a2ba63fac0bc3a6e39b18fbcd60f2cc5007f03": {
       "source": "Practical preparation and aftercare, explained for the procedure you receive.",
@@ -32464,11 +32464,11 @@
     },
     "155dc734f89f5f8fff04bd3371cb5c165ea69cbf18339f8758e87302cea42ea6": {
       "source": "How Care Should Feel",
-      "translation": "Como o cuidado deve se sentir",
-      "engine": "argos:en->pb:installed",
-      "approved": false,
+      "translation": "Cuidado com Propósito",
+      "engine": "manual-override",
+      "approved": true,
       "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
-      "updated_at": "2026-07-18T10:49:15.275481+00:00"
+      "updated_at": "2026-07-18T11:14:25.601757+00:00"
     },
     "75c4e8526a462a80383783ba09324291325240dd54f827b1f867c7151560eb0b": {
       "source": "Be heard, understand your options and choose without pressure.",
@@ -34397,6 +34397,182 @@
       "approved": false,
       "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
       "updated_at": "2026-07-18T10:49:25.532085+00:00"
+    },
+    "24baa2ad01e3ed7d5347e656b030379ca6125c94aec687e833ead5b6ddfb752f": {
+      "source": "Franciele Sofiati welcoming a patient in her Londrina clinic",
+      "translation": "Franciele Sofiati recebendo uma paciente em sua clínica Londrina",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-18T11:12:39.823266+00:00"
+    },
+    "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0": {
+      "source": "– Franciele Sofiati",
+      "translation": "- Franciele Sofiati",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-18T11:12:39.878038+00:00"
+    },
+    "21795ab7396585724ce507d432f67c34d2d921cd45a823d028c2d41f5d97067d": {
+      "source": "Franciele Sofiati listening to a patient before making a recommendation",
+      "translation": "Franciele Sofiati ouvindo um paciente antes de fazer uma recomendação",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-18T11:12:39.921499+00:00"
+    },
+    "3c8d1bcacb36847872c1dbb3c42992e56dbc3070200bae355762cecc30f4853f": {
+      "source": "Franciele Sofiati providing attentive care during a treatment appointment",
+      "translation": "Franciele Sofiati prestando atenção durante um tratamento atendimento",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-18T11:12:40.016120+00:00"
+    },
+    "0ee1580826bd2f4b6c499f7e17038ded8b6aa0e2527f1e5de56730e721824654": {
+      "source": "You deserve to feel supported, even after you leave the treatment room.",
+      "translation": "Você merece se sentir apoiado, mesmo depois de sair da sala tratamento.",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-18T11:12:40.139066+00:00"
+    },
+    "ada1ae5c5afad70ccde3da0a394a8937b84c4071b2d8123eb36ee11ea154ac0f": {
+      "source": "You deserve a recommendation that respects your features, your confidence and your right to choose.",
+      "translation": "Você merece uma recomendação que respeite suas características, sua confiança e seu direito de escolher.",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-18T11:12:40.244192+00:00"
+    },
+    "e85f6d6a248bfec98e0ed98819b4a679441b9c5a04652592474224ccdffde9f6": {
+      "source": "Medication and supplements that may be relevant; do not stop prescribed treatment without medical guidance",
+      "translation": "Medicação e suplementos que podem ser relevantes. Não pare de prescrever tratamento sem orientação médica.",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-18T11:12:40.326774+00:00"
+    },
+    "29081b9b16aa02fcbf9328288775f0e759c25bc75f6b19ddcb173c8e9868f7a9": {
+      "source": "Looking after yourself also means giving your body the time, honesty and patience it needs.",
+      "translation": "Cuidar de si mesmo também significa dar ao seu corpo o tempo, honestidade e paciência que precisa.",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-18T11:12:40.387456+00:00"
+    },
+    "ba239b122445b50757de155bf9ee177de5ad2fbd9acc2e28faf9f041baf2905f": {
+      "source": "Franciele Sofiati speaking with a patient in her clinic",
+      "translation": "Franciele Sofiati falando com uma paciente em sua clínica",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-18T11:12:40.475430+00:00"
+    },
+    "b17950ba1abc77897425fa464d34b00c7777ea628450a6fdf3c9683f9934621d": {
+      "source": "Franciele Sofiati available to answer a privacy or cookie question",
+      "translation": "Franciele Sofiati disponível para responder uma pergunta sobre privacidade ou cookies",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-18T11:12:40.576126+00:00"
+    },
+    "7ab0efd1de0def83e7a03183d5c58a8b8239d88a80c04107fbf942e51fb9eaa0": {
+      "source": "Franciele Sofiati discussing suitability during professional care",
+      "translation": "Franciele Sofiati discutindo adequação durante cuidados profissionais",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-18T11:12:40.835517+00:00"
+    },
+    "03581c2c9b789c5f1d2a43153c143be99a8d175e438030f2ac5fa3f661a81dbd": {
+      "source": "Franciele Sofiati available to answer questions about personal information",
+      "translation": "Franciele Sofiati disponível para responder perguntas sobre informações pessoais",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-18T11:12:40.969016+00:00"
+    },
+    "0f07100605a13de57fcd25588074604ffd920e617a650a8e9dc8513026e7da96": {
+      "source": "Franciele Sofiati receiving a patient enquiry with care",
+      "translation": "Franciele Sofiati recebendo uma consulta com cuidado.",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-18T11:12:41.178122+00:00"
+    },
+    "c7cd8fa73a89a72f8115c7ac7856fbdbf2b2ff870efe757f605dd98f0fdd0eb1": {
+      "source": "Franciele Sofiati discussing preparation and recovery with a patient",
+      "translation": "Franciele Sofiati discutindo preparação e recuperação com um paciente",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-18T11:14:25.094906+00:00"
+    },
+    "3ca364d349b313870958d4d5d0fec026193e4dc492415708bd732ba819dda114": {
+      "source": "Franciele Sofiati providing treatment with aftercare in mind",
+      "translation": "Franciele Sofiati fornecendo tratamento com cuidados posteriores em mente",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-18T11:14:25.174956+00:00"
+    },
+    "da74fd719c801abf84e8b63379352b07c2af15e5fd833a5c57ca920c1d86d0b5": {
+      "source": "Franciele Sofiati explaining how technology fits a treatment plan",
+      "translation": "Franciele Sofiati explicando como a tecnologia se encaixa em um plano tratamento",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-18T11:14:25.321613+00:00"
+    },
+    "ef801258f10a5849ed12bb8b42188ab565df184dc40fc16983c14b3fd42da75b": {
+      "source": "Franciele Sofiati selecting laser technology for a defined clinical target",
+      "translation": "Franciele Sofiati selecionando tecnologia laser para um alvo clínico definido",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-18T11:14:25.457764+00:00"
+    },
+    "f6d0ab972910d073cc0f465be8d0c1869f1f0a3644b9639a75ca8f8523f47e96": {
+      "source": "Franciele Sofiati carrying out laser hair reduction treatment",
+      "translation": "Franciele Sofiati realizando redução de cabelo laser tratamento",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-18T11:14:25.539758+00:00"
+    },
+    "003b26c75c361e86a0a3a82e2546fb7e6c0be6e92ae43d755ccaa5c22efde5fe": {
+      "source": "Franciele Sofiati providing individual care that respects natural features",
+      "translation": "Franciele Sofiati prestando cuidados individuais que respeitam características naturais",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-18T11:14:25.647920+00:00"
+    },
+    "5c16795a6d7b44636389a369f28dab6e915c8a987d086ed40bbed1c2a5c28dfa": {
+      "source": "Franciele Sofiati assessing skin before selecting treatment",
+      "translation": "Franciele Sofiati avaliando pele antes de selecionar tratamento",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-18T11:14:25.808679+00:00"
+    },
+    "04eaa24087bdf69ba1b05a048453d87866c65769edabe395868506efe13b89ad": {
+      "source": "Franciele Sofiati planning skin care with protection and continuity",
+      "translation": "Franciele Sofiati planejamento pele cuidado com proteção e continuidade",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-18T11:14:25.878018+00:00"
+    },
+    "ea486af053d229d9aad2516afb0b215e874cfb0651e9bdbc67b97131ce9c5cc8": {
+      "source": "Franciele Sofiati balancing advanced tools with careful judgment",
+      "translation": "Franciele Sofiati balanceando ferramentas avançadas com julgamento cuidadoso",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "08f87526ca6726cd3c711335620c67c7c10dd404c3dd272e4446a7833da752c1",
+      "updated_at": "2026-07-18T11:14:26.061092+00:00"
     }
   }
 }

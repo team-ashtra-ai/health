@@ -6,9 +6,20 @@
   .sf-page[data-page="about"] #technology-with-purpose .sf-editorial-media { border-radius: var(--radius-lg) var(--radius-lg) var(--radius-arch); }
   .sf-page[data-page="about"] #after-treatment .sf-section-head { margin-inline-start: auto; text-align: end; }
   .sf-page[data-page="about"] #continue-the-story .sf-bottom-cta__inner { max-inline-size: min(66rem, calc(100% - 2 * var(--page-gutter))); }
+  .sf-page[data-page="about"] .sf-editorial-media--portrait {
+    max-inline-size: min(100%, 32rem);
+    justify-self: end;
+  }
+  .sf-page[data-page="about"] .sf-editorial-media--portrait img {
+    aspect-ratio: 4 / 5;
+    object-position: center top;
+  }
 
   @media (max-width: 47.999rem) {
     .sf-page[data-page="about"] #my-view-of-aesthetics .sf-content-card-grid { grid-template-columns: 1fr; }
     .sf-page[data-page="about"] #after-treatment .sf-section-head { margin-inline-start: 0; text-align: start; }
+    .sf-page[data-page="about"] .sf-editorial-media--portrait {
+      justify-self: center;
+    }
   }
 }

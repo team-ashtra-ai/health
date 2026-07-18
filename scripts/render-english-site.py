@@ -136,32 +136,81 @@ EDITORIAL_MEDIA_MAP: dict[tuple[str, int], tuple[str, str, int, int]] = {
     ("accessibility.html", 6): ("assets/treatments/Treatments23.png", "Franciele Sofiati explaining professional information clearly", 1672, 941),
     ("blog.html", 2): ("assets/treatments/Treatments21.png", "Franciele Sofiati discussing a skin concern before treatment", 1672, 941),
     ("blog.html", 6): ("assets/treatments/Treatments24.png", "Treatment preparation considered before a procedure", 1672, 941),
-    ("care.html", 2): ("assets/treatments/Treatments21.png", "A one-to-one conversation used to plan treatment in context", 1672, 941),
-    ("care.html", 6): ("assets/treatments/Treatments25.png", "A treatment detail prepared with aftercare in mind", 1672, 941),
+    ("care.html", 2): ("assets/treatments/Treatments21.png", "Franciele Sofiati discussing preparation and recovery with a patient", 1672, 941),
+    ("care.html", 6): ("assets/treatments/Treatments25.png", "Franciele Sofiati providing treatment with aftercare in mind", 1672, 941),
     ("consultation.html", 2): ("assets/treatments/Treatments21.png", "Franciele Sofiati listening during a focused consultation", 1672, 941),
     ("contact.html", 6): ("assets/treatments/Treatments27.png", "Franciele Sofiati available for appropriate aftercare questions", 1672, 941),
     ("faq.html", 2): ("assets/hero/clinic/hero 14.png", "A calm clinic setting for clear questions and answers", 1672, 941),
-    ("faq.html", 6): ("assets/treatments/Treatments29.png", "A technology-led treatment discussed in clinical context", 1672, 941),
+    ("faq.html", 6): ("assets/treatments/Treatments29.png", "Franciele Sofiati explaining how technology fits a treatment plan", 1672, 941),
     ("index.html", 2): ("assets/hero/clinic/hero 11.png", "The Franciele Sofiati clinic environment", 1672, 941),
     ("index.html", 6): ("assets/treatments/Treatments21.png", "Franciele Sofiati combining technical precision with personal care", 1672, 941),
     ("journal.html", 2): ("assets/treatments/Treatments21.png", "A thoughtful clinical conversation behind the featured essay", 1672, 941),
     ("journal.html", 6): ("assets/treatments/Treatments26.png", "A close treatment detail supporting an educational article", 1672, 941),
-    ("laser.html", 2): ("assets/treatments/Treatments9.png", "A laser platform selected for a specific clinical target", 1672, 941),
-    ("laser.html", 6): ("assets/treatments/Treatments10.png", "Laser hair reduction treatment in progress", 1672, 941),
+    ("laser.html", 2): ("assets/treatments/Treatments9.png", "Franciele Sofiati selecting laser technology for a defined clinical target", 1672, 941),
+    ("laser.html", 6): ("assets/treatments/Treatments10.png", "Franciele Sofiati carrying out laser hair reduction treatment", 1672, 941),
     ("legal.html", 2): ("assets/hero/clinic/hero 14.png", "The professional clinic environment described by the legal information", 1672, 941),
     ("legal.html", 6): ("assets/treatments/Treatments23.png", "Original professional content demonstrated in clinical practice", 1672, 941),
     ("mission.html", 2): ("assets/hero/clinic/hero 3.png", "The welcoming clinic environment behind Franciele Sofiati's mission", 1672, 941),
-    ("mission.html", 6): ("assets/treatments/Treatments24.png", "Individual care that preserves the person receiving it", 1672, 941),
-    ("privacy.html", 2): ("assets/hero/clinic/hero 13.png", "The clinic contact point for privacy questions", 1672, 941),
+    ("mission.html", 6): ("assets/treatments/Treatments24.png", "Franciele Sofiati providing individual care that respects natural features", 1672, 941),
+    ("privacy.html", 2): ("assets/treatments/Treatments28.png", "Franciele Sofiati available to answer questions about personal information", 1672, 941),
     ("results.html", 2): ("assets/treatments/Treatments28.png", "A clinical result considered within the full treatment context", 1672, 941),
     ("results.html", 6): ("assets/treatments/Treatments30.png", "Franciele Sofiati preserving individuality during treatment planning", 1672, 941),
-    ("skin.html", 2): ("assets/treatments/Treatments2.png", "A close skin assessment before selecting treatment", 1672, 941),
-    ("skin.html", 6): ("assets/treatments/Treatments8.png", "Professional skin planning with protection and continuity", 1672, 941),
+    ("skin.html", 2): ("assets/treatments/Treatments2.png", "Franciele Sofiati assessing skin before selecting treatment", 1672, 941),
+    ("skin.html", 6): ("assets/treatments/Treatments8.png", "Franciele Sofiati planning skin care with protection and continuity", 1672, 941),
     ("testimonials.html", 2): ("assets/hero/clinic/hero 3.png", "A calm treatment room inside the Franciele Sofiati clinic", 1672, 941),
     ("testimonials.html", 6): ("assets/treatments/Treatments13.png", "Franciele Sofiati carrying out a precise aesthetic treatment", 1672, 941),
-    ("thank-you.html", 2): ("assets/hero/clinic/hero 13.png", "The clinic reception where an enquiry is received", 1672, 941),
+    ("thank-you.html", 2): ("assets/treatments/Treatments30.png", "Franciele Sofiati receiving a patient enquiry with care", 1672, 941),
     ("values.html", 2): ("assets/hero/clinic/hero 11.png", "A personal consultation shaped by professional values", 1672, 941),
-    ("values.html", 6): ("assets/treatments/Treatments21.png", "Care balancing advanced tools with careful judgment", 1672, 941),
+    ("values.html", 6): ("assets/treatments/Treatments21.png", "Franciele Sofiati balancing advanced tools with careful judgment", 1672, 941),
+}
+
+# Every practitioner quotation has its own approved transparent Franciele
+# portrait. Keeping this list explicit makes accidental image reuse testable.
+QUOTE_PORTRAITS: dict[str, tuple[str, ...]] = {
+    "about.html": tuple(
+        f"assets/quotations/about-quote-{index:02d}.webp"
+        for index in range(1, 4)
+    ),
+    "care.html": tuple(
+        f"assets/quotations/care-quote-{index:02d}.webp"
+        for index in range(1, 5)
+    ),
+    "consultation.html": tuple(
+        f"assets/quotations/consultation-quote-{index:02d}.webp"
+        for index in range(1, 3)
+    ),
+    "index.html": tuple(
+        f"assets/quotations/index-quote-{index:02d}.webp"
+        for index in range(1, 4)
+    ),
+    "laser.html": tuple(
+        f"assets/quotations/laser-quote-{index:02d}.webp"
+        for index in range(1, 6)
+    ),
+    "mission.html": tuple(
+        f"assets/quotations/mission-quote-{index:02d}.png"
+        for index in range(1, 8)
+    ),
+    "results.html": tuple(
+        f"assets/quotations/results-quote-{index:02d}.png"
+        for index in range(1, 3)
+    ),
+    "skin.html": tuple(
+        f"assets/quotations/skin-quote-{index:02d}.png"
+        for index in range(1, 7)
+    ),
+    "testimonials.html": tuple(
+        f"assets/quotations/testimonials-quote-{index:02d}.png"
+        for index in range(1, 3)
+    ),
+    "thank-you.html": ("assets/quotations/thank-you-quote-01.png",),
+    "values.html": (
+        "assets/quotations/values-quote-01.png",
+        *(
+            f"assets/quotations/values-quote-{index:02d}.webp"
+            for index in range(2, 9)
+        ),
+    ),
 }
 
 TREATMENT_MENU_IMAGES: dict[str, tuple[str, str]] = {
@@ -907,12 +956,13 @@ class PageSkeleton:
     form_defaults: FormDefaults | None
 
 
-@dataclass(frozen=True)
+@dataclass
 class RenderContext:
     filename: str
     page: Mapping[str, Any]
     site: Mapping[str, Any]
     form_defaults: FormDefaults | None
+    quote_index: int = 0
 
     @property
     def slug(self) -> str:
@@ -2117,26 +2167,40 @@ def render_quote(
     ):
         quote_text = quote_text[1:-1].strip()
     attribution = first_value(block, "attribution", "cite", "source", "author")
-    if not attribution:
-        statement_class = (
-            ""
-            if context and context.filename == "testimonials.html"
-            else " sf-practitioner-statement"
-        )
-        return (
-            f'<aside class="sf-pull-quote{statement_class}">'
-            f'<p>{html_text(quote_text)}</p></aside>'
-        )
-    quote_kind = (
-        "sf-testimonial-quote"
-        if "patient" in str(attribution).lower()
-        else "sf-practitioner-quote"
+    is_patient_quote = bool(
+        context
+        and context.filename == "testimonials.html"
+        and (not attribution or "patient" in str(attribution).lower())
     )
-    footer = f"<figcaption><cite>{html_text(attribution)}</cite></figcaption>"
+    if is_patient_quote:
+        return (
+            '<figure class="sf-testimonial-quote">'
+            f'<blockquote class="sf-pull-quote"><p>{html_text(quote_text)}</p></blockquote>'
+            + (
+                f"<figcaption><cite>{html_text(attribution)}</cite></figcaption>"
+                if attribution
+                else ""
+            )
+            + "</figure>"
+        )
+    filename = context.filename if context else "index.html"
+    portraits = QUOTE_PORTRAITS.get(filename)
+    if not portraits:
+        raise RenderError(f"{filename}: practitioner quote has no portrait set")
+    quote_index = context.quote_index if context else 0
+    if quote_index >= len(portraits):
+        raise RenderError(
+            f"{filename}: practitioner quote {quote_index + 1} has no unique portrait"
+        )
+    portrait = portraits[quote_index]
+    if context:
+        context.quote_index += 1
     return (
-        f'<figure class="{quote_kind}">'
+        '<figure class="sf-practitioner-quote sf-quotation-signature">'
+        f'<img class="sf-quotation-avatar" src="{escape(portrait, quote=True)}" '
+        'alt="" width="52" height="52" loading="lazy" decoding="async">'
         f'<blockquote class="sf-pull-quote"><p>{html_text(quote_text)}</p></blockquote>'
-        f"{footer}</figure>"
+        '<figcaption><cite>– Franciele Sofiati</cite></figcaption></figure>'
     )
 
 
@@ -3149,10 +3213,17 @@ def render_section(
     head = f'{chapter}{eyebrow}<{tag} id="{heading_id}">{html_text(heading)}</{tag}>'
     if context.filename == "contact.html" and pattern == "form":
         head += render_contact_form_guide()
-    body = render_blocks(
-        blocks,
-        heading_level=2 if order == 1 else 3,
-        context=context,
+    # The standard final CTA replaces the authored body completely. Avoid
+    # rendering discarded blocks so hidden quotations do not consume one of
+    # the page's unique portrait signatures.
+    body = (
+        ""
+        if pattern == "final_cta"
+        else render_blocks(
+            blocks,
+            heading_level=2 if order == 1 else 3,
+            context=context,
+        )
     )
     if context.filename == "treatments.html" and pattern.startswith("treatment_") and pattern != "treatment_finder":
         body += (

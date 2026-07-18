@@ -37,6 +37,22 @@
   .sf-pull-quote p { max-inline-size: 31ch; font-family: var(--font-italic); font-size: var(--type-quotation); font-style: italic; font-weight: 400; letter-spacing: -.025em; line-height: 1.38; }
   .sf-pull-quote p em, :is(.sf-testimonial-quote, .sf-practitioner-quote) em { color: var(--rose-gold-600); }
   :is(.sf-testimonial-quote, .sf-practitioner-quote) figcaption { color: var(--color-text-primary); font-size: var(--type-small); font-weight: 720; letter-spacing: .11em; text-transform: uppercase; }
+  .sf-quotation-signature > .sf-pull-quote p {
+    max-inline-size: 38ch;
+    font-family: var(--font-heading);
+    font-size: clamp(1.16rem, 1.48vw, 1.42rem);
+    font-weight: 400;
+    letter-spacing: -.025em;
+    line-height: 1.36;
+  }
+  .sf-quotation-signature figcaption {
+    color: var(--color-text-secondary);
+    font-size: clamp(.69rem, .72vw, .76rem);
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: none;
+  }
+  [data-tone="forest"] .sf-quotation-signature figcaption { color: var(--gold-200); }
   .sf-nav a, .sf-button, button { letter-spacing: .045em; }
 
   /* Pattern-level treatments change scale or emphasis only; typefaces stay

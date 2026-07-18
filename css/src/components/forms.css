@@ -56,7 +56,7 @@
     line-height: 1.6;
   }
 
-  .sf-field-help { color: var(--color-text-secondary); font-size: .84rem; line-height: 1.55; }
+  .sf-field-help { color: var(--color-text-secondary); font-size: .875rem; line-height: 1.55; }
   .sf-form-error, .form-error { min-block-size: 1em; color: var(--color-error); font-size: .875rem; }
   .sf-required { color: var(--color-error); }
 

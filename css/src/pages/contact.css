@@ -305,6 +305,23 @@
     line-height: 1.35;
   }
 
+  .sf-page[data-page="contact"] .sf-direct-contact__portrait {
+    max-inline-size: 74rem;
+    margin: clamp(2rem, 4vw, 3.5rem) auto 0;
+    overflow: hidden;
+    border: 1px solid rgb(234 213 173 / .52);
+    border-radius: 7rem .75rem .75rem;
+    background: var(--forest-800);
+    box-shadow: 0 1.4rem 3rem rgb(14 25 18 / .28);
+  }
+
+  .sf-page[data-page="contact"] .sf-direct-contact__portrait img {
+    inline-size: 100%;
+    aspect-ratio: 16 / 7;
+    object-fit: cover;
+    object-position: center 42%;
+  }
+
   .sf-page[data-page="contact"] .sf-direct-contact__grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -519,6 +536,15 @@
     .sf-page[data-page="contact"] .sf-direct-contact__introduction {
       margin-block-start: 1.25rem;
       padding-inline-start: 1rem;
+    }
+
+    .sf-page[data-page="contact"] .sf-direct-contact__portrait {
+      border-radius: 4rem .55rem .55rem;
+    }
+
+    .sf-page[data-page="contact"] .sf-direct-contact__portrait img {
+      aspect-ratio: 4 / 3;
+      object-position: center;
     }
 
     .sf-page[data-page="contact"] .sf-direct-contact__grid { grid-template-columns: 1fr; }

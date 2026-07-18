@@ -2,14 +2,14 @@
   "version": "pt-br-argos-blocks-v3",
   "locale": "pt-BR",
   "engine": "argos:en->pb:installed",
-  "updated_at": "2026-07-18T10:50:46.462516+00:00",
+  "updated_at": "2026-07-18T11:28:24.983014+00:00",
   "pages": {
     "404.html": {
       "source_path": "404.html",
       "output_path": "pt/404.html",
-      "source_hash": "0799e3dafe06e8f6c5b7daf0aa50c376ebe85258b36218e84637d3696b84f20f",
-      "output_hash": "2813ba638c9cab1e7cfaaa5f3b0d21ef080d91dc812a0632bdeb9d8dfc78ac8e",
-      "last_translated": "2026-07-18T10:48:49.432476+00:00",
+      "source_hash": "cadc37a45342f16e58ec0c2f1f7dee3b4dcba6ba16409936b56b96e86298d0c9",
+      "output_hash": "44f59142596e7450141cef8b91c49a9a370ac37b6d45f913954f60fc5deac74c",
+      "last_translated": "2026-07-18T11:12:38.958509+00:00",
       "engine": "argos:en->pb:installed",
       "manual_override": false,
       "manual_review_required": false,
@@ -164,6 +164,17 @@
           "generated_translation": "O link pode ter se movido. Volte para casa ou escolha outra rota útil abaixo.",
           "generated_hash": "0318278fbe7be5e258a747a399b26516ba0ab97779f7882dfafeb81be75f99c8",
           "current_translation": "O link pode ter se movido. Volte para casa ou escolha outra rota útil abaixo.",
+          "manual_override": false,
+          "review_required": false,
+          "origin": "argos"
+        },
+        "attr:id:main/section[1]/div[1]/div[1]/div[1]/figure[1]/img[1]:alt": {
+          "kind": "attribute:alt",
+          "source": "Franciele Sofiati welcoming a patient in her Londrina clinic",
+          "source_hash": "24baa2ad01e3ed7d5347e656b030379ca6125c94aec687e833ead5b6ddfb752f",
+          "generated_translation": "Franciele Sofiati recebendo uma paciente em sua clínica Londrina",
+          "generated_hash": "6679c3751ec738487ab898316cc84f550a5cca5d56dca6a35f8e6f9b2cb7f66d",
+          "current_translation": "Franciele Sofiati recebendo uma paciente em sua clínica Londrina",
           "manual_override": false,
           "review_required": false,
           "origin": "argos"
@@ -437,9 +448,9 @@
     "about.html": {
       "source_path": "about.html",
       "output_path": "pt/about.html",
-      "source_hash": "87e5c24d05b9abdc3498cbaf8f5a6472b5809e4967535da6d3da7bd85e308996",
-      "output_hash": "53f885b5464155f21941c55ad3b7b2c2a5627df97ea81f4e6d0bd19812b61426",
-      "last_translated": "2026-07-18T10:48:50.464581+00:00",
+      "source_hash": "ba2e1b4856942f1c6deb85ef16e9376ef638fe4306c245b71f6c6f81ebb77448",
+      "output_hash": "75a6b41bfde1f46c2fa08b123cf7b8d589e660ed5f05b6239cd11d26b198f38a",
+      "last_translated": "2026-07-18T11:28:24.342101+00:00",
       "engine": "argos:en->pb:installed",
       "manual_override": true,
       "manual_review_required": false,
@@ -928,7 +939,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:my-view-of-aesthetics/div[1]/aside[1]/p[1]:0": {
+        "text:id:my-view-of-aesthetics/div[1]/figure[1]/blockquote[1]/p[1]:0": {
           "kind": "text",
           "source": "The most beautiful change is one that helps you feel confident without asking you to become someone else.",
           "source_hash": "5791d8c51f05e3f828b80187d9f3ba9dd21ad9b4fa8a90b9c9e7f706cdc0319c",
@@ -937,9 +948,20 @@
           "current_translation": "A mudança mais bonita é aquela que ajuda você a se sentir confiante sem pedir para se tornar outra pessoa.",
           "manual_override": false,
           "review_required": false,
+          "origin": "memory"
+        },
+        "text:id:my-view-of-aesthetics/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
+          "kind": "text",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
+          "manual_override": false,
+          "review_required": false,
           "origin": "argos"
         },
-        "text:id:clinical-judgment/div[1]/header[1]/p[1]:0": {
+        "text:id:clinical-judgment/div[1]/div[1]/header[1]/p[1]:0": {
           "kind": "text",
           "source": "CLINICAL JUDGMENT",
           "source_hash": "6af6843eecd0341ffe13b906be093d5aed99914744fbbe2af7125215fae24385",
@@ -961,7 +983,7 @@
           "review_required": false,
           "origin": "argos"
         },
-        "text:id:clinical-judgment/div[1]/div[1]/article[1]/h2[1]:0": {
+        "text:id:clinical-judgment/div[1]/div[1]/div[1]/article[1]/h2[1]:0": {
           "kind": "text",
           "source": "Concern",
           "source_hash": "bead1be3fa973b5005fb88838bd033f21160dbc6a13d004bd3f500de517a99a9",
@@ -972,7 +994,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:clinical-judgment/div[1]/div[1]/article[1]/p[1]:0": {
+        "text:id:clinical-judgment/div[1]/div[1]/div[1]/article[1]/p[1]:0": {
           "kind": "text",
           "source": "What you want to improve and why it matters now.",
           "source_hash": "531616fb5eaa05318f6949aa21f07c792c9187e3e9090ee78ea67ba574443027",
@@ -983,7 +1005,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:clinical-judgment/div[1]/div[1]/article[2]/h2[1]:0": {
+        "text:id:clinical-judgment/div[1]/div[1]/div[1]/article[2]/h2[1]:0": {
           "kind": "text",
           "source": "History",
           "source_hash": "0e769600933790607b2a13b33ddfade0fa17810eb62c3b28ee23e59516516491",
@@ -994,7 +1016,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:clinical-judgment/div[1]/div[1]/article[2]/p[1]:0": {
+        "text:id:clinical-judgment/div[1]/div[1]/div[1]/article[2]/p[1]:0": {
           "kind": "text",
           "source": "Skin behavior, health context, sensitivities and previous procedures.",
           "source_hash": "c42811d6301679d8112714a4c0e1d7434393ba9a6d5383e3a9b5ebc8d42c5d51",
@@ -1005,7 +1027,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:clinical-judgment/div[1]/div[1]/article[3]/h2[1]:0": {
+        "text:id:clinical-judgment/div[1]/div[1]/div[1]/article[3]/h2[1]:0": {
           "kind": "text",
           "source": "Suitability",
           "source_hash": "e48c6f7e4db1396a686ce749e82afe7e3b3b0414e3ee9a147d2e07ad42df2332",
@@ -1016,7 +1038,7 @@
           "review_required": false,
           "origin": "glossary"
         },
-        "text:id:clinical-judgment/div[1]/div[1]/article[3]/p[1]:0": {
+        "text:id:clinical-judgment/div[1]/div[1]/div[1]/article[3]/p[1]:0": {
           "kind": "text",
           "source": "Whether the treatment, timing and recovery fit your situation.",
           "source_hash": "5f4ad20eebc681192c4a2f5e85dc83aa70d2df664a1b1403b1f1903c860e28d8",
@@ -1027,7 +1049,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:clinical-judgment/div[1]/div[1]/article[4]/h2[1]:0": {
+        "text:id:clinical-judgment/div[1]/div[1]/div[1]/article[4]/h2[1]:0": {
           "kind": "text",
           "source": "Explanation",
           "source_hash": "16ee4625bce919a2ec1a3ac9e3168a9e2c5d04a3159fd30539788f175e44b3ba",
@@ -1038,7 +1060,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:clinical-judgment/div[1]/div[1]/article[4]/p[1]:0": {
+        "text:id:clinical-judgment/div[1]/div[1]/div[1]/article[4]/p[1]:0": {
           "kind": "text",
           "source": "Purpose, limits, risks and aftercare before any decision.",
           "source_hash": "07c8ba65daa7de7f7153851f771345a6c3aaa543515c51cc2ab27a44e2671988",
@@ -1049,7 +1071,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:clinical-judgment/div[1]/aside[1]/h2[1]:0": {
+        "text:id:clinical-judgment/div[1]/div[1]/aside[1]/h2[1]:0": {
           "kind": "text",
           "source": "Responsible answer",
           "source_hash": "045e5811ab4929232b1824af8728a1d8873273211e671b32386278f3fa5b4e92",
@@ -1060,7 +1082,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:clinical-judgment/div[1]/aside[1]/p[1]:0": {
+        "text:id:clinical-judgment/div[1]/div[1]/aside[1]/p[1]:0": {
           "kind": "text",
           "source": "A recommendation can also be to prepare first, postpone, refer or avoid treatment.",
           "source_hash": "1a42572ba589ad523f5dcad8df44b6df569deb3e3df4b473998de996f6c632a5",
@@ -1070,6 +1092,17 @@
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
+        },
+        "attr:id:clinical-judgment/div[1]/figure[1]/img[1]:alt": {
+          "kind": "attribute:alt",
+          "source": "Franciele Sofiati listening to a patient before making a recommendation",
+          "source_hash": "21795ab7396585724ce507d432f67c34d2d921cd45a823d028c2d41f5d97067d",
+          "generated_translation": "Franciele Sofiati ouvindo um paciente antes de fazer uma recomendação",
+          "generated_hash": "ff676d46d9df676bdb555565a20b8bd24b57f341bda85977b1fec1f1f3542113",
+          "current_translation": "Franciele Sofiati ouvindo um paciente antes de fazer uma recomendação",
+          "manual_override": false,
+          "review_required": false,
+          "origin": "argos"
         },
         "text:id:what-you-can-expect/div[1]/header[1]/p[1]:0": {
           "kind": "text",
@@ -1225,7 +1258,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:what-you-can-expect/div[1]/aside[1]/p[1]:0": {
+        "text:id:what-you-can-expect/div[1]/figure[1]/blockquote[1]/p[1]:0": {
           "kind": "text",
           "source": "You deserve to understand your options and feel confident that the final choice is still yours.",
           "source_hash": "7d44088b306c1babb97becb1751532d73d5f397bb300913e19349795f827ac89",
@@ -1234,7 +1267,18 @@
           "current_translation": "Você merece entender suas opções e se sentir confiante que a escolha final ainda é sua.",
           "manual_override": false,
           "review_required": false,
-          "origin": "argos"
+          "origin": "memory"
+        },
+        "text:id:what-you-can-expect/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
+          "kind": "text",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
+          "manual_override": false,
+          "review_required": false,
+          "origin": "memory"
         },
         "text:id:the-clinic-experience/div[1]/div[1]/header[1]/p[1]:0": {
           "kind": "text",
@@ -1401,7 +1445,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:the-clinic-experience/div[1]/div[1]/aside[1]/p[1]:0": {
+        "text:id:the-clinic-experience/div[1]/div[1]/figure[1]/blockquote[1]/p[1]:0": {
           "kind": "text",
           "source": "Feeling comfortable enough to ask questions is part of feeling cared for.",
           "source_hash": "d86b3277d2f165928d0bdbc5548656433db2aaf97af799cc84a5a9464cef155d",
@@ -1410,7 +1454,18 @@
           "current_translation": "Sentir-se confortável o bastante para fazer perguntas é parte de sentir-se cuidado.",
           "manual_override": false,
           "review_required": false,
-          "origin": "argos"
+          "origin": "memory"
+        },
+        "text:id:the-clinic-experience/div[1]/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
+          "kind": "text",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
+          "manual_override": false,
+          "review_required": false,
+          "origin": "memory"
         },
         "attr:id:the-clinic-experience/div[1]/figure[1]/img[1]:alt": {
           "kind": "attribute:alt",
@@ -1599,7 +1654,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:after-treatment/div[1]/header[1]/p[1]:0": {
+        "text:id:after-treatment/div[1]/div[1]/header[1]/p[1]:0": {
           "kind": "text",
           "source": "AFTER TREATMENT",
           "source_hash": "28891041612a803d58a63a8608ab7225d33de01674dcd15a9fbcdd5576019bfa",
@@ -1621,7 +1676,7 @@
           "review_required": false,
           "origin": "argos"
         },
-        "text:id:after-treatment/div[1]/div[1]/article[1]/h2[1]:0": {
+        "text:id:after-treatment/div[1]/div[1]/div[1]/article[1]/h2[1]:0": {
           "kind": "text",
           "source": "Protection",
           "source_hash": "0e97ad021672d434a066dc50b8681813907da9f1f706aa1fa4402b9c4ba4c006",
@@ -1632,7 +1687,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:after-treatment/div[1]/div[1]/article[1]/p[1]:0": {
+        "text:id:after-treatment/div[1]/div[1]/div[1]/article[1]/p[1]:0": {
           "kind": "text",
           "source": "Treatment-specific aftercare helps protect the area while it responds.",
           "source_hash": "82ce57ab946d2a809199d8ac86c3400488312f030d912dde6908406f8f28c0ec",
@@ -1643,7 +1698,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:after-treatment/div[1]/div[1]/article[2]/h2[1]:0": {
+        "text:id:after-treatment/div[1]/div[1]/div[1]/article[2]/h2[1]:0": {
           "kind": "text",
           "source": "Observation",
           "source_hash": "d239e9cf6a51335bf996fc5db77623d8be287e8b4d8e1cd1be3a0e00c8bbfe57",
@@ -1654,7 +1709,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:after-treatment/div[1]/div[1]/article[2]/p[1]:0": {
+        "text:id:after-treatment/div[1]/div[1]/div[1]/article[2]/p[1]:0": {
           "kind": "text",
           "source": "Some changes settle quickly; others develop through healing or remodeling.",
           "source_hash": "98748dd05a2bca99179515bc265c35cf62b9a68192452a8530540c7bd4cf4cce",
@@ -1665,7 +1720,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:after-treatment/div[1]/div[1]/a[1]/h2[1]:0": {
+        "text:id:after-treatment/div[1]/div[1]/div[1]/a[1]/h2[1]:0": {
           "kind": "text",
           "source": "Contact",
           "source_hash": "2b5c3d26721ae9c350cf3009318b626f0fc8a90b4a2ac0ca8099c05aa849282e",
@@ -1676,7 +1731,7 @@
           "review_required": false,
           "origin": "glossary"
         },
-        "text:id:after-treatment/div[1]/div[1]/a[1]/p[1]:0": {
+        "text:id:after-treatment/div[1]/div[1]/div[1]/a[1]/p[1]:0": {
           "kind": "text",
           "source": "Questions during recovery are part of care, not an interruption.",
           "source_hash": "c379de4297709d290305b606060062fb4be4e557786fc5da20ebecf790604b91",
@@ -1687,7 +1742,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:after-treatment/div[1]/div[1]/article[3]/h2[1]:0": {
+        "text:id:after-treatment/div[1]/div[1]/div[1]/article[3]/h2[1]:0": {
           "kind": "text",
           "source": "Review",
           "source_hash": "aff0766a5290e117b8433c351bae7b7b23bed682b2369bd822d88a647cc58512",
@@ -1698,7 +1753,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:after-treatment/div[1]/div[1]/article[3]/p[1]:0": {
+        "text:id:after-treatment/div[1]/div[1]/div[1]/article[3]/p[1]:0": {
           "kind": "text",
           "source": "The real response guides whether to continue, adjust, simplify or pause.",
           "source_hash": "ee9bbb1126e730561dc20b0a270a594a99cf651411ad00d686e6f180f7f5a22c",
@@ -1709,7 +1764,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:after-treatment/div[1]/div[2]/a[1]:0": {
+        "text:id:after-treatment/div[1]/div[1]/div[2]/a[1]:0": {
           "kind": "text",
           "source": "Read the care guide",
           "source_hash": "6a49769b4a886f7a663a23f5bb4e8067a24d8fde999ca01b5462bd2d74d62efd",
@@ -1719,6 +1774,17 @@
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
+        },
+        "attr:id:after-treatment/div[1]/figure[1]/img[1]:alt": {
+          "kind": "attribute:alt",
+          "source": "Franciele Sofiati providing attentive care during a treatment appointment",
+          "source_hash": "3c8d1bcacb36847872c1dbb3c42992e56dbc3070200bae355762cecc30f4853f",
+          "generated_translation": "Franciele Sofiati prestando atenção durante um tratamento atendimento",
+          "generated_hash": "3228553c3ccf789360bc52af3460b8f6cfbc64812400c4872a277c37cfa9a85f",
+          "current_translation": "Franciele Sofiati prestando atenção durante um tratamento atendimento",
+          "manual_override": false,
+          "review_required": false,
+          "origin": "argos"
         },
         "text:id:the-values-behind-the-work/div[1]/div[1]/header[1]/p[1]:0": {
           "kind": "text",
@@ -4675,11 +4741,11 @@
     "care.html": {
       "source_path": "care.html",
       "output_path": "pt/care.html",
-      "source_hash": "844d3abd6ea7a8f9c85f97f7aed8970911e5507eddc57e91d221e995e4ab7584",
-      "output_hash": "ab60bc29a7a50f074548716aa97e587fd7c3d6adb4da3cbbacb415bc854388a3",
-      "last_translated": "2026-07-18T10:48:51.969183+00:00",
+      "source_hash": "89ce12648091ef4ee3a168dba47c20a7bc1ed44423dea20468a7dbc64bba09f1",
+      "output_hash": "ade0660450749ebff98b0d212875157b41330af2fdc1de7187f66a03e3d4fef1",
+      "last_translated": "2026-07-18T11:28:24.412122+00:00",
       "engine": "argos:en->pb:installed",
-      "manual_override": false,
+      "manual_override": true,
       "manual_review_required": false,
       "blocks": {
         "attr:meta[name=description]:content": {
@@ -4831,8 +4897,8 @@
           "source_hash": "6eaf7e28dc4f00f4a9ae3a065fba184da39c34304488e77a7de1413239ac1922",
           "generated_translation": "Cuidado em torno de tratamento",
           "generated_hash": "67c0e799df5f6725b6857a245aa0185d240b11e176ed7e0f4230191fc206fe7f",
-          "current_translation": "Cuidado em torno de tratamento",
-          "manual_override": false,
+          "current_translation": "Cuidado em Cada Etapa",
+          "manual_override": true,
           "review_required": false,
           "origin": "argos"
         },
@@ -4992,25 +5058,25 @@
         },
         "text:id:my-care-philosophy/div[1]/div[1]/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
         },
         "attr:id:my-care-philosophy/div[1]/figure[1]/img[1]:alt": {
           "kind": "attribute:alt",
-          "source": "A one-to-one conversation used to plan treatment in context",
-          "source_hash": "39da687eafd6f8144b1b34d300d2efd4d5d53bb7189625498d674dd470d2e310",
-          "generated_translation": "Uma conversa individual usada para planejar tratamento em contexto",
-          "generated_hash": "4566c9873374f37124a28e87c85003990304801618fcd9a7bed63d8e20cd0821",
-          "current_translation": "Uma conversa individual usada para planejar tratamento em contexto",
+          "source": "Franciele Sofiati discussing preparation and recovery with a patient",
+          "source_hash": "c7cd8fa73a89a72f8115c7ac7856fbdbf2b2ff870efe757f605dd98f0fdd0eb1",
+          "generated_translation": "Franciele Sofiati discutindo preparação e recuperação com um paciente",
+          "generated_hash": "f1243ff31ef627c21c45c14b15427c41835f780e233677ac48dc92430bd6c24f",
+          "current_translation": "Franciele Sofiati discutindo preparação e recuperação com um paciente",
           "manual_override": false,
           "review_required": false,
-          "origin": "memory"
+          "origin": "argos"
         },
         "text:id:how-i-build-a-plan/div[1]/header[1]/p[1]:0": {
           "kind": "text",
@@ -5333,11 +5399,11 @@
         },
         "text:id:before-treatment/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -5608,25 +5674,25 @@
         },
         "text:id:aftercare-foundations/div[1]/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
         },
         "attr:id:aftercare-foundations/div[1]/figure[1]/img[1]:alt": {
           "kind": "attribute:alt",
-          "source": "A treatment detail prepared with aftercare in mind",
-          "source_hash": "107c14585c40bc4a600f12896eb7664bdd77ecfeccd841cf3fa41b1a3a021848",
-          "generated_translation": "Um detalhe tratamento preparado com cuidados posteriores em mente",
-          "generated_hash": "25aa79b9f8a3c60ccf4d8bbf22761344688d7f2c68f63e16e26f2cef78b13047",
-          "current_translation": "Um detalhe tratamento preparado com cuidados posteriores em mente",
+          "source": "Franciele Sofiati providing treatment with aftercare in mind",
+          "source_hash": "3ca364d349b313870958d4d5d0fec026193e4dc492415708bd732ba819dda114",
+          "generated_translation": "Franciele Sofiati fornecendo tratamento com cuidados posteriores em mente",
+          "generated_hash": "8add741fd032e9e254c05e8f69677c5a672bc16d09841781dd0551f9f30fb575",
+          "current_translation": "Franciele Sofiati fornecendo tratamento com cuidados posteriores em mente",
           "manual_override": false,
           "review_required": false,
-          "origin": "memory"
+          "origin": "argos"
         },
         "text:id:dos-and-don-ts/div[1]/header[1]/p[1]:0": {
           "kind": "text",
@@ -5806,22 +5872,22 @@
         },
         "text:id:dos-and-don-ts/div[1]/figure[1]/blockquote[1]/p[1]:0": {
           "kind": "text",
-          "source": "You deserve to know what is expected and when to ask for help.",
-          "source_hash": "faf7b7d26fc5aa2bd64a91813a6f2f6cbe77ba1f2293e1263722a7daa7944d13",
-          "generated_translation": "Você merece saber o que é esperado e quando pedir ajuda.",
-          "generated_hash": "d873e335a4972c55a0758b2d6a6d993c90e5586bd3d27f60b73eb55d6b8d72b7",
-          "current_translation": "Você merece saber o que é esperado e quando pedir ajuda.",
+          "source": "You deserve to feel supported, even after you leave the treatment room.",
+          "source_hash": "0ee1580826bd2f4b6c499f7e17038ded8b6aa0e2527f1e5de56730e721824654",
+          "generated_translation": "Você merece se sentir apoiado, mesmo depois de sair da sala tratamento.",
+          "generated_hash": "dbc279db1b05d4d17ba147d3a1749963d5b7c404959185cd1396d0994f6893f2",
+          "current_translation": "Você merece se sentir apoiado, mesmo depois de sair da sala tratamento.",
           "manual_override": false,
           "review_required": false,
           "origin": "argos"
         },
         "text:id:dos-and-don-ts/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -6282,9 +6348,9 @@
     "consultation.html": {
       "source_path": "consultation.html",
       "output_path": "pt/consultation.html",
-      "source_hash": "5d990cbcdfe40e7f1aa8ba3b1a5170d3fa6d82fdac4cf6542d182aa2f80fd281",
-      "output_hash": "b933ae6a31c42cd2751ded897d00bbcd5c8ecf256b2d2364c35a587c92090037",
-      "last_translated": "2026-07-18T10:48:52.794652+00:00",
+      "source_hash": "f5375717de4a4cd499b20d05dfde8c13ae603d4fc1ec432ec7b404888fa7e598",
+      "output_hash": "22073fec506415fc8120312c30c77d37df10aab4c7b4363c90c6d07a7f76ad22",
+      "last_translated": "2026-07-18T11:28:24.468900+00:00",
       "engine": "argos:en->pb:installed",
       "manual_override": false,
       "manual_review_required": false,
@@ -6762,16 +6828,27 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:personal-treatment-planning/div[1]/aside[1]/p[1]:0": {
+        "text:id:personal-treatment-planning/div[1]/figure[1]/blockquote[1]/p[1]:0": {
           "kind": "text",
-          "source": "“You deserve a recommendation that respects your features, your confidence and your right to choose.”",
-          "source_hash": "9491ab3ec27facb9a855d14e78e95f7410ea4fdc4d404037dc7b6b2bc1efe889",
-          "generated_translation": "\"Você merece uma recomendação que respeite suas características, sua confiança e seu direito de escolher.\"",
-          "generated_hash": "c1d1e2f3b52457fec94a2d31718be35ce27c43d54c9456c3ac073cdac5955421",
-          "current_translation": "\"Você merece uma recomendação que respeite suas características, sua confiança e seu direito de escolher.\"",
+          "source": "You deserve a recommendation that respects your features, your confidence and your right to choose.",
+          "source_hash": "ada1ae5c5afad70ccde3da0a394a8937b84c4071b2d8123eb36ee11ea154ac0f",
+          "generated_translation": "Você merece uma recomendação que respeite suas características, sua confiança e seu direito de escolher.",
+          "generated_hash": "0bf0b3b1924307ae8a4ec5c710517aaf5999bc95f327a4d87faa3d782115244b",
+          "current_translation": "Você merece uma recomendação que respeite suas características, sua confiança e seu direito de escolher.",
           "manual_override": false,
           "review_required": false,
           "origin": "argos"
+        },
+        "text:id:personal-treatment-planning/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
+          "kind": "text",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
+          "manual_override": false,
+          "review_required": false,
+          "origin": "memory"
         },
         "text:id:prepare-for-consultation/div[1]/header[1]/p[1]:0": {
           "kind": "text",
@@ -6841,6 +6918,17 @@
         },
         "text:id:prepare-for-consultation/div[1]/div[1]/article[1]/ul[1]/li[3]/span[1]:0": {
           "kind": "text",
+          "source": "Medication and supplements that may be relevant; do not stop prescribed treatment without medical guidance",
+          "source_hash": "e85f6d6a248bfec98e0ed98819b4a679441b9c5a04652592474224ccdffde9f6",
+          "generated_translation": "Medicação e suplementos que podem ser relevantes. Não pare de prescrever tratamento sem orientação médica.",
+          "generated_hash": "0e9e337f2dd91093da40c69114fee091d43e59089aeb6cb057d1031533be2a62",
+          "current_translation": "Medicação e suplementos que podem ser relevantes. Não pare de prescrever tratamento sem orientação médica.",
+          "manual_override": false,
+          "review_required": false,
+          "origin": "argos"
+        },
+        "text:id:prepare-for-consultation/div[1]/div[1]/article[1]/ul[1]/li[4]/span[1]:0": {
+          "kind": "text",
           "source": "Known allergies, sensitivities or unusual reactions",
           "source_hash": "791e7c5e67303341313813843476e541f486fdaceea014514497f07608b1eb19",
           "generated_translation": "Alergias conhecidas, sensibilidades ou reações incomuns.",
@@ -6850,7 +6938,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:prepare-for-consultation/div[1]/div[1]/article[1]/ul[1]/li[4]/span[1]:0": {
+        "text:id:prepare-for-consultation/div[1]/div[1]/article[1]/ul[1]/li[5]/span[1]:0": {
           "kind": "text",
           "source": "Recent tanning, strong sun exposure or irritation",
           "source_hash": "581ec1090641d5905a58f6e3d2fe4e067fbaeb0def16f7b40c17a94729c5b296",
@@ -6861,7 +6949,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:prepare-for-consultation/div[1]/div[1]/article[1]/ul[1]/li[5]/span[1]:0": {
+        "text:id:prepare-for-consultation/div[1]/div[1]/article[1]/ul[1]/li[6]/span[1]:0": {
           "kind": "text",
           "source": "Photographs showing how the concern has changed, when useful",
           "source_hash": "50e00e796be99932dbb32d3831aa56533d9597effe4c4d0e6fa9c9dc33f0c6f2",
@@ -6938,16 +7026,27 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:prepare-for-consultation/div[1]/aside[1]/p[1]:0": {
+        "text:id:prepare-for-consultation/div[1]/figure[1]/blockquote[1]/p[1]:0": {
           "kind": "text",
-          "source": "“Looking after yourself includes using medication safely. Please do not stop prescribed treatment without speaking to the professional responsible for it.”",
-          "source_hash": "68d28fa6fe0518a050d0eb01ce3f088159cd5e46e21b95db0b3139b71f595719",
-          "generated_translation": "Cuidar de si mesmo inclui usar medicação com segurança. Por favor, não pare de prescrever tratamento sem falar com o profissional responsável por isso.\"",
-          "generated_hash": "e04579b6c74a8b3bbedb1acbbeafb073ec4271c00681b0f87b2bd6335797990b",
-          "current_translation": "Cuidar de si mesmo inclui usar medicação com segurança. Por favor, não pare de prescrever tratamento sem falar com o profissional responsável por isso.\"",
+          "source": "Looking after yourself also means giving your body the time, honesty and patience it needs.",
+          "source_hash": "29081b9b16aa02fcbf9328288775f0e759c25bc75f6b19ddcb173c8e9868f7a9",
+          "generated_translation": "Cuidar de si mesmo também significa dar ao seu corpo o tempo, honestidade e paciência que precisa.",
+          "generated_hash": "8fd1250eb550e9c41078fab0c2b41c31ea61f544bb61d42cf66440c9d47801c0",
+          "current_translation": "Cuidar de si mesmo também significa dar ao seu corpo o tempo, honestidade e paciência que precisa.",
           "manual_override": false,
           "review_required": false,
           "origin": "argos"
+        },
+        "text:id:prepare-for-consultation/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
+          "kind": "text",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
+          "manual_override": false,
+          "review_required": false,
+          "origin": "memory"
         },
         "text:id:after-consultation/div[1]/header[1]/p[1]:0": {
           "kind": "text",
@@ -8285,9 +8384,9 @@
     "contact.html": {
       "source_path": "contact.html",
       "output_path": "pt/contact.html",
-      "source_hash": "2165076ef52d5ef8958e5c99b42e761d6e3ec30d95d68712185ec2f9d32845c7",
-      "output_hash": "a8ce8f14d35a37c46239e4ebf92e60a70c179ca1051b752f266133e14cf3b961",
-      "last_translated": "2026-07-18T10:48:53.085550+00:00",
+      "source_hash": "126028f03442ea47e1cf5bc7c2df888433d43b3ead043a7726842f2212055597",
+      "output_hash": "af9d2346de7a5967a0455474e0fd8c23c94eecfceeea5fc2ff0fbadbd6446f02",
+      "last_translated": "2026-07-18T11:12:40.430041+00:00",
       "engine": "argos:en->pb:installed",
       "manual_override": false,
       "manual_review_required": false,
@@ -8908,6 +9007,17 @@
           "review_required": false,
           "origin": "memory"
         },
+        "attr:id:contact-form-section/div[1]/aside[1]/figure[1]/img[1]:alt": {
+          "kind": "attribute:alt",
+          "source": "Franciele Sofiati speaking with a patient in her clinic",
+          "source_hash": "ba239b122445b50757de155bf9ee177de5ad2fbd9acc2e28faf9f041baf2905f",
+          "generated_translation": "Franciele Sofiati falando com uma paciente em sua clínica",
+          "generated_hash": "21baec6f6a343028e2623c95d481328b16c0fb8aaf926fa6a190ebc1bb8d5398",
+          "current_translation": "Franciele Sofiati falando com uma paciente em sua clínica",
+          "manual_override": false,
+          "review_required": false,
+          "origin": "argos"
+        },
         "attr:id:contact-form-section/div[1]/aside[1]/div[1]:aria-label": {
           "kind": "attribute:aria-label",
           "source": "Direct contact options",
@@ -9375,9 +9485,9 @@
     "cookies.html": {
       "source_path": "cookies.html",
       "output_path": "pt/cookies.html",
-      "source_hash": "1875f4a4ce9cd9e29e3e1fb486558ec5b0324a031830a7292569df391ea928ce",
-      "output_hash": "dc78111aa0f55298c6bcca578b90f2d3a199046a87b99719811d1b01ccce7908",
-      "last_translated": "2026-07-18T10:48:53.254467+00:00",
+      "source_hash": "4facdbf615f059fae169ec042ae2bbcec6b875cac8d274bfc68114f6eb58eb23",
+      "output_hash": "3b5855acf13ccbba9708dca2cc24b930efde874081e2946954c71e6a3cab4b67",
+      "last_translated": "2026-07-18T11:12:40.510141+00:00",
       "engine": "argos:en->pb:installed",
       "manual_override": false,
       "manual_review_required": false,
@@ -10460,7 +10570,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:questions-and-updates/div[1]/header[1]/p[1]:0": {
+        "text:id:questions-and-updates/div[1]/div[1]/header[1]/p[1]:0": {
           "kind": "text",
           "source": "Questions and updates",
           "source_hash": "a893ad51045687f27e7c81b9ef11331f7ac7b2ab37ef55dc10947db5ec567915",
@@ -10482,7 +10592,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:questions-and-updates/div[1]/p[1]:0": {
+        "text:id:questions-and-updates/div[1]/div[1]/p[1]:0": {
           "kind": "text",
           "source": "This page may be updated when website functions, legal requirements or third-party services change. The date at the top of the page shows the latest published revision.",
           "source_hash": "ff4c4dc2bcb13bd7147becdbfac8aa4aeefb0b70b94dc903a90d5ee03845c1da",
@@ -10493,7 +10603,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:questions-and-updates/div[1]/div[1]/article[1]/h3[1]:0": {
+        "text:id:questions-and-updates/div[1]/div[1]/div[1]/article[1]/h3[1]:0": {
           "kind": "text",
           "source": "Cookie or privacy question",
           "source_hash": "849b9f90a3909ce91e91e1ed7e4026fe2153e34c306d727f56fc09e6b0d18d48",
@@ -10504,7 +10614,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:questions-and-updates/div[1]/div[1]/article[1]/p[1]:0": {
+        "text:id:questions-and-updates/div[1]/div[1]/div[1]/article[1]/p[1]:0": {
           "kind": "text",
           "source": "Email",
           "source_hash": "969ccbd3cf6300ecd5c880459d81ae9027df7517563184a1b8b15282db230621",
@@ -10515,7 +10625,7 @@
           "review_required": false,
           "origin": "glossary"
         },
-        "text:id:questions-and-updates/div[1]/div[1]/article[1]/p[1]:1": {
+        "text:id:questions-and-updates/div[1]/div[1]/div[1]/article[1]/p[1]:1": {
           "kind": "text",
           "source": "or use the",
           "source_hash": "c51de3349e93c7383ddf92d3b0e321e60d866423f9d98960488884b8c4c3a7b1",
@@ -10526,7 +10636,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:questions-and-updates/div[1]/div[1]/article[1]/p[1]/a[1]:0": {
+        "text:id:questions-and-updates/div[1]/div[1]/div[1]/article[1]/p[1]/a[1]:0": {
           "kind": "text",
           "source": "suportesofiati@gmail.com",
           "source_hash": "73aa00cba76997ff20ddfa0c5e03383bf12a05c514a039126231f550c6a00220",
@@ -10537,7 +10647,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:questions-and-updates/div[1]/div[1]/article[1]/p[1]/a[2]:0": {
+        "text:id:questions-and-updates/div[1]/div[1]/div[1]/article[1]/p[1]/a[2]:0": {
           "kind": "text",
           "source": "contact page",
           "source_hash": "5d1fabafc7eb451ac1787f5e6d0d63458e8ecc36ac1e81892ab08643a8d3cd32",
@@ -10548,7 +10658,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:questions-and-updates/div[1]/div[1]/article[2]/h3[1]:0": {
+        "text:id:questions-and-updates/div[1]/div[1]/div[1]/article[2]/h3[1]:0": {
           "kind": "text",
           "source": "Review your selection",
           "source_hash": "09b24ef3f4229802f1a230193193d3d45e4dcabb90bd35cc9f5d704228d21201",
@@ -10559,7 +10669,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:questions-and-updates/div[1]/div[1]/article[2]/p[1]:0": {
+        "text:id:questions-and-updates/div[1]/div[1]/div[1]/article[2]/p[1]:0": {
           "kind": "text",
           "source": "Return to the",
           "source_hash": "dbd0e9482e5ac1f7cabef5b50870ee4615757ef80d7053ba99133e099750bc2b",
@@ -10570,7 +10680,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:questions-and-updates/div[1]/div[1]/article[2]/p[1]:1": {
+        "text:id:questions-and-updates/div[1]/div[1]/div[1]/article[2]/p[1]:1": {
           "kind": "text",
           "source": "whenever you want to change an optional category.",
           "source_hash": "5d38fe4ca0e623bb9dba3570c5f40c84006330ba1a80ddbebd2561a7ae7b9ae2",
@@ -10581,7 +10691,7 @@
           "review_required": false,
           "origin": "memory"
         },
-        "text:id:questions-and-updates/div[1]/div[1]/article[2]/p[1]/a[1]:0": {
+        "text:id:questions-and-updates/div[1]/div[1]/div[1]/article[2]/p[1]/a[1]:0": {
           "kind": "text",
           "source": "cookie settings panel",
           "source_hash": "a7a021699b5603b612acd08f043c71bf53403e2ca736e0b46eba9f0c65b28d7e",
@@ -10591,6 +10701,17 @@
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
+        },
+        "attr:id:questions-and-updates/div[1]/figure[1]/img[1]:alt": {
+          "kind": "attribute:alt",
+          "source": "Franciele Sofiati available to answer a privacy or cookie question",
+          "source_hash": "b17950ba1abc77897425fa464d34b00c7777ea628450a6fdf3c9683f9934621d",
+          "generated_translation": "Franciele Sofiati disponível para responder uma pergunta sobre privacidade ou cookies",
+          "generated_hash": "d2bd6fd3ad0eb6faff9dc9c119e7c79fbe544f0fefbd2368b0e355acc0f2cd07",
+          "current_translation": "Franciele Sofiati disponível para responder uma pergunta sobre privacidade ou cookies",
+          "manual_override": false,
+          "review_required": false,
+          "origin": "argos"
         },
         "text:id:cookie-policy-actions/div[1]/div[1]/span[1]:0": {
           "kind": "text",
@@ -10784,9 +10905,9 @@
     "faq.html": {
       "source_path": "faq.html",
       "output_path": "pt/faq.html",
-      "source_hash": "471a226e4025f32148322a4844b59ad1bc3cbf8573451fa912e994fd86ebaa73",
-      "output_hash": "282690eed43a77d31b804604b6a61777928262d92200893f459342fa2a494a18",
-      "last_translated": "2026-07-18T10:48:53.389895+00:00",
+      "source_hash": "203fc8c371688e521352107b802710c2e642a0081a9241d90c0f67d157bb8ab6",
+      "output_hash": "25ac4c45fc6f816bb443f8d8840d9019f8432ac1cfbc33ec48fdeee8f8cab77c",
+      "last_translated": "2026-07-18T11:14:25.247668+00:00",
       "engine": "argos:en->pb:installed",
       "manual_override": false,
       "manual_review_required": false,
@@ -11563,14 +11684,14 @@
         },
         "attr:id:laser-hair-reduction/div[1]/figure[1]/img[1]:alt": {
           "kind": "attribute:alt",
-          "source": "A technology-led treatment discussed in clinical context",
-          "source_hash": "1cde5f9e4603c7ac812d0ccf7499865e0e9c7bd74f3d72ca8a3df0fbf5bd8564",
-          "generated_translation": "Um tratamento liderado por tecnologia discutido no contexto clínico",
-          "generated_hash": "0377d72dc117150d1f5db9616076be9c818f68d2a578787cbbbd18871a9d6bc2",
-          "current_translation": "Um tratamento liderado por tecnologia discutido no contexto clínico",
+          "source": "Franciele Sofiati explaining how technology fits a treatment plan",
+          "source_hash": "da74fd719c801abf84e8b63379352b07c2af15e5fd833a5c57ca920c1d86d0b5",
+          "generated_translation": "Franciele Sofiati explicando como a tecnologia se encaixa em um plano tratamento",
+          "generated_hash": "fa20d0e6551b22beba490745cb7e730fe2cec0d97d4bcb287502d861fb34d347",
+          "current_translation": "Franciele Sofiati explicando como a tecnologia se encaixa em um plano tratamento",
           "manual_override": false,
           "review_required": false,
-          "origin": "memory"
+          "origin": "argos"
         },
         "text:id:peels-and-co-resurfacing/div[1]/header[1]/p[1]:0": {
           "kind": "text",
@@ -12864,9 +12985,9 @@
     "index.html": {
       "source_path": "index.html",
       "output_path": "pt/index.html",
-      "source_hash": "6711cf54cfa64601aa41513bc7c6adaebde12a98c0fc0b10623bbf1ff429f9a3",
-      "output_hash": "8b12f2b55be82ab9973f195ad724925fa94c0edeba9bb66ed9cb06cf3afc22fe",
-      "last_translated": "2026-07-18T10:48:58.779468+00:00",
+      "source_hash": "3ee1669cd780cf0d852a4c3bd19d7d351da1995ca292cb3bf33ff498acb8b4bb",
+      "output_hash": "cf001408fec324c1fe173c3959a8ed7bdbb21c55e0e4ee1ee8a138656f82ecd1",
+      "last_translated": "2026-07-18T11:28:24.576214+00:00",
       "engine": "argos:en->pb:installed",
       "manual_override": false,
       "manual_review_required": false,
@@ -13333,7 +13454,7 @@
           "review_required": false,
           "origin": "argos"
         },
-        "text:id:consultation-journey/div[1]/aside[1]/p[1]:0": {
+        "text:id:consultation-journey/div[1]/figure[1]/blockquote[1]/p[1]:0": {
           "kind": "text",
           "source": "Looking after yourself should leave you feeling informed, comfortable and confident in the choice you make.",
           "source_hash": "00aadbd45fc3537d8d5322195557601b2307c66d8f7bfe17d605b636b0f6996f",
@@ -13342,7 +13463,18 @@
           "current_translation": "Cuidar de si mesmo deve deixar você se sentindo informada, confortável e confiante na escolha que faz.",
           "manual_override": false,
           "review_required": false,
-          "origin": "argos"
+          "origin": "memory"
+        },
+        "text:id:consultation-journey/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
+          "kind": "text",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
+          "manual_override": false,
+          "review_required": false,
+          "origin": "memory"
         },
         "text:id:treatment-families/div[1]/header[1]/p[1]:0": {
           "kind": "text",
@@ -13641,7 +13773,7 @@
           "review_required": false,
           "origin": "argos"
         },
-        "text:id:what-shapes-a-plan/div[1]/aside[1]/p[1]:0": {
+        "text:id:what-shapes-a-plan/div[1]/figure[1]/blockquote[1]/p[1]:0": {
           "kind": "text",
           "source": "You deserve a recommendation that fits your life as carefully as it considers the area you would like to treat.",
           "source_hash": "8cce717f7bc30d9a610292eaee38aee5984c75d045d06d92121f8b0f574aa860",
@@ -13650,7 +13782,18 @@
           "current_translation": "Você merece uma recomendação que se adapte a sua vida com tanto cuidado quanto considera a área que gostaria de tratar.",
           "manual_override": false,
           "review_required": false,
-          "origin": "argos"
+          "origin": "memory"
+        },
+        "text:id:what-shapes-a-plan/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
+          "kind": "text",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
+          "manual_override": false,
+          "review_required": false,
+          "origin": "memory"
         },
         "text:id:care-standard/div[1]/div[1]/header[1]/p[1]:0": {
           "kind": "text",
@@ -13740,7 +13883,7 @@
           "review_required": false,
           "origin": "argos"
         },
-        "text:id:care-standard/div[1]/div[1]/aside[1]/p[1]:0": {
+        "text:id:care-standard/div[1]/div[1]/figure[1]/blockquote[1]/p[1]:0": {
           "kind": "text",
           "source": "Confidence feels most natural when care respects the features that already make you recognisable.",
           "source_hash": "8223901bef6a728460a16dca0cccf5aab346d333b7a06763769867c55fed6b19",
@@ -13749,7 +13892,18 @@
           "current_translation": "A confiança é mais natural quando o cuidado respeita as características que já o tornam reconhecível.",
           "manual_override": false,
           "review_required": false,
-          "origin": "argos"
+          "origin": "memory"
+        },
+        "text:id:care-standard/div[1]/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
+          "kind": "text",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
+          "manual_override": false,
+          "review_required": false,
+          "origin": "memory"
         },
         "text:id:care-standard/div[1]/div[1]/div[2]/a[1]:0": {
           "kind": "text",
@@ -16232,9 +16386,9 @@
     "laser.html": {
       "source_path": "laser.html",
       "output_path": "pt/laser.html",
-      "source_hash": "11d37ad7a31aadb5ef59a8e8d993caf2f44e81d1132d165b090020b83773c663",
-      "output_hash": "a1d07b08a725548223eef02c5bda9526de62294a17a897a61dcabdfd2988807f",
-      "last_translated": "2026-07-18T10:49:04.297214+00:00",
+      "source_hash": "9cbe9a460261ab523600364f3deeeff181228f52f6ee166cd3921c40d35f0966",
+      "output_hash": "2acdf4ad5a1946d3cfa901f746fb666c12b5970019c66abd9829dca27838916d",
+      "last_translated": "2026-07-18T11:28:24.633494+00:00",
       "engine": "argos:en->pb:installed",
       "manual_override": true,
       "manual_review_required": false,
@@ -16560,14 +16714,14 @@
         },
         "attr:id:what-laser-is/div[1]/figure[1]/img[1]:alt": {
           "kind": "attribute:alt",
-          "source": "A laser platform selected for a specific clinical target",
-          "source_hash": "b7eab886f31ae1706bebca1df976b419161d57e4bcee3a8b20d4790884d7a610",
-          "generated_translation": "Uma plataforma laser selecionada para um alvo clínico específico.",
-          "generated_hash": "bf9cc91219cb47c4d134353ad9d9784344dbc1d3eeb80a6da9fd0f1c9cb7cebc",
-          "current_translation": "Uma plataforma laser selecionada para um alvo clínico específico.",
+          "source": "Franciele Sofiati selecting laser technology for a defined clinical target",
+          "source_hash": "ef801258f10a5849ed12bb8b42188ab565df184dc40fc16983c14b3fd42da75b",
+          "generated_translation": "Franciele Sofiati selecionando tecnologia laser para um alvo clínico definido",
+          "generated_hash": "ee008967a5047d540f67cdbf0bd39bf7fa8d8c26a60d5d58a85717658f49a8b5",
+          "current_translation": "Franciele Sofiati selecionando tecnologia laser para um alvo clínico definido",
           "manual_override": false,
           "review_required": false,
-          "origin": "memory"
+          "origin": "argos"
         },
         "text:id:what-laser-is-not/div[1]/header[1]/p[1]:0": {
           "kind": "text",
@@ -16725,11 +16879,11 @@
         },
         "text:id:what-laser-is-not/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -16901,11 +17055,11 @@
         },
         "text:id:when-laser-may-be-used/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -17297,25 +17451,25 @@
         },
         "text:id:laser-hair-reduction/div[1]/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
         },
         "attr:id:laser-hair-reduction/div[1]/figure[1]/img[1]:alt": {
           "kind": "attribute:alt",
-          "source": "Laser hair reduction treatment in progress",
-          "source_hash": "c73728381c61cdc145035ed86754f088266565f82af7f870978f6af9eced51bc",
-          "generated_translation": "Redução de cabelo laser tratamento em progresso",
-          "generated_hash": "87b6fc1f526a02e914eb19c4872bf68457474caa61eb5976f6a776dbaa1181a9",
-          "current_translation": "Redução de cabelo laser tratamento em progresso",
+          "source": "Franciele Sofiati carrying out laser hair reduction treatment",
+          "source_hash": "f6d0ab972910d073cc0f465be8d0c1869f1f0a3644b9639a75ca8f8523f47e96",
+          "generated_translation": "Franciele Sofiati realizando redução de cabelo laser tratamento",
+          "generated_hash": "7fa75c66c614c6c1c0d91ca308b0abdaa63d26a312dc769b89fa6c8f412a3d87",
+          "current_translation": "Franciele Sofiati realizando redução de cabelo laser tratamento",
           "manual_override": false,
           "review_required": false,
-          "origin": "memory"
+          "origin": "argos"
         },
         "text:id:co-resurfacing/div[1]/header[1]/p[1]:0": {
           "kind": "text",
@@ -17429,11 +17583,11 @@
         },
         "text:id:co-resurfacing/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -17605,11 +17759,11 @@
         },
         "text:id:when-to-wait/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -17938,9 +18092,9 @@
     "legal.html": {
       "source_path": "legal.html",
       "output_path": "pt/legal.html",
-      "source_hash": "d03cc9bcbcdd459a4bf91265fbc3c6d778ec1f49fc81b1397f3551fd668e4121",
-      "output_hash": "e71779c0b4348532fa43489ea9eeba61e63b16ff4bf64afabf9a0e0ae4d55c28",
-      "last_translated": "2026-07-18T10:49:05.081936+00:00",
+      "source_hash": "0c22918925d9b8e1444eee37149c7e7fad4940067b9c98664ea1eb1d475e41fb",
+      "output_hash": "fbacdb5c405f4f80110a356a815db9588352bc0508eab5dc0451ab7a6ad14eed",
+      "last_translated": "2026-07-18T11:12:40.786455+00:00",
       "engine": "argos:en->pb:installed",
       "manual_override": true,
       "manual_review_required": false,
@@ -18528,7 +18682,7 @@
           "review_required": false,
           "origin": "argos"
         },
-        "text:id:consultation-and-professional-scope/div[1]/header[1]/p[1]:0": {
+        "text:id:consultation-and-professional-scope/div[1]/div[1]/header[1]/p[1]:0": {
           "kind": "text",
           "source": "Consultation and professional scope",
           "source_hash": "91f7c2772b5be8feb5d9b28c0cd3dce2b09b5af6ce597fd67da367a560d080a8",
@@ -18537,7 +18691,7 @@
           "current_translation": "consulta e escopo profissional",
           "manual_override": false,
           "review_required": false,
-          "origin": "argos"
+          "origin": "memory"
         },
         "text:id:consultation-scope-title:0": {
           "kind": "text",
@@ -18550,7 +18704,7 @@
           "review_required": false,
           "origin": "argos"
         },
-        "text:id:consultation-and-professional-scope/div[1]/p[1]:0": {
+        "text:id:consultation-and-professional-scope/div[1]/div[1]/p[1]:0": {
           "kind": "text",
           "source": "The Client understands that treatment suitability depends on personal history, current health, medication and supplement use, allergies, previous procedures, pregnancy or breastfeeding status, examination, goals, contraindications and other relevant information.",
           "source_hash": "f93f8f888c265deb89f5273d91a2671ae4d80d641f12497b4f8ad5da81be03b0",
@@ -18559,9 +18713,9 @@
           "current_translation": "O cliente entende que a adequação do tratamento depende da história pessoal, saúde atual, uso de medicamentos e suplementos, alergias, procedimentos anteriores, gravidez ou estado de amamentação, exame, objetivos, contraindicações e outras informações relevantes.",
           "manual_override": false,
           "review_required": false,
-          "origin": "argos"
+          "origin": "memory"
         },
-        "text:id:consultation-and-professional-scope/div[1]/div[1]/article[1]/h3[1]:0": {
+        "text:id:consultation-and-professional-scope/div[1]/div[1]/div[1]/article[1]/h3[1]:0": {
           "kind": "text",
           "source": "The Provider may",
           "source_hash": "b6bc3b04d2d5d90aabb0ad4dd362eba275950872ec2e464ceea431e2f6aa4891",
@@ -18570,9 +18724,9 @@
           "current_translation": "O Provedor pode",
           "manual_override": false,
           "review_required": false,
-          "origin": "argos"
+          "origin": "memory"
         },
-        "text:id:consultation-and-professional-scope/div[1]/div[1]/article[1]/ul[1]/li[1]/span[1]:0": {
+        "text:id:consultation-and-professional-scope/div[1]/div[1]/div[1]/article[1]/ul[1]/li[1]/span[1]:0": {
           "kind": "text",
           "source": "Request additional information, tests or professional clearance",
           "source_hash": "178779f5abe2a5095715e6aad79766443f2bd53b725d4cb54dfc7c50421c57f4",
@@ -18581,9 +18735,9 @@
           "current_translation": "Solicito informações adicionais, testes ou autorização profissional.",
           "manual_override": false,
           "review_required": false,
-          "origin": "argos"
+          "origin": "memory"
         },
-        "text:id:consultation-and-professional-scope/div[1]/div[1]/article[1]/ul[1]/li[2]/span[1]:0": {
+        "text:id:consultation-and-professional-scope/div[1]/div[1]/div[1]/article[1]/ul[1]/li[2]/span[1]:0": {
           "kind": "text",
           "source": "Recommend a different plan or a period of observation",
           "source_hash": "17fa817b7d2daf7838512ced48aa20f993033cebd91d27a373b74ba34bfb8986",
@@ -18592,9 +18746,9 @@
           "current_translation": "Recomendo um plano diferente ou um período de observação.",
           "manual_override": false,
           "review_required": false,
-          "origin": "argos"
+          "origin": "memory"
         },
-        "text:id:consultation-and-professional-scope/div[1]/div[1]/article[1]/ul[1]/li[3]/span[1]:0": {
+        "text:id:consultation-and-professional-scope/div[1]/div[1]/div[1]/article[1]/ul[1]/li[3]/span[1]:0": {
           "kind": "text",
           "source": "Refer the Client to a physician or another qualified professional",
           "source_hash": "adc39f4b516c2e3d1b56054101608c50394c84cd96a0ff7d2d8ce42a2f8f53e1",
@@ -18603,9 +18757,9 @@
           "current_translation": "Consulte o cliente para um médico ou outro profissional qualificado",
           "manual_override": false,
           "review_required": false,
-          "origin": "argos"
+          "origin": "memory"
         },
-        "text:id:consultation-and-professional-scope/div[1]/div[1]/article[1]/ul[1]/li[4]/span[1]:0": {
+        "text:id:consultation-and-professional-scope/div[1]/div[1]/div[1]/article[1]/ul[1]/li[4]/span[1]:0": {
           "kind": "text",
           "source": "Decline or stop a service when proceeding would be unsafe or inappropriate",
           "source_hash": "72b02ffc42eae15dea818db550d3b7e7c5ba433b759709b5806d9651e5667b0f",
@@ -18614,9 +18768,9 @@
           "current_translation": "Recusar ou parar um serviço quando prosseguir seria inseguro ou inapropriado.",
           "manual_override": false,
           "review_required": false,
-          "origin": "argos"
+          "origin": "memory"
         },
-        "text:id:consultation-and-professional-scope/div[1]/div[1]/article[2]/h3[1]:0": {
+        "text:id:consultation-and-professional-scope/div[1]/div[1]/div[1]/article[2]/h3[1]:0": {
           "kind": "text",
           "source": "Professional limits",
           "source_hash": "c904a806e847a843da632816c7eae0265c03404b2d1825d237a185a0478a6c90",
@@ -18625,15 +18779,26 @@
           "current_translation": "Limites profissionais",
           "manual_override": false,
           "review_required": false,
-          "origin": "argos"
+          "origin": "memory"
         },
-        "text:id:consultation-and-professional-scope/div[1]/div[1]/article[2]/p[1]:0": {
+        "text:id:consultation-and-professional-scope/div[1]/div[1]/div[1]/article[2]/p[1]:0": {
           "kind": "text",
           "source": "Services will be offered only within the Provider's current qualifications, registered professional habilitations, lawful scope of practice, facility authorisations and applicable health and professional rules at the time of care.",
           "source_hash": "7ce276d16b03b447b99e823f9ec04be454ff6d3240cb798ee479b9a0803af4ac",
           "generated_translation": "Serviços serão oferecidos apenas dentro das qualificações atuais do Provedor, habilitações profissionais registradas, alcance legal da prática, autorizações de instalação e regras de saúde e profissionais aplicáveis no momento do cuidado.",
           "generated_hash": "7aa4e9c88484d10f9a31f0e099a9d3bff077ff537cf50a9d50af10e572f2363c",
           "current_translation": "Serviços serão oferecidos apenas dentro das qualificações atuais do Provedor, habilitações profissionais registradas, alcance legal da prática, autorizações de instalação e regras de saúde e profissionais aplicáveis no momento do cuidado.",
+          "manual_override": false,
+          "review_required": false,
+          "origin": "memory"
+        },
+        "attr:id:consultation-and-professional-scope/div[1]/figure[1]/img[1]:alt": {
+          "kind": "attribute:alt",
+          "source": "Franciele Sofiati discussing suitability during professional care",
+          "source_hash": "7ab0efd1de0def83e7a03183d5c58a8b8239d88a80c04107fbf942e51fb9eaa0",
+          "generated_translation": "Franciele Sofiati discutindo adequação durante cuidados profissionais",
+          "generated_hash": "c9315ded4a109d1cad1693c475102a23ad22c4a954473428f99a4dbe85d10353",
+          "current_translation": "Franciele Sofiati discutindo adequação durante cuidados profissionais",
           "manual_override": false,
           "review_required": false,
           "origin": "argos"
@@ -19963,11 +20128,11 @@
     "mission.html": {
       "source_path": "mission.html",
       "output_path": "pt/mission.html",
-      "source_hash": "b3cfff58cf2bbd01ca4b40c1cab77d0d7b528465af3b2c4e2f10f2b56fac8787",
-      "output_hash": "43eab7b4346cf246366f1f177276e9dd569ae3685a568877958bb9da6aa7622f",
-      "last_translated": "2026-07-18T10:49:15.066004+00:00",
+      "source_hash": "d8d11145fc93118212382f5dae3298fb1f32cdc07ac5804ae23a8c24f540ff34",
+      "output_hash": "b758ad0172ad1e321442bd05de2a73ce030fec0a3533d44240f6838b4ad5a27a",
+      "last_translated": "2026-07-18T11:28:24.691393+00:00",
       "engine": "argos:en->pb:installed",
-      "manual_override": false,
+      "manual_override": true,
       "manual_review_required": false,
       "blocks": {
         "attr:meta[name=description]:content": {
@@ -20119,8 +20284,8 @@
           "source_hash": "155dc734f89f5f8fff04bd3371cb5c165ea69cbf18339f8758e87302cea42ea6",
           "generated_translation": "Como o cuidado deve se sentir",
           "generated_hash": "114ca5d1b40ce4f5215e7848ed52c3fad9cc40550340ded62841474d218f54f9",
-          "current_translation": "Como o cuidado deve se sentir",
-          "manual_override": false,
+          "current_translation": "Cuidado com Propósito",
+          "manual_override": true,
           "review_required": false,
           "origin": "argos"
         },
@@ -20324,11 +20489,11 @@
         },
         "text:id:why-it-matters/div[1]/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -20610,11 +20775,11 @@
         },
         "text:id:my-promise/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -20742,11 +20907,11 @@
         },
         "text:id:science-with-humanity/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -20885,25 +21050,25 @@
         },
         "text:id:natural-beauty/div[1]/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
         },
         "attr:id:natural-beauty/div[1]/figure[1]/img[1]:alt": {
           "kind": "attribute:alt",
-          "source": "Individual care that preserves the person receiving it",
-          "source_hash": "8d3d0f9b0e5b44513d886281f4ccd744c73adb2a4a0c3ed16b4584ac5cde6a72",
-          "generated_translation": "Cuidados individuais que preservam a pessoa que recebe.",
-          "generated_hash": "e309dedb9da6e88c44a92ae10ce57d30e8baa72d13b12ee08b030818d642d8ab",
-          "current_translation": "Cuidados individuais que preservam a pessoa que recebe.",
+          "source": "Franciele Sofiati providing individual care that respects natural features",
+          "source_hash": "003b26c75c361e86a0a3a82e2546fb7e6c0be6e92ae43d755ccaa5c22efde5fe",
+          "generated_translation": "Franciele Sofiati prestando cuidados individuais que respeitam características naturais",
+          "generated_hash": "0013809de09cd0efe37babd8694e95da004817a6c01be659cf47e0e349134b19",
+          "current_translation": "Franciele Sofiati prestando cuidados individuais que respeitam características naturais",
           "manual_override": false,
           "review_required": false,
-          "origin": "memory"
+          "origin": "argos"
         },
         "text:id:care-that-continues/div[1]/header[1]/p[1]:0": {
           "kind": "text",
@@ -21050,11 +21215,11 @@
         },
         "text:id:care-that-continues/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -21160,11 +21325,11 @@
         },
         "text:id:a-calmer-space/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -21303,11 +21468,11 @@
         },
         "text:id:the-future-i-believe-in/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -21482,9 +21647,9 @@
     "privacy.html": {
       "source_path": "privacy.html",
       "output_path": "pt/privacy.html",
-      "source_hash": "065d3b0e0c933ada0ae155e6ff728b832ff3e0a689797ea93f1acea6c4bca2b2",
-      "output_hash": "a30be7a4b31886c04bf976745b27cbfc9c9b9fde07958a12f2c50027a63f47e9",
-      "last_translated": "2026-07-18T10:49:18.865536+00:00",
+      "source_hash": "43adda52df921edf121952fe6add5fcb9b786418a54e4235b8864e0244042cfa",
+      "output_hash": "86ac78d55ebcbd40d1814eb934bd3be3eb306fe1b111533312ac5e36b8774a66",
+      "last_translated": "2026-07-18T11:12:40.915793+00:00",
       "engine": "argos:en->pb:installed",
       "manual_override": false,
       "manual_review_required": false,
@@ -21788,14 +21953,14 @@
         },
         "attr:id:who-is-responsible/div[1]/figure[1]/img[1]:alt": {
           "kind": "attribute:alt",
-          "source": "The clinic contact point for privacy questions",
-          "source_hash": "f2722bf3aac29cf2534adaac28d02d74d7eccfa2c16f6677ebbcf64eb22a28dc",
-          "generated_translation": "O ponto de contato da clínica para perguntas de privacidade.",
-          "generated_hash": "a3c3ca6456c271c28a441867953ff8d0beb83dd7c6c21050955d12b245dbb400",
-          "current_translation": "O ponto de contato da clínica para perguntas de privacidade.",
+          "source": "Franciele Sofiati available to answer questions about personal information",
+          "source_hash": "03581c2c9b789c5f1d2a43153c143be99a8d175e438030f2ac5fa3f661a81dbd",
+          "generated_translation": "Franciele Sofiati disponível para responder perguntas sobre informações pessoais",
+          "generated_hash": "b442e83c057732cb482aef8670962ac5680aa46cbaba7bc4ab67703626588ef4",
+          "current_translation": "Franciele Sofiati disponível para responder perguntas sobre informações pessoais",
           "manual_override": false,
           "review_required": false,
-          "origin": "memory"
+          "origin": "argos"
         },
         "text:id:information-you-provide/div[1]/header[1]/p[1]:0": {
           "kind": "text",
@@ -22572,9 +22737,9 @@
     "results.html": {
       "source_path": "results.html",
       "output_path": "pt/results.html",
-      "source_hash": "d7032e151b6d11572146a3571b43ea83980ca055f96ac4ce7b3965b6ead17d92",
-      "output_hash": "d35fe3c9c9243641b3c30856419f595576da393c5e7020e6da4ca02a5beb0e76",
-      "last_translated": "2026-07-18T10:49:19.200630+00:00",
+      "source_hash": "9b91e15d557311e44316e5c4e3d90d1d1386a4658c5f2e17836d24aeaac9c511",
+      "output_hash": "a5e61beed1b87229eebde8108b3a47f0d2de6213a9d40f45794fea91cfcd27d7",
+      "last_translated": "2026-07-18T11:28:24.743283+00:00",
       "engine": "argos:en->pb:installed",
       "manual_override": false,
       "manual_review_required": false,
@@ -23604,11 +23769,11 @@
         },
         "text:id:natural-looking-results/div[1]/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -23813,11 +23978,11 @@
         },
         "text:id:improvement-is-not-erasure/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -24256,9 +24421,9 @@
     "skin.html": {
       "source_path": "skin.html",
       "output_path": "pt/skin.html",
-      "source_hash": "816240b5dbcc896235a6dd7a13be61ca9ff420206f4137917698ab7cd8c26e5d",
-      "output_hash": "0c707d425cd7a8c6d166458aebf69f16cc223a8cfcf1eced8443d6ad70881a6a",
-      "last_translated": "2026-07-18T10:49:19.794835+00:00",
+      "source_hash": "c180018ca509384e91c1fc4fdff12c02ca655700c309452945967960660275c1",
+      "output_hash": "a9231ca8e67ae0c20b4a94c7c1c992d30525cac118c400e5c60996d380cd2ac7",
+      "last_translated": "2026-07-18T11:28:24.789581+00:00",
       "engine": "argos:en->pb:installed",
       "manual_override": false,
       "manual_review_required": false,
@@ -24584,14 +24749,14 @@
         },
         "attr:id:beneath-the-surface/div[1]/figure[1]/img[1]:alt": {
           "kind": "attribute:alt",
-          "source": "A close skin assessment before selecting treatment",
-          "source_hash": "132485e09a222d25aa233e37eb2eb94739edee2f611ad28d919ea85d57558dc5",
-          "generated_translation": "Uma avaliação pele próxima antes de selecionar tratamento",
-          "generated_hash": "50ae236c675bdbec3e02a3c6023b62c145a6d88423dd602ccfd6d7ad436dae19",
-          "current_translation": "Uma avaliação pele próxima antes de selecionar tratamento",
+          "source": "Franciele Sofiati assessing skin before selecting treatment",
+          "source_hash": "5c16795a6d7b44636389a369f28dab6e915c8a987d086ed40bbed1c2a5c28dfa",
+          "generated_translation": "Franciele Sofiati avaliando pele antes de selecionar tratamento",
+          "generated_hash": "7460737b3dde5d4a527012a7c8e6eaccd8ba0362029931e96a64105babe09da7",
+          "current_translation": "Franciele Sofiati avaliando pele antes de selecionar tratamento",
           "manual_override": false,
           "review_required": false,
-          "origin": "memory"
+          "origin": "argos"
         },
         "text:id:the-skin-barrier/div[1]/header[1]/p[1]:0": {
           "kind": "text",
@@ -24815,11 +24980,11 @@
         },
         "text:id:the-skin-barrier/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -25046,11 +25211,11 @@
         },
         "text:id:a-useful-routine/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -25376,25 +25541,25 @@
         },
         "text:id:skin-myths/div[1]/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
         },
         "attr:id:skin-myths/div[1]/figure[1]/img[1]:alt": {
           "kind": "attribute:alt",
-          "source": "Professional skin planning with protection and continuity",
-          "source_hash": "8ce2459f11988b39c2be81ddaf5ec659a23b9e994dfbbaaba99c6358338305f5",
-          "generated_translation": "Profissional pele planejamento com proteção e continuidade",
-          "generated_hash": "ce42d182979583915ab7f5d60c82572a6c30b2aad1320dbcbfdec5c2dd9e768e",
-          "current_translation": "Profissional pele planejamento com proteção e continuidade",
+          "source": "Franciele Sofiati planning skin care with protection and continuity",
+          "source_hash": "04eaa24087bdf69ba1b05a048453d87866c65769edabe395868506efe13b89ad",
+          "generated_translation": "Franciele Sofiati planejamento pele cuidado com proteção e continuidade",
+          "generated_hash": "eaa1bfc03fe9cad4447d7f883b40327e7cabc70e5828bf9b805ff0d3ae1e1bde",
+          "current_translation": "Franciele Sofiati planejamento pele cuidado com proteção e continuidade",
           "manual_override": false,
           "review_required": false,
-          "origin": "memory"
+          "origin": "argos"
         },
         "text:id:pigment-sun-and-memory/div[1]/header[1]/p[1]:0": {
           "kind": "text",
@@ -25596,11 +25761,11 @@
         },
         "text:id:pigment-sun-and-memory/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -25805,11 +25970,11 @@
         },
         "text:id:acne-without-punishment/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -25981,11 +26146,11 @@
         },
         "text:id:professional-skin-treatments/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -26160,9 +26325,9 @@
     "testimonials.html": {
       "source_path": "testimonials.html",
       "output_path": "pt/testimonials.html",
-      "source_hash": "1ea57ea657f453865269d8be028493a7f1abac4a47f9f03852a774f540fd7837",
-      "output_hash": "24ebf4b6c73f3094d54c4b73574dafcd01484f30f637cd36a1fab4e3d49c6bc7",
-      "last_translated": "2026-07-18T10:49:20.685915+00:00",
+      "source_hash": "d53679e14657080616903292820202242cae62fc44d4c149bd3caf10dfbd56dc",
+      "output_hash": "6b364a19a7510c666810bdf5770b8d6138779cfe000769ccfaca08dbf5b49839",
+      "last_translated": "2026-07-18T11:28:24.824840+00:00",
       "engine": "argos:en->pb:installed",
       "manual_override": true,
       "manual_review_required": false,
@@ -26884,11 +27049,11 @@
         },
         "text:id:what-patients-often-value/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -26983,11 +27148,11 @@
         },
         "text:id:review-transparency/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -27272,9 +27437,9 @@
     "thank-you.html": {
       "source_path": "thank-you.html",
       "output_path": "pt/thank-you.html",
-      "source_hash": "3113305a130329155d632e92c850f0f59dd5e388c4ced54fe8ae8c0b91568060",
-      "output_hash": "5dda350d5750671215ed118484f8969a2653c814c6c8f97a28820d83b1699c0a",
-      "last_translated": "2026-07-18T10:49:21.074556+00:00",
+      "source_hash": "7f4ff919093d278b9ab59820461a15ca5c4cb5e9a212803be03942e91c6ed2f8",
+      "output_hash": "24b30c9dc1070a4a601815c36a852a77ccde9ecfa3c33a0aae4738d4106b8e66",
+      "last_translated": "2026-07-18T11:28:24.854400+00:00",
       "engine": "argos:en->pb:installed",
       "manual_override": true,
       "manual_review_required": false,
@@ -27600,14 +27765,14 @@
         },
         "attr:id:what-happens-next/div[1]/figure[1]/img[1]:alt": {
           "kind": "attribute:alt",
-          "source": "The clinic reception where an enquiry is received",
-          "source_hash": "8a2a26fa277973e10ddf1200048be43e8ca90144f1e06ac60c4e175a0dd9ae0b",
-          "generated_translation": "A recepção da clínica onde um inquérito é recebido.",
-          "generated_hash": "f7ad8b224bd08bc8c8fa12d5209f3566347f6e5567178596d17df9db7d032b03",
-          "current_translation": "A recepção da clínica onde um inquérito é recebido.",
+          "source": "Franciele Sofiati receiving a patient enquiry with care",
+          "source_hash": "0f07100605a13de57fcd25588074604ffd920e617a650a8e9dc8513026e7da96",
+          "generated_translation": "Franciele Sofiati recebendo uma consulta com cuidado.",
+          "generated_hash": "d7c69f2b77bdf128e9261952f559456105f92bbdaefb5a04d3f563b9be6b0804",
+          "current_translation": "Franciele Sofiati recebendo uma consulta com cuidado.",
           "manual_override": false,
           "review_required": false,
-          "origin": "memory"
+          "origin": "argos"
         },
         "text:id:before-the-reply/div[1]/header[1]/p[1]:0": {
           "kind": "text",
@@ -27919,11 +28084,11 @@
         },
         "text:id:continue-exploring/div[1]/details[1]/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -32444,9 +32609,9 @@
     "values.html": {
       "source_path": "values.html",
       "output_path": "pt/values.html",
-      "source_hash": "96426122206378d6442bbf325bc5f81d965b07f63cb69048b2dea300b1c8f29f",
-      "output_hash": "c87c1444bce7c5eed098a50fd85cbab6220f1d6591076afa924658d8291ecb0e",
-      "last_translated": "2026-07-18T10:49:22.103173+00:00",
+      "source_hash": "55f22d80fa683df1dc1b79e41e02b005b6ec55a1bf027827f09f6d7dfdb55190",
+      "output_hash": "6c9ea890e7c5daaa9b2411682cac42cdc63c4a0d91aeca4e5ac047af04fd4589",
+      "last_translated": "2026-07-18T11:28:24.915647+00:00",
       "engine": "argos:en->pb:installed",
       "manual_override": true,
       "manual_review_required": false,
@@ -32750,11 +32915,11 @@
         },
         "text:id:suitability/div[1]/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -32882,11 +33047,11 @@
         },
         "text:id:clarity/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -33003,11 +33168,11 @@
         },
         "text:id:restraint/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -33124,11 +33289,11 @@
         },
         "text:id:individuality/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -33245,25 +33410,25 @@
         },
         "text:id:safety/div[1]/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
         },
         "attr:id:safety/div[1]/figure[1]/img[1]:alt": {
           "kind": "attribute:alt",
-          "source": "Care balancing advanced tools with careful judgment",
-          "source_hash": "662aebff7bee1c58855a0975885488824b1992695b702185246938558843c62e",
-          "generated_translation": "Cuidado equilibrando ferramentas avançadas com julgamento cuidadoso",
-          "generated_hash": "c8f84f24afab6512873011982ebc75a1d2cbba23df7d5f3533acead54e5b965b",
-          "current_translation": "Cuidado equilibrando ferramentas avançadas com julgamento cuidadoso",
+          "source": "Franciele Sofiati balancing advanced tools with careful judgment",
+          "source_hash": "ea486af053d229d9aad2516afb0b215e874cfb0651e9bdbc67b97131ce9c5cc8",
+          "generated_translation": "Franciele Sofiati balanceando ferramentas avançadas com julgamento cuidadoso",
+          "generated_hash": "659ea285decf18cd94f731948f9f5c3712dcabaf4e1957c70c1cc6352a58264a",
+          "current_translation": "Franciele Sofiati balanceando ferramentas avançadas com julgamento cuidadoso",
           "manual_override": false,
           "review_required": false,
-          "origin": "memory"
+          "origin": "argos"
         },
         "text:id:honesty/div[1]/header[1]/p[1]:0": {
           "kind": "text",
@@ -33399,11 +33564,11 @@
         },
         "text:id:honesty/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -33520,11 +33685,11 @@
         },
         "text:id:respect/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -33630,11 +33795,11 @@
         },
         "text:id:continuity/div[1]/figure[1]/figcaption[1]/cite[1]:0": {
           "kind": "text",
-          "source": "Franciele Sofiati",
-          "source_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "generated_translation": "Franciele Sofiati",
-          "generated_hash": "3faf94ec731025ebf889f334efe9484900a2ad3afc7abd3c2b06c5a44ebf42b2",
-          "current_translation": "Franciele Sofiati",
+          "source": "– Franciele Sofiati",
+          "source_hash": "e7e4784b14ff4e6d21cec04de559f37bb644e8f4c1b4bcf433cb5ba9f70644a0",
+          "generated_translation": "- Franciele Sofiati",
+          "generated_hash": "b028869d2654a3ff63a9035e894c2681e18974115fa13771b19871f342368370",
+          "current_translation": "- Franciele Sofiati",
           "manual_override": false,
           "review_required": false,
           "origin": "memory"
@@ -33811,7 +33976,7 @@
       "output_path": "partials/pt-BR/cookie-banner.html",
       "source_hash": "04b21ea331476ba33738319eb2013f7a10cd6702d5318b9ca85a72c338c71141",
       "output_hash": "f9891dfe83102bebbc26671850acd389609dc8c7d8f002ea089989ce2d4d9fdc",
-      "last_translated": "2026-07-18T10:50:46.416959+00:00",
+      "last_translated": "2026-07-18T11:28:24.932712+00:00",
       "engine": "argos:en->pb:installed",
       "manual_override": false,
       "manual_review_required": false,
@@ -33999,7 +34164,7 @@
       "output_path": "partials/pt-BR/floating-widgets.html",
       "source_hash": "f4fafbca9b25422f49023350e7e8bbd82f9482ae9bcf0b0006a103dd4d7f52ef",
       "output_hash": "b52c67d43a6b9a3880e566ddf2da9a06964ed24adbe8dad46ee28412ce127935",
-      "last_translated": "2026-07-18T10:50:46.421436+00:00",
+      "last_translated": "2026-07-18T11:28:24.937737+00:00",
       "engine": "argos:en->pb:installed",
       "manual_override": false,
       "manual_review_required": false,
@@ -34088,7 +34253,7 @@
       "output_path": "partials/pt-BR/footer.html",
       "source_hash": "6961ceefd1cb2136fed140eb48f1f567f8e80605cd7c0f47c85fbeaf602c7fa1",
       "output_hash": "74162e65ff03b9416d67f88a798568174147b53659268f655125c57b9b46cc93",
-      "last_translated": "2026-07-18T10:50:46.432181+00:00",
+      "last_translated": "2026-07-18T11:28:24.949413+00:00",
       "engine": "argos:en->pb:installed",
       "manual_override": false,
       "manual_review_required": false,
@@ -34485,7 +34650,7 @@
       "output_path": "partials/pt-BR/header.html",
       "source_hash": "ed5065895e8fbc9f989d129a841ce5eff9dd83a6501c0241910f5e848f53d3e8",
       "output_hash": "ebf57061ad1eca487aeb73feda84796215e2da5c2f3f1859f421da4749a9f8a3",
-      "last_translated": "2026-07-18T10:50:46.440651+00:00",
+      "last_translated": "2026-07-18T11:28:24.958462+00:00",
       "engine": "argos:en->pb:installed",
       "manual_override": false,
       "manual_review_required": false,
@@ -34640,7 +34805,7 @@
       "output_path": "partials/pt-BR/mobile-menu.html",
       "source_hash": "d63119565a06d4c04a2ab42112849abf5682688e9958478cfbb6372f55410e38",
       "output_hash": "51d157d72583385a4ebcb3f3b0806099cc941b1e9ada0bcbec51df83e4e37bc4",
-      "last_translated": "2026-07-18T10:50:46.446765+00:00",
+      "last_translated": "2026-07-18T11:28:24.965006+00:00",
       "engine": "argos:en->pb:installed",
       "manual_override": false,
       "manual_review_required": false,
@@ -34949,7 +35114,7 @@
       "output_path": "partials/pt-BR/top-bar.html",
       "source_hash": "62df442ef597fe72d7dba213aee0bce9c003669e9e72acc6e93955715b7cd93a",
       "output_hash": "d950240f759eeab61a9b07a7035e72f7a138fcc7565bd96f0d234b5515187fa6",
-      "last_translated": "2026-07-18T10:50:46.451834+00:00",
+      "last_translated": "2026-07-18T11:28:24.970693+00:00",
       "engine": "argos:en->pb:installed",
       "manual_override": false,
       "manual_review_required": false,

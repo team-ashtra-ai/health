@@ -282,7 +282,7 @@
       gap: 0.75rem;
       margin: 0 0 2rem;
       color: var(--sf-404-forest);
-      font-size: 0.76rem;
+      font-size: 0.875rem;
       font-weight: 650;
       letter-spacing: 0.13em;
       line-height: 1.4;
@@ -313,7 +313,7 @@
     .sf-404-label {
       margin: 1.5rem 0 0.7rem;
       color: var(--sf-404-gold);
-      font-size: 0.72rem;
+      font-size: 0.875rem;
       font-weight: 700;
       letter-spacing: 0.18em;
       line-height: 1.5;
@@ -343,6 +343,24 @@
       color: var(--sf-404-muted);
       font-size: clamp(1rem, 1.6vw, 1.12rem);
       line-height: 1.75;
+    }
+
+    .sf-404-portrait {
+      max-width: 24rem;
+      margin: 1.5rem 0 0;
+      overflow: hidden;
+      border: 1px solid var(--sf-404-border);
+      border-radius: 4.5rem 1rem 1rem;
+      background: var(--sf-404-paper);
+      box-shadow: 0 1rem 2.4rem rgba(38, 52, 24, 0.1);
+    }
+
+    .sf-404-portrait img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      object-fit: cover;
+      object-position: center 36%;
     }
 
     .sf-404-actions {
@@ -382,7 +400,7 @@
     .sf-404-routes__eyebrow {
       margin: 0 0 0.7rem;
       color: var(--sf-404-olive);
-      font-size: 0.7rem;
+      font-size: 0.875rem;
       font-weight: 700;
       letter-spacing: 0.17em;
       line-height: 1.5;
@@ -524,6 +542,11 @@
       .sf-404-actions .sf-button {
         width: 100%;
       }
+
+      .sf-404-portrait {
+        max-width: none;
+        border-radius: 3rem 0.8rem 0.8rem;
+      }
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -621,6 +644,17 @@
               The link may have moved. Return home or choose another useful
               route below.
             </p>
+
+            <figure class="sf-404-portrait">
+              <img
+                src="assets/treatments/Treatments26.png"
+                alt="Franciele Sofiati welcoming a patient in her Londrina clinic"
+                width="1672"
+                height="941"
+                loading="lazy"
+                decoding="async"
+              >
+            </figure>
 
             <div
               class="sf-button-row sf-404-actions"
