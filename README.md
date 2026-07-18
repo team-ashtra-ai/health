@@ -2,6 +2,8 @@
 
 Production repository for the bilingual Franciele Sofiati Biomédica website: a framework-free static publication focused on responsible aesthetic biomedicine, skin health, laser care and consultation-led treatment planning in Londrina, Paraná.
 
+Current maintenance references: [architecture](docs/architecture.md), [content workflow](docs/content-workflow.md), [deployment](docs/deployment.md), and the [2026 cleanup audit](docs/repository-cleanup-audit.md). Detailed `docs/rebuild/` files are historical reference, not the current operating instructions.
+
 - Canonical origin: `https://www.francielesofiati.com`
 - Languages: English at `/`; Brazilian Portuguese at `/pt/`
 - Public inventory: 19 paired indexable routes, 10 English Journal articles, localized policy pages, and dedicated `404` and post-form confirmation pages
