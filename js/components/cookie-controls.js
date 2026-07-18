@@ -52,7 +52,7 @@ export function initCookies() {
     }
   };
 
-  const persist = (value) => {
+  const persist = (value, source = 'cookie_controls') => {
     const normalized = normalizePreferences(value);
     try {
       localStorage.setItem(key, JSON.stringify({ ...normalized, savedAt: new Date().toISOString() }));
@@ -61,7 +61,9 @@ export function initCookies() {
     banner.hidden = true;
     banner.classList.remove('is-customizing');
     syncPreferenceControls(normalized);
-    document.dispatchEvent(new CustomEvent('sofiati:consentchange', { detail: normalized }));
+    document.dispatchEvent(new CustomEvent('sofiati:consentchange', {
+      detail: { ...normalized, source }
+    }));
     if (lastTrigger && typeof lastTrigger.focus === 'function') lastTrigger.focus({ preventScroll: true });
     lastTrigger = null;
     return normalized;
@@ -85,7 +87,9 @@ export function initCookies() {
       legacyKeys.forEach((legacyKey) => localStorage.removeItem(legacyKey));
     } catch (_) {}
     syncPreferenceControls(defaultPreferences);
-    document.dispatchEvent(new CustomEvent('sofiati:consentchange', { detail: { ...defaultPreferences } }));
+    document.dispatchEvent(new CustomEvent('sofiati:consentchange', {
+      detail: { ...defaultPreferences, source: 'reset_preferences' }
+    }));
     openPreferences(trigger);
   };
 
@@ -93,15 +97,21 @@ export function initCookies() {
   try { hasChoice = !!localStorage.getItem(key) || legacyKeys.some((legacyKey) => !!localStorage.getItem(legacyKey)); } catch (_) {}
   if (!hasChoice) banner.hidden = false;
 
-  qs('[data-cookie-accept]', banner)?.addEventListener('click', () => persist({ essential: true, preferences: true, analytics: true, externalMedia: true }));
-  qsa('[data-cookie-reject], [data-cookie-decline]', banner).forEach((button) => button.addEventListener('click', () => persist(defaultPreferences)));
+  qs('[data-cookie-accept]', banner)?.addEventListener('click', () => persist(
+    { essential: true, preferences: true, analytics: true, externalMedia: true },
+    'banner_accept_all'
+  ));
+  qsa('[data-cookie-reject], [data-cookie-decline]', banner).forEach((button) => button.addEventListener('click', () => persist(
+    defaultPreferences,
+    'banner_reject_optional'
+  )));
   customizeButton?.addEventListener('click', () => openPreferences(customizeButton));
   saveButton?.addEventListener('click', () => persist({
     essential: true,
     preferences: !!qs('input[name="preferences"]', banner)?.checked,
     analytics: !!qs('input[name="analytics"]', banner)?.checked,
     externalMedia: !!qs('input[name="external_media"]', banner)?.checked
-  }));
+  }, 'banner_save'));
 
   if (pageSettings && pageSettings.dataset.sfCookiePageReady !== 'true') {
     pageSettings.dataset.sfCookiePageReady = 'true';
@@ -115,15 +125,18 @@ export function initCookies() {
         preferences: !!qs('input[name="preferences"]', pageSettings)?.checked,
         analytics: !!qs('input[name="analytics"]', pageSettings)?.checked,
         externalMedia: !!qs('input[name="external_media"]', pageSettings)?.checked
-      });
+      }, 'settings_page_save');
       announce();
     });
     qs('[data-cookie-page-reject]', pageSettings)?.addEventListener('click', () => {
-      persist(defaultPreferences);
+      persist(defaultPreferences, 'settings_page_reject_optional');
       announce();
     });
     qs('[data-cookie-page-accept]', pageSettings)?.addEventListener('click', () => {
-      persist({ essential: true, preferences: true, analytics: true, externalMedia: true });
+      persist(
+        { essential: true, preferences: true, analytics: true, externalMedia: true },
+        'settings_page_accept_all'
+      );
       announce();
     });
     syncPreferenceControls();

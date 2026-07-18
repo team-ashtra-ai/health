@@ -33,6 +33,7 @@ Open `http://127.0.0.1:4173/`.
 | Site identity and canonical origin | `data/seo.json` | SEO validation and generated discovery files |
 | Styling | `css/src/` | `css/site.css` |
 | Browser behavior | `js/main.js` and its modules | Native module runtime |
+| Consent-aware measurement | `js/analytics-config.js`, `js/consent-manager.js`, `js/analytics.js` | Consent-gated GTM data layer and event tracking |
 | Search discovery | `scripts/generate-sitemap.py` and `scripts/generate-robots.py` | `sitemap.xml` and `robots.txt` |
 | LLM-oriented index | `llms.txt` | Curated public Markdown served at `/llms.txt` |
 
@@ -109,6 +110,21 @@ The sitemap generator reads the canonical domain from `data/seo.json`, derives r
 
 `llms.txt` follows the community proposal's Markdown structure: one site H1, a concise summary, interpretation safeguards, curated canonical links and an `Optional` section. It complements rather than replaces the XML sitemap or robots policy.
 
+### Analytics hooks
+
+HTML and Portuguese regeneration can replace page-level tracking attributes.
+Reinstall the consent-aware script block and explicit interaction hooks afterward:
+
+```bash
+python3 scripts/install-analytics.py
+python3 scripts/check-analytics-implementation.py
+```
+
+The installer is idempotent. GA4 is delivered through GTM only, and GTM remains
+inactive until analytics consent is granted. Account setup and placeholder
+replacement are documented in
+`GOOGLE-ANALYTICS-GTM-SEARCH-CONSOLE-SETUP.md`.
+
 ## Release validation
 
 Run the fast deterministic release gate before every deployment:
@@ -123,6 +139,8 @@ python3 scripts/check-portuguese-site.py --strict-warnings
 python3 scripts/check-english-site.py
 python3 scripts/check-local-assets.py
 python3 scripts/check-seo-files.py
+python3 scripts/install-analytics.py
+python3 scripts/check-analytics-implementation.py
 git diff --check
 ```
 

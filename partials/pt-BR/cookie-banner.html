@@ -18,21 +18,21 @@
 </span>
 </label>
 <label class="sfc-choice">
-<input name="preferences" type="checkbox"/>
+<input data-consent-category="preferences" name="preferences" type="checkbox">
 <span>
 <strong>Preferências</strong>
 <small>Lembra o idioma selecionado e as preferências de exibição.</small>
 </span>
 </label>
 <label class="sfc-choice">
-<input name="analytics" type="checkbox"/>
+<input data-consent-category="analytics" name="analytics" type="checkbox">
 <span>
 <strong>Análises</strong>
 <small>Nos ajuda a entender o uso da página e melhorar o site.</small>
 </span>
 </label>
 <label class="sfc-choice">
-<input name="external_media" type="checkbox"/>
+<input data-consent-category="external-media" name="external_media" type="checkbox">
 <span>
 <strong>Mídia externa</strong>
 <small>Permite que conteúdo incorporado ou recursos de terceiros sejam carregados.</small>
@@ -40,16 +40,16 @@
 </label>
 </div>
 <div class="sfc-actions">
-<button class="sfc-button sfc-button--primary" data-cookie-accept="" type="button">
+<button class="sfc-button sfc-button--primary" data-consent-action="accept-all" data-cookie-accept="" type="button">
         Aceitar cookies opcionais
       </button>
-<button class="sfc-button sfc-button--outline" data-cookie-decline="" data-cookie-reject="" type="button">
+<button class="sfc-button sfc-button--outline" data-consent-action="reject-optional" data-cookie-decline="" data-cookie-reject="" type="button">
         Rejeitar cookies opcionais
       </button>
 <button class="sfc-button sfc-button--quiet" data-cookie-customize="" type="button">
         Personalizar
       </button>
-<button class="sfc-button sfc-button--primary" data-cookie-save="" hidden="" type="button">
+<button class="sfc-button sfc-button--primary" data-consent-action="save" data-cookie-save="" hidden="" type="button">
         Salvar minhas escolhas
       </button>
 <button class="sfc-button sfc-button--quiet" data-cookie-reset="" hidden="" type="button">

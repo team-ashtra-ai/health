@@ -29,7 +29,7 @@
       </label>
 
       <label class="sfc-choice">
-        <input type="checkbox" name="preferences">
+        <input data-consent-category="preferences" name="preferences" type="checkbox">
         <span>
           <strong>Preferences</strong>
           <small>Remembers selected language or display choices.</small>
@@ -37,7 +37,7 @@
       </label>
 
       <label class="sfc-choice">
-        <input type="checkbox" name="analytics">
+        <input data-consent-category="analytics" name="analytics" type="checkbox">
         <span>
           <strong>Analytics</strong>
           <small>Helps us understand page use and improve the website.</small>
@@ -45,7 +45,7 @@
       </label>
 
       <label class="sfc-choice">
-        <input type="checkbox" name="external_media">
+        <input data-consent-category="external-media" name="external_media" type="checkbox">
         <span>
           <strong>External media</strong>
           <small>Allows selected embedded content or third-party features to load.</small>
@@ -54,11 +54,11 @@
     </div>
 
     <div class="sfc-actions">
-      <button type="button" class="sfc-button sfc-button--primary" data-cookie-accept>
+      <button class="sfc-button sfc-button--primary" data-consent-action="accept-all" data-cookie-accept="" type="button">
         Accept optional cookies
       </button>
 
-      <button type="button" class="sfc-button sfc-button--outline" data-cookie-reject data-cookie-decline>
+      <button class="sfc-button sfc-button--outline" data-consent-action="reject-optional" data-cookie-decline="" data-cookie-reject="" type="button">
         Reject optional cookies
       </button>
 
@@ -66,7 +66,7 @@
         Customise
       </button>
 
-      <button type="button" class="sfc-button sfc-button--primary" data-cookie-save hidden>
+      <button class="sfc-button sfc-button--primary" data-consent-action="save" data-cookie-save="" hidden="" type="button">
         Save my choices
       </button>
 

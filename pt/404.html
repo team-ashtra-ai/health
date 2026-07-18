@@ -441,10 +441,10 @@
 <img alt="Franciele Sofiati recebendo uma paciente em sua clínica Londrina" decoding="async" height="941" loading="lazy" src="../assets/treatments/Treatments26.png" width="1672"/>
 </figure>
 <div aria-label="Opções primárias de navegação" class="sf-button-row sf-404-actions">
-<a class="sf-button sf-button--primary" href="index.html">
+<a class="sf-button sf-button--primary" data-cta-location="body" data-cta-purpose="navigation" data-link-location="body" data-track="cta" href="index.html">
                 Início
               </a>
-<a class="sf-button sf-button--outline" href="consultation.html">
+<a class="sf-button sf-button--outline" data-cta-location="body" data-cta-purpose="consultation" data-link-location="body" data-track="cta" href="consultation.html">
                 Consultar
               </a>
 </div>
@@ -491,11 +491,11 @@
 <div class="sf-404-contact">
 <p>
                 Ainda não consegue encontrar o que precisa? Envie uma mensagem
-                <a href="https://wa.me/5543991043536" rel="noopener noreferrer" target="_blank">
+                <a data-contact-method="whatsapp" data-link-location="body" data-track="contact" href="https://wa.me/5543991043536" rel="noopener noreferrer" target="_blank">
                   WhatsApp
                 </a>
                 ou email
-                <a href="mailto:suportesofiati@gmail.com">
+                <a data-contact-method="email" data-link-location="body" data-track="contact" href="mailto:suportesofiati@gmail.com">
                   suportesofiati@gmail.com
                 </a>.
               </p>
@@ -509,6 +509,11 @@
 <template data-sf-partial="footer"></template>
 <template data-sf-partial="cookie-banner"></template>
 <template data-sf-partial="floating-widgets"></template>
+
+  <!-- Consent-aware analytics: GA4 is delivered through GTM only. GTM waits for analytics permission; do not add another gtag.js install. -->
+  <script src="../js/analytics-config.js" defer></script>
+  <script src="../js/consent-manager.js" defer></script>
+  <script src="../js/analytics.js" defer></script>
 <script src="../js/main.js" type="module"></script>
 </body>
 </html>

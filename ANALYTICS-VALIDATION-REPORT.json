@@ -1,0 +1,1034 @@
+{
+  "status": "PASS",
+  "generatedAt": "2026-07-18T12:33:19.337081+00:00",
+  "pagesChecked": 52,
+  "scriptsPresent": {
+    "required": [
+      "analytics-config.js",
+      "consent-manager.js",
+      "analytics.js"
+    ],
+    "allPagesCorrect": true,
+    "records": [
+      {
+        "page": "404.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "about.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "accessibility.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "blog.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "care.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "consultation.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "contact.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "cookies.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "faq.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "index.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "journal.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "journal/fractional-co2-laser-recovery-and-aftercare.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "journal/hair-thinning-causes-and-scalp-care.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "journal/laser-hair-removal-process-and-maintenance.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "journal/persistent-facial-redness-and-vessels.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "journal/professional-skin-cleansing-guide.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "journal/rebuilding-an-overwhelmed-skin-barrier.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "journal/ultrasound-radiofrequency-collagen-treatment.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "journal/understanding-acne-scar-treatment.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "journal/understanding-facial-pigmentation.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "journal/why-aesthetic-care-begins-with-consultation.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "laser.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "legal.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "mission.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "privacy.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "pt/404.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "pt/about.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "pt/accessibility.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "pt/blog.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "pt/care.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "pt/consultation.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "pt/contact.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "pt/cookies.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "pt/faq.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "pt/index.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "pt/journal.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "pt/laser.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "pt/legal.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "pt/mission.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "pt/privacy.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "pt/results.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "pt/skin.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "pt/testimonials.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "pt/thank-you.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "pt/treatments.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "pt/values.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "results.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "skin.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "testimonials.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "thank-you.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "treatments.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "values.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      }
+    ]
+  },
+  "placeholderIdsPresent": {
+    "gtm": true,
+    "ga4": true,
+    "searchConsole": true
+  },
+  "duplicateInstallations": {
+    "directGtagImplementations": 0,
+    "duplicateAnalyticsScriptBlocks": 0,
+    "gtmLoaderGuardImplemented": true
+  },
+  "formsChecked": {
+    "count": 8,
+    "trackedCount": 6,
+    "ignoredCount": 2,
+    "records": [
+      {
+        "page": "accessibility.html",
+        "id": "accessibility-feedback-form",
+        "formName": "accessibility_feedback",
+        "formType": "accessibility",
+        "leadType": null,
+        "fields": 7,
+        "sensitiveFieldsProtected": 7,
+        "gtmAutoFormDisabled": true,
+        "passed": true
+      },
+      {
+        "page": "consultation.html",
+        "id": "consultation-request-form",
+        "formName": "consultation_request",
+        "formType": "consultation",
+        "leadType": "consultation_request",
+        "fields": 35,
+        "sensitiveFieldsProtected": 35,
+        "gtmAutoFormDisabled": true,
+        "passed": true
+      },
+      {
+        "page": "contact.html",
+        "id": "contact-form",
+        "formName": "contact_form",
+        "formType": "contact",
+        "leadType": "contact_enquiry",
+        "fields": 39,
+        "sensitiveFieldsProtected": 39,
+        "gtmAutoFormDisabled": true,
+        "passed": true
+      },
+      {
+        "page": "pt/accessibility.html",
+        "id": "accessibility-feedback-form",
+        "formName": "accessibility_feedback",
+        "formType": "accessibility",
+        "leadType": null,
+        "fields": 7,
+        "sensitiveFieldsProtected": 7,
+        "gtmAutoFormDisabled": true,
+        "passed": true
+      },
+      {
+        "page": "pt/consultation.html",
+        "id": "consultation-request-form",
+        "formName": "consultation_request",
+        "formType": "consultation",
+        "leadType": "consultation_request",
+        "fields": 35,
+        "sensitiveFieldsProtected": 35,
+        "gtmAutoFormDisabled": true,
+        "passed": true
+      },
+      {
+        "page": "pt/contact.html",
+        "id": "contact-form",
+        "formName": "contact_form",
+        "formType": "contact",
+        "leadType": "contact_enquiry",
+        "fields": 39,
+        "sensitiveFieldsProtected": 39,
+        "gtmAutoFormDisabled": true,
+        "passed": true
+      }
+    ],
+    "intentionallyIgnored": [
+      {
+        "page": "legal.html",
+        "id": "service-agreement-acknowledgement",
+        "fields": 4,
+        "intentionallyIgnored": true
+      },
+      {
+        "page": "pt/legal.html",
+        "id": "service-agreement-acknowledgement",
+        "fields": 4,
+        "intentionallyIgnored": true
+      }
+    ],
+    "sensitiveFieldProtectionPassed": true
+  },
+  "trackingAttributes": {
+    "meaningfulSections": 356,
+    "faqItems": 176,
+    "installerIdempotent": true
+  },
+  "eventsImplemented": [
+    "cta_click",
+    "contact_click",
+    "social_click",
+    "outbound_click",
+    "file_download",
+    "language_change",
+    "form_start",
+    "form_submit",
+    "form_error",
+    "form_success",
+    "generate_lead",
+    "faq_open",
+    "section_view",
+    "scroll_depth",
+    "engagement_time",
+    "field_performance",
+    "javascript_error",
+    "consent_update"
+  ],
+  "internalEvents": [
+    "page_context"
+  ],
+  "consentImplementation": {
+    "mode": "basic",
+    "storageKey": "sofiati_cookie_preferences_v3",
+    "gtmLoadsOnlyAfterAnalyticsConsent": true,
+    "advertisingConsentAlwaysDenied": true,
+    "unconditionalNoscriptIframe": false,
+    "browserAudit": {
+      "status": "PASS",
+      "tests": [
+        {
+          "name": "all_pages_load_without_javascript_errors",
+          "passed": true,
+          "detail": {
+            "pages": 52,
+            "errors": []
+          }
+        },
+        {
+          "name": "gtm_absent_with_stored_rejection",
+          "passed": true,
+          "detail": {
+            "requests": 0
+          }
+        },
+        {
+          "name": "gtm_not_loaded_before_choice",
+          "passed": true,
+          "detail": {
+            "requests": 0
+          }
+        },
+        {
+          "name": "rejection_does_not_load_gtm",
+          "passed": true,
+          "detail": {
+            "requests": 0
+          }
+        },
+        {
+          "name": "rejection_persists_after_reload",
+          "passed": true,
+          "detail": {
+            "requests": 0
+          }
+        },
+        {
+          "name": "gtm_loads_once_after_grant",
+          "passed": true,
+          "detail": {
+            "requests": 1
+          }
+        },
+        {
+          "name": "consent_update_precedes_gtm_initialisation",
+          "passed": true,
+          "detail": {
+            "consentIndex": 1,
+            "gtmIndex": 2
+          }
+        },
+        {
+          "name": "advertising_consent_remains_denied",
+          "passed": true,
+          "detail": {
+            "states": [
+              {
+                "analytics_storage": "denied",
+                "ad_storage": "denied",
+                "ad_user_data": "denied",
+                "ad_personalization": "denied",
+                "functionality_storage": "denied",
+                "personalization_storage": "denied",
+                "security_storage": "granted",
+                "wait_for_update": 500
+              },
+              {
+                "analytics_storage": "denied",
+                "ad_storage": "denied",
+                "ad_user_data": "denied",
+                "ad_personalization": "denied",
+                "functionality_storage": "denied",
+                "personalization_storage": "denied",
+                "security_storage": "granted"
+              },
+              {
+                "analytics_storage": "granted",
+                "ad_storage": "denied",
+                "ad_user_data": "denied",
+                "ad_personalization": "denied",
+                "functionality_storage": "granted",
+                "personalization_storage": "granted",
+                "security_storage": "granted"
+              }
+            ]
+          }
+        },
+        {
+          "name": "page_context_is_internal_and_once",
+          "passed": true,
+          "detail": {
+            "events": [
+              {
+                "event": "page_context",
+                "page_name": "about",
+                "page_type": "ProfilePage",
+                "content_group": "Trust",
+                "page_language": "en",
+                "page_path": "/about.html"
+              }
+            ]
+          }
+        },
+        {
+          "name": "cta_click_classified_once",
+          "passed": true,
+          "detail": {
+            "before": 0,
+            "after": 1
+          }
+        },
+        {
+          "name": "contact_click_classified_once",
+          "passed": true,
+          "detail": {
+            "before": 0,
+            "after": 1
+          }
+        },
+        {
+          "name": "social_click_classified_once",
+          "passed": true,
+          "detail": {
+            "before": 0,
+            "after": 1
+          }
+        },
+        {
+          "name": "outbound_click_classified_once",
+          "passed": true,
+          "detail": {
+            "before": 0,
+            "after": 1
+          }
+        },
+        {
+          "name": "language_change_classified_once",
+          "passed": true,
+          "detail": {
+            "before": 0,
+            "after": 1
+          }
+        },
+        {
+          "name": "file_download_classified_once",
+          "passed": true,
+          "detail": {
+            "before": 0,
+            "after": 1
+          }
+        },
+        {
+          "name": "revocation_stops_custom_events_without_reloading_gtm",
+          "passed": true,
+          "detail": {
+            "before": 1,
+            "after": 1,
+            "gtmRequests": 1
+          }
+        },
+        {
+          "name": "engagement_counts_only_focused_visible_time",
+          "passed": true,
+          "detail": {
+            "engagementOne": 1,
+            "engagementPaused": 1,
+            "engagementResumed": 2
+          }
+        },
+        {
+          "name": "performance_event_is_consolidated_and_numeric",
+          "passed": true,
+          "detail": {
+            "events": [
+              {
+                "event": "field_performance",
+                "page_name": "about",
+                "page_type": "ProfilePage",
+                "content_group": "Trust",
+                "page_language": "en",
+                "page_path": "/about.html",
+                "lcp_ms": 108,
+                "cls_score": 0.032,
+                "inp_ms": 40,
+                "ttfb_ms": 2,
+                "dom_content_loaded_ms": 48,
+                "page_load_ms": 75
+              }
+            ]
+          }
+        },
+        {
+          "name": "javascript_error_is_privacy_safe",
+          "passed": true,
+          "detail": {
+            "events": [
+              {
+                "event": "javascript_error",
+                "page_name": "about",
+                "page_type": "ProfilePage",
+                "content_group": "Trust",
+                "page_language": "en",
+                "page_path": "/about.html",
+                "error_type": "runtime_error",
+                "script_name": "about.html",
+                "line_bucket": 0
+              }
+            ]
+          }
+        },
+        {
+          "name": "faq_open_fires_once_per_item",
+          "passed": true,
+          "detail": {
+            "count": 1
+          }
+        },
+        {
+          "name": "section_view_fires_once_after_minimum_visibility",
+          "passed": true,
+          "detail": {
+            "sectionId": "skin-and-routines",
+            "before": 1,
+            "after": 1
+          }
+        },
+        {
+          "name": "scroll_thresholds_fire_once",
+          "passed": true,
+          "detail": {
+            "scrollValues": [
+              25,
+              50,
+              75,
+              90
+            ]
+          }
+        },
+        {
+          "name": "form_start_fires_once",
+          "passed": true,
+          "detail": {
+            "count": 1
+          }
+        },
+        {
+          "name": "invalid_form_has_error_without_submit",
+          "passed": true,
+          "detail": {
+            "error": 1,
+            "submit": 0,
+            "success": 0
+          }
+        },
+        {
+          "name": "server_failure_is_not_form_success",
+          "passed": true,
+          "detail": {
+            "submit": 1,
+            "success": 0,
+            "lead": 0
+          }
+        },
+        {
+          "name": "confirmed_form_creates_one_lead",
+          "passed": true,
+          "detail": {
+            "submit": 2,
+            "success": 1,
+            "lead": 1
+          }
+        },
+        {
+          "name": "data_layer_contains_no_form_pii",
+          "passed": true,
+          "detail": {
+            "containsSentinel": false
+          }
+        },
+        {
+          "name": "thank_you_does_not_duplicate_confirmed_lead",
+          "passed": true,
+          "detail": {
+            "firstVisit": 0,
+            "refresh": 0
+          }
+        },
+        {
+          "name": "pending_thank_you_fallback_is_deduplicated",
+          "passed": true,
+          "detail": {
+            "firstVisit": 1,
+            "refresh": 0
+          }
+        },
+        {
+          "name": "direct_thank_you_visit_is_not_a_lead",
+          "passed": true,
+          "detail": {
+            "count": 0
+          }
+        }
+      ],
+      "failures": []
+    }
+  },
+  "javascriptSyntax": {
+    "status": "PASS",
+    "files": [
+      {
+        "file": "js/analytics-config.js",
+        "passed": true,
+        "output": ""
+      },
+      {
+        "file": "js/consent-manager.js",
+        "passed": true,
+        "output": ""
+      },
+      {
+        "file": "js/analytics.js",
+        "passed": true,
+        "output": ""
+      },
+      {
+        "file": "js/main.js",
+        "passed": true,
+        "output": ""
+      },
+      {
+        "file": "js/components/cookie-controls.js",
+        "passed": true,
+        "output": ""
+      },
+      {
+        "file": "js/components/forms.js",
+        "passed": true,
+        "output": ""
+      }
+    ]
+  },
+  "searchConsolePlaceholder": true,
+  "sitemapStatus": {
+    "exists": true,
+    "thankYouExcluded": true
+  },
+  "robotsStatus": {
+    "exists": true,
+    "productionSitemapReferenced": true
+  },
+  "thankYouNoindex": true,
+  "remainingManualSetup": [
+    "Create the GA4 property and Web stream; use São Paulo time zone and BRL currency.",
+    "Replace G-REPLACE_ME with the real GA4 Measurement ID reference.",
+    "Create the GTM Web container and replace GTM-REPLACE_ME.",
+    "Create and test the GTM Google Tag, Data Layer Variables, custom-event trigger and GA4 Event tag.",
+    "Disable duplicate Enhanced Measurement scroll, outbound, download and form events.",
+    "Mark generate_lead as a GA4 key event and create the focused custom dimensions.",
+    "Configure internal traffic in Testing mode before activation.",
+    "Verify Search Console through DNS, submit sitemap.xml and link Search Console to GA4.",
+    "Publish a named GTM container version after Tag Assistant and DebugView testing."
+  ],
+  "warnings": [],
+  "errors": []
+}

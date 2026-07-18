@@ -88,14 +88,24 @@ export function initForms() {
 
     const validate = () => {
       let firstInvalid = null;
+      let errorCount = 0;
       fields.forEach(clearFieldError);
       fields.forEach((field) => {
         if (field.disabled || field.checkValidity()) return;
+        errorCount += 1;
         const message = field.validity.typeMismatch ? copy.email : copy.required;
         showFieldError(field, message);
         if (!firstInvalid) firstInvalid = field;
       });
-      return firstInvalid;
+      return { firstInvalid, errorCount };
+    };
+
+    // Analytics receives lifecycle states, never FormData or field values.
+    // A successful event is emitted only after Formspree confirms the request.
+    const emitLifecycle = (name, detail = {}) => {
+      document.dispatchEvent(new CustomEvent(`sofiati:form-${name}`, {
+        detail: { form, ...detail }
+      }));
     };
 
     const setState = (nextState, message, role = 'status') => {
@@ -147,9 +157,13 @@ export function initForms() {
     form.addEventListener('submit', async (event) => {
       event.preventDefault();
       if (form.dataset.formState === 'loading') return;
-      const firstInvalid = validate();
+      const { firstInvalid, errorCount } = validate();
       if (firstInvalid) {
         setState('error', copy.review, 'alert');
+        emitLifecycle('error', {
+          errorType: 'client_validation',
+          errorCount
+        });
         firstInvalid.focus();
         return;
       }
@@ -164,9 +178,14 @@ export function initForms() {
       const endpoint = configureEndpoint(state.sharedData || await loadSharedData());
       if (!endpoint) {
         setState('error', copy.error, 'alert')?.focus({ preventScroll: true });
+        emitLifecycle('error', {
+          errorType: 'endpoint_unavailable',
+          errorCount: 1
+        });
         return;
       }
 
+      emitLifecycle('submit');
       setSubmitting(true);
       setState('loading', copy.loading);
       const payload = new FormData(form);
@@ -183,9 +202,14 @@ export function initForms() {
         form.reset();
         fields.forEach(clearFieldError);
         setState('success', copy.success)?.focus({ preventScroll: true });
+        emitLifecycle('success');
       } catch (error) {
         console.warn('[Sofiati] Form submission failed.', error);
         setState('error', copy.error, 'alert')?.focus({ preventScroll: true });
+        emitLifecycle('error', {
+          errorType: 'server_submission',
+          errorCount: 1
+        });
       } finally {
         setSubmitting(false);
       }
