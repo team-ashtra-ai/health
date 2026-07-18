@@ -1,8 +1,18 @@
 @layer pages {
-  .sf-page[data-page="mission"] #why-it-matters .sf-editorial-media-layout { border-radius: var(--radius-xl) var(--radius-md) var(--radius-xl) var(--radius-md); }
+  .sf-page[data-page="mission"] #why-it-matters .sf-editorial-media-layout { display: block; max-inline-size: var(--editorial-standard); margin-inline: auto; border: 1px solid var(--color-border-warm); border-radius: var(--radius-xl) var(--radius-md) var(--radius-xl) var(--radius-md); background: color-mix(in srgb, var(--white) 70%, transparent); padding: clamp(2rem, 6vw, 5.5rem); }
+  .sf-page[data-page="mission"] #why-it-matters .sf-section-inner { display: grid; grid-template-columns: minmax(14rem, .62fr) minmax(0, 1.38fr); gap: clamp(2rem, 7vw, 7rem); align-items: start; }
+  .sf-page[data-page="mission"] #why-it-matters .sf-section-head { grid-row: 1 / span 3; }
+  .sf-page[data-page="mission"] #why-it-matters .sf-content-card-grid { grid-column: 2; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border-block: 1px solid var(--color-border-warm); }
+  .sf-page[data-page="mission"] #why-it-matters .sf-content-card { min-block-size: 9rem; border: 0; border-radius: 0; background: transparent; padding: 1.25rem; }
+  .sf-page[data-page="mission"] #why-it-matters .sf-content-card + .sf-content-card { border-inline-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="mission"] #why-it-matters .sf-practitioner-quote { grid-column: 2; margin: 0; }
   .sf-page[data-page="mission"] #the-change .sf-content-card { min-block-size: 10rem; align-content: start; }
   .sf-page[data-page="mission"] #science-with-humanity .sf-statement-inner { max-inline-size: min(70rem, calc(100% - 2 * var(--page-gutter))); }
   .sf-page[data-page="mission"] #natural-beauty .sf-statement-inner { margin-inline-end: max(var(--page-gutter), calc((100% - var(--container-standard)) / 2)); margin-inline-start: auto; }
   .sf-page[data-page="mission"] #a-calmer-space .sf-statement-inner { border-radius: var(--radius-arch) var(--radius-lg) var(--radius-arch) var(--radius-lg); }
   .sf-page[data-page="mission"] #mission-in-action .sf-content-card-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr)); }
+  .sf-page[data-page="mission"] #science-with-humanity .sf-content-card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; border-block: 1px solid var(--color-border-warm); }
+  .sf-page[data-page="mission"] #science-with-humanity .sf-content-card { min-block-size: 12rem; border: 0; border-radius: 0; background: transparent; padding: clamp(1.4rem, 3vw, 2.4rem); }
+  .sf-page[data-page="mission"] #science-with-humanity .sf-content-card + .sf-content-card { border-inline-start: 1px solid var(--color-border-subtle); }
+  @media (max-width: 47.999rem) { .sf-page[data-page="mission"] #why-it-matters .sf-section-inner { grid-template-columns: 1fr; } .sf-page[data-page="mission"] #why-it-matters .sf-section-head, .sf-page[data-page="mission"] #why-it-matters .sf-content-card-grid, .sf-page[data-page="mission"] #why-it-matters .sf-practitioner-quote { grid-column: 1; grid-row: auto; } .sf-page[data-page="mission"] #why-it-matters .sf-content-card-grid, .sf-page[data-page="mission"] #science-with-humanity .sf-content-card-grid { grid-template-columns: 1fr; } .sf-page[data-page="mission"] :is(#why-it-matters, #science-with-humanity) .sf-content-card + .sf-content-card { border-block-start: 1px solid var(--color-border-subtle); border-inline-start: 0; } }
 }

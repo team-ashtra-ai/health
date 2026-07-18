@@ -71,14 +71,15 @@
   .sf-page[data-page="laser"] #laser-hair-reduction .sf-content-card li { color: var(--color-text-secondary); font-size: .82rem; line-height: 1.5; }
   .sf-page[data-page="laser"] #laser-hair-reduction .sf-practitioner-quote { max-inline-size: 37rem; margin: 2rem 0 0 auto; }
 
-  /* 06 · CO2 planning as a treatment/recovery split with real imagery */
-  .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(18rem, .72fr); column-gap: clamp(3rem, 7vw, 8rem); align-items: start; }
-  .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner::before { content: ""; grid-column: 2; grid-row: 1 / span 7; min-block-size: 39rem; border: 1px solid rgb(234 213 173 / .38); border-radius: 10rem 10rem .5rem .5rem; background: linear-gradient(rgb(36 49 41 / .08), rgb(36 49 41 / .08)), url("../assets/posts/journal/fractional-co2-laser-treatment.webp") center / cover no-repeat; }
-  .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner > *:not(.sf-practitioner-quote) { grid-column: 1; }
+  /* 06 · CO2 planning as a clinical dossier: image, decision criteria and CTA share one complete field. */
+  .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner { display: grid; grid-template-columns: minmax(0, .82fr) minmax(18rem, 1.18fr); column-gap: clamp(2.5rem, 6vw, 6.5rem); align-items: start; }
+  .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner::before { content: ""; grid-column: 1; grid-row: 1 / span 5; min-block-size: 36rem; border: 1px solid rgb(234 213 173 / .38); border-radius: .6rem 8rem .6rem .6rem; background: linear-gradient(rgb(36 49 41 / .14), rgb(36 49 41 / .04)), url("../assets/posts/journal/fractional-co2-laser-treatment.webp") center / cover no-repeat; }
+  .sf-page[data-page="laser"] #co-resurfacing .sf-section-head, .sf-page[data-page="laser"] #co-resurfacing .sf-lede, .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner > p:not(.sf-lede), .sf-page[data-page="laser"] #co-resurfacing .sf-botanical-list, .sf-page[data-page="laser"] #co-resurfacing .sf-practitioner-quote { grid-column: 2; }
   .sf-page[data-page="laser"] #co-resurfacing .sf-lede { color: var(--gold-200); font-family: var(--font-heading); font-size: clamp(1.45rem, 2vw, 2rem); }
   .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner > p:not(.sf-lede),
   .sf-page[data-page="laser"] #co-resurfacing .sf-botanical-list { color: rgb(255 253 249 / .74); }
-  .sf-page[data-page="laser"] #co-resurfacing .sf-practitioner-quote { grid-column: 1; max-inline-size: 36rem; margin-block-start: 2rem; }
+  .sf-page[data-page="laser"] #co-resurfacing .sf-botanical-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .2rem 1.5rem; border-block: 1px solid rgb(234 213 173 / .34); padding: 1.25rem 0 1.25rem 1.25rem; }
+  .sf-page[data-page="laser"] #co-resurfacing .sf-practitioner-quote { max-inline-size: none; margin: .75rem 0 0; border-inline-start-color: var(--gold-300); }
 
   /* Approved Section 8 — keep the existing composition exactly. */
   .sf-page[data-page="laser"] #when-to-wait .sf-statement-inner { max-inline-size: min(54rem, calc(100% - 2 * var(--page-gutter))); }
@@ -137,8 +138,9 @@
     .sf-page[data-page="laser"] :is(#what-laser-is, #laser-hair-reduction) .sf-content-card:nth-child(n) { grid-column: 1; border-inline: 0; }
     .sf-page[data-page="laser"] :is(#what-laser-is, #laser-hair-reduction) .sf-content-card + .sf-content-card { border-block-start: 1px solid var(--color-border-subtle); }
     .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner::before { grid-column: 1; grid-row: 2; min-block-size: 17rem; margin-block: 1.5rem; border-radius: 5rem 5rem .5rem .5rem; }
-    .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner > *:not(.sf-practitioner-quote) { grid-column: 1; }
+    .sf-page[data-page="laser"] #co-resurfacing :is(.sf-section-head, .sf-lede, .sf-statement-inner > p:not(.sf-lede), .sf-botanical-list, .sf-practitioner-quote) { grid-column: 1; }
     .sf-page[data-page="laser"] #co-resurfacing .sf-section-head { grid-row: 1; }
+    .sf-page[data-page="laser"] #co-resurfacing .sf-botanical-list { grid-template-columns: 1fr; }
     .sf-page[data-page="laser"] #before-during-and-after .sf-section-head { display: block; }
     .sf-page[data-page="laser"] #before-during-and-after .sf-process-list { grid-template-columns: 1fr; }
     .sf-page[data-page="laser"] #before-during-and-after .sf-step + .sf-step { border-block-start: 1px solid var(--color-border-subtle); border-inline-start: 0; }

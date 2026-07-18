@@ -1,7 +1,12 @@
 @layer pages {
   .sf-page[data-page="privacy"] #who-is-responsible .sf-editorial-media-layout { background: linear-gradient(145deg, var(--color-bg-sage-soft), color-mix(in srgb, var(--white) 80%, transparent)); }
   .sf-page[data-page="privacy"] #information-generated-through-website-use .sf-content-card { min-block-size: 13rem; }
-  .sf-page[data-page="privacy"] #why-information-may-be-used .sf-content-card { border-radius: var(--radius-arch); text-align: center; }
+  .sf-page[data-page="privacy"] #why-information-may-be-used .sf-section-inner { display: grid; grid-template-columns: minmax(15rem, .56fr) minmax(0, 1.44fr); gap: clamp(2.5rem, 7vw, 7rem); align-items: start; }
+  .sf-page[data-page="privacy"] #why-information-may-be-used .sf-section-head { position: sticky; inset-block-start: calc(var(--header-height) + 1.5rem); }
+  .sf-page[data-page="privacy"] #why-information-may-be-used .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border-block: 1px solid var(--color-border-rose); }
+  .sf-page[data-page="privacy"] #why-information-may-be-used .sf-content-card { min-block-size: 10rem; border: 0; border-radius: 0; background: transparent; padding: clamp(1.25rem, 3vw, 2.25rem); text-align: start; }
+  .sf-page[data-page="privacy"] #why-information-may-be-used .sf-content-card:nth-child(even) { border-inline-start: 1px solid var(--color-border-rose); }
+  .sf-page[data-page="privacy"] #why-information-may-be-used .sf-content-card:nth-child(n + 3) { border-block-start: 1px solid var(--color-border-rose); }
   .sf-page[data-page="privacy"] #legal-bases-and-necessity > .sf-editorial-split { background: var(--olive-700); color: var(--color-text-inverse); }
   .sf-page[data-page="privacy"] #legal-bases-and-necessity > .sf-editorial-split :is(h2, h3, .sf-eyebrow, .sf-lede, a) { color: inherit; }
   .sf-page[data-page="privacy"] #legal-bases-and-necessity > .sf-editorial-split .sf-chapter-number { color: var(--gold-200); }
@@ -21,6 +26,11 @@
   .sf-page[data-page="legal"] #questions .sf-bottom-cta__inner { max-inline-size: min(54rem, calc(100% - 2 * var(--page-gutter))); }
 
   @media (max-width: 47.999rem) {
+    .sf-page[data-page="privacy"] #why-information-may-be-used .sf-section-inner { grid-template-columns: 1fr; }
+    .sf-page[data-page="privacy"] #why-information-may-be-used .sf-section-head { position: static; }
+    .sf-page[data-page="privacy"] #why-information-may-be-used .sf-content-card-grid { grid-template-columns: 1fr; }
+    .sf-page[data-page="privacy"] #why-information-may-be-used .sf-content-card:nth-child(n) { border-inline-start: 0; }
+    .sf-page[data-page="privacy"] #why-information-may-be-used .sf-content-card + .sf-content-card { border-block-start: 1px solid var(--color-border-rose); }
     .sf-page[data-page="cookies"] #essential-cookies .sf-content-card-grid { grid-template-columns: 1fr; }
   }
 }

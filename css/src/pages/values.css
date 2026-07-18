@@ -1,4 +1,13 @@
 @layer pages {
+  /* Bring the values chapters back into the site’s shared editorial system. */
+  .sf-page[data-page="values"] .sf-values-chapter { position: relative; isolation: isolate; }
+  .sf-page[data-page="values"] .sf-values-chapter:not(.sf-values-chapter--dark)::before { content: ""; position: absolute; inset: 0 max(0px, calc((100% - var(--editorial-wide)) / 2)); z-index: -1; border-inline: 1px solid color-mix(in srgb, var(--gold-500) 14%, transparent); pointer-events: none; }
+  .sf-page[data-page="values"] .sf-values-heading { padding-block-start: 0; }
+  .sf-page[data-page="values"] .sf-values-number { inset: -1rem auto auto -.5rem; color: color-mix(in srgb, var(--rose-gold-700) 12%, transparent); font-size: clamp(4.5rem, 7vw, 7rem); }
+  .sf-page[data-page="values"] .sf-values-media { border-radius: .6rem 5rem .6rem .6rem; box-shadow: var(--shadow-soft); }
+  .sf-page[data-page="values"] .sf-values-media--portrait { border-radius: 6rem 6rem .6rem .6rem; }
+  .sf-page[data-page="values"] .sf-values-impact { color: var(--color-text-secondary); }
+  .sf-page[data-page="values"] .sf-values-chapter--dark .sf-values-impact { color: rgb(255 253 249 / .86); }
   .sf-page[data-page="values"] .sf-values-chapter { padding-block: clamp(4.75rem, 8vw, 8rem); }
 
   .sf-page[data-page="values"] :is(.sf-values-layout, .sf-values-decision, .sf-values-clarity, .sf-values-restraint, .sf-values-safety, .sf-values-honesty, .sf-values-respect) { min-inline-size: 0; }

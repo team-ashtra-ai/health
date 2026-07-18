@@ -1,0 +1,297 @@
+@layer pages {
+  /* One shared marker keeps every chapter legible as an editorial sequence.
+     The number and eyebrow are deliberately one compact object, never a
+     decorative number separated from the section it introduces. */
+  .sf-editorial-marker {
+    display: grid;
+    justify-items: start;
+    gap: .55rem;
+    margin-block-end: clamp(1rem, 1.8vw, 1.45rem);
+    text-align: start;
+  }
+
+  .sf-page[data-page] .sf-section :is(.sf-section-head, .sf-editorial-kicker, .sf-form-section-intro) .sf-editorial-marker {
+    grid-column: 1 / -1;
+    grid-row: auto;
+    align-self: start;
+  }
+
+  .sf-page[data-page] .sf-section :is(.sf-section-head, .sf-editorial-kicker, .sf-form-section-intro) .sf-editorial-marker .sf-chapter-number {
+    margin: 0;
+    color: var(--rose-gold-600);
+    font-size: clamp(2.3rem, 3.3vw, 3.7rem);
+    line-height: .78;
+    grid-column: auto;
+    grid-row: auto;
+    align-self: auto;
+    position: static;
+  }
+
+  .sf-page[data-page] .sf-section :is(.sf-section-head, .sf-editorial-kicker, .sf-form-section-intro) .sf-editorial-marker .sf-eyebrow {
+    margin: 0;
+    color: var(--rose-gold-700);
+    grid-column: auto;
+    grid-row: auto;
+    align-self: auto;
+    justify-self: start;
+    position: static;
+  }
+
+  .sf-section[data-tone="forest"] .sf-editorial-marker :is(.sf-chapter-number, .sf-eyebrow) { color: var(--gold-200); }
+  .sf-section[data-tone="forest"] .sf-editorial-marker .sf-eyebrow::before { background: var(--gold-300); }
+
+  /* A marker stays on the section's left rail even when the image occupies
+     that rail and the reading column is deliberately placed on the right. */
+  @media (min-width: 64rem) {
+    .sf-editorial-media-layout--media-left { position: relative; }
+    .sf-editorial-media-layout--media-left .sf-editorial-marker {
+      position: absolute;
+      z-index: 3;
+      inset-block-start: clamp(1.25rem, 3vw, 3.25rem);
+      inset-inline-start: clamp(1.25rem, 3vw, 3.25rem);
+      max-inline-size: min(15rem, 34%);
+      padding: .8rem .9rem;
+      background: color-mix(in srgb, var(--ivory-50) 86%, transparent);
+      box-shadow: 0 .7rem 1.5rem rgb(36 49 41 / .1);
+    }
+    .sf-section[data-tone="forest"] .sf-editorial-media-layout--media-left .sf-editorial-marker {
+      background: color-mix(in srgb, var(--forest-900) 82%, transparent);
+    }
+  }
+
+  /* Quotes are supporting annotations. Testimonials retain a little more
+     room because they are their page's primary evidence, not their headings. */
+  .sf-pull-quote {
+    max-inline-size: 38rem;
+    border-inline-start-width: 1px;
+    padding: .55rem 0 .45rem 1.25rem;
+  }
+  .sf-pull-quote::before {
+    inset-inline-start: .12rem;
+    inset-block-start: .08rem;
+    font-size: clamp(1.8rem, 2.7vw, 2.55rem);
+  }
+  .sf-pull-quote p,
+  [data-pattern="quote-panel"] .sf-pull-quote p {
+    max-inline-size: 42ch;
+    font-size: clamp(1rem, .94rem + .25vw, 1.18rem);
+    letter-spacing: -.012em;
+    line-height: 1.5;
+  }
+  :is(.sf-testimonial-quote, .sf-practitioner-quote) figcaption {
+    margin-block-start: .65rem;
+    font-size: .68rem;
+    font-weight: 700;
+    letter-spacing: .09em;
+  }
+  .sf-quotation-signature {
+    inline-size: min(100%, 30rem);
+    grid-template-columns: 2.25rem max-content minmax(0, 1fr);
+    column-gap: .7rem;
+    margin-block-start: 1.15rem;
+    padding: .75rem .9rem;
+    box-shadow: 0 .6rem 1.6rem color-mix(in srgb, var(--forest-900) 7%, transparent);
+  }
+  .sf-quotation-signature::before { font-size: 4.2rem; }
+  .sf-quotation-signature::after { inline-size: 2px; }
+  .sf-quotation-signature > .sf-pull-quote p {
+    max-inline-size: 38ch;
+    font-family: var(--font-italic);
+    font-size: clamp(.98rem, .92rem + .2vw, 1.12rem);
+    line-height: 1.48;
+  }
+  .sf-quotation-signature figcaption { font-size: .64rem; }
+  .sf-quotation-avatar { inline-size: 2.25rem; block-size: 2.25rem; }
+  .sf-page[data-page="testimonials"] .sf-testimonial-quote .sf-pull-quote p { font-size: clamp(1.08rem, 1rem + .38vw, 1.32rem); }
+
+  /* Homepage is the conceptual opening chapter: a small mark takes the
+     number's place without adding a visible 00. */
+  .sf-page[data-page] [data-pattern="hero"] .sf-hero-logo {
+    display: block;
+    inline-size: clamp(2.8rem, 4vw, 4rem);
+    block-size: auto;
+    margin-block-end: .8rem;
+    object-fit: contain;
+    object-position: left center;
+  }
+  .sf-page[data-page="home"] [data-pattern="hero"] .sf-hero-mini-brand {
+    display: none;
+  }
+  .sf-page[data-page] [data-pattern="hero"] .sf-hero-logo {
+    border: 1px solid color-mix(in srgb, var(--rose-gold-500) 48%, transparent);
+    border-radius: 50%;
+    padding: .25rem;
+    background: color-mix(in srgb, var(--ivory-50) 72%, transparent);
+  }
+  .sf-page[data-page="home"] [data-pattern="hero"] .sf-hero-logo {
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    padding: 0;
+    opacity: .78;
+  }
+  .sf-page[data-page] [data-pattern="hero"] .sf-hero-logo + .sf-eyebrow { margin-block-start: 0; }
+  .sf-page[data-page] [data-pattern="hero"] .sf-hero-copy .sf-eyebrow { margin-block-end: var(--space-3); }
+  .sf-page[data-page="home"] [data-pattern="hero"] .sf-eyebrow:empty { display: none; }
+
+  /* Final page-specific compositions. These sit after the broad site surface
+     rules so their structure cannot be flattened back into generic cards. */
+  .sf-page[data-page="home"] #treatment-families .sf-section-inner { display: grid; grid-template-columns: minmax(18rem, .8fr) minmax(0, 1.2fr); gap: clamp(2rem, 5vw, 5rem); align-items: start; }
+  .sf-page[data-page="home"] #treatment-families .sf-section-head { grid-column: 1 / -1; display: grid; grid-template-columns: 7rem minmax(0, 1fr); column-gap: 1.25rem; align-items: end; max-inline-size: 55rem; }
+  .sf-page[data-page="home"] #treatment-families .sf-section-head .sf-chapter-number { grid-row: 1 / span 2; }
+  .sf-page[data-page="home"] #treatment-families .sf-section-head :is(.sf-eyebrow, h2) { grid-column: 2; }
+  .sf-page[data-page="home"] #treatment-families .sf-home-treatment-atlas__image { margin: 0; overflow: hidden; border-radius: .65rem; }
+  .sf-page[data-page="home"] #treatment-families .sf-home-treatment-atlas__image img { inline-size: 100%; block-size: 31rem; object-fit: cover; }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card { min-block-size: 10.5rem; border: 1px solid var(--color-border-rose); border-radius: .5rem; background: rgb(255 253 249 / .58); box-shadow: none; padding: 1.4rem; }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card:nth-child(3n + 1) { background: color-mix(in srgb, var(--blush-100) 72%, transparent); }
+  .sf-page[data-page="home"] #treatment-families :is(.sf-section-inner > p, .sf-button-row) { grid-column: 2; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-statement-inner { display: grid; grid-template-columns: minmax(16rem, .65fr) minmax(0, 1.35fr); gap: clamp(2rem, 6vw, 6rem); align-items: center; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-section-head { grid-column: 1; max-inline-size: 42rem; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait { grid-column: 1; grid-row: 2; inline-size: 100% !important; margin: 0; overflow: hidden; border-radius: .65rem !important; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait img { inline-size: 100%; block-size: 30rem; object-fit: cover; object-position: center top; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria { grid-column: 2; grid-row: 1 / span 2; display: grid; grid-template-columns: 1fr; margin: 0; padding: 0; border-block: 1px solid var(--color-border-warm); list-style: none; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria li { display: grid; grid-template-columns: 2.5rem minmax(0, 1fr); gap: 1rem; padding: clamp(1.4rem, 2.5vw, 2rem) 0; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria li + li { border-block-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria > li > span { color: var(--rose-gold-700); font-family: var(--font-heading); font-size: 1.2rem; font-style: italic; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria h3 { margin: 0 0 .45rem; color: var(--forest-900); font-size: clamp(1.35rem, 1.7vw, 1.7rem); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria p { margin: 0; color: var(--color-text-secondary); font-size: .92rem; line-height: 1.6; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-practitioner-quote { grid-column: 1; grid-row: 3; margin: 1.5rem 0 0; }
+  .sf-page[data-page="home"] #care-standard .sf-editorial-media-layout { display: grid; grid-template-columns: minmax(18rem, .75fr) minmax(0, 1.25fr); gap: clamp(2rem, 6vw, 6rem); align-items: stretch; }
+  .sf-page[data-page="home"] #care-standard .sf-editorial-media { grid-column: 1; grid-row: 1; border-radius: .65rem !important; }
+  .sf-page[data-page="home"] #care-standard .sf-editorial-media img { inline-size: 100%; block-size: 100%; min-block-size: 42rem; object-fit: cover; }
+  .sf-page[data-page="home"] #care-standard .sf-section-inner { grid-column: 2; display: flex; flex-direction: column; justify-content: center; }
+  .sf-page[data-page="home"] #care-standard .sf-section-head { max-inline-size: 38rem; }
+  .sf-page[data-page="home"] #care-standard .sf-content-card-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .75rem; margin-block: 2rem; }
+  .sf-page[data-page="home"] #care-standard .sf-content-card { min-block-size: 14rem; border: 1px solid rgb(234 213 173 / .36); border-radius: .5rem; background: rgb(255 253 249 / .08); box-shadow: none; padding: 1.25rem; }
+  .sf-page[data-page="home"] #care-standard .sf-content-card + .sf-content-card { border-block-start: 1px solid rgb(234 213 173 / .36); }
+
+  .sf-page[data-page="mission"] #why-it-matters .sf-editorial-media-layout { display: block; max-inline-size: var(--editorial-standard); margin-inline: auto; border: 1px solid var(--color-border-warm); border-radius: .65rem; background: color-mix(in srgb, var(--white) 76%, transparent); padding: clamp(2rem, 6vw, 5rem); }
+  .sf-page[data-page="mission"] #why-it-matters .sf-section-inner { display: grid; grid-template-columns: minmax(14rem, .62fr) minmax(0, 1.38fr); gap: clamp(2rem, 7vw, 7rem); }
+  .sf-page[data-page="mission"] #why-it-matters .sf-section-head { grid-row: 1 / span 3; }
+  .sf-page[data-page="mission"] #why-it-matters .sf-content-card-grid { grid-column: 2; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border-block: 1px solid var(--color-border-warm); }
+  .sf-page[data-page="mission"] #why-it-matters .sf-content-card { min-block-size: 9rem; border: 0; border-radius: 0; background: transparent; box-shadow: none; }
+  .sf-page[data-page="mission"] #why-it-matters .sf-content-card + .sf-content-card { border-inline-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="mission"] #why-it-matters .sf-practitioner-quote { grid-column: 2; margin: 0; }
+  .sf-page[data-page="mission"] #science-with-humanity .sf-content-card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; border-block: 1px solid var(--color-border-warm); }
+  .sf-page[data-page="mission"] #science-with-humanity .sf-content-card { min-block-size: 12rem; border: 0; border-radius: 0; box-shadow: none; }
+  .sf-page[data-page="mission"] #science-with-humanity .sf-content-card + .sf-content-card { border-inline-start: 1px solid var(--color-border-subtle); }
+
+  .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner { display: grid; grid-template-columns: minmax(18rem, .8fr) minmax(0, 1.2fr); gap: clamp(2.5rem, 6vw, 6rem); align-items: start; }
+  .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner::before { grid-column: 1; grid-row: 1 / span 5; min-block-size: 36rem; border-radius: .65rem !important; }
+  .sf-page[data-page="laser"] #co-resurfacing :is(.sf-section-head, .sf-lede, .sf-statement-inner > p:not(.sf-lede), .sf-botanical-list, .sf-practitioner-quote) { grid-column: 2; }
+  .sf-page[data-page="laser"] #co-resurfacing .sf-botanical-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .4rem 1.5rem; border-block: 1px solid rgb(234 213 173 / .34); padding: 1.25rem 0 1.25rem 1.25rem; }
+  .sf-page[data-page="laser"] #co-resurfacing .sf-practitioner-quote { margin: 0; max-inline-size: none; }
+
+  .sf-page[data-page="accessibility"] #reading-and-navigation .sf-content-card { display: grid; grid-template-columns: 3rem minmax(0, 1fr); column-gap: 1rem; align-content: start; min-block-size: 11rem; border: 1px solid rgb(234 213 173 / .4); background: rgb(255 253 249 / .08); }
+  .sf-page[data-page="accessibility"] #reading-and-navigation .sf-content-card :is(h3, p) { grid-column: 2; }
+  .sf-page[data-page="accessibility"] #reading-and-navigation .sf-content-card h3 { color: var(--ivory-50) !important; }
+  .sf-page[data-page="accessibility"] #reading-and-navigation .sf-content-card p { color: rgb(255 253 249 / .94) !important; }
+  .sf-page[data-page="accessibility"] .sf-access-feature-icon { display: grid; grid-row: 1 / span 2; inline-size: 2.6rem; block-size: 2.6rem; place-items: center; border: 1px solid rgb(234 213 173 / .62); border-radius: 50%; color: var(--gold-200); font-family: var(--font-body); font-size: 1rem; font-weight: 700; }
+  .sf-page[data-page="accessibility"] .sf-access-feature-icon img { inline-size: 1.25rem; block-size: 1.25rem; filter: brightness(0) saturate(100%) invert(83%) sepia(34%) saturate(409%) hue-rotate(353deg) brightness(97%); }
+
+  .sf-page[data-page="privacy"] #why-information-may-be-used .sf-section-inner { display: grid; grid-template-columns: minmax(15rem, .56fr) minmax(0, 1.44fr); gap: clamp(2.5rem, 7vw, 7rem); }
+  .sf-page[data-page="privacy"] #why-information-may-be-used .sf-section-head { position: sticky; inset-block-start: calc(var(--header-height) + 1rem); }
+  .sf-page[data-page="privacy"] #why-information-may-be-used .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border-block: 1px solid var(--color-border-rose); }
+  .sf-page[data-page="privacy"] #why-information-may-be-used .sf-content-card { min-block-size: 10rem; border: 0; border-radius: 0 !important; background: transparent; box-shadow: none; text-align: start; }
+  .sf-page[data-page="privacy"] #why-information-may-be-used .sf-content-card:nth-child(even) { border-inline-start: 1px solid var(--color-border-rose); }
+  .sf-page[data-page="privacy"] #why-information-may-be-used .sf-content-card:nth-child(n + 3) { border-block-start: 1px solid var(--color-border-rose); }
+
+  .sf-page[data-page="contact"] .sf-direct-contact__portrait { order: -1; margin: 0 auto clamp(2rem, 4vw, 3.5rem); border-radius: .65rem !important; }
+  .sf-page[data-page="contact"] .sf-direct-contact__header { display: block; max-inline-size: 74rem; margin-inline: auto; }
+  .sf-page[data-page="contact"] .sf-direct-contact__header h2 { max-inline-size: 14ch; }
+
+  /* Home chapters 04–06: one restrained editorial sequence, with a unique
+     composition for each chapter rather than repeated marketing cards. */
+  .sf-page[data-page="home"] #treatment-families .sf-section-inner { grid-template-columns: minmax(18rem, .72fr) minmax(0, 1.28fr); gap: clamp(2.5rem, 7vw, 7rem); }
+  .sf-page[data-page="home"] #treatment-families .sf-section-head { grid-column: 1; grid-row: 1; display: block; align-self: end; max-inline-size: 27rem; }
+  .sf-page[data-page="home"] #treatment-families .sf-home-treatment-atlas__image { grid-column: 2; grid-row: 1 / span 2; border: 1px solid var(--color-border-warm); border-radius: .55rem; box-shadow: var(--shadow-soft); }
+  .sf-page[data-page="home"] #treatment-families .sf-home-treatment-atlas__image img { block-size: 34rem; }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card-grid { grid-column: 1; grid-row: 2; grid-template-columns: 1fr; gap: 0; border-block: 1px solid var(--color-border-rose); }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card { display: grid; grid-template-columns: 2rem minmax(0, 1fr); gap: 1rem; min-block-size: 0; border: 0; border-radius: 0; background: transparent !important; padding: 1rem 0; }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card::before { content: counter(home-treatment, decimal-leading-zero); counter-increment: home-treatment; color: var(--rose-gold-700); font-family: var(--font-heading); font-style: italic; }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card-grid { counter-reset: home-treatment; }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card + .sf-content-card { border-block-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card :is(h3, p) { grid-column: 2; }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card h3 { margin: 0; font-size: 1.08rem; }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card p { margin: .25rem 0 0; font-size: .82rem; line-height: 1.52; }
+  .sf-page[data-page="home"] #treatment-families :is(.sf-section-inner > p, .sf-button-row) { grid-column: 1 / -1; max-inline-size: 54rem; }
+
+  .sf-page[data-page="home"] #what-shapes-a-plan { border: 1px solid color-mix(in srgb, var(--olive-600) 22%, transparent); background: linear-gradient(135deg, color-mix(in srgb, var(--sage-100) 92%, var(--white)), var(--ivory-50)) !important; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-statement-inner { grid-template-columns: minmax(0, 1.15fr) minmax(15rem, .85fr); gap: clamp(2.5rem, 7vw, 7rem); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-section-head { grid-column: 1; grid-row: 1; align-self: end; max-inline-size: 38rem; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait { grid-column: 2; grid-row: 1 / span 3; border: 0; border-radius: .55rem !important; box-shadow: var(--shadow-soft); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait img { block-size: 38rem; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria { grid-column: 1; grid-row: 2; border-block: 1px solid color-mix(in srgb, var(--olive-600) 35%, transparent); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria li { grid-template-columns: 3.2rem minmax(0, 1fr); gap: 1.25rem; padding-block: 1.35rem; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria > li > span { font-size: 1.5rem; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria h3 { font-size: clamp(1.25rem, 1.7vw, 1.55rem); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-practitioner-quote { grid-column: 1; grid-row: 3; margin-block-start: 2rem; }
+
+  .sf-page[data-page="home"] #care-standard .sf-editorial-media-layout { grid-template-columns: minmax(15rem, .55fr) minmax(0, 1.45fr); gap: clamp(2.5rem, 7vw, 7rem); }
+  .sf-page[data-page="home"] #care-standard .sf-editorial-media { grid-column: 1; grid-row: 1; align-self: stretch; border: 1px solid rgb(234 213 173 / .42); border-radius: .55rem !important; }
+  .sf-page[data-page="home"] #care-standard .sf-editorial-media img { min-block-size: 0; block-size: 100%; object-position: center; }
+  .sf-page[data-page="home"] #care-standard .sf-section-inner { grid-column: 2; display: grid; grid-template-columns: minmax(15rem, .58fr) minmax(0, 1.42fr); gap: 2rem clamp(2rem, 5vw, 5rem); align-items: start; }
+  .sf-page[data-page="home"] #care-standard .sf-section-head { grid-column: 1; grid-row: 1 / span 3; }
+  .sf-page[data-page="home"] #care-standard .sf-content-card-grid { grid-column: 2; grid-row: 1 / span 3; grid-template-columns: 1fr; gap: 0; margin: 0; border-block: 1px solid rgb(234 213 173 / .42); }
+  .sf-page[data-page="home"] #care-standard .sf-content-card { display: grid; grid-template-columns: 2rem minmax(0, 1fr); gap: .8rem; min-block-size: 0; border: 0; border-radius: 0; background: transparent; padding: 1.35rem 0; }
+  .sf-page[data-page="home"] #care-standard .sf-content-card::before { content: "—"; color: var(--gold-200); }
+  .sf-page[data-page="home"] #care-standard .sf-content-card :is(h3, p) { grid-column: 2; }
+  .sf-page[data-page="home"] #care-standard .sf-content-card h3 { margin: 0; color: var(--gold-200); }
+  .sf-page[data-page="home"] #care-standard .sf-content-card p { margin: .35rem 0 0; color: rgb(255 253 249 / .8); font-size: .88rem; }
+  .sf-page[data-page="home"] #care-standard .sf-practitioner-quote, .sf-page[data-page="home"] #care-standard .sf-button-row { grid-column: 1; }
+
+  /* A single transparent, high-resolution source is used for every hero mark. */
+  .sf-page[data-page] [data-pattern="hero"] .sf-hero-logo { content: url("../assets/brand/heroes/hero-logo.webp") !important; border: 0 !important; border-radius: 0 !important; background: transparent !important; padding: 0 !important; object-fit: contain; }
+
+  @media (max-width: 47.999rem) {
+    .sf-page[data-page="home"] :is(#treatment-families .sf-section-inner, #what-shapes-a-plan .sf-statement-inner, #care-standard .sf-editorial-media-layout, #care-standard .sf-section-inner), .sf-page[data-page="mission"] #why-it-matters .sf-section-inner, .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner, .sf-page[data-page="privacy"] #why-information-may-be-used .sf-section-inner { grid-template-columns: 1fr; }
+    .sf-page[data-page="home"] #treatment-families .sf-section-head, .sf-page[data-page="privacy"] #why-information-may-be-used .sf-section-head { position: static; }
+    .sf-page[data-page="home"] #treatment-families :is(.sf-section-inner > p, .sf-button-row), .sf-page[data-page="home"] #what-shapes-a-plan :is(.sf-section-head, .sf-home-portrait, .sf-content-card-grid, .sf-practitioner-quote), .sf-page[data-page="home"] #care-standard :is(.sf-section-head, .sf-practitioner-quote, .sf-button-row, .sf-content-card-grid), .sf-page[data-page="mission"] #why-it-matters :is(.sf-section-head, .sf-content-card-grid, .sf-practitioner-quote), .sf-page[data-page="laser"] #co-resurfacing :is(.sf-section-head, .sf-lede, .sf-statement-inner > p:not(.sf-lede), .sf-botanical-list, .sf-practitioner-quote) { grid-column: 1; grid-row: auto; }
+    .sf-page[data-page="home"] #treatment-families .sf-content-card-grid, .sf-page[data-page="home"] #what-shapes-a-plan .sf-content-card-grid, .sf-page[data-page="mission"] #why-it-matters .sf-content-card-grid, .sf-page[data-page="mission"] #science-with-humanity .sf-content-card-grid, .sf-page[data-page="laser"] #co-resurfacing .sf-botanical-list, .sf-page[data-page="privacy"] #why-information-may-be-used .sf-content-card-grid { grid-template-columns: 1fr; }
+    .sf-page[data-page="home"] #treatment-families .sf-content-card:nth-child(n), .sf-page[data-page="mission"] :is(#why-it-matters, #science-with-humanity) .sf-content-card + .sf-content-card, .sf-page[data-page="privacy"] #why-information-may-be-used .sf-content-card:nth-child(n) { border-inline-start: 0; }
+    .sf-page[data-page="home"] #treatment-families .sf-content-card + .sf-content-card, .sf-page[data-page="privacy"] #why-information-may-be-used .sf-content-card + .sf-content-card { border-block-start: 1px solid var(--color-border-rose); }
+    .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner::before { grid-column: 1; grid-row: 2; min-block-size: 18rem; }
+    .sf-page[data-page="home"] #treatment-families .sf-section-head { display: block; }
+    .sf-page[data-page="home"] #treatment-families .sf-home-treatment-atlas__image { grid-column: 1; }
+    .sf-page[data-page="home"] #treatment-families .sf-content-card-grid { grid-column: 1; grid-template-columns: 1fr; }
+    .sf-page[data-page="home"] #what-shapes-a-plan .sf-content-card { grid-template-columns: 1fr; gap: .35rem; }
+    .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait { grid-column: 1; grid-row: auto; }
+    .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria { grid-column: 1; grid-template-columns: 1fr; }
+    .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria li + li { border-block-start: 1px solid rgb(234 213 173 / .24); border-inline-start: 0; }
+    .sf-page[data-page="home"] #care-standard .sf-editorial-media, .sf-page[data-page="home"] #care-standard .sf-section-inner { grid-column: 1; grid-row: auto; }
+    .sf-page[data-page="home"] #care-standard .sf-editorial-media img { min-block-size: 24rem; }
+    .sf-page[data-page="home"] #care-standard .sf-content-card-grid { grid-template-columns: 1fr; }
+    .sf-page[data-page="home"] #treatment-families .sf-home-treatment-atlas__image,
+    .sf-page[data-page="home"] #treatment-families .sf-content-card-grid,
+    .sf-page[data-page="home"] #treatment-families :is(.sf-section-inner > p, .sf-button-row),
+    .sf-page[data-page="home"] #what-shapes-a-plan :is(.sf-section-head, .sf-plan-criteria, .sf-practitioner-quote),
+    .sf-page[data-page="home"] #care-standard :is(.sf-editorial-media, .sf-section-inner, .sf-section-head, .sf-content-card-grid, .sf-practitioner-quote, .sf-button-row) { grid-column: 1; grid-row: auto; }
+    .sf-page[data-page="home"] #treatment-families .sf-home-treatment-atlas__image img { block-size: 23rem; }
+    .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait img { block-size: 27rem; }
+    .sf-page[data-page="home"] #care-standard .sf-section-inner { grid-template-columns: 1fr; }
+  }
+
+  /* Earlier art direction used large chapter numerals as scenery. The real
+     marker above is now the only visible chapter number. */
+  .sf-page[data-page="home"] :is(
+    #care-routes
+  )::before,
+  .sf-page[data-page="home"] #plan-factors::after,
+  .sf-page[data-page="home"] #results-in-context .sf-home-results__canvas::before,
+  .sf-page[data-page="results"] #result-factors .sf-result-factors-shell::before,
+  .sf-page[data-page="home"] :is(
+    #decision-flow,
+    #treatment-pathways,
+    #science-with-softness,
+    #responsible-pauses,
+    #meet-franciele
+  ) .sf-section-head::before,
+  .sf-page[data-page="home"] #treatment-pathways .sf-section-head::after { content: none; }
+
+  @media (max-width: 63.999rem) {
+    .sf-editorial-marker { margin-block-end: 1rem; }
+    .sf-editorial-marker .sf-chapter-number { font-size: clamp(2.1rem, 9vw, 3rem); }
+    .sf-quotation-signature { inline-size: 100%; }
+  }
+}
