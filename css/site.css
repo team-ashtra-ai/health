@@ -1223,62 +1223,6 @@
   }
 }
 
-/* Source: css/src/components/franciele-cutouts.css */
-@layer components {
-  /* Transparent portrait cut-outs are placed inside specific editorial
-     chapters. They never form a repeated gallery: each one is a supporting
-     visual counterweight to the page's own writing and section material. */
-  .sf-franciele-cutout {
-    position: absolute;
-    z-index: 0;
-    inset-block-end: -1.15rem;
-    inline-size: clamp(10rem, 16vw, 16rem);
-    margin: 0;
-    pointer-events: none;
-  }
-
-  .sf-franciele-cutout::before {
-    content: "";
-    position: absolute;
-    inset: 10% 5% 0;
-    z-index: -1;
-    border: 1px solid rgb(180 137 80 / .32);
-    border-block-end: 0;
-    border-radius: 50% 50% .3rem .3rem;
-    background: linear-gradient(165deg, rgb(255 253 249 / .62), rgb(239 210 202 / .2));
-  }
-
-  .sf-franciele-cutout--left { inset-inline-start: clamp(.5rem, 2.5vw, 3rem); }
-  .sf-franciele-cutout--right { inset-inline-end: clamp(.5rem, 2.5vw, 3rem); }
-  .sf-franciele-cutout--raised { inset-block-end: clamp(1rem, 4vw, 4rem); }
-  .sf-franciele-cutout--large { inline-size: clamp(12.5rem, 20vw, 21rem); }
-  .sf-franciele-cutout--soft { opacity: .82; }
-
-  .sf-franciele-cutout img {
-    inline-size: 100%;
-    block-size: auto;
-    filter: drop-shadow(0 1.25rem 1.5rem rgb(36 49 41 / .16));
-  }
-
-  .section--full-bleed .sf-franciele-cutout::before {
-    border-color: rgb(234 213 173 / .36);
-    background: linear-gradient(165deg, rgb(255 253 249 / .16), rgb(234 213 173 / .05));
-  }
-
-  @media (max-width: 63.999rem) {
-    .sf-franciele-cutout {
-      position: relative;
-      z-index: 2;
-      inset: auto;
-      display: block;
-      inline-size: min(52vw, 17rem);
-      margin: 1.5rem auto -1.2rem;
-    }
-
-    .sf-franciele-cutout--large { inline-size: min(62vw, 20rem); }
-  }
-}
-
 /* Source: css/src/components/forms.css */
 @layer components {
   .sf-form, .sf-search-form, .sf-treatment-filter__inner { display: grid; gap: var(--space-4); }
@@ -3640,40 +3584,9 @@
     font-weight: 400;
   }
 
-  /* Portraits are tucked into the publication's existing editorial fields,
-     not added as a separate gallery. They sit on the opposite side of the
-     reading content and recede on smaller screens. */
   .sj-support,
   .sj-full-feature__inner,
   .sj-overlays__inner { position: relative; }
-
-  .sf-journal-cutout {
-    position: absolute;
-    z-index: 1;
-    inset-block-end: -1.2rem;
-    inline-size: clamp(9rem, 14vw, 14rem);
-    margin: 0;
-    pointer-events: none;
-  }
-
-  .sf-journal-cutout--left { inset-inline-start: clamp(.25rem, 2vw, 2rem); }
-  .sf-journal-cutout--right { inset-inline-end: clamp(.25rem, 2vw, 2rem); }
-
-  .sf-journal-cutout::before {
-    content: "";
-    position: absolute;
-    inset: 12% 4% 0;
-    z-index: -1;
-    border: 1px solid rgb(180 137 80 / .3);
-    border-block-end: 0;
-    border-radius: 50% 50% .25rem .25rem;
-    background: rgb(255 253 249 / .72);
-  }
-
-  .sf-journal-cutout img {
-    inline-size: 100%;
-    filter: drop-shadow(0 1rem 1.35rem rgb(36 49 41 / .14));
-  }
 
   .sj-category-index {
     display: grid;
@@ -4177,15 +4090,6 @@
   }
 
   @media (max-width: 47.999rem) {
-    .sf-journal-cutout {
-      position: relative;
-      z-index: 2;
-      inset: auto;
-      display: block;
-      inline-size: min(48vw, 11rem);
-      margin: 1rem auto -1rem;
-    }
-
     .sj-masthead { padding-block: 8rem 2.5rem; }
     .sj-masthead__rail { grid-template-columns: 1fr auto; }
     .sj-masthead__place { display: none; }
