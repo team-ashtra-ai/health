@@ -869,7 +869,7 @@
   .sf-button, .sffo-button, .sfm-primary, .sfm-secondary, .sfc-button, .sfi-contact {
     min-block-size: 3.2rem;
     position: relative;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     gap: .7rem;
@@ -936,9 +936,51 @@
   [data-tone="forest"] .sf-button--primary::after { color: var(--gold-700); }
   [data-tone="forest"] .sf-button--outline, [data-tone="forest"] .sf-button--quiet { border-color: color-mix(in srgb, var(--gold-300) 72%, transparent); background: transparent; color: var(--ivory-50); }
 
+  /* Post-hero navigation is separate from the global accessibility skip link.
+     It remains a quiet scroll cue and targets the first meaningful section. */
+  .skip-past-hero {
+    min-block-size: 2.75rem;
+    inline-size: max-content;
+    position: relative;
+    z-index: 4;
+    inset: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .55rem;
+    margin: clamp(.75rem, 1.4vw, 1.15rem) auto 0;
+    translate: none;
+    border-block-end: 1px solid color-mix(in srgb, var(--gold-700) 58%, transparent);
+    color: var(--forest-900);
+    padding-inline: .35rem;
+    font-family: var(--font-body);
+    font-size: .7rem;
+    font-weight: 760;
+    letter-spacing: .13em;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: border-color var(--duration-fast), color var(--duration-fast);
+  }
+  .skip-past-hero span { color: var(--rose-gold-700); font-size: 1rem; line-height: 1; }
+  .skip-past-hero:hover { border-color: var(--rose-gold-700); color: var(--rose-gold-700); }
+  .sf-main-content-target {
+    display: block;
+    block-size: 1px;
+    scroll-margin-block-start: calc(var(--header-height, 5rem) + 1rem);
+  }
+
+  /* Contact has a compact form introduction rather than a conventional hero,
+     so its continuation control stays in normal flow above the form. */
+  .sf-form-section-intro > .skip-past-hero {
+    justify-self: start;
+    margin: 1rem 0 0;
+  }
+
   @media (max-width: 27rem) {
     .sf-button-row { align-items: stretch; }
     .sf-button-row .sf-button { flex: 1 1 100%; }
+    .skip-past-hero { min-block-size: 2.5rem; font-size: .66rem; }
   }
 }
 
