@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "generatedAt": "2026-07-18T12:33:19.337081+00:00",
+  "generatedAt": "2026-07-18T13:21:20.235030+00:00",
   "pagesChecked": 52,
   "scriptsPresent": {
     "required": [
@@ -852,8 +852,8 @@
                 "cls_score": 0.032,
                 "inp_ms": 40,
                 "ttfb_ms": 2,
-                "dom_content_loaded_ms": 48,
-                "page_load_ms": 75
+                "dom_content_loaded_ms": 56,
+                "page_load_ms": 83
               }
             ]
           }

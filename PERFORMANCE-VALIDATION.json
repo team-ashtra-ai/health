@@ -1,0 +1,942 @@
+{
+  "schemaVersion": 1,
+  "label": "final",
+  "generatedAt": "2026-07-18T13:20:09.464Z",
+  "source": "/run/media/code/Storage/GitHub/ashtra/health/dist",
+  "runsPerRoute": 1,
+  "environment": {
+    "platform": "linux",
+    "node": "v22.22.1",
+    "chromeVersion": "Google Chrome 150.0.7871.46",
+    "lighthouseVersion": "12.8.2",
+    "serverCompression": "gzip",
+    "cacheState": "cold navigation",
+    "productionDomainReachable": false
+  },
+  "groups": [
+    {
+      "route": "index.html",
+      "profile": "mobile",
+      "runs": [
+        {
+          "performance": 99,
+          "accessibility": 93,
+          "bestPractices": 96,
+          "seo": 100,
+          "lcpMs": 1879.4273000000003,
+          "cls": 0,
+          "tbtMs": 48,
+          "fcpMs": 1204.4273,
+          "speedIndexMs": 1204.4273,
+          "ttfbMs": 4.641,
+          "mainThreadMs": 349.41600000000005,
+          "longTaskCount": 1,
+          "domNodeCount": 547,
+          "unusedCssBytes": 0,
+          "unusedJsBytes": 0,
+          "renderBlockingCount": 1,
+          "layoutShiftItemCount": 0,
+          "imageSizingProblemCount": 2,
+          "cachePolicyProblemCount": 0,
+          "redirectCount": 0,
+          "lcpElement": {
+            "selector": "body.sf-site > main#main > section#personalised-care",
+            "snippet": "<section aria-labelledby=\"homepage-title\" class=\"sf-section sf-composition-hero\" data-pattern=\"hero\" data-scale=\"immersive\" data-scene=\"hero\" data-section=\"1\" data-tone=\"paper\" id=\"personalised-care\">"
+          },
+          "requestCount": 13,
+          "totalTransferBytes": 162621,
+          "script": 15239,
+          "stylesheet": 44156,
+          "image": 89277,
+          "font": 0,
+          "document": 13157,
+          "other": 792,
+          "thirdParty": 0,
+          "largestResources": [
+            {
+              "url": "http://127.0.0.1:41153/assets/generated/sofiati-logo-menu-720-77f2a8e1fd8e.avif",
+              "resourceType": "Image",
+              "transferBytes": 51060
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/build/site.fc54debba1d9.css",
+              "resourceType": "Stylesheet",
+              "transferBytes": 44156
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/generated/hero-1-900-c78fd97ebd1f.webp",
+              "resourceType": "Image",
+              "transferBytes": 19698
+            },
+            {
+              "url": "http://127.0.0.1:41153/index.html",
+              "resourceType": "Document",
+              "transferBytes": 13157
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/generated/hero-11-720-9b94db4ed2db.avif",
+              "resourceType": "Image",
+              "transferBytes": 11883
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/build/main.eb2147fc083c.js",
+              "resourceType": "Script",
+              "transferBytes": 8753
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/build/measurement.24b1b830ea2f.js",
+              "resourceType": "Script",
+              "transferBytes": 6486
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/generated/sofiati-logo-menu-64-4cbfb6f30c1d.webp",
+              "resourceType": "Image",
+              "transferBytes": 3585
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/generated/index-quote-01-104-f229b8d1972f.webp",
+              "resourceType": "Image",
+              "transferBytes": 3051
+            },
+            {
+              "url": "http://127.0.0.1:41153/site.webmanifest",
+              "resourceType": "Manifest",
+              "transferBytes": 198
+            }
+          ],
+          "lighthouseVersion": "12.8.2",
+          "fetchTime": "2026-07-18T13:19:27.999Z",
+          "finalUrl": "http://127.0.0.1:41153/index.html",
+          "rawReport": "performance-reports/final/home--mobile--run-1.json"
+        }
+      ],
+      "summary": {
+        "performance": {
+          "median": 99,
+          "min": 99,
+          "max": 99,
+          "variance": 0
+        },
+        "accessibility": {
+          "median": 93,
+          "min": 93,
+          "max": 93,
+          "variance": 0
+        },
+        "bestPractices": {
+          "median": 96,
+          "min": 96,
+          "max": 96,
+          "variance": 0
+        },
+        "seo": {
+          "median": 100,
+          "min": 100,
+          "max": 100,
+          "variance": 0
+        },
+        "lcpMs": {
+          "median": 1879.4273000000003,
+          "min": 1879.4273000000003,
+          "max": 1879.4273000000003,
+          "variance": 0
+        },
+        "cls": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "tbtMs": {
+          "median": 48,
+          "min": 48,
+          "max": 48,
+          "variance": 0
+        },
+        "fcpMs": {
+          "median": 1204.4273,
+          "min": 1204.4273,
+          "max": 1204.4273,
+          "variance": 0
+        },
+        "speedIndexMs": {
+          "median": 1204.4273,
+          "min": 1204.4273,
+          "max": 1204.4273,
+          "variance": 0
+        },
+        "ttfbMs": {
+          "median": 4.641,
+          "min": 4.641,
+          "max": 4.641,
+          "variance": 0
+        },
+        "totalTransferBytes": {
+          "median": 162621,
+          "min": 162621,
+          "max": 162621,
+          "variance": 0
+        },
+        "requestCount": {
+          "median": 13,
+          "min": 13,
+          "max": 13,
+          "variance": 0
+        },
+        "script": {
+          "median": 15239,
+          "min": 15239,
+          "max": 15239,
+          "variance": 0
+        },
+        "stylesheet": {
+          "median": 44156,
+          "min": 44156,
+          "max": 44156,
+          "variance": 0
+        },
+        "image": {
+          "median": 89277,
+          "min": 89277,
+          "max": 89277,
+          "variance": 0
+        },
+        "font": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "thirdParty": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "mainThreadMs": {
+          "median": 349.41600000000005,
+          "min": 349.41600000000005,
+          "max": 349.41600000000005,
+          "variance": 0
+        },
+        "longTaskCount": {
+          "median": 1,
+          "min": 1,
+          "max": 1,
+          "variance": 0
+        },
+        "domNodeCount": {
+          "median": 547,
+          "min": 547,
+          "max": 547,
+          "variance": 0
+        },
+        "unusedCssBytes": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "unusedJsBytes": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        }
+      }
+    },
+    {
+      "route": "index.html",
+      "profile": "desktop",
+      "runs": [
+        {
+          "performance": 100,
+          "accessibility": 93,
+          "bestPractices": 96,
+          "seo": 100,
+          "lcpMs": 642.49855,
+          "cls": 0,
+          "tbtMs": 0,
+          "fcpMs": 281.6657,
+          "speedIndexMs": 281.6657,
+          "ttfbMs": 1.793,
+          "mainThreadMs": 126.67200000000003,
+          "longTaskCount": 0,
+          "domNodeCount": 547,
+          "unusedCssBytes": 0,
+          "unusedJsBytes": 0,
+          "renderBlockingCount": 1,
+          "layoutShiftItemCount": 0,
+          "imageSizingProblemCount": 3,
+          "cachePolicyProblemCount": 0,
+          "redirectCount": 0,
+          "lcpElement": {
+            "selector": "body.sf-site > main#main > section#personalised-care",
+            "snippet": "<section aria-labelledby=\"homepage-title\" class=\"sf-section sf-composition-hero\" data-pattern=\"hero\" data-scale=\"immersive\" data-scene=\"hero\" data-section=\"1\" data-tone=\"paper\" id=\"personalised-care\">"
+          },
+          "requestCount": 15,
+          "totalTransferBytes": 367853,
+          "script": 15239,
+          "stylesheet": 44156,
+          "image": 294509,
+          "font": 0,
+          "document": 13157,
+          "other": 792,
+          "thirdParty": 0,
+          "largestResources": [
+            {
+              "url": "http://127.0.0.1:41153/assets/generated/site-panorama-v2-1774-4742ae135fa1.webp",
+              "resourceType": "Image",
+              "transferBytes": 154919
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/generated/sofiati-logo-menu-960-12796f74bc25.avif",
+              "resourceType": "Image",
+              "transferBytes": 71465
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/build/site.fc54debba1d9.css",
+              "resourceType": "Stylesheet",
+              "transferBytes": 44156
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/generated/hero-1-1600-08022cf26f73.webp",
+              "resourceType": "Image",
+              "transferBytes": 43154
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/generated/hero-11-960-915510dd1ed4.avif",
+              "resourceType": "Image",
+              "transferBytes": 18137
+            },
+            {
+              "url": "http://127.0.0.1:41153/index.html",
+              "resourceType": "Document",
+              "transferBytes": 13157
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/build/main.eb2147fc083c.js",
+              "resourceType": "Script",
+              "transferBytes": 8753
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/build/measurement.24b1b830ea2f.js",
+              "resourceType": "Script",
+              "transferBytes": 6486
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/generated/sofiati-logo-menu-64-4cbfb6f30c1d.webp",
+              "resourceType": "Image",
+              "transferBytes": 3585
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/generated/index-quote-01-104-f229b8d1972f.webp",
+              "resourceType": "Image",
+              "transferBytes": 3051
+            }
+          ],
+          "lighthouseVersion": "12.8.2",
+          "fetchTime": "2026-07-18T13:19:38.979Z",
+          "finalUrl": "http://127.0.0.1:41153/index.html",
+          "rawReport": "performance-reports/final/home--desktop--run-1.json"
+        }
+      ],
+      "summary": {
+        "performance": {
+          "median": 100,
+          "min": 100,
+          "max": 100,
+          "variance": 0
+        },
+        "accessibility": {
+          "median": 93,
+          "min": 93,
+          "max": 93,
+          "variance": 0
+        },
+        "bestPractices": {
+          "median": 96,
+          "min": 96,
+          "max": 96,
+          "variance": 0
+        },
+        "seo": {
+          "median": 100,
+          "min": 100,
+          "max": 100,
+          "variance": 0
+        },
+        "lcpMs": {
+          "median": 642.49855,
+          "min": 642.49855,
+          "max": 642.49855,
+          "variance": 0
+        },
+        "cls": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "tbtMs": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "fcpMs": {
+          "median": 281.6657,
+          "min": 281.6657,
+          "max": 281.6657,
+          "variance": 0
+        },
+        "speedIndexMs": {
+          "median": 281.6657,
+          "min": 281.6657,
+          "max": 281.6657,
+          "variance": 0
+        },
+        "ttfbMs": {
+          "median": 1.793,
+          "min": 1.793,
+          "max": 1.793,
+          "variance": 0
+        },
+        "totalTransferBytes": {
+          "median": 367853,
+          "min": 367853,
+          "max": 367853,
+          "variance": 0
+        },
+        "requestCount": {
+          "median": 15,
+          "min": 15,
+          "max": 15,
+          "variance": 0
+        },
+        "script": {
+          "median": 15239,
+          "min": 15239,
+          "max": 15239,
+          "variance": 0
+        },
+        "stylesheet": {
+          "median": 44156,
+          "min": 44156,
+          "max": 44156,
+          "variance": 0
+        },
+        "image": {
+          "median": 294509,
+          "min": 294509,
+          "max": 294509,
+          "variance": 0
+        },
+        "font": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "thirdParty": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "mainThreadMs": {
+          "median": 126.67200000000003,
+          "min": 126.67200000000003,
+          "max": 126.67200000000003,
+          "variance": 0
+        },
+        "longTaskCount": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "domNodeCount": {
+          "median": 547,
+          "min": 547,
+          "max": 547,
+          "variance": 0
+        },
+        "unusedCssBytes": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "unusedJsBytes": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        }
+      }
+    },
+    {
+      "route": "about.html",
+      "profile": "mobile",
+      "runs": [
+        {
+          "performance": 99,
+          "accessibility": 93,
+          "bestPractices": 96,
+          "seo": 100,
+          "lcpMs": 1954.6218000000001,
+          "cls": 0,
+          "tbtMs": 42,
+          "fcpMs": 1203.0812,
+          "speedIndexMs": 1203.0812,
+          "ttfbMs": 1.62,
+          "mainThreadMs": 335.796,
+          "longTaskCount": 1,
+          "domNodeCount": 581,
+          "unusedCssBytes": 0,
+          "unusedJsBytes": 0,
+          "renderBlockingCount": 1,
+          "layoutShiftItemCount": 0,
+          "imageSizingProblemCount": 2,
+          "cachePolicyProblemCount": 0,
+          "redirectCount": 0,
+          "lcpElement": {
+            "selector": "body.sf-site > main#main > section#about-franciele",
+            "snippet": "<section class=\"sf-section sf-composition-hero\" id=\"about-franciele\" data-section=\"0\" data-chapter=\"00\" data-pattern=\"hero\" data-tone=\"paper\" data-scale=\"immersive\" aria-labelledby=\"about-01-advanced-care-with-a-personal-method\">"
+          },
+          "requestCount": 13,
+          "totalTransferBytes": 171708,
+          "script": 15239,
+          "stylesheet": 44156,
+          "image": 98895,
+          "font": 0,
+          "document": 12626,
+          "other": 792,
+          "thirdParty": 0,
+          "largestResources": [
+            {
+              "url": "http://127.0.0.1:41153/assets/generated/sofiati-logo-menu-720-77f2a8e1fd8e.avif",
+              "resourceType": "Image",
+              "transferBytes": 51060
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/build/site.fc54debba1d9.css",
+              "resourceType": "Stylesheet",
+              "transferBytes": 44156
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/generated/hero-2-900-1fd70e6f4fcc.webp",
+              "resourceType": "Image",
+              "transferBytes": 23354
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/generated/about-1-720-7f6d162779c4.avif",
+              "resourceType": "Image",
+              "transferBytes": 17777
+            },
+            {
+              "url": "http://127.0.0.1:41153/about.html",
+              "resourceType": "Document",
+              "transferBytes": 12626
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/build/main.eb2147fc083c.js",
+              "resourceType": "Script",
+              "transferBytes": 8753
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/build/measurement.24b1b830ea2f.js",
+              "resourceType": "Script",
+              "transferBytes": 6486
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/generated/sofiati-logo-menu-64-4cbfb6f30c1d.webp",
+              "resourceType": "Image",
+              "transferBytes": 3585
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/generated/about-quote-01-104-2e26fa2631db.webp",
+              "resourceType": "Image",
+              "transferBytes": 3119
+            },
+            {
+              "url": "http://127.0.0.1:41153/site.webmanifest",
+              "resourceType": "Manifest",
+              "transferBytes": 198
+            }
+          ],
+          "lighthouseVersion": "12.8.2",
+          "fetchTime": "2026-07-18T13:19:49.936Z",
+          "finalUrl": "http://127.0.0.1:41153/about.html",
+          "rawReport": "performance-reports/final/about--mobile--run-1.json"
+        }
+      ],
+      "summary": {
+        "performance": {
+          "median": 99,
+          "min": 99,
+          "max": 99,
+          "variance": 0
+        },
+        "accessibility": {
+          "median": 93,
+          "min": 93,
+          "max": 93,
+          "variance": 0
+        },
+        "bestPractices": {
+          "median": 96,
+          "min": 96,
+          "max": 96,
+          "variance": 0
+        },
+        "seo": {
+          "median": 100,
+          "min": 100,
+          "max": 100,
+          "variance": 0
+        },
+        "lcpMs": {
+          "median": 1954.6218000000001,
+          "min": 1954.6218000000001,
+          "max": 1954.6218000000001,
+          "variance": 0
+        },
+        "cls": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "tbtMs": {
+          "median": 42,
+          "min": 42,
+          "max": 42,
+          "variance": 0
+        },
+        "fcpMs": {
+          "median": 1203.0812,
+          "min": 1203.0812,
+          "max": 1203.0812,
+          "variance": 0
+        },
+        "speedIndexMs": {
+          "median": 1203.0812,
+          "min": 1203.0812,
+          "max": 1203.0812,
+          "variance": 0
+        },
+        "ttfbMs": {
+          "median": 1.62,
+          "min": 1.62,
+          "max": 1.62,
+          "variance": 0
+        },
+        "totalTransferBytes": {
+          "median": 171708,
+          "min": 171708,
+          "max": 171708,
+          "variance": 0
+        },
+        "requestCount": {
+          "median": 13,
+          "min": 13,
+          "max": 13,
+          "variance": 0
+        },
+        "script": {
+          "median": 15239,
+          "min": 15239,
+          "max": 15239,
+          "variance": 0
+        },
+        "stylesheet": {
+          "median": 44156,
+          "min": 44156,
+          "max": 44156,
+          "variance": 0
+        },
+        "image": {
+          "median": 98895,
+          "min": 98895,
+          "max": 98895,
+          "variance": 0
+        },
+        "font": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "thirdParty": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "mainThreadMs": {
+          "median": 335.796,
+          "min": 335.796,
+          "max": 335.796,
+          "variance": 0
+        },
+        "longTaskCount": {
+          "median": 1,
+          "min": 1,
+          "max": 1,
+          "variance": 0
+        },
+        "domNodeCount": {
+          "median": 581,
+          "min": 581,
+          "max": 581,
+          "variance": 0
+        },
+        "unusedCssBytes": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "unusedJsBytes": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        }
+      }
+    },
+    {
+      "route": "about.html",
+      "profile": "desktop",
+      "runs": [
+        {
+          "performance": 100,
+          "accessibility": 97,
+          "bestPractices": 96,
+          "seo": 100,
+          "lcpMs": 642.6127,
+          "cls": 0,
+          "tbtMs": 0,
+          "fcpMs": 281.7418,
+          "speedIndexMs": 281.7418,
+          "ttfbMs": 2.068,
+          "mainThreadMs": 115.02200000000002,
+          "longTaskCount": 0,
+          "domNodeCount": 581,
+          "unusedCssBytes": 0,
+          "unusedJsBytes": 0,
+          "renderBlockingCount": 1,
+          "layoutShiftItemCount": 0,
+          "imageSizingProblemCount": 2,
+          "cachePolicyProblemCount": 0,
+          "redirectCount": 0,
+          "lcpElement": {
+            "selector": "body.sf-site > main#main > section#about-franciele",
+            "snippet": "<section class=\"sf-section sf-composition-hero\" id=\"about-franciele\" data-section=\"0\" data-chapter=\"00\" data-pattern=\"hero\" data-tone=\"paper\" data-scale=\"immersive\" aria-labelledby=\"about-01-advanced-care-with-a-personal-method\">"
+          },
+          "requestCount": 15,
+          "totalTransferBytes": 371832,
+          "script": 15239,
+          "stylesheet": 44156,
+          "image": 299019,
+          "font": 0,
+          "document": 12626,
+          "other": 792,
+          "thirdParty": 0,
+          "largestResources": [
+            {
+              "url": "http://127.0.0.1:41153/assets/generated/site-panorama-v2-1774-4742ae135fa1.webp",
+              "resourceType": "Image",
+              "transferBytes": 154919
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/generated/sofiati-logo-menu-960-12796f74bc25.avif",
+              "resourceType": "Image",
+              "transferBytes": 71465
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/generated/hero-2-1600-fc7184ac682f.webp",
+              "resourceType": "Image",
+              "transferBytes": 47956
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/build/site.fc54debba1d9.css",
+              "resourceType": "Stylesheet",
+              "transferBytes": 44156
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/generated/about-1-720-7f6d162779c4.avif",
+              "resourceType": "Image",
+              "transferBytes": 17777
+            },
+            {
+              "url": "http://127.0.0.1:41153/about.html",
+              "resourceType": "Document",
+              "transferBytes": 12626
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/build/main.eb2147fc083c.js",
+              "resourceType": "Script",
+              "transferBytes": 8753
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/build/measurement.24b1b830ea2f.js",
+              "resourceType": "Script",
+              "transferBytes": 6486
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/generated/sofiati-logo-menu-64-4cbfb6f30c1d.webp",
+              "resourceType": "Image",
+              "transferBytes": 3585
+            },
+            {
+              "url": "http://127.0.0.1:41153/assets/generated/about-quote-01-104-2e26fa2631db.webp",
+              "resourceType": "Image",
+              "transferBytes": 3119
+            }
+          ],
+          "lighthouseVersion": "12.8.2",
+          "fetchTime": "2026-07-18T13:20:00.862Z",
+          "finalUrl": "http://127.0.0.1:41153/about.html",
+          "rawReport": "performance-reports/final/about--desktop--run-1.json"
+        }
+      ],
+      "summary": {
+        "performance": {
+          "median": 100,
+          "min": 100,
+          "max": 100,
+          "variance": 0
+        },
+        "accessibility": {
+          "median": 97,
+          "min": 97,
+          "max": 97,
+          "variance": 0
+        },
+        "bestPractices": {
+          "median": 96,
+          "min": 96,
+          "max": 96,
+          "variance": 0
+        },
+        "seo": {
+          "median": 100,
+          "min": 100,
+          "max": 100,
+          "variance": 0
+        },
+        "lcpMs": {
+          "median": 642.6127,
+          "min": 642.6127,
+          "max": 642.6127,
+          "variance": 0
+        },
+        "cls": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "tbtMs": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "fcpMs": {
+          "median": 281.7418,
+          "min": 281.7418,
+          "max": 281.7418,
+          "variance": 0
+        },
+        "speedIndexMs": {
+          "median": 281.7418,
+          "min": 281.7418,
+          "max": 281.7418,
+          "variance": 0
+        },
+        "ttfbMs": {
+          "median": 2.068,
+          "min": 2.068,
+          "max": 2.068,
+          "variance": 0
+        },
+        "totalTransferBytes": {
+          "median": 371832,
+          "min": 371832,
+          "max": 371832,
+          "variance": 0
+        },
+        "requestCount": {
+          "median": 15,
+          "min": 15,
+          "max": 15,
+          "variance": 0
+        },
+        "script": {
+          "median": 15239,
+          "min": 15239,
+          "max": 15239,
+          "variance": 0
+        },
+        "stylesheet": {
+          "median": 44156,
+          "min": 44156,
+          "max": 44156,
+          "variance": 0
+        },
+        "image": {
+          "median": 299019,
+          "min": 299019,
+          "max": 299019,
+          "variance": 0
+        },
+        "font": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "thirdParty": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "mainThreadMs": {
+          "median": 115.02200000000002,
+          "min": 115.02200000000002,
+          "max": 115.02200000000002,
+          "variance": 0
+        },
+        "longTaskCount": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "domNodeCount": {
+          "median": 581,
+          "min": 581,
+          "max": 581,
+          "variance": 0
+        },
+        "unusedCssBytes": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "unusedJsBytes": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        }
+      }
+    }
+  ]
+}

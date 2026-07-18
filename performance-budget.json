@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "units": {
+    "transfer": "compressed bytes",
+    "timings": "milliseconds"
+  },
+  "laboratory": {
+    "mobile": {
+      "performanceMedianMinimum": 95,
+      "performanceRunMinimum": 90,
+      "lcpMedianMaximum": 2200,
+      "fcpMedianMaximum": 1800,
+      "tbtMedianMaximum": 150,
+      "clsMedianMaximum": 0.05
+    },
+    "desktop": {
+      "performanceMedianMinimum": 98,
+      "performanceRunMinimum": 95,
+      "lcpMedianMaximum": 1800,
+      "fcpMedianMaximum": 1200,
+      "tbtMedianMaximum": 100,
+      "clsMedianMaximum": 0.05
+    }
+  },
+  "resourceBudgets": {
+    "initialJavaScriptMaximum": 122880,
+    "initialCssMaximum": 81920,
+    "criticalFontMaximum": 153600,
+    "mobileHeroMaximum": 204800,
+    "desktopHeroMaximum": 358400,
+    "initialTransferTarget": 819200,
+    "singleImageHardMaximum": 524288
+  },
+  "pageTypes": {
+    "index.html": {
+      "type": "Homepage",
+      "totalTransferMaximum": 921600,
+      "requestMaximum": 28
+    },
+    "about.html": {
+      "type": "Editorial",
+      "totalTransferMaximum": 1048576,
+      "requestMaximum": 34
+    },
+    "treatments.html": {
+      "type": "Treatment directory",
+      "totalTransferMaximum": 1572864,
+      "requestMaximum": 54
+    },
+    "skin.html": {
+      "type": "Service",
+      "totalTransferMaximum": 1310720,
+      "requestMaximum": 45
+    },
+    "laser.html": {
+      "type": "Service",
+      "totalTransferMaximum": 1310720,
+      "requestMaximum": 45
+    },
+    "consultation.html": {
+      "type": "Conversion",
+      "totalTransferMaximum": 1048576,
+      "requestMaximum": 36
+    },
+    "contact.html": {
+      "type": "Conversion",
+      "totalTransferMaximum": 921600,
+      "requestMaximum": 32
+    },
+    "faq.html": {
+      "type": "Trust",
+      "totalTransferMaximum": 1048576,
+      "requestMaximum": 36
+    },
+    "journal.html": {
+      "type": "Journal index",
+      "totalTransferMaximum": 1310720,
+      "requestMaximum": 46
+    },
+    "journal/why-aesthetic-care-begins-with-consultation.html": {
+      "type": "Article",
+      "totalTransferMaximum": 1048576,
+      "requestMaximum": 36
+    },
+    "results.html": {
+      "type": "Trust",
+      "totalTransferMaximum": 1310720,
+      "requestMaximum": 44
+    },
+    "care.html": {
+      "type": "Patient care",
+      "totalTransferMaximum": 1179648,
+      "requestMaximum": 40
+    },
+    "mission.html": {
+      "type": "Editorial",
+      "totalTransferMaximum": 1048576,
+      "requestMaximum": 36
+    },
+    "thank-you.html": {
+      "type": "Confirmation",
+      "totalTransferMaximum": 716800,
+      "requestMaximum": 24
+    }
+  }
+}

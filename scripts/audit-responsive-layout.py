@@ -20,10 +20,12 @@ import tempfile
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from threading import Thread
+from functools import partial
 
 
 ROOT = Path(__file__).resolve().parents[1]
-REPORT = ROOT / "screenshots" / "responsive-audit.json"
+SOURCE_ROOT = (ROOT / os.environ.get("SOFIATI_SITE_ROOT", ".")).resolve()
+REPORT = ROOT / os.environ.get("SOFIATI_REPORT", "screenshots/responsive-audit.json")
 DEFAULT_VIEWPORTS = (320, 375, 390, 430, 768, 1024, 1280, 1440, 1920, 2560)
 DEFAULT_ZOOMS = (0.8, 1.0, 1.25, 1.5, 2.0)
 
@@ -40,14 +42,14 @@ ZOOMS = configured_numbers("SOFIATI_ZOOMS", DEFAULT_ZOOMS, float)
 
 
 def pages() -> list[str]:
-    found = [path.name for path in ROOT.glob("*.html")]
+    found = [path.name for path in SOURCE_ROOT.glob("*.html")]
     found.extend(
-        path.relative_to(ROOT).as_posix()
-        for path in (ROOT / "journal").glob("*.html")
+        path.relative_to(SOURCE_ROOT).as_posix()
+        for path in (SOURCE_ROOT / "journal").glob("*.html")
     )
     if os.environ.get("SOFIATI_ENGLISH_ONLY", "").lower() not in {"1", "true", "yes"}:
         found.extend(
-            f"pt/{path.name}" for path in (ROOT / "pt").glob("*.html")
+            f"pt/{path.name}" for path in (SOURCE_ROOT / "pt").glob("*.html")
         )
     found = sorted(found, key=lambda value: (value.count("/"), value))
     selected = os.environ.get("SOFIATI_PAGES", "").strip()
@@ -77,7 +79,7 @@ def main() -> int:
             super().handle_error(request, client_address)
 
     port = free_port()
-    server = QuietServer(("127.0.0.1", port), Quiet)
+    server = QuietServer(("127.0.0.1", port), partial(Quiet, directory=SOURCE_ROOT))
     Thread(target=server.serve_forever, daemon=True).start()
 
     runner = r'''
@@ -102,8 +104,8 @@ const zooms = JSON.parse(process.argv[5]);
       if (message.type() === "error") runtimeErrors.push(message.text());
     });
     await page.addInitScript(() => localStorage.setItem(
-      "sofiati_cookie_preferences_v2",
-      JSON.stringify({essential: true, performance: false, functional: false})
+      "sofiati_cookie_preferences_v3",
+      JSON.stringify({essential: true, analytics: false, preferences: false, externalMedia: false})
     ));
     for (const physicalWidth of widths) {
       for (const route of routes) {

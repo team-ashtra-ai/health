@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "label": "baseline",
+  "generatedAt": "2026-07-18T12:58:07.215Z",
+  "source": "/run/media/code/Storage/GitHub/ashtra/health",
+  "runsPerRoute": 1,
+  "environment": {
+    "platform": "linux",
+    "node": "v22.22.1",
+    "chromeVersion": "Google Chrome 150.0.7871.46",
+    "lighthouseVersion": "12.8.2",
+    "serverCompression": "gzip",
+    "cacheState": "cold navigation",
+    "productionDomainReachable": false
+  },
+  "groups": [
+    {
+      "route": "index.html",
+      "profile": "mobile",
+      "runs": [
+        {
+          "performance": 74,
+          "accessibility": 93,
+          "bestPractices": 100,
+          "seo": 100,
+          "lcpMs": 21007.462050000002,
+          "cls": 0.04495747266099635,
+          "tbtMs": 60,
+          "fcpMs": 1579.9746999999998,
+          "speedIndexMs": 1579.9746999999998,
+          "ttfbMs": 4.682,
+          "mainThreadMs": 490.7039999999999,
+          "longTaskCount": 1,
+          "domNodeCount": {
+            "type": "numeric",
+            "granularity": 1,
+            "value": 534
+          },
+          "unusedCssBytes": 0,
+          "unusedJsBytes": 0,
+          "renderBlockingCount": 1,
+          "layoutShiftItemCount": 0,
+          "imageSizingProblemCount": 4,
+          "cachePolicyProblemCount": 0,
+          "redirectCount": 0,
+          "lcpElement": {
+            "selector": "body.sf-site > main#main > section#personalised-care",
+            "snippet": "<section aria-labelledby=\"homepage-title\" class=\"sf-section sf-composition-hero\" data-pattern=\"hero\" data-scale=\"immersive\" data-scene=\"hero\" data-section=\"1\" data-tone=\"paper\" id=\"personalised-care\">"
+          },
+          "requestCount": 37,
+          "totalTransferBytes": 6765213,
+          "script": 31334,
+          "stylesheet": 54725,
+          "image": 6613710,
+          "font": 0,
+          "document": 7743,
+          "other": 57701,
+          "thirdParty": 0,
+          "largestResources": [
+            {
+              "url": "http://127.0.0.1:44627/assets/cta-concepts/fresh-sage-porcelain.png",
+              "resourceType": "Image",
+              "transferBytes": 2459393
+            },
+            {
+              "url": "http://127.0.0.1:44627/assets/hero/clinic/hero%2011.png",
+              "resourceType": "Image",
+              "transferBytes": 1823506
+            },
+            {
+              "url": "http://127.0.0.1:44627/assets/hero/hero-final/hero%201.png",
+              "resourceType": "Image",
+              "transferBytes": 1716414
+            },
+            {
+              "url": "http://127.0.0.1:44627/assets/brand/sofiati-logo-menu.webp",
+              "resourceType": "Image",
+              "transferBytes": 574537
+            },
+            {
+              "url": "http://127.0.0.1:44627/css/site.css",
+              "resourceType": "Stylesheet",
+              "transferBytes": 54725
+            },
+            {
+              "url": "http://127.0.0.1:44627/assets/quotations/index-quote-01.webp",
+              "resourceType": "Image",
+              "transferBytes": 39860
+            },
+            {
+              "url": "http://127.0.0.1:44627/assets/favicons/sofiati-icon-192.png",
+              "resourceType": "Other",
+              "transferBytes": 37100
+            },
+            {
+              "url": "http://127.0.0.1:44627/assets/favicons/sofiati-favicon-96.png",
+              "resourceType": "Other",
+              "transferBytes": 11646
+            },
+            {
+              "url": "http://127.0.0.1:44627/index.html",
+              "resourceType": "Document",
+              "transferBytes": 7743
+            },
+            {
+              "url": "http://127.0.0.1:44627/js/analytics.js",
+              "resourceType": "Script",
+              "transferBytes": 6721
+            }
+          ],
+          "lighthouseVersion": "12.8.2",
+          "fetchTime": "2026-07-18T12:57:58.213Z",
+          "finalUrl": "http://127.0.0.1:44627/index.html",
+          "rawReport": "performance-reports/baseline/home--mobile--run-1.json"
+        }
+      ],
+      "summary": {
+        "performance": {
+          "median": 74,
+          "min": 74,
+          "max": 74,
+          "variance": 0
+        },
+        "accessibility": {
+          "median": 93,
+          "min": 93,
+          "max": 93,
+          "variance": 0
+        },
+        "bestPractices": {
+          "median": 100,
+          "min": 100,
+          "max": 100,
+          "variance": 0
+        },
+        "seo": {
+          "median": 100,
+          "min": 100,
+          "max": 100,
+          "variance": 0
+        },
+        "lcpMs": {
+          "median": 21007.462050000002,
+          "min": 21007.462050000002,
+          "max": 21007.462050000002,
+          "variance": 0
+        },
+        "cls": {
+          "median": 0.04495747266099635,
+          "min": 0.04495747266099635,
+          "max": 0.04495747266099635,
+          "variance": 0
+        },
+        "tbtMs": {
+          "median": 60,
+          "min": 60,
+          "max": 60,
+          "variance": 0
+        },
+        "fcpMs": {
+          "median": 1579.9746999999998,
+          "min": 1579.9746999999998,
+          "max": 1579.9746999999998,
+          "variance": 0
+        },
+        "speedIndexMs": {
+          "median": 1579.9746999999998,
+          "min": 1579.9746999999998,
+          "max": 1579.9746999999998,
+          "variance": 0
+        },
+        "ttfbMs": {
+          "median": 4.682,
+          "min": 4.682,
+          "max": 4.682,
+          "variance": 0
+        },
+        "totalTransferBytes": {
+          "median": 6765213,
+          "min": 6765213,
+          "max": 6765213,
+          "variance": 0
+        },
+        "requestCount": {
+          "median": 37,
+          "min": 37,
+          "max": 37,
+          "variance": 0
+        },
+        "script": {
+          "median": 31334,
+          "min": 31334,
+          "max": 31334,
+          "variance": 0
+        },
+        "stylesheet": {
+          "median": 54725,
+          "min": 54725,
+          "max": 54725,
+          "variance": 0
+        },
+        "image": {
+          "median": 6613710,
+          "min": 6613710,
+          "max": 6613710,
+          "variance": 0
+        },
+        "font": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "thirdParty": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "mainThreadMs": {
+          "median": 490.7039999999999,
+          "min": 490.7039999999999,
+          "max": 490.7039999999999,
+          "variance": 0
+        },
+        "longTaskCount": {
+          "median": 1,
+          "min": 1,
+          "max": 1,
+          "variance": 0
+        },
+        "domNodeCount": {
+          "median": null,
+          "min": null,
+          "max": null,
+          "variance": null
+        },
+        "unusedCssBytes": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        },
+        "unusedJsBytes": {
+          "median": 0,
+          "min": 0,
+          "max": 0,
+          "variance": 0
+        }
+      }
+    }
+  ]
+}

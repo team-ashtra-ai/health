@@ -1,0 +1,32 @@
+{
+  "name": "franciele-sofiati-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Build, validation and performance tooling for the Franciele Sofiati website.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-production.mjs",
+    "serve": "node scripts/serve-production.mjs dist",
+    "perf:baseline": "node scripts/performance-audit.mjs --source . --label baseline",
+    "perf:mobile": "node scripts/performance-audit.mjs --source dist --label final --profile mobile",
+    "perf:desktop": "node scripts/performance-audit.mjs --source dist --label final --profile desktop",
+    "perf:all": "node scripts/performance-audit.mjs --source dist --label final",
+    "perf:ci": "npm run build && lhci autorun --config=lighthouserc.mobile.cjs && lhci autorun --config=lighthouserc.desktop.cjs",
+    "perf:budget": "node scripts/check-performance-budgets.mjs",
+    "perf:psi": "node scripts/psi-audit.mjs",
+    "perf:images": "node scripts/image-audit.mjs",
+    "perf:visual": "node scripts/visual-regression.mjs",
+    "validate": "python3 scripts/check-local-assets.py && python3 scripts/check-seo-implementation.py && python3 scripts/check-analytics-implementation.py"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@lhci/cli": "0.15.1",
+    "esbuild": "0.25.6",
+    "html-minifier-terser": "7.2.0",
+    "lighthouse": "12.8.2",
+    "playwright-core": "1.54.1",
+    "sharp": "0.34.3"
+  }
+}
