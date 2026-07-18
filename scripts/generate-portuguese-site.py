@@ -2,7 +2,7 @@
 """Generate Brazilian Portuguese pages and shared partials with local Argos.
 
 Run without arguments for the interactive menu. Automation can use
-``--mode incremental``, ``--mode full`` or ``--mode dry-run``.
+``--mode incremental``, ``--mode full``, ``--mode dry-run`` or ``--fresh``.
 """
 
 from __future__ import annotations
@@ -92,6 +92,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--mode", choices=("incremental", "full", "dry-run"))
     parser.add_argument("--overrides", choices=("preserve", "discard"), default="preserve")
+    parser.add_argument(
+        "--fresh",
+        action="store_true",
+        help="Rebuild all Portuguese output from current English, ignoring prior PT overrides and translation memory.",
+    )
     parser.add_argument("--yes", action="store_true", help="Confirm non-interactive destructive prompts.")
     parser.add_argument("--install-model", action="store_true", help="Download/install the free Argos en->pt-BR model if needed.")
     parser.add_argument("--delete-obsolete", action="store_true", help="Delete confirmed obsolete PT outputs after backup.")
@@ -125,13 +130,13 @@ def append_validation_report(report: Path | None, failures: list[str], warnings:
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
-    interactive = args.mode is None and not args.force
+    interactive = args.mode is None and not args.force and not args.fresh
     try:
         if interactive:
             mode, preserve, delete_obsolete = interactive_mode()
         else:
-            mode = "full" if args.force else (args.mode or "incremental")
-            preserve = args.overrides == "preserve"
+            mode = "full" if (args.force or args.fresh) else (args.mode or "incremental")
+            preserve = False if args.fresh else args.overrides == "preserve"
             delete_obsolete = args.delete_obsolete
             if mode == "full" and not args.yes:
                 print("Complete regeneration requires --yes in non-interactive mode.", file=sys.stderr)
@@ -147,6 +152,7 @@ def main(argv: list[str] | None = None) -> int:
         root=args.root.resolve(),
         mode=mode,
         preserve_overrides=preserve,
+        fresh_translation=args.fresh,
         yes=args.yes,
         delete_obsolete=delete_obsolete,
         color=not args.no_color,

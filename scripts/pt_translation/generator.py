@@ -30,6 +30,7 @@ class GenerationConfig:
     root: Path
     mode: str = "incremental"
     preserve_overrides: bool = True
+    fresh_translation: bool = False
     yes: bool = False
     delete_obsolete: bool = False
     color: bool = True
@@ -322,7 +323,13 @@ class PortugueseSiteGenerator:
         self.units = discover_units(config)
         self.glossary = _read_json(config.glossary_path, {"exact": {}, "post_replacements": {}})
         self.glossary_hash = _file_hash(config.glossary_path) if config.glossary_path.exists() else digest("{}")
-        self.memory = _read_json(config.memory_path, {"version": 1, "locale": "pt-BR", "entries": {}})
+        # A fresh pass intentionally does not reuse machine or manual memory.
+        # The approved glossary remains active for consistent Brazilian terms.
+        self.memory = (
+            {"version": 1, "locale": "pt-BR", "entries": {}}
+            if config.fresh_translation
+            else _read_json(config.memory_path, {"version": 1, "locale": "pt-BR", "entries": {}})
+        )
         self.explicit_overrides = _read_json(config.overrides_path, {"version": 1, "locale": "pt-BR", "blocks": {}})
         overrides_hash = _file_hash(config.overrides_path) if config.overrides_path.exists() else digest("{}")
         self.translation_config_hash = digest(f"{self.glossary_hash}:{overrides_hash}")
@@ -410,6 +417,8 @@ class PortugueseSiteGenerator:
             shutil.copy2(output, target)
         if self.config.manifest_path.exists():
             shutil.copy2(self.config.manifest_path, destination / self.config.manifest_path.name)
+        if self.config.fresh_translation and self.config.memory_path.exists():
+            shutil.copy2(self.config.memory_path, destination / self.config.memory_path.name)
         return destination
 
     def _translate_unit(self, unit: TranslationUnit, status: str) -> tuple[str, dict[str, Any], UnitResult]:
@@ -454,6 +463,7 @@ class PortugueseSiteGenerator:
 
             if (
                 not unit.partial
+                and not self.config.fresh_translation
                 and not self.translation_config_changed
                 and old_record.get("source_hash") == block.source_hash
                 and old_record.get("generated_translation")
