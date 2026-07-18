@@ -543,6 +543,74 @@
 
 /* Source: css/src/layout/responsive.css */
 @layer layout {
+  .sf-page[data-page="home"] #consultation-journey .sf-section-inner { display: block; }
+  .sf-page[data-page="home"] #consultation-journey .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-block: 2.5rem; }
+  .sf-page[data-page="home"] :is(#treatment-families, #care-standard) .sf-editorial-media-layout { grid-template-columns: minmax(0, 1.15fr) minmax(18rem, .85fr); gap: clamp(2.5rem, 6vw, 6rem); align-items: start; }
+  .sf-page[data-page="home"] :is(#treatment-families, #care-standard) .sf-section-inner { display: block; padding: 0; }
+  .sf-page[data-page="home"] #care-standard .sf-editorial-media { grid-column: 1; grid-row: 1; }
+  .sf-page[data-page="home"] #care-standard .sf-section-inner { grid-column: 2; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-statement-inner { grid-template-columns: minmax(0, 1.15fr) minmax(18rem, .85fr); gap: clamp(2.5rem, 6vw, 6rem); align-items: start; }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__canvas { grid-template-columns: minmax(0, 1.15fr) minmax(18rem, .85fr); gap: clamp(2.5rem, 6vw, 6rem); }
+
+  /* Keep the chapter lockup vertical: number, eyebrow, then title. */
+  .sf-page[data-page="home"] :is(#consultation-journey, #treatment-families, #what-shapes-a-plan, #care-standard, #meet-franciele) .sf-section-head { display: block !important; }
+  .sf-page[data-page="home"] :is(#consultation-journey, #treatment-families, #what-shapes-a-plan, #care-standard, #meet-franciele) .sf-section-head > :is(.sf-chapter-number, .sf-eyebrow, h2) { grid-column: auto !important; grid-row: auto !important; }
+
+  .sf-page[data-page="home"] #consultation-journey .sf-section-inner { max-inline-size: var(--container-wide); }
+  .sf-page[data-page="home"] #consultation-journey .sf-content-card-grid { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: var(--space-3) !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-content-card { min-block-size: 0 !important; padding: clamp(1.4rem, 2.5vw, 2rem) !important; }
+
+  .sf-page[data-page="home"] #treatment-families .sf-editorial-media-layout { display: grid !important; grid-template-columns: minmax(0, 1.1fr) minmax(20rem, .9fr) !important; gap: clamp(2.5rem, 6vw, 6rem) !important; align-items: start !important; }
+  .sf-page[data-page="home"] #treatment-families .sf-section-inner { display: block !important; min-inline-size: 0; }
+  .sf-page[data-page="home"] #treatment-families .sf-editorial-media { grid-column: 2 !important; grid-row: 1 !important; margin: 0 !important; }
+  .sf-page[data-page="home"] #treatment-families .sf-editorial-media img { block-size: 30rem !important; }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card-grid { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: var(--space-3) !important; margin-block: 2rem !important; border: 0 !important; }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card,
+  .sf-page[data-page="home"] #treatment-families .sf-content-card + .sf-content-card { min-block-size: 0 !important; border: 0 !important; border-radius: var(--radius-card) !important; padding: 1.35rem !important; }
+
+  /* The care standard: conventional editorial columns, never a split heading. */
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-statement-inner { display: grid !important; grid-template-columns: minmax(0, 1.1fr) minmax(20rem, .9fr) !important; gap: clamp(2.5rem, 6vw, 6rem) !important; align-items: start !important; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-section-head { display: block !important; grid-column: 1 !important; grid-row: 1 !important; max-inline-size: 34rem !important; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-section-head > :is(.sf-chapter-number, .sf-eyebrow, h2) { display: block !important; grid-column: auto !important; grid-row: auto !important; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait { grid-column: 2 !important; grid-row: 1 / span 3 !important; inline-size: 100% !important; margin: 0 !important; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria { display: grid !important; grid-column: 1 !important; grid-row: 2 !important; grid-template-columns: repeat(3, minmax(0, 1fr)) !important; gap: var(--space-3) !important; margin: 2rem 0 !important; padding: 0 !important; border: 0 !important; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-practitioner-quote { grid-column: 1 !important; grid-row: 3 !important; margin: 0 !important; }
+
+  /* Consultation journey: a familiar definition-block sequence. */
+  .sf-page[data-page="home"] #consultation-journey { background: var(--color-bg-soft) !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-section-inner { display: block !important; max-inline-size: var(--container-wide) !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-section-head { display: block !important; max-inline-size: 38rem !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-section-head > :is(.sf-chapter-number, .sf-eyebrow, h2) { display: block !important; grid-column: auto !important; grid-row: auto !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-content-card-grid { display: grid !important; grid-template-columns: repeat(4, minmax(0, 1fr)) !important; gap: var(--space-3) !important; margin: 0 !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-content-card { position: relative; min-block-size: 14rem !important; padding: 1.5rem !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-step-number { margin-block-end: 2rem !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-practitioner-quote { margin-block-start: 2rem !important; }
+  @media (max-width: 63.999rem) { .sf-page[data-page="home"] #consultation-journey .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; } }
+  @media (max-width: 35.999rem) { .sf-page[data-page="home"] #consultation-journey .sf-content-card-grid { grid-template-columns: 1fr !important; } }
+
+  /* Match the shared section rhythm used across the site. */
+  .sf-page[data-page="home"] #consultation-journey { padding-block: var(--section-compact) !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-section-inner { max-inline-size: none !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-section-head { margin-block-end: clamp(2rem, 4vw, 3.75rem) !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-content-card-grid { margin-block: 0 !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-practitioner-quote { margin-block: var(--space-4) 0 !important; }
+
+  /* Consultation journey rebuild: one familiar editorial split, not a timeline. */
+  .sf-page[data-page="home"] .sf-home-journey-rebuild { padding-block: var(--section-compact) !important; }
+  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-section-inner { display: grid !important; grid-template-columns: minmax(15rem, .72fr) minmax(0, 1.28fr) !important; gap: clamp(2.5rem, 7vw, 7rem) !important; max-inline-size: none !important; align-items: start !important; }
+  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-section-head { grid-column: 1 !important; grid-row: 1 / span 2 !important; display: block !important; margin: 0 !important; }
+  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-content-card-grid { grid-column: 2 !important; display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: var(--space-3) !important; margin: 0 !important; }
+  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-content-card { min-block-size: 13rem !important; padding: clamp(1.4rem, 2.5vw, 2rem) !important; }
+  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-step-number { display: block; margin-block-end: 1.75rem !important; color: var(--rose-gold-700); font-family: var(--font-heading); font-size: 1.3rem; }
+  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-practitioner-quote { grid-column: 2 !important; margin: 0 !important; }
+  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-section-head { padding-block-start: clamp(.5rem, 2vw, 2rem) !important; }
+  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-content-card { display: grid !important; align-content: start; background: var(--ivory-50) !important; box-shadow: none !important; }
+  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-content-card:nth-child(2) { background: var(--blush-100) !important; }
+  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-content-card:nth-child(3) { background: var(--sage-100) !important; }
+  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-content-card h3 { margin: 0 0 .65rem !important; color: var(--forest-900) !important; }
+  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-content-card p { margin: 0 !important; color: var(--color-text-secondary) !important; }
+  @media (max-width: 47.999rem) { .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-section-inner { grid-template-columns: 1fr !important; } .sf-page[data-page="home"] .sf-home-journey-rebuild :is(.sf-section-head,.sf-content-card-grid,.sf-practitioner-quote) { grid-column: 1 !important; grid-row: auto !important; } }
+
   @media (max-width: 63.999rem) {
     .sf-editorial-media-layout,
     .sf-editorial-split,
@@ -7881,6 +7949,43 @@
   .sf-page[data-page="home"] #care-standard .sf-button-row { margin-block-start: 1.75rem; }
   .sf-page[data-page="home"] #care-standard .sf-button { min-block-size: 3.4rem; padding-inline: 1.35rem; }
 
+  /* Homepage chapters share the same heading lockup: chapter, eyebrow, then
+     title. Their editorial content layouts remain distinct. */
+  .sf-page[data-page="home"] :is(#treatment-families, #what-shapes-a-plan, #care-standard, #meet-franciele) .sf-section-head { display: block; }
+  .sf-page[data-page="home"] :is(#treatment-families, #what-shapes-a-plan, #care-standard, #meet-franciele) .sf-section-head .sf-chapter-number {
+    align-self: auto;
+    color: var(--rose-gold-600);
+    font-size: clamp(2.75rem, 4.25vw, 4.9rem);
+    line-height: .78;
+  }
+  .sf-page[data-page="home"] #care-standard .sf-section-head .sf-chapter-number { color: var(--gold-200); }
+  .sf-page[data-page="home"] :is(#treatment-families, #what-shapes-a-plan, #care-standard, #meet-franciele) .sf-section-head h2 {
+    max-inline-size: 13ch;
+    font-size: clamp(2.7rem, 5vw, 5.75rem);
+    font-style: normal;
+    line-height: .92;
+  }
+
+  /* Use one readable chapter hierarchy throughout the site, including
+     editorial, form and values compositions that use their own header class. */
+  .sf-page[data-page] .sf-section :is(.sf-section-head, .sf-editorial-kicker, .sf-form-section-intro, .sf-values-heading) > :is(.sf-chapter-number, .sf-values-number) {
+    display: block;
+    margin-block-end: .65rem;
+    font-family: var(--font-heading);
+    font-size: clamp(2.75rem, 4.25vw, 4.9rem);
+    font-style: normal;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-weight: 400;
+    letter-spacing: -.075em;
+    line-height: .78;
+  }
+  .sf-page[data-page] .sf-section :is(.sf-section-head, .sf-editorial-kicker, .sf-form-section-intro, .sf-values-heading) > h2 {
+    max-inline-size: min(21ch, 100%);
+    font-size: var(--type-section-title);
+    font-style: normal;
+    line-height: var(--line-heading);
+  }
+
   /* Homepage 06 — biography at full editorial scale, with an independent left marker. */
   .sf-page[data-page="home"] #meet-franciele { overflow: hidden; }
   .sf-page[data-page="home"] #meet-franciele .sf-home-profile__canvas { display: grid; grid-template-columns: minmax(4.75rem, .26fr) minmax(20rem, .82fr) minmax(0, 1.18fr); gap: clamp(1.5rem, 4vw, 4.5rem); align-items: center; max-inline-size: var(--content-max-width); }
@@ -7985,8 +8090,59 @@
   ) .sf-section-head::before,
   .sf-page[data-page="home"] #treatment-pathways .sf-section-head::after { content: none; }
 
+  /* Rebuilt homepage chapters 03–07. */
+  .sf-page[data-page="home"] :is(#consultation-journey,#treatment-families,#what-shapes-a-plan,#care-standard,#meet-franciele){padding-block:clamp(5rem,9vw,9rem)}
+  .sf-page[data-page="home"] :is(#consultation-journey,#treatment-families,#what-shapes-a-plan,#care-standard,#meet-franciele) .sf-section-head{align-self:start;margin:0;max-inline-size:32rem}
+  .sf-page[data-page="home"] #consultation-journey{background:linear-gradient(135deg,var(--ivory-50),var(--sage-100))!important}
+  .sf-page[data-page="home"] #consultation-journey .sf-section-inner{display:grid;grid-template-columns:minmax(15rem,.72fr) minmax(0,1.28fr);gap:clamp(2.5rem,7vw,8rem);align-items:start}
+  .sf-page[data-page="home"] #consultation-journey .sf-process-list{display:grid;grid-column:2;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;margin:0;border:1px solid var(--color-border-warm);background:var(--color-border-warm);list-style:none}
+  .sf-page[data-page="home"] #consultation-journey .sf-step{min-block-size:13rem;border:0;border-radius:0;background:color-mix(in srgb,var(--ivory-50) 94%,transparent);padding:clamp(1.4rem,2.6vw,2.4rem)}
+  .sf-page[data-page="home"] #consultation-journey .sf-step-number{color:var(--rose-gold-700);font-family:var(--font-heading);font-size:1.25rem;font-style:italic}.sf-page[data-page="home"] #consultation-journey .sf-step h3{margin-block:1.8rem .6rem;color:var(--forest-900)}.sf-page[data-page="home"] #consultation-journey .sf-step p{margin:0;color:var(--color-text-secondary)}.sf-page[data-page="home"] #consultation-journey .sf-practitioner-quote{grid-column:1/-1;justify-self:start;margin:0}
+  .sf-page[data-page="home"] #treatment-families{background:var(--color-bg-rose)!important}.sf-page[data-page="home"] #treatment-families .sf-section-inner{display:grid;grid-template-columns:minmax(16rem,.66fr) minmax(0,1.34fr);gap:clamp(2.5rem,7vw,8rem);align-items:start}.sf-page[data-page="home"] #treatment-families .sf-home-treatment-atlas__image{grid-column:2;margin:0;border:0;border-radius:.75rem;box-shadow:none}.sf-page[data-page="home"] #treatment-families .sf-home-treatment-atlas__image img{block-size:clamp(22rem,36vw,34rem)}
+  .sf-page[data-page="home"] #treatment-families .sf-content-card-grid{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin:0;border-block:1px solid var(--color-border-rose)}.sf-page[data-page="home"] #treatment-families .sf-content-card{display:block;min-block-size:0;border:0;border-radius:0;background:transparent!important;padding:1.5rem 1.25rem}.sf-page[data-page="home"] #treatment-families .sf-content-card+.sf-content-card{border-inline-start:1px solid var(--color-border-rose)}.sf-page[data-page="home"] #treatment-families .sf-content-card h3{color:var(--forest-900);font-size:1.2rem}.sf-page[data-page="home"] #treatment-families .sf-content-card p{color:var(--color-text-secondary);font-size:.9rem}.sf-page[data-page="home"] #treatment-families :is(.sf-section-inner>p,.sf-button-row){grid-column:1/-1;max-inline-size:52rem}
+  .sf-page[data-page="home"] #what-shapes-a-plan{border:0;background:var(--sage-100)!important}.sf-page[data-page="home"] #what-shapes-a-plan .sf-statement-inner{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(18rem,.9fr);gap:clamp(2.5rem,7vw,8rem);align-items:center}.sf-page[data-page="home"] #what-shapes-a-plan .sf-section-head{grid-column:1}.sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait{grid-column:2;grid-row:1/span 3;border:0;border-radius:.75rem!important;box-shadow:none}.sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait::after{display:none}.sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait img{block-size:clamp(30rem,43vw,43rem)}
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria{grid-column:1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;margin:0;border:0}.sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria li,.sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria li+li{display:block;min-block-size:12rem;border:1px solid color-mix(in srgb,var(--olive-600) 28%,transparent);padding:1.25rem}.sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria>li>span{display:block;margin-block-end:1.5rem;color:var(--rose-gold-700)}.sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria h3{color:var(--forest-900);font-size:1.1rem}.sf-page[data-page="home"] #what-shapes-a-plan .sf-practitioner-quote{grid-column:1;margin:0}
+  .sf-page[data-page="home"] #care-standard .sf-editorial-media-layout{display:grid;grid-template-columns:minmax(18rem,.8fr) minmax(0,1.2fr);gap:clamp(2.5rem,8vw,9rem);align-items:center;max-inline-size:84rem;padding:0}.sf-page[data-page="home"] #care-standard .sf-editorial-media{grid-column:1;grid-row:1;max-inline-size:none;border:0;border-radius:.75rem!important;background:none;box-shadow:none}.sf-page[data-page="home"] #care-standard .sf-editorial-media::before{display:none}.sf-page[data-page="home"] #care-standard .sf-editorial-media img{block-size:clamp(32rem,47vw,46rem);min-block-size:0;border:0;border-radius:.75rem;box-shadow:none}.sf-page[data-page="home"] #care-standard .sf-section-inner{grid-column:2;display:block;padding:0}.sf-page[data-page="home"] #care-standard .sf-content-card-grid{display:grid;grid-template-columns:1fr;margin:2.5rem 0;border-block:1px solid rgb(234 213 173/.35)}.sf-page[data-page="home"] #care-standard .sf-content-card{min-block-size:0;padding:1.35rem 0}.sf-page[data-page="home"] #care-standard .sf-content-card+.sf-content-card{border-block-start:1px solid rgb(234 213 173/.22)}.sf-page[data-page="home"] #care-standard .sf-practitioner-quote{margin:0}
+  .sf-page[data-page="home"] #meet-franciele{background:var(--color-bg-soft)!important}.sf-page[data-page="home"] #meet-franciele .sf-home-profile__canvas{display:grid;grid-template-columns:minmax(19rem,.8fr) minmax(0,1.2fr);gap:clamp(2.5rem,8vw,9rem);align-items:center;max-inline-size:84rem}.sf-page[data-page="home"] #meet-franciele .sf-home-profile__visual{max-inline-size:none;padding:0}.sf-page[data-page="home"] #meet-franciele .sf-home-profile__visual::before,.sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait::after{display:none}.sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait{border:0;border-radius:.75rem;box-shadow:none}.sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait img{block-size:clamp(31rem,45vw,44rem);translate:none}.sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait figcaption{position:static;background:var(--ivory-50);color:var(--forest-900)}.sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait figcaption span{color:var(--rose-gold-700)}.sf-page[data-page="home"] #meet-franciele .sf-home-profile__location{position:static;margin-block-start:.75rem;writing-mode:initial}.sf-page[data-page="home"] #meet-franciele .sf-home-profile__content{padding:0}.sf-page[data-page="home"] #meet-franciele .sf-home-profile__principles{margin-block:2rem 0}
+  @media(max-width:63.999rem){.sf-page[data-page="home"] #consultation-journey .sf-section-inner,.sf-page[data-page="home"] #treatment-families .sf-section-inner,.sf-page[data-page="home"] #what-shapes-a-plan .sf-statement-inner,.sf-page[data-page="home"] #care-standard .sf-editorial-media-layout,.sf-page[data-page="home"] #meet-franciele .sf-home-profile__canvas{grid-template-columns:1fr}.sf-page[data-page="home"] #consultation-journey .sf-process-list,.sf-page[data-page="home"] #treatment-families .sf-home-treatment-atlas__image,.sf-page[data-page="home"] #what-shapes-a-plan :is(.sf-section-head,.sf-plan-portrait,.sf-plan-criteria,.sf-practitioner-quote),.sf-page[data-page="home"] #care-standard :is(.sf-editorial-media,.sf-section-inner){grid-column:1;grid-row:auto}.sf-page[data-page="home"] #treatment-families .sf-content-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria{grid-template-columns:1fr}}@media(max-width:47.999rem){.sf-page[data-page="home"] :is(#consultation-journey,#treatment-families,#what-shapes-a-plan,#care-standard,#meet-franciele){padding-block:4.5rem}.sf-page[data-page="home"] #consultation-journey .sf-process-list,.sf-page[data-page="home"] #treatment-families .sf-content-card-grid{grid-template-columns:1fr}.sf-page[data-page="home"] #treatment-families .sf-content-card+.sf-content-card{border-block-start:1px solid var(--color-border-rose);border-inline-start:0}}
+
   @media (max-width: 63.999rem) {
-    .section-marker__number { font-size: clamp(2.1rem, 9vw, 3rem); }
+
+  /* Homepage 03–07 conflict reset: retain only the established Sofiati
+     editorial columns, card system, image treatment and responsive stack. */
+  .sf-page[data-page="home"] #consultation-journey .sf-section-inner { display: block !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-content-card-grid { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)) !important; margin-block: 2.5rem !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-content-card { min-block-size: 12rem !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-step-number { display: block; margin-block-end: 1rem; color: var(--rose-gold-700); font-family: var(--font-heading); font-size: 1.2rem; }
+
+  .sf-page[data-page="home"] #treatment-families .sf-editorial-media-layout,
+  .sf-page[data-page="home"] #care-standard .sf-editorial-media-layout,
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__canvas { display: grid !important; grid-template-columns: minmax(0, 1.15fr) minmax(18rem, .85fr) !important; gap: clamp(2.5rem, 6vw, 6rem) !important; align-items: start !important; max-inline-size: var(--container-wide) !important; padding: 0 !important; }
+  .sf-page[data-page="home"] #treatment-families .sf-section-inner,
+  .sf-page[data-page="home"] #care-standard .sf-section-inner { display: block !important; grid-column: 1 !important; padding: 0 !important; }
+  .sf-page[data-page="home"] #treatment-families .sf-editorial-media,
+  .sf-page[data-page="home"] #care-standard .sf-editorial-media { grid-column: 2 !important; grid-row: 1 !important; max-inline-size: none !important; margin: 0 !important; }
+  .sf-page[data-page="home"] #treatment-families .sf-editorial-media img,
+  .sf-page[data-page="home"] #care-standard .sf-editorial-media img { block-size: 32rem !important; border-radius: .65rem !important; }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; margin-block: 2rem !important; }
+  .sf-page[data-page="home"] #care-standard .sf-editorial-media { grid-column: 1 !important; }
+  .sf-page[data-page="home"] #care-standard .sf-section-inner { grid-column: 2 !important; }
+  .sf-page[data-page="home"] #care-standard .sf-content-card-grid { margin-block: 2rem !important; }
+
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-statement-inner { display: grid !important; grid-template-columns: minmax(0, 1.15fr) minmax(18rem, .85fr) !important; gap: clamp(2.5rem, 6vw, 6rem) !important; align-items: start !important; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-section-head,
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria,
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-practitioner-quote { grid-column: 1 !important; grid-row: auto !important; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait { grid-column: 2 !important; grid-row: 1 / span 3 !important; margin: 0 !important; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait img { block-size: 34rem !important; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria { display: grid !important; grid-template-columns: repeat(3, minmax(0, 1fr)) !important; gap: .75rem !important; margin-block: 2rem !important; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria li { min-block-size: 11rem !important; border: 1px solid var(--color-border-warm) !important; padding: 1.25rem !important; }
+
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__visual { grid-column: 2 !important; max-inline-size: none !important; padding: 0 !important; }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__content { grid-column: 1 !important; padding: 0 !important; }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait img { block-size: 38rem !important; }
+
+  .section-marker__number { font-size: clamp(2.1rem, 9vw, 3rem); }
     .sf-quotation-signature { inline-size: 100%; }
   }
 }
@@ -7994,6 +8150,12 @@
 /* Source: css/src/utilities/accessibility.css */
 @layer utilities {
   [data-reveal] { opacity: 1; transform: none; }
+
+  /* Main content must remain in the natural document flow while scrolling. */
+  .sf-main :is(.sf-section-head, .sf-editorial-media, .sf-editorial-kicker, .sf-form-section-intro, .sf-reading-aside, .sf-treatment-index, .sj-register__heading, .sja-at-glance > div, .sja-faqs header) {
+    inset: auto !important;
+    position: static !important;
+  }
 
   .sf-search-empty { border: 1px solid var(--color-border-subtle); border-radius: var(--radius-sm); background: var(--color-bg-soft); padding: var(--space-4); text-align: center; }
 

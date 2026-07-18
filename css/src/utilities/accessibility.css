@@ -1,6 +1,12 @@
 @layer utilities {
   [data-reveal] { opacity: 1; transform: none; }
 
+  /* Main content must remain in the natural document flow while scrolling. */
+  .sf-main :is(.sf-section-head, .sf-editorial-media, .sf-editorial-kicker, .sf-form-section-intro, .sf-reading-aside, .sf-treatment-index, .sj-register__heading, .sja-at-glance > div, .sja-faqs header) {
+    inset: auto !important;
+    position: static !important;
+  }
+
   .sf-search-empty { border: 1px solid var(--color-border-subtle); border-radius: var(--radius-sm); background: var(--color-bg-soft); padding: var(--space-4); text-align: center; }
 
   @media (prefers-reduced-motion: no-preference) {

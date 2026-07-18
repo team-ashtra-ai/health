@@ -7,16 +7,13 @@ import { initForms } from './components/forms.js';
 import { initTreatmentDirectory } from './components/treatments.js';
 import { initFaqSearch } from './pages/faq.js';
 import { initBlogSearch } from './pages/blog.js';
-import { initReveal } from './effects/reveal.js';
 import { initFooter } from './components/footer.js';
-import { initEditorialMarkers } from './components/editorial-markers.js';
 import { loadPartials } from './partials.js';
 
 let sitePromise = null;
 
 export function initSite() {
   if (sitePromise) return sitePromise;
-  initEditorialMarkers();
   sitePromise = loadPartials().then(() => {
     markCurrentLinks();
     prepareMenuInitialState();
@@ -30,7 +27,6 @@ export function initSite() {
     initFaqSearch();
     initBlogSearch();
     initTreatmentDirectory();
-    initReveal();
   });
   return sitePromise;
 }
