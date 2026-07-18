@@ -107,13 +107,11 @@
     --font-small: .875rem;
     --font-caption: .78rem;
     --type-display-xl: clamp(3.25rem, 7vw, 7.75rem);
-    --type-display-lg: clamp(2.9rem, 5.5vw, 6rem);
     --type-display-md: clamp(2.4rem, 4.25vw, 4.7rem);
     --type-page-title: clamp(2.75rem, 5.1vw, 5.75rem);
     --type-section-title: clamp(2.15rem, 3.8vw, 4.15rem);
     --type-editorial-statement: clamp(2.8rem, 5.2vw, 5.8rem);
     --type-intro: clamp(1.13rem, .85vw + .9rem, 1.42rem);
-    --type-body: clamp(1rem, .2vw + .96rem, 1.1rem);
     --type-quotation: clamp(1.3rem, 1.12rem + .62vw, 1.72rem);
     --type-small: .9rem;
     --type-label: clamp(.78rem, .74rem + .12vw, .88rem);
@@ -155,7 +153,6 @@
     --container-wide: var(--site-canvas-max);
     --container-standard: var(--editorial-standard);
     --container-reading: var(--reading-measure);
-    --container-compact: var(--editorial-compact);
     --container-media: var(--media-wide);
     --page-gutter: var(--edge-gutter);
     --grid-gap: clamp(1rem, 2.5vw, 2.5rem);
@@ -594,22 +591,6 @@
   .sf-page[data-page="home"] #consultation-journey .sf-section-head { margin-block-end: clamp(2rem, 4vw, 3.75rem) !important; }
   .sf-page[data-page="home"] #consultation-journey .sf-content-card-grid { margin-block: 0 !important; }
   .sf-page[data-page="home"] #consultation-journey .sf-practitioner-quote { margin-block: var(--space-4) 0 !important; }
-
-  /* Consultation journey rebuild: one familiar editorial split, not a timeline. */
-  .sf-page[data-page="home"] .sf-home-journey-rebuild { padding-block: var(--section-compact) !important; }
-  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-section-inner { display: grid !important; grid-template-columns: minmax(15rem, .72fr) minmax(0, 1.28fr) !important; gap: clamp(2.5rem, 7vw, 7rem) !important; max-inline-size: none !important; align-items: start !important; }
-  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-section-head { grid-column: 1 !important; grid-row: 1 / span 2 !important; display: block !important; margin: 0 !important; }
-  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-content-card-grid { grid-column: 2 !important; display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: var(--space-3) !important; margin: 0 !important; }
-  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-content-card { min-block-size: 13rem !important; padding: clamp(1.4rem, 2.5vw, 2rem) !important; }
-  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-step-number { display: block; margin-block-end: 1.75rem !important; color: var(--rose-gold-700); font-family: var(--font-heading); font-size: 1.3rem; }
-  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-practitioner-quote { grid-column: 2 !important; margin: 0 !important; }
-  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-section-head { padding-block-start: clamp(.5rem, 2vw, 2rem) !important; }
-  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-content-card { display: grid !important; align-content: start; background: var(--ivory-50) !important; box-shadow: none !important; }
-  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-content-card:nth-child(2) { background: var(--blush-100) !important; }
-  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-content-card:nth-child(3) { background: var(--sage-100) !important; }
-  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-content-card h3 { margin: 0 0 .65rem !important; color: var(--forest-900) !important; }
-  .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-content-card p { margin: 0 !important; color: var(--color-text-secondary) !important; }
-  @media (max-width: 47.999rem) { .sf-page[data-page="home"] .sf-home-journey-rebuild .sf-section-inner { grid-template-columns: 1fr !important; } .sf-page[data-page="home"] .sf-home-journey-rebuild :is(.sf-section-head,.sf-content-card-grid,.sf-practitioner-quote) { grid-column: 1 !important; grid-row: auto !important; } }
 
   @media (max-width: 63.999rem) {
     .sf-editorial-media-layout,
@@ -6533,7 +6514,6 @@
 :root {
   --sffo-olive: var(--menu-green, #485440);
   --sffo-olive-deep: var(--forest-900, #243129);
-  --sffo-gold: var(--gold-300, #d5b57e);
   --sffo-gold-light: var(--gold-200, #ead5ad);
   --sffo-heading-rose: var(--rose-gold-500, #bd796b);
   --sffo-text: #f9f6eb;
@@ -8191,9 +8171,6 @@
 
   .sf-page[data-page="home"] #meet-franciele { overflow: hidden; padding-block: clamp(6rem, 10vw, 11rem); }
   .sf-page[data-page="home"] #meet-franciele .sf-home-profile__canvas { display: grid; grid-template-columns: minmax(8rem, .3fr) minmax(25rem, .92fr) minmax(32rem, 1.28fr); gap: clamp(2rem, 5vw, 6rem); align-items: stretch; max-inline-size: min(100% - 3rem, 96rem); }
-  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__rail { display: flex; flex-direction: column; align-items: flex-start; gap: 1.25rem; padding-block-start: clamp(.5rem, 2vw, 2rem); }
-  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__chapter { color: var(--rose-gold-700); font-family: var(--font-heading); font-size: clamp(4.5rem, 7vw, 7.5rem); font-style: italic; line-height: .72; }
-  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__rail .sf-eyebrow { max-inline-size: 11ch; margin: 0; color: var(--forest-800); line-height: 1.5; }
   .sf-page[data-page="home"] #meet-franciele .sf-home-profile__visual { position: relative; inline-size: 100%; padding-block-start: clamp(1rem, 4vw, 4rem); }
   .sf-page[data-page="home"] #meet-franciele .sf-home-profile__visual::before { content: ""; position: absolute; z-index: -1; inset: 0 2.25rem 1.75rem -1.25rem; border-radius: 15rem 15rem .5rem .5rem; background: linear-gradient(155deg, var(--olive-700), var(--forest-900)); }
   .sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait { inline-size: 100%; margin: 0; overflow: hidden; border: 1px solid color-mix(in srgb, var(--gold-300) 75%, transparent); border-radius: 13rem 13rem .55rem .55rem; background: var(--blush-100); box-shadow: 0 2rem 4.5rem rgb(28 48 34 / .16); }
@@ -8220,8 +8197,6 @@
 
   @media (max-width: 47.999rem) {
     .sf-page[data-page="home"] #meet-franciele .sf-home-profile__canvas { grid-template-columns: 1fr; max-inline-size: min(100% - 2.5rem, 40rem); }
-    .sf-page[data-page="home"] #meet-franciele .sf-home-profile__rail { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: end; gap: 1.25rem; padding: 0; }
-    .sf-page[data-page="home"] #meet-franciele .sf-home-profile__rail .sf-eyebrow { max-inline-size: 20ch; margin-block-end: .25rem; }
     .sf-page[data-page="home"] #meet-franciele .sf-home-profile__visual, .sf-page[data-page="home"] #meet-franciele .sf-home-profile__content { grid-column: auto; grid-row: auto; }
     .sf-page[data-page="home"] #meet-franciele .sf-home-profile__content { display: flex; padding-block: 0; }
     .sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait img { block-size: min(125vw, 42rem); }
@@ -8342,12 +8317,6 @@
     .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait img { block-size: 33rem; }
   }
 
-  /* Final 03–06 rebuild: independent rails and four non-repeating editorial compositions. */
-  .sf-page[data-page="home"] .sf-editorial-rail { grid-column: 1; grid-row: 1 / span 4; display: flex; flex-direction: column; gap: 1rem; padding-block-start: .5rem; }
-  .sf-page[data-page="home"] .sf-editorial-rail > span { color: var(--rose-gold-700); font-family: var(--font-heading); font-size: clamp(3.5rem, 5.6vw, 6rem); font-style: italic; line-height: .75; }
-  .sf-page[data-page="home"] .sf-editorial-rail .sf-eyebrow { max-inline-size: 11ch; margin: 0; color: var(--rose-gold-700); line-height: 1.45; }
-  .sf-page[data-page="home"] #care-standard .sf-editorial-rail :is(span, .sf-eyebrow) { color: var(--gold-200); }
-
   .sf-page[data-page="home"] #treatment-families .sf-section-inner { display:grid; grid-template-columns:minmax(7rem,.2fr) minmax(18rem,.58fr) minmax(0,1.2fr); gap:clamp(2rem,4vw,5rem); max-inline-size:min(100% - 3rem,96rem); }
   .sf-page[data-page="home"] #treatment-families .sf-section-head { grid-column:2; grid-row:1; margin:.5rem 0 0; }
   .sf-page[data-page="home"] #treatment-families .sf-section-head h2 { max-inline-size:7ch; font-size:clamp(3.2rem,5vw,5.8rem); }
@@ -8375,15 +8344,235 @@
 
   .sf-page[data-page="home"] #meet-franciele { background:linear-gradient(135deg,var(--ivory-50),var(--blush-50))!important; }
   .sf-page[data-page="home"] #meet-franciele .sf-home-profile__canvas { grid-template-columns:minmax(7rem,.2fr) minmax(0,1.1fr) minmax(24rem,.75fr); gap:clamp(2rem,5vw,6rem); max-inline-size:min(100% - 3rem,98rem); }
-  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__rail { grid-column:1; }.sf-page[data-page="home"] #meet-franciele .sf-home-profile__content { grid-column:2; display:block; padding:0; }.sf-page[data-page="home"] #meet-franciele .sf-home-profile__visual { grid-column:3; padding:0; }.sf-page[data-page="home"] #meet-franciele .sf-home-profile__visual::before { content:none; }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__content { grid-column:2; display:block; padding:0; }.sf-page[data-page="home"] #meet-franciele .sf-home-profile__visual { grid-column:3; padding:0; }.sf-page[data-page="home"] #meet-franciele .sf-home-profile__visual::before { content:none; }
   .sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait { border:0; border-radius:.5rem; box-shadow:var(--shadow-raised); }.sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait img { block-size:clamp(43rem,58vw,58rem); }.sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait figcaption { background:var(--forest-900); color:var(--ivory-50); }
   .sf-page[data-page="home"] #meet-franciele .sf-home-profile__content h2 { max-inline-size:8ch; font-size:clamp(3.7rem,6vw,6.7rem); }.sf-page[data-page="home"] #meet-franciele .sf-home-profile__principles { grid-template-columns:1fr; }.sf-page[data-page="home"] #meet-franciele .sf-home-profile__principles li { min-block-size:0; padding:1.2rem 0; }.sf-page[data-page="home"] #meet-franciele .sf-home-profile__principles li:nth-child(even) { border-inline-start:0; }
 
-  @media (max-width: 47.999rem) { .sf-page[data-page="home"] :is(#treatment-families .sf-section-inner,#what-shapes-a-plan .sf-statement-inner,#care-standard .sf-editorial-media-layout,#meet-franciele .sf-home-profile__canvas) { grid-template-columns:1fr; max-inline-size:min(100% - 2.5rem,40rem); } .sf-page[data-page="home"] :is(.sf-editorial-rail,#meet-franciele .sf-home-profile__rail) { grid-column:1; grid-row:auto; display:grid; grid-template-columns:auto 1fr; align-items:end; } .sf-page[data-page="home"] :is(#treatment-families .sf-section-head,#treatment-families .sf-home-treatment-atlas__image,#treatment-families .sf-content-card-grid,#treatment-families .sf-section-inner > p,#treatment-families .sf-button-row,#what-shapes-a-plan .sf-plan-portrait,#what-shapes-a-plan .sf-section-head,#what-shapes-a-plan .sf-plan-criteria,#what-shapes-a-plan .sf-practitioner-quote,#care-standard .sf-section-inner,#care-standard .sf-editorial-media,#meet-franciele .sf-home-profile__visual,#meet-franciele .sf-home-profile__content) { grid-column:1; grid-row:auto; } .sf-page[data-page="home"] :is(#treatment-families .sf-content-card-grid,#care-standard .sf-content-card-grid) { grid-template-columns:1fr; } }
+  @media (max-width: 47.999rem) { .sf-page[data-page="home"] :is(#treatment-families .sf-section-inner,#what-shapes-a-plan .sf-statement-inner,#care-standard .sf-editorial-media-layout,#meet-franciele .sf-home-profile__canvas) { grid-template-columns:1fr; max-inline-size:min(100% - 2.5rem,40rem); } .sf-page[data-page="home"] :is(#treatment-families .sf-section-head,#treatment-families .sf-home-treatment-atlas__image,#treatment-families .sf-content-card-grid,#treatment-families .sf-section-inner > p,#treatment-families .sf-button-row,#what-shapes-a-plan .sf-plan-portrait,#what-shapes-a-plan .sf-section-head,#what-shapes-a-plan .sf-plan-criteria,#what-shapes-a-plan .sf-practitioner-quote,#care-standard .sf-section-inner,#care-standard .sf-editorial-media,#meet-franciele .sf-home-profile__visual,#meet-franciele .sf-home-profile__content) { grid-column:1; grid-row:auto; } .sf-page[data-page="home"] :is(#treatment-families .sf-content-card-grid,#care-standard .sf-content-card-grid) { grid-template-columns:1fr; } }
 
   @media print {
     #sf-topbar-inline, #sf-header-inline, #sf-mobile-menu-inline, #sf-cookie-inline, #sf-floating-inline, .sf-button-row { display: none; }
     body { background: var(--white); color: var(--forest-900); font-size: 11pt; }
     .sf-section { break-inside: avoid; padding-block: 1.5rem; }
   }
+}
+
+/* Source: css/src/pages/home-layout.css */
+/*
+ * Homepage layout authority
+ *
+ * This module owns the final home-page grid decisions and responsive
+ * guardrails. It is deliberately last in the manifest and unlayered so its
+ * production precedence stays identical to the former separately loaded
+ * stylesheet. New homepage layout work belongs here; do not add a second
+ * homepage stylesheet or a late "fix" file.
+ */
+.sf-page[data-page="home"] {
+  --home-canvas-max: 84rem;
+  --home-gutter: clamp(1.25rem, 4vw, 4rem);
+  --home-section-space: clamp(4rem, 7vw, 6.5rem);
+  --home-column-gap: clamp(2rem, 5vw, 5rem);
+  --home-card-gap: 1rem;
+}
+.sf-page[data-page="home"] .sf-main > .sf-section:not([data-pattern="hero"]):not([data-pattern="final-cta"]) { padding-block: var(--home-section-space) !important; }
+.sf-page[data-page="home"] .sf-main > .sf-section .sf-canvas { inline-size: min(calc(100% - 2 * var(--home-gutter)), var(--home-canvas-max)) !important; max-inline-size: none !important; margin-inline: auto !important; }
+.sf-page[data-page="home"] .sf-section-head { display: block !important; max-inline-size: 38rem !important; margin-block-end: clamp(2rem, 4vw, 3.5rem) !important; }
+.sf-page[data-page="home"] .sf-section-head > :is(.sf-chapter-number, .sf-eyebrow, h2) { display: block !important; grid-column: auto !important; grid-row: auto !important; }
+.sf-page[data-page="home"] .sf-section-head h2 { max-inline-size: 16ch !important; font-size: var(--type-section-title) !important; line-height: .98 !important; }
+.sf-page[data-page="home"] .sf-content-card-grid { gap: var(--home-card-gap) !important; }
+.sf-page[data-page="home"] .sf-content-card { min-block-size: 10rem !important; padding: clamp(1.25rem, 2vw, 1.75rem) !important; }
+.sf-page[data-page="home"] .sf-content-card p { font-size: .96rem !important; line-height: 1.6 !important; }
+.sf-page[data-page="home"] .sf-practitioner-quote { inline-size: min(100%, 42rem) !important; margin: 2rem 0 0 !important; }
+.sf-page[data-page="home"] .sf-button-row { margin-block-start: 2rem !important; }
+
+/* 02 concern: 7/5. */
+.sf-page[data-page="home"] #care-pathways .sf-editorial-media-layout { grid-template-columns: minmax(0, 7fr) minmax(18rem, 5fr) !important; gap: var(--home-column-gap) !important; align-items: start !important; }
+.sf-page[data-page="home"] #care-pathways .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+.sf-page[data-page="home"] #care-pathways .sf-editorial-media { margin: 0 !important; align-self: start; }
+
+/* 03 journey: heading + four equal blocks + integrated quote. */
+.sf-page[data-page="home"] #consultation-journey .sf-section-inner { display: block !important; }
+.sf-page[data-page="home"] #consultation-journey .sf-content-card-grid { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; margin: 0 !important; }
+.sf-page[data-page="home"] #consultation-journey .sf-content-card { min-block-size: 13rem !important; }
+.sf-page[data-page="home"] #consultation-journey .sf-step-number { display: block; margin-block-end: 1.5rem; color: var(--rose-gold-700); font-family: var(--font-heading); font-size: 1.25rem; }
+
+/* 04, 05, 06 and 07 share the same 7/5 or 5/7 editorial family. */
+.sf-page[data-page="home"] #treatment-families .sf-editorial-media-layout,
+.sf-page[data-page="home"] #care-standard .sf-editorial-media-layout { display: grid !important; grid-template-columns: minmax(0, 7fr) minmax(18rem, 5fr) !important; gap: var(--home-column-gap) !important; align-items: start !important; }
+.sf-page[data-page="home"] #treatment-families .sf-section-inner,
+.sf-page[data-page="home"] #care-standard .sf-section-inner { display: block !important; min-inline-size: 0 !important; padding: 0 !important; }
+.sf-page[data-page="home"] #treatment-families .sf-editorial-media { grid-column: 2 !important; grid-row: 1 !important; margin: 0 !important; }
+.sf-page[data-page="home"] #care-standard .sf-editorial-media { grid-column: 2 !important; grid-row: 1 !important; margin: 0 !important; }
+.sf-page[data-page="home"] :is(#treatment-families, #care-standard) .sf-editorial-media img { display: block !important; inline-size: 100% !important; block-size: 34rem !important; opacity: 1 !important; visibility: visible !important; object-fit: cover !important; border-radius: .75rem !important; }
+.sf-page[data-page="home"] #treatment-families .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; margin-block: 2rem !important; }
+.sf-page[data-page="home"] #care-standard .sf-content-card-grid { grid-template-columns: 1fr !important; margin-block: 2rem !important; }
+
+/* 06 planning: a fresh full-width editorial definition sequence. */
+.sf-page[data-page="home"] .sf-home-planning-rebuild__inner { display: grid; grid-template-columns: minmax(18rem, 5fr) minmax(0, 7fr); gap: var(--home-column-gap); align-items: start; }
+.sf-page[data-page="home"] .sf-home-planning-rebuild .sf-section-head { grid-column: 1; margin: 0 !important; }
+.sf-page[data-page="home"] .sf-home-planning-rebuild__factors { grid-column: 2; display: grid; border-block: 1px solid rgb(234 213 173 / .42); }
+.sf-page[data-page="home"] .sf-home-planning-rebuild__factors article { display: grid; grid-template-columns: 2.5rem minmax(0, 1fr); gap: 1rem; padding: 1.5rem 0; }
+.sf-page[data-page="home"] .sf-home-planning-rebuild__factors article + article { border-block-start: 1px solid rgb(234 213 173 / .25); }
+.sf-page[data-page="home"] .sf-home-planning-rebuild__factors span { color: var(--gold-200); font-family: var(--font-heading); font-size: 1.3rem; }
+.sf-page[data-page="home"] .sf-home-planning-rebuild__factors h3 { margin: 0 0 .4rem; color: var(--gold-200); }
+.sf-page[data-page="home"] .sf-home-planning-rebuild__factors p { margin: 0; color: rgb(255 253 249 / .82); font-size: 1rem; line-height: 1.65; }
+.sf-page[data-page="home"] .sf-home-planning-rebuild .sf-practitioner-quote,.sf-page[data-page="home"] .sf-home-planning-rebuild .sf-button-row { grid-column: 2; }
+@media (max-width: 63.999rem) { .sf-page[data-page="home"] .sf-home-planning-rebuild__inner { grid-template-columns: 1fr; } .sf-page[data-page="home"] .sf-home-planning-rebuild :is(.sf-section-head,.sf-home-planning-rebuild__factors,.sf-practitioner-quote,.sf-button-row) { grid-column: 1; } }
+
+.sf-page[data-page="home"] #what-shapes-a-plan .sf-statement-inner { display: grid !important; grid-template-columns: minmax(18rem, 5fr) minmax(0, 7fr) !important; gap: var(--home-column-gap) !important; align-items: start !important; }
+.sf-page[data-page="home"] #what-shapes-a-plan .sf-section-head,
+.sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria,
+.sf-page[data-page="home"] #what-shapes-a-plan .sf-practitioner-quote { grid-column: 2 !important; grid-row: auto !important; }
+.sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait { grid-column: 1 !important; grid-row: 1 / span 3 !important; margin: 0 !important; }
+.sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait img { display: block !important; inline-size: 100% !important; block-size: 36rem !important; opacity: 1 !important; visibility: visible !important; object-fit: cover !important; border-radius: .75rem !important; }
+.sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria { display: grid !important; grid-template-columns: 1fr !important; gap: 0 !important; margin: 0 !important; padding: 0 !important; border-block: 1px solid var(--color-border-warm) !important; }
+.sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria li { min-block-size: 0 !important; border: 0 !important; border-radius: 0 !important; padding: 1.25rem 0 !important; }
+.sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria li + li { border-block-start: 1px solid var(--color-border-subtle) !important; }
+
+.sf-page[data-page="home"] #meet-franciele .sf-home-profile__canvas { display: grid !important; grid-template-columns: minmax(18rem, 5fr) minmax(0, 7fr) !important; gap: var(--home-column-gap) !important; align-items: start !important; }
+.sf-page[data-page="home"] #meet-franciele .sf-home-profile__visual { grid-column: 1 !important; max-inline-size: none !important; padding: 0 !important; }
+.sf-page[data-page="home"] #meet-franciele .sf-home-profile__visual::before,.sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait::after { display: none !important; }
+.sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait { border-radius: .75rem !important; box-shadow: none !important; }
+.sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait img { display: block !important; block-size: 36rem !important; translate: none !important; object-fit: cover !important; }
+.sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait figcaption { position: static !important; background: var(--ivory-50) !important; color: var(--forest-900) !important; }
+.sf-page[data-page="home"] #meet-franciele .sf-home-profile__content { grid-column: 2 !important; padding: 0 !important; }
+.sf-page[data-page="home"] #meet-franciele .sf-home-profile__principles { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: var(--home-card-gap) !important; border: 0 !important; }
+.sf-page[data-page="home"] #meet-franciele .sf-home-profile__principles li { min-block-size: 0 !important; border: 1px solid var(--color-border-warm) !important; padding: 1.25rem !important; }
+
+.sf-page[data-page="home"] #results-in-context .sf-home-results__canvas { inline-size: min(calc(100% - 2 * var(--home-gutter)), var(--home-canvas-max)) !important; }
+.sf-page[data-page="home"] #common-questions .sf-content-card-grid { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
+@media (max-width: 63.999rem) {
+  .sf-page[data-page="home"] :is(#care-pathways .sf-editorial-media-layout,#treatment-families .sf-editorial-media-layout,#care-standard .sf-editorial-media-layout,#what-shapes-a-plan .sf-statement-inner,#meet-franciele .sf-home-profile__canvas) { grid-template-columns: 1fr !important; }
+  .sf-page[data-page="home"] :is(#treatment-families .sf-editorial-media,#care-standard .sf-editorial-media,#what-shapes-a-plan .sf-plan-portrait,#meet-franciele .sf-home-profile__visual,#what-shapes-a-plan .sf-section-head,#what-shapes-a-plan .sf-plan-criteria,#what-shapes-a-plan .sf-practitioner-quote,#meet-franciele .sf-home-profile__content) { grid-column: 1 !important; grid-row: auto !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-content-card-grid,.sf-page[data-page="home"] #common-questions .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+}
+@media (max-width: 35.999rem) {
+  .sf-page[data-page="home"] #consultation-journey .sf-content-card-grid,.sf-page[data-page="home"] #common-questions .sf-content-card-grid,.sf-page[data-page="home"] #meet-franciele .sf-home-profile__principles { grid-template-columns: 1fr !important; }
+}
+
+/* Fresh consultation chapter: a reading-led introduction with a four-part field note. */
+.sf-page[data-page="home"] .sf-home-consultation-new { background: var(--ivory-50) !important; }
+.sf-page[data-page="home"] .sf-home-consultation-new .sf-section-inner { display: grid !important; grid-template-columns: minmax(17rem, 4fr) minmax(0, 8fr) !important; gap: var(--home-column-gap) !important; align-items: start !important; }
+.sf-page[data-page="home"] .sf-home-consultation-new .sf-section-head { grid-column: 1 !important; grid-row: 1 / span 2 !important; margin: 0 !important; }
+.sf-page[data-page="home"] .sf-home-consultation-new .sf-content-card-grid { grid-column: 2 !important; grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 0 !important; border-block: 1px solid var(--color-border-warm) !important; }
+.sf-page[data-page="home"] .sf-home-consultation-new .sf-content-card { min-block-size: 14rem !important; border: 0 !important; border-radius: 0 !important; background: transparent !important; box-shadow: none !important; padding: 1.5rem !important; }
+.sf-page[data-page="home"] .sf-home-consultation-new .sf-content-card:nth-child(even) { border-inline-start: 1px solid var(--color-border-warm) !important; }
+.sf-page[data-page="home"] .sf-home-consultation-new .sf-content-card:nth-child(n + 3) { border-block-start: 1px solid var(--color-border-warm) !important; }
+.sf-page[data-page="home"] .sf-home-consultation-new .sf-practitioner-quote { grid-column: 2 !important; inline-size: 100% !important; margin: 1.5rem 0 0 !important; padding-inline-start: 0 !important; border-inline-start: 0 !important; box-shadow: none !important; }
+
+/* Fresh practitioner chapter: portrait, biography and principles on one shared grid. */
+.sf-page[data-page="home"] .sf-home-practitioner-new .sf-home-profile__canvas { display: grid !important; grid-template-columns: minmax(18rem, 5fr) minmax(0, 7fr) !important; gap: var(--home-column-gap) !important; align-items: start !important; }
+.sf-page[data-page="home"] .sf-home-practitioner-new .sf-home-profile__visual { grid-column: 1 !important; grid-row: 1 !important; max-inline-size: none !important; padding: 0 !important; }
+.sf-page[data-page="home"] .sf-home-practitioner-new .sf-home-profile__visual::before,.sf-page[data-page="home"] .sf-home-practitioner-new .sf-home-profile__portrait::after { display: none !important; }
+.sf-page[data-page="home"] .sf-home-practitioner-new .sf-home-profile__portrait { margin: 0 !important; border-radius: .75rem !important; box-shadow: none !important; }
+.sf-page[data-page="home"] .sf-home-practitioner-new .sf-home-profile__portrait img { block-size: 38rem !important; translate: none !important; object-fit: cover !important; }
+.sf-page[data-page="home"] .sf-home-practitioner-new .sf-home-profile__portrait figcaption { position: static !important; display: grid !important; gap: .25rem !important; background: var(--forest-900) !important; color: var(--ivory-50) !important; padding: 1rem 1.25rem !important; }
+.sf-page[data-page="home"] .sf-home-practitioner-new .sf-home-profile__location { position: static !important; margin: .75rem 0 0 !important; color: var(--rose-gold-700) !important; writing-mode: initial !important; }
+.sf-page[data-page="home"] .sf-home-practitioner-new .sf-home-profile__content { grid-column: 2 !important; padding: 0 !important; }
+.sf-page[data-page="home"] .sf-home-practitioner-new .sf-home-profile__principles { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 1rem !important; margin: 2rem 0 0 !important; border: 0 !important; }
+.sf-page[data-page="home"] .sf-home-practitioner-new .sf-home-profile__principles li { min-block-size: 0 !important; border: 1px solid var(--color-border-warm) !important; padding: 1.25rem !important; }
+@media (max-width: 63.999rem) { .sf-page[data-page="home"] .sf-home-consultation-new .sf-section-inner,.sf-page[data-page="home"] .sf-home-practitioner-new .sf-home-profile__canvas { grid-template-columns: 1fr !important; } .sf-page[data-page="home"] .sf-home-consultation-new :is(.sf-section-head,.sf-content-card-grid,.sf-practitioner-quote),.sf-page[data-page="home"] .sf-home-practitioner-new :is(.sf-home-profile__visual,.sf-home-profile__content) { grid-column: 1 !important; grid-row: auto !important; } }
+@media (max-width: 35.999rem) { .sf-page[data-page="home"] .sf-home-consultation-new .sf-content-card-grid,.sf-page[data-page="home"] .sf-home-practitioner-new .sf-home-profile__principles { grid-template-columns: 1fr !important; } .sf-page[data-page="home"] .sf-home-consultation-new .sf-content-card:nth-child(n) { border-inline-start: 0 !important; } .sf-page[data-page="home"] .sf-home-consultation-new .sf-content-card + .sf-content-card { border-block-start: 1px solid var(--color-border-warm) !important; } }
+
+/* Responsive guardrails for the rebuilt consultation and planning chapters. */
+.sf-page[data-page="home"] :is(#consultation-new, #care-standard, #practitioner-new) img { max-inline-size: 100%; }
+.sf-page[data-page="home"] :is(#consultation-new, #care-standard, #practitioner-new) :is(.sf-content-card-grid, .sf-home-planning-rebuild__factors) { min-inline-size: 0; }
+@media (max-width: 75rem) {
+  .sf-page[data-page="home"] .sf-home-planning-rebuild__inner { grid-template-columns: minmax(15rem, 4fr) minmax(0, 8fr); gap: clamp(1.5rem, 4vw, 3rem); }
+  .sf-page[data-page="home"] .sf-home-consultation-new .sf-section-inner { grid-template-columns: minmax(14rem, 4fr) minmax(0, 8fr) !important; gap: clamp(1.5rem, 4vw, 3rem) !important; }
+}
+@media (max-width: 63.999rem) {
+  .sf-page[data-page="home"] .sf-home-planning-rebuild__inner,
+  .sf-page[data-page="home"] .sf-home-consultation-new .sf-section-inner { grid-template-columns: 1fr !important; }
+  .sf-page[data-page="home"] .sf-home-planning-rebuild :is(.sf-section-head, .sf-home-planning-rebuild__factors, .sf-practitioner-quote, .sf-button-row),
+  .sf-page[data-page="home"] .sf-home-consultation-new :is(.sf-section-head, .sf-content-card-grid, .sf-practitioner-quote) { grid-column: 1 !important; grid-row: auto !important; }
+  .sf-page[data-page="home"] .sf-home-planning-rebuild .sf-section-head,
+  .sf-page[data-page="home"] .sf-home-consultation-new .sf-section-head { margin-block-end: 2rem !important; }
+  .sf-page[data-page="home"] .sf-home-consultation-new .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+}
+@media (max-width: 47.999rem) {
+  .sf-page[data-page="home"] { --home-gutter: 1.25rem; --home-section-space: clamp(3.5rem, 12vw, 4.5rem); }
+  .sf-page[data-page="home"] .sf-section-head h2 { max-inline-size: 18ch !important; }
+  .sf-page[data-page="home"] .sf-home-planning-rebuild__factors article { grid-template-columns: 2rem minmax(0, 1fr); gap: .75rem; padding: 1.25rem 0; }
+  .sf-page[data-page="home"] .sf-home-planning-rebuild__factors p { font-size: .98rem; }
+  .sf-page[data-page="home"] .sf-home-consultation-new .sf-content-card-grid { grid-template-columns: 1fr !important; }
+  .sf-page[data-page="home"] .sf-home-consultation-new .sf-content-card { min-block-size: 0 !important; }
+  .sf-page[data-page="home"] .sf-home-consultation-new .sf-content-card:nth-child(n) { border-inline-start: 0 !important; }
+  .sf-page[data-page="home"] .sf-home-consultation-new .sf-content-card + .sf-content-card { border-block-start: 1px solid var(--color-border-warm) !important; }
+  .sf-page[data-page="home"] :is(#consultation-new, #care-standard, #practitioner-new) .sf-button-row { align-items: stretch; }
+  .sf-page[data-page="home"] :is(#consultation-new, #care-standard, #practitioner-new) .sf-button { inline-size: 100%; justify-content: center; }
+}
+
+/* Final phone override: no desktop column, fixed-width media or constrained copy survives below 512px. */
+@media (max-width: 32rem) {
+  .sf-page[data-page="home"] .sf-main > .sf-section .sf-canvas { inline-size: calc(100% - 2.5rem) !important; }
+  .sf-page[data-page="home"] :is(#consultation-new, #care-standard, #practitioner-new, #treatment-families, #what-shapes-a-plan) :is(.sf-section-inner, .sf-editorial-media-layout, .sf-statement-inner, .sf-home-profile__canvas, .sf-home-profile__content, .sf-home-profile__visual) { display: block !important; inline-size: 100% !important; min-inline-size: 0 !important; max-inline-size: none !important; min-block-size: 0 !important; block-size: auto !important; margin: 0 !important; padding-inline: 0 !important; transform: none !important; translate: none !important; }
+  .sf-page[data-page="home"] :is(#consultation-new, #care-standard, #practitioner-new, #treatment-families, #what-shapes-a-plan) :is(.sf-editorial-media, .sf-plan-portrait, .sf-home-profile__portrait) { position: static !important; inline-size: 100% !important; min-inline-size: 0 !important; max-inline-size: none !important; min-block-size: 0 !important; margin: 0 0 1.5rem !important; transform: none !important; translate: none !important; }
+  .sf-page[data-page="home"] :is(#consultation-new, #care-standard, #practitioner-new, #treatment-families, #what-shapes-a-plan) :is(.sf-editorial-media img, .sf-plan-portrait img, .sf-home-profile__portrait img) { display: block !important; inline-size: 100% !important; max-inline-size: 100% !important; block-size: auto !important; min-block-size: 0 !important; max-block-size: none !important; object-fit: cover !important; transform: none !important; translate: none !important; }
+  .sf-page[data-page="home"] :is(#consultation-new, #care-standard, #practitioner-new, #treatment-families, #what-shapes-a-plan) :is(.sf-section-head, .sf-content-card-grid, .sf-home-planning-rebuild__factors, .sf-practitioner-quote, .sf-button-row) { inline-size: 100% !important; min-inline-size: 0 !important; max-inline-size: none !important; }
+  .sf-page[data-page="home"] :is(#consultation-new, #care-standard, #practitioner-new, #treatment-families, #what-shapes-a-plan) :is(h2, h3, p) { overflow-wrap: normal !important; word-break: normal !important; hyphens: none !important; }
+}
+
+/* Treatment families and care standard: explicit tablet/mobile layouts. */
+@media (max-width: 64rem) {
+  .sf-page[data-page="home"] #treatment-families .sf-editorial-media-layout,
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-statement-inner { display: block !important; inline-size: min(calc(100% - 2.5rem), var(--home-canvas-max)) !important; min-inline-size: 0 !important; margin-inline: auto !important; }
+  .sf-page[data-page="home"] #treatment-families .sf-section-inner,
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-section-head,
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria,
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-practitioner-quote { display: block !important; inline-size: 100% !important; min-inline-size: 0 !important; max-inline-size: none !important; }
+  .sf-page[data-page="home"] #treatment-families .sf-editorial-media,
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait { display: block !important; inline-size: 100% !important; min-inline-size: 0 !important; max-inline-size: none !important; margin: 2rem 0 !important; position: static !important; transform: none !important; translate: none !important; }
+  .sf-page[data-page="home"] #treatment-families .sf-editorial-media img,
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait img { inline-size: 100% !important; block-size: auto !important; min-block-size: 0 !important; max-block-size: none !important; object-fit: cover !important; }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria { grid-template-columns: 1fr !important; border-block: 1px solid var(--color-border-warm) !important; }
+}
+@media (max-width: 40rem) {
+  .sf-page[data-page="home"] #treatment-families .sf-content-card-grid { grid-template-columns: 1fr !important; }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card { min-block-size: 0 !important; }
+}
+
+/* Mobile-first replacement chapters. */
+.sf-page[data-page="home"] .sf-home-mobile-chapter { padding-block: var(--home-section-space) !important; }
+.sf-page[data-page="home"] .sf-home-mobile-chapter .sf-section-inner { display: flex; flex-direction: column; gap: 1.5rem; }
+.sf-page[data-page="home"] .sf-home-mobile-chapter .sf-section-head { margin: 0 !important; }
+.sf-page[data-page="home"] .sf-home-mobile-chapter__media { order: 2; margin: 0; }
+.sf-page[data-page="home"] .sf-home-mobile-chapter__media img { display: block; inline-size: 100%; block-size: auto; max-block-size: 30rem; object-fit: cover; border-radius: .75rem; }
+.sf-page[data-page="home"] .sf-home-mobile-chapter .sf-content-card-grid { order: 3; display: grid; grid-template-columns: 1fr; gap: 1rem; margin: 0; }
+.sf-page[data-page="home"] .sf-home-mobile-chapter .sf-content-card { min-block-size: 0 !important; }
+.sf-page[data-page="home"] #treatments-new { background: linear-gradient(118deg, var(--forest-900), var(--olive-700)) !important; color: var(--ivory-50); }
+.sf-page[data-page="home"] #treatments-new .sf-section-inner { max-inline-size: var(--home-canvas-max) !important; }
+.sf-page[data-page="home"] #treatments-new .sf-home-mobile-chapter__note { color: rgb(255 253 249 / .8); }
+.sf-page[data-page="home"] #treatments-new .sf-content-card { background: transparent !important; border: 0 !important; border-radius: 0 !important; box-shadow: none !important; }
+.sf-page[data-page="home"] #treatments-new .sf-content-card :is(h3, p) { color: var(--ivory-50) !important; }
+.sf-page[data-page="home"] #treatments-new .sf-content-card p { color: rgb(255 253 249 / .78) !important; }
+.sf-page[data-page="home"] .sf-home-mobile-chapter__note { order: 4; max-inline-size: 62ch; margin: 0; }
+.sf-page[data-page="home"] .sf-home-mobile-chapter .sf-practitioner-quote,.sf-page[data-page="home"] .sf-home-mobile-chapter .sf-button-row { order: 5; }
+@media (min-width: 48rem) { .sf-page[data-page="home"] .sf-home-mobile-chapter .sf-section-inner { display: grid; grid-template-columns: minmax(0, 7fr) minmax(18rem, 5fr); gap: var(--home-column-gap); align-items: start; } .sf-page[data-page="home"] .sf-home-mobile-chapter .sf-section-head { grid-column: 1; } .sf-page[data-page="home"] .sf-home-mobile-chapter__media { grid-column: 2; grid-row: 1 / span 3; } .sf-page[data-page="home"] .sf-home-mobile-chapter .sf-content-card-grid { grid-column: 1; grid-template-columns: repeat(2, minmax(0,1fr)); } .sf-page[data-page="home"] #standard-new .sf-content-card-grid { grid-template-columns: 1fr; } .sf-page[data-page="home"] .sf-home-mobile-chapter :is(.sf-home-mobile-chapter__note,.sf-practitioner-quote,.sf-button-row) { grid-column: 1; } }
+@media (min-width: 64rem) {
+  .sf-page[data-page="home"] .sf-home-mobile-chapter { padding-block: clamp(5.5rem, 8vw, 8rem) !important; }
+  .sf-page[data-page="home"] .sf-home-mobile-chapter .sf-section-inner { grid-template-columns: minmax(0, 7.25fr) minmax(22rem, 4.75fr); gap: clamp(3.5rem, 7vw, 7rem); }
+  .sf-page[data-page="home"] .sf-home-mobile-chapter .sf-section-head h2 { max-inline-size: 12ch !important; font-size: clamp(3rem, 4.2vw, 4.9rem) !important; }
+  .sf-page[data-page="home"] .sf-home-mobile-chapter__media { align-self: stretch; overflow: hidden; background: var(--sage-100); }
+  .sf-page[data-page="home"] .sf-home-mobile-chapter__media img { inline-size: 100%; block-size: 100%; min-block-size: 38rem; max-block-size: none; object-fit: cover; }
+  .sf-page[data-page="home"] #treatments-new .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border-block: 1px solid var(--color-border-rose); }
+  .sf-page[data-page="home"] #treatments-new .sf-content-card { min-block-size: 10.5rem !important; border: 0; border-radius: 0; background: transparent; }
+  .sf-page[data-page="home"] #treatments-new .sf-content-card:nth-child(even) { border-inline-start: 1px solid var(--color-border-rose); }
+  .sf-page[data-page="home"] #treatments-new .sf-content-card:nth-child(n + 3) { border-block-start: 1px solid var(--color-border-rose); }
+  .sf-page[data-page="home"] #standard-new .sf-content-card-grid { gap: 0; border-block: 1px solid var(--color-border-warm); }
+  .sf-page[data-page="home"] #standard-new .sf-content-card { min-block-size: 0 !important; border: 0; border-radius: 0; background: transparent; }
+  .sf-page[data-page="home"] #standard-new .sf-content-card + .sf-content-card { border-block-start: 1px solid var(--color-border-warm); }
+}
+
+/* Treatment families: a full-width forest directory with horizontal bands. */
+@media (min-width: 48rem) {
+  .sf-page[data-page="home"] #treatments-new .sf-section-inner { display: grid !important; grid-template-columns: minmax(0, 7fr) minmax(20rem, 5fr) !important; gap: clamp(3rem, 7vw, 7rem) !important; }
+  .sf-page[data-page="home"] #treatments-new .sf-section-head { grid-column: 1 !important; }
+  .sf-page[data-page="home"] #treatments-new .sf-home-mobile-chapter__media { grid-column: 2 !important; grid-row: 1 / span 4 !important; margin: 0 !important; }
+  .sf-page[data-page="home"] #treatments-new .sf-content-card-grid { grid-column: 1 !important; grid-template-columns: repeat(3, minmax(0, 1fr)) !important; gap: 0 !important; border-block: 1px solid rgb(234 213 173 / .42) !important; }
+  .sf-page[data-page="home"] #treatments-new .sf-content-card { min-block-size: 11rem !important; padding: 1.5rem !important; }
+  .sf-page[data-page="home"] #treatments-new .sf-content-card:nth-child(3n + 2),.sf-page[data-page="home"] #treatments-new .sf-content-card:nth-child(3n + 3) { border-inline-start: 1px solid rgb(234 213 173 / .24) !important; }
+  .sf-page[data-page="home"] #treatments-new .sf-content-card:nth-child(n + 4) { border-block-start: 1px solid rgb(234 213 173 / .24) !important; }
+  .sf-page[data-page="home"] #treatments-new :is(.sf-home-mobile-chapter__note,.sf-button-row) { grid-column: 1 !important; }
 }

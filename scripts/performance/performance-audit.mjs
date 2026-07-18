@@ -4,7 +4,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { basename, resolve } from 'node:path';
 import { spawn } from 'node:child_process';
 import process from 'node:process';
-import { startStaticServer } from './lib/static-server.mjs';
+import { startStaticServer } from '../lib/static-server.mjs';
 
 const REPRESENTATIVE_ROUTES = Object.freeze([
   'index.html',
@@ -335,8 +335,8 @@ async function main() {
     },
     groups
   };
-  const rootJson = args.label === 'baseline' ? 'PERFORMANCE-BASELINE.json' : 'PERFORMANCE-VALIDATION.json';
-  const rootMarkdown = args.label === 'baseline' ? 'PERFORMANCE-BASELINE.md' : 'PERFORMANCE-VALIDATION.md';
+  const rootJson = args.label === 'baseline' ? 'reports/performance/baseline.json' : 'reports/performance/validation.json';
+  const rootMarkdown = args.label === 'baseline' ? 'reports/performance/baseline.md' : 'reports/performance/validation.md';
   await writeFile(resolve(rootJson), `${JSON.stringify(result, null, 2)}\n`);
   await writeFile(resolve(rootMarkdown), markdownReport(result));
   process.stdout.write(`Wrote ${rootJson}, ${rootMarkdown}, and ${groups.length * args.runs} raw reports.\n`);

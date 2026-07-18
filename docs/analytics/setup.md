@@ -11,7 +11,7 @@ This guide separates what is already implemented in the repository from the Goog
 - Uses basic consent mode: GTM is not requested until analytics permission is granted.
 - Reuses the existing English and Portuguese cookie controls and saved preference.
 - Pushes a non-GA4 `page_context` setup event.
-- Pushes the custom events listed in `GTM-EVENT-MEASUREMENT-PLAN.csv`.
+- Pushes the custom events listed in [the event measurement plan](event-measurement-plan.csv).
 - Protects contact, consultation and accessibility form fields from value collection.
 - Requires a confirmed Formspree response before `form_success` or `generate_lead`.
 - Deduplicates leads with a short-lived, random, non-personal `sessionStorage` record.

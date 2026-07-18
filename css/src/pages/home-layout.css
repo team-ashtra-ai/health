@@ -1,4 +1,12 @@
-/* Homepage final layout: one Sofiati canvas and a small family of editorial grids. */
+/*
+ * Homepage layout authority
+ *
+ * This module owns the final home-page grid decisions and responsive
+ * guardrails. It is deliberately last in the manifest and unlayered so its
+ * production precedence stays identical to the former separately loaded
+ * stylesheet. New homepage layout work belongs here; do not add a second
+ * homepage stylesheet or a late "fix" file.
+ */
 .sf-page[data-page="home"] {
   --home-canvas-max: 84rem;
   --home-gutter: clamp(1.25rem, 4vw, 4rem);

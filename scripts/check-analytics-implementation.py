@@ -20,7 +20,7 @@ from bs4 import BeautifulSoup
 
 
 ROOT = Path(__file__).resolve().parents[1]
-REPORT = ROOT / "ANALYTICS-VALIDATION-REPORT.json"
+REPORT = ROOT / "reports" / "validation" / "analytics.json"
 CONFIG = ROOT / "js" / "analytics-config.js"
 ANALYTICS = ROOT / "js" / "analytics.js"
 CONSENT = ROOT / "js" / "consent-manager.js"

@@ -26,7 +26,7 @@ PERF_ROUTES=contact.html PERF_RUNS=3 npm run perf:desktop
 Capture Chrome DevTools-compatible traces, network data and CSS/JavaScript coverage:
 
 ```bash
-node scripts/performance-trace.mjs --source dist --label final
+node scripts/performance/performance-trace.mjs --source dist --label final
 ```
 
 Recreate the image inventory:
@@ -45,12 +45,12 @@ Run functional, responsive, SEO and analytics checks:
 
 ```bash
 npm run validate
-NODE_PATH=node_modules python3 scripts/audit-responsive-layout.py
+python3 scripts/screenshot_manager.py
 ```
 
 ## Budgets and review rules
 
-`performance-budget.json` contains laboratory and page-type resource budgets. The strict internal medians are engineering targets. CI uses slightly more tolerant hard failures so normal Lighthouse variance does not fail a healthy change.
+[`config/performance/budget.json`](../../config/performance/budget.json) contains laboratory and page-type resource budgets. The strict internal medians are engineering targets. CI uses slightly more tolerant hard failures so normal Lighthouse variance does not fail a healthy change.
 
 A pull request must not introduce:
 
@@ -115,8 +115,8 @@ The GitHub Actions workflow builds once, runs five mobile and five desktop Light
 Local equivalents:
 
 ```bash
-npx lhci autorun --config=lighthouserc.mobile.cjs
-npx lhci autorun --config=lighthouserc.desktop.cjs
+npx lhci autorun --config=config/performance/lighthouserc.mobile.cjs
+npx lhci autorun --config=config/performance/lighthouserc.desktop.cjs
 ```
 
 ## Production field monitoring

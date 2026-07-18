@@ -48,8 +48,8 @@ npm run perf:psi
 The API key is optional but helps with quota. Never commit it. To limit a verification pass:
 
 ```bash
-node scripts/psi-audit.mjs --paths /,/treatments.html,/contact.html
-node scripts/psi-audit.mjs --strategy mobile --limit 10
+node scripts/performance/psi-audit.mjs --paths /,/treatments.html,/contact.html
+node scripts/performance/psi-audit.mjs --strategy mobile --limit 10
 ```
 
 The report distinguishes URL-level CrUX, origin-level CrUX and unavailable field data. A low-traffic URL with no URL-level CrUX record is expected and is not a technical error.

@@ -17,7 +17,7 @@ from PIL import Image
 
 
 ROOT = Path(__file__).resolve().parents[1]
-REPORT = ROOT / "SEO-VALIDATION-REPORT.md"
+REPORT = ROOT / "reports" / "validation" / "seo.md"
 SEO = json.loads((ROOT / "data" / "seo.json").read_text(encoding="utf-8"))
 ORIGIN = str(SEO["domain"]).rstrip("/")
 INDEX_ROBOTS = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"

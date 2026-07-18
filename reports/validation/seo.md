@@ -6,8 +6,8 @@
 
 - Public HTML pages parsed: 52
 - Canonical, indexable URLs in sitemap: 48
-- Images audited: 363
-- Decorative images with empty alt text: 165
+- Images audited: 414
+- Decorative images with empty alt text: 176
 - Post-hero navigation targets: 48
 
 ## Validation summary
@@ -49,27 +49,27 @@
 | `legal.html` | 69 chars | 157 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
 | `mission.html` | 46 chars | 145 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | AboutPage |
 | `privacy.html` | 44 chars | 167 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
-| `pt/404.html` | 41 chars | 120 chars | `noindex, follow` | WebPage |
-| `pt/about.html` | 47 chars | 136 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | AboutPage, ProfilePage |
-| `pt/accessibility.html` | 44 chars | 136 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
-| `pt/blog.html` | 58 chars | 134 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | CollectionPage, Blog |
-| `pt/care.html` | 56 chars | 134 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
-| `pt/consultation.html` | 49 chars | 135 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage, FAQPage, Service |
-| `pt/contact.html` | 49 chars | 138 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | ContactPage |
-| `pt/cookies.html` | 49 chars | 128 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
-| `pt/faq.html` | 55 chars | 135 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | FAQPage |
-| `pt/index.html` | 57 chars | 134 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage, FAQPage |
-| `pt/journal.html` | 51 chars | 129 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | CollectionPage, Blog, ItemList |
-| `pt/laser.html` | 51 chars | 134 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage, MedicalWebPage, Service |
-| `pt/legal.html` | 52 chars | 135 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
-| `pt/mission.html` | 47 chars | 136 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | AboutPage |
-| `pt/privacy.html` | 50 chars | 137 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
-| `pt/results.html` | 53 chars | 133 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
-| `pt/skin.html` | 51 chars | 135 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage, MedicalWebPage, Service |
-| `pt/testimonials.html` | 52 chars | 123 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
-| `pt/thank-you.html` | 37 chars | 133 chars | `noindex, follow` | WebPage |
-| `pt/treatments.html` | 53 chars | 140 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | CollectionPage, Service, ItemList |
-| `pt/values.html` | 50 chars | 139 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | AboutPage |
+| `pt/404.html` | 49 chars | 151 chars | `noindex, follow` | WebPage |
+| `pt/about.html` | 42 chars | 164 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | AboutPage, ProfilePage |
+| `pt/accessibility.html` | 42 chars | 144 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
+| `pt/blog.html` | 35 chars | 128 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | CollectionPage, Blog |
+| `pt/care.html` | 42 chars | 158 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
+| `pt/consultation.html` | 29 chars | 144 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage, FAQPage, Service |
+| `pt/contact.html` | 52 chars | 162 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | ContactPage |
+| `pt/cookies.html` | 63 chars | 159 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
+| `pt/faq.html` | 14 chars | 151 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | FAQPage |
+| `pt/index.html` | 29 chars | 137 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage, FAQPage |
+| `pt/journal.html` | 26 chars | 163 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | CollectionPage, Blog, ItemList |
+| `pt/laser.html` | 29 chars | 152 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage, MedicalWebPage, Service |
+| `pt/legal.html` | 56 chars | 152 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
+| `pt/mission.html` | 47 chars | 151 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | AboutPage |
+| `pt/privacy.html` | 48 chars | 131 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
+| `pt/results.html` | 50 chars | 135 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
+| `pt/skin.html` | 24 chars | 140 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage, MedicalWebPage, Service |
+| `pt/testimonials.html` | 57 chars | 141 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
+| `pt/thank-you.html` | 38 chars | 149 chars | `noindex, follow` | WebPage |
+| `pt/treatments.html` | 32 chars | 141 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | CollectionPage, Service, ItemList |
+| `pt/values.html` | 46 chars | 150 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | AboutPage |
 | `results.html` | 48 chars | 127 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
 | `skin.html` | 41 chars | 134 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage, MedicalWebPage, Service |
 | `testimonials.html` | 54 chars | 133 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |

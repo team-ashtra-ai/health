@@ -4,7 +4,7 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import sharp from 'sharp';
 import { chromium } from 'playwright-core';
-import { startStaticServer } from './lib/static-server.mjs';
+import { startStaticServer } from '../lib/static-server.mjs';
 
 const VIEWPORTS = [
   [320, 800],

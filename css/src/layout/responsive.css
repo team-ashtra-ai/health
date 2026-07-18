@@ -1,4 +1,56 @@
 @layer layout {
+  .sf-page[data-page="home"] #consultation-journey .sf-section-inner { display: block; }
+  .sf-page[data-page="home"] #consultation-journey .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-block: 2.5rem; }
+  .sf-page[data-page="home"] :is(#treatment-families, #care-standard) .sf-editorial-media-layout { grid-template-columns: minmax(0, 1.15fr) minmax(18rem, .85fr); gap: clamp(2.5rem, 6vw, 6rem); align-items: start; }
+  .sf-page[data-page="home"] :is(#treatment-families, #care-standard) .sf-section-inner { display: block; padding: 0; }
+  .sf-page[data-page="home"] #care-standard .sf-editorial-media { grid-column: 1; grid-row: 1; }
+  .sf-page[data-page="home"] #care-standard .sf-section-inner { grid-column: 2; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-statement-inner { grid-template-columns: minmax(0, 1.15fr) minmax(18rem, .85fr); gap: clamp(2.5rem, 6vw, 6rem); align-items: start; }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__canvas { grid-template-columns: minmax(0, 1.15fr) minmax(18rem, .85fr); gap: clamp(2.5rem, 6vw, 6rem); }
+
+  /* Keep the chapter lockup vertical: number, eyebrow, then title. */
+  .sf-page[data-page="home"] :is(#consultation-journey, #treatment-families, #what-shapes-a-plan, #care-standard, #meet-franciele) .sf-section-head { display: block !important; }
+  .sf-page[data-page="home"] :is(#consultation-journey, #treatment-families, #what-shapes-a-plan, #care-standard, #meet-franciele) .sf-section-head > :is(.sf-chapter-number, .sf-eyebrow, h2) { grid-column: auto !important; grid-row: auto !important; }
+
+  .sf-page[data-page="home"] #consultation-journey .sf-section-inner { max-inline-size: var(--container-wide); }
+  .sf-page[data-page="home"] #consultation-journey .sf-content-card-grid { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: var(--space-3) !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-content-card { min-block-size: 0 !important; padding: clamp(1.4rem, 2.5vw, 2rem) !important; }
+
+  .sf-page[data-page="home"] #treatment-families .sf-editorial-media-layout { display: grid !important; grid-template-columns: minmax(0, 1.1fr) minmax(20rem, .9fr) !important; gap: clamp(2.5rem, 6vw, 6rem) !important; align-items: start !important; }
+  .sf-page[data-page="home"] #treatment-families .sf-section-inner { display: block !important; min-inline-size: 0; }
+  .sf-page[data-page="home"] #treatment-families .sf-editorial-media { grid-column: 2 !important; grid-row: 1 !important; margin: 0 !important; }
+  .sf-page[data-page="home"] #treatment-families .sf-editorial-media img { block-size: 30rem !important; }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card-grid { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: var(--space-3) !important; margin-block: 2rem !important; border: 0 !important; }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card,
+  .sf-page[data-page="home"] #treatment-families .sf-content-card + .sf-content-card { min-block-size: 0 !important; border: 0 !important; border-radius: var(--radius-card) !important; padding: 1.35rem !important; }
+
+  /* The care standard: conventional editorial columns, never a split heading. */
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-statement-inner { display: grid !important; grid-template-columns: minmax(0, 1.1fr) minmax(20rem, .9fr) !important; gap: clamp(2.5rem, 6vw, 6rem) !important; align-items: start !important; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-section-head { display: block !important; grid-column: 1 !important; grid-row: 1 !important; max-inline-size: 34rem !important; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-section-head > :is(.sf-chapter-number, .sf-eyebrow, h2) { display: block !important; grid-column: auto !important; grid-row: auto !important; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait { grid-column: 2 !important; grid-row: 1 / span 3 !important; inline-size: 100% !important; margin: 0 !important; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria { display: grid !important; grid-column: 1 !important; grid-row: 2 !important; grid-template-columns: repeat(3, minmax(0, 1fr)) !important; gap: var(--space-3) !important; margin: 2rem 0 !important; padding: 0 !important; border: 0 !important; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-practitioner-quote { grid-column: 1 !important; grid-row: 3 !important; margin: 0 !important; }
+
+  /* Consultation journey: a familiar definition-block sequence. */
+  .sf-page[data-page="home"] #consultation-journey { background: var(--color-bg-soft) !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-section-inner { display: block !important; max-inline-size: var(--container-wide) !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-section-head { display: block !important; max-inline-size: 38rem !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-section-head > :is(.sf-chapter-number, .sf-eyebrow, h2) { display: block !important; grid-column: auto !important; grid-row: auto !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-content-card-grid { display: grid !important; grid-template-columns: repeat(4, minmax(0, 1fr)) !important; gap: var(--space-3) !important; margin: 0 !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-content-card { position: relative; min-block-size: 14rem !important; padding: 1.5rem !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-step-number { margin-block-end: 2rem !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-practitioner-quote { margin-block-start: 2rem !important; }
+  @media (max-width: 63.999rem) { .sf-page[data-page="home"] #consultation-journey .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; } }
+  @media (max-width: 35.999rem) { .sf-page[data-page="home"] #consultation-journey .sf-content-card-grid { grid-template-columns: 1fr !important; } }
+
+  /* Match the shared section rhythm used across the site. */
+  .sf-page[data-page="home"] #consultation-journey { padding-block: var(--section-compact) !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-section-inner { max-inline-size: none !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-section-head { margin-block-end: clamp(2rem, 4vw, 3.75rem) !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-content-card-grid { margin-block: 0 !important; }
+  .sf-page[data-page="home"] #consultation-journey .sf-practitioner-quote { margin-block: var(--space-4) 0 !important; }
+
   @media (max-width: 63.999rem) {
     .sf-editorial-media-layout,
     .sf-editorial-split,

@@ -3,8 +3,8 @@
 import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 
-const budgets = JSON.parse(await readFile(resolve('performance-budget.json'), 'utf8'));
-const report = JSON.parse(await readFile(resolve('PERFORMANCE-VALIDATION.json'), 'utf8'));
+const budgets = JSON.parse(await readFile(resolve('config/performance/budget.json'), 'utf8'));
+const report = JSON.parse(await readFile(resolve('reports/performance/validation.json'), 'utf8'));
 const failures = [];
 const warnings = [];
 

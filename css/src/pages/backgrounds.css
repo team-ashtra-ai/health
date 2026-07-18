@@ -6,7 +6,6 @@
 :root {
   --sffo-olive: var(--menu-green, #485440);
   --sffo-olive-deep: var(--forest-900, #243129);
-  --sffo-gold: var(--gold-300, #d5b57e);
   --sffo-gold-light: var(--gold-200, #ead5ad);
   --sffo-heading-rose: var(--rose-gold-500, #bd796b);
   --sffo-text: #f9f6eb;

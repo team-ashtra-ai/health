@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "generatedAt": "2026-07-18T16:18:09.165066+00:00",
+  "generatedAt": "2026-07-18T21:45:38.434063+00:00",
   "pagesChecked": 52,
   "scriptsPresent": {
     "required": [
@@ -631,7 +631,7 @@
     "sensitiveFieldProtectionPassed": true
   },
   "trackingAttributes": {
-    "meaningfulSections": 356,
+    "meaningfulSections": 364,
     "faqItems": 176,
     "installerIdempotent": true
   },
@@ -848,12 +848,12 @@
                 "content_group": "Trust",
                 "page_language": "en",
                 "page_path": "/about.html",
-                "lcp_ms": 92,
+                "lcp_ms": 104,
                 "cls_score": 0.032,
                 "inp_ms": 40,
                 "ttfb_ms": 2,
-                "dom_content_loaded_ms": 67,
-                "page_load_ms": 76
+                "dom_content_loaded_ms": 40,
+                "page_load_ms": 71
               }
             ]
           }

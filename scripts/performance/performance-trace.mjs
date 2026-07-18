@@ -5,7 +5,7 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import process from 'node:process';
 import { chromium } from 'playwright-core';
-import { startStaticServer } from './lib/static-server.mjs';
+import { startStaticServer } from '../lib/static-server.mjs';
 
 const ROUTES = (process.env.PERF_TRACE_ROUTES || [
   'index.html',

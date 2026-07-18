@@ -35,6 +35,8 @@ Open `http://127.0.0.1:4173/`.
 | Styling | `css/src/` | `css/site.css` |
 | Browser behavior | `js/main.js` and its modules | Native module runtime |
 | Consent-aware measurement | `js/analytics-config.js`, `js/consent-manager.js`, `js/analytics.js` | Consent-gated GTM data layer and event tracking |
+| Performance configuration | `config/performance/` | Lighthouse settings and budget checks |
+| Validation and performance evidence | `reports/` | Generated audit summaries; not public runtime files |
 | Search discovery | `scripts/generate-sitemap.py` and `scripts/generate-robots.py` | `sitemap.xml` and `robots.txt` |
 | LLM-oriented index | `llms.txt` | Curated public Markdown served at `/llms.txt` |
 
@@ -47,6 +49,8 @@ Portuguese page text may be improved directly when necessary, but shared Portugu
 Never publish private location details, invent clinical claims or convert educational content into individualized advice. Treatment suitability, settings, timing and outcomes must remain consultation-dependent.
 
 Use the [documentation guide](docs/README.md) for current maintenance instructions. The detailed legacy material is retained under `docs/archive/` for traceability only.
+
+`dist/` is an ignored, disposable production artifact. Run `npm run build` to recreate it, deploy that output, and never edit or commit it directly.
 
 ## Build workflows
 
@@ -124,7 +128,7 @@ python3 scripts/check-analytics-implementation.py
 The installer is idempotent. GA4 is delivered through GTM only, and GTM remains
 inactive until analytics consent is granted. Account setup and placeholder
 replacement are documented in
-`GOOGLE-ANALYTICS-GTM-SEARCH-CONSOLE-SETUP.md`.
+[the analytics, GTM and Search Console setup guide](docs/analytics/setup.md).
 
 ## Release validation
 
@@ -143,16 +147,21 @@ python3 scripts/check-analytics-implementation.py
 git diff --check
 ```
 
-For interaction and layout QA:
+For targeted visual QA, use the interactive screenshot manager:
 
 ```bash
-node scripts/audit-interactions.cjs
-python3 scripts/audit-responsive-layout.py
-python3 scripts/capture_sitewide_responsive_screenshots.py
 python3 scripts/screenshot_manager.py
 ```
 
 `screenshot_manager.py` can target selected languages, routes, viewports, sections, selectors, IDs, hero regions, main content, final calls to action or footers. It stores each run under `screenshots/interactive/` with a machine-readable manifest.
+
+To record a timestamped repository checkpoint, including an intentional empty commit:
+
+```bash
+python3 scripts/git-save.py
+```
+
+Add `--push` only when you are ready to send that commit to the configured remote.
 
 ## SEO architecture
 

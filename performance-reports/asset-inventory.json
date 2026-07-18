@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-18T13:17:14.525Z",
-  "imageCount": 873,
-  "totalBytes": 628267163,
-  "referencedImageCount": 144,
-  "unreferencedImageCount": 729,
+  "generatedAt": "2026-07-18T21:55:12.368Z",
+  "imageCount": 892,
+  "totalBytes": 630983327,
+  "referencedImageCount": 155,
+  "unreferencedImageCount": 737,
   "images": [
     {
       "source": "assets/photos/portrait20.jpeg",
@@ -2700,15 +2700,13 @@
         "1672x941"
       ],
       "foldContext": [
-        "above fold candidate",
-        "below fold"
+        "above fold candidate"
       ],
       "purpose": [
         "meaningful"
       ],
       "loading": [
-        "eager",
-        "lazy"
+        "eager"
       ],
       "candidateFormats": [
         "AVIF",
@@ -3016,10 +3014,8 @@
       "transparency": false,
       "pagesUsed": [
         "accessibility.html",
-        "index.html",
         "legal.html",
         "pt/accessibility.html",
-        "pt/index.html",
         "pt/legal.html"
       ],
       "displayDimensions": [
@@ -3165,15 +3161,15 @@
         "1672x941"
       ],
       "foldContext": [
-        "below fold",
-        "above fold candidate"
+        "above fold candidate",
+        "below fold"
       ],
       "purpose": [
         "meaningful"
       ],
       "loading": [
-        "lazy",
-        "eager"
+        "eager",
+        "lazy"
       ],
       "candidateFormats": [
         "AVIF",
@@ -4251,15 +4247,13 @@
         "1672x941"
       ],
       "foldContext": [
-        "above fold candidate",
-        "below fold"
+        "above fold candidate"
       ],
       "purpose": [
         "meaningful"
       ],
       "loading": [
-        "eager",
-        "lazy"
+        "eager"
       ],
       "candidateFormats": [
         "AVIF",
@@ -4422,15 +4416,13 @@
         "1672x941"
       ],
       "foldContext": [
-        "above fold candidate",
-        "below fold"
+        "above fold candidate"
       ],
       "purpose": [
         "meaningful"
       ],
       "loading": [
-        "eager",
-        "lazy"
+        "eager"
       ],
       "candidateFormats": [
         "AVIF",
@@ -4582,8 +4574,6 @@
       "bytes": 1823269,
       "transparency": false,
       "pagesUsed": [
-        "index.html",
-        "pt/index.html",
         "pt/values.html",
         "values.html"
       ],
@@ -4591,15 +4581,13 @@
         "1672x941"
       ],
       "foldContext": [
-        "above fold candidate",
         "below fold"
       ],
       "purpose": [
         "meaningful"
       ],
       "loading": [
-        "eager",
-        "lazy"
+        "browser default"
       ],
       "candidateFormats": [
         "AVIF",
@@ -5013,15 +5001,13 @@
         "1672x941"
       ],
       "foldContext": [
-        "above fold candidate",
-        "below fold"
+        "above fold candidate"
       ],
       "purpose": [
         "meaningful"
       ],
       "loading": [
-        "eager",
-        "lazy"
+        "eager"
       ],
       "candidateFormats": [
         "AVIF",
@@ -5300,14 +5286,12 @@
         "1672x941"
       ],
       "foldContext": [
-        "below fold",
         "above fold candidate"
       ],
       "purpose": [
         "meaningful"
       ],
       "loading": [
-        "lazy",
         "eager"
       ],
       "candidateFormats": [
@@ -6127,8 +6111,6 @@
       "bytes": 1709235,
       "transparency": false,
       "pagesUsed": [
-        "mission.html",
-        "pt/mission.html",
         "pt/testimonials.html",
         "testimonials.html"
       ],
@@ -6136,15 +6118,13 @@
         "1672x941"
       ],
       "foldContext": [
-        "above fold candidate",
-        "below fold"
+        "above fold candidate"
       ],
       "purpose": [
         "meaningful"
       ],
       "loading": [
-        "eager",
-        "lazy"
+        "eager"
       ],
       "candidateFormats": [
         "AVIF",
@@ -7909,22 +7889,11 @@
       "height": 1900,
       "bytes": 1266132,
       "transparency": true,
-      "pagesUsed": [
-        "pt/values.html",
-        "values.html"
-      ],
-      "displayDimensions": [
-        "52x52"
-      ],
-      "foldContext": [
-        "below fold"
-      ],
-      "purpose": [
-        "decorative"
-      ],
-      "loading": [
-        "lazy"
-      ],
+      "pagesUsed": [],
+      "displayDimensions": [],
+      "foldContext": [],
+      "purpose": [],
+      "loading": [],
       "candidateFormats": [
         "WebP",
         "AVIF where measured smaller"
@@ -7932,9 +7901,12 @@
       "responsiveWidths": [
         320,
         480,
-        640
+        640,
+        768,
+        960,
+        1267
       ],
-      "referenced": true
+      "referenced": false
     },
     {
       "source": "assets/trans.portraits/trans.portrait16.webp",
@@ -8424,22 +8396,11 @@
       "height": 1900,
       "bytes": 952608,
       "transparency": true,
-      "pagesUsed": [
-        "pt/values.html",
-        "values.html"
-      ],
-      "displayDimensions": [
-        "52x52"
-      ],
-      "foldContext": [
-        "below fold"
-      ],
-      "purpose": [
-        "decorative"
-      ],
-      "loading": [
-        "lazy"
-      ],
+      "pagesUsed": [],
+      "displayDimensions": [],
+      "foldContext": [],
+      "purpose": [],
+      "loading": [],
       "candidateFormats": [
         "WebP",
         "AVIF where measured smaller"
@@ -8447,9 +8408,12 @@
       "responsiveWidths": [
         320,
         480,
-        640
+        640,
+        768,
+        960,
+        1267
       ],
-      "referenced": true
+      "referenced": false
     },
     {
       "source": "assets/trans.portraits/trans.portrait14.webp",
@@ -8536,22 +8500,11 @@
       "height": 1900,
       "bytes": 921550,
       "transparency": true,
-      "pagesUsed": [
-        "pt/values.html",
-        "values.html"
-      ],
-      "displayDimensions": [
-        "52x52"
-      ],
-      "foldContext": [
-        "below fold"
-      ],
-      "purpose": [
-        "decorative"
-      ],
-      "loading": [
-        "lazy"
-      ],
+      "pagesUsed": [],
+      "displayDimensions": [],
+      "foldContext": [],
+      "purpose": [],
+      "loading": [],
       "candidateFormats": [
         "WebP",
         "AVIF where measured smaller"
@@ -8559,9 +8512,12 @@
       "responsiveWidths": [
         320,
         480,
-        640
+        640,
+        768,
+        960,
+        1267
       ],
-      "referenced": true
+      "referenced": false
     },
     {
       "source": "assets/trans.portraits/trans.portrait13.webp",
@@ -8726,22 +8682,11 @@
       "height": 1900,
       "bytes": 866054,
       "transparency": true,
-      "pagesUsed": [
-        "pt/values.html",
-        "values.html"
-      ],
-      "displayDimensions": [
-        "52x52"
-      ],
-      "foldContext": [
-        "below fold"
-      ],
-      "purpose": [
-        "decorative"
-      ],
-      "loading": [
-        "lazy"
-      ],
+      "pagesUsed": [],
+      "displayDimensions": [],
+      "foldContext": [],
+      "purpose": [],
+      "loading": [],
       "candidateFormats": [
         "WebP",
         "AVIF where measured smaller"
@@ -8749,9 +8694,13 @@
       "responsiveWidths": [
         320,
         480,
-        640
+        640,
+        768,
+        960,
+        1280,
+        1384
       ],
-      "referenced": true
+      "referenced": false
     },
     {
       "source": "assets/trans.portraits/trans.portrait12.webp",
@@ -8948,22 +8897,11 @@
       "height": 1900,
       "bytes": 830470,
       "transparency": true,
-      "pagesUsed": [
-        "pt/values.html",
-        "values.html"
-      ],
-      "displayDimensions": [
-        "52x52"
-      ],
-      "foldContext": [
-        "below fold"
-      ],
-      "purpose": [
-        "decorative"
-      ],
-      "loading": [
-        "lazy"
-      ],
+      "pagesUsed": [],
+      "displayDimensions": [],
+      "foldContext": [],
+      "purpose": [],
+      "loading": [],
       "candidateFormats": [
         "WebP",
         "AVIF where measured smaller"
@@ -8971,9 +8909,12 @@
       "responsiveWidths": [
         320,
         480,
-        640
+        640,
+        768,
+        960,
+        1267
       ],
-      "referenced": true
+      "referenced": false
     },
     {
       "source": "assets/trans.portraits/trans.portrait15.webp",
@@ -9086,22 +9027,11 @@
       "height": 1900,
       "bytes": 771246,
       "transparency": true,
-      "pagesUsed": [
-        "pt/values.html",
-        "values.html"
-      ],
-      "displayDimensions": [
-        "52x52"
-      ],
-      "foldContext": [
-        "below fold"
-      ],
-      "purpose": [
-        "decorative"
-      ],
-      "loading": [
-        "lazy"
-      ],
+      "pagesUsed": [],
+      "displayDimensions": [],
+      "foldContext": [],
+      "purpose": [],
+      "loading": [],
       "candidateFormats": [
         "WebP",
         "AVIF where measured smaller"
@@ -9109,9 +9039,12 @@
       "responsiveWidths": [
         320,
         480,
-        640
+        640,
+        768,
+        960,
+        1267
       ],
-      "referenced": true
+      "referenced": false
     },
     {
       "source": "assets/trans.portraits/trans.portrait17.webp",
@@ -9624,7 +9557,6 @@
         "consultation.html",
         "cookies.html",
         "faq.html",
-        "index.html",
         "laser.html",
         "legal.html",
         "mission.html",
@@ -9637,7 +9569,6 @@
         "pt/consultation.html",
         "pt/cookies.html",
         "pt/faq.html",
-        "pt/index.html",
         "pt/laser.html",
         "pt/legal.html",
         "pt/mission.html",
@@ -9973,22 +9904,11 @@
       "height": 1900,
       "bytes": 556432,
       "transparency": true,
-      "pagesUsed": [
-        "pt/values.html",
-        "values.html"
-      ],
-      "displayDimensions": [
-        "52x52"
-      ],
-      "foldContext": [
-        "below fold"
-      ],
-      "purpose": [
-        "decorative"
-      ],
-      "loading": [
-        "lazy"
-      ],
+      "pagesUsed": [],
+      "displayDimensions": [],
+      "foldContext": [],
+      "purpose": [],
+      "loading": [],
       "candidateFormats": [
         "WebP",
         "AVIF where measured smaller"
@@ -9996,9 +9916,13 @@
       "responsiveWidths": [
         320,
         480,
-        640
+        640,
+        768,
+        960,
+        1280,
+        1400
       ],
-      "referenced": true
+      "referenced": false
     },
     {
       "source": "assets/trans.portraits/trans.portrait11.webp",
@@ -12961,21 +12885,26 @@
         "journal/rebuilding-an-overwhelmed-skin-barrier.html",
         "journal/understanding-acne-scar-treatment.html",
         "journal.html",
-        "pt/journal.html"
+        "pt/journal.html",
+        "css/site.css"
       ],
       "displayDimensions": [
-        "1600x900"
+        "1600x900",
+        "CSS-dependent"
       ],
       "foldContext": [
         "above fold candidate",
-        "below fold"
+        "below fold",
+        "CSS-dependent"
       ],
       "purpose": [
-        "meaningful"
+        "meaningful",
+        "decorative unless surrounding content establishes meaning"
       ],
       "loading": [
         "eager",
-        "lazy"
+        "lazy",
+        "CSS resource discovery"
       ],
       "candidateFormats": [
         "WebP",
@@ -13127,21 +13056,26 @@
         "journal/persistent-facial-redness-and-vessels.html",
         "journal/understanding-facial-pigmentation.html",
         "journal.html",
-        "pt/journal.html"
+        "pt/journal.html",
+        "css/site.css"
       ],
       "displayDimensions": [
-        "1600x900"
+        "1600x900",
+        "CSS-dependent"
       ],
       "foldContext": [
         "above fold candidate",
-        "below fold"
+        "below fold",
+        "CSS-dependent"
       ],
       "purpose": [
-        "meaningful"
+        "meaningful",
+        "decorative unless surrounding content establishes meaning"
       ],
       "loading": [
         "eager",
-        "lazy"
+        "lazy",
+        "CSS resource discovery"
       ],
       "candidateFormats": [
         "WebP",
@@ -13267,6 +13201,654 @@
         941
       ],
       "referenced": false
+    },
+    {
+      "source": "assets/brand/heroes/about-hero-logo.webp",
+      "format": "webp",
+      "width": 1134,
+      "height": 1183,
+      "bytes": 142956,
+      "transparency": true,
+      "pagesUsed": [
+        "about.html",
+        "pt/about.html"
+      ],
+      "displayDimensions": [
+        "192x192"
+      ],
+      "foldContext": [
+        "above fold candidate"
+      ],
+      "purpose": [
+        "meaningful"
+      ],
+      "loading": [
+        "eager"
+      ],
+      "candidateFormats": [
+        "WebP",
+        "AVIF where measured smaller"
+      ],
+      "responsiveWidths": [
+        320,
+        480,
+        640
+      ],
+      "referenced": true
+    },
+    {
+      "source": "assets/brand/heroes/accessibility-hero-logo.webp",
+      "format": "webp",
+      "width": 1134,
+      "height": 1183,
+      "bytes": 142956,
+      "transparency": true,
+      "pagesUsed": [
+        "accessibility.html",
+        "pt/accessibility.html"
+      ],
+      "displayDimensions": [
+        "192x192"
+      ],
+      "foldContext": [
+        "above fold candidate"
+      ],
+      "purpose": [
+        "meaningful"
+      ],
+      "loading": [
+        "eager"
+      ],
+      "candidateFormats": [
+        "WebP",
+        "AVIF where measured smaller"
+      ],
+      "responsiveWidths": [
+        320,
+        480,
+        640
+      ],
+      "referenced": true
+    },
+    {
+      "source": "assets/brand/heroes/blog-hero-logo.webp",
+      "format": "webp",
+      "width": 1134,
+      "height": 1183,
+      "bytes": 142956,
+      "transparency": true,
+      "pagesUsed": [
+        "blog.html",
+        "pt/blog.html"
+      ],
+      "displayDimensions": [
+        "192x192"
+      ],
+      "foldContext": [
+        "above fold candidate"
+      ],
+      "purpose": [
+        "meaningful"
+      ],
+      "loading": [
+        "eager"
+      ],
+      "candidateFormats": [
+        "WebP",
+        "AVIF where measured smaller"
+      ],
+      "responsiveWidths": [
+        320,
+        480,
+        640
+      ],
+      "referenced": true
+    },
+    {
+      "source": "assets/brand/heroes/care-hero-logo.webp",
+      "format": "webp",
+      "width": 1134,
+      "height": 1183,
+      "bytes": 142956,
+      "transparency": true,
+      "pagesUsed": [
+        "care.html",
+        "pt/care.html"
+      ],
+      "displayDimensions": [
+        "192x192"
+      ],
+      "foldContext": [
+        "above fold candidate"
+      ],
+      "purpose": [
+        "meaningful"
+      ],
+      "loading": [
+        "eager"
+      ],
+      "candidateFormats": [
+        "WebP",
+        "AVIF where measured smaller"
+      ],
+      "responsiveWidths": [
+        320,
+        480,
+        640
+      ],
+      "referenced": true
+    },
+    {
+      "source": "assets/brand/heroes/consultation-hero-logo.webp",
+      "format": "webp",
+      "width": 1134,
+      "height": 1183,
+      "bytes": 142956,
+      "transparency": true,
+      "pagesUsed": [
+        "consultation.html",
+        "pt/consultation.html"
+      ],
+      "displayDimensions": [
+        "192x192"
+      ],
+      "foldContext": [
+        "above fold candidate"
+      ],
+      "purpose": [
+        "meaningful"
+      ],
+      "loading": [
+        "eager"
+      ],
+      "candidateFormats": [
+        "WebP",
+        "AVIF where measured smaller"
+      ],
+      "responsiveWidths": [
+        320,
+        480,
+        640
+      ],
+      "referenced": true
+    },
+    {
+      "source": "assets/brand/heroes/cookies-hero-logo.webp",
+      "format": "webp",
+      "width": 1134,
+      "height": 1183,
+      "bytes": 142956,
+      "transparency": true,
+      "pagesUsed": [
+        "cookies.html",
+        "pt/cookies.html"
+      ],
+      "displayDimensions": [
+        "192x192"
+      ],
+      "foldContext": [
+        "above fold candidate"
+      ],
+      "purpose": [
+        "meaningful"
+      ],
+      "loading": [
+        "eager"
+      ],
+      "candidateFormats": [
+        "WebP",
+        "AVIF where measured smaller"
+      ],
+      "responsiveWidths": [
+        320,
+        480,
+        640
+      ],
+      "referenced": true
+    },
+    {
+      "source": "assets/brand/heroes/faq-hero-logo.webp",
+      "format": "webp",
+      "width": 1134,
+      "height": 1183,
+      "bytes": 142956,
+      "transparency": true,
+      "pagesUsed": [
+        "faq.html",
+        "pt/faq.html"
+      ],
+      "displayDimensions": [
+        "192x192"
+      ],
+      "foldContext": [
+        "above fold candidate"
+      ],
+      "purpose": [
+        "meaningful"
+      ],
+      "loading": [
+        "eager"
+      ],
+      "candidateFormats": [
+        "WebP",
+        "AVIF where measured smaller"
+      ],
+      "responsiveWidths": [
+        320,
+        480,
+        640
+      ],
+      "referenced": true
+    },
+    {
+      "source": "assets/brand/heroes/hero-logo.webp",
+      "format": "webp",
+      "width": 1134,
+      "height": 1183,
+      "bytes": 142956,
+      "transparency": true,
+      "pagesUsed": [
+        "css/site.css"
+      ],
+      "displayDimensions": [
+        "CSS-dependent"
+      ],
+      "foldContext": [
+        "CSS-dependent"
+      ],
+      "purpose": [
+        "decorative unless surrounding content establishes meaning"
+      ],
+      "loading": [
+        "CSS resource discovery"
+      ],
+      "candidateFormats": [
+        "WebP",
+        "AVIF where measured smaller"
+      ],
+      "responsiveWidths": [
+        320,
+        480,
+        640,
+        768,
+        960,
+        1134
+      ],
+      "referenced": true
+    },
+    {
+      "source": "assets/brand/heroes/home-hero-logo.webp",
+      "format": "webp",
+      "width": 1134,
+      "height": 1183,
+      "bytes": 142956,
+      "transparency": true,
+      "pagesUsed": [
+        "index.html",
+        "pt/index.html"
+      ],
+      "displayDimensions": [
+        "192x192"
+      ],
+      "foldContext": [
+        "above fold candidate"
+      ],
+      "purpose": [
+        "meaningful"
+      ],
+      "loading": [
+        "eager"
+      ],
+      "candidateFormats": [
+        "WebP",
+        "AVIF where measured smaller"
+      ],
+      "responsiveWidths": [
+        320,
+        480,
+        640
+      ],
+      "referenced": true
+    },
+    {
+      "source": "assets/brand/heroes/laser-hero-logo.webp",
+      "format": "webp",
+      "width": 1134,
+      "height": 1183,
+      "bytes": 142956,
+      "transparency": true,
+      "pagesUsed": [
+        "laser.html",
+        "pt/laser.html"
+      ],
+      "displayDimensions": [
+        "192x192"
+      ],
+      "foldContext": [
+        "above fold candidate"
+      ],
+      "purpose": [
+        "meaningful"
+      ],
+      "loading": [
+        "eager"
+      ],
+      "candidateFormats": [
+        "WebP",
+        "AVIF where measured smaller"
+      ],
+      "responsiveWidths": [
+        320,
+        480,
+        640
+      ],
+      "referenced": true
+    },
+    {
+      "source": "assets/brand/heroes/legal-hero-logo.webp",
+      "format": "webp",
+      "width": 1134,
+      "height": 1183,
+      "bytes": 142956,
+      "transparency": true,
+      "pagesUsed": [
+        "legal.html",
+        "pt/legal.html"
+      ],
+      "displayDimensions": [
+        "192x192"
+      ],
+      "foldContext": [
+        "above fold candidate"
+      ],
+      "purpose": [
+        "meaningful"
+      ],
+      "loading": [
+        "eager"
+      ],
+      "candidateFormats": [
+        "WebP",
+        "AVIF where measured smaller"
+      ],
+      "responsiveWidths": [
+        320,
+        480,
+        640
+      ],
+      "referenced": true
+    },
+    {
+      "source": "assets/brand/heroes/mission-hero-logo.webp",
+      "format": "webp",
+      "width": 1134,
+      "height": 1183,
+      "bytes": 142956,
+      "transparency": true,
+      "pagesUsed": [
+        "mission.html",
+        "pt/mission.html"
+      ],
+      "displayDimensions": [
+        "192x192"
+      ],
+      "foldContext": [
+        "above fold candidate"
+      ],
+      "purpose": [
+        "meaningful"
+      ],
+      "loading": [
+        "eager"
+      ],
+      "candidateFormats": [
+        "WebP",
+        "AVIF where measured smaller"
+      ],
+      "responsiveWidths": [
+        320,
+        480,
+        640
+      ],
+      "referenced": true
+    },
+    {
+      "source": "assets/brand/heroes/privacy-hero-logo.webp",
+      "format": "webp",
+      "width": 1134,
+      "height": 1183,
+      "bytes": 142956,
+      "transparency": true,
+      "pagesUsed": [
+        "privacy.html",
+        "pt/privacy.html"
+      ],
+      "displayDimensions": [
+        "192x192"
+      ],
+      "foldContext": [
+        "above fold candidate"
+      ],
+      "purpose": [
+        "meaningful"
+      ],
+      "loading": [
+        "eager"
+      ],
+      "candidateFormats": [
+        "WebP",
+        "AVIF where measured smaller"
+      ],
+      "responsiveWidths": [
+        320,
+        480,
+        640
+      ],
+      "referenced": true
+    },
+    {
+      "source": "assets/brand/heroes/results-hero-logo.webp",
+      "format": "webp",
+      "width": 1134,
+      "height": 1183,
+      "bytes": 142956,
+      "transparency": true,
+      "pagesUsed": [
+        "pt/results.html",
+        "results.html"
+      ],
+      "displayDimensions": [
+        "192x192"
+      ],
+      "foldContext": [
+        "above fold candidate"
+      ],
+      "purpose": [
+        "meaningful"
+      ],
+      "loading": [
+        "eager"
+      ],
+      "candidateFormats": [
+        "WebP",
+        "AVIF where measured smaller"
+      ],
+      "responsiveWidths": [
+        320,
+        480,
+        640
+      ],
+      "referenced": true
+    },
+    {
+      "source": "assets/brand/heroes/skin-hero-logo.webp",
+      "format": "webp",
+      "width": 1134,
+      "height": 1183,
+      "bytes": 142956,
+      "transparency": true,
+      "pagesUsed": [
+        "pt/skin.html",
+        "skin.html"
+      ],
+      "displayDimensions": [
+        "192x192"
+      ],
+      "foldContext": [
+        "above fold candidate"
+      ],
+      "purpose": [
+        "meaningful"
+      ],
+      "loading": [
+        "eager"
+      ],
+      "candidateFormats": [
+        "WebP",
+        "AVIF where measured smaller"
+      ],
+      "responsiveWidths": [
+        320,
+        480,
+        640
+      ],
+      "referenced": true
+    },
+    {
+      "source": "assets/brand/heroes/testimonials-hero-logo.webp",
+      "format": "webp",
+      "width": 1134,
+      "height": 1183,
+      "bytes": 142956,
+      "transparency": true,
+      "pagesUsed": [
+        "pt/testimonials.html",
+        "testimonials.html"
+      ],
+      "displayDimensions": [
+        "192x192"
+      ],
+      "foldContext": [
+        "above fold candidate"
+      ],
+      "purpose": [
+        "meaningful"
+      ],
+      "loading": [
+        "eager"
+      ],
+      "candidateFormats": [
+        "WebP",
+        "AVIF where measured smaller"
+      ],
+      "responsiveWidths": [
+        320,
+        480,
+        640
+      ],
+      "referenced": true
+    },
+    {
+      "source": "assets/brand/heroes/thank-you-hero-logo.webp",
+      "format": "webp",
+      "width": 1134,
+      "height": 1183,
+      "bytes": 142956,
+      "transparency": true,
+      "pagesUsed": [
+        "pt/thank-you.html",
+        "thank-you.html"
+      ],
+      "displayDimensions": [
+        "192x192"
+      ],
+      "foldContext": [
+        "above fold candidate"
+      ],
+      "purpose": [
+        "meaningful"
+      ],
+      "loading": [
+        "eager"
+      ],
+      "candidateFormats": [
+        "WebP",
+        "AVIF where measured smaller"
+      ],
+      "responsiveWidths": [
+        320,
+        480,
+        640
+      ],
+      "referenced": true
+    },
+    {
+      "source": "assets/brand/heroes/treatments-hero-logo.webp",
+      "format": "webp",
+      "width": 1134,
+      "height": 1183,
+      "bytes": 142956,
+      "transparency": true,
+      "pagesUsed": [
+        "pt/treatments.html",
+        "treatments.html"
+      ],
+      "displayDimensions": [
+        "192x192"
+      ],
+      "foldContext": [
+        "above fold candidate"
+      ],
+      "purpose": [
+        "meaningful"
+      ],
+      "loading": [
+        "eager"
+      ],
+      "candidateFormats": [
+        "WebP",
+        "AVIF where measured smaller"
+      ],
+      "responsiveWidths": [
+        320,
+        480,
+        640
+      ],
+      "referenced": true
+    },
+    {
+      "source": "assets/brand/heroes/values-hero-logo.webp",
+      "format": "webp",
+      "width": 1134,
+      "height": 1183,
+      "bytes": 142956,
+      "transparency": true,
+      "pagesUsed": [
+        "pt/values.html",
+        "values.html"
+      ],
+      "displayDimensions": [
+        "192x192"
+      ],
+      "foldContext": [
+        "above fold candidate"
+      ],
+      "purpose": [
+        "meaningful"
+      ],
+      "loading": [
+        "eager"
+      ],
+      "candidateFormats": [
+        "WebP",
+        "AVIF where measured smaller"
+      ],
+      "responsiveWidths": [
+        320,
+        480,
+        640
+      ],
+      "referenced": true
     },
     {
       "source": "assets/brand/sofiati-logo-dark-transparent.webp",
@@ -13638,21 +14220,26 @@
         "journal/understanding-acne-scar-treatment.html",
         "journal/why-aesthetic-care-begins-with-consultation.html",
         "journal.html",
-        "pt/journal.html"
+        "pt/journal.html",
+        "css/site.css"
       ],
       "displayDimensions": [
-        "1600x900"
+        "1600x900",
+        "CSS-dependent"
       ],
       "foldContext": [
         "above fold candidate",
-        "below fold"
+        "below fold",
+        "CSS-dependent"
       ],
       "purpose": [
-        "meaningful"
+        "meaningful",
+        "decorative unless surrounding content establishes meaning"
       ],
       "loading": [
         "eager",
-        "lazy"
+        "lazy",
+        "CSS resource discovery"
       ],
       "candidateFormats": [
         "WebP",
@@ -13784,21 +14371,26 @@
         "journal/understanding-acne-scar-treatment.html",
         "journal/understanding-facial-pigmentation.html",
         "journal.html",
-        "pt/journal.html"
+        "pt/journal.html",
+        "css/site.css"
       ],
       "displayDimensions": [
-        "1600x900"
+        "1600x900",
+        "CSS-dependent"
       ],
       "foldContext": [
         "below fold",
-        "above fold candidate"
+        "above fold candidate",
+        "CSS-dependent"
       ],
       "purpose": [
-        "meaningful"
+        "meaningful",
+        "decorative unless surrounding content establishes meaning"
       ],
       "loading": [
         "lazy",
-        "eager"
+        "eager",
+        "CSS resource discovery"
       ],
       "candidateFormats": [
         "WebP",
@@ -13856,22 +14448,11 @@
       "height": 1402,
       "bytes": 69720,
       "transparency": false,
-      "pagesUsed": [
-        "pt/values.html",
-        "values.html"
-      ],
-      "displayDimensions": [
-        "52x52"
-      ],
-      "foldContext": [
-        "below fold"
-      ],
-      "purpose": [
-        "decorative"
-      ],
-      "loading": [
-        "lazy"
-      ],
+      "pagesUsed": [],
+      "displayDimensions": [],
+      "foldContext": [],
+      "purpose": [],
+      "loading": [],
       "candidateFormats": [
         "WebP",
         "AVIF where measured smaller"
@@ -13879,9 +14460,12 @@
       "responsiveWidths": [
         320,
         480,
-        640
+        640,
+        768,
+        960,
+        1122
       ],
-      "referenced": true
+      "referenced": false
     },
     {
       "source": "assets/quotations/results-quote-01.webp",
@@ -14303,21 +14887,26 @@
         "journal/understanding-facial-pigmentation.html",
         "journal/why-aesthetic-care-begins-with-consultation.html",
         "journal.html",
-        "pt/journal.html"
+        "pt/journal.html",
+        "css/site.css"
       ],
       "displayDimensions": [
-        "1600x900"
+        "1600x900",
+        "CSS-dependent"
       ],
       "foldContext": [
         "below fold",
-        "above fold candidate"
+        "above fold candidate",
+        "CSS-dependent"
       ],
       "purpose": [
-        "meaningful"
+        "meaningful",
+        "decorative unless surrounding content establishes meaning"
       ],
       "loading": [
         "lazy",
-        "eager"
+        "eager",
+        "CSS resource discovery"
       ],
       "candidateFormats": [
         "WebP",
@@ -14963,7 +15552,9 @@
       "bytes": 43086,
       "transparency": true,
       "pagesUsed": [
-        "journal/professional-skin-cleansing-guide.html"
+        "index.html",
+        "journal/professional-skin-cleansing-guide.html",
+        "pt/index.html"
       ],
       "displayDimensions": [
         "720x900"
@@ -15501,7 +16092,9 @@
       "bytes": 40384,
       "transparency": true,
       "pagesUsed": [
-        "journal/hair-thinning-causes-and-scalp-care.html"
+        "index.html",
+        "journal/hair-thinning-causes-and-scalp-care.html",
+        "pt/index.html"
       ],
       "displayDimensions": [
         "720x900"
@@ -15912,15 +16505,13 @@
         "719x900"
       ],
       "foldContext": [
-        "above fold candidate",
-        "below fold"
+        "above fold candidate"
       ],
       "purpose": [
         "meaningful"
       ],
       "loading": [
-        "eager",
-        "lazy"
+        "eager"
       ],
       "candidateFormats": [
         "WebP",
@@ -16058,18 +16649,22 @@
       "bytes": 39624,
       "transparency": true,
       "pagesUsed": [
-        "journal/fractional-co2-laser-recovery-and-aftercare.html"
+        "index.html",
+        "journal/fractional-co2-laser-recovery-and-aftercare.html",
+        "pt/index.html"
       ],
       "displayDimensions": [
         "720x900"
       ],
       "foldContext": [
+        "above fold candidate",
         "below fold"
       ],
       "purpose": [
         "meaningful"
       ],
       "loading": [
+        "eager",
         "lazy"
       ],
       "candidateFormats": [
@@ -16426,21 +17021,26 @@
         "journal/understanding-acne-scar-treatment.html",
         "journal/understanding-facial-pigmentation.html",
         "journal.html",
-        "pt/journal.html"
+        "pt/journal.html",
+        "css/site.css"
       ],
       "displayDimensions": [
-        "1600x900"
+        "1600x900",
+        "CSS-dependent"
       ],
       "foldContext": [
         "below fold",
-        "above fold candidate"
+        "above fold candidate",
+        "CSS-dependent"
       ],
       "purpose": [
-        "meaningful"
+        "meaningful",
+        "decorative unless surrounding content establishes meaning"
       ],
       "loading": [
         "lazy",
-        "eager"
+        "eager",
+        "CSS resource discovery"
       ],
       "candidateFormats": [
         "WebP",
@@ -17123,7 +17723,9 @@
       "bytes": 19644,
       "transparency": false,
       "pagesUsed": [
-        "journal/why-aesthetic-care-begins-with-consultation.html"
+        "index.html",
+        "journal/why-aesthetic-care-begins-with-consultation.html",
+        "pt/index.html"
       ],
       "displayDimensions": [
         "720x900"
@@ -18543,7 +19145,11 @@
       "bytes": 15534,
       "transparency": false,
       "pagesUsed": [
-        "journal/why-aesthetic-care-begins-with-consultation.html"
+        "index.html",
+        "journal/why-aesthetic-care-begins-with-consultation.html",
+        "pt/index.html",
+        "pt/values.html",
+        "values.html"
       ],
       "displayDimensions": [
         "720x900"

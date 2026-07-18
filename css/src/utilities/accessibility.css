@@ -30,6 +30,196 @@
     [data-reveal].is-revealed { opacity: 1; transform: none; }
   }
 
+  /* Homepage corrections: chapter 02 takes the dark full-width treatment;
+     chapter 06 becomes a complete, large editorial profile spread. */
+  .sf-page[data-page="home"] #consultation-journey { background: linear-gradient(120deg, rgb(17 30 13 / .98), rgb(36 49 41 / .95) 58%, rgb(58 75 50 / .92)), url("../assets/backgrounds/home-botanical-background.webp") center / cover !important; color: var(--ivory-50); }
+  .sf-page[data-page="home"] #consultation-journey .sf-section-head :is(h2, .sf-eyebrow), .sf-page[data-page="home"] #consultation-journey .sf-step h3 { color: var(--ivory-50); }
+  .sf-page[data-page="home"] #consultation-journey .sf-chapter-number, .sf-page[data-page="home"] #consultation-journey .sf-step-number { color: var(--gold-200); }
+  .sf-page[data-page="home"] #consultation-journey .sf-process-list { border-color: rgb(234 213 173 / .42); }
+  .sf-page[data-page="home"] #consultation-journey .sf-step + .sf-step { border-color: rgb(234 213 173 / .25); }
+  .sf-page[data-page="home"] #consultation-journey .sf-step p { color: rgb(255 253 249 / .76); }
+
+  .sf-page[data-page="home"] #meet-franciele { overflow: hidden; padding-block: clamp(6rem, 10vw, 11rem); }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__canvas { display: grid; grid-template-columns: minmax(8rem, .3fr) minmax(25rem, .92fr) minmax(32rem, 1.28fr); gap: clamp(2rem, 5vw, 6rem); align-items: stretch; max-inline-size: min(100% - 3rem, 96rem); }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__visual { position: relative; inline-size: 100%; padding-block-start: clamp(1rem, 4vw, 4rem); }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__visual::before { content: ""; position: absolute; z-index: -1; inset: 0 2.25rem 1.75rem -1.25rem; border-radius: 15rem 15rem .5rem .5rem; background: linear-gradient(155deg, var(--olive-700), var(--forest-900)); }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait { inline-size: 100%; margin: 0; overflow: hidden; border: 1px solid color-mix(in srgb, var(--gold-300) 75%, transparent); border-radius: 13rem 13rem .55rem .55rem; background: var(--blush-100); box-shadow: 0 2rem 4.5rem rgb(28 48 34 / .16); }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait img { inline-size: 100%; block-size: clamp(43rem, 54vw, 56rem); object-fit: cover; object-position: center top; }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait figcaption { display: grid; gap: .2rem; padding: 1.2rem 1.4rem 1.3rem; background: var(--ivory-50); }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait figcaption strong { font-size: 1.2rem; }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait figcaption span { font-size: .75rem; }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__location { margin: 1rem 0 0; color: var(--rose-gold-700); font-size: .72rem; letter-spacing: .18em; }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__content { display: flex; flex-direction: column; justify-content: center; min-inline-size: 0; padding-block: clamp(1rem, 4vw, 4rem); }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__content .sf-section-head { margin: 0 0 clamp(1.5rem, 3vw, 2.5rem); }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__content h2 { max-inline-size: 10ch; font-size: clamp(3.5rem, 5.7vw, 6.5rem); line-height: .9; }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__lede { max-inline-size: 37ch; font-size: clamp(1.35rem, 1.7vw, 1.75rem); line-height: 1.48; }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__content > p:not(.sf-home-profile__lede) { max-inline-size: 62ch; margin-block-start: 1.35rem; font-size: clamp(1rem, 1.1vw, 1.16rem); line-height: 1.72; }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__principles { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; margin-block: clamp(2.5rem, 4vw, 3.5rem) 0; border-block: 1px solid var(--color-border-warm); }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__principles li { min-block-size: 10.5rem; padding: clamp(1.25rem, 2vw, 1.75rem); }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__principles h3 { font-size: clamp(1.2rem, 1.45vw, 1.45rem); }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__principles p { font-size: .92rem; line-height: 1.62; }
+  .sf-page[data-page="home"] #meet-franciele .sf-button-row { margin-block-start: 2.5rem; }
+
+  @media (max-width: 63.999rem) {
+    .sf-page[data-page="home"] #meet-franciele .sf-home-profile__canvas { grid-template-columns: 6rem minmax(19rem, .88fr) minmax(0, 1.12fr); gap: clamp(1.5rem, 3vw, 3rem); }
+    .sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait img { block-size: clamp(38rem, 62vw, 48rem); }
+  }
+
+  @media (max-width: 47.999rem) {
+    .sf-page[data-page="home"] #meet-franciele .sf-home-profile__canvas { grid-template-columns: 1fr; max-inline-size: min(100% - 2.5rem, 40rem); }
+    .sf-page[data-page="home"] #meet-franciele .sf-home-profile__visual, .sf-page[data-page="home"] #meet-franciele .sf-home-profile__content { grid-column: auto; grid-row: auto; }
+    .sf-page[data-page="home"] #meet-franciele .sf-home-profile__content { display: flex; padding-block: 0; }
+    .sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait img { block-size: min(125vw, 42rem); }
+  }
+
+  /* Homepage Section 02 and Section 05 corrections — match the full-width
+     dark-green editorial rhythm used by the results chapter. */
+  .sf-page[data-page="home"] #care-pathways,
+  .sf-page[data-page="home"] #what-shapes-a-plan { background: radial-gradient(circle at 82% 20%, rgb(234 213 173 / .13), transparent 27rem), linear-gradient(118deg, var(--forest-900), var(--olive-700)) !important; color: var(--ivory-50); }
+  .sf-page[data-page="home"] #care-pathways :is(.sf-eyebrow, h2, h3), .sf-page[data-page="home"] #what-shapes-a-plan :is(.sf-eyebrow, h2, h3) { color: var(--ivory-50); }
+  .sf-page[data-page="home"] #care-pathways .sf-chapter-number, .sf-page[data-page="home"] #what-shapes-a-plan .sf-chapter-number { color: var(--gold-200); }
+
+  .sf-page[data-page="home"] #what-shapes-a-plan { padding-block: clamp(5rem, 8vw, 8.5rem); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-statement-inner { display: grid; grid-template-columns: minmax(0, 1.12fr) minmax(23rem, .88fr); gap: clamp(3rem, 6vw, 7rem); align-items: center; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-section-head { grid-column: 1; grid-row: 1; max-inline-size: 42rem; margin-block-end: clamp(1rem, 2vw, 2rem); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-section-head h2 { max-inline-size: 10ch; font-size: clamp(3.2rem, 5.3vw, 6rem); line-height: .92; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait { grid-column: 2; grid-row: 1 / span 3; position: relative; margin: 0; overflow: hidden; border: 1px solid rgb(234 213 173 / .42); border-radius: 50% 50% .55rem .55rem !important; background: rgb(255 253 249 / .08); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait::after { content: ""; position: absolute; inset: .75rem; border: 1px solid rgb(255 253 249 / .18); border-radius: 50% 50% .3rem .3rem; pointer-events: none; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait img { inline-size: 100%; block-size: clamp(37rem, 48vw, 48rem); object-fit: cover; object-position: center top; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria { grid-column: 1; grid-row: 2; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 0; padding: 0; border-block: 1px solid rgb(234 213 173 / .38); list-style: none; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria li { display: grid; grid-template-columns: 1fr; gap: .6rem; min-block-size: 13rem; padding: clamp(1.25rem, 2vw, 1.75rem); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria li + li { border-inline-start: 1px solid rgb(234 213 173 / .25); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria > li > span { color: var(--gold-200); font-family: var(--font-heading); font-size: 1.1rem; font-style: italic; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria h3 { margin: 0; font-size: clamp(1.2rem, 1.45vw, 1.45rem); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria p { margin: 0; color: rgb(255 253 249 / .72); font-size: .9rem; line-height: 1.62; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-practitioner-quote { grid-column: 1; grid-row: 3; max-inline-size: 39rem; margin: clamp(1.5rem, 3vw, 2.5rem) 0 0; border-color: rgb(234 213 173 / .55); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-practitioner-quote :is(.sf-pull-quote p, figcaption) { color: rgb(255 253 249 / .82); }
+
+  @media (max-width: 47.999rem) {
+    .sf-page[data-page="home"] #what-shapes-a-plan .sf-statement-inner { grid-template-columns: 1fr; }
+    .sf-page[data-page="home"] #what-shapes-a-plan :is(.sf-section-head, .sf-plan-portrait, .sf-plan-criteria, .sf-practitioner-quote) { grid-column: 1; grid-row: auto; }
+    .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait { inline-size: min(100%, 28rem); justify-self: center; }
+    .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait img { block-size: 33rem; }
+    .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria { grid-template-columns: 1fr; }
+    .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria li { min-block-size: 0; }
+    .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria li + li { border-block-start: 1px solid rgb(234 213 173 / .25); border-inline-start: 0; }
+  }
+
+  /* The actual Chapter 05 — “What shapes a plan” — follows the strong
+     two-part editorial composition of Chapter 07. */
+  .sf-page[data-page="home"] #care-standard { padding-block: clamp(6rem, 10vw, 10rem); background: radial-gradient(circle at 82% 18%, rgb(234 213 173 / .13), transparent 27rem), linear-gradient(118deg, var(--forest-900), var(--olive-700)) !important; }
+  .sf-page[data-page="home"] #care-standard .sf-editorial-media-layout { display: grid; grid-template-columns: minmax(0, 1.12fr) minmax(23rem, .88fr); gap: clamp(3rem, 6vw, 7rem); align-items: center; max-inline-size: min(100% - 3rem, 96rem); }
+  .sf-page[data-page="home"] #care-standard .sf-section-inner { grid-column: 1; grid-row: 1; display: block; padding: 0; }
+  .sf-page[data-page="home"] #care-standard .sf-section-head { max-inline-size: 43rem; margin-block-end: clamp(1.5rem, 3vw, 2.5rem); }
+  .sf-page[data-page="home"] #care-standard .sf-section-head h2 { max-inline-size: 10ch; font-size: clamp(3.25rem, 5.4vw, 6.1rem); line-height: .91; }
+  .sf-page[data-page="home"] #care-standard .sf-editorial-media { grid-column: 2; grid-row: 1; position: relative; margin: 0; overflow: hidden; border: 1px solid rgb(234 213 173 / .42); border-radius: 50% 50% .55rem .55rem !important; background: rgb(255 253 249 / .08); }
+  .sf-page[data-page="home"] #care-standard .sf-editorial-media::after { content: ""; position: absolute; inset: .75rem; border: 1px solid rgb(255 253 249 / .18); border-radius: 50% 50% .3rem .3rem; pointer-events: none; }
+  .sf-page[data-page="home"] #care-standard .sf-editorial-media img { inline-size: 100%; block-size: clamp(38rem, 50vw, 50rem); min-block-size: 0; object-fit: cover; object-position: center top; }
+  .sf-page[data-page="home"] #care-standard .sf-content-card-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; margin: clamp(2.5rem, 4vw, 3.5rem) 0 0; border-block: 1px solid rgb(234 213 173 / .38); }
+  .sf-page[data-page="home"] #care-standard .sf-content-card { display: grid; min-block-size: 13rem; border: 0; border-radius: 0; background: transparent; box-shadow: none; padding: clamp(1.25rem, 2vw, 1.75rem); }
+  .sf-page[data-page="home"] #care-standard .sf-content-card + .sf-content-card { border-inline-start: 1px solid rgb(234 213 173 / .25); }
+  .sf-page[data-page="home"] #care-standard .sf-content-card::before { content: none; }
+  .sf-page[data-page="home"] #care-standard .sf-content-card :is(h3, p) { grid-column: auto; }
+  .sf-page[data-page="home"] #care-standard .sf-content-card h3 { color: var(--ivory-50); font-size: clamp(1.2rem, 1.45vw, 1.45rem); }
+  .sf-page[data-page="home"] #care-standard .sf-content-card p { color: rgb(255 253 249 / .72); font-size: .9rem; line-height: 1.62; }
+  .sf-page[data-page="home"] #care-standard .sf-practitioner-quote { inline-size: min(100%, 42rem); margin: clamp(1.75rem, 3vw, 2.5rem) 0 0; padding: 0 0 0 1.25rem; border-color: rgb(234 213 173 / .55); }
+  .sf-page[data-page="home"] #care-standard .sf-practitioner-quote :is(.sf-pull-quote p, figcaption) { color: rgb(255 253 249 / .82); }
+  .sf-page[data-page="home"] #care-standard .sf-button-row { margin-block-start: 2.25rem; }
+
+  @media (max-width: 47.999rem) {
+    .sf-page[data-page="home"] #care-standard .sf-editorial-media-layout { grid-template-columns: 1fr; max-inline-size: min(100% - 2.5rem, 40rem); }
+    .sf-page[data-page="home"] #care-standard :is(.sf-section-inner, .sf-editorial-media) { grid-column: 1; grid-row: auto; }
+    .sf-page[data-page="home"] #care-standard .sf-editorial-media { inline-size: min(100%, 28rem); justify-self: center; }
+    .sf-page[data-page="home"] #care-standard .sf-editorial-media img { block-size: 34rem; }
+    .sf-page[data-page="home"] #care-standard .sf-content-card-grid { grid-template-columns: 1fr; }
+    .sf-page[data-page="home"] #care-standard .sf-content-card { min-block-size: 0; }
+    .sf-page[data-page="home"] #care-standard .sf-content-card + .sf-content-card { border-block-start: 1px solid rgb(234 213 173 / .25); border-inline-start: 0; }
+  }
+
+  /* Homepage editorial reset: only 01, 05 and 07 are dark, viewport-wide
+     chapters. Everything between them is a distinct contained composition. */
+  .sf-page[data-page="home"] #consultation-journey {
+    background: linear-gradient(135deg, var(--ivory-50), var(--ivory-100)) !important;
+    color: var(--forest-900);
+  }
+  .sf-page[data-page="home"] #consultation-journey :is(.sf-section-head h2, .sf-section-head .sf-eyebrow, .sf-step h3) { color: var(--forest-900); }
+  .sf-page[data-page="home"] #consultation-journey :is(.sf-chapter-number, .sf-step-number) { color: var(--rose-gold-700); }
+  .sf-page[data-page="home"] #consultation-journey .sf-process-list { border-color: color-mix(in srgb, var(--gold-500) 42%, transparent); }
+  .sf-page[data-page="home"] #consultation-journey .sf-step + .sf-step { border-color: color-mix(in srgb, var(--gold-500) 28%, transparent); }
+  .sf-page[data-page="home"] #consultation-journey .sf-step p { color: var(--color-text-secondary); }
+  .sf-page[data-page="home"] #consultation-journey .sf-practitioner-quote { max-inline-size: 34rem; margin-block-start: 1.75rem; opacity: .76; }
+  .sf-page[data-page="home"] #consultation-journey .sf-practitioner-quote .sf-pull-quote p { color: var(--forest-800); font-size: .95rem; }
+
+  .sf-page[data-page="home"] #treatment-families { background: linear-gradient(135deg, var(--blush-50), var(--ivory-50)) !important; }
+  .sf-page[data-page="home"] #treatment-families .sf-section-inner { grid-template-columns: minmax(17rem, .58fr) minmax(0, 1.42fr); gap: clamp(2.5rem, 6vw, 6rem); }
+  .sf-page[data-page="home"] #treatment-families .sf-home-treatment-atlas__image { grid-column: 1 / -1; grid-row: 2; margin: 0; overflow: hidden; border-radius: .6rem; }
+  .sf-page[data-page="home"] #treatment-families .sf-home-treatment-atlas__image img { inline-size: 100%; block-size: clamp(20rem, 32vw, 31rem); object-fit: cover; object-position: center; }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card-grid { grid-column: 2; grid-row: 1; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; margin: 0; border-block: 1px solid var(--color-border-rose); }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card { min-block-size: 10rem; border: 0; border-radius: 0; background: transparent; box-shadow: none; padding: 1.3rem; }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card:nth-child(even) { border-inline-start: 1px solid var(--color-border-rose); }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card:nth-child(n + 3) { border-block-start: 1px solid var(--color-border-rose); }
+  .sf-page[data-page="home"] #treatment-families .sf-section-inner > p, .sf-page[data-page="home"] #treatment-families .sf-button-row { grid-column: 2; }
+
+  .sf-page[data-page="home"] #what-shapes-a-plan { background: linear-gradient(135deg, var(--sage-50), var(--ivory-50)) !important; color: var(--forest-900); }
+  .sf-page[data-page="home"] #what-shapes-a-plan :is(.sf-eyebrow, h2, h3) { color: var(--forest-900); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-chapter-number { color: var(--rose-gold-700); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-statement-inner { display: grid; grid-template-columns: minmax(19rem, .78fr) minmax(0, 1.22fr); gap: clamp(2.5rem, 6vw, 6rem); align-items: center; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait { grid-column: 1; grid-row: 1 / span 3; inline-size: 100%; margin: 0; overflow: hidden; border: 0; border-radius: 12rem 12rem .55rem .55rem !important; box-shadow: var(--shadow-soft); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait::after { content: none; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait img { block-size: clamp(35rem, 46vw, 46rem); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-section-head { grid-column: 2; grid-row: 1; max-inline-size: 38rem; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-section-head h2 { max-inline-size: 11ch; font-size: clamp(2.9rem, 4.5vw, 5.2rem); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria { grid-column: 2; grid-row: 2; grid-template-columns: 1fr; border-block: 1px solid var(--color-border-warm); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria li { grid-template-columns: 2.75rem minmax(0, 1fr); min-block-size: 0; padding: 1.25rem 0; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria li + li { border-block-start: 1px solid var(--color-border-subtle); border-inline-start: 0; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria > li > span { color: var(--rose-gold-700); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria p { color: var(--color-text-secondary); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-practitioner-quote { grid-column: 2; grid-row: 3; margin: 1.5rem 0 0; padding-inline-start: 1rem; border-color: var(--gold-500); opacity: .75; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-practitioner-quote :is(.sf-pull-quote p, figcaption) { color: var(--forest-800); }
+
+  @media (max-width: 47.999rem) {
+    .sf-page[data-page="home"] #treatment-families .sf-section-inner, .sf-page[data-page="home"] #what-shapes-a-plan .sf-statement-inner { grid-template-columns: 1fr; }
+    .sf-page[data-page="home"] #treatment-families :is(.sf-section-head, .sf-home-treatment-atlas__image, .sf-content-card-grid, .sf-section-inner > p, .sf-button-row), .sf-page[data-page="home"] #what-shapes-a-plan :is(.sf-plan-portrait, .sf-section-head, .sf-plan-criteria, .sf-practitioner-quote) { grid-column: 1; grid-row: auto; }
+    .sf-page[data-page="home"] #treatment-families .sf-content-card-grid { grid-template-columns: 1fr; }
+    .sf-page[data-page="home"] #treatment-families .sf-content-card:nth-child(even) { border-inline-start: 0; }
+    .sf-page[data-page="home"] #treatment-families .sf-content-card + .sf-content-card { border-block-start: 1px solid var(--color-border-rose); }
+    .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait { inline-size: min(100%, 28rem); justify-self: center; }
+    .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait img { block-size: 33rem; }
+  }
+
+  .sf-page[data-page="home"] #treatment-families .sf-section-inner { display:grid; grid-template-columns:minmax(7rem,.2fr) minmax(18rem,.58fr) minmax(0,1.2fr); gap:clamp(2rem,4vw,5rem); max-inline-size:min(100% - 3rem,96rem); }
+  .sf-page[data-page="home"] #treatment-families .sf-section-head { grid-column:2; grid-row:1; margin:.5rem 0 0; }
+  .sf-page[data-page="home"] #treatment-families .sf-section-head h2 { max-inline-size:7ch; font-size:clamp(3.2rem,5vw,5.8rem); }
+  .sf-page[data-page="home"] #treatment-families .sf-home-treatment-atlas__image { grid-column:2; grid-row:2 / span 3; margin:0; overflow:hidden; border-radius:9rem 9rem .5rem .5rem; box-shadow:var(--shadow-raised); }
+  .sf-page[data-page="home"] #treatment-families .sf-home-treatment-atlas__image img { inline-size:100%; block-size:clamp(35rem,48vw,48rem); object-fit:cover; }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card-grid { grid-column:3; grid-row:1 / span 2; display:grid; grid-template-columns:repeat(2,1fr); gap:0; margin:0; border-block:1px solid var(--color-border-rose); }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card { min-block-size:12rem; border:0; border-radius:0; background:transparent; box-shadow:none; padding:1.5rem; }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card:nth-child(even) { border-inline-start:1px solid var(--color-border-rose); }
+  .sf-page[data-page="home"] #treatment-families .sf-content-card:nth-child(n + 3) { border-block-start:1px solid var(--color-border-rose); }
+  .sf-page[data-page="home"] #treatment-families .sf-section-inner > p, .sf-page[data-page="home"] #treatment-families .sf-button-row { grid-column:3; margin:0; }
+
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-statement-inner { display:grid; grid-template-columns:minmax(7rem,.2fr) minmax(21rem,.78fr) minmax(0,1.15fr); gap:clamp(2rem,5vw,6rem); max-inline-size:min(100% - 3rem,96rem); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait { grid-column:2; grid-row:1 / span 3; inline-size:100%; margin:0; border-radius:.5rem!important; box-shadow:var(--shadow-raised); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-portrait img { block-size:clamp(39rem,52vw,52rem); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-section-head, .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria, .sf-page[data-page="home"] #what-shapes-a-plan .sf-practitioner-quote { grid-column:3; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-section-head { grid-row:1; margin:0; }.sf-page[data-page="home"] #what-shapes-a-plan .sf-section-head h2 { color:var(--forest-900); max-inline-size:9ch; font-size:clamp(3rem,4.7vw,5.3rem); }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria { grid-row:2; grid-template-columns:1fr; margin:2rem 0 0; }.sf-page[data-page="home"] #what-shapes-a-plan .sf-plan-criteria p { color:var(--color-text-secondary); font-size:.98rem; }
+  .sf-page[data-page="home"] #what-shapes-a-plan .sf-practitioner-quote { grid-row:3; max-inline-size:32rem; opacity:.7; }
+
+  .sf-page[data-page="home"] #care-standard .sf-editorial-media-layout { display:grid; grid-template-columns:minmax(7rem,.2fr) minmax(0,1.15fr) minmax(25rem,.8fr); gap:clamp(2rem,5vw,6rem); max-inline-size:min(100% - 3rem,98rem); }
+  .sf-page[data-page="home"] #care-standard .sf-section-inner { grid-column:2; grid-row:1; display:block; padding:0; }.sf-page[data-page="home"] #care-standard .sf-section-head h2 { max-inline-size:9ch; font-size:clamp(3.5rem,5.8vw,6.5rem); }
+  .sf-page[data-page="home"] #care-standard .sf-editorial-media { grid-column:3; grid-row:1; margin:0; border-radius:.5rem!important; }.sf-page[data-page="home"] #care-standard .sf-editorial-media img { block-size:clamp(42rem,55vw,56rem); min-block-size:0; }
+  .sf-page[data-page="home"] #care-standard .sf-content-card-grid { grid-template-columns:repeat(3,1fr); margin:2.5rem 0 0; }.sf-page[data-page="home"] #care-standard .sf-content-card { min-block-size:13rem; padding:1.4rem; }.sf-page[data-page="home"] #care-standard .sf-content-card + .sf-content-card { border-inline-start:1px solid rgb(234 213 173 / .25); }
+  .sf-page[data-page="home"] #care-standard .sf-practitioner-quote { max-inline-size:31rem; opacity:.65; }
+
+  .sf-page[data-page="home"] #meet-franciele { background:linear-gradient(135deg,var(--ivory-50),var(--blush-50))!important; }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__canvas { grid-template-columns:minmax(7rem,.2fr) minmax(0,1.1fr) minmax(24rem,.75fr); gap:clamp(2rem,5vw,6rem); max-inline-size:min(100% - 3rem,98rem); }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__content { grid-column:2; display:block; padding:0; }.sf-page[data-page="home"] #meet-franciele .sf-home-profile__visual { grid-column:3; padding:0; }.sf-page[data-page="home"] #meet-franciele .sf-home-profile__visual::before { content:none; }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait { border:0; border-radius:.5rem; box-shadow:var(--shadow-raised); }.sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait img { block-size:clamp(43rem,58vw,58rem); }.sf-page[data-page="home"] #meet-franciele .sf-home-profile__portrait figcaption { background:var(--forest-900); color:var(--ivory-50); }
+  .sf-page[data-page="home"] #meet-franciele .sf-home-profile__content h2 { max-inline-size:8ch; font-size:clamp(3.7rem,6vw,6.7rem); }.sf-page[data-page="home"] #meet-franciele .sf-home-profile__principles { grid-template-columns:1fr; }.sf-page[data-page="home"] #meet-franciele .sf-home-profile__principles li { min-block-size:0; padding:1.2rem 0; }.sf-page[data-page="home"] #meet-franciele .sf-home-profile__principles li:nth-child(even) { border-inline-start:0; }
+
+  @media (max-width: 47.999rem) { .sf-page[data-page="home"] :is(#treatment-families .sf-section-inner,#what-shapes-a-plan .sf-statement-inner,#care-standard .sf-editorial-media-layout,#meet-franciele .sf-home-profile__canvas) { grid-template-columns:1fr; max-inline-size:min(100% - 2.5rem,40rem); } .sf-page[data-page="home"] :is(#treatment-families .sf-section-head,#treatment-families .sf-home-treatment-atlas__image,#treatment-families .sf-content-card-grid,#treatment-families .sf-section-inner > p,#treatment-families .sf-button-row,#what-shapes-a-plan .sf-plan-portrait,#what-shapes-a-plan .sf-section-head,#what-shapes-a-plan .sf-plan-criteria,#what-shapes-a-plan .sf-practitioner-quote,#care-standard .sf-section-inner,#care-standard .sf-editorial-media,#meet-franciele .sf-home-profile__visual,#meet-franciele .sf-home-profile__content) { grid-column:1; grid-row:auto; } .sf-page[data-page="home"] :is(#treatment-families .sf-content-card-grid,#care-standard .sf-content-card-grid) { grid-template-columns:1fr; } }
+
   @media print {
     #sf-topbar-inline, #sf-header-inline, #sf-mobile-menu-inline, #sf-cookie-inline, #sf-floating-inline, .sf-button-row { display: none; }
     body { background: var(--white); color: var(--forest-900); font-size: 11pt; }

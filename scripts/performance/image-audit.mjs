@@ -46,13 +46,13 @@ async function main() {
     headers.map(csvCell).join(','),
     ...rows.map((row) => row.map(csvCell).join(','))
   ].join('\n');
-  await writeFile(resolve('IMAGE-PERFORMANCE-AUDIT.csv'), `${csv}\n`);
+  await writeFile(resolve('reports/performance/image-audit.csv'), `${csv}\n`);
   await writeFile(
     resolve('performance-reports/asset-inventory.json'),
     `${JSON.stringify(inventory, null, 2)}\n`
   );
   process.stdout.write(
-    `Wrote IMAGE-PERFORMANCE-AUDIT.csv for ${inventory.imageCount} images; `
+    `Wrote reports/performance/image-audit.csv for ${inventory.imageCount} images; `
     + `${inventory.referencedImageCount} are referenced by current HTML or CSS.\n`
   );
 }
