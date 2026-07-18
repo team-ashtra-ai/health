@@ -210,17 +210,20 @@ ENGLISH_PAGES: tuple[str, ...] = (
     "values.html",
 )
 
-# The Journal publication has an independent source of truth (the supplied
-# ten-article Word document) and its own renderer. The general page renderer
-# must never replace that hand-curated publication with the legacy content
-# master sections.
+# These pages have independent, hand-authored layouts. The general renderer
+# must not replace their current structures with the older content-master
+# versions. Their visible copy is maintained in the page files and translated
+# from the rendered English source.
 EXTERNAL_RENDERED_PAGES = frozenset(
     {
         "404.html",
+        "about.html",
         "consultation.html",
         "contact.html",
         "cookies.html",
+        "index.html",
         "journal.html",
+        "legal.html",
     }
 )
 
@@ -232,27 +235,27 @@ FINAL_CTA_CONCEPTS: dict[str, str] = {
 }
 
 FINAL_CTA_COPY: dict[str, tuple[str, str, str, str]] = {
-    "404.html": ("Your care begins here", "A calm place to begin with a thoughtful conversation.", "Book a consultation", "Explore treatments"),
-    "about.html": ("Ready to explore your care?", "Tailored guidance for your goals and your pace.", "Book a consultation", "Learn more"),
-    "accessibility.html": ("Let’s plan your next step", "Personalised aesthetic care, considered beautifully.", "Begin your visit", "Contact the clinic"),
-    "blog.html": ("Your best version, considered", "A refined consultation shaped around you.", "Book a consultation", "View treatments"),
-    "care.html": ("Timeless beauty. Natural results.", "A more personal way to choose your care.", "Start here", "Discover more"),
-    "consultation.html": ("A thoughtful place to begin", "Bring your questions. Leave with a clear plan.", "Begin a consultation", "Contact us"),
-    "contact.html": ("Elevate your confidence", "Small details, expert care, your own rhythm.", "Book your visit", "Our approach"),
-    "cookies.html": ("Let’s create your next chapter", "Guidance that feels personal from the first conversation.", "Create my plan", "Contact the clinic"),
-    "faq.html": ("Care that feels like you", "Thoughtful treatment planning, without pressure.", "Start a conversation", "Explore care"),
-    "index.html": ("When you’re ready, I’m here", "You do not need every answer before you begin.", "Book a consultation", "Ask a question"),
-    "journal.html": ("Beauty, considered", "A private consultation for your skin and your goals.", "Book now", "Explore treatments"),
-    "laser.html": ("Your skin, your story", "Care with clinical clarity and a human touch.", "Begin with care", "Contact us"),
-    "legal.html": ("The art of feeling well", "A softer, more considered place to start.", "Discover your plan", "Learn more"),
-    "mission.html": ("A beautiful plan starts with listening", "Because the most fitting care is never one-size-fits-all.", "Book a consultation", "Our method"),
-    "privacy.html": ("Quiet confidence, beautifully yours", "Aesthetic medicine shaped around what matters to you.", "Start here", "Explore care"),
-    "results.html": ("Find your natural balance", "A personal next step for face, skin and confidence.", "Plan my visit", "Contact the clinic"),
-    "skin.html": ("Your time to glow", "A welcoming consultation with no rush and no pressure.", "Book now", "See treatments"),
-    "testimonials.html": ("Care, with intention", "The right plan begins with an honest conversation.", "Begin a consultation", "Ask a question"),
-    "thank-you.html": ("A new ritual for you", "Let thoughtful guidance bring clarity to your next step.", "Explore your options", "Contact us"),
-    "treatments.html": ("Beautifully individual", "Professional care that respects your own features and pace.", "Book your visit", "Our philosophy"),
-    "values.html": ("Welcome to your care ritual", "Skin guidance, expertly and gently tailored.", "Start here", "Learn more"),
+    "404.html": ("A useful next step", "Tell me what you need, and I’ll help you find the right route.", "Consult", "Treatments"),
+    "about.html": ("Let’s talk about you", "Bring the concern, the questions and the result you hope will feel natural.", "Consult", "Treatments"),
+    "accessibility.html": ("Need another format?", "Tell me what is making access difficult and I will try to help.", "Contact", "Treatments"),
+    "blog.html": ("Put advice in context", "A consultation can relate general guidance to your skin, history and priorities.", "Consult", "Treatments"),
+    "care.html": ("Prepare with confidence", "Your instructions will reflect the procedure, your skin and your planned recovery.", "Consult", "Treatments"),
+    "consultation.html": ("Bring your questions", "You do not need to choose a treatment before we speak.", "Consult", "Treatments"),
+    "contact.html": ("Ask Franciele", "A short message is enough to begin a helpful conversation.", "Consult", "Treatments"),
+    "cookies.html": ("Questions about privacy?", "You can ask how website information and cookie choices are handled.", "Contact", "Treatments"),
+    "faq.html": ("Still wondering?", "Franciele can discuss what the general answers mean for your concern.", "Consult", "Treatments"),
+    "index.html": ("Ready when you are", "Begin with what you would like to understand, not a treatment name.", "Consult", "Treatments"),
+    "journal.html": ("Read, then ask", "Professional guidance can help place general information in your own context.", "Consult", "Treatments"),
+    "laser.html": ("Is laser appropriate?", "Assessment helps match the technology, settings and recovery to the individual.", "Consult", "Treatments"),
+    "legal.html": ("Questions about terms?", "Ask for clarification before accepting a booking or service agreement.", "Contact", "Treatments"),
+    "mission.html": ("Care you understand", "Feel heard, know your options and choose what feels right for you.", "Consult", "Treatments"),
+    "privacy.html": ("A privacy question?", "Contact Franciele if you want to understand how your information is used.", "Contact", "Treatments"),
+    "results.html": ("Discuss your priorities", "Your starting point and response matter more than another person’s photograph.", "Consult", "Treatments"),
+    "skin.html": ("Understand your skin", "Franciele can help you simplify the concern and plan a sensible next step.", "Consult", "Treatments"),
+    "testimonials.html": ("Your experience matters", "Meet Franciele, ask questions and decide how the care feels to you.", "Consult", "Treatments"),
+    "thank-you.html": ("While you wait", "Keep any useful dates or questions ready for Franciele’s reply.", "Consult", "Treatments"),
+    "treatments.html": ("Choose with clarity", "Franciele will explain which options may fit and which ones may not.", "Consult", "Treatments"),
+    "values.html": ("See values in practice", "A consultation shows how listening, judgment and restraint shape each recommendation.", "Consult", "Treatments"),
 }
 
 PAGE_LABELS: dict[str, str] = {
@@ -1831,7 +1834,7 @@ def render_hero_brand() -> str:
         '<p class="sf-hero-brand" translate="no">'
         '<img src="assets/brand/sofiati-logo-menu.webp" alt="" '
         'width="32" height="32" loading="eager" decoding="async"/>'
-        '<span>Franciele Sofiati - Biomedic</span>'
+        '<span>Franciele Sofiati · Biomedical Aesthetics</span>'
         '</p>'
     )
 
@@ -1843,9 +1846,9 @@ def render_contact_form_guide() -> str:
     return (
         '<aside class="sf-contact-form-guide" aria-label="Other ways to reach the clinic">'
         '<p class="sf-contact-form-guide__promise">'
-        'Personal reply <span aria-hidden="true">·</span> Privacy respected '
-        '<span aria-hidden="true">·</span> No pressure to book</p>'
-        '<h2>Prefer a direct route?</h2>'
+        'A personal reply <span aria-hidden="true">·</span> Your privacy matters '
+        '<span aria-hidden="true">·</span> An enquiry is not a booking</p>'
+        '<h2>Would you rather contact Franciele directly?</h2>'
         '<ul class="sf-contact-form-guide__routes">'
         '<li><a href="https://wa.me/'
         f'{escape(whatsapp, quote=True)}"><span>WhatsApp</span>'
@@ -3048,9 +3051,9 @@ def render_final_cta_concept(filename: str) -> str:
         '<div class="sf-final-cta-lockup">'
         '<img src="assets/brand/sofiati-logo-gold-transparent.webp" alt="" '
         'width="58" height="58" loading="lazy" decoding="async">'
-        '<span>Franciele Sofiati · Aesthetic Medicine</span></div>'
+        '<span>Franciele Sofiati · Biomedical Aesthetics</span></div>'
         '<header class="sf-section-head">'
-        f'<p class="sf-eyebrow">A personal next step</p><h2>{escape(title)}</h2></header>'
+        f'<p class="sf-eyebrow">When you are ready</p><h2>{escape(title)}</h2></header>'
         f'<p class="sf-final-cta-copy">{escape(copy)}</p>'
         '<div class="sf-button-row">'
         f'<a class="sf-button sf-button--primary" href="consultation.html">{escape(primary)}</a>'

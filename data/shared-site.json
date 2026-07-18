@@ -1,15 +1,15 @@
 {
   "brand": {
     "name": "Franciele Sofiati Biomédica",
-    "tagline": "Skincare. Science. Confidence.",
-    "descriptor": "Franciele Sofiati Biomédica · Advanced aesthetic care in Londrina, Paraná.",
-    "voiceLine": "Warm in the experience. Precise in the decision."
+    "tagline": "Care with clarity and confidence.",
+    "descriptor": "Franciele Sofiati Biomédica · Consultation-led aesthetic care in Londrina, Paraná.",
+    "voiceLine": "Listen carefully. Explain honestly. Treat only when appropriate."
   },
   "trustStrip": [
-    "Consultation first",
+    "Consultation-led care",
     "Human reply",
     "Privacy respected",
-    "No pressure to proceed",
+    "Your choice remains yours",
     "Treatment-specific aftercare"
   ],
   "contact": {
@@ -22,7 +22,7 @@
     "location": "Londrina, Paraná, Brazil"
   },
   "reassurance": [
-    "You do not need to know which treatment to choose before contacting the clinic.",
+    "Tell Franciele what you have noticed; you do not need to choose a treatment first.",
     "A message can begin the conversation, but individual recommendations are confirmed in consultation.",
     "Treatment response, recovery and the number of sessions vary.",
     "No result is guaranteed and no photograph predicts another person’s response.",
@@ -38,8 +38,8 @@
     "googleReviewsUrl": "https://share.google/95oyMN4LpnqCR8NWS"
   },
   "footer": {
-    "introduction": "Franciele Sofiati Biomédica provides consultation-led aesthetic care in Londrina for skin, laser, facial, scalp, vascular and body treatment planning. Every recommendation begins with assessment, clear explanation and realistic expectations.",
-    "supportLine": "Begin with a question. Explore the information, understand the approach and request a consultation when you are ready for an individual assessment."
+    "introduction": "Franciele Sofiati Biomédica provides consultation-led aesthetic care in Londrina for skin, laser, facial, scalp, vascular and body concerns. Recommendations reflect assessment, suitability and the person’s priorities.",
+    "supportLine": "Begin with what you would like to understand. Franciele will explain whether treatment, preparation, referral or time may be appropriate."
   },
   "professional": {
     "name": "Franciele Sofiati",

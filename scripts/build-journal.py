@@ -339,7 +339,7 @@ class AuthorBlock:
     name: str = "Franciele Sofiati"
     credentials: list[str] = field(default_factory=list)
     label: str = "ABOUT THE AUTHOR"
-    statement: str = "Care, clarity and realistic expectations."
+    statement: str = "You deserve care that helps you feel informed, confident and completely yourself."
     bio: str = ""
     signoff: str = ""
 
@@ -833,7 +833,7 @@ def render_journal_index(articles: Sequence[Article]) -> str:
             <div class="sj-masthead__rail"><span>Franciele Sofiati</span><span class="sj-masthead__place">Professional perspectives · Londrina</span><span class="sj-masthead__edition">10 complete essays</span></div>
             <div class="sj-masthead__title-row">
               <div><p class="sj-publication-label">Skin health · Technology · Considered care</p><h1>Journal</h1></div>
-              <p class="sj-masthead__intro">Clear professional perspectives on skin health, aesthetic treatments, prevention, recovery, scalp care and <em>thoughtful treatment planning.</em></p>
+              <p class="sj-masthead__intro">Clear perspectives on skin health, aesthetic treatments, prevention, recovery, scalp care and <em>thoughtful planning.</em></p>
             </div>
           </header>
 
@@ -898,7 +898,7 @@ def render_journal_index(articles: Sequence[Article]) -> str:
           <section class="sj-signoff" aria-labelledby="journal-signoff-title">
             <div class="sj-signoff__inner sf-container">
               <figure><img src="assets/posts/journal/{by_number[10].config.author_portrait_filename}" alt="{escape(by_number[10].config.author_portrait_alt, quote=True)}" width="720" height="900" loading="lazy" decoding="async"/></figure>
-              <div class="sj-signoff__copy"><p class="sj-publication-label">A note from Franciele</p><h2 id="journal-signoff-title">Understand more. <em>Decide with clarity.</em></h2><p>These essays are an invitation to look beyond treatment names. Suitability, timing and expectations are personal; a professional assessment can help place the information in your own context.</p><div class="sj-signoff__actions"><a class="sf-button sf-button--primary" href="consultation.html">Request a Consultation</a><a href="treatments.html">Explore treatments <span aria-hidden="true">→</span></a></div></div>
+              <div class="sj-signoff__copy"><p class="sj-publication-label">A note from Franciele</p><h2 id="journal-signoff-title">Read with curiosity. <em>Choose with clarity.</em></h2><p>These articles offer useful context, but they cannot assess your skin or confirm suitability. Bring your questions to a consultation if you would like guidance that reflects your own history and priorities.</p><div class="sj-signoff__actions"><a class="sf-button sf-button--primary" href="consultation.html">Consult</a><a href="treatments.html">View treatments <span aria-hidden="true">→</span></a></div></div>
             </div>
           </section>
         </main>
@@ -1128,7 +1128,7 @@ def render_article_page(article: Article, all_articles: Sequence[Article]) -> st
             </section>
 
             <section class="sja-consultation" aria-labelledby="consultation-invitation-title-{article.config.number:02d}">
-              <div class="sja-consultation__inner sf-container"><p class="sja-label">Care, in context</p><h2 id="consultation-invitation-title-{article.config.number:02d}">Information becomes useful when it is placed in <em>your</em> context.</h2><p class="sja-consultation__copy">{escape(article.author.signoff or 'Treatment suitability depends on individual assessment, clear expectations and a plan shaped around the person receiving care.')}</p><p class="sja-consultation__copy">Treatment suitability depends on individual assessment. Expectations, preparation, recovery and alternatives should be discussed clearly before any procedure is chosen.</p><div><a class="sf-button sf-button--primary" href="../consultation.html">Request a Consultation</a><a href="../treatments.html">Explore treatment guidance <span aria-hidden="true">→</span></a></div></div>
+              <div class="sja-consultation__inner sf-container"><p class="sja-label">Care, in context</p><h2 id="consultation-invitation-title-{article.config.number:02d}">Bring the information into <em>your</em> context.</h2><p class="sja-consultation__copy">{escape(article.author.signoff or 'Treatment suitability depends on individual assessment, clear expectations and a plan shaped around the person receiving care.')}</p><p class="sja-consultation__copy">An assessment can consider your history, preparation, recovery and alternatives. Reading an article does not confirm that a procedure is suitable for you.</p><div><a class="sf-button sf-button--primary" href="../consultation.html">Consult</a><a href="../treatments.html">View treatments <span aria-hidden="true">→</span></a></div></div>
             </section>
 
             <section class="sja-related sf-container" aria-labelledby="related-reading-title-{article.config.number:02d}">

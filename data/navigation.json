@@ -1,17 +1,17 @@
 {
   "primary": [
-    { "label": "Home", "label_pt": "Início", "href": "index.html", "description": "Begin with Franciele’s consultation-first approach." },
-    { "label": "Treatments", "label_pt": "Tratamentos", "href": "treatments.html", "description": "Explore the complete treatment directory." },
-    { "label": "About", "label_pt": "Sobre", "href": "about.html", "description": "Meet Franciele and understand her professional philosophy." },
-    { "label": "Care", "label_pt": "Cuidado", "href": "care.html", "description": "Read how assessment, preparation, treatment and aftercare connect." },
+    { "label": "Home", "label_pt": "Início", "href": "index.html", "description": "Meet Franciele and see how consultation-led care works." },
+    { "label": "Treatments", "label_pt": "Tratamentos", "href": "treatments.html", "description": "Review confirmed treatment options and the concerns they may address." },
+    { "label": "About", "label_pt": "Sobre", "href": "about.html", "description": "Get to know Franciele and how she approaches aesthetic care." },
+    { "label": "Care", "label_pt": "Cuidado", "href": "care.html", "description": "Review preparation, recovery, aftercare and when to make contact." },
     { "label": "Laser", "label_pt": "Laser", "href": "laser.html", "description": "Understand laser technologies, suitability and recovery." },
-    { "label": "Skin", "label_pt": "Pele", "href": "skin.html", "description": "Learn about the barrier, acne, pigmentation, sensitivity and routines." },
+    { "label": "Skin", "label_pt": "Pele", "href": "skin.html", "description": "Understand the skin barrier, acne, pigmentation, sensitivity and useful routines." },
     { "label": "Results", "label_pt": "Resultados", "href": "results.html", "description": "View change with timing, photography and individual response in context." },
-    { "label": "Journal", "label_pt": "Guia", "href": "journal.html", "description": "Read thoughtful guidance before making a decision." },
-    { "label": "FAQ", "label_pt": "FAQ", "href": "faq.html", "description": "Find direct answers to practical questions." },
-    { "label": "Contact", "label_pt": "Contato", "href": "contact.html", "description": "Send a general message or request support." }
+    { "label": "Journal", "label_pt": "Guia", "href": "journal.html", "description": "Read clear guidance on skin, treatment, technology and recovery." },
+    { "label": "FAQ", "label_pt": "FAQ", "href": "faq.html", "description": "Find practical answers about consultation, suitability, recovery and results." },
+    { "label": "Contact", "label_pt": "Contato", "href": "contact.html", "description": "Ask a question, arrange a reply or contact Franciele after treatment." }
   ],
-  "cta": { "label": "Request a Consultation", "label_pt": "Solicitar consulta", "href": "consultation.html" },
+  "cta": { "label": "Consult", "label_pt": "Solicitar consulta", "href": "consultation.html" },
   "secondary": [
     { "label": "Values", "label_pt": "Valores", "href": "values.html" },
     { "label": "Mission", "label_pt": "Missão", "href": "mission.html" },

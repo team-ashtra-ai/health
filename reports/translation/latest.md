@@ -1,6 +1,6 @@
 # Portuguese generation review
 
-Generated: 2026-07-17T16:08:37.762154+00:00
+Generated: 2026-07-18T10:50:46.490419+00:00
 Mode: `incremental`
 Engine: `argos:en->pb:installed`
 
@@ -8,38 +8,38 @@ Engine: `argos:en->pb:installed`
 
 - Units scanned: 27
 - Pages/partials created: 0
-- Pages/partials updated: 20
-- Unchanged units skipped: 7
-- Manual overrides preserved: 12
+- Pages/partials updated: 6
+- Unchanged units skipped: 21
+- Manual overrides preserved: 14
 - Conflicts requiring review: 0
 - Failures: 0
 - Obsolete outputs deleted: 0
-- Backup: `backups/pt/20260717-130836`
+- Backup: `backups/pt/20260718-075046`
 - Manifest: `.translation-cache.json`
 
 ## Files
 
 - `404.html` — skipped
-- `about.html` — updated
+- `about.html` — skipped
 - `accessibility.html` — skipped
-- `blog.html` — updated
-- `care.html` — updated
+- `blog.html` — skipped
+- `care.html` — skipped
 - `consultation.html` — skipped
 - `contact.html` — skipped
 - `cookies.html` — skipped
-- `faq.html` — updated
-- `index.html` — updated
-- `journal.html` — updated
-- `laser.html` — updated
+- `faq.html` — skipped
+- `index.html` — skipped
+- `journal.html` — skipped
+- `laser.html` — skipped
 - `legal.html` — skipped
-- `mission.html` — updated
+- `mission.html` — skipped
 - `privacy.html` — skipped
-- `results.html` — updated
-- `skin.html` — updated
-- `testimonials.html` — updated
-- `thank-you.html` — updated
-- `treatments.html` — updated
-- `values.html` — updated
+- `results.html` — skipped
+- `skin.html` — skipped
+- `testimonials.html` — skipped
+- `thank-you.html` — skipped
+- `treatments.html` — skipped
+- `values.html` — skipped
 - `partials/cookie-banner.html` — updated
 - `partials/floating-widgets.html` — updated
 - `partials/footer.html` — updated
