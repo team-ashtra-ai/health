@@ -8,6 +8,9 @@ node_modules/
 screenshots/archive/*
 !screenshots/archive/.gitkeep
 screenshots/sitewide-current/
+screenshots/interactive/
+validation-artifacts/
+references/
 __pycache__/
 **/__pycache__/
 *.pyc
