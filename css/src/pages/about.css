@@ -122,6 +122,58 @@
   /* Approved CTA — retain its existing proportions. */
   .sf-page[data-page="about"] #continue-the-story .sf-bottom-cta__inner { max-inline-size: min(66rem, calc(100% - 2 * var(--page-gutter))); }
 
+  /* The opening chapter is a text-led introduction: the chapter marker holds
+     the left rail while the narrative and four principles share the right. */
+  .sf-page[data-page="about"] #why-this-work .sf-about-work-layout {
+    display: grid;
+    grid-template-columns: minmax(15rem, .72fr) minmax(0, 1.28fr);
+    gap: clamp(2.5rem, 7vw, 8rem);
+    align-items: start;
+    max-inline-size: var(--container-wide);
+  }
+  .sf-page[data-page="about"] #why-this-work .sf-section-head {
+    grid-column: 1;
+    margin: 0;
+    padding-block-start: .35rem;
+  }
+  .sf-page[data-page="about"] #why-this-work .sf-section-head h2 { max-inline-size: 9ch; }
+  .sf-page[data-page="about"] #why-this-work .sf-about-work__content { grid-column: 2; }
+  .sf-page[data-page="about"] #why-this-work .sf-about-work__content > p {
+    max-inline-size: 64ch;
+    color: var(--color-text-secondary);
+    font-size: clamp(1rem, .95rem + .2vw, 1.15rem);
+    line-height: 1.62;
+  }
+  .sf-page[data-page="about"] #why-this-work .sf-about-work__content > p:first-child { margin-block-start: 0; }
+  .sf-page[data-page="about"] #why-this-work .sf-content-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0;
+    margin-block: clamp(2rem, 4vw, 3.5rem) 0;
+    border-block: 1px solid var(--color-border-warm);
+  }
+  .sf-page[data-page="about"] #why-this-work .sf-content-card {
+    min-block-size: clamp(11rem, 15vw, 14rem);
+    padding: clamp(1.35rem, 2.4vw, 2.15rem) clamp(1.25rem, 2.5vw, 2.25rem);
+  }
+  .sf-page[data-page="about"] #why-this-work .sf-content-card:nth-child(odd) { border-inline-start: 0; }
+  .sf-page[data-page="about"] #why-this-work .sf-content-card:nth-child(even) { border-inline-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="about"] #why-this-work .sf-content-card:nth-child(n + 3) { border-block-start: 1px solid var(--color-border-subtle); }
+  .sf-page[data-page="about"] #why-this-work .sf-content-card::before { position: static; display: block; margin-block-end: clamp(1.8rem, 3vw, 3rem); }
+  .sf-page[data-page="about"] #why-this-work .sf-content-card h2 { color: var(--forest-900); }
+
+  @media (max-width: 63.999rem) {
+    .sf-page[data-page="about"] #why-this-work .sf-about-work-layout { grid-template-columns: minmax(13rem, .55fr) minmax(0, 1.45fr); gap: clamp(2rem, 5vw, 4rem); }
+  }
+  @media (max-width: 47.999rem) {
+    .sf-page[data-page="about"] #why-this-work .sf-about-work-layout { grid-template-columns: 1fr; gap: 2rem; }
+    .sf-page[data-page="about"] #why-this-work .sf-section-head,
+    .sf-page[data-page="about"] #why-this-work .sf-about-work__content { grid-column: 1; }
+    .sf-page[data-page="about"] #why-this-work .sf-section-head h2 { max-inline-size: 11ch; }
+    .sf-page[data-page="about"] #why-this-work .sf-content-card-grid { grid-template-columns: 1fr; }
+    .sf-page[data-page="about"] #why-this-work .sf-content-card { min-block-size: 0; }
+    .sf-page[data-page="about"] #why-this-work .sf-content-card + .sf-content-card { border-inline-start: 0; border-block-start: 1px solid var(--color-border-subtle); }
+  }
+
   @media (max-width: 63.999rem) {
     .sf-page[data-page="about"] :is(#why-this-work, #clinical-judgment, #the-clinic-experience, #after-treatment, #the-values-behind-the-work) .sf-editorial-media-layout { gap: 2.5rem; }
     .sf-page[data-page="about"] #after-treatment .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }

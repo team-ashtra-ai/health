@@ -424,6 +424,21 @@
     gap: var(--grid-gap);
   }
 
+  /* Keep declared card groups in complete rows as the layout changes. */
+  @media (min-width: 48rem) {
+    .sf-content-card-grid[data-card-count="3"] { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .sf-content-card-grid[data-card-count="4"],
+    .sf-content-card-grid[data-card-count="6"],
+    .sf-content-card-grid[data-card-count="8"] { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+
+  @media (min-width: 64rem) {
+    .sf-content-card-grid[data-card-count="3"] { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .sf-content-card-grid[data-card-count="4"],
+    .sf-content-card-grid[data-card-count="8"] { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .sf-content-card-grid[data-card-count="6"] { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  }
+
   .sf-form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-4); }
 
   .sf-editorial-media-layout,
@@ -4221,11 +4236,11 @@
   .sf-page[data-page="skin"] #the-skin-barrier .sf-lede { color: var(--gold-200); font-family: var(--font-heading); font-size: clamp(1.45rem, 2vw, 2rem); line-height: 1.35; }
   .sf-page[data-page="skin"] #the-skin-barrier .sf-section-head::after { content: ""; display: block; min-block-size: 12rem; margin-block-start: 2rem; border: 1px solid rgb(234 213 173 / .3); border-radius: 5rem 5rem .35rem .35rem; background: url("../assets/journal/articles/pele-barreira-hidratante-cuidado.webp") center / cover no-repeat; }
   .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card-grid { grid-column: 2; grid-row: 1 / span 4; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border-block: 1px solid rgb(234 213 173 / .4); }
-  .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card { border: 0; border-radius: 0; background: transparent; color: var(--ivory-50); padding: clamp(1.4rem, 2.5vw, 2.2rem); }
+  .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card { border: 0; border-radius: 0; background: transparent; color: var(--forest-900); padding: clamp(1.4rem, 2.5vw, 2.2rem); }
   .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card + .sf-content-card { border-inline-start: 1px solid rgb(234 213 173 / .25); }
   .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card:last-child { grid-column: 1 / -1; border-block-start: 1px solid rgb(234 213 173 / .25); border-inline-start: 0; background: rgb(255 253 249 / .06); }
-  .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card h3 { color: var(--ivory-50); font-size: 1.4rem; }
-  .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card :is(p, li) { color: rgb(255 253 249 / .72); font-size: .86rem; line-height: 1.55; }
+  .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card h3 { color: var(--forest-900); font-size: 1.4rem; }
+  .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card :is(p, li) { color: var(--color-text-secondary); font-size: .86rem; line-height: 1.55; }
   .sf-page[data-page="skin"] #the-skin-barrier .sf-practitioner-quote { max-inline-size: 24rem; margin-block-start: 2rem; }
 
   /* 03 · morning/evening routine with a product decision checklist */
@@ -4521,7 +4536,9 @@
 
 /* Source: css/src/pages/results.css */
 @layer pages {
-  .sf-page[data-page="results"] #what-a-photograph-cannot-show .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .sf-page[data-page="results"] #what-a-photograph-cannot-show .sf-results-photograph-context { max-inline-size: min(78rem, calc(100% - 2 * var(--page-gutter))); }
+  .sf-page[data-page="results"] #what-a-photograph-cannot-show .sf-section-head { max-inline-size: 34rem; }
+  .sf-page[data-page="results"] #what-a-photograph-cannot-show .sf-content-card { min-block-size: 10.5rem; }
 
   /* Result factors: a connected editorial map with the explanation anchored
      beside it. This replaces the visually equal four-card row, which gave the
@@ -4724,7 +4741,6 @@
   }
 
   .sf-page[data-page="results"] #timing > .sf-editorial-media-layout { border-radius: var(--radius-xl) var(--radius-md) var(--radius-xl) var(--radius-md); }
-  .sf-page[data-page="results"] #photography-integrity .sf-content-card { border-inline-start: .18rem solid var(--gold-500); }
   .sf-page[data-page="results"] #natural-looking-results .sf-content-card { min-block-size: 12rem; }
   .sf-page[data-page="results"] #improvement-is-not-erasure .sf-statement-inner { max-inline-size: min(70rem, calc(100% - 2 * var(--page-gutter))); }
   .sf-page[data-page="results"] #maintenance-and-recurrence .sf-content-card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
@@ -7869,6 +7885,13 @@
   .sf-page[data-page="accessibility"] .sf-access-feature-icon { display: grid; grid-row: 1 / span 2; inline-size: 2.6rem; block-size: 2.6rem; place-items: center; border: 1px solid rgb(234 213 173 / .62); border-radius: 50%; color: var(--gold-200); font-family: var(--font-body); font-size: 1rem; font-weight: 700; }
   .sf-page[data-page="accessibility"] .sf-access-feature-icon img { inline-size: 1.25rem; block-size: 1.25rem; filter: brightness(0) saturate(100%) invert(83%) sepia(34%) saturate(409%) hue-rotate(353deg) brightness(97%); }
 
+  .sf-page[data-page="privacy"] #who-is-responsible > .sf-section-inner--full,
+  .sf-page[data-page="cookies"] #questions-and-updates > .sf-section-inner--full,
+  .sf-page[data-page="legal"] #consultation-and-professional-scope > .sf-section-inner--full,
+  .sf-page[data-page="accessibility"] :is(#our-intention, #content-clarity) > .sf-section-inner--full { max-inline-size: min(78rem, calc(100% - 2 * var(--page-gutter))); }
+  .sf-page[data-page="privacy"] #who-is-responsible .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .sf-page[data-page="accessibility"] #our-intention > .sf-section-inner--full > .sf-botanical-list { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(1.25rem, 4vw, 3rem); }
+
   .sf-page[data-page="privacy"] #why-information-may-be-used .sf-section-inner { display: grid; grid-template-columns: minmax(15rem, .56fr) minmax(0, 1.44fr); gap: clamp(2.5rem, 7vw, 7rem); }
   .sf-page[data-page="privacy"] #why-information-may-be-used .sf-section-head { position: sticky; inset-block-start: calc(var(--header-height) + 1rem); }
   .sf-page[data-page="privacy"] #why-information-may-be-used .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border-block: 1px solid var(--color-border-rose); }
@@ -8028,6 +8051,8 @@
   .sf-page[data-page="home"] #consultation-journey .sf-practitioner-quote { grid-column: 2; margin: 1.5rem 0 0; }
 
   @media (max-width: 47.999rem) {
+    .sf-page[data-page="privacy"] #who-is-responsible .sf-content-card-grid,
+    .sf-page[data-page="accessibility"] #our-intention > .sf-section-inner--full > .sf-botanical-list { grid-template-columns: 1fr; }
     .sf-page[data-page="home"] :is(#treatment-families .sf-section-inner, #what-shapes-a-plan .sf-statement-inner, #care-standard .sf-editorial-media-layout, #care-standard .sf-section-inner), .sf-page[data-page="mission"] #why-it-matters .sf-section-inner, .sf-page[data-page="laser"] #co-resurfacing .sf-statement-inner, .sf-page[data-page="privacy"] #why-information-may-be-used .sf-section-inner { grid-template-columns: 1fr; }
     .sf-page[data-page="home"] #treatment-families .sf-section-head, .sf-page[data-page="privacy"] #why-information-may-be-used .sf-section-head { position: static; }
     .sf-page[data-page="home"] #treatment-families :is(.sf-section-inner > p, .sf-button-row), .sf-page[data-page="home"] #what-shapes-a-plan :is(.sf-section-head, .sf-home-portrait, .sf-content-card-grid, .sf-practitioner-quote), .sf-page[data-page="home"] #care-standard :is(.sf-section-head, .sf-practitioner-quote, .sf-button-row, .sf-content-card-grid), .sf-page[data-page="mission"] #why-it-matters :is(.sf-section-head, .sf-content-card-grid, .sf-practitioner-quote), .sf-page[data-page="laser"] #co-resurfacing :is(.sf-section-head, .sf-lede, .sf-statement-inner > p:not(.sf-lede), .sf-botanical-list, .sf-practitioner-quote) { grid-column: 1; grid-row: auto; }
@@ -8636,3 +8661,40 @@
   .sf-page[data-page="home"] .sf-home-mobile-chapter .sf-button-row { inline-size: 100%; }
   .sf-page[data-page="home"] .sf-home-mobile-chapter .sf-button { flex: 1 1 100%; justify-content: center; }
 }
+
+/* CO₂ resurfacing clinical dossier. */
+.sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan { display:grid; grid-template-columns:minmax(17rem,.9fr) minmax(0,1.1fr); gap:clamp(1.5rem,3vw,3rem) clamp(2.25rem,6vw,6.5rem); align-items:start; max-inline-size:var(--container-wide); }
+.sf-page[data-page="laser"] #co-resurfacing .sf-section-head { grid-column:1; margin:0; }
+.sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan__media { grid-column:1; grid-row:2 / span 2; position:relative; overflow:hidden; margin:0; border:1px solid rgb(234 213 173 / .34); border-radius:.65rem; background:var(--forest-900); }
+.sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan__media img { display:block; inline-size:100%; block-size:clamp(29rem,42vw,40rem); object-fit:cover; }
+.sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan__media::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg,transparent 58%,rgb(14 31 24 / .72)); pointer-events:none; }
+.sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan__media figcaption { position:absolute; z-index:1; inset-inline:1.25rem; inset-block-end:1.2rem; max-inline-size:25ch; color:var(--ivory-50); font-family:var(--font-heading); font-size:clamp(1.05rem,1.4vw,1.3rem); font-style:italic; line-height:1.25; }
+.sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan__introduction,.sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan__targets { grid-column:2; }
+.sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan__introduction { padding-block-start:.35rem; }
+.sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan__introduction p { max-inline-size:57ch; color:rgb(255 253 249 / .84); }
+.sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan__introduction .sf-lede { margin:0 0 1rem; color:var(--gold-200); font-family:var(--font-heading); font-size:clamp(1.5rem,2.25vw,2.35rem); line-height:1.12; }
+.sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan__label { margin:0 0 .85rem; color:var(--gold-200); font-size:.72rem; font-weight:750; letter-spacing:.14em; text-transform:uppercase; }
+.sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan__targets { border-block:1px solid rgb(234 213 173 / .32); padding-block:1.25rem; }
+.sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan__targets .sf-botanical-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.8rem 1.5rem; margin:0; padding:0; }
+.sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan__targets li { color:rgb(255 253 249 / .9); }
+.sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan__recovery { grid-column:1 / -1; display:grid; grid-template-columns:minmax(13rem,.7fr) minmax(0,1.3fr); gap:clamp(1rem,3vw,3rem); align-items:start; border-inline-start:2px solid var(--gold-300); margin-block-start:clamp(.5rem,2vw,1.5rem); padding:1rem 0 1rem clamp(1rem,2vw,1.5rem); }
+.sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan__recovery p:last-child { margin:0; color:rgb(255 253 249 / .84); }
+@media (max-width:63.999rem) { .sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan { grid-template-columns:minmax(15rem,.8fr) minmax(0,1.2fr); gap:2rem; } .sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan__targets .sf-botanical-list { grid-template-columns:1fr; } }
+@media (max-width:47.999rem) { .sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan { display:flex; flex-direction:column; gap:1.5rem; } .sf-page[data-page="laser"] #co-resurfacing .sf-section-head { order:1; } .sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan__media { order:2; inline-size:100%; } .sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan__introduction { order:3; } .sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan__targets { order:4; inline-size:100%; } .sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan__recovery { order:5; inline-size:100%; grid-template-columns:1fr; gap:.15rem; margin-block-start:.25rem; } .sf-page[data-page="laser"] #co-resurfacing .sf-co2-plan__media img { block-size:clamp(20rem,86vw,28rem); } }
+
+/* About opening chapter: a balanced text-led layout without a portrait. */
+.sf-page[data-page="about"] #why-this-work .sf-about-work-layout { display:grid; grid-template-columns:minmax(15rem,.72fr) minmax(0,1.28fr); gap:clamp(2.5rem,7vw,8rem); align-items:start; max-inline-size:var(--container-wide); }
+.sf-page[data-page="about"] #why-this-work .sf-section-head { grid-column:1; margin:0; padding-block-start:.35rem; }
+.sf-page[data-page="about"] #why-this-work .sf-section-head h2 { max-inline-size:9ch; }
+.sf-page[data-page="about"] #why-this-work .sf-about-work__content { grid-column:2; }
+.sf-page[data-page="about"] #why-this-work .sf-about-work__content > p { max-inline-size:64ch; color:var(--color-text-secondary); font-size:clamp(1rem,.95rem + .2vw,1.15rem); line-height:1.62; }
+.sf-page[data-page="about"] #why-this-work .sf-about-work__content > p:first-child { margin-block-start:0; }
+.sf-page[data-page="about"] #why-this-work .sf-content-card-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:0; margin-block:clamp(2rem,4vw,3.5rem) 0; border-block:1px solid var(--color-border-warm); }
+.sf-page[data-page="about"] #why-this-work .sf-content-card { min-block-size:clamp(11rem,15vw,14rem); padding:clamp(1.35rem,2.4vw,2.15rem) clamp(1.25rem,2.5vw,2.25rem); }
+.sf-page[data-page="about"] #why-this-work .sf-content-card:nth-child(odd) { border-inline-start:0; }
+.sf-page[data-page="about"] #why-this-work .sf-content-card:nth-child(even) { border-inline-start:1px solid var(--color-border-subtle); }
+.sf-page[data-page="about"] #why-this-work .sf-content-card:nth-child(n + 3) { border-block-start:1px solid var(--color-border-subtle); }
+.sf-page[data-page="about"] #why-this-work .sf-content-card::before { position:static; display:block; margin-block-end:clamp(1.8rem,3vw,3rem); }
+.sf-page[data-page="about"] #why-this-work .sf-content-card h2 { color:var(--forest-900); }
+@media (max-width:63.999rem) { .sf-page[data-page="about"] #why-this-work .sf-about-work-layout { grid-template-columns:minmax(13rem,.55fr) minmax(0,1.45fr); gap:clamp(2rem,5vw,4rem); } }
+@media (max-width:47.999rem) { .sf-page[data-page="about"] #why-this-work .sf-about-work-layout { grid-template-columns:1fr; gap:2rem; } .sf-page[data-page="about"] #why-this-work .sf-section-head,.sf-page[data-page="about"] #why-this-work .sf-about-work__content { grid-column:1; } .sf-page[data-page="about"] #why-this-work .sf-section-head h2 { max-inline-size:11ch; } .sf-page[data-page="about"] #why-this-work .sf-content-card-grid { grid-template-columns:1fr; } .sf-page[data-page="about"] #why-this-work .sf-content-card { min-block-size:0; } .sf-page[data-page="about"] #why-this-work .sf-content-card + .sf-content-card { border-inline-start:0; border-block-start:1px solid var(--color-border-subtle); } }

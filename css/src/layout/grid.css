@@ -5,6 +5,21 @@
     gap: var(--grid-gap);
   }
 
+  /* Keep declared card groups in complete rows as the layout changes. */
+  @media (min-width: 48rem) {
+    .sf-content-card-grid[data-card-count="3"] { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .sf-content-card-grid[data-card-count="4"],
+    .sf-content-card-grid[data-card-count="6"],
+    .sf-content-card-grid[data-card-count="8"] { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+
+  @media (min-width: 64rem) {
+    .sf-content-card-grid[data-card-count="3"] { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .sf-content-card-grid[data-card-count="4"],
+    .sf-content-card-grid[data-card-count="8"] { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .sf-content-card-grid[data-card-count="6"] { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  }
+
   .sf-form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-4); }
 
   .sf-editorial-media-layout,

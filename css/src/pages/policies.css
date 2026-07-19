@@ -1,4 +1,9 @@
 @layer pages {
+  .sf-page[data-page="privacy"] #who-is-responsible > .sf-section-inner--full,
+  .sf-page[data-page="cookies"] #questions-and-updates > .sf-section-inner--full,
+  .sf-page[data-page="legal"] #consultation-and-professional-scope > .sf-section-inner--full { max-inline-size: min(78rem, calc(100% - 2 * var(--page-gutter))); }
+  .sf-page[data-page="privacy"] #who-is-responsible .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
   .sf-page[data-page="privacy"] #who-is-responsible .sf-editorial-media-layout { background: linear-gradient(145deg, var(--color-bg-sage-soft), color-mix(in srgb, var(--white) 80%, transparent)); }
   .sf-page[data-page="privacy"] #information-generated-through-website-use .sf-content-card { min-block-size: 13rem; }
   .sf-page[data-page="privacy"] #why-information-may-be-used .sf-section-inner { display: grid; grid-template-columns: minmax(15rem, .56fr) minmax(0, 1.44fr); gap: clamp(2.5rem, 7vw, 7rem); align-items: start; }
@@ -32,5 +37,6 @@
     .sf-page[data-page="privacy"] #why-information-may-be-used .sf-content-card:nth-child(n) { border-inline-start: 0; }
     .sf-page[data-page="privacy"] #why-information-may-be-used .sf-content-card + .sf-content-card { border-block-start: 1px solid var(--color-border-rose); }
     .sf-page[data-page="cookies"] #essential-cookies .sf-content-card-grid { grid-template-columns: 1fr; }
+    .sf-page[data-page="privacy"] #who-is-responsible .sf-content-card-grid { grid-template-columns: 1fr; }
   }
 }

@@ -1,5 +1,7 @@
 @layer pages {
-  .sf-page[data-page="results"] #what-a-photograph-cannot-show .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .sf-page[data-page="results"] #what-a-photograph-cannot-show .sf-results-photograph-context { max-inline-size: min(78rem, calc(100% - 2 * var(--page-gutter))); }
+  .sf-page[data-page="results"] #what-a-photograph-cannot-show .sf-section-head { max-inline-size: 34rem; }
+  .sf-page[data-page="results"] #what-a-photograph-cannot-show .sf-content-card { min-block-size: 10.5rem; }
 
   /* Result factors: a connected editorial map with the explanation anchored
      beside it. This replaces the visually equal four-card row, which gave the
@@ -202,7 +204,6 @@
   }
 
   .sf-page[data-page="results"] #timing > .sf-editorial-media-layout { border-radius: var(--radius-xl) var(--radius-md) var(--radius-xl) var(--radius-md); }
-  .sf-page[data-page="results"] #photography-integrity .sf-content-card { border-inline-start: .18rem solid var(--gold-500); }
   .sf-page[data-page="results"] #natural-looking-results .sf-content-card { min-block-size: 12rem; }
   .sf-page[data-page="results"] #improvement-is-not-erasure .sf-statement-inner { max-inline-size: min(70rem, calc(100% - 2 * var(--page-gutter))); }
   .sf-page[data-page="results"] #maintenance-and-recurrence .sf-content-card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }

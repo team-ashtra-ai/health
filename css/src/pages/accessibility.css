@@ -1,4 +1,7 @@
 @layer pages {
+  .sf-page[data-page="accessibility"] :is(#our-intention, #content-clarity) > .sf-section-inner--full { max-inline-size: min(78rem, calc(100% - 2 * var(--page-gutter))); }
+  .sf-page[data-page="accessibility"] #our-intention > .sf-section-inner--full > .sf-botanical-list { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(1.25rem, 4vw, 3rem); }
+
   .sf-page[data-page="accessibility"] #our-intention .sf-content-card { min-block-size: 11rem; }
   .sf-page[data-page="accessibility"] #reading-and-navigation .sf-content-card { display: grid; grid-template-columns: 3rem minmax(0, 1fr); column-gap: 1rem; align-content: start; min-block-size: 11rem; border: 1px solid rgb(234 213 173 / .32); background: rgb(255 253 249 / .08); color: var(--ivory-50); }
   .sf-page[data-page="accessibility"] #reading-and-navigation .sf-content-card :is(h3, p) { grid-column: 2; }
@@ -60,6 +63,7 @@
   }
 
   @media (max-width: 47.999rem) {
+    .sf-page[data-page="accessibility"] #our-intention > .sf-section-inner--full > .sf-botanical-list { grid-template-columns: 1fr; }
     .sf-page[data-page="accessibility"] #accessibility-feedback-form {
       border-radius: 2.75rem .5rem .5rem;
     }

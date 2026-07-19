@@ -29,11 +29,11 @@
   .sf-page[data-page="skin"] #the-skin-barrier .sf-lede { color: var(--gold-200); font-family: var(--font-heading); font-size: clamp(1.45rem, 2vw, 2rem); line-height: 1.35; }
   .sf-page[data-page="skin"] #the-skin-barrier .sf-section-head::after { content: ""; display: block; min-block-size: 12rem; margin-block-start: 2rem; border: 1px solid rgb(234 213 173 / .3); border-radius: 5rem 5rem .35rem .35rem; background: url("../assets/journal/articles/pele-barreira-hidratante-cuidado.webp") center / cover no-repeat; }
   .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card-grid { grid-column: 2; grid-row: 1 / span 4; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border-block: 1px solid rgb(234 213 173 / .4); }
-  .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card { border: 0; border-radius: 0; background: transparent; color: var(--ivory-50); padding: clamp(1.4rem, 2.5vw, 2.2rem); }
+  .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card { border: 0; border-radius: 0; background: transparent; color: var(--forest-900); padding: clamp(1.4rem, 2.5vw, 2.2rem); }
   .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card + .sf-content-card { border-inline-start: 1px solid rgb(234 213 173 / .25); }
   .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card:last-child { grid-column: 1 / -1; border-block-start: 1px solid rgb(234 213 173 / .25); border-inline-start: 0; background: rgb(255 253 249 / .06); }
-  .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card h3 { color: var(--ivory-50); font-size: 1.4rem; }
-  .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card :is(p, li) { color: rgb(255 253 249 / .72); font-size: .86rem; line-height: 1.55; }
+  .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card h3 { color: var(--forest-900); font-size: 1.4rem; }
+  .sf-page[data-page="skin"] #the-skin-barrier .sf-content-card :is(p, li) { color: var(--color-text-secondary); font-size: .86rem; line-height: 1.55; }
   .sf-page[data-page="skin"] #the-skin-barrier .sf-practitioner-quote { max-inline-size: 24rem; margin-block-start: 2rem; }
 
   /* 03 · morning/evening routine with a product decision checklist */
