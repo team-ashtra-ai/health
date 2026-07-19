@@ -216,3 +216,68 @@
   .sf-page[data-page="home"] #treatments-new .sf-content-card:nth-child(n + 4) { border-block-start: 1px solid rgb(234 213 173 / .24) !important; }
   .sf-page[data-page="home"] #treatments-new :is(.sf-home-mobile-chapter__note,.sf-button-row) { grid-column: 1 !important; }
 }
+
+/* Responsive media guardrails
+ *
+ * These chapters deliberately use different source ratios.  Keeping the frame
+ * ratio on the figure (rather than relying on the intrinsic image after it has
+ * loaded) prevents a blank-looking jump while a deferred image is loading and
+ * preserves a considered crop on narrow phones.
+ */
+.sf-page[data-page="home"] .sf-home-mobile-chapter__media {
+  inline-size: 100%;
+  overflow: hidden;
+  border: 1px solid var(--color-border-warm);
+  border-radius: .75rem;
+  background: var(--color-bg-soft);
+}
+.sf-page[data-page="home"] #treatments-new .sf-home-mobile-chapter__media { aspect-ratio: 16 / 10; }
+.sf-page[data-page="home"] #standard-new .sf-home-mobile-chapter__media { aspect-ratio: 4 / 5; }
+.sf-page[data-page="home"] .sf-home-mobile-chapter__media img {
+  inline-size: 100%;
+  block-size: 100%;
+  max-block-size: none;
+  object-fit: cover;
+}
+
+/* Keep each editorial image in the ratio of its source. The desktop grid can
+ * otherwise stretch these figures to the height of adjacent copy, producing
+ * an overly tight landscape crop or an unnecessarily tall portrait crop. */
+.sf-page[data-page="home"] #treatments-new .sf-home-mobile-chapter__media {
+  align-self: start;
+  aspect-ratio: 16 / 10;
+}
+.sf-page[data-page="home"] #standard-new .sf-home-mobile-chapter__media {
+  align-self: start;
+  aspect-ratio: 4 / 5;
+}
+.sf-page[data-page="home"] :is(#treatments-new, #standard-new) .sf-home-mobile-chapter__media img {
+  block-size: 100% !important;
+  min-block-size: 0 !important;
+  object-fit: cover;
+}
+
+@media (max-width: 25rem) {
+  /* Four small cards become a readable sequence instead of two cramped
+     columns on 320–400px devices. */
+  .sf-page[data-page="home"] #care-pathways .sf-content-card-grid { grid-template-columns: 1fr !important; }
+  .sf-page[data-page="home"] #care-pathways .sf-content-card { min-block-size: 0 !important; }
+}
+
+@media (max-width: 47.999rem) {
+  .sf-page[data-page="home"] #care-pathways .sf-editorial-media {
+    inline-size: min(100%, 26rem);
+    justify-self: center;
+  }
+  .sf-page[data-page="home"] #care-pathways .sf-editorial-media img {
+    aspect-ratio: 4 / 5;
+    object-position: center top;
+  }
+  .sf-page[data-page="home"] .sf-home-mobile-chapter .sf-button-row {
+    inline-size: 100%;
+  }
+  .sf-page[data-page="home"] .sf-home-mobile-chapter .sf-button {
+    flex: 1 1 100%;
+    justify-content: center;
+  }
+}

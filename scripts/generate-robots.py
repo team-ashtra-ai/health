@@ -51,7 +51,7 @@ def site_origin() -> str:
 def render_robots() -> str:
     disallow = "\n".join(f"Disallow: {path}" for path in NON_PUBLIC_PATHS)
     return (
-        "# Franciele Sofiati Biomédica\n"
+        "# Franciele Sofiati · Biomedical Practitioner · Aesthetician · Cosmetologist\n"
         "# Public pages and the assets required to render them are crawlable.\n"
         "# Excluded paths are repository sources or QA artifacts, not private access controls.\n\n"
         "User-agent: *\n"

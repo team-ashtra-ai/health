@@ -77,8 +77,6 @@
      composed ledgers for the supporting facts. */
   .sf-page[data-page="about"] #why-this-work .sf-editorial-media { max-inline-size: none; }
   .sf-page[data-page="about"] #my-view-of-aesthetics .sf-content-card { min-block-size: 13rem; border-radius: 0; background: rgb(255 253 249 / .72); box-shadow: none; }
-  .sf-page[data-page="about"] #clinical-judgment .sf-content-card-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-  .sf-page[data-page="about"] #clinical-judgment .sf-content-card:first-child { grid-column: span 2; min-block-size: 12rem; background: rgb(255 253 249 / .82); }
   .sf-page[data-page="about"] #the-clinic-experience .sf-content-card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .sf-page[data-page="about"] #technology-with-purpose .sf-content-card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .sf-page[data-page="about"] #technology-with-purpose .sf-content-card:first-child { grid-column: span 2; min-block-size: 14rem; }

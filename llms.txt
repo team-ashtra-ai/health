@@ -1,6 +1,6 @@
-# Franciele Sofiati Biomédica
+# Franciele Sofiati · Biomedical Practitioner · Aesthetician · Cosmetologist
 
-> Official bilingual website for Franciele Sofiati, a biomedical practitioner, aesthetician and cosmetologist (CRBM 6277) whose consultation-led work covers skin health, laser care, aesthetic treatments and hair or scalp concerns in Londrina, Paraná, Brazil.
+> Official bilingual website for Franciele Sofiati, a Biomedical Practitioner · Aesthetician · Cosmetologist (CRBM 6277) whose consultation-led work covers skin health, laser care, aesthetic treatments and hair or scalp concerns in Londrina, Paraná, Brazil.
 
 Canonical source: https://www.francielesofiati.com/
 
@@ -69,7 +69,6 @@ Important interpretation rules:
 
 - [Mission](https://www.francielesofiati.com/mission.html): The practice's purpose and responsible-care principles.
 - [Values](https://www.francielesofiati.com/values.html): Ethical, human and evidence-aware decision principles.
-- [Additional educational overview](https://www.francielesofiati.com/blog.html): Guidance across skin, laser, care and treatment planning.
 - [XML sitemap](https://www.francielesofiati.com/sitemap.xml): Complete canonical index of search-eligible English and Brazilian Portuguese pages.
 - [Crawler policy](https://www.francielesofiati.com/robots.txt): Search-crawler access rules and sitemap location.
 - [Web app manifest](https://www.francielesofiati.com/site.webmanifest): Browser installation and presentation metadata for the English default experience.

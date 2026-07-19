@@ -19,7 +19,7 @@
   window.dataLayer = window.dataLayer || [];
 
   const config = {
-    siteName: "Franciele Sofiati Biomédica",
+    siteName: "Franciele Sofiati · Biomedical Practitioner · Aesthetician · Cosmetologist",
     productionDomain: "www.francielesofiati.com",
     gtmContainerId: "GTM-REPLACE_ME",
     ga4MeasurementId: "G-REPLACE_ME",

@@ -33,24 +33,28 @@
   .sf-page[data-page="about"] #my-view-of-aesthetics .sf-lede { margin-block-start: 1.75rem; color: var(--gold-200); font-family: var(--font-heading); font-size: clamp(1.5rem, 2vw, 2rem); line-height: 1.35; }
   .sf-page[data-page="about"] #my-view-of-aesthetics .sf-section-inner > p:not(.sf-lede) { color: rgb(255 253 249 / .72); }
   .sf-page[data-page="about"] #my-view-of-aesthetics .sf-content-card-grid { grid-column: 2; grid-row: 1 / span 4; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border-block: 1px solid rgb(234 213 173 / .38); }
-  .sf-page[data-page="about"] #my-view-of-aesthetics .sf-content-card { border: 0; border-radius: 0; background: transparent; color: var(--ivory-50); padding: clamp(1.5rem, 3vw, 2.5rem); }
+  .sf-page[data-page="about"] #my-view-of-aesthetics .sf-content-card { border: 0; border-radius: 0; background: rgb(255 253 249 / .88); color: var(--forest-900); padding: clamp(1.5rem, 3vw, 2.5rem); }
   .sf-page[data-page="about"] #my-view-of-aesthetics .sf-content-card + .sf-content-card { border-inline-start: 1px solid rgb(234 213 173 / .28); }
-  .sf-page[data-page="about"] #my-view-of-aesthetics .sf-content-card h2 { color: var(--ivory-50); font-size: clamp(1.5rem, 2vw, 2rem); }
-  .sf-page[data-page="about"] #my-view-of-aesthetics .sf-botanical-list { margin-block-start: 1.25rem; color: rgb(255 253 249 / .76); }
+  .sf-page[data-page="about"] #my-view-of-aesthetics .sf-content-card h2 { color: var(--forest-900); font-size: clamp(1.5rem, 2vw, 2rem); }
+  .sf-page[data-page="about"] #my-view-of-aesthetics .sf-botanical-list { margin-block-start: 1.25rem; color: var(--forest-800); font-size: 1.05rem; font-weight: 500; line-height: 1.65; }
   .sf-page[data-page="about"] #my-view-of-aesthetics .sf-practitioner-quote { grid-column: 2; max-inline-size: 38rem; margin: 2rem 0 0 auto; }
 
-  /* 03 · recommendation pathway */
-  .sf-page[data-page="about"] #clinical-judgment .sf-editorial-media-layout { grid-template-columns: minmax(0, 1.15fr) minmax(17rem, .65fr); gap: clamp(2.5rem, 6vw, 6.5rem); align-items: center; }
-  .sf-page[data-page="about"] #clinical-judgment .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; margin-block-start: 2.25rem; border-block: 1px solid var(--color-border-warm); counter-reset: about-judgment; }
-  .sf-page[data-page="about"] #clinical-judgment .sf-content-card { position: relative; min-block-size: 8.5rem; border: 0; border-radius: 0; background: transparent; padding: 1.2rem 1.25rem 1.2rem 3.8rem; counter-increment: about-judgment; }
-  .sf-page[data-page="about"] #clinical-judgment .sf-content-card::before { content: "0" counter(about-judgment); position: absolute; inset: 1.15rem auto auto 1rem; color: var(--rose-gold-700); font-family: var(--font-heading); font-size: 1rem; }
+  /* 03 · recommendation pathway: a clear decision process with one integrated portrait. */
+  .sf-page[data-page="about"] #clinical-judgment .sf-editorial-media-layout { grid-template-columns: minmax(0, 1.12fr) minmax(20rem, .88fr); gap: clamp(2.5rem, 6vw, 6.5rem); align-items: stretch; }
+  .sf-page[data-page="about"] #clinical-judgment .sf-recommendation-content { display: flex; flex-direction: column; }
+  .sf-page[data-page="about"] #clinical-judgment .sf-recommendation-introduction { max-inline-size: 51ch; margin-block: 1.5rem 0; color: var(--forest-800); font-size: clamp(1.06rem, 1.2vw, 1.2rem); font-weight: 500; line-height: 1.65; }
+  .sf-page[data-page="about"] #clinical-judgment .sf-content-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); flex: 1; gap: 0; margin-block-start: 2.25rem; border-block: 1px solid var(--color-border-warm); counter-reset: about-judgment; }
+  .sf-page[data-page="about"] #clinical-judgment .sf-content-card { position: relative; display: flex; flex-direction: column; justify-content: center; min-block-size: 12.5rem; border: 0; border-radius: 0; background: transparent; padding: 1.75rem 1.75rem 1.75rem 4.15rem; counter-increment: about-judgment; }
+  .sf-page[data-page="about"] #clinical-judgment .sf-content-card::before { content: "0" counter(about-judgment); position: absolute; inset: 1.8rem auto auto 1.25rem; color: var(--rose-gold-700); font-family: var(--font-heading); font-size: 1.15rem; font-weight: 700; }
   .sf-page[data-page="about"] #clinical-judgment .sf-content-card:nth-child(even) { border-inline-start: 1px solid var(--color-border-subtle); }
   .sf-page[data-page="about"] #clinical-judgment .sf-content-card:nth-child(n + 3) { border-block-start: 1px solid var(--color-border-subtle); }
-  .sf-page[data-page="about"] #clinical-judgment .sf-content-card h2 { font-size: 1.35rem; }
-  .sf-page[data-page="about"] #clinical-judgment .sf-content-card p { color: var(--color-text-secondary); font-size: .86rem; line-height: 1.55; }
-  .sf-page[data-page="about"] #clinical-judgment .sf-callout { margin-block-start: 1.5rem; border: 0; border-inline-start: 2px solid var(--rose-gold-500); border-radius: 0; background: color-mix(in srgb, var(--blush-100) 54%, transparent); box-shadow: none; }
-  .sf-page[data-page="about"] #clinical-judgment .sf-editorial-media { overflow: hidden; border-radius: 10rem 10rem .5rem .5rem; }
-  .sf-page[data-page="about"] #clinical-judgment .sf-editorial-media img { block-size: 38rem; aspect-ratio: 3 / 4; object-fit: cover; object-position: 54% center; }
+  .sf-page[data-page="about"] #clinical-judgment .sf-content-card h2 { margin: 0 0 .6rem; color: var(--forest-900); font-size: clamp(1.35rem, 1.7vw, 1.65rem); line-height: 1.15; }
+  .sf-page[data-page="about"] #clinical-judgment .sf-content-card p { margin: 0; color: var(--forest-800); font-size: clamp(1rem, 1.1vw, 1.12rem); font-weight: 500; line-height: 1.62; }
+  .sf-page[data-page="about"] #clinical-judgment .sf-editorial-media { overflow: hidden; inline-size: 100%; min-block-size: 100%; border-radius: 8rem 8rem .5rem .5rem; background: var(--sage-100); box-shadow: var(--shadow-soft); }
+  .sf-page[data-page="about"] #clinical-judgment .sf-editorial-media img { inline-size: 100%; block-size: clamp(43rem, 52vw, 51rem) !important; aspect-ratio: auto !important; object-fit: cover; object-position: 54% center; }
+  .sf-page[data-page="about"] #clinical-judgment .sf-callout { grid-column: 1 / -1; margin-block-start: clamp(2.5rem, 5vw, 4.5rem); border: 1px solid var(--color-border-warm); border-inline-start: .3rem solid var(--rose-gold-600); border-radius: .4rem; background: color-mix(in srgb, var(--ivory-50) 72%, var(--blush-100)); box-shadow: none; padding: clamp(1.75rem, 3vw, 2.75rem); }
+  .sf-page[data-page="about"] #clinical-judgment .sf-callout h2 { margin: 0 0 .65rem; color: var(--forest-900); font-size: clamp(1.45rem, 2vw, 2rem); line-height: 1.15; }
+  .sf-page[data-page="about"] #clinical-judgment .sf-callout p { max-inline-size: 70ch; margin: 0; color: var(--forest-800); font-size: clamp(1.05rem, 1.25vw, 1.2rem); font-weight: 500; line-height: 1.65; }
 
   /* 04 · consultation experience as an editorial promise rail */
   .sf-page[data-page="about"] #what-you-can-expect .sf-statement-inner { display: grid; grid-template-columns: minmax(15rem, .52fr) minmax(0, 1.48fr); column-gap: clamp(3rem, 7vw, 8rem); align-items: start; }
@@ -170,5 +174,18 @@
     .sf-page[data-page="about"] :is(#why-this-work, #clinical-judgment, #the-values-behind-the-work) .sf-content-card + .sf-content-card { border-block-start: 1px solid var(--color-border-subtle); }
     .sf-page[data-page="about"] #after-treatment .sf-content-card-grid { grid-template-columns: 1fr; }
     .sf-page[data-page="about"] #after-treatment .sf-content-card + .sf-content-card { border-inline-start: 0; border-block-start: 1px solid var(--color-border-subtle); }
+
+    .sf-page[data-page="about"] #clinical-judgment .sf-editorial-media-layout { display: grid; grid-template-columns: 1fr; gap: 0; }
+    .sf-page[data-page="about"] #clinical-judgment .sf-recommendation-content { display: contents; }
+    .sf-page[data-page="about"] #clinical-judgment .sf-section-head,
+    .sf-page[data-page="about"] #clinical-judgment .sf-recommendation-introduction { grid-column: 1; order: 1; }
+    .sf-page[data-page="about"] #clinical-judgment .sf-recommendation-introduction { margin-block: 1.25rem 2.25rem; }
+    .sf-page[data-page="about"] #clinical-judgment .sf-editorial-media { grid-column: 1; grid-row: auto; order: 2; inline-size: 100%; max-inline-size: none; margin: 0; border-radius: 5rem 5rem .5rem .5rem; }
+    .sf-page[data-page="about"] #clinical-judgment .sf-editorial-media img { block-size: auto !important; min-block-size: 0; aspect-ratio: 4 / 5 !important; }
+    .sf-page[data-page="about"] #clinical-judgment .sf-content-card-grid { grid-column: 1; order: 3; grid-template-columns: 1fr; margin-block: 2.5rem 0; }
+    .sf-page[data-page="about"] #clinical-judgment .sf-content-card { min-block-size: 0; padding: 1.6rem 1.25rem 1.6rem 4rem; }
+    .sf-page[data-page="about"] #clinical-judgment .sf-content-card:nth-child(n) { border-inline: 0; }
+    .sf-page[data-page="about"] #clinical-judgment .sf-content-card + .sf-content-card { border-block-start: 1px solid var(--color-border-subtle); }
+    .sf-page[data-page="about"] #clinical-judgment .sf-callout { grid-column: 1; order: 4; margin-block-start: 2.5rem; }
   }
 }

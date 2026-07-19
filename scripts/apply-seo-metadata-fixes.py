@@ -32,7 +32,6 @@ CONTENT_ATTRIBUTE = re.compile(r'(\bcontent=")[^"]*(")', re.IGNORECASE)
 # Keep each description between 120 and 170 characters. These are reviewed,
 # specific corrections for the warnings currently reported by the validator.
 FIXES = {
-    "pt/blog.html": "Explore os artigos de Franciele Sofiati sobre cuidados com a pele, laser, pigmentação, acne e tratamentos estéticos em Londrina.",
     "pt/consultation.html": "Agende uma consulta estética com Franciele Sofiati em Londrina e receba um plano personalizado para pele, laser, rosto, couro cabeludo ou corpo.",
     "pt/index.html": "Cuidados personalizados para pele, laser, couro cabeludo e estética em Londrina com Franciele Sofiati, com planejamento e acompanhamento.",
     "pt/legal.html": "Leia as condições de agendamento, pagamento, cancelamento, tratamentos, consentimento informado e cuidados posteriores de Franciele Sofiati em Londrina.",

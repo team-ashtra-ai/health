@@ -1,4 +1,4 @@
-# Franciele Sofiati Biomédica
+# Franciele Sofiati · Biomedical Practitioner · Aesthetician · Cosmetologist
 # Public pages and the assets required to render them are crawlable.
 # Excluded paths are repository sources or QA artifacts, not private access controls.
 

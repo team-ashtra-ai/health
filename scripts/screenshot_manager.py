@@ -209,9 +209,21 @@ async function settle(page) {
   await page.waitForTimeout(250);
   await page.evaluate(async () => {
     const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-    document.querySelectorAll('img[loading="lazy"]').forEach(image => image.loading = 'eager');
+    // A full-page screenshot does not reliably trigger native lazy loading for
+    // off-screen images. Promote and re-request those assets before capture so
+    // the review image reflects the real page rather than empty placeholders.
+    document.querySelectorAll('img[loading="lazy"]').forEach(image => {
+      image.loading = 'eager';
+      if (!image.complete) image.src = image.currentSrc || image.src;
+    });
     for (let y = 0; y < document.documentElement.scrollHeight; y += Math.max(180, Math.floor(innerHeight * .4))) { scrollTo(0, y); await delay(25); }
-    await Promise.all([...document.images].map(image => image.complete ? Promise.resolve() : Promise.race([new Promise(resolve => image.addEventListener('load', resolve, {once:true})), delay(1200)])));
+    await Promise.race([
+      Promise.all([...document.images].map(async image => {
+        if (!image.complete) await new Promise(resolve => image.addEventListener('load', resolve, {once:true}));
+        if (image.complete && image.naturalWidth) await image.decode().catch(() => {});
+      })),
+      delay(15000),
+    ]);
     scrollTo(0, 0); await delay(80);
   });
 }

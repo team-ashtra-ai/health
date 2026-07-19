@@ -134,7 +134,6 @@ def expected_schema(relative_path: str) -> set[str]:
         return common | {"BlogPosting", "WebPage"}
     additions = {
         "about.html": {"AboutPage", "ProfilePage"},
-        "blog.html": {"CollectionPage", "Blog"},
         "consultation.html": {"WebPage", "Service"},
         "contact.html": {"ContactPage"},
         "faq.html": {"FAQPage"},

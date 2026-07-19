@@ -122,7 +122,7 @@ def validate_llms() -> int:
         raise RuntimeError("llms.txt must end with a newline")
 
     headings = HEADING_RE.findall(text)
-    if not headings or headings[0] != ("#", "Franciele Sofiati Biomédica"):
+    if not headings or headings[0] != ("#", "Franciele Sofiati · Biomedical Practitioner · Aesthetician · Cosmetologist"):
         raise RuntimeError("llms.txt must begin with the canonical site name as its H1")
     if sum(1 for level, _ in headings if level == "#") != 1:
         raise RuntimeError("llms.txt must contain exactly one H1")
