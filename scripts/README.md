@@ -20,13 +20,13 @@ Run commands from the repository root. Prefer the npm aliases below; they group 
 ## Content and localization
 
 ```bash
-python3 scripts/export-editable-english-content.py
-python3 scripts/apply-editable-english-content.py --apply
+python3 scripts/export-editable-bilingual-content.py
+python3 scripts/apply-editable-bilingual-content.py --apply
 python3 scripts/generate-portuguese-site.py
 npm run check:pt
 ```
 
-The English export/apply pair supports a controlled editable-copy workflow. Review its preview before applying changes. The PT-BR generator owns translation output; maintain recurring terms in `data/translation/` rather than relying on edits to generated partials.
+The export/apply pair creates one bilingual Word document with English and Brazilian Portuguese text in side-by-side editable columns. Review its preview before applying changes. Portuguese edits are written directly to the corresponding published PT-BR source; run the PT-BR generator afterwards so it records page-level Portuguese edits as manual overrides. Shared partials are regenerated from translation memory, so maintain recurring shared-interface wording in `data/translation/`.
 
 ## Search and analytics
 

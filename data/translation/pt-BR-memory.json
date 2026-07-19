@@ -18193,6 +18193,158 @@
       "approved": false,
       "glossary_hash": "b2486c0af92214a36631f60c476c1def71849c279d963b930ce3e6b2f3bb7462",
       "updated_at": "2026-07-18T20:46:33.233959+00:00"
+    },
+    "a559c6b37350f6bf47fe5fc3ca95e4ed0699bf7073a3e78d56d509bfa0939957": {
+      "source": "Below are some reviews, patients reported about Franciele’s services",
+      "translation": "Abaixo estão algumas críticas, pacientes reportados sobre os serviços de Franciele",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "b2486c0af92214a36631f60c476c1def71849c279d963b930ce3e6b2f3bb7462",
+      "updated_at": "2026-07-19T10:50:55.065711+00:00"
+    },
+    "94de364f459a7a5ac9ea4b0daedaee47c6a83bdeb9e5a1286e091e6e6ab8aca5": {
+      "source": "Google reviews provide a public place for people to describe their experience with the consultation, professional attention, treatment explanation, clinic environment and follow-up.Google reviews: https://share.google/95oyMN4LpnqCR8NWS",
+      "translation": "Google comentários fornecem um lugar público para as pessoas descreverem sua experiência com o consulta, atenção profissional, explicação tratamento, ambiente clínico e acompanhamento.",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "b2486c0af92214a36631f60c476c1def71849c279d963b930ce3e6b2f3bb7462",
+      "updated_at": "2026-07-19T10:50:55.187404+00:00"
+    },
+    "bf4fccd616251b678c56b9cb7a46819b1266853c180637642f5bc7d6b01f5554": {
+      "source": "Anna",
+      "translation": "Anna.",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "b2486c0af92214a36631f60c476c1def71849c279d963b930ce3e6b2f3bb7462",
+      "updated_at": "2026-07-19T10:50:55.197695+00:00"
+    },
+    "5a83f9ee00c0477e74ba17c3faba9b57c897a00592a60c7aead8df4282d70ebf": {
+      "source": "Franciele believes technical knowledge matters, but so does the ability to listen, explain and remain present throughout the experience.",
+      "translation": "Franciele acredita que o conhecimento técnico importa, mas a habilidade de ouvir, explicar e permanecer presente durante toda a experiência.",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "b2486c0af92214a36631f60c476c1def71849c279d963b930ce3e6b2f3bb7462",
+      "updated_at": "2026-07-19T10:50:55.258827+00:00"
+    },
+    "cdd412e6794fd3b048d320aeaf288bec4137766e9e10804efab01f3017d32e66": {
+      "source": "I felt she cared and personalized my needs.",
+      "translation": "Senti que ela se importava e personalizou minhas necessidades.",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "b2486c0af92214a36631f60c476c1def71849c279d963b930ce3e6b2f3bb7462",
+      "updated_at": "2026-07-19T10:50:55.291524+00:00"
+    },
+    "2bc7f3bf03014bd03525886b38ac8301ef0ecd812542e3f51ef0bde1f5459ca0": {
+      "source": "Monique",
+      "translation": "Monique.",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "b2486c0af92214a36631f60c476c1def71849c279d963b930ce3e6b2f3bb7462",
+      "updated_at": "2026-07-19T10:50:55.305028+00:00"
+    },
+    "cc5232879e3db3ec5f60ce48a3eb2536422009adb82bed08ec42885afe14f2c0": {
+      "source": "Franciele believes care should respond to the person receiving it rather than follow a standard script. History, routine, timing, comfort and expectations all help shape the recommendation.",
+      "translation": "Franciele acredita que o cuidado deve responder à pessoa que o recebe em vez de seguir um roteiro padrão. História, rotina, tempo, conforto e expectativas tudo ajuda a moldar a recomendação.",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "b2486c0af92214a36631f60c476c1def71849c279d963b930ce3e6b2f3bb7462",
+      "updated_at": "2026-07-19T10:50:55.410908+00:00"
+    },
+    "e049d3412551c7b6ae421758739527a06d990f61280b640e1735f77c3447101c": {
+      "source": "A Respectful Environment",
+      "translation": "Um ambiente respeitoso",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "b2486c0af92214a36631f60c476c1def71849c279d963b930ce3e6b2f3bb7462",
+      "updated_at": "2026-07-19T10:50:55.427952+00:00"
+    },
+    "7956e7a2bd6faeb142de48e8c4ae3928cdde2fb34b4c2d8eaed55c8e22cc4270": {
+      "source": "I felt respected and not judged while receiving my treatment.",
+      "translation": "Senti-me respeitada e não julgada ao receber meu tratamento.",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "b2486c0af92214a36631f60c476c1def71849c279d963b930ce3e6b2f3bb7462",
+      "updated_at": "2026-07-19T10:50:55.477387+00:00"
+    },
+    "faa0ca8cd0868c06859d8909b35a9e2f16a2c5dcf19857836d8b081bbe5918f5": {
+      "source": "Michele",
+      "translation": "Michele.",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "b2486c0af92214a36631f60c476c1def71849c279d963b930ce3e6b2f3bb7462",
+      "updated_at": "2026-07-19T10:50:55.488492+00:00"
+    },
+    "7962fe507f018e5236fb4e9f88ca7ce9594eb0a15ebdf4e90ff5ea372adfa858": {
+      "source": "Franciele believes a welcoming space can make it easier to breathe, ask questions and make considered decisions without feeling rushed.",
+      "translation": "Franciele acredita que um espaço acolhedor pode facilitar a respiração, fazer perguntas e tomar decisões consideradas sem se sentir apressado.",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "b2486c0af92214a36631f60c476c1def71849c279d963b930ce3e6b2f3bb7462",
+      "updated_at": "2026-07-19T10:50:55.556201+00:00"
+    },
+    "00dde442a5f9f80b59f2ec6b62eea2f35d24ed78c5f996a3855ea415082529c3": {
+      "source": "I have recommended Franciele since we met many years ago.",
+      "translation": "Recomendei Franciele desde que nos conhecemos.",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "b2486c0af92214a36631f60c476c1def71849c279d963b930ce3e6b2f3bb7462",
+      "updated_at": "2026-07-19T10:50:55.595262+00:00"
+    },
+    "891abd5656f7cca42b4cea8b7373831095d3d89c614351ca0ef5827003c44bbf": {
+      "source": "Kayla",
+      "translation": "Kayla.",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "b2486c0af92214a36631f60c476c1def71849c279d963b930ce3e6b2f3bb7462",
+      "updated_at": "2026-07-19T10:50:55.607980+00:00"
+    },
+    "6695523d7d9a13b6c1ca6dcf585d2638f6cd816c424fca0fa5ffdf075ebe7c35": {
+      "source": "Franciele believes skin care is rarely one isolated appointment. Trust develops through consistency, observation, honest guidance and a plan that can adapt over time.",
+      "translation": "Franciele acredita que o cuidado pele raramente é um atendimento isolado. Confiança se desenvolve através da consistência, observação, orientação honesta e um plano que pode se adaptar ao longo do tempo.",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "b2486c0af92214a36631f60c476c1def71849c279d963b930ce3e6b2f3bb7462",
+      "updated_at": "2026-07-19T10:50:55.727154+00:00"
+    },
+    "4bd4c8c1e93140174876dc9ac9e28713bd9fcb168d97bba5fbce06bd8547a07d": {
+      "source": "Self-esteem",
+      "translation": "Auto-estima.",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "b2486c0af92214a36631f60c476c1def71849c279d963b930ce3e6b2f3bb7462",
+      "updated_at": "2026-07-19T10:50:55.742185+00:00"
+    },
+    "37dfcc3de92b50904b21e9859c97bfd2eb011ec06d85b9e52790224489f187b8": {
+      "source": "Sophistication",
+      "translation": "Sofisticação",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "b2486c0af92214a36631f60c476c1def71849c279d963b930ce3e6b2f3bb7462",
+      "updated_at": "2026-07-19T10:50:55.758802+00:00"
+    },
+    "7d249ed4eb75246b3d0eee0799069b044136ea2d1fe30996b9f11fe59d8c1b2a": {
+      "source": "Beauty",
+      "translation": "Beleza",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "b2486c0af92214a36631f60c476c1def71849c279d963b930ce3e6b2f3bb7462",
+      "updated_at": "2026-07-19T10:50:55.769089+00:00"
+    },
+    "03d04faebf8868f91281267272456abb61f49140f36c125e09075a88703f8735": {
+      "source": "Trust is built through honest care.",
+      "translation": "Confiança é construída através de cuidados honestos.",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "b2486c0af92214a36631f60c476c1def71849c279d963b930ce3e6b2f3bb7462",
+      "updated_at": "2026-07-19T10:50:55.796670+00:00"
+    },
+    "7b24e9535126ccb59143cee2288238e9f592a54cce78734aca959a80489ed0a1": {
+      "source": "Give Franciele your feedback. Feedback allows us to grow not only professionally but personally. Tell us...",
+      "translation": "Dê seu feedback à Franciele. O feedback nos permite crescer não só profissionalmente, mas pessoalmente. Diga-nos...",
+      "engine": "argos:en->pb:installed",
+      "approved": false,
+      "glossary_hash": "b2486c0af92214a36631f60c476c1def71849c279d963b930ce3e6b2f3bb7462",
+      "updated_at": "2026-07-19T10:50:55.849205+00:00"
     }
   }
 }

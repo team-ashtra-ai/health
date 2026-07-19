@@ -1,6 +1,6 @@
 # Portuguese generation review
 
-Generated: 2026-07-18T20:51:09.871022+00:00
+Generated: 2026-07-19T11:03:36.008941+00:00
 Mode: `full`
 Engine: `argos:en->pb:installed`
 
@@ -14,7 +14,7 @@ Engine: `argos:en->pb:installed`
 - Conflicts requiring review: 0
 - Failures: 0
 - Obsolete outputs deleted: 0
-- Backup: `backups/pt/20260718-175108`
+- Backup: `backups/pt/20260719-080334`
 - Manifest: `.translation-cache.json`
 
 ## Files
