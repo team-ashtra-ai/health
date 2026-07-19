@@ -412,10 +412,10 @@
     background:
       linear-gradient(120deg, color-mix(in srgb, var(--blush-100) 68%, var(--ivory-50)), color-mix(in srgb, var(--champagne-100) 56%, var(--sage-100)));
   }
-  .sj-signoff__inner { display: grid; grid-template-columns: minmax(14rem, .65fr) minmax(0, 1.35fr); align-items: end; gap: clamp(2rem, 7vw, 7rem); }
-  .sj-signoff figure { align-self: end; min-block-size: 32rem; display: grid; align-items: end; overflow: hidden; }
-  .sj-signoff figure img { inline-size: 100%; max-block-size: 37rem; object-fit: contain; object-position: center bottom; }
-  .sj-signoff__copy { max-inline-size: 48rem; padding-block: clamp(4rem, 8vw, 8rem); }
+  .sj-signoff__inner { display: grid; grid-template-columns: minmax(17rem, .8fr) minmax(0, 1.2fr); align-items: center; gap: clamp(1.5rem, 4vw, 4.5rem); }
+  .sj-signoff figure { position: relative; align-self: center; justify-self: end; inline-size: min(100%, 22rem); block-size: clamp(20rem, 22vw, 23rem); overflow: hidden; }
+  .sj-signoff figure img { position: absolute; inset-inline-start: 50%; display: block; block-size: 132.35%; inline-size: auto; max-block-size: none; max-inline-size: none; transform: translate(-50%, -24.22%); }
+  .sj-signoff__copy { max-inline-size: 48rem; padding-block: clamp(3rem, 5vw, 5rem); }
   .sj-signoff h2 { margin-block-start: 1rem; }
   .sj-signoff__copy > p:not(:first-child) { max-inline-size: 50ch; margin-block-start: 1.5rem; color: var(--color-text-secondary); font-size: clamp(1rem, 1.2vw, 1.18rem); line-height: 1.7; }
   .sj-signoff__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1.25rem; margin-block-start: 2rem; }
@@ -601,7 +601,7 @@
     .sj-register { grid-template-columns: 1fr; }
     .sj-register__heading { position: static; }
     .sj-register__intro { max-inline-size: 57ch; }
-    .sj-signoff__inner { grid-template-columns: minmax(13rem, .55fr) minmax(0, 1.45fr); }
+    .sj-signoff__inner { grid-template-columns: minmax(15rem, .72fr) minmax(0, 1.28fr); gap: clamp(1.5rem, 3vw, 3rem); }
 
     .sja-hero { padding-block-start: 9.5rem; }
     .sja-hero h1 { font-size: clamp(3.1rem, 7.4vw, 5.25rem); }
@@ -666,8 +666,8 @@
     .sj-register__list li a { min-block-size: 0; grid-template-columns: 2.35rem minmax(0, 1fr) 1.25rem; padding-block: 1.15rem; }
     .sj-register__entry strong { font-size: 1.08rem; }
     .sj-signoff__inner { grid-template-columns: 1fr; }
-    .sj-signoff figure { min-block-size: 25rem; max-inline-size: 22rem; margin-inline: auto; }
-    .sj-signoff__copy { padding-block: 0 4.5rem; }
+    .sj-signoff figure { align-self: auto; inline-size: min(100%, 15rem); block-size: 18rem; margin-inline: auto; }
+    .sj-signoff__copy { padding-block: 0 3rem; }
     .sj-signoff__actions { align-items: stretch; }
     .sj-signoff__actions .sf-button { inline-size: 100%; }
 

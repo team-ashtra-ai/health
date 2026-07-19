@@ -224,7 +224,7 @@
     z-index: auto;
     isolation: auto;
     overflow: visible;
-    padding-block: clamp(5rem, 7vw, 7.5rem) calc(var(--footer-overlap) + clamp(3rem, 5vw, 5rem));
+    padding-block: clamp(2.5rem, 4vw, 4rem) calc(var(--footer-overlap) + clamp(1.5rem, 3vw, 2.5rem));
   }
 
   .sf-main > .sf-composition-final-cta.section--full-bleed .sf-bottom-cta__inner {
@@ -280,7 +280,7 @@
     }
 
     .sf-main > .sf-composition-final-cta.section--full-bleed {
-      padding-block: var(--section-standard) calc(var(--footer-overlap) + 2rem);
+      padding-block: 2.5rem calc(var(--footer-overlap) + 1.5rem);
     }
   }
 
