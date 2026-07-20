@@ -1,3 +1,5 @@
+import { assetPrefix } from './core/page.js';
+
 const PARTIAL_FILENAMES = Object.freeze({
   topbar: 'top-bar.html',
   header: 'header.html',
@@ -12,15 +14,16 @@ let loadPromise = null;
 function localeDetails() {
   const language = (document.documentElement.lang || 'en').trim().toLowerCase();
   const portuguese = language === 'pt' || language === 'pt-br' || language.startsWith('pt-');
+  const prefix = assetPrefix();
   return {
     language: portuguese ? 'pt-BR' : 'en',
     portuguese,
-    baseUrl: new URL(portuguese ? '/partials/pt-BR/' : '/partials/', window.location.origin)
+    baseUrl: new URL(`${prefix}${portuguese ? 'partials/pt-BR/' : 'partials/'}`, window.location.href)
   };
 }
 
 function pagePairsUrl() {
-  return new URL('/data/page-pairs.json', window.location.origin);
+  return new URL(`${assetPrefix()}data/page-pairs.json`, window.location.href);
 }
 
 async function fetchText(name, url) {
@@ -60,21 +63,29 @@ async function fetchPagePairs() {
 
 function currentFilename() {
   const path = decodeURIComponent(window.location.pathname || '').replace(/\/+$/, '');
-  return path.split('/').pop() || 'index.html';
+  if (!path || /\/(?:pt|pt-br|en)$/i.test(path)) return 'index.html';
+  const filename = path.split('/').pop() || 'index.html';
+  return filename.includes('.') ? filename : `${filename}.html`;
+}
+
+function pageKey(value) {
+  const filename = (value || '').split('/').pop() || 'index.html';
+  return filename.replace(/\.html?$/i, '') || 'index';
 }
 
 function currentPagePair(pairs, portuguese) {
-  const filename = currentFilename();
+  const key = pageKey(currentFilename());
   return pairs.find((pair) => {
     const candidate = portuguese ? pair['pt-BR'] : pair.en;
-    return typeof candidate === 'string' && candidate.split('/').pop() === filename;
+    return typeof candidate === 'string' && pageKey(candidate) === key;
   });
 }
 
 function siteRootPrefix(portuguese) {
   if (portuguese) return '';
   const candidate = document.body?.dataset.siteRoot || '';
-  return /^(?:\.\.\/)*$/.test(candidate) ? candidate : '';
+  if (/^(?:\.\.\/)*$/.test(candidate)) return candidate;
+  return assetPrefix();
 }
 
 function isRelativeSitePath(value) {
