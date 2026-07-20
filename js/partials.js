@@ -7,8 +7,6 @@ const PARTIAL_FILENAMES = Object.freeze({
   'floating-widgets': 'floating-widgets.html'
 });
 
-const PAGE_PAIRS_URL = new URL('../data/page-pairs.json', import.meta.url);
-
 let loadPromise = null;
 
 function localeDetails() {
@@ -17,8 +15,12 @@ function localeDetails() {
   return {
     language: portuguese ? 'pt-BR' : 'en',
     portuguese,
-    baseUrl: new URL(portuguese ? '../partials/pt-BR/' : '../partials/', import.meta.url)
+    baseUrl: new URL(portuguese ? '/partials/pt-BR/' : '/partials/', window.location.origin)
   };
+}
+
+function pagePairsUrl() {
+  return new URL('/data/page-pairs.json', window.location.origin);
 }
 
 async function fetchText(name, url) {
@@ -37,20 +39,21 @@ async function fetchText(name, url) {
 }
 
 async function fetchPagePairs() {
+  const url = pagePairsUrl();
   let response;
   try {
-    response = await fetch(PAGE_PAIRS_URL, { cache: 'no-cache' });
+    response = await fetch(url, { cache: 'no-cache' });
   } catch (cause) {
-    throw new Error(`Unable to load page-pair mapping from ${PAGE_PAIRS_URL.href}: network request failed.`, { cause });
+    throw new Error(`Unable to load page-pair mapping from ${url.href}: network request failed.`, { cause });
   }
   if (!response.ok) {
     throw new Error(
-      `Unable to load page-pair mapping from ${PAGE_PAIRS_URL.href}: HTTP ${response.status} ${response.statusText || 'Unknown status'}.`
+      `Unable to load page-pair mapping from ${url.href}: HTTP ${response.status} ${response.statusText || 'Unknown status'}.`
     );
   }
   const payload = await response.json();
   if (!Array.isArray(payload.pages)) {
-    throw new Error(`Page-pair mapping from ${PAGE_PAIRS_URL.href} does not contain a pages array.`);
+    throw new Error(`Page-pair mapping from ${url.href} does not contain a pages array.`);
   }
   return payload.pages;
 }
@@ -134,6 +137,12 @@ function parsePartial(name, source, pairs, portuguese, rootPrefix) {
 
 async function injectPartials() {
   const placeholders = Array.from(document.querySelectorAll('template[data-sf-partial]'));
+  if (!placeholders.length) {
+    const language = localeDetails().language;
+    const detail = Object.freeze({ language, partials: Object.freeze([]) });
+    document.dispatchEvent(new CustomEvent('sf:partials-loaded', { detail }));
+    return detail;
+  }
   const { language, portuguese, baseUrl } = localeDetails();
   const rootPrefix = siteRootPrefix(portuguese);
   const names = [...new Set(placeholders.map((placeholder) => placeholder.dataset.sfPartial))];

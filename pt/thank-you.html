@@ -247,8 +247,8 @@
           Franciele Sofiati · Biomédica · Esteticista · Cosmetologista · CRBM 6277 · Londrina, Paraná
         </p>
 <div aria-label="Continue navegando." class="sf-thank-you__actions">
-<a class="sf-button sf-button--primary" data-cta-location="thank-you" data-cta-purpose="home" data-track="cta" href="index.html">Voltar ao início</a>
-<a class="sf-button sf-button--outline" data-cta-location="thank-you" data-cta-purpose="treatments" data-track="cta" href="treatments.html">Ver tratamentos para pele e a laser</a>
+<a class="sf-button sf-button--primary" data-cta-location="body" data-cta-purpose="navigation" data-track="cta" href="index.html" data-link-location="body">Voltar ao início</a>
+<a class="sf-button sf-button--outline" data-cta-location="body" data-cta-purpose="treatments" data-track="cta" href="treatments.html" data-link-location="body">Ver tratamentos para pele e a laser</a>
 </div>
 <a class="sf-thank-you__home-link" href="contact.html">Precisa corrigir algo? Envie uma nova mensagem</a>
 </div>
@@ -260,6 +260,11 @@
 <script defer="" src="../js/analytics-config.js"></script>
 <script defer="" src="../js/consent-manager.js"></script>
 <script defer="" src="../js/analytics.js"></script>
+
+  <!-- Consent-aware analytics: GA4 is delivered through GTM only. GTM waits for analytics permission; do not add another gtag.js install. -->
+  <script src="../js/analytics-config.js" defer></script>
+  <script src="../js/consent-manager.js" defer></script>
+  <script src="../js/analytics.js" defer></script>
 <script src="../js/main.js" type="module"></script>
 </body>
 </html>

@@ -290,8 +290,8 @@
         </p>
 
         <div class="sf-thank-you__actions" aria-label="Continue browsing">
-          <a class="sf-button sf-button--primary" href="index.html" data-track="cta" data-cta-location="thank-you" data-cta-purpose="home">Return to Home</a>
-          <a class="sf-button sf-button--outline" href="treatments.html" data-track="cta" data-cta-location="thank-you" data-cta-purpose="treatments">View Skin and Laser Treatments</a>
+          <a class="sf-button sf-button--primary" href="index.html" data-track="cta" data-cta-location="body" data-cta-purpose="navigation" data-link-location="body">Return to Home</a>
+          <a class="sf-button sf-button--outline" href="treatments.html" data-track="cta" data-cta-location="body" data-cta-purpose="treatments" data-link-location="body">View Skin and Laser Treatments</a>
         </div>
 
         <a class="sf-thank-you__home-link" href="contact.html">Need to correct something? Send a new message</a>
@@ -306,6 +306,11 @@
   <script src="js/analytics-config.js" defer></script>
   <script src="js/consent-manager.js" defer></script>
   <script src="js/analytics.js" defer></script>
-  <script src="js/main.js" type="module"></script>
+  
+  <!-- Consent-aware analytics: GA4 is delivered through GTM only. GTM waits for analytics permission; do not add another gtag.js install. -->
+  <script src="js/analytics-config.js" defer></script>
+  <script src="js/consent-manager.js" defer></script>
+  <script src="js/analytics.js" defer></script>
+<script src="js/main.js" type="module"></script>
 </body>
 </html>
