@@ -29,6 +29,8 @@ REQUIRED_SCRIPTS = (
     "consent-manager.js",
     "analytics.js",
 )
+GA4_MEASUREMENT_ID = "G-S41CQ1303W"
+GOOGLE_TAG_ID = "GT-P8Z9PB5L"
 REQUIRED_EVENTS = (
     "cta_click",
     "contact_click",
@@ -558,8 +560,23 @@ def main() -> int:
         correct_order = names == list(REQUIRED_SCRIPTS)
         if not correct_order:
             errors.append(f"{rel(path)}: analytics scripts missing, duplicated or out of order: {names}")
-        if re.search(r"googletagmanager\.com/(?:gtm|gtag)", source, re.I):
-            errors.append(f"{rel(path)}: contains a direct Google tag installation")
+        direct_gtag_scripts = soup.find_all(
+            "script",
+            src=re.compile(
+                rf"^https://www\.googletagmanager\.com/gtag/js\?id={re.escape(GA4_MEASUREMENT_ID)}$"
+            ),
+        )
+        if len(direct_gtag_scripts) != 1:
+            errors.append(f"{rel(path)}: expected exactly one Google tag script for {GA4_MEASUREMENT_ID}")
+        head = soup.find("head")
+        if not head or len(direct_gtag_scripts) != 1 or direct_gtag_scripts[0] not in head.find_all("script")[:3]:
+            errors.append(f"{rel(path)}: Google tag is not installed immediately after the opening head")
+        if source.count(GA4_MEASUREMENT_ID) != 2:
+            errors.append(f"{rel(path)}: expected exactly two {GA4_MEASUREMENT_ID} references")
+        if source.count(GOOGLE_TAG_ID) != 1:
+            errors.append(f"{rel(path)}: expected exactly one {GOOGLE_TAG_ID} reference")
+        if "send_page_view': false" not in source and '"send_page_view": false' not in source:
+            errors.append(f"{rel(path)}: Google tag page view is not consent-deferred")
         script_records.append({
             "page": rel(path),
             "scripts": scripts,
@@ -667,21 +684,23 @@ def main() -> int:
         if not {"accept-all", "reject-optional", "save"} <= actions:
             errors.append(f"{rel(partial)}: consent actions are incomplete")
 
-    placeholder_status = {
-        "gtm": config_source.count('"GTM-REPLACE_ME"') == 1,
-        "ga4": config_source.count('"G-REPLACE_ME"') == 1,
-        "searchConsole": (
-            (ROOT / "index.html").read_text(encoding="utf-8").count(
-                "GOOGLE_SITE_VERIFICATION_REPLACE_ME"
-            ) == 1
-        ),
+    id_status = {
+        "gtmPlaceholder": config_source.count('"GTM-REPLACE_ME"') == 1,
+        "ga4": config_source.count(f'"{GA4_MEASUREMENT_ID}"') == 1,
+        "googleTag": config_source.count(f'"{GOOGLE_TAG_ID}"') == 1,
+        "streamName": '"FrancieleStream"' in config_source,
+        "streamId": '"15290697519"' in config_source,
     }
-    if not all(placeholder_status.values()):
-        errors.append(f"Placeholder status is incorrect: {placeholder_status}")
+    if not all(id_status.values()):
+        errors.append(f"Analytics ID status is incorrect: {id_status}")
     if re.search(r"\bGTM-(?!REPLACE_ME\b)[A-Z0-9]{5,}\b", config_source):
         errors.append("A non-placeholder GTM ID is hard-coded")
-    if re.search(r"\bG-(?!REPLACE_ME\b)[A-Z0-9]{5,}\b", config_source):
-        errors.append("A non-placeholder GA4 ID is hard-coded")
+    unexpected_ga4 = [
+        value for value in re.findall(r"\bG-[A-Z0-9]{5,}\b", config_source)
+        if value != GA4_MEASUREMENT_ID
+    ]
+    if unexpected_ga4:
+        errors.append(f"Unexpected GA4 IDs are hard-coded: {unexpected_ga4}")
     if '"basic"' not in config_source:
         errors.append("Basic consent mode is not configured")
     if "engagementThresholds: [30, 60, 120]" not in config_source:
@@ -763,10 +782,10 @@ def main() -> int:
             "allPagesCorrect": all(record["correctOrder"] for record in script_records),
             "records": script_records,
         },
-        "placeholderIdsPresent": placeholder_status,
+        "analyticsIds": id_status,
         "duplicateInstallations": {
             "directGtagImplementations": 0
-            if not any("direct Google tag installation" in error for error in errors)
+            if not any("expected exactly one Google tag script" in error for error in errors)
             else 1,
             "duplicateAnalyticsScriptBlocks": sum(
                 1 for record in script_records if record["count"] != 3
@@ -803,7 +822,6 @@ def main() -> int:
             "status": "PASS" if all(item["passed"] for item in syntax_results) else "FAIL",
             "files": syntax_results,
         },
-        "searchConsolePlaceholder": placeholder_status["searchConsole"],
         "sitemapStatus": {
             "exists": (ROOT / "sitemap.xml").is_file(),
             "thankYouExcluded": sitemap_ok,
@@ -814,8 +832,6 @@ def main() -> int:
         },
         "thankYouNoindex": thank_noindex,
         "remainingManualSetup": [
-            "Create the GA4 property and Web stream; use São Paulo time zone and BRL currency.",
-            "Replace G-REPLACE_ME with the real GA4 Measurement ID reference.",
             "Create the GTM Web container and replace GTM-REPLACE_ME.",
             "Create and test the GTM Google Tag, Data Layer Variables, custom-event trigger and GA4 Event tag.",
             "Disable duplicate Enhanced Measurement scroll, outbound, download and form events.",

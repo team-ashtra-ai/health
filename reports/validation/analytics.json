@@ -1,7 +1,7 @@
 {
   "status": "PASS",
-  "generatedAt": "2026-07-18T22:27:11.552780+00:00",
-  "pagesChecked": 52,
+  "generatedAt": "2026-07-20T17:34:27.225968+00:00",
+  "pagesChecked": 50,
   "scriptsPresent": {
     "required": [
       "analytics-config.js",
@@ -32,16 +32,6 @@
       },
       {
         "page": "accessibility.html",
-        "scripts": [
-          "js/analytics-config.js",
-          "js/consent-manager.js",
-          "js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "blog.html",
         "scripts": [
           "js/analytics-config.js",
           "js/consent-manager.js",
@@ -291,16 +281,6 @@
         "correctOrder": true
       },
       {
-        "page": "pt/blog.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
         "page": "pt/care.html",
         "scripts": [
           "../js/analytics-config.js",
@@ -532,10 +512,12 @@
       }
     ]
   },
-  "placeholderIdsPresent": {
-    "gtm": true,
+  "analyticsIds": {
+    "gtmPlaceholder": true,
     "ga4": true,
-    "searchConsole": true
+    "googleTag": true,
+    "streamName": true,
+    "streamId": true
   },
   "duplicateInstallations": {
     "directGtagImplementations": 0,
@@ -631,8 +613,8 @@
     "sensitiveFieldProtectionPassed": true
   },
   "trackingAttributes": {
-    "meaningfulSections": 364,
-    "faqItems": 176,
+    "meaningfulSections": 326,
+    "faqItems": 164,
     "installerIdempotent": true
   },
   "eventsImplemented": [
@@ -671,7 +653,7 @@
           "name": "all_pages_load_without_javascript_errors",
           "passed": true,
           "detail": {
-            "pages": 52,
+            "pages": 50,
             "errors": []
           }
         },
@@ -714,8 +696,8 @@
           "name": "consent_update_precedes_gtm_initialisation",
           "passed": true,
           "detail": {
-            "consentIndex": 1,
-            "gtmIndex": 2
+            "consentIndex": 3,
+            "gtmIndex": 4
           }
         },
         {
@@ -723,6 +705,16 @@
           "passed": true,
           "detail": {
             "states": [
+              {
+                "analytics_storage": "denied",
+                "ad_storage": "denied",
+                "ad_user_data": "denied",
+                "ad_personalization": "denied",
+                "functionality_storage": "denied",
+                "personalization_storage": "denied",
+                "security_storage": "granted",
+                "wait_for_update": 500
+              },
               {
                 "analytics_storage": "denied",
                 "ad_storage": "denied",
@@ -765,7 +757,8 @@
                 "page_type": "ProfilePage",
                 "content_group": "Trust",
                 "page_language": "en",
-                "page_path": "/about.html"
+                "page_path": "/about.html",
+                "gtm.uniqueEventId": 19
               }
             ]
           }
@@ -833,7 +826,7 @@
           "detail": {
             "engagementOne": 1,
             "engagementPaused": 1,
-            "engagementResumed": 3
+            "engagementResumed": 2
           }
         },
         {
@@ -848,12 +841,13 @@
                 "content_group": "Trust",
                 "page_language": "en",
                 "page_path": "/about.html",
-                "lcp_ms": 100,
+                "lcp_ms": 112,
                 "cls_score": 0.032,
-                "inp_ms": 40,
+                "inp_ms": 48,
                 "ttfb_ms": 2,
-                "dom_content_loaded_ms": 46,
-                "page_load_ms": 70
+                "dom_content_loaded_ms": 54,
+                "page_load_ms": 228,
+                "gtm.uniqueEventId": 41
               }
             ]
           }
@@ -872,7 +866,8 @@
                 "page_path": "/about.html",
                 "error_type": "runtime_error",
                 "script_name": "about.html",
-                "line_bucket": 0
+                "line_bucket": 0,
+                "gtm.uniqueEventId": 42
               }
             ]
           }
@@ -1008,7 +1003,6 @@
       }
     ]
   },
-  "searchConsolePlaceholder": true,
   "sitemapStatus": {
     "exists": true,
     "thankYouExcluded": true
@@ -1019,8 +1013,6 @@
   },
   "thankYouNoindex": true,
   "remainingManualSetup": [
-    "Create the GA4 property and Web stream; use São Paulo time zone and BRL currency.",
-    "Replace G-REPLACE_ME with the real GA4 Measurement ID reference.",
     "Create the GTM Web container and replace GTM-REPLACE_ME.",
     "Create and test the GTM Google Tag, Data Layer Variables, custom-event trigger and GA4 Event tag.",
     "Disable duplicate Enhanced Measurement scroll, outbound, download and form events.",

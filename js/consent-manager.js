@@ -24,6 +24,7 @@
   let currentPreferences = { ...defaultPreferences };
   let gtmRequested = false;
   let gtmScheduled = false;
+  let googlePageViewSent = false;
 
   function debug(message, detail) {
     if (!config.debug || !window.console) return;
@@ -31,6 +32,14 @@
   }
 
   function googleConsentCommand() {
+    dataLayer.push(arguments);
+  }
+
+  function googleTagCommand() {
+    if (typeof window.gtag === "function") {
+      window.gtag(...arguments);
+      return;
+    }
     dataLayer.push(arguments);
   }
 
@@ -108,6 +117,22 @@
     }, 0);
   }
 
+  function recordGooglePageView() {
+    if (googlePageViewSent || !currentPreferences.analytics) return;
+    googlePageViewSent = true;
+    const pagePath = `${window.location.pathname}${window.location.hash || ""}`;
+    const payload = {
+      page_title: document.title,
+      page_location: window.location.href.split("#")[0],
+      page_path: pagePath
+    };
+    googleTagCommand("config", config.ga4MeasurementId, payload);
+    if (config.googleTagId) {
+      googleTagCommand("config", config.googleTagId, { ...payload, send_page_view: false });
+    }
+    debug("Google tag page view recorded after analytics consent.", payload);
+  }
+
   function apply(preferences, source, initial) {
     const previous = currentPreferences;
     currentPreferences = normalize(preferences);
@@ -132,6 +157,7 @@
     }
 
     if (currentPreferences.analytics) scheduleGtm();
+    if (currentPreferences.analytics) recordGooglePageView();
     debug("Consent state applied.", currentPreferences);
     return { ...currentPreferences };
   }

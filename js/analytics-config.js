@@ -1,13 +1,8 @@
 /*
  * Franciele Sofiati analytics configuration
  *
- * GA4 is delivered through Google Tag Manager only. Do not add a separate
- * gtag.js GA4 installation to the HTML, or page views and events will duplicate.
- *
- * Replace GTM-REPLACE_ME with the Web container ID shown in Google Tag Manager.
- * Replace G-REPLACE_ME with the Web stream Measurement ID shown in GA4. The
- * GA4 ID is kept here as a documented reference; the Google Tag using that ID
- * must be created inside GTM.
+ * GA4 is delivered through the Google tag installed in every page head. The
+ * optional GTM container remains consent-gated for future compatibility.
  *
  * Set debug to true only for local/preview validation. Consent remains required
  * in debug mode. Basic consent mode means GTM is not requested until the visitor
@@ -21,8 +16,11 @@
   const config = {
     siteName: "Franciele Sofiati · Biomedical Practitioner · Aesthetician · Cosmetologist",
     productionDomain: "www.francielesofiati.com",
+    streamName: "FrancieleStream",
+    streamId: "15290697519",
     gtmContainerId: "GTM-REPLACE_ME",
-    ga4MeasurementId: "G-REPLACE_ME",
+    ga4MeasurementId: "G-S41CQ1303W",
+    googleTagId: "GT-P8Z9PB5L",
     consentMode: "basic",
     consentStorageKey: "sofiati_cookie_preferences_v3",
     leadStorageKey: "sofiati_analytics_pending_lead_v1",

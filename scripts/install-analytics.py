@@ -23,11 +23,39 @@ ORIGIN_HOSTS = {"francielesofiati.com", "www.francielesofiati.com"}
 DOWNLOAD_EXTENSIONS = {"pdf", "doc", "docx", "xls", "xlsx", "csv", "zip", "rtf", "txt"}
 ANALYTICS_BLOCK_RE = re.compile(
     r"\s*<!-- Consent-aware analytics:.*?-->\s*"
-    r"(?:<script\b[^>]*\bsrc=[\"'][^\"']*/?analytics-(?:config)?\.js[\"'][^>]*></script>\s*|"
+    r"(?:<script\b[^>]*\bsrc=[\"'][^\"']*/?analytics-config\.js[\"'][^>]*></script>\s*|"
     r"<script\b[^>]*\bsrc=[\"'][^\"']*/?consent-manager\.js[\"'][^>]*></script>\s*|"
     r"<script\b[^>]*\bsrc=[\"'][^\"']*/?analytics\.js[\"'][^>]*></script>\s*)+",
     re.I | re.S,
 )
+GOOGLE_TAG_BLOCK_RE = re.compile(
+    r"\s*<!-- Google tag \(gtag\.js\) -->\s*"
+    r"(?:<script\b(?![^>]*\bsrc=)[^>]*>.*?</script>\s*)?"
+    r"<script\b[^>]*\bsrc=[\"']https://www\.googletagmanager\.com/gtag/js\?id=[^\"']+[\"'][^>]*></script>\s*"
+    r"(?:<script\b(?![^>]*\bsrc=)[^>]*>.*?</script>\s*)?",
+    re.I | re.S,
+)
+GOOGLE_TAG_HEAD_BLOCK = """<!-- Google tag (gtag.js) -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    analytics_storage: 'denied',
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    functionality_storage: 'denied',
+    personalization_storage: 'denied',
+    security_storage: 'granted',
+    wait_for_update: 500
+  });
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S41CQ1303W"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'G-S41CQ1303W', { 'send_page_view': false });
+  gtag('config', 'GT-P8Z9PB5L', { 'send_page_view': false });
+</script>"""
 
 
 def public_pages() -> list[Path]:
@@ -325,10 +353,21 @@ def repair_isolated_tag_serialization(source: str) -> str:
 
 def add_script_block(path: Path, source: str) -> str:
     source = ANALYTICS_BLOCK_RE.sub("\n", source)
+    source = re.sub(
+        r"\s*<!-- Consent-aware analytics[^>]*?-->\s*",
+        "\n",
+        source,
+        flags=re.I | re.S,
+    )
+    source = re.sub(
+        r"\s*<script\b[^>]*\bsrc=[\"'][^\"']*/?(?:analytics-config|consent-manager|analytics)\.js[\"'][^>]*></script>\s*",
+        "\n",
+        source,
+        flags=re.I,
+    )
     js_prefix = Path(os.path.relpath(ROOT / "js", path.parent)).as_posix()
     block = (
-        "\n  <!-- Consent-aware analytics: GA4 is delivered through GTM only. "
-        "GTM waits for analytics permission; do not add another gtag.js install. -->\n"
+        "\n  <!-- Consent-aware analytics events and Google consent bridge. -->\n"
         f'  <script src="{js_prefix}/analytics-config.js" defer></script>\n'
         f'  <script src="{js_prefix}/consent-manager.js" defer></script>\n'
         f'  <script src="{js_prefix}/analytics.js" defer></script>\n'
@@ -346,9 +385,19 @@ def add_script_block(path: Path, source: str) -> str:
     return source[: close.start()] + block + source[close.start() :]
 
 
+def add_google_tag_head_block(source: str) -> str:
+    source = GOOGLE_TAG_BLOCK_RE.sub("", source)
+    head = re.search(r"<head\b[^>]*>", source, re.I)
+    if not head:
+        raise RuntimeError("HTML document has no opening head tag")
+    insertion = "\n" + GOOGLE_TAG_HEAD_BLOCK + "\n"
+    return source[: head.end()] + insertion + source[head.end() :]
+
+
 def process_page(path: Path) -> bool:
     original = path.read_text(encoding="utf-8")
     source = repair_isolated_tag_serialization(original)
+    source = add_google_tag_head_block(source)
     source = add_script_block(path, source)
     source = annotate_tags(source, "a", lambda tag, _: analytics_link_attributes(tag))
     source = annotate_tags(source, "section", section_attributes)
