@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Apply edits from the editable bilingual Word export without changing HTML structure.
 
-Run without ``--apply`` to preview.  The command refuses to write if any source
+Applies approved edits directly after validation.  The command refuses to write if any source
 file differs from the snapshot hash in the companion map, or if a Word row can
 not be found exactly.  It performs only source-text/attribute substitutions;
 tags, attributes, classes, IDs, CSS and JavaScript are never rewritten.
@@ -187,7 +187,6 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--document", type=Path, default=DEFAULT_DOCUMENT)
     parser.add_argument("--map", dest="map_path", type=Path, default=DEFAULT_MAP)
-    parser.add_argument("--apply", action="store_true", help="Write the planned text-only changes to source files.")
     parser.add_argument(
         "--allow-source-changes",
         action="store_true",
@@ -221,15 +220,21 @@ def main() -> int:
     print(f"Source files affected: {len(plans)}")
     for path, changes in plans.items():
         print(f"  {path.relative_to(ROOT)}: {len(changes)} text-only replacement(s)")
-    if not args.apply:
-        print("Preview only. Re-run with --apply to write these replacements.")
-        return 0
+    print("\nApplying changes...")
+
     for path, changes in plans.items():
         source = path.read_text(encoding="utf-8")
+
         for start, end, replacement, _entry_id in sorted(changes, reverse=True):
             source = source[:start] + replacement + source[end:]
+
         path.write_text(source, encoding="utf-8")
-    print("Applied successfully. Regenerate the Word export and map before starting another editing cycle.")
+
+    print(
+        "✓ Applied successfully. "
+        "HTML structure, CSS, JavaScript, classes and IDs were preserved."
+    )
+
     return 0
 
 
