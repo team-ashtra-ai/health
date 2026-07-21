@@ -47,10 +47,9 @@ Important interpretation rules:
 
 ## Policies and trust
 
-- [Legal information](https://www.francielesofiati.com/legal.html): Professional scope, educational-content limits, outcome disclaimers, intellectual property and acceptable use.
+- [Legal](https://www.francielesofiati.com/legal.html): Professional scope, educational-content limits, outcome disclaimers, intellectual property and acceptable use.
 - [Privacy notice](https://www.francielesofiati.com/privacidade.html): How contact, consultation and website information may be handled under Brazilian data-protection principles.
 - [Cookie notice](https://www.francielesofiati.com/cookies.html): Cookie categories, choices and related privacy information.
-- [Accessibility statement](https://www.francielesofiati.com/acessibilidade.html): Accessibility approach, supported features and feedback route.
 
 ## Optional
 

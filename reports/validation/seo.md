@@ -4,11 +4,11 @@
 
 ## Coverage
 
-- Public HTML pages parsed: 50
-- Canonical, indexable URLs in sitemap: 46
-- Images audited: 374
-- Decorative images with empty alt text: 160
-- Post-hero navigation targets: 46
+- Public HTML pages parsed: 48
+- Canonical, indexable URLs in sitemap: 44
+- Images audited: 356
+- Decorative images with empty alt text: 144
+- Post-hero navigation targets: 44
 
 ## Validation summary
 
@@ -25,7 +25,6 @@
 | Page | Title | Description | Robots | Page-specific schema |
 | --- | ---: | ---: | --- | --- |
 | `404.html` | 58 chars | 150 chars | `noindex, follow` | noindex utility |
-| `acessibilidade.html` | 34 chars | 121 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
 | `blog.html` | 50 chars | 110 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | CollectionPage, Blog, ItemList |
 | `consulta.html` | 49 chars | 128 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage, FAQPage, Service |
 | `contato.html` | 27 chars | 121 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | ContactPage |
@@ -34,7 +33,6 @@
 | `depoimentos.html` | 31 chars | 96 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
 | `en/404.html` | 97 chars | 162 chars | `noindex, follow` | noindex utility |
 | `en/about.html` | 91 chars | 160 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | AboutPage, ProfilePage |
-| `en/accessibility.html` | 90 chars | 134 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
 | `en/care.html` | 55 chars | 134 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
 | `en/consultation.html` | 54 chars | 168 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage, FAQPage, Service |
 | `en/contact.html` | 101 chars | 203 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | ContactPage |
@@ -64,7 +62,7 @@
 | `en/values.html` | 39 chars | 136 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | AboutPage |
 | `index.html` | 58 chars | 150 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage, FAQPage |
 | `laser.html` | 46 chars | 125 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage, MedicalWebPage, Service |
-| `legal.html` | 38 chars | 89 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
+| `legal.html` | 25 chars | 76 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage |
 | `missao.html` | 26 chars | 116 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | AboutPage |
 | `obrigada.html` | 41 chars | 54 chars | `noindex, follow` | noindex utility |
 | `pele.html` | 51 chars | 114 chars | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` | WebPage, MedicalWebPage, Service |
@@ -98,7 +96,6 @@
 - [cuidados.html] description is 111 characters
 - [depoimentos.html] description is 96 characters
 - [en/about.html] title is 91 characters
-- [en/accessibility.html] title is 90 characters
 - [en/contact.html] title is 101 characters
 - [en/contact.html] description is 203 characters
 - [en/cookies.html] title is 103 characters
@@ -106,7 +103,7 @@
 - [en/privacy.html] title is 91 characters
 - [en/privacy.html] description is 214 characters
 - [en/testimonials.html] title is 101 characters
-- [legal.html] description is 89 characters
+- [legal.html] description is 76 characters
 - [missao.html] description is 116 characters
 - [pele.html] description is 114 characters
 - [tratamentos.html] description is 116 characters

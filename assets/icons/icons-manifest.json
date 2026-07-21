@@ -28,89 +28,6 @@
     ]
   },
   {
-    "filename": "accessibility-care.svg",
-    "displayName": "Accessibility Care",
-    "category": "Trust / Legal / Accessibility",
-    "source": "custom-original-generated-for-site-system",
-    "position": "n/a",
-    "tags": [
-      "accessibility",
-      "care",
-      "policy",
-      "trust"
-    ],
-    "recommendedUse": [
-      "Accessibility page",
-      "Legal page",
-      "PolicyCardGrid"
-    ],
-    "format": "svg",
-    "usesCurrentColor": true,
-    "hasTrueTransparency": true,
-    "viewBox": "0 0 64 64",
-    "strokeStyle": "thin rounded line",
-    "styleDirection": "feminine botanical luxury premium skincare/clinic",
-    "availableVariants": [
-      "assets/icons/line/accessibility-care.svg",
-      "assets/icons/medallion/accessibility-care.svg",
-      "assets/shared/interface-icons/icone-acessibilidade-cuidado.svg"
-    ]
-  },
-  {
-    "filename": "accessibility.svg",
-    "displayName": "Accessibility",
-    "category": "Trust / Legal / Accessibility",
-    "source": "custom-original-generated-for-site-system",
-    "position": "n/a",
-    "tags": [
-      "accessibility",
-      "policy",
-      "trust"
-    ],
-    "recommendedUse": [
-      "Trust / Legal / Accessibility"
-    ],
-    "format": "svg",
-    "usesCurrentColor": true,
-    "hasTrueTransparency": true,
-    "viewBox": "0 0 64 64",
-    "strokeStyle": "thin rounded line",
-    "styleDirection": "feminine botanical luxury premium skincare/clinic",
-    "availableVariants": [
-      "assets/icons/line/accessibility.svg",
-      "assets/icons/medallion/accessibility.svg",
-      "assets/shared/interface-icons/icone-acessibilidade.svg"
-    ]
-  },
-  {
-    "filename": "accessible-care.svg",
-    "displayName": "Accessible Care",
-    "category": "Trust / Legal / Accessibility",
-    "source": "custom-original-generated-for-site-system",
-    "position": "n/a",
-    "tags": [
-      "accessibility",
-      "accessible",
-      "care",
-      "policy",
-      "trust"
-    ],
-    "recommendedUse": [
-      "Footer/Header/Floating UI"
-    ],
-    "format": "svg",
-    "usesCurrentColor": true,
-    "hasTrueTransparency": true,
-    "viewBox": "0 0 64 64",
-    "strokeStyle": "thin rounded line",
-    "styleDirection": "feminine botanical luxury premium skincare/clinic",
-    "availableVariants": [
-      "assets/icons/line/accessible-care.svg",
-      "assets/icons/medallion/accessible-care.svg",
-      "assets/shared/interface-icons/icone-acessivel-cuidado.svg"
-    ]
-  },
-  {
     "filename": "accordion-chevron.svg",
     "displayName": "Accordion Chevron",
     "category": "Navigation / UI",
@@ -437,9 +354,7 @@
       "assistive",
       "tech"
     ],
-    "recommendedUse": [
-      "Accessibility page"
-    ],
+    "recommendedUse": [],
     "format": "svg",
     "usesCurrentColor": true,
     "hasTrueTransparency": true,
@@ -850,11 +765,10 @@
   {
     "filename": "care-hand-heart.svg",
     "displayName": "Care Hand Heart",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "care",
       "hand",
       "heart",
@@ -983,11 +897,10 @@
   {
     "filename": "certificate.svg",
     "displayName": "Certificate",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "certificate",
       "policy",
       "trust"
@@ -1140,11 +1053,10 @@
   {
     "filename": "clarity-eye.svg",
     "displayName": "Clarity Eye",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "clarity",
       "eye",
       "policy",
@@ -1297,11 +1209,10 @@
   {
     "filename": "clock.svg",
     "displayName": "Clock",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "clock",
       "policy",
       "trust"
@@ -1456,18 +1367,17 @@
   {
     "filename": "consent-form.svg",
     "displayName": "Consent Form",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "consent",
       "form",
       "policy",
       "trust"
     ],
     "recommendedUse": [
-      "Trust / Legal / Accessibility"
+      "Trust / Legal"
     ],
     "format": "svg",
     "usesCurrentColor": true,
@@ -1484,18 +1394,17 @@
   {
     "filename": "consent-preferences.svg",
     "displayName": "Consent Preferences",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "consent",
       "policy",
       "preferences",
       "trust"
     ],
     "recommendedUse": [
-      "Trust / Legal / Accessibility"
+      "Trust / Legal"
     ],
     "format": "svg",
     "usesCurrentColor": true,
@@ -1699,18 +1608,17 @@
   {
     "filename": "cookie-preferences.svg",
     "displayName": "Cookie Preferences",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "cookie",
       "policy",
       "preferences",
       "trust"
     ],
     "recommendedUse": [
-      "Trust / Legal / Accessibility"
+      "Trust / Legal"
     ],
     "format": "svg",
     "usesCurrentColor": true,
@@ -1727,11 +1635,10 @@
   {
     "filename": "cookie-settings.svg",
     "displayName": "Cookie Settings",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "cookie",
       "policy",
       "settings",
@@ -2053,11 +1960,10 @@
   {
     "filename": "document-check.svg",
     "displayName": "Document Check",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "check",
       "document",
       "policy",
@@ -2086,17 +1992,16 @@
   {
     "filename": "document.svg",
     "displayName": "Document",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "document",
       "policy",
       "trust"
     ],
     "recommendedUse": [
-      "Trust / Legal / Accessibility"
+      "Trust / Legal"
     ],
     "format": "svg",
     "usesCurrentColor": true,
@@ -2138,18 +2043,15 @@
   {
     "filename": "ear.svg",
     "displayName": "Ear",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "ear",
       "policy",
       "trust"
     ],
-    "recommendedUse": [
-      "Accessibility page"
-    ],
+    "recommendedUse": [],
     "format": "svg",
     "usesCurrentColor": true,
     "hasTrueTransparency": true,
@@ -2221,11 +2123,10 @@
   {
     "filename": "ethical-info.svg",
     "displayName": "Ethical Info",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "ethical",
       "info",
       "policy",
@@ -2251,11 +2152,10 @@
   {
     "filename": "ethics-shield.svg",
     "displayName": "Ethics Shield",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "ethics",
       "policy",
       "shield",
@@ -2442,18 +2342,15 @@
   {
     "filename": "eye.svg",
     "displayName": "Eye",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "eye",
       "policy",
       "trust"
     ],
-    "recommendedUse": [
-      "Accessibility page"
-    ],
+    "recommendedUse": [],
     "format": "svg",
     "usesCurrentColor": true,
     "hasTrueTransparency": true,
@@ -2706,9 +2603,7 @@
       "luxury",
       "message"
     ],
-    "recommendedUse": [
-      "Accessibility page"
-    ],
+    "recommendedUse": [],
     "format": "svg",
     "usesCurrentColor": true,
     "hasTrueTransparency": true,
@@ -3296,18 +3191,15 @@
   {
     "filename": "hand.svg",
     "displayName": "Hand",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "hand",
       "policy",
       "trust"
     ],
-    "recommendedUse": [
-      "Accessibility page"
-    ],
+    "recommendedUse": [],
     "format": "svg",
     "usesCurrentColor": true,
     "hasTrueTransparency": true,
@@ -3323,18 +3215,17 @@
   {
     "filename": "hands-care.svg",
     "displayName": "Hands Care",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "care",
       "hands",
       "policy",
       "trust"
     ],
     "recommendedUse": [
-      "Trust / Legal / Accessibility"
+      "Trust / Legal"
     ],
     "format": "svg",
     "usesCurrentColor": true,
@@ -3413,17 +3304,16 @@
   {
     "filename": "heart.svg",
     "displayName": "Heart",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "heart",
       "policy",
       "trust"
     ],
     "recommendedUse": [
-      "Trust / Legal / Accessibility"
+      "Trust / Legal"
     ],
     "format": "svg",
     "usesCurrentColor": true,
@@ -3858,18 +3748,17 @@
   {
     "filename": "keyboard-navigation.svg",
     "displayName": "Keyboard Navigation",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "keyboard",
       "navigation",
       "policy",
       "trust"
     ],
     "recommendedUse": [
-      "Trust / Legal / Accessibility"
+      "Trust / Legal"
     ],
     "format": "svg",
     "usesCurrentColor": true,
@@ -3886,18 +3775,15 @@
   {
     "filename": "keyboard.svg",
     "displayName": "Keyboard",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "keyboard",
       "policy",
       "trust"
     ],
-    "recommendedUse": [
-      "Accessibility page"
-    ],
+    "recommendedUse": [],
     "format": "svg",
     "usesCurrentColor": true,
     "hasTrueTransparency": true,
@@ -4196,18 +4082,17 @@
   {
     "filename": "legal-consent.svg",
     "displayName": "Legal Consent",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "consent",
       "legal",
       "policy",
       "trust"
     ],
     "recommendedUse": [
-      "Trust / Legal / Accessibility"
+      "Trust / Legal"
     ],
     "format": "svg",
     "usesCurrentColor": true,
@@ -4224,11 +4109,10 @@
   {
     "filename": "legal-scales.svg",
     "displayName": "Legal Scales",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "legal",
       "policy",
       "scales",
@@ -4334,11 +4218,10 @@
   {
     "filename": "lock.svg",
     "displayName": "Lock",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "lock",
       "policy",
       "trust"
@@ -4462,18 +4345,17 @@
   {
     "filename": "medical-disclaimer.svg",
     "displayName": "Medical Disclaimer",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "disclaimer",
       "medical",
       "policy",
       "trust"
     ],
     "recommendedUse": [
-      "Trust / Legal / Accessibility"
+      "Trust / Legal"
     ],
     "format": "svg",
     "usesCurrentColor": true,
@@ -4997,11 +4879,10 @@
   {
     "filename": "patient-rights.svg",
     "displayName": "Patient Rights",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "patient",
       "policy",
       "rights",
@@ -5267,17 +5148,16 @@
   {
     "filename": "policy-card.svg",
     "displayName": "Policy Card",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "card",
       "policy",
       "trust"
     ],
     "recommendedUse": [
-      "Trust / Legal / Accessibility"
+      "Trust / Legal"
     ],
     "format": "svg",
     "usesCurrentColor": true,
@@ -5294,11 +5174,10 @@
   {
     "filename": "post-care-shield.svg",
     "displayName": "Post Care Shield",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "care",
       "policy",
       "post",
@@ -5306,7 +5185,7 @@
       "trust"
     ],
     "recommendedUse": [
-      "Trust / Legal / Accessibility"
+      "Trust / Legal"
     ],
     "format": "svg",
     "usesCurrentColor": true,
@@ -5348,11 +5227,10 @@
   {
     "filename": "privacy-choice.svg",
     "displayName": "Privacy Choice",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "choice",
       "policy",
       "privacy",
@@ -5379,11 +5257,10 @@
   {
     "filename": "privacy-shield.svg",
     "displayName": "Privacy Shield",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "policy",
       "privacy",
       "shield",
@@ -6053,17 +5930,16 @@
   {
     "filename": "search.svg",
     "displayName": "Search",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "policy",
       "search",
       "trust"
     ],
     "recommendedUse": [
-      "Trust / Legal / Accessibility"
+      "Trust / Legal"
     ],
     "format": "svg",
     "usesCurrentColor": true,
@@ -6404,11 +6280,10 @@
   {
     "filename": "shield-check.svg",
     "displayName": "Shield Check",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "check",
       "policy",
       "shield",
@@ -6441,11 +6316,10 @@
   {
     "filename": "shield.svg",
     "displayName": "Shield",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "policy",
       "shield",
       "trust"
@@ -7104,18 +6978,17 @@
   {
     "filename": "terms-document.svg",
     "displayName": "Terms Document",
-    "category": "Trust / Legal / Accessibility",
+    "category": "Trust / Legal",
     "source": "custom-original-generated-for-site-system",
     "position": "n/a",
     "tags": [
-      "accessibility",
       "document",
       "policy",
       "terms",
       "trust"
     ],
     "recommendedUse": [
-      "Trust / Legal / Accessibility"
+      "Trust / Legal"
     ],
     "format": "svg",
     "usesCurrentColor": true,

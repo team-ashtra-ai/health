@@ -1,7 +1,7 @@
 {
   "status": "PASS",
-  "generatedAt": "2026-07-21T13:41:05.323484+00:00",
-  "pagesChecked": 50,
+  "generatedAt": "2026-07-21T13:49:22.381893+00:00",
+  "pagesChecked": 48,
   "scriptsPresent": {
     "required": [
       "analytics-config.js",
@@ -12,16 +12,6 @@
     "records": [
       {
         "page": "404.html",
-        "scripts": [
-          "js/analytics-config.js",
-          "js/consent-manager.js",
-          "js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "acessibilidade.html",
         "scripts": [
           "js/analytics-config.js",
           "js/consent-manager.js",
@@ -102,16 +92,6 @@
       },
       {
         "page": "en/about.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "en/accessibility.html",
         "scripts": [
           "../js/analytics-config.js",
           "../js/consent-manager.js",
@@ -525,21 +505,10 @@
     "gtmLoaderGuardImplemented": true
   },
   "formsChecked": {
-    "count": 8,
-    "trackedCount": 6,
+    "count": 6,
+    "trackedCount": 4,
     "ignoredCount": 2,
     "records": [
-      {
-        "page": "acessibilidade.html",
-        "id": "accessibility-feedback-form",
-        "formName": "accessibility_feedback",
-        "formType": "accessibility",
-        "leadType": null,
-        "fields": 8,
-        "sensitiveFieldsProtected": 8,
-        "gtmAutoFormDisabled": true,
-        "passed": true
-      },
       {
         "page": "consulta.html",
         "id": "consultation-request-form",
@@ -559,17 +528,6 @@
         "leadType": "contact_enquiry",
         "fields": 40,
         "sensitiveFieldsProtected": 40,
-        "gtmAutoFormDisabled": true,
-        "passed": true
-      },
-      {
-        "page": "en/accessibility.html",
-        "id": "accessibility-feedback-form",
-        "formName": "accessibility_feedback",
-        "formType": "accessibility",
-        "leadType": null,
-        "fields": 8,
-        "sensitiveFieldsProtected": 8,
         "gtmAutoFormDisabled": true,
         "passed": true
       },
@@ -613,7 +571,7 @@
     "sensitiveFieldProtectionPassed": true
   },
   "trackingAttributes": {
-    "meaningfulSections": 326,
+    "meaningfulSections": 308,
     "faqItems": 164,
     "installerIdempotent": true
   },
@@ -653,7 +611,7 @@
           "name": "all_pages_load_without_javascript_errors",
           "passed": true,
           "detail": {
-            "pages": 50,
+            "pages": 48,
             "errors": []
           }
         },
@@ -661,7 +619,7 @@
           "name": "stored_rejection_pages_remain_stable",
           "passed": true,
           "detail": {
-            "gtmRequests": 52
+            "gtmRequests": 48
           }
         }
       ],
