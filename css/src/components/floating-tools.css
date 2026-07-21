@@ -31,4 +31,11 @@
     }
   }
   @media (max-width: 32.5rem) { #sf-floating-inline { grid-auto-flow: row; grid-auto-rows: 3rem; } .sff-tool { inline-size: 3rem; block-size: 3rem; } .sff-tool svg { inline-size: 1.65rem; block-size: 1.65rem; } .sff-whatsapp svg { inline-size: 1.8rem; block-size: 1.8rem; } .sff-label { display: none; } }
+
+  @media (max-width: 32.5rem) {
+    .sf-page[data-page="contact"] #sf-floating-inline,
+    .sf-page[data-page="consultation"] #sf-floating-inline {
+      display: none;
+    }
+  }
 }
