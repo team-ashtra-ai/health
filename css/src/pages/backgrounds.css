@@ -228,28 +228,55 @@
 }
 
 .sffo-bottom {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
   align-items: center;
-  justify-content: space-between;
   gap: 1.5rem;
   margin-top: clamp(3rem, 5vw, 5rem);
   padding-top: clamp(1.25rem, 2vw, 1.75rem);
   border-top: 1px solid var(--sffo-line);
 }
 
-.sffo-legal {
+.sffo-legal,
+.sffo-resources {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: .5rem;
 }
 
-.sffo-legal a {
+.sffo-legal {
+  justify-content: center;
+}
+
+.sffo-resources {
+  justify-content: flex-end;
+}
+
+.sffo-legal a,
+.sffo-resources a {
   color: var(--sffo-text-legal);
   font-size: .75rem;
   line-height: 1.4;
   letter-spacing: .045em;
   text-decoration: none;
+}
+
+.sffo-social-icon {
+  display: inline-grid;
+  place-items: center;
+  inline-size: 1.55rem;
+  block-size: 1.55rem;
+}
+
+.sffo-social-icon svg {
+  inline-size: 1rem;
+  block-size: 1rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
 }
 
 .sffo-sep {
@@ -264,13 +291,15 @@
   color: var(--sffo-text-legal);
   font-size: .75rem;
   line-height: 1.55;
-  text-align: right;
+  text-align: left;
   text-wrap: pretty;
+  justify-self: start;
 }
 
 .sffo-button:focus-visible,
 .sffo-link:focus-visible,
-.sffo-legal a:focus-visible {
+.sffo-legal a:focus-visible,
+.sffo-resources a:focus-visible {
   outline: 2px solid var(--sffo-gold-light);
   outline-offset: 4px;
 }
@@ -284,7 +313,8 @@
   }
 
   .sffo-link:hover,
-  .sffo-legal a:hover { color: var(--sffo-text); }
+  .sffo-legal a:hover,
+  .sffo-resources a:hover { color: var(--sffo-text); }
 }
 
 @media (max-width: 62rem) {
@@ -326,12 +356,20 @@
 
   .sffo-bottom {
     align-items: center;
-    flex-direction: column;
+    grid-template-columns: 1fr;
     text-align: center;
   }
 
-  .sffo-legal { justify-content: center; }
-  .sffo-copy { max-width: 34rem; text-align: center; }
+  .sffo-legal,
+  .sffo-resources {
+    justify-content: center;
+  }
+
+  .sffo-copy {
+    max-width: 34rem;
+    text-align: center;
+    justify-self: center;
+  }
 }
 
 @media (max-width: 34rem) {
@@ -350,7 +388,8 @@
 @media (prefers-reduced-motion: reduce) {
   .sffo-button,
   .sffo-link,
-  .sffo-legal a { transition: none; }
+  .sffo-legal a,
+  .sffo-resources a { transition: none; }
 }
 
 @media (prefers-reduced-transparency: reduce) {

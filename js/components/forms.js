@@ -8,6 +8,8 @@ const FORM_ENDPOINTS = Object.freeze({
   quick_question: 'https://formspree.io/f/xzdldkjy',
   newsletter: 'https://formspree.io/f/xzdldkjy',
   newsletter_signup: 'https://formspree.io/f/xzdldkjy',
+  consent_authorisation: 'https://formspree.io/f/xzdldkjy',
+  consent_authorization: 'https://formspree.io/f/xzdldkjy',
   accessibility: 'https://formspree.io/f/xzdldkjy',
   accessibility_feedback: 'https://formspree.io/f/xzdldkjy'
 });
@@ -256,6 +258,104 @@ function deviceType() {
   return 'desktop';
 }
 
+function setupConsentSpecificTerms(form) {
+  if (!form.matches('[data-form-type="consent_authorisation"], [data-form-type="consent_authorization"]')) {
+    return;
+  }
+
+  const procedureInputs = qsa('input[name="selected_procedures"]', form);
+  if (!procedureInputs.length) return;
+
+  const copy = isPortuguese()
+    ? {
+      selectProcedure: 'Selecione pelo menos um procedimento.',
+      acceptTerm: 'Abra e aceite o termo específico do procedimento selecionado antes de enviar.'
+    }
+    : {
+      selectProcedure: 'Select at least one procedure.',
+      acceptTerm: 'Open and accept the specific term for the selected procedure before submitting.'
+    };
+
+  const matchingTermInput = (procedureInput) => {
+    const raw = String(procedureInput.value || '');
+    return qs(`input[name="accepted_term_${CSS.escape(raw)}"]`, form);
+  };
+
+  const procedureCard = (input) => input.closest('.sf-consent-procedure');
+
+  const syncProcedureGroupValidity = () => {
+    const selected = procedureInputs.filter((input) => input.checked);
+    procedureInputs.forEach((input) => {
+      input.required = false;
+      input.setCustomValidity('');
+    });
+    if (!selected.length) {
+      procedureInputs[0].required = true;
+      procedureInputs[0].setCustomValidity(copy.selectProcedure);
+    }
+    return selected;
+  };
+
+  const syncTermRequirements = () => {
+    const selected = syncProcedureGroupValidity();
+    procedureInputs.forEach((procedureInput) => {
+      const termInput = matchingTermInput(procedureInput);
+      if (!termInput) return;
+      termInput.required = procedureInput.checked;
+      if (!procedureInput.checked || termInput.checked) {
+        termInput.setCustomValidity('');
+        return;
+      }
+      termInput.setCustomValidity(copy.acceptTerm);
+    });
+    return selected;
+  };
+
+  const openAndFocusTerm = (procedureInput, focusAcceptance = false) => {
+    const card = procedureCard(procedureInput);
+    const details = qs('details', card);
+    const termInput = matchingTermInput(procedureInput);
+    if (details) details.open = true;
+    const target = focusAcceptance && termInput ? termInput : details || card || procedureInput;
+    window.requestAnimationFrame(() => {
+      target?.scrollIntoView?.({ behavior: 'smooth', block: 'center' });
+      if (focusAcceptance && termInput) termInput.focus({ preventScroll: true });
+    });
+  };
+
+  procedureInputs.forEach((procedureInput) => {
+    procedureInput.addEventListener('change', () => {
+      syncTermRequirements();
+      if (procedureInput.checked) openAndFocusTerm(procedureInput);
+    });
+  });
+
+  qsa('input[name^="accepted_term_"]', form).forEach((termInput) => {
+    termInput.addEventListener('change', syncTermRequirements);
+  });
+
+  qsa('input[type="file"].sf-consent-file-input', form).forEach((fileInput) => {
+    const status = fileInput.nextElementSibling?.querySelector?.('.sf-file-status');
+    const emptyText = status?.textContent || '';
+    fileInput.addEventListener('change', () => {
+      if (!status) return;
+      const files = Array.from(fileInput.files || []);
+      status.textContent = files.length ? files.map((file) => file.name).join(', ') : emptyText;
+    });
+  });
+
+  form.addEventListener('submit', () => {
+    const selected = syncTermRequirements();
+    const missingTerm = selected.find((procedureInput) => {
+      const termInput = matchingTermInput(procedureInput);
+      return termInput && !termInput.checked;
+    });
+    if (missingTerm) openAndFocusTerm(missingTerm, true);
+  }, { capture: true });
+
+  syncTermRequirements();
+}
+
 function upsertHidden(form, name, value) {
   let input = form.querySelector(`input[type="hidden"][name="${CSS.escape(name)}"]`);
   if (!input) {
@@ -472,6 +572,7 @@ export function initForms() {
 
     const formId = form.id || `sf-form-${formIndex + 1}`;
     if (!form.id) form.id = formId;
+    setupConsentSpecificTerms(form);
     const stateNodes = qsa('[data-form-state]', form);
     const renderedStateCopy = Object.fromEntries(
       stateNodes.map((node) => [node.dataset.formState, node.textContent.trim()])

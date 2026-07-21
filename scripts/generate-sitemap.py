@@ -131,6 +131,7 @@ def source_last_modified(path: Path) -> str:
 
 def sitemap_pages(origin: str) -> list[SitemapPage]:
     page_data = load_json(PAGE_PAIRS)
+    default_language = str(page_data.get("defaultLanguage") or "en")
     raw_pages = page_data.get("pages")
     if not isinstance(raw_pages, list):
         raise RuntimeError("data/page-pairs.json must contain a pages array")
@@ -166,10 +167,11 @@ def sitemap_pages(origin: str) -> list[SitemapPage]:
         if not english_indexable:
             continue
 
+        default_url = portuguese_url if default_language == "pt-BR" else english_url
         alternates = (
             ("en", english_url),
             ("pt-BR", portuguese_url),
-            ("x-default", english_url),
+            ("x-default", default_url),
         )
         pages.append(SitemapPage(ROOT / english_path, english_url, alternates))
         pages.append(SitemapPage(ROOT / portuguese_path, portuguese_url, alternates))

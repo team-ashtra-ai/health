@@ -38,6 +38,11 @@
       "pt-BR": "cookies.html"
     },
     {
+      "id": "form",
+      "en": "en/form.html",
+      "pt-BR": "formulario.html"
+    },
+    {
       "id": "faq",
       "en": "en/faq.html",
       "pt-BR": "perguntas-frequentes.html"

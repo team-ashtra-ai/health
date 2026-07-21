@@ -1,40 +1,40 @@
 @layer tokens {
   :root {
     /* Luminous botanical primitives */
-    --ivory-50: #fffdf8;
-    --ivory-100: #faf4eb;
+    --ivory-50: #fffdf7;
+    --ivory-100: #fbf2e7;
     --white: #ffffff;
 
-    --sage-50: #f3f5ee;
-    --sage-100: #e7eddf;
-    --sage-200: #d8e1ce;
-    --olive-400: #879176;
-    --olive-600: #596750;
+    --sage-50: #f1f5ec;
+    --sage-100: #e4edda;
+    --sage-200: #d3dfc7;
+    --olive-400: #818d6f;
+    --olive-600: #52634b;
     /* The menu is the colour reference for every viewport-wide green surface.
        Bands and the footer use the translucent derivative so the shared page
        panorama can remain faintly visible beneath the same green. */
-    --menu-green: #44513d;
+    --menu-green: #3f5039;
     --menu-green-overlay: color-mix(in srgb, var(--menu-green) 92%, transparent);
     --olive-700: var(--menu-green);
-    --forest-700: #384838;
-    --forest-800: #2d3a31;
-    --forest-900: #202f27;
+    --forest-700: #334734;
+    --forest-800: #293b30;
+    --forest-900: #1d3026;
 
-    --blush-50: #fff5f1;
-    --blush-100: #f7e4de;
-    --blush-200: #eccdc4;
-    --pink-gold-300: #d59b8f;
-    --rose-gold-500: #b87265;
-    --rose-gold-600: #9d5f54;
-    --rose-gold-700: #824b43;
+    --blush-50: #fff4ef;
+    --blush-100: #f8e0d8;
+    --blush-200: #edc7bd;
+    --pink-gold-300: #d39183;
+    --rose-gold-500: #b96b5d;
+    --rose-gold-600: #9b584d;
+    --rose-gold-700: #7c453e;
 
-    --champagne-100: #f2e4cc;
-    --gold-200: #e5cea2;
-    --gold-300: #ceb074;
-    --gold-500: #a97f46;
-    --gold-700: #76552c;
+    --champagne-100: #f3e1c4;
+    --gold-200: #e8cd9c;
+    --gold-300: #d2ad69;
+    --gold-500: #ab7a38;
+    --gold-700: #735024;
 
-    --ink-700: #4f5a52;
+    --ink-700: #46554c;
 
     /* Compatibility aliases retained for authored components */
     --rose-100: var(--blush-100);
@@ -57,9 +57,9 @@
     --color-text-inverse: var(--ivory-50);
     --color-action-primary: var(--olive-700);
     --color-action-accent: var(--rose-gold-700);
-    --color-border-subtle: color-mix(in srgb, var(--olive-700) 24%, transparent);
-    --color-border-warm: color-mix(in srgb, var(--gold-500) 48%, transparent);
-    --color-border-rose: color-mix(in srgb, var(--rose-gold-600) 42%, transparent);
+    --color-border-subtle: color-mix(in srgb, var(--olive-700) 30%, transparent);
+    --color-border-warm: color-mix(in srgb, var(--gold-500) 54%, transparent);
+    --color-border-rose: color-mix(in srgb, var(--rose-gold-600) 48%, transparent);
     --color-focus: var(--gold-700);
     --color-error: #913c38;
     --color-success: #356244;
@@ -136,9 +136,9 @@
     --radius-lg: 2rem;
     --radius-xl: 3rem;
     --radius-arch: 10rem;
-    --shadow-soft: 0 1.25rem 3.75rem color-mix(in srgb, var(--olive-700) 10%, transparent);
-    --shadow-raised: 0 1.8rem 5rem color-mix(in srgb, var(--forest-900) 15%, transparent);
-    --shadow-glow: 0 1.4rem 4rem color-mix(in srgb, var(--rose-gold-500) 17%, transparent);
+    --shadow-soft: 0 1.25rem 3.75rem color-mix(in srgb, var(--olive-700) 13%, transparent);
+    --shadow-raised: 0 1.8rem 5rem color-mix(in srgb, var(--forest-900) 18%, transparent);
+    --shadow-glow: 0 1.4rem 4rem color-mix(in srgb, var(--rose-gold-500) 20%, transparent);
     --duration-instant: 100ms;
     --duration-fast: 180ms;
     --duration-standard: 280ms;
@@ -160,13 +160,13 @@
 
   @supports not (color: color-mix(in srgb, #000 50%, transparent)) {
     :root {
-      --menu-green-overlay: rgb(68 81 61 / .92);
-      --color-border-subtle: rgb(68 81 61 / .24);
-      --color-border-warm: rgb(169 127 70 / .48);
-      --color-border-rose: rgb(157 95 84 / .42);
-      --shadow-soft: 0 1.25rem 3.75rem rgb(68 81 61 / .10);
-      --shadow-raised: 0 1.8rem 5rem rgb(32 47 39 / .15);
-      --shadow-glow: 0 1.4rem 4rem rgb(184 114 101 / .17);
+      --menu-green-overlay: rgb(63 80 57 / .92);
+      --color-border-subtle: rgb(63 80 57 / .30);
+      --color-border-warm: rgb(171 122 56 / .54);
+      --color-border-rose: rgb(155 88 77 / .48);
+      --shadow-soft: 0 1.25rem 3.75rem rgb(63 80 57 / .13);
+      --shadow-raised: 0 1.8rem 5rem rgb(29 48 38 / .18);
+      --shadow-glow: 0 1.4rem 4rem rgb(185 107 93 / .20);
     }
   }
 

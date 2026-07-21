@@ -8,8 +8,9 @@
   #sf-mobile-menu-inline[data-state="open"] .sfm-panel { transform: none; opacity: 1; }
   .sfm-top { display: flex; align-items: center; justify-content: space-between; gap: .75rem; border-block-end: 1px solid var(--color-border-warm); padding-block-end: .65rem; }
   .sfm-brand { min-inline-size: 0; display: flex; align-items: center; gap: .65rem; color: var(--forest-900); text-decoration: none; }
-  .sfm-brand-mark { inline-size: 2.85rem; block-size: 2.85rem; flex: 0 0 auto; display: grid; place-items: center; border: 1px solid var(--color-border-warm); border-radius: 50%; background: color-mix(in srgb, var(--white) 52%, transparent); color: var(--gold-500); font-family: var(--font-heading); font-size: 1.4rem; font-style: italic; }
-  .sfm-brand-copy { min-inline-size: 0; display: grid; gap: .2rem; }
+  .sfm-brand-mark { inline-size: 2.85rem; block-size: 2.85rem; flex: 0 0 auto; display: grid; place-items: center; border: 1px solid var(--color-border-warm); border-radius: 50%; background: color-mix(in srgb, var(--white) 52%, transparent); overflow: hidden; }
+  .sfm-brand-mark img { display: block; inline-size: 100%; block-size: 100%; object-fit: contain; }
+  .sfm-brand-copy { min-inline-size: 0; display: grid; gap: .16rem; }
   .sfm-name { font-family: var(--font-heading); font-size: 1.45rem; font-style: italic; line-height: 1; white-space: nowrap; }
   .sfm-role { color: var(--rose-500); font-size: .6rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; white-space: nowrap; }
   .sfm-close { inline-size: 2.75rem; block-size: 2.75rem; flex: 0 0 auto; display: grid; place-items: center; border: 1px solid color-mix(in srgb, var(--gold-200) 40%, transparent); border-radius: var(--radius-md); background: linear-gradient(135deg, var(--forest-700), var(--forest-900)); color: var(--gold-200); box-shadow: 0 .65rem 1.5rem rgb(24 37 29 / .18); font-size: 1.7rem; line-height: 1; }
@@ -25,7 +26,7 @@
   .sfm-small { display: flex; flex-wrap: wrap; justify-content: center; gap: .4rem .7rem; color: var(--color-text-muted); font-size: .72rem; }
   .sfm-small a { color: inherit; text-decoration: none; }
   @media (min-width: 64rem) { #sf-mobile-menu-inline { display: none; } }
-  @media (max-width: 26.875rem) { #sf-mobile-menu-inline { align-items: stretch; justify-items: stretch; padding: .5rem; } .sfm-panel { inline-size: auto; max-block-size: calc(100dvh - 1rem); padding: .8rem; } .sfm-link { min-block-size: 2.8rem; font-size: .82rem; } .sfm-role { display: none; } }
+  @media (max-width: 26.875rem) { #sf-mobile-menu-inline { align-items: stretch; justify-items: stretch; padding: .5rem; } .sfm-panel { inline-size: auto; max-block-size: calc(100dvh - 1rem); padding: .8rem; } .sfm-link { min-block-size: 2.8rem; font-size: .82rem; } .sfm-name { font-size: 1.02rem; } .sfm-role { font-size: .4rem; letter-spacing: .02em; } }
   @media (max-width: 21.25rem) { .sfm-nav { grid-template-columns: 1fr; } }
   @media (prefers-reduced-motion: reduce) { #sf-mobile-menu-inline, #sf-mobile-menu-inline * { transition-duration: var(--duration-instant); } }
 }

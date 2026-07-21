@@ -6,21 +6,21 @@ The visual foundation is intentionally luminous. Warm ivory carries most pages; 
 
 | Token | Value | Primary use |
 |---|---|---|
-| `--ivory-50` | `#fffdf9` | brightest page and elevated surface |
-| `--ivory-100` | `#fbf6ee` | warm paper field |
-| `--sage-50` | `#f4f6ef` | soft clinical wash |
-| `--sage-100` | `#e9eee1` | botanical support section |
-| `--sage-200` | `#dbe4d1` | illuminated sage detail |
-| `--olive-400` | `#8f997d` | scrollbar and quiet visual detail |
-| `--olive-600` | `#5d6954` | lighter authority gradient |
-| `--olive-700` | `#485440` | primary authority/action colour |
-| `--forest-700/800/900` | `#3d4a3d` / `#303d33` / `#243129` | high-contrast text and hover depth |
-| `--blush-50/100/200` | `#fff6f2` / `#f8e8e2` / `#efd2ca` | human warmth and soft fields |
-| `--pink-gold-300` | `#dca69a` | illuminated CTA detail |
-| `--rose-gold-500/600/700` | `#bd796b` / `#a9675b` / `#8f574d` | rules, labels and accessible accent copy |
-| `--champagne-100` | `#f4e8d2` | luminous warm surface |
-| `--gold-200/300/500/700` | `#ead5ad` / `#d5b57e` / `#b48950` / `#896738` | borders, focus and restrained trust details |
-| `--ink-700` | `#596159` | secondary body copy |
+| `--ivory-50` | `#fffdf7` | brightest page and elevated surface |
+| `--ivory-100` | `#fbf2e7` | warm paper field |
+| `--sage-50` | `#f1f5ec` | soft clinical wash |
+| `--sage-100` | `#e4edda` | botanical support section |
+| `--sage-200` | `#d3dfc7` | illuminated sage detail |
+| `--olive-400` | `#818d6f` | scrollbar and quiet visual detail |
+| `--olive-600` | `#52634b` | lighter authority gradient |
+| `--olive-700` | `#3f5039` | primary authority/action colour |
+| `--forest-700/800/900` | `#334734` / `#293b30` / `#1d3026` | high-contrast text and hover depth |
+| `--blush-50/100/200` | `#fff4ef` / `#f8e0d8` / `#edc7bd` | human warmth and soft fields |
+| `--pink-gold-300` | `#d39183` | illuminated CTA detail |
+| `--rose-gold-500/600/700` | `#b96b5d` / `#9b584d` / `#7c453e` | rules, labels and accessible accent copy |
+| `--champagne-100` | `#f3e1c4` | luminous warm surface |
+| `--gold-200/300/500/700` | `#e8cd9c` / `#d2ad69` / `#ab7a38` / `#735024` | borders, focus and restrained trust details |
+| `--ink-700` | `#46554c` | secondary body copy |
 
 ## Semantic tones
 
