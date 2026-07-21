@@ -4,11 +4,11 @@
 
 ## Coverage
 
-- Public HTML pages parsed: 75
+- Public HTML pages parsed: 50
 - Canonical, indexable URLs in sitemap: 46
 - Images audited: 374
 - Decorative images with empty alt text: 160
-- Post-hero navigation targets: 71
+- Post-hero navigation targets: 46
 
 ## Validation summary
 

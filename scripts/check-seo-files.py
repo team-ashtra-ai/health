@@ -148,14 +148,13 @@ def validate_llms() -> int:
 
     required = {
         f"{origin}/",
-        f"{origin}/about.html",
-        f"{origin}/consultation.html",
-        f"{origin}/contact.html",
-        f"{origin}/treatments.html",
-        f"{origin}/journal.html",
-        f"{origin}/pt/",
+        f"{origin}/sobre.html",
+        f"{origin}/consulta.html",
+        f"{origin}/contato.html",
+        f"{origin}/tratamentos.html",
+        f"{origin}/blog.html",
         f"{origin}/legal.html",
-        f"{origin}/privacy.html",
+        f"{origin}/privacidade.html",
         f"{origin}/sitemap.xml",
         f"{origin}/robots.txt",
     }

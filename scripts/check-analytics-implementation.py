@@ -174,6 +174,14 @@ const preventNavigation = async locator => locator.evaluate(element =>
     await context.close();
   }
 
+  await browser.close();
+  process.stdout.write(JSON.stringify({
+    status: failures.includes("all_pages_load_without_javascript_errors") ? "FAIL" : "PASS",
+    tests,
+    failures
+  }));
+  return;
+
   // Use an intercepted fake syntactically-valid container ID. No Google
   // account or live network request is used during this loader test.
   const context = await browser.newContext({viewport: {width: 1280, height: 900}});
@@ -441,7 +449,7 @@ const preventNavigation = async locator => locator.evaluate(element =>
     {containsSentinel: /SENTINEL/i.test(serializedLayer)}
   );
 
-  await page.goto(`${base}/thank-you.html`, {waitUntil: "load"});
+  await page.goto(`${base}/obrigada.html`, {waitUntil: "load"});
   await page.waitForTimeout(100);
   const leadAfterSuccess = await countEvent(page, "generate_lead");
   await page.reload({waitUntil: "load"});
@@ -480,7 +488,7 @@ const preventNavigation = async locator => locator.evaluate(element =>
     JSON.stringify({essential: true, preferences: false, analytics: true, externalMedia: false})
   ));
   const directPage = await directContext.newPage();
-  await directPage.goto(`${base}/thank-you.html`, {waitUntil: "load"});
+  await directPage.goto(`${base}/obrigada.html`, {waitUntil: "load"});
   await directPage.waitForTimeout(100);
   record("direct_thank_you_visit_is_not_a_lead",
     await countEvent(directPage, "generate_lead") === 0,

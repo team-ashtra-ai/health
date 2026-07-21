@@ -10,8 +10,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SKIP_DIRS = {".git", "node_modules", "screenshots", "references", "reports", "__pycache__"}
-SOURCE_GLOBS = ("*.html", "journal/*.html", "pt/*.html", "css/*.css", "partials/*.html", "partials/pt-BR/*.html")
-LOCAL_PREFIXES = ("assets/", "../assets/", "css/", "../css/", "js/", "../js/")
+SOURCE_GLOBS = ("*.html", "en/*.html", "en/journal/*.html", "css/*.css", "partials/*.html", "partials/pt-BR/*.html")
+LOCAL_PREFIXES = ("/assets/", "assets/", "../assets/", "../../assets/", "css/", "../css/", "../../css/", "js/", "../js/", "../../js/")
 URL_PATTERN = re.compile(
     r"(?:src|href|content)=[\"']([^\"']+)[\"']|url\((?:[\"'])?([^\"')]+)(?:[\"'])?\)",
     re.I,
@@ -40,6 +40,8 @@ def local_refs(text: str) -> list[str]:
 
 def resolve(path: Path, value: str) -> Path:
     clean = value.split("#", 1)[0].split("?", 1)[0]
+    if clean.startswith("/assets/"):
+        return ROOT / clean.removeprefix("/")
     if path.parent.name == "partials" and clean.startswith("assets/"):
         return ROOT / clean
     if path.parent == ROOT / "partials" / "pt-BR" and clean.startswith("../assets/"):
