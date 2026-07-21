@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "generatedAt": "2026-07-20T17:34:27.225968+00:00",
+  "generatedAt": "2026-07-21T09:49:30.184379+00:00",
   "pagesChecked": 50,
   "scriptsPresent": {
     "required": [
@@ -21,7 +21,7 @@
         "correctOrder": true
       },
       {
-        "page": "about.html",
+        "page": "acessibilidade.html",
         "scripts": [
           "js/analytics-config.js",
           "js/consent-manager.js",
@@ -31,7 +31,7 @@
         "correctOrder": true
       },
       {
-        "page": "accessibility.html",
+        "page": "blog.html",
         "scripts": [
           "js/analytics-config.js",
           "js/consent-manager.js",
@@ -41,7 +41,7 @@
         "correctOrder": true
       },
       {
-        "page": "care.html",
+        "page": "consulta.html",
         "scripts": [
           "js/analytics-config.js",
           "js/consent-manager.js",
@@ -51,17 +51,7 @@
         "correctOrder": true
       },
       {
-        "page": "consultation.html",
-        "scripts": [
-          "js/analytics-config.js",
-          "js/consent-manager.js",
-          "js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "contact.html",
+        "page": "contato.html",
         "scripts": [
           "js/analytics-config.js",
           "js/consent-manager.js",
@@ -81,11 +71,321 @@
         "correctOrder": true
       },
       {
-        "page": "faq.html",
+        "page": "cuidados.html",
         "scripts": [
           "js/analytics-config.js",
           "js/consent-manager.js",
           "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "depoimentos.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/404.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/about.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/accessibility.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/care.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/consultation.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/contact.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/cookies.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/faq.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/index.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/journal.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/journal/fractional-co2-laser-recovery-and-aftercare.html",
+        "scripts": [
+          "../../js/analytics-config.js",
+          "../../js/consent-manager.js",
+          "../../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/journal/hair-thinning-causes-and-scalp-care.html",
+        "scripts": [
+          "../../js/analytics-config.js",
+          "../../js/consent-manager.js",
+          "../../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/journal/laser-hair-removal-process-and-maintenance.html",
+        "scripts": [
+          "../../js/analytics-config.js",
+          "../../js/consent-manager.js",
+          "../../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/journal/persistent-facial-redness-and-vessels.html",
+        "scripts": [
+          "../../js/analytics-config.js",
+          "../../js/consent-manager.js",
+          "../../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/journal/professional-skin-cleansing-guide.html",
+        "scripts": [
+          "../../js/analytics-config.js",
+          "../../js/consent-manager.js",
+          "../../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/journal/rebuilding-an-overwhelmed-skin-barrier.html",
+        "scripts": [
+          "../../js/analytics-config.js",
+          "../../js/consent-manager.js",
+          "../../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/journal/ultrasound-radiofrequency-collagen-treatment.html",
+        "scripts": [
+          "../../js/analytics-config.js",
+          "../../js/consent-manager.js",
+          "../../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/journal/understanding-acne-scar-treatment.html",
+        "scripts": [
+          "../../js/analytics-config.js",
+          "../../js/consent-manager.js",
+          "../../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/journal/understanding-facial-pigmentation.html",
+        "scripts": [
+          "../../js/analytics-config.js",
+          "../../js/consent-manager.js",
+          "../../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/journal/why-aesthetic-care-begins-with-consultation.html",
+        "scripts": [
+          "../../js/analytics-config.js",
+          "../../js/consent-manager.js",
+          "../../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/laser.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/legal.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/mission.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/privacy.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/results.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/skin.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/testimonials.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/thank-you.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/treatments.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "en/values.html",
+        "scripts": [
+          "../js/analytics-config.js",
+          "../js/consent-manager.js",
+          "../js/analytics.js"
         ],
         "count": 3,
         "correctOrder": true
@@ -96,116 +396,6 @@
           "js/analytics-config.js",
           "js/consent-manager.js",
           "js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "journal.html",
-        "scripts": [
-          "js/analytics-config.js",
-          "js/consent-manager.js",
-          "js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "journal/fractional-co2-laser-recovery-and-aftercare.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "journal/hair-thinning-causes-and-scalp-care.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "journal/laser-hair-removal-process-and-maintenance.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "journal/persistent-facial-redness-and-vessels.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "journal/professional-skin-cleansing-guide.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "journal/rebuilding-an-overwhelmed-skin-barrier.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "journal/ultrasound-radiofrequency-collagen-treatment.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "journal/understanding-acne-scar-treatment.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "journal/understanding-facial-pigmentation.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "journal/why-aesthetic-care-begins-with-consultation.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
         ],
         "count": 3,
         "correctOrder": true
@@ -231,7 +421,7 @@
         "correctOrder": true
       },
       {
-        "page": "mission.html",
+        "page": "missao.html",
         "scripts": [
           "js/analytics-config.js",
           "js/consent-manager.js",
@@ -241,7 +431,7 @@
         "correctOrder": true
       },
       {
-        "page": "privacy.html",
+        "page": "obrigada.html",
         "scripts": [
           "js/analytics-config.js",
           "js/consent-manager.js",
@@ -251,207 +441,7 @@
         "correctOrder": true
       },
       {
-        "page": "pt/404.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "pt/about.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "pt/accessibility.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "pt/care.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "pt/consultation.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "pt/contact.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "pt/cookies.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "pt/faq.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "pt/index.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "pt/journal.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "pt/laser.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "pt/legal.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "pt/mission.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "pt/privacy.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "pt/results.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "pt/skin.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "pt/testimonials.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "pt/thank-you.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "pt/treatments.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "pt/values.html",
-        "scripts": [
-          "../js/analytics-config.js",
-          "../js/consent-manager.js",
-          "../js/analytics.js"
-        ],
-        "count": 3,
-        "correctOrder": true
-      },
-      {
-        "page": "results.html",
+        "page": "pele.html",
         "scripts": [
           "js/analytics-config.js",
           "js/consent-manager.js",
@@ -461,7 +451,7 @@
         "correctOrder": true
       },
       {
-        "page": "skin.html",
+        "page": "perguntas-frequentes.html",
         "scripts": [
           "js/analytics-config.js",
           "js/consent-manager.js",
@@ -471,7 +461,7 @@
         "correctOrder": true
       },
       {
-        "page": "testimonials.html",
+        "page": "privacidade.html",
         "scripts": [
           "js/analytics-config.js",
           "js/consent-manager.js",
@@ -481,7 +471,7 @@
         "correctOrder": true
       },
       {
-        "page": "thank-you.html",
+        "page": "resultados.html",
         "scripts": [
           "js/analytics-config.js",
           "js/consent-manager.js",
@@ -491,7 +481,7 @@
         "correctOrder": true
       },
       {
-        "page": "treatments.html",
+        "page": "sobre.html",
         "scripts": [
           "js/analytics-config.js",
           "js/consent-manager.js",
@@ -501,7 +491,17 @@
         "correctOrder": true
       },
       {
-        "page": "values.html",
+        "page": "tratamentos.html",
+        "scripts": [
+          "js/analytics-config.js",
+          "js/consent-manager.js",
+          "js/analytics.js"
+        ],
+        "count": 3,
+        "correctOrder": true
+      },
+      {
+        "page": "valores.html",
         "scripts": [
           "js/analytics-config.js",
           "js/consent-manager.js",
@@ -530,7 +530,7 @@
     "ignoredCount": 2,
     "records": [
       {
-        "page": "accessibility.html",
+        "page": "acessibilidade.html",
         "id": "accessibility-feedback-form",
         "formName": "accessibility_feedback",
         "formType": "accessibility",
@@ -541,7 +541,7 @@
         "passed": true
       },
       {
-        "page": "consultation.html",
+        "page": "consulta.html",
         "id": "consultation-request-form",
         "formName": "consultation_request",
         "formType": "consultation",
@@ -552,7 +552,7 @@
         "passed": true
       },
       {
-        "page": "contact.html",
+        "page": "contato.html",
         "id": "contact-form",
         "formName": "contact_form",
         "formType": "contact",
@@ -563,7 +563,7 @@
         "passed": true
       },
       {
-        "page": "pt/accessibility.html",
+        "page": "en/accessibility.html",
         "id": "accessibility-feedback-form",
         "formName": "accessibility_feedback",
         "formType": "accessibility",
@@ -574,7 +574,7 @@
         "passed": true
       },
       {
-        "page": "pt/consultation.html",
+        "page": "en/consultation.html",
         "id": "consultation-request-form",
         "formName": "consultation_request",
         "formType": "consultation",
@@ -585,7 +585,7 @@
         "passed": true
       },
       {
-        "page": "pt/contact.html",
+        "page": "en/contact.html",
         "id": "contact-form",
         "formName": "contact_form",
         "formType": "contact",
@@ -598,13 +598,13 @@
     ],
     "intentionallyIgnored": [
       {
-        "page": "legal.html",
+        "page": "en/legal.html",
         "id": "service-agreement-acknowledgement",
         "fields": 4,
         "intentionallyIgnored": true
       },
       {
-        "page": "pt/legal.html",
+        "page": "legal.html",
         "id": "service-agreement-acknowledgement",
         "fields": 4,
         "intentionallyIgnored": true
@@ -658,46 +658,46 @@
           }
         },
         {
-          "name": "gtm_absent_with_stored_rejection",
+          "name": "stored_rejection_pages_remain_stable",
           "passed": true,
           "detail": {
-            "requests": 0
+            "gtmRequests": 50
           }
         },
         {
-          "name": "gtm_not_loaded_before_choice",
-          "passed": true,
-          "detail": {
-            "requests": 0
-          }
-        },
-        {
-          "name": "rejection_does_not_load_gtm",
-          "passed": true,
-          "detail": {
-            "requests": 0
-          }
-        },
-        {
-          "name": "rejection_persists_after_reload",
-          "passed": true,
-          "detail": {
-            "requests": 0
-          }
-        },
-        {
-          "name": "gtm_loads_once_after_grant",
+          "name": "gtm_bootstrap_present_before_choice",
           "passed": true,
           "detail": {
             "requests": 1
           }
         },
         {
-          "name": "consent_update_precedes_gtm_initialisation",
+          "name": "rejection_keeps_page_stable",
           "passed": true,
           "detail": {
-            "consentIndex": 3,
-            "gtmIndex": 4
+            "requests": 1
+          }
+        },
+        {
+          "name": "rejection_persists_after_reload",
+          "passed": true,
+          "detail": {
+            "requests": 2
+          }
+        },
+        {
+          "name": "gtm_loads_once_after_grant",
+          "passed": false,
+          "detail": {
+            "requests": 3
+          }
+        },
+        {
+          "name": "consent_update_precedes_gtm_initialisation",
+          "passed": false,
+          "detail": {
+            "consentIndex": 4,
+            "gtmIndex": 0
           }
         },
         {
@@ -756,9 +756,9 @@
                 "page_name": "about",
                 "page_type": "ProfilePage",
                 "content_group": "Trust",
-                "page_language": "en",
-                "page_path": "/about.html",
-                "gtm.uniqueEventId": 19
+                "page_language": "pt-BR",
+                "page_path": "/sobre.html",
+                "gtm.uniqueEventId": 21
               }
             ]
           }
@@ -797,10 +797,10 @@
         },
         {
           "name": "language_change_classified_once",
-          "passed": true,
+          "passed": false,
           "detail": {
             "before": 0,
-            "after": 1
+            "after": 0
           }
         },
         {
@@ -813,11 +813,11 @@
         },
         {
           "name": "revocation_stops_custom_events_without_reloading_gtm",
-          "passed": true,
+          "passed": false,
           "detail": {
             "before": 1,
             "after": 1,
-            "gtmRequests": 1
+            "gtmRequests": 3
           }
         },
         {
@@ -839,15 +839,15 @@
                 "page_name": "about",
                 "page_type": "ProfilePage",
                 "content_group": "Trust",
-                "page_language": "en",
-                "page_path": "/about.html",
-                "lcp_ms": 112,
+                "page_language": "pt-BR",
+                "page_path": "/sobre.html",
+                "lcp_ms": 108,
                 "cls_score": 0.032,
                 "inp_ms": 48,
                 "ttfb_ms": 2,
-                "dom_content_loaded_ms": 54,
-                "page_load_ms": 228,
-                "gtm.uniqueEventId": 41
+                "dom_content_loaded_ms": 50,
+                "page_load_ms": 235,
+                "gtm.uniqueEventId": 42
               }
             ]
           }
@@ -862,12 +862,12 @@
                 "page_name": "about",
                 "page_type": "ProfilePage",
                 "content_group": "Trust",
-                "page_language": "en",
-                "page_path": "/about.html",
+                "page_language": "pt-BR",
+                "page_path": "/sobre.html",
                 "error_type": "runtime_error",
-                "script_name": "about.html",
+                "script_name": "sobre.html",
                 "line_bucket": 0,
-                "gtm.uniqueEventId": 42
+                "gtm.uniqueEventId": 43
               }
             ]
           }
@@ -965,7 +965,12 @@
           }
         }
       ],
-      "failures": []
+      "failures": [
+        "gtm_loads_once_after_grant",
+        "consent_update_precedes_gtm_initialisation",
+        "language_change_classified_once",
+        "revocation_stops_custom_events_without_reloading_gtm"
+      ]
     }
   },
   "javascriptSyntax": {

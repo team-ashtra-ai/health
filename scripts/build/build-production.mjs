@@ -88,7 +88,7 @@ function publicHtmlFiles() {
   return walk(ROOT, (file) => {
     const rel = toPosix(relative(ROOT, file));
     return extname(file).toLowerCase() === '.html'
-      && (/^[^/]+\.html$/.test(rel) || /^(?:pt|journal)\/[^/]+\.html$/.test(rel));
+      && (/^[^/]+\.html$/.test(rel) || /^(?:en|journal)\/[^/]+\.html$/.test(rel) || /^en\/journal\/[^/]+\.html$/.test(rel));
   });
 }
 
@@ -149,9 +149,10 @@ function pagePair(pagePairs, relativePage, portuguese) {
 }
 
 async function composePartials(html, relativePage, pagePairs) {
-  const portuguese = relativePage.startsWith('pt/');
+  const declaredLanguage = html.match(/<html\b[^>]*\blang=(["'])([^"']+)\1/i)?.[2]?.toLowerCase() || '';
+  const portuguese = declaredLanguage === 'pt' || declaredLanguage === 'pt-br' || declaredLanguage.startsWith('pt-');
   const depth = relativePage.split('/').length - 1;
-  const rootPrefix = portuguese ? '' : '../'.repeat(depth);
+  const rootPrefix = '../'.repeat(depth);
   const pair = pagePair(pagePairs, relativePage, portuguese);
   const partialDirectory = resolve(ROOT, 'partials', portuguese ? 'pt-BR' : '');
   const pattern = /<template\b[^>]*data-sf-partial=(["'])([^"']+)\1[^>]*>\s*<\/template>/gi;
@@ -167,8 +168,8 @@ async function composePartials(html, relativePage, pagePairs) {
     fragment = prefixPartialPaths(fragment, rootPrefix);
     if (name === 'topbar') {
       if (!pair) throw new Error(`No language page pair found for ${relativePage}.`);
-      const englishHref = portuguese ? `../${pair.en}` : `${rootPrefix}${pair.en}`;
-      const portugueseHref = portuguese ? basename(pair['pt-BR']) : `${rootPrefix}${pair['pt-BR']}`;
+      const englishHref = `${rootPrefix}${pair.en}`;
+      const portugueseHref = `${rootPrefix}${pair['pt-BR']}`;
       fragment = setLinkHrefByLanguage(fragment, 'en', englishHref);
       fragment = setLinkHrefByLanguage(fragment, 'pt', portugueseHref);
     }

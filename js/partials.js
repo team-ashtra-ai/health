@@ -82,7 +82,6 @@ function currentPagePair(pairs, portuguese) {
 }
 
 function siteRootPrefix(portuguese) {
-  if (portuguese) return '';
   const candidate = document.body?.dataset.siteRoot || '';
   if (/^(?:\.\.\/)*$/.test(candidate)) return candidate;
   return assetPrefix();
@@ -117,9 +116,9 @@ function setLanguageLinks(fragment, pairs, portuguese, rootPrefix) {
   fragment.querySelectorAll('a[data-lang]').forEach((link) => {
     const targetLanguage = link.dataset.lang;
     if (targetLanguage === 'en') {
-      link.setAttribute('href', portuguese ? `../${pair.en}` : `${rootPrefix}${pair.en}`);
+      link.setAttribute('href', `${rootPrefix}${pair.en}`);
     } else if (targetLanguage === 'pt' || targetLanguage === 'pt-BR') {
-      link.setAttribute('href', portuguese ? pair['pt-BR'].split('/').pop() : `${rootPrefix}${pair['pt-BR']}`);
+      link.setAttribute('href', `${rootPrefix}${pair['pt-BR']}`);
     }
   });
 }

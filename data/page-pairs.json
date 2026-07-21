@@ -1,36 +1,156 @@
 {
-  "version": 1,
-  "defaultLanguage": "en",
+  "version": 2,
+  "defaultLanguage": "pt-BR",
   "pages": [
-    { "id": "home", "en": "index.html", "pt-BR": "pt/index.html" },
-    { "id": "not-found", "en": "404.html", "pt-BR": "pt/404.html" },
-    { "id": "about", "en": "about.html", "pt-BR": "pt/about.html" },
-    { "id": "accessibility", "en": "accessibility.html", "pt-BR": "pt/accessibility.html" },
-    { "id": "care", "en": "care.html", "pt-BR": "pt/care.html" },
-    { "id": "consultation", "en": "consultation.html", "pt-BR": "pt/consultation.html" },
-    { "id": "contact", "en": "contact.html", "pt-BR": "pt/contact.html" },
-    { "id": "cookies", "en": "cookies.html", "pt-BR": "pt/cookies.html" },
-    { "id": "faq", "en": "faq.html", "pt-BR": "pt/faq.html" },
-    { "id": "journal", "en": "journal.html", "pt-BR": "pt/journal.html" },
-    { "id": "journal-consultation", "en": "journal/why-aesthetic-care-begins-with-consultation.html", "pt-BR": "pt/journal.html" },
-    { "id": "journal-cleansing", "en": "journal/professional-skin-cleansing-guide.html", "pt-BR": "pt/journal.html" },
-    { "id": "journal-skin-barrier", "en": "journal/rebuilding-an-overwhelmed-skin-barrier.html", "pt-BR": "pt/journal.html" },
-    { "id": "journal-pigmentation", "en": "journal/understanding-facial-pigmentation.html", "pt-BR": "pt/journal.html" },
-    { "id": "journal-redness", "en": "journal/persistent-facial-redness-and-vessels.html", "pt-BR": "pt/journal.html" },
-    { "id": "journal-acne-scars", "en": "journal/understanding-acne-scar-treatment.html", "pt-BR": "pt/journal.html" },
-    { "id": "journal-co2-laser", "en": "journal/fractional-co2-laser-recovery-and-aftercare.html", "pt-BR": "pt/journal.html" },
-    { "id": "journal-laser-hair-removal", "en": "journal/laser-hair-removal-process-and-maintenance.html", "pt-BR": "pt/journal.html" },
-    { "id": "journal-collagen", "en": "journal/ultrasound-radiofrequency-collagen-treatment.html", "pt-BR": "pt/journal.html" },
-    { "id": "journal-hair-thinning", "en": "journal/hair-thinning-causes-and-scalp-care.html", "pt-BR": "pt/journal.html" },
-    { "id": "laser", "en": "laser.html", "pt-BR": "pt/laser.html" },
-    { "id": "legal", "en": "legal.html", "pt-BR": "pt/legal.html" },
-    { "id": "mission", "en": "mission.html", "pt-BR": "pt/mission.html" },
-    { "id": "privacy", "en": "privacy.html", "pt-BR": "pt/privacy.html" },
-    { "id": "results", "en": "results.html", "pt-BR": "pt/results.html" },
-    { "id": "skin", "en": "skin.html", "pt-BR": "pt/skin.html" },
-    { "id": "testimonials", "en": "testimonials.html", "pt-BR": "pt/testimonials.html" },
-    { "id": "thank-you", "en": "thank-you.html", "pt-BR": "pt/thank-you.html" },
-    { "id": "treatments", "en": "treatments.html", "pt-BR": "pt/treatments.html" },
-    { "id": "values", "en": "values.html", "pt-BR": "pt/values.html" }
+    {
+      "id": "home",
+      "en": "en/index.html",
+      "pt-BR": "index.html"
+    },
+    {
+      "id": "not-found",
+      "en": "en/404.html",
+      "pt-BR": "404.html"
+    },
+    {
+      "id": "about",
+      "en": "en/about.html",
+      "pt-BR": "sobre.html"
+    },
+    {
+      "id": "accessibility",
+      "en": "en/accessibility.html",
+      "pt-BR": "acessibilidade.html"
+    },
+    {
+      "id": "care",
+      "en": "en/care.html",
+      "pt-BR": "cuidados.html"
+    },
+    {
+      "id": "consultation",
+      "en": "en/consultation.html",
+      "pt-BR": "consulta.html"
+    },
+    {
+      "id": "contact",
+      "en": "en/contact.html",
+      "pt-BR": "contato.html"
+    },
+    {
+      "id": "cookies",
+      "en": "en/cookies.html",
+      "pt-BR": "cookies.html"
+    },
+    {
+      "id": "faq",
+      "en": "en/faq.html",
+      "pt-BR": "perguntas-frequentes.html"
+    },
+    {
+      "id": "journal",
+      "en": "en/journal.html",
+      "pt-BR": "blog.html"
+    },
+    {
+      "id": "laser",
+      "en": "en/laser.html",
+      "pt-BR": "laser.html"
+    },
+    {
+      "id": "legal",
+      "en": "en/legal.html",
+      "pt-BR": "legal.html"
+    },
+    {
+      "id": "mission",
+      "en": "en/mission.html",
+      "pt-BR": "missao.html"
+    },
+    {
+      "id": "privacy",
+      "en": "en/privacy.html",
+      "pt-BR": "privacidade.html"
+    },
+    {
+      "id": "results",
+      "en": "en/results.html",
+      "pt-BR": "resultados.html"
+    },
+    {
+      "id": "skin",
+      "en": "en/skin.html",
+      "pt-BR": "pele.html"
+    },
+    {
+      "id": "testimonials",
+      "en": "en/testimonials.html",
+      "pt-BR": "depoimentos.html"
+    },
+    {
+      "id": "thank-you",
+      "en": "en/thank-you.html",
+      "pt-BR": "obrigada.html"
+    },
+    {
+      "id": "treatments",
+      "en": "en/treatments.html",
+      "pt-BR": "tratamentos.html"
+    },
+    {
+      "id": "values",
+      "en": "en/values.html",
+      "pt-BR": "valores.html"
+    },
+    {
+      "id": "journal-fractional-co2-laser-recovery-and-aftercare",
+      "en": "en/journal/fractional-co2-laser-recovery-and-aftercare.html",
+      "pt-BR": "blog.html"
+    },
+    {
+      "id": "journal-hair-thinning-causes-and-scalp-care",
+      "en": "en/journal/hair-thinning-causes-and-scalp-care.html",
+      "pt-BR": "blog.html"
+    },
+    {
+      "id": "journal-laser-hair-removal-process-and-maintenance",
+      "en": "en/journal/laser-hair-removal-process-and-maintenance.html",
+      "pt-BR": "blog.html"
+    },
+    {
+      "id": "journal-persistent-facial-redness-and-vessels",
+      "en": "en/journal/persistent-facial-redness-and-vessels.html",
+      "pt-BR": "blog.html"
+    },
+    {
+      "id": "journal-professional-skin-cleansing-guide",
+      "en": "en/journal/professional-skin-cleansing-guide.html",
+      "pt-BR": "blog.html"
+    },
+    {
+      "id": "journal-rebuilding-an-overwhelmed-skin-barrier",
+      "en": "en/journal/rebuilding-an-overwhelmed-skin-barrier.html",
+      "pt-BR": "blog.html"
+    },
+    {
+      "id": "journal-ultrasound-radiofrequency-collagen-treatment",
+      "en": "en/journal/ultrasound-radiofrequency-collagen-treatment.html",
+      "pt-BR": "blog.html"
+    },
+    {
+      "id": "journal-understanding-acne-scar-treatment",
+      "en": "en/journal/understanding-acne-scar-treatment.html",
+      "pt-BR": "blog.html"
+    },
+    {
+      "id": "journal-understanding-facial-pigmentation",
+      "en": "en/journal/understanding-facial-pigmentation.html",
+      "pt-BR": "blog.html"
+    },
+    {
+      "id": "journal-why-aesthetic-care-begins-with-consultation",
+      "en": "en/journal/why-aesthetic-care-begins-with-consultation.html",
+      "pt-BR": "blog.html"
+    }
   ]
 }

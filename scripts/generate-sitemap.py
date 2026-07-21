@@ -67,8 +67,8 @@ def public_url(origin: str, relative_path: str) -> str:
     normalized = relative_path.lstrip("/")
     if normalized == "index.html":
         return f"{origin}/"
-    if normalized == "pt/index.html":
-        return f"{origin}/pt/"
+    if normalized in {"pt/index.html", "en/index.html"}:
+        return f"{origin}/{normalized.split('/', 1)[0]}/"
     return f"{origin}/{normalized}"
 
 
@@ -148,8 +148,8 @@ def sitemap_pages(origin: str) -> list[SitemapPage]:
         english_metadata = metadata(english_path, english_url)
 
         # Individual Journal articles currently have no one-to-one Portuguese
-        # translation. The shared Portuguese Journal hub is not an alternate.
-        if english_path.startswith("journal/"):
+        # translation. The shared Portuguese Blog hub is not an alternate.
+        if english_path.startswith("journal/") or english_path.startswith("en/journal/"):
             if is_indexable(english_metadata):
                 alternates = (("en", english_url), ("x-default", english_url))
                 pages.append(SitemapPage(ROOT / english_path, english_url, alternates))

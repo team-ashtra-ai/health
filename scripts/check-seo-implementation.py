@@ -21,8 +21,8 @@ REPORT = ROOT / "reports" / "validation" / "seo.md"
 SEO = json.loads((ROOT / "data" / "seo.json").read_text(encoding="utf-8"))
 ORIGIN = str(SEO["domain"]).rstrip("/")
 INDEX_ROBOTS = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
-NOINDEX = {"404.html", "pt/404.html", "thank-you.html", "pt/thank-you.html"}
-JUMP_EXEMPT = {"404.html", "pt/404.html", "index.html", "pt/index.html"}
+NOINDEX = {"404.html", "obrigada.html", "en/404.html", "en/thank-you.html"}
+JUMP_EXEMPT = {"404.html", "index.html", "en/404.html", "en/index.html"}
 FORBIDDEN_SCHEMA_KEYS = {
     "address",
     "openinghours",
@@ -59,10 +59,18 @@ TWITTER_NAMES = {
 
 
 def public_pages() -> list[Path]:
-    pages = list(ROOT.glob("*.html"))
-    pages.extend((ROOT / "pt").glob("*.html"))
-    pages.extend((ROOT / "journal").glob("*.html"))
-    return sorted(pages, key=lambda path: path.relative_to(ROOT).as_posix())
+    page_data = json.loads((ROOT / "data" / "page-pairs.json").read_text(encoding="utf-8"))
+    route_names = {
+        item[language]
+        for item in page_data.get("pages", [])
+        if isinstance(item, dict)
+        for language in ("en", "pt-BR")
+        if isinstance(item.get(language), str)
+    }
+    pages = [ROOT / route for route in route_names]
+    pages.extend(path for path in ROOT.glob("*.html") if "noindex" in path.read_text(encoding="utf-8", errors="ignore").lower())
+    pages.extend(path for path in (ROOT / "journal").glob("*.html") if "noindex" in path.read_text(encoding="utf-8", errors="ignore").lower())
+    return sorted({path for path in pages if path.exists()}, key=lambda path: path.relative_to(ROOT).as_posix())
 
 
 def relative(path: Path) -> str:
@@ -72,8 +80,8 @@ def relative(path: Path) -> str:
 def canonical(relative_path: str) -> str:
     if relative_path == "index.html":
         return f"{ORIGIN}/"
-    if relative_path == "pt/index.html":
-        return f"{ORIGIN}/pt/"
+    if relative_path == "en/index.html":
+        return f"{ORIGIN}/en/"
     return f"{ORIGIN}/{relative_path}"
 
 
@@ -118,8 +126,8 @@ def local_path_from_url(page: Path, value: str) -> Path | None:
         route = unquote(parsed.path.lstrip("/"))
         if route in {"", "index.html"}:
             return ROOT / "index.html"
-        if route in {"pt", "pt/"}:
-            return ROOT / "pt" / "index.html"
+        if route in {"en", "en/"}:
+            return ROOT / "en" / "index.html"
         return ROOT / route
     clean = unquote(value.split("#", 1)[0].split("?", 1)[0])
     if not clean:
@@ -128,9 +136,23 @@ def local_path_from_url(page: Path, value: str) -> Path | None:
 
 
 def expected_schema(relative_path: str) -> set[str]:
-    key = relative_path.removeprefix("pt/")
+    key = relative_path.removeprefix("en/")
+    slug_keys = {
+        "sobre.html": "about.html",
+        "consulta.html": "consultation.html",
+        "contato.html": "contact.html",
+        "perguntas-frequentes.html": "faq.html",
+        "blog.html": "journal.html",
+        "missao.html": "mission.html",
+        "resultados.html": "results.html",
+        "pele.html": "skin.html",
+        "depoimentos.html": "testimonials.html",
+        "tratamentos.html": "treatments.html",
+        "valores.html": "values.html",
+    }
+    key = slug_keys.get(key, key)
     common = {"WebSite", "Person", "HealthAndBeautyBusiness", "ImageObject", "BreadcrumbList"}
-    if relative_path.startswith("journal/"):
+    if relative_path.startswith("journal/") or relative_path.startswith("en/journal/"):
         return common | {"BlogPosting", "WebPage"}
     additions = {
         "about.html": {"AboutPage", "ProfilePage"},
@@ -170,6 +192,14 @@ def schema_label(types: set[str]) -> str:
 
 def main() -> int:
     pages = public_pages()
+    page_data = json.loads((ROOT / "data" / "page-pairs.json").read_text(encoding="utf-8"))
+    page_pairs = [
+        item for item in page_data.get("pages", [])
+        if isinstance(item, dict) and isinstance(item.get("en"), str) and isinstance(item.get("pt-BR"), str)
+    ]
+    portuguese_by_english = {item["en"]: item["pt-BR"] for item in page_pairs}
+    english_by_portuguese = {item["pt-BR"]: item["en"] for item in page_pairs if not item["en"].startswith("en/journal/")}
+    canonical_routes = set(portuguese_by_english) | set(english_by_portuguese)
     errors: list[str] = []
     warnings: list[str] = []
     records: list[dict[str, Any]] = []
@@ -188,9 +218,19 @@ def main() -> int:
         if not soup.html:
             errors.append(f"{scope} missing html element")
             continue
-        expected_lang = "pt-BR" if rel.startswith("pt/") else "en"
+        expected_lang = "en" if rel.startswith("en/") else "pt-BR"
         if soup.html.get("lang") != expected_lang:
             errors.append(f"{scope} html lang must be {expected_lang}")
+        robot_tags = soup.find_all("meta", attrs={"name": "robots"})
+        robot_value = str(robot_tags[0].get("content", "")) if len(robot_tags) == 1 else ""
+        is_noindex = "noindex" in robot_value.casefold()
+        if is_noindex and rel not in canonical_routes:
+            if robot_value != "noindex, follow":
+                errors.append(f"{scope} must use noindex, follow")
+            canonical_tags = soup.find_all("link", rel=lambda value: value and "canonical" in value)
+            if len(canonical_tags) != 1:
+                errors.append(f"{scope} must contain one redirect canonical")
+            continue
         if len(soup.find_all("main")) != 1:
             errors.append(f"{scope} must contain exactly one main element")
         if len(soup.find_all("h1")) != 1:
@@ -225,28 +265,36 @@ def main() -> int:
         expected_canonical = canonical(rel)
         if len(canonical_tags) != 1 or canonical_tags[0].get("href") != expected_canonical:
             errors.append(f"{scope} canonical must be {expected_canonical}")
-        robot_tags = soup.find_all("meta", attrs={"name": "robots"})
-        robot_value = str(robot_tags[0].get("content", "")) if len(robot_tags) == 1 else ""
         if rel in NOINDEX:
             if robot_value != "noindex, follow":
                 errors.append(f"{scope} must use noindex, follow")
+            records.append(
+                {
+                    "page": rel,
+                    "title_length": len(title),
+                    "description_length": len(description),
+                    "robots": robot_value,
+                    "schema": "noindex utility",
+                }
+            )
+            continue
         elif robot_value != INDEX_ROBOTS:
             errors.append(f"{scope} has incomplete index robots directives")
 
-        pair_exists = not rel.startswith("journal/")
+        pair_exists = (rel in portuguese_by_english or rel in english_by_portuguese) and not rel.startswith("en/journal/")
         alternates = {
             str(tag.get("hreflang")): str(tag.get("href"))
             for tag in soup.find_all("link", rel=lambda value: value and "alternate" in value)
             if tag.get("hreflang")
         }
-        expected_en = canonical(rel.removeprefix("pt/")) if rel.startswith("pt/") else expected_canonical
         if pair_exists:
-            expected_pt = (
-                expected_canonical
-                if rel.startswith("pt/")
-                else canonical(f"pt/{rel}")
-            )
-            expected_alternates = {"en": expected_en, "pt-BR": expected_pt, "x-default": expected_en}
+            english_route = english_by_portuguese.get(rel, rel)
+            portuguese_route = portuguese_by_english.get(rel, rel)
+            expected_alternates = {
+                "en": canonical(english_route),
+                "pt-BR": canonical(portuguese_route),
+                "x-default": canonical(portuguese_route),
+            }
         else:
             expected_alternates = {"en": expected_canonical, "x-default": expected_canonical}
         if alternates != expected_alternates:
@@ -409,7 +457,12 @@ def main() -> int:
         for node in sitemap.iter()
         if node.tag.endswith("loc")
     ]
-    indexable_urls = {canonical(relative(path)) for path in pages if relative(path) not in NOINDEX}
+    indexable_urls = {
+        canonical(relative(path))
+        for path in pages
+        if relative(path) not in NOINDEX
+        and "noindex" not in path.read_text(encoding="utf-8", errors="ignore").casefold()
+    }
     if set(sitemap_locations) != indexable_urls:
         errors.append("sitemap.xml does not exactly match canonical, indexable routes")
     if any("thank-you" in url or "/404" in url for url in sitemap_locations):
