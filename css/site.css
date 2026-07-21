@@ -1415,6 +1415,87 @@
   .sf-form-state:not([hidden]), .sf-form-status:not([hidden]) { display: grid; }
   .sf-form-state--success { border-color: color-mix(in srgb, var(--color-success) 32%, transparent); background: var(--sage-100); color: var(--color-success); }
   .sf-form-state--error { border-color: color-mix(in srgb, var(--color-error) 30%, transparent); background: var(--blush-100); color: var(--color-error); }
+
+  .sf-lead-strip__inner,
+  .sf-quick-contact__inner {
+    display: grid;
+    gap: clamp(1.5rem, 3vw, 3rem);
+  }
+
+  .sf-lead-strip__inner {
+    align-items: start;
+    grid-template-columns: minmax(17rem, .85fr) minmax(18rem, 1.15fr);
+  }
+
+  .sf-lead-strip__copy {
+    margin: 0;
+    max-inline-size: 36rem;
+  }
+
+  .sf-lead-strip__copy p:not(.sf-eyebrow),
+  .sf-quick-contact__copy p:not(.sf-eyebrow) {
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+  }
+
+  .sf-form--compact {
+    border-radius: .55rem;
+    padding: clamp(1rem, 1.5vw, 1.35rem);
+  }
+
+  .sf-lead-strip__fields {
+    display: grid;
+    align-items: end;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
+    gap: .85rem;
+  }
+
+  .sf-lead-strip__fields .sf-field,
+  .sf-quick-contact__form .sf-field {
+    gap: .35rem;
+  }
+
+  .sf-lead-strip__fields :is(input, button) {
+    min-block-size: 3.05rem;
+  }
+
+  .sf-quick-contact__inner {
+    align-items: start;
+    grid-template-columns: minmax(16rem, .7fr) minmax(18rem, 1fr);
+  }
+
+  .sf-quick-contact__copy {
+    margin: 0;
+    max-inline-size: 33rem;
+  }
+
+  .sf-quick-contact__form textarea {
+    min-block-size: 7.5rem;
+    resize: vertical;
+  }
+
+  .sf-quick-contact__form > .sf-button {
+    justify-self: start;
+  }
+
+  @media (max-width: 63.999rem) {
+    .sf-lead-strip__inner,
+    .sf-quick-contact__inner {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 47.999rem) {
+    .sf-lead-strip__fields {
+      grid-template-columns: 1fr;
+    }
+
+    .sf-lead-strip__fields .sf-button,
+    .sf-quick-contact__form > .sf-button {
+      inline-size: 100%;
+      justify-content: center;
+    }
+  }
   .sf-honeypot { position: absolute; inset-inline-start: -10000px; }
 
   .sf-search-form { grid-template-columns: minmax(0, 2fr) minmax(12rem, 1fr); align-items: end; border: 1px solid var(--color-border-warm); border-radius: var(--radius-lg); background: color-mix(in srgb, var(--white) 72%, transparent); padding: clamp(1rem, 2.5vw, 1.8rem); box-shadow: var(--shadow-soft); }

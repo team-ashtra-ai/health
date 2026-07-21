@@ -4,6 +4,8 @@ const PARTIAL_FILENAMES = Object.freeze({
   topbar: 'top-bar.html',
   header: 'header.html',
   'mobile-menu': 'mobile-menu.html',
+  'newsletter-strip': 'newsletter-strip.html',
+  'quick-contact': 'quick-contact.html',
   footer: 'footer.html',
   'cookie-banner': 'cookie-banner.html',
   'floating-widgets': 'floating-widgets.html'

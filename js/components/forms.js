@@ -1,7 +1,211 @@
 import { qs, qsa } from '../core/dom.js';
-import { loadSharedData } from '../core/data.js';
 import { currentPage } from '../core/page.js';
-import { APPROVED, state } from '../core/state.js';
+
+const FORM_ENDPOINTS = Object.freeze({
+  consultation: 'https://formspree.io/f/xvzeqgba',
+  contact: 'https://formspree.io/f/xvzjdyql',
+  quick_contact: 'https://formspree.io/f/xvzjdyql',
+  quick_question: 'https://formspree.io/f/xvzjdyql',
+  newsletter: 'https://formspree.io/f/xnjeznbg',
+  newsletter_signup: 'https://formspree.io/f/xnjeznbg'
+});
+
+const CAMPAIGN_KEYS = Object.freeze([
+  'utm_source',
+  'utm_medium',
+  'utm_campaign',
+  'utm_id',
+  'utm_content',
+  'utm_term',
+  'gclid',
+  'dclid',
+  'gbraid',
+  'wbraid',
+  'fbclid',
+  'msclkid',
+  'ttclid',
+  'twclid',
+  'li_fat_id'
+]);
+
+function isPortuguese() {
+  const language = (document.documentElement.lang || '').toLowerCase();
+  return language === 'pt' || language === 'pt-br' || language.startsWith('pt-');
+}
+
+function thankYouPath() {
+  return isPortuguese() ? 'obrigada.html' : 'en/thank-you.html';
+}
+
+function canonicalUrl() {
+  return document.querySelector('link[rel~="canonical"]')?.href || window.location.href;
+}
+
+function stableStorageValue(storage, key, factory) {
+  try {
+    const existing = storage.getItem(key);
+    if (existing) return existing;
+    const next = factory();
+    storage.setItem(key, next);
+    return next;
+  } catch {
+    return factory();
+  }
+}
+
+function randomId(prefix) {
+  const values = new Uint32Array(3);
+  window.crypto?.getRandomValues?.(values);
+  const source = values.some(Boolean) ? Array.from(values).join('-') : `${Date.now()}-${Math.random()}`;
+  return `${prefix}-${source.replace(/[^a-z0-9-]+/gi, '').toLowerCase()}`;
+}
+
+function initialLandingPage() {
+  return stableStorageValue(window.sessionStorage, 'sofiati_landing_page', () => window.location.href);
+}
+
+function sessionIdentifier() {
+  return stableStorageValue(window.sessionStorage, 'sofiati_session_id', () => randomId('session'));
+}
+
+function returningVisitor() {
+  try {
+    const key = 'sofiati_returning_visitor';
+    const returning = window.localStorage.getItem(key) === 'true';
+    window.localStorage.setItem(key, 'true');
+    return returning ? 'yes' : 'no';
+  } catch {
+    return 'unknown';
+  }
+}
+
+function parseBrowser(userAgent) {
+  const rules = [
+    ['Edge', /Edg\/([\d.]+)/],
+    ['Chrome', /Chrome\/([\d.]+)/],
+    ['Safari', /Version\/([\d.]+).*Safari/],
+    ['Firefox', /Firefox\/([\d.]+)/]
+  ];
+  const found = rules.find(([, pattern]) => pattern.test(userAgent));
+  return found ? { name: found[0], version: userAgent.match(found[1])?.[1] || '' } : { name: 'Unknown', version: '' };
+}
+
+function parseOperatingSystem(userAgent) {
+  const rules = [
+    ['Windows', /Windows NT ([\d.]+)/],
+    ['iOS', /(?:iPhone|iPad).*OS ([\d_]+)/],
+    ['Android', /Android ([\d.]+)/],
+    ['macOS', /Mac OS X ([\d_]+)/],
+    ['Linux', /Linux/]
+  ];
+  const found = rules.find(([, pattern]) => pattern.test(userAgent));
+  return found ? { name: found[0], version: (userAgent.match(found[1])?.[1] || '').replaceAll('_', '.') } : { name: 'Unknown', version: '' };
+}
+
+function deviceType() {
+  const width = window.innerWidth || document.documentElement.clientWidth || 0;
+  const touch = navigator.maxTouchPoints > 0;
+  if (touch && width < 768) return 'mobile';
+  if (touch && width < 1180) return 'tablet';
+  return 'desktop';
+}
+
+function upsertHidden(form, name, value) {
+  let input = form.querySelector(`input[type="hidden"][name="${CSS.escape(name)}"]`);
+  if (!input) {
+    input = document.createElement('input');
+    input.type = 'hidden';
+    input.name = name;
+    input.dataset.analyticsIgnore = '';
+    input.dataset.analyticsSensitive = '';
+    form.prepend(input);
+  }
+  input.value = value == null ? '' : String(value);
+  return input;
+}
+
+function formName(form) {
+  return form.dataset.formName || form.dataset.analyticsForm || form.id || 'website_form';
+}
+
+function formType(form) {
+  return form.dataset.formType || form.dataset.leadType || formName(form);
+}
+
+function endpointFor(form) {
+  const key = formType(form);
+  const name = formName(form);
+  const endpoint = FORM_ENDPOINTS[key] || FORM_ENDPOINTS[name] || form.getAttribute('action') || '';
+  return /^https:\/\/formspree\.io\/f\/[a-z0-9]+$/i.test(endpoint) ? endpoint : '';
+}
+
+function populateMetadata(form) {
+  const now = new Date();
+  const params = new URLSearchParams(window.location.search);
+  const browser = parseBrowser(navigator.userAgent || '');
+  const os = parseOperatingSystem(navigator.userAgent || '');
+  const offsetMinutes = -now.getTimezoneOffset();
+  const offsetSign = offsetMinutes >= 0 ? '+' : '-';
+  const offsetHours = String(Math.floor(Math.abs(offsetMinutes) / 60)).padStart(2, '0');
+  const offsetRemainder = String(Math.abs(offsetMinutes) % 60).padStart(2, '0');
+  const metadata = {
+    website_domain: window.location.hostname,
+    current_page_url: window.location.href,
+    current_page_filename: window.location.pathname.split('/').pop() || 'index.html',
+    current_page_title: document.title,
+    current_section: form.closest('section')?.id || form.closest('section')?.dataset.sectionName || '',
+    language_selected: document.documentElement.lang || '',
+    website_language: document.documentElement.dataset.defaultLang || document.documentElement.lang || '',
+    browser_language: navigator.language || '',
+    browser_locale: navigator.languages?.join(', ') || navigator.language || '',
+    timezone: Intl.DateTimeFormat().resolvedOptions().timeZone || '',
+    utc_offset: `${offsetSign}${offsetHours}:${offsetRemainder}`,
+    referrer: document.referrer,
+    original_landing_page: initialLandingPage(),
+    current_page_path: window.location.pathname,
+    canonical_url: canonicalUrl(),
+    marketing_source: params.get('utm_source') || '',
+    medium: params.get('utm_medium') || '',
+    campaign: params.get('utm_campaign') || '',
+    content: params.get('utm_content') || '',
+    term: params.get('utm_term') || '',
+    screen_resolution: `${window.screen?.width || ''}x${window.screen?.height || ''}`,
+    viewport_size: `${document.documentElement.clientWidth || ''}x${document.documentElement.clientHeight || ''}`,
+    window_size: `${window.innerWidth || ''}x${window.innerHeight || ''}`,
+    device_pixel_ratio: window.devicePixelRatio || '',
+    operating_system: os.name,
+    operating_system_version: os.version,
+    browser: browser.name,
+    browser_version: browser.version,
+    rendering_engine: browser.name === 'Firefox' ? 'Gecko' : browser.name === 'Safari' ? 'WebKit' : browser.name === 'Unknown' ? '' : 'Blink',
+    device_type: deviceType(),
+    touch_support: navigator.maxTouchPoints > 0 ? 'yes' : 'no',
+    color_scheme_preference: window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light',
+    reduced_motion_preference: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'reduce' : 'no-preference',
+    cookies_enabled: navigator.cookieEnabled ? 'yes' : 'no',
+    javascript_enabled: 'yes',
+    date: now.toLocaleDateString(),
+    time: now.toLocaleTimeString(),
+    timestamp: String(now.getTime()),
+    iso_timestamp: now.toISOString(),
+    user_local_time: now.toString(),
+    form_name: formName(form),
+    form_type: formType(form),
+    site_version: window.SofiatiSite?.version || '',
+    page_template: document.body?.dataset.page || currentPage(),
+    current_navigation_language: isPortuguese() ? 'pt-BR' : 'en',
+    session_identifier: sessionIdentifier(),
+    submission_identifier: randomId('submission'),
+    returning_visitor: returningVisitor()
+  };
+  CAMPAIGN_KEYS.forEach((key) => {
+    metadata[key] = params.get(key) || '';
+  });
+  Object.entries(metadata).forEach(([key, value]) => upsertHidden(form, key, value));
+  const redirect = new URL(thankYouPath(), window.location.origin);
+  upsertHidden(form, '_next', redirect.href);
+  return redirect.href;
+}
 
 export function initForms() {
   qsa('form.sf-form, form[data-enhanced-form], form[data-consultation-form]').forEach((form, formIndex) => {
@@ -144,15 +348,15 @@ export function initForms() {
       });
     };
 
-    const configureEndpoint = (data) => {
-      const endpoint = data?.forms?.endpoint || form.getAttribute('action') || '';
+    const configureEndpoint = () => {
+      const endpoint = endpointFor(form);
       if (/^https:\/\/formspree\.io\/f\/[a-z0-9]+$/i.test(endpoint)) {
         form.action = endpoint;
         return endpoint;
       }
       return '';
     };
-    if (state.sharedData) configureEndpoint(state.sharedData);
+    configureEndpoint();
 
     form.addEventListener('submit', async (event) => {
       event.preventDefault();
@@ -175,7 +379,7 @@ export function initForms() {
         return;
       }
 
-      const endpoint = configureEndpoint(state.sharedData || await loadSharedData());
+      const endpoint = configureEndpoint();
       if (!endpoint) {
         setState('error', copy.error, 'alert')?.focus({ preventScroll: true });
         emitLifecycle('error', {
@@ -188,6 +392,7 @@ export function initForms() {
       emitLifecycle('submit');
       setSubmitting(true);
       setState('loading', copy.loading);
+      const redirectUrl = populateMetadata(form);
       const payload = new FormData(form);
       if (!payload.get('_subject')) {
         payload.set('_subject', isConsultation ? 'Sofiati consultation request' : 'Sofiati website contact');
@@ -203,8 +408,8 @@ export function initForms() {
         fields.forEach(clearFieldError);
         setState('success', copy.success)?.focus({ preventScroll: true });
         emitLifecycle('success');
+        window.location.assign(redirectUrl);
       } catch (error) {
-        console.warn('[Sofiati] Form submission failed.', error);
         setState('error', copy.error, 'alert')?.focus({ preventScroll: true });
         emitLifecycle('error', {
           errorType: 'server_submission',

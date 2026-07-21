@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "generatedAt": "2026-07-21T10:12:53.551068+00:00",
+  "generatedAt": "2026-07-21T12:01:56.214089+00:00",
   "pagesChecked": 50,
   "scriptsPresent": {
     "required": [
@@ -535,8 +535,8 @@
         "formName": "accessibility_feedback",
         "formType": "accessibility",
         "leadType": null,
-        "fields": 7,
-        "sensitiveFieldsProtected": 7,
+        "fields": 8,
+        "sensitiveFieldsProtected": 8,
         "gtmAutoFormDisabled": true,
         "passed": true
       },
@@ -546,8 +546,8 @@
         "formName": "consultation_request",
         "formType": "consultation",
         "leadType": "consultation_request",
-        "fields": 35,
-        "sensitiveFieldsProtected": 35,
+        "fields": 36,
+        "sensitiveFieldsProtected": 36,
         "gtmAutoFormDisabled": true,
         "passed": true
       },
@@ -557,8 +557,8 @@
         "formName": "contact_form",
         "formType": "contact",
         "leadType": "contact_enquiry",
-        "fields": 39,
-        "sensitiveFieldsProtected": 39,
+        "fields": 40,
+        "sensitiveFieldsProtected": 40,
         "gtmAutoFormDisabled": true,
         "passed": true
       },
@@ -568,8 +568,8 @@
         "formName": "accessibility_feedback",
         "formType": "accessibility",
         "leadType": null,
-        "fields": 7,
-        "sensitiveFieldsProtected": 7,
+        "fields": 8,
+        "sensitiveFieldsProtected": 8,
         "gtmAutoFormDisabled": true,
         "passed": true
       },
@@ -579,8 +579,8 @@
         "formName": "consultation_request",
         "formType": "consultation",
         "leadType": "consultation_request",
-        "fields": 35,
-        "sensitiveFieldsProtected": 35,
+        "fields": 36,
+        "sensitiveFieldsProtected": 36,
         "gtmAutoFormDisabled": true,
         "passed": true
       },
@@ -590,8 +590,8 @@
         "formName": "contact_form",
         "formType": "contact",
         "leadType": "contact_enquiry",
-        "fields": 39,
-        "sensitiveFieldsProtected": 39,
+        "fields": 40,
+        "sensitiveFieldsProtected": 40,
         "gtmAutoFormDisabled": true,
         "passed": true
       }
@@ -661,7 +661,7 @@
           "name": "stored_rejection_pages_remain_stable",
           "passed": true,
           "detail": {
-            "gtmRequests": 50
+            "gtmRequests": 51
           }
         }
       ],
