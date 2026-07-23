@@ -1,0 +1,345 @@
+/* Compact, reading-first composition for the bilingual Cookie Policy.
+   This file intentionally loads after site.css so the policy can opt out of
+   the immersive marketing-page spacing without changing shared layouts. */
+
+.sf-page[data-page="cookies"] {
+  --cookie-rule: color-mix(in srgb, var(--olive-700) 22%, transparent);
+  --cookie-panel: color-mix(in srgb, var(--white) 78%, transparent);
+  background:
+    radial-gradient(circle at 92% 18%, color-mix(in srgb, var(--sage-200) 38%, transparent), transparent 28rem),
+    var(--color-bg-page);
+}
+
+.sf-page[data-page="cookies"] [data-pattern="hero"] {
+  min-block-size: clamp(38rem, 52vw, 49rem);
+  padding-block: clamp(7.5rem, 9vw, 9.5rem) clamp(2.5rem, 4vw, 4rem);
+  border-radius: 0 0 var(--radius-xl) var(--radius-xl);
+  background-image:
+    linear-gradient(90deg,
+      color-mix(in srgb, var(--ivory-50) 96%, transparent) 0%,
+      color-mix(in srgb, var(--ivory-50) 88%, transparent) 38%,
+      color-mix(in srgb, var(--ivory-50) 28%, transparent) 69%,
+      transparent 100%),
+    var(--hero-scene-image);
+  box-shadow: 0 1.5rem 4rem color-mix(in srgb, var(--olive-700) 10%, transparent);
+}
+
+.sf-page[data-page="cookies"] [data-pattern="hero"] .sf-hero-layout {
+  min-block-size: clamp(26rem, 37vw, 36rem);
+  align-items: center;
+}
+
+.sf-page[data-page="cookies"] [data-pattern="hero"] .sf-hero-copy {
+  align-self: center;
+  max-inline-size: 40rem;
+  padding-block-end: 0;
+}
+
+.sf-page[data-page="cookies"] [data-pattern="hero"] .sf-hero-logo {
+  inline-size: clamp(3.75rem, 6vw, 5.5rem);
+  block-size: auto;
+  margin-block-end: .8rem;
+}
+
+.sf-page[data-page="cookies"] [data-pattern="hero"] .sf-hero-copy h1 {
+  max-inline-size: 11ch;
+  font-size: clamp(3.1rem, 5vw, 5.5rem);
+  line-height: .96;
+}
+
+.sf-page[data-page="cookies"] [data-pattern="hero"] .sf-lede {
+  max-inline-size: 56ch;
+  margin-block-start: 1.2rem;
+  font-size: clamp(1.04rem, 1.1vw, 1.2rem);
+  line-height: 1.62;
+}
+
+.sf-page[data-page="cookies"] [data-pattern="hero"] .sf-hero-copy > p:not(.sf-eyebrow, .sf-lede) {
+  margin-block-start: .8rem;
+  color: var(--color-text-secondary);
+  font-size: .9rem;
+}
+
+.sf-page[data-page="cookies"] .skip-past-hero { margin-block: .7rem; }
+
+/* The legal sections share one compact editorial rail. */
+.sf-page[data-page="cookies"] .sf-main > .sf-section:not([data-pattern="hero"]):not([data-pattern="final-cta"]) {
+  padding-block: clamp(2.75rem, 4.2vw, 4.25rem);
+}
+
+.sf-page[data-page="cookies"] .sf-main > .sf-section:not([data-pattern="hero"]):not([data-pattern="final-cta"])::after {
+  content: "";
+  position: absolute;
+  inset-inline: max(var(--page-gutter), calc((100% - var(--container-wide)) / 2));
+  inset-block-end: 0;
+  block-size: 1px;
+  background: linear-gradient(90deg, transparent, var(--cookie-rule) 10%, var(--cookie-rule) 90%, transparent);
+}
+
+.sf-page[data-page="cookies"] .sf-main > .sf-section:not([data-pattern="hero"]):not([data-pattern="final-cta"]) > .sf-section-inner {
+  max-inline-size: min(78rem, calc(100% - 2 * var(--page-gutter)));
+  display: grid;
+  grid-template-columns: minmax(13rem, .38fr) minmax(0, 1fr);
+  column-gap: clamp(2.5rem, 6vw, 6.5rem);
+  row-gap: 1.25rem;
+  align-items: start;
+}
+
+.sf-page[data-page="cookies"] .sf-main > .sf-section:not([data-pattern="hero"]):not([data-pattern="final-cta"]) .sf-section-head {
+  max-inline-size: none;
+  margin: 0;
+  padding-block-start: .15rem;
+}
+
+.sf-page[data-page="cookies"] .sf-main > .sf-section:not([data-pattern="hero"]):not([data-pattern="final-cta"]) .sf-section-head .sf-eyebrow {
+  margin-block-end: .7rem;
+  color: var(--rose-gold-700);
+  font-size: .76rem;
+  letter-spacing: .08em;
+}
+
+.sf-page[data-page="cookies"] .sf-main > .sf-section:not([data-pattern="hero"]):not([data-pattern="final-cta"]) .sf-section-head .sf-eyebrow::before {
+  inline-size: 1rem;
+}
+
+.sf-page[data-page="cookies"] .sf-main > .sf-section:not([data-pattern="hero"]):not([data-pattern="final-cta"]) .sf-section-head h2 {
+  max-inline-size: 15ch;
+  font-size: clamp(1.8rem, 2.45vw, 2.65rem);
+  letter-spacing: -.035em;
+  line-height: 1.05;
+}
+
+.sf-page[data-page="cookies"] .sf-editorial-copy,
+.sf-page[data-page="cookies"] .sf-section-inner > .sf-content-card-grid {
+  grid-column: 2;
+  min-inline-size: 0;
+}
+
+.sf-page[data-page="cookies"] .sf-editorial-copy > :is(p, ul, ol, dl),
+.sf-page[data-page="cookies"] .sf-section-inner > p {
+  max-inline-size: 70ch;
+  color: var(--color-text-secondary);
+  font-size: 1rem;
+  line-height: 1.68;
+}
+
+.sf-page[data-page="cookies"] .sf-editorial-copy p + p { margin-block-start: 1rem; }
+
+/* Categories become an efficient reference grid rather than four tall cards. */
+.sf-page[data-page="cookies"] .sf-content-card-grid[data-card-count="4"] {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+  overflow: hidden;
+  border: 1px solid var(--color-border-warm);
+  border-radius: var(--radius-lg);
+  background: var(--cookie-panel);
+  box-shadow: 0 1rem 2.5rem color-mix(in srgb, var(--olive-700) 7%, transparent);
+}
+
+.sf-page[data-page="cookies"] .sf-content-card-grid[data-card-count="4"] .sf-content-card {
+  min-block-size: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  padding: clamp(1.25rem, 2.3vw, 2rem);
+}
+
+.sf-page[data-page="cookies"] .sf-content-card-grid[data-card-count="4"] .sf-content-card:nth-child(even) {
+  border-inline-start: 1px solid var(--cookie-rule);
+}
+
+.sf-page[data-page="cookies"] .sf-content-card-grid[data-card-count="4"] .sf-content-card:nth-child(n + 3) {
+  border-block-start: 1px solid var(--cookie-rule);
+}
+
+.sf-page[data-page="cookies"] .sf-content-card-grid[data-card-count="4"] h3 {
+  font-family: var(--font-body);
+  font-size: 1.08rem;
+  font-weight: 700;
+  letter-spacing: -.01em;
+  line-height: 1.25;
+}
+
+.sf-page[data-page="cookies"] .sf-content-card-grid[data-card-count="4"] p {
+  margin-block-start: .6rem;
+  color: var(--color-text-secondary);
+  font-size: .92rem;
+  line-height: 1.58;
+}
+
+.sf-page[data-page="cookies"] .sf-section-inner > .sf-content-card-grid + p {
+  grid-column: 2;
+  margin-block-start: 1rem;
+  border-inline-start: 2px solid var(--gold-500);
+  padding-inline-start: 1rem;
+  font-size: .9rem;
+}
+
+/* Keep the technical table useful without letting it dictate the page rhythm. */
+.sf-page[data-page="cookies"] .sf-policy-table-wrap {
+  max-inline-size: 100%;
+  border: 1px solid var(--color-border-warm);
+  border-radius: var(--radius-md);
+  background: var(--cookie-panel);
+  box-shadow: 0 .8rem 2rem color-mix(in srgb, var(--olive-700) 6%, transparent);
+}
+
+.sf-page[data-page="cookies"] .sf-policy-table {
+  border: 0;
+  background: transparent;
+}
+
+.sf-page[data-page="cookies"] .sf-policy-table caption {
+  padding: 1rem 1rem .75rem;
+  font-size: .88rem;
+}
+
+.sf-page[data-page="cookies"] .sf-policy-table :is(th, td) {
+  padding: .85rem 1rem;
+  font-size: .84rem;
+  line-height: 1.5;
+}
+
+.sf-page[data-page="cookies"] .sf-policy-table-wrap > p {
+  max-inline-size: none;
+  margin: 0;
+  border-block-start: 1px solid var(--cookie-rule);
+  padding: 1rem;
+  font-size: .86rem;
+  line-height: 1.55;
+}
+
+/* Preference controls become a deliberate, compact control panel. */
+.sf-page[data-page="cookies"] .sf-cookie-page-settings {
+  grid-column: 2;
+  inline-size: 100%;
+  max-inline-size: none;
+  margin-block-start: 1.5rem;
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(circle at 100% 0, color-mix(in srgb, var(--gold-200) 28%, transparent), transparent 18rem),
+    rgb(255 253 249 / .9);
+  padding: clamp(1.25rem, 2.6vw, 2rem);
+  box-shadow: 0 1rem 2.5rem color-mix(in srgb, var(--olive-700) 8%, transparent);
+}
+
+.sf-page[data-page="cookies"] .sf-cookie-page-settings fieldset {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+  margin-block-end: 1.25rem;
+}
+
+.sf-page[data-page="cookies"] .sf-cookie-page-settings legend {
+  inline-size: 100%;
+  margin-block-end: .8rem;
+  font-family: var(--font-heading);
+  font-size: 1.55rem;
+  line-height: 1.1;
+}
+
+.sf-page[data-page="cookies"] .sf-cookie-page-settings label {
+  min-block-size: 5.25rem;
+  margin: 0;
+  padding: 1rem;
+  border: 0;
+  border-block-start: 1px solid var(--cookie-rule);
+}
+
+.sf-page[data-page="cookies"] .sf-cookie-page-settings label:nth-of-type(even) {
+  border-inline-start: 1px solid var(--cookie-rule);
+}
+
+.sf-page[data-page="cookies"] .sf-cookie-page-settings label span {
+  color: var(--color-text-secondary);
+  font-size: .9rem;
+  line-height: 1.45;
+}
+
+.sf-page[data-page="cookies"] .sf-cookie-page-settings label strong {
+  color: var(--forest-900);
+  font-size: .98rem;
+}
+
+.sf-page[data-page="cookies"] .sf-cookie-page-settings .sf-button-row {
+  margin-block-start: 0;
+}
+
+.sf-page[data-page="cookies"] [data-pattern="final-cta"] {
+  padding-block: clamp(3rem, 5vw, 5rem);
+}
+
+.sf-page[data-page="cookies"] [data-pattern="final-cta"] .sf-bottom-cta__inner {
+  max-inline-size: min(62rem, calc(100% - 2 * var(--page-gutter)));
+  padding: clamp(2rem, 4vw, 3.5rem);
+}
+
+.sf-page[data-page="cookies"] [data-pattern="final-cta"] .sf-section-head {
+  margin-block-end: 1rem;
+}
+
+.sf-page[data-page="cookies"] [data-pattern="final-cta"] :is(h2, h3) {
+  font-size: clamp(2.2rem, 4vw, 4rem);
+}
+
+@media (max-width: 63.999rem) {
+  .sf-page[data-page="cookies"] [data-pattern="hero"] {
+    min-block-size: 40rem;
+    background-position: var(--hero-scene-position-medium);
+  }
+}
+
+@media (max-width: 47.999rem) {
+  .sf-page[data-page="cookies"] [data-pattern="hero"] {
+    inline-size: 100%;
+    min-block-size: 35rem;
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+    padding-block: 7rem 2.5rem;
+    background-image:
+      linear-gradient(180deg,
+        color-mix(in srgb, var(--ivory-50) 96%, transparent) 0%,
+        color-mix(in srgb, var(--ivory-50) 86%, transparent) 59%,
+        color-mix(in srgb, var(--ivory-50) 52%, transparent) 100%),
+      var(--hero-scene-image);
+    background-position: var(--hero-scene-position-narrow);
+  }
+
+  .sf-page[data-page="cookies"] [data-pattern="hero"] .sf-hero-layout { min-block-size: 25rem; }
+  .sf-page[data-page="cookies"] [data-pattern="hero"] .sf-hero-copy h1 { font-size: clamp(2.8rem, 12vw, 3.8rem); }
+  .sf-page[data-page="cookies"] [data-pattern="hero"] .sf-hero-logo { inline-size: 3.5rem; }
+
+  .sf-page[data-page="cookies"] .sf-main > .sf-section:not([data-pattern="hero"]):not([data-pattern="final-cta"]) {
+    padding-block: 2.5rem;
+  }
+
+  .sf-page[data-page="cookies"] .sf-main > .sf-section:not([data-pattern="hero"]):not([data-pattern="final-cta"]) > .sf-section-inner {
+    grid-template-columns: 1fr;
+    row-gap: 1.35rem;
+  }
+
+  .sf-page[data-page="cookies"] .sf-editorial-copy,
+  .sf-page[data-page="cookies"] .sf-section-inner > .sf-content-card-grid,
+  .sf-page[data-page="cookies"] .sf-section-inner > .sf-content-card-grid + p,
+  .sf-page[data-page="cookies"] .sf-section-inner > .sf-cookie-page-settings {
+    grid-column: 1;
+  }
+
+  .sf-page[data-page="cookies"] .sf-main > .sf-section:not([data-pattern="hero"]):not([data-pattern="final-cta"]) .sf-section-head h2 {
+    max-inline-size: 20ch;
+    font-size: clamp(1.8rem, 8.5vw, 2.35rem);
+  }
+
+  .sf-page[data-page="cookies"] .sf-cookie-page-settings fieldset { grid-template-columns: 1fr; }
+  .sf-page[data-page="cookies"] .sf-cookie-page-settings label:nth-of-type(even) { border-inline-start: 0; }
+}
+
+@media (max-width: 35.999rem) {
+  .sf-page[data-page="cookies"] .sf-content-card-grid[data-card-count="4"] { grid-template-columns: 1fr; }
+  .sf-page[data-page="cookies"] .sf-content-card-grid[data-card-count="4"] .sf-content-card:nth-child(n) {
+    border-inline-start: 0;
+  }
+  .sf-page[data-page="cookies"] .sf-content-card-grid[data-card-count="4"] .sf-content-card + .sf-content-card {
+    border-block-start: 1px solid var(--cookie-rule);
+  }
+  .sf-page[data-page="cookies"] .sf-cookie-page-settings .sf-button-row { display: grid; }
+  .sf-page[data-page="cookies"] .sf-cookie-page-settings .sf-button { inline-size: 100%; }
+}
